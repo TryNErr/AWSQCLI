@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:5.0
+    container_name: testace-mongodb-local
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_DATABASE: testace
+    volumes:
+      - mongodb_local_data:/data/db
+      - ./mongo-init:/docker-entrypoint-initdb.d
+    networks:
+      - testace-local-network
+
+volumes:
+  mongodb_local_data:
+
+networks:
+  testace-local-network:
+    driver: bridge
