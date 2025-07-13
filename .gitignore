@@ -1,0 +1,23 @@
+# Large files that exceed GitHub limits
+amazon-q.deb
+*.deb
+
+# Node modules
+node_modules/
+*/node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/

@@ -114,6 +114,10 @@ mongo-data/
 package-lock.json
 yarn.lock
 
+# Large files that exceed GitHub limits
+*.deb
+amazon-q.deb
+
 # Test files (keeping them for now but can be excluded if needed)
 # test-*.js
 # test-*.html
