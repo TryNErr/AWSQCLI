@@ -56,9 +56,11 @@ export const SocketProvider: React.FC<SocketProviderProps> = ({ children }) => {
           auth: {
             token
           },
-          transports: ['websocket', 'polling'], // Allow fallback to polling
+          transports: ['polling', 'websocket'], // Prioritize polling for Gitpod
           timeout: 20000, // 20 second timeout
-          forceNew: true // Force new connection
+          forceNew: true, // Force new connection
+          upgrade: true, // Allow upgrade to websocket if available
+          rememberUpgrade: false // Don't remember the upgrade for next time
         });
 
         newSocket.on('connect', () => {
