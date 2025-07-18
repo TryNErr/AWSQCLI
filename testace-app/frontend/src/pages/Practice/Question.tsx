@@ -18,8 +18,9 @@ import {
   Chip
 } from '@mui/material';
 import { ArrowBack, Check, Close } from '@mui/icons-material';
-import { Question as QuestionType, DifficultyLevel } from '../../types';
+import { Question as QuestionType } from '../../types';
 import { questionData } from './questionData';
+import { markQuestionAnswered, isQuestionAnswered } from '../../services/userProgressService';
 
 const QuestionPage: React.FC = () => {
   const { id } = useParams<{ id: string }>();
@@ -46,6 +47,14 @@ const QuestionPage: React.FC = () => {
           const foundQuestion = questionData.find(q => q._id === id);
           if (foundQuestion) {
             setQuestion(foundQuestion);
+            
+            // Check if the question has already been answered
+            if (isQuestionAnswered(foundQuestion._id)) {
+              // If already answered, automatically go to the next question
+              setTimeout(() => {
+                handleNextQuestion();
+              }, 500);
+            }
           } else {
             setError('Question not found');
           }
@@ -73,6 +82,14 @@ const QuestionPage: React.FC = () => {
     const correct = selectedAnswer === question.correctAnswer;
     setIsCorrect(correct);
     setSubmitted(true);
+    
+    // Mark question as answered in user progress
+    markQuestionAnswered(question._id, correct);
+    
+    // Automatically proceed to the next question after a delay
+    setTimeout(() => {
+      handleNextQuestion();
+    }, 3000); // 3 seconds delay
   };
 
   const handleNextQuestion = () => {

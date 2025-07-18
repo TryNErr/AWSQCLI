@@ -16,6 +16,7 @@ import {
   SelectChangeEvent,
   CircularProgress
 } from '@mui/material';
+import { Add, AutoAwesome } from '@mui/icons-material';
 import { useNavigate } from 'react-router-dom';
 import { Question, DifficultyLevel } from '../../types';
 import { questionData } from './questionData'; // We'll create this file next
@@ -106,48 +107,70 @@ const Practice: React.FC = () => {
           Practice Questions
         </Typography>
         
-        <Box sx={{ mb: 4, display: 'flex', gap: 2, flexWrap: 'wrap' }}>
-          <FormControl sx={{ minWidth: 200 }}>
-            <InputLabel>Subject</InputLabel>
-            <Select
-              value={selectedSubject}
-              label="Subject"
-              onChange={handleSubjectChange}
-            >
-              <MenuItem value="">All Subjects</MenuItem>
-              {availableSubjects.map(subject => (
-                <MenuItem key={subject} value={subject}>{subject}</MenuItem>
-              ))}
-            </Select>
-          </FormControl>
+        <Box sx={{ mb: 4, display: 'flex', gap: 2, flexWrap: 'wrap', justifyContent: 'space-between' }}>
+          <Box sx={{ display: 'flex', gap: 2, flexWrap: 'wrap' }}>
+            <FormControl sx={{ minWidth: 200 }}>
+              <InputLabel>Subject</InputLabel>
+              <Select
+                value={selectedSubject}
+                label="Subject"
+                onChange={handleSubjectChange}
+              >
+                <MenuItem value="">All Subjects</MenuItem>
+                {availableSubjects.map(subject => (
+                  <MenuItem key={subject} value={subject}>{subject}</MenuItem>
+                ))}
+              </Select>
+            </FormControl>
+            
+            <FormControl sx={{ minWidth: 200 }}>
+              <InputLabel>Grade</InputLabel>
+              <Select
+                value={selectedGrade}
+                label="Grade"
+                onChange={handleGradeChange}
+              >
+                <MenuItem value="">All Grades</MenuItem>
+                {availableGrades.map(grade => (
+                  <MenuItem key={grade} value={grade}>Grade {grade}</MenuItem>
+                ))}
+              </Select>
+            </FormControl>
+            
+            <FormControl sx={{ minWidth: 200 }}>
+              <InputLabel>Difficulty</InputLabel>
+              <Select
+                value={selectedDifficulty}
+                label="Difficulty"
+                onChange={handleDifficultyChange}
+              >
+                <MenuItem value="">All Levels</MenuItem>
+                <MenuItem value="easy">Easy</MenuItem>
+                <MenuItem value="medium">Medium</MenuItem>
+                <MenuItem value="hard">Hard</MenuItem>
+              </Select>
+            </FormControl>
+          </Box>
           
-          <FormControl sx={{ minWidth: 200 }}>
-            <InputLabel>Grade</InputLabel>
-            <Select
-              value={selectedGrade}
-              label="Grade"
-              onChange={handleGradeChange}
+          <Box sx={{ display: 'flex', gap: 2 }}>
+            <Button 
+              variant="contained" 
+              color="secondary"
+              onClick={() => navigate('/practice/math-generator')}
+              startIcon={<AutoAwesome />}
             >
-              <MenuItem value="">All Grades</MenuItem>
-              {availableGrades.map(grade => (
-                <MenuItem key={grade} value={grade}>Grade {grade}</MenuItem>
-              ))}
-            </Select>
-          </FormControl>
-          
-          <FormControl sx={{ minWidth: 200 }}>
-            <InputLabel>Difficulty</InputLabel>
-            <Select
-              value={selectedDifficulty}
-              label="Difficulty"
-              onChange={handleDifficultyChange}
+              Auto-Generate Math
+            </Button>
+            
+            <Button 
+              variant="contained" 
+              color="primary"
+              onClick={() => navigate('/practice/add')}
+              startIcon={<Add />}
             >
-              <MenuItem value="">All Levels</MenuItem>
-              <MenuItem value="easy">Easy</MenuItem>
-              <MenuItem value="medium">Medium</MenuItem>
-              <MenuItem value="hard">Hard</MenuItem>
-            </Select>
-          </FormControl>
+              Add Question
+            </Button>
+          </Box>
         </Box>
 
         {loading ? (
