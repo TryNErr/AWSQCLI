@@ -6,7 +6,8 @@ The Practice Questions section has been further improved with the following enha
 
 1. **Auto-Generation of Math Questions**:
    - Added a dedicated "Auto-Generate Math" button on the Practice page
-   - Users can generate 20 questions for any grade level (1-12) and difficulty
+   - Questions default to the user's current grade level
+   - Users can adjust grade level up or down with convenient controls
    - Questions are dynamically created based on grade-appropriate math concepts
    - Includes a variety of question types: arithmetic, fractions, algebra, geometry
 
@@ -20,6 +21,12 @@ The Practice Questions section has been further improved with the following enha
    - Questions that have been answered don't appear again
    - Progress is persisted across sessions using localStorage
    - Session scores are recorded for future reference
+
+4. **User Grade Level Awareness**:
+   - System automatically detects and remembers the user's grade level
+   - Question difficulty adapts to the user's grade
+   - Users can easily move up or down grade levels to find appropriate challenges
+   - Grade level preference is saved for future sessions
 
 ## Math Question Types by Grade Level
 
@@ -51,12 +58,14 @@ The auto-generator creates grade-appropriate questions:
 
 1. Navigate to the Practice page
 2. Click the "Auto-Generate Math" button
-3. Select a grade level (1-12) and difficulty (Easy, Medium, Hard)
-4. Click "Generate Questions"
-5. Answer the questions as they appear
-6. Notice how questions automatically advance after you submit an answer
-7. See your score update in real-time
-8. When all questions are answered, view your final score
+3. Notice that the grade level is automatically set to your current grade
+4. Use the up/down arrows to adjust the grade level if desired
+5. Select a difficulty (Easy, Medium, Hard)
+6. Click "Generate Questions"
+7. Answer the questions as they appear
+8. Notice how questions automatically advance after you submit an answer
+9. See your score update in real-time
+10. When all questions are answered, view your final score
 
 ### Testing User Progress Tracking
 
@@ -74,12 +83,17 @@ The auto-generator creates grade-appropriate questions:
    - Added difficulty scaling within each grade level
    - Ensured all questions have correct answers and explanations
 
-2. **User Progress Tracking**:
+2. **User Context Management**:
+   - Implemented a service to track user grade level
+   - Used localStorage for persistence across sessions
+   - Added grade adjustment controls for easy navigation
+
+3. **User Progress Tracking**:
    - Implemented a service to track answered questions
    - Used localStorage for persistence across sessions
    - Added session scoring to track performance over time
 
-3. **Automatic Progression**:
+4. **Automatic Progression**:
    - Added timers to automatically advance to the next question
    - Implemented logic to skip already answered questions
    - Created a smooth user experience with appropriate delays

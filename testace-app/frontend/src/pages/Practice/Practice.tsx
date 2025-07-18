@@ -14,17 +14,25 @@ import {
   Select,
   MenuItem,
   SelectChangeEvent,
-  CircularProgress
+  CircularProgress,
+  Badge
 } from '@mui/material';
-import { Add, AutoAwesome } from '@mui/icons-material';
+import { Add, AutoAwesome, History, NewReleases } from '@mui/icons-material';
 import { useNavigate } from 'react-router-dom';
 import { Question, DifficultyLevel } from '../../types';
-import { questionData } from './questionData'; // We'll create this file next
+import { questionData } from './questionData';
+import { getUserGrade } from '../../services/userContextService';
+import { getAnsweredQuestionIds } from '../../services/userProgressService';
+import { generateMathQuestions } from '../../utils/mathQuestionGenerator';
 
 const Practice: React.FC = () => {
   const [questions, setQuestions] = useState<Question[]>([]);
   const [selectedSubject, setSelectedSubject] = useState('');
-  const [selectedGrade, setSelectedGrade] = useState('');
+  const [selectedGrade, setSelectedGrade] = useState(() => {
+    // Ensure we get a valid string value for the grade
+    const grade = getUserGrade();
+    return typeof grade === 'string' ? grade : String(grade);
+  });
   const [selectedDifficulty, setSelectedDifficulty] = useState('');
   const [loading, setLoading] = useState(true);
   const [availableSubjects, setAvailableSubjects] = useState<string[]>([]);
@@ -54,6 +62,9 @@ const Practice: React.FC = () => {
   const filterQuestions = () => {
     setLoading(true);
     
+    // Get answered question IDs
+    const answeredQuestionIds = getAnsweredQuestionIds();
+    
     // Apply filters
     let filteredQuestions = [...questionData];
     
@@ -74,8 +85,43 @@ const Practice: React.FC = () => {
       });
     }
     
+    // Filter out answered questions
+    const unansweredQuestions = filteredQuestions.filter(q => !answeredQuestionIds.includes(q._id));
+    
+    // If we have fewer than 10 unanswered questions, generate new ones
+    let finalQuestions = [...unansweredQuestions];
+    let generatedQuestions: Question[] = [];
+    
+    if (unansweredQuestions.length < 10) {
+      // Determine how many questions to generate
+      const questionsToGenerate = 10 - unansweredQuestions.length;
+      
+      // Determine difficulty level for generated questions
+      let difficultyLevel = DifficultyLevel.MEDIUM;
+      if (selectedDifficulty === 'easy') difficultyLevel = DifficultyLevel.EASY;
+      if (selectedDifficulty === 'medium') difficultyLevel = DifficultyLevel.MEDIUM;
+      if (selectedDifficulty === 'hard') difficultyLevel = DifficultyLevel.HARD;
+      
+      // Only generate math questions for now
+      if (!selectedSubject || selectedSubject === 'Math') {
+        generatedQuestions = generateMathQuestions(
+          selectedGrade || getUserGrade(),
+          difficultyLevel,
+          questionsToGenerate
+        );
+        
+        // Mark generated questions
+        generatedQuestions = generatedQuestions.map(q => ({
+          ...q,
+          isGenerated: true // Add a flag to identify generated questions
+        }));
+        
+        finalQuestions = [...unansweredQuestions, ...generatedQuestions];
+      }
+    }
+    
     // Limit to 10 questions for display
-    const limitedQuestions = filteredQuestions.slice(0, 10);
+    const limitedQuestions = finalQuestions.slice(0, 10);
     setQuestions(limitedQuestions);
     setLoading(false);
   };
@@ -85,7 +131,8 @@ const Practice: React.FC = () => {
   };
 
   const handleGradeChange = (event: SelectChangeEvent) => {
-    setSelectedGrade(event.target.value);
+    const newGrade = String(event.target.value);
+    setSelectedGrade(newGrade);
   };
 
   const handleDifficultyChange = (event: SelectChangeEvent) => {
@@ -170,6 +217,15 @@ const Practice: React.FC = () => {
             >
               Add Question
             </Button>
+            
+            <Button 
+              variant="outlined" 
+              color="info"
+              onClick={() => navigate('/practice/history')}
+              startIcon={<History />}
+            >
+              Question History
+            </Button>
           </Box>
         </Box>
 
@@ -184,9 +240,20 @@ const Practice: React.FC = () => {
                 <Grid item xs={12} md={6} key={question._id}>
                   <Card>
                     <CardContent>
-                      <Typography variant="h6" gutterBottom>
-                        {question.content}
-                      </Typography>
+                      <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
+                        <Typography variant="h6" gutterBottom>
+                          {question.content}
+                        </Typography>
+                        {(question as any).isGenerated && (
+                          <Chip 
+                            icon={<NewReleases fontSize="small" />}
+                            label="New" 
+                            color="success" 
+                            size="small"
+                            sx={{ ml: 1 }}
+                          />
+                        )}
+                      </Box>
                       <Box sx={{ mb: 2, display: 'flex', flexWrap: 'wrap', gap: 1 }}>
                         <Chip 
                           label={question.subject} 
@@ -229,6 +296,20 @@ const Practice: React.FC = () => {
                 <Typography variant="h6" color="text.secondary">
                   No questions found for the selected filters.
                 </Typography>
+                {selectedSubject !== 'Math' && (
+                  <Typography variant="body1" color="text.secondary" sx={{ mt: 2 }}>
+                    Try selecting Math as the subject to get auto-generated questions.
+                  </Typography>
+                )}
+                <Button
+                  variant="contained"
+                  color="primary"
+                  onClick={() => navigate('/practice/add')}
+                  startIcon={<Add />}
+                  sx={{ mt: 2 }}
+                >
+                  Add a New Question
+                </Button>
               </Box>
             )}
           </>

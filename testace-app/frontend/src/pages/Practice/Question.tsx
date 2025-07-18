@@ -17,10 +17,11 @@ import {
   Divider,
   Chip
 } from '@mui/material';
-import { ArrowBack, Check, Close } from '@mui/icons-material';
+import { ArrowBack, Check, Close, History } from '@mui/icons-material';
 import { Question as QuestionType } from '../../types';
 import { questionData } from './questionData';
 import { markQuestionAnswered, isQuestionAnswered } from '../../services/userProgressService';
+import { recordQuestionAttempt } from '../../services/questionHistoryService';
 
 const QuestionPage: React.FC = () => {
   const { id } = useParams<{ id: string }>();
@@ -85,6 +86,9 @@ const QuestionPage: React.FC = () => {
     
     // Mark question as answered in user progress
     markQuestionAnswered(question._id, correct);
+    
+    // Record the question attempt in history
+    recordQuestionAttempt(question, selectedAnswer, correct);
     
     // Automatically proceed to the next question after a delay
     setTimeout(() => {

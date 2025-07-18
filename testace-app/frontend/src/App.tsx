@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { CssBaseline, Box } from '@mui/material';
@@ -9,6 +9,7 @@ import { AuthProvider, useAuth } from './contexts/AuthContext';
 import { SocketProvider } from './contexts/SocketContext';
 import Navbar from './components/Layout/Navbar';
 import Sidebar from './components/Layout/Sidebar';
+import { initializeUserContext } from './services/userContextService';
 
 // Pages
 import Login from './pages/Auth/Login';
@@ -18,6 +19,7 @@ import Practice from './pages/Practice/Practice';
 import Question from './pages/Practice/Question';
 import AddQuestion from './pages/Practice/AddQuestion';
 import MathQuestionGenerator from './pages/Practice/MathQuestionGenerator';
+import QuestionHistory from './pages/Practice/QuestionHistory';
 import TimedTest from './pages/Practice/TimedTest';
 import DailyChallenge from './pages/Practice/DailyChallenge';
 import Analytics from './pages/Analytics/Analytics';
@@ -138,6 +140,11 @@ const MainLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
 };
 
 function App() {
+  // Initialize user context when the app starts
+  useEffect(() => {
+    initializeUserContext();
+  }, []);
+
   return (
     <QueryClientProvider client={queryClient}>
       <ThemeProvider theme={theme}>
@@ -176,6 +183,7 @@ function App() {
                           <Route path="/practice/question/:id" element={<Question />} />
                           <Route path="/practice/add" element={<AddQuestion />} />
                           <Route path="/practice/math-generator" element={<MathQuestionGenerator />} />
+                          <Route path="/practice/history" element={<QuestionHistory />} />
                           <Route path="/timed-test" element={<TimedTest />} />
                           <Route path="/daily-challenge" element={<DailyChallenge />} />
                           <Route path="/analytics" element={<Analytics />} />

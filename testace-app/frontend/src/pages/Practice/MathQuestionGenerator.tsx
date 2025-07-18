@@ -22,15 +22,21 @@ import {
   SelectChangeEvent,
   CircularProgress
 } from '@mui/material';
-import { ArrowBack, Check, Close } from '@mui/icons-material';
+import { ArrowBack, Check, Close, ArrowUpward, ArrowDownward, History } from '@mui/icons-material';
 import { useNavigate } from 'react-router-dom';
 import { Question, DifficultyLevel } from '../../types';
 import { generateMathQuestions } from '../../utils/mathQuestionGenerator';
 import { markQuestionAnswered, recordMathSessionScore } from '../../services/userProgressService';
+import { getUserGrade, updateUserGrade } from '../../services/userContextService';
+import { recordQuestionAttempt } from '../../services/questionHistoryService';
 
 const MathQuestionGenerator: React.FC = () => {
   const navigate = useNavigate();
-  const [selectedGrade, setSelectedGrade] = useState<string>('');
+  const [selectedGrade, setSelectedGrade] = useState<string>(() => {
+    // Ensure we get a valid string value for the grade
+    const grade = getUserGrade();
+    return typeof grade === 'string' ? grade : String(grade);
+  });
   const [selectedDifficulty, setSelectedDifficulty] = useState<DifficultyLevel>(DifficultyLevel.MEDIUM);
   const [questions, setQuestions] = useState<Question[]>([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -73,8 +79,30 @@ const MathQuestionGenerator: React.FC = () => {
   };
 
   const handleGradeChange = (event: SelectChangeEvent) => {
-    setSelectedGrade(event.target.value);
+    const newGrade = String(event.target.value);
+    setSelectedGrade(newGrade);
+    updateUserGrade(newGrade); // Update the user's grade in the context
     setSessionStarted(false);
+  };
+
+  const handleGradeUp = () => {
+    const currentGrade = parseInt(selectedGrade);
+    if (currentGrade < 12) {
+      const newGrade = (currentGrade + 1).toString();
+      setSelectedGrade(newGrade);
+      updateUserGrade(newGrade);
+      setSessionStarted(false);
+    }
+  };
+
+  const handleGradeDown = () => {
+    const currentGrade = parseInt(selectedGrade);
+    if (currentGrade > 1) {
+      const newGrade = (currentGrade - 1).toString();
+      setSelectedGrade(newGrade);
+      updateUserGrade(newGrade);
+      setSessionStarted(false);
+    }
   };
 
   const handleDifficultyChange = (event: SelectChangeEvent) => {
@@ -105,6 +133,9 @@ const MathQuestionGenerator: React.FC = () => {
       
       // Mark question as answered in user progress
       markQuestionAnswered(currentQuestion._id, correct);
+      
+      // Record the question attempt in history
+      recordQuestionAttempt(currentQuestion, selectedAnswer, correct);
       
       // Mark question as answered in local state
       setAnsweredQuestions(prev => new Set(prev).add(currentQuestion._id));
@@ -165,9 +196,18 @@ const MathQuestionGenerator: React.FC = () => {
         <Button
           startIcon={<ArrowBack />}
           onClick={() => navigate('/practice')}
-          sx={{ mb: 2 }}
+          sx={{ mb: 2, mr: 2 }}
         >
           Back to Practice
+        </Button>
+        
+        <Button
+          startIcon={<History />}
+          onClick={() => navigate('/practice/history')}
+          sx={{ mb: 2 }}
+          color="secondary"
+        >
+          View Question History
         </Button>
 
         <Typography variant="h4" component="h1" gutterBottom>
@@ -181,23 +221,43 @@ const MathQuestionGenerator: React.FC = () => {
                 Generate Math Questions
               </Typography>
               <Typography variant="body1" paragraph>
-                Select a grade level and difficulty to generate 20 math questions. Questions will automatically progress as you answer them.
+                Questions are set to your current grade level (Grade {selectedGrade}). You can adjust the grade level up or down using the controls.
               </Typography>
 
               <Grid container spacing={3}>
                 <Grid item xs={12} sm={6}>
-                  <FormControl fullWidth>
-                    <InputLabel>Grade</InputLabel>
-                    <Select
-                      value={selectedGrade}
-                      label="Grade"
-                      onChange={handleGradeChange}
-                    >
-                      {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map(grade => (
-                        <MenuItem key={grade} value={grade.toString()}>Grade {grade}</MenuItem>
-                      ))}
-                    </Select>
-                  </FormControl>
+                  <Box sx={{ display: 'flex', alignItems: 'center' }}>
+                    <FormControl fullWidth>
+                      <InputLabel>Grade</InputLabel>
+                      <Select
+                        value={selectedGrade}
+                        label="Grade"
+                        onChange={handleGradeChange}
+                      >
+                        {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map(grade => (
+                          <MenuItem key={grade} value={grade.toString()}>Grade {grade}</MenuItem>
+                        ))}
+                      </Select>
+                    </FormControl>
+                    <Box sx={{ ml: 1, display: 'flex', flexDirection: 'column' }}>
+                      <Button 
+                        size="small" 
+                        onClick={handleGradeUp}
+                        disabled={parseInt(selectedGrade) >= 12}
+                        sx={{ minWidth: 'auto', p: 0.5 }}
+                      >
+                        <ArrowUpward fontSize="small" />
+                      </Button>
+                      <Button 
+                        size="small" 
+                        onClick={handleGradeDown}
+                        disabled={parseInt(selectedGrade) <= 1}
+                        sx={{ minWidth: 'auto', p: 0.5 }}
+                      >
+                        <ArrowDownward fontSize="small" />
+                      </Button>
+                    </Box>
+                  </Box>
                 </Grid>
 
                 <Grid item xs={12} sm={6}>
