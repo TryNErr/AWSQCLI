@@ -19,38 +19,7 @@ import {
 } from '@mui/material';
 import { ArrowBack, Check, Close } from '@mui/icons-material';
 import { Question as QuestionType, DifficultyLevel } from '../../types';
-
-// Mock questions for when API fails
-const MOCK_QUESTIONS: Record<string, QuestionType> = {
-  '1': {
-    _id: '1',
-    content: 'What is 2 + 2?',
-    type: 'multiple_choice' as any,
-    options: ['3', '4', '5', '6'],
-    correctAnswer: '4',
-    explanation: '2 + 2 equals 4',
-    subject: 'Math',
-    difficulty: DifficultyLevel.EASY,
-    tags: ['arithmetic'],
-    createdBy: 'system',
-    createdAt: new Date(),
-    updatedAt: new Date()
-  },
-  '2': {
-    _id: '2',
-    content: 'What is the capital of France?',
-    type: 'multiple_choice' as any,
-    options: ['London', 'Berlin', 'Paris', 'Madrid'],
-    correctAnswer: 'Paris',
-    explanation: 'Paris is the capital city of France',
-    subject: 'Geography',
-    difficulty: DifficultyLevel.EASY,
-    tags: ['capitals', 'europe'],
-    createdBy: 'system',
-    createdAt: new Date(),
-    updatedAt: new Date()
-  }
-};
+import { questionData } from './questionData';
 
 const QuestionPage: React.FC = () => {
   const { id } = useParams<{ id: string }>();
@@ -72,11 +41,16 @@ const QuestionPage: React.FC = () => {
         // const response = await api.get(`/api/questions/${id}`);
         // setQuestion(response.data);
         
-        // For now, use mock data
-        if (id && MOCK_QUESTIONS[id]) {
-          setQuestion(MOCK_QUESTIONS[id]);
+        // For now, use our local question data
+        if (id) {
+          const foundQuestion = questionData.find(q => q._id === id);
+          if (foundQuestion) {
+            setQuestion(foundQuestion);
+          } else {
+            setError('Question not found');
+          }
         } else {
-          setError('Question not found');
+          setError('Invalid question ID');
         }
       } catch (err) {
         console.error('Error fetching question:', err);
@@ -102,8 +76,31 @@ const QuestionPage: React.FC = () => {
   };
 
   const handleNextQuestion = () => {
-    // In a real app, you would navigate to the next question
-    // For now, just go back to practice
+    // Find the next question in the same subject and grade
+    if (question) {
+      const currentIndex = questionData.findIndex(q => q._id === question._id);
+      if (currentIndex !== -1) {
+        // Filter questions with the same subject and grade
+        const similarQuestions = questionData.filter(
+          q => q.subject === question.subject && 
+               q.grade === question.grade && 
+               q._id !== question._id
+        );
+        
+        if (similarQuestions.length > 0) {
+          // Pick a random question from the filtered list
+          const randomIndex = Math.floor(Math.random() * similarQuestions.length);
+          navigate(`/practice/question/${similarQuestions[randomIndex]._id}`);
+          // Reset state for the new question
+          setSelectedAnswer('');
+          setSubmitted(false);
+          setIsCorrect(false);
+          return;
+        }
+      }
+    }
+    
+    // If no similar question found or any error, go back to practice
     navigate('/practice');
   };
 
@@ -147,9 +144,15 @@ const QuestionPage: React.FC = () => {
 
         <Card sx={{ mb: 4 }}>
           <CardContent>
-            <Box sx={{ display: 'flex', gap: 1, mb: 2 }}>
+            <Box sx={{ display: 'flex', gap: 1, mb: 2, flexWrap: 'wrap' }}>
               <Chip label={question.subject} color="primary" size="small" />
+              {question.grade && (
+                <Chip label={`Grade ${question.grade}`} color="info" size="small" />
+              )}
               <Chip label={question.difficulty} color="secondary" size="small" />
+              {question.tags && question.tags.map((tag, index) => (
+                <Chip key={index} label={tag} variant="outlined" size="small" />
+              ))}
             </Box>
 
             <Typography variant="h5" gutterBottom>
@@ -212,7 +215,7 @@ const QuestionPage: React.FC = () => {
                   <Typography variant="h6" gutterBottom>
                     Explanation
                   </Typography>
-                  <Typography variant="body1">
+                  <Typography variant="body1" sx={{ whiteSpace: 'pre-line' }}>
                     {question.explanation}
                   </Typography>
                 </Paper>

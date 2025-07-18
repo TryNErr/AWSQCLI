@@ -12,62 +12,83 @@ import {
   FormControl,
   InputLabel,
   Select,
-  MenuItem
+  MenuItem,
+  SelectChangeEvent,
+  CircularProgress
 } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import { Question, DifficultyLevel } from '../../types';
+import { questionData } from './questionData'; // We'll create this file next
 
 const Practice: React.FC = () => {
   const [questions, setQuestions] = useState<Question[]>([]);
   const [selectedSubject, setSelectedSubject] = useState('');
+  const [selectedGrade, setSelectedGrade] = useState('');
   const [selectedDifficulty, setSelectedDifficulty] = useState('');
   const [loading, setLoading] = useState(true);
+  const [availableSubjects, setAvailableSubjects] = useState<string[]>([]);
+  const [availableGrades, setAvailableGrades] = useState<string[]>([]);
   const navigate = useNavigate();
 
+  // Extract unique subjects and grades on component mount
   useEffect(() => {
-    fetchQuestions();
-  }, [selectedSubject, selectedDifficulty]);
+    const subjectSet = new Set(questionData.map(q => q.subject));
+    const gradeSet = new Set(questionData.map(q => (q as any).grade || ''));
+    
+    const subjects = Array.from(subjectSet);
+    const grades = Array.from(gradeSet).filter(Boolean);
+    
+    setAvailableSubjects(subjects);
+    setAvailableGrades(grades);
+    
+    // Initial load of questions
+    filterQuestions();
+  }, []);
 
-  const fetchQuestions = async () => {
-    try {
-      setLoading(true);
-      // Mock data for now
-      const mockQuestions: Question[] = [
-        {
-          _id: '1',
-          content: 'What is 2 + 2?',
-          type: 'multiple_choice' as any,
-          options: ['3', '4', '5', '6'],
-          correctAnswer: '4',
-          explanation: '2 + 2 equals 4',
-          subject: 'Math',
-          difficulty: DifficultyLevel.EASY,
-          tags: ['arithmetic'],
-          createdBy: 'system',
-          createdAt: new Date(),
-          updatedAt: new Date()
-        },
-        {
-          _id: '2',
-          content: 'What is the capital of France?',
-          type: 'multiple_choice' as any,
-          options: ['London', 'Berlin', 'Paris', 'Madrid'],
-          correctAnswer: 'Paris',
-          explanation: 'Paris is the capital city of France',
-          subject: 'Geography',
-          difficulty: DifficultyLevel.EASY,
-          tags: ['capitals', 'europe'],
-          createdBy: 'system',
-          createdAt: new Date(),
-          updatedAt: new Date()
-        }
-      ];
-      setQuestions(mockQuestions);
-    } catch (error) {
-      console.error('Error fetching questions:', error);
-    } finally {
-      setLoading(false);
+  // Filter questions when selections change
+  useEffect(() => {
+    filterQuestions();
+  }, [selectedSubject, selectedGrade, selectedDifficulty]);
+
+  const filterQuestions = () => {
+    setLoading(true);
+    
+    // Apply filters
+    let filteredQuestions = [...questionData];
+    
+    if (selectedSubject) {
+      filteredQuestions = filteredQuestions.filter(q => q.subject === selectedSubject);
     }
+    
+    if (selectedGrade) {
+      filteredQuestions = filteredQuestions.filter(q => q.grade === selectedGrade);
+    }
+    
+    if (selectedDifficulty) {
+      filteredQuestions = filteredQuestions.filter(q => {
+        if (selectedDifficulty === 'easy') return q.difficulty === DifficultyLevel.EASY;
+        if (selectedDifficulty === 'medium') return q.difficulty === DifficultyLevel.MEDIUM;
+        if (selectedDifficulty === 'hard') return q.difficulty === DifficultyLevel.HARD;
+        return true;
+      });
+    }
+    
+    // Limit to 10 questions for display
+    const limitedQuestions = filteredQuestions.slice(0, 10);
+    setQuestions(limitedQuestions);
+    setLoading(false);
+  };
+
+  const handleSubjectChange = (event: SelectChangeEvent) => {
+    setSelectedSubject(event.target.value);
+  };
+
+  const handleGradeChange = (event: SelectChangeEvent) => {
+    setSelectedGrade(event.target.value);
+  };
+
+  const handleDifficultyChange = (event: SelectChangeEvent) => {
+    setSelectedDifficulty(event.target.value);
   };
 
   const startPractice = (questionId?: string) => {
@@ -85,19 +106,32 @@ const Practice: React.FC = () => {
           Practice Questions
         </Typography>
         
-        <Box sx={{ mb: 4, display: 'flex', gap: 2 }}>
+        <Box sx={{ mb: 4, display: 'flex', gap: 2, flexWrap: 'wrap' }}>
           <FormControl sx={{ minWidth: 200 }}>
             <InputLabel>Subject</InputLabel>
             <Select
               value={selectedSubject}
               label="Subject"
-              onChange={(e) => setSelectedSubject(e.target.value)}
+              onChange={handleSubjectChange}
             >
               <MenuItem value="">All Subjects</MenuItem>
-              <MenuItem value="Math">Math</MenuItem>
-              <MenuItem value="Science">Science</MenuItem>
-              <MenuItem value="Geography">Geography</MenuItem>
-              <MenuItem value="History">History</MenuItem>
+              {availableSubjects.map(subject => (
+                <MenuItem key={subject} value={subject}>{subject}</MenuItem>
+              ))}
+            </Select>
+          </FormControl>
+          
+          <FormControl sx={{ minWidth: 200 }}>
+            <InputLabel>Grade</InputLabel>
+            <Select
+              value={selectedGrade}
+              label="Grade"
+              onChange={handleGradeChange}
+            >
+              <MenuItem value="">All Grades</MenuItem>
+              {availableGrades.map(grade => (
+                <MenuItem key={grade} value={grade}>Grade {grade}</MenuItem>
+              ))}
             </Select>
           </FormControl>
           
@@ -106,7 +140,7 @@ const Practice: React.FC = () => {
             <Select
               value={selectedDifficulty}
               label="Difficulty"
-              onChange={(e) => setSelectedDifficulty(e.target.value)}
+              onChange={handleDifficultyChange}
             >
               <MenuItem value="">All Levels</MenuItem>
               <MenuItem value="easy">Easy</MenuItem>
@@ -116,51 +150,65 @@ const Practice: React.FC = () => {
           </FormControl>
         </Box>
 
-        <Grid container spacing={3}>
-          {questions.map((question) => (
-            <Grid item xs={12} md={6} key={question._id}>
-              <Card>
-                <CardContent>
-                  <Typography variant="h6" gutterBottom>
-                    {question.content}
-                  </Typography>
-                  <Box sx={{ mb: 2 }}>
-                    <Chip 
-                      label={question.subject} 
-                      color="primary" 
-                      size="small" 
-                      sx={{ mr: 1 }}
-                    />
-                    <Chip 
-                      label={question.difficulty} 
-                      color="secondary" 
-                      size="small"
-                    />
-                  </Box>
-                  <Typography variant="body2" color="text.secondary">
-                    Type: {question.type.replace('_', ' ')}
-                  </Typography>
-                </CardContent>
-                <CardActions>
-                  <Button 
-                    size="small" 
-                    variant="contained"
-                    onClick={() => startPractice(question._id)}
-                  >
-                    Practice This
-                  </Button>
-                </CardActions>
-              </Card>
-            </Grid>
-          ))}
-        </Grid>
-
-        {questions.length === 0 && !loading && (
-          <Box textAlign="center" sx={{ mt: 4 }}>
-            <Typography variant="h6" color="text.secondary">
-              No questions found for the selected filters.
-            </Typography>
+        {loading ? (
+          <Box sx={{ display: 'flex', justifyContent: 'center', my: 4 }}>
+            <CircularProgress />
           </Box>
+        ) : (
+          <>
+            <Grid container spacing={3}>
+              {questions.map((question) => (
+                <Grid item xs={12} md={6} key={question._id}>
+                  <Card>
+                    <CardContent>
+                      <Typography variant="h6" gutterBottom>
+                        {question.content}
+                      </Typography>
+                      <Box sx={{ mb: 2, display: 'flex', flexWrap: 'wrap', gap: 1 }}>
+                        <Chip 
+                          label={question.subject} 
+                          color="primary" 
+                          size="small"
+                        />
+                        {question.grade && (
+                          <Chip 
+                            label={`Grade ${question.grade}`} 
+                            color="info" 
+                            size="small"
+                          />
+                        )}
+                        <Chip 
+                          label={question.difficulty} 
+                          color="secondary" 
+                          size="small"
+                        />
+                      </Box>
+                      <Typography variant="body2" color="text.secondary">
+                        Type: {question.type.replace('_', ' ')}
+                      </Typography>
+                    </CardContent>
+                    <CardActions>
+                      <Button 
+                        size="small" 
+                        variant="contained"
+                        onClick={() => startPractice(question._id)}
+                      >
+                        Practice This
+                      </Button>
+                    </CardActions>
+                  </Card>
+                </Grid>
+              ))}
+            </Grid>
+
+            {questions.length === 0 && (
+              <Box textAlign="center" sx={{ mt: 4 }}>
+                <Typography variant="h6" color="text.secondary">
+                  No questions found for the selected filters.
+                </Typography>
+              </Box>
+            )}
+          </>
         )}
       </Box>
     </Container>

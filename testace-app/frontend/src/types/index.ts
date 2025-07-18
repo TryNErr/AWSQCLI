@@ -52,6 +52,7 @@ export interface Question {
   subject: string;
   difficulty: DifficultyLevel;
   tags: string[];
+  grade?: string;
   createdBy: string;
   createdAt: Date;
   updatedAt: Date;
