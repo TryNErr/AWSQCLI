@@ -1,7 +1,8 @@
 import React, { createContext, useContext, useEffect, useState, ReactNode } from 'react';
-import { io, Socket } from 'socket.io-client';
+import { Socket } from 'socket.io-client';
 import { useAuth } from './AuthContext';
 import toast from 'react-hot-toast';
+import socketService from '../services/socketService';
 
 interface SocketContextType {
   socket: Socket | null;
@@ -11,6 +12,7 @@ interface SocketContextType {
   startLivePractice: (options: LivePracticeOptions) => void;
   submitLiveAnswer: (data: LiveAnswerData) => void;
   joinDailyChallenge: () => void;
+  reconnect: () => void;
 }
 
 interface LivePracticeOptions {
@@ -45,140 +47,160 @@ export const SocketProvider: React.FC<SocketProviderProps> = ({ children }) => {
   const [connected, setConnected] = useState(false);
   const { user } = useAuth();
 
-  useEffect(() => {
+  const setupSocketListeners = (socket: Socket) => {
+    socket.on('connect', () => {
+      console.log('Connected to server with socket ID:', socket.id);
+      setConnected(true);
+      toast.success('Connected to server', { id: 'socket-connected' });
+    });
+
+    socket.on('disconnect', (reason) => {
+      console.log('Disconnected from server:', reason);
+      setConnected(false);
+      
+      if (reason === 'io server disconnect') {
+        // Server disconnected us, try to reconnect
+        setTimeout(() => {
+          reconnect();
+        }, 2000);
+      }
+    });
+
+    socket.on('connect_error', (error) => {
+      console.error('Socket.IO connection error:', error);
+      setConnected(false);
+      // Don't show toast for every connection error to avoid spam
+      toast.error('Connection error. Some features may not work.', { id: 'socket-error' });
+    });
+
+    // Live practice events
+    socket.on('session-started', (data) => {
+      console.log('Live practice session started:', data);
+      // Handle session start in components
+    });
+
+    socket.on('answer-result', (data) => {
+      console.log('Answer result:', data);
+      // Handle answer result in components
+    });
+
+    socket.on('next-question', (data) => {
+      console.log('Next question:', data);
+      // Handle next question in components
+    });
+
+    socket.on('session-completed', (data) => {
+      console.log('Session completed:', data);
+      toast.success(`Session completed! Score: ${data.score}%`);
+    });
+
+    // Daily challenge events
+    socket.on('daily-challenge-started', (data) => {
+      console.log('Daily challenge started:', data);
+      toast.success('Daily challenge started!');
+    });
+
+    socket.on('daily-challenge-status', (data) => {
+      console.log('Daily challenge status:', data);
+      if (data.message) {
+        toast.success(data.message);
+      }
+    });
+
+    // Leaderboard events
+    socket.on('leaderboard-update', (data) => {
+      console.log('Leaderboard update:', data);
+      // Handle leaderboard updates in components
+    });
+
+    // Error handling
+    socket.on('error', (data) => {
+      console.error('Socket error:', data);
+      toast.error(data.message || 'An error occurred');
+    });
+
+    // Connected confirmation from server
+    socket.on('connected', (data) => {
+      console.log('Server confirmed connection:', data);
+      toast.success(`Connected as ${data.socketId}`, { id: 'socket-confirmed' });
+    });
+  };
+
+  const initializeSocket = () => {
     if (user) {
-      const token = localStorage.getItem('token');
-      if (token) {
-        const serverUrl = process.env.REACT_APP_SERVER_URL || 'http://localhost:5000';
-        console.log('Connecting to Socket.IO server:', serverUrl);
+      try {
+        console.log('Initializing socket connection...');
+        const newSocket = socketService.connect();
         
-        const newSocket = io(serverUrl, {
-          auth: {
-            token
-          },
-          transports: ['polling', 'websocket'], // Prioritize polling for Gitpod
-          timeout: 20000, // 20 second timeout
-          forceNew: true, // Force new connection
-          upgrade: true, // Allow upgrade to websocket if available
-          rememberUpgrade: false // Don't remember the upgrade for next time
-        });
-
-        newSocket.on('connect', () => {
-          console.log('Connected to server');
-          setConnected(true);
-        });
-
-        newSocket.on('disconnect', () => {
-          console.log('Disconnected from server');
-          setConnected(false);
-        });
-
-        newSocket.on('connect_error', (error) => {
-          console.error('Socket.IO connection error:', error);
-          setConnected(false);
-          // Don't show toast for every connection error to avoid spam
-          if (error.message && !error.message.includes('timeout')) {
-            toast.error('Connection error. Some features may not work.');
-          }
-        });
-
-        // Live practice events
-        newSocket.on('session-started', (data) => {
-          console.log('Live practice session started:', data);
-          // Handle session start in components
-        });
-
-        newSocket.on('answer-result', (data) => {
-          console.log('Answer result:', data);
-          // Handle answer result in components
-        });
-
-        newSocket.on('next-question', (data) => {
-          console.log('Next question:', data);
-          // Handle next question in components
-        });
-
-        newSocket.on('session-completed', (data) => {
-          console.log('Session completed:', data);
-          toast.success(`Session completed! Score: ${data.score}%`);
-        });
-
-        // Daily challenge events
-        newSocket.on('daily-challenge-started', (data) => {
-          console.log('Daily challenge started:', data);
-          toast.success('Daily challenge started!');
-        });
-
-        newSocket.on('daily-challenge-status', (data) => {
-          console.log('Daily challenge status:', data);
-          if (data.message) {
-            toast.success(data.message);
-          }
-        });
-
-        // Leaderboard events
-        newSocket.on('leaderboard-update', (data) => {
-          console.log('Leaderboard update:', data);
-          // Handle leaderboard updates in components
-        });
-
-        // Error handling
-        newSocket.on('error', (data) => {
-          console.error('Socket error:', data);
-          toast.error(data.message || 'An error occurred');
-        });
-
-        // Social features
-        newSocket.on('user-joined-practice', (data) => {
-          console.log('User joined practice:', data);
-          // Could show notification that someone joined
-        });
-
-        newSocket.on('user-left-practice', (data) => {
-          console.log('User left practice:', data);
-        });
-
-        newSocket.on('challenge-participant-joined', (data) => {
-          console.log('Challenge participant joined:', data);
-          // Could show live participant count
-        });
-
-        setSocket(newSocket);
-
-        return () => {
-          newSocket.close();
-        };
+        if (newSocket) {
+          setSocket(newSocket);
+          setupSocketListeners(newSocket);
+        }
+      } catch (error) {
+        console.error('Failed to initialize socket:', error);
+        toast.error('Failed to connect to server. Some features may not work.');
       }
     }
+  };
+
+  const reconnect = () => {
+    console.log('Attempting to reconnect socket...');
+    socketService.disconnect();
+    setTimeout(() => {
+      initializeSocket();
+    }, 1000);
+  };
+
+  useEffect(() => {
+    if (user) {
+      initializeSocket();
+    }
+
+    return () => {
+      socketService.disconnect();
+    };
   }, [user]);
 
   const joinPracticeRoom = (subject?: string, difficulty?: string) => {
-    if (socket) {
+    if (socket && socket.connected) {
       socket.emit('join-practice-room', { subject, difficulty });
+    } else {
+      console.warn('Socket not connected, cannot join practice room');
+      reconnect();
     }
   };
 
   const leavePracticeRoom = (subject?: string, difficulty?: string) => {
-    if (socket) {
+    if (socket && socket.connected) {
       socket.emit('leave-practice-room', { subject, difficulty });
     }
   };
 
   const startLivePractice = (options: LivePracticeOptions) => {
-    if (socket) {
+    if (socket && socket.connected) {
       socket.emit('start-live-practice', options);
+    } else {
+      console.warn('Socket not connected, cannot start live practice');
+      toast.error('Connection issue. Please try again.');
+      reconnect();
     }
   };
 
   const submitLiveAnswer = (data: LiveAnswerData) => {
-    if (socket) {
+    if (socket && socket.connected) {
       socket.emit('submit-live-answer', data);
+    } else {
+      console.warn('Socket not connected, cannot submit answer');
+      reconnect();
     }
   };
 
   const joinDailyChallenge = () => {
-    if (socket) {
+    if (socket && socket.connected) {
       socket.emit('join-daily-challenge');
+    } else {
+      console.warn('Socket not connected, cannot join daily challenge');
+      reconnect();
     }
   };
 
@@ -190,6 +212,7 @@ export const SocketProvider: React.FC<SocketProviderProps> = ({ children }) => {
     startLivePractice,
     submitLiveAnswer,
     joinDailyChallenge,
+    reconnect,
   };
 
   return (

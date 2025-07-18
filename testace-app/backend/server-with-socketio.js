@@ -174,6 +174,68 @@ app.get('/api/questions', (req, res) => {
   });
 });
 
+// Dashboard data endpoint
+app.get('/api/users/dashboard', (req, res) => {
+  res.json({
+    success: true,
+    data: {
+      user: {
+        username: 'demo',
+        profile: {
+          firstName: 'Demo',
+          lastName: 'User',
+          avatar: '',
+        },
+        stats: {
+          totalQuestions: 120,
+          correctAnswers: 98,
+          accuracy: 81.67,
+          totalStudyTime: 14400 // 4 hours in seconds
+        },
+        streaks: {
+          current: 5,
+          longest: 12
+        }
+      },
+      recentSessions: [
+        {
+          _id: '1',
+          subject: 'Math',
+          mode: 'practice',
+          score: 85,
+          questionsCount: 20,
+          createdAt: new Date().toISOString()
+        },
+        {
+          _id: '2',
+          subject: 'Science',
+          mode: 'timed',
+          score: 75,
+          questionsCount: 15,
+          createdAt: new Date(Date.now() - 86400000).toISOString() // Yesterday
+        }
+      ],
+      dailyChallengeStatus: {
+        completed: false,
+        score: null,
+        completedAt: null
+      },
+      weekStats: {
+        sessionsCompleted: 8,
+        questionsAnswered: 120,
+        averageAccuracy: 81.67,
+        studyTime: 240 // minutes
+      },
+      studyRecommendations: [
+        'Focus on Algebra concepts based on your recent performance',
+        'Try more timed practice sessions to improve speed',
+        'Review Chemistry formulas where accuracy is below 70%',
+        'Consider taking a full practice test this weekend'
+      ]
+    }
+  });
+});
+
 // Quiz session routes
 app.post('/api/quiz/start', (req, res) => {
   const quizId = 'quiz-' + Date.now();
