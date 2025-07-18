@@ -15,6 +15,7 @@ import Login from './pages/Auth/Login';
 import Register from './pages/Auth/Register';
 import Dashboard from './pages/Dashboard/Dashboard';
 import Practice from './pages/Practice/Practice';
+import Question from './pages/Practice/Question';
 import TimedTest from './pages/Practice/TimedTest';
 import DailyChallenge from './pages/Practice/DailyChallenge';
 import Analytics from './pages/Analytics/Analytics';
@@ -170,6 +171,7 @@ function App() {
                         <Routes>
                           <Route path="/dashboard" element={<Dashboard />} />
                           <Route path="/practice" element={<Practice />} />
+                          <Route path="/practice/question/:id" element={<Question />} />
                           <Route path="/timed-test" element={<TimedTest />} />
                           <Route path="/daily-challenge" element={<DailyChallenge />} />
                           <Route path="/analytics" element={<Analytics />} />
