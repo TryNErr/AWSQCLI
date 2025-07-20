@@ -8,6 +8,20 @@ import {
   additionalMediumQuestions, 
   additionalHardQuestions 
 } from './questionData/additionalQuestions';
+import {
+  grade1ThinkingSkillsQuestions,
+  grade2ThinkingSkillsQuestions,
+  grade3ThinkingSkillsQuestions,
+  grade4ThinkingSkillsQuestions,
+  grade5ThinkingSkillsQuestions,
+  grade6ThinkingSkillsQuestions,
+  grade7ThinkingSkillsQuestions,
+  grade8ThinkingSkillsQuestions,
+  grade9ThinkingSkillsQuestions,
+  grade10ThinkingSkillsQuestions,
+  grade11ThinkingSkillsQuestions,
+  grade12ThinkingSkillsQuestions
+} from './questionData/thinkingSkills';
 
 // Combine all question sets
 export const questionData: Question[] = [
@@ -17,5 +31,17 @@ export const questionData: Question[] = [
   ...grade10to12Questions,
   ...additionalEasyQuestions,
   ...additionalMediumQuestions,
-  ...additionalHardQuestions
+  ...additionalHardQuestions,
+  ...grade1ThinkingSkillsQuestions,
+  ...grade2ThinkingSkillsQuestions,
+  ...grade3ThinkingSkillsQuestions,
+  ...grade4ThinkingSkillsQuestions,
+  ...grade5ThinkingSkillsQuestions,
+  ...grade6ThinkingSkillsQuestions,
+  ...grade7ThinkingSkillsQuestions,
+  ...grade8ThinkingSkillsQuestions,
+  ...grade9ThinkingSkillsQuestions,
+  ...grade10ThinkingSkillsQuestions,
+  ...grade11ThinkingSkillsQuestions,
+  ...grade12ThinkingSkillsQuestions
 ];
