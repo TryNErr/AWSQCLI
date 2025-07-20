@@ -88,7 +88,7 @@ export const recordQuestionAttempt = (
     grade: question.grade,
     difficulty: question.difficulty,
     userAnswer,
-    correctAnswer: question.correctAnswer,
+    correctAnswer: String(question.correctAnswer),  // Convert to string
     isCorrect,
     timestamp: new Date().toISOString()
   };

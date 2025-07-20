@@ -46,12 +46,14 @@ const AddQuestion: React.FC = () => {
     content: '',
     type: QuestionType.MULTIPLE_CHOICE,
     options: ['', '', '', ''],
-    correctAnswer: '',
+    correctAnswer: '',  // Always use string for correctAnswer in this component
     explanation: '',
     subject: '',
     difficulty: DifficultyLevel.MEDIUM,
     tags: [],
     grade: '',
+    topic: '',  // Initialize topic
+    hints: []   // Initialize hints
   });
 
   // Form validation
@@ -154,7 +156,7 @@ const AddQuestion: React.FC = () => {
     
     if (!formData.correctAnswer) {
       newErrors.correctAnswer = 'Correct answer is required';
-    } else if (formData.options && !formData.options.includes(formData.correctAnswer)) {
+    } else if (formData.options && !formData.options.includes(String(formData.correctAnswer))) {
       newErrors.correctAnswer = 'Correct answer must be one of the options';
     }
     
@@ -182,7 +184,9 @@ const AddQuestion: React.FC = () => {
         grade: formData.grade || '',
         createdBy: 'user',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        topic: formData.subject || '',  // Use subject as default topic
+        hints: []  // Empty hints array
       };
       
       // Add to questionData
@@ -344,7 +348,7 @@ const AddQuestion: React.FC = () => {
                   <InputLabel>Correct Answer</InputLabel>
                   <Select
                     name="correctAnswer"
-                    value={formData.correctAnswer || ''}
+                    value={String(formData.correctAnswer || '')}
                     onChange={handleSelectChange}
                     label="Correct Answer"
                   >

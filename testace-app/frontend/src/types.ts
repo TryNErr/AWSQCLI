@@ -1,9 +1,9 @@
 // Import shared types
 import {
-  User,
-  UserProfile,
-  UserStats,
-  StreakData,
+  User as BaseUser,
+  UserProfile as BaseUserProfile,
+  UserStats as BaseUserStats,
+  StreakData as BaseStreakData,
   Question as BaseQuestion,
   QuestionType,
   DifficultyLevel,
@@ -18,19 +18,14 @@ import {
   WritingCritique,
   CritiqueSection,
   ApiResponse,
-  PaginatedResponse,
+  PaginatedResponse as BasePaginatedResponse,
   SocketEvents,
   AppConfig
-} from '../../shared/types';
+} from './shared-types';
 
 // Export all shared types
-export {
-  User,
-  UserProfile,
-  UserStats,
-  StreakData,
-  QuestionType,
-  DifficultyLevel,
+export { QuestionType, DifficultyLevel };
+export type { 
   TestSession,
   TestMode,
   UserAnswer,
@@ -42,12 +37,72 @@ export {
   WritingCritique,
   CritiqueSection,
   ApiResponse,
-  PaginatedResponse,
   SocketEvents,
   AppConfig
 };
 
+// Extended User types with frontend-specific properties
+export interface User extends BaseUser {
+  // Additional frontend-specific properties can be added here
+}
+
+export interface UserProfile extends BaseUserProfile {
+  // Additional frontend-specific properties can be added here
+}
+
+export interface UserStats extends BaseUserStats {
+  subjectStats: { [subject: string]: SubjectStats };
+}
+
+export interface SubjectStats {
+  totalQuestions: number;
+  correctAnswers: number;
+  accuracy: number;
+  averageTime: number;
+}
+
+export interface StreakData extends BaseStreakData {
+  // Additional frontend-specific properties can be added here
+}
+
 // Extended Question type with frontend-specific properties
 export interface Question extends BaseQuestion {
   isGenerated?: boolean;
+  updatedAt?: Date;
+  grade?: string;
+}
+
+// Extended PaginatedResponse type
+export interface PaginatedResponse<T> extends BasePaginatedResponse<T> {
+  // Additional frontend-specific properties can be added here
+}
+
+// Test Types
+export interface Test {
+  _id: string;
+  title: string;
+  description: string;
+  questions: Question[];
+  timeLimit: number;
+  subject: string;
+  difficulty: DifficultyLevel;
+  createdBy: string;
+  createdAt: Date;
+}
+
+export interface TestResult {
+  _id: string;
+  user: string;
+  test: string;
+  answers: Answer[];
+  score: number;
+  timeSpent: number;
+  completedAt: Date;
+}
+
+export interface Answer {
+  question: string;
+  userAnswer: string;
+  isCorrect: boolean;
+  timeSpent: number;
 }

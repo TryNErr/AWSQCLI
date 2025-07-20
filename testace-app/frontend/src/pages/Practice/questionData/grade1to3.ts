@@ -6,6 +6,29 @@ const generateId = (() => {
   return () => (counter++).toString();
 })();
 
+// Helper function to ensure all required properties are present
+const createQuestion = (q: Partial<Question>): Question => {
+  return {
+    _id: q._id || generateId(),
+    content: q.content || '',
+    type: q.type || QuestionType.MULTIPLE_CHOICE,
+    subject: q.subject || '',
+    topic: q.topic || q.subject || '', // Use subject as topic if not provided
+    difficulty: q.difficulty || DifficultyLevel.MEDIUM,
+    options: q.options || [],
+    correctAnswer: q.correctAnswer || '',
+    explanation: q.explanation || '',
+    hints: q.hints || [], // Empty hints array
+    tags: q.tags || [],
+    createdBy: q.createdBy || 'system',
+    createdAt: q.createdAt || new Date(),
+    timeLimit: q.timeLimit,
+    grade: q.grade,
+    updatedAt: q.updatedAt || new Date(),
+    isGenerated: q.isGenerated
+  };
+};
+
 // Questions for grades 1-3
 export const grade1to3Questions: Question[] = [
   // Grade 1 - Math
