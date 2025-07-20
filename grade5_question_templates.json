@@ -1,0 +1,277 @@
+{
+  "templates": [
+    {
+      "template_id": "TS-G5-L001",
+      "category": "Logical Reasoning",
+      "sub_category": "Deductive Logic",
+      "grade_level": 5,
+      "difficulty": 2,
+      "structure": {
+        "scenario": "The {transport_type} journey from {start_location} to {end_location} stops at {num_stations} other stations along the way. {person_name} boarded the {transport_type} at {start_location} and got off at the {position_description}.",
+        "clues": [
+          "{station1} station is located between {station2} and {station3}.",
+          "The {transport_type} stops at {station2} before {station4}.",
+          "The {transport_type} stops at {station4} before {station3}."
+        ],
+        "question": "Which station did {person_name} get off at?",
+        "options": [
+          "{station4}",
+          "{station1}",
+          "{station2}",
+          "{station3}"
+        ],
+        "solution_logic": "The order is {start_location} → {station2} → {station4} → {station1} → {station3} → {end_location}. The {position_description} is {correct_station}."
+      },
+      "variable_pools": {
+        "transport_type": ["train", "bus", "tram"],
+        "location_themes": [
+          {
+            "theme": "cities",
+            "locations": ["Greenville", "Sunnydale", "Brookside", "Lakewood", "Hillcrest", "Meadowbrook"]
+          },
+          {
+            "theme": "animals",
+            "locations": ["Elephant", "Tiger", "Giraffe", "Zebra", "Lion", "Monkey"]
+          }
+        ],
+        "person_names": ["Alex", "Jamie", "Taylor", "Jordan", "Casey", "Riley"],
+        "position_descriptions": {
+          "second-last station": 4,
+          "third station": 2,
+          "fourth station": 3
+        },
+        "num_stations": [4, 5]
+      }
+    },
+    {
+      "template_id": "TS-G5-P001",
+      "category": "Pattern Recognition",
+      "sub_category": "Sequence Decoding",
+      "grade_level": 5,
+      "difficulty": 2,
+      "structure": {
+        "scenario": "Access to the {context_location} is only possible by answering a security question. The question is based on the following sentence:\n{secret_sentence}",
+        "mechanism": "Each day everyone is given a number, which is the starting position. When anyone {action_verb} they are given two numbers and have to {response_action} the letters that appear in those positions if counting starts at that day's starting position.",
+        "example": "Today, the first person was given the numbers {example_pos1} and {example_pos2} and responded with the letters {example_letter1} and {example_letter2}, which was correct.",
+        "question": "The second person was given the numbers {question_pos1} and {question_pos2}. What letters should be given as the response?",
+        "solution_logic": "Starting from position {starting_position}, the {question_pos1}th letter is {solution_letter1} and the {question_pos2}th letter is {solution_letter2}."
+      },
+      "variable_pools": {
+        "context_locations": ["treasure room", "secret club", "magic castle", "space station"],
+        "secret_sentences": [
+          "Animals live in different habitats",
+          "Plants need water and sunlight",
+          "Stars shine brightly at night",
+          "Oceans contain many creatures"
+        ],
+        "action_verbs": ["arrives", "comes", "walks up", "approaches"],
+        "response_actions": ["say", "write", "show", "point to"],
+        "starting_position": [1, 2, 3],
+        "example_pos1": [2, 3, 4],
+        "example_pos2": [5, 6, 7],
+        "question_pos1": [3, 4, 5],
+        "question_pos2": [8, 9, 10]
+      }
+    },
+    {
+      "template_id": "TS-G5-S001",
+      "category": "Spatial Reasoning",
+      "sub_category": "3D Visualization",
+      "grade_level": 5,
+      "difficulty": 2,
+      "structure": {
+        "scenario": "A {object_type} is shown from the {view_direction} view:",
+        "question": "Which one of the following shows the {object_type} from the {question_view} view?",
+        "options": [
+          "{option_a_description}",
+          "{option_b_description}",
+          "{option_c_description}",
+          "{option_d_description}"
+        ]
+      },
+      "variable_pools": {
+        "object_type": ["building block", "toy castle", "robot", "spaceship"],
+        "view_direction": ["front", "side"],
+        "question_view": ["top", "back", "bottom"],
+        "option_descriptions": [
+          "correct view",
+          "mirror image",
+          "rotated 90 degrees",
+          "different object"
+        ]
+      }
+    },
+    {
+      "template_id": "TS-G5-C001",
+      "category": "Critical Thinking",
+      "sub_category": "Argument Evaluation",
+      "grade_level": 5,
+      "difficulty": 2,
+      "structure": {
+        "scenario": "{person1_name} thinks we should all {proposed_action} instead of {current_action} for {context}. \"I found out that {current_action_consequence},\" {person1_name} says. \"To help {benefit}, we must {proposed_action}.\"",
+        "question": "Which one of these statements, if true, most weakens {person1_name}'s argument?",
+        "options": [
+          "{current_action} is also used for {alternative_use}.",
+          "People are {current_action_frequency} than they used to.",
+          "{proposed_action_consequence}.",
+          "{proposed_action} is more {comparative_attribute} than {current_action}."
+        ]
+      },
+      "variable_pools": {
+        "person1_name": ["Sam", "Jordan", "Taylor", "Alex", "Casey"],
+        "contexts": [
+          {
+            "context": "transportation",
+            "proposed_action": "ride bicycles",
+            "current_action": "take the bus",
+            "current_action_consequence": "buses create pollution",
+            "benefit": "keep the air clean",
+            "alternative_use": "school trips",
+            "current_action_frequency": "taking buses less often",
+            "proposed_action_consequence": "riding bicycles also creates problems like traffic congestion",
+            "comparative_attribute": "time-consuming"
+          },
+          {
+            "context": "school supplies",
+            "proposed_action": "use digital notebooks",
+            "current_action": "use paper notebooks",
+            "current_action_consequence": "paper notebooks require cutting down trees",
+            "benefit": "save forests",
+            "alternative_use": "art projects",
+            "current_action_frequency": "using less paper",
+            "proposed_action_consequence": "digital notebooks require electricity which can harm the environment",
+            "comparative_attribute": "expensive"
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "TS-G5-D001",
+      "category": "Deductive Reasoning",
+      "sub_category": "Logical Sets",
+      "grade_level": 5,
+      "difficulty": 2,
+      "structure": {
+        "scenario": "A {location} has four {animals}: {animal1_name}, {animal2_name}, {animal3_name}, and {animal4_name}. Staff at the {location} are keeping track of the {food_type} the {animals} like to eat.\n\nThey have found that if a {animal_singular} eats {food1}, it also eats {food2}. If a {animal_singular} eats {food2}, it also eats {food3}. No {animal_singular} that eats {food2} also eats {food4}.",
+        "question": "Based on the above information, which one of the following must be true?",
+        "options": [
+          "If {animal1_name} eats {food4}, it also eats {food1}.",
+          "If {animal2_name} does not eat {food4}, it does not eat {food2}.",
+          "If {animal3_name} eats {food4}, it does not eat {food1}.",
+          "If {animal4_name} does not eat {food1}, it does not eat {food2}."
+        ]
+      },
+      "variable_pools": {
+        "location": ["zoo", "farm", "wildlife park", "animal shelter"],
+        "animals": ["rabbits", "hamsters", "guinea pigs", "mice"],
+        "animal_singular": ["rabbit", "hamster", "guinea pig", "mouse"],
+        "animal_names": [
+          ["Fluffy", "Hopper", "Thumper", "Cotton"],
+          ["Whiskers", "Nibbles", "Peanut", "Scurry"],
+          ["Patches", "Oreo", "Cookie", "Brownie"],
+          ["Squeaky", "Tiny", "Cheese", "Pipsqueak"]
+        ],
+        "food_sets": [
+          ["carrots", "lettuce", "hay", "seeds"],
+          ["apples", "pellets", "vegetables", "nuts"],
+          ["berries", "grains", "greens", "corn"]
+        ]
+      }
+    },
+    {
+      "template_id": "TS-G5-M001",
+      "category": "Mathematical Reasoning",
+      "sub_category": "Numerical Logic",
+      "grade_level": 5,
+      "difficulty": 2,
+      "structure": {
+        "scenario": "In a game called '{game_name}' there are tokens that are worth {value1} points, {value2} points or {value3} points.\n\nI have one pile of {value1}-point tokens, one pile of {value2}-point tokens and one pile of {value3}-point tokens.\nEach pile contains the same number of tokens.\n\nThe combined total of two of the piles of tokens is {combined_total} points.",
+        "question": "What is the total of the other pile of tokens?",
+        "options": [
+          "{option_a} points",
+          "{option_b} points",
+          "{option_c} points",
+          "{option_d} points"
+        ],
+        "solution_logic": "If each pile has n tokens, then the piles are worth {value1}n, {value2}n, and {value3}n points. If two piles total {combined_total}, then we can solve for n and find the value of the third pile."
+      },
+      "variable_pools": {
+        "game_name": ["Starlight", "Treasure", "Gemstone", "Crystal"],
+        "value_sets": [
+          {"value1": 2, "value2": 4, "value3": 5},
+          {"value1": 3, "value2": 5, "value3": 8},
+          {"value1": 1, "value2": 3, "value3": 6}
+        ],
+        "token_counts": [6, 8, 10, 12]
+      }
+    },
+    {
+      "template_id": "TS-G5-SR001",
+      "category": "Sequential Reasoning",
+      "sub_category": "Logical Order",
+      "grade_level": 5,
+      "difficulty": 2,
+      "structure": {
+        "scenario": "{num_people} friends are standing in a circle in the playground, facing inwards. {person1} is standing to the left of {person2} and is opposite {person3}. {person4} is facing {person5} and is standing next to {person2}. {person6} is in between {person3} and {person5}.",
+        "activity": "They've been playing a game in which they throw a {object} to one another in a specific pattern. Someone throws the {object} to the person opposite. They then hand it to the friend on their left. In the first round, after {num_repetitions} repetitions of this pattern {person_with_object} is holding the {object}.",
+        "question": "Who was holding the {object} at the start?",
+        "options": [
+          "{person1}",
+          "{person5}",
+          "{person3}",
+          "{person2}"
+        ]
+      },
+      "variable_pools": {
+        "num_people": [6],
+        "person_sets": [
+          ["Emma", "Jack", "Olivia", "Noah", "Sophia", "Liam"],
+          ["Ava", "Mason", "Isabella", "Lucas", "Mia", "Ethan"]
+        ],
+        "objects": ["ball", "frisbee", "beanbag", "toy"],
+        "num_repetitions": [2, 3]
+      }
+    },
+    {
+      "template_id": "TS-G5-CB001",
+      "category": "Code Breaking",
+      "sub_category": "Symbol Substitution",
+      "grade_level": 5,
+      "difficulty": 2,
+      "structure": {
+        "scenario": "{person1} and {person2} frequently message each other in code. They always use the same code, in which each letter of the alphabet is always represented by a unique symbol. For example, {person1} is {person1_code} and {person2} is {person2_code}.",
+        "question": "When {person2} asked {person1} to name {possessive} favorite {category}, {pronoun} replied:\n{coded_message}\n\nWhat is {person1}'s favorite {category}?",
+        "options": [
+          "{option_a}",
+          "{option_b}",
+          "{option_c}",
+          "{option_d}"
+        ]
+      },
+      "variable_pools": {
+        "person_pairs": [
+          {"person1": "Emma", "person2": "Jack", "possessive": "her", "pronoun": "she"},
+          {"person1": "Noah", "person2": "Ava", "possessive": "his", "pronoun": "he"}
+        ],
+        "categories": [
+          {
+            "category": "color",
+            "options": ["blue", "green", "yellow", "purple"]
+          },
+          {
+            "category": "animal",
+            "options": ["tiger", "dolphin", "penguin", "rabbit"]
+          },
+          {
+            "category": "sport",
+            "options": ["soccer", "tennis", "swimming", "karate"]
+          }
+        ],
+        "symbol_sets": [
+          "!@#$%^&*()_+",
+          "♠♥♦♣★☆♀♂♪♫☼"
+        ]
+      }
+    }
+  ]
+}
