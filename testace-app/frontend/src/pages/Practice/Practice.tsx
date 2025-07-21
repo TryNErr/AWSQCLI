@@ -24,6 +24,18 @@ import { questionData } from './questionData';
 import { getUserGrade } from '../../services/userContextService';
 import { getAnsweredQuestionIds } from '../../services/userProgressService';
 import { generateMathQuestions } from '../../utils/mathQuestionGenerator';
+import { generateThinkingSkillsQuestions } from '../../utils/thinkingSkillsQuestionGenerator';
+import { saveGeneratedQuestions, getGeneratedQuestions } from '../../services/generatedQuestionsService';
+
+// Helper function to shuffle an array
+const shuffleArray = function<T>(array: T[]): T[] {
+  const newArray = [...array];
+  for (let i = newArray.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+  }
+  return newArray;
+};
 
 const Practice: React.FC = () => {
   const [questions, setQuestions] = useState<Question[]>([]);
@@ -56,6 +68,9 @@ const Practice: React.FC = () => {
 
   // Filter questions when selections change
   useEffect(() => {
+    // Reset questions to force a complete refresh
+    setQuestions([]);
+    // Apply filters
     filterQuestions();
   }, [selectedSubject, selectedGrade, selectedDifficulty]);
 
@@ -85,12 +100,36 @@ const Practice: React.FC = () => {
       });
     }
     
+    // Also check generated questions
+    const generatedQuestions = getGeneratedQuestions();
+    let filteredGeneratedQuestions = [...generatedQuestions];
+    
+    if (selectedSubject) {
+      filteredGeneratedQuestions = filteredGeneratedQuestions.filter(q => q.subject === selectedSubject);
+    }
+    
+    if (selectedGrade) {
+      filteredGeneratedQuestions = filteredGeneratedQuestions.filter(q => q.grade === selectedGrade);
+    }
+    
+    if (selectedDifficulty) {
+      filteredGeneratedQuestions = filteredGeneratedQuestions.filter(q => {
+        if (selectedDifficulty === 'easy') return q.difficulty === DifficultyLevel.EASY;
+        if (selectedDifficulty === 'medium') return q.difficulty === DifficultyLevel.MEDIUM;
+        if (selectedDifficulty === 'hard') return q.difficulty === DifficultyLevel.HARD;
+        return true;
+      });
+    }
+    
+    // Combine standard and generated questions
+    filteredQuestions = [...filteredQuestions, ...filteredGeneratedQuestions];
+    
     // Filter out answered questions
     const unansweredQuestions = filteredQuestions.filter(q => !answeredQuestionIds.includes(q._id));
     
     // If we have fewer than 10 unanswered questions, generate new ones
     let finalQuestions = [...unansweredQuestions];
-    let generatedQuestions: Question[] = [];
+    let newGeneratedQuestions: Question[] = [];
     
     if (unansweredQuestions.length < 10) {
       // Determine how many questions to generate
@@ -102,26 +141,38 @@ const Practice: React.FC = () => {
       if (selectedDifficulty === 'medium') difficultyLevel = DifficultyLevel.MEDIUM;
       if (selectedDifficulty === 'hard') difficultyLevel = DifficultyLevel.HARD;
       
-      // Only generate math questions for now
+      // Generate questions based on subject
       if (!selectedSubject || selectedSubject === 'Math') {
-        generatedQuestions = generateMathQuestions(
+        newGeneratedQuestions = generateMathQuestions(
           selectedGrade || getUserGrade(),
           difficultyLevel,
           questionsToGenerate
         );
-        
-        // Mark generated questions
-        generatedQuestions = generatedQuestions.map(q => ({
-          ...q,
-          isGenerated: true // Add a flag to identify generated questions
-        }));
-        
-        finalQuestions = [...unansweredQuestions, ...generatedQuestions];
+      } else if (selectedSubject === 'Thinking Skills') {
+        newGeneratedQuestions = generateThinkingSkillsQuestions(
+          selectedGrade || getUserGrade(),
+          difficultyLevel,
+          questionsToGenerate
+        );
       }
+      
+      // Mark generated questions
+      newGeneratedQuestions = newGeneratedQuestions.map(q => ({
+        ...q,
+        isGenerated: true // Add a flag to identify generated questions
+      }));
+      
+      // Save the generated questions to localStorage
+      saveGeneratedQuestions(newGeneratedQuestions);
+      
+      finalQuestions = [...unansweredQuestions, ...newGeneratedQuestions];
     }
     
+    // Shuffle questions to randomize the order
+    const shuffledQuestions = shuffleArray(finalQuestions);
+    
     // Limit to 10 questions for display
-    const limitedQuestions = finalQuestions.slice(0, 10);
+    const limitedQuestions = shuffledQuestions.slice(0, 10);
     setQuestions(limitedQuestions);
     setLoading(false);
   };
@@ -137,6 +188,38 @@ const Practice: React.FC = () => {
 
   const handleDifficultyChange = (event: SelectChangeEvent) => {
     setSelectedDifficulty(event.target.value);
+  };
+
+  const handleGenerateThinkingSkills = () => {
+    setLoading(true);
+    
+    // Set subject to Thinking Skills
+    setSelectedSubject('Thinking Skills');
+    
+    // Generate questions
+    const difficultyLevel = selectedDifficulty === 'easy' 
+      ? DifficultyLevel.EASY 
+      : selectedDifficulty === 'hard' 
+        ? DifficultyLevel.HARD 
+        : DifficultyLevel.MEDIUM;
+    
+    const generatedQuestions = generateThinkingSkillsQuestions(
+      selectedGrade || getUserGrade(),
+      difficultyLevel,
+      10
+    ).map(q => ({
+      ...q,
+      isGenerated: true
+    }));
+    
+    // Save the generated questions to localStorage
+    saveGeneratedQuestions(generatedQuestions);
+    
+    // Shuffle the questions before setting them
+    const shuffledQuestions = shuffleArray(generatedQuestions);
+    
+    setQuestions(shuffledQuestions);
+    setLoading(false);
   };
 
   const startPractice = (questionId?: string) => {
@@ -207,6 +290,15 @@ const Practice: React.FC = () => {
               startIcon={<AutoAwesome />}
             >
               Auto-Generate Math
+            </Button>
+            
+            <Button 
+              variant="contained" 
+              color="secondary"
+              onClick={handleGenerateThinkingSkills}
+              startIcon={<AutoAwesome />}
+            >
+              Generate Thinking Skills
             </Button>
             
             <Button 
@@ -296,9 +388,9 @@ const Practice: React.FC = () => {
                 <Typography variant="h6" color="text.secondary">
                   No questions found for the selected filters.
                 </Typography>
-                {selectedSubject !== 'Math' && (
+                {selectedSubject !== 'Math' && selectedSubject !== 'Thinking Skills' && (
                   <Typography variant="body1" color="text.secondary" sx={{ mt: 2 }}>
-                    Try selecting Math as the subject to get auto-generated questions.
+                    Try selecting Math or Thinking Skills as the subject to get auto-generated questions.
                   </Typography>
                 )}
                 <Button

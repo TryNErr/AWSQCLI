@@ -22,6 +22,7 @@ import { Question as QuestionType } from '../../types';
 import { questionData } from './questionData';
 import { markQuestionAnswered, isQuestionAnswered } from '../../services/userProgressService';
 import { recordQuestionAttempt } from '../../services/questionHistoryService';
+import { getGeneratedQuestionById, getGeneratedQuestions } from '../../services/generatedQuestionsService';
 
 const QuestionPage: React.FC = () => {
   const { id } = useParams<{ id: string }>();
@@ -45,7 +46,17 @@ const QuestionPage: React.FC = () => {
         
         // For now, use our local question data
         if (id) {
-          const foundQuestion = questionData.find(q => q._id === id);
+          // First check in the standard question data
+          let foundQuestion = questionData.find(q => q._id === id);
+          
+          // If not found, check in generated questions
+          if (!foundQuestion) {
+            const generatedQuestion = getGeneratedQuestionById(id);
+            if (generatedQuestion) {
+              foundQuestion = generatedQuestion;
+            }
+          }
+          
           if (foundQuestion) {
             setQuestion(foundQuestion);
             
@@ -99,10 +110,13 @@ const QuestionPage: React.FC = () => {
   const handleNextQuestion = () => {
     // Find the next question in the same subject and grade
     if (question) {
-      const currentIndex = questionData.findIndex(q => q._id === question._id);
+      // Combine standard and generated questions
+      const allQuestions = [...questionData, ...getGeneratedQuestions()];
+      
+      const currentIndex = allQuestions.findIndex(q => q._id === question._id);
       if (currentIndex !== -1) {
         // Filter questions with the same subject and grade
-        const similarQuestions = questionData.filter(
+        const similarQuestions = allQuestions.filter(
           q => q.subject === question.subject && 
                q.grade === question.grade && 
                q._id !== question._id
