@@ -7,18 +7,23 @@ import {
   Button,
   Typography,
   Box,
-  Alert
+  Alert,
+  FormControl,
+  InputLabel,
+  Select,
+  MenuItem,
+  SelectChangeEvent
 } from '@mui/material';
 import { useAuth } from '../../contexts/AuthContext';
 
 const Register: React.FC = () => {
   const [formData, setFormData] = useState({
-    username: '',
     email: '',
     password: '',
     confirmPassword: '',
     firstName: '',
-    lastName: ''
+    lastName: '',
+    grade: '5' // Default to grade 5
   });
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
@@ -29,6 +34,13 @@ const Register: React.FC = () => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value
+    });
+  };
+
+  const handleGradeChange = (e: SelectChangeEvent) => {
+    setFormData({
+      ...formData,
+      grade: e.target.value
     });
   };
 
@@ -44,20 +56,15 @@ const Register: React.FC = () => {
     setError('');
 
     try {
-      await register({
-        username: formData.username,
-        email: formData.email,
-        password: formData.password,
-        profile: {
-          firstName: formData.firstName,
-          lastName: formData.lastName,
-          subjects: [],
-          targetTests: []
-        }
-      });
+      await register(
+        formData.email,
+        formData.password,
+        `${formData.firstName} ${formData.lastName}`,
+        formData.grade
+      );
       navigate('/dashboard');
     } catch (err: any) {
-      setError(err.response?.data?.message || 'Registration failed');
+      setError(err.message || 'Registration failed');
     } finally {
       setLoading(false);
     }
@@ -94,15 +101,6 @@ const Register: React.FC = () => {
             />
             <TextField
               fullWidth
-              label="Username"
-              name="username"
-              value={formData.username}
-              onChange={handleChange}
-              margin="normal"
-              required
-            />
-            <TextField
-              fullWidth
               label="Email"
               name="email"
               type="email"
@@ -111,6 +109,20 @@ const Register: React.FC = () => {
               margin="normal"
               required
             />
+            <FormControl fullWidth margin="normal">
+              <InputLabel>Grade</InputLabel>
+              <Select
+                value={formData.grade}
+                label="Grade"
+                onChange={handleGradeChange}
+              >
+                {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map(grade => (
+                  <MenuItem key={grade} value={grade.toString()}>
+                    Grade {grade}
+                  </MenuItem>
+                ))}
+              </Select>
+            </FormControl>
             <TextField
               fullWidth
               label="Password"
@@ -141,8 +153,10 @@ const Register: React.FC = () => {
               {loading ? 'Registering...' : 'Register'}
             </Button>
             <Box textAlign="center">
-              <Link to="/login">
-                Already have an account? Sign in
+              <Link to="/login" style={{ textDecoration: 'none' }}>
+                <Typography color="primary">
+                  Already have an account? Sign in
+                </Typography>
               </Link>
             </Box>
           </Box>

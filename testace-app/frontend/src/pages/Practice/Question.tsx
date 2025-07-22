@@ -1,174 +1,110 @@
 import React, { useState, useEffect } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
 import {
   Container,
   Typography,
   Box,
-  Card,
-  CardContent,
+  Paper,
   Button,
   RadioGroup,
   Radio,
   FormControlLabel,
-  FormControl,
-  Alert,
-  CircularProgress,
-  Paper,
   Divider,
-  Chip
+  Alert,
+  Chip,
+  CircularProgress,
+  Stack
 } from '@mui/material';
-import { ArrowBack, Check, Close, History } from '@mui/icons-material';
+import { useParams, useNavigate } from 'react-router-dom';
+import { ArrowBack, CheckCircle, Cancel } from '@mui/icons-material';
 import { Question as QuestionType } from '../../types';
 import { questionData } from './questionData';
-import { markQuestionAnswered, isQuestionAnswered } from '../../services/userProgressService';
+import { getGeneratedQuestions } from '../../services/generatedQuestionsService';
+import { markQuestionAnswered } from '../../services/userProgressService';
 import { recordQuestionAttempt } from '../../services/questionHistoryService';
-import { getGeneratedQuestionById, getGeneratedQuestions } from '../../services/generatedQuestionsService';
 
-const QuestionPage: React.FC = () => {
-  const { id } = useParams<{ id: string }>();
+const Question: React.FC = () => {
+  const { id } = useParams();
   const navigate = useNavigate();
   const [question, setQuestion] = useState<QuestionType | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
-  const [selectedAnswer, setSelectedAnswer] = useState<string>('');
-  const [submitted, setSubmitted] = useState(false);
+  const [selectedAnswer, setSelectedAnswer] = useState('');
+  const [isSubmitted, setIsSubmitted] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
+  const [loading, setLoading] = useState(true);
+  const [showExplanation, setShowExplanation] = useState(false);
 
   useEffect(() => {
-    const fetchQuestion = async () => {
-      try {
-        setLoading(true);
-        setError(null);
-        
-        // Try to fetch from API (in a real app)
-        // const response = await api.get(`/api/questions/${id}`);
-        // setQuestion(response.data);
-        
-        // For now, use our local question data
-        if (id) {
-          // First check in the standard question data
-          let foundQuestion = questionData.find(q => q._id === id);
-          
-          // If not found, check in generated questions
-          if (!foundQuestion) {
-            const generatedQuestion = getGeneratedQuestionById(id);
-            if (generatedQuestion) {
-              foundQuestion = generatedQuestion;
-            }
-          }
-          
-          if (foundQuestion) {
-            setQuestion(foundQuestion);
-            
-            // Check if the question has already been answered
-            if (isQuestionAnswered(foundQuestion._id)) {
-              // If already answered, automatically go to the next question
-              setTimeout(() => {
-                handleNextQuestion();
-              }, 500);
-            }
-          } else {
-            setError('Question not found');
-          }
-        } else {
-          setError('Invalid question ID');
-        }
-      } catch (err) {
-        console.error('Error fetching question:', err);
-        setError('Failed to load question. Please try again.');
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchQuestion();
+    // Find question in both standard and generated questions
+    const allQuestions = [...questionData, ...getGeneratedQuestions()];
+    const foundQuestion = allQuestions.find(q => q._id === id);
+    setQuestion(foundQuestion || null);
+    setLoading(false);
   }, [id]);
 
   const handleAnswerChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setSelectedAnswer(event.target.value);
+    if (!isSubmitted) {
+      setSelectedAnswer(event.target.value);
+    }
   };
 
   const handleSubmit = () => {
-    if (!question) return;
-    
+    if (!question || !selectedAnswer || isSubmitted) return;
+
+    setLoading(true);
     const correct = selectedAnswer === question.correctAnswer;
     setIsCorrect(correct);
-    setSubmitted(true);
-    
-    // Mark question as answered in user progress
-    markQuestionAnswered(question._id, correct);
-    
-    // Record the question attempt in history
-    recordQuestionAttempt(question, selectedAnswer, correct);
-    
-    // Automatically proceed to the next question after a delay
-    setTimeout(() => {
-      handleNextQuestion();
-    }, 3000); // 3 seconds delay
-  };
+    setIsSubmitted(true);
+    setShowExplanation(true);
 
-  const handleNextQuestion = () => {
-    // Find the next question in the same subject and grade
-    if (question) {
-      // Combine standard and generated questions
-      const allQuestions = [...questionData, ...getGeneratedQuestions()];
-      
-      const currentIndex = allQuestions.findIndex(q => q._id === question._id);
-      if (currentIndex !== -1) {
-        // Filter questions with the same subject and grade
-        const similarQuestions = allQuestions.filter(
-          q => q.subject === question.subject && 
-               q.grade === question.grade && 
-               q._id !== question._id
-        );
-        
-        if (similarQuestions.length > 0) {
-          // Pick a random question from the filtered list
-          const randomIndex = Math.floor(Math.random() * similarQuestions.length);
-          navigate(`/practice/question/${similarQuestions[randomIndex]._id}`);
-          // Reset state for the new question
-          setSelectedAnswer('');
-          setSubmitted(false);
-          setIsCorrect(false);
-          return;
-        }
-      }
-    }
-    
-    // If no similar question found or any error, go back to practice
-    navigate('/practice');
+    // Record the attempt
+    markQuestionAnswered(
+      question._id,
+      correct,
+      question.subject,
+      question.difficulty,
+      question.grade
+    );
+
+    recordQuestionAttempt(
+      question._id,
+      question.subject,
+      question.difficulty,
+      question.grade,
+      correct,
+      selectedAnswer,
+      question.correctAnswer
+    );
+
+    setLoading(false);
   };
 
   if (loading) {
     return (
-      <Container maxWidth="md">
-        <Box sx={{ display: 'flex', justifyContent: 'center', mt: 8 }}>
-          <CircularProgress />
+      <Box sx={{ display: 'flex', justifyContent: 'center', mt: 4 }}>
+        <CircularProgress />
+      </Box>
+    );
+  }
+
+  if (!question) {
+    return (
+      <Container maxWidth="lg">
+        <Box sx={{ mt: 4 }}>
+          <Button
+            startIcon={<ArrowBack />}
+            onClick={() => navigate('/practice')}
+            sx={{ mb: 2 }}
+          >
+            Back to Practice
+          </Button>
+          <Alert severity="error">Question not found</Alert>
         </Box>
       </Container>
     );
   }
 
-  if (error || !question) {
-    return (
-      <Container maxWidth="md">
-        <Alert severity="error" sx={{ mt: 4 }}>
-          {error || 'Question not found'}
-        </Alert>
-        <Button
-          startIcon={<ArrowBack />}
-          onClick={() => navigate('/practice')}
-          sx={{ mt: 2 }}
-        >
-          Back to Practice
-        </Button>
-      </Container>
-    );
-  }
-
   return (
-    <Container maxWidth="md">
-      <Box sx={{ mt: 4 }}>
+    <Container maxWidth="lg">
+      <Box sx={{ mt: 4, mb: 8 }}>
         <Button
           startIcon={<ArrowBack />}
           onClick={() => navigate('/practice')}
@@ -177,101 +113,127 @@ const QuestionPage: React.FC = () => {
           Back to Practice
         </Button>
 
-        <Card sx={{ mb: 4 }}>
-          <CardContent>
-            <Box sx={{ display: 'flex', gap: 1, mb: 2, flexWrap: 'wrap' }}>
-              <Chip label={question.subject} color="primary" size="small" />
-              {question.grade && (
-                <Chip label={`Grade ${question.grade}`} color="info" size="small" />
-              )}
-              <Chip label={question.difficulty} color="secondary" size="small" />
-              {question.tags && question.tags.map((tag, index) => (
-                <Chip key={index} label={tag} variant="outlined" size="small" />
-              ))}
-            </Box>
-
+        <Paper sx={{ p: 4 }}>
+          {/* Question Header */}
+          <Box sx={{ mb: 3 }}>
+            <Stack direction="row" spacing={1} sx={{ mb: 2 }}>
+              <Chip label={question.subject} color="primary" />
+              <Chip label={`Grade ${question.grade}`} color="info" />
+              <Chip label={question.difficulty} color="secondary" />
+              <Chip label={question.topic} variant="outlined" />
+            </Stack>
             <Typography variant="h5" gutterBottom>
               {question.content}
             </Typography>
+          </Box>
 
-            <Box sx={{ mt: 4 }}>
-              <FormControl component="fieldset" fullWidth>
-                <RadioGroup
-                  value={selectedAnswer}
-                  onChange={handleAnswerChange}
-                >
-                  {question.options?.map((option, index) => (
-                    <FormControlLabel
-                      key={index}
-                      value={option}
-                      control={<Radio />}
-                      label={option}
-                      disabled={submitted}
-                      sx={{
-                        p: 1,
-                        borderRadius: 1,
-                        ...(submitted && option === question.correctAnswer && {
-                          backgroundColor: 'rgba(76, 175, 80, 0.1)',
-                        }),
-                        ...(submitted && selectedAnswer === option && option !== question.correctAnswer && {
-                          backgroundColor: 'rgba(244, 67, 54, 0.1)',
-                        }),
-                      }}
-                    />
-                  ))}
-                </RadioGroup>
-              </FormControl>
-            </Box>
+          <Divider sx={{ my: 3 }} />
 
-            {!submitted ? (
-              <Button
-                variant="contained"
-                color="primary"
-                fullWidth
-                onClick={handleSubmit}
-                disabled={!selectedAnswer}
-                sx={{ mt: 3 }}
+          {/* Answer Options */}
+          <Box sx={{ mb: 3 }}>
+            <Typography variant="h6" gutterBottom>
+              Choose your answer:
+            </Typography>
+            <RadioGroup
+              value={selectedAnswer}
+              onChange={handleAnswerChange}
+            >
+              {question.options.map((option, index) => (
+                <FormControlLabel
+                  key={index}
+                  value={option}
+                  control={<Radio />}
+                  label={option}
+                  disabled={isSubmitted}
+                  sx={{
+                    p: 1,
+                    borderRadius: 1,
+                    ...(isSubmitted && option === question.correctAnswer && {
+                      backgroundColor: 'success.light',
+                      color: 'success.contrastText',
+                    }),
+                    ...(isSubmitted && selectedAnswer === option && option !== question.correctAnswer && {
+                      backgroundColor: 'error.light',
+                      color: 'error.contrastText',
+                    }),
+                  }}
+                />
+              ))}
+            </RadioGroup>
+          </Box>
+
+          {/* Submit Button or Result */}
+          {!isSubmitted ? (
+            <Button
+              variant="contained"
+              color="primary"
+              onClick={handleSubmit}
+              disabled={!selectedAnswer}
+              fullWidth
+            >
+              Submit Answer
+            </Button>
+          ) : (
+            <Box>
+              <Alert
+                icon={isCorrect ? <CheckCircle /> : <Cancel />}
+                severity={isCorrect ? "success" : "error"}
+                sx={{ mb: 3 }}
               >
-                Submit Answer
-              </Button>
-            ) : (
-              <>
-                <Alert
-                  severity={isCorrect ? 'success' : 'error'}
-                  icon={isCorrect ? <Check /> : <Close />}
-                  sx={{ mt: 3 }}
-                >
-                  {isCorrect
-                    ? 'Correct! Well done.'
-                    : `Incorrect. The correct answer is: ${question.correctAnswer}`}
-                </Alert>
+                {isCorrect ? (
+                  "Correct! Well done!"
+                ) : (
+                  <>
+                    Incorrect. The correct answer is: {question.correctAnswer}
+                  </>
+                )}
+              </Alert>
 
-                <Paper elevation={0} sx={{ mt: 3, p: 2, bgcolor: 'background.default' }}>
+              {/* Explanation */}
+              {showExplanation && (
+                <Paper variant="outlined" sx={{ p: 3, mt: 3, bgcolor: 'background.default' }}>
                   <Typography variant="h6" gutterBottom>
                     Explanation
                   </Typography>
-                  <Typography variant="body1" sx={{ whiteSpace: 'pre-line' }}>
+                  <Typography
+                    variant="body1"
+                    component="pre"
+                    sx={{
+                      whiteSpace: 'pre-wrap',
+                      fontFamily: 'inherit',
+                      my: 2
+                    }}
+                  >
                     {question.explanation}
                   </Typography>
+
+                  {/* Additional Information */}
+                  <Box sx={{ mt: 3 }}>
+                    <Typography variant="subtitle2" color="text.secondary" gutterBottom>
+                      Topic: {question.topic}
+                    </Typography>
+                    <Typography variant="subtitle2" color="text.secondary" gutterBottom>
+                      Tags: {question.tags.join(', ')}
+                    </Typography>
+                  </Box>
                 </Paper>
+              )}
 
-                <Divider sx={{ my: 3 }} />
-
-                <Button
-                  variant="contained"
-                  color="primary"
-                  fullWidth
-                  onClick={handleNextQuestion}
-                >
-                  Next Question
-                </Button>
-              </>
-            )}
-          </CardContent>
-        </Card>
+              <Button
+                variant="contained"
+                color="primary"
+                onClick={() => navigate('/practice')}
+                sx={{ mt: 3 }}
+                fullWidth
+              >
+                Try Another Question
+              </Button>
+            </Box>
+          )}
+        </Paper>
       </Box>
     </Container>
   );
 };
 
-export default QuestionPage;
+export default Question;

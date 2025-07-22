@@ -132,10 +132,24 @@ const MathQuestionGenerator: React.FC = () => {
       }
       
       // Mark question as answered in user progress
-      markQuestionAnswered(currentQuestion._id, correct);
+      markQuestionAnswered(
+        currentQuestion._id,
+        correct,
+        currentQuestion.subject,
+        currentQuestion.difficulty,
+        currentQuestion.grade || selectedGrade // Fallback to selectedGrade if grade is undefined
+      );
       
       // Record the question attempt in history
-      recordQuestionAttempt(currentQuestion, selectedAnswer, correct);
+      recordQuestionAttempt(
+        currentQuestion._id,
+        currentQuestion.subject,
+        currentQuestion.difficulty,
+        currentQuestion.grade || selectedGrade, // Fallback to selectedGrade if grade is undefined
+        correct,
+        selectedAnswer,
+        currentQuestion.correctAnswer
+      );
       
       // Mark question as answered in local state
       setAnsweredQuestions(prev => new Set(prev).add(currentQuestion._id));
@@ -150,10 +164,10 @@ const MathQuestionGenerator: React.FC = () => {
       } else {
         // Record the session score when all questions are answered
         recordMathSessionScore(
-          selectedGrade,
-          selectedDifficulty,
           score + (correct ? 1 : 0),
-          questions.length
+          questions.length,
+          selectedDifficulty,
+          selectedGrade
         );
       }
     }, 500);

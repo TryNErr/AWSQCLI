@@ -73,16 +73,34 @@ const generateAdditionQuestion = (grade: string, difficulty: DifficultyLevel): Q
   
   const options = shuffleArray([answer.toString(), ...wrongOptions.map(o => o.toString())]);
   
+  // In generateAdditionQuestion function
+  // In generateAdditionQuestion function
   return {
     _id: generateId(),
     content: `What is ${num1} + ${num2}?`,
     type: QuestionType.MULTIPLE_CHOICE,
     options,
     correctAnswer: answer.toString(),
-    explanation: `${num1} + ${num2} = ${answer}`,
+    explanation: `Let's solve this step by step:
+
+1. We need to add ${num1} and ${num2}
+2. Starting with ${num1}:
+   ${num1 > num2 
+     ? `- Add ${num2} to ${num1}
+   - ${num1} + ${num2} = ${answer}`
+     : `- Add ${num1} to ${num2}
+   - ${num2} + ${num1} = ${answer}`}
+
+The answer is ${answer}.
+
+Tip: When adding larger numbers, you can:
+- Break them into tens and ones
+- Add the ones first, then the tens
+- Or use the column method`,
     subject: 'Math',
+    topic: 'Addition',
     difficulty,
-    tags: ['addition', 'arithmetic'],
+    tags: ['addition', 'arithmetic', 'mental math'],
     grade,
     createdBy: 'system',
     createdAt: new Date(),
@@ -124,16 +142,36 @@ const generateSubtractionQuestion = (grade: string, difficulty: DifficultyLevel)
   
   const options = shuffleArray([answer.toString(), ...wrongOptions.map(o => o.toString())]);
   
+  // In generateSubtractionQuestion function
+  // In generateSubtractionQuestion function
   return {
     _id: generateId(),
     content: `What is ${num1} - ${num2}?`,
     type: QuestionType.MULTIPLE_CHOICE,
     options,
     correctAnswer: answer.toString(),
-    explanation: `${num1} - ${num2} = ${answer}`,
+    explanation: `Let's solve this step by step:
+
+1. We start with ${num1}
+2. We need to subtract ${num2} from it
+3. Breaking it down:
+   ${num1 >= 10 ? 
+     `- ${num1} can be written as ${Math.floor(num1/10) * 10} + ${num1 % 10}
+   - First subtract ${Math.min(num2, num1 % 10)} from ${num1 % 10}
+   - Then subtract the remaining ${Math.max(0, num2 - (num1 % 10))} from ${Math.floor(num1/10) * 10}`
+     : `- Simply count down ${num2} from ${num1}`}
+4. ${num1} - ${num2} = ${answer}
+
+The answer is ${answer}.
+
+Tip: When subtracting:
+- Make sure the larger number is first
+- You can break down larger numbers into tens and ones
+- Or use the column method for bigger numbers`,
     subject: 'Math',
+    topic: 'Subtraction',
     difficulty,
-    tags: ['subtraction', 'arithmetic'],
+    tags: ['subtraction', 'arithmetic', 'mental math'],
     grade,
     createdBy: 'system',
     createdAt: new Date(),
@@ -175,16 +213,39 @@ const generateMultiplicationQuestion = (grade: string, difficulty: DifficultyLev
   
   const options = shuffleArray([answer.toString(), ...wrongOptions.map(o => o.toString())]);
   
+  // In generateMultiplicationQuestion function
+  // In generateMultiplicationQuestion function
   return {
     _id: generateId(),
     content: `What is ${num1} × ${num2}?`,
     type: QuestionType.MULTIPLE_CHOICE,
     options,
     correctAnswer: answer.toString(),
-    explanation: `${num1} × ${num2} = ${answer}`,
+    explanation: `Let's solve this step by step:
+
+1. We need to multiply ${num1} by ${num2}
+2. This means we add ${num1} to itself ${num2} times
+3. Breaking it down:
+   ${num1 <= 5 || num2 <= 5 ?
+     `- ${num1} + ${num1} + ... (${num2} times)
+   - ${Array(num2).fill(num1).join(' + ')} = ${answer}`
+     : `- We can use the multiplication table
+   - ${num1} × ${num2} can be broken down as:
+   - ${num1} × ${Math.floor(num2/2)} = ${num1 * Math.floor(num2/2)}
+   - ${num1} × ${num2 - Math.floor(num2/2)} = ${num1 * (num2 - Math.floor(num2/2))}
+   - Total: ${num1 * Math.floor(num2/2)} + ${num1 * (num2 - Math.floor(num2/2))} = ${answer}`}
+
+The answer is ${answer}.
+
+Tips for multiplication:
+- Break down larger numbers into smaller ones
+- Use known multiplication facts
+- Remember that multiplication is repeated addition
+- ${num1} × ${num2} is the same as ${num2} × ${num1}`,
     subject: 'Math',
+    topic: 'Multiplication',
     difficulty,
-    tags: ['multiplication', 'arithmetic'],
+    tags: ['multiplication', 'arithmetic', 'mental math'],
     grade,
     createdBy: 'system',
     createdAt: new Date(),
@@ -227,16 +288,38 @@ const generateDivisionQuestion = (grade: string, difficulty: DifficultyLevel): Q
   
   const options = shuffleArray([answer.toString(), ...wrongOptions.map(o => o.toString())]);
   
+  // In generateDivisionQuestion function
+  // In generateDivisionQuestion function
   return {
     _id: generateId(),
     content: `What is ${dividend} ÷ ${divisor}?`,
     type: QuestionType.MULTIPLE_CHOICE,
     options,
     correctAnswer: answer.toString(),
-    explanation: `${dividend} ÷ ${divisor} = ${answer}`,
+    explanation: `Let's solve this step by step:
+
+1. We need to divide ${dividend} by ${divisor}
+2. This means we need to find how many groups of ${divisor} make up ${dividend}
+3. Method:
+   ${divisor <= 5 ?
+     `- Count by ${divisor}s until we reach ${dividend}:
+   - ${Array.from({length: quotient}, (_, i) => divisor * (i + 1)).join(', ')}
+   - We counted ${quotient} times to reach ${dividend}`
+     : `- We can use related multiplication facts:
+   - ${divisor} × ${quotient} = ${dividend}
+   - Therefore, ${dividend} ÷ ${divisor} = ${quotient}`}
+
+The answer is ${quotient}.
+
+Tips for division:
+- Division is the opposite of multiplication
+- ${dividend} ÷ ${divisor} = ${quotient} means ${divisor} × ${quotient} = ${dividend}
+- You can use repeated subtraction: keep subtracting ${divisor} from ${dividend} until you reach 0
+- The number of times you subtract is your answer`,
     subject: 'Math',
+    topic: 'Division',
     difficulty,
-    tags: ['division', 'arithmetic'],
+    tags: ['division', 'arithmetic', 'mental math'],
     grade,
     createdBy: 'system',
     createdAt: new Date(),
@@ -369,6 +452,7 @@ const generateFractionQuestion = (grade: string, difficulty: DifficultyLevel): Q
     }
   }
   
+  // In generateFractionQuestion function
   return {
     _id: generateId(),
     content: question,
@@ -377,6 +461,7 @@ const generateFractionQuestion = (grade: string, difficulty: DifficultyLevel): Q
     correctAnswer: answer,
     explanation,
     subject: 'Math',
+    topic: 'Fractions',
     difficulty,
     tags: ['fractions', 'arithmetic'],
     grade,
@@ -492,6 +577,7 @@ const generateAlgebraQuestion = (grade: string, difficulty: DifficultyLevel): Qu
     }
   }
   
+  // In generateAlgebraQuestion function
   return {
     _id: generateId(),
     content: question,
@@ -500,6 +586,7 @@ const generateAlgebraQuestion = (grade: string, difficulty: DifficultyLevel): Qu
     correctAnswer: answer,
     explanation,
     subject: 'Math',
+    topic: 'Algebra',
     difficulty,
     tags: ['algebra', 'equations'],
     grade,
@@ -603,6 +690,7 @@ const generateGeometryQuestion = (grade: string, difficulty: DifficultyLevel): Q
     }
   }
   
+  // In generateGeometryQuestion function
   return {
     _id: generateId(),
     content: question,
@@ -611,6 +699,7 @@ const generateGeometryQuestion = (grade: string, difficulty: DifficultyLevel): Q
     correctAnswer: answer,
     explanation,
     subject: 'Math',
+    topic: 'Geometry',
     difficulty,
     tags: ['geometry', 'area', 'perimeter'],
     grade,

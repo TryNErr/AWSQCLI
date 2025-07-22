@@ -1,12 +1,10 @@
 // User Types
-export interface User {
-  _id: string;
-  username: string;
+export interface BaseUser {
+  id: string;
   email: string;
-  password?: string;
-  profile: UserProfile;
-  stats: UserStats;
-  streaks: StreakData;
+  name: string;
+  grade: string;
+  role?: 'student' | 'teacher' | 'admin';
   createdAt: Date;
   updatedAt: Date;
 }
@@ -15,208 +13,172 @@ export interface UserProfile {
   firstName: string;
   lastName: string;
   avatar?: string;
-  grade?: string;
-  subjects: string[];
-  targetTests: string[];
+  bio?: string;
+  preferences?: {
+    theme?: 'light' | 'dark';
+    notifications?: boolean;
+  };
 }
 
 export interface UserStats {
   totalQuestions: number;
   correctAnswers: number;
+  wrongAnswers: number;
+  averageScore: number;
+  subjectStats: { [subject: string]: SubjectStats };
+}
+
+export interface SubjectStats {
+  totalQuestions: number;
+  correctAnswers: number;
   accuracy: number;
   averageTime: number;
-  weakAreas: string[];
-  strongAreas: string[];
-  totalStudyTime: number;
 }
 
 export interface StreakData {
   current: number;
-  longest: number;
-  lastActivity: Date;
+  best: number;
+  lastActivity?: Date;
+  dailyGoal?: number;
 }
 
 // Question Types
+export enum QuestionType {
+  MULTIPLE_CHOICE = 'MULTIPLE_CHOICE',
+  SHORT_ANSWER = 'SHORT_ANSWER',
+  ESSAY = 'ESSAY'
+}
+
+export enum DifficultyLevel {
+  EASY = 'EASY',
+  MEDIUM = 'MEDIUM',
+  HARD = 'HARD'
+}
+
 export interface Question {
   _id: string;
   content: string;
   type: QuestionType;
-  subject: string;
-  topic?: string;  // Make topic optional
-  difficulty: DifficultyLevel;
-  options?: string[];
-  correctAnswer: string | number;
+  options: string[];
+  correctAnswer: string;
   explanation: string;
-  hints?: string[];  // Make hints optional
-  timeLimit?: number;
+  subject: string;
+  topic: string;
+  difficulty: DifficultyLevel;
   tags: string[];
   createdBy: string;
   createdAt: Date;
+  hints?: string[];
 }
 
-export enum QuestionType {
-  MULTIPLE_CHOICE = 'multiple_choice',
-  TRUE_FALSE = 'true_false',
-  FILL_BLANK = 'fill_blank',
-  ESSAY = 'essay',
-  MATH = 'math'
+// Test Types
+export enum TestMode {
+  PRACTICE = 'PRACTICE',
+  TIMED = 'TIMED',
+  CHALLENGE = 'CHALLENGE'
 }
 
-export enum DifficultyLevel {
-  EASY = 'easy',
-  MEDIUM = 'medium',
-  HARD = 'hard'
-}
-
-// Test Session Types
 export interface TestSession {
-  _id: string;
-  userId: string;
+  id: string;
   mode: TestMode;
-  questions: string[];
-  answers: UserAnswer[];
+  questions: Question[];
   startTime: Date;
   endTime?: Date;
-  timeLimit?: number;
   score?: number;
-  completed: boolean;
-  subject?: string;
-  difficulty?: DifficultyLevel;
-}
-
-export enum TestMode {
-  PRACTICE = 'practice',
-  TIMED = 'timed',
-  DAILY_CHALLENGE = 'daily_challenge'
 }
 
 export interface UserAnswer {
   questionId: string;
-  answer: string | number;
-  timeSpent: number;
+  answer: string;
   isCorrect: boolean;
-  timestamp: Date;
+  timeSpent: number;
 }
 
 // Analytics Types
 export interface Analytics {
-  userId: string;
-  subject: string;
-  topic: string;
-  accuracy: number;
-  averageTime: number;
-  questionsAttempted: number;
-  lastAttempt: Date;
-  improvementTrend: number;
+  totalQuestions: number;
+  correctAnswers: number;
+  averageScore: number;
+  timeSpent: number;
+  subjectBreakdown: { [key: string]: number };
 }
 
 // Leaderboard Types
 export interface LeaderboardEntry {
   userId: string;
   username: string;
-  avatar?: string;
   score: number;
   rank: number;
-  streak: number;
-  totalQuestions: number;
 }
 
-// Writing Critique Types
-export interface WritingSubmission {
-  _id: string;
-  userId: string;
-  title: string;
-  content: string;
-  type: WritingType;
-  submittedAt: Date;
-  critique?: WritingCritique;
-  status: CritiqueStatus;
-}
-
+// Writing Types
 export enum WritingType {
-  ESSAY = 'essay',
-  PARAGRAPH = 'paragraph',
-  CREATIVE = 'creative',
-  ARGUMENTATIVE = 'argumentative'
+  ESSAY = 'ESSAY',
+  STORY = 'STORY',
+  REPORT = 'REPORT'
 }
 
 export enum CritiqueStatus {
-  PENDING = 'pending',
-  PROCESSING = 'processing',
-  COMPLETED = 'completed',
-  FAILED = 'failed'
+  PENDING = 'PENDING',
+  IN_PROGRESS = 'IN_PROGRESS',
+  COMPLETED = 'COMPLETED'
 }
 
-export interface WritingCritique {
-  overallScore: number;
-  grammar: CritiqueSection;
-  structure: CritiqueSection;
-  clarity: CritiqueSection;
-  vocabulary: CritiqueSection;
-  suggestions: string[];
-  strengths: string[];
-  areasForImprovement: string[];
-  processedAt: Date;
+export interface WritingSubmission {
+  id: string;
+  type: WritingType;
+  prompt: string;
+  content: string;
+  userId: string;
+  submittedAt: Date;
+  status: CritiqueStatus;
 }
 
 export interface CritiqueSection {
+  title: string;
+  content: string;
   score: number;
-  feedback: string;
-  examples?: string[];
 }
 
-// API Response Types
-export interface ApiResponse<T = any> {
+export interface WritingCritique {
+  submissionId: string;
+  sections: CritiqueSection[];
+  overallScore: number;
+  feedback: string;
+  completedAt: Date;
+}
+
+// API Types
+export interface ApiResponse<T> {
   success: boolean;
   data?: T;
-  message?: string;
   error?: string;
 }
 
-export interface PaginatedResponse<T> extends ApiResponse<T[]> {
-  pagination: {
-    page: number;
-    limit: number;
-    total: number;
-    pages: number;
-  };
+export interface PaginatedResponse<T> {
+  items: T[];
+  total: number;
+  page: number;
+  pageSize: number;
+  hasMore: boolean;
 }
 
 // Socket Events
-export interface SocketEvents {
-  // Client to Server
-  'join-room': (room: string) => void;
-  'leave-room': (room: string) => void;
-  'start-session': (sessionData: Partial<TestSession>) => void;
-  'submit-answer': (answer: UserAnswer) => void;
-  'end-session': (sessionId: string) => void;
-
-  // Server to Client
-  'session-started': (session: TestSession) => void;
-  'question-update': (question: Question) => void;
-  'answer-result': (result: { correct: boolean; explanation: string }) => void;
-  'session-ended': (results: TestSession) => void;
-  'leaderboard-update': (leaderboard: LeaderboardEntry[]) => void;
+export enum SocketEvents {
+  CONNECT = 'connect',
+  DISCONNECT = 'disconnect',
+  ERROR = 'error',
+  JOIN_ROOM = 'joinRoom',
+  LEAVE_ROOM = 'leaveRoom',
+  NEW_MESSAGE = 'newMessage',
+  USER_JOINED = 'userJoined',
+  USER_LEFT = 'userLeft'
 }
 
-// Configuration Types
+// App Configuration
 export interface AppConfig {
-  database: {
-    url: string;
-    name: string;
-  };
-  jwt: {
-    secret: string;
-    expiresIn: string;
-  };
-  openai: {
-    apiKey: string;
-    model: string;
-  };
-  server: {
-    port: number;
-    cors: {
-      origin: string[];
-    };
-  };
+  apiUrl: string;
+  socketUrl: string;
+  version: string;
+  environment: 'development' | 'production';
 }

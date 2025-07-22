@@ -1,6 +1,6 @@
 // Import shared types
 import {
-  User as BaseUser,
+  BaseUser,
   UserProfile as BaseUserProfile,
   UserStats as BaseUserStats,
   StreakData as BaseStreakData,
@@ -43,7 +43,22 @@ export type {
 
 // Extended User types with frontend-specific properties
 export interface User extends BaseUser {
-  // Additional frontend-specific properties can be added here
+  streaks: {
+    current: number;
+    best: number;
+    lastActivity?: Date;
+  };
+  profile: {
+    firstName: string;
+    lastName: string;
+    avatar?: string;
+  };
+  stats: {
+    totalQuestions: number;
+    correctAnswers: number;
+    wrongAnswers: number;
+    averageScore: number;
+  };
 }
 
 export interface UserProfile extends BaseUserProfile {
@@ -69,7 +84,7 @@ export interface StreakData extends BaseStreakData {
 export interface Question extends BaseQuestion {
   isGenerated?: boolean;
   updatedAt?: Date;
-  grade?: string;
+  grade: string; // Made grade required by removing the optional ?
 }
 
 // Extended PaginatedResponse type

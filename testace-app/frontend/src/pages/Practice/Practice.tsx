@@ -14,10 +14,9 @@ import {
   Select,
   MenuItem,
   SelectChangeEvent,
-  CircularProgress,
-  Badge
+  CircularProgress
 } from '@mui/material';
-import { Add, AutoAwesome, History, NewReleases } from '@mui/icons-material';
+import { Add, History, NewReleases } from '@mui/icons-material';
 import { useNavigate } from 'react-router-dom';
 import { Question, DifficultyLevel } from '../../types';
 import { questionData } from './questionData';
@@ -55,13 +54,20 @@ const Practice: React.FC = () => {
 
   // Extract unique subjects and grades on component mount
   useEffect(() => {
-    const subjectSet = new Set(questionData.map(q => q.subject));
-    const gradeSet = new Set(questionData.map(q => (q as any).grade || ''));
+    // Define all available subjects, including those that can be generated
+    const allSubjects = [
+      'Math',
+      'English',
+      'Thinking Skills',
+      'Mathematical Reasoning',
+      'Science',
+      'Social Studies'
+    ];
     
-    const subjects = Array.from(subjectSet);
+    const gradeSet = new Set(questionData.map(q => (q as any).grade || ''));
     const grades = Array.from(gradeSet).filter(Boolean);
     
-    setAvailableSubjects(subjects);
+    setAvailableSubjects(allSubjects);
     setAvailableGrades(grades);
     
     // Initial load of questions
@@ -243,7 +249,22 @@ const Practice: React.FC = () => {
               >
                 <MenuItem value="">All Subjects</MenuItem>
                 {availableSubjects.map(subject => (
-                  <MenuItem key={subject} value={subject}>{subject}</MenuItem>
+                  <MenuItem key={subject} value={subject}>
+                    <Box sx={{ display: 'flex', alignItems: 'center' }}>
+                      {subject}
+                      {(subject === 'Math' || 
+                        subject === 'English' || 
+                        subject === 'Thinking Skills' || 
+                        subject === 'Mathematical Reasoning') && (
+                        <Chip
+                          label="Auto-generated"
+                          size="small"
+                          color="info"
+                          sx={{ ml: 1 }}
+                        />
+                      )}
+                    </Box>
+                  </MenuItem>
                 ))}
               </Select>
             </FormControl>
@@ -278,84 +299,6 @@ const Practice: React.FC = () => {
           </Box>
           
           <Box sx={{ display: 'flex', gap: 2 }}>
-            <Button 
-              variant="contained" 
-              color="secondary"
-              onClick={() => navigate('/practice/math-generator')}
-              startIcon={<AutoAwesome />}
-            >
-              Auto-Generate Math
-            </Button>
-            
-            <Button 
-              variant="contained" 
-              color="secondary"
-              onClick={handleGenerateThinkingSkills}
-              startIcon={<AutoAwesome />}
-            >
-              Generate Thinking Skills
-            </Button>
-
-            <Button 
-              variant="contained" 
-              color="secondary"
-              onClick={() => {
-                setLoading(true);
-                setSelectedSubject('English');
-                const difficultyLevel = selectedDifficulty === 'easy' 
-                  ? DifficultyLevel.EASY 
-                  : selectedDifficulty === 'hard' 
-                    ? DifficultyLevel.HARD 
-                    : DifficultyLevel.MEDIUM;
-                
-                const generatedQuestions = generateEnglishQuestions(
-                  selectedGrade || getUserGrade(),
-                  difficultyLevel,
-                  10
-                ).map(q => ({
-                  ...q,
-                  isGenerated: true
-                }));
-                
-                saveGeneratedQuestions(generatedQuestions);
-                setQuestions(shuffleArray(generatedQuestions));
-                setLoading(false);
-              }}
-              startIcon={<AutoAwesome />}
-            >
-              Generate English
-            </Button>
-
-            <Button 
-              variant="contained" 
-              color="secondary"
-              onClick={() => {
-                setLoading(true);
-                setSelectedSubject('Mathematical Reasoning');
-                const difficultyLevel = selectedDifficulty === 'easy' 
-                  ? DifficultyLevel.EASY 
-                  : selectedDifficulty === 'hard' 
-                    ? DifficultyLevel.HARD 
-                    : DifficultyLevel.MEDIUM;
-                
-                const generatedQuestions = generateMathematicalReasoningQuestions(
-                  selectedGrade || getUserGrade(),
-                  difficultyLevel,
-                  10
-                ).map(q => ({
-                  ...q,
-                  isGenerated: true
-                }));
-                
-                saveGeneratedQuestions(generatedQuestions);
-                setQuestions(shuffleArray(generatedQuestions));
-                setLoading(false);
-              }}
-              startIcon={<AutoAwesome />}
-            >
-              Generate Mathematical Reasoning
-            </Button>
-            
             <Button 
               variant="contained" 
               color="primary"
@@ -443,11 +386,19 @@ const Practice: React.FC = () => {
                 <Typography variant="h6" color="text.secondary">
                   No questions found for the selected filters.
                 </Typography>
-                {selectedSubject !== 'Math' && selectedSubject !== 'Thinking Skills' && (
-                  <Typography variant="body1" color="text.secondary" sx={{ mt: 2 }}>
-                    Try selecting Math or Thinking Skills as the subject to get auto-generated questions.
-                  </Typography>
-                )}
+                <Typography variant="body1" color="text.secondary" sx={{ mt: 2 }}>
+                  {selectedSubject === 'Science' || selectedSubject === 'Social Studies' ? (
+                    <>
+                      Questions for {selectedSubject} need to be added manually.
+                      Click "Add Question" to contribute questions for this subject.
+                    </>
+                  ) : (
+                    <>
+                      Questions will be automatically generated for {selectedSubject || 'selected subjects'}.
+                      Try adjusting the grade or difficulty filters.
+                    </>
+                  )}
+                </Typography>
                 <Button
                   variant="contained"
                   color="primary"

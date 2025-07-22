@@ -1,181 +1,154 @@
-// This service manages the history of questions answered by the user
-// In a real application, this would be connected to a backend API
-// For now, we'll use localStorage to persist data
-
-import { Question } from '../types';
-
 export interface QuestionAttempt {
   questionId: string;
-  question: string;
   subject: string;
-  grade?: string;
   difficulty: string;
-  userAnswer: string;
-  correctAnswer: string;
+  grade: string;
   isCorrect: boolean;
   timestamp: string;
+  userAnswer: string;
+  correctAnswer: string;
 }
 
-interface QuestionHistory {
-  attempts: QuestionAttempt[];
-  stats: {
-    totalAttempts: number;
-    correctAttempts: number;
-    bySubject: Record<string, { total: number; correct: number }>;
-    byGrade: Record<string, { total: number; correct: number }>;
-    byDifficulty: Record<string, { total: number; correct: number }>;
-  };
+interface QuestionStats {
+  total: number;
+  correct: number;
+  bySubject: { [key: string]: { total: number; correct: number } };
+  byDifficulty: { [key: string]: { total: number; correct: number } };
 }
-
-// Get the current user's ID (in a real app, this would come from authentication)
-const getCurrentUserId = (): string => {
-  return localStorage.getItem('userId') || 'demo-user';
-};
-
-// Initialize question history
-const initQuestionHistory = (): QuestionHistory => {
-  return {
-    attempts: [],
-    stats: {
-      totalAttempts: 0,
-      correctAttempts: 0,
-      bySubject: {},
-      byGrade: {},
-      byDifficulty: {}
-    }
-  };
-};
-
-// Get question history from localStorage
-export const getQuestionHistory = (): QuestionHistory => {
-  const userId = getCurrentUserId();
-  const historyKey = `testace_question_history_${userId}`;
-  
-  const storedHistory = localStorage.getItem(historyKey);
-  if (storedHistory) {
-    try {
-      return JSON.parse(storedHistory);
-    } catch (error) {
-      console.error('Error parsing question history:', error);
-      return initQuestionHistory();
-    }
-  }
-  
-  return initQuestionHistory();
-};
-
-// Save question history to localStorage
-const saveQuestionHistory = (history: QuestionHistory): void => {
-  const userId = getCurrentUserId();
-  const historyKey = `testace_question_history_${userId}`;
-  
-  localStorage.setItem(historyKey, JSON.stringify(history));
-};
 
 // Record a question attempt
 export const recordQuestionAttempt = (
-  question: Question,
+  questionId: string,
+  subject: string,
+  difficulty: string,
+  grade: string,
+  isCorrect: boolean,
   userAnswer: string,
-  isCorrect: boolean
+  correctAnswer: string
 ): void => {
-  const history = getQuestionHistory();
-  
-  // Create the attempt record
-  const attempt: QuestionAttempt = {
-    questionId: question._id,
-    question: question.content,
-    subject: question.subject,
-    grade: question.grade,
-    difficulty: question.difficulty,
-    userAnswer,
-    correctAnswer: String(question.correctAnswer),  // Convert to string
+  const historyKey = 'question_history';
+  const existingHistory = localStorage.getItem(historyKey);
+  const history: QuestionAttempt[] = existingHistory ? JSON.parse(existingHistory) : [];
+
+  // Add new attempt
+  history.push({
+    questionId,
+    subject,
+    difficulty,
+    grade,
     isCorrect,
+    userAnswer,
+    correctAnswer,
     timestamp: new Date().toISOString()
+  });
+
+  // Keep only last 100 attempts
+  if (history.length > 100) {
+    history.shift();
+  }
+
+  localStorage.setItem(historyKey, JSON.stringify(history));
+};
+
+// Get all question attempts
+export const getQuestionAttempts = (): QuestionAttempt[] => {
+  const historyKey = 'question_history';
+  const history = localStorage.getItem(historyKey);
+  return history ? JSON.parse(history) : [];
+};
+
+// Get question attempt history for a specific subject
+export const getSubjectQuestionHistory = (subject: string): QuestionAttempt[] => {
+  const history = getQuestionAttempts();
+  return history.filter(attempt => attempt.subject === subject);
+};
+
+// Get recent question attempts (last n attempts)
+export const getRecentQuestionAttempts = (limit: number = 10): QuestionAttempt[] => {
+  const history = getQuestionAttempts();
+  return history.slice(-limit);
+};
+
+// Get performance statistics
+export const getQuestionStats = (): QuestionStats => {
+  const history = getQuestionAttempts();
+  const stats: QuestionStats = {
+    total: history.length,
+    correct: history.filter(attempt => attempt.isCorrect).length,
+    bySubject: {},
+    byDifficulty: {}
   };
-  
-  // Add to attempts array (at the beginning for most recent first)
-  history.attempts.unshift(attempt);
-  
-  // Update overall stats
-  history.stats.totalAttempts++;
-  if (isCorrect) {
-    history.stats.correctAttempts++;
-  }
-  
-  // Update subject stats
-  if (!history.stats.bySubject[question.subject]) {
-    history.stats.bySubject[question.subject] = { total: 0, correct: 0 };
-  }
-  history.stats.bySubject[question.subject].total++;
-  if (isCorrect) {
-    history.stats.bySubject[question.subject].correct++;
-  }
-  
-  // Update grade stats (if grade is available)
-  if (question.grade) {
-    if (!history.stats.byGrade[question.grade]) {
-      history.stats.byGrade[question.grade] = { total: 0, correct: 0 };
+
+  history.forEach(attempt => {
+    // Subject stats
+    if (!stats.bySubject[attempt.subject]) {
+      stats.bySubject[attempt.subject] = { total: 0, correct: 0 };
     }
-    history.stats.byGrade[question.grade].total++;
-    if (isCorrect) {
-      history.stats.byGrade[question.grade].correct++;
+    stats.bySubject[attempt.subject].total++;
+    if (attempt.isCorrect) {
+      stats.bySubject[attempt.subject].correct++;
     }
-  }
-  
-  // Update difficulty stats
-  if (!history.stats.byDifficulty[question.difficulty]) {
-    history.stats.byDifficulty[question.difficulty] = { total: 0, correct: 0 };
-  }
-  history.stats.byDifficulty[question.difficulty].total++;
-  if (isCorrect) {
-    history.stats.byDifficulty[question.difficulty].correct++;
-  }
-  
-  // Save the updated history
-  saveQuestionHistory(history);
+
+    // Difficulty stats
+    if (!stats.byDifficulty[attempt.difficulty]) {
+      stats.byDifficulty[attempt.difficulty] = { total: 0, correct: 0 };
+    }
+    stats.byDifficulty[attempt.difficulty].total++;
+    if (attempt.isCorrect) {
+      stats.byDifficulty[attempt.difficulty].correct++;
+    }
+  });
+
+  return stats;
 };
 
-// Get question attempts (with optional filtering)
-export const getQuestionAttempts = (
-  limit?: number,
-  subject?: string,
-  grade?: string,
-  difficulty?: string
-): QuestionAttempt[] => {
-  const history = getQuestionHistory();
+// Get performance trend data
+export const getPerformanceTrend = (days: number = 7): { date: string; correct: number; total: number }[] => {
+  const history = getQuestionAttempts();
+  const trend: { [key: string]: { correct: number; total: number } } = {};
   
-  let filteredAttempts = history.attempts;
-  
-  // Apply filters if provided
-  if (subject) {
-    filteredAttempts = filteredAttempts.filter(attempt => attempt.subject === subject);
+  // Initialize dates
+  for (let i = 0; i < days; i++) {
+    const date = new Date();
+    date.setDate(date.getDate() - i);
+    const dateStr = date.toISOString().split('T')[0];
+    trend[dateStr] = { correct: 0, total: 0 };
   }
-  
-  if (grade) {
-    filteredAttempts = filteredAttempts.filter(attempt => attempt.grade === grade);
-  }
-  
-  if (difficulty) {
-    filteredAttempts = filteredAttempts.filter(attempt => attempt.difficulty === difficulty);
-  }
-  
-  // Apply limit if provided
-  if (limit && limit > 0) {
-    filteredAttempts = filteredAttempts.slice(0, limit);
-  }
-  
-  return filteredAttempts;
+
+  // Fill in actual data
+  history.forEach(attempt => {
+    const date = new Date(attempt.timestamp).toISOString().split('T')[0];
+    if (trend[date]) {
+      trend[date].total++;
+      if (attempt.isCorrect) {
+        trend[date].correct++;
+      }
+    }
+  });
+
+  // Convert to array and sort by date
+  return Object.entries(trend)
+    .map(([date, stats]) => ({
+      date,
+      ...stats
+    }))
+    .sort((a, b) => a.date.localeCompare(b.date));
 };
 
-// Get question statistics
-export const getQuestionStats = () => {
-  const history = getQuestionHistory();
-  return history.stats;
+// Get subject performance data
+export const getSubjectPerformance = (): { subject: string; correct: number; total: number }[] => {
+  const stats = getQuestionStats();
+  return Object.entries(stats.bySubject).map(([subject, data]) => ({
+    subject,
+    ...data
+  }));
 };
 
-// Clear question history (for testing)
-export const clearQuestionHistory = (): void => {
-  const userId = getCurrentUserId();
-  const historyKey = `testace_question_history_${userId}`;
-  localStorage.removeItem(historyKey);
+// Get difficulty level performance data
+export const getDifficultyPerformance = (): { difficulty: string; correct: number; total: number }[] => {
+  const stats = getQuestionStats();
+  return Object.entries(stats.byDifficulty).map(([difficulty, data]) => ({
+    difficulty,
+    ...data
+  }));
 };

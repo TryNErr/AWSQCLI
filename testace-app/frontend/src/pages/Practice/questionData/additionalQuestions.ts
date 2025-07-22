@@ -17,6 +17,7 @@ export const additionalEasyQuestions: Question[] = [
     correctAnswer: '20',
     explanation: '12 + 8 = 20',
     subject: 'Math',
+    topic: 'Arithmetic',  // Added topic
     difficulty: DifficultyLevel.EASY,
     tags: ['addition', 'arithmetic'],
     grade: '3',
@@ -36,6 +37,7 @@ export const additionalMediumQuestions: Question[] = [
     correctAnswer: '25',
     explanation: '3² = 9 and 4² = 16, so 3² + 4² = 9 + 16 = 25',
     subject: 'Math',
+    topic: 'Exponents',  // Added topic
     difficulty: DifficultyLevel.MEDIUM,
     tags: ['exponents', 'arithmetic'],
     grade: '6',
@@ -55,6 +57,7 @@ export const additionalHardQuestions: Question[] = [
     correctAnswer: 'x = 3 or x = -0.5',
     explanation: 'Using the quadratic formula: x = (-b ± √(b² - 4ac)) / 2a where a=2, b=-5, c=-3. This gives x = (5 ± √(25 + 24)) / 4 = (5 ± √49) / 4 = (5 ± 7) / 4, so x = 3 or x = -0.5',
     subject: 'Math',
+    topic: 'Quadratic Equations',  // Added topic
     difficulty: DifficultyLevel.HARD,
     tags: ['algebra', 'quadratic equations'],
     grade: '9',
