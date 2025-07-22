@@ -26,9 +26,17 @@ import {
   List,
   ListItem,
   ListItemText,
-  ListItemIcon
+  ListItemIcon,
+  Dialog,
+  DialogTitle,
+  DialogContent,
+  DialogActions,
+  RadioGroup,
+  FormControlLabel,
+  Radio,
+  IconButton
 } from '@mui/material';
-import { CheckCircle, Cancel, ArrowBack, Timeline } from '@mui/icons-material';
+import { CheckCircle, Cancel, ArrowBack, Timeline, Info, Close as CloseIcon } from '@mui/icons-material';
 import { useNavigate } from 'react-router-dom';
 import { 
   getQuestionAttempts, 
@@ -36,7 +44,8 @@ import {
   QuestionAttempt,
   getPerformanceTrend,
   getSubjectPerformance,
-  getDifficultyPerformance
+  getDifficultyPerformance,
+  getQuestionDetails
 } from '../../services/questionHistoryService';
 import {
   BarChart,
@@ -66,6 +75,8 @@ const QuestionHistory: React.FC = () => {
   const [performanceTrend, setPerformanceTrend] = useState<any[]>([]);
   const [subjectPerformance, setSubjectPerformance] = useState<any[]>([]);
   const [difficultyPerformance, setDifficultyPerformance] = useState<any[]>([]);
+  const [dialogOpen, setDialogOpen] = useState(false);
+  const [selectedQuestion, setSelectedQuestion] = useState<any>(null);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -119,6 +130,32 @@ const QuestionHistory: React.FC = () => {
   const handleDifficultyChange = (event: SelectChangeEvent) => {
     setSelectedDifficulty(event.target.value);
     setPage(0);
+  };
+
+  const handleQuestionClick = (attempt: QuestionAttempt) => {
+    // Get full question details including options and explanation
+    const questionDetails = getQuestionDetails(attempt.questionId);
+    if (questionDetails) {
+      setSelectedQuestion({
+        ...attempt,
+        ...questionDetails
+      });
+      setDialogOpen(true);
+    } else {
+      // If we can't find the question details, still show what we have
+      console.log(`Question details not found for ID: ${attempt.questionId}`);
+      setSelectedQuestion({
+        ...attempt,
+        content: `Question ${attempt.questionId}`,
+        options: [attempt.userAnswer, attempt.correctAnswer].filter((v, i, a) => a.indexOf(v) === i), // Unique values
+        explanation: "Detailed explanation not available for this question."
+      });
+      setDialogOpen(true);
+    }
+  };
+
+  const handleCloseDialog = () => {
+    setDialogOpen(false);
   };
 
   const stats = getQuestionStats();
@@ -394,6 +431,126 @@ const QuestionHistory: React.FC = () => {
           </TableContainer>
         )}
       </Box>
+
+      {/* Question Detail Dialog */}
+      <Dialog 
+        open={dialogOpen} 
+        onClose={handleCloseDialog}
+        maxWidth="md"
+        fullWidth
+      >
+        <DialogTitle>
+          Question Details
+          <IconButton
+            aria-label="close"
+            onClick={handleCloseDialog}
+            sx={{
+              position: 'absolute',
+              right: 8,
+              top: 8,
+            }}
+          >
+            <CloseIcon />
+          </IconButton>
+        </DialogTitle>
+        <DialogContent dividers>
+          {selectedQuestion && (
+            <Box>
+              <Typography variant="h6" gutterBottom>
+                {selectedQuestion.content || `Question ${selectedQuestion.questionId}`}
+              </Typography>
+              
+              <Box sx={{ my: 2 }}>
+                <Typography variant="subtitle1" gutterBottom>
+                  Options:
+                </Typography>
+                {selectedQuestion.options && selectedQuestion.options.length > 0 ? (
+                  <RadioGroup value={selectedQuestion.correctAnswer}>
+                    {selectedQuestion.options.map((option: string, index: number) => (
+                      <FormControlLabel
+                        key={index}
+                        value={option}
+                        control={
+                          <Radio 
+                            color={option === selectedQuestion.correctAnswer ? "success" : 
+                                  (option === selectedQuestion.userAnswer && option !== selectedQuestion.correctAnswer) ? "error" : "default"}
+                            checked={option === selectedQuestion.correctAnswer || option === selectedQuestion.userAnswer}
+                          />
+                        }
+                        label={
+                          <Box component="span" sx={{ 
+                            color: option === selectedQuestion.correctAnswer ? "success.main" : 
+                                  (option === selectedQuestion.userAnswer && option !== selectedQuestion.correctAnswer) ? "error.main" : "text.primary"
+                          }}>
+                            {option}
+                            {option === selectedQuestion.correctAnswer && " (Correct Answer)"}
+                            {option === selectedQuestion.userAnswer && option !== selectedQuestion.correctAnswer && " (Your Answer)"}
+                          </Box>
+                        }
+                      />
+                    ))}
+                  </RadioGroup>
+                ) : (
+                  <Box sx={{ p: 2, bgcolor: 'background.paper', borderRadius: 1, border: '1px solid rgba(0, 0, 0, 0.12)' }}>
+                    <Typography variant="body1">
+                      Your answer: {selectedQuestion.userAnswer}
+                    </Typography>
+                    <Typography variant="body1" sx={{ color: 'success.main', mt: 1 }}>
+                      Correct answer: {selectedQuestion.correctAnswer}
+                    </Typography>
+                  </Box>
+                )}
+              </Box>
+              
+              {selectedQuestion.explanation && (
+                <Box sx={{ mt: 3, p: 2, bgcolor: 'background.paper', borderRadius: 1, border: '1px solid rgba(0, 0, 0, 0.12)' }}>
+                  <Typography variant="subtitle1" gutterBottom>
+                    Explanation:
+                  </Typography>
+                  <Typography variant="body1">
+                    {selectedQuestion.explanation}
+                  </Typography>
+                </Box>
+              )}
+              
+              <Box sx={{ mt: 3, display: 'flex', flexWrap: 'wrap', gap: 1 }}>
+                <Chip label={`Subject: ${selectedQuestion.subject}`} color="primary" />
+                <Chip label={`Grade: ${selectedQuestion.grade}`} color="info" />
+                <Chip label={`Difficulty: ${selectedQuestion.difficulty}`} 
+                  color={
+                    selectedQuestion.difficulty === 'EASY' ? 'success' :
+                    selectedQuestion.difficulty === 'MEDIUM' ? 'warning' : 'error'
+                  } 
+                />
+                <Chip 
+                  icon={selectedQuestion.isCorrect ? <CheckCircle /> : <Cancel />}
+                  label={selectedQuestion.isCorrect ? "Correct" : "Incorrect"} 
+                  color={selectedQuestion.isCorrect ? "success" : "error"} 
+                />
+              </Box>
+              
+              <Typography variant="caption" display="block" sx={{ mt: 2, color: 'text.secondary' }}>
+                Attempted on: {new Date(selectedQuestion.timestamp).toLocaleString()}
+              </Typography>
+            </Box>
+          )}
+        </DialogContent>
+        <DialogActions>
+          <Button 
+            size="small" 
+            color="info" 
+            onClick={() => {
+              if (selectedQuestion) {
+                console.log('Question details:', selectedQuestion);
+                alert(`Question ID: ${selectedQuestion.questionId}\nCheck browser console for full details`);
+              }
+            }}
+          >
+            Debug Info
+          </Button>
+          <Button onClick={handleCloseDialog}>Close</Button>
+        </DialogActions>
+      </Dialog>
     </Container>
   );
 };

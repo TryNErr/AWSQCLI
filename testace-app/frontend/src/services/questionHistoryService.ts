@@ -7,6 +7,9 @@ export interface QuestionAttempt {
   timestamp: string;
   userAnswer: string;
   correctAnswer: string;
+  content?: string;
+  options?: string[];
+  explanation?: string;
 }
 
 interface QuestionStats {
@@ -24,7 +27,10 @@ export const recordQuestionAttempt = (
   grade: string,
   isCorrect: boolean,
   userAnswer: string,
-  correctAnswer: string
+  correctAnswer: string,
+  content?: string,
+  options?: string[],
+  explanation?: string
 ): void => {
   const historyKey = 'question_history';
   const existingHistory = localStorage.getItem(historyKey);
@@ -39,6 +45,9 @@ export const recordQuestionAttempt = (
     isCorrect,
     userAnswer,
     correctAnswer,
+    content,
+    options,
+    explanation,
     timestamp: new Date().toISOString()
   });
 
@@ -151,4 +160,82 @@ export const getDifficultyPerformance = (): { difficulty: string; correct: numbe
     difficulty,
     ...data
   }));
+};
+
+// Get full question details including options and explanation
+export const getQuestionDetails = (questionId: string): any => {
+  console.log(`Searching for question details for ID: ${questionId}`);
+  
+  // First check in the question history itself
+  const historyKey = 'question_history';
+  const historyStr = localStorage.getItem(historyKey);
+  if (historyStr) {
+    try {
+      const history = JSON.parse(historyStr);
+      const historyItem = history.find((h: QuestionAttempt) => 
+        h.questionId === questionId && h.content && h.options);
+      
+      if (historyItem && historyItem.content && historyItem.options) {
+        console.log(`Found question details in history for ID: ${questionId}`);
+        return {
+          content: historyItem.content,
+          options: historyItem.options,
+          explanation: historyItem.explanation || "No explanation available.",
+          subject: historyItem.subject,
+          difficulty: historyItem.difficulty,
+          grade: historyItem.grade
+        };
+      }
+    } catch (error) {
+      console.error('Error parsing question history:', error);
+    }
+  }
+  
+  // Then check in generated questions
+  const generatedQuestionsStr = localStorage.getItem('generated_questions');
+  if (generatedQuestionsStr) {
+    try {
+      const generatedQuestions = JSON.parse(generatedQuestionsStr);
+      const question = generatedQuestions.find((q: any) => q._id === questionId);
+      if (question) {
+        console.log(`Found question details in generated questions for ID: ${questionId}`);
+        return {
+          content: question.content,
+          options: question.options,
+          explanation: question.explanation,
+          subject: question.subject,
+          difficulty: question.difficulty,
+          grade: question.grade
+        };
+      }
+    } catch (error) {
+      console.error('Error parsing generated questions:', error);
+    }
+  }
+  
+  // Then check in question data (if available)
+  try {
+    const questionDataStr = localStorage.getItem('question_data');
+    if (questionDataStr) {
+      const questionData = JSON.parse(questionDataStr);
+      const question = questionData.find((q: any) => q._id === questionId);
+      if (question) {
+        console.log(`Found question details in question data for ID: ${questionId}`);
+        return {
+          content: question.content,
+          options: question.options,
+          explanation: question.explanation,
+          subject: question.subject,
+          difficulty: question.difficulty,
+          grade: question.grade
+        };
+      }
+    }
+  } catch (error) {
+    console.error('Error getting question details from question data:', error);
+  }
+  
+  // If we can't find the question, log and return null
+  console.warn(`Could not find question details for ID: ${questionId}`);
+  return null;
 };
