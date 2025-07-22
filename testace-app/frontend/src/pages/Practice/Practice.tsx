@@ -82,8 +82,11 @@ const Practice: React.FC = () => {
     // Get answered question IDs
     const answeredQuestionIds = getAnsweredQuestionIds();
     
-    // Apply filters
-    let filteredQuestions = [...questionData];
+    // Get all questions (both standard and generated)
+    const allQuestions = [...questionData, ...getGeneratedQuestions()];
+    
+    // Apply filters to all questions at once
+    let filteredQuestions = allQuestions;
     
     if (selectedSubject) {
       filteredQuestions = filteredQuestions.filter(q => q.subject === selectedSubject);
@@ -102,36 +105,11 @@ const Practice: React.FC = () => {
       });
     }
     
-    // Also check generated questions
-    const generatedQuestions = getGeneratedQuestions();
-    let filteredGeneratedQuestions = [...generatedQuestions];
-    
-    if (selectedSubject) {
-      filteredGeneratedQuestions = filteredGeneratedQuestions.filter(q => q.subject === selectedSubject);
-    }
-    
-    if (selectedGrade) {
-      filteredGeneratedQuestions = filteredGeneratedQuestions.filter(q => q.grade === selectedGrade);
-    }
-    
-    if (selectedDifficulty) {
-      filteredGeneratedQuestions = filteredGeneratedQuestions.filter(q => {
-        if (selectedDifficulty === 'easy') return q.difficulty === DifficultyLevel.EASY;
-        if (selectedDifficulty === 'medium') return q.difficulty === DifficultyLevel.MEDIUM;
-        if (selectedDifficulty === 'hard') return q.difficulty === DifficultyLevel.HARD;
-        return true;
-      });
-    }
-    
-    // Combine standard and generated questions
-    filteredQuestions = [...filteredQuestions, ...filteredGeneratedQuestions];
-    
     // Filter out answered questions
     const unansweredQuestions = filteredQuestions.filter(q => !answeredQuestionIds.includes(q._id));
     
     // If we have fewer than 10 unanswered questions, generate new ones
     let finalQuestions = [...unansweredQuestions];
-    let newGeneratedQuestions: Question[] = [];
     
     if (unansweredQuestions.length < 10) {
       // Determine how many questions to generate
@@ -144,6 +122,8 @@ const Practice: React.FC = () => {
       if (selectedDifficulty === 'hard') difficultyLevel = DifficultyLevel.HARD;
       
       // Generate questions based on subject
+      let newGeneratedQuestions: Question[] = [];
+      
       if (!selectedSubject || selectedSubject === 'Math') {
         newGeneratedQuestions = generateMathQuestions(
           selectedGrade || getUserGrade(),
@@ -173,16 +153,17 @@ const Practice: React.FC = () => {
       // Mark generated questions
       newGeneratedQuestions = newGeneratedQuestions.map(q => ({
         ...q,
-        isGenerated: true // Add a flag to identify generated questions
+        isGenerated: true
       }));
       
       // Save the generated questions to localStorage
-      saveGeneratedQuestions(newGeneratedQuestions);
+      saveGeneratedQuestions([...getGeneratedQuestions(), ...newGeneratedQuestions]);
       
+      // Add new questions to final questions
       finalQuestions = [...unansweredQuestions, ...newGeneratedQuestions];
     }
     
-    // Shuffle questions to randomize the order
+    // Shuffle all questions together
     const shuffledQuestions = shuffleArray(finalQuestions);
     
     // Limit to 10 questions for display
