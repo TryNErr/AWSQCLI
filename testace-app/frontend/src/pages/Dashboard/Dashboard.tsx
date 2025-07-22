@@ -12,6 +12,10 @@ import { useNavigate } from 'react-router-dom';
 
 const Dashboard: React.FC = () => {
   const navigate = useNavigate();
+  
+  React.useEffect(() => {
+    console.log('Dashboard component mounted');
+  }, []);
 
   return (
     <Container maxWidth="lg">
