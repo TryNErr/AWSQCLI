@@ -4,6 +4,7 @@ import Layout from './components/Layout';
 import Dashboard from './pages/Dashboard/Dashboard';
 import Practice from './pages/Practice/Practice';
 import Question from './pages/Practice/Question';
+import QuestionHistory from './pages/Practice/QuestionHistory';
 import TimedTest from './pages/TimedTest/TimedTest';
 import TimedTestResults from './pages/TimedTest/TimedTestResults';
 import Profile from './pages/Profile/Profile';
@@ -28,6 +29,11 @@ const App: React.FC = () => {
         <Route path="/practice/question/:id" element={
           <Layout>
             <Question />
+          </Layout>
+        } />
+        <Route path="/practice/history" element={
+          <Layout>
+            <QuestionHistory />
           </Layout>
         } />
         <Route path="/timed-test" element={

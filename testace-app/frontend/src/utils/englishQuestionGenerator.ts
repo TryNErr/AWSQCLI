@@ -477,17 +477,44 @@ export const generateEnglishQuestions = (
   count: number = 5
 ): Question[] => {
   const questions: Question[] = [];
+  const generatedContents = new Set<string>(); // Track question content to ensure uniqueness
   
-  for (let i = 0; i < count; i++) {
+  let attempts = 0;
+  const maxAttempts = count * 3; // Limit attempts to prevent infinite loops
+  
+  while (questions.length < count && attempts < maxAttempts) {
+    attempts++;
+    
     // Choose a question type based on a random distribution
     const questionType = Math.random();
     
+    let newQuestion;
     if (questionType < 0.33) {
-      questions.push(generateGrammarQuestion(grade, difficulty));
+      newQuestion = generateGrammarQuestion(grade, difficulty);
     } else if (questionType < 0.67) {
-      questions.push(generateVocabularyQuestion(grade, difficulty));
+      newQuestion = generateVocabularyQuestion(grade, difficulty);
     } else {
-      questions.push(generateComprehensionQuestion(grade, difficulty));
+      newQuestion = generateComprehensionQuestion(grade, difficulty);
+    }
+    
+    // Check if this question content is unique in our current batch
+    if (!generatedContents.has(newQuestion.content)) {
+      generatedContents.add(newQuestion.content);
+      questions.push(newQuestion);
+    }
+  }
+  
+  // If we couldn't generate enough unique questions, fill with slightly modified versions
+  if (questions.length < count) {
+    const baseLength = questions.length;
+    for (let i = 0; i < count - baseLength; i++) {
+      const index = i % baseLength; // Cycle through existing questions
+      const baseQuestion = {...questions[index]};
+      
+      // Modify the question slightly to make it unique
+      baseQuestion._id = generateId();
+      baseQuestion.content = `${baseQuestion.content} (Variant ${i+1})`;
+      questions.push(baseQuestion);
     }
   }
   

@@ -345,7 +345,14 @@ const QuestionHistory: React.FC = () => {
                 {attempts
                   .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
                   .map((attempt, index) => (
-                    <TableRow key={index}>
+                    <TableRow 
+                      key={index}
+                      onClick={() => handleQuestionClick(attempt)}
+                      sx={{ 
+                        cursor: 'pointer',
+                        '&:hover': { backgroundColor: 'rgba(0, 0, 0, 0.04)' }
+                      }}
+                    >
                       <TableCell>Question {attempt.questionId}</TableCell>
                       <TableCell>{attempt.subject}</TableCell>
                       <TableCell>
