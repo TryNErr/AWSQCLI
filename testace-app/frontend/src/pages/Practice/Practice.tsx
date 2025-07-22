@@ -25,6 +25,8 @@ import { getUserGrade } from '../../services/userContextService';
 import { getAnsweredQuestionIds } from '../../services/userProgressService';
 import { generateMathQuestions } from '../../utils/mathQuestionGenerator';
 import { generateThinkingSkillsQuestions } from '../../utils/thinkingSkillsQuestionGenerator';
+import { generateEnglishQuestions } from '../../utils/englishQuestionGenerator';
+import { generateMathematicalReasoningQuestions } from '../../utils/mathematicalReasoningQuestionGenerator';
 import { saveGeneratedQuestions, getGeneratedQuestions } from '../../services/generatedQuestionsService';
 
 // Helper function to shuffle an array
@@ -150,6 +152,18 @@ const Practice: React.FC = () => {
         );
       } else if (selectedSubject === 'Thinking Skills') {
         newGeneratedQuestions = generateThinkingSkillsQuestions(
+          selectedGrade || getUserGrade(),
+          difficultyLevel,
+          questionsToGenerate
+        );
+      } else if (selectedSubject === 'English') {
+        newGeneratedQuestions = generateEnglishQuestions(
+          selectedGrade || getUserGrade(),
+          difficultyLevel,
+          questionsToGenerate
+        );
+      } else if (selectedSubject === 'Mathematical Reasoning') {
+        newGeneratedQuestions = generateMathematicalReasoningQuestions(
           selectedGrade || getUserGrade(),
           difficultyLevel,
           questionsToGenerate
@@ -299,6 +313,66 @@ const Practice: React.FC = () => {
               startIcon={<AutoAwesome />}
             >
               Generate Thinking Skills
+            </Button>
+
+            <Button 
+              variant="contained" 
+              color="secondary"
+              onClick={() => {
+                setLoading(true);
+                setSelectedSubject('English');
+                const difficultyLevel = selectedDifficulty === 'easy' 
+                  ? DifficultyLevel.EASY 
+                  : selectedDifficulty === 'hard' 
+                    ? DifficultyLevel.HARD 
+                    : DifficultyLevel.MEDIUM;
+                
+                const generatedQuestions = generateEnglishQuestions(
+                  selectedGrade || getUserGrade(),
+                  difficultyLevel,
+                  10
+                ).map(q => ({
+                  ...q,
+                  isGenerated: true
+                }));
+                
+                saveGeneratedQuestions(generatedQuestions);
+                setQuestions(shuffleArray(generatedQuestions));
+                setLoading(false);
+              }}
+              startIcon={<AutoAwesome />}
+            >
+              Generate English
+            </Button>
+
+            <Button 
+              variant="contained" 
+              color="secondary"
+              onClick={() => {
+                setLoading(true);
+                setSelectedSubject('Mathematical Reasoning');
+                const difficultyLevel = selectedDifficulty === 'easy' 
+                  ? DifficultyLevel.EASY 
+                  : selectedDifficulty === 'hard' 
+                    ? DifficultyLevel.HARD 
+                    : DifficultyLevel.MEDIUM;
+                
+                const generatedQuestions = generateMathematicalReasoningQuestions(
+                  selectedGrade || getUserGrade(),
+                  difficultyLevel,
+                  10
+                ).map(q => ({
+                  ...q,
+                  isGenerated: true
+                }));
+                
+                saveGeneratedQuestions(generatedQuestions);
+                setQuestions(shuffleArray(generatedQuestions));
+                setLoading(false);
+              }}
+              startIcon={<AutoAwesome />}
+            >
+              Generate Mathematical Reasoning
             </Button>
             
             <Button 
