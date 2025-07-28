@@ -1,6 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Layout from './components/Layout';
+import PrivateRoute from './components/PrivateRoute';
 import Dashboard from './pages/Dashboard/Dashboard';
 import Practice from './pages/Practice/Practice';
 import Question from './pages/Practice/Question';
@@ -10,52 +11,85 @@ import TimedTestResults from './pages/TimedTest/TimedTestResults';
 import Profile from './pages/Profile/Profile';
 import Settings from './pages/Settings/Settings';
 import Login from './pages/Auth/Login';
+import Register from './pages/Auth/Register';
+import { useAuth } from './contexts/AuthContext';
 
 const App: React.FC = () => {
+  const { user } = useAuth();
+
   return (
     <Router>
       <Routes>
-        <Route path="/login" element={<Login />} />
+        {/* Public routes */}
+        <Route
+          path="/login"
+          element={user ? <Navigate to="/" /> : <Login />}
+        />
+        <Route
+          path="/register"
+          element={user ? <Navigate to="/" /> : <Register />}
+        />
+
+        {/* Protected routes */}
         <Route path="/" element={
-          <Layout>
-            <Dashboard />
-          </Layout>
+          <PrivateRoute>
+            <Layout>
+              <Dashboard />
+            </Layout>
+          </PrivateRoute>
         } />
         <Route path="/practice" element={
-          <Layout>
-            <Practice />
-          </Layout>
+          <PrivateRoute>
+            <Layout>
+              <Practice />
+            </Layout>
+          </PrivateRoute>
         } />
         <Route path="/practice/question/:id" element={
-          <Layout>
-            <Question />
-          </Layout>
+          <PrivateRoute>
+            <Layout>
+              <Question />
+            </Layout>
+          </PrivateRoute>
         } />
         <Route path="/practice/history" element={
-          <Layout>
-            <QuestionHistory />
-          </Layout>
+          <PrivateRoute>
+            <Layout>
+              <QuestionHistory />
+            </Layout>
+          </PrivateRoute>
         } />
         <Route path="/timed-test" element={
-          <Layout>
-            <TimedTest />
-          </Layout>
+          <PrivateRoute>
+            <Layout>
+              <TimedTest />
+            </Layout>
+          </PrivateRoute>
         } />
         <Route path="/timed-test/results" element={
-          <Layout>
-            <TimedTestResults />
-          </Layout>
+          <PrivateRoute>
+            <Layout>
+              <TimedTestResults />
+            </Layout>
+          </PrivateRoute>
         } />
         <Route path="/profile" element={
-          <Layout>
-            <Profile />
-          </Layout>
+          <PrivateRoute>
+            <Layout>
+              <Profile />
+            </Layout>
+          </PrivateRoute>
         } />
         <Route path="/settings" element={
-          <Layout>
-            <Settings />
-          </Layout>
+          <PrivateRoute>
+            <Layout>
+              <Settings />
+            </Layout>
+          </PrivateRoute>
         } />
+
+        {/* Catch all route */}
+        <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </Router>
   );

@@ -26,6 +26,9 @@ import { generateMathQuestions } from '../../utils/mathQuestionGenerator';
 import { generateThinkingSkillsQuestions } from '../../utils/thinkingSkillsQuestionGenerator';
 import { generateEnglishQuestions } from '../../utils/englishQuestionGenerator';
 import { generateMathematicalReasoningQuestions } from '../../utils/mathematicalReasoningQuestionGenerator';
+import { calculateAdaptiveDistribution, getDefaultDistribution, getDifficultyKey, getRecommendedDifficulty } from '../../utils/adaptiveDifficulty';
+import { distributeQuestionsByDifficulty } from '../../utils/difficultyDistribution';
+import { trackQuestionStats } from '../../utils/questionStats';
 
 // Helper function to shuffle an array
 const shuffleArray = <T extends unknown>(array: T[]): T[] => {
@@ -82,55 +85,79 @@ const TimedTest: React.FC = () => {
     }
   }, [testStarted, timeRemaining]);
 
+  useEffect(() => {
+    // Update recommended difficulty when subject changes
+    if (testConfig.subject) {
+      const recommended = getRecommendedDifficulty(testConfig.subject);
+      setTestConfig(prev => ({
+        ...prev,
+        difficulty: recommended
+      }));
+    }
+  }, [testConfig.subject]);
+
   const generateQuestions = async () => {
     setLoading(true);
     setError('');
 
     try {
-      // Get answered questions to filter them out
       const answeredQuestionIds = getAnsweredQuestionIds();
-
-      // Determine difficulty level
-      let difficultyLevel = DifficultyLevel.MEDIUM;
-      if (testConfig.difficulty === 'easy') difficultyLevel = DifficultyLevel.EASY;
-      if (testConfig.difficulty === 'hard') difficultyLevel = DifficultyLevel.HARD;
-
-      // Generate questions based on selected subject
-      let generatedQuestions: Question[] = [];
       
-      switch (testConfig.subject) {
-        case 'Math':
-          generatedQuestions = generateMathQuestions(testConfig.grade, difficultyLevel, 30);
-          break;
-        case 'English':
-          generatedQuestions = generateEnglishQuestions(testConfig.grade, difficultyLevel, 30);
-          break;
-        case 'Thinking Skills':
-          generatedQuestions = generateThinkingSkillsQuestions(testConfig.grade, difficultyLevel, 30);
-          break;
-        case 'Mathematical Reasoning':
-          generatedQuestions = generateMathematicalReasoningQuestions(testConfig.grade, difficultyLevel, 30);
-          break;
-        default:
-          throw new Error('Please select a subject');
+      // Get adaptive distribution based on performance
+      const distribution = calculateAdaptiveDistribution(
+        testConfig.subject,
+        testConfig.difficulty
+      ) || getDefaultDistribution(testConfig.difficulty);
+
+      // Generate questions for all difficulty levels
+      let generatedQuestions: Question[] = [];
+      const difficulties = [DifficultyLevel.EASY, DifficultyLevel.MEDIUM, DifficultyLevel.HARD];
+      
+      for (const difficulty of difficulties) {
+        const count = Math.floor((distribution[getDifficultyKey(difficulty)] / 100) * 60); // Generate double for better selection
+        let questionsForDifficulty: Question[] = [];
+        
+        switch (testConfig.subject) {
+          case 'Math':
+            questionsForDifficulty = generateMathQuestions(testConfig.grade, difficulty, count);
+            break;
+          case 'English':
+            questionsForDifficulty = generateEnglishQuestions(testConfig.grade, difficulty, count);
+            break;
+          case 'Thinking Skills':
+            questionsForDifficulty = generateThinkingSkillsQuestions(testConfig.grade, difficulty, count);
+            break;
+          case 'Mathematical Reasoning':
+            questionsForDifficulty = generateMathematicalReasoningQuestions(testConfig.grade, difficulty, count);
+            break;
+          default:
+            throw new Error('Please select a subject');
+        }
+        
+        generatedQuestions.push(...questionsForDifficulty);
       }
 
       // Filter out previously answered questions
-      const newQuestions = generatedQuestions.filter(q => !answeredQuestionIds.includes(q._id));
+      let availableQuestions = generatedQuestions.filter(q => !answeredQuestionIds.includes(q._id));
 
-      // If we don't have enough new questions, generate more
-      if (newQuestions.length < 30) {
-        const additionalQuestions = generateMathQuestions(
-          testConfig.grade,
-          difficultyLevel,
-          30 - newQuestions.length
-        );
-        newQuestions.push(...additionalQuestions);
+      // If we don't have enough questions after filtering, reset the answered questions for this subject
+      if (availableQuestions.length < 30) {
+        const otherSubjectsAnswered = answeredQuestionIds.filter(id => {
+          const question = generatedQuestions.find(q => q._id === id);
+          return !question || question.subject !== testConfig.subject;
+        });
+        localStorage.setItem('answeredQuestionIds', JSON.stringify(otherSubjectsAnswered));
+        availableQuestions = generatedQuestions;
       }
 
-      // Shuffle and limit to 30 questions
-      const shuffledQuestions = shuffleArray(newQuestions).slice(0, 30);
-      setQuestions(shuffledQuestions);
+      // Distribute questions according to the adaptive distribution
+      const selectedQuestions = distributeQuestionsByDifficulty(
+        availableQuestions,
+        30,
+        testConfig.difficulty
+      );
+
+      setQuestions(selectedQuestions);
       setShowConfig(false);
       setTestStarted(true);
     } catch (err) {
@@ -155,6 +182,9 @@ const TimedTest: React.FC = () => {
     // Create a Set from the combined arrays and convert back to array
     const uniqueIds = Array.from(new Set(existingAnsweredIds.concat(correctlyAnsweredIds)));
     localStorage.setItem('answeredQuestionIds', JSON.stringify(uniqueIds));
+
+    // Track question statistics
+    trackQuestionStats(questions);
 
     // Navigate to results page with score and answers
     navigate('/timed-test/results', {
@@ -325,17 +355,26 @@ const TimedTest: React.FC = () => {
 
           {/* Options */}
           <Box sx={{ my: 3 }}>
-            {currentQuestion?.options.map((option, index) => (
-              <Button
-                key={index}
-                fullWidth
-                variant={answers[currentQuestion._id] === option ? "contained" : "outlined"}
-                sx={{ mb: 1, justifyContent: 'flex-start', py: 1 }}
-                onClick={() => handleAnswer(option)}
-              >
-                {option}
-              </Button>
-            ))}
+            {currentQuestion?.options.map((option, index) => {
+              const optionLabel = String.fromCharCode(65 + index); // Convert 0,1,2,3 to A,B,C,D
+              return (
+                <Button
+                  key={index}
+                  fullWidth
+                  variant={answers[currentQuestion._id] === option ? "contained" : "outlined"}
+                  sx={{ 
+                    mb: 1, 
+                    justifyContent: 'flex-start', 
+                    py: 1,
+                    pl: 2 
+                  }}
+                  onClick={() => handleAnswer(option)}
+                >
+                  <Typography sx={{ minWidth: '24px' }}>{optionLabel}.</Typography>
+                  {option}
+                </Button>
+              );
+            })}
           </Box>
 
           {/* Navigation */}

@@ -6,25 +6,91 @@ import {
   Paper,
   Grid,
   Button,
+  Divider,
 } from '@mui/material';
-import { School, Timer, TrendingUp } from '@mui/icons-material';
+import {
+  School,
+  Timer,
+  TrendingUp,
+  EmojiEvents,
+  Timeline,
+} from '@mui/icons-material';
 import { useNavigate } from 'react-router-dom';
+import { useAuth } from '../../contexts/AuthContext';
 
 const Dashboard: React.FC = () => {
   const navigate = useNavigate();
+  const { user } = useAuth();
   
-  React.useEffect(() => {
-    console.log('Dashboard component mounted');
-  }, []);
+  if (!user) {
+    return null;
+  }
 
   return (
     <Container maxWidth="lg">
       <Box sx={{ mt: 4 }}>
-        <Typography variant="h4" component="h1" gutterBottom>
-          Welcome to TestAce
-        </Typography>
+        <Paper sx={{ p: 3, mb: 3 }}>
+          <Typography variant="h4" component="h1" gutterBottom>
+            Welcome back, {user.profile.firstName}!
+          </Typography>
+          <Typography variant="body1" color="text.secondary">
+            Grade {user.grade} | Current Streak: {user.streaks.current} days
+          </Typography>
+        </Paper>
 
-        <Grid container spacing={3} sx={{ mt: 2 }}>
+        <Grid container spacing={3}>
+          {/* Quick Stats */}
+          <Grid item xs={12}>
+            <Paper sx={{ p: 3, mb: 3 }}>
+              <Typography variant="h6" gutterBottom>
+                Your Progress
+              </Typography>
+              <Grid container spacing={3}>
+                <Grid item xs={12} md={3}>
+                  <Box sx={{ textAlign: 'center' }}>
+                    <Typography variant="h4" color="primary">
+                      {user.stats.totalQuestions}
+                    </Typography>
+                    <Typography variant="body2" color="text.secondary">
+                      Total Questions
+                    </Typography>
+                  </Box>
+                </Grid>
+                <Grid item xs={12} md={3}>
+                  <Box sx={{ textAlign: 'center' }}>
+                    <Typography variant="h4" color="success.main">
+                      {user.stats.correctAnswers}
+                    </Typography>
+                    <Typography variant="body2" color="text.secondary">
+                      Correct Answers
+                    </Typography>
+                  </Box>
+                </Grid>
+                <Grid item xs={12} md={3}>
+                  <Box sx={{ textAlign: 'center' }}>
+                    <Typography variant="h4" color="primary">
+                      {user.streaks.best}
+                    </Typography>
+                    <Typography variant="body2" color="text.secondary">
+                      Best Streak
+                    </Typography>
+                  </Box>
+                </Grid>
+                <Grid item xs={12} md={3}>
+                  <Box sx={{ textAlign: 'center' }}>
+                    <Typography variant="h4" color="primary">
+                      {user.stats.averageScore}%
+                    </Typography>
+                    <Typography variant="body2" color="text.secondary">
+                      Average Score
+                    </Typography>
+                  </Box>
+                </Grid>
+              </Grid>
+            </Paper>
+          </Grid>
+
+          {/* Main Actions */}
           <Grid item xs={12} md={4}>
             <Paper
               sx={{
@@ -33,6 +99,7 @@ const Dashboard: React.FC = () => {
                 flexDirection: 'column',
                 alignItems: 'center',
                 cursor: 'pointer',
+                height: '100%',
                 '&:hover': {
                   bgcolor: 'action.hover',
                 }
@@ -49,7 +116,7 @@ const Dashboard: React.FC = () => {
               <Button
                 variant="contained"
                 color="primary"
-                sx={{ mt: 2 }}
+                sx={{ mt: 'auto', mb: 1 }}
                 onClick={() => navigate('/practice')}
               >
                 Start Practice
@@ -65,6 +132,7 @@ const Dashboard: React.FC = () => {
                 flexDirection: 'column',
                 alignItems: 'center',
                 cursor: 'pointer',
+                height: '100%',
                 '&:hover': {
                   bgcolor: 'action.hover',
                 }
@@ -81,7 +149,7 @@ const Dashboard: React.FC = () => {
               <Button
                 variant="contained"
                 color="primary"
-                sx={{ mt: 2 }}
+                sx={{ mt: 'auto', mb: 1 }}
                 onClick={() => navigate('/timed-test')}
               >
                 Start Test
@@ -97,6 +165,7 @@ const Dashboard: React.FC = () => {
                 flexDirection: 'column',
                 alignItems: 'center',
                 cursor: 'pointer',
+                height: '100%',
                 '&:hover': {
                   bgcolor: 'action.hover',
                 }
@@ -113,7 +182,7 @@ const Dashboard: React.FC = () => {
               <Button
                 variant="contained"
                 color="primary"
-                sx={{ mt: 2 }}
+                sx={{ mt: 'auto', mb: 1 }}
                 onClick={() => navigate('/profile')}
               >
                 View Progress

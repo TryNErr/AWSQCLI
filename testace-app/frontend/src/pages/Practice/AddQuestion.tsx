@@ -1,200 +1,133 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import {
   Container,
+  Paper,
+  TextField,
+  Button,
   Typography,
   Box,
-  Card,
-  CardContent,
-  Button,
-  TextField,
   FormControl,
   InputLabel,
   Select,
   MenuItem,
-  FormHelperText,
   Chip,
-  IconButton,
-  Dialog,
-  DialogTitle,
-  DialogContent,
-  DialogActions,
-  SelectChangeEvent,
-  Grid,
-  Alert,
-  Snackbar
+  Stack,
 } from '@mui/material';
 import { Add, Delete, ArrowBack } from '@mui/icons-material';
 import { useNavigate } from 'react-router-dom';
 import { Question, DifficultyLevel, QuestionType } from '../../types';
-import { questionData } from './questionData';
 
-// Helper function to generate unique IDs
-const generateId = (() => {
-  let counter = 1000; // Start from 1000 to avoid ID conflicts
-  return () => (counter++).toString();
-})();
+interface QuestionFormData {
+  content: string;
+  type: QuestionType;
+  options: string[];
+  correctAnswer: string;
+  explanation: string;
+  subject: string;
+  difficulty: DifficultyLevel;
+  tags: string[];
+  grade: string;
+  topic: string;
+  hints: string[];
+}
 
 const AddQuestion: React.FC = () => {
   const navigate = useNavigate();
-  const [availableSubjects, setAvailableSubjects] = useState<string[]>([]);
-  const [availableGrades, setAvailableGrades] = useState<string[]>([]);
-  const [snackbarOpen, setSnackbarOpen] = useState(false);
-  const [snackbarMessage, setSnackbarMessage] = useState('');
-
-  // Form state
-  const [formData, setFormData] = useState<Partial<Question>>({
+  const [tagInput, setTagInput] = useState('');
+  const [formData, setFormData] = useState<QuestionFormData>({
     content: '',
     type: QuestionType.MULTIPLE_CHOICE,
     options: ['', '', '', ''],
-    correctAnswer: '',  // Always use string for correctAnswer in this component
+    correctAnswer: '',
     explanation: '',
     subject: '',
     difficulty: DifficultyLevel.MEDIUM,
     tags: [],
     grade: '',
-    topic: '',  // Initialize topic
-    hints: []   // Initialize hints
+    topic: '',
+    hints: []
   });
 
-  // Form validation
-  const [errors, setErrors] = useState<Record<string, string>>({});
-  
-  // Tag input
-  const [tagInput, setTagInput] = useState('');
-
-  // Extract unique subjects and grades on component mount
-  useEffect(() => {
-    const subjectSet = new Set(questionData.map(q => q.subject));
-    const gradeSet = new Set(questionData.map(q => q.grade || ''));
-    
-    const subjects = Array.from(subjectSet);
-    const grades = Array.from(gradeSet).filter(Boolean);
-    
-    setAvailableSubjects(subjects);
-    setAvailableGrades(grades);
-  }, []);
-
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
-    setFormData(prev => ({ ...prev, [name]: value }));
-    
-    // Clear error when field is edited
-    if (errors[name]) {
-      setErrors(prev => ({ ...prev, [name]: '' }));
-    }
+    setFormData(prev => ({
+      ...prev,
+      [name]: value
+    }));
   };
 
-  const handleSelectChange = (e: SelectChangeEvent) => {
+  const handleSelectChange = (e: { target: { name: string; value: string } }) => {
     const { name, value } = e.target;
-    setFormData(prev => ({ ...prev, [name]: value }));
-    
-    // Clear error when field is edited
-    if (errors[name]) {
-      setErrors(prev => ({ ...prev, [name]: '' }));
-    }
+    setFormData(prev => ({
+      ...prev,
+      [name]: value
+    }));
   };
 
   const handleOptionChange = (index: number, value: string) => {
-    const newOptions = [...(formData.options || [])];
+    const newOptions = [...formData.options];
     newOptions[index] = value;
-    setFormData(prev => ({ ...prev, options: newOptions }));
-    
-    // Clear error when options are edited
-    if (errors.options) {
-      setErrors(prev => ({ ...prev, options: '' }));
-    }
+    setFormData(prev => ({
+      ...prev,
+      options: newOptions
+    }));
   };
 
   const handleAddOption = () => {
-    setFormData(prev => ({ 
-      ...prev, 
-      options: [...(prev.options || []), ''] 
+    setFormData(prev => ({
+      ...prev,
+      options: [...prev.options, '']
     }));
   };
 
   const handleRemoveOption = (index: number) => {
-    const newOptions = [...(formData.options || [])];
-    newOptions.splice(index, 1);
-    setFormData(prev => ({ ...prev, options: newOptions }));
+    setFormData(prev => ({
+      ...prev,
+      options: prev.options.filter((_, i) => i !== index)
+    }));
   };
 
   const handleAddTag = () => {
-    if (tagInput.trim() && !(formData.tags || []).includes(tagInput.trim())) {
-      setFormData(prev => ({ 
-        ...prev, 
-        tags: [...(prev.tags || []), tagInput.trim()] 
+    if (tagInput.trim() && !formData.tags.includes(tagInput.trim())) {
+      setFormData(prev => ({
+        ...prev,
+        tags: [...prev.tags, tagInput.trim()]
       }));
       setTagInput('');
     }
   };
 
   const handleRemoveTag = (tag: string) => {
-    setFormData(prev => ({ 
-      ...prev, 
-      tags: (prev.tags || []).filter(t => t !== tag) 
+    setFormData(prev => ({
+      ...prev,
+      tags: prev.tags.filter(t => t !== tag)
     }));
   };
 
-  const validateForm = (): boolean => {
-    const newErrors: Record<string, string> = {};
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
     
-    if (!formData.content) {
-      newErrors.content = 'Question content is required';
-    }
-    
-    if (!formData.subject) {
-      newErrors.subject = 'Subject is required';
-    }
-    
-    if (!formData.grade) {
-      newErrors.grade = 'Grade is required';
-    }
-    
-    if (!formData.options || formData.options.some(opt => !opt.trim())) {
-      newErrors.options = 'All options must be filled';
-    }
-    
-    if (!formData.correctAnswer) {
-      newErrors.correctAnswer = 'Correct answer is required';
-    } else if (formData.options && !formData.options.includes(String(formData.correctAnswer))) {
-      newErrors.correctAnswer = 'Correct answer must be one of the options';
-    }
-    
-    if (!formData.explanation) {
-      newErrors.explanation = 'Explanation is required';
-    }
-    
-    setErrors(newErrors);
-    return Object.keys(newErrors).length === 0;
-  };
+    const newQuestion: Question = {
+      _id: generateId(),
+      content: formData.content,
+      type: formData.type,
+      options: formData.options.filter(opt => opt.trim() !== ''),
+      correctAnswer: formData.correctAnswer,
+      explanation: formData.explanation,
+      subject: formData.subject,
+      difficulty: formData.difficulty,
+      tags: formData.tags,
+      grade: formData.grade,
+      topic: formData.topic,
+      hints: formData.hints,
+      createdBy: 'user',
+      createdAt: new Date(),
+      updatedAt: new Date()
+    };
 
-  const handleSubmit = () => {
-    if (validateForm()) {
-      // Create new question
-      const newQuestion: Question = {
-        _id: generateId(),
-        content: formData.content || '',
-        type: formData.type || QuestionType.MULTIPLE_CHOICE,
-        options: formData.options || [],
-        correctAnswer: formData.correctAnswer || '',
-        explanation: formData.explanation || '',
-        subject: formData.subject || '',
-        difficulty: formData.difficulty || DifficultyLevel.MEDIUM,
-        tags: formData.tags || [],
-        grade: formData.grade || '',
-        createdBy: 'user',
-        createdAt: new Date(),
-        updatedAt: new Date(),
-        topic: formData.subject || '',  // Use subject as default topic
-        hints: []  // Empty hints array
-      };
-      
-      // Add to questionData
-      questionData.push(newQuestion);
-      
-      // Show success message
-      setSnackbarMessage('Question added successfully!');
-      setSnackbarOpen(true);
+    try {
+      // Add question to database/storage
+      console.log('New question:', newQuestion);
       
       // Reset form
       setFormData({
@@ -203,249 +136,224 @@ const AddQuestion: React.FC = () => {
         options: ['', '', '', ''],
         correctAnswer: '',
         explanation: '',
-        subject: formData.subject, // Keep the same subject for convenience
+        subject: '',
         difficulty: DifficultyLevel.MEDIUM,
         tags: [],
-        grade: formData.grade, // Keep the same grade for convenience
+        grade: '',
+        topic: '',
+        hints: []
       });
+      
+      // Navigate back or show success message
+      navigate(-1);
+    } catch (error) {
+      console.error('Error adding question:', error);
     }
+  };
+
+  // Helper function to generate unique IDs
+  const generateId = () => {
+    return Math.random().toString(36).substr(2, 9);
   };
 
   return (
     <Container maxWidth="md">
-      <Box sx={{ mt: 4 }}>
+      <Box sx={{ mt: 4, mb: 4 }}>
         <Button
           startIcon={<ArrowBack />}
-          onClick={() => navigate('/practice')}
+          onClick={() => navigate(-1)}
           sx={{ mb: 2 }}
         >
-          Back to Practice
+          Back
         </Button>
 
-        <Typography variant="h4" component="h1" gutterBottom>
-          Add New Question
-        </Typography>
+        <Paper sx={{ p: 3 }}>
+          <Typography variant="h5" gutterBottom>
+            Add New Question
+          </Typography>
 
-        <Card sx={{ mb: 4 }}>
-          <CardContent>
-            <Grid container spacing={3}>
-              {/* Question Content */}
-              <Grid item xs={12}>
-                <TextField
-                  fullWidth
-                  label="Question Content"
-                  name="content"
-                  value={formData.content}
-                  onChange={handleInputChange}
-                  multiline
-                  rows={3}
-                  error={!!errors.content}
-                  helperText={errors.content}
-                  required
-                />
-              </Grid>
+          <Box component="form" onSubmit={handleSubmit}>
+            <TextField
+              fullWidth
+              label="Question Content"
+              name="content"
+              value={formData.content}
+              onChange={handleInputChange}
+              multiline
+              rows={4}
+              margin="normal"
+              required
+            />
 
-              {/* Subject and Grade */}
-              <Grid item xs={12} sm={6}>
-                <FormControl fullWidth error={!!errors.subject} required>
-                  <InputLabel>Subject</InputLabel>
-                  <Select
-                    name="subject"
-                    value={formData.subject || ''}
-                    onChange={handleSelectChange}
-                    label="Subject"
-                  >
-                    {availableSubjects.map(subject => (
-                      <MenuItem key={subject} value={subject}>{subject}</MenuItem>
-                    ))}
-                    <MenuItem value="Math">Math</MenuItem>
-                    <MenuItem value="Science">Science</MenuItem>
-                    <MenuItem value="English">English</MenuItem>
-                    <MenuItem value="History">History</MenuItem>
-                    <MenuItem value="Geography">Geography</MenuItem>
-                  </Select>
-                  {errors.subject && <FormHelperText>{errors.subject}</FormHelperText>}
-                </FormControl>
-              </Grid>
+            <FormControl fullWidth margin="normal">
+              <InputLabel>Question Type</InputLabel>
+              <Select
+                name="type"
+                value={formData.type}
+                label="Question Type"
+                onChange={handleSelectChange}
+                required
+              >
+                <MenuItem value={QuestionType.MULTIPLE_CHOICE}>Multiple Choice</MenuItem>
+                <MenuItem value={QuestionType.SHORT_ANSWER}>Short Answer</MenuItem>
+                <MenuItem value={QuestionType.TRUE_FALSE}>True/False</MenuItem>
+                <MenuItem value={QuestionType.FILL_IN_BLANK}>Fill in the Blank</MenuItem>
+              </Select>
+            </FormControl>
 
-              <Grid item xs={12} sm={6}>
-                <FormControl fullWidth error={!!errors.grade} required>
-                  <InputLabel>Grade</InputLabel>
-                  <Select
-                    name="grade"
-                    value={formData.grade || ''}
-                    onChange={handleSelectChange}
-                    label="Grade"
-                  >
-                    {availableGrades.map(grade => (
-                      <MenuItem key={grade} value={grade}>{grade}</MenuItem>
-                    ))}
-                    {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map(grade => (
-                      <MenuItem key={grade} value={grade.toString()}>{grade}</MenuItem>
-                    ))}
-                  </Select>
-                  {errors.grade && <FormHelperText>{errors.grade}</FormHelperText>}
-                </FormControl>
-              </Grid>
-
-              {/* Difficulty */}
-              <Grid item xs={12}>
-                <FormControl fullWidth>
-                  <InputLabel>Difficulty</InputLabel>
-                  <Select
-                    name="difficulty"
-                    value={formData.difficulty || DifficultyLevel.MEDIUM}
-                    onChange={handleSelectChange}
-                    label="Difficulty"
-                  >
-                    <MenuItem value={DifficultyLevel.EASY}>Easy</MenuItem>
-                    <MenuItem value={DifficultyLevel.MEDIUM}>Medium</MenuItem>
-                    <MenuItem value={DifficultyLevel.HARD}>Hard</MenuItem>
-                  </Select>
-                </FormControl>
-              </Grid>
-
-              {/* Options */}
-              <Grid item xs={12}>
-                <Typography variant="subtitle1" gutterBottom>
-                  Options
-                </Typography>
-                {errors.options && (
-                  <FormHelperText error>{errors.options}</FormHelperText>
-                )}
-                {formData.options?.map((option, index) => (
-                  <Box key={index} sx={{ display: 'flex', mb: 2 }}>
-                    <TextField
-                      fullWidth
-                      label={`Option ${index + 1}`}
-                      value={option}
-                      onChange={(e) => handleOptionChange(index, e.target.value)}
-                      error={!!errors.options && !option.trim()}
-                    />
-                    {formData.options && formData.options.length > 2 && (
-                      <IconButton 
-                        color="error" 
-                        onClick={() => handleRemoveOption(index)}
-                        sx={{ ml: 1 }}
-                      >
-                        <Delete />
-                      </IconButton>
-                    )}
-                  </Box>
-                ))}
-                <Button
-                  startIcon={<Add />}
-                  onClick={handleAddOption}
-                  sx={{ mt: 1 }}
-                >
-                  Add Option
-                </Button>
-              </Grid>
-
-              {/* Correct Answer */}
-              <Grid item xs={12}>
-                <FormControl fullWidth error={!!errors.correctAnswer} required>
-                  <InputLabel>Correct Answer</InputLabel>
-                  <Select
-                    name="correctAnswer"
-                    value={String(formData.correctAnswer || '')}
-                    onChange={handleSelectChange}
-                    label="Correct Answer"
-                  >
-                    {formData.options?.filter(Boolean).map((option, index) => (
-                      <MenuItem key={index} value={option}>{option}</MenuItem>
-                    ))}
-                  </Select>
-                  {errors.correctAnswer && <FormHelperText>{errors.correctAnswer}</FormHelperText>}
-                </FormControl>
-              </Grid>
-
-              {/* Explanation */}
-              <Grid item xs={12}>
-                <TextField
-                  fullWidth
-                  label="Explanation"
-                  name="explanation"
-                  value={formData.explanation}
-                  onChange={handleInputChange}
-                  multiline
-                  rows={3}
-                  error={!!errors.explanation}
-                  helperText={errors.explanation}
-                  required
-                />
-              </Grid>
-
-              {/* Tags */}
-              <Grid item xs={12}>
-                <Typography variant="subtitle1" gutterBottom>
-                  Tags
-                </Typography>
-                <Box sx={{ display: 'flex', mb: 2 }}>
+            <Box sx={{ mt: 2 }}>
+              <Typography variant="subtitle1" gutterBottom>
+                Answer Options
+              </Typography>
+              {formData.options.map((option, index) => (
+                <Box key={index} sx={{ display: 'flex', gap: 1, mb: 1 }}>
                   <TextField
                     fullWidth
-                    label="Add Tag"
-                    value={tagInput}
-                    onChange={(e) => setTagInput(e.target.value)}
-                    onKeyPress={(e) => {
-                      if (e.key === 'Enter') {
-                        e.preventDefault();
-                        handleAddTag();
-                      }
-                    }}
+                    label={`Option ${index + 1}`}
+                    value={option}
+                    onChange={(e) => handleOptionChange(index, e.target.value)}
+                    required
                   />
-                  <Button
-                    variant="contained"
-                    onClick={handleAddTag}
-                    sx={{ ml: 1 }}
-                  >
-                    Add
-                  </Button>
+                  {index > 1 && (
+                    <Button
+                      color="error"
+                      onClick={() => handleRemoveOption(index)}
+                    >
+                      <Delete />
+                    </Button>
+                  )}
                 </Box>
-                <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1 }}>
-                  {formData.tags?.map((tag, index) => (
-                    <Chip
-                      key={index}
-                      label={tag}
-                      onDelete={() => handleRemoveTag(tag)}
-                    />
-                  ))}
-                </Box>
-              </Grid>
+              ))}
+              <Button
+                startIcon={<Add />}
+                onClick={handleAddOption}
+                sx={{ mt: 1 }}
+              >
+                Add Option
+              </Button>
+            </Box>
 
-              {/* Submit Button */}
-              <Grid item xs={12}>
-                <Button
-                  variant="contained"
-                  color="primary"
-                  size="large"
+            <TextField
+              fullWidth
+              label="Correct Answer"
+              name="correctAnswer"
+              value={formData.correctAnswer}
+              onChange={handleInputChange}
+              margin="normal"
+              required
+            />
+
+            <TextField
+              fullWidth
+              label="Explanation"
+              name="explanation"
+              value={formData.explanation}
+              onChange={handleInputChange}
+              multiline
+              rows={3}
+              margin="normal"
+            />
+
+            <FormControl fullWidth margin="normal">
+              <InputLabel>Subject</InputLabel>
+              <Select
+                name="subject"
+                value={formData.subject}
+                label="Subject"
+                onChange={handleSelectChange}
+                required
+              >
+                <MenuItem value="Math">Math</MenuItem>
+                <MenuItem value="English">English</MenuItem>
+                <MenuItem value="Science">Science</MenuItem>
+                <MenuItem value="Thinking Skills">Thinking Skills</MenuItem>
+              </Select>
+            </FormControl>
+
+            <FormControl fullWidth margin="normal">
+              <InputLabel>Difficulty</InputLabel>
+              <Select
+                name="difficulty"
+                value={formData.difficulty}
+                label="Difficulty"
+                onChange={handleSelectChange}
+                required
+              >
+                <MenuItem value={DifficultyLevel.EASY}>Easy</MenuItem>
+                <MenuItem value={DifficultyLevel.MEDIUM}>Medium</MenuItem>
+                <MenuItem value={DifficultyLevel.HARD}>Hard</MenuItem>
+              </Select>
+            </FormControl>
+
+            <TextField
+              fullWidth
+              label="Grade"
+              name="grade"
+              value={formData.grade}
+              onChange={handleInputChange}
+              margin="normal"
+              required
+            />
+
+            <TextField
+              fullWidth
+              label="Topic"
+              name="topic"
+              value={formData.topic}
+              onChange={handleInputChange}
+              margin="normal"
+            />
+
+            <Box sx={{ mt: 2 }}>
+              <Typography variant="subtitle1" gutterBottom>
+                Tags
+              </Typography>
+              <Box sx={{ display: 'flex', gap: 1, mb: 1 }}>
+                <TextField
                   fullWidth
-                  onClick={handleSubmit}
-                  sx={{ mt: 2 }}
-                >
-                  Add Question
+                  label="Add Tag"
+                  value={tagInput}
+                  onChange={(e) => setTagInput(e.target.value)}
+                  onKeyPress={(e) => {
+                    if (e.key === 'Enter') {
+                      e.preventDefault();
+                      handleAddTag();
+                    }
+                  }}
+                />
+                <Button onClick={handleAddTag}>
+                  <Add />
                 </Button>
-              </Grid>
-            </Grid>
-          </CardContent>
-        </Card>
-      </Box>
+              </Box>
+              <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1 }}>
+                {formData.tags.map((tag, index) => (
+                  <Chip
+                    key={index}
+                    label={tag}
+                    onDelete={() => handleRemoveTag(tag)}
+                  />
+                ))}
+              </Box>
+            </Box>
 
-      {/* Success Snackbar */}
-      <Snackbar
-        open={snackbarOpen}
-        autoHideDuration={6000}
-        onClose={() => setSnackbarOpen(false)}
-        anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}
-      >
-        <Alert 
-          onClose={() => setSnackbarOpen(false)} 
-          severity="success"
-          sx={{ width: '100%' }}
-        >
-          {snackbarMessage}
-        </Alert>
-      </Snackbar>
+            <Box sx={{ mt: 3, display: 'flex', justifyContent: 'flex-end', gap: 2 }}>
+              <Button
+                variant="outlined"
+                onClick={() => navigate(-1)}
+              >
+                Cancel
+              </Button>
+              <Button
+                type="submit"
+                variant="contained"
+                color="primary"
+              >
+                Add Question
+              </Button>
+            </Box>
+          </Box>
+        </Paper>
+      </Box>
     </Container>
   );
 };

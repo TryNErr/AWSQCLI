@@ -114,6 +114,33 @@ const Question: React.FC = () => {
         </Button>
 
         <Paper sx={{ p: 4 }}>
+          {/* Top Action Bar - Show after submission */}
+          {isSubmitted && (
+            <Box sx={{ mb: 3, display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: 2 }}>
+              <Alert
+                icon={isCorrect ? <CheckCircle /> : <Cancel />}
+                severity={isCorrect ? "success" : "error"}
+                sx={{ flex: 1, minWidth: '200px' }}
+              >
+                {isCorrect ? (
+                  "Correct! Well done!"
+                ) : (
+                  <>
+                    Incorrect. The correct answer is: {question.correctAnswer}
+                  </>
+                )}
+              </Alert>
+              <Button
+                variant="contained"
+                color="primary"
+                onClick={() => navigate('/practice')}
+                sx={{ minWidth: '180px' }}
+              >
+                Try Another Question
+              </Button>
+            </Box>
+          )}
+
           {/* Question Header */}
           <Box sx={{ mb: 3 }}>
             <Stack direction="row" spacing={1} sx={{ mb: 2 }}>
@@ -175,20 +202,6 @@ const Question: React.FC = () => {
             </Button>
           ) : (
             <Box>
-              <Alert
-                icon={isCorrect ? <CheckCircle /> : <Cancel />}
-                severity={isCorrect ? "success" : "error"}
-                sx={{ mb: 3 }}
-              >
-                {isCorrect ? (
-                  "Correct! Well done!"
-                ) : (
-                  <>
-                    Incorrect. The correct answer is: {question.correctAnswer}
-                  </>
-                )}
-              </Alert>
-
               {/* Explanation */}
               {showExplanation && (
                 <Paper variant="outlined" sx={{ p: 3, mt: 3, bgcolor: 'background.default' }}>
@@ -213,14 +226,15 @@ const Question: React.FC = () => {
                       Topic: {question.topic}
                     </Typography>
                     <Typography variant="subtitle2" color="text.secondary" gutterBottom>
-                      Tags: {question.tags.join(', ')}
+                      Tags: {question.tags?.join(', ') || 'No tags'}
                     </Typography>
                   </Box>
                 </Paper>
               )}
 
+              {/* Bottom Try Another Question Button - for users who scroll down */}
               <Button
-                variant="contained"
+                variant="outlined"
                 color="primary"
                 onClick={() => navigate('/practice')}
                 sx={{ mt: 3 }}
