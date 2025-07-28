@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import {
   Container,
   Typography,
@@ -16,18 +16,12 @@ import {
   MenuItem,
   TextField,
   Button,
-  Divider,
   Chip,
   Alert,
   Slider,
   RadioGroup,
   Radio,
   FormLabel,
-  List,
-  ListItem,
-  ListItemText,
-  ListItemSecondaryAction,
-  IconButton,
   Dialog,
   DialogTitle,
   DialogContent,
@@ -36,7 +30,6 @@ import {
   Accordion,
   AccordionSummary,
   AccordionDetails,
-  Avatar,
   Badge
 } from '@mui/material';
 import {
@@ -50,11 +43,6 @@ import {
   Storage,
   Language,
   VolumeUp,
-  Timer,
-  Psychology,
-  TrendingUp,
-  Delete,
-  Edit,
   Save,
   Restore,
   ExpandMore,
@@ -65,111 +53,12 @@ import {
   VolumeOff
 } from '@mui/icons-material';
 import { useAuth } from '../../contexts/AuthContext';
-
-interface SettingsData {
-  // Account Settings
-  displayName: string;
-  email: string;
-  grade: string;
-  preferredSubjects: string[];
-  
-  // Learning Preferences
-  defaultDifficulty: string;
-  questionsPerSession: number;
-  autoAdvance: boolean;
-  showExplanations: boolean;
-  showHints: boolean;
-  practiceMode: string;
-  
-  // Notifications
-  emailNotifications: boolean;
-  pushNotifications: boolean;
-  dailyReminders: boolean;
-  weeklyProgress: boolean;
-  achievementAlerts: boolean;
-  reminderTime: string;
-  
-  // Appearance
-  theme: string;
-  fontSize: string;
-  colorScheme: string;
-  animations: boolean;
-  
-  // Accessibility
-  highContrast: boolean;
-  screenReader: boolean;
-  keyboardNavigation: boolean;
-  reducedMotion: boolean;
-  
-  // Audio
-  soundEffects: boolean;
-  backgroundMusic: boolean;
-  volume: number;
-  
-  // Privacy & Security
-  profileVisibility: string;
-  dataSharing: boolean;
-  analyticsOptIn: boolean;
-  
-  // Performance
-  autoSave: boolean;
-  offlineMode: boolean;
-  dataUsage: string;
-}
+import { useSettings, SettingsData } from '../../contexts/SettingsContext';
 
 const Settings: React.FC = () => {
   const { user } = useAuth();
-  const [settings, setSettings] = useState<SettingsData>({
-    // Account Settings
-    displayName: user?.name || 'Test User',
-    email: user?.email || 'demo@testace.com',
-    grade: user?.grade || '5',
-    preferredSubjects: ['Math', 'English'],
-    
-    // Learning Preferences
-    defaultDifficulty: 'medium',
-    questionsPerSession: 10,
-    autoAdvance: false,
-    showExplanations: true,
-    showHints: true,
-    practiceMode: 'mixed',
-    
-    // Notifications
-    emailNotifications: true,
-    pushNotifications: true,
-    dailyReminders: true,
-    weeklyProgress: true,
-    achievementAlerts: true,
-    reminderTime: '18:00',
-    
-    // Appearance
-    theme: 'light',
-    fontSize: 'medium',
-    colorScheme: 'blue',
-    animations: true,
-    
-    // Accessibility
-    highContrast: false,
-    screenReader: false,
-    keyboardNavigation: false,
-    reducedMotion: false,
-    
-    // Audio
-    soundEffects: true,
-    backgroundMusic: false,
-    volume: 70,
-    
-    // Privacy & Security
-    profileVisibility: 'friends',
-    dataSharing: true,
-    analyticsOptIn: true,
-    
-    // Performance
-    autoSave: true,
-    offlineMode: false,
-    dataUsage: 'standard'
-  });
-
+  const { settings, updateSetting, updateSettings, resetSettings, saveSettings } = useSettings();
+  
   const [saveStatus, setSaveStatus] = useState<'idle' | 'saving' | 'saved' | 'error'>('idle');
   const [showResetDialog, setShowResetDialog] = useState(false);
   const [snackbarOpen, setSnackbarOpen] = useState(false);
@@ -178,48 +67,26 @@ const Settings: React.FC = () => {
   const availableSubjects = ['Math', 'English', 'Science', 'Social Studies', 'Thinking Skills', 'Mathematical Reasoning'];
   const colorSchemes = ['blue', 'green', 'purple', 'orange', 'red', 'teal'];
 
-  useEffect(() => {
-    // Load settings from localStorage
-    const savedSettings = localStorage.getItem('testace-settings');
-    if (savedSettings) {
-      try {
-        const parsed = JSON.parse(savedSettings);
-        setSettings(prev => ({ ...prev, ...parsed }));
-      } catch (error) {
-        console.error('Error loading settings:', error);
-      }
-    }
-  }, []);
-
   const handleSettingChange = (key: keyof SettingsData, value: any) => {
-    setSettings(prev => ({
-      ...prev,
-      [key]: value
-    }));
+    updateSetting(key, value);
   };
 
   const handleSubjectToggle = (subject: string) => {
-    setSettings(prev => ({
-      ...prev,
-      preferredSubjects: prev.preferredSubjects.includes(subject)
-        ? prev.preferredSubjects.filter(s => s !== subject)
-        : [...prev.preferredSubjects, subject]
-    }));
+    const currentSubjects = settings.preferredSubjects;
+    const newSubjects = currentSubjects.includes(subject)
+      ? currentSubjects.filter(s => s !== subject)
+      : [...currentSubjects, subject];
+    
+    updateSetting('preferredSubjects', newSubjects);
   };
 
-  const saveSettings = async () => {
+  const handleSaveSettings = async () => {
     setSaveStatus('saving');
     try {
-      // Simulate API call
-      await new Promise(resolve => setTimeout(resolve, 1000));
-      
-      // Save to localStorage
-      localStorage.setItem('testace-settings', JSON.stringify(settings));
-      
+      await saveSettings();
       setSaveStatus('saved');
       setSnackbarMessage('Settings saved successfully!');
       setSnackbarOpen(true);
-      
       setTimeout(() => setSaveStatus('idle'), 2000);
     } catch (error) {
       setSaveStatus('error');
@@ -228,42 +95,8 @@ const Settings: React.FC = () => {
     }
   };
 
-  const resetSettings = () => {
-    setSettings({
-      displayName: user?.name || 'Test User',
-      email: user?.email || 'demo@testace.com',
-      grade: user?.grade || '5',
-      preferredSubjects: ['Math', 'English'],
-      defaultDifficulty: 'medium',
-      questionsPerSession: 10,
-      autoAdvance: false,
-      showExplanations: true,
-      showHints: true,
-      practiceMode: 'mixed',
-      emailNotifications: true,
-      pushNotifications: true,
-      dailyReminders: true,
-      weeklyProgress: true,
-      achievementAlerts: true,
-      reminderTime: '18:00',
-      theme: 'light',
-      fontSize: 'medium',
-      colorScheme: 'blue',
-      animations: true,
-      highContrast: false,
-      screenReader: false,
-      keyboardNavigation: false,
-      reducedMotion: false,
-      soundEffects: true,
-      backgroundMusic: false,
-      volume: 70,
-      profileVisibility: 'friends',
-      dataSharing: true,
-      analyticsOptIn: true,
-      autoSave: true,
-      offlineMode: false,
-      dataUsage: 'standard'
-    });
+  const handleResetSettings = () => {
+    resetSettings();
     setShowResetDialog(false);
     setSnackbarMessage('Settings reset to defaults');
     setSnackbarOpen(true);
@@ -840,7 +673,7 @@ const Settings: React.FC = () => {
                   <Button
                     variant="contained"
                     startIcon={<Save />}
-                    onClick={saveSettings}
+                    onClick={handleSaveSettings}
                     disabled={saveStatus === 'saving'}
                   >
                     {saveStatus === 'saving' ? 'Saving...' : 'Save Settings'}
@@ -877,7 +710,7 @@ const Settings: React.FC = () => {
           </DialogContent>
           <DialogActions>
             <Button onClick={() => setShowResetDialog(false)}>Cancel</Button>
-            <Button onClick={resetSettings} color="error" variant="contained">
+            <Button onClick={handleResetSettings} color="error" variant="contained">
               Reset All Settings
             </Button>
           </DialogActions>
