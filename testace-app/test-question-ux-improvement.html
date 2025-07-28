@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TestAce - Question UX Improvement Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .top-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #e8f5e8;
+            border-radius: 8px;
+            border-left: 4px solid #4caf50;
+        }
+        .alert {
+            flex: 1;
+            margin-right: 20px;
+            font-weight: bold;
+            color: #2e7d32;
+        }
+        .btn {
+            padding: 10px 20px;
+            background-color: #1976d2;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            min-width: 180px;
+        }
+        .btn:hover {
+            background-color: #1565c0;
+        }
+        .btn-outline {
+            background-color: transparent;
+            color: #1976d2;
+            border: 1px solid #1976d2;
+        }
+        .btn-outline:hover {
+            background-color: #1976d2;
+            color: white;
+        }
+        .question-header {
+            margin-bottom: 20px;
+        }
+        .chips {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 15px;
+        }
+        .chip {
+            padding: 4px 12px;
+            border-radius: 16px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        .chip-primary { background-color: #e3f2fd; color: #1976d2; }
+        .chip-info { background-color: #e1f5fe; color: #0277bd; }
+        .chip-secondary { background-color: #fce4ec; color: #c2185b; }
+        .chip-outline { background-color: transparent; border: 1px solid #ccc; color: #666; }
+        .question-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 15px 0;
+            color: #333;
+        }
+        .divider {
+            height: 1px;
+            background-color: #e0e0e0;
+            margin: 20px 0;
+        }
+        .options {
+            margin: 20px 0;
+        }
+        .option {
+            display: block;
+            margin: 10px 0;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        .option:hover {
+            background-color: #f5f5f5;
+        }
+        .option.correct {
+            background-color: #c8e6c9;
+            border-color: #4caf50;
+        }
+        .option.incorrect {
+            background-color: #ffcdd2;
+            border-color: #f44336;
+        }
+        .explanation {
+            background-color: #f9f9f9;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .explanation h3 {
+            margin-top: 0;
+            color: #333;
+        }
+        .additional-info {
+            margin-top: 15px;
+            font-size: 14px;
+            color: #666;
+        }
+        .hidden {
+            display: none;
+        }
+        .improvement-note {
+            background-color: #fff3e0;
+            border: 1px solid #ff9800;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        .improvement-note h3 {
+            color: #f57c00;
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="improvement-note">
+            <h3>🎉 UX Improvement Applied!</h3>
+            <p><strong>Enhancement:</strong> Added "Try Another Question" button to the top of the question page.</p>
+            <p><strong>Benefit:</strong> Users no longer need to scroll down to access the next question after answering.</p>
+            <p><strong>Implementation:</strong> The button appears in the top action bar immediately after submission, alongside the result alert.</p>
+        </div>
+
+        <button class="btn" onclick="history.back()" style="margin-bottom: 15px;">← Back to Practice</button>
+
+        <!-- Top Action Bar - Shows after submission -->
+        <div id="topBar" class="top-bar hidden">
+            <div class="alert">✅ Correct! Well done!</div>
+            <button class="btn" onclick="tryAnotherQuestion()">Try Another Question</button>
+        </div>
+
+        <!-- Question Header -->
+        <div class="question-header">
+            <div class="chips">
+                <span class="chip chip-primary">Math</span>
+                <span class="chip chip-info">Grade 5</span>
+                <span class="chip chip-secondary">EASY</span>
+                <span class="chip chip-outline">Arithmetic</span>
+            </div>
+            <h1 class="question-title">What is 15 + 27?</h1>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- Answer Options -->
+        <div class="options">
+            <h3>Choose your answer:</h3>
+            <label class="option" onclick="selectOption(this, false)">
+                <input type="radio" name="answer" value="40"> 40
+            </label>
+            <label class="option" onclick="selectOption(this, true)">
+                <input type="radio" name="answer" value="42"> 42
+            </label>
+            <label class="option" onclick="selectOption(this, false)">
+                <input type="radio" name="answer" value="44"> 44
+            </label>
+            <label class="option" onclick="selectOption(this, false)">
+                <input type="radio" name="answer" value="45"> 45
+            </label>
+        </div>
+
+        <!-- Submit Button -->
+        <button id="submitBtn" class="btn" onclick="submitAnswer()" style="width: 100%;" disabled>
+            Submit Answer
+        </button>
+
+        <!-- Explanation Section -->
+        <div id="explanation" class="explanation hidden">
+            <h3>Explanation</h3>
+            <p>To solve 15 + 27, we can break it down:</p>
+            <p>15 + 27 = 15 + 20 + 7 = 35 + 7 = 42</p>
+            <p>Alternatively, we can add column by column:</p>
+            <p>Units: 5 + 7 = 12 (write 2, carry 1)</p>
+            <p>Tens: 1 + 2 + 1 (carried) = 4</p>
+            <p>Therefore, 15 + 27 = 42</p>
+            
+            <div class="additional-info">
+                <p><strong>Topic:</strong> Arithmetic</p>
+                <p><strong>Tags:</strong> addition, basic math, mental math</p>
+            </div>
+        </div>
+
+        <!-- Bottom Try Another Question Button -->
+        <button id="bottomBtn" class="btn btn-outline hidden" onclick="tryAnotherQuestion()" style="width: 100%; margin-top: 20px;">
+            Try Another Question
+        </button>
+    </div>
+
+    <script>
+        let selectedAnswer = null;
+        let isCorrect = false;
+
+        function selectOption(element, correct) {
+            // Remove previous selections
+            document.querySelectorAll('.option').forEach(opt => {
+                opt.style.backgroundColor = '';
+                opt.style.borderColor = '#ddd';
+            });
+            
+            // Highlight selected option
+            element.style.backgroundColor = '#e3f2fd';
+            element.style.borderColor = '#1976d2';
+            
+            selectedAnswer = element;
+            isCorrect = correct;
+            
+            // Enable submit button
+            document.getElementById('submitBtn').disabled = false;
+        }
+
+        function submitAnswer() {
+            if (!selectedAnswer) return;
+
+            // Show result in top bar
+            const topBar = document.getElementById('topBar');
+            const alert = topBar.querySelector('.alert');
+            
+            if (isCorrect) {
+                alert.innerHTML = '✅ Correct! Well done!';
+                alert.style.color = '#2e7d32';
+                topBar.style.backgroundColor = '#e8f5e8';
+                topBar.style.borderLeftColor = '#4caf50';
+                selectedAnswer.classList.add('correct');
+            } else {
+                alert.innerHTML = '❌ Incorrect. The correct answer is: 42';
+                alert.style.color = '#d32f2f';
+                topBar.style.backgroundColor = '#ffebee';
+                topBar.style.borderLeftColor = '#f44336';
+                selectedAnswer.classList.add('incorrect');
+                
+                // Highlight correct answer
+                document.querySelectorAll('.option').forEach(opt => {
+                    if (opt.textContent.trim().includes('42')) {
+                        opt.classList.add('correct');
+                    }
+                });
+            }
+
+            // Show top bar, explanation, and bottom button
+            topBar.classList.remove('hidden');
+            document.getElementById('explanation').classList.remove('hidden');
+            document.getElementById('bottomBtn').classList.remove('hidden');
+            
+            // Hide submit button
+            document.getElementById('submitBtn').style.display = 'none';
+            
+            // Disable all options
+            document.querySelectorAll('.option').forEach(opt => {
+                opt.style.pointerEvents = 'none';
+            });
+        }
+
+        function tryAnotherQuestion() {
+            alert('🎯 Navigating to Practice page to try another question!\n\nIn the actual app, this would take you back to the practice question list where you can select a new question.');
+        }
+    </script>
+</body>
+</html>

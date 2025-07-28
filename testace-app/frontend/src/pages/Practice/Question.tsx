@@ -15,12 +15,27 @@ import {
   Stack
 } from '@mui/material';
 import { useParams, useNavigate } from 'react-router-dom';
-import { ArrowBack, CheckCircle, Cancel } from '@mui/icons-material';
-import { Question as QuestionType } from '../../types';
+import { ArrowBack, CheckCircle, Cancel, Refresh } from '@mui/icons-material';
+import { Question as QuestionType, DifficultyLevel } from '../../types';
 import { questionData } from './questionData';
-import { getGeneratedQuestions } from '../../services/generatedQuestionsService';
-import { markQuestionAnswered } from '../../services/userProgressService';
+import { getGeneratedQuestions, saveGeneratedQuestions } from '../../services/generatedQuestionsService';
+import { markQuestionAnswered, getAnsweredQuestionIds } from '../../services/userProgressService';
 import { recordQuestionAttempt } from '../../services/questionHistoryService';
+import { getUserGrade } from '../../services/userContextService';
+import { generateMathQuestions } from '../../utils/mathQuestionGenerator';
+import { generateThinkingSkillsQuestions } from '../../utils/thinkingSkillsQuestionGenerator';
+import { generateEnglishQuestions } from '../../utils/englishQuestionGenerator';
+import { generateMathematicalReasoningQuestions } from '../../utils/mathematicalReasoningQuestionGenerator';
+
+// Helper function to shuffle an array
+const shuffleArray = function<T>(array: T[]): T[] {
+  const newArray = [...array];
+  for (let i = newArray.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+  }
+  return newArray;
+};
 
 const Question: React.FC = () => {
   const { id } = useParams();
@@ -31,14 +46,137 @@ const Question: React.FC = () => {
   const [isCorrect, setIsCorrect] = useState(false);
   const [loading, setLoading] = useState(true);
   const [showExplanation, setShowExplanation] = useState(false);
+  const [loadingNextQuestion, setLoadingNextQuestion] = useState(false);
 
-  useEffect(() => {
+  const loadQuestion = (questionId: string) => {
+    setLoading(true);
     // Find question in both standard and generated questions
     const allQuestions = [...questionData, ...getGeneratedQuestions()];
-    const foundQuestion = allQuestions.find(q => q._id === id);
+    const foundQuestion = allQuestions.find(q => q._id === questionId);
     setQuestion(foundQuestion || null);
+    
+    // Reset question state
+    setSelectedAnswer('');
+    setIsSubmitted(false);
+    setIsCorrect(false);
+    setShowExplanation(false);
+    setLoadingNextQuestion(false);
+    
     setLoading(false);
+  };
+
+  useEffect(() => {
+    if (id) {
+      loadQuestion(id);
+    }
   }, [id]);
+
+  const getNextQuestion = (): QuestionType | null => {
+    // Get all available questions
+    const allQuestions = [...questionData, ...getGeneratedQuestions()];
+    
+    // Get answered question IDs
+    const answeredQuestionIds = getAnsweredQuestionIds();
+    
+    // Filter out answered questions and current question
+    const availableQuestions = allQuestions.filter(q => 
+      !answeredQuestionIds.includes(q._id) && q._id !== question?._id
+    );
+    
+    if (availableQuestions.length > 0) {
+      // Return a random question from available ones
+      const randomIndex = Math.floor(Math.random() * availableQuestions.length);
+      return availableQuestions[randomIndex];
+    }
+    
+    return null;
+  };
+
+  const generateNewQuestion = (): QuestionType | null => {
+    if (!question) return null;
+    
+    // Use the current question's properties to generate a similar one
+    const grade = question.grade || getUserGrade();
+    const difficulty = question.difficulty || DifficultyLevel.MEDIUM;
+    const subject = question.subject;
+    
+    let newQuestions: QuestionType[] = [];
+    
+    try {
+      switch (subject) {
+        case 'Math':
+          newQuestions = generateMathQuestions(grade, difficulty, 1);
+          break;
+        case 'English':
+          newQuestions = generateEnglishQuestions(grade, difficulty, 1);
+          break;
+        case 'Thinking Skills':
+          newQuestions = generateThinkingSkillsQuestions(grade, difficulty, 1);
+          break;
+        case 'Mathematical Reasoning':
+          newQuestions = generateMathematicalReasoningQuestions(grade, difficulty, 1);
+          break;
+        default:
+          // For other subjects, try to find any available question
+          const allQuestions = [...questionData, ...getGeneratedQuestions()];
+          const answeredQuestionIds = getAnsweredQuestionIds();
+          const availableQuestions = allQuestions.filter(q => 
+            !answeredQuestionIds.includes(q._id) && q._id !== question._id
+          );
+          if (availableQuestions.length > 0) {
+            const randomIndex = Math.floor(Math.random() * availableQuestions.length);
+            return availableQuestions[randomIndex];
+          }
+          return null;
+      }
+      
+      if (newQuestions.length > 0) {
+        const newQuestion = {
+          ...newQuestions[0],
+          isGenerated: true
+        };
+        
+        // Save the generated question
+        const existingGenerated = getGeneratedQuestions();
+        saveGeneratedQuestions([...existingGenerated, newQuestion]);
+        
+        return newQuestion;
+      }
+    } catch (error) {
+      console.error('Error generating new question:', error);
+    }
+    
+    return null;
+  };
+
+  const handleTryAnotherQuestion = () => {
+    setLoadingNextQuestion(true);
+    
+    // First, try to get an existing unanswered question
+    let nextQuestion = getNextQuestion();
+    
+    // If no existing questions available, generate a new one
+    if (!nextQuestion) {
+      nextQuestion = generateNewQuestion();
+    }
+    
+    if (nextQuestion) {
+      // Load the new question directly
+      setQuestion(nextQuestion);
+      setSelectedAnswer('');
+      setIsSubmitted(false);
+      setIsCorrect(false);
+      setShowExplanation(false);
+      setLoadingNextQuestion(false);
+      
+      // Update URL without navigation
+      window.history.pushState(null, '', `/practice/question/${nextQuestion._id}`);
+    } else {
+      // If no questions available, go back to practice page
+      setLoadingNextQuestion(false);
+      navigate('/practice');
+    }
+  };
 
   const handleAnswerChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     if (!isSubmitted) {
@@ -133,10 +271,12 @@ const Question: React.FC = () => {
               <Button
                 variant="contained"
                 color="primary"
-                onClick={() => navigate('/practice')}
+                onClick={handleTryAnotherQuestion}
+                disabled={loadingNextQuestion}
+                startIcon={loadingNextQuestion ? <CircularProgress size={16} /> : <Refresh />}
                 sx={{ minWidth: '180px' }}
               >
-                Try Another Question
+                {loadingNextQuestion ? 'Loading...' : 'Try Another Question'}
               </Button>
             </Box>
           )}
@@ -236,11 +376,13 @@ const Question: React.FC = () => {
               <Button
                 variant="outlined"
                 color="primary"
-                onClick={() => navigate('/practice')}
+                onClick={handleTryAnotherQuestion}
+                disabled={loadingNextQuestion}
+                startIcon={loadingNextQuestion ? <CircularProgress size={16} /> : <Refresh />}
                 sx={{ mt: 3 }}
                 fullWidth
               >
-                Try Another Question
+                {loadingNextQuestion ? 'Loading Next Question...' : 'Try Another Question'}
               </Button>
             </Box>
           )}

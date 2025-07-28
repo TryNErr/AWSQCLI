@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TestAce - Enhanced Question Navigation Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .enhancement-note {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        .enhancement-note h3 {
+            margin-top: 0;
+            font-size: 20px;
+        }
+        .enhancement-note .feature-list {
+            margin: 15px 0;
+            padding-left: 20px;
+        }
+        .enhancement-note .feature-list li {
+            margin: 8px 0;
+        }
+        .top-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #e8f5e8;
+            border-radius: 8px;
+            border-left: 4px solid #4caf50;
+            animation: slideIn 0.5s ease-out;
+        }
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .alert {
+            flex: 1;
+            margin-right: 20px;
+            font-weight: bold;
+            color: #2e7d32;
+        }
+        .btn {
+            padding: 12px 24px;
+            background-color: #1976d2;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            min-width: 180px;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .btn:hover {
+            background-color: #1565c0;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(25, 118, 210, 0.3);
+        }
+        .btn:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+        .btn-outline {
+            background-color: transparent;
+            color: #1976d2;
+            border: 2px solid #1976d2;
+        }
+        .btn-outline:hover {
+            background-color: #1976d2;
+            color: white;
+        }
+        .loading-spinner {
+            width: 16px;
+            height: 16px;
+            border: 2px solid #ffffff;
+            border-top: 2px solid transparent;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .question-container {
+            transition: all 0.5s ease;
+        }
+        .question-container.changing {
+            opacity: 0.5;
+            transform: scale(0.98);
+        }
+        .question-header {
+            margin-bottom: 20px;
+        }
+        .chips {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+        }
+        .chip {
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+            transition: transform 0.2s ease;
+        }
+        .chip:hover {
+            transform: scale(1.05);
+        }
+        .chip-primary { background-color: #e3f2fd; color: #1976d2; }
+        .chip-info { background-color: #e1f5fe; color: #0277bd; }
+        .chip-secondary { background-color: #fce4ec; color: #c2185b; }
+        .chip-outline { background-color: transparent; border: 1px solid #ccc; color: #666; }
+        .question-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 15px 0;
+            color: #333;
+            line-height: 1.4;
+        }
+        .divider {
+            height: 1px;
+            background-color: #e0e0e0;
+            margin: 20px 0;
+        }
+        .options {
+            margin: 20px 0;
+        }
+        .option {
+            display: block;
+            margin: 12px 0;
+            padding: 15px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            background: white;
+        }
+        .option:hover {
+            background-color: #f8f9fa;
+            border-color: #1976d2;
+            transform: translateX(5px);
+        }
+        .option.correct {
+            background-color: #c8e6c9;
+            border-color: #4caf50;
+            transform: none;
+        }
+        .option.incorrect {
+            background-color: #ffcdd2;
+            border-color: #f44336;
+            transform: none;
+        }
+        .explanation {
+            background-color: #f9f9f9;
+            border: 1px solid #e0e0e0;
+            border-radius: 12px;
+            padding: 25px;
+            margin: 25px 0;
+            animation: fadeIn 0.5s ease-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .explanation h3 {
+            margin-top: 0;
+            color: #333;
+            font-size: 18px;
+        }
+        .additional-info {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #666;
+            border-top: 1px solid #eee;
+            padding-top: 15px;
+        }
+        .hidden {
+            display: none;
+        }
+        .question-counter {
+            background-color: #e3f2fd;
+            color: #1976d2;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+        .demo-controls {
+            background-color: #fff3e0;
+            border: 2px solid #ff9800;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        .demo-controls h4 {
+            color: #f57c00;
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="enhancement-note">
+            <h3>🚀 Enhanced Question Navigation - Direct Question-to-Question Flow!</h3>
+            <p><strong>New Feature:</strong> "Try Another Question" now loads the next question directly on the same page!</p>
+            <ul class="feature-list">
+                <li>✅ No more navigation back to practice page</li>
+                <li>✅ Seamless question-to-question flow</li>
+                <li>✅ Intelligent question selection (unanswered first, then generates new ones)</li>
+                <li>✅ Loading states and smooth transitions</li>
+                <li>✅ URL updates automatically for bookmarking</li>
+                <li>✅ Maintains all existing functionality</li>
+            </ul>
+        </div>
+
+        <div class="demo-controls">
+            <h4>🎮 Interactive Demo</h4>
+            <p>Answer the question below and click "Try Another Question" to see the seamless navigation!</p>
+        </div>
+
+        <div class="question-counter">Question <span id="questionNumber">1</span> of ∞</div>
+
+        <button class="btn" onclick="history.back()" style="margin-bottom: 15px;">← Back to Practice</button>
+
+        <!-- Top Action Bar - Shows after submission -->
+        <div id="topBar" class="top-bar hidden">
+            <div class="alert">✅ Correct! Well done!</div>
+            <button class="btn" id="topTryAnotherBtn" onclick="tryAnotherQuestion()">
+                <span class="btn-icon">🔄</span>
+                <span class="btn-text">Try Another Question</span>
+            </button>
+        </div>
+
+        <!-- Question Container -->
+        <div id="questionContainer" class="question-container">
+            <!-- Question Header -->
+            <div class="question-header">
+                <div class="chips">
+                    <span class="chip chip-primary" id="subjectChip">Math</span>
+                    <span class="chip chip-info" id="gradeChip">Grade 5</span>
+                    <span class="chip chip-secondary" id="difficultyChip">EASY</span>
+                    <span class="chip chip-outline" id="topicChip">Arithmetic</span>
+                </div>
+                <h1 class="question-title" id="questionTitle">What is 15 + 27?</h1>
+            </div>
+
+            <div class="divider"></div>
+
+            <!-- Answer Options -->
+            <div class="options">
+                <h3>Choose your answer:</h3>
+                <div id="optionsContainer">
+                    <label class="option" onclick="selectOption(this, false)">
+                        <input type="radio" name="answer" value="40"> 40
+                    </label>
+                    <label class="option" onclick="selectOption(this, true)">
+                        <input type="radio" name="answer" value="42"> 42
+                    </label>
+                    <label class="option" onclick="selectOption(this, false)">
+                        <input type="radio" name="answer" value="44"> 44
+                    </label>
+                    <label class="option" onclick="selectOption(this, false)">
+                        <input type="radio" name="answer" value="45"> 45
+                    </label>
+                </div>
+            </div>
+
+            <!-- Submit Button -->
+            <button id="submitBtn" class="btn" onclick="submitAnswer()" style="width: 100%;" disabled>
+                Submit Answer
+            </button>
+
+            <!-- Explanation Section -->
+            <div id="explanation" class="explanation hidden">
+                <h3>Explanation</h3>
+                <p id="explanationText">To solve 15 + 27, we can break it down: 15 + 27 = 15 + 20 + 7 = 35 + 7 = 42</p>
+                
+                <div class="additional-info">
+                    <p><strong>Topic:</strong> <span id="explanationTopic">Arithmetic</span></p>
+                    <p><strong>Tags:</strong> <span id="explanationTags">addition, basic math, mental math</span></p>
+                </div>
+            </div>
+
+            <!-- Bottom Try Another Question Button -->
+            <button id="bottomBtn" class="btn btn-outline hidden" onclick="tryAnotherQuestion()" style="width: 100%; margin-top: 20px;">
+                <span class="btn-icon">🔄</span>
+                <span class="btn-text">Try Another Question</span>
+            </button>
+        </div>
+    </div>
+
+    <script>
+        let selectedAnswer = null;
+        let isCorrect = false;
+        let currentQuestionNumber = 1;
+        let isLoading = false;
+
+        // Sample questions for demo
+        const sampleQuestions = [
+            {
+                subject: 'Math',
+                grade: '5',
+                difficulty: 'EASY',
+                topic: 'Arithmetic',
+                title: 'What is 15 + 27?',
+                options: ['40', '42', '44', '45'],
+                correctAnswer: '42',
+                explanation: 'To solve 15 + 27, we can break it down: 15 + 27 = 15 + 20 + 7 = 35 + 7 = 42',
+                tags: 'addition, basic math, mental math'
+            },
+            {
+                subject: 'English',
+                grade: '5',
+                difficulty: 'MEDIUM',
+                topic: 'Grammar',
+                title: 'Choose the correct verb form: "She _____ to school every day."',
+                options: ['go', 'goes', 'going', 'gone'],
+                correctAnswer: 'goes',
+                explanation: 'With third person singular subjects (she, he, it), we add "s" to the verb in present tense.',
+                tags: 'grammar, verbs, present tense'
+            },
+            {
+                subject: 'Thinking Skills',
+                grade: '5',
+                difficulty: 'MEDIUM',
+                topic: 'Pattern Recognition',
+                title: 'What comes next in the pattern: 2, 4, 6, 8, ?',
+                options: ['9', '10', '11', '12'],
+                correctAnswer: '10',
+                explanation: 'This is an even number pattern, increasing by 2 each time. So 8 + 2 = 10.',
+                tags: 'patterns, sequences, even numbers'
+            },
+            {
+                subject: 'Mathematical Reasoning',
+                grade: '5',
+                difficulty: 'HARD',
+                topic: 'Logical Reasoning',
+                title: 'If all cats are animals, and Fluffy is a cat, then:',
+                options: ['Fluffy is not an animal', 'Fluffy is an animal', 'Fluffy might be an animal', 'We cannot tell'],
+                correctAnswer: 'Fluffy is an animal',
+                explanation: 'Since all cats are animals and Fluffy is a cat, Fluffy must be an animal. This is basic logical deduction.',
+                tags: 'logic, deduction, reasoning'
+            }
+        ];
+
+        function selectOption(element, correct) {
+            if (isLoading) return;
+            
+            // Remove previous selections
+            document.querySelectorAll('.option').forEach(opt => {
+                opt.style.backgroundColor = '';
+                opt.style.borderColor = '#ddd';
+                opt.style.transform = '';
+            });
+            
+            // Highlight selected option
+            element.style.backgroundColor = '#e3f2fd';
+            element.style.borderColor = '#1976d2';
+            
+            selectedAnswer = element;
+            isCorrect = correct;
+            
+            // Enable submit button
+            document.getElementById('submitBtn').disabled = false;
+        }
+
+        function submitAnswer() {
+            if (!selectedAnswer || isLoading) return;
+
+            // Show result in top bar
+            const topBar = document.getElementById('topBar');
+            const alert = topBar.querySelector('.alert');
+            
+            if (isCorrect) {
+                alert.innerHTML = '✅ Correct! Well done!';
+                alert.style.color = '#2e7d32';
+                topBar.style.backgroundColor = '#e8f5e8';
+                topBar.style.borderLeftColor = '#4caf50';
+                selectedAnswer.classList.add('correct');
+            } else {
+                const currentQuestion = sampleQuestions[(currentQuestionNumber - 1) % sampleQuestions.length];
+                alert.innerHTML = `❌ Incorrect. The correct answer is: ${currentQuestion.correctAnswer}`;
+                alert.style.color = '#d32f2f';
+                topBar.style.backgroundColor = '#ffebee';
+                topBar.style.borderLeftColor = '#f44336';
+                selectedAnswer.classList.add('incorrect');
+                
+                // Highlight correct answer
+                document.querySelectorAll('.option').forEach(opt => {
+                    if (opt.textContent.trim().includes(currentQuestion.correctAnswer)) {
+                        opt.classList.add('correct');
+                    }
+                });
+            }
+
+            // Show top bar, explanation, and bottom button
+            topBar.classList.remove('hidden');
+            document.getElementById('explanation').classList.remove('hidden');
+            document.getElementById('bottomBtn').classList.remove('hidden');
+            
+            // Hide submit button
+            document.getElementById('submitBtn').style.display = 'none';
+            
+            // Disable all options
+            document.querySelectorAll('.option').forEach(opt => {
+                opt.style.pointerEvents = 'none';
+            });
+        }
+
+        function tryAnotherQuestion() {
+            if (isLoading) return;
+            
+            isLoading = true;
+            
+            // Update button states
+            const buttons = [document.getElementById('topTryAnotherBtn'), document.getElementById('bottomBtn')];
+            buttons.forEach(btn => {
+                btn.disabled = true;
+                const icon = btn.querySelector('.btn-icon');
+                const text = btn.querySelector('.btn-text');
+                if (icon) icon.innerHTML = '<div class="loading-spinner"></div>';
+                if (text) text.textContent = 'Loading...';
+            });
+
+            // Add loading effect to question container
+            const container = document.getElementById('questionContainer');
+            container.classList.add('changing');
+
+            // Simulate loading time
+            setTimeout(() => {
+                loadNextQuestion();
+                
+                // Reset button states
+                buttons.forEach(btn => {
+                    btn.disabled = false;
+                    const icon = btn.querySelector('.btn-icon');
+                    const text = btn.querySelector('.btn-text');
+                    if (icon) icon.textContent = '🔄';
+                    if (text) text.textContent = 'Try Another Question';
+                });
+
+                // Remove loading effect
+                container.classList.remove('changing');
+                isLoading = false;
+            }, 1000);
+        }
+
+        function loadNextQuestion() {
+            currentQuestionNumber++;
+            const questionIndex = (currentQuestionNumber - 1) % sampleQuestions.length;
+            const question = sampleQuestions[questionIndex];
+
+            // Update question counter
+            document.getElementById('questionNumber').textContent = currentQuestionNumber;
+
+            // Update question content
+            document.getElementById('subjectChip').textContent = question.subject;
+            document.getElementById('gradeChip').textContent = `Grade ${question.grade}`;
+            document.getElementById('difficultyChip').textContent = question.difficulty;
+            document.getElementById('topicChip').textContent = question.topic;
+            document.getElementById('questionTitle').textContent = question.title;
+
+            // Update options
+            const optionsContainer = document.getElementById('optionsContainer');
+            optionsContainer.innerHTML = '';
+            question.options.forEach((option, index) => {
+                const isCorrect = option === question.correctAnswer;
+                const optionElement = document.createElement('label');
+                optionElement.className = 'option';
+                optionElement.onclick = () => selectOption(optionElement, isCorrect);
+                optionElement.innerHTML = `<input type="radio" name="answer" value="${option}"> ${option}`;
+                optionsContainer.appendChild(optionElement);
+            });
+
+            // Update explanation
+            document.getElementById('explanationText').textContent = question.explanation;
+            document.getElementById('explanationTopic').textContent = question.topic;
+            document.getElementById('explanationTags').textContent = question.tags;
+
+            // Reset question state
+            selectedAnswer = null;
+            isCorrect = false;
+            
+            // Hide result elements
+            document.getElementById('topBar').classList.add('hidden');
+            document.getElementById('explanation').classList.add('hidden');
+            document.getElementById('bottomBtn').classList.add('hidden');
+            
+            // Show submit button
+            const submitBtn = document.getElementById('submitBtn');
+            submitBtn.style.display = 'block';
+            submitBtn.disabled = true;
+
+            // Simulate URL update (in real app, this would be handled by React Router)
+            const newUrl = `/practice/question/demo-${currentQuestionNumber}`;
+            window.history.pushState(null, '', newUrl);
+
+            // Show success message
+            setTimeout(() => {
+                const notification = document.createElement('div');
+                notification.style.cssText = `
+                    position: fixed;
+                    top: 20px;
+                    right: 20px;
+                    background: #4caf50;
+                    color: white;
+                    padding: 12px 20px;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+                    z-index: 1000;
+                    animation: slideInRight 0.3s ease-out;
+                `;
+                notification.innerHTML = `🎉 New question loaded! (Question ${currentQuestionNumber})`;
+                document.body.appendChild(notification);
+
+                setTimeout(() => {
+                    notification.remove();
+                }, 3000);
+            }, 100);
+        }
+
+        // Add CSS for notification animation
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes slideInRight {
+                from { transform: translateX(100%); opacity: 0; }
+                to { transform: translateX(0); opacity: 1; }
+            }
+        `;
+        document.head.appendChild(style);
+    </script>
+</body>
+</html>
