@@ -1,50 +1,38 @@
 {
-  "name": "testace-app",
+  "name": "testace-lambda-backend",
   "version": "1.0.0",
-  "description": "Test Ace Application",
-  "dependencies": {
-    "@emotion/react": "^11.11.1",
-    "@emotion/styled": "^11.11.0",
-    "@mui/icons-material": "^5.14.0",
-    "@mui/lab": "^5.0.0-alpha.137",
-    "@mui/material": "^5.14.0",
-    "@types/node": "^16.18.38",
-    "@types/react": "^18.2.15",
-    "@types/react-dom": "^18.2.7",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.14.1",
-    "recharts": "^2.7.2",
-    "typescript": "^4.9.5"
-  },
+  "description": "TestAce Backend for AWS Lambda",
+  "main": "lambda-handler.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "serverless offline",
+    "deploy": "serverless deploy",
+    "deploy:prod": "serverless deploy --stage prod",
+    "deploy:dev": "serverless deploy --stage dev",
+    "remove": "serverless remove",
+    "logs": "serverless logs -f api",
+    "test": "node test-deployment.js"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "dependencies": {
+    "express": "^4.18.2",
+    "serverless-http": "^3.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.62.0",
-    "@typescript-eslint/parser": "^5.62.0",
-    "eslint": "^8.45.0",
-    "react-scripts": "5.0.1"
-  }
+    "serverless": "^3.34.0",
+    "serverless-offline": "^12.0.4",
+    "axios": "^1.5.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "testace",
+    "lambda",
+    "serverless",
+    "aws",
+    "education"
+  ],
+  "author": "TestAce Team",
+  "license": "MIT"
 }
