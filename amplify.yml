@@ -3,45 +3,11 @@ frontend:
   phases:
     preBuild:
       commands:
-        - echo "=== Debug Info ==="
-        - pwd
-        - ls -la
-        - echo "=== Looking for testace-app ==="
-        - find . -name "testace-app" -type d || echo "testace-app not found"
-        - echo "=== Looking for frontend ==="
-        - find . -name "frontend" -type d || echo "frontend not found"
-        - echo "=== Navigating to frontend ==="
-        - |
-          if [ -d "testace-app/frontend" ]; then
-            cd testace-app/frontend
-          elif [ -d "frontend" ]; then
-            cd frontend
-          else
-            echo "ERROR: Cannot find frontend directory"
-            exit 1
-          fi
-        - pwd
-        - ls -la
-        - echo "=== Installing dependencies ==="
+        - cd testace-app/frontend
         - npm install --legacy-peer-deps
     build:
       commands:
-        - echo "=== Build Phase ==="
-        - pwd
-        - |
-          if [ -d "testace-app/frontend" ]; then
-            cd testace-app/frontend
-          elif [ -d "frontend" ]; then
-            cd frontend
-          else
-            echo "ERROR: Cannot find frontend directory"
-            exit 1
-          fi
-        - pwd
-        - echo "=== Building application ==="
         - npm run build
-        - echo "=== Build completed ==="
-        - ls -la build/ || echo "Build directory not found"
   artifacts:
     baseDirectory: testace-app/frontend/build
     files:
