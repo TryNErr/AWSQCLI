@@ -21,6 +21,15 @@ import {
   ListItemIcon,
   Divider,
   Alert,
+  Dialog,
+  DialogTitle,
+  DialogContent,
+  DialogActions,
+  Button,
+  RadioGroup,
+  FormControlLabel,
+  Radio,
+  IconButton,
 } from '@mui/material';
 import {
   BarChart,
@@ -45,7 +54,8 @@ import {
   Cancel, 
   HelpOutline,
   History,
-  Assessment 
+  Assessment,
+  Close as CloseIcon
 } from '@mui/icons-material';
 
 // Import services
@@ -104,6 +114,10 @@ const Profile: React.FC = () => {
     questionsAttempted: 0,
     averageScore: 0
   });
+
+  // Enhanced question dialog state
+  const [dialogOpen, setDialogOpen] = useState(false);
+  const [selectedQuestion, setSelectedQuestion] = useState<QuestionAttempt | null>(null);
 
   const currentUserGrade = getUserGrade();
   const userName = getUserName();
@@ -213,6 +227,17 @@ const Profile: React.FC = () => {
 
   const handleGradeChange = (event: SelectChangeEvent) => {
     setSelectedGrade(event.target.value);
+  };
+
+  // Handle question click to show detailed dialog
+  const handleQuestionClick = (attempt: QuestionAttempt) => {
+    setSelectedQuestion(attempt);
+    setDialogOpen(true);
+  };
+
+  const handleCloseDialog = () => {
+    setDialogOpen(false);
+    setSelectedQuestion(null);
   };
 
   // Filter data based on selections
@@ -544,7 +569,18 @@ const Profile: React.FC = () => {
               <List>
                 {getFilteredData().slice(0, 20).map((attempt, index) => (
                   <React.Fragment key={index}>
-                    <ListItem>
+                    <ListItem 
+                      button 
+                      onClick={() => handleQuestionClick(attempt)}
+                      sx={{ 
+                        cursor: 'pointer',
+                        '&:hover': { 
+                          backgroundColor: 'action.hover' 
+                        },
+                        borderRadius: 1,
+                        mb: 1
+                      }}
+                    >
                       <ListItemIcon>
                         {attempt.isCorrect ? (
                           <CheckCircle color="success" />
@@ -639,6 +675,126 @@ const Profile: React.FC = () => {
             </Typography>
           )}
         </Paper>
+
+        {/* Enhanced Question Details Dialog */}
+        <Dialog 
+          open={dialogOpen} 
+          onClose={handleCloseDialog}
+          maxWidth="md"
+          fullWidth
+          PaperProps={{
+            sx: { minHeight: '400px' }
+          }}
+        >
+          <DialogTitle sx={{ m: 0, p: 2, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+            <Typography variant="h6">Question Details</Typography>
+            <IconButton
+              aria-label="close"
+              onClick={handleCloseDialog}
+              sx={{
+                color: (theme) => theme.palette.grey[500],
+              }}
+            >
+              <CloseIcon />
+            </IconButton>
+          </DialogTitle>
+          <DialogContent dividers>
+            {selectedQuestion && (
+              <Box>
+                {/* Question Content */}
+                <Typography variant="h6" gutterBottom sx={{ mb: 3 }}>
+                  {selectedQuestion.content || `Question ${selectedQuestion.questionId}`}
+                </Typography>
+                
+                {/* Question Metadata */}
+                <Box sx={{ mb: 3, display: 'flex', flexWrap: 'wrap', gap: 1 }}>
+                  <Chip label={`Subject: ${selectedQuestion.subject}`} color="primary" />
+                  <Chip label={`Grade: ${selectedQuestion.grade}`} color="info" />
+                  <Chip 
+                    label={`Difficulty: ${selectedQuestion.difficulty}`} 
+                    color={
+                      selectedQuestion.difficulty.toLowerCase() === 'easy' ? 'success' :
+                      selectedQuestion.difficulty.toLowerCase() === 'medium' ? 'warning' : 'error'
+                    }
+                  />
+                  <Chip 
+                    label={selectedQuestion.isCorrect ? 'Correct' : 'Incorrect'} 
+                    color={selectedQuestion.isCorrect ? 'success' : 'error'}
+                  />
+                </Box>
+                
+                {/* Options and Answers */}
+                <Box sx={{ my: 3 }}>
+                  <Typography variant="subtitle1" gutterBottom sx={{ fontWeight: 'bold' }}>
+                    Answer Options:
+                  </Typography>
+                  {selectedQuestion.options && selectedQuestion.options.length > 0 ? (
+                    <RadioGroup value={selectedQuestion.correctAnswer}>
+                      {selectedQuestion.options.map((option: string, index: number) => (
+                        <FormControlLabel
+                          key={index}
+                          value={option}
+                          control={
+                            <Radio 
+                              color={option === selectedQuestion.correctAnswer ? "success" : 
+                                    (option === selectedQuestion.userAnswer && option !== selectedQuestion.correctAnswer) ? "error" : "default"}
+                              checked={option === selectedQuestion.correctAnswer || option === selectedQuestion.userAnswer}
+                              disabled
+                            />
+                          }
+                          label={
+                            <Box component="span" sx={{ 
+                              color: option === selectedQuestion.correctAnswer ? "success.main" : 
+                                    (option === selectedQuestion.userAnswer && option !== selectedQuestion.correctAnswer) ? "error.main" : "text.primary",
+                              fontWeight: option === selectedQuestion.correctAnswer || option === selectedQuestion.userAnswer ? 'bold' : 'normal'
+                            }}>
+                              {option}
+                              {option === selectedQuestion.correctAnswer && " ✓ (Correct Answer)"}
+                              {option === selectedQuestion.userAnswer && option !== selectedQuestion.correctAnswer && " ✗ (Your Answer)"}
+                            </Box>
+                          }
+                        />
+                      ))}
+                    </RadioGroup>
+                  ) : (
+                    <Box sx={{ p: 2, bgcolor: 'background.paper', borderRadius: 1, border: '1px solid rgba(0, 0, 0, 0.12)' }}>
+                      <Typography variant="body1" sx={{ mb: 1 }}>
+                        <strong>Your answer:</strong> {selectedQuestion.userAnswer}
+                      </Typography>
+                      <Typography variant="body1" sx={{ color: 'success.main' }}>
+                        <strong>Correct answer:</strong> {selectedQuestion.correctAnswer}
+                      </Typography>
+                    </Box>
+                  )}
+                </Box>
+                
+                {/* Explanation */}
+                {selectedQuestion.explanation && (
+                  <Box sx={{ mt: 3, p: 2, bgcolor: 'info.light', borderRadius: 1, border: '1px solid', borderColor: 'info.main' }}>
+                    <Typography variant="subtitle1" gutterBottom sx={{ fontWeight: 'bold', color: 'info.dark' }}>
+                      💡 Explanation:
+                    </Typography>
+                    <Typography variant="body1" sx={{ color: 'info.dark' }}>
+                      {selectedQuestion.explanation}
+                    </Typography>
+                  </Box>
+                )}
+                
+                {/* Timestamp */}
+                <Box sx={{ mt: 3, pt: 2, borderTop: '1px solid rgba(0, 0, 0, 0.12)' }}>
+                  <Typography variant="caption" color="text.secondary">
+                    Attempted on: {new Date(selectedQuestion.timestamp).toLocaleString()}
+                  </Typography>
+                </Box>
+              </Box>
+            )}
+          </DialogContent>
+          <DialogActions>
+            <Button onClick={handleCloseDialog} variant="contained">
+              Close
+            </Button>
+          </DialogActions>
+        </Dialog>
       </Box>
     </Container>
   );
