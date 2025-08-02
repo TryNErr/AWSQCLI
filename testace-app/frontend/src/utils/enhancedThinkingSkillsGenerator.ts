@@ -430,42 +430,6 @@ class EnhancedThinkingSkillsGenerator {
       updatedAt: new Date()
     };
   }
-}
-
-// Main function to generate enhanced thinking skills questions
-export const generateEnhancedThinkingSkillsQuestion = (grade: string, difficulty: DifficultyLevel): Question => {
-  const gradeNum = parseInt(grade);
-  const questionTypes = [];
-  
-  // Add appropriate question types based on grade level
-  if (gradeNum >= 1) questionTypes.push('pattern');
-  if (gradeNum >= 2) questionTypes.push('spatial');
-  if (gradeNum >= 3) questionTypes.push('logical');
-  if (gradeNum >= 4) questionTypes.push('critical');
-  if (gradeNum >= 9) questionTypes.push('philosophical');
-  if (gradeNum >= 11) questionTypes.push('advanced_logic');
-  
-  const questionType = questionTypes[getRandomInt(0, questionTypes.length - 1)];
-  
-  switch (questionType) {
-    case 'logical':
-      return EnhancedThinkingSkillsGenerator.generateLogicalReasoning(grade, difficulty);
-    case 'pattern':
-      return EnhancedThinkingSkillsGenerator.generatePatternRecognition(grade, difficulty);
-    case 'spatial':
-      return EnhancedThinkingSkillsGenerator.generateSpatialReasoning(grade, difficulty);
-    case 'critical':
-      return EnhancedThinkingSkillsGenerator.generateCriticalAnalysis(grade, difficulty);
-    case 'philosophical':
-      return EnhancedThinkingSkillsGenerator.generatePhilosophicalReasoning(grade, difficulty);
-    case 'advanced_logic':
-      return EnhancedThinkingSkillsGenerator.generateAdvancedLogic(grade, difficulty);
-    default:
-      return EnhancedThinkingSkillsGenerator.generatePatternRecognition(grade, difficulty);
-  }
-};
-
-class EnhancedThinkingSkillsGenerator {
   
   // Generate philosophical reasoning questions for grades 9-12
   static generatePhilosophicalReasoning(grade: string, difficulty: DifficultyLevel): Question {
@@ -585,3 +549,37 @@ class EnhancedThinkingSkillsGenerator {
       updatedAt: new Date()
     };
   }
+}
+
+// Main function to generate enhanced thinking skills questions
+export const generateEnhancedThinkingSkillsQuestion = (grade: string, difficulty: DifficultyLevel): Question => {
+  const gradeNum = parseInt(grade);
+  const questionTypes = [];
+  
+  // Add appropriate question types based on grade level
+  if (gradeNum >= 1) questionTypes.push('pattern');
+  if (gradeNum >= 2) questionTypes.push('spatial');
+  if (gradeNum >= 3) questionTypes.push('logical');
+  if (gradeNum >= 4) questionTypes.push('critical');
+  if (gradeNum >= 9) questionTypes.push('philosophical');
+  if (gradeNum >= 11) questionTypes.push('advanced_logic');
+  
+  const questionType = questionTypes[getRandomInt(0, questionTypes.length - 1)];
+  
+  switch (questionType) {
+    case 'logical':
+      return EnhancedThinkingSkillsGenerator.generateLogicalReasoning(grade, difficulty);
+    case 'pattern':
+      return EnhancedThinkingSkillsGenerator.generatePatternRecognition(grade, difficulty);
+    case 'spatial':
+      return EnhancedThinkingSkillsGenerator.generateSpatialReasoning(grade, difficulty);
+    case 'critical':
+      return EnhancedThinkingSkillsGenerator.generateCriticalAnalysis(grade, difficulty);
+    case 'philosophical':
+      return EnhancedThinkingSkillsGenerator.generatePhilosophicalReasoning(grade, difficulty);
+    case 'advanced_logic':
+      return EnhancedThinkingSkillsGenerator.generateAdvancedLogic(grade, difficulty);
+    default:
+      return EnhancedThinkingSkillsGenerator.generatePatternRecognition(grade, difficulty);
+  }
+};
