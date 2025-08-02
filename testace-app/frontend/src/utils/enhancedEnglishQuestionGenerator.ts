@@ -37,6 +37,30 @@ const literaryPassages: Record<string, LiteraryPassage[]> = {
       themes: ["duty", "perseverance", "maritime history"],
       vocabulary: ["defiantly", "relentless", "treacherous", "vigilance", "perilous", "navigating"]
     }
+  ],
+  "7-8": [
+    {
+      text: "The Industrial Revolution fundamentally transformed society, ushering in an era of unprecedented technological advancement and social upheaval. As steam-powered machinery replaced traditional handicrafts, millions of people migrated from rural communities to burgeoning urban centers. This demographic shift created new social classes and economic structures, while simultaneously generating environmental challenges that would persist for generations. The revolution's legacy continues to influence contemporary debates about technology, labor, and environmental sustainability.",
+      gradeLevel: [7, 8],
+      themes: ["social change", "technology", "urbanization", "environmental impact"],
+      vocabulary: ["fundamentally", "unprecedented", "upheaval", "burgeoning", "demographic", "sustainability"]
+    }
+  ],
+  "9-10": [
+    {
+      text: "In Shakespeare's 'Hamlet,' the protagonist's existential crisis reflects the broader philosophical tensions of the Renaissance period. His famous soliloquy, 'To be or not to be,' encapsulates the human struggle between action and contemplation, duty and desire. The play's exploration of moral ambiguity, political corruption, and the nature of reality resonates with contemporary audiences, demonstrating literature's capacity to transcend temporal boundaries and illuminate universal human experiences.",
+      gradeLevel: [9, 10],
+      themes: ["existentialism", "moral ambiguity", "Renaissance philosophy", "universal themes"],
+      vocabulary: ["existential", "soliloquy", "encapsulates", "contemplation", "ambiguity", "transcend", "temporal", "illuminate"]
+    }
+  ],
+  "11-12": [
+    {
+      text: "Postmodern literature challenges traditional narrative structures and questions the reliability of objective truth. Authors like Jorge Luis Borges and Italo Calvino employ metafictional techniques, creating self-referential works that blur the boundaries between reality and fiction. This literary movement reflects broader cultural shifts toward relativism and skepticism about grand narratives, while simultaneously celebrating the multiplicity of perspectives and the constructed nature of meaning itself.",
+      gradeLevel: [11, 12],
+      themes: ["postmodernism", "metafiction", "relativism", "narrative theory"],
+      vocabulary: ["metafictional", "self-referential", "relativism", "skepticism", "multiplicity", "constructed"]
+    }
   ]
 };
 
@@ -56,6 +80,41 @@ const advancedVocabulary: Record<string, { word: string; definition: string; syn
     { word: "ambiguous", definition: "having more than one possible meaning", synonyms: ["unclear", "vague", "confusing"], antonyms: ["clear", "definite", "unambiguous"] },
     { word: "tenacious", definition: "holding firmly to something; persistent", synonyms: ["determined", "persistent", "stubborn"], antonyms: ["yielding", "flexible", "weak-willed"] },
     { word: "innovative", definition: "introducing new ideas or methods", synonyms: ["creative", "original", "inventive"], antonyms: ["traditional", "conventional", "outdated"] }
+  ],
+  "6": [
+    { word: "ubiquitous", definition: "present, appearing, or found everywhere", synonyms: ["omnipresent", "pervasive", "universal"], antonyms: ["rare", "scarce", "absent"] },
+    { word: "pragmatic", definition: "dealing with things sensibly and realistically", synonyms: ["practical", "realistic", "sensible"], antonyms: ["idealistic", "impractical", "unrealistic"] },
+    { word: "ephemeral", definition: "lasting for a very short time", synonyms: ["temporary", "fleeting", "transient"], antonyms: ["permanent", "lasting", "enduring"] }
+  ],
+  "7": [
+    { word: "juxtaposition", definition: "the fact of two things being seen or placed close together", synonyms: ["contrast", "comparison", "proximity"], antonyms: ["separation", "isolation", "distance"] },
+    { word: "paradigm", definition: "a typical example or pattern of something", synonyms: ["model", "framework", "template"], antonyms: ["anomaly", "exception", "deviation"] },
+    { word: "catalyst", definition: "a person or thing that precipitates an event", synonyms: ["trigger", "stimulus", "agent"], antonyms: ["inhibitor", "deterrent", "obstacle"] }
+  ],
+  "8": [
+    { word: "dichotomy", definition: "a division or contrast between two things", synonyms: ["division", "split", "contrast"], antonyms: ["unity", "harmony", "agreement"] },
+    { word: "synthesis", definition: "the combination of ideas to form a theory", synonyms: ["combination", "integration", "fusion"], antonyms: ["analysis", "separation", "division"] },
+    { word: "empirical", definition: "based on observation or experience", synonyms: ["experimental", "practical", "observed"], antonyms: ["theoretical", "speculative", "hypothetical"] }
+  ],
+  "9": [
+    { word: "hegemony", definition: "leadership or dominance by one group", synonyms: ["dominance", "supremacy", "control"], antonyms: ["subordination", "submission", "equality"] },
+    { word: "zeitgeist", definition: "the defining spirit of a particular period", synonyms: ["spirit", "mood", "atmosphere"], antonyms: ["timelessness", "universality", "permanence"] },
+    { word: "dialectical", definition: "relating to logical discussion of ideas", synonyms: ["logical", "rational", "analytical"], antonyms: ["illogical", "irrational", "intuitive"] }
+  ],
+  "10": [
+    { word: "epistemology", definition: "the theory of knowledge and justified belief", synonyms: ["knowledge theory", "cognition", "understanding"], antonyms: ["ignorance", "misconception", "fallacy"] },
+    { word: "ontological", definition: "relating to the nature of being", synonyms: ["existential", "metaphysical", "fundamental"], antonyms: ["superficial", "practical", "mundane"] },
+    { word: "hermeneutics", definition: "the theory and methodology of interpretation", synonyms: ["interpretation", "analysis", "exegesis"], antonyms: ["literalism", "simplification", "misinterpretation"] }
+  ],
+  "11": [
+    { word: "phenomenology", definition: "the study of consciousness and experience", synonyms: ["consciousness study", "experiential analysis", "perception theory"], antonyms: ["behaviorism", "materialism", "reductionism"] },
+    { word: "existentialism", definition: "philosophy emphasizing individual existence and freedom", synonyms: ["individualism", "freedom philosophy", "authenticity"], antonyms: ["determinism", "essentialism", "conformity"] },
+    { word: "postmodernism", definition: "movement questioning traditional assumptions", synonyms: ["relativism", "skepticism", "deconstruction"], antonyms: ["modernism", "absolutism", "foundationalism"] }
+  ],
+  "12": [
+    { word: "deconstruction", definition: "critical analysis revealing hidden assumptions", synonyms: ["analysis", "critique", "examination"], antonyms: ["construction", "synthesis", "acceptance"] },
+    { word: "intertextuality", definition: "relationship between texts and their meanings", synonyms: ["textual relationship", "literary connection", "reference"], antonyms: ["isolation", "independence", "originality"] },
+    { word: "verisimilitude", definition: "the appearance of being true or real", synonyms: ["realism", "authenticity", "believability"], antonyms: ["implausibility", "artificiality", "unrealism"] }
   ]
 };
 
@@ -100,7 +159,10 @@ class EnhancedEnglishQuestionGenerator {
     const gradeNum = parseInt(grade);
     let passageKey = "1-2";
     
-    if (gradeNum >= 5) passageKey = "5-6";
+    if (gradeNum >= 11) passageKey = "11-12";
+    else if (gradeNum >= 9) passageKey = "9-10";
+    else if (gradeNum >= 7) passageKey = "7-8";
+    else if (gradeNum >= 5) passageKey = "5-6";
     else if (gradeNum >= 3) passageKey = "3-4";
     
     const passages = literaryPassages[passageKey];
@@ -114,7 +176,22 @@ class EnhancedEnglishQuestionGenerator {
     switch (difficulty) {
       case DifficultyLevel.EASY:
         // Literal comprehension
-        if (passageKey === "3-4") {
+        if (passageKey === "11-12") {
+          questionText = `Read the passage:\n\n"${passage.text}"\n\nWhat literary movement is primarily discussed in this passage?`;
+          options = ["Modernism", "Postmodernism", "Romanticism", "Realism"];
+          answer = "Postmodernism";
+          explanation = "The passage explicitly discusses postmodern literature and its characteristics.";
+        } else if (passageKey === "9-10") {
+          questionText = `Read the passage:\n\n"${passage.text}"\n\nWhat is the name of Hamlet's famous soliloquy mentioned?`;
+          options = ["To be or not to be", "What a piece of work is man", "Now is the winter", "Tomorrow and tomorrow"];
+          answer = "To be or not to be";
+          explanation = "The passage specifically mentions Hamlet's famous soliloquy 'To be or not to be.'";
+        } else if (passageKey === "7-8") {
+          questionText = `Read the passage:\n\n"${passage.text}"\n\nWhat replaced traditional handicrafts during the Industrial Revolution?`;
+          options = ["Manual labor", "Steam-powered machinery", "Water mills", "Wind power"];
+          answer = "Steam-powered machinery";
+          explanation = "The passage states that 'steam-powered machinery replaced traditional handicrafts.'";
+        } else if (passageKey === "3-4") {
           questionText = `Read the passage:\n\n"${passage.text}"\n\nWhat did Maya find in her grandmother's attic?`;
           options = ["A wooden toy", "An old journal", "A candle", "A letter"];
           answer = "An old journal";
@@ -129,11 +206,21 @@ class EnhancedEnglishQuestionGenerator {
         
       case DifficultyLevel.MEDIUM:
         // Inferential comprehension
-        if (passageKey === "5-6") {
-          questionText = `Read the passage:\n\n"${passage.text}"\n\nWhat can you infer about Captain Morrison's character?`;
-          options = ["He is careless", "He is dedicated to his duty", "He dislikes his job", "He is afraid of storms"];
-          answer = "He is dedicated to his duty";
-          explanation = "The passage shows Morrison climbing the stairs each evening and understanding that 'his vigilance meant the difference between life and death,' indicating dedication.";
+        if (passageKey === "11-12") {
+          questionText = `Read the passage:\n\n"${passage.text}"\n\nWhat does the passage suggest about the nature of truth in postmodern literature?`;
+          options = ["Truth is absolute", "Truth is relative and constructed", "Truth is unknowable", "Truth is scientific"];
+          answer = "Truth is relative and constructed";
+          explanation = "The passage discusses how postmodern literature 'questions the reliability of objective truth' and celebrates 'the constructed nature of meaning.'";
+        } else if (passageKey === "9-10") {
+          questionText = `Read the passage:\n\n"${passage.text}"\n\nWhat does the passage suggest about why Hamlet remains relevant today?`;
+          options = ["It's historically accurate", "It explores universal human experiences", "It's easy to understand", "It's entertaining"];
+          answer = "It explores universal human experiences";
+          explanation = "The passage states that the play 'resonates with contemporary audiences' and 'illuminate[s] universal human experiences.'";
+        } else if (passageKey === "7-8") {
+          questionText = `Read the passage:\n\n"${passage.text}"\n\nWhat can be inferred about the long-term effects of the Industrial Revolution?`;
+          options = ["Only positive changes", "Only negative changes", "Both benefits and challenges", "No lasting impact"];
+          answer = "Both benefits and challenges";
+          explanation = "The passage mentions both 'technological advancement' and 'environmental challenges that would persist for generations.'";
         } else {
           questionText = `Read the passage:\n\n"${passage.text}"\n\nHow did Maya likely feel when reading the journal?`;
           options = ["Bored", "Confused", "Fascinated", "Angry"];
@@ -144,11 +231,16 @@ class EnhancedEnglishQuestionGenerator {
         
       case DifficultyLevel.HARD:
         // Analytical comprehension
-        if (passageKey === "5-6") {
-          questionText = `Read the passage:\n\n"${passage.text}"\n\nWhat literary device is used in 'stood defiantly against the relentless waves'?`;
-          options = ["Simile", "Metaphor", "Personification", "Alliteration"];
-          answer = "Personification";
-          explanation = "The lighthouse is given human qualities ('stood defiantly'), which is personification - attributing human characteristics to non-human things.";
+        if (passageKey === "11-12") {
+          questionText = `Read the passage:\n\n"${passage.text}"\n\nWhat literary technique is exemplified by works that are 'self-referential'?`;
+          options = ["Symbolism", "Metafiction", "Allegory", "Irony"];
+          answer = "Metafiction";
+          explanation = "The passage describes 'metafictional techniques, creating self-referential works,' which is the definition of metafiction.";
+        } else if (passageKey === "9-10") {
+          questionText = `Read the passage:\n\n"${passage.text}"\n\nWhat philosophical concept does Hamlet's existential crisis primarily represent?`;
+          options = ["Determinism", "The tension between action and contemplation", "Religious faith", "Social conformity"];
+          answer = "The tension between action and contemplation";
+          explanation = "The passage explicitly states that Hamlet's crisis 'encapsulates the human struggle between action and contemplation.'";
         } else {
           questionText = `Read the passage:\n\n"${passage.text}"\n\nWhat theme is most prominent in this passage?`;
           options = ["Friendship", "The connection between past and present", "Adventure", "Competition"];
@@ -179,7 +271,7 @@ class EnhancedEnglishQuestionGenerator {
   // Generate sophisticated vocabulary questions
   static generateAdvancedVocabulary(grade: string, difficulty: DifficultyLevel): Question {
     const gradeNum = parseInt(grade);
-    const vocabLevel = Math.min(5, Math.max(3, gradeNum)).toString();
+    const vocabLevel = Math.min(12, Math.max(3, gradeNum)).toString();
     const vocabulary = advancedVocabulary[vocabLevel] || advancedVocabulary["3"];
     
     const word = vocabulary[getRandomInt(0, vocabulary.length - 1)];
@@ -207,7 +299,11 @@ class EnhancedEnglishQuestionGenerator {
         
       case DifficultyLevel.HARD:
         // Context usage
-        const contexts = [
+        const contexts = gradeNum >= 9 ? [
+          `The philosopher's _____ approach to ethics challenged traditional moral frameworks.`,
+          `Her _____ analysis of the text revealed hidden layers of meaning.`,
+          `The _____ nature of the concept made it difficult to define precisely.`
+        ] : [
           `The scientist's _____ research led to groundbreaking discoveries.`,
           `Her _____ attention to detail impressed everyone.`,
           `The _____ design revolutionized the industry.`

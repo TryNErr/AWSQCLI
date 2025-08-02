@@ -121,6 +121,125 @@ const curriculumStandards: Record<string, any> = {
       cognitiveStage: "formal_operational",
       keySkills: ["formal_reasoning", "scientific_method", "philosophical_inquiry"]
     }
+  },
+  "6": {
+    math: {
+      topics: ["ratios_proportions", "integers", "basic_algebra", "statistics_probability"],
+      cognitiveLoad: "formal_operational",
+      keySkills: ["proportional_reasoning", "negative_numbers", "algebraic_expressions", "data_interpretation"]
+    },
+    english: {
+      topics: ["advanced_literature", "essay_writing", "research_methods", "media_literacy"],
+      readingLevel: "proficient_reader",
+      keySkills: ["literary_analysis", "argumentative_writing", "source_evaluation"]
+    },
+    thinkingSkills: {
+      topics: ["deductive_reasoning", "scientific_method", "ethical_reasoning"],
+      cognitiveStage: "formal_operational",
+      keySkills: ["logical_proofs", "experimental_design", "moral_reasoning"]
+    }
+  },
+  "7": {
+    math: {
+      topics: ["linear_equations", "geometry_proofs", "probability", "exponential_functions"],
+      cognitiveLoad: "formal_operational_advanced",
+      keySkills: ["equation_solving", "geometric_reasoning", "statistical_analysis", "function_concepts"]
+    },
+    english: {
+      topics: ["classical_literature", "advanced_composition", "rhetoric", "linguistics"],
+      readingLevel: "advanced_proficient",
+      keySkills: ["textual_analysis", "persuasive_writing", "language_structure"]
+    },
+    thinkingSkills: {
+      topics: ["formal_logic_systems", "philosophical_arguments", "scientific_reasoning"],
+      cognitiveStage: "formal_operational_advanced",
+      keySkills: ["symbolic_logic", "argument_construction", "hypothesis_testing"]
+    }
+  },
+  "8": {
+    math: {
+      topics: ["quadratic_equations", "systems_equations", "trigonometry_basics", "advanced_geometry"],
+      cognitiveLoad: "formal_operational_advanced",
+      keySkills: ["quadratic_reasoning", "system_solving", "trigonometric_ratios", "proof_writing"]
+    },
+    english: {
+      topics: ["world_literature", "advanced_rhetoric", "research_methodology", "creative_writing"],
+      readingLevel: "college_prep",
+      keySkills: ["comparative_analysis", "advanced_argumentation", "original_composition"]
+    },
+    thinkingSkills: {
+      topics: ["advanced_logic", "epistemology", "research_design"],
+      cognitiveStage: "formal_operational_expert",
+      keySkills: ["complex_reasoning", "knowledge_evaluation", "methodology_design"]
+    }
+  },
+  "9": {
+    math: {
+      topics: ["algebra_2", "advanced_functions", "statistics", "mathematical_modeling"],
+      cognitiveLoad: "formal_operational_expert",
+      keySkills: ["function_analysis", "statistical_inference", "model_construction", "abstract_reasoning"]
+    },
+    english: {
+      topics: ["american_literature", "advanced_composition", "literary_criticism", "public_speaking"],
+      readingLevel: "college_level",
+      keySkills: ["critical_theory", "advanced_writing", "oral_communication"]
+    },
+    thinkingSkills: {
+      topics: ["symbolic_logic", "philosophy_of_science", "advanced_problem_solving"],
+      cognitiveStage: "formal_operational_expert",
+      keySkills: ["symbolic_reasoning", "scientific_philosophy", "complex_problem_solving"]
+    }
+  },
+  "10": {
+    math: {
+      topics: ["precalculus", "trigonometry", "sequences_series", "conic_sections"],
+      cognitiveLoad: "formal_operational_expert",
+      keySkills: ["advanced_functions", "trigonometric_analysis", "series_convergence", "analytic_geometry"]
+    },
+    english: {
+      topics: ["world_literature", "advanced_rhetoric", "literary_theory", "research_writing"],
+      readingLevel: "college_level_advanced",
+      keySkills: ["theoretical_analysis", "advanced_research", "scholarly_writing"]
+    },
+    thinkingSkills: {
+      topics: ["formal_systems", "advanced_logic", "philosophical_reasoning"],
+      cognitiveStage: "formal_operational_expert",
+      keySkills: ["system_analysis", "formal_proofs", "philosophical_argumentation"]
+    }
+  },
+  "11": {
+    math: {
+      topics: ["calculus_basics", "advanced_statistics", "discrete_mathematics", "mathematical_proofs"],
+      cognitiveLoad: "formal_operational_expert",
+      keySkills: ["differential_calculus", "statistical_modeling", "discrete_structures", "proof_techniques"]
+    },
+    english: {
+      topics: ["advanced_literature", "scholarly_writing", "linguistics", "comparative_literature"],
+      readingLevel: "college_advanced",
+      keySkills: ["scholarly_analysis", "academic_writing", "linguistic_analysis"]
+    },
+    thinkingSkills: {
+      topics: ["advanced_formal_logic", "philosophy", "research_methodology"],
+      cognitiveStage: "formal_operational_expert",
+      keySkills: ["formal_reasoning", "philosophical_analysis", "research_design"]
+    }
+  },
+  "12": {
+    math: {
+      topics: ["advanced_calculus", "linear_algebra", "probability_theory", "mathematical_analysis"],
+      cognitiveLoad: "formal_operational_expert",
+      keySkills: ["integral_calculus", "matrix_operations", "probability_distributions", "real_analysis"]
+    },
+    english: {
+      topics: ["college_prep_literature", "advanced_composition", "critical_theory", "independent_research"],
+      readingLevel: "college_ready",
+      keySkills: ["independent_analysis", "college_writing", "theoretical_frameworks"]
+    },
+    thinkingSkills: {
+      topics: ["advanced_philosophy", "formal_logic_systems", "independent_research"],
+      cognitiveStage: "formal_operational_expert",
+      keySkills: ["independent_reasoning", "system_construction", "original_research"]
+    }
   }
 };
 

@@ -43,7 +43,7 @@ const EnhancedPractice: React.FC = () => {
     'English', 
     'Thinking Skills'
   ]);
-  const [availableGrades] = useState<string[]>(['1', '2', '3', '4', '5']);
+  const [availableGrades] = useState<string[]>(['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12']);
   const navigate = useNavigate();
 
   // Load questions when filters change

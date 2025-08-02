@@ -442,6 +442,8 @@ export const generateEnhancedThinkingSkillsQuestion = (grade: string, difficulty
   if (gradeNum >= 2) questionTypes.push('spatial');
   if (gradeNum >= 3) questionTypes.push('logical');
   if (gradeNum >= 4) questionTypes.push('critical');
+  if (gradeNum >= 9) questionTypes.push('philosophical');
+  if (gradeNum >= 11) questionTypes.push('advanced_logic');
   
   const questionType = questionTypes[getRandomInt(0, questionTypes.length - 1)];
   
@@ -454,7 +456,132 @@ export const generateEnhancedThinkingSkillsQuestion = (grade: string, difficulty
       return EnhancedThinkingSkillsGenerator.generateSpatialReasoning(grade, difficulty);
     case 'critical':
       return EnhancedThinkingSkillsGenerator.generateCriticalAnalysis(grade, difficulty);
+    case 'philosophical':
+      return EnhancedThinkingSkillsGenerator.generatePhilosophicalReasoning(grade, difficulty);
+    case 'advanced_logic':
+      return EnhancedThinkingSkillsGenerator.generateAdvancedLogic(grade, difficulty);
     default:
       return EnhancedThinkingSkillsGenerator.generatePatternRecognition(grade, difficulty);
   }
 };
+
+class EnhancedThinkingSkillsGenerator {
+  
+  // Generate philosophical reasoning questions for grades 9-12
+  static generatePhilosophicalReasoning(grade: string, difficulty: DifficultyLevel): Question {
+    const gradeNum = parseInt(grade);
+    let questionText: string;
+    let answer: string;
+    let explanation: string;
+    let options: string[];
+    
+    switch (difficulty) {
+      case DifficultyLevel.EASY:
+        // Basic ethical reasoning
+        questionText = `A trolley is heading toward five people on the tracks. You can pull a lever to divert it to another track, where it will kill one person instead. What ethical principle is primarily at stake?`;
+        options = ["Utilitarianism vs. Deontology", "Justice vs. Mercy", "Freedom vs. Security", "Truth vs. Loyalty"];
+        answer = "Utilitarianism vs. Deontology";
+        explanation = "This classic trolley problem illustrates the conflict between utilitarian ethics (greatest good for greatest number) and deontological ethics (certain actions are inherently right or wrong).";
+        break;
+        
+      case DifficultyLevel.MEDIUM:
+        // Epistemological questions
+        questionText = `If you can't prove that the external world exists independently of your mind, what philosophical position does this lead to?`;
+        options = ["Solipsism", "Materialism", "Dualism", "Pragmatism"];
+        answer = "Solipsism";
+        explanation = "Solipsism is the philosophical position that only one's own mind is sure to exist, and that knowledge of anything outside one's own mind is unsure.";
+        break;
+        
+      case DifficultyLevel.HARD:
+        // Advanced philosophical concepts
+        questionText = `According to Sartre's existentialism, what does 'existence precedes essence' mean?`;
+        options = [
+          "We exist before we define ourselves",
+          "Our nature determines our existence", 
+          "Essence is more important than existence",
+          "We are predetermined by our essence"
+        ];
+        answer = "We exist before we define ourselves";
+        explanation = "Sartre argued that humans first exist, then through their choices and actions, create their own essence or nature. We are not born with a predetermined purpose.";
+        break;
+    }
+    
+    return {
+      _id: generateId(),
+      content: questionText,
+      type: QuestionType.MULTIPLE_CHOICE,
+      options: shuffleArray(options),
+      correctAnswer: answer,
+      explanation,
+      subject: 'Thinking Skills',
+      topic: 'Philosophical Reasoning',
+      difficulty,
+      tags: ['philosophy', 'ethics', 'epistemology', 'existentialism'],
+      grade,
+      createdBy: 'enhanced-system',
+      createdAt: new Date(),
+      updatedAt: new Date()
+    };
+  }
+  
+  // Generate advanced logic questions for grades 11-12
+  static generateAdvancedLogic(grade: string, difficulty: DifficultyLevel): Question {
+    const gradeNum = parseInt(grade);
+    let questionText: string;
+    let answer: string;
+    let explanation: string;
+    let options: string[];
+    
+    switch (difficulty) {
+      case DifficultyLevel.EASY:
+        // Propositional logic
+        questionText = `In propositional logic, if P → Q is true and P is true, what can we conclude about Q?`;
+        options = ["Q is true", "Q is false", "Q is unknown", "The statement is invalid"];
+        answer = "Q is true";
+        explanation = "This is modus ponens: if 'if P then Q' is true, and P is true, then Q must be true.";
+        break;
+        
+      case DifficultyLevel.MEDIUM:
+        // Predicate logic
+        questionText = `What does ∀x(P(x) → Q(x)) mean in predicate logic?`;
+        options = [
+          "For all x, if P(x) then Q(x)",
+          "There exists an x such that P(x) and Q(x)",
+          "For all x, P(x) and Q(x)",
+          "There exists an x such that if P(x) then Q(x)"
+        ];
+        answer = "For all x, if P(x) then Q(x)";
+        explanation = "∀ means 'for all', and → means 'implies'. So this reads 'for all x, if P(x) then Q(x)'.";
+        break;
+        
+      case DifficultyLevel.HARD:
+        // Modal logic
+        questionText = `In modal logic, what does ◊□P mean?`;
+        options = [
+          "It is possible that P is necessary",
+          "It is necessary that P is possible", 
+          "P is both possible and necessary",
+          "P is neither possible nor necessary"
+        ];
+        answer = "It is possible that P is necessary";
+        explanation = "◊ means 'possibly' and □ means 'necessarily'. So ◊□P means 'it is possible that P is necessary'.";
+        break;
+    }
+    
+    return {
+      _id: generateId(),
+      content: questionText,
+      type: QuestionType.MULTIPLE_CHOICE,
+      options: shuffleArray(options),
+      correctAnswer: answer,
+      explanation,
+      subject: 'Thinking Skills',
+      topic: 'Advanced Logic',
+      difficulty,
+      tags: ['formal-logic', 'propositional-logic', 'predicate-logic', 'modal-logic'],
+      grade,
+      createdBy: 'enhanced-system',
+      createdAt: new Date(),
+      updatedAt: new Date()
+    };
+  }

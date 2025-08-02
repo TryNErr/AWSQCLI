@@ -341,47 +341,128 @@ class EnhancedMathQuestionGenerator {
     let answer: string;
     let explanation: string;
     
-    switch (difficulty) {
-      case DifficultyLevel.EASY:
-        // Simple patterns and sequences
-        const start = getRandomInt(3, 15);
-        const increment = getRandomInt(2, 7);
-        const sequence = [start, start + increment, start + 2*increment, start + 3*increment];
-        const nextValue = start + 4*increment;
-        
-        questionText = `What comes next in this pattern: ${sequence.join(', ')}, ?`;
-        answer = nextValue.toString();
-        explanation = `This is an arithmetic sequence with a common difference of ${increment}. Each term increases by ${increment}.`;
-        break;
-        
-      case DifficultyLevel.MEDIUM:
-        // Simple equations
-        const coefficient = getRandomInt(2, 8);
-        const constant = getRandomInt(10, 30);
-        const result = getRandomInt(20, 50);
-        const variable = Math.floor((result - constant) / coefficient);
-        
-        questionText = `If ${coefficient}x + ${constant} = ${result}, what is the value of x?`;
-        answer = variable.toString();
-        explanation = `Solve: ${coefficient}x + ${constant} = ${result}\n${coefficient}x = ${result} - ${constant}\n${coefficient}x = ${result - constant}\nx = ${variable}`;
-        break;
-        
-      case DifficultyLevel.HARD:
-        // Two-step word problems with variables
-        const pricePerItem = getRandomInt(3, 12);
-        const fixedCost = getRandomInt(15, 35);
-        const totalCost = getRandomInt(50, 100);
-        const items = Math.floor((totalCost - fixedCost) / pricePerItem);
-        
-        questionText = `A store charges $${fixedCost} for delivery plus $${pricePerItem} per item. If the total cost is $${totalCost}, how many items were ordered?`;
-        answer = items.toString();
-        explanation = `Let x = number of items\nEquation: ${pricePerItem}x + ${fixedCost} = ${totalCost}\n${pricePerItem}x = ${totalCost - fixedCost}\nx = ${items}`;
-        break;
+    // Adjust complexity based on grade level
+    if (gradeNum <= 5) {
+      // Elementary algebra
+      switch (difficulty) {
+        case DifficultyLevel.EASY:
+          // Simple patterns and sequences
+          const start = getRandomInt(3, 15);
+          const increment = getRandomInt(2, 7);
+          const sequence = [start, start + increment, start + 2*increment, start + 3*increment];
+          const nextValue = start + 4*increment;
+          
+          questionText = `What comes next in this pattern: ${sequence.join(', ')}, ?`;
+          answer = nextValue.toString();
+          explanation = `This is an arithmetic sequence with a common difference of ${increment}. Each term increases by ${increment}.`;
+          break;
+          
+        case DifficultyLevel.MEDIUM:
+          // Simple equations
+          const coefficient = getRandomInt(2, 8);
+          const constant = getRandomInt(10, 30);
+          const result = getRandomInt(20, 50);
+          const variable = Math.floor((result - constant) / coefficient);
+          
+          questionText = `If ${coefficient}x + ${constant} = ${result}, what is the value of x?`;
+          answer = variable.toString();
+          explanation = `Solve: ${coefficient}x + ${constant} = ${result}\n${coefficient}x = ${result} - ${constant}\n${coefficient}x = ${result - constant}\nx = ${variable}`;
+          break;
+          
+        case DifficultyLevel.HARD:
+          // Two-step word problems with variables
+          const pricePerItem = getRandomInt(3, 12);
+          const fixedCost = getRandomInt(15, 35);
+          const totalCost = getRandomInt(50, 100);
+          const items = Math.floor((totalCost - fixedCost) / pricePerItem);
+          
+          questionText = `A store charges $${fixedCost} for delivery plus $${pricePerItem} per item. If the total cost is $${totalCost}, how many items were ordered?`;
+          answer = items.toString();
+          explanation = `Let x = number of items\nEquation: ${pricePerItem}x + ${fixedCost} = ${totalCost}\n${pricePerItem}x = ${totalCost - fixedCost}\nx = ${items}`;
+          break;
+      }
+    } else if (gradeNum <= 8) {
+      // Middle school algebra
+      switch (difficulty) {
+        case DifficultyLevel.EASY:
+          // Linear equations
+          const a = getRandomInt(2, 6);
+          const b = getRandomInt(5, 20);
+          const c = getRandomInt(15, 40);
+          const x = Math.floor((c - b) / a);
+          
+          questionText = `Solve for x: ${a}x + ${b} = ${c}`;
+          answer = x.toString();
+          explanation = `${a}x + ${b} = ${c}\n${a}x = ${c} - ${b}\n${a}x = ${c - b}\nx = ${x}`;
+          break;
+          
+        case DifficultyLevel.MEDIUM:
+          // Systems of equations
+          const x1 = getRandomInt(2, 8);
+          const y1 = getRandomInt(1, 6);
+          const eq1Result = 2*x1 + 3*y1;
+          const eq2Result = x1 + 2*y1;
+          
+          questionText = `Solve the system:\n2x + 3y = ${eq1Result}\nx + 2y = ${eq2Result}`;
+          answer = `x = ${x1}, y = ${y1}`;
+          explanation = `Using substitution or elimination method:\nFrom equation 2: x = ${eq2Result} - 2y\nSubstitute into equation 1: 2(${eq2Result} - 2y) + 3y = ${eq1Result}\nSolving: x = ${x1}, y = ${y1}`;
+          break;
+          
+        case DifficultyLevel.HARD:
+          // Quadratic equations
+          const root1 = getRandomInt(1, 5);
+          const root2 = getRandomInt(1, 5);
+          const quadA = 1;
+          const quadB = -(root1 + root2);
+          const quadC = root1 * root2;
+          
+          questionText = `Solve: x² ${quadB >= 0 ? '+' : ''}${quadB}x ${quadC >= 0 ? '+' : ''}${quadC} = 0`;
+          answer = `x = ${Math.min(root1, root2)} or x = ${Math.max(root1, root2)}`;
+          explanation = `Using factoring or quadratic formula:\n(x - ${root1})(x - ${root2}) = 0\nTherefore x = ${root1} or x = ${root2}`;
+          break;
+      }
+    } else {
+      // High school algebra (grades 9-12)
+      switch (difficulty) {
+        case DifficultyLevel.EASY:
+          // Function evaluation
+          const funcA = getRandomInt(2, 5);
+          const funcB = getRandomInt(1, 10);
+          const inputX = getRandomInt(1, 8);
+          const outputY = funcA * inputX + funcB;
+          
+          questionText = `If f(x) = ${funcA}x + ${funcB}, find f(${inputX})`;
+          answer = outputY.toString();
+          explanation = `f(${inputX}) = ${funcA}(${inputX}) + ${funcB} = ${funcA * inputX} + ${funcB} = ${outputY}`;
+          break;
+          
+        case DifficultyLevel.MEDIUM:
+          // Exponential functions
+          const base = getRandomInt(2, 4);
+          const exponent = getRandomInt(2, 4);
+          const expResult = Math.pow(base, exponent);
+          
+          questionText = `If 2^x = ${Math.pow(2, exponent)}, what is the value of x?`;
+          answer = exponent.toString();
+          explanation = `Since 2^x = ${Math.pow(2, exponent)} = 2^${exponent}, we have x = ${exponent}`;
+          break;
+          
+        case DifficultyLevel.HARD:
+          // Logarithmic functions
+          const logBase = 3;
+          const logArg = Math.pow(logBase, 3);
+          const logResult = 3;
+          
+          questionText = `Solve: log₃(x) = 3`;
+          answer = logArg.toString();
+          explanation = `If log₃(x) = 3, then 3³ = x\nTherefore x = 27`;
+          break;
+      }
     }
     
     // Generate wrong options
     const wrongOptions: string[] = [];
-    const correctNum = parseInt(answer);
+    const correctNum = parseInt(answer.split(' ')[0]) || parseInt(answer);
     [correctNum - 2, correctNum - 1, correctNum + 1, correctNum + 2, correctNum * 2, Math.floor(correctNum / 2)]
       .forEach(opt => {
         if (opt > 0 && opt !== correctNum && !wrongOptions.includes(opt.toString())) {
@@ -399,9 +480,165 @@ class EnhancedMathQuestionGenerator {
       correctAnswer: answer,
       explanation,
       subject: 'Math',
-      topic: 'Algebraic Thinking',
+      topic: gradeNum <= 5 ? 'Algebraic Thinking' : gradeNum <= 8 ? 'Algebra' : 'Advanced Algebra',
       difficulty,
       tags: ['algebra', 'patterns', 'equations', 'problem-solving'],
+      grade,
+      createdBy: 'enhanced-system',
+      createdAt: new Date(),
+      updatedAt: new Date()
+    };
+  }
+  
+  // Generate geometry questions for higher grades
+  static generateGeometry(grade: string, difficulty: DifficultyLevel): Question {
+    const gradeNum = parseInt(grade);
+    let questionText: string;
+    let answer: string;
+    let explanation: string;
+    
+    if (gradeNum <= 8) {
+      // Basic geometry
+      switch (difficulty) {
+        case DifficultyLevel.EASY:
+          const length = getRandomInt(5, 15);
+          const width = getRandomInt(3, 12);
+          const area = length * width;
+          
+          questionText = `What is the area of a rectangle with length ${length} units and width ${width} units?`;
+          answer = `${area} square units`;
+          explanation = `Area of rectangle = length × width = ${length} × ${width} = ${area} square units`;
+          break;
+          
+        case DifficultyLevel.MEDIUM:
+          const radius = getRandomInt(3, 10);
+          const circumference = Math.round(2 * Math.PI * radius * 100) / 100;
+          
+          questionText = `What is the circumference of a circle with radius ${radius} units? (Use π ≈ 3.14)`;
+          answer = `${circumference} units`;
+          explanation = `Circumference = 2πr = 2 × 3.14 × ${radius} = ${circumference} units`;
+          break;
+          
+        case DifficultyLevel.HARD:
+          const base = getRandomInt(6, 12);
+          const height = getRandomInt(4, 10);
+          const triangleArea = (base * height) / 2;
+          
+          questionText = `A triangle has a base of ${base} units and height of ${height} units. What is its area?`;
+          answer = `${triangleArea} square units`;
+          explanation = `Area of triangle = ½ × base × height = ½ × ${base} × ${height} = ${triangleArea} square units`;
+          break;
+      }
+    } else {
+      // Advanced geometry (grades 9-12)
+      switch (difficulty) {
+        case DifficultyLevel.EASY:
+          const sideA = 3;
+          const sideB = 4;
+          const hypotenuse = 5;
+          
+          questionText = `In a right triangle with legs of length 3 and 4, what is the length of the hypotenuse?`;
+          answer = "5";
+          explanation = `Using Pythagorean theorem: c² = a² + b²\nc² = 3² + 4² = 9 + 16 = 25\nc = √25 = 5`;
+          break;
+          
+        case DifficultyLevel.MEDIUM:
+          const angle = 30;
+          const opposite = 0.5;
+          
+          questionText = `In a right triangle, if one angle is 30° and the hypotenuse is 1, what is sin(30°)?`;
+          answer = "0.5";
+          explanation = `sin(30°) = opposite/hypotenuse = 0.5/1 = 0.5`;
+          break;
+          
+        case DifficultyLevel.HARD:
+          const vectorA = [3, 4];
+          const vectorB = [1, 2];
+          const dotProduct = vectorA[0] * vectorB[0] + vectorA[1] * vectorB[1];
+          
+          questionText = `Find the dot product of vectors A = (3, 4) and B = (1, 2)`;
+          answer = dotProduct.toString();
+          explanation = `Dot product = A·B = (3)(1) + (4)(2) = 3 + 8 = ${dotProduct}`;
+          break;
+      }
+    }
+    
+    const options = [answer, "Wrong option 1", "Wrong option 2", "Wrong option 3"];
+    
+    return {
+      _id: generateId(),
+      content: questionText,
+      type: QuestionType.MULTIPLE_CHOICE,
+      options: shuffleArray(options),
+      correctAnswer: answer,
+      explanation,
+      subject: 'Math',
+      topic: gradeNum <= 8 ? 'Geometry' : 'Advanced Geometry',
+      difficulty,
+      tags: ['geometry', 'shapes', 'measurement'],
+      grade,
+      createdBy: 'enhanced-system',
+      createdAt: new Date(),
+      updatedAt: new Date()
+    };
+  }
+  
+  // Generate calculus questions for grades 11-12
+  static generateCalculus(grade: string, difficulty: DifficultyLevel): Question {
+    const gradeNum = parseInt(grade);
+    let questionText: string;
+    let answer: string;
+    let explanation: string;
+    
+    switch (difficulty) {
+      case DifficultyLevel.EASY:
+        // Basic derivatives
+        const coeff = getRandomInt(2, 8);
+        const power = getRandomInt(2, 5);
+        const newCoeff = coeff * power;
+        const newPower = power - 1;
+        
+        questionText = `Find the derivative of f(x) = ${coeff}x^${power}`;
+        answer = `${newCoeff}x^${newPower}`;
+        explanation = `Using power rule: d/dx[ax^n] = nax^(n-1)\nf'(x) = ${power} × ${coeff}x^${power-1} = ${newCoeff}x^${newPower}`;
+        break;
+        
+      case DifficultyLevel.MEDIUM:
+        // Chain rule
+        const innerCoeff = getRandomInt(2, 5);
+        const outerPower = getRandomInt(2, 4);
+        
+        questionText = `Find the derivative of f(x) = (${innerCoeff}x + 1)^${outerPower}`;
+        answer = `${outerPower * innerCoeff}(${innerCoeff}x + 1)^${outerPower - 1}`;
+        explanation = `Using chain rule: d/dx[f(g(x))] = f'(g(x)) × g'(x)\nf'(x) = ${outerPower}(${innerCoeff}x + 1)^${outerPower-1} × ${innerCoeff} = ${outerPower * innerCoeff}(${innerCoeff}x + 1)^${outerPower-1}`;
+        break;
+        
+      case DifficultyLevel.HARD:
+        // Integration
+        const integrandCoeff = getRandomInt(2, 6);
+        const integrandPower = getRandomInt(1, 4);
+        const resultCoeff = integrandCoeff / (integrandPower + 1);
+        const resultPower = integrandPower + 1;
+        
+        questionText = `Find ∫${integrandCoeff}x^${integrandPower} dx`;
+        answer = `${resultCoeff}x^${resultPower} + C`;
+        explanation = `Using power rule for integration: ∫x^n dx = x^(n+1)/(n+1) + C\n∫${integrandCoeff}x^${integrandPower} dx = ${integrandCoeff} × x^${resultPower}/${resultPower} + C = ${resultCoeff}x^${resultPower} + C`;
+        break;
+    }
+    
+    const options = [answer, "Wrong option 1", "Wrong option 2", "Wrong option 3"];
+    
+    return {
+      _id: generateId(),
+      content: questionText,
+      type: QuestionType.MULTIPLE_CHOICE,
+      options: shuffleArray(options),
+      correctAnswer: answer,
+      explanation,
+      subject: 'Math',
+      topic: 'Calculus',
+      difficulty,
+      tags: ['calculus', 'derivatives', 'integration'],
       grade,
       createdBy: 'enhanced-system',
       createdAt: new Date(),
@@ -419,6 +656,8 @@ export const generateEnhancedMathQuestion = (grade: string, difficulty: Difficul
   if (gradeNum >= 1) questionTypes.push('addition');
   if (gradeNum >= 3) questionTypes.push('fractions');
   if (gradeNum >= 4) questionTypes.push('algebraic');
+  if (gradeNum >= 6) questionTypes.push('geometry');
+  if (gradeNum >= 11) questionTypes.push('calculus');
   
   const questionType = questionTypes[getRandomInt(0, questionTypes.length - 1)];
   
@@ -429,6 +668,10 @@ export const generateEnhancedMathQuestion = (grade: string, difficulty: Difficul
       return EnhancedMathQuestionGenerator.generateAdvancedFractions(grade, difficulty);
     case 'algebraic':
       return EnhancedMathQuestionGenerator.generateAlgebraicThinking(grade, difficulty);
+    case 'geometry':
+      return EnhancedMathQuestionGenerator.generateGeometry(grade, difficulty);
+    case 'calculus':
+      return EnhancedMathQuestionGenerator.generateCalculus(grade, difficulty);
     default:
       return EnhancedMathQuestionGenerator.generateAdvancedAddition(grade, difficulty);
   }
