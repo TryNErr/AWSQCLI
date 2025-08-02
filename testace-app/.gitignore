@@ -77,7 +77,8 @@ jspm_packages/
 
 # Gatsby files
 .cache/
-public
+# NOTE: public folder should NOT be ignored for React apps
+# public
 
 # Storybook build outputs
 .out

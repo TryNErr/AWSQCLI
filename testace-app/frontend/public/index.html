@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="TestAce - Comprehensive Educational Testing Platform" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
+    <!-- Security Headers -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="keywords" content="education, testing, learning, assessment, practice tests">
+    <meta name="author" content="TestAce Team">
+    <meta property="og:title" content="TestAce - Educational Testing Platform">
+    <meta property="og:description" content="Comprehensive educational testing platform with adaptive learning">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://testace.com">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <title>TestAce - Educational Testing Platform</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    
+    <!-- Loading indicator -->
+    <div id="loading-indicator" style="
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: 'Inter', sans-serif;
+      color: #666;
+      display: none;
+    ">
+      Loading TestAce...
+    </div>
+    
+    <script>
+      // Show loading indicator if app takes too long to load
+      setTimeout(function() {
+        if (!document.querySelector('#root').hasChildNodes()) {
+          document.getElementById('loading-indicator').style.display = 'block';
+        }
+      }, 1000);
+    </script>
+  </body>
+</html>
