@@ -1,0 +1,27 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - cd testace-app/frontend
+        - echo "=== Aggressive npm dependency fix ==="
+        - rm -rf node_modules package-lock.json
+        - npm cache clean --force
+        - echo "=== Installing with force flags ==="
+        - npm install --force --legacy-peer-deps --no-audit --no-fund --maxsockets 1
+        - echo "=== Manually installing problematic packages ==="
+        - npm install ajv@^8.12.0 --save --force
+        - npm install ajv-keywords@^5.1.0 --save --force
+        - echo "=== Dependencies installed with force ==="
+    build:
+      commands:
+        - echo "=== Building application ==="
+        - npm run build
+        - echo "=== Build completed ==="
+  artifacts:
+    baseDirectory: testace-app/frontend/build
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - testace-app/frontend/node_modules/**/*
