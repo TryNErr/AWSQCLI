@@ -7,7 +7,7 @@ import { NALAPStyleQuestionGenerator } from './australianCurriculumEnhancer';
 import { AustralianMathCurriculumGenerator } from './australianMathCurriculumEnhancer';
 import { CurriculumExtrapolator } from './curriculumExtrapolator';
 import { EnhancedQuestionVarietyGenerator } from './enhancedQuestionVarietyGenerator';
-import { fixQuestionDifficulty, validateGrade9Difficulty } from './questionDifficultyFixer';
+import { fixQuestionDifficulty, validateHighGradeDifficulty } from './questionDifficultyFixer';
 
 // Enhanced Question Generation System
 // Integrates all enhanced generators with curriculum-based, challenging questions
@@ -389,15 +389,26 @@ export class EnhancedQuestionGenerator {
     // Fix question difficulty if it's incorrectly classified
     question = fixQuestionDifficulty(question);
     
-    // Validate Grade 9+ difficulty appropriateness
-    if (!validateGrade9Difficulty(question)) {
+    // Validate Grade 9+ and 10+ difficulty appropriateness
+    if (!validateHighGradeDifficulty(question)) {
       console.warn(`Difficulty validation failed for Grade ${grade} question: "${question.content}"`);
-      // Force correction for Grade 9+ simple operations
+      // Force correction for high grade simple operations
       if (parseInt(grade) >= 9 && question.difficulty === DifficultyLevel.HARD) {
         const content = question.content.toLowerCase();
-        if (/^\d+\.?\d*\s*[×*+\-÷\/]\s*\d+\.?\d*/.test(content)) {
+        
+        // Comprehensive patterns for inappropriate Hard questions
+        const inappropriatePatterns = [
+          /^\d+\.?\d*\s*[+\-×÷*\/]\s*\d+\.?\d*$/, // Simple arithmetic
+          /^\d+\/\d+\s*[+\-]\s*\d+\/\d+$/, // Simple fractions like "1/12 + 10/12"
+          /there are \d+.*and \d+.*how many.*total/i, // Simple word problems
+          /\d+ dogs and \d+ cats.*how many animals/i, // Pet store type problems
+          /what is \d+.*[+\-×÷*\/].*\d+/i, // Basic "what is" questions
+        ];
+        
+        if (inappropriatePatterns.some(pattern => pattern.test(content))) {
           question.difficulty = DifficultyLevel.EASY;
-          question.tags = [...(question.tags || []), 'grade9-corrected'];
+          question.tags = [...(question.tags || []), 'high-grade-corrected', `grade-${grade}-fixed`];
+          console.log(`🔧 Auto-corrected Grade ${grade} question to Easy: "${question.content}"`);
         }
       }
     }

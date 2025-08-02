@@ -48,27 +48,55 @@ export class AustralianMathCurriculumGenerator {
   }
   
   /**
-   * Validate and fix difficulty for Grade 9+ questions
+   * Enhanced validation and fix difficulty for Grade 9+ questions
    */
   private static validateAndFixGrade9Difficulty(question: Question): Question {
     const content = question.content.toLowerCase();
+    const grade = parseInt(question.grade);
     
-    // Simple operations should not be Hard for Grade 9+
-    const simpleOperationPatterns = [
-      /^\d+\.?\d*\s*[×*]\s*\d+\.?\d*/, // Simple multiplication like "2.2 × 2"
-      /^\d+\.?\d*\s*[+]\s*\d+\.?\d*/, // Simple addition
-      /^\d+\.?\d*\s*[-]\s*\d+\.?\d*/, // Simple subtraction
-      /^\d+\.?\d*\s*[÷\/]\s*\d+\.?\d*/ // Simple division
+    // Comprehensive patterns for operations that should NOT be Hard for Grade 9+
+    const inappropriateHardPatterns = [
+      /^\d+\.?\d*\s*[×*+\-÷\/]\s*\d+\.?\d*$/, // Simple arithmetic like "2.2 × 2"
+      /^\d+\/\d+\s*[+\-]\s*\d+\/\d+$/, // Simple fractions like "1/12 + 10/12"
+      /there are \d+.*and \d+.*how many.*total/i, // Simple word problems
+      /\d+ dogs and \d+ cats.*how many animals/i, // Pet store problems
+      /what is \d+.*[+\-×÷*\/].*\d+/i, // Basic "what is" questions
+      /count.*total/i, // Simple counting
+      /altogether.*how many/i, // Basic addition word problems
+      /^\d+%\s*of\s*\d+$/i, // Simple percentage (single step)
     ];
     
-    const isSimpleOperation = simpleOperationPatterns.some(pattern => pattern.test(content));
+    const isInappropriateHard = inappropriateHardPatterns.some(pattern => pattern.test(content));
     
-    if (isSimpleOperation && question.difficulty === DifficultyLevel.HARD) {
+    if (isInappropriateHard && question.difficulty === DifficultyLevel.HARD) {
+      console.log(`🔧 Correcting Grade ${grade} question from Hard to Easy: "${question.content}"`);
+      
       return {
         ...question,
         difficulty: DifficultyLevel.EASY,
-        tags: [...(question.tags || []), 'difficulty-corrected-grade9']
+        tags: [...(question.tags || []), 'difficulty-corrected-comprehensive', `grade-${grade}-auto-fixed`]
       };
+    }
+    
+    // For Grade 10+, be even more strict
+    if (grade >= 10) {
+      const veryBasicPatterns = [
+        /^\d+\s*[+\-]\s*\d+$/, // Single digit addition/subtraction
+        /count/i, // Any counting problems
+        /how many.*total/i, // Basic totaling
+      ];
+      
+      if (veryBasicPatterns.some(pattern => pattern.test(content)) && 
+          question.difficulty === DifficultyLevel.HARD) {
+        
+        console.log(`🔧 Correcting Grade ${grade} basic question from Hard to Easy: "${question.content}"`);
+        
+        return {
+          ...question,
+          difficulty: DifficultyLevel.EASY,
+          tags: [...(question.tags || []), 'grade10-plus-corrected']
+        };
+      }
     }
     
     return question;
