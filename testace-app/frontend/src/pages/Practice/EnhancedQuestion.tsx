@@ -247,7 +247,10 @@ const EnhancedQuestion: React.FC = () => {
       question.grade,
       correct,
       selectedAnswer,
-      question.correctAnswer
+      question.correctAnswer,
+      question.content,
+      question.options,
+      question.explanation
     );
 
     setLoading(false);

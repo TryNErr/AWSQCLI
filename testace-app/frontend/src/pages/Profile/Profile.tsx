@@ -231,8 +231,62 @@ const Profile: React.FC = () => {
     return filteredAttempts;
   };
 
+  // Get filtered subject data based on current filters
+  const getFilteredSubjectData = () => {
+    const filteredAttempts = getFilteredData();
+    
+    if (selectedSubject !== 'all') {
+      // If a specific subject is selected, return only that subject's data
+      const subjectPerf = subjectData.find(s => s.subject === selectedSubject);
+      return subjectPerf ? [subjectPerf] : [];
+    }
+    
+    // If grade filter is applied, recalculate subject data for that grade
+    if (selectedGrade !== 'all') {
+      const subjects = [...new Set(filteredAttempts.map(a => a.subject))];
+      return subjects.map(subject => {
+        const subjectAttempts = filteredAttempts.filter(a => a.subject === subject);
+        const correct = subjectAttempts.filter(a => a.isCorrect).length;
+        const total = subjectAttempts.length;
+        
+        return {
+          subject,
+          easy: subjectAttempts.filter(a => a.difficulty === 'easy').length,
+          medium: subjectAttempts.filter(a => a.difficulty === 'medium').length,
+          hard: subjectAttempts.filter(a => a.difficulty === 'hard').length,
+          total,
+          correct,
+          attempted: total,
+          percentage: total > 0 ? Math.round((correct / total) * 100) : 0
+        };
+      });
+    }
+    
+    return subjectData;
+  };
+
+  // Get filtered difficulty data based on current filters
+  const getFilteredDifficultyData = () => {
+    const filteredAttempts = getFilteredData();
+    
+    const difficulties = ['easy', 'medium', 'hard'];
+    return difficulties.map(difficulty => {
+      const diffAttempts = filteredAttempts.filter(a => a.difficulty === difficulty);
+      const correct = diffAttempts.filter(a => a.isCorrect).length;
+      const total = diffAttempts.length;
+      
+      return {
+        difficulty: difficulty.charAt(0).toUpperCase() + difficulty.slice(1),
+        correct,
+        total,
+        percentage: total > 0 ? Math.round((correct / total) * 100) : 0
+      };
+    }).filter(d => d.total > 0); // Only show difficulties with attempts
+  };
+
   // Prepare data for difficulty distribution pie chart
-  const difficultyDistribution = difficultyData.map(diff => ({
+  const filteredDifficultyData = getFilteredDifficultyData();
+  const difficultyDistribution = filteredDifficultyData.map(diff => ({
     name: diff.difficulty,
     value: diff.percentage,
     count: diff.total
@@ -357,11 +411,13 @@ const Profile: React.FC = () => {
           <Paper sx={{ p: 3, mb: 4 }}>
             <Typography variant="h6" gutterBottom>
               Performance by Subject
+              {selectedSubject !== 'all' && ` - ${selectedSubject}`}
+              {selectedGrade !== 'all' && ` - ${selectedGrade}`}
             </Typography>
-            {subjectData.length > 0 ? (
+            {getFilteredSubjectData().length > 0 ? (
               <ResponsiveContainer width="100%" height={400}>
                 <BarChart
-                  data={subjectData}
+                  data={getFilteredSubjectData()}
                   margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
                 >
                   <CartesianGrid strokeDasharray="3 3" />
@@ -387,6 +443,8 @@ const Profile: React.FC = () => {
           <Paper sx={{ p: 3, mb: 4 }}>
             <Typography variant="h6" gutterBottom>
               Difficulty Distribution
+              {selectedSubject !== 'all' && ` - ${selectedSubject}`}
+              {selectedGrade !== 'all' && ` - ${selectedGrade}`}
             </Typography>
             {difficultyDistribution.length > 0 && difficultyDistribution.some(d => d.count > 0) ? (
               <ResponsiveContainer width="100%" height={400}>
@@ -479,10 +537,12 @@ const Profile: React.FC = () => {
           <Paper sx={{ p: 3, mb: 4 }}>
             <Typography variant="h6" gutterBottom>
               Recent Question History
+              {selectedSubject !== 'all' && ` - ${selectedSubject}`}
+              {selectedGrade !== 'all' && ` - ${selectedGrade}`}
             </Typography>
-            {recentAttempts.length > 0 ? (
+            {getFilteredData().length > 0 ? (
               <List>
-                {recentAttempts.map((attempt, index) => (
+                {getFilteredData().slice(0, 20).map((attempt, index) => (
                   <React.Fragment key={index}>
                     <ListItem>
                       <ListItemIcon>
@@ -541,10 +601,12 @@ const Profile: React.FC = () => {
         <Paper sx={{ p: 3 }}>
           <Typography variant="h6" gutterBottom>
             Recent Activity Summary
+            {selectedSubject !== 'all' && ` - ${selectedSubject}`}
+            {selectedGrade !== 'all' && ` - ${selectedGrade}`}
           </Typography>
-          {subjectData.length > 0 ? (
+          {getFilteredSubjectData().length > 0 ? (
             <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
-              {subjectData.slice(0, 4).map((subject, index) => (
+              {getFilteredSubjectData().slice(0, 4).map((subject, index) => (
                 <Box
                   key={index}
                   sx={{

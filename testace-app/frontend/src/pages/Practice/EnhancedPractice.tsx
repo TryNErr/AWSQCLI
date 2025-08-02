@@ -46,7 +46,8 @@ const EnhancedPractice: React.FC = () => {
   const [availableSubjects] = useState<string[]>([
     'Math',
     'English', 
-    'Thinking Skills'
+    'Thinking Skills',
+    'Mathematical Reasoning'
   ]);
   const [availableGrades] = useState<string[]>(['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12']);
 

@@ -236,7 +236,10 @@ const PracticeSession: React.FC = () => {
       currentQuestion.grade,
       correct,
       sessionState.selectedAnswer,
-      currentQuestion.correctAnswer
+      currentQuestion.correctAnswer,
+      currentQuestion.content,
+      currentQuestion.options,
+      currentQuestion.explanation
     );
   };
 

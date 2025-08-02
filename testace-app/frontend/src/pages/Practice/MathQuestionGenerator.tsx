@@ -148,7 +148,10 @@ const MathQuestionGenerator: React.FC = () => {
         currentQuestion.grade || selectedGrade, // Fallback to selectedGrade if grade is undefined
         correct,
         selectedAnswer,
-        currentQuestion.correctAnswer
+        currentQuestion.correctAnswer,
+        currentQuestion.content,
+        currentQuestion.options,
+        currentQuestion.explanation
       );
       
       // Mark question as answered in local state
