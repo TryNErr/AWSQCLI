@@ -2,6 +2,11 @@ import { Question, DifficultyLevel } from '../types';
 import { generateEnhancedMathQuestionV2 } from './enhancedMathQuestionGeneratorV2';
 import { generateEnhancedEnglishQuestion } from './enhancedEnglishQuestionGenerator';
 import { generateEnhancedThinkingSkillsQuestion } from './enhancedThinkingSkillsGenerator';
+import { generateEnhancedMathematicalReasoningQuestions } from './enhancedMathematicalReasoningGenerator';
+import { NALAPStyleQuestionGenerator } from './australianCurriculumEnhancer';
+import { AustralianMathCurriculumGenerator } from './australianMathCurriculumEnhancer';
+import { CurriculumExtrapolator } from './curriculumExtrapolator';
+import { EnhancedQuestionVarietyGenerator } from './enhancedQuestionVarietyGenerator';
 
 // Enhanced Question Generation System
 // Integrates all enhanced generators with curriculum-based, challenging questions
@@ -319,27 +324,57 @@ export class EnhancedQuestionGenerator {
     // Generate question using appropriate enhanced generator
     let question: Question;
     
-    switch (subject.toLowerCase()) {
-      case 'math':
-      case 'mathematics':
-        question = generateEnhancedMathQuestionV2(grade, calibratedDifficulty);
-        break;
-        
-      case 'english':
-      case 'language arts':
-      case 'ela':
-        question = generateEnhancedEnglishQuestion(grade, calibratedDifficulty);
-        break;
-        
-      case 'thinking skills':
-      case 'critical thinking':
-      case 'logic':
-        question = generateEnhancedThinkingSkillsQuestion(grade, calibratedDifficulty);
-        break;
-        
-      default:
-        // Default to math if subject not recognized
-        question = generateEnhancedMathQuestionV2(grade, calibratedDifficulty);
+    // Check if we should use Australian curriculum-based generators
+    const gradeNum = parseInt(grade);
+    const useAustralianCurriculum = gradeNum >= 7; // Use for secondary school grades
+    const useEnhancedVariety = Math.random() < 0.3; // 30% chance for enhanced variety
+    
+    // Use enhanced variety generator for more diverse questions
+    if (useEnhancedVariety) {
+      question = EnhancedQuestionVarietyGenerator.generateVariedQuestion(grade, subject, calibratedDifficulty);
+    } else {
+      switch (subject.toLowerCase()) {
+        case 'math':
+        case 'mathematics':
+          if (useAustralianCurriculum) {
+            question = AustralianMathCurriculumGenerator.generateMathQuestion(grade, calibratedDifficulty);
+          } else {
+            question = CurriculumExtrapolator.generateCurriculumAlignedQuestion(grade, 'mathematics', calibratedDifficulty);
+          }
+          break;
+          
+        case 'english':
+        case 'language arts':
+        case 'ela':
+        case 'literacy':
+          if (useAustralianCurriculum) {
+            question = NALAPStyleQuestionGenerator.generateLiteracyQuestion(grade, calibratedDifficulty);
+          } else {
+            question = CurriculumExtrapolator.generateCurriculumAlignedQuestion(grade, 'english', calibratedDifficulty);
+          }
+          break;
+          
+        case 'thinking skills':
+        case 'critical thinking':
+        case 'logic':
+          question = generateEnhancedThinkingSkillsQuestion(grade, calibratedDifficulty);
+          break;
+          
+        case 'mathematical reasoning':
+        case 'math reasoning':
+        case 'reasoning':
+          const mathReasoningQuestions = generateEnhancedMathematicalReasoningQuestions(grade, calibratedDifficulty, 1);
+          question = mathReasoningQuestions[0];
+          break;
+          
+        default:
+          // Default to curriculum-aligned generation
+          if (useAustralianCurriculum) {
+            question = AustralianMathCurriculumGenerator.generateMathQuestion(grade, calibratedDifficulty);
+          } else {
+            question = CurriculumExtrapolator.generateCurriculumAlignedQuestion(grade, 'mathematics', calibratedDifficulty);
+          }
+      }
     }
     
     // Add curriculum alignment metadata

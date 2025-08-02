@@ -1,5 +1,6 @@
 import { Question, DifficultyLevel } from '../types';
 import { generateEnhancedQuestion } from './enhancedQuestionSystem';
+import { generateEnhancedMathematicalReasoningQuestions } from './enhancedMathematicalReasoningGenerator';
 import { validateAnswer } from './enhancedAnswerValidation';
 import { questionData } from '../pages/Practice/questionData';
 import { getGeneratedQuestions, saveGeneratedQuestions } from '../services/generatedQuestionsService';
@@ -112,13 +113,27 @@ export class EnhancedQuestionMaintenance {
         let question: Question;
         
         if (subject) {
-          // Generate for specific subject
-          question = generateEnhancedQuestion(grade, subject, difficulty);
+          // Handle Mathematical Reasoning specifically
+          if (subject.toLowerCase().includes('mathematical reasoning') || 
+              subject.toLowerCase().includes('math reasoning') ||
+              subject.toLowerCase() === 'reasoning') {
+            const mathReasoningQuestions = generateEnhancedMathematicalReasoningQuestions(grade, difficulty, 1);
+            question = mathReasoningQuestions[0];
+          } else {
+            // Generate for other specific subjects
+            question = generateEnhancedQuestion(grade, subject, difficulty);
+          }
         } else {
           // Distribute across all available subjects
-          const subjects = ['Math', 'English', 'Thinking Skills'];
+          const subjects = ['Math', 'English', 'Thinking Skills', 'Mathematical Reasoning'];
           const selectedSubject = subjects[newQuestions.length % subjects.length];
-          question = generateEnhancedQuestion(grade, selectedSubject, difficulty);
+          
+          if (selectedSubject === 'Mathematical Reasoning') {
+            const mathReasoningQuestions = generateEnhancedMathematicalReasoningQuestions(grade, difficulty, 1);
+            question = mathReasoningQuestions[0];
+          } else {
+            question = generateEnhancedQuestion(grade, selectedSubject, difficulty);
+          }
         }
         
         // Ensure question meets exact criteria
@@ -235,29 +250,78 @@ export class EnhancedQuestionMaintenance {
   }): Promise<Question[]> {
     const { grade, difficulty, subject, count } = config;
     
-    // Maintain question pool
-    const pool = await this.maintainQuestionPool({
-      grade,
-      difficulty,
-      subject,
-      minQuestionsRequired: Math.max(count, 20), // Ensure we have enough questions
-      maxQuestionsToGenerate: 30 // Generate extra questions for variety
-    });
+    console.log(`Getting questions for practice: Grade ${grade}, ${difficulty} difficulty, ${subject || 'any subject'}, count: ${count}`);
     
-    // Get all available questions from the pool
-    const allAvailable = [...pool.available, ...pool.generated];
-    
-    if (allAvailable.length === 0) {
-      throw new Error(`No questions available for Grade ${grade}, ${difficulty} difficulty${subject ? `, ${subject}` : ''}`);
+    // Special handling for Mathematical Reasoning - always generate fresh questions
+    if (subject && (subject.toLowerCase().includes('mathematical reasoning') || 
+                   subject.toLowerCase().includes('math reasoning') ||
+                   subject.toLowerCase() === 'reasoning')) {
+      console.log('Generating Mathematical Reasoning questions directly...');
+      
+      try {
+        const mathReasoningQuestions = generateEnhancedMathematicalReasoningQuestions(grade, difficulty, count);
+        console.log(`Generated ${mathReasoningQuestions.length} Mathematical Reasoning questions`);
+        return mathReasoningQuestions;
+      } catch (error) {
+        console.error('Error generating Mathematical Reasoning questions:', error);
+        throw new Error(`Failed to generate Mathematical Reasoning questions for Grade ${grade}, ${difficulty} difficulty`);
+      }
     }
     
-    // Shuffle and return requested count
-    const shuffled = this.shuffleArray(allAvailable);
-    const selected = shuffled.slice(0, Math.min(count, shuffled.length));
-    
-    console.log(`Selected ${selected.length} questions for practice from pool of ${allAvailable.length}`);
-    
-    return selected;
+    // For other subjects, use the standard maintenance system
+    try {
+      // Maintain question pool
+      const pool = await this.maintainQuestionPool({
+        grade,
+        difficulty,
+        subject,
+        minQuestionsRequired: Math.max(count, 20), // Ensure we have enough questions
+        maxQuestionsToGenerate: 30 // Generate extra questions for variety
+      });
+      
+      // Get all available questions from the pool
+      const allAvailable = [...pool.available, ...pool.generated];
+      
+      if (allAvailable.length === 0) {
+        // Last resort: try to generate questions directly
+        console.warn(`No questions in pool, attempting direct generation for ${subject || 'any subject'}`);
+        
+        const directGenerated: Question[] = [];
+        const subjects = subject ? [subject] : ['Math', 'English', 'Thinking Skills'];
+        
+        for (const subj of subjects) {
+          try {
+            const questionsNeeded = Math.ceil(count / subjects.length);
+            for (let i = 0; i < questionsNeeded && directGenerated.length < count; i++) {
+              const question = generateEnhancedQuestion(grade, subj, difficulty);
+              if (question) {
+                directGenerated.push(question);
+              }
+            }
+          } catch (error) {
+            console.warn(`Failed to generate questions for ${subj}:`, error);
+          }
+        }
+        
+        if (directGenerated.length === 0) {
+          throw new Error(`No questions available for Grade ${grade}, ${difficulty} difficulty${subject ? `, ${subject}` : ''}`);
+        }
+        
+        return directGenerated.slice(0, count);
+      }
+      
+      // Shuffle and return requested count
+      const shuffled = this.shuffleArray(allAvailable);
+      const selected = shuffled.slice(0, Math.min(count, shuffled.length));
+      
+      console.log(`Selected ${selected.length} questions for practice from pool of ${allAvailable.length}`);
+      
+      return selected;
+      
+    } catch (error) {
+      console.error('Error in getQuestionsForPractice:', error);
+      throw error;
+    }
   }
   
   /**

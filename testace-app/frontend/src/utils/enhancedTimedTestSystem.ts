@@ -48,6 +48,11 @@ export class EnhancedTimedTestSystem {
       
       console.log(`Retrieved ${allQuestions.length} questions from pool`);
       
+      // If we still don't have enough questions, this is a critical error
+      if (allQuestions.length === 0) {
+        throw new Error(`No questions available for Grade ${grade}, ${difficulty} difficulty, ${subject}. The enhanced question maintenance system should have generated questions automatically.`);
+      }
+      
       // Remove duplicates and validate questions
       const processedResult = this.processQuestionsForTest(allQuestions, questionCount);
       
@@ -58,10 +63,22 @@ export class EnhancedTimedTestSystem {
         validationErrors: processedResult.validationErrors.length
       });
       
+      // If we still don't have enough questions after processing, warn but continue
+      if (processedResult.questions.length < questionCount) {
+        console.warn(`Only ${processedResult.questions.length} questions available, requested ${questionCount}`);
+        processedResult.validationErrors.push(`Only ${processedResult.questions.length} questions available out of ${questionCount} requested`);
+      }
+      
       return processedResult;
       
     } catch (error) {
       console.error('Error generating timed test:', error);
+      
+      // Provide more helpful error message
+      if (error instanceof Error && error.message.includes('No questions available')) {
+        throw new Error(`Failed to generate timed test: No questions available for Grade ${grade}, ${difficulty} difficulty, ${subject}. This may be due to a configuration issue with the question generators.`);
+      }
+      
       throw new Error(`Failed to generate timed test: ${error instanceof Error ? error.message : 'Unknown error'}`);
     }
   }

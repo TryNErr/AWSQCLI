@@ -119,6 +119,18 @@ yarn.lock
 *.deb
 amazon-q.deb
 
+# PDF Analysis and Development Files (Not for deployment)
+*.pdf
+**/*.pdf
+books/
+educational-materials/
+reference-books/
+analyze_pdfs.py
+pdf_analysis_results.json
+test-australian-curriculum-enhancement.js
+test-enhanced-question-variety.js
+verify-deployment-ready.js
+
 # Test files (keeping them for now but can be excluded if needed)
 # test-*.js
 # test-*.html
