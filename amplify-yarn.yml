@@ -4,16 +4,16 @@ frontend:
     preBuild:
       commands:
         - cd testace-app/frontend
-        - echo "=== Cleaning up potential conflicts ==="
-        - rm -rf node_modules package-lock.json
-        - echo "=== Installing dependencies with legacy peer deps ==="
-        - npm install --legacy-peer-deps --no-audit --no-fund
-        - echo "=== Dependencies installed successfully ==="
+        - echo "=== Using Yarn for better dependency resolution ==="
+        - npm install -g yarn
+        - rm -rf node_modules package-lock.json yarn.lock
+        - yarn install --ignore-engines
+        - echo "=== Dependencies installed with Yarn ==="
     build:
       commands:
-        - echo "=== Starting build process ==="
-        - npm run build
-        - echo "=== Build completed successfully ==="
+        - echo "=== Building with Yarn ==="
+        - yarn build
+        - echo "=== Build completed ==="
   artifacts:
     baseDirectory: testace-app/frontend/build
     files:
