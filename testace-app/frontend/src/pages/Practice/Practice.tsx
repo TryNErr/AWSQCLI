@@ -14,9 +14,11 @@ import {
   Select,
   MenuItem,
   SelectChangeEvent,
-  CircularProgress
+  CircularProgress,
+  Alert,
+  Paper
 } from '@mui/material';
-import { Add, History, NewReleases } from '@mui/icons-material';
+import { Add, History, NewReleases, AutoMode, School, Upgrade } from '@mui/icons-material';
 import { useNavigate } from 'react-router-dom';
 import { Question, DifficultyLevel } from '../../types';
 import { questionData } from './questionData';
@@ -237,6 +239,36 @@ const Practice: React.FC = () => {
         <Typography variant="h4" component="h1" gutterBottom>
           Practice Questions
         </Typography>
+
+        {/* Enhanced Practice Mode Promotion */}
+        <Paper sx={{ p: 3, mb: 4, bgcolor: 'primary.main', color: 'primary.contrastText' }}>
+          <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: 2 }}>
+            <Box>
+              <Typography variant="h6" gutterBottom sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+                <Upgrade />
+                Try Enhanced Practice Mode
+              </Typography>
+              <Typography variant="body1">
+                🎓 Challenging curriculum-aligned questions with auto-advance and strict grade/difficulty filtering
+              </Typography>
+              <Box sx={{ mt: 1, display: 'flex', gap: 1, flexWrap: 'wrap' }}>
+                <Chip label="Auto-advance in 5s" size="small" sx={{ bgcolor: 'rgba(255,255,255,0.2)' }} />
+                <Chip label="Strict filtering" size="small" sx={{ bgcolor: 'rgba(255,255,255,0.2)' }} />
+                <Chip label="Smart generation" size="small" sx={{ bgcolor: 'rgba(255,255,255,0.2)' }} />
+              </Box>
+            </Box>
+            <Button
+              variant="contained"
+              color="secondary"
+              size="large"
+              onClick={() => navigate('/practice/enhanced')}
+              startIcon={<School />}
+              sx={{ minWidth: 200 }}
+            >
+              Try Enhanced Mode
+            </Button>
+          </Box>
+        </Paper>
         
         <Box sx={{ mb: 4, display: 'flex', gap: 2, flexWrap: 'wrap', justifyContent: 'space-between' }}>
           <Box sx={{ display: 'flex', gap: 2, flexWrap: 'wrap' }}>

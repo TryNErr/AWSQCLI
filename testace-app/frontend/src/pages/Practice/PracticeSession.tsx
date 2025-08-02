@@ -1,0 +1,600 @@
+import React, { useState, useEffect, useCallback } from 'react';
+import {
+  Container,
+  Typography,
+  Box,
+  Paper,
+  Button,
+  RadioGroup,
+  Radio,
+  FormControlLabel,
+  Divider,
+  Alert,
+  Chip,
+  CircularProgress,
+  Stack,
+  LinearProgress,
+  IconButton,
+  Dialog,
+  DialogTitle,
+  DialogContent,
+  DialogActions
+} from '@mui/material';
+import { useSearchParams, useNavigate } from 'react-router-dom';
+import { 
+  ArrowBack, 
+  CheckCircle, 
+  Cancel, 
+  PlayArrow, 
+  Pause, 
+  SkipNext,
+  ExitToApp,
+  Timer
+} from '@mui/icons-material';
+import { Question as QuestionType, DifficultyLevel } from '../../types';
+import { questionData } from './questionData';
+import { getGeneratedQuestions, saveGeneratedQuestions } from '../../services/generatedQuestionsService';
+import { markQuestionAnswered, getAnsweredQuestionIds } from '../../services/userProgressService';
+import { recordQuestionAttempt } from '../../services/questionHistoryService';
+import { generateEnhancedQuestion } from '../../utils/enhancedQuestionSystem';
+
+interface PracticeSessionState {
+  questions: QuestionType[];
+  currentQuestionIndex: number;
+  selectedAnswer: string;
+  isSubmitted: boolean;
+  isCorrect: boolean;
+  showExplanation: boolean;
+  sessionStats: {
+    totalQuestions: number;
+    correctAnswers: number;
+    startTime: Date;
+  };
+  autoAdvanceTimer: number;
+  isPaused: boolean;
+}
+
+const PracticeSession: React.FC = () => {
+  const [searchParams] = useSearchParams();
+  const navigate = useNavigate();
+  
+  // Get session parameters
+  const grade = searchParams.get('grade') || '3';
+  const difficulty = searchParams.get('difficulty') || 'medium';
+  const subject = searchParams.get('subject') || '';
+  
+  // Session state
+  const [sessionState, setSessionState] = useState<PracticeSessionState>({
+    questions: [],
+    currentQuestionIndex: 0,
+    selectedAnswer: '',
+    isSubmitted: false,
+    isCorrect: false,
+    showExplanation: false,
+    sessionStats: {
+      totalQuestions: 0,
+      correctAnswers: 0,
+      startTime: new Date()
+    },
+    autoAdvanceTimer: 0,
+    isPaused: false
+  });
+  
+  const [loading, setLoading] = useState(true);
+  const [showExitDialog, setShowExitDialog] = useState(false);
+  const [timerInterval, setTimerInterval] = useState<NodeJS.Timeout | null>(null);
+
+  // Initialize session
+  useEffect(() => {
+    initializeSession();
+    return () => {
+      if (timerInterval) {
+        clearInterval(timerInterval);
+      }
+    };
+  }, []);
+
+  // Auto-advance timer effect
+  useEffect(() => {
+    if (sessionState.isSubmitted && !sessionState.isPaused && sessionState.autoAdvanceTimer > 0) {
+      const interval = setInterval(() => {
+        setSessionState(prev => {
+          if (prev.autoAdvanceTimer <= 1) {
+            // Time's up, advance to next question
+            advanceToNextQuestion();
+            return prev;
+          }
+          return {
+            ...prev,
+            autoAdvanceTimer: prev.autoAdvanceTimer - 1
+          };
+        });
+      }, 1000);
+      
+      setTimerInterval(interval);
+      
+      return () => {
+        clearInterval(interval);
+        setTimerInterval(null);
+      };
+    }
+  }, [sessionState.isSubmitted, sessionState.isPaused, sessionState.autoAdvanceTimer]);
+
+  const getDifficultyLevel = (difficulty: string): DifficultyLevel => {
+    switch (difficulty) {
+      case 'easy': return DifficultyLevel.EASY;
+      case 'medium': return DifficultyLevel.MEDIUM;
+      case 'hard': return DifficultyLevel.HARD;
+      default: return DifficultyLevel.MEDIUM;
+    }
+  };
+
+  const initializeSession = async () => {
+    setLoading(true);
+    
+    try {
+      const difficultyLevel = getDifficultyLevel(difficulty);
+      const answeredQuestionIds = getAnsweredQuestionIds();
+      
+      // Get existing questions matching criteria
+      const allQuestions = [...questionData, ...getGeneratedQuestions()];
+      let availableQuestions = allQuestions.filter(q => {
+        const gradeMatch = q.grade === grade;
+        const difficultyMatch = q.difficulty === difficultyLevel;
+        const subjectMatch = !subject || q.subject === subject;
+        const notAnswered = !answeredQuestionIds.includes(q._id);
+        
+        return gradeMatch && difficultyMatch && subjectMatch && notAnswered;
+      });
+      
+      // Generate additional questions if needed
+      const targetQuestionCount = 20;
+      if (availableQuestions.length < targetQuestionCount) {
+        const questionsToGenerate = targetQuestionCount - availableQuestions.length;
+        const newQuestions = await generateQuestionsForSession(
+          grade,
+          difficultyLevel,
+          subject,
+          questionsToGenerate
+        );
+        
+        availableQuestions = [...availableQuestions, ...newQuestions];
+        
+        // Save generated questions
+        const existingGenerated = getGeneratedQuestions();
+        saveGeneratedQuestions([...existingGenerated, ...newQuestions]);
+      }
+      
+      // Shuffle questions
+      const shuffledQuestions = shuffleArray(availableQuestions);
+      
+      setSessionState(prev => ({
+        ...prev,
+        questions: shuffledQuestions,
+        sessionStats: {
+          ...prev.sessionStats,
+          totalQuestions: shuffledQuestions.length
+        }
+      }));
+      
+    } catch (error) {
+      console.error('Error initializing session:', error);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const generateQuestionsForSession = async (
+    grade: string,
+    difficulty: DifficultyLevel,
+    subject: string,
+    count: number
+  ): Promise<QuestionType[]> => {
+    const newQuestions: QuestionType[] = [];
+    
+    if (subject) {
+      // Generate all questions for specified subject
+      for (let i = 0; i < count; i++) {
+        try {
+          const question = generateEnhancedQuestion(grade, subject, difficulty);
+          question.isGenerated = true;
+          question.generatedAt = new Date();
+          newQuestions.push(question);
+        } catch (error) {
+          console.error(`Error generating ${subject} question:`, error);
+        }
+      }
+    } else {
+      // Distribute across all subjects
+      const subjects = ['Math', 'English', 'Thinking Skills'];
+      const questionsPerSubject = Math.ceil(count / subjects.length);
+      
+      for (const subj of subjects) {
+        for (let i = 0; i < questionsPerSubject && newQuestions.length < count; i++) {
+          try {
+            const question = generateEnhancedQuestion(grade, subj, difficulty);
+            question.isGenerated = true;
+            question.generatedAt = new Date();
+            newQuestions.push(question);
+          } catch (error) {
+            console.error(`Error generating ${subj} question:`, error);
+          }
+        }
+      }
+    }
+    
+    return newQuestions;
+  };
+
+  const shuffleArray = <T,>(array: T[]): T[] => {
+    const newArray = [...array];
+    for (let i = newArray.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+    }
+    return newArray;
+  };
+
+  const handleAnswerChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    if (!sessionState.isSubmitted) {
+      setSessionState(prev => ({
+        ...prev,
+        selectedAnswer: event.target.value
+      }));
+    }
+  };
+
+  const handleSubmit = () => {
+    const currentQuestion = sessionState.questions[sessionState.currentQuestionIndex];
+    if (!currentQuestion || !sessionState.selectedAnswer || sessionState.isSubmitted) return;
+
+    const correct = sessionState.selectedAnswer === currentQuestion.correctAnswer;
+    
+    setSessionState(prev => ({
+      ...prev,
+      isSubmitted: true,
+      isCorrect: correct,
+      showExplanation: true,
+      autoAdvanceTimer: 5, // Start 5-second countdown
+      sessionStats: {
+        ...prev.sessionStats,
+        correctAnswers: correct ? prev.sessionStats.correctAnswers + 1 : prev.sessionStats.correctAnswers
+      }
+    }));
+
+    // Record the attempt
+    markQuestionAnswered(
+      currentQuestion._id,
+      correct,
+      currentQuestion.subject,
+      currentQuestion.difficulty,
+      currentQuestion.grade
+    );
+
+    recordQuestionAttempt(
+      currentQuestion._id,
+      currentQuestion.subject,
+      currentQuestion.difficulty,
+      currentQuestion.grade,
+      correct,
+      sessionState.selectedAnswer,
+      currentQuestion.correctAnswer
+    );
+  };
+
+  const advanceToNextQuestion = useCallback(() => {
+    if (timerInterval) {
+      clearInterval(timerInterval);
+      setTimerInterval(null);
+    }
+
+    setSessionState(prev => {
+      const nextIndex = prev.currentQuestionIndex + 1;
+      
+      if (nextIndex >= prev.questions.length) {
+        // Session complete
+        navigate('/practice/session-complete', {
+          state: {
+            stats: prev.sessionStats,
+            grade,
+            difficulty,
+            subject
+          }
+        });
+        return prev;
+      }
+      
+      return {
+        ...prev,
+        currentQuestionIndex: nextIndex,
+        selectedAnswer: '',
+        isSubmitted: false,
+        isCorrect: false,
+        showExplanation: false,
+        autoAdvanceTimer: 0,
+        isPaused: false
+      };
+    });
+  }, [timerInterval, navigate, grade, difficulty, subject]);
+
+  const togglePause = () => {
+    setSessionState(prev => ({
+      ...prev,
+      isPaused: !prev.isPaused
+    }));
+  };
+
+  const handleExitSession = () => {
+    setShowExitDialog(true);
+  };
+
+  const confirmExit = () => {
+    navigate('/practice');
+  };
+
+  if (loading) {
+    return (
+      <Container maxWidth="lg">
+        <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '50vh' }}>
+          <CircularProgress />
+          <Typography variant="h6" sx={{ ml: 2 }}>
+            Preparing your practice session...
+          </Typography>
+        </Box>
+      </Container>
+    );
+  }
+
+  if (sessionState.questions.length === 0) {
+    return (
+      <Container maxWidth="lg">
+        <Box sx={{ mt: 4 }}>
+          <Alert severity="error">
+            No questions available for the selected criteria.
+          </Alert>
+          <Button
+            variant="contained"
+            onClick={() => navigate('/practice')}
+            sx={{ mt: 2 }}
+          >
+            Back to Practice
+          </Button>
+        </Box>
+      </Container>
+    );
+  }
+
+  const currentQuestion = sessionState.questions[sessionState.currentQuestionIndex];
+  const progress = ((sessionState.currentQuestionIndex + 1) / sessionState.questions.length) * 100;
+
+  return (
+    <Container maxWidth="lg">
+      <Box sx={{ mt: 4, mb: 8 }}>
+        {/* Session Header */}
+        <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 3 }}>
+          <Box>
+            <Typography variant="h5" gutterBottom>
+              Practice Session
+            </Typography>
+            <Box sx={{ display: 'flex', gap: 1, flexWrap: 'wrap' }}>
+              <Chip label={`Grade ${grade}`} color="primary" size="small" />
+              <Chip label={difficulty.charAt(0).toUpperCase() + difficulty.slice(1)} color="secondary" size="small" />
+              {subject && <Chip label={subject} color="info" size="small" />}
+            </Box>
+          </Box>
+          
+          <Box sx={{ display: 'flex', gap: 1, alignItems: 'center' }}>
+            {sessionState.isSubmitted && sessionState.autoAdvanceTimer > 0 && (
+              <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+                <Timer fontSize="small" />
+                <Typography variant="body2">
+                  Next in {sessionState.autoAdvanceTimer}s
+                </Typography>
+                <IconButton
+                  size="small"
+                  onClick={togglePause}
+                  color={sessionState.isPaused ? "primary" : "default"}
+                >
+                  {sessionState.isPaused ? <PlayArrow /> : <Pause />}
+                </IconButton>
+              </Box>
+            )}
+            
+            <Button
+              variant="outlined"
+              size="small"
+              onClick={handleExitSession}
+              startIcon={<ExitToApp />}
+            >
+              Exit Session
+            </Button>
+          </Box>
+        </Box>
+
+        {/* Progress Bar */}
+        <Box sx={{ mb: 3 }}>
+          <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 1 }}>
+            <Typography variant="body2">
+              Question {sessionState.currentQuestionIndex + 1} of {sessionState.questions.length}
+            </Typography>
+            <Typography variant="body2">
+              Score: {sessionState.sessionStats.correctAnswers}/{sessionState.currentQuestionIndex + (sessionState.isSubmitted ? 1 : 0)}
+            </Typography>
+          </Box>
+          <LinearProgress variant="determinate" value={progress} sx={{ height: 8, borderRadius: 4 }} />
+        </Box>
+
+        <Paper sx={{ p: 4 }}>
+          {/* Auto-advance notification */}
+          {sessionState.isSubmitted && sessionState.autoAdvanceTimer > 0 && !sessionState.isPaused && (
+            <Alert 
+              severity="info" 
+              sx={{ mb: 3 }}
+              action={
+                <Button
+                  color="inherit"
+                  size="small"
+                  onClick={advanceToNextQuestion}
+                  startIcon={<SkipNext />}
+                >
+                  Next Now
+                </Button>
+              }
+            >
+              {sessionState.isPaused ? 
+                "Timer paused. Click play to resume auto-advance." :
+                `Automatically advancing to next question in ${sessionState.autoAdvanceTimer} seconds...`
+              }
+            </Alert>
+          )}
+
+          {/* Result Alert */}
+          {sessionState.isSubmitted && (
+            <Alert
+              icon={sessionState.isCorrect ? <CheckCircle /> : <Cancel />}
+              severity={sessionState.isCorrect ? "success" : "error"}
+              sx={{ mb: 3 }}
+            >
+              {sessionState.isCorrect ? (
+                "Correct! Well done!"
+              ) : (
+                <>
+                  Incorrect. The correct answer is: <strong>{currentQuestion.correctAnswer}</strong>
+                </>
+              )}
+            </Alert>
+          )}
+
+          {/* Question Header */}
+          <Box sx={{ mb: 3 }}>
+            <Stack direction="row" spacing={1} sx={{ mb: 2 }}>
+              <Chip label={currentQuestion.subject} color="primary" />
+              <Chip label={currentQuestion.topic} variant="outlined" />
+              {(currentQuestion as any).isGenerated && (
+                <Chip label="Enhanced" color="success" size="small" />
+              )}
+            </Stack>
+            <Typography variant="h5" gutterBottom>
+              {currentQuestion.content}
+            </Typography>
+          </Box>
+
+          <Divider sx={{ my: 3 }} />
+
+          {/* Answer Options */}
+          <Box sx={{ mb: 3 }}>
+            <Typography variant="h6" gutterBottom>
+              Choose your answer:
+            </Typography>
+            <RadioGroup
+              value={sessionState.selectedAnswer}
+              onChange={handleAnswerChange}
+            >
+              {currentQuestion.options.map((option, index) => (
+                <FormControlLabel
+                  key={index}
+                  value={option}
+                  control={<Radio />}
+                  label={option}
+                  disabled={sessionState.isSubmitted}
+                  sx={{
+                    p: 1,
+                    borderRadius: 1,
+                    ...(sessionState.isSubmitted && option === currentQuestion.correctAnswer && {
+                      backgroundColor: 'success.light',
+                      color: 'success.contrastText',
+                    }),
+                    ...(sessionState.isSubmitted && sessionState.selectedAnswer === option && option !== currentQuestion.correctAnswer && {
+                      backgroundColor: 'error.light',
+                      color: 'error.contrastText',
+                    }),
+                  }}
+                />
+              ))}
+            </RadioGroup>
+          </Box>
+
+          {/* Submit Button */}
+          {!sessionState.isSubmitted ? (
+            <Button
+              variant="contained"
+              color="primary"
+              onClick={handleSubmit}
+              disabled={!sessionState.selectedAnswer}
+              fullWidth
+              size="large"
+            >
+              Submit Answer
+            </Button>
+          ) : (
+            <Box>
+              {/* Explanation */}
+              {sessionState.showExplanation && (
+                <Paper variant="outlined" sx={{ p: 3, mt: 3, bgcolor: 'background.default' }}>
+                  <Typography variant="h6" gutterBottom>
+                    Explanation
+                  </Typography>
+                  <Typography
+                    variant="body1"
+                    component="pre"
+                    sx={{
+                      whiteSpace: 'pre-wrap',
+                      fontFamily: 'inherit',
+                      my: 2
+                    }}
+                  >
+                    {currentQuestion.explanation}
+                  </Typography>
+
+                  {/* Additional Information */}
+                  <Box sx={{ mt: 3 }}>
+                    <Typography variant="subtitle2" color="text.secondary" gutterBottom>
+                      Tags: {currentQuestion.tags?.join(', ') || 'No tags'}
+                    </Typography>
+                  </Box>
+                </Paper>
+              )}
+
+              {/* Manual Next Button */}
+              <Button
+                variant="outlined"
+                color="primary"
+                onClick={advanceToNextQuestion}
+                sx={{ mt: 3 }}
+                fullWidth
+                startIcon={<SkipNext />}
+              >
+                Next Question
+              </Button>
+            </Box>
+          )}
+        </Paper>
+      </Box>
+
+      {/* Exit Confirmation Dialog */}
+      <Dialog open={showExitDialog} onClose={() => setShowExitDialog(false)}>
+        <DialogTitle>Exit Practice Session?</DialogTitle>
+        <DialogContent>
+          <Typography>
+            Are you sure you want to exit this practice session? Your progress will be saved, but the session will end.
+          </Typography>
+          <Box sx={{ mt: 2 }}>
+            <Typography variant="body2" color="text.secondary">
+              Current Score: {sessionState.sessionStats.correctAnswers}/{sessionState.currentQuestionIndex + (sessionState.isSubmitted ? 1 : 0)}
+            </Typography>
+          </Box>
+        </DialogContent>
+        <DialogActions>
+          <Button onClick={() => setShowExitDialog(false)}>
+            Continue Session
+          </Button>
+          <Button onClick={confirmExit} color="error" variant="contained">
+            Exit Session
+          </Button>
+        </DialogActions>
+      </Dialog>
+    </Container>
+  );
+};
+
+export default PracticeSession;
