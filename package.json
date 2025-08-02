@@ -1,0 +1,36 @@
+{
+  "name": "testace-monorepo",
+  "version": "1.0.0",
+  "description": "TestAce Educational App - Full Stack Application",
+  "private": true,
+  "scripts": {
+    "install:frontend": "cd testace-app/frontend && npm install",
+    "install:backend": "cd testace-app/backend && npm install",
+    "install:all": "npm run install:frontend && npm run install:backend",
+    "build:frontend": "cd testace-app/frontend && npm run build",
+    "build:backend": "cd testace-app/backend && npm run build",
+    "build:all": "npm run build:backend && npm run build:frontend",
+    "start:frontend": "cd testace-app/frontend && npm start",
+    "start:backend": "cd testace-app/backend && npm run dev",
+    "deploy:amplify": "amplify publish",
+    "deploy:aws": "cd testace-app && ./deploy-to-aws.sh prod us-east-1"
+  },
+  "workspaces": [
+    "testace-app/frontend",
+    "testace-app/backend"
+  ],
+  "keywords": [
+    "education",
+    "testing",
+    "react",
+    "nodejs",
+    "aws",
+    "amplify"
+  ],
+  "author": "TestAce Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/AWSQCLI.git"
+  }
+}
