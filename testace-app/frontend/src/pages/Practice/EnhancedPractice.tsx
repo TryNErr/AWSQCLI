@@ -21,11 +21,8 @@ import {
 import { Add, History, NewReleases, PlayArrow, AutoMode } from '@mui/icons-material';
 import { useNavigate } from 'react-router-dom';
 import { Question, DifficultyLevel } from '../../types';
-import { questionData } from './questionData';
 import { getUserGrade } from '../../services/userContextService';
-import { getAnsweredQuestionIds } from '../../services/userProgressService';
-import { generateEnhancedQuestion } from '../../utils/enhancedQuestionSystem';
-import { saveGeneratedQuestions, getGeneratedQuestions } from '../../services/generatedQuestionsService';
+import { maintainQuestionPool, monitorQuestionPool } from '../../utils/enhancedQuestionMaintenance';
 
 // Enhanced Practice component with strict filtering and auto-generation
 const EnhancedPractice: React.FC = () => {
@@ -63,99 +60,53 @@ const EnhancedPractice: React.FC = () => {
       // Get difficulty level enum
       const difficultyLevel = getDifficultyLevel(selectedDifficulty);
       
-      // Get answered question IDs
-      const answeredQuestionIds = getAnsweredQuestionIds();
+      console.log(`Loading questions for Grade ${selectedGrade}, ${selectedDifficulty} difficulty${selectedSubject ? `, ${selectedSubject}` : ''}`);
       
-      // Get all existing questions (standard + generated)
-      const allQuestions = [...questionData, ...getGeneratedQuestions()];
-      
-      // Apply STRICT filtering - only questions matching EXACT criteria
-      let filteredQuestions = allQuestions.filter(q => {
-        const gradeMatch = q.grade === selectedGrade;
-        const difficultyMatch = q.difficulty === difficultyLevel;
-        const subjectMatch = !selectedSubject || q.subject === selectedSubject;
-        const notAnswered = !answeredQuestionIds.includes(q._id);
-        
-        return gradeMatch && difficultyMatch && subjectMatch && notAnswered;
+      // Monitor question pool health first
+      const poolStatus = await monitorQuestionPool({
+        grade: selectedGrade,
+        difficulty: difficultyLevel,
+        subject: selectedSubject || undefined
       });
       
-      console.log(`Found ${filteredQuestions.length} existing questions matching criteria`);
+      console.log(`Question pool status:`, poolStatus);
       
-      // If we have fewer than 20 questions, generate more
-      const targetQuestionCount = 20;
-      if (filteredQuestions.length < targetQuestionCount) {
+      if (poolStatus.status === 'low' || poolStatus.status === 'critical') {
         setGeneratingQuestions(true);
-        
-        const questionsToGenerate = targetQuestionCount - filteredQuestions.length;
-        console.log(`Generating ${questionsToGenerate} new questions`);
-        
-        const newQuestions = await generateQuestionsForCriteria(
-          selectedGrade,
-          difficultyLevel,
-          selectedSubject,
-          questionsToGenerate
-        );
-        
-        // Add generated questions to the pool
-        filteredQuestions = [...filteredQuestions, ...newQuestions];
-        
-        // Save generated questions to localStorage
-        const existingGenerated = getGeneratedQuestions();
-        saveGeneratedQuestions([...existingGenerated, ...newQuestions]);
       }
       
+      // Use enhanced question maintenance system
+      const questionPool = await maintainQuestionPool({
+        grade: selectedGrade,
+        difficulty: difficultyLevel,
+        subject: selectedSubject || undefined,
+        minQuestionsRequired: 20,
+        maxQuestionsToGenerate: 30
+      });
+      
+      console.log(`Question pool maintained:`, {
+        available: questionPool.available.length,
+        generated: questionPool.generated.length,
+        total: questionPool.total,
+        needsGeneration: questionPool.needsGeneration
+      });
+      
+      // Combine all available questions
+      const allQuestions = [...questionPool.available, ...questionPool.generated];
+      
       // Shuffle and limit to display count
-      const shuffledQuestions = shuffleArray(filteredQuestions);
+      const shuffledQuestions = shuffleArray(allQuestions);
       setQuestions(shuffledQuestions.slice(0, 12)); // Show 12 questions in grid
       
     } catch (error) {
       console.error('Error loading questions:', error);
+      
+      // Show error alert
+      setQuestions([]);
     } finally {
       setLoading(false);
       setGeneratingQuestions(false);
     }
-  };
-
-  const generateQuestionsForCriteria = async (
-    grade: string,
-    difficulty: DifficultyLevel,
-    subject: string,
-    count: number
-  ): Promise<Question[]> => {
-    const newQuestions: Question[] = [];
-    
-    // If subject is specified, generate all questions for that subject
-    if (subject) {
-      for (let i = 0; i < count; i++) {
-        try {
-          const question = generateEnhancedQuestion(grade, subject, difficulty);
-          question.isGenerated = true;
-          question.generatedAt = new Date();
-          newQuestions.push(question);
-        } catch (error) {
-          console.error(`Error generating ${subject} question:`, error);
-        }
-      }
-    } else {
-      // If no subject specified, distribute across all subjects
-      const subjects = ['Math', 'English', 'Thinking Skills'];
-      const questionsPerSubject = Math.ceil(count / subjects.length);
-      
-      for (const subj of subjects) {
-        for (let i = 0; i < questionsPerSubject && newQuestions.length < count; i++) {
-          try {
-            const question = generateEnhancedQuestion(grade, subj, difficulty);
-            question.isGenerated = true;
-            question.generatedAt = new Date();
-            newQuestions.push(question);
-          } catch (error) {
-            console.error(`Error generating ${subj} question:`, error);
-          }
-        }
-      }
-    }
-    
-    return newQuestions;
   };
 
   const getDifficultyLevel = (difficulty: string): DifficultyLevel => {

@@ -16,34 +16,28 @@ import {
   DialogActions,
   CircularProgress,
   Alert,
+  Chip,
+  LinearProgress
 } from '@mui/material';
-import { Timer, School } from '@mui/icons-material';
+import { Timer, School, CheckCircle, Warning } from '@mui/icons-material';
 import { useNavigate } from 'react-router-dom';
 import { Question, DifficultyLevel } from '../../types';
 import { getUserGrade } from '../../services/userContextService';
-import { getAnsweredQuestionIds } from '../../services/userProgressService';
-import { generateMathQuestions } from '../../utils/mathQuestionGenerator';
-import { generateThinkingSkillsQuestions } from '../../utils/thinkingSkillsQuestionGenerator';
-import { generateEnglishQuestions } from '../../utils/englishQuestionGenerator';
-import { generateMathematicalReasoningQuestions } from '../../utils/mathematicalReasoningQuestionGenerator';
-import { calculateAdaptiveDistribution, getDefaultDistribution, getDifficultyKey, getRecommendedDifficulty } from '../../utils/adaptiveDifficulty';
-import { distributeQuestionsByDifficulty } from '../../utils/difficultyDistribution';
-import { trackQuestionStats } from '../../utils/questionStats';
-
-// Helper function to shuffle an array
-const shuffleArray = <T extends unknown>(array: T[]): T[] => {
-  const newArray = [...array];
-  for (let i = newArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
-  }
-  return newArray;
-};
+import { generateTimedTest, validateCompleteTest, getTestStatistics } from '../../utils/enhancedTimedTestSystem';
+import { validateAnswer } from '../../utils/enhancedAnswerValidation';
 
 interface TestConfig {
   subject: string;
   grade: string;
-  difficulty: string;
+  difficulty: DifficultyLevel;
+}
+
+interface TestGenerationStatus {
+  isGenerating: boolean;
+  progress: string;
+  questionsGenerated: number;
+  duplicatesRemoved: number;
+  validationErrors: string[];
 }
 
 const TimedTest: React.FC = () => {
@@ -53,13 +47,20 @@ const TimedTest: React.FC = () => {
   const [testConfig, setTestConfig] = useState<TestConfig>({
     subject: '',
     grade: getUserGrade(),
-    difficulty: 'medium'
+    difficulty: DifficultyLevel.MEDIUM
   });
   const [questions, setQuestions] = useState<Question[]>([]);
   const [testStarted, setTestStarted] = useState(false);
   const [timeRemaining, setTimeRemaining] = useState(30 * 60); // 30 minutes in seconds
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [answers, setAnswers] = useState<{ [key: string]: string }>({});
+  const [generationStatus, setGenerationStatus] = useState<TestGenerationStatus>({
+    isGenerating: false,
+    progress: '',
+    questionsGenerated: 0,
+    duplicatesRemoved: 0,
+    validationErrors: []
+  });
   const navigate = useNavigate();
 
   // Available subjects
@@ -85,118 +86,148 @@ const TimedTest: React.FC = () => {
     }
   }, [testStarted, timeRemaining]);
 
-  useEffect(() => {
-    // Update recommended difficulty when subject changes
-    if (testConfig.subject) {
-      const recommended = getRecommendedDifficulty(testConfig.subject);
-      setTestConfig(prev => ({
-        ...prev,
-        difficulty: recommended
-      }));
-    }
-  }, [testConfig.subject]);
-
   const generateQuestions = async () => {
     setLoading(true);
     setError('');
+    setGenerationStatus({
+      isGenerating: true,
+      progress: 'Initializing test generation...',
+      questionsGenerated: 0,
+      duplicatesRemoved: 0,
+      validationErrors: []
+    });
 
     try {
-      const answeredQuestionIds = getAnsweredQuestionIds();
+      console.log(`Generating timed test for ${testConfig.subject}, Grade ${testConfig.grade}, ${testConfig.difficulty} difficulty`);
       
-      // Get adaptive distribution based on performance
-      const distribution = calculateAdaptiveDistribution(
-        testConfig.subject,
-        testConfig.difficulty
-      ) || getDefaultDistribution(testConfig.difficulty);
+      setGenerationStatus(prev => ({
+        ...prev,
+        progress: 'Generating questions with enhanced system...'
+      }));
 
-      // Generate questions for all difficulty levels
-      let generatedQuestions: Question[] = [];
-      const difficulties = [DifficultyLevel.EASY, DifficultyLevel.MEDIUM, DifficultyLevel.HARD];
+      // Use enhanced timed test system
+      const testResult = await generateTimedTest({
+        subject: testConfig.subject,
+        grade: testConfig.grade,
+        difficulty: testConfig.difficulty,
+        questionCount: 30,
+        timeLimit: 30
+      });
+
+      console.log('Test generation result:', testResult);
+
+      setGenerationStatus(prev => ({
+        ...prev,
+        progress: 'Validating test quality...',
+        questionsGenerated: testResult.questions.length,
+        duplicatesRemoved: testResult.duplicatesRemoved,
+        validationErrors: testResult.validationErrors
+      }));
+
+      // Validate the complete test
+      const validation = validateCompleteTest(testResult.questions);
       
-      for (const difficulty of difficulties) {
-        const count = Math.floor((distribution[getDifficultyKey(difficulty)] / 100) * 60); // Generate double for better selection
-        let questionsForDifficulty: Question[] = [];
-        
-        switch (testConfig.subject) {
-          case 'Math':
-            questionsForDifficulty = generateMathQuestions(testConfig.grade, difficulty, count);
-            break;
-          case 'English':
-            questionsForDifficulty = generateEnglishQuestions(testConfig.grade, difficulty, count);
-            break;
-          case 'Thinking Skills':
-            questionsForDifficulty = generateThinkingSkillsQuestions(testConfig.grade, difficulty, count);
-            break;
-          case 'Mathematical Reasoning':
-            questionsForDifficulty = generateMathematicalReasoningQuestions(testConfig.grade, difficulty, count);
-            break;
-          default:
-            throw new Error('Please select a subject');
-        }
-        
-        generatedQuestions.push(...questionsForDifficulty);
+      if (!validation.isValid) {
+        console.warn('Test validation issues:', validation.issues);
+        // Still proceed but log warnings
+        validation.issues.forEach(issue => console.warn('Test issue:', issue));
       }
 
-      // Filter out previously answered questions
-      let availableQuestions = generatedQuestions.filter(q => !answeredQuestionIds.includes(q._id));
-
-      // If we don't have enough questions after filtering, reset the answered questions for this subject
-      if (availableQuestions.length < 30) {
-        const otherSubjectsAnswered = answeredQuestionIds.filter(id => {
-          const question = generatedQuestions.find(q => q._id === id);
-          return !question || question.subject !== testConfig.subject;
-        });
-        localStorage.setItem('answeredQuestionIds', JSON.stringify(otherSubjectsAnswered));
-        availableQuestions = generatedQuestions;
+      if (validation.recommendations.length > 0) {
+        console.info('Test recommendations:', validation.recommendations);
       }
 
-      // Distribute questions according to the adaptive distribution
-      const selectedQuestions = distributeQuestionsByDifficulty(
-        availableQuestions,
-        30,
-        testConfig.difficulty
-      );
+      // Get test statistics
+      const stats = getTestStatistics(testResult.questions);
+      console.log('Test statistics:', stats);
 
-      setQuestions(selectedQuestions);
+      setGenerationStatus(prev => ({
+        ...prev,
+        progress: 'Test ready!'
+      }));
+
+      setQuestions(testResult.questions);
+      
+      // Show generation summary if there were issues
+      if (testResult.duplicatesRemoved > 0 || testResult.validationErrors.length > 0) {
+        console.log(`Test generation summary:
+          - Questions generated: ${testResult.questions.length}
+          - Duplicates removed: ${testResult.duplicatesRemoved}
+          - Validation errors: ${testResult.validationErrors.length}
+          - Generated questions: ${testResult.generatedCount}`);
+      }
+
       setShowConfig(false);
       setTestStarted(true);
+      
     } catch (err) {
-      setError(err instanceof Error ? err.message : 'Failed to generate questions');
+      console.error('Error generating timed test:', err);
+      setError(err instanceof Error ? err.message : 'Failed to generate test questions');
+      setGenerationStatus(prev => ({
+        ...prev,
+        isGenerating: false,
+        progress: 'Generation failed'
+      }));
     } finally {
       setLoading(false);
     }
   };
 
   const handleTestComplete = () => {
-    // Calculate score
-    const score = questions.reduce((acc, q) => {
-      return acc + (answers[q._id] === q.correctAnswer ? 1 : 0);
-    }, 0);
+    // Calculate score using enhanced validation
+    let correctCount = 0;
+    const detailedResults: Array<{
+      question: Question;
+      userAnswer: string;
+      isCorrect: boolean;
+      validation: any;
+    }> = [];
 
-    // Save answered questions to prevent repetition
-    const correctlyAnsweredIds = questions
-      .filter(q => answers[q._id] === q.correctAnswer)
-      .map(q => q._id);
-    
-    const existingAnsweredIds = getAnsweredQuestionIds();
-    // Create a Set from the combined arrays and convert back to array
-    const uniqueIds = Array.from(new Set(existingAnsweredIds.concat(correctlyAnsweredIds)));
-    localStorage.setItem('answeredQuestionIds', JSON.stringify(uniqueIds));
+    questions.forEach(question => {
+      const userAnswer = answers[question._id] || '';
+      
+      if (userAnswer) {
+        // Use enhanced answer validation
+        const validation = validateAnswer(question, userAnswer);
+        const isCorrect = validation.isCorrect;
+        
+        if (isCorrect) {
+          correctCount++;
+        }
+        
+        detailedResults.push({
+          question,
+          userAnswer,
+          isCorrect,
+          validation
+        });
+      } else {
+        // No answer provided
+        detailedResults.push({
+          question,
+          userAnswer: '',
+          isCorrect: false,
+          validation: { isCorrect: false, explanation: 'No answer provided', confidence: 0 }
+        });
+      }
+    });
 
-    // Track question statistics
-    trackQuestionStats(questions);
+    console.log(`Test completed: ${correctCount}/${questions.length} correct answers`);
+    console.log('Detailed results:', detailedResults);
 
-    // Navigate to results page with score and answers
+    // Navigate to results page with enhanced data
     navigate('/timed-test/results', {
       state: {
-        score,
+        score: correctCount,
         totalQuestions: questions.length,
         answers,
         questions,
+        detailedResults,
         timeSpent: 1800 - timeRemaining, // 30 minutes (1800 seconds) - remaining time
         subject: testConfig.subject,
         grade: testConfig.grade,
-        difficulty: testConfig.difficulty
+        difficulty: testConfig.difficulty,
+        testStatistics: getTestStatistics(questions)
       }
     });
   };
@@ -241,6 +272,34 @@ const TimedTest: React.FC = () => {
               </Alert>
             )}
 
+            {generationStatus.isGenerating && (
+              <Alert severity="info" sx={{ mb: 2 }}>
+                <Box>
+                  <Typography variant="body2" gutterBottom>
+                    {generationStatus.progress}
+                  </Typography>
+                  {generationStatus.questionsGenerated > 0 && (
+                    <Box sx={{ mt: 1 }}>
+                      <Typography variant="caption" display="block">
+                        Questions generated: {generationStatus.questionsGenerated}
+                      </Typography>
+                      {generationStatus.duplicatesRemoved > 0 && (
+                        <Typography variant="caption" display="block" color="warning.main">
+                          Duplicates removed: {generationStatus.duplicatesRemoved}
+                        </Typography>
+                      )}
+                      {generationStatus.validationErrors.length > 0 && (
+                        <Typography variant="caption" display="block" color="error.main">
+                          Validation errors: {generationStatus.validationErrors.length}
+                        </Typography>
+                      )}
+                    </Box>
+                  )}
+                  <LinearProgress sx={{ mt: 1 }} />
+                </Box>
+              </Alert>
+            )}
+
             <Box sx={{ mb: 3 }}>
               <FormControl fullWidth sx={{ mb: 2 }}>
                 <InputLabel>Subject</InputLabel>
@@ -278,12 +337,12 @@ const TimedTest: React.FC = () => {
                   value={testConfig.difficulty}
                   label="Difficulty"
                   onChange={(e: SelectChangeEvent) =>
-                    setTestConfig(prev => ({ ...prev, difficulty: e.target.value }))
+                    setTestConfig(prev => ({ ...prev, difficulty: e.target.value as DifficultyLevel }))
                   }
                 >
-                  <MenuItem value="easy">Easy</MenuItem>
-                  <MenuItem value="medium">Medium</MenuItem>
-                  <MenuItem value="hard">Hard</MenuItem>
+                  <MenuItem value={DifficultyLevel.EASY}>Easy</MenuItem>
+                  <MenuItem value={DifficultyLevel.MEDIUM}>Medium</MenuItem>
+                  <MenuItem value={DifficultyLevel.HARD}>Hard</MenuItem>
                 </Select>
               </FormControl>
             </Box>

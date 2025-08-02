@@ -1,5 +1,5 @@
 import { Question, DifficultyLevel } from '../types';
-import { generateEnhancedMathQuestion } from './enhancedMathQuestionGenerator';
+import { generateEnhancedMathQuestionV2 } from './enhancedMathQuestionGeneratorV2';
 import { generateEnhancedEnglishQuestion } from './enhancedEnglishQuestionGenerator';
 import { generateEnhancedThinkingSkillsQuestion } from './enhancedThinkingSkillsGenerator';
 
@@ -322,7 +322,7 @@ export class EnhancedQuestionGenerator {
     switch (subject.toLowerCase()) {
       case 'math':
       case 'mathematics':
-        question = generateEnhancedMathQuestion(grade, calibratedDifficulty);
+        question = generateEnhancedMathQuestionV2(grade, calibratedDifficulty);
         break;
         
       case 'english':
@@ -339,7 +339,7 @@ export class EnhancedQuestionGenerator {
         
       default:
         // Default to math if subject not recognized
-        question = generateEnhancedMathQuestion(grade, calibratedDifficulty);
+        question = generateEnhancedMathQuestionV2(grade, calibratedDifficulty);
     }
     
     // Add curriculum alignment metadata

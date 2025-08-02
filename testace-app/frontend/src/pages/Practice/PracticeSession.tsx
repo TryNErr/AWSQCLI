@@ -32,11 +32,10 @@ import {
   Timer
 } from '@mui/icons-material';
 import { Question as QuestionType, DifficultyLevel } from '../../types';
-import { questionData } from './questionData';
-import { getGeneratedQuestions, saveGeneratedQuestions } from '../../services/generatedQuestionsService';
 import { markQuestionAnswered, getAnsweredQuestionIds } from '../../services/userProgressService';
 import { recordQuestionAttempt } from '../../services/questionHistoryService';
-import { generateEnhancedQuestion } from '../../utils/enhancedQuestionSystem';
+import { getQuestionsForPractice } from '../../utils/enhancedQuestionMaintenance';
+import { validateAnswer } from '../../utils/enhancedAnswerValidation';
 
 interface PracticeSessionState {
   questions: QuestionType[];
@@ -134,39 +133,21 @@ const PracticeSession: React.FC = () => {
     
     try {
       const difficultyLevel = getDifficultyLevel(difficulty);
-      const answeredQuestionIds = getAnsweredQuestionIds();
       
-      // Get existing questions matching criteria
-      const allQuestions = [...questionData, ...getGeneratedQuestions()];
-      let availableQuestions = allQuestions.filter(q => {
-        const gradeMatch = q.grade === grade;
-        const difficultyMatch = q.difficulty === difficultyLevel;
-        const subjectMatch = !subject || q.subject === subject;
-        const notAnswered = !answeredQuestionIds.includes(q._id);
-        
-        return gradeMatch && difficultyMatch && subjectMatch && notAnswered;
+      console.log(`Initializing practice session: Grade ${grade}, ${difficulty} difficulty${subject ? `, ${subject}` : ''}`);
+      
+      // Use enhanced question maintenance system to get questions
+      const questions = await getQuestionsForPractice({
+        grade,
+        difficulty: difficultyLevel,
+        subject: subject || undefined,
+        count: 20 // Request 20 questions for the session
       });
       
-      // Generate additional questions if needed
-      const targetQuestionCount = 20;
-      if (availableQuestions.length < targetQuestionCount) {
-        const questionsToGenerate = targetQuestionCount - availableQuestions.length;
-        const newQuestions = await generateQuestionsForSession(
-          grade,
-          difficultyLevel,
-          subject,
-          questionsToGenerate
-        );
-        
-        availableQuestions = [...availableQuestions, ...newQuestions];
-        
-        // Save generated questions
-        const existingGenerated = getGeneratedQuestions();
-        saveGeneratedQuestions([...existingGenerated, ...newQuestions]);
-      }
+      console.log(`Loaded ${questions.length} questions for practice session`);
       
-      // Shuffle questions
-      const shuffledQuestions = shuffleArray(availableQuestions);
+      // Shuffle questions for variety
+      const shuffledQuestions = shuffleArray(questions);
       
       setSessionState(prev => ({
         ...prev,
@@ -179,51 +160,19 @@ const PracticeSession: React.FC = () => {
       
     } catch (error) {
       console.error('Error initializing session:', error);
+      
+      // Show error to user
+      setSessionState(prev => ({
+        ...prev,
+        questions: [],
+        sessionStats: {
+          ...prev.sessionStats,
+          totalQuestions: 0
+        }
+      }));
     } finally {
       setLoading(false);
     }
-  };
-
-  const generateQuestionsForSession = async (
-    grade: string,
-    difficulty: DifficultyLevel,
-    subject: string,
-    count: number
-  ): Promise<QuestionType[]> => {
-    const newQuestions: QuestionType[] = [];
-    
-    if (subject) {
-      // Generate all questions for specified subject
-      for (let i = 0; i < count; i++) {
-        try {
-          const question = generateEnhancedQuestion(grade, subject, difficulty);
-          question.isGenerated = true;
-          question.generatedAt = new Date();
-          newQuestions.push(question);
-        } catch (error) {
-          console.error(`Error generating ${subject} question:`, error);
-        }
-      }
-    } else {
-      // Distribute across all subjects
-      const subjects = ['Math', 'English', 'Thinking Skills'];
-      const questionsPerSubject = Math.ceil(count / subjects.length);
-      
-      for (const subj of subjects) {
-        for (let i = 0; i < questionsPerSubject && newQuestions.length < count; i++) {
-          try {
-            const question = generateEnhancedQuestion(grade, subj, difficulty);
-            question.isGenerated = true;
-            question.generatedAt = new Date();
-            newQuestions.push(question);
-          } catch (error) {
-            console.error(`Error generating ${subj} question:`, error);
-          }
-        }
-      }
-    }
-    
-    return newQuestions;
   };
 
   const shuffleArray = <T,>(array: T[]): T[] => {
@@ -248,7 +197,16 @@ const PracticeSession: React.FC = () => {
     const currentQuestion = sessionState.questions[sessionState.currentQuestionIndex];
     if (!currentQuestion || !sessionState.selectedAnswer || sessionState.isSubmitted) return;
 
-    const correct = sessionState.selectedAnswer === currentQuestion.correctAnswer;
+    // Use enhanced answer validation
+    const validation = validateAnswer(currentQuestion, sessionState.selectedAnswer);
+    const correct = validation.isCorrect;
+    
+    console.log(`Answer validation result:`, {
+      userAnswer: sessionState.selectedAnswer,
+      correctAnswer: currentQuestion.correctAnswer,
+      isCorrect: correct,
+      confidence: validation.confidence
+    });
     
     setSessionState(prev => ({
       ...prev,
