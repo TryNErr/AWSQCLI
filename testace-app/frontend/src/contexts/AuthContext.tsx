@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import { User } from '../types';
+import { getOverallProgress } from '../services/userProgressService';
 
 interface AuthContextType {
   user: User | null;
@@ -7,6 +8,7 @@ interface AuthContextType {
   register: (email: string, password: string, name: string, grade: string) => Promise<void>;
   logout: () => void;
   loading: boolean;
+  refreshUserStats: () => void;
 }
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
@@ -23,6 +25,25 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const [user, setUser] = useState<User | null>(null);
   const [loading, setLoading] = useState(true);
 
+  const refreshUserStats = () => {
+    if (user) {
+      const overallProgress = getOverallProgress();
+      const updatedUser = {
+        ...user,
+        stats: {
+          totalQuestions: overallProgress.totalQuestions,
+          correctAnswers: overallProgress.correctAnswers,
+          wrongAnswers: overallProgress.totalQuestions - overallProgress.correctAnswers,
+          averageScore: overallProgress.totalQuestions > 0 
+            ? Math.round((overallProgress.correctAnswers / overallProgress.totalQuestions) * 100)
+            : 0
+        }
+      };
+      setUser(updatedUser);
+      localStorage.setItem('user', JSON.stringify(updatedUser));
+    }
+  };
+
   useEffect(() => {
     // Check for stored user data on mount
     const storedUser = localStorage.getItem('user');
@@ -30,6 +51,8 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       try {
         const userData = JSON.parse(storedUser);
         setUser(userData);
+        // Refresh stats with latest progress data
+        setTimeout(refreshUserStats, 100);
       } catch (error) {
         console.error('Error parsing stored user data:', error);
         localStorage.removeItem('user');
@@ -77,18 +100,21 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   const login = async (email: string, password: string) => {
     try {
-      // For demo purposes, create a mock user
+      // Get real progress data
+      const overallProgress = getOverallProgress();
+      
+      // For demo purposes, create a mock user with real stats
       const mockUser: User = {
         id: '1',
         email,
         name: 'Test User',
-        grade: '5',
+        grade: '9',
         role: 'student',
         createdAt: new Date(),
         updatedAt: new Date(),
         streaks: {
           current: 3,
-          best: 5
+          best: 7
         },
         profile: {
           firstName: 'Test',
@@ -96,10 +122,12 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
           avatar: undefined
         },
         stats: {
-          totalQuestions: 150,
-          correctAnswers: 120,
-          wrongAnswers: 30,
-          averageScore: 80
+          totalQuestions: overallProgress.totalQuestions,
+          correctAnswers: overallProgress.correctAnswers,
+          wrongAnswers: overallProgress.totalQuestions - overallProgress.correctAnswers,
+          averageScore: overallProgress.totalQuestions > 0 
+            ? Math.round((overallProgress.correctAnswers / overallProgress.totalQuestions) * 100)
+            : 0
         }
       };
 
@@ -122,7 +150,8 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     login,
     register,
     logout,
-    loading
+    loading,
+    refreshUserStats
   };
 
   return (

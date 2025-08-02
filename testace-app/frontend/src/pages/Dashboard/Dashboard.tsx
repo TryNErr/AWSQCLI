@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import {
   Container,
   Typography,
@@ -6,21 +6,23 @@ import {
   Paper,
   Grid,
   Button,
-  Divider,
 } from '@mui/material';
 import {
   School,
   Timer,
   TrendingUp,
-  EmojiEvents,
-  Timeline,
 } from '@mui/icons-material';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../../contexts/AuthContext';
 
 const Dashboard: React.FC = () => {
   const navigate = useNavigate();
-  const { user } = useAuth();
+  const { user, refreshUserStats } = useAuth();
+  
+  useEffect(() => {
+    // Refresh user stats when dashboard loads
+    refreshUserStats();
+  }, [refreshUserStats]);
   
   if (!user) {
     return null;
@@ -104,20 +106,20 @@ const Dashboard: React.FC = () => {
                   bgcolor: 'action.hover',
                 }
               }}
-              onClick={() => navigate('/practice')}
+              onClick={() => navigate('/practice/enhanced')}
             >
               <School sx={{ fontSize: 40, color: 'primary.main', mb: 2 }} />
               <Typography variant="h6" gutterBottom>
-                Practice Questions
+                Enhanced Practice
               </Typography>
               <Typography variant="body2" color="text.secondary" align="center">
-                Practice questions from various subjects and improve your skills
+                Practice with our enhanced question system featuring 300%+ more variety and curriculum alignment
               </Typography>
               <Button
                 variant="contained"
                 color="primary"
                 sx={{ mt: 'auto', mb: 1 }}
-                onClick={() => navigate('/practice')}
+                onClick={() => navigate('/practice/enhanced')}
               >
                 Start Practice
               </Button>
@@ -144,7 +146,7 @@ const Dashboard: React.FC = () => {
                 Timed Tests
               </Typography>
               <Typography variant="body2" color="text.secondary" align="center">
-                Take timed tests to challenge yourself and track your progress
+                Take timed tests to challenge yourself and track your progress with real assessment conditions
               </Typography>
               <Button
                 variant="contained"
@@ -177,7 +179,7 @@ const Dashboard: React.FC = () => {
                 Your Progress
               </Typography>
               <Typography variant="body2" color="text.secondary" align="center">
-                View your progress and performance analytics
+                View detailed progress analytics and performance insights across all subjects
               </Typography>
               <Button
                 variant="contained"

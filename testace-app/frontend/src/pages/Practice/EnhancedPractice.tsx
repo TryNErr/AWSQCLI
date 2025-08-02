@@ -23,11 +23,19 @@ import { useNavigate } from 'react-router-dom';
 import { Question, DifficultyLevel } from '../../types';
 import { getUserGrade } from '../../services/userContextService';
 import { maintainQuestionPool, monitorQuestionPool } from '../../utils/enhancedQuestionMaintenance';
+import { useAuth } from '../../contexts/AuthContext';
 
 // Enhanced Practice component with strict filtering and auto-generation
 const EnhancedPractice: React.FC = () => {
   const [questions, setQuestions] = useState<Question[]>([]);
   const [selectedSubject, setSelectedSubject] = useState('');
+  const navigate = useNavigate();
+  const { refreshUserStats } = useAuth();
+
+  useEffect(() => {
+    // Refresh stats when component loads
+    refreshUserStats();
+  }, [refreshUserStats]);
   const [selectedGrade, setSelectedGrade] = useState(() => {
     const grade = getUserGrade();
     return typeof grade === 'string' ? grade : String(grade);
@@ -41,7 +49,6 @@ const EnhancedPractice: React.FC = () => {
     'Thinking Skills'
   ]);
   const [availableGrades] = useState<string[]>(['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12']);
-  const navigate = useNavigate();
 
   // Load questions when filters change
   useEffect(() => {
