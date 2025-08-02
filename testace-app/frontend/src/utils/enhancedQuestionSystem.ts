@@ -7,6 +7,7 @@ import { NALAPStyleQuestionGenerator } from './australianCurriculumEnhancer';
 import { AustralianMathCurriculumGenerator } from './australianMathCurriculumEnhancer';
 import { CurriculumExtrapolator } from './curriculumExtrapolator';
 import { EnhancedQuestionVarietyGenerator } from './enhancedQuestionVarietyGenerator';
+import { fixQuestionDifficulty, validateGrade9Difficulty } from './questionDifficultyFixer';
 
 // Enhanced Question Generation System
 // Integrates all enhanced generators with curriculum-based, challenging questions
@@ -384,6 +385,22 @@ export class EnhancedQuestionGenerator {
       `curriculum-aligned`,
       ...QuestionDifficultyCalibrator.getKeySkills(grade, subject)
     ];
+    
+    // Fix question difficulty if it's incorrectly classified
+    question = fixQuestionDifficulty(question);
+    
+    // Validate Grade 9+ difficulty appropriateness
+    if (!validateGrade9Difficulty(question)) {
+      console.warn(`Difficulty validation failed for Grade ${grade} question: "${question.content}"`);
+      // Force correction for Grade 9+ simple operations
+      if (parseInt(grade) >= 9 && question.difficulty === DifficultyLevel.HARD) {
+        const content = question.content.toLowerCase();
+        if (/^\d+\.?\d*\s*[×*+\-÷\/]\s*\d+\.?\d*/.test(content)) {
+          question.difficulty = DifficultyLevel.EASY;
+          question.tags = [...(question.tags || []), 'grade9-corrected'];
+        }
+      }
+    }
     
     return question;
   }

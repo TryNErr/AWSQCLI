@@ -24,16 +24,54 @@ export class AustralianMathCurriculumGenerator {
     
     const strand = strands[getRandomInt(0, strands.length - 1)];
     
+    let question: Question;
     switch (strand) {
       case 'number_and_algebra':
-        return this.generateNumberAlgebraQuestion(grade, difficulty);
+        question = this.generateNumberAlgebraQuestion(grade, difficulty);
+        break;
       case 'measurement_and_geometry':
-        return this.generateMeasurementGeometryQuestion(grade, difficulty);
+        question = this.generateMeasurementGeometryQuestion(grade, difficulty);
+        break;
       case 'statistics_and_probability':
-        return this.generateStatisticsProbabilityQuestion(grade, difficulty);
+        question = this.generateStatisticsProbabilityQuestion(grade, difficulty);
+        break;
       default:
-        return this.generateNumberAlgebraQuestion(grade, difficulty);
+        question = this.generateNumberAlgebraQuestion(grade, difficulty);
     }
+    
+    // Fix difficulty for Grade 9+ if needed
+    if (parseInt(grade) >= 9) {
+      question = this.validateAndFixGrade9Difficulty(question);
+    }
+    
+    return question;
+  }
+  
+  /**
+   * Validate and fix difficulty for Grade 9+ questions
+   */
+  private static validateAndFixGrade9Difficulty(question: Question): Question {
+    const content = question.content.toLowerCase();
+    
+    // Simple operations should not be Hard for Grade 9+
+    const simpleOperationPatterns = [
+      /^\d+\.?\d*\s*[×*]\s*\d+\.?\d*/, // Simple multiplication like "2.2 × 2"
+      /^\d+\.?\d*\s*[+]\s*\d+\.?\d*/, // Simple addition
+      /^\d+\.?\d*\s*[-]\s*\d+\.?\d*/, // Simple subtraction
+      /^\d+\.?\d*\s*[÷\/]\s*\d+\.?\d*/ // Simple division
+    ];
+    
+    const isSimpleOperation = simpleOperationPatterns.some(pattern => pattern.test(content));
+    
+    if (isSimpleOperation && question.difficulty === DifficultyLevel.HARD) {
+      return {
+        ...question,
+        difficulty: DifficultyLevel.EASY,
+        tags: [...(question.tags || []), 'difficulty-corrected-grade9']
+      };
+    }
+    
+    return question;
   }
   
   /**
