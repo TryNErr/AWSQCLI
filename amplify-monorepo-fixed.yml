@@ -1,0 +1,42 @@
+version: 1
+applications:
+  - appRoot: testace-app
+    frontend:
+      phases:
+        preBuild:
+          commands:
+            - echo "=== Monorepo Debug Info ==="
+            - pwd
+            - ls -la
+            - echo "=== Navigating to frontend ==="
+            - cd frontend
+            - pwd
+            - ls -la
+            - echo "=== Installing dependencies ==="
+            - npm install --legacy-peer-deps
+        build:
+          commands:
+            - echo "=== Monorepo Build Phase ==="
+            - pwd
+            - cd frontend
+            - pwd
+            - echo "=== Building application ==="
+            - npm run build
+            - echo "=== Build completed ==="
+            - ls -la build/ || echo "Build directory not found"
+      artifacts:
+        baseDirectory: frontend/build
+        files:
+          - '**/*'
+      cache:
+        paths:
+          - frontend/node_modules/**/*
+      customHeaders:
+        - pattern: '**/*'
+          headers:
+            - key: 'X-Frame-Options'
+              value: 'DENY'
+            - key: 'X-XSS-Protection'
+              value: '1; mode=block'
+            - key: 'X-Content-Type-Options'
+              value: 'nosniff'
