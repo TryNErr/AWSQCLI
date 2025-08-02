@@ -189,7 +189,9 @@ export class CurriculumExtrapolator {
     
     // Adapt vocabulary and concepts for grade level
     question.content = this.adaptContentForGrade(question.content, grade, complexity);
-    question.explanation = this.adaptExplanationForGrade(question.explanation, grade, complexity);
+    if (question.explanation) {
+      question.explanation = this.adaptExplanationForGrade(question.explanation, grade, complexity);
+    }
     
     return question;
   }
