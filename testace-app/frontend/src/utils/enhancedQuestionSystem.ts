@@ -225,7 +225,7 @@ export class EnhancedQuestionGenerator {
     
     // Add curriculum alignment metadata
     question.tags = [
-      ...question.tags,
+      ...(question.tags || []),
       `grade-${grade}`,
       `curriculum-aligned`,
       ...QuestionDifficultyCalibrator.getKeySkills(grade, subject)
@@ -259,6 +259,7 @@ export class EnhancedQuestionGenerator {
       
       if (mapping) {
         const question = this.generateQuestion(grade, mapping.subject, mapping.difficulty);
+        if (!question.tags) question.tags = [];
         question.tags.push(`objective-${objective.replace(/\s+/g, '-').toLowerCase()}`);
         questions.push(question);
       }

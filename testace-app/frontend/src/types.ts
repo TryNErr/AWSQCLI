@@ -29,6 +29,8 @@ export interface Question {
   createdBy?: string;
   createdAt?: Date;
   updatedAt?: Date;
+  isGenerated?: boolean;
+  generatedAt?: Date;
 }
 
 export interface User {

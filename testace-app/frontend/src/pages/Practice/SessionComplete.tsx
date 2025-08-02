@@ -124,7 +124,7 @@ const SessionComplete: React.FC = () => {
                   <Chip 
                     label={`${performance.icon} ${performance.level}`}
                     color={performance.color as any}
-                    size="large"
+                    size="medium"
                   />
                 </CardContent>
               </Card>

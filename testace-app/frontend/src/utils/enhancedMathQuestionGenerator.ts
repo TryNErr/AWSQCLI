@@ -232,6 +232,15 @@ class EnhancedMathQuestionGenerator {
     let answer: string;
     let explanation: string;
     
+    // Helper functions for fraction operations
+    const gcd = (a: number, b: number): number => {
+      return b === 0 ? a : gcd(b, a % b);
+    };
+    
+    const lcm = (a: number, b: number): number => {
+      return Math.abs(a * b) / gcd(a, b);
+    };
+    
     switch (difficulty) {
       case DifficultyLevel.EASY:
         // Equivalent fractions
@@ -242,7 +251,7 @@ class EnhancedMathQuestionGenerator {
         
         questionText = `Which fraction is equivalent to ${num1}/${den1}?`;
         answer = `1/${baseFraction}`;
-        explanation = `${num1}/${den1} = ${num1 ÷ multiplier}/${den1 ÷ multiplier} = 1/${baseFraction}`;
+        explanation = `${num1}/${den1} = ${num1 / multiplier}/${den1 / multiplier} = 1/${baseFraction}`;
         break;
         
       case DifficultyLevel.MEDIUM:
@@ -251,14 +260,6 @@ class EnhancedMathQuestionGenerator {
         const den3 = [3, 5, 9, 15][getRandomInt(0, 3)];
         const num2 = getRandomInt(1, den2 - 1);
         const num3 = getRandomInt(1, den3 - 1);
-        
-        // Find LCM for addition
-        const lcm = (a: number, b: number): number => {
-          return Math.abs(a * b) / gcd(a, b);
-        };
-        const gcd = (a: number, b: number): number => {
-          return b === 0 ? a : gcd(b, a % b);
-        };
         
         const commonDen = lcm(den2, den3);
         const newNum2 = num2 * (commonDen / den2);
