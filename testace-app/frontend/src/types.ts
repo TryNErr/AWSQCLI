@@ -1,14 +1,14 @@
 export enum DifficultyLevel {
-  EASY = 'EASY',
-  MEDIUM = 'MEDIUM',
-  HARD = 'HARD'
+  EASY = 'easy',
+  MEDIUM = 'medium',
+  HARD = 'hard'
 }
 
 export enum QuestionType {
-  MULTIPLE_CHOICE = 'MULTIPLE_CHOICE',
-  SHORT_ANSWER = 'SHORT_ANSWER',
-  TRUE_FALSE = 'TRUE_FALSE',
-  FILL_IN_BLANK = 'FILL_IN_BLANK'
+  MULTIPLE_CHOICE = 'multiple_choice',
+  SHORT_ANSWER = 'short_answer',
+  TRUE_FALSE = 'true_false',
+  FILL_IN_BLANK = 'fill_blank'
 }
 
 export interface Question {
@@ -31,6 +31,7 @@ export interface Question {
   updatedAt?: Date;
   isGenerated?: boolean;
   generatedAt?: Date;
+  generationMethod?: string;
 }
 
 export interface User {

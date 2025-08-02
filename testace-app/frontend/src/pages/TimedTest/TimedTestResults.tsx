@@ -89,9 +89,9 @@ const TimedTestResults: React.FC = () => {
       accuracy: (correctAnswers / totalQuestions) * 100,
       averageTime: results.timeSpent / totalQuestions,
       difficultyBreakdown: {
-        easy: results.questions.filter(q => q.difficulty === 'EASY').length,
-        medium: results.questions.filter(q => q.difficulty === 'MEDIUM').length,
-        hard: results.questions.filter(q => q.difficulty === 'HARD').length,
+        easy: results.questions.filter(q => q.difficulty === 'easy').length,
+        medium: results.questions.filter(q => q.difficulty === 'medium').length,
+        hard: results.questions.filter(q => q.difficulty === 'hard').length,
         total: totalQuestions
       }
     });

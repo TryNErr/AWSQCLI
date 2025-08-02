@@ -424,10 +424,12 @@ export class EnhancedTimedTestSystem {
       stats.byDifficulty[q.difficulty] = (stats.byDifficulty[q.difficulty] || 0) + 1;
       
       // Count by subject
-      stats.bySubject[q.subject] = (stats.bySubject[q.subject] || 0) + 1;
+      const subject = q.subject || 'Unknown';
+      stats.bySubject[subject] = (stats.bySubject[subject] || 0) + 1;
       
       // Count by topic
-      stats.byTopic[q.topic] = (stats.byTopic[q.topic] || 0) + 1;
+      const topic = q.topic || 'Unknown';
+      stats.byTopic[topic] = (stats.byTopic[topic] || 0) + 1;
       
       // Count generated questions
       if ((q as any).isGenerated) {
