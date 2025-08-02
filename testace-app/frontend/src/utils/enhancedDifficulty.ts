@@ -15,7 +15,7 @@ interface QuestionParameters {
   gradeLevel: number;
 }
 
-// Enhanced difficulty levels with more granular control
+// Enhanced difficulty levels with more granular control and grade-specific scaling
 const DIFFICULTY_SETTINGS: { [key: string]: DifficultySettings } = {
   easy: {
     baseComplexity: 0.5,
@@ -30,10 +30,10 @@ const DIFFICULTY_SETTINGS: { [key: string]: DifficultySettings } = {
     gradeOffset: 0        // At grade level
   },
   hard: {
-    baseComplexity: 1.5,
-    timeConstraint: 0.7,  // 70% of standard time
-    conceptDepth: 1.4,
-    gradeOffset: 0.5      // Half a grade level above
+    baseComplexity: 1.8,  // Increased from 1.5 for more challenge
+    timeConstraint: 0.6,  // Reduced from 0.7 for more time pressure
+    conceptDepth: 1.6,    // Increased from 1.4 for deeper concepts
+    gradeOffset: 1.0      // Increased from 0.5 - full grade level above
   }
 };
 
@@ -77,7 +77,7 @@ export const calculateEffectiveDifficulty = (
 };
 
 /**
- * Generate question difficulty parameters
+ * Generate question difficulty parameters with enhanced Grade 9+ scaling
  */
 export const generateQuestionParameters = (
   difficulty: string,
@@ -90,16 +90,31 @@ export const generateQuestionParameters = (
 
   const params = calculateEffectiveDifficulty(baseLevel, grade, subject, recentPerformance);
 
-  // Apply additional modifiers for hard difficulty
+  // Apply additional modifiers for hard difficulty with special Grade 9+ scaling
   if (difficulty === 'hard') {
-    // Increase complexity based on user's grade level
-    params.complexity *= (1 + (grade / 20)); // Higher grades get progressively harder
+    // Significant complexity increase for Grade 9+
+    if (grade >= 9) {
+      params.complexity *= (1.5 + (grade - 9) / 10); // Much more aggressive scaling
+      params.conceptLevel *= (1.4 + (grade - 9) / 12); // Deeper concepts for high school
+      params.timeAllowed *= (0.8 - (grade - 9) / 20); // More time pressure
+    } else {
+      // Standard scaling for lower grades
+      params.complexity *= (1 + (grade / 20));
+      params.conceptLevel *= (1 + (grade / 15));
+      params.timeAllowed *= (1 - (grade / 24));
+    }
 
-    // Add grade-appropriate advanced concepts
-    params.conceptLevel *= (1 + (grade / 15));
+    // Special handling for Thinking Skills in Grade 9+
+    if (subject === 'Thinking Skills' && grade >= 9) {
+      params.complexity *= 1.3; // Extra complexity for thinking skills
+      params.conceptLevel *= 1.2; // More sophisticated concepts
+    }
+  }
 
-    // Reduce time for higher grades
-    params.timeAllowed *= (1 - (grade / 24));
+  // Ensure minimum challenge levels for Grade 9+
+  if (grade >= 9) {
+    params.complexity = Math.max(params.complexity, 1.2); // Minimum complexity
+    params.conceptLevel = Math.max(params.conceptLevel, 1.1); // Minimum concept depth
   }
 
   return params;
@@ -129,27 +144,33 @@ const calculateRecentPerformance = (userStats: any): number => {
 };
 
 /**
- * Get question complexity modifiers based on difficulty parameters
+ * Get question complexity modifiers based on difficulty parameters with Grade 9+ enhancements
  */
 export const getQuestionModifiers = (params: QuestionParameters) => {
   return {
-    // Number of steps required to solve
-    stepCount: Math.ceil(params.complexity * 3),
+    // Number of steps required to solve - more for high school
+    stepCount: Math.ceil(params.complexity * (params.gradeLevel >= 9 ? 4 : 3)),
     
     // Complexity of mathematical operations
-    operationComplexity: Math.min(1.5, params.complexity * params.gradeLevel / 8),
+    operationComplexity: Math.min(2.0, params.complexity * params.gradeLevel / (params.gradeLevel >= 9 ? 6 : 8)),
     
-    // Number of concepts combined in one question
-    conceptIntegration: Math.ceil(params.conceptLevel * 2),
+    // Number of concepts combined in one question - more integration for Grade 9+
+    conceptIntegration: Math.ceil(params.conceptLevel * (params.gradeLevel >= 9 ? 3 : 2)),
     
     // Time pressure factor
     timeFactor: params.timeAllowed,
     
-    // Whether to include advanced grade-level concepts
-    includeAdvancedConcepts: params.conceptLevel > 1.2,
+    // Whether to include advanced grade-level concepts - lower threshold for Grade 9+
+    includeAdvancedConcepts: params.gradeLevel >= 9 ? params.conceptLevel > 1.0 : params.conceptLevel > 1.2,
     
-    // Complexity of language used in the question
-    languageComplexity: Math.min(1.5, (params.gradeLevel / 12) * params.complexity)
+    // Complexity of language used in the question - more sophisticated for high school
+    languageComplexity: Math.min(2.0, (params.gradeLevel / (params.gradeLevel >= 9 ? 8 : 12)) * params.complexity),
+    
+    // Whether to include multi-step reasoning (especially important for Grade 9+)
+    requiresMultiStepReasoning: params.gradeLevel >= 9 && params.complexity > 1.3,
+    
+    // Abstract thinking requirement
+    abstractThinkingLevel: params.gradeLevel >= 9 ? Math.min(1.5, params.conceptLevel) : Math.min(1.0, params.conceptLevel)
   };
 };
 
