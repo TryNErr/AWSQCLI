@@ -25,6 +25,8 @@ import { Question, DifficultyLevel } from '../../types';
 import { getUserGrade } from '../../services/userContextService';
 import { generateTimedTest, validateCompleteTest, getTestStatistics } from '../../utils/enhancedTimedTestSystem';
 import { validateAnswer } from '../../utils/enhancedAnswerValidation';
+import { recordQuestionAttempt } from '../../services/questionHistoryService';
+import { markQuestionAnswered } from '../../services/userProgressService';
 
 interface TestConfig {
   subject: string;
@@ -185,31 +187,48 @@ const TimedTest: React.FC = () => {
 
     questions.forEach(question => {
       const userAnswer = answers[question._id] || '';
+      let isCorrect = false;
+      let validation = { isCorrect: false, explanation: 'No answer provided', confidence: 0 };
       
       if (userAnswer) {
         // Use enhanced answer validation
-        const validation = validateAnswer(question, userAnswer);
-        const isCorrect = validation.isCorrect;
+        validation = validateAnswer(question, userAnswer);
+        isCorrect = validation.isCorrect;
         
         if (isCorrect) {
           correctCount++;
         }
-        
-        detailedResults.push({
-          question,
-          userAnswer,
-          isCorrect,
-          validation
-        });
-      } else {
-        // No answer provided
-        detailedResults.push({
-          question,
-          userAnswer: '',
-          isCorrect: false,
-          validation: { isCorrect: false, explanation: 'No answer provided', confidence: 0 }
-        });
       }
+      
+      // Record question attempt in history
+      recordQuestionAttempt(
+        question._id,
+        question.subject,
+        question.difficulty,
+        question.grade || testConfig.grade,
+        isCorrect,
+        userAnswer,
+        question.correctAnswer,
+        question.content,
+        question.options,
+        question.explanation
+      );
+
+      // Mark question as answered in progress tracking
+      markQuestionAnswered(
+        question._id,
+        isCorrect,
+        question.subject,
+        question.difficulty,
+        question.grade || testConfig.grade
+      );
+      
+      detailedResults.push({
+        question,
+        userAnswer,
+        isCorrect,
+        validation
+      });
     });
 
     console.log(`Test completed: ${correctCount}/${questions.length} correct answers`);
