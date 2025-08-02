@@ -97,6 +97,15 @@ else
     print_status "Amplify project already initialized"
 fi
 
+# Set monorepo environment variable
+print_info "Setting monorepo configuration..."
+if amplify env get --name AMPLIFY_MONOREPO_APP_ROOT &> /dev/null; then
+    print_status "AMPLIFY_MONOREPO_APP_ROOT already set"
+else
+    amplify env add --name AMPLIFY_MONOREPO_APP_ROOT --value testace-app
+    print_status "AMPLIFY_MONOREPO_APP_ROOT set to 'testace-app'"
+fi
+
 # Add hosting if not already added
 print_info "Setting up Amplify hosting..."
 if ! amplify status | grep -q "Hosting"; then
@@ -121,6 +130,7 @@ if [ -n "$APP_URL" ]; then
     echo "======================"
     echo "🌐 Frontend URL: $APP_URL"
     echo "📱 App Status: Live and accessible"
+    echo "🔧 Monorepo Root: testace-app"
     echo ""
     echo "🧪 Test your deployment:"
     echo "curl -I $APP_URL"
@@ -130,6 +140,9 @@ if [ -n "$APP_URL" ]; then
     echo ""
     echo "🗑️  To delete your deployment:"
     echo "amplify delete"
+    echo ""
+    echo "⚙️  Environment Variables Set:"
+    echo "   AMPLIFY_MONOREPO_APP_ROOT=testace-app"
 else
     print_warning "Could not retrieve app URL. Check Amplify console for details."
 fi
