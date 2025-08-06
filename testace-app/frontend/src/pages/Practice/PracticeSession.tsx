@@ -314,7 +314,7 @@ const PracticeSession: React.FC = () => {
 
   // Function to generate emergency questions if all else fails
   const generateEmergencyQuestions = () => {
-    const emergencyQuestions: Question[] = [];
+    const emergencyQuestions: QuestionType[] = [];
     
     for (let i = 0; i < 5; i++) {
       const num1 = Math.floor(Math.random() * 20) + 1;

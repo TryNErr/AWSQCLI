@@ -116,31 +116,44 @@ export class EnhancedThinkingSkillsGenerator {
       {
         sequence: ['Circle', 'Square', 'Triangle', 'Circle', 'Square', '?'],
         answer: 'Triangle',
-        explanation: 'The pattern repeats every 3 shapes: Circle, Square, Triangle.'
+        distractors: ['Circle', 'Square', 'Diamond'],
+        explanation: 'The pattern repeats every 3 shapes in order: Circle, Square, Triangle. After Square comes Triangle.'
       },
       {
         sequence: ['2', '4', '8', '16', '?'],
         answer: '32',
-        explanation: 'Each number is double the previous number (×2 pattern).'
+        distractors: ['24', '28', '64'],
+        explanation: 'Each number is exactly double the previous number: 2×2=4, 4×2=8, 8×2=16, 16×2=32.'
       },
       {
         sequence: ['A', 'C', 'E', 'G', '?'],
         answer: 'I',
-        explanation: 'The pattern skips one letter each time (every other letter).'
+        distractors: ['H', 'J', 'K'],
+        explanation: 'The pattern skips one letter each time: A(skip B)C(skip D)E(skip F)G(skip H)I.'
       },
       {
-        sequence: ['Red-Blue', 'Blue-Green', 'Green-Yellow', 'Yellow-?'],
-        answer: 'Red',
-        explanation: 'Each pair shares one color with the next, cycling through Red, Blue, Green, Yellow.'
+        sequence: ['3', '6', '9', '12', '?'],
+        answer: '15',
+        distractors: ['14', '16', '18'],
+        explanation: 'Each number increases by 3: 3+3=6, 6+3=9, 9+3=12, 12+3=15.'
+      },
+      {
+        sequence: ['Monday', 'Wednesday', 'Friday', '?'],
+        answer: 'Sunday',
+        distractors: ['Saturday', 'Tuesday', 'Thursday'],
+        explanation: 'The pattern skips one day each time: Monday(skip Tuesday)Wednesday(skip Thursday)Friday(skip Saturday)Sunday.'
+      },
+      {
+        sequence: ['1', '4', '9', '16', '?'],
+        answer: '25',
+        distractors: ['20', '24', '32'],
+        explanation: 'These are perfect squares: 1²=1, 2²=4, 3²=9, 4²=16, 5²=25.'
       }
     ];
 
     const pattern = patterns[Math.floor(Math.random() * patterns.length)];
     const sequenceStr = pattern.sequence.slice(0, -1).join(', ') + ', ' + pattern.sequence[pattern.sequence.length - 1];
-    
-    // Generate distractors
-    const distractors = this.generatePatternDistractors(pattern.answer, grade);
-    const options = [pattern.answer, ...distractors].sort(() => Math.random() - 0.5);
+    const options = [pattern.answer, ...pattern.distractors].sort(() => Math.random() - 0.5);
 
     return {
       _id: this.generateId(),
@@ -166,28 +179,37 @@ export class EnhancedThinkingSkillsGenerator {
   private static generateSpatialQuestion(grade: number, difficulty: DifficultyLevel): Question {
     const scenarios = [
       {
-        setup: 'In a town, the library is north of the school. The school is east of the park. The hospital is south of the school.',
-        question: 'What is west of the hospital?',
-        answer: 'The park',
-        explanation: 'The park is west of the school, and the hospital is directly south of the school, so the park is west of the hospital.'
+        setup: 'In a town, the library is directly north of the school. The school is directly east of the park. The hospital is directly south of the school.',
+        question: 'If you are standing at the hospital, which direction is the park?',
+        answer: 'West',
+        distractors: ['North', 'East', 'South'],
+        explanation: 'The park is west of the school, and the hospital is directly south of the school. From the hospital, the park is in the west direction.'
       },
       {
-        setup: 'Sarah walks 3 blocks north, then 2 blocks east, then 1 block south.',
-        question: 'How many blocks is Sarah from her starting point?',
-        answer: '2√2 blocks (approximately 2.8 blocks)',
-        explanation: 'Sarah is 2 blocks north and 2 blocks east from start. Using Pythagorean theorem: √(2² + 2²) = 2√2.'
+        setup: 'Emma walks 4 blocks north from her house, then 3 blocks east to reach the store.',
+        question: 'If Emma walks directly back to her house from the store, how many blocks will she walk?',
+        answer: '5 blocks',
+        distractors: ['4 blocks', '6 blocks', '7 blocks'],
+        explanation: 'Emma is 4 blocks north and 3 blocks east from home. The direct distance is √(4² + 3²) = √(16 + 9) = √25 = 5 blocks.'
       },
       {
-        setup: 'A cube has 6 faces. If you can see 3 faces from one viewpoint,',
-        question: 'how many faces are hidden from view?',
+        setup: 'A rectangular box is sitting on a table. You can see the front face, the top face, and the right side face.',
+        question: 'How many faces of the box cannot be seen from your current position?',
         answer: '3 faces',
-        explanation: 'If 3 faces are visible from one viewpoint, then 6 - 3 = 3 faces must be hidden.'
+        distractors: ['2 faces', '4 faces', '5 faces'],
+        explanation: 'A rectangular box has 6 faces total. If you can see 3 faces (front, top, right), then 6 - 3 = 3 faces are hidden (back, bottom, left).'
+      },
+      {
+        setup: 'A treasure map shows: Start at the big tree. Walk 5 steps north to the rock. From the rock, walk 3 steps east to the pond.',
+        question: 'If you walk directly from the big tree to the pond (in a straight line), how many steps would you take?',
+        answer: '5.8 steps',
+        distractors: ['5 steps', '8 steps', '4 steps'],
+        explanation: 'The pond is 5 steps north and 3 steps east from the tree. Using the Pythagorean theorem: √(5² + 3²) = √(25 + 9) = √34 ≈ 5.8 steps.'
       }
     ];
 
     const scenario = scenarios[Math.floor(Math.random() * scenarios.length)];
-    const distractors = this.generateSpatialDistractors(scenario.answer, grade);
-    const options = [scenario.answer, ...distractors].sort(() => Math.random() - 0.5);
+    const options = [scenario.answer, ...scenario.distractors].sort(() => Math.random() - 0.5);
 
     return {
       _id: this.generateId(),
@@ -213,28 +235,37 @@ export class EnhancedThinkingSkillsGenerator {
   private static generateLogicalDeductionQuestion(grade: number, difficulty: DifficultyLevel): Question {
     const scenarios = [
       {
-        premise: 'All students who did not pass the exam are in small classes this year. Tom is in a large class this year.',
-        question: 'What can we conclude about Tom?',
+        premise: 'Rule: All students who failed the exam are placed in small classes this year. Fact: Tom is in a large class this year.',
+        question: 'Based on this information, what can we definitely conclude about Tom?',
         answer: 'Tom passed the exam',
-        explanation: 'If all students who failed are in small classes, and Tom is in a large class, then Tom must have passed.'
+        distractors: ['Tom failed the exam', 'We cannot determine if Tom passed or failed', 'Tom might have passed the exam'],
+        explanation: 'If all students who failed are in small classes, and Tom is in a large class, then Tom cannot have failed. Therefore, Tom must have passed the exam.'
       },
       {
-        premise: 'If it rains, the ground gets wet. The ground is not wet.',
-        question: 'What can we conclude?',
+        premise: 'Rule: If it rains, then the ground gets wet. Observation: The ground is completely dry.',
+        question: 'What can we logically conclude from this information?',
         answer: 'It did not rain',
-        explanation: 'This uses modus tollens: If P then Q, not Q, therefore not P.'
+        distractors: ['It might have rained', 'The ground is always wet when it rains', 'We cannot determine if it rained'],
+        explanation: 'This uses logical reasoning (modus tollens): If rain causes wet ground, and the ground is dry, then it could not have rained.'
       },
       {
-        premise: 'Every bird can fly. Penguins are birds. Penguins cannot fly.',
-        question: 'What is wrong with this reasoning?',
-        answer: 'The first statement is false',
-        explanation: 'The premise "Every bird can fly" is incorrect, as penguins are birds that cannot fly.'
+        premise: 'Statement 1: Every bird can fly. Statement 2: Penguins are birds. Statement 3: Penguins cannot fly.',
+        question: 'These three statements create a logical contradiction. Which statement must be incorrect?',
+        answer: 'Statement 1 is false',
+        distractors: ['Statement 2 is false', 'Statement 3 is false', 'All statements are correct'],
+        explanation: 'Statements 2 and 3 are factually correct. The error is in Statement 1 - not every bird can fly (penguins, ostriches, and other birds cannot fly).'
+      },
+      {
+        premise: 'In a class: All students who play soccer also play basketball. Maria plays basketball but does not play soccer.',
+        question: 'What can we conclude about the relationship between soccer and basketball players in this class?',
+        answer: 'Some basketball players do not play soccer',
+        distractors: ['All basketball players play soccer', 'No basketball players play soccer', 'Maria must also play soccer'],
+        explanation: 'Maria is an example of someone who plays basketball but not soccer, proving that some basketball players do not play soccer.'
       }
     ];
 
     const scenario = scenarios[Math.floor(Math.random() * scenarios.length)];
-    const distractors = this.generateLogicalDistractors(scenario.answer, grade);
-    const options = [scenario.answer, ...distractors].sort(() => Math.random() - 0.5);
+    const options = [scenario.answer, ...scenario.distractors].sort(() => Math.random() - 0.5);
 
     return {
       _id: this.generateId(),
@@ -260,22 +291,44 @@ export class EnhancedThinkingSkillsGenerator {
   private static generateProblemSolvingQuestion(grade: number, difficulty: DifficultyLevel): Question {
     const problems = [
       {
-        setup: 'A painter needs to paint rooms. Each room requires 2 liters of green paint, 1 liter of blue paint, and 1 liter of yellow paint. The painter has 10 liters of green, 8 liters of blue, and 6 liters of yellow.',
-        question: 'How many complete rooms can be painted?',
+        setup: 'A painter needs to paint rooms. Each room requires exactly 2 liters of green paint, 1 liter of blue paint, and 1 liter of yellow paint. The painter has 10 liters of green, 8 liters of blue, and 6 liters of yellow paint available.',
+        question: 'What is the maximum number of complete rooms the painter can paint?',
         answer: '4 rooms',
-        explanation: 'Green: 10÷2=5 rooms, Blue: 8÷1=8 rooms, Yellow: 6÷1=6 rooms. Limited by yellow paint: 4 complete rooms.'
+        distractors: ['3 rooms', '5 rooms', '6 rooms'],
+        explanation: 'Green paint allows 10÷2=5 rooms, blue paint allows 8÷1=8 rooms, yellow paint allows 6÷1=6 rooms. The limiting factor is yellow paint, so only 4 complete rooms can be painted.'
       },
       {
-        setup: 'In a workshop schedule, Dance is 10:30-11:30, Singing is 11:45-12:45, and Art is 1:00-2:00. Each workshop is exactly 1 hour.',
-        question: 'If someone attends Dance and wants to attend one more workshop, which is possible?',
-        answer: 'Singing or Art',
-        explanation: 'Dance ends at 11:30, Singing starts at 11:45 (15-minute gap), Art starts at 1:00. Both are possible.'
+        setup: 'A school has three workshops today: Dance (10:30-11:30), Singing (11:45-12:45), and Art (1:00-2:00). Each workshop lasts exactly 1 hour. Students need 5 minutes to walk between any two workshops.',
+        question: 'If Alex attends the Dance workshop, which other workshops can Alex also attend on the same day?',
+        answer: 'Both Singing and Art',
+        distractors: ['Only Singing', 'Only Art', 'Neither Singing nor Art'],
+        explanation: 'Dance ends at 11:30. Singing starts at 11:45 (15 minutes later, enough time to walk). Art starts at 1:00 (plenty of time). Alex can attend both additional workshops.'
+      },
+      {
+        setup: 'A library has 3 floors with an elevator. Fiction books are on floor 1, Non-fiction on floor 2, and Reference books on floor 3. The elevator takes exactly 30 seconds to travel between any two adjacent floors.',
+        question: 'If Sarah starts on floor 1 and must visit floors 2 and 3 to collect books, what is the minimum elevator travel time?',
+        answer: '60 seconds',
+        distractors: ['30 seconds', '90 seconds', '120 seconds'],
+        explanation: 'Minimum path: Floor 1→2 (30 seconds) + Floor 2→3 (30 seconds) = 60 seconds total elevator travel time.'
+      },
+      {
+        setup: 'A recipe serves 8 people and calls for 3 cups flour, 2 cups sugar, and 1 cup butter. Maria wants to make the recipe for 4 people. She only has measuring spoons available (1 tablespoon = 1/16 cup).',
+        question: 'How many tablespoons of sugar does Maria need for 4 people?',
+        answer: '16 tablespoons',
+        distractors: ['8 tablespoons', '24 tablespoons', '32 tablespoons'],
+        explanation: 'For 4 people (half the recipe): 2 cups ÷ 2 = 1 cup of sugar needed. 1 cup = 16 tablespoons.'
+      },
+      {
+        setup: 'A school cafeteria serves lunch in 3 periods: Period A (11:30-12:00), Period B (12:00-12:30), and Period C (12:30-1:00). Each period serves exactly 150 students. The cafeteria has 200 seats total.',
+        question: 'What is the maximum number of students who can eat lunch if all periods are fully booked?',
+        answer: '450 students',
+        distractors: ['200 students', '300 students', '600 students'],
+        explanation: 'Each period serves 150 students, and there are 3 periods: 150 × 3 = 450 students total. The 200 seats are reused across all three periods.'
       }
     ];
 
     const problem = problems[Math.floor(Math.random() * problems.length)];
-    const distractors = this.generateProblemDistractors(problem.answer, grade);
-    const options = [problem.answer, ...distractors].sort(() => Math.random() - 0.5);
+    const options = [problem.answer, ...problem.distractors].sort(() => Math.random() - 0.5);
 
     return {
       _id: this.generateId(),
@@ -513,11 +566,6 @@ export class EnhancedThinkingSkillsGenerator {
 
   private static generateLogicalDistractors(correct: string, grade: number): string[] {
     const distractors = ['Tom failed the exam', 'We cannot determine this', 'Tom might have passed', 'It might have rained', 'The ground is always wet', 'The second statement is false'];
-    return distractors.filter(d => d !== correct).slice(0, 3);
-  }
-
-  private static generateProblemDistractors(correct: string, grade: number): string[] {
-    const distractors = ['3 rooms', '5 rooms', '6 rooms', 'Dance only', 'Singing only', 'Art only', 'All three workshops'];
     return distractors.filter(d => d !== correct).slice(0, 3);
   }
 
