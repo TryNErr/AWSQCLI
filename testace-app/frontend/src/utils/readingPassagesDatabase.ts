@@ -513,58 +513,266 @@ export class ReadingPassagesDatabase {
 
   /**
    * Generate reading comprehension questions for timed tests
+   * CRITICAL: This method must always generate the requested number of questions
    */
   static generateReadingQuestions(grade: string, difficulty: DifficultyLevel, count: number): Question[] {
+    console.log(`Generating ${count} reading questions for Grade ${grade}, ${difficulty} difficulty`);
+    
     const questions: Question[] = [];
     const passages = this.getPassagesForGradeAndDifficulty(grade, difficulty);
     
     if (passages.length === 0) {
-      // Fallback: generate basic reading questions
+      console.warn(`No passages found for Grade ${grade}, ${difficulty}. Generating fallback questions.`);
       return this.generateFallbackReadingQuestions(grade, difficulty, count);
     }
 
-    // Randomly select passages and their questions
-    const shuffledPassages = [...passages].sort(() => Math.random() - 0.5);
-    
-    for (const passage of shuffledPassages) {
+    // Strategy 1: Use all questions from available passages
+    for (const passage of passages) {
       if (questions.length >= count) break;
       
       // Add passage context to questions
       const passageQuestions = passage.questions.map(q => ({
         ...q,
         content: `Read the following passage and answer the question:\n\n**${passage.title}**\n\n${passage.passage}\n\n${q.content}`,
-        tags: [...(q.tags || []), 'reading_passage', passage.genre]
+        tags: [...(q.tags || []), 'reading_passage', passage.genre],
+        _id: `${q._id}_${Date.now()}_${Math.random().toString(36).substr(2, 4)}` // Ensure unique IDs
       }));
       
       questions.push(...passageQuestions);
     }
 
+    // Strategy 2: If we still need more questions, reuse passages with different question variations
+    if (questions.length < count) {
+      const remainingCount = count - questions.length;
+      console.log(`Need ${remainingCount} more questions. Generating variations.`);
+      
+      for (let i = 0; i < remainingCount; i++) {
+        const passage = passages[i % passages.length]; // Cycle through passages
+        const baseQuestion = passage.questions[i % passage.questions.length]; // Cycle through questions
+        
+        // Create a variation of the question
+        const variation = this.createQuestionVariation(passage, baseQuestion, i);
+        questions.push(variation);
+      }
+    }
+
+    // Strategy 3: If we still don't have enough, generate completely new questions
+    if (questions.length < count) {
+      const stillNeeded = count - questions.length;
+      console.log(`Still need ${stillNeeded} questions. Generating new ones.`);
+      
+      const additionalQuestions = this.generateFallbackReadingQuestions(grade, difficulty, stillNeeded);
+      questions.push(...additionalQuestions);
+    }
+
+    console.log(`Successfully generated ${questions.length} reading questions`);
     return questions.slice(0, count);
   }
 
   /**
+   * Create a variation of an existing question to avoid duplicates
+   */
+  private static createQuestionVariation(passage: ReadingPassage, baseQuestion: Question, variationIndex: number): Question {
+    const variations = [
+      {
+        prefix: "Based on the passage, ",
+        suffix: ""
+      },
+      {
+        prefix: "According to the text, ",
+        suffix: ""
+      },
+      {
+        prefix: "From the information provided, ",
+        suffix: ""
+      },
+      {
+        prefix: "The passage tells us that ",
+        suffix: " What does this mean?"
+      }
+    ];
+
+    const variation = variations[variationIndex % variations.length];
+    
+    return {
+      ...baseQuestion,
+      _id: `${baseQuestion._id}_var_${variationIndex}_${Date.now()}`,
+      content: `Read the following passage and answer the question:\n\n**${passage.title}**\n\n${passage.passage}\n\n${variation.prefix}${baseQuestion.content.split('\n\n').pop()}${variation.suffix}`,
+      tags: [...(baseQuestion.tags || []), 'reading_passage', passage.genre, 'variation']
+    };
+  }
+
+  /**
    * Fallback question generation when no passages are available
+   * CRITICAL: Must always generate the exact number of questions requested
    */
   private static generateFallbackReadingQuestions(grade: string, difficulty: DifficultyLevel, count: number): Question[] {
+    console.log(`Generating ${count} fallback reading questions for Grade ${grade}, ${difficulty}`);
+    
     const questions: Question[] = [];
+    const gradeNum = parseInt(grade);
+    
+    // Define fallback passages based on grade level
+    const fallbackPassages = this.getFallbackPassages(gradeNum, difficulty);
     
     for (let i = 0; i < count; i++) {
-      questions.push({
-        _id: `reading_fallback_${grade}_${difficulty}_${i}`,
-        content: `Reading comprehension question ${i + 1} for Grade ${grade}`,
-        type: QuestionType.MULTIPLE_CHOICE,
-        options: ['Option A', 'Option B', 'Option C', 'Option D'],
-        correctAnswer: 'Option A',
-        explanation: 'This is a fallback reading question.',
-        subject: 'Reading',
-        topic: 'Reading Comprehension',
-        difficulty: difficulty,
-        grade: grade,
-        tags: ['reading', 'fallback']
-      });
+      const passageIndex = i % fallbackPassages.length;
+      const passage = fallbackPassages[passageIndex];
+      
+      // Generate different types of questions for variety
+      const questionTypes = ['literal', 'inference', 'vocabulary', 'main_idea'];
+      const questionType = questionTypes[i % questionTypes.length];
+      
+      const question = this.generateFallbackQuestionByType(
+        passage, 
+        questionType, 
+        grade, 
+        difficulty, 
+        i
+      );
+      
+      questions.push(question);
     }
     
+    console.log(`Generated ${questions.length} fallback reading questions`);
     return questions;
+  }
+
+  /**
+   * Get fallback passages for emergency question generation
+   */
+  private static getFallbackPassages(gradeNum: number, difficulty: DifficultyLevel): Array<{title: string, text: string, genre: string}> {
+    if (gradeNum <= 3) {
+      return [
+        {
+          title: "The Friendly Dog",
+          text: "Max is a golden retriever who lives with the Johnson family. He loves to play fetch in the backyard and go for walks in the park. Max is very friendly and always wags his tail when he meets new people. He sleeps in a cozy bed next to the fireplace every night.",
+          genre: "fiction"
+        },
+        {
+          title: "Making Cookies",
+          text: "To make chocolate chip cookies, you need flour, sugar, butter, eggs, and chocolate chips. First, mix the dry ingredients in a bowl. Then add the wet ingredients and stir everything together. Finally, drop spoonfuls of dough on a baking sheet and bake for 10 minutes.",
+          genre: "non-fiction"
+        },
+        {
+          title: "The School Garden",
+          text: "Our school has a beautiful garden where students grow vegetables and flowers. We planted tomatoes, carrots, and lettuce in the spring. The flowers attract butterflies and bees. Every day, different classes take turns watering the plants and pulling weeds.",
+          genre: "non-fiction"
+        }
+      ];
+    } else if (gradeNum <= 6) {
+      return [
+        {
+          title: "The Water Cycle",
+          text: "The water cycle is the continuous movement of water on Earth. Water evaporates from oceans, lakes, and rivers, forming clouds in the sky. When clouds become heavy with water, precipitation occurs as rain or snow. This water flows back to bodies of water, and the cycle begins again.",
+          genre: "science"
+        },
+        {
+          title: "Ancient Egypt",
+          text: "Ancient Egypt was one of the world's greatest civilizations. The Egyptians built magnificent pyramids as tombs for their pharaohs. They developed hieroglyphics, a system of writing using pictures and symbols. The Nile River was essential to their survival, providing water and fertile soil for farming.",
+          genre: "history"
+        },
+        {
+          title: "Renewable Energy",
+          text: "Renewable energy comes from natural sources that can be replenished. Solar panels convert sunlight into electricity. Wind turbines use moving air to generate power. Hydroelectric dams harness the energy of flowing water. These clean energy sources help protect our environment.",
+          genre: "science"
+        }
+      ];
+    } else {
+      return [
+        {
+          title: "Climate Change Impact",
+          text: "Climate change is causing significant environmental shifts worldwide. Rising global temperatures are melting polar ice caps, leading to sea level rise. Extreme weather events are becoming more frequent and intense. Scientists emphasize the urgent need for sustainable practices and renewable energy adoption to mitigate these effects.",
+          genre: "science"
+        },
+        {
+          title: "Digital Revolution",
+          text: "The digital revolution has transformed how we communicate, work, and access information. Social media platforms connect people globally, while artificial intelligence automates complex tasks. However, this technological advancement also raises concerns about privacy, job displacement, and the digital divide between different socioeconomic groups.",
+          genre: "technology"
+        },
+        {
+          title: "Space Exploration",
+          text: "Human space exploration has achieved remarkable milestones, from the first moon landing to the International Space Station. Current missions focus on Mars exploration and the search for extraterrestrial life. Private companies are now contributing to space technology, making space travel more accessible and cost-effective.",
+          genre: "science"
+        }
+      ];
+    }
+  }
+
+  /**
+   * Generate a specific type of fallback question
+   */
+  private static generateFallbackQuestionByType(
+    passage: {title: string, text: string, genre: string}, 
+    questionType: string, 
+    grade: string, 
+    difficulty: DifficultyLevel, 
+    index: number
+  ): Question {
+    const baseId = `fallback_${grade}_${difficulty}_${questionType}_${index}_${Date.now()}`;
+    
+    switch (questionType) {
+      case 'literal':
+        return {
+          _id: baseId,
+          content: `Read the passage and answer the question:\n\n**${passage.title}**\n\n${passage.text}\n\nWhat is the main topic of this passage?`,
+          type: QuestionType.MULTIPLE_CHOICE,
+          options: [passage.title.toLowerCase(), 'cooking recipes', 'sports activities', 'weather patterns'],
+          correctAnswer: passage.title.toLowerCase(),
+          explanation: 'This is a literal comprehension question. The answer can be found directly in the passage.',
+          subject: 'Reading',
+          topic: 'Reading Comprehension',
+          difficulty: difficulty,
+          grade: grade,
+          tags: ['reading', 'literal', 'fallback', passage.genre]
+        };
+        
+      case 'inference':
+        return {
+          _id: baseId,
+          content: `Read the passage and answer the question:\n\n**${passage.title}**\n\n${passage.text}\n\nWhat can you infer about the author's purpose in writing this passage?`,
+          type: QuestionType.MULTIPLE_CHOICE,
+          options: ['To inform readers about the topic', 'To sell a product', 'To tell a funny story', 'To complain about something'],
+          correctAnswer: 'To inform readers about the topic',
+          explanation: 'This is an inference question. The author\'s purpose can be inferred from the informative tone and content.',
+          subject: 'Reading',
+          topic: 'Reading Comprehension',
+          difficulty: difficulty,
+          grade: grade,
+          tags: ['reading', 'inference', 'fallback', passage.genre]
+        };
+        
+      case 'vocabulary':
+        return {
+          _id: baseId,
+          content: `Read the passage and answer the question:\n\n**${passage.title}**\n\n${passage.text}\n\nBased on the context, what does the word "essential" most likely mean?`,
+          type: QuestionType.MULTIPLE_CHOICE,
+          options: ['Very important', 'Somewhat useful', 'Completely unnecessary', 'Slightly helpful'],
+          correctAnswer: 'Very important',
+          explanation: 'This is a vocabulary question. Use context clues to determine word meaning.',
+          subject: 'Reading',
+          topic: 'Reading Comprehension',
+          difficulty: difficulty,
+          grade: grade,
+          tags: ['reading', 'vocabulary', 'fallback', passage.genre]
+        };
+        
+      case 'main_idea':
+      default:
+        return {
+          _id: baseId,
+          content: `Read the passage and answer the question:\n\n**${passage.title}**\n\n${passage.text}\n\nWhat is the main idea of this passage?`,
+          type: QuestionType.MULTIPLE_CHOICE,
+          options: ['The passage explains key information about the topic', 'The passage tells a personal story', 'The passage gives cooking instructions', 'The passage describes a sports game'],
+          correctAnswer: 'The passage explains key information about the topic',
+          explanation: 'This is a main idea question. Look for the central message of the entire passage.',
+          subject: 'Reading',
+          topic: 'Reading Comprehension',
+          difficulty: difficulty,
+          grade: grade,
+          tags: ['reading', 'main_idea', 'fallback', passage.genre]
+        };
+    }
   }
 
   /**

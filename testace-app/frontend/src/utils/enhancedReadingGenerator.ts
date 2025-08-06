@@ -32,26 +32,95 @@ export class EnhancedReadingGenerator {
 
   /**
    * Generate reading comprehension questions using high-quality passages
+   * CRITICAL: Must always generate the exact number of questions requested
    */
   static generateReadingQuestions(grade: string, difficulty: DifficultyLevel, count: number): Question[] {
     console.log(`Generating ${count} reading questions for Grade ${grade}, ${difficulty} difficulty`);
     
-    // First, try to get questions from our curated passages database
-    const passageQuestions = ReadingPassagesDatabase.generateReadingQuestions(grade, difficulty, count);
+    try {
+      // First, try to get questions from our curated passages database
+      const passageQuestions = ReadingPassagesDatabase.generateReadingQuestions(grade, difficulty, count);
+      
+      if (passageQuestions.length >= count) {
+        console.log(`Generated ${passageQuestions.length} questions from reading passages database`);
+        return passageQuestions.slice(0, count);
+      }
+      
+      // If we need more questions, supplement with generated ones
+      const remainingCount = count - passageQuestions.length;
+      console.log(`Need ${remainingCount} more questions. Generating supplementary questions.`);
+      
+      const additionalQuestions = this.generateSupplementaryQuestions(grade, difficulty, remainingCount);
+      
+      const allQuestions = [...passageQuestions, ...additionalQuestions];
+      console.log(`Generated ${allQuestions.length} total reading questions (${passageQuestions.length} from passages, ${additionalQuestions.length} supplementary)`);
+      
+      // Ensure we have exactly the requested count
+      if (allQuestions.length < count) {
+        console.warn(`Still short ${count - allQuestions.length} questions. Generating emergency questions.`);
+        const emergencyQuestions = this.generateEmergencyQuestions(grade, difficulty, count - allQuestions.length);
+        allQuestions.push(...emergencyQuestions);
+      }
+      
+      return allQuestions.slice(0, count);
+      
+    } catch (error) {
+      console.error('Error in reading question generation:', error);
+      // Emergency fallback - generate basic questions
+      console.log('Using emergency fallback question generation');
+      return this.generateEmergencyQuestions(grade, difficulty, count);
+    }
+  }
+
+  /**
+   * Generate emergency questions when all other methods fail
+   * This method MUST always succeed and generate the requested number of questions
+   */
+  private static generateEmergencyQuestions(grade: string, difficulty: DifficultyLevel, count: number): Question[] {
+    console.log(`Generating ${count} emergency reading questions`);
     
-    if (passageQuestions.length >= count) {
-      console.log(`Generated ${passageQuestions.length} questions from reading passages database`);
-      return passageQuestions.slice(0, count);
+    const questions: Question[] = [];
+    const questionTemplates = [
+      {
+        passage: "Reading is an important skill that helps us learn new information and enjoy stories. Good readers can understand what they read and remember important details. Practice makes reading easier and more fun.",
+        question: "According to the passage, what makes reading easier?",
+        answer: "Practice",
+        distractors: ["Watching TV", "Playing games", "Sleeping more"]
+      },
+      {
+        passage: "Libraries are wonderful places where people can borrow books, use computers, and attend programs. Most libraries are free to use and welcome people of all ages. Librarians are there to help you find what you need.",
+        question: "What do librarians do?",
+        answer: "Help you find what you need",
+        distractors: ["Sell books", "Cook food", "Fix computers only"]
+      },
+      {
+        passage: "Exercise is good for your body and mind. It helps keep your muscles strong and your heart healthy. Regular exercise can also help you feel happier and sleep better at night.",
+        question: "What are two benefits of exercise mentioned in the passage?",
+        answer: "Keeps muscles strong and heart healthy",
+        distractors: ["Makes you taller and smarter", "Helps you eat more and work less", "Makes you famous and rich"]
+      }
+    ];
+    
+    for (let i = 0; i < count; i++) {
+      const template = questionTemplates[i % questionTemplates.length];
+      
+      questions.push({
+        _id: `emergency_reading_${grade}_${difficulty}_${i}_${Date.now()}`,
+        content: `Read the passage and answer the question:\n\n${template.passage}\n\n${template.question}`,
+        type: QuestionType.MULTIPLE_CHOICE,
+        options: [template.answer, ...template.distractors].sort(() => Math.random() - 0.5),
+        correctAnswer: template.answer,
+        explanation: `This is a reading comprehension question. The answer can be found in the passage.`,
+        subject: 'Reading',
+        topic: 'Reading Comprehension',
+        difficulty: difficulty,
+        grade: grade,
+        tags: ['reading', 'emergency', 'comprehension']
+      });
     }
     
-    // If we need more questions, supplement with generated ones
-    const remainingCount = count - passageQuestions.length;
-    const additionalQuestions = this.generateSupplementaryQuestions(grade, difficulty, remainingCount);
-    
-    const allQuestions = [...passageQuestions, ...additionalQuestions];
-    console.log(`Generated ${allQuestions.length} total reading questions (${passageQuestions.length} from passages, ${additionalQuestions.length} supplementary)`);
-    
-    return allQuestions.slice(0, count);
+    console.log(`Successfully generated ${questions.length} emergency reading questions`);
+    return questions;
   }
 
   /**

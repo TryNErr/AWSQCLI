@@ -1,4 +1,4 @@
-import { Question, DifficultyLevel } from '../types';
+import { Question, DifficultyLevel, QuestionType } from '../types';
 import { generateEnhancedMathQuestionV2 } from './enhancedMathQuestionGeneratorV2';
 import { generateEnhancedEnglishQuestion } from './enhancedEnglishQuestionGenerator';
 import { generateEnhancedThinkingSkillsQuestions } from './enhancedThinkingSkillsGenerator';
@@ -362,8 +362,19 @@ export class EnhancedQuestionGenerator {
         case 'reading comprehension':
         case 'comprehension':
           // Use enhanced reading generator for comprehension questions
-          const readingQuestions = EnhancedReadingGenerator.generateReadingQuestions(grade, calibratedDifficulty, 1);
-          question = readingQuestions[0];
+          try {
+            const readingQuestions = EnhancedReadingGenerator.generateReadingQuestions(grade, calibratedDifficulty, 1);
+            question = readingQuestions[0];
+            
+            // Safety check - ensure we got a valid question
+            if (!question) {
+              console.warn('Reading generator returned null/undefined. Creating emergency question.');
+              question = EnhancedQuestionGenerator.createEmergencyReadingQuestion(grade, calibratedDifficulty);
+            }
+          } catch (error) {
+            console.error('Error generating reading question:', error);
+            question = EnhancedQuestionGenerator.createEmergencyReadingQuestion(grade, calibratedDifficulty);
+          }
           break;
           
         case 'literacy':
@@ -544,6 +555,32 @@ export class EnhancedQuestionGenerator {
     });
     
     return mapping;
+  }
+
+  /**
+   * Create an emergency reading question when all other generation methods fail
+   */
+  static createEmergencyReadingQuestion(grade: string, difficulty: DifficultyLevel): Question {
+    console.log(`Creating emergency reading question for Grade ${grade}, ${difficulty}`);
+    
+    const emergencyPassage = "Reading is a fundamental skill that opens doors to knowledge and imagination. Through reading, we can learn about different cultures, explore new ideas, and develop our vocabulary. Good readers practice regularly and ask questions about what they read.";
+    
+    return {
+      _id: `emergency_reading_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
+      content: `Read the passage and answer the question:\n\n${emergencyPassage}\n\nAccording to the passage, what does reading help us do?`,
+      type: QuestionType.MULTIPLE_CHOICE,
+      options: ['Learn about different cultures and explore new ideas', 'Watch television programs', 'Play video games', 'Sleep better at night'],
+      correctAnswer: 'Learn about different cultures and explore new ideas',
+      explanation: 'This is a literal comprehension question. The answer can be found directly in the passage.',
+      subject: 'Reading',
+      topic: 'Reading Comprehension',
+      difficulty: difficulty,
+      grade: grade,
+      tags: ['reading', 'emergency', 'comprehension'],
+      createdBy: 'emergency-generator',
+      createdAt: new Date(),
+      updatedAt: new Date()
+    };
   }
 }
 
