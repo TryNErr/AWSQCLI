@@ -35,4 +35,3 @@ var CritiqueStatus;
     CritiqueStatus["COMPLETED"] = "completed";
     CritiqueStatus["FAILED"] = "failed";
 })(CritiqueStatus || (exports.CritiqueStatus = CritiqueStatus = {}));
-//# sourceMappingURL=types.js.map

@@ -87,9 +87,9 @@ router.get('/overview', asyncHandler(async (req: AuthRequest, res) => {
   const thirtyDaysAgo = new Date();
   thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
   
-  const recentSessions = sessions.filter(session => session.createdAt >= thirtyDaysAgo);
+  const recentSessions = sessions.filter(session => (session as any).createdAt >= thirtyDaysAgo);
   const progressOverTime = recentSessions.map(session => ({
-    date: session.createdAt,
+    date: (session as any).createdAt,
     score: session.score || 0,
     accuracy: session.getAccuracy(),
     questionsAnswered: session.answers.length
@@ -138,7 +138,7 @@ router.get('/topics', asyncHandler(async (req: AuthRequest, res) => {
             total: 0,
             accuracy: 0,
             averageTime: 0,
-            lastAttempt: session.createdAt
+            lastAttempt: (session as any).createdAt
           };
         }
         
@@ -146,8 +146,8 @@ router.get('/topics', asyncHandler(async (req: AuthRequest, res) => {
         if (answer.isCorrect) performanceByTopic[question.topic].correct++;
         performanceByTopic[question.topic].averageTime += answer.timeSpent;
         
-        if (session.createdAt > performanceByTopic[question.topic].lastAttempt) {
-          performanceByTopic[question.topic].lastAttempt = session.createdAt;
+        if ((session as any).createdAt > performanceByTopic[question.topic].lastAttempt) {
+          performanceByTopic[question.topic].lastAttempt = (session as any).createdAt;
         }
       }
     }
@@ -273,7 +273,7 @@ router.get('/study-time', asyncHandler(async (req: AuthRequest, res) => {
   const studyTimeByDate: { [key: string]: number } = {};
   
   sessions.forEach(session => {
-    const date = session.createdAt.toISOString().split('T')[0];
+    const date = (session as any).createdAt.toISOString().split('T')[0];
     const sessionTime = session.answers.reduce((sum, answer) => sum + answer.timeSpent, 0);
     
     if (!studyTimeByDate[date]) {

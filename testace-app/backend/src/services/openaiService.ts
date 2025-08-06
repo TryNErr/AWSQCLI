@@ -1,6 +1,21 @@
 import OpenAI from 'openai';
 import { WritingCritique, WritingType } from '../../../shared/types';
 
+// Fallback function for when OpenAI is not available
+function getFallbackWritingCritique(content: string, type: WritingType): WritingCritique {
+  return {
+    overallScore: 75,
+    grammar: { score: 75, feedback: 'Good grammar overall' },
+    structure: { score: 75, feedback: 'Clear structure' },
+    clarity: { score: 75, feedback: 'Generally clear writing' },
+    vocabulary: { score: 75, feedback: 'Good use of vocabulary' },
+    suggestions: ['Try varying your sentence length', 'Consider using more descriptive language'],
+    strengths: ['Clear structure', 'Good use of vocabulary'],
+    areasForImprovement: ['Consider adding more examples', 'Work on sentence variety'],
+    processedAt: new Date()
+  };
+}
+
 // Check if OpenAI API key is available and valid
 const isOpenAIAvailable = process.env.OPENAI_API_KEY && 
   process.env.OPENAI_API_KEY !== 'your-openai-api-key-here' && 

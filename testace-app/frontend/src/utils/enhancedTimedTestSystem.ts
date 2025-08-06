@@ -1,6 +1,7 @@
 import { Question, DifficultyLevel } from '../types';
 import { getQuestionsForPractice } from './enhancedQuestionMaintenance';
 import { validateAnswer } from './enhancedAnswerValidation';
+import EnhancedQuestionPoolManager from './enhancedQuestionPoolManager';
 
 /**
  * Enhanced Timed Test System
@@ -28,46 +29,56 @@ export class EnhancedTimedTestSystem {
   /**
    * Generates a complete set of questions for a timed test
    * Ensures no duplicates and validates all answers
+   * Uses enhanced question pool manager to guarantee sufficient questions
    */
   static async generateTimedTest(config: TimedTestConfig): Promise<TimedTestResult> {
     const { subject, grade, difficulty, questionCount } = config;
     
     console.log(`Generating timed test: ${questionCount} questions for Grade ${grade}, ${difficulty} ${subject}`);
     
-    // Get questions using the enhanced maintenance system
-    // Request more than needed to allow for filtering
-    const requestCount = Math.max(questionCount * 2, 50);
-    
     try {
-      const allQuestions = await getQuestionsForPractice({
+      // Use enhanced question pool manager to ensure sufficient questions
+      const poolResult = await EnhancedQuestionPoolManager.getQuestionsForTimedTest({
         grade,
         difficulty,
         subject,
-        count: requestCount
+        targetCount: questionCount,
+        minAcceptableCount: Math.max(questionCount * 0.8, 20) // At least 80% of target or 20 questions minimum
       });
       
-      console.log(`Retrieved ${allQuestions.length} questions from pool`);
+      console.log(`Question pool result:`, {
+        totalQuestions: poolResult.questions.length,
+        exactMatches: poolResult.exactMatches,
+        flexibleMatches: poolResult.flexibleMatches,
+        generatedCount: poolResult.generatedCount,
+        warnings: poolResult.warnings.length
+      });
       
-      // If we still don't have enough questions, this is a critical error
-      if (allQuestions.length === 0) {
-        throw new Error(`No questions available for Grade ${grade}, ${difficulty} difficulty, ${subject}. The enhanced question maintenance system should have generated questions automatically.`);
+      // Log warnings if any
+      if (poolResult.warnings.length > 0) {
+        poolResult.warnings.forEach(warning => console.warn('Pool warning:', warning));
       }
       
-      // Remove duplicates and validate questions
-      const processedResult = this.processQuestionsForTest(allQuestions, questionCount);
+      // Process questions for final validation and duplicate removal
+      const processedResult = this.processQuestionsForTest(poolResult.questions, questionCount);
       
-      console.log(`Processed result:`, {
+      // Add pool manager information to the result
+      processedResult.validationErrors.push(...poolResult.warnings);
+      
+      console.log(`Final processed result:`, {
         finalCount: processedResult.questions.length,
         duplicatesRemoved: processedResult.duplicatesRemoved,
-        generatedCount: processedResult.generatedCount,
+        generatedCount: processedResult.generatedCount + poolResult.generatedCount,
         validationErrors: processedResult.validationErrors.length
       });
       
-      // If we still don't have enough questions after processing, warn but continue
-      if (processedResult.questions.length < questionCount) {
-        console.warn(`Only ${processedResult.questions.length} questions available, requested ${questionCount}`);
-        processedResult.validationErrors.push(`Only ${processedResult.questions.length} questions available out of ${questionCount} requested`);
+      // If we still don't have enough questions, this is now a critical system error
+      if (processedResult.questions.length < Math.max(questionCount * 0.5, 10)) {
+        throw new Error(`Critical error: Only ${processedResult.questions.length} questions available after all generation strategies. This indicates a system-wide issue with question generation.`);
       }
+      
+      // Update generated count to include pool manager generated questions
+      processedResult.generatedCount += poolResult.generatedCount;
       
       return processedResult;
       
@@ -75,11 +86,11 @@ export class EnhancedTimedTestSystem {
       console.error('Error generating timed test:', error);
       
       // Provide more helpful error message
-      if (error instanceof Error && error.message.includes('No questions available')) {
-        throw new Error(`Failed to generate timed test: No questions available for Grade ${grade}, ${difficulty} difficulty, ${subject}. This may be due to a configuration issue with the question generators.`);
+      if (error instanceof Error && error.message.includes('Critical error')) {
+        throw error; // Re-throw critical errors as-is
       }
       
-      throw new Error(`Failed to generate timed test: ${error instanceof Error ? error.message : 'Unknown error'}`);
+      throw new Error(`Failed to generate timed test: ${error instanceof Error ? error.message : 'Unknown error'}. Please try again or contact support if the issue persists.`);
     }
   }
   

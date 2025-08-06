@@ -12,7 +12,7 @@ const router = express.Router();
 
 // Create new test session
 router.post('/', validate(sessionSchema), asyncHandler(async (req: AuthRequest, res) => {
-  const { mode, subject, difficulty, timeLimit, questionCount = 10 } = req.body;
+  const { mode, subject, difficulty, timeLimit, questionCount = 30 } = req.body;
   const userId = req.user._id;
 
   // Check if user already has an active session
@@ -61,6 +61,23 @@ router.post('/', validate(sessionSchema), asyncHandler(async (req: AuthRequest, 
     } else {
       questions = await (Question as any).getRandomQuestions(questionCount, filters);
     }
+  }
+
+  // Validate minimum question count for timed tests (dynamic based on user settings)
+  if (mode === TestMode.TIMED && questionCount < 5) {
+    return res.status(400).json({
+      success: false,
+      message: 'Timed tests require at least 5 questions'
+    });
+  }
+
+  // Ensure we have enough questions (allow up to 50% shortfall for emergency generation)
+  const minimumRequired = Math.max(Math.floor(questionCount * 0.5), 3);
+  if (questions.length < minimumRequired) {
+    return res.status(404).json({
+      success: false,
+      message: `Insufficient questions available. Found ${questions.length}, need at least ${minimumRequired} (50% of requested ${questionCount})`
+    });
   }
 
   if (questions.length === 0) {

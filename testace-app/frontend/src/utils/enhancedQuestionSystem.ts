@@ -1,8 +1,11 @@
 import { Question, DifficultyLevel } from '../types';
 import { generateEnhancedMathQuestionV2 } from './enhancedMathQuestionGeneratorV2';
 import { generateEnhancedEnglishQuestion } from './enhancedEnglishQuestionGenerator';
-import { generateEnhancedThinkingSkillsQuestion } from './enhancedThinkingSkillsGenerator';
+import { generateEnhancedThinkingSkillsQuestions } from './enhancedThinkingSkillsGenerator';
 import { generateEnhancedMathematicalReasoningQuestions } from './enhancedMathematicalReasoningGenerator';
+import { generateEnhancedNumeracyQuestions } from './enhancedNumeracyGenerator';
+import { generateEnhancedReadingQuestions } from './enhancedReadingGenerator';
+import { generateEnhancedLanguageQuestions } from './enhancedLanguageGenerator';
 import { NALAPStyleQuestionGenerator } from './australianCurriculumEnhancer';
 import { AustralianMathCurriculumGenerator } from './australianMathCurriculumEnhancer';
 import { CurriculumExtrapolator } from './curriculumExtrapolator';
@@ -22,6 +25,7 @@ interface QuestionGenerationConfig {
   subjectWeights: {
     math: number;
     english: number;
+    reading: number;
     thinkingSkills: number;
   };
 }
@@ -35,8 +39,9 @@ const defaultConfig: QuestionGenerationConfig = {
     hard: 0.2     // 20% hard questions
   },
   subjectWeights: {
-    math: 0.4,           // 40% math questions
-    english: 0.4,        // 40% english questions
+    math: 0.3,           // 30% math questions
+    english: 0.3,        // 30% english questions
+    reading: 0.2,        // 20% reading questions
     thinkingSkills: 0.2  // 20% thinking skills questions
   }
 };
@@ -337,28 +342,46 @@ export class EnhancedQuestionGenerator {
       switch (subject.toLowerCase()) {
         case 'math':
         case 'mathematics':
-          if (useAustralianCurriculum) {
-            question = AustralianMathCurriculumGenerator.generateMathQuestion(grade, calibratedDifficulty);
-          } else {
-            question = CurriculumExtrapolator.generateCurriculumAlignedQuestion(grade, 'mathematics', calibratedDifficulty);
-          }
+        case 'numeracy':
+          // Use enhanced numeracy generator for NAPLAN-style questions
+          const numeracyQuestions = generateEnhancedNumeracyQuestions(grade, calibratedDifficulty, 1);
+          question = numeracyQuestions[0];
           break;
           
         case 'english':
         case 'language arts':
         case 'ela':
+        case 'language':
+        case 'language conventions':
+          // Use enhanced language generator for grammar, spelling, etc.
+          const languageQuestions = generateEnhancedLanguageQuestions(grade, calibratedDifficulty, 1);
+          question = languageQuestions[0];
+          break;
+          
+        case 'reading':
+        case 'reading comprehension':
+        case 'comprehension':
+          // Use enhanced reading generator for comprehension questions
+          const readingQuestions = generateEnhancedReadingQuestions(grade, calibratedDifficulty, 1);
+          question = readingQuestions[0];
+          break;
+          
         case 'literacy':
           if (useAustralianCurriculum) {
             question = NALAPStyleQuestionGenerator.generateLiteracyQuestion(grade, calibratedDifficulty);
           } else {
-            question = CurriculumExtrapolator.generateCurriculumAlignedQuestion(grade, 'english', calibratedDifficulty);
+            // Use reading generator for literacy
+            const literacyQuestions = generateEnhancedReadingQuestions(grade, calibratedDifficulty, 1);
+            question = literacyQuestions[0];
           }
           break;
           
         case 'thinking skills':
         case 'critical thinking':
         case 'logic':
-          question = generateEnhancedThinkingSkillsQuestion(grade, calibratedDifficulty);
+          // Use the enhanced thinking skills generator
+          const thinkingSkillsQuestions = generateEnhancedThinkingSkillsQuestions(grade, calibratedDifficulty, 1);
+          question = thinkingSkillsQuestions[0];
           break;
           
         case 'mathematical reasoning':
@@ -457,6 +480,7 @@ export class EnhancedQuestionGenerator {
     
     if (random < weights.math) return 'math';
     if (random < weights.math + weights.english) return 'english';
+    if (random < weights.math + weights.english + weights.reading) return 'reading';
     return 'thinking skills';
   }
   

@@ -137,7 +137,7 @@ router.get('/dashboard', asyncHandler(async (req: AuthRequest, res) => {
         mode: session.mode,
         score: session.score,
         accuracy: session.getAccuracy(),
-        createdAt: session.createdAt,
+        createdAt: (session as any).createdAt,
         subject: session.subject,
         questionsCount: session.answers.length
       })),
@@ -368,7 +368,7 @@ router.get('/calendar', asyncHandler(async (req: AuthRequest, res) => {
   const calendar: { [key: string]: any } = {};
 
   sessions.forEach(session => {
-    const date = session.createdAt.toISOString().split('T')[0];
+    const date = (session as any).createdAt.toISOString().split('T')[0];
     
     if (!calendar[date]) {
       calendar[date] = {

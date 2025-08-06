@@ -52,6 +52,10 @@ export interface Question {
   tags: string[];
   createdBy: string;
   createdAt: Date;
+  // Emergency generation metadata
+  isGenerated?: boolean;
+  generatedAt?: Date;
+  generationMethod?: string;
 }
 
 export enum QuestionType {

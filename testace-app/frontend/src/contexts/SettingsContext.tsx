@@ -10,6 +10,10 @@ export interface SettingsData {
   preferredSubjects: string[];
   
   // Learning Preferences
+  // Timed Test Settings
+  timedTestQuestionCount: number;
+  timedTestTimeLimit: number; // in minutes
+  timedTestAutoSubmit: boolean;
   defaultDifficulty: string;
   questionsPerSession: number;
   autoAdvance: boolean;
@@ -70,6 +74,10 @@ const defaultSettings: SettingsData = {
   preferredSubjects: ['Math', 'English'],
   
   // Learning Preferences
+  // Timed Test Settings
+  timedTestQuestionCount: 30,
+  timedTestTimeLimit: 30,
+  timedTestAutoSubmit: true,
   defaultDifficulty: 'medium',
   questionsPerSession: 10,
   autoAdvance: false,

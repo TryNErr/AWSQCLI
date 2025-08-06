@@ -66,7 +66,7 @@ router.post('/', validate(writingSubmissionSchema), asyncHandler(async (req: Aut
 }));
 
 // Upload writing file
-router.post('/upload', upload.single('file'), asyncHandler(async (req: AuthRequest, res) => {
+router.post('/upload', upload.single('file') as any, asyncHandler(async (req: AuthRequest, res) => {
   if (!req.file) {
     return res.status(400).json({
       success: false,

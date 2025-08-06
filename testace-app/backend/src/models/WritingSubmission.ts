@@ -59,7 +59,7 @@ const writingCritiqueSchema = new Schema<WritingCritique>({
 
 const writingSubmissionSchema = new Schema<WritingSubmissionDocument>({
   userId: {
-    type: Schema.Types.ObjectId,
+    type: Schema.Types.ObjectId as any,
     ref: 'User',
     required: true
   },

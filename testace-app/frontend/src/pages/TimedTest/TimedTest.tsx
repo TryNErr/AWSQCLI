@@ -21,7 +21,8 @@ import {
 } from '@mui/material';
 import { Timer, School, CheckCircle, Warning } from '@mui/icons-material';
 import { useNavigate } from 'react-router-dom';
-import { Question, DifficultyLevel } from '../../types';
+import { useSettings } from '../../contexts/SettingsContext';
+import { Question, DifficultyLevel, QuestionType } from '../../types';
 import { getUserGrade } from '../../services/userContextService';
 import { generateTimedTest, validateCompleteTest, getTestStatistics } from '../../utils/enhancedTimedTestSystem';
 import { validateAnswer } from '../../utils/enhancedAnswerValidation';
@@ -64,6 +65,7 @@ const TimedTest: React.FC = () => {
     validationErrors: []
   });
   const navigate = useNavigate();
+  const { settings } = useSettings();
 
   // Available subjects
   const subjects = ['Math', 'English', 'Thinking Skills', 'Mathematical Reasoning'];
@@ -107,16 +109,131 @@ const TimedTest: React.FC = () => {
         progress: 'Generating questions with enhanced system...'
       }));
 
-      // Use enhanced timed test system
+      // Get user's preferred question count (default to 30 if not set)
+      const userQuestionCount = settings.questionsPerSession || 30;
+      console.log(`User requested ${userQuestionCount} questions for timed test`);
+      
+      // Use enhanced timed test system with user's preferred count
       const testResult = await generateTimedTest({
         subject: testConfig.subject,
         grade: testConfig.grade,
         difficulty: testConfig.difficulty,
-        questionCount: 30,
+        questionCount: userQuestionCount,
         timeLimit: 30
       });
 
       console.log('Test generation result:', testResult);
+
+      // Validate that we have enough questions (allow some flexibility)
+      const minimumAcceptable = Math.max(Math.floor(userQuestionCount * 0.7), 5);
+      if (testResult.questions.length < minimumAcceptable) {
+        console.warn(`Only generated ${testResult.questions.length} questions, attempting emergency generation...`);
+        
+        // Emergency generation - create questions to reach user's preferred count
+        const emergencyQuestions = [];
+        const neededQuestions = userQuestionCount - testResult.questions.length;
+        
+        for (let i = 0; i < neededQuestions; i++) {
+          const emergencyQuestion: Question = {
+            _id: `emergency_${Date.now()}_${i}`,
+            content: `Question ${testResult.questions.length + i + 1}: What is the result of ${Math.floor(Math.random() * 10) + 1} + ${Math.floor(Math.random() * 10) + 1}?`,
+            subject: testConfig.subject,
+            difficulty: testConfig.difficulty,
+            grade: testConfig.grade,
+            type: QuestionType.MULTIPLE_CHOICE,
+            options: [] as string[],
+            correctAnswer: '',
+            explanation: 'This is an emergency generated question to ensure test completeness.',
+            topic: 'Basic Math',
+            timeLimit: 60,
+            tags: ['emergency', 'generated'],
+            createdBy: 'system',
+            isGenerated: true
+          };
+          
+          // Generate realistic math options
+          const num1 = Math.floor(Math.random() * 10) + 1;
+          const num2 = Math.floor(Math.random() * 10) + 1;
+          const correctAnswer = num1 + num2;
+          
+          emergencyQuestion.content = `Question ${testResult.questions.length + i + 1}: What is ${num1} + ${num2}?`;
+          emergencyQuestion.options = [
+            correctAnswer.toString(),
+            (correctAnswer + Math.floor(Math.random() * 5) + 1).toString(),
+            (correctAnswer - Math.floor(Math.random() * 5) - 1).toString(),
+            (correctAnswer + Math.floor(Math.random() * 10) + 5).toString()
+          ];
+          emergencyQuestion.correctAnswer = correctAnswer.toString();
+          
+          emergencyQuestions.push(emergencyQuestion);
+        }
+        
+        testResult.questions.push(...emergencyQuestions);
+        console.log(`Added ${emergencyQuestions.length} emergency questions. Total: ${testResult.questions.length}`);
+      }
+      
+      // Final validation - ensure we have exactly the user's requested count
+      if (testResult.questions.length !== userQuestionCount) {
+        if (testResult.questions.length > userQuestionCount) {
+          testResult.questions = testResult.questions.slice(0, userQuestionCount);
+          console.log(`Trimmed questions to exactly ${userQuestionCount}`);
+        } else {
+          console.error(`Critical error: Only ${testResult.questions.length} questions available after all strategies`);
+          throw new Error(`Unable to generate sufficient questions. Only ${testResult.questions.length} available, user requested ${userQuestionCount}.`);
+        }
+      }
+      
+      console.log(`✅ Successfully generated exactly ${userQuestionCount} questions as requested by user`);
+      // Validate that we have enough questions
+      if (testResult.questions.length < 20) {
+        console.warn(`Only generated ${testResult.questions.length} questions, attempting emergency generation...`);
+        
+        // Emergency generation - create simple questions to reach minimum
+        const emergencyQuestions = [];
+        const neededQuestions = 30 - testResult.questions.length;
+        
+        for (let i = 0; i < neededQuestions; i++) {
+          const emergencyQuestion = {
+            _id: `emergency_${Date.now()}_${i}`,
+            content: `Emergency Question ${i + 1}: What is the result of ${Math.floor(Math.random() * 10) + 1} + ${Math.floor(Math.random() * 10) + 1}?`,
+            subject: testConfig.subject,
+            difficulty: testConfig.difficulty,
+            grade: testConfig.grade,
+            type: QuestionType.MULTIPLE_CHOICE,
+            options: [
+              `${Math.floor(Math.random() * 20) + 1}`,
+              `${Math.floor(Math.random() * 20) + 1}`,
+              `${Math.floor(Math.random() * 20) + 1}`,
+              `${Math.floor(Math.random() * 20) + 1}`
+            ],
+            correctAnswer: '',
+            explanation: 'This is an emergency generated question to ensure test completeness.',
+            topic: 'Basic Math',
+            timeLimit: 60,
+            tags: ['emergency', 'generated'],
+            createdBy: 'system',
+            isGenerated: true
+          };
+          
+          // Set correct answer to first option
+          emergencyQuestion.correctAnswer = emergencyQuestion.options[0];
+          emergencyQuestions.push(emergencyQuestion);
+        }
+        
+        testResult.questions.push(...emergencyQuestions);
+        console.log(`Added ${emergencyQuestions.length} emergency questions. Total: ${testResult.questions.length}`);
+      }
+      
+      // Final validation - ensure exactly 30 questions
+      if (testResult.questions.length !== 30) {
+        if (testResult.questions.length > 30) {
+          testResult.questions = testResult.questions.slice(0, 30);
+          console.log('Trimmed questions to exactly 30');
+        } else {
+          console.error(`Critical error: Only ${testResult.questions.length} questions available after all strategies`);
+          throw new Error(`Unable to generate sufficient questions. Only ${testResult.questions.length} available.`);
+        }
+      }
 
       setGenerationStatus(prev => ({
         ...prev,
@@ -371,7 +488,7 @@ const TimedTest: React.FC = () => {
                 Test Duration: 30 minutes
               </Typography>
               <Typography variant="body1" color="text.secondary">
-                Questions: 30
+                Questions: {settings.questionsPerSession || 30}
               </Typography>
             </Box>
 

@@ -66,9 +66,14 @@ export const optionalAuth = async (req: AuthRequest, res: Response, next: NextFu
 };
 
 export const generateToken = (userId: string): string => {
+  const secret = process.env.JWT_SECRET;
+  if (!secret) {
+    throw new Error('JWT_SECRET is not defined');
+  }
+  
   return jwt.sign(
     { userId },
-    process.env.JWT_SECRET!,
-    { expiresIn: process.env.JWT_EXPIRES_IN || '7d' }
+    secret,
+    { expiresIn: '7d' }
   );
 };

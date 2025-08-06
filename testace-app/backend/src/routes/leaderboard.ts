@@ -101,7 +101,7 @@ router.get('/daily-challenge', asyncHandler(async (req: AuthRequest, res) => {
 
   const leaderboard = sessions.map((session, index) => ({
     rank: index + 1,
-    userId: session.userId._id,
+    userId: (session.userId as any)._id,
     username: (session.userId as any).username,
     displayName: `${(session.userId as any).profile.firstName} ${(session.userId as any).profile.lastName}`,
     avatar: (session.userId as any).profile.avatar,
@@ -266,7 +266,7 @@ router.get('/history/:userId?', asyncHandler(async (req: AuthRequest, res) => {
     const accuracy = totalQuestions > 0 ? (totalCorrect / totalQuestions) * 100 : 0;
     
     return {
-      date: session.createdAt.toISOString().split('T')[0],
+      date: (session as any).createdAt.toISOString().split('T')[0],
       accuracy: Math.round(accuracy * 100) / 100,
       totalQuestions,
       score: session.score,

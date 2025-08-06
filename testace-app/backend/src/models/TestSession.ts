@@ -9,7 +9,7 @@ interface TestSessionDocument extends Omit<ITestSession, '_id'>, Document {
 
 const userAnswerSchema = new Schema<UserAnswer>({
   questionId: {
-    type: Schema.Types.ObjectId,
+    type: Schema.Types.ObjectId as any,
     ref: 'Question',
     required: true
   },
@@ -33,7 +33,7 @@ const userAnswerSchema = new Schema<UserAnswer>({
 
 const testSessionSchema = new Schema<TestSessionDocument>({
   userId: {
-    type: Schema.Types.ObjectId,
+    type: Schema.Types.ObjectId as any,
     ref: 'User',
     required: true
   },
@@ -101,8 +101,8 @@ testSessionSchema.methods.getAverageTime = function(): number {
 
 // Pre-save middleware to calculate score
 testSessionSchema.pre('save', function(next) {
-  if (this.completed && this.answers.length > 0) {
-    this.score = this.calculateScore();
+  if ((this as any).completed && (this as any).answers.length > 0) {
+    (this as any).score = (this as any).calculateScore();
   }
   next();
 });
