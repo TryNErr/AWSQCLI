@@ -31,7 +31,7 @@ import {
   ExitToApp,
   Timer
 } from '@mui/icons-material';
-import { Question as QuestionType, DifficultyLevel } from '../../types';
+import { Question as QuestionType, DifficultyLevel, QuestionType as QType } from '../../types';
 import { markQuestionAnswered, getAnsweredQuestionIds } from '../../services/userProgressService';
 import { recordQuestionAttempt } from '../../services/questionHistoryService';
 import { getQuestionsForPractice } from '../../utils/enhancedQuestionMaintenance';
@@ -56,6 +56,16 @@ interface PracticeSessionState {
 const PracticeSession: React.FC = () => {
   const [searchParams] = useSearchParams();
   const navigate = useNavigate();
+  
+  // Helper function to convert difficulty string to enum
+  const getDifficultyLevel = (difficulty: string): DifficultyLevel => {
+    switch (difficulty) {
+      case 'easy': return DifficultyLevel.EASY;
+      case 'medium': return DifficultyLevel.MEDIUM;
+      case 'hard': return DifficultyLevel.HARD;
+      default: return DifficultyLevel.MEDIUM;
+    }
+  };
   
   // Get session parameters
   const grade = searchParams.get('grade') || '3';
@@ -118,15 +128,6 @@ const PracticeSession: React.FC = () => {
       };
     }
   }, [sessionState.isSubmitted, sessionState.isPaused, sessionState.autoAdvanceTimer]);
-
-  const getDifficultyLevel = (difficulty: string): DifficultyLevel => {
-    switch (difficulty) {
-      case 'easy': return DifficultyLevel.EASY;
-      case 'medium': return DifficultyLevel.MEDIUM;
-      case 'hard': return DifficultyLevel.HARD;
-      default: return DifficultyLevel.MEDIUM;
-    }
-  };
 
   const initializeSession = async () => {
     setLoading(true);
@@ -243,7 +244,7 @@ const PracticeSession: React.FC = () => {
     );
   };
 
-  const advanceToNextQuestion = useCallback(() => {
+  const advanceToNextQuestion = useCallback(async () => {
     if (timerInterval) {
       clearInterval(timerInterval);
       setTimerInterval(null);
@@ -252,16 +253,17 @@ const PracticeSession: React.FC = () => {
     setSessionState(prev => {
       const nextIndex = prev.currentQuestionIndex + 1;
       
+      // Check if we need to generate more questions (when we have less than 3 remaining)
+      const remainingQuestions = prev.questions.length - nextIndex;
+      
+      if (remainingQuestions <= 3) {
+        // Generate more questions in the background
+        generateMoreQuestions();
+      }
+      
       if (nextIndex >= prev.questions.length) {
-        // Session complete
-        navigate('/practice/session-complete', {
-          state: {
-            stats: prev.sessionStats,
-            grade,
-            difficulty,
-            subject
-          }
-        });
+        // If we somehow run out of questions, generate emergency questions
+        generateEmergencyQuestions();
         return prev;
       }
       
@@ -277,6 +279,82 @@ const PracticeSession: React.FC = () => {
       };
     });
   }, [timerInterval, navigate, grade, difficulty, subject]);
+
+  // Function to generate more questions when running low
+  const generateMoreQuestions = async () => {
+    try {
+      console.log('Generating more questions for continuous practice...');
+      
+      const { maintainQuestionPool } = await import('../../utils/enhancedQuestionMaintenance');
+      
+      const difficultyLevel = getDifficultyLevel(difficulty);
+      
+      const questionPool = await maintainQuestionPool({
+        grade: grade,
+        difficulty: difficultyLevel,
+        subject: subject || undefined,
+        minQuestionsRequired: 10,
+        maxQuestionsToGenerate: 15
+      });
+      
+      const newQuestions = [...questionPool.available, ...questionPool.generated];
+      
+      if (newQuestions.length > 0) {
+        setSessionState(prev => ({
+          ...prev,
+          questions: [...prev.questions, ...newQuestions]
+        }));
+        console.log(`Added ${newQuestions.length} new questions to practice session`);
+      }
+    } catch (error) {
+      console.error('Error generating more questions:', error);
+      generateEmergencyQuestions();
+    }
+  };
+
+  // Function to generate emergency questions if all else fails
+  const generateEmergencyQuestions = () => {
+    const emergencyQuestions: Question[] = [];
+    
+    for (let i = 0; i < 5; i++) {
+      const num1 = Math.floor(Math.random() * 20) + 1;
+      const num2 = Math.floor(Math.random() * 20) + 1;
+      const correctAnswer = num1 + num2;
+      
+      const wrongAnswers = [
+        correctAnswer + Math.floor(Math.random() * 10) + 1,
+        correctAnswer - Math.floor(Math.random() * 10) - 1,
+        correctAnswer + Math.floor(Math.random() * 15) + 5
+      ];
+      
+      const allOptions = [correctAnswer, ...wrongAnswers];
+      const shuffledOptions = allOptions.sort(() => Math.random() - 0.5);
+      
+      emergencyQuestions.push({
+        _id: `emergency_${Date.now()}_${i}`,
+        content: `What is ${num1} + ${num2}?`,
+        subject: subject || 'Math',
+        difficulty: getDifficultyLevel(difficulty),
+        grade: grade,
+        type: QType.MULTIPLE_CHOICE,
+        options: shuffledOptions.map(String),
+        correctAnswer: correctAnswer.toString(),
+        explanation: `${num1} + ${num2} = ${correctAnswer}`,
+        topic: 'Emergency Math',
+        timeLimit: 60,
+        tags: ['emergency', 'generated'],
+        createdBy: 'system',
+        isGenerated: true
+      });
+    }
+    
+    setSessionState(prev => ({
+      ...prev,
+      questions: [...prev.questions, ...emergencyQuestions]
+    }));
+    
+    console.log('Added 5 emergency questions to continue practice');
+  };
 
   const togglePause = () => {
     setSessionState(prev => ({
@@ -517,16 +595,35 @@ const PracticeSession: React.FC = () => {
               )}
 
               {/* Manual Next Button */}
-              <Button
-                variant="outlined"
-                color="primary"
-                onClick={advanceToNextQuestion}
-                sx={{ mt: 3 }}
-                fullWidth
-                startIcon={<SkipNext />}
-              >
-                Next Question
-              </Button>
+              <Stack direction="row" spacing={2} sx={{ mt: 3 }}>
+                <Button
+                  variant="outlined"
+                  color="primary"
+                  onClick={advanceToNextQuestion}
+                  fullWidth
+                  startIcon={<SkipNext />}
+                >
+                  Next Question
+                </Button>
+                <Button
+                  variant="contained"
+                  color="secondary"
+                  onClick={() => {
+                    navigate('/practice/session-complete', {
+                      state: {
+                        stats: sessionState.sessionStats,
+                        grade,
+                        difficulty,
+                        subject
+                      }
+                    });
+                  }}
+                  fullWidth
+                  startIcon={<ExitToApp />}
+                >
+                  Complete Session
+                </Button>
+              </Stack>
             </Box>
           )}
         </Paper>

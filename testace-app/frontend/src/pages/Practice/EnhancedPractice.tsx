@@ -46,6 +46,7 @@ const EnhancedPractice: React.FC = () => {
   const [availableSubjects] = useState<string[]>([
     'Math',
     'English', 
+    'Reading',
     'Thinking Skills',
     'Mathematical Reasoning'
   ]);
@@ -88,15 +89,18 @@ const EnhancedPractice: React.FC = () => {
         grade: selectedGrade,
         difficulty: difficultyLevel,
         subject: selectedSubject || undefined,
-        minQuestionsRequired: 20,
-        maxQuestionsToGenerate: 30
+        minQuestionsRequired: 30,  // Increased from 20
+        maxQuestionsToGenerate: 50  // Increased from 30
       });
       
       console.log(`Question pool maintained:`, {
         available: questionPool.available.length,
         generated: questionPool.generated.length,
         total: questionPool.total,
-        needsGeneration: questionPool.needsGeneration
+        needsGeneration: questionPool.needsGeneration,
+        subject: selectedSubject,
+        grade: selectedGrade,
+        difficulty: selectedDifficulty
       });
       
       // Combine all available questions
@@ -104,7 +108,7 @@ const EnhancedPractice: React.FC = () => {
       
       // Shuffle and limit to display count
       const shuffledQuestions = shuffleArray(allQuestions);
-      setQuestions(shuffledQuestions.slice(0, 12)); // Show 12 questions in grid
+      setQuestions(shuffledQuestions.slice(0, 20)); // Increased from 12 to 20
       
     } catch (error) {
       console.error('Error loading questions:', error);
