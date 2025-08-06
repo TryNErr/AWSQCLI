@@ -48,26 +48,61 @@ const EnhancedQuestion: React.FC = () => {
 
   const loadQuestion = (questionId: string) => {
     setLoading(true);
-    // Find question in both standard and generated questions
-    const allQuestions = [...questionData, ...getGeneratedQuestions()];
-    const foundQuestion = allQuestions.find(q => q._id === questionId);
-    setQuestion(foundQuestion || null);
     
-    // Reset question state
-    setSelectedAnswer('');
-    setIsSubmitted(false);
-    setIsCorrect(false);
-    setShowExplanation(false);
-    setLoadingNextQuestion(false);
-    setAutoAdvanceTimer(0);
-    setIsPaused(false);
-    
-    if (timerInterval) {
-      clearInterval(timerInterval);
-      setTimerInterval(null);
+    try {
+      // Find question in both standard and generated questions
+      const allQuestions = [...questionData, ...getGeneratedQuestions()];
+      let foundQuestion = allQuestions.find(q => q._id === questionId);
+      
+      // If question not found, try to generate a new one with context
+      if (!foundQuestion && (contextGrade || contextDifficulty || contextSubject)) {
+        console.log(`Question ${questionId} not found, generating new question with context`);
+        
+        try {
+          const grade = contextGrade || getUserGrade().toString();
+          const difficulty = contextDifficulty as DifficultyLevel || DifficultyLevel.MEDIUM;
+          const subject = contextSubject || undefined;
+          
+          foundQuestion = generateEnhancedQuestion(grade, subject, difficulty);
+          
+          if (foundQuestion) {
+            // Update the question ID to match the requested one for consistency
+            foundQuestion._id = questionId;
+            
+            // Save the generated question for future use
+            const currentGenerated = getGeneratedQuestions();
+            const updatedGenerated = [...currentGenerated, foundQuestion];
+            saveGeneratedQuestions(updatedGenerated);
+            
+            console.log(`Generated new question for ID ${questionId}`);
+          }
+        } catch (error) {
+          console.error('Error generating fallback question:', error);
+        }
+      }
+      
+      setQuestion(foundQuestion || null);
+      
+      // Reset question state
+      setSelectedAnswer('');
+      setIsSubmitted(false);
+      setIsCorrect(false);
+      setShowExplanation(false);
+      setLoadingNextQuestion(false);
+      setAutoAdvanceTimer(0);
+      setIsPaused(false);
+      
+      if (timerInterval) {
+        clearInterval(timerInterval);
+        setTimerInterval(null);
+      }
+      
+    } catch (error) {
+      console.error('Error loading question:', error);
+      setQuestion(null);
+    } finally {
+      setLoading(false);
     }
-    
-    setLoading(false);
   };
 
   useEffect(() => {

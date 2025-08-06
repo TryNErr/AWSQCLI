@@ -4,7 +4,7 @@ import { generateEnhancedEnglishQuestion } from './enhancedEnglishQuestionGenera
 import { generateEnhancedThinkingSkillsQuestions } from './enhancedThinkingSkillsGenerator';
 import { generateEnhancedMathematicalReasoningQuestions } from './enhancedMathematicalReasoningGenerator';
 import { generateEnhancedNumeracyQuestions } from './enhancedNumeracyGenerator';
-import { generateEnhancedReadingQuestions } from './enhancedReadingGenerator';
+import { EnhancedReadingGenerator } from './enhancedReadingGenerator';
 import { generateEnhancedLanguageQuestions } from './enhancedLanguageGenerator';
 import { NALAPStyleQuestionGenerator } from './australianCurriculumEnhancer';
 import { AustralianMathCurriculumGenerator } from './australianMathCurriculumEnhancer';
@@ -362,7 +362,7 @@ export class EnhancedQuestionGenerator {
         case 'reading comprehension':
         case 'comprehension':
           // Use enhanced reading generator for comprehension questions
-          const readingQuestions = generateEnhancedReadingQuestions(grade, calibratedDifficulty, 1);
+          const readingQuestions = EnhancedReadingGenerator.generateReadingQuestions(grade, calibratedDifficulty, 1);
           question = readingQuestions[0];
           break;
           
@@ -371,7 +371,7 @@ export class EnhancedQuestionGenerator {
             question = NALAPStyleQuestionGenerator.generateLiteracyQuestion(grade, calibratedDifficulty);
           } else {
             // Use reading generator for literacy
-            const literacyQuestions = generateEnhancedReadingQuestions(grade, calibratedDifficulty, 1);
+            const literacyQuestions = EnhancedReadingGenerator.generateReadingQuestions(grade, calibratedDifficulty, 1);
             question = literacyQuestions[0];
           }
           break;

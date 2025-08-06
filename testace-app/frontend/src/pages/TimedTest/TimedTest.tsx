@@ -68,7 +68,7 @@ const TimedTest: React.FC = () => {
   const { settings } = useSettings();
 
   // Available subjects
-  const subjects = ['Math', 'English', 'Thinking Skills', 'Mathematical Reasoning'];
+  const subjects = ['Math', 'English', 'Reading', 'Thinking Skills', 'Mathematical Reasoning'];
   
   // Available grades (1-12)
   const grades = Array.from({ length: 12 }, (_, i) => (i + 1).toString());

@@ -283,23 +283,45 @@ export class EnhancedQuestionMaintenance {
       const allAvailable = [...pool.available, ...pool.generated];
       
       if (allAvailable.length === 0) {
-        // Last resort: try to generate questions directly
+        // Last resort: try to generate questions directly for the specific subject
         console.warn(`No questions in pool, attempting direct generation for ${subject || 'any subject'}`);
         
         const directGenerated: Question[] = [];
-        const subjects = subject ? [subject] : ['Math', 'English', 'Thinking Skills'];
         
-        for (const subj of subjects) {
+        if (subject) {
+          // Generate questions only for the requested subject
           try {
-            const questionsNeeded = Math.ceil(count / subjects.length);
-            for (let i = 0; i < questionsNeeded && directGenerated.length < count; i++) {
-              const question = generateEnhancedQuestion(grade, subj, difficulty);
+            for (let i = 0; i < count; i++) {
+              const question = generateEnhancedQuestion(grade, subject, difficulty);
               if (question) {
-                directGenerated.push(question);
+                // Ensure the generated question actually matches the requested subject
+                if (question.subject.toLowerCase() === subject.toLowerCase() || 
+                    (subject.toLowerCase() === 'reading' && question.subject.toLowerCase().includes('reading')) ||
+                    (subject.toLowerCase() === 'english' && (question.subject.toLowerCase().includes('english') || question.subject.toLowerCase().includes('language'))) ||
+                    (subject.toLowerCase() === 'thinking skills' && question.subject.toLowerCase().includes('thinking'))) {
+                  directGenerated.push(question);
+                }
               }
             }
           } catch (error) {
-            console.warn(`Failed to generate questions for ${subj}:`, error);
+            console.warn(`Failed to generate questions for ${subject}:`, error);
+          }
+        } else {
+          // Only if no specific subject is requested, use multiple subjects
+          const subjects = ['Math', 'English', 'Reading', 'Thinking Skills'];
+          
+          for (const subj of subjects) {
+            try {
+              const questionsNeeded = Math.ceil(count / subjects.length);
+              for (let i = 0; i < questionsNeeded && directGenerated.length < count; i++) {
+                const question = generateEnhancedQuestion(grade, subj, difficulty);
+                if (question) {
+                  directGenerated.push(question);
+                }
+              }
+            } catch (error) {
+              console.warn(`Failed to generate questions for ${subj}:`, error);
+            }
           }
         }
         
@@ -310,11 +332,33 @@ export class EnhancedQuestionMaintenance {
         return directGenerated.slice(0, count);
       }
       
+      // Filter questions by subject if specified
+      let filteredQuestions = allAvailable;
+      if (subject) {
+        filteredQuestions = allAvailable.filter(q => {
+          const questionSubject = q.subject.toLowerCase();
+          const requestedSubject = subject.toLowerCase();
+          
+          // Exact match
+          if (questionSubject === requestedSubject) return true;
+          
+          // Handle subject variations
+          if (requestedSubject === 'reading' && (questionSubject.includes('reading') || questionSubject === 'comprehension')) return true;
+          if (requestedSubject === 'english' && (questionSubject.includes('english') || questionSubject.includes('language'))) return true;
+          if (requestedSubject === 'thinking skills' && questionSubject.includes('thinking')) return true;
+          if (requestedSubject === 'math' && (questionSubject.includes('math') || questionSubject === 'numeracy')) return true;
+          
+          return false;
+        });
+        
+        console.log(`Filtered ${filteredQuestions.length} questions from ${allAvailable.length} for subject: ${subject}`);
+      }
+      
       // Shuffle and return requested count
-      const shuffled = this.shuffleArray(allAvailable);
+      const shuffled = this.shuffleArray(filteredQuestions);
       const selected = shuffled.slice(0, Math.min(count, shuffled.length));
       
-      console.log(`Selected ${selected.length} questions for practice from pool of ${allAvailable.length}`);
+      console.log(`Selected ${selected.length} questions for practice from pool of ${filteredQuestions.length}`);
       
       return selected;
       
