@@ -1,34 +1,43 @@
 version: 1
-frontend:
-  phases:
-    preBuild:
-      commands:
-        - cd testace-app/frontend
-        - echo "=== Installing Yarn for better dependency resolution ==="
-        - npm install -g yarn
-        - echo "=== Cleaning up npm artifacts ==="
-        - rm -rf node_modules package-lock.json yarn.lock
-        - echo "=== Installing dependencies with Yarn ==="
-        - yarn install --ignore-engines --network-timeout 300000
-        - echo "=== Dependencies installed successfully with Yarn ==="
-    build:
-      commands:
-        - echo "=== Building with Yarn ==="
-        - yarn build
-        - echo "=== Build completed successfully ==="
-  artifacts:
-    baseDirectory: testace-app/frontend/build
-    files:
-      - '**/*'
-  cache:
-    paths:
-      - testace-app/frontend/node_modules/**/*
-  customHeaders:
-    - pattern: '**/*'
-      headers:
-        - key: 'X-Frame-Options'
-          value: 'DENY'
-        - key: 'X-XSS-Protection'
-          value: '1; mode=block'
-        - key: 'X-Content-Type-Options'
-          value: 'nosniff'
+applications:
+  - appRoot: testace-app
+    frontend:
+      phases:
+        preBuild:
+          commands:
+            - echo "Installing dependencies and setting up DynamoDB..."
+            - cd testace-app/frontend && npm ci
+            - cd ../
+            - echo "Setting up DynamoDB tables..."
+            - node setup-dynamodb-persistence.js
+        build:
+          commands:
+            - echo "Building React application..."
+            - cd testace-app/frontend && npm run build
+        postBuild:
+          commands:
+            - echo "Build completed successfully"
+            - echo "DynamoDB persistence enabled"
+      artifacts:
+        baseDirectory: testace-app/frontend/build
+        files:
+          - '**/*'
+      cache:
+        paths:
+          - testace-app/frontend/node_modules/**/*
+    backend:
+      phases:
+        preBuild:
+          commands:
+            - echo "Installing backend dependencies..."
+            - cd testace-app/backend && npm ci
+        build:
+          commands:
+            - echo "Backend build completed"
+      artifacts:
+        baseDirectory: testace-app/backend
+        files:
+          - '**/*'
+      cache:
+        paths:
+          - testace-app/backend/node_modules/**/*
