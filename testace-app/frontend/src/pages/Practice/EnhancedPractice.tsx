@@ -58,6 +58,7 @@ const EnhancedPractice: React.FC = () => {
     if (selectedGrade && selectedDifficulty) {
       loadQuestionsWithBulletproofFiltering();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedSubject, selectedGrade, selectedDifficulty]);
 
   const loadQuestionsWithBulletproofFiltering = async () => {
@@ -95,97 +96,6 @@ const EnhancedPractice: React.FC = () => {
       setQuestionPool(null);
     } finally {
       setLoading(false);
-    }
-  };
-
-  const getDifficultyLevel = (difficulty: string): DifficultyLevel => {
-    switch (difficulty) {
-      case 'easy': return DifficultyLevel.EASY;
-      case 'medium': return DifficultyLevel.MEDIUM;
-      case 'hard': return DifficultyLevel.HARD;
-      default: return DifficultyLevel.MEDIUM;
-    }
-  };
-
-  const handleSubjectChange = (event: SelectChangeEvent) => {
-    setSelectedSubject(event.target.value);
-  };
-
-  const handleGradeChange = (event: SelectChangeEvent) => {
-    setSelectedGrade(event.target.value);
-  };
-
-  const handleDifficultyChange = (event: SelectChangeEvent) => {
-    setSelectedDifficulty(event.target.value);
-  };
-
-  const startPracticeSession = () => {
-    if (!selectedGrade || !selectedDifficulty) {
-      return;
-    }
-    
-    // Navigate to practice session with parameters
-    const params = new URLSearchParams({
-      grade: selectedGrade,
-      difficulty: selectedDifficulty,
-      ...(selectedSubject && { subject: selectedSubject })
-    });
-    
-    navigate(`/practice/session?${params.toString()}`);
-  };
-
-  const startSingleQuestion = (questionId: string) => {
-    navigate(`/practice/question/${questionId}`);
-  };
-
-  const isReadyToStart = selectedGrade && selectedDifficulty;
-
-  return (
-    <Container maxWidth="lg">
-      <Box sx={{ mt: 4, mb: 4 }}>
-        <Typography variant="h4" component="h1" gutterBottom>
-          Enhanced Practice Mode
-        </Typography>
-        
-        <Typography variant="body1" color="text.secondary" sx={{ mb: 4 }}>
-          Select your grade and difficulty level to get challenging, curriculum-aligned questions.
-          <strong> Filters are guaranteed to be maintained - no irrelevant questions!</strong>
-        </Typography>
-
-        {/* Selection Controls */}
-        <Box sx={{ mb: 4, display: 'flex', gap: 2, flexWrap: 'wrap', alignItems: 'center' }}>
-          <FormControl sx={{ minWidth: 150 }} required>
-            <InputLabel>Grade *</InputLabel>
-            <Select
-              value={selectedGrade}
-              label="Grade *"
-              onChange={handleGradeChange}
-            >
-              {availableGrades.map(grade => (
-                <MenuItem key={grade} value={grade}>Grade {grade}</MenuItem>
-              ))}
-            </Select>
-          </FormControl>
-        subject: selectedSubject,
-        grade: selectedGrade,
-        difficulty: selectedDifficulty
-      });
-      
-      // Combine all available questions
-      const allQuestions = [...questionPool.available, ...questionPool.generated];
-      
-      // Shuffle and limit to display count
-      const shuffledQuestions = shuffleArray(allQuestions);
-      setQuestions(shuffledQuestions.slice(0, 20)); // Increased from 12 to 20
-      
-    } catch (error) {
-      console.error('Error loading questions:', error);
-      
-      // Show error alert
-      setQuestions([]);
-    } finally {
-      setLoading(false);
-      setGeneratingQuestions(false);
     }
   };
 
@@ -249,7 +159,7 @@ const EnhancedPractice: React.FC = () => {
         
         <Typography variant="body1" color="text.secondary" sx={{ mb: 4 }}>
           Select your grade and difficulty level to get challenging, curriculum-aligned questions.
-          Questions will auto-advance after 5 seconds once answered.
+          <strong> Filters are guaranteed to be maintained - no irrelevant questions!</strong>
         </Typography>
 
         {/* Selection Controls */}
