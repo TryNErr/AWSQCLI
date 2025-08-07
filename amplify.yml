@@ -3,11 +3,13 @@ frontend:
   phases:
     preBuild:
       commands:
-        - echo "Installing dependencies and setting up DynamoDB..."
+        - echo "Installing dependencies..."
         - cd testace-app/frontend && npm ci
         - cd ../../
+        - echo "Installing AWS SDK for DynamoDB setup..."
+        - npm install aws-sdk
         - echo "Setting up DynamoDB tables..."
-        - node setup-dynamodb-persistence.js
+        - node setup-dynamodb-persistence.js || echo "DynamoDB setup skipped"
     build:
       commands:
         - echo "Building React application..."
@@ -23,3 +25,4 @@ frontend:
   cache:
     paths:
       - testace-app/frontend/node_modules/**/*
+      - node_modules/**/*
