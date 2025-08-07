@@ -244,7 +244,7 @@ const TimedTest: React.FC = () => {
         subject: testConfig.subject,
         grade: testConfig.grade,
         difficulty: testConfig.difficulty,
-        testStatistics: getTestStatistics(questions)
+        correctAnswers: correctCount
       }
     });
   };
