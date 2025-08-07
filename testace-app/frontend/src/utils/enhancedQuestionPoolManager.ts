@@ -1,6 +1,7 @@
 import { Question, DifficultyLevel, QuestionType } from '../types';
 import { generateEnhancedQuestion } from './enhancedQuestionSystem';
 import { generateEnhancedMathematicalReasoningQuestions } from './enhancedMathematicalReasoningGenerator';
+import { generateRobustThinkingSkillsQuestions } from './robustThinkingSkillsGenerator';
 import { validateAnswer } from './enhancedAnswerValidation';
 import { questionData } from '../pages/Practice/questionData';
 import { getGeneratedQuestions, saveGeneratedQuestions } from '../services/generatedQuestionsService';
@@ -229,12 +230,18 @@ export class EnhancedQuestionPoolManager {
       try {
         let question: Question;
         
-        // Handle different subjects
+        // Handle different subjects with specialized generators
         if (subject.toLowerCase().includes('mathematical reasoning') || 
             subject.toLowerCase().includes('math reasoning') ||
             subject.toLowerCase() === 'reasoning') {
           const mathReasoningQuestions = generateEnhancedMathematicalReasoningQuestions(grade, difficulty, 1);
           question = mathReasoningQuestions[0];
+        } else if (subject.toLowerCase().includes('thinking skills') ||
+                   subject.toLowerCase().includes('thinking') ||
+                   subject.toLowerCase() === 'critical thinking') {
+          // Use robust thinking skills generator for guaranteed generation
+          const thinkingSkillsQuestions = generateRobustThinkingSkillsQuestions(grade, difficulty, 1);
+          question = thinkingSkillsQuestions[0];
         } else {
           question = generateEnhancedQuestion(grade, subject, difficulty);
         }
@@ -314,7 +321,15 @@ export class EnhancedQuestionPoolManager {
       try {
         // Cycle through subjects for variety
         const currentSubject = subjects[i % subjects.length];
-        const question = generateEnhancedQuestion(grade, currentSubject, difficulty);
+        let question: Question;
+        
+        // Use specialized generators for better reliability
+        if (currentSubject === 'Thinking Skills') {
+          const thinkingSkillsQuestions = generateRobustThinkingSkillsQuestions(grade, difficulty, 1);
+          question = thinkingSkillsQuestions[0];
+        } else {
+          question = generateEnhancedQuestion(grade, currentSubject, difficulty);
+        }
         
         if (question) {
           (question as any).isGenerated = true;
@@ -348,7 +363,36 @@ export class EnhancedQuestionPoolManager {
       const questionNumber = i + 1;
       let question: Question;
       
-      if (subject.toLowerCase().includes('math')) {
+      if (subject.toLowerCase().includes('thinking') || subject.toLowerCase().includes('critical')) {
+        // Generate thinking skills questions using the robust generator
+        try {
+          const robustQuestions = generateRobustThinkingSkillsQuestions(grade, difficulty, 1);
+          question = robustQuestions[0];
+          
+          // Update the ID to indicate it's from basic emergency generation
+          question._id = `emergency_thinking_${Date.now()}_${i}`;
+        } catch (error) {
+          console.warn('Robust thinking skills generator failed in emergency, using fallback');
+          // Fallback to a simple thinking skills question
+          question = {
+            _id: `emergency_thinking_fallback_${Date.now()}_${i}`,
+            content: `Thinking Skills Question ${questionNumber}: Which pattern comes next in this sequence: A, B, A, B, ?`,
+            subject: subject,
+            difficulty: difficulty,
+            grade: grade,
+            type: QuestionType.MULTIPLE_CHOICE,
+            options: ['A', 'B', 'C', 'D'],
+            correctAnswer: 'A',
+            explanation: 'The pattern alternates between A and B, so A comes next.',
+            topic: 'Pattern Recognition',
+            timeLimit: 60,
+            tags: ['emergency', 'basic', 'generated', 'thinking-skills'],
+            createdBy: 'emergency-system',
+            createdAt: new Date(),
+            updatedAt: new Date()
+          } as Question;
+        }
+      } else if (subject.toLowerCase().includes('math')) {
         // Generate math questions with appropriate difficulty
         let num1, num2, operation, correctAnswer;
         

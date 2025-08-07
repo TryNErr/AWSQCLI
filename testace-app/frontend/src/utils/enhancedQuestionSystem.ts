@@ -2,6 +2,7 @@ import { Question, DifficultyLevel, QuestionType } from '../types';
 import { generateEnhancedMathQuestionV2 } from './enhancedMathQuestionGeneratorV2';
 import { generateEnhancedEnglishQuestion } from './enhancedEnglishQuestionGenerator';
 import { generateEnhancedThinkingSkillsQuestions } from './enhancedThinkingSkillsGenerator';
+import { generateRobustThinkingSkillsQuestions } from './robustThinkingSkillsGenerator';
 import { generateEnhancedMathematicalReasoningQuestions } from './enhancedMathematicalReasoningGenerator';
 import { generateEnhancedNumeracyQuestions } from './enhancedNumeracyGenerator';
 import { EnhancedReadingGenerator } from './enhancedReadingGenerator';
@@ -390,9 +391,23 @@ export class EnhancedQuestionGenerator {
         case 'thinking skills':
         case 'critical thinking':
         case 'logic':
-          // Use the enhanced thinking skills generator
-          const thinkingSkillsQuestions = generateEnhancedThinkingSkillsQuestions(grade, calibratedDifficulty, 1);
-          question = thinkingSkillsQuestions[0];
+          // Use the robust thinking skills generator that guarantees question generation
+          try {
+            const thinkingSkillsQuestions = generateRobustThinkingSkillsQuestions(grade, calibratedDifficulty, 1);
+            question = thinkingSkillsQuestions[0];
+            
+            // Safety check - ensure we got a valid question
+            if (!question) {
+              console.warn('Robust thinking skills generator returned null/undefined. Using fallback.');
+              const fallbackQuestions = generateEnhancedThinkingSkillsQuestions(grade, calibratedDifficulty, 1);
+              question = fallbackQuestions[0];
+            }
+          } catch (error) {
+            console.error('Error generating thinking skills question:', error);
+            // Fallback to original generator
+            const fallbackQuestions = generateEnhancedThinkingSkillsQuestions(grade, calibratedDifficulty, 1);
+            question = fallbackQuestions[0];
+          }
           break;
           
         case 'mathematical reasoning':
