@@ -12,10 +12,10 @@ node setup-dynamodb-persistence.js
 ```
 
 ### 2. Configure Amplify Environment Variables
-In your Amplify console, add these environment variables:
-- `AWS_ACCESS_KEY_ID`: Your AWS access key
-- `AWS_SECRET_ACCESS_KEY`: Your AWS secret key  
-- `AWS_REGION`: us-east-1 (or your preferred region)
+In your Amplify console, add these environment variables (NO AWS_ prefix):
+- `TESTACE_ACCESS_KEY_ID`: Your AWS access key
+- `TESTACE_SECRET_ACCESS_KEY`: Your AWS secret key  
+- `TESTACE_AWS_REGION`: us-east-1 (or your preferred region)
 
 ### 3. Deploy
 The `amplify.yml` will automatically:

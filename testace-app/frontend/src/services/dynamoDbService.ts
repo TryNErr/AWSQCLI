@@ -2,11 +2,11 @@ import AWS from 'aws-sdk';
 import { Question, DifficultyLevel } from '../types';
 import { ReadingPassage } from '../utils/readingPassagesDatabase';
 
-// Configure AWS SDK
+// Configure AWS SDK with non-reserved environment variables
 AWS.config.update({
-  region: process.env.REACT_APP_AWS_REGION || 'us-east-1',
-  accessKeyId: process.env.REACT_APP_AWS_ACCESS_KEY_ID,
-  secretAccessKey: process.env.REACT_APP_AWS_SECRET_ACCESS_KEY
+  region: process.env.REACT_APP_TESTACE_AWS_REGION || 'us-east-1',
+  accessKeyId: process.env.REACT_APP_TESTACE_ACCESS_KEY_ID,
+  secretAccessKey: process.env.REACT_APP_TESTACE_SECRET_ACCESS_KEY
 });
 
 const docClient = new AWS.DynamoDB.DocumentClient();

@@ -4,8 +4,13 @@ const AWS = require('aws-sdk');
 const fs = require('fs');
 const path = require('path');
 
-// Configure AWS
-AWS.config.update({ region: process.env.AWS_REGION || 'us-east-1' });
+// Configure AWS with non-reserved environment variables
+AWS.config.update({ 
+  region: process.env.TESTACE_AWS_REGION || process.env.REACT_APP_TESTACE_AWS_REGION || 'us-east-1',
+  accessKeyId: process.env.TESTACE_ACCESS_KEY_ID || process.env.REACT_APP_TESTACE_ACCESS_KEY_ID,
+  secretAccessKey: process.env.TESTACE_SECRET_ACCESS_KEY || process.env.REACT_APP_TESTACE_SECRET_ACCESS_KEY
+});
+
 const dynamodb = new AWS.DynamoDB();
 const docClient = new AWS.DynamoDB.DocumentClient();
 
