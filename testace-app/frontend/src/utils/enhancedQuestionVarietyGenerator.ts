@@ -254,16 +254,22 @@ export class EnhancedQuestionVarietyGenerator {
       ],
       [DifficultyLevel.HARD]: [
         {
-          question: "Solve the simultaneous equations: 3x + 2y = 16, x - y = 1",
-          options: ["x = 4, y = 2", "x = 6, y = -1", "x = 4, y = 3", "x = 2, y = 5"],
-          answer: "x = 4, y = 3",
-          explanation: "From x - y = 1, x = y + 1. Substitute: 3(y + 1) + 2y = 16, 5y = 13, y = 3, x = 4"
-        },
-        {
           question: "Find the equation of the line perpendicular to y = 2x + 1 passing through (4, 3)",
           options: ["y = -½x + 5", "y = -½x + 1", "y = 2x - 5", "y = -2x + 11"],
           answer: "y = -½x + 5",
           explanation: "Perpendicular gradient = -½. Using point-slope: y - 3 = -½(x - 4), y = -½x + 5"
+        },
+        {
+          question: "Solve: 2x + 5 = 17",
+          options: ["x = 6", "x = 7", "x = 8", "x = 9"],
+          answer: "x = 6",
+          explanation: "2x + 5 = 17, so 2x = 12, therefore x = 6"
+        },
+        {
+          question: "What is 15% of 80?",
+          options: ["10", "12", "15", "20"],
+          answer: "12",
+          explanation: "15% of 80 = 0.15 × 80 = 12"
         }
       ]
     };
