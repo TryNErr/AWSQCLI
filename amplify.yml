@@ -6,38 +6,38 @@ applications:
         preBuild:
           commands:
             - echo "Installing dependencies and setting up DynamoDB..."
-            - cd testace-app/frontend && npm ci
+            - cd frontend && npm ci
             - cd ../
             - echo "Setting up DynamoDB tables..."
-            - node setup-dynamodb-persistence.js
+            - node ../setup-dynamodb-persistence.js
         build:
           commands:
             - echo "Building React application..."
-            - cd testace-app/frontend && npm run build
+            - cd frontend && npm run build
         postBuild:
           commands:
             - echo "Build completed successfully"
             - echo "DynamoDB persistence enabled"
       artifacts:
-        baseDirectory: testace-app/frontend/build
+        baseDirectory: frontend/build
         files:
           - '**/*'
       cache:
         paths:
-          - testace-app/frontend/node_modules/**/*
+          - frontend/node_modules/**/*
     backend:
       phases:
         preBuild:
           commands:
             - echo "Installing backend dependencies..."
-            - cd testace-app/backend && npm ci
+            - cd backend && npm ci
         build:
           commands:
             - echo "Backend build completed"
       artifacts:
-        baseDirectory: testace-app/backend
+        baseDirectory: backend
         files:
           - '**/*'
       cache:
         paths:
-          - testace-app/backend/node_modules/**/*
+          - backend/node_modules/**/*
