@@ -1,8 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import { ThemeProvider } from '@mui/material/styles';
-import CssBaseline from '@mui/material/CssBaseline';
-import theme from './theme';
 import Layout from './components/Layout';
 import PrivateRoute from './components/PrivateRoute';
 import Dashboard from './pages/Dashboard/Dashboard';
@@ -26,18 +23,16 @@ function App() {
   return (
     <AuthProvider>
       <SettingsProvider>
-        <ThemeProvider theme={theme}>
-          <CssBaseline />
-          <Router>
-            <Routes>
-              <Route path="/login" element={<Login />} />
-              <Route path="/register" element={<Register />} />
-              <Route path="/" element={<Navigate to="/dashboard" replace />} />
-              <Route path="/dashboard" element={
-                <PrivateRoute>
-                  <Layout>
-                    <Dashboard />
-                  </Layout>
+        <Router>
+          <Routes>
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
+            <Route path="/" element={<Navigate to="/dashboard" replace />} />
+            <Route path="/dashboard" element={
+              <PrivateRoute>
+                <Layout>
+                  <Dashboard />
+                </Layout>
                 </PrivateRoute>
               } />
               
@@ -129,7 +124,6 @@ function App() {
               } />
             </Routes>
           </Router>
-        </ThemeProvider>
       </SettingsProvider>
     </AuthProvider>
   );

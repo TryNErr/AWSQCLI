@@ -1,7 +1,7 @@
 import { Question, DifficultyLevel, QuestionType } from '../types';
 import { validateAnswer } from './enhancedAnswerValidation';
 import { generateRobustThinkingSkillsQuestions } from './robustThinkingSkillsGenerator';
-import { generateEnhancedMathematicalReasoningQuestions } from './enhancedMathematicalReasoningGenerator';
+import BulletproofMathGenerator from './bulletproofMathGenerator';
 import { generateEnhancedQuestion } from './enhancedQuestionSystem';
 import { questionData } from '../pages/Practice/questionData';
 import { getGeneratedQuestions, saveGeneratedQuestions } from '../services/generatedQuestionsService';
@@ -243,10 +243,18 @@ export class EnhancedTimedTestSystem {
         generatedQuestions.push(...uniqueThinking.slice(0, count));
         
       } else if (this.isMathReasoningSubject(subject)) {
-        console.log('🔢 Using Math Reasoning generator');
-        const mathQuestions = generateEnhancedMathematicalReasoningQuestions(grade, difficulty, count);
-        const uniqueMath = mathQuestions.filter(q => !existingIds.has(q._id));
-        generatedQuestions.push(...uniqueMath.slice(0, count));
+        console.log('🔢 Using Bulletproof Math generator');
+        for (let i = 0; i < count && generatedQuestions.length < count; i++) {
+          try {
+            const mathQuestion = BulletproofMathGenerator.generateQuestion(grade, difficulty);
+            if (mathQuestion && !existingIds.has(mathQuestion._id)) {
+              generatedQuestions.push(mathQuestion);
+              existingIds.add(mathQuestion._id);
+            }
+          } catch (error) {
+            console.warn(`Error generating math question ${i + 1}:`, error);
+          }
+        }
         
       } else if (this.isReadingSubject(subject)) {
         console.log('📖 Using Reading generator');
