@@ -18,14 +18,14 @@ import {
   Alert,
   LinearProgress
 } from '@mui/material';
-import { Add, History, NewReleases, PlayArrow, AutoMode } from '@mui/icons-material';
+import { Add, History, NewReleases, PlayArrow, AutoMode, FilterList, CheckCircle } from '@mui/icons-material';
 import { useNavigate } from 'react-router-dom';
 import { Question, DifficultyLevel } from '../../types';
 import { getUserGrade } from '../../services/userContextService';
-import { maintainQuestionPool, monitorQuestionPool } from '../../utils/enhancedQuestionMaintenance';
+import BulletproofPracticeSystem from '../../utils/bulletproofPracticeSystem';
 import { useAuth } from '../../contexts/AuthContext';
 
-// Enhanced Practice component with strict filtering and auto-generation
+// Enhanced Practice component with bulletproof filtering and deduplication
 const EnhancedPractice: React.FC = () => {
   const [questions, setQuestions] = useState<Question[]>([]);
   const [selectedSubject, setSelectedSubject] = useState('');
@@ -36,13 +36,14 @@ const EnhancedPractice: React.FC = () => {
     // Refresh stats when component loads
     refreshUserStats();
   }, [refreshUserStats]);
+  
   const [selectedGrade, setSelectedGrade] = useState(() => {
     const grade = getUserGrade();
     return typeof grade === 'string' ? grade : String(grade);
   });
   const [selectedDifficulty, setSelectedDifficulty] = useState('');
   const [loading, setLoading] = useState(false);
-  const [generatingQuestions, setGeneratingQuestions] = useState(false);
+  const [questionPool, setQuestionPool] = useState<any>(null);
   const [availableSubjects] = useState<string[]>([
     'Math',
     'English', 
@@ -52,52 +53,119 @@ const EnhancedPractice: React.FC = () => {
   ]);
   const [availableGrades] = useState<string[]>(['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12']);
 
-  // Load questions when filters change
+  // Load questions when filters change - GUARANTEED filtering
   useEffect(() => {
     if (selectedGrade && selectedDifficulty) {
-      loadQuestionsForSelection();
+      loadQuestionsWithBulletproofFiltering();
     }
   }, [selectedSubject, selectedGrade, selectedDifficulty]);
 
-  const loadQuestionsForSelection = async () => {
+  const loadQuestionsWithBulletproofFiltering = async () => {
     if (!selectedGrade || !selectedDifficulty) return;
     
     setLoading(true);
-    setGeneratingQuestions(false);
     
     try {
       // Get difficulty level enum
       const difficultyLevel = getDifficultyLevel(selectedDifficulty);
       
-      console.log(`Loading questions for Grade ${selectedGrade}, ${selectedDifficulty} difficulty${selectedSubject ? `, ${selectedSubject}` : ''}`);
+      console.log(`🎯 Loading with BULLETPROOF filtering: Grade ${selectedGrade}, ${selectedDifficulty}${selectedSubject ? `, ${selectedSubject}` : ''}`);
       
-      // Monitor question pool health first
-      const poolStatus = await monitorQuestionPool({
-        grade: selectedGrade,
-        difficulty: difficultyLevel,
-        subject: selectedSubject || undefined
-      });
-      
-      console.log(`Question pool status:`, poolStatus);
-      
-      if (poolStatus.status === 'low' || poolStatus.status === 'critical') {
-        setGeneratingQuestions(true);
-      }
-      
-      // Use enhanced question maintenance system
-      const questionPool = await maintainQuestionPool({
+      // Use bulletproof practice system - GUARANTEES proper filtering and NO duplicates
+      const pool = await BulletproofPracticeSystem.getPracticeQuestions({
         grade: selectedGrade,
         difficulty: difficultyLevel,
         subject: selectedSubject || undefined,
-        minQuestionsRequired: 30,  // Increased from 20
-        maxQuestionsToGenerate: 50  // Increased from 30
+        count: 20
       });
       
-      console.log(`Question pool maintained:`, {
-        available: questionPool.available.length,
-        generated: questionPool.generated.length,
-        total: questionPool.total,
-        needsGeneration: questionPool.needsGeneration,
+      console.log(`✅ Bulletproof system results:`, {
+        questionsLoaded: pool.questions.length,
+        totalAvailable: pool.totalAvailable,
+        filtersApplied: pool.filtersApplied,
+        duplicatesRemoved: pool.duplicatesRemoved
+      });
+      
+      setQuestions(pool.questions);
+      setQuestionPool(pool);
+      
+    } catch (error) {
+      console.error('Error loading questions:', error);
+      setQuestions([]);
+      setQuestionPool(null);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const getDifficultyLevel = (difficulty: string): DifficultyLevel => {
+    switch (difficulty) {
+      case 'easy': return DifficultyLevel.EASY;
+      case 'medium': return DifficultyLevel.MEDIUM;
+      case 'hard': return DifficultyLevel.HARD;
+      default: return DifficultyLevel.MEDIUM;
+    }
+  };
+
+  const handleSubjectChange = (event: SelectChangeEvent) => {
+    setSelectedSubject(event.target.value);
+  };
+
+  const handleGradeChange = (event: SelectChangeEvent) => {
+    setSelectedGrade(event.target.value);
+  };
+
+  const handleDifficultyChange = (event: SelectChangeEvent) => {
+    setSelectedDifficulty(event.target.value);
+  };
+
+  const startPracticeSession = () => {
+    if (!selectedGrade || !selectedDifficulty) {
+      return;
+    }
+    
+    // Navigate to practice session with parameters
+    const params = new URLSearchParams({
+      grade: selectedGrade,
+      difficulty: selectedDifficulty,
+      ...(selectedSubject && { subject: selectedSubject })
+    });
+    
+    navigate(`/practice/session?${params.toString()}`);
+  };
+
+  const startSingleQuestion = (questionId: string) => {
+    navigate(`/practice/question/${questionId}`);
+  };
+
+  const isReadyToStart = selectedGrade && selectedDifficulty;
+
+  return (
+    <Container maxWidth="lg">
+      <Box sx={{ mt: 4, mb: 4 }}>
+        <Typography variant="h4" component="h1" gutterBottom>
+          Enhanced Practice Mode
+        </Typography>
+        
+        <Typography variant="body1" color="text.secondary" sx={{ mb: 4 }}>
+          Select your grade and difficulty level to get challenging, curriculum-aligned questions.
+          <strong> Filters are guaranteed to be maintained - no irrelevant questions!</strong>
+        </Typography>
+
+        {/* Selection Controls */}
+        <Box sx={{ mb: 4, display: 'flex', gap: 2, flexWrap: 'wrap', alignItems: 'center' }}>
+          <FormControl sx={{ minWidth: 150 }} required>
+            <InputLabel>Grade *</InputLabel>
+            <Select
+              value={selectedGrade}
+              label="Grade *"
+              onChange={handleGradeChange}
+            >
+              {availableGrades.map(grade => (
+                <MenuItem key={grade} value={grade}>Grade {grade}</MenuItem>
+              ))}
+            </Select>
+          </FormControl>
         subject: selectedSubject,
         grade: selectedGrade,
         difficulty: selectedDifficulty
@@ -250,6 +318,24 @@ const EnhancedPractice: React.FC = () => {
           </Button>
         </Box>
 
+        {/* Filter Status Display */}
+        {questionPool && (
+          <Alert severity="success" sx={{ mb: 3 }}>
+            <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
+              <FilterList />
+              <Typography variant="body2">
+                <strong>Filters Applied:</strong> Grade {questionPool.filtersApplied.grade}, 
+                {questionPool.filtersApplied.difficulty} difficulty
+                {questionPool.filtersApplied.subject && `, ${questionPool.filtersApplied.subject}`}
+                {questionPool.duplicatesRemoved > 0 && (
+                  <span> • <strong>{questionPool.duplicatesRemoved} duplicates removed</strong></span>
+                )}
+              </Typography>
+              <CheckCircle color="success" />
+            </Box>
+          </Alert>
+        )}
+
         {/* Requirements Alert */}
         {!isReadyToStart && (
           <Alert severity="info" sx={{ mb: 3 }}>
@@ -261,18 +347,10 @@ const EnhancedPractice: React.FC = () => {
         {loading && (
           <Box sx={{ mb: 3 }}>
             <Typography variant="body2" gutterBottom>
-              Loading questions for Grade {selectedGrade}, {selectedDifficulty} difficulty...
+              🎯 Loading questions with bulletproof filtering: Grade {selectedGrade}, {selectedDifficulty} difficulty...
             </Typography>
             <LinearProgress />
           </Box>
-        )}
-
-        {generatingQuestions && (
-          <Alert severity="info" sx={{ mb: 3 }}>
-            <Typography variant="body2">
-              🎓 Generating challenging, curriculum-aligned questions for your selection...
-            </Typography>
-          </Alert>
         )}
 
         {/* Questions Grid */}
@@ -282,6 +360,14 @@ const EnhancedPractice: React.FC = () => {
               <Typography variant="h6">
                 Available Questions: Grade {selectedGrade} - {selectedDifficulty.charAt(0).toUpperCase() + selectedDifficulty.slice(1)}
                 {selectedSubject && ` - ${selectedSubject}`}
+                {questionPool && (
+                  <Chip 
+                    label={`${questions.length} questions loaded`} 
+                    color="primary" 
+                    size="small" 
+                    sx={{ ml: 2 }} 
+                  />
+                )}
               </Typography>
               
               <Box sx={{ display: 'flex', gap: 1 }}>
@@ -384,7 +470,7 @@ const EnhancedPractice: React.FC = () => {
                 <Button
                   variant="contained"
                   color="primary"
-                  onClick={loadQuestionsForSelection}
+                  onClick={loadQuestionsWithBulletproofFiltering}
                   sx={{ mt: 2 }}
                 >
                   Generate Questions Now
@@ -397,31 +483,31 @@ const EnhancedPractice: React.FC = () => {
         {/* Information Box */}
         <Box sx={{ mt: 4, p: 3, bgcolor: 'background.paper', borderRadius: 2, border: '1px solid', borderColor: 'divider' }}>
           <Typography variant="h6" gutterBottom>
-            🎓 Enhanced Practice Features
+            🎯 Bulletproof Practice Features
           </Typography>
           <Grid container spacing={2}>
             <Grid item xs={12} md={4}>
               <Typography variant="subtitle2" color="primary" gutterBottom>
-                Auto-Advance
+                ✅ Guaranteed Filtering
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                Questions automatically advance to the next one after 5 seconds once answered.
+                Filters are ALWAYS maintained - no irrelevant questions will appear.
               </Typography>
             </Grid>
             <Grid item xs={12} md={4}>
               <Typography variant="subtitle2" color="primary" gutterBottom>
-                Strict Filtering
+                🚫 Zero Duplicates
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                All questions match your exact grade and difficulty selection.
+                Each question appears only once - no more seeing the same question multiple times.
               </Typography>
             </Grid>
             <Grid item xs={12} md={4}>
               <Typography variant="subtitle2" color="primary" gutterBottom>
-                Smart Generation
+                🎓 Professional Quality
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                New challenging questions are automatically generated when needed.
+                All questions are validated for accuracy and curriculum alignment.
               </Typography>
             </Grid>
           </Grid>
