@@ -3,6 +3,7 @@ import { questionData } from '../pages/Practice/questionData';
 import { getGeneratedQuestions, saveGeneratedQuestions } from '../services/generatedQuestionsService';
 import { getAnsweredQuestionIds } from '../services/userProgressService';
 import BulletproofMathGenerator from './bulletproofMathGenerator';
+import DiverseMathGenerator from './diverseMathGenerator';
 import { generateRobustThinkingSkillsQuestions } from './robustThinkingSkillsGenerator';
 import { comprehensiveReadingDatabase } from './comprehensiveReadingDatabase';
 
@@ -204,15 +205,26 @@ export class BulletproofPracticeSystem {
         
         // Generate based on subject
         if (!subject || subject.toLowerCase().includes('math')) {
-          newQuestion = BulletproofMathGenerator.generateQuestion(grade, difficulty);
+          // Use diverse math generator for better variety, fallback to bulletproof if needed
+          try {
+            newQuestion = DiverseMathGenerator.generateQuestion(grade, difficulty);
+          } catch (error) {
+            console.warn('Diverse math generator failed, using bulletproof fallback:', error);
+            newQuestion = BulletproofMathGenerator.generateQuestion(grade, difficulty);
+          }
         } else if (subject.toLowerCase().includes('thinking')) {
           const thinkingQuestions = generateRobustThinkingSkillsQuestions(grade, difficulty, 1);
           newQuestion = thinkingQuestions[0] || null;
         } else if (subject.toLowerCase().includes('reading')) {
           newQuestion = this.generateReadingQuestion(grade, difficulty);
         } else {
-          // Default to math for other subjects
-          newQuestion = BulletproofMathGenerator.generateQuestion(grade, difficulty);
+          // Default to diverse math for other subjects
+          try {
+            newQuestion = DiverseMathGenerator.generateQuestion(grade, difficulty);
+          } catch (error) {
+            console.warn('Diverse math generator failed, using bulletproof fallback:', error);
+            newQuestion = BulletproofMathGenerator.generateQuestion(grade, difficulty);
+          }
         }
         
         if (newQuestion) {
@@ -262,7 +274,7 @@ export class BulletproofPracticeSystem {
       
       return {
         _id: `reading_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
-        content: `Read the passage and answer: ${question.content}`,
+        content: `${passage.title}\n\n${passage.passage}\n\nQuestion: ${question.content}`,
         type: question.type,
         options: question.options,
         correctAnswer: question.correctAnswer,
