@@ -66,19 +66,28 @@ const EnhancedPractice: React.FC = () => {
     
     setLoading(true);
     
+    // Create a timeout promise to prevent infinite hanging
+    const timeoutPromise = new Promise((_, reject) => {
+      setTimeout(() => {
+        reject(new Error('Question generation timed out after 30 seconds'));
+      }, 30000); // 30 second timeout
+    });
+    
     try {
       // Get difficulty level enum
       const difficultyLevel = getDifficultyLevel(selectedDifficulty);
       
       console.log(`🎯 Loading with BULLETPROOF filtering: Grade ${selectedGrade}, ${selectedDifficulty}${selectedSubject ? `, ${selectedSubject}` : ''}`);
       
-      // Use bulletproof practice system - GUARANTEES proper filtering and NO duplicates
-      const pool = await BulletproofPracticeSystem.getPracticeQuestions({
+      // Race between question generation and timeout
+      const questionGenerationPromise = BulletproofPracticeSystem.getPracticeQuestions({
         grade: selectedGrade,
         difficulty: difficultyLevel,
         subject: selectedSubject || undefined,
         count: 20
       });
+      
+      const pool = await Promise.race([questionGenerationPromise, timeoutPromise]) as any;
       
       console.log(`✅ Bulletproof system results:`, {
         questionsLoaded: pool.questions.length,
@@ -90,8 +99,21 @@ const EnhancedPractice: React.FC = () => {
       setQuestions(pool.questions);
       setQuestionPool(pool);
       
-    } catch (error) {
+      // Show helpful message if no questions were generated
+      if (pool.questions.length === 0) {
+        console.warn('⚠️ No questions could be generated for the selected criteria');
+        // You could show a user-friendly message here
+      }
+      
+    } catch (error: any) {
       console.error('Error loading questions:', error);
+      
+      // Handle timeout specifically
+      if (error?.message && error.message.includes('timed out')) {
+        console.error('🕐 Question generation timed out - this may indicate an infinite loop or system issue');
+        alert('Question generation is taking too long. Please try different criteria or contact support.');
+      }
+      
       setQuestions([]);
       setQuestionPool(null);
     } finally {

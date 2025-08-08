@@ -6,6 +6,7 @@ import BulletproofMathGenerator from './bulletproofMathGenerator';
 import DiverseMathGenerator from './diverseMathGenerator';
 import { generateRobustThinkingSkillsQuestions } from './robustThinkingSkillsGenerator';
 import { comprehensiveReadingDatabase } from './comprehensiveReadingDatabase';
+import StaticQuestionLoader from './staticQuestionLoader';
 
 /**
  * BULLETPROOF Practice Question System
@@ -42,21 +43,65 @@ export class BulletproofPracticeSystem {
   
   /**
    * Get practice questions with GUARANTEED filtering and NO duplicates
+   * Now uses STATIC FILES for instant loading with zero generation time!
    */
   static async getPracticeQuestions(config: PracticeConfig): Promise<QuestionPool> {
     const { grade, difficulty, subject, count } = config;
     
     console.log(`🎯 Getting practice questions: Grade ${grade}, ${difficulty}${subject ? `, ${subject}` : ''}`);
     
-    // Step 1: Get ALL questions from all sources
+    // STEP 1: Try static file loading first (INSTANT!)
+    try {
+      const staticQuestions = await StaticQuestionLoader.getQuestions(grade, difficulty, subject, count);
+      
+      if (staticQuestions.length >= Math.min(count, 10)) {
+        console.log(`⚡ Using ${staticQuestions.length} static questions (INSTANT LOAD)`);
+        
+        // Remove already answered questions
+        const answeredIds = getAnsweredQuestionIds();
+        const unansweredQuestions = staticQuestions.filter(q => !answeredIds.includes(q._id));
+        
+        // Ensure minimum questions
+        const finalQuestions = unansweredQuestions.length >= 10 ? unansweredQuestions : staticQuestions;
+        
+        // Register questions to prevent future duplicates
+        finalQuestions.forEach(q => this.questionRegistry.add(q._id));
+        
+        return {
+          questions: finalQuestions.slice(0, count),
+          totalAvailable: staticQuestions.length,
+          filtersApplied: { grade, difficulty, subject },
+          duplicatesRemoved: 0
+        };
+      } else {
+        console.log(`📊 Static questions: ${staticQuestions.length} (insufficient for ${count} requested)`);
+      }
+    } catch (error) {
+      console.warn('Static loading failed, falling back to generation:', error);
+    }
+    
+    // STEP 2: Fallback to generation if static files insufficient
+    console.log('🔧 Falling back to question generation (static files insufficient)');
+    return this.getPracticeQuestionsWithGeneration(config);
+  }
+  
+  /**
+   * Fallback method using generation logic (only when static files are insufficient)
+   */
+  private static async getPracticeQuestionsWithGeneration(config: PracticeConfig): Promise<QuestionPool> {
+    const { grade, difficulty, subject, count } = config;
+    
+    console.log(`🔧 Using fallback generation for ${grade}-${difficulty}-${subject || 'any'}`);
+    
+    // Step 1: Get existing questions from database
     const allQuestions = await this.getAllQuestions();
     console.log(`📚 Total questions available: ${allQuestions.length}`);
     
-    // Step 2: Apply STRICT filtering - NO exceptions
+    // Step 2: Apply filtering
     const filteredQuestions = this.applyStrictFiltering(allQuestions, grade, difficulty, subject);
     console.log(`🔍 After filtering: ${filteredQuestions.length} questions`);
     
-    // Step 3: Remove ALL duplicates - NO repeats allowed
+    // Step 3: Remove duplicates
     const uniqueQuestions = this.removeDuplicates(filteredQuestions);
     console.log(`🚫 After deduplication: ${uniqueQuestions.length} questions`);
     
@@ -65,11 +110,14 @@ export class BulletproofPracticeSystem {
     const unansweredQuestions = uniqueQuestions.filter(q => !answeredIds.includes(q._id));
     console.log(`✅ Unanswered questions: ${unansweredQuestions.length}`);
     
-    // Step 5: Generate more if needed
+    // Step 5: Generate more if needed - ENSURE MINIMUM 10 QUESTIONS
     let finalQuestions = unansweredQuestions;
-    if (finalQuestions.length < count) {
-      const needed = count - finalQuestions.length;
-      console.log(`🔧 Generating ${needed} additional questions`);
+    const minimumQuestions = Math.max(10, Math.min(count, 15)); // At least 10, but not more than 15
+    const targetCount = Math.max(count, minimumQuestions);
+    
+    if (finalQuestions.length < targetCount) {
+      const needed = targetCount - finalQuestions.length;
+      console.log(`🔧 Generating ${needed} additional questions (minimum ${minimumQuestions} required)`);
       
       const generatedQuestions = await this.generateAdditionalQuestions({
         grade,
@@ -80,6 +128,25 @@ export class BulletproofPracticeSystem {
       });
       
       finalQuestions = [...finalQuestions, ...generatedQuestions];
+    }
+    
+    // Ensure we have at least the minimum number of questions
+    if (finalQuestions.length < minimumQuestions) {
+      console.warn(`⚠️ Only ${finalQuestions.length} questions available, but ${minimumQuestions} minimum required`);
+      
+      // Try one more time with emergency generation
+      const stillNeeded = minimumQuestions - finalQuestions.length;
+      console.log(`🆘 Emergency generation: attempting ${stillNeeded} more questions`);
+      
+      const emergencyQuestions = await this.generateAdditionalQuestions({
+        grade,
+        difficulty,
+        subject: undefined, // Remove subject filter for emergency generation
+        count: stillNeeded,
+        existingQuestions: finalQuestions
+      });
+      
+      finalQuestions = [...finalQuestions, ...emergencyQuestions];
     }
     
     // Step 6: Shuffle and limit to requested count
@@ -195,35 +262,105 @@ export class BulletproofPracticeSystem {
     const existingContent = new Set(existingQuestions.map(q => q.content.toLowerCase().trim()));
     
     let attempts = 0;
-    const maxAttempts = count * 5;
+    const maxAttempts = Math.min(count * 10, 100); // Cap maximum attempts
+    let consecutiveFailures = 0;
+    const maxConsecutiveFailures = 20; // Stop if we fail 20 times in a row
     
-    while (generated.length < count && attempts < maxAttempts) {
+    console.log(`🔧 Starting question generation: need ${count}, max attempts ${maxAttempts}`);
+    
+    while (generated.length < count && attempts < maxAttempts && consecutiveFailures < maxConsecutiveFailures) {
       attempts++;
       
       try {
         let newQuestion: Question | null = null;
         
-        // Generate based on subject
+        // Generate based on subject with better error handling
         if (!subject || subject.toLowerCase().includes('math')) {
           // Use diverse math generator for better variety, fallback to bulletproof if needed
           try {
             newQuestion = DiverseMathGenerator.generateQuestion(grade, difficulty);
           } catch (error) {
             console.warn('Diverse math generator failed, using bulletproof fallback:', error);
-            newQuestion = BulletproofMathGenerator.generateQuestion(grade, difficulty);
+            try {
+              newQuestion = BulletproofMathGenerator.generateQuestion(grade, difficulty);
+            } catch (fallbackError) {
+              console.error('Both math generators failed:', fallbackError);
+              consecutiveFailures++;
+              continue;
+            }
           }
         } else if (subject.toLowerCase().includes('thinking')) {
-          const thinkingQuestions = generateRobustThinkingSkillsQuestions(grade, difficulty, 1);
-          newQuestion = thinkingQuestions[0] || null;
+          try {
+            // Generate multiple thinking skills questions at once for efficiency
+            const remainingNeeded = count - generated.length;
+            const batchSize = Math.min(remainingNeeded, 5); // Generate up to 5 at once
+            const thinkingQuestions = generateRobustThinkingSkillsQuestions(grade, difficulty, batchSize);
+            
+            // Add all generated questions that meet criteria
+            for (const q of thinkingQuestions) {
+              if (generated.length >= count) break;
+              
+              const contentKey = q.content.toLowerCase().trim();
+              if (!existingContent.has(contentKey) && 
+                  !this.questionRegistry.has(q._id) &&
+                  q.grade === grade &&
+                  q.difficulty === difficulty) {
+                
+                generated.push(q);
+                existingContent.add(contentKey);
+                this.questionRegistry.add(q._id);
+                console.log(`✅ Generated thinking skills question ${generated.length}/${count}: ${q.topic}`);
+              }
+            }
+            
+            if (thinkingQuestions.length > 0) {
+              consecutiveFailures = 0; // Reset on successful batch
+              continue; // Skip the individual question processing
+            } else {
+              consecutiveFailures++;
+              continue;
+            }
+          } catch (error) {
+            console.warn('Thinking skills generator failed:', error);
+            consecutiveFailures++;
+            continue;
+          }
         } else if (subject.toLowerCase().includes('reading')) {
           newQuestion = this.generateReadingQuestion(grade, difficulty);
+          if (!newQuestion) {
+            console.warn(`No reading passages available for grade ${grade}, difficulty ${difficulty}`);
+            consecutiveFailures++;
+            
+            // If we've failed to generate reading questions multiple times, 
+            // try to generate math questions instead to avoid infinite loop
+            if (consecutiveFailures > 5) {
+              console.log('🔄 Switching to math questions due to reading generation failures');
+              try {
+                newQuestion = DiverseMathGenerator.generateQuestion(grade, difficulty);
+                if (newQuestion) {
+                  newQuestion.subject = 'Reading'; // Keep the subject as reading for filtering
+                  newQuestion.topic = 'Emergency Math Question';
+                }
+              } catch (mathError) {
+                console.error('Emergency math generation also failed:', mathError);
+              }
+            }
+            
+            if (!newQuestion) continue;
+          }
         } else {
           // Default to diverse math for other subjects
           try {
             newQuestion = DiverseMathGenerator.generateQuestion(grade, difficulty);
           } catch (error) {
             console.warn('Diverse math generator failed, using bulletproof fallback:', error);
-            newQuestion = BulletproofMathGenerator.generateQuestion(grade, difficulty);
+            try {
+              newQuestion = BulletproofMathGenerator.generateQuestion(grade, difficulty);
+            } catch (fallbackError) {
+              console.error('Both math generators failed:', fallbackError);
+              consecutiveFailures++;
+              continue;
+            }
           }
         }
         
@@ -239,12 +376,38 @@ export class BulletproofPracticeSystem {
             
             generated.push(newQuestion);
             existingContent.add(contentKey);
-            console.log(`Generated question ${generated.length}/${count}`);
+            this.questionRegistry.add(newQuestion._id);
+            consecutiveFailures = 0; // Reset failure counter on success
+            
+            console.log(`✅ Generated question ${generated.length}/${count}: ${newQuestion.topic}`);
+          } else {
+            consecutiveFailures++;
+            console.log(`⚠️ Question rejected (duplicate or criteria mismatch), attempt ${attempts}`);
           }
+        } else {
+          consecutiveFailures++;
+          console.log(`❌ Failed to generate question, attempt ${attempts}, consecutive failures: ${consecutiveFailures}`);
         }
+        
       } catch (error) {
-        console.warn(`Error generating question (attempt ${attempts}):`, error);
+        console.error(`Error generating question (attempt ${attempts}):`, error);
+        consecutiveFailures++;
       }
+      
+      // Add a small delay to prevent overwhelming the system
+      if (attempts % 10 === 0) {
+        await new Promise(resolve => setTimeout(resolve, 10));
+      }
+    }
+    
+    console.log(`🏁 Question generation complete: ${generated.length}/${count} generated after ${attempts} attempts`);
+    
+    if (generated.length === 0) {
+      console.warn('⚠️ No questions could be generated - this may indicate a configuration issue');
+    }
+    
+    if (consecutiveFailures >= maxConsecutiveFailures) {
+      console.warn(`⚠️ Stopped generation due to ${consecutiveFailures} consecutive failures`);
     }
     
     // Save generated questions

@@ -5,6 +5,7 @@
   "main": "lambda-handler.js",
   "scripts": {
     "start": "serverless offline",
+    "start:local": "./start-local.sh",
     "deploy": "serverless deploy",
     "deploy:prod": "serverless deploy --stage prod",
     "deploy:dev": "serverless deploy --stage dev",
@@ -13,8 +14,13 @@
     "test": "node test-deployment.js",
     "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install",
     "start:frontend": "cd frontend && npm start",
-    "start:backend": "cd backend && npm run dev",
+    "start:backend": "cd backend && npm start",
+    "dev:backend": "cd backend && npm run dev",
     "build:all": "cd frontend && npm run build && cd ../backend && npm run build",
+    "generate-questions": "node scripts/generateQuestionFiles.js",
+    "question-status": "node scripts/questionBankManager.js status",
+    "question-add": "node scripts/questionBankManager.js add",
+    "question-refill": "node scripts/questionBankManager.js auto-refill",
     "clean": "rm -rf node_modules frontend/node_modules backend/node_modules",
     "update:deps": "npm update && cd frontend && npm update && cd ../backend && npm update"
   },

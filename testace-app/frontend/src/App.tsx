@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Layout from './components/Layout';
 import PrivateRoute from './components/PrivateRoute';
@@ -18,8 +18,21 @@ import Login from './pages/Auth/Login';
 import Register from './pages/Auth/Register';
 import { AuthProvider } from './contexts/AuthContext';
 import { SettingsProvider } from './contexts/SettingsContext';
+import StaticQuestionLoader from './utils/staticQuestionLoader';
 
 function App() {
+  useEffect(() => {
+    // Optional: Preload common combinations in the background (very lightweight)
+    StaticQuestionLoader.preloadCommon().catch(error => {
+      console.warn('Background preloading failed (non-critical):', error);
+    });
+    
+    // Load manifest to check available questions
+    StaticQuestionLoader.loadManifest().catch(error => {
+      console.warn('Failed to load question manifest (non-critical):', error);
+    });
+  }, []);
+
   return (
     <AuthProvider>
       <SettingsProvider>

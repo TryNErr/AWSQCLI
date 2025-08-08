@@ -4,8 +4,10 @@
   "description": "Backend for TestAce educational app",
   "main": "dist/server.js",
   "scripts": {
-    "start": "node dist/server.js",
-    "dev": "nodemon src/server.ts",
+    "start": "node simple-server.js",
+    "start:prod": "node dist/server.js",
+    "dev": "nodemon simple-server.js",
+    "dev:ts": "nodemon src/server.ts",
     "build": "tsc",
     "test": "jest"
   },

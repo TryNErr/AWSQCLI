@@ -1,81 +1,110 @@
 #!/bin/bash
 
-echo "🚀 Starting TestAce Local Development Environment"
-echo "==============================================="
+# TestAce Local Development Startup Script
 
-# Function to kill background processes on exit
+echo "🚀 Starting TestAce Application Locally..."
+echo ""
+
+# Check if Node.js is installed
+if ! command -v node &> /dev/null; then
+    echo "❌ Node.js is not installed. Please install Node.js first."
+    exit 1
+fi
+
+# Check if npm is installed
+if ! command -v npm &> /dev/null; then
+    echo "❌ npm is not installed. Please install npm first."
+    exit 1
+fi
+
+echo "📋 Pre-flight checks..."
+
+# Check if MongoDB is running (optional - will use default connection)
+if command -v mongod &> /dev/null; then
+    if pgrep -x "mongod" > /dev/null; then
+        echo "✅ MongoDB is running"
+    else
+        echo "⚠️  MongoDB is not running. Starting with default connection..."
+    fi
+else
+    echo "⚠️  MongoDB not found. Using default connection..."
+fi
+
+echo ""
+echo "🔧 Installing dependencies..."
+
+# Install backend dependencies
+echo "📦 Installing backend dependencies..."
+cd backend
+if [ ! -d "node_modules" ]; then
+    npm install
+else
+    echo "✅ Backend dependencies already installed"
+fi
+
+# Install frontend dependencies
+echo "📦 Installing frontend dependencies..."
+cd ../frontend
+if [ ! -d "node_modules" ]; then
+    npm install
+else
+    echo "✅ Frontend dependencies already installed"
+fi
+
+echo ""
+echo "📝 Generating static questions..."
+cd ..
+if [ ! -d "public/questions" ]; then
+    npm run generate-questions
+else
+    echo "✅ Static questions already generated"
+fi
+
+echo ""
+echo "🚀 Starting services..."
+
+# Function to cleanup background processes
 cleanup() {
-    echo "🛑 Stopping servers..."
+    echo ""
+    echo "🛑 Shutting down services..."
     kill $BACKEND_PID $FRONTEND_PID 2>/dev/null
-    echo "🐳 Stopping MongoDB container..."
-    docker-compose -f docker-compose.local.yml stop mongodb
-    exit
+    exit 0
 }
 
-# Set up trap to cleanup on script exit
-trap cleanup SIGINT SIGTERM EXIT
+# Set up signal handlers
+trap cleanup SIGINT SIGTERM
 
-# Start MongoDB if not already running
-if ! docker ps | grep -q testace-mongodb-local; then
-    echo "🐳 Starting MongoDB container..."
-    docker-compose -f docker-compose.local.yml up -d mongodb
-    echo "⏳ Waiting for MongoDB to be ready..."
-    sleep 10
-else
-    echo "✅ MongoDB container is already running"
-fi
-
-# Install frontend dependencies if not present
-if [ ! -d "frontend/node_modules" ]; then
-    echo "📦 Installing frontend dependencies..."
-    cd frontend
-    npm install
-    cd ..
-fi
-
-# Start backend server
+# Start backend
 echo "🔧 Starting backend server..."
 cd backend
-
-# Try to use the built version first, fallback to ts-node
-if [ -f "dist/server.js" ]; then
-    echo "Using built JavaScript version..."
-    node dist/server.js &
-    BACKEND_PID=$!
-else
-    echo "Built version not found, trying to build..."
-    if npm run build 2>/dev/null; then
-        echo "Build successful, starting server..."
-        node dist/server.js &
-        BACKEND_PID=$!
-    else
-        echo "Build failed, using ts-node with relaxed settings..."
-        # Use ts-node with transpile-only mode to skip type checking
-        npx ts-node --transpile-only src/server.ts &
-        BACKEND_PID=$!
-    fi
-fi
-
-echo "Backend server started (PID: $BACKEND_PID)"
+npm start &
+BACKEND_PID=$!
 
 # Wait a moment for backend to start
 sleep 3
 
-# Start frontend server
-echo "🎨 Starting frontend server..."
+# Start frontend
+echo "🎨 Starting frontend development server..."
 cd ../frontend
 npm start &
 FRONTEND_PID=$!
-echo "Frontend server started (PID: $FRONTEND_PID)"
 
 echo ""
-echo "✅ All services are running!"
-echo "MongoDB:  localhost:27017 (Docker container)"
-echo "Backend:  http://localhost:5000"
-echo "Frontend: http://localhost:3000"
+echo "✅ TestAce Application Started!"
 echo ""
-echo "If you encounter TypeScript errors, try using ./start-working.sh instead"
-echo "Press Ctrl+C to stop all services"
+echo "🌐 Frontend: http://localhost:3000"
+echo "🔧 Backend:  http://localhost:5000"
+echo "🏥 Health:   http://localhost:5000/health"
+echo ""
+echo "📊 Question Banks Status:"
+npm run question-status 2>/dev/null | tail -5
+echo ""
+echo "💡 Tips:"
+echo "   - Press Ctrl+C to stop all services"
+echo "   - Check question banks: npm run question-status"
+echo "   - Add more questions: npm run question-add <grade> <difficulty> <subject> <count>"
+echo ""
+echo "⏳ Services are running... Press Ctrl+C to stop"
 
 # Wait for background processes
-wait
+wait $BACKEND_PID $FRONTEND_PID

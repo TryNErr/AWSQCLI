@@ -35,7 +35,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "npm run generate-questions && react-scripts build",
+    "build-only": "react-scripts build",
+    "generate-questions": "node ../scripts/generateQuestionFiles.js",
+    "question-status": "node ../scripts/questionBankManager.js status",
+    "question-add": "node ../scripts/questionBankManager.js add",
+    "question-refill": "node ../scripts/questionBankManager.js auto-refill",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
