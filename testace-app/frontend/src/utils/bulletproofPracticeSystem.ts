@@ -262,7 +262,7 @@ export class BulletproofPracticeSystem {
       
       return {
         _id: `reading_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
-        content: `Read the passage and answer: ${question.question}`,
+        content: `Read the passage and answer: ${question.content}`,
         type: question.type,
         options: question.options,
         correctAnswer: question.correctAnswer,
@@ -292,8 +292,8 @@ export class BulletproofPracticeSystem {
       for (const passage of comprehensiveReadingDatabase) {
         for (const q of passage.questions) {
           questions.push({
-            _id: `reading_${passage.id}_${q.id || Math.random().toString(36).substr(2, 9)}`,
-            content: `${passage.title}\n\n${passage.passage}\n\nQuestion: ${q.question}`,
+            _id: `reading_${passage.id}_${q._id || Math.random().toString(36).substr(2, 9)}`,
+            content: `${passage.title}\n\n${passage.passage}\n\nQuestion: ${q.content}`,
             type: q.type,
             options: q.options,
             correctAnswer: q.correctAnswer,
