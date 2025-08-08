@@ -1,602 +1,676 @@
 [
   {
     "_id": "build_math_9_hard_0",
-    "content": "Solve for x: 3x + 18 = 21",
+    "content": "Solve for x: 3x² +8x -2 = 0",
     "type": "multiple_choice",
     "options": [
-      "3",
-      "2",
-      "1",
-      "2"
+      "-2.9, 0.2",
+      "1.2, -1.9",
+      "-0.8, -3.9",
+      "No real solutions"
     ],
-    "correctAnswer": "1",
-    "explanation": "3x + 18 = 21, so 3x = 3, therefore x = 1",
+    "correctAnswer": "-2.9, 0.2",
+    "explanation": "Using the quadratic formula: x = (-b ± √(b² - 4ac)) / 2a. Solutions: -2.9, 0.2",
     "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
+    "topic": "Quadratic Equations",
     "difficulty": "hard",
-    "grade": 9,
+    "grade": "9",
     "tags": [
       "mathematics",
-      "algebra",
-      "build-time-generated"
+      "quadratic",
+      "hard",
+      "build-time-generated",
+      "timed-test-ready"
     ],
+    "estimatedTime": 90,
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.914Z"
+    "createdAt": "2025-08-08T03:01:39.762Z"
   },
   {
     "_id": "build_math_9_hard_1",
-    "content": "If f(x) = 5x +4, what is f(3)?",
+    "content": "Solve the system of equations:\n4x + 2y = 24\n3x + 4y = 28",
     "type": "multiple_choice",
     "options": [
-      "21",
-      "19",
-      "20",
-      "18"
+      "x = 4, y = 4",
+      "x = 5, y = 4",
+      "x = 4, y = 5",
+      "x = 3, y = 3"
     ],
-    "correctAnswer": "19",
-    "explanation": "f(3) = 5(3) +4 = 19",
+    "correctAnswer": "x = 4, y = 4",
+    "explanation": "Using substitution or elimination method: x = 4, y = 4",
     "subject": "Mathematical Reasoning",
-    "topic": "Functions",
+    "topic": "Systems of Equations",
     "difficulty": "hard",
-    "grade": 9,
+    "grade": "9",
     "tags": [
       "mathematics",
-      "functions",
-      "build-time-generated"
+      "systems",
+      "hard",
+      "build-time-generated",
+      "timed-test-ready"
     ],
+    "estimatedTime": 90,
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.914Z"
+    "createdAt": "2025-08-08T03:01:39.762Z"
   },
   {
     "_id": "build_math_9_hard_2",
-    "content": "What is sin(60°)?",
+    "content": "If a bacteria culture doubles every hour and starts with 100 bacteria, how many bacteria will there be after 4 hours?",
     "type": "multiple_choice",
     "options": [
-      "√3/2",
-      "1/2",
-      "√2/2",
-      "√3/2"
+      "1600",
+      "800",
+      "3200",
+      "800"
     ],
-    "correctAnswer": "√3/2",
-    "explanation": "sin(60°) = √3/2 (special angle)",
+    "correctAnswer": "1600",
+    "explanation": "Using exponential growth formula: N = N₀ × 2^t = 100 × 2^4 = 1600",
     "subject": "Mathematical Reasoning",
-    "topic": "Trigonometry",
+    "topic": "Exponential Functions",
     "difficulty": "hard",
-    "grade": 9,
+    "grade": "9",
     "tags": [
       "mathematics",
-      "trigonometry",
-      "build-time-generated"
+      "exponential",
+      "hard",
+      "build-time-generated",
+      "timed-test-ready"
     ],
+    "estimatedTime": 105,
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.914Z"
+    "createdAt": "2025-08-08T03:01:39.762Z"
   },
   {
     "_id": "build_math_9_hard_3",
-    "content": "What is 79% of 66?",
+    "content": "Simplify √72",
     "type": "multiple_choice",
     "options": [
-      "53",
-      "54",
-      "52",
-      "51"
+      "6√2",
+      "√72",
+      "8√0",
+      "9"
     ],
-    "correctAnswer": "52",
-    "explanation": "79% of 66 = (79/100) × 66 = 52",
+    "correctAnswer": "6√2",
+    "explanation": "√72 = 6√2 (factor out perfect squares)",
     "subject": "Mathematical Reasoning",
-    "topic": "Percentages",
+    "topic": "Radical Expressions",
     "difficulty": "hard",
-    "grade": 9,
+    "grade": "9",
     "tags": [
       "mathematics",
-      "percentages",
-      "build-time-generated"
+      "radicals",
+      "hard",
+      "build-time-generated",
+      "timed-test-ready"
     ],
+    "estimatedTime": 90,
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.914Z"
+    "createdAt": "2025-08-08T03:01:39.762Z"
   },
   {
     "_id": "build_math_9_hard_4",
-    "content": "Solve for x: 6x + 11 = 35",
+    "content": "What is the domain of f(x) = 1/(3x -3)?",
     "type": "multiple_choice",
     "options": [
-      "5",
-      "4",
-      "6",
-      "3"
+      "All real numbers except x = 1",
+      "All real numbers except x = -1",
+      "All real numbers",
+      "x ≥ 1"
     ],
-    "correctAnswer": "4",
-    "explanation": "6x + 11 = 35, so 6x = 24, therefore x = 4",
+    "correctAnswer": "All real numbers except x = 1",
+    "explanation": "The denominator cannot equal zero: 3x -3 ≠ 0, so x ≠ 1",
     "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
+    "topic": "Rational Functions",
     "difficulty": "hard",
-    "grade": 9,
+    "grade": "9",
     "tags": [
       "mathematics",
-      "algebra",
-      "build-time-generated"
+      "rational",
+      "hard",
+      "build-time-generated",
+      "timed-test-ready"
     ],
+    "estimatedTime": 90,
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.914Z"
+    "createdAt": "2025-08-08T03:01:39.762Z"
   },
   {
     "_id": "build_math_9_hard_5",
-    "content": "If f(x) = 7x -5, what is f(1)?",
+    "content": "Factor completely: x² + 8x + 16",
     "type": "multiple_choice",
     "options": [
-      "2",
-      "3",
-      "4",
-      "1"
+      "(x + 4)(x + 4)",
+      "(x - 4)(x - 4)",
+      "(x + 4)(x - 4)",
+      "Cannot be factored"
     ],
-    "correctAnswer": "2",
-    "explanation": "f(1) = 7(1) -5 = 2",
+    "correctAnswer": "(x + 4)(x + 4)",
+    "explanation": "Find two numbers that multiply to 16 and add to 8: 4 and 4",
     "subject": "Mathematical Reasoning",
-    "topic": "Functions",
+    "topic": "Polynomial Factoring",
     "difficulty": "hard",
-    "grade": 9,
+    "grade": "9",
     "tags": [
       "mathematics",
-      "functions",
-      "build-time-generated"
+      "factoring",
+      "hard",
+      "build-time-generated",
+      "timed-test-ready"
     ],
+    "estimatedTime": 90,
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.914Z"
+    "createdAt": "2025-08-08T03:01:39.762Z"
   },
   {
     "_id": "build_math_9_hard_6",
-    "content": "What is sin(30°)?",
+    "content": "Factor completely: x² + 7x + 12",
     "type": "multiple_choice",
     "options": [
-      "1/2",
-      "1/2",
-      "√2/2",
-      "√3/2"
+      "(x + 3)(x + 4)",
+      "(x - 3)(x - 4)",
+      "(x + 3)(x - 4)",
+      "Cannot be factored"
     ],
-    "correctAnswer": "1/2",
-    "explanation": "sin(30°) = 1/2 (special angle)",
+    "correctAnswer": "(x + 3)(x + 4)",
+    "explanation": "Find two numbers that multiply to 12 and add to 7: 3 and 4",
     "subject": "Mathematical Reasoning",
-    "topic": "Trigonometry",
+    "topic": "Polynomial Factoring",
     "difficulty": "hard",
-    "grade": 9,
+    "grade": "9",
     "tags": [
       "mathematics",
-      "trigonometry",
-      "build-time-generated"
+      "factoring",
+      "hard",
+      "build-time-generated",
+      "timed-test-ready"
     ],
+    "estimatedTime": 90,
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.914Z"
+    "createdAt": "2025-08-08T03:01:39.762Z"
   },
   {
     "_id": "build_math_9_hard_7",
-    "content": "What is 65% of 148?",
+    "content": "Factor completely: x² + 8x + 16",
     "type": "multiple_choice",
     "options": [
-      "96",
-      "97",
-      "98",
-      "95"
+      "(x + 4)(x + 4)",
+      "(x - 4)(x - 4)",
+      "(x + 4)(x - 4)",
+      "Cannot be factored"
     ],
-    "correctAnswer": "96",
-    "explanation": "65% of 148 = (65/100) × 148 = 96",
+    "correctAnswer": "(x + 4)(x + 4)",
+    "explanation": "Find two numbers that multiply to 16 and add to 8: 4 and 4",
     "subject": "Mathematical Reasoning",
-    "topic": "Percentages",
+    "topic": "Polynomial Factoring",
     "difficulty": "hard",
-    "grade": 9,
+    "grade": "9",
     "tags": [
       "mathematics",
-      "percentages",
-      "build-time-generated"
+      "factoring",
+      "hard",
+      "build-time-generated",
+      "timed-test-ready"
     ],
+    "estimatedTime": 90,
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.914Z"
+    "createdAt": "2025-08-08T03:01:39.762Z"
   },
   {
     "_id": "build_math_9_hard_8",
-    "content": "Solve for x: 8x + 16 = 80",
+    "content": "Factor completely: x² + 6x + 8",
     "type": "multiple_choice",
     "options": [
-      "8",
-      "7",
-      "9",
-      "10"
+      "(x + 2)(x + 4)",
+      "(x - 2)(x - 4)",
+      "(x + 2)(x - 4)",
+      "Cannot be factored"
     ],
-    "correctAnswer": "8",
-    "explanation": "8x + 16 = 80, so 8x = 64, therefore x = 8",
+    "correctAnswer": "(x + 2)(x + 4)",
+    "explanation": "Find two numbers that multiply to 8 and add to 6: 2 and 4",
     "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
+    "topic": "Polynomial Factoring",
     "difficulty": "hard",
-    "grade": 9,
+    "grade": "9",
     "tags": [
       "mathematics",
-      "algebra",
-      "build-time-generated"
+      "factoring",
+      "hard",
+      "build-time-generated",
+      "timed-test-ready"
     ],
+    "estimatedTime": 90,
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.914Z"
+    "createdAt": "2025-08-08T03:01:39.762Z"
   },
   {
     "_id": "build_math_9_hard_9",
-    "content": "If f(x) = 3x +5, what is f(1)?",
+    "content": "Factor completely: x² + 5x + 6",
     "type": "multiple_choice",
     "options": [
-      "9",
-      "8",
-      "7",
-      "10"
+      "(x + 3)(x + 2)",
+      "(x - 3)(x - 2)",
+      "(x + 3)(x - 2)",
+      "Cannot be factored"
     ],
-    "correctAnswer": "8",
-    "explanation": "f(1) = 3(1) +5 = 8",
+    "correctAnswer": "(x + 3)(x + 2)",
+    "explanation": "Find two numbers that multiply to 6 and add to 5: 3 and 2",
     "subject": "Mathematical Reasoning",
-    "topic": "Functions",
+    "topic": "Polynomial Factoring",
     "difficulty": "hard",
-    "grade": 9,
+    "grade": "9",
     "tags": [
       "mathematics",
-      "functions",
-      "build-time-generated"
+      "factoring",
+      "hard",
+      "build-time-generated",
+      "timed-test-ready"
     ],
+    "estimatedTime": 90,
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.914Z"
+    "createdAt": "2025-08-08T03:01:39.762Z"
   },
   {
     "_id": "build_math_9_hard_10",
-    "content": "What is sin(45°)?",
+    "content": "Factor completely: x² + 6x + 9",
     "type": "multiple_choice",
     "options": [
-      "√2/2",
-      "1/2",
-      "√2/2",
-      "√3/2"
+      "(x + 3)(x + 3)",
+      "(x - 3)(x - 3)",
+      "(x + 3)(x - 3)",
+      "Cannot be factored"
     ],
-    "correctAnswer": "√2/2",
-    "explanation": "sin(45°) = √2/2 (special angle)",
+    "correctAnswer": "(x + 3)(x + 3)",
+    "explanation": "Find two numbers that multiply to 9 and add to 6: 3 and 3",
     "subject": "Mathematical Reasoning",
-    "topic": "Trigonometry",
+    "topic": "Polynomial Factoring",
     "difficulty": "hard",
-    "grade": 9,
+    "grade": "9",
     "tags": [
       "mathematics",
-      "trigonometry",
-      "build-time-generated"
+      "factoring",
+      "hard",
+      "build-time-generated",
+      "timed-test-ready"
     ],
+    "estimatedTime": 90,
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.914Z"
+    "createdAt": "2025-08-08T03:01:39.762Z"
   },
   {
     "_id": "build_math_9_hard_11",
-    "content": "What is 37% of 148?",
+    "content": "Factor completely: x² + 7x + 12",
     "type": "multiple_choice",
     "options": [
-      "54",
-      "55",
-      "57",
-      "56"
+      "(x + 4)(x + 3)",
+      "(x - 4)(x - 3)",
+      "(x + 4)(x - 3)",
+      "Cannot be factored"
     ],
-    "correctAnswer": "55",
-    "explanation": "37% of 148 = (37/100) × 148 = 55",
+    "correctAnswer": "(x + 4)(x + 3)",
+    "explanation": "Find two numbers that multiply to 12 and add to 7: 4 and 3",
     "subject": "Mathematical Reasoning",
-    "topic": "Percentages",
+    "topic": "Polynomial Factoring",
     "difficulty": "hard",
-    "grade": 9,
+    "grade": "9",
     "tags": [
       "mathematics",
-      "percentages",
-      "build-time-generated"
+      "factoring",
+      "hard",
+      "build-time-generated",
+      "timed-test-ready"
     ],
+    "estimatedTime": 90,
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.914Z"
+    "createdAt": "2025-08-08T03:01:39.763Z"
   },
   {
     "_id": "build_math_9_hard_12",
-    "content": "Solve for x: 7x + 12 = 82",
-    "type": "multiple_choice",
-    "options": [
-      "11",
-      "12",
-      "9",
-      "10"
-    ],
-    "correctAnswer": "10",
-    "explanation": "7x + 12 = 82, so 7x = 70, therefore x = 10",
-    "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
-    "difficulty": "hard",
-    "grade": 9,
-    "tags": [
-      "mathematics",
-      "algebra",
-      "build-time-generated"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.914Z"
-  },
-  {
-    "_id": "build_math_9_hard_13",
-    "content": "If f(x) = 3x -2, what is f(1)?",
-    "type": "multiple_choice",
-    "options": [
-      "2",
-      "2",
-      "1",
-      "3"
-    ],
-    "correctAnswer": "1",
-    "explanation": "f(1) = 3(1) -2 = 1",
-    "subject": "Mathematical Reasoning",
-    "topic": "Functions",
-    "difficulty": "hard",
-    "grade": 9,
-    "tags": [
-      "mathematics",
-      "functions",
-      "build-time-generated"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.914Z"
-  },
-  {
-    "_id": "build_math_9_hard_14",
-    "content": "What is sin(60°)?",
-    "type": "multiple_choice",
-    "options": [
-      "√3/2",
-      "1/2",
-      "√2/2",
-      "√3/2"
-    ],
-    "correctAnswer": "√3/2",
-    "explanation": "sin(60°) = √3/2 (special angle)",
-    "subject": "Mathematical Reasoning",
-    "topic": "Trigonometry",
-    "difficulty": "hard",
-    "grade": 9,
-    "tags": [
-      "mathematics",
-      "trigonometry",
-      "build-time-generated"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.914Z"
-  },
-  {
-    "_id": "build_math_9_hard_15",
-    "content": "What is 73% of 87?",
-    "type": "multiple_choice",
-    "options": [
-      "65",
-      "63",
-      "64",
-      "66"
-    ],
-    "correctAnswer": "64",
-    "explanation": "73% of 87 = (73/100) × 87 = 64",
-    "subject": "Mathematical Reasoning",
-    "topic": "Percentages",
-    "difficulty": "hard",
-    "grade": 9,
-    "tags": [
-      "mathematics",
-      "percentages",
-      "build-time-generated"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.914Z"
-  },
-  {
-    "_id": "build_math_9_hard_16",
-    "content": "Solve for x: 4x + 11 = 51",
-    "type": "multiple_choice",
-    "options": [
-      "11",
-      "10",
-      "12",
-      "9"
-    ],
-    "correctAnswer": "10",
-    "explanation": "4x + 11 = 51, so 4x = 40, therefore x = 10",
-    "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
-    "difficulty": "hard",
-    "grade": 9,
-    "tags": [
-      "mathematics",
-      "algebra",
-      "build-time-generated"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.914Z"
-  },
-  {
-    "_id": "build_math_9_hard_17",
-    "content": "If f(x) = 3x -2, what is f(6)?",
-    "type": "multiple_choice",
-    "options": [
-      "17",
-      "18",
-      "15",
-      "16"
-    ],
-    "correctAnswer": "16",
-    "explanation": "f(6) = 3(6) -2 = 16",
-    "subject": "Mathematical Reasoning",
-    "topic": "Functions",
-    "difficulty": "hard",
-    "grade": 9,
-    "tags": [
-      "mathematics",
-      "functions",
-      "build-time-generated"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.914Z"
-  },
-  {
-    "_id": "build_math_9_hard_18",
-    "content": "What is sin(30°)?",
-    "type": "multiple_choice",
-    "options": [
-      "1/2",
-      "1/2",
-      "√2/2",
-      "√3/2"
-    ],
-    "correctAnswer": "1/2",
-    "explanation": "sin(30°) = 1/2 (special angle)",
-    "subject": "Mathematical Reasoning",
-    "topic": "Trigonometry",
-    "difficulty": "hard",
-    "grade": 9,
-    "tags": [
-      "mathematics",
-      "trigonometry",
-      "build-time-generated"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.914Z"
-  },
-  {
-    "_id": "build_math_9_hard_19",
-    "content": "What is 86% of 75?",
-    "type": "multiple_choice",
-    "options": [
-      "64",
-      "65",
-      "66",
-      "67"
-    ],
-    "correctAnswer": "65",
-    "explanation": "86% of 75 = (86/100) × 75 = 65",
-    "subject": "Mathematical Reasoning",
-    "topic": "Percentages",
-    "difficulty": "hard",
-    "grade": 9,
-    "tags": [
-      "mathematics",
-      "percentages",
-      "build-time-generated"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.914Z"
-  },
-  {
-    "_id": "build_math_9_hard_20",
-    "content": "Solve for x: 2x + 9 = 27",
-    "type": "multiple_choice",
-    "options": [
-      "11",
-      "8",
-      "9",
-      "10"
-    ],
-    "correctAnswer": "9",
-    "explanation": "2x + 9 = 27, so 2x = 18, therefore x = 9",
-    "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
-    "difficulty": "hard",
-    "grade": 9,
-    "tags": [
-      "mathematics",
-      "algebra",
-      "build-time-generated"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.914Z"
-  },
-  {
-    "_id": "build_math_9_hard_21",
-    "content": "If f(x) = 8x +4, what is f(3)?",
-    "type": "multiple_choice",
-    "options": [
-      "30",
-      "28",
-      "27",
-      "29"
-    ],
-    "correctAnswer": "28",
-    "explanation": "f(3) = 8(3) +4 = 28",
-    "subject": "Mathematical Reasoning",
-    "topic": "Functions",
-    "difficulty": "hard",
-    "grade": 9,
-    "tags": [
-      "mathematics",
-      "functions",
-      "build-time-generated"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.914Z"
-  },
-  {
-    "_id": "build_math_9_hard_22",
-    "content": "What is sin(45°)?",
-    "type": "multiple_choice",
-    "options": [
-      "√2/2",
-      "1/2",
-      "√2/2",
-      "√3/2"
-    ],
-    "correctAnswer": "√2/2",
-    "explanation": "sin(45°) = √2/2 (special angle)",
-    "subject": "Mathematical Reasoning",
-    "topic": "Trigonometry",
-    "difficulty": "hard",
-    "grade": 9,
-    "tags": [
-      "mathematics",
-      "trigonometry",
-      "build-time-generated"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.914Z"
-  },
-  {
-    "_id": "build_math_9_hard_23",
-    "content": "What is 35% of 165?",
-    "type": "multiple_choice",
-    "options": [
-      "58",
-      "59",
-      "60",
-      "57"
-    ],
-    "correctAnswer": "58",
-    "explanation": "35% of 165 = (35/100) × 165 = 58",
-    "subject": "Mathematical Reasoning",
-    "topic": "Percentages",
-    "difficulty": "hard",
-    "grade": 9,
-    "tags": [
-      "mathematics",
-      "percentages",
-      "build-time-generated"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.914Z"
-  },
-  {
-    "_id": "build_math_9_hard_24",
-    "content": "Solve for x: 3x + 14 = 26",
+    "content": "Solve for x: 8x + 15 = 63",
     "type": "multiple_choice",
     "options": [
       "6",
+      "8",
       "5",
-      "3",
-      "4"
+      "7"
     ],
-    "correctAnswer": "4",
-    "explanation": "3x + 14 = 26, so 3x = 12, therefore x = 4",
+    "correctAnswer": "6",
+    "explanation": "8x + 15 = 63, so 8x = 48, therefore x = 6",
     "subject": "Mathematical Reasoning",
     "topic": "Algebra",
     "difficulty": "hard",
-    "grade": 9,
+    "grade": "9",
     "tags": [
       "mathematics",
       "algebra",
-      "build-time-generated"
+      "build-time-generated",
+      "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.914Z"
+    "createdAt": "2025-08-08T03:01:39.763Z",
+    "estimatedTime": 90
+  },
+  {
+    "_id": "build_math_9_hard_13",
+    "content": "Solve the system of equations:\n3x + 2y = 17\n3x + 3y = 21",
+    "type": "multiple_choice",
+    "options": [
+      "x = 3, y = 4",
+      "x = 4, y = 4",
+      "x = 3, y = 5",
+      "x = 2, y = 3"
+    ],
+    "correctAnswer": "x = 3, y = 4",
+    "explanation": "Using substitution or elimination method: x = 3, y = 4",
+    "subject": "Mathematical Reasoning",
+    "topic": "Systems of Equations",
+    "difficulty": "hard",
+    "grade": "9",
+    "tags": [
+      "mathematics",
+      "systems",
+      "hard",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "estimatedTime": 90,
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-08T03:01:39.763Z"
+  },
+  {
+    "_id": "build_math_9_hard_14",
+    "content": "If a bacteria culture doubles every hour and starts with 100 bacteria, how many bacteria will there be after 6 hours?",
+    "type": "multiple_choice",
+    "options": [
+      "6400",
+      "3200",
+      "12800",
+      "1200"
+    ],
+    "correctAnswer": "6400",
+    "explanation": "Using exponential growth formula: N = N₀ × 2^t = 100 × 2^6 = 6400",
+    "subject": "Mathematical Reasoning",
+    "topic": "Exponential Functions",
+    "difficulty": "hard",
+    "grade": "9",
+    "tags": [
+      "mathematics",
+      "exponential",
+      "hard",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "estimatedTime": 105,
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-08T03:01:39.763Z"
+  },
+  {
+    "_id": "build_math_9_hard_15",
+    "content": "Simplify √18",
+    "type": "multiple_choice",
+    "options": [
+      "3√2",
+      "√18",
+      "4√2",
+      "5"
+    ],
+    "correctAnswer": "3√2",
+    "explanation": "√18 = 3√2 (factor out perfect squares)",
+    "subject": "Mathematical Reasoning",
+    "topic": "Radical Expressions",
+    "difficulty": "hard",
+    "grade": "9",
+    "tags": [
+      "mathematics",
+      "radicals",
+      "hard",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "estimatedTime": 90,
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-08T03:01:39.763Z"
+  },
+  {
+    "_id": "build_math_9_hard_16",
+    "content": "What is the domain of f(x) = 1/(3x +4)?",
+    "type": "multiple_choice",
+    "options": [
+      "All real numbers except x = -1.3333333333333333",
+      "All real numbers except x = 1.3333333333333333",
+      "All real numbers",
+      "x ≥ -1.3333333333333333"
+    ],
+    "correctAnswer": "All real numbers except x = -1.3333333333333333",
+    "explanation": "The denominator cannot equal zero: 3x +4 ≠ 0, so x ≠ -1.3333333333333333",
+    "subject": "Mathematical Reasoning",
+    "topic": "Rational Functions",
+    "difficulty": "hard",
+    "grade": "9",
+    "tags": [
+      "mathematics",
+      "rational",
+      "hard",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "estimatedTime": 90,
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-08T03:01:39.763Z"
+  },
+  {
+    "_id": "build_math_9_hard_17",
+    "content": "Factor completely: x² + 4x + 4",
+    "type": "multiple_choice",
+    "options": [
+      "(x + 2)(x + 2)",
+      "(x - 2)(x - 2)",
+      "(x + 2)(x - 2)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x + 2)(x + 2)",
+    "explanation": "Find two numbers that multiply to 4 and add to 4: 2 and 2",
+    "subject": "Mathematical Reasoning",
+    "topic": "Polynomial Factoring",
+    "difficulty": "hard",
+    "grade": "9",
+    "tags": [
+      "mathematics",
+      "factoring",
+      "hard",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "estimatedTime": 90,
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-08T03:01:39.763Z"
+  },
+  {
+    "_id": "build_math_9_hard_18",
+    "content": "Factor completely: x² + 6x + 9",
+    "type": "multiple_choice",
+    "options": [
+      "(x + 3)(x + 3)",
+      "(x - 3)(x - 3)",
+      "(x + 3)(x - 3)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x + 3)(x + 3)",
+    "explanation": "Find two numbers that multiply to 9 and add to 6: 3 and 3",
+    "subject": "Mathematical Reasoning",
+    "topic": "Polynomial Factoring",
+    "difficulty": "hard",
+    "grade": "9",
+    "tags": [
+      "mathematics",
+      "factoring",
+      "hard",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "estimatedTime": 90,
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-08T03:01:39.763Z"
+  },
+  {
+    "_id": "build_math_9_hard_19",
+    "content": "Factor completely: x² + 4x + 4",
+    "type": "multiple_choice",
+    "options": [
+      "(x + 2)(x + 2)",
+      "(x - 2)(x - 2)",
+      "(x + 2)(x - 2)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x + 2)(x + 2)",
+    "explanation": "Find two numbers that multiply to 4 and add to 4: 2 and 2",
+    "subject": "Mathematical Reasoning",
+    "topic": "Polynomial Factoring",
+    "difficulty": "hard",
+    "grade": "9",
+    "tags": [
+      "mathematics",
+      "factoring",
+      "hard",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "estimatedTime": 90,
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-08T03:01:39.763Z"
+  },
+  {
+    "_id": "build_math_9_hard_20",
+    "content": "Factor completely: x² + 7x + 12",
+    "type": "multiple_choice",
+    "options": [
+      "(x + 4)(x + 3)",
+      "(x - 4)(x - 3)",
+      "(x + 4)(x - 3)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x + 4)(x + 3)",
+    "explanation": "Find two numbers that multiply to 12 and add to 7: 4 and 3",
+    "subject": "Mathematical Reasoning",
+    "topic": "Polynomial Factoring",
+    "difficulty": "hard",
+    "grade": "9",
+    "tags": [
+      "mathematics",
+      "factoring",
+      "hard",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "estimatedTime": 90,
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-08T03:01:39.763Z"
+  },
+  {
+    "_id": "build_math_9_hard_21",
+    "content": "Factor completely: x² + 6x + 8",
+    "type": "multiple_choice",
+    "options": [
+      "(x + 4)(x + 2)",
+      "(x - 4)(x - 2)",
+      "(x + 4)(x - 2)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x + 4)(x + 2)",
+    "explanation": "Find two numbers that multiply to 8 and add to 6: 4 and 2",
+    "subject": "Mathematical Reasoning",
+    "topic": "Polynomial Factoring",
+    "difficulty": "hard",
+    "grade": "9",
+    "tags": [
+      "mathematics",
+      "factoring",
+      "hard",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "estimatedTime": 90,
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-08T03:01:39.763Z"
+  },
+  {
+    "_id": "build_math_9_hard_22",
+    "content": "Factor completely: x² + 7x + 12",
+    "type": "multiple_choice",
+    "options": [
+      "(x + 3)(x + 4)",
+      "(x - 3)(x - 4)",
+      "(x + 3)(x - 4)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x + 3)(x + 4)",
+    "explanation": "Find two numbers that multiply to 12 and add to 7: 3 and 4",
+    "subject": "Mathematical Reasoning",
+    "topic": "Polynomial Factoring",
+    "difficulty": "hard",
+    "grade": "9",
+    "tags": [
+      "mathematics",
+      "factoring",
+      "hard",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "estimatedTime": 90,
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-08T03:01:39.763Z"
+  },
+  {
+    "_id": "build_math_9_hard_23",
+    "content": "Factor completely: x² + 6x + 9",
+    "type": "multiple_choice",
+    "options": [
+      "(x + 3)(x + 3)",
+      "(x - 3)(x - 3)",
+      "(x + 3)(x - 3)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x + 3)(x + 3)",
+    "explanation": "Find two numbers that multiply to 9 and add to 6: 3 and 3",
+    "subject": "Mathematical Reasoning",
+    "topic": "Polynomial Factoring",
+    "difficulty": "hard",
+    "grade": "9",
+    "tags": [
+      "mathematics",
+      "factoring",
+      "hard",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "estimatedTime": 90,
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-08T03:01:39.763Z"
+  },
+  {
+    "_id": "build_math_9_hard_24",
+    "content": "Solve for x: 2x² +4x -1 = 0",
+    "type": "multiple_choice",
+    "options": [
+      "-2.2, 0.2",
+      "1.2, -1.2",
+      "-0.8, -3.2",
+      "No real solutions"
+    ],
+    "correctAnswer": "-2.2, 0.2",
+    "explanation": "Using the quadratic formula: x = (-b ± √(b² - 4ac)) / 2a. Solutions: -2.2, 0.2",
+    "subject": "Mathematical Reasoning",
+    "topic": "Quadratic Equations",
+    "difficulty": "hard",
+    "grade": "9",
+    "tags": [
+      "mathematics",
+      "quadratic",
+      "hard",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "estimatedTime": 90,
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-08T03:01:39.763Z"
   }
 ]

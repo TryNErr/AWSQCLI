@@ -101,8 +101,15 @@ const TimedTest: React.FC = () => {
       validationErrors: []
     });
 
+    // Create a timeout promise to prevent infinite hanging (same as Practice Test)
+    const timeoutPromise = new Promise((_, reject) => {
+      setTimeout(() => {
+        reject(new Error('Timed test generation timed out after 30 seconds'));
+      }, 30000); // 30 second timeout
+    });
+
     try {
-      console.log(`Generating timed test for ${testConfig.subject}, Grade ${testConfig.grade}, ${testConfig.difficulty} difficulty`);
+      console.log(`🎯 Generating timed test for ${testConfig.subject}, Grade ${testConfig.grade}, ${testConfig.difficulty} difficulty`);
       
       setGenerationStatus(prev => ({
         ...prev,
@@ -111,10 +118,10 @@ const TimedTest: React.FC = () => {
 
       // Get user's preferred question count (default to 30 if not set)
       const userQuestionCount = settings.questionsPerSession || 30;
-      console.log(`User requested ${userQuestionCount} questions for timed test`);
+      console.log(`📊 User requested ${userQuestionCount} questions for timed test`);
       
-      // Use bulletproof enhanced timed test system with user's preferred count
-      const testResult = await EnhancedTimedTestSystem.generateTimedTest({
+      // Race between test generation and timeout (same pattern as Practice Test)
+      const testGenerationPromise = EnhancedTimedTestSystem.generateTimedTest({
         subject: testConfig.subject,
         grade: testConfig.grade,
         difficulty: testConfig.difficulty,
@@ -123,11 +130,13 @@ const TimedTest: React.FC = () => {
         userId: 'current-user' // Add user ID for progress tracking
       });
 
-      console.log('Test generation result:', testResult);
+      const testResult = await Promise.race([testGenerationPromise, timeoutPromise]) as any;
 
-      // The bulletproof system guarantees exactly the requested number of questions
-      console.log(`✅ Bulletproof system generated exactly ${testResult.questions.length} questions as requested`);
-      console.log(`📊 Sources: DB:${testResult.sources.database}, Reading:${testResult.sources.reading}, Generated:${testResult.sources.generated}, Emergency:${testResult.sources.emergency}`);
+      console.log('✅ Timed test generation result:', testResult);
+
+      // The enhanced system guarantees exactly the requested number of questions
+      console.log(`✅ Enhanced system generated exactly ${testResult.questions.length} questions as requested`);
+      console.log(`📊 Sources: Static:${testResult.sources.static}, DB:${testResult.sources.database}, Generated:${testResult.sources.generated}, Emergency:${testResult.sources.emergency}`);
       
       if (testResult.validationErrors.length > 0) {
         console.warn('Validation warnings:', testResult.validationErrors);
@@ -160,9 +169,17 @@ const TimedTest: React.FC = () => {
       setShowConfig(false);
       setTestStarted(true);
       
-    } catch (err) {
+    } catch (err: any) {
       console.error('Error generating timed test:', err);
-      setError(err instanceof Error ? err.message : 'Failed to generate test questions');
+      
+      // Handle timeout specifically (same as Practice Test)
+      if (err?.message && err.message.includes('timed out')) {
+        console.error('🕐 Timed test generation timed out - this may indicate an infinite loop or system issue');
+        setError('Test generation is taking too long. Please try different criteria or contact support.');
+      } else {
+        setError(err instanceof Error ? err.message : 'Failed to generate test questions');
+      }
+      
       setGenerationStatus(prev => ({
         ...prev,
         isGenerating: false,

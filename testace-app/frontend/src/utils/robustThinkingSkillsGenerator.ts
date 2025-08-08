@@ -58,10 +58,75 @@ export class RobustThinkingSkillsGenerator {
   }
 
   private static getTemplatesForGrade(grade: number, difficulty: DifficultyLevel): ThinkingSkillsTemplate[] {
+    // For Grade 9 Hard, use genuinely challenging templates
+    if (grade === 9 && difficulty === DifficultyLevel.HARD) {
+      return this.getGrade9HardTemplates();
+    }
+    
     const baseTemplates = this.getBaseTemplates();
     
     // Filter and adapt templates based on grade and difficulty
     return baseTemplates.map(template => this.adaptTemplateForGrade(template, grade, difficulty));
+  }
+  
+  /**
+   * Get genuinely challenging templates for Grade 9 Hard
+   */
+  private static getGrade9HardTemplates(): ThinkingSkillsTemplate[] {
+    return [
+      {
+        content: 'In a logic puzzle, if all Bloops are Razzles, and some Razzles are Wazzles, which statement must be true?',
+        options: [
+          'All Bloops are Wazzles',
+          'Some Bloops might be Wazzles', 
+          'No Bloops are Wazzles',
+          'All Wazzles are Bloops'
+        ],
+        correctAnswer: 'Some Bloops might be Wazzles',
+        explanation: 'Since all Bloops are Razzles, and some Razzles are Wazzles, it\'s possible (but not certain) that some Bloops are Wazzles.',
+        topic: 'Advanced Logical Reasoning'
+      },
+      {
+        content: 'A sequence follows the pattern: 2, 6, 12, 20, 30, ___. What is the next number?',
+        options: ['42', '40', '38', '44'],
+        correctAnswer: '42',
+        explanation: 'The differences between consecutive terms are 4, 6, 8, 10, so the next difference is 12. 30 + 12 = 42.',
+        topic: 'Complex Pattern Recognition'
+      },
+      {
+        content: 'If it takes 8 workers 6 hours to build a wall, how many hours would it take 12 workers to build the same wall?',
+        options: ['4 hours', '9 hours', '3 hours', '8 hours'],
+        correctAnswer: '4 hours',
+        explanation: 'Total work = 8 × 6 = 48 worker-hours. With 12 workers: 48 ÷ 12 = 4 hours.',
+        topic: 'Mathematical Reasoning'
+      },
+      {
+        content: 'In a certain code, LOGIC is written as MPHJD. How would BRAIN be written in the same code?',
+        options: ['CSBJO', 'CQZHO', 'CSBHM', 'DSBJO'],
+        correctAnswer: 'CSBJO',
+        explanation: 'Each letter is shifted by +1 in the alphabet: B→C, R→S, A→B, I→J, N→O.',
+        topic: 'Code Breaking'
+      },
+      {
+        content: 'A cube is painted on all faces and then cut into 64 smaller cubes. How many small cubes have exactly one painted face?',
+        options: ['24', '32', '16', '8'],
+        correctAnswer: '24',
+        explanation: 'In a 4×4×4 cube, cubes with exactly one painted face are in the center of each face. Each face has 2×2 = 4 such cubes, and there are 6 faces: 6×4 = 24.',
+        topic: 'Spatial Reasoning'
+      },
+      {
+        content: 'If all statements are either true or false, and "This statement is false" is a statement, what can we conclude?',
+        options: [
+          'The statement is true',
+          'The statement is false', 
+          'The statement creates a logical paradox',
+          'The statement is meaningless'
+        ],
+        correctAnswer: 'The statement creates a logical paradox',
+        explanation: 'This is the classic liar paradox. If the statement is true, then it must be false. If it\'s false, then it must be true. This creates a logical contradiction.',
+        topic: 'Logical Paradoxes'
+      }
+    ];
   }
 
   private static getBaseTemplates(): ThinkingSkillsTemplate[] {

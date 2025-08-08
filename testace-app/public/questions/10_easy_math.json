@@ -1,16 +1,16 @@
 [
   {
     "_id": "build_math_10_easy_0",
-    "content": "Solve for x: 3x + 19 = 37",
+    "content": "Solve for x: 8x + 11 = 27",
     "type": "multiple_choice",
     "options": [
-      "8",
-      "7",
-      "5",
-      "6"
+      "2",
+      "3",
+      "4",
+      "1"
     ],
-    "correctAnswer": "6",
-    "explanation": "3x + 19 = 37, so 3x = 18, therefore x = 6",
+    "correctAnswer": "2",
+    "explanation": "8x + 11 = 27, so 8x = 16, therefore x = 2",
     "subject": "Mathematical Reasoning",
     "topic": "Algebra",
     "difficulty": "easy",
@@ -18,23 +18,25 @@
     "tags": [
       "mathematics",
       "algebra",
-      "build-time-generated"
+      "build-time-generated",
+      "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.916Z"
+    "createdAt": "2025-08-08T03:01:39.765Z",
+    "estimatedTime": 45
   },
   {
     "_id": "build_math_10_easy_1",
-    "content": "If f(x) = 8x -2, what is f(3)?",
+    "content": "If f(x) = 6x -2, what is f(4)?",
     "type": "multiple_choice",
     "options": [
-      "22",
       "24",
+      "21",
       "23",
-      "21"
+      "22"
     ],
     "correctAnswer": "22",
-    "explanation": "f(3) = 8(3) -2 = 22",
+    "explanation": "f(4) = 6(4) -2 = 22",
     "subject": "Mathematical Reasoning",
     "topic": "Functions",
     "difficulty": "easy",
@@ -42,10 +44,12 @@
     "tags": [
       "mathematics",
       "functions",
-      "build-time-generated"
+      "build-time-generated",
+      "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.916Z"
+    "createdAt": "2025-08-08T03:01:39.765Z",
+    "estimatedTime": 45
   },
   {
     "_id": "build_math_10_easy_2",
@@ -66,23 +70,25 @@
     "tags": [
       "mathematics",
       "trigonometry",
-      "build-time-generated"
+      "build-time-generated",
+      "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.916Z"
+    "createdAt": "2025-08-08T03:01:39.765Z",
+    "estimatedTime": 45
   },
   {
     "_id": "build_math_10_easy_3",
-    "content": "What is 38% of 72?",
+    "content": "What is 41% of 63?",
     "type": "multiple_choice",
     "options": [
       "27",
-      "29",
+      "28",
       "26",
-      "28"
+      "25"
     ],
-    "correctAnswer": "27",
-    "explanation": "38% of 72 = (38/100) × 72 = 27",
+    "correctAnswer": "26",
+    "explanation": "41% of 63 = (41/100) × 63 = 26",
     "subject": "Mathematical Reasoning",
     "topic": "Percentages",
     "difficulty": "easy",
@@ -90,23 +96,25 @@
     "tags": [
       "mathematics",
       "percentages",
-      "build-time-generated"
+      "build-time-generated",
+      "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.917Z"
+    "createdAt": "2025-08-08T03:01:39.765Z",
+    "estimatedTime": 45
   },
   {
     "_id": "build_math_10_easy_4",
-    "content": "Solve for x: 2x + 5 = 21",
+    "content": "Solve for x: 2x + 13 = 31",
     "type": "multiple_choice",
     "options": [
       "8",
       "9",
       "10",
-      "7"
+      "11"
     ],
-    "correctAnswer": "8",
-    "explanation": "2x + 5 = 21, so 2x = 16, therefore x = 8",
+    "correctAnswer": "9",
+    "explanation": "2x + 13 = 31, so 2x = 18, therefore x = 9",
     "subject": "Mathematical Reasoning",
     "topic": "Algebra",
     "difficulty": "easy",
@@ -114,118 +122,75 @@
     "tags": [
       "mathematics",
       "algebra",
-      "build-time-generated"
+      "build-time-generated",
+      "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.917Z"
+    "createdAt": "2025-08-08T03:01:39.765Z",
+    "estimatedTime": 45
   },
   {
     "_id": "build_math_10_easy_5",
-    "content": "If f(x) = 2x -2, what is f(6)?",
+    "content": "What is 12 - 3?",
     "type": "multiple_choice",
     "options": [
       "10",
-      "9",
       "11",
-      "12"
+      "9",
+      "8"
     ],
-    "correctAnswer": "10",
-    "explanation": "f(6) = 2(6) -2 = 10",
+    "correctAnswer": "9",
+    "explanation": "12 - 3 = 9",
     "subject": "Mathematical Reasoning",
-    "topic": "Functions",
+    "topic": "Subtraction",
     "difficulty": "easy",
     "grade": 10,
     "tags": [
       "mathematics",
-      "functions",
-      "build-time-generated"
+      "build-time-generated",
+      "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.917Z"
+    "createdAt": "2025-08-08T03:01:39.765Z",
+    "estimatedTime": 45
   },
   {
     "_id": "build_math_10_easy_6",
-    "content": "What is sin(30°)?",
+    "content": "What is 2 × 4?",
     "type": "multiple_choice",
     "options": [
-      "1/2",
-      "1/2",
-      "√2/2",
-      "√3/2"
+      "7",
+      "9",
+      "8",
+      "10"
     ],
-    "correctAnswer": "1/2",
-    "explanation": "sin(30°) = 1/2 (special angle)",
+    "correctAnswer": "8",
+    "explanation": "2 × 4 = 8",
     "subject": "Mathematical Reasoning",
-    "topic": "Trigonometry",
+    "topic": "Multiplication",
     "difficulty": "easy",
     "grade": 10,
     "tags": [
       "mathematics",
-      "trigonometry",
-      "build-time-generated"
+      "build-time-generated",
+      "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.917Z"
+    "createdAt": "2025-08-08T03:01:39.765Z",
+    "estimatedTime": 45
   },
   {
     "_id": "build_math_10_easy_7",
-    "content": "What is 18% of 155?",
+    "content": "If f(x) = 3x -1, what is f(2)?",
     "type": "multiple_choice",
     "options": [
-      "28",
-      "29",
-      "27",
-      "30"
-    ],
-    "correctAnswer": "28",
-    "explanation": "18% of 155 = (18/100) × 155 = 28",
-    "subject": "Mathematical Reasoning",
-    "topic": "Percentages",
-    "difficulty": "easy",
-    "grade": 10,
-    "tags": [
-      "mathematics",
-      "percentages",
-      "build-time-generated"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.917Z"
-  },
-  {
-    "_id": "build_math_10_easy_8",
-    "content": "Solve for x: 5x + 5 = 20",
-    "type": "multiple_choice",
-    "options": [
-      "2",
       "4",
       "5",
-      "3"
+      "6",
+      "7"
     ],
-    "correctAnswer": "3",
-    "explanation": "5x + 5 = 20, so 5x = 15, therefore x = 3",
-    "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
-    "difficulty": "easy",
-    "grade": 10,
-    "tags": [
-      "mathematics",
-      "algebra",
-      "build-time-generated"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.917Z"
-  },
-  {
-    "_id": "build_math_10_easy_9",
-    "content": "If f(x) = 2x -2, what is f(1)?",
-    "type": "multiple_choice",
-    "options": [
-      "0",
-      "1",
-      "2"
-    ],
-    "correctAnswer": "0",
-    "explanation": "f(1) = 2(1) -2 = 0",
+    "correctAnswer": "5",
+    "explanation": "f(2) = 3(2) -1 = 5",
     "subject": "Mathematical Reasoning",
     "topic": "Functions",
     "difficulty": "easy",
@@ -233,23 +198,25 @@
     "tags": [
       "mathematics",
       "functions",
-      "build-time-generated"
+      "build-time-generated",
+      "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.917Z"
+    "createdAt": "2025-08-08T03:01:39.765Z",
+    "estimatedTime": 45
   },
   {
-    "_id": "build_math_10_easy_10",
-    "content": "What is sin(45°)?",
+    "_id": "build_math_10_easy_8",
+    "content": "What is sin(60°)?",
     "type": "multiple_choice",
     "options": [
-      "√2/2",
+      "√3/2",
       "1/2",
       "√2/2",
       "√3/2"
     ],
-    "correctAnswer": "√2/2",
-    "explanation": "sin(45°) = √2/2 (special angle)",
+    "correctAnswer": "√3/2",
+    "explanation": "sin(60°) = √3/2 (special angle)",
     "subject": "Mathematical Reasoning",
     "topic": "Trigonometry",
     "difficulty": "easy",
@@ -257,23 +224,74 @@
     "tags": [
       "mathematics",
       "trigonometry",
-      "build-time-generated"
+      "build-time-generated",
+      "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.917Z"
+    "createdAt": "2025-08-08T03:01:39.765Z",
+    "estimatedTime": 45
+  },
+  {
+    "_id": "build_math_10_easy_9",
+    "content": "What is 1 - 1?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "0",
+      "1"
+    ],
+    "correctAnswer": "0",
+    "explanation": "1 - 1 = 0",
+    "subject": "Mathematical Reasoning",
+    "topic": "Subtraction",
+    "difficulty": "easy",
+    "grade": 10,
+    "tags": [
+      "mathematics",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-08T03:01:39.765Z",
+    "estimatedTime": 45
+  },
+  {
+    "_id": "build_math_10_easy_10",
+    "content": "What is 6 × 7?",
+    "type": "multiple_choice",
+    "options": [
+      "42",
+      "44",
+      "41",
+      "43"
+    ],
+    "correctAnswer": "42",
+    "explanation": "6 × 7 = 42",
+    "subject": "Mathematical Reasoning",
+    "topic": "Multiplication",
+    "difficulty": "easy",
+    "grade": 10,
+    "tags": [
+      "mathematics",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-08T03:01:39.765Z",
+    "estimatedTime": 45
   },
   {
     "_id": "build_math_10_easy_11",
-    "content": "What is 50% of 90?",
+    "content": "What is 77% of 53?",
     "type": "multiple_choice",
     "options": [
-      "47",
-      "44",
-      "46",
-      "45"
+      "43",
+      "41",
+      "40",
+      "42"
     ],
-    "correctAnswer": "45",
-    "explanation": "50% of 90 = (50/100) × 90 = 45",
+    "correctAnswer": "41",
+    "explanation": "77% of 53 = (77/100) × 53 = 41",
     "subject": "Mathematical Reasoning",
     "topic": "Percentages",
     "difficulty": "easy",
@@ -281,23 +299,25 @@
     "tags": [
       "mathematics",
       "percentages",
-      "build-time-generated"
+      "build-time-generated",
+      "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.917Z"
+    "createdAt": "2025-08-08T03:01:39.765Z",
+    "estimatedTime": 45
   },
   {
     "_id": "build_math_10_easy_12",
-    "content": "Solve for x: 2x + 17 = 33",
+    "content": "Solve for x: 8x + 8 = 80",
     "type": "multiple_choice",
     "options": [
-      "10",
       "9",
-      "8",
-      "7"
+      "11",
+      "10",
+      "8"
     ],
-    "correctAnswer": "8",
-    "explanation": "2x + 17 = 33, so 2x = 16, therefore x = 8",
+    "correctAnswer": "9",
+    "explanation": "8x + 8 = 80, so 8x = 72, therefore x = 9",
     "subject": "Mathematical Reasoning",
     "topic": "Algebra",
     "difficulty": "easy",
@@ -305,23 +325,25 @@
     "tags": [
       "mathematics",
       "algebra",
-      "build-time-generated"
+      "build-time-generated",
+      "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.917Z"
+    "createdAt": "2025-08-08T03:01:39.765Z",
+    "estimatedTime": 45
   },
   {
     "_id": "build_math_10_easy_13",
-    "content": "If f(x) = 3x -4, what is f(3)?",
+    "content": "If f(x) = 2x +3, what is f(2)?",
     "type": "multiple_choice",
     "options": [
       "6",
-      "4",
-      "5",
-      "7"
+      "8",
+      "7",
+      "9"
     ],
-    "correctAnswer": "5",
-    "explanation": "f(3) = 3(3) -4 = 5",
+    "correctAnswer": "7",
+    "explanation": "f(2) = 2(2) +3 = 7",
     "subject": "Mathematical Reasoning",
     "topic": "Functions",
     "difficulty": "easy",
@@ -329,10 +351,12 @@
     "tags": [
       "mathematics",
       "functions",
-      "build-time-generated"
+      "build-time-generated",
+      "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.917Z"
+    "createdAt": "2025-08-08T03:01:39.765Z",
+    "estimatedTime": 45
   },
   {
     "_id": "build_math_10_easy_14",
@@ -353,23 +377,25 @@
     "tags": [
       "mathematics",
       "trigonometry",
-      "build-time-generated"
+      "build-time-generated",
+      "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.917Z"
+    "createdAt": "2025-08-08T03:01:39.765Z",
+    "estimatedTime": 45
   },
   {
     "_id": "build_math_10_easy_15",
-    "content": "What is 20% of 166?",
+    "content": "What is 85% of 140?",
     "type": "multiple_choice",
     "options": [
-      "34",
-      "32",
-      "33",
-      "35"
+      "118",
+      "120",
+      "121",
+      "119"
     ],
-    "correctAnswer": "33",
-    "explanation": "20% of 166 = (20/100) × 166 = 33",
+    "correctAnswer": "119",
+    "explanation": "85% of 140 = (85/100) × 140 = 119",
     "subject": "Mathematical Reasoning",
     "topic": "Percentages",
     "difficulty": "easy",
@@ -377,23 +403,25 @@
     "tags": [
       "mathematics",
       "percentages",
-      "build-time-generated"
+      "build-time-generated",
+      "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.917Z"
+    "createdAt": "2025-08-08T03:01:39.765Z",
+    "estimatedTime": 45
   },
   {
     "_id": "build_math_10_easy_16",
-    "content": "Solve for x: 6x + 5 = 11",
+    "content": "Solve for x: 8x + 20 = 84",
     "type": "multiple_choice",
     "options": [
-      "3",
-      "2",
-      "2",
-      "1"
+      "8",
+      "9",
+      "7",
+      "10"
     ],
-    "correctAnswer": "1",
-    "explanation": "6x + 5 = 11, so 6x = 6, therefore x = 1",
+    "correctAnswer": "8",
+    "explanation": "8x + 20 = 84, so 8x = 64, therefore x = 8",
     "subject": "Mathematical Reasoning",
     "topic": "Algebra",
     "difficulty": "easy",
@@ -401,119 +429,74 @@
     "tags": [
       "mathematics",
       "algebra",
-      "build-time-generated"
+      "build-time-generated",
+      "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.917Z"
+    "createdAt": "2025-08-08T03:01:39.765Z",
+    "estimatedTime": 45
   },
   {
     "_id": "build_math_10_easy_17",
-    "content": "If f(x) = 2x +0, what is f(6)?",
+    "content": "What is 4 - 4?",
     "type": "multiple_choice",
     "options": [
-      "14",
-      "11",
-      "13",
-      "12"
+      "0",
+      "2",
+      "1"
     ],
-    "correctAnswer": "12",
-    "explanation": "f(6) = 2(6) +0 = 12",
+    "correctAnswer": "0",
+    "explanation": "4 - 4 = 0",
     "subject": "Mathematical Reasoning",
-    "topic": "Functions",
+    "topic": "Subtraction",
     "difficulty": "easy",
     "grade": 10,
     "tags": [
       "mathematics",
-      "functions",
-      "build-time-generated"
+      "build-time-generated",
+      "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.917Z"
+    "createdAt": "2025-08-08T03:01:39.765Z",
+    "estimatedTime": 45
   },
   {
     "_id": "build_math_10_easy_18",
-    "content": "What is sin(30°)?",
+    "content": "What is 5 × 2?",
     "type": "multiple_choice",
     "options": [
-      "1/2",
-      "1/2",
-      "√2/2",
-      "√3/2"
+      "11",
+      "9",
+      "10",
+      "12"
     ],
-    "correctAnswer": "1/2",
-    "explanation": "sin(30°) = 1/2 (special angle)",
+    "correctAnswer": "10",
+    "explanation": "5 × 2 = 10",
     "subject": "Mathematical Reasoning",
-    "topic": "Trigonometry",
+    "topic": "Multiplication",
     "difficulty": "easy",
     "grade": 10,
     "tags": [
       "mathematics",
-      "trigonometry",
-      "build-time-generated"
+      "build-time-generated",
+      "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.917Z"
+    "createdAt": "2025-08-08T03:01:39.765Z",
+    "estimatedTime": 45
   },
   {
     "_id": "build_math_10_easy_19",
-    "content": "What is 11% of 161?",
+    "content": "If f(x) = 4x +3, what is f(2)?",
     "type": "multiple_choice",
     "options": [
-      "20",
-      "19",
-      "18",
-      "17"
+      "13",
+      "10",
+      "12",
+      "11"
     ],
-    "correctAnswer": "18",
-    "explanation": "11% of 161 = (11/100) × 161 = 18",
-    "subject": "Mathematical Reasoning",
-    "topic": "Percentages",
-    "difficulty": "easy",
-    "grade": 10,
-    "tags": [
-      "mathematics",
-      "percentages",
-      "build-time-generated"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.917Z"
-  },
-  {
-    "_id": "build_math_10_easy_20",
-    "content": "Solve for x: 2x + 13 = 15",
-    "type": "multiple_choice",
-    "options": [
-      "2",
-      "1",
-      "2",
-      "3"
-    ],
-    "correctAnswer": "1",
-    "explanation": "2x + 13 = 15, so 2x = 2, therefore x = 1",
-    "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
-    "difficulty": "easy",
-    "grade": 10,
-    "tags": [
-      "mathematics",
-      "algebra",
-      "build-time-generated"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.917Z"
-  },
-  {
-    "_id": "build_math_10_easy_21",
-    "content": "If f(x) = 3x +5, what is f(6)?",
-    "type": "multiple_choice",
-    "options": [
-      "25",
-      "23",
-      "24",
-      "22"
-    ],
-    "correctAnswer": "23",
-    "explanation": "f(6) = 3(6) +5 = 23",
+    "correctAnswer": "11",
+    "explanation": "f(2) = 4(2) +3 = 11",
     "subject": "Mathematical Reasoning",
     "topic": "Functions",
     "difficulty": "easy",
@@ -521,23 +504,25 @@
     "tags": [
       "mathematics",
       "functions",
-      "build-time-generated"
+      "build-time-generated",
+      "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.917Z"
+    "createdAt": "2025-08-08T03:01:39.765Z",
+    "estimatedTime": 45
   },
   {
-    "_id": "build_math_10_easy_22",
-    "content": "What is sin(45°)?",
+    "_id": "build_math_10_easy_20",
+    "content": "What is sin(60°)?",
     "type": "multiple_choice",
     "options": [
-      "√2/2",
+      "√3/2",
       "1/2",
       "√2/2",
       "√3/2"
     ],
-    "correctAnswer": "√2/2",
-    "explanation": "sin(45°) = √2/2 (special angle)",
+    "correctAnswer": "√3/2",
+    "explanation": "sin(60°) = √3/2 (special angle)",
     "subject": "Mathematical Reasoning",
     "topic": "Trigonometry",
     "difficulty": "easy",
@@ -545,23 +530,75 @@
     "tags": [
       "mathematics",
       "trigonometry",
-      "build-time-generated"
+      "build-time-generated",
+      "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.917Z"
+    "createdAt": "2025-08-08T03:01:39.765Z",
+    "estimatedTime": 45
+  },
+  {
+    "_id": "build_math_10_easy_21",
+    "content": "What is 14 - 7?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "9",
+      "8",
+      "6"
+    ],
+    "correctAnswer": "7",
+    "explanation": "14 - 7 = 7",
+    "subject": "Mathematical Reasoning",
+    "topic": "Subtraction",
+    "difficulty": "easy",
+    "grade": 10,
+    "tags": [
+      "mathematics",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-08T03:01:39.765Z",
+    "estimatedTime": 45
+  },
+  {
+    "_id": "build_math_10_easy_22",
+    "content": "What is 2 × 7?",
+    "type": "multiple_choice",
+    "options": [
+      "15",
+      "13",
+      "16",
+      "14"
+    ],
+    "correctAnswer": "14",
+    "explanation": "2 × 7 = 14",
+    "subject": "Mathematical Reasoning",
+    "topic": "Multiplication",
+    "difficulty": "easy",
+    "grade": 10,
+    "tags": [
+      "mathematics",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-08T03:01:39.765Z",
+    "estimatedTime": 45
   },
   {
     "_id": "build_math_10_easy_23",
-    "content": "What is 38% of 160?",
+    "content": "What is 55% of 145?",
     "type": "multiple_choice",
     "options": [
-      "60",
-      "62",
-      "63",
-      "61"
+      "80",
+      "81",
+      "82",
+      "79"
     ],
-    "correctAnswer": "61",
-    "explanation": "38% of 160 = (38/100) × 160 = 61",
+    "correctAnswer": "80",
+    "explanation": "55% of 145 = (55/100) × 145 = 80",
     "subject": "Mathematical Reasoning",
     "topic": "Percentages",
     "difficulty": "easy",
@@ -569,23 +606,25 @@
     "tags": [
       "mathematics",
       "percentages",
-      "build-time-generated"
+      "build-time-generated",
+      "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.917Z"
+    "createdAt": "2025-08-08T03:01:39.765Z",
+    "estimatedTime": 45
   },
   {
     "_id": "build_math_10_easy_24",
-    "content": "Solve for x: 5x + 11 = 26",
+    "content": "Solve for x: 2x + 18 = 34",
     "type": "multiple_choice",
     "options": [
-      "4",
-      "2",
-      "3",
-      "5"
+      "8",
+      "9",
+      "10",
+      "7"
     ],
-    "correctAnswer": "3",
-    "explanation": "5x + 11 = 26, so 5x = 15, therefore x = 3",
+    "correctAnswer": "8",
+    "explanation": "2x + 18 = 34, so 2x = 16, therefore x = 8",
     "subject": "Mathematical Reasoning",
     "topic": "Algebra",
     "difficulty": "easy",
@@ -593,9 +632,11 @@
     "tags": [
       "mathematics",
       "algebra",
-      "build-time-generated"
+      "build-time-generated",
+      "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-08T02:03:07.917Z"
+    "createdAt": "2025-08-08T03:01:39.765Z",
+    "estimatedTime": 45
   }
 ]
