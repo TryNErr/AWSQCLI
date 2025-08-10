@@ -167,7 +167,17 @@ const EnhancedPractice: React.FC = () => {
   };
 
   const startSingleQuestion = (questionId: string) => {
-    navigate(`/practice/question/${questionId}`);
+    // Build URL with session parameters to maintain filters
+    const params = new URLSearchParams();
+    if (selectedGrade) params.set('grade', selectedGrade);
+    if (selectedDifficulty) params.set('difficulty', selectedDifficulty);
+    if (selectedSubject) params.set('subject', selectedSubject);
+    
+    const paramString = params.toString();
+    const url = `/practice/question/${questionId}${paramString ? `?${paramString}` : ''}`;
+    
+    console.log(`🎯 Starting single question with maintained filters: ${url}`);
+    navigate(url);
   };
 
   const isReadyToStart = selectedGrade && selectedDifficulty;

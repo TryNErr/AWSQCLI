@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Test Filter Fix - Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .demo-section {
+            background: #f5f5f5;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            border-left: 4px solid #2196F3;
+        }
+        .before {
+            border-left-color: #f44336;
+            background: #ffebee;
+        }
+        .after {
+            border-left-color: #4caf50;
+            background: #e8f5e9;
+        }
+        .url-example {
+            background: #333;
+            color: #fff;
+            padding: 10px;
+            border-radius: 4px;
+            font-family: monospace;
+            margin: 10px 0;
+        }
+        .step {
+            margin: 10px 0;
+            padding: 10px;
+            background: white;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+        .success {
+            color: #4caf50;
+            font-weight: bold;
+        }
+        .error {
+            color: #f44336;
+            font-weight: bold;
+        }
+        .filter-display {
+            background: #2196F3;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+        .chip {
+            display: inline-block;
+            background: white;
+            color: #2196F3;
+            padding: 4px 12px;
+            border-radius: 16px;
+            margin: 4px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎯 Practice Test Filter Fix - Interactive Demo</h1>
+    
+    <p>This demo shows how the practice test filter issue has been fixed to maintain grade and difficulty consistency.</p>
+
+    <div class="demo-section before">
+        <h2>❌ Before Fix - The Problem</h2>
+        
+        <div class="step">
+            <strong>Step 1:</strong> User selects filters
+            <br>Grade: 5, Difficulty: Medium, Subject: Math
+        </div>
+        
+        <div class="step">
+            <strong>Step 2:</strong> User clicks "Practice This" on a question tile
+            <div class="url-example">/practice/question/abc123</div>
+            <em>❌ No session parameters in URL</em>
+        </div>
+        
+        <div class="step">
+            <strong>Step 3:</strong> User answers question and clicks "Try Another Question"
+            <br><span class="error">Result: Random grade/difficulty question appears!</span>
+            <br><em>User gets frustrated - questions don't match their selection</em>
+        </div>
+    </div>
+
+    <div class="demo-section after">
+        <h2>✅ After Fix - The Solution</h2>
+        
+        <div class="step">
+            <strong>Step 1:</strong> User selects filters
+            <br>Grade: 5, Difficulty: Medium, Subject: Math
+        </div>
+        
+        <div class="step">
+            <strong>Step 2:</strong> User clicks "Practice This" on a question tile
+            <div class="url-example">/practice/question/abc123?grade=5&difficulty=medium&subject=Math</div>
+            <em>✅ Session parameters preserved in URL</em>
+        </div>
+        
+        <div class="step">
+            <strong>Step 3:</strong> Question page shows active filters
+            <div class="filter-display">
+                🎯 Practice Session Filters Active:
+                <br>
+                <span class="chip">Grade 5</span>
+                <span class="chip">Medium</span>
+                <span class="chip">Math</span>
+                <br>
+                <small>Next questions will maintain these filters</small>
+            </div>
+        </div>
+        
+        <div class="step">
+            <strong>Step 4:</strong> User answers question and clicks "Next Question (Same Filters)"
+            <br><span class="success">Result: Another Grade 5, Medium, Math question appears!</span>
+            <br><em>User is happy - consistent learning experience</em>
+        </div>
+    </div>
+
+    <div class="demo-section">
+        <h2>🔧 Technical Implementation</h2>
+        
+        <h3>1. Enhanced Practice Component</h3>
+        <p>Now passes session parameters when navigating to individual questions:</p>
+        <pre style="background: #f5f5f5; padding: 10px; border-radius: 4px; overflow-x: auto;">
+const startSingleQuestion = (questionId: string) => {
+  const params = new URLSearchParams();
+  if (selectedGrade) params.set('grade', selectedGrade);
+  if (selectedDifficulty) params.set('difficulty', selectedDifficulty);
+  if (selectedSubject) params.set('subject', selectedSubject);
+  
+  const url = `/practice/question/${questionId}?${params.toString()}`;
+  navigate(url);
+};</pre>
+
+        <h3>2. Question Component</h3>
+        <p>Extracts and maintains session parameters:</p>
+        <pre style="background: #f5f5f5; padding: 10px; border-radius: 4px; overflow-x: auto;">
+const [searchParams] = useSearchParams();
+const sessionGrade = searchParams.get('grade');
+const sessionDifficulty = searchParams.get('difficulty');
+const sessionSubject = searchParams.get('subject');</pre>
+
+        <h3>3. BulletproofPracticeSystem Integration</h3>
+        <p>Uses maintained filters for next question generation:</p>
+        <pre style="background: #f5f5f5; padding: 10px; border-radius: 4px; overflow-x: auto;">
+const questionPool = await BulletproofPracticeSystem.getPracticeQuestions({
+  grade: targetGrade,
+  difficulty: targetDifficulty,
+  subject: targetSubject,
+  count: 5
+});</pre>
+    </div>
+
+    <div class="demo-section">
+        <h2>🎉 Benefits</h2>
+        <ul>
+            <li><strong>Consistent Learning Experience:</strong> Users get questions that match their selected criteria</li>
+            <li><strong>No More Random Questions:</strong> Filters are maintained throughout the session</li>
+            <li><strong>Visual Feedback:</strong> Users can see which filters are active</li>
+            <li><strong>Professional Quality:</strong> Uses BulletproofPracticeSystem for validated questions</li>
+            <li><strong>URL-based State:</strong> Session parameters are preserved in the URL</li>
+            <li><strong>Error Handling:</strong> Graceful fallbacks if question generation fails</li>
+        </ul>
+    </div>
+
+    <div class="demo-section">
+        <h2>🧪 Test the Fix</h2>
+        <p>To test the fix in the application:</p>
+        <ol>
+            <li>Go to the Enhanced Practice page</li>
+            <li>Select specific Grade, Difficulty, and Subject</li>
+            <li>Click "Practice This" on any question tile</li>
+            <li>Notice the URL contains your session parameters</li>
+            <li>See the filter display at the top of the question</li>
+            <li>Answer the question and click "Next Question (Same Filters)"</li>
+            <li>Verify the next question matches your original selection!</li>
+        </ol>
+    </div>
+
+    <script>
+        // Add some interactivity
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('🎯 Practice Test Filter Fix Demo Loaded');
+            console.log('The fix ensures consistent grade and difficulty in practice sessions!');
+        });
+    </script>
+</body>
+</html>

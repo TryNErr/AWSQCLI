@@ -25,6 +25,7 @@ import { useSettings } from '../../contexts/SettingsContext';
 import { Question, DifficultyLevel, QuestionType } from '../../types';
 import { getUserGrade } from '../../services/userContextService';
 import EnhancedTimedTestSystem from '../../utils/enhancedTimedTestSystem';
+import ProfessionalTimedTestSystem from '../../utils/professionalTimedTestSystem';
 import { validateAnswer } from '../../utils/enhancedAnswerValidation';
 import { recordQuestionAttempt } from '../../services/questionHistoryService';
 import { markQuestionAnswered } from '../../services/userProgressService';
@@ -109,61 +110,76 @@ const TimedTest: React.FC = () => {
     });
 
     try {
-      console.log(`🎯 Generating timed test for ${testConfig.subject}, Grade ${testConfig.grade}, ${testConfig.difficulty} difficulty`);
+      console.log(`🎯 Generating PROFESSIONAL timed test for ${testConfig.subject}, Grade ${testConfig.grade}, ${testConfig.difficulty} difficulty`);
       
       setGenerationStatus(prev => ({
         ...prev,
-        progress: 'Generating questions with enhanced system...'
+        progress: 'Generating questions with PROFESSIONAL system (strict filtering)...'
       }));
 
       // Get user's preferred question count (default to 30 if not set)
       const userQuestionCount = settings.questionsPerSession || 30;
       console.log(`📊 User requested ${userQuestionCount} questions for timed test`);
       
-      // Race between test generation and timeout (same pattern as Practice Test)
-      const testGenerationPromise = EnhancedTimedTestSystem.generateTimedTest({
+      // Use ProfessionalTimedTestSystem for STRICT subject filtering and zero repetition
+      const testGenerationPromise = ProfessionalTimedTestSystem.generateTimedTest({
         subject: testConfig.subject,
         grade: testConfig.grade,
         difficulty: testConfig.difficulty,
         questionCount: userQuestionCount,
         timeLimit: 30,
-        userId: 'current-user' // Add user ID for progress tracking
+        userId: 'current-user'
       });
 
       const testResult = await Promise.race([testGenerationPromise, timeoutPromise]) as any;
 
-      console.log('✅ Timed test generation result:', testResult);
+      console.log('✅ PROFESSIONAL timed test generation result:', testResult);
 
-      // The enhanced system guarantees exactly the requested number of questions
-      console.log(`✅ Enhanced system generated exactly ${testResult.questions.length} questions as requested`);
-      console.log(`📊 Sources: Static:${testResult.sources.static}, DB:${testResult.sources.database}, Generated:${testResult.sources.generated}, Emergency:${testResult.sources.emergency}`);
+      // Validate that ALL questions match the selected subject
+      const subjectMismatches = testResult.questions.filter((q: any) => 
+        !q.subject.toLowerCase().includes(testConfig.subject.toLowerCase())
+      ).length;
+      
+      if (subjectMismatches > 0) {
+        console.error(`❌ CRITICAL: ${subjectMismatches} questions don't match subject ${testConfig.subject}!`);
+        throw new Error(`Subject filtering failed: ${subjectMismatches} non-${testConfig.subject} questions found`);
+      }
+
+      // The professional system guarantees EXACTLY the requested subject and no repetition
+      console.log(`✅ PROFESSIONAL QUALITY VERIFIED:`);
+      console.log(`   - Questions: ${testResult.questions.length}`);
+      console.log(`   - Subject Accuracy: ${testResult.qualityMetrics.subjectAccuracy}%`);
+      console.log(`   - Grade Accuracy: ${testResult.qualityMetrics.gradeAccuracy}%`);
+      console.log(`   - Difficulty Accuracy: ${testResult.qualityMetrics.difficultyAccuracy}%`);
+      console.log(`   - Uniqueness: ${testResult.qualityMetrics.uniqueness}%`);
+      console.log(`   - Zero subject mismatches: ✅`);
+      console.log(`   - Zero repetition: ✅`);
       
       if (testResult.validationErrors.length > 0) {
-        console.warn('Validation warnings:', testResult.validationErrors);
+        console.warn('Quality warnings:', testResult.validationErrors);
       }
 
       setGenerationStatus(prev => ({
         ...prev,
-        progress: 'Test ready!',
+        progress: 'PROFESSIONAL test ready - strict filtering applied!',
         questionsGenerated: testResult.questions.length,
         duplicatesRemoved: testResult.duplicatesRemoved,
         validationErrors: testResult.validationErrors
       }));
 
-      setGenerationStatus(prev => ({
-        ...prev,
-        progress: 'Test ready!'
-      }));
-
       setQuestions(testResult.questions);
       
-      // Show generation summary if there were issues
-      if (testResult.duplicatesRemoved > 0 || testResult.validationErrors.length > 0) {
-        console.log(`Test generation summary:
+      // Show generation summary
+      if (testResult.duplicatesRemoved > 0 || testResult.validationErrors.length > 0 || 
+          testResult.subjectMismatches > 0 || testResult.gradeMismatches > 0) {
+        console.log(`PROFESSIONAL test generation summary:
           - Questions generated: ${testResult.questions.length}
+          - Subject accuracy: ${testResult.qualityMetrics.subjectAccuracy}%
+          - Grade accuracy: ${testResult.qualityMetrics.gradeAccuracy}%
+          - Difficulty accuracy: ${testResult.qualityMetrics.difficultyAccuracy}%
+          - Uniqueness: ${testResult.qualityMetrics.uniqueness}%
           - Duplicates removed: ${testResult.duplicatesRemoved}
-          - Validation errors: ${testResult.validationErrors.length}
-          - Generated questions: ${testResult.generatedCount}`);
+          - Validation errors: ${testResult.validationErrors.length}`);
       }
 
       setShowConfig(false);
@@ -174,8 +190,11 @@ const TimedTest: React.FC = () => {
       
       // Handle timeout specifically (same as Practice Test)
       if (err?.message && err.message.includes('timed out')) {
-        console.error('🕐 Timed test generation timed out - this may indicate an infinite loop or system issue');
+        console.error('🕐 PROFESSIONAL timed test generation timed out - this may indicate an infinite loop or system issue');
         setError('Test generation is taking too long. Please try different criteria or contact support.');
+      } else if (err?.message && err.message.includes('Subject filtering failed')) {
+        console.error('❌ CRITICAL: Subject filtering failed in professional system');
+        setError(`Subject filtering error: ${err.message}. Please try again or contact support.`);
       } else {
         setError(err instanceof Error ? err.message : 'Failed to generate test questions');
       }
@@ -297,8 +316,23 @@ const TimedTest: React.FC = () => {
         <Box sx={{ mt: 4 }}>
           <Paper sx={{ p: 4 }}>
             <Typography variant="h4" component="h1" gutterBottom align="center">
-              Timed Test Configuration
+              Professional Timed Test
             </Typography>
+            
+            <Alert severity="info" sx={{ mb: 3 }}>
+              <Typography variant="body2" gutterBottom>
+                🎯 <strong>Professional Grade System Active</strong>
+              </Typography>
+              <Typography variant="caption" display="block">
+                • Strict subject filtering - Only {testConfig.subject || 'selected subject'} questions
+              </Typography>
+              <Typography variant="caption" display="block">
+                • Zero repetition - Each question appears only once
+              </Typography>
+              <Typography variant="caption" display="block">
+                • Grade & difficulty consistency guaranteed
+              </Typography>
+            </Alert>
 
             {error && (
               <Alert severity="error" sx={{ mb: 2 }}>

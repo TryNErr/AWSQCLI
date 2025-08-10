@@ -14,7 +14,7 @@ import {
   CircularProgress,
   Stack
 } from '@mui/material';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams, useNavigate, useSearchParams } from 'react-router-dom';
 import { ArrowBack, CheckCircle, Cancel, Refresh } from '@mui/icons-material';
 import { Question as QuestionType, DifficultyLevel } from '../../types';
 import { questionData } from './questionData';
@@ -27,6 +27,7 @@ import { generateEnhancedQuestion } from '../../utils/enhancedQuestionSystem';
 import { generateThinkingSkillsQuestions } from '../../utils/thinkingSkillsQuestionGenerator';
 import { generateEnglishQuestions } from '../../utils/englishQuestionGenerator';
 import { generateMathematicalReasoningQuestions } from '../../utils/mathematicalReasoningQuestionGenerator';
+import BulletproofPracticeSystem from '../../utils/bulletproofPracticeSystem';
 
 // Helper function to shuffle an array
 const shuffleArray = function<T>(array: T[]): T[] {
@@ -38,9 +39,20 @@ const shuffleArray = function<T>(array: T[]): T[] {
   return newArray;
 };
 
+// Helper function to convert difficulty string to enum
+const getDifficultyLevel = (difficulty: string): DifficultyLevel => {
+  switch (difficulty?.toLowerCase()) {
+    case 'easy': return DifficultyLevel.EASY;
+    case 'medium': return DifficultyLevel.MEDIUM;
+    case 'hard': return DifficultyLevel.HARD;
+    default: return DifficultyLevel.MEDIUM;
+  }
+};
+
 const Question: React.FC = () => {
   const { id } = useParams();
   const navigate = useNavigate();
+  const [searchParams] = useSearchParams();
   const [question, setQuestion] = useState<QuestionType | null>(null);
   const [selectedAnswer, setSelectedAnswer] = useState('');
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -48,6 +60,11 @@ const Question: React.FC = () => {
   const [loading, setLoading] = useState(true);
   const [showExplanation, setShowExplanation] = useState(false);
   const [loadingNextQuestion, setLoadingNextQuestion] = useState(false);
+
+  // Get session parameters from URL to maintain filters
+  const sessionGrade = searchParams.get('grade');
+  const sessionDifficulty = searchParams.get('difficulty');
+  const sessionSubject = searchParams.get('subject');
 
   const loadQuestion = (questionId: string) => {
     setLoading(true);
@@ -184,32 +201,93 @@ const Question: React.FC = () => {
     return null;
   };
 
-  const handleTryAnotherQuestion = () => {
+  const handleTryAnotherQuestion = async () => {
     setLoadingNextQuestion(true);
     
-    // First, try to get an existing unanswered question
-    let nextQuestion = getNextQuestion();
-    
-    // If no existing questions available, generate a new one
-    if (!nextQuestion) {
-      nextQuestion = generateNewQuestion();
-    }
-    
-    if (nextQuestion) {
-      // Load the new question directly
-      setQuestion(nextQuestion);
-      setSelectedAnswer('');
-      setIsSubmitted(false);
-      setIsCorrect(false);
-      setShowExplanation(false);
-      setLoadingNextQuestion(false);
+    try {
+      // Determine the grade and difficulty to use for the next question
+      let targetGrade = sessionGrade || question?.grade || getUserGrade().toString();
+      let targetDifficulty = sessionDifficulty ? getDifficultyLevel(sessionDifficulty) : (question?.difficulty || DifficultyLevel.MEDIUM);
+      let targetSubject = sessionSubject || question?.subject;
       
-      // Update URL without navigation
-      window.history.pushState(null, '', `/practice/question/${nextQuestion._id}`);
-    } else {
-      // If no questions available, go back to practice page
+      console.log(`🎯 Getting next question with filters: Grade ${targetGrade}, ${targetDifficulty}${targetSubject ? `, ${targetSubject}` : ''}`);
+      
+      // Use BulletproofPracticeSystem to get questions with maintained filters
+      const questionPool = await BulletproofPracticeSystem.getPracticeQuestions({
+        grade: targetGrade,
+        difficulty: targetDifficulty,
+        subject: targetSubject,
+        count: 5 // Get 5 questions to have options
+      });
+      
+      if (questionPool.questions.length > 0) {
+        // Filter out the current question if it's in the results
+        const availableQuestions = questionPool.questions.filter(q => q._id !== question?._id);
+        
+        if (availableQuestions.length > 0) {
+          // Select a random question from the available ones
+          const nextQuestion = availableQuestions[Math.floor(Math.random() * availableQuestions.length)];
+          
+          console.log(`✅ Selected next question: ${nextQuestion.subject} - Grade ${nextQuestion.grade} - ${nextQuestion.difficulty}`);
+          
+          // Load the new question directly
+          setQuestion(nextQuestion);
+          setSelectedAnswer('');
+          setIsSubmitted(false);
+          setIsCorrect(false);
+          setShowExplanation(false);
+          
+          // Update URL to maintain session parameters
+          const params = new URLSearchParams();
+          if (sessionGrade) params.set('grade', sessionGrade);
+          if (sessionDifficulty) params.set('difficulty', sessionDifficulty);
+          if (sessionSubject) params.set('subject', sessionSubject);
+          
+          const paramString = params.toString();
+          const newUrl = `/practice/question/${nextQuestion._id}${paramString ? `?${paramString}` : ''}`;
+          window.history.pushState(null, '', newUrl);
+          
+          setLoadingNextQuestion(false);
+          return;
+        }
+      }
+      
+      // If no questions available with current filters, show message and go back
+      console.warn('⚠️ No more questions available with current filters');
+      alert('No more questions available with the current filters. Returning to practice selection.');
+      navigate('/practice/enhanced');
+      
+    } catch (error) {
+      console.error('Error getting next question:', error);
+      
+      // Fallback: try to generate a single question using the old method
+      try {
+        const nextQuestion = generateNewQuestion();
+        if (nextQuestion) {
+          setQuestion(nextQuestion);
+          setSelectedAnswer('');
+          setIsSubmitted(false);
+          setIsCorrect(false);
+          setShowExplanation(false);
+          
+          // Update URL to maintain session parameters
+          const params = new URLSearchParams();
+          if (sessionGrade) params.set('grade', sessionGrade);
+          if (sessionDifficulty) params.set('difficulty', sessionDifficulty);
+          if (sessionSubject) params.set('subject', sessionSubject);
+          
+          const paramString = params.toString();
+          const newUrl = `/practice/question/${nextQuestion._id}${paramString ? `?${paramString}` : ''}`;
+          window.history.pushState(null, '', newUrl);
+        } else {
+          navigate('/practice/enhanced');
+        }
+      } catch (fallbackError) {
+        console.error('Fallback question generation also failed:', fallbackError);
+        navigate('/practice/enhanced');
+      }
+    } finally {
       setLoadingNextQuestion(false);
-      navigate('/practice');
     }
   };
 
@@ -290,6 +368,47 @@ const Question: React.FC = () => {
         </Button>
 
         <Paper sx={{ p: 4 }}>
+          {/* Session Filter Display */}
+          {(sessionGrade || sessionDifficulty || sessionSubject) && (
+            <Box sx={{ mb: 3, p: 2, bgcolor: 'primary.light', borderRadius: 1 }}>
+              <Typography variant="body2" color="primary.contrastText" gutterBottom>
+                🎯 Practice Session Filters Active:
+              </Typography>
+              <Stack direction="row" spacing={1} flexWrap="wrap">
+                {sessionGrade && (
+                  <Chip 
+                    label={`Grade ${sessionGrade}`} 
+                    size="small" 
+                    color="primary" 
+                    variant="outlined"
+                    sx={{ bgcolor: 'white' }}
+                  />
+                )}
+                {sessionDifficulty && (
+                  <Chip 
+                    label={sessionDifficulty.charAt(0).toUpperCase() + sessionDifficulty.slice(1)} 
+                    size="small" 
+                    color="secondary" 
+                    variant="outlined"
+                    sx={{ bgcolor: 'white' }}
+                  />
+                )}
+                {sessionSubject && (
+                  <Chip 
+                    label={sessionSubject} 
+                    size="small" 
+                    color="info" 
+                    variant="outlined"
+                    sx={{ bgcolor: 'white' }}
+                  />
+                )}
+              </Stack>
+              <Typography variant="caption" color="primary.contrastText" sx={{ mt: 1, display: 'block' }}>
+                Next questions will maintain these filters
+              </Typography>
+            </Box>
+          )}
+
           {/* Top Action Bar - Show after submission */}
           {isSubmitted && (
             <Box sx={{ mb: 3, display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: 2 }}>
@@ -314,7 +433,11 @@ const Question: React.FC = () => {
                 startIcon={loadingNextQuestion ? <CircularProgress size={16} /> : <Refresh />}
                 sx={{ minWidth: '180px' }}
               >
-                {loadingNextQuestion ? 'Loading...' : 'Try Another Question'}
+                {loadingNextQuestion ? 'Loading...' : 
+                  (sessionGrade || sessionDifficulty || sessionSubject) ? 
+                    'Next Question (Same Filters)' : 
+                    'Try Another Question'
+                }
               </Button>
             </Box>
           )}
@@ -420,7 +543,11 @@ const Question: React.FC = () => {
                 sx={{ mt: 3 }}
                 fullWidth
               >
-                {loadingNextQuestion ? 'Loading Next Question...' : 'Try Another Question'}
+                {loadingNextQuestion ? 'Loading Next Question...' : 
+                  (sessionGrade || sessionDifficulty || sessionSubject) ? 
+                    'Next Question (Same Filters)' : 
+                    'Try Another Question'
+                }
               </Button>
             </Box>
           )}
