@@ -1,6 +1,7 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import { User } from '../types';
 import { getOverallProgress } from '../services/userProgressService';
+import loadingManager from '../utils/loadingManager';
 
 interface AuthContextType {
   user: User | null;
@@ -45,6 +46,16 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   };
 
   useEffect(() => {
+    // Set auth loading state with timeout protection
+    loadingManager.setLoading('auth-initialization', true, 5000);
+    
+    // Add timeout protection to prevent infinite loading
+    const loadingTimeout = setTimeout(() => {
+      console.warn('Auth loading timeout - forcing loading to false');
+      setLoading(false);
+      loadingManager.setLoading('auth-initialization', false);
+    }, 5000); // 5 second timeout
+    
     // Check for stored user data on mount
     const storedUser = localStorage.getItem('user');
     if (storedUser) {
@@ -58,7 +69,10 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
         localStorage.removeItem('user');
       }
     }
+    
     setLoading(false);
+    loadingManager.setLoading('auth-initialization', false);
+    clearTimeout(loadingTimeout);
   }, []);
 
   const register = async (email: string, password: string, name: string, grade: string) => {

@@ -19,18 +19,53 @@ import Register from './pages/Auth/Register';
 import { AuthProvider } from './contexts/AuthContext';
 import { SettingsProvider } from './contexts/SettingsContext';
 import StaticQuestionLoader from './utils/staticQuestionLoader';
+import loadingManager from './utils/loadingManager';
 
 function App() {
   useEffect(() => {
+    // Initialize loading manager and hide HTML loading indicator
+    loadingManager.initialize();
+    
+    // Set app loading state
+    loadingManager.setLoading('app-initialization', true, 8000);
+    
+    // Hide the HTML loading indicator when React app mounts
+    const hideLoadingIndicator = () => {
+      const indicator = document.getElementById('loading-indicator');
+      if (indicator) {
+        indicator.style.display = 'none';
+      }
+    };
+    
+    // Hide immediately when component mounts
+    hideLoadingIndicator();
+    
     // Optional: Preload common combinations in the background (very lightweight)
-    StaticQuestionLoader.preloadCommon().catch(error => {
-      console.warn('Background preloading failed (non-critical):', error);
-    });
+    StaticQuestionLoader.preloadCommon()
+      .then(() => {
+        console.log('✅ Static questions preloaded successfully');
+      })
+      .catch(error => {
+        console.warn('Background preloading failed (non-critical):', error);
+      });
     
     // Load manifest to check available questions
-    StaticQuestionLoader.loadManifest().catch(error => {
-      console.warn('Failed to load question manifest (non-critical):', error);
-    });
+    StaticQuestionLoader.loadManifest()
+      .then(() => {
+        console.log('✅ Question manifest loaded successfully');
+      })
+      .catch(error => {
+        console.warn('Failed to load question manifest (non-critical):', error);
+      })
+      .finally(() => {
+        // Clear app initialization loading
+        loadingManager.setLoading('app-initialization', false);
+      });
+    
+    // Cleanup function
+    return () => {
+      loadingManager.clearAllLoading();
+    };
   }, []);
 
   return (

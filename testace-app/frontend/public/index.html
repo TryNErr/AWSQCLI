@@ -48,11 +48,35 @@
     
     <script>
       // Show loading indicator if app takes too long to load
-      setTimeout(function() {
+      let loadingTimeout = setTimeout(function() {
         if (!document.querySelector('#root').hasChildNodes()) {
           document.getElementById('loading-indicator').style.display = 'block';
         }
       }, 1000);
+      
+      // Hide loading indicator when React app mounts
+      function hideLoadingIndicator() {
+        const indicator = document.getElementById('loading-indicator');
+        if (indicator) {
+          indicator.style.display = 'none';
+        }
+        clearTimeout(loadingTimeout);
+      }
+      
+      // Check periodically if React app has mounted
+      const checkInterval = setInterval(function() {
+        const root = document.querySelector('#root');
+        if (root && root.hasChildNodes() && root.children.length > 0) {
+          hideLoadingIndicator();
+          clearInterval(checkInterval);
+        }
+      }, 100);
+      
+      // Fallback: hide after 10 seconds regardless
+      setTimeout(function() {
+        hideLoadingIndicator();
+        clearInterval(checkInterval);
+      }, 10000);
     </script>
   </body>
 </html>
