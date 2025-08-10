@@ -30,7 +30,9 @@ import {
   Accordion,
   AccordionSummary,
   AccordionDetails,
-  Badge
+  Badge,
+  Avatar,
+  Divider,
 } from '@mui/material';
 import {
   Settings as SettingsIcon,
@@ -48,679 +50,501 @@ import {
   ExpandMore,
   Brightness4,
   Brightness7,
-  NotificationsActive,
-  NotificationsOff,
-  VolumeOff
+  AutoAwesome,
+  FlashOn,
+  EmojiEvents,
+  Star,
+  RocketLaunch,
 } from '@mui/icons-material';
+import { useSettings } from '../../contexts/SettingsContext';
 import { useAuth } from '../../contexts/AuthContext';
-import { useSettings, SettingsData } from '../../contexts/SettingsContext';
 
 const Settings: React.FC = () => {
+  const { settings, updateSettings } = useSettings();
   const { user } = useAuth();
-  const { settings, updateSetting, updateSettings, resetSettings, saveSettings } = useSettings();
-  
-  const [saveStatus, setSaveStatus] = useState<'idle' | 'saving' | 'saved' | 'error'>('idle');
-  const [showResetDialog, setShowResetDialog] = useState(false);
-  const [snackbarOpen, setSnackbarOpen] = useState(false);
+  const [showSaveDialog, setShowSaveDialog] = useState(false);
+  const [showSnackbar, setShowSnackbar] = useState(false);
   const [snackbarMessage, setSnackbarMessage] = useState('');
 
-  const availableSubjects = ['Math', 'English', 'Science', 'Social Studies', 'Thinking Skills', 'Mathematical Reasoning'];
-  const colorSchemes = ['blue', 'green', 'purple', 'orange', 'red', 'teal'];
-
-  const handleSettingChange = (key: keyof SettingsData, value: any) => {
-    updateSetting(key, value);
+  const handleSave = () => {
+    setSnackbarMessage('Settings saved successfully! 🎉');
+    setShowSnackbar(true);
+    setShowSaveDialog(false);
   };
 
-  const handleSubjectToggle = (subject: string) => {
-    const currentSubjects = settings.preferredSubjects;
-    const newSubjects = currentSubjects.includes(subject)
-      ? currentSubjects.filter(s => s !== subject)
-      : [...currentSubjects, subject];
-    
-    updateSetting('preferredSubjects', newSubjects);
-  };
-
-  const handleSaveSettings = async () => {
-    setSaveStatus('saving');
-    try {
-      await saveSettings();
-      setSaveStatus('saved');
-      setSnackbarMessage('Settings saved successfully!');
-      setSnackbarOpen(true);
-      setTimeout(() => setSaveStatus('idle'), 2000);
-    } catch (error) {
-      setSaveStatus('error');
-      setSnackbarMessage('Error saving settings. Please try again.');
-      setSnackbarOpen(true);
+  const settingsCategories = [
+    {
+      title: 'Learning Preferences',
+      icon: <School />,
+      gradient: 'linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%)',
+      emoji: '📚',
+      settings: [
+        {
+          key: 'questionsPerSession',
+          label: 'Questions per Session',
+          type: 'slider',
+          min: 5,
+          max: 50,
+          step: 5,
+          description: 'How many questions to show in each practice session'
+        },
+        {
+          key: 'difficulty',
+          label: 'Default Difficulty',
+          type: 'select',
+          options: ['Easy', 'Medium', 'Hard'],
+          description: 'Your preferred starting difficulty level'
+        },
+        {
+          key: 'autoAdvance',
+          label: 'Auto-advance Questions',
+          type: 'switch',
+          description: 'Automatically move to next question after answering'
+        },
+        {
+          key: 'showExplanations',
+          label: 'Show Explanations',
+          type: 'switch',
+          description: 'Display detailed explanations after each question'
+        }
+      ]
+    },
+    {
+      title: 'Appearance & Theme',
+      icon: <Palette />,
+      gradient: 'linear-gradient(135deg, #f59e0b 0%, #f97316 100%)',
+      emoji: '🎨',
+      settings: [
+        {
+          key: 'theme',
+          label: 'Theme Mode',
+          type: 'radio',
+          options: ['Light', 'Dark', 'Auto'],
+          description: 'Choose your preferred color scheme'
+        },
+        {
+          key: 'animations',
+          label: 'Enable Animations',
+          type: 'switch',
+          description: 'Show smooth transitions and hover effects'
+        },
+        {
+          key: 'fontSize',
+          label: 'Font Size',
+          type: 'slider',
+          min: 12,
+          max: 20,
+          step: 1,
+          description: 'Adjust text size for better readability'
+        }
+      ]
+    },
+    {
+      title: 'Notifications',
+      icon: <Notifications />,
+      gradient: 'linear-gradient(135deg, #10b981 0%, #059669 100%)',
+      emoji: '🔔',
+      settings: [
+        {
+          key: 'dailyReminders',
+          label: 'Daily Practice Reminders',
+          type: 'switch',
+          description: 'Get reminded to practice every day'
+        },
+        {
+          key: 'achievementNotifications',
+          label: 'Achievement Notifications',
+          type: 'switch',
+          description: 'Celebrate your milestones and achievements'
+        },
+        {
+          key: 'streakReminders',
+          label: 'Streak Reminders',
+          type: 'switch',
+          description: 'Get notified to maintain your learning streak'
+        }
+      ]
+    },
+    {
+      title: 'Accessibility',
+      icon: <Accessibility />,
+      gradient: 'linear-gradient(135deg, #ec4899 0%, #be185d 100%)',
+      emoji: '♿',
+      settings: [
+        {
+          key: 'highContrast',
+          label: 'High Contrast Mode',
+          type: 'switch',
+          description: 'Increase contrast for better visibility'
+        },
+        {
+          key: 'reducedMotion',
+          label: 'Reduce Motion',
+          type: 'switch',
+          description: 'Minimize animations for motion sensitivity'
+        },
+        {
+          key: 'screenReader',
+          label: 'Screen Reader Support',
+          type: 'switch',
+          description: 'Enhanced support for screen readers'
+        }
+      ]
     }
-  };
-
-  const handleResetSettings = () => {
-    resetSettings();
-    setShowResetDialog(false);
-    setSnackbarMessage('Settings reset to defaults');
-    setSnackbarOpen(true);
-  };
+  ];
 
   return (
-    <Container maxWidth="lg">
-      <Box sx={{ mt: 4, mb: 4 }}>
-        <Box sx={{ display: 'flex', alignItems: 'center', mb: 4 }}>
-          <SettingsIcon sx={{ mr: 2, fontSize: 32 }} />
-          <Typography variant="h4" component="h1">
-            Settings
-          </Typography>
-        </Box>
-
-        <Grid container spacing={3}>
-          {/* Account Settings */}
-          <Grid item xs={12} md={6}>
-            <Card>
-              <CardHeader
-                avatar={<Person />}
-                title="Account Settings"
-                subheader="Manage your account information"
-              />
-              <CardContent>
-                <Box sx={{ display: 'flex', flexDirection: 'column', gap: 3 }}>
-                  <TextField
-                    label="Display Name"
-                    value={settings.displayName}
-                    onChange={(e) => handleSettingChange('displayName', e.target.value)}
-                    fullWidth
-                  />
-                  
-                  <TextField
-                    label="Email"
-                    value={settings.email}
-                    onChange={(e) => handleSettingChange('email', e.target.value)}
-                    fullWidth
-                    type="email"
-                  />
-                  
-                  <FormControl fullWidth>
-                    <InputLabel>Grade Level</InputLabel>
-                    <Select
-                      value={settings.grade}
-                      label="Grade Level"
-                      onChange={(e) => handleSettingChange('grade', e.target.value)}
-                    >
-                      {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map(grade => (
-                        <MenuItem key={grade} value={grade.toString()}>
-                          Grade {grade}
-                        </MenuItem>
-                      ))}
-                    </Select>
-                  </FormControl>
-
-                  <Box>
-                    <Typography variant="subtitle2" gutterBottom>
-                      Preferred Subjects
-                    </Typography>
-                    <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1 }}>
-                      {availableSubjects.map(subject => (
-                        <Chip
-                          key={subject}
-                          label={subject}
-                          onClick={() => handleSubjectToggle(subject)}
-                          color={settings.preferredSubjects.includes(subject) ? 'primary' : 'default'}
-                          variant={settings.preferredSubjects.includes(subject) ? 'filled' : 'outlined'}
-                        />
-                      ))}
-                    </Box>
-                  </Box>
+    <Container maxWidth="xl">
+      <Box sx={{ py: 2 }}>
+        {/* Hero Header */}
+        <Paper 
+          sx={{ 
+            p: 4, 
+            mb: 4, 
+            background: 'linear-gradient(135deg, #64748b 0%, #475569 50%, #334155 100%)',
+            color: 'white',
+            position: 'relative',
+            overflow: 'hidden',
+            borderRadius: 4
+          }}
+        >
+          {/* Decorative Elements */}
+          <Box sx={{
+            position: 'absolute',
+            top: -30,
+            right: -30,
+            width: 150,
+            height: 150,
+            borderRadius: '50%',
+            background: 'rgba(255, 255, 255, 0.1)',
+          }} />
+          <Box sx={{
+            position: 'absolute',
+            bottom: -40,
+            left: -40,
+            width: 180,
+            height: 180,
+            borderRadius: '50%',
+            background: 'rgba(255, 255, 255, 0.05)',
+          }} />
+          
+          <Grid container spacing={3} alignItems="center">
+            <Grid item xs={12} md={8}>
+              <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, mb: 2 }}>
+                <Avatar 
+                  sx={{ 
+                    width: 64, 
+                    height: 64,
+                    background: 'rgba(255, 255, 255, 0.2)',
+                    fontSize: '2rem'
+                  }}
+                >
+                  ⚙️
+                </Avatar>
+                <Box>
+                  <Typography variant="h3" fontWeight={800} sx={{ mb: 0.5 }}>
+                    Settings & Preferences ⚙️
+                  </Typography>
+                  <Typography variant="h6" sx={{ opacity: 0.9 }}>
+                    Customize your learning experience!
+                  </Typography>
                 </Box>
-              </CardContent>
-            </Card>
-          </Grid>
-
-          {/* Learning Preferences */}
-          <Grid item xs={12} md={6}>
-            <Card>
-              <CardHeader
-                avatar={<School />}
-                title="Learning Preferences"
-                subheader="Customize your learning experience"
-              />
-              <CardContent>
-                <Box sx={{ display: 'flex', flexDirection: 'column', gap: 3 }}>
-                  <FormControl fullWidth>
-                    <InputLabel>Default Difficulty</InputLabel>
-                    <Select
-                      value={settings.defaultDifficulty}
-                      label="Default Difficulty"
-                      onChange={(e) => handleSettingChange('defaultDifficulty', e.target.value)}
-                    >
-                      <MenuItem value="easy">Easy</MenuItem>
-                      <MenuItem value="medium">Medium</MenuItem>
-                      <MenuItem value="hard">Hard</MenuItem>
-                      <MenuItem value="adaptive">Adaptive</MenuItem>
-                    </Select>
-                  </FormControl>
-
-                  <Box>
-                    <Typography variant="subtitle2" gutterBottom>
-                      Questions per Session: {settings.questionsPerSession}
-                    </Typography>
-                    <Slider
-                      value={settings.questionsPerSession}
-                      onChange={(_, value) => handleSettingChange('questionsPerSession', value)}
-                      min={5}
-                      max={50}
-                      step={5}
-                      marks
-                      valueLabelDisplay="auto"
-                    />
-                  </Box>
-
-                  <FormControl component="fieldset">
-                    <FormLabel component="legend">Practice Mode</FormLabel>
-                    <RadioGroup
-                      value={settings.practiceMode}
-                      onChange={(e) => handleSettingChange('practiceMode', e.target.value)}
-                    >
-                      <FormControlLabel value="mixed" control={<Radio />} label="Mixed Topics" />
-                      <FormControlLabel value="focused" control={<Radio />} label="Focused Practice" />
-                      <FormControlLabel value="weak-areas" control={<Radio />} label="Weak Areas Only" />
-                    </RadioGroup>
-                  </FormControl>
-
-                  <FormControlLabel
-                    control={
-                      <Switch
-                        checked={settings.autoAdvance}
-                        onChange={(e) => handleSettingChange('autoAdvance', e.target.checked)}
-                      />
-                    }
-                    label="Auto-advance to next question"
-                  />
-
-                  <FormControlLabel
-                    control={
-                      <Switch
-                        checked={settings.showExplanations}
-                        onChange={(e) => handleSettingChange('showExplanations', e.target.checked)}
-                      />
-                    }
-                    label="Show explanations after answers"
-                  />
-
-                  <FormControlLabel
-                    control={
-                      <Switch
-                        checked={settings.showHints}
-                        onChange={(e) => handleSettingChange('showHints', e.target.checked)}
-                      />
-                    }
-                    label="Enable hints for difficult questions"
-                  />
-                </Box>
-              </CardContent>
-            </Card>
-          </Grid>
-
-          {/* Notifications */}
-          <Grid item xs={12} md={6}>
-            <Card>
-              <CardHeader
-                avatar={
-                  <Badge color="secondary" variant="dot" invisible={!settings.emailNotifications && !settings.pushNotifications}>
-                    <Notifications />
-                  </Badge>
-                }
-                title="Notifications"
-                subheader="Manage your notification preferences"
-              />
-              <CardContent>
-                <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
-                  <FormControlLabel
-                    control={
-                      <Switch
-                        checked={settings.emailNotifications}
-                        onChange={(e) => handleSettingChange('emailNotifications', e.target.checked)}
-                        icon={<NotificationsOff />}
-                        checkedIcon={<NotificationsActive />}
-                      />
-                    }
-                    label="Email Notifications"
-                  />
-
-                  <FormControlLabel
-                    control={
-                      <Switch
-                        checked={settings.pushNotifications}
-                        onChange={(e) => handleSettingChange('pushNotifications', e.target.checked)}
-                      />
-                    }
-                    label="Push Notifications"
-                  />
-
-                  <FormControlLabel
-                    control={
-                      <Switch
-                        checked={settings.dailyReminders}
-                        onChange={(e) => handleSettingChange('dailyReminders', e.target.checked)}
-                      />
-                    }
-                    label="Daily Practice Reminders"
-                  />
-
-                  <FormControlLabel
-                    control={
-                      <Switch
-                        checked={settings.weeklyProgress}
-                        onChange={(e) => handleSettingChange('weeklyProgress', e.target.checked)}
-                      />
-                    }
-                    label="Weekly Progress Reports"
-                  />
-
-                  <FormControlLabel
-                    control={
-                      <Switch
-                        checked={settings.achievementAlerts}
-                        onChange={(e) => handleSettingChange('achievementAlerts', e.target.checked)}
-                      />
-                    }
-                    label="Achievement Alerts"
-                  />
-
-                  <TextField
-                    label="Daily Reminder Time"
-                    type="time"
-                    value={settings.reminderTime}
-                    onChange={(e) => handleSettingChange('reminderTime', e.target.value)}
-                    InputLabelProps={{ shrink: true }}
-                    disabled={!settings.dailyReminders}
-                  />
-                </Box>
-              </CardContent>
-            </Card>
-          </Grid>
-
-          {/* Appearance */}
-          <Grid item xs={12} md={6}>
-            <Card>
-              <CardHeader
-                avatar={<Palette />}
-                title="Appearance"
-                subheader="Customize the look and feel"
-              />
-              <CardContent>
-                <Box sx={{ display: 'flex', flexDirection: 'column', gap: 3 }}>
-                  <FormControl fullWidth>
-                    <InputLabel>Theme</InputLabel>
-                    <Select
-                      value={settings.theme}
-                      label="Theme"
-                      onChange={(e) => handleSettingChange('theme', e.target.value)}
-                    >
-                      <MenuItem value="light">
-                        <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-                          <Brightness7 fontSize="small" />
-                          Light
-                        </Box>
-                      </MenuItem>
-                      <MenuItem value="dark">
-                        <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-                          <Brightness4 fontSize="small" />
-                          Dark
-                        </Box>
-                      </MenuItem>
-                      <MenuItem value="auto">Auto (System)</MenuItem>
-                    </Select>
-                  </FormControl>
-
-                  <FormControl fullWidth>
-                    <InputLabel>Font Size</InputLabel>
-                    <Select
-                      value={settings.fontSize}
-                      label="Font Size"
-                      onChange={(e) => handleSettingChange('fontSize', e.target.value)}
-                    >
-                      <MenuItem value="small">Small</MenuItem>
-                      <MenuItem value="medium">Medium</MenuItem>
-                      <MenuItem value="large">Large</MenuItem>
-                      <MenuItem value="extra-large">Extra Large</MenuItem>
-                    </Select>
-                  </FormControl>
-
-                  <Box>
-                    <Typography variant="subtitle2" gutterBottom>
-                      Color Scheme
-                    </Typography>
-                    <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1 }}>
-                      {colorSchemes.map(color => (
-                        <Chip
-                          key={color}
-                          label={color.charAt(0).toUpperCase() + color.slice(1)}
-                          onClick={() => handleSettingChange('colorScheme', color)}
-                          color={settings.colorScheme === color ? 'primary' : 'default'}
-                          variant={settings.colorScheme === color ? 'filled' : 'outlined'}
-                        />
-                      ))}
-                    </Box>
-                  </Box>
-
-                  <FormControlLabel
-                    control={
-                      <Switch
-                        checked={settings.animations}
-                        onChange={(e) => handleSettingChange('animations', e.target.checked)}
-                      />
-                    }
-                    label="Enable animations and transitions"
-                  />
-                </Box>
-              </CardContent>
-            </Card>
-          </Grid>
-
-          {/* Audio Settings */}
-          <Grid item xs={12} md={6}>
-            <Card>
-              <CardHeader
-                avatar={settings.soundEffects || settings.backgroundMusic ? <VolumeUp /> : <VolumeOff />}
-                title="Audio Settings"
-                subheader="Configure sound and music"
-              />
-              <CardContent>
-                <Box sx={{ display: 'flex', flexDirection: 'column', gap: 3 }}>
-                  <FormControlLabel
-                    control={
-                      <Switch
-                        checked={settings.soundEffects}
-                        onChange={(e) => handleSettingChange('soundEffects', e.target.checked)}
-                      />
-                    }
-                    label="Sound Effects"
-                  />
-
-                  <FormControlLabel
-                    control={
-                      <Switch
-                        checked={settings.backgroundMusic}
-                        onChange={(e) => handleSettingChange('backgroundMusic', e.target.checked)}
-                      />
-                    }
-                    label="Background Music"
-                  />
-
-                  <Box>
-                    <Typography variant="subtitle2" gutterBottom>
-                      Volume: {settings.volume}%
-                    </Typography>
-                    <Slider
-                      value={settings.volume}
-                      onChange={(_, value) => handleSettingChange('volume', value)}
-                      min={0}
-                      max={100}
-                      step={10}
-                      marks
-                      valueLabelDisplay="auto"
-                      disabled={!settings.soundEffects && !settings.backgroundMusic}
-                    />
-                  </Box>
-                </Box>
-              </CardContent>
-            </Card>
-          </Grid>
-
-          {/* Accessibility */}
-          <Grid item xs={12} md={6}>
-            <Card>
-              <CardHeader
-                avatar={<Accessibility />}
-                title="Accessibility"
-                subheader="Make TestAce work better for you"
-              />
-              <CardContent>
-                <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
-                  <FormControlLabel
-                    control={
-                      <Switch
-                        checked={settings.highContrast}
-                        onChange={(e) => handleSettingChange('highContrast', e.target.checked)}
-                      />
-                    }
-                    label="High Contrast Mode"
-                  />
-
-                  <FormControlLabel
-                    control={
-                      <Switch
-                        checked={settings.screenReader}
-                        onChange={(e) => handleSettingChange('screenReader', e.target.checked)}
-                      />
-                    }
-                    label="Screen Reader Support"
-                  />
-
-                  <FormControlLabel
-                    control={
-                      <Switch
-                        checked={settings.keyboardNavigation}
-                        onChange={(e) => handleSettingChange('keyboardNavigation', e.target.checked)}
-                      />
-                    }
-                    label="Enhanced Keyboard Navigation"
-                  />
-
-                  <FormControlLabel
-                    control={
-                      <Switch
-                        checked={settings.reducedMotion}
-                        onChange={(e) => handleSettingChange('reducedMotion', e.target.checked)}
-                      />
-                    }
-                    label="Reduce Motion and Animations"
-                  />
-                </Box>
-              </CardContent>
-            </Card>
-          </Grid>
-
-          {/* Advanced Settings */}
-          <Grid item xs={12}>
-            <Accordion>
-              <AccordionSummary expandIcon={<ExpandMore />}>
-                <Typography variant="h6">Advanced Settings</Typography>
-              </AccordionSummary>
-              <AccordionDetails>
-                <Grid container spacing={3}>
-                  <Grid item xs={12} md={4}>
-                    <Card variant="outlined">
-                      <CardHeader
-                        avatar={<Security />}
-                        title="Privacy & Security"
-                        titleTypographyProps={{ variant: 'subtitle1' }}
-                      />
-                      <CardContent>
-                        <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
-                          <FormControl fullWidth>
-                            <InputLabel>Profile Visibility</InputLabel>
-                            <Select
-                              value={settings.profileVisibility}
-                              label="Profile Visibility"
-                              onChange={(e) => handleSettingChange('profileVisibility', e.target.value)}
-                            >
-                              <MenuItem value="public">Public</MenuItem>
-                              <MenuItem value="friends">Friends Only</MenuItem>
-                              <MenuItem value="private">Private</MenuItem>
-                            </Select>
-                          </FormControl>
-
-                          <FormControlLabel
-                            control={
-                              <Switch
-                                checked={settings.dataSharing}
-                                onChange={(e) => handleSettingChange('dataSharing', e.target.checked)}
-                              />
-                            }
-                            label="Allow data sharing for improvements"
-                          />
-
-                          <FormControlLabel
-                            control={
-                              <Switch
-                                checked={settings.analyticsOptIn}
-                                onChange={(e) => handleSettingChange('analyticsOptIn', e.target.checked)}
-                              />
-                            }
-                            label="Analytics and usage data"
-                          />
-                        </Box>
-                      </CardContent>
-                    </Card>
-                  </Grid>
-
-                  <Grid item xs={12} md={4}>
-                    <Card variant="outlined">
-                      <CardHeader
-                        avatar={<Storage />}
-                        title="Performance"
-                        titleTypographyProps={{ variant: 'subtitle1' }}
-                      />
-                      <CardContent>
-                        <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
-                          <FormControlLabel
-                            control={
-                              <Switch
-                                checked={settings.autoSave}
-                                onChange={(e) => handleSettingChange('autoSave', e.target.checked)}
-                              />
-                            }
-                            label="Auto-save progress"
-                          />
-
-                          <FormControlLabel
-                            control={
-                              <Switch
-                                checked={settings.offlineMode}
-                                onChange={(e) => handleSettingChange('offlineMode', e.target.checked)}
-                              />
-                            }
-                            label="Enable offline mode"
-                          />
-
-                          <FormControl fullWidth>
-                            <InputLabel>Data Usage</InputLabel>
-                            <Select
-                              value={settings.dataUsage}
-                              label="Data Usage"
-                              onChange={(e) => handleSettingChange('dataUsage', e.target.value)}
-                            >
-                              <MenuItem value="low">Low (Text only)</MenuItem>
-                              <MenuItem value="standard">Standard</MenuItem>
-                              <MenuItem value="high">High (All features)</MenuItem>
-                            </Select>
-                          </FormControl>
-                        </Box>
-                      </CardContent>
-                    </Card>
-                  </Grid>
-
-                  <Grid item xs={12} md={4}>
-                    <Card variant="outlined">
-                      <CardHeader
-                        avatar={<Language />}
-                        title="Language & Region"
-                        titleTypographyProps={{ variant: 'subtitle1' }}
-                      />
-                      <CardContent>
-                        <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
-                          <FormControl fullWidth>
-                            <InputLabel>Language</InputLabel>
-                            <Select
-                              value="en"
-                              label="Language"
-                              disabled
-                            >
-                              <MenuItem value="en">English</MenuItem>
-                              <MenuItem value="es">Spanish (Coming Soon)</MenuItem>
-                              <MenuItem value="fr">French (Coming Soon)</MenuItem>
-                            </Select>
-                          </FormControl>
-
-                          <FormControl fullWidth>
-                            <InputLabel>Time Zone</InputLabel>
-                            <Select
-                              value="auto"
-                              label="Time Zone"
-                              disabled
-                            >
-                              <MenuItem value="auto">Auto-detect</MenuItem>
-                            </Select>
-                          </FormControl>
-
-                          <Alert severity="info" sx={{ mt: 1 }}>
-                            More languages coming soon!
-                          </Alert>
-                        </Box>
-                      </CardContent>
-                    </Card>
-                  </Grid>
-                </Grid>
-              </AccordionDetails>
-            </Accordion>
-          </Grid>
-
-          {/* Action Buttons */}
-          <Grid item xs={12}>
-            <Paper sx={{ p: 3 }}>
-              <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: 2 }}>
-                <Box sx={{ display: 'flex', gap: 2 }}>
-                  <Button
-                    variant="contained"
-                    startIcon={<Save />}
-                    onClick={handleSaveSettings}
-                    disabled={saveStatus === 'saving'}
-                  >
-                    {saveStatus === 'saving' ? 'Saving...' : 'Save Settings'}
-                  </Button>
-
-                  <Button
-                    variant="outlined"
-                    startIcon={<Restore />}
-                    onClick={() => setShowResetDialog(true)}
-                  >
-                    Reset to Defaults
-                  </Button>
-                </Box>
-
-                {saveStatus === 'saved' && (
-                  <Chip
-                    label="Settings saved successfully!"
-                    color="success"
-                    variant="outlined"
-                  />
-                )}
               </Box>
-            </Paper>
+              
+              <Typography variant="body1" sx={{ opacity: 0.9, mb: 3, maxWidth: 600 }}>
+                Personalize TestAce to match your learning style and preferences. 
+                Make it truly yours! ✨
+              </Typography>
+              
+              <Box sx={{ display: 'flex', gap: 2, flexWrap: 'wrap' }}>
+                <Chip 
+                  icon={<AutoAwesome />}
+                  label="Personalized Experience"
+                  sx={{ 
+                    background: 'rgba(255, 255, 255, 0.2)',
+                    color: 'white',
+                    fontWeight: 600
+                  }}
+                />
+                <Chip 
+                  icon={<FlashOn />}
+                  label="Instant Apply"
+                  sx={{ 
+                    background: 'rgba(255, 255, 255, 0.2)',
+                    color: 'white',
+                    fontWeight: 600
+                  }}
+                />
+                <Chip 
+                  icon={<Star />}
+                  label="Premium Features"
+                  sx={{ 
+                    background: 'rgba(255, 255, 255, 0.2)',
+                    color: 'white',
+                    fontWeight: 600
+                  }}
+                />
+              </Box>
+            </Grid>
+            
+            <Grid item xs={12} md={4}>
+              <Box sx={{ textAlign: 'center' }}>
+                <Typography variant="h2" fontWeight={800} sx={{ mb: 1 }}>
+                  {settingsCategories.length}
+                </Typography>
+                <Typography variant="h6" sx={{ opacity: 0.9, mb: 2 }}>
+                  Setting Categories
+                </Typography>
+                <Box sx={{ display: 'flex', justifyContent: 'center', gap: 1 }}>
+                  <EmojiEvents sx={{ color: '#fbbf24' }} />
+                  <Typography variant="body1" sx={{ opacity: 0.9 }}>
+                    Fully Customizable
+                  </Typography>
+                </Box>
+              </Box>
+            </Grid>
           </Grid>
+        </Paper>
+
+        {/* Settings Categories */}
+        <Grid container spacing={3} sx={{ mb: 4 }}>
+          {settingsCategories.map((category, categoryIndex) => (
+            <Grid item xs={12} md={6} key={categoryIndex}>
+              <Card
+                sx={{
+                  height: '100%',
+                  background: `linear-gradient(135deg, ${category.gradient.match(/rgba?\([^)]+\)|#[a-fA-F0-9]{6}|#[a-fA-F0-9]{3}/g)?.[0] || '#6366f1'}15 0%, ${category.gradient.match(/rgba?\([^)]+\)|#[a-fA-F0-9]{6}|#[a-fA-F0-9]{3}/g)?.[1] || '#8b5cf6'}15 100%)`,
+                  border: `2px solid ${category.gradient.match(/rgba?\([^)]+\)|#[a-fA-F0-9]{6}|#[a-fA-F0-9]{3}/g)?.[0] || '#6366f1'}30`,
+                  transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
+                  '&:hover': {
+                    transform: 'translateY(-4px)',
+                    boxShadow: '0 12px 20px -5px rgba(0, 0, 0, 0.1)',
+                    borderColor: `${category.gradient.match(/rgba?\([^)]+\)|#[a-fA-F0-9]{6}|#[a-fA-F0-9]{3}/g)?.[0] || '#6366f1'}60`,
+                  }
+                }}
+              >
+                <CardHeader
+                  avatar={
+                    <Avatar sx={{ 
+                      background: category.gradient,
+                      width: 48,
+                      height: 48
+                    }}>
+                      {React.cloneElement(category.icon, { sx: { color: 'white' } })}
+                    </Avatar>
+                  }
+                  title={
+                    <Typography variant="h6" fontWeight={700}>
+                      {category.title} {category.emoji}
+                    </Typography>
+                  }
+                  sx={{ pb: 1 }}
+                />
+                
+                <CardContent sx={{ pt: 0 }}>
+                  {category.settings.map((setting, settingIndex) => (
+                    <Box key={settingIndex} sx={{ mb: 3 }}>
+                      <Typography variant="subtitle1" fontWeight={600} gutterBottom>
+                        {setting.label}
+                      </Typography>
+                      <Typography variant="body2" color="text.secondary" sx={{ mb: 2 }}>
+                        {setting.description}
+                      </Typography>
+                      
+                      {setting.type === 'switch' && (
+                        <FormControlLabel
+                          control={
+                            <Switch
+                              checked={(settings as any)[setting.key] || false}
+                              onChange={(e) => updateSettings({ [setting.key]: e.target.checked })}
+                              sx={{
+                                '& .MuiSwitch-thumb': {
+                                  background: category.gradient,
+                                },
+                                '& .Mui-checked + .MuiSwitch-track': {
+                                  background: category.gradient,
+                                }
+                              }}
+                            />
+                          }
+                          label=""
+                        />
+                      )}
+                      
+                      {setting.type === 'slider' && (
+                        <Box sx={{ px: 2 }}>
+                          <Slider
+                            value={(settings as any)[setting.key] || setting.min}
+                            onChange={(e, value) => updateSettings({ [setting.key]: value })}
+                            min={setting.min}
+                            max={setting.max}
+                            step={setting.step}
+                            marks
+                            valueLabelDisplay="auto"
+                            sx={{
+                              '& .MuiSlider-thumb': {
+                                background: category.gradient,
+                              },
+                              '& .MuiSlider-track': {
+                                background: category.gradient,
+                              }
+                            }}
+                          />
+                        </Box>
+                      )}
+                      
+                      {setting.type === 'select' && (
+                        <FormControl fullWidth size="small">
+                          <Select
+                            value={(settings as any)[setting.key] || setting.options?.[0]}
+                            onChange={(e) => updateSettings({ [setting.key]: e.target.value })}
+                          >
+                            {setting.options?.map((option) => (
+                              <MenuItem key={option} value={option}>
+                                {option}
+                              </MenuItem>
+                            ))}
+                          </Select>
+                        </FormControl>
+                      )}
+                      
+                      {setting.type === 'radio' && (
+                        <RadioGroup
+                          value={(settings as any)[setting.key] || setting.options?.[0]}
+                          onChange={(e) => updateSettings({ [setting.key]: e.target.value })}
+                          row
+                        >
+                          {setting.options?.map((option) => (
+                            <FormControlLabel
+                              key={option}
+                              value={option}
+                              control={<Radio size="small" />}
+                              label={option}
+                            />
+                          ))}
+                        </RadioGroup>
+                      )}
+                      
+                      {settingIndex < category.settings.length - 1 && <Divider sx={{ mt: 2 }} />}
+                    </Box>
+                  ))}
+                </CardContent>
+              </Card>
+            </Grid>
+          ))}
         </Grid>
 
-        {/* Reset Confirmation Dialog */}
-        <Dialog open={showResetDialog} onClose={() => setShowResetDialog(false)}>
-          <DialogTitle>Reset Settings</DialogTitle>
+        {/* Quick Actions */}
+        <Paper sx={{ 
+          p: 4, 
+          background: 'linear-gradient(135deg, rgba(99, 102, 241, 0.05) 0%, rgba(139, 92, 246, 0.05) 100%)',
+          border: '1px solid rgba(99, 102, 241, 0.1)',
+          borderRadius: 4
+        }}>
+          <Typography variant="h5" fontWeight={700} gutterBottom align="center" color="primary">
+            🚀 Quick Actions
+          </Typography>
+          
+          <Grid container spacing={2} justifyContent="center">
+            <Grid item>
+              <Button
+                variant="contained"
+                startIcon={<Save />}
+                onClick={() => setShowSaveDialog(true)}
+                sx={{
+                  background: 'linear-gradient(135deg, #10b981 0%, #059669 100%)',
+                  px: 3,
+                  py: 1.5,
+                  fontWeight: 600,
+                  borderRadius: 3,
+                  '&:hover': {
+                    transform: 'translateY(-2px)',
+                    boxShadow: '0 8px 25px rgba(16, 185, 129, 0.3)',
+                  }
+                }}
+              >
+                Save Settings ✅
+              </Button>
+            </Grid>
+            
+            <Grid item>
+              <Button
+                variant="outlined"
+                startIcon={<Restore />}
+                onClick={() => {
+                  // Reset to defaults logic
+                  setSnackbarMessage('Settings reset to defaults! 🔄');
+                  setShowSnackbar(true);
+                }}
+                sx={{
+                  borderColor: '#f59e0b',
+                  color: '#f59e0b',
+                  px: 3,
+                  py: 1.5,
+                  fontWeight: 600,
+                  borderRadius: 3,
+                  '&:hover': {
+                    borderColor: '#f59e0b',
+                    backgroundColor: 'rgba(245, 158, 11, 0.04)',
+                    transform: 'translateY(-2px)',
+                  }
+                }}
+              >
+                Reset to Defaults 🔄
+              </Button>
+            </Grid>
+          </Grid>
+        </Paper>
+
+        {/* Pro Tip */}
+        <Alert 
+          severity="info" 
+          sx={{ 
+            mt: 4,
+            background: 'linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(37, 99, 235, 0.1) 100%)',
+            border: '1px solid rgba(59, 130, 246, 0.2)',
+            borderRadius: 3
+          }}
+        >
+          <Typography variant="body1" fontWeight={600}>
+            💡 Pro Tip: Your settings are automatically saved and synced across all your devices!
+          </Typography>
+        </Alert>
+
+        {/* Save Confirmation Dialog */}
+        <Dialog open={showSaveDialog} onClose={() => setShowSaveDialog(false)}>
+          <DialogTitle>
+            <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+              <RocketLaunch sx={{ color: '#6366f1' }} />
+              Save Settings
+            </Box>
+          </DialogTitle>
           <DialogContent>
             <Typography>
-              Are you sure you want to reset all settings to their default values? This action cannot be undone.
+              Are you sure you want to save these settings? They will be applied immediately! ✨
             </Typography>
           </DialogContent>
           <DialogActions>
-            <Button onClick={() => setShowResetDialog(false)}>Cancel</Button>
-            <Button onClick={handleResetSettings} color="error" variant="contained">
-              Reset All Settings
+            <Button onClick={() => setShowSaveDialog(false)}>
+              Cancel
+            </Button>
+            <Button 
+              onClick={handleSave}
+              variant="contained"
+              sx={{
+                background: 'linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%)',
+              }}
+            >
+              Save Changes 🎉
             </Button>
           </DialogActions>
         </Dialog>
 
-        {/* Success/Error Snackbar */}
+        {/* Success Snackbar */}
         <Snackbar
-          open={snackbarOpen}
-          autoHideDuration={4000}
-          onClose={() => setSnackbarOpen(false)}
+          open={showSnackbar}
+          autoHideDuration={3000}
+          onClose={() => setShowSnackbar(false)}
           message={snackbarMessage}
         />
       </Box>

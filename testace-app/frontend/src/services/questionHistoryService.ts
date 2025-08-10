@@ -162,9 +162,18 @@ export const getDifficultyPerformance = (): { difficulty: string; correct: numbe
   }));
 };
 
+// Cache for question details to prevent repeated searches
+const questionDetailsCache = new Map<string, any>();
+
 // Get full question details including options and explanation
 export const getQuestionDetails = (questionId: string): any => {
-  console.log(`Searching for question details for ID: ${questionId}`);
+  // Check cache first
+  if (questionDetailsCache.has(questionId)) {
+    console.log(`📋 Using cached question details for ID: ${questionId}`);
+    return questionDetailsCache.get(questionId);
+  }
+  
+  console.log(`🔍 Searching for question details for ID: ${questionId}`);
   
   // First check in the question history itself
   const historyKey = 'question_history';
@@ -176,8 +185,8 @@ export const getQuestionDetails = (questionId: string): any => {
         h.questionId === questionId && h.content && h.options);
       
       if (historyItem && historyItem.content && historyItem.options) {
-        console.log(`Found question details in history for ID: ${questionId}`);
-        return {
+        console.log(`✅ Found question details in history for ID: ${questionId}`);
+        const details = {
           content: historyItem.content,
           options: historyItem.options,
           explanation: historyItem.explanation || "No explanation available.",
@@ -185,6 +194,10 @@ export const getQuestionDetails = (questionId: string): any => {
           difficulty: historyItem.difficulty,
           grade: historyItem.grade
         };
+        
+        // Cache the result
+        questionDetailsCache.set(questionId, details);
+        return details;
       }
     } catch (error) {
       console.error('Error parsing question history:', error);
@@ -198,8 +211,8 @@ export const getQuestionDetails = (questionId: string): any => {
       const generatedQuestions = JSON.parse(generatedQuestionsStr);
       const question = generatedQuestions.find((q: any) => q._id === questionId);
       if (question) {
-        console.log(`Found question details in generated questions for ID: ${questionId}`);
-        return {
+        console.log(`✅ Found question details in generated questions for ID: ${questionId}`);
+        const details = {
           content: question.content,
           options: question.options,
           explanation: question.explanation,
@@ -207,6 +220,10 @@ export const getQuestionDetails = (questionId: string): any => {
           difficulty: question.difficulty,
           grade: question.grade
         };
+        
+        // Cache the result
+        questionDetailsCache.set(questionId, details);
+        return details;
       }
     } catch (error) {
       console.error('Error parsing generated questions:', error);
@@ -220,8 +237,8 @@ export const getQuestionDetails = (questionId: string): any => {
       const questionData = JSON.parse(questionDataStr);
       const question = questionData.find((q: any) => q._id === questionId);
       if (question) {
-        console.log(`Found question details in question data for ID: ${questionId}`);
-        return {
+        console.log(`✅ Found question details in question data for ID: ${questionId}`);
+        const details = {
           content: question.content,
           options: question.options,
           explanation: question.explanation,
@@ -229,13 +246,18 @@ export const getQuestionDetails = (questionId: string): any => {
           difficulty: question.difficulty,
           grade: question.grade
         };
+        
+        // Cache the result
+        questionDetailsCache.set(questionId, details);
+        return details;
       }
     }
   } catch (error) {
     console.error('Error getting question details from question data:', error);
   }
   
-  // If we can't find the question, log and return null
-  console.warn(`Could not find question details for ID: ${questionId}`);
+  // If we can't find the question, cache null result and return null
+  console.log(`❌ No question details found for ID: ${questionId}`);
+  questionDetailsCache.set(questionId, null);
   return null;
 };

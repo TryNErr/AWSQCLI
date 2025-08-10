@@ -84,16 +84,23 @@ export class StaticQuestionLoader {
       const response = await fetch(`/questions/${filename}`);
       
       if (!response.ok) {
-        throw new Error(`Failed to load questions file: ${filename} (${response.status})`);
+        console.log(`📄 Question file not found for ${key} (${response.status}), using generated questions`);
+        return [];
+      }
+      
+      // Check if the response is actually JSON
+      const contentType = response.headers.get('content-type');
+      if (!contentType || !contentType.includes('application/json')) {
+        console.log(`📄 Question file for ${key} is not JSON, using generated questions`);
+        return [];
       }
       
       const questions: Question[] = await response.json();
       return questions;
       
     } catch (error) {
-      console.error(`Failed to load questions for ${key}:`, error);
-      
-      // Return empty array - the system will fall back to generation
+      // Silently handle missing files - this is expected behavior
+      console.log(`📄 Question file not available for ${key}, using generated questions`);
       return [];
     }
   }
@@ -121,7 +128,15 @@ export class StaticQuestionLoader {
     try {
       const response = await fetch('/questions/manifest.json');
       if (!response.ok) {
-        throw new Error(`Failed to load manifest: ${response.status}`);
+        console.log(`📋 Question manifest not found (${response.status}), using generated questions only`);
+        return null;
+      }
+      
+      // Check if the response is actually JSON
+      const contentType = response.headers.get('content-type');
+      if (!contentType || !contentType.includes('application/json')) {
+        console.log(`📋 Question manifest is not JSON, using generated questions only`);
+        return null;
       }
       
       this.manifest = await response.json();
@@ -129,7 +144,7 @@ export class StaticQuestionLoader {
       return this.manifest;
       
     } catch (error) {
-      console.error('Failed to load question manifest:', error);
+      console.log('📋 Question manifest not available, using generated questions only');
       return null;
     }
   }

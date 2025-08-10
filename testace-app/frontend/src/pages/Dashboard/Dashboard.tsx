@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   Container,
   Typography,
@@ -32,17 +32,15 @@ import { useAuth } from '../../contexts/AuthContext';
 const Dashboard: React.FC = () => {
   const navigate = useNavigate();
   const { user, refreshUserStats } = useAuth();
+  const [motivationalMessage, setMotivationalMessage] = useState('');
   
   useEffect(() => {
     // Refresh user stats when dashboard loads
     refreshUserStats();
-  }, [refreshUserStats]);
+  }, []); // Empty dependency array to run only once
   
-  if (!user) {
-    return null;
-  }
-
-  const getMotivationalMessage = () => {
+  useEffect(() => {
+    // Set initial motivational message and keep it stable
     const messages = [
       "You're crushing it! 🔥",
       "Keep the momentum going! 🚀",
@@ -50,8 +48,15 @@ const Dashboard: React.FC = () => {
       "You're on fire today! 🌟",
       "Unstoppable learner! 💪"
     ];
-    return messages[Math.floor(Math.random() * messages.length)];
-  };
+    
+    // Set a stable message based on user's total questions (so it doesn't change randomly)
+    const messageIndex = (user?.stats?.totalQuestions || 0) % messages.length;
+    setMotivationalMessage(messages[messageIndex]);
+  }, [user?.stats?.totalQuestions]); // Only depend on totalQuestions
+  
+  if (!user) {
+    return null;
+  }
 
   const getStreakEmoji = (streak: number) => {
     if (streak >= 7) return "🔥";
@@ -125,7 +130,7 @@ const Dashboard: React.FC = () => {
                     Hey {user.profile.firstName}! 👋
                   </Typography>
                   <Typography variant="h6" sx={{ opacity: 0.9 }}>
-                    {getMotivationalMessage()}
+                    {motivationalMessage}
                   </Typography>
                 </Box>
               </Box>

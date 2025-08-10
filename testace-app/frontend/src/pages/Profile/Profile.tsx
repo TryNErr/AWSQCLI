@@ -30,6 +30,8 @@ import {
   FormControlLabel,
   Radio,
   IconButton,
+  Avatar,
+  LinearProgress,
 } from '@mui/material';
 import {
   BarChart,
@@ -48,177 +50,120 @@ import {
 } from 'recharts';
 import { 
   School, 
-  Timer, 
   TrendingUp, 
-  CheckCircle, 
-  Cancel, 
-  HelpOutline,
-  History,
-  Assessment,
-  Close as CloseIcon
+  EmojiEvents, 
+  LocalFireDepartment,
+  Star,
+  CheckCircle,
+  Cancel,
+  Settings,
+  Person,
+  Analytics,
+  Celebration,
+  RocketLaunch,
+  AutoAwesome,
+  FlashOn,
 } from '@mui/icons-material';
+import { useAuth } from '../../contexts/AuthContext';
+import { getQuestionAttempts, QuestionAttempt, getQuestionDetails } from '../../services/questionHistoryService';
+import { getOverallProgress, getSubjectProgress } from '../../services/userProgressService';
 
-// Import services
-import { 
-  getQuestionAttempts, 
-  getQuestionStats, 
-  getSubjectPerformance, 
-  getDifficultyPerformance,
-  getPerformanceTrend,
-  getRecentQuestionAttempts,
-  QuestionAttempt 
-} from '../../services/questionHistoryService';
-import { getOverallProgress } from '../../services/userProgressService';
-import { getUserGrade, getUserName } from '../../services/userContextService';
-
-// Interface for performance data
-interface SubjectPerformance {
-  subject: string;
-  easy: number;
-  medium: number;
-  hard: number;
-  total: number;
-  correct: number;
-  attempted: number;
-  percentage: number;
+interface TabPanelProps {
+  children?: React.ReactNode;
+  index: number;
+  value: number;
 }
 
-interface GradePerformance {
-  grade: string;
-  performance: number;
-  questionsAttempted: number;
-  questionsCorrect: number;
-}
+function TabPanel(props: TabPanelProps) {
+  const { children, value, index, ...other } = props;
 
-interface DifficultyStats {
-  difficulty: string;
-  correct: number;
-  total: number;
-  percentage: number;
+  return (
+    <div
+      role="tabpanel"
+      hidden={value !== index}
+      id={`profile-tabpanel-${index}`}
+      aria-labelledby={`profile-tab-${index}`}
+      {...other}
+    >
+      {value === index && (
+        <Box sx={{ p: 3 }}>
+          {children}
+        </Box>
+      )}
+    </div>
+  );
 }
-
-const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#8884d8', '#82ca9d'];
 
 const Profile: React.FC = () => {
-  const [selectedView, setSelectedView] = useState(0);
-  const [selectedSubject, setSelectedSubject] = useState('all');
-  const [selectedGrade, setSelectedGrade] = useState('all');
-  const [questionAttempts, setQuestionAttempts] = useState<QuestionAttempt[]>([]);
-  const [subjectData, setSubjectData] = useState<SubjectPerformance[]>([]);
-  const [gradeData, setGradeData] = useState<GradePerformance[]>([]);
-  const [difficultyData, setDifficultyData] = useState<DifficultyStats[]>([]);
-  const [performanceTrend, setPerformanceTrend] = useState<any[]>([]);
-  const [overallStats, setOverallStats] = useState({
-    totalQuestions: 0,
-    correctAnswers: 0,
-    questionsAttempted: 0,
-    averageScore: 0
+  const { user, refreshUserStats } = useAuth();
+  const [tabValue, setTabValue] = useState(0);
+  const [selectedSubject, setSelectedSubject] = useState('All');
+  const [selectedGrade, setSelectedGrade] = useState('All');
+  const [questionHistory, setQuestionHistory] = useState<QuestionAttempt[]>([]);
+  const [showResetDialog, setShowResetDialog] = useState(false);
+  const [resetType, setResetType] = useState<'all' | 'history' | 'progress'>('all');
+  const [selectedQuestion, setSelectedQuestion] = useState<QuestionAttempt | null>(null);
+  const [selectedQuestionDetails, setSelectedQuestionDetails] = useState<any>(null);
+  const [showQuestionDialog, setShowQuestionDialog] = useState(false);
+  const [chartData, setChartData] = useState<any>({
+    subjectChartData: [],
+    gradeChartData: [],
+    pieChartData: []
   });
 
-  // Enhanced question dialog state
-  const [dialogOpen, setDialogOpen] = useState(false);
-  const [selectedQuestion, setSelectedQuestion] = useState<QuestionAttempt | null>(null);
-
-  const currentUserGrade = getUserGrade();
-  const userName = getUserName();
-
-  // Load real data from services
   useEffect(() => {
-    loadProfileData();
-  }, []);
-
-  const loadProfileData = () => {
-    // Get all question attempts
-    const attempts = getQuestionAttempts();
-    setQuestionAttempts(attempts);
-
-    // Get overall progress
-    const overallProgress = getOverallProgress();
-    setOverallStats({
-      totalQuestions: overallProgress.totalQuestions,
-      correctAnswers: overallProgress.correctAnswers,
-      questionsAttempted: overallProgress.totalQuestions,
-      averageScore: overallProgress.totalQuestions > 0 
-        ? Math.round((overallProgress.correctAnswers / overallProgress.totalQuestions) * 100)
-        : 0
-    });
-
-    // Process subject data
-    const subjectPerf = getSubjectPerformance();
-    const processedSubjectData: SubjectPerformance[] = subjectPerf.map(subject => {
-      const subjectAttempts = attempts.filter(a => a.subject === subject.subject);
-      
-      // Calculate difficulty breakdown
-      const easyAttempts = subjectAttempts.filter(a => a.difficulty.toLowerCase() === 'easy');
-      const mediumAttempts = subjectAttempts.filter(a => a.difficulty.toLowerCase() === 'medium');
-      const hardAttempts = subjectAttempts.filter(a => a.difficulty.toLowerCase() === 'hard');
-
-      return {
-        subject: subject.subject,
-        easy: easyAttempts.length > 0 ? Math.round((easyAttempts.filter(a => a.isCorrect).length / easyAttempts.length) * 100) : 0,
-        medium: mediumAttempts.length > 0 ? Math.round((mediumAttempts.filter(a => a.isCorrect).length / mediumAttempts.length) * 100) : 0,
-        hard: hardAttempts.length > 0 ? Math.round((hardAttempts.filter(a => a.isCorrect).length / hardAttempts.length) * 100) : 0,
-        total: subject.total,
-        correct: subject.correct,
-        attempted: subject.total,
-        percentage: subject.total > 0 ? Math.round((subject.correct / subject.total) * 100) : 0
-      };
-    });
-    setSubjectData(processedSubjectData);
-
-    // Process grade data (all grades 1-12)
-    const gradeStats: { [key: string]: { correct: number; total: number } } = {};
+    refreshUserStats();
+    const history = getQuestionAttempts();
+    setQuestionHistory(history);
     
-    // Initialize all grades 1-12
-    for (let i = 1; i <= 12; i++) {
-      gradeStats[i.toString()] = { correct: 0, total: 0 };
-    }
-
-    // Fill with actual data
-    attempts.forEach(attempt => {
-      const grade = attempt.grade;
-      if (gradeStats[grade]) {
-        gradeStats[grade].total++;
-        if (attempt.isCorrect) {
-          gradeStats[grade].correct++;
-        }
+    // Prepare stable chart data
+    const overallProgress = getOverallProgress();
+    
+    // Get subject progress for all subjects
+    const subjects = ['Math', 'English', 'Reading', 'Thinking Skills', 'Mathematical Reasoning'];
+    const subjectProgressData: Record<string, any> = {};
+    subjects.forEach(subject => {
+      const progress = getSubjectProgress(subject);
+      if (progress) {
+        subjectProgressData[subject] = {
+          totalQuestions: progress.total,
+          correctAnswers: progress.correct
+        };
       }
     });
-
-    const processedGradeData: GradePerformance[] = Object.entries(gradeStats)
-      .filter(([_, stats]) => stats.total > 0) // Only show grades with attempts
-      .map(([grade, stats]) => ({
-        grade: `Grade ${grade}`,
-        performance: stats.total > 0 ? Math.round((stats.correct / stats.total) * 100) : 0,
-        questionsAttempted: stats.total,
-        questionsCorrect: stats.correct
-      }))
-      .sort((a, b) => parseInt(a.grade.split(' ')[1]) - parseInt(b.grade.split(' ')[1]));
     
-    setGradeData(processedGradeData);
-
-    // Process difficulty data
-    const difficultyPerf = getDifficultyPerformance();
-    const processedDifficultyData: DifficultyStats[] = difficultyPerf.map(diff => ({
-      difficulty: diff.difficulty.charAt(0).toUpperCase() + diff.difficulty.slice(1),
-      correct: diff.correct,
-      total: diff.total,
-      percentage: diff.total > 0 ? Math.round((diff.correct / diff.total) * 100) : 0
+    // Create grade progress from overall progress
+    const gradeProgressData = overallProgress.bySubject || {};
+    
+    // Prepare stable chart data
+    const subjectChartData = Object.entries(subjectProgressData).map(([subject, data]: [string, any]) => ({
+      subject,
+      correct: data.correctAnswers || 0,
+      total: data.totalQuestions || 0,
+      accuracy: data.totalQuestions > 0 ? Math.round((data.correctAnswers / data.totalQuestions) * 100) : 0
     }));
-    setDifficultyData(processedDifficultyData);
 
-    // Get performance trend
-    const trend = getPerformanceTrend(14); // Last 14 days
-    const processedTrend = trend.map(day => ({
-      date: new Date(day.date).toLocaleDateString(),
-      accuracy: day.total > 0 ? Math.round((day.correct / day.total) * 100) : 0,
-      questions: day.total
+    const gradeChartData = Object.entries(gradeProgressData).map(([grade, data]: [string, any]) => ({
+      grade: `Grade ${grade}`,
+      correct: data.correct || 0,
+      total: data.total || 0,
+      accuracy: data.total > 0 ? Math.round((data.correct / data.total) * 100) : 0
     }));
-    setPerformanceTrend(processedTrend);
-  };
 
-  const handleViewChange = (event: React.SyntheticEvent, newValue: number) => {
-    setSelectedView(newValue);
+    const pieChartData = [
+      { name: 'Correct', value: overallProgress.correctAnswers, color: '#10b981' },
+      { name: 'Incorrect', value: overallProgress.totalQuestions - overallProgress.correctAnswers, color: '#ef4444' }
+    ];
+    
+    setChartData({
+      subjectChartData,
+      gradeChartData,
+      pieChartData
+    });
+  }, [refreshUserStats]);
+
+  const handleTabChange = (event: React.SyntheticEvent, newValue: number) => {
+    setTabValue(newValue);
   };
 
   const handleSubjectChange = (event: SelectChangeEvent) => {
@@ -229,569 +174,725 @@ const Profile: React.FC = () => {
     setSelectedGrade(event.target.value);
   };
 
-  // Handle question click to show detailed dialog
   const handleQuestionClick = (attempt: QuestionAttempt) => {
     setSelectedQuestion(attempt);
-    setDialogOpen(true);
+    // Fetch question details once when question is selected
+    const questionDetails = getQuestionDetails(attempt.questionId);
+    setSelectedQuestionDetails(questionDetails);
+    setShowQuestionDialog(true);
   };
 
-  const handleCloseDialog = () => {
-    setDialogOpen(false);
-    setSelectedQuestion(null);
+  const overallProgress = getOverallProgress();
+  
+  // Get subject progress for all subjects
+  const subjects = ['Math', 'English', 'Reading', 'Thinking Skills', 'Mathematical Reasoning'];
+  const subjectProgressData: Record<string, any> = {};
+  subjects.forEach(subject => {
+    const progress = getSubjectProgress(subject);
+    if (progress) {
+      subjectProgressData[subject] = {
+        totalQuestions: progress.total,
+        correctAnswers: progress.correct
+      };
+    }
+  });
+  
+  // Create grade progress from overall progress
+  const gradeProgressData = overallProgress.bySubject || {};
+
+  // Calculate level and progress
+  const calculateLevel = (totalQuestions: number) => {
+    return Math.floor(totalQuestions / 10) + 1;
   };
+
+  const calculateLevelProgress = (totalQuestions: number) => {
+    return (totalQuestions % 10) * 10;
+  };
+
+  const currentLevel = calculateLevel(user?.stats?.totalQuestions || 0);
+  const levelProgress = calculateLevelProgress(user?.stats?.totalQuestions || 0);
 
   // Filter data based on selections
-  const getFilteredData = () => {
-    let filteredAttempts = questionAttempts;
-    
-    if (selectedSubject !== 'all') {
-      filteredAttempts = filteredAttempts.filter(a => a.subject === selectedSubject);
-    }
-    
-    if (selectedGrade !== 'all') {
-      const gradeNumber = selectedGrade.replace('Grade ', '');
-      filteredAttempts = filteredAttempts.filter(a => a.grade === gradeNumber);
-    }
-    
-    return filteredAttempts;
-  };
+  const filteredHistory = questionHistory.filter(attempt => {
+    const subjectMatch = selectedSubject === 'All' || attempt.subject === selectedSubject;
+    const gradeMatch = selectedGrade === 'All' || attempt.grade === selectedGrade;
+    return subjectMatch && gradeMatch;
+  });
 
-  // Get filtered subject data based on current filters
-  const getFilteredSubjectData = () => {
-    const filteredAttempts = getFilteredData();
-    
-    if (selectedSubject !== 'all') {
-      // If a specific subject is selected, return only that subject's data
-      const subjectPerf = subjectData.find(s => s.subject === selectedSubject);
-      return subjectPerf ? [subjectPerf] : [];
-    }
-    
-    // If grade filter is applied, recalculate subject data for that grade
-    if (selectedGrade !== 'all') {
-      const subjects = [...new Set(filteredAttempts.map(a => a.subject))];
-      return subjects.map(subject => {
-        const subjectAttempts = filteredAttempts.filter(a => a.subject === subject);
-        const correct = subjectAttempts.filter(a => a.isCorrect).length;
-        const total = subjectAttempts.length;
-        
-        return {
-          subject,
-          easy: subjectAttempts.filter(a => a.difficulty === 'easy').length,
-          medium: subjectAttempts.filter(a => a.difficulty === 'medium').length,
-          hard: subjectAttempts.filter(a => a.difficulty === 'hard').length,
-          total,
-          correct,
-          attempted: total,
-          percentage: total > 0 ? Math.round((correct / total) * 100) : 0
-        };
-      });
-    }
-    
-    return subjectData;
-  };
+  // Use stable chart data from state
+  const { subjectChartData, gradeChartData, pieChartData } = chartData;
 
-  // Get filtered difficulty data based on current filters
-  const getFilteredDifficultyData = () => {
-    const filteredAttempts = getFilteredData();
-    
-    const difficulties = ['easy', 'medium', 'hard'];
-    return difficulties.map(difficulty => {
-      const diffAttempts = filteredAttempts.filter(a => a.difficulty === difficulty);
-      const correct = diffAttempts.filter(a => a.isCorrect).length;
-      const total = diffAttempts.length;
-      
-      return {
-        difficulty: difficulty.charAt(0).toUpperCase() + difficulty.slice(1),
-        correct,
-        total,
-        percentage: total > 0 ? Math.round((correct / total) * 100) : 0
-      };
-    }).filter(d => d.total > 0); // Only show difficulties with attempts
-  };
-
-  // Prepare data for difficulty distribution pie chart
-  const filteredDifficultyData = getFilteredDifficultyData();
-  const difficultyDistribution = filteredDifficultyData.map(diff => ({
-    name: diff.difficulty,
-    value: diff.percentage,
-    count: diff.total
-  }));
-
-  // Get recent activity
-  const recentAttempts = getRecentQuestionAttempts(10);
+  if (!user) {
+    return null;
+  }
 
   return (
-    <Container maxWidth="lg">
-      <Box sx={{ mt: 4 }}>
-        <Typography variant="h4" component="h1" gutterBottom>
-          {userName}'s Progress - Grade {currentUserGrade}
-        </Typography>
+    <Container maxWidth="xl">
+      <Box sx={{ py: 2 }}>
+        {/* Hero Profile Header */}
+        <Paper 
+          sx={{ 
+            p: 4, 
+            mb: 4, 
+            background: 'linear-gradient(135deg, #ec4899 0%, #be185d 50%, #9d174d 100%)',
+            color: 'white',
+            position: 'relative',
+            overflow: 'hidden',
+            borderRadius: 4
+          }}
+        >
+          {/* Decorative Elements */}
+          <Box sx={{
+            position: 'absolute',
+            top: -40,
+            right: -40,
+            width: 200,
+            height: 200,
+            borderRadius: '50%',
+            background: 'rgba(255, 255, 255, 0.1)',
+          }} />
+          <Box sx={{
+            position: 'absolute',
+            bottom: -50,
+            left: -50,
+            width: 250,
+            height: 250,
+            borderRadius: '50%',
+            background: 'rgba(255, 255, 255, 0.05)',
+          }} />
+          
+          <Grid container spacing={3} alignItems="center">
+            <Grid item xs={12} md={8}>
+              <Box sx={{ display: 'flex', alignItems: 'center', gap: 3, mb: 3 }}>
+                <Avatar 
+                  sx={{ 
+                    width: 80, 
+                    height: 80,
+                    background: 'rgba(255, 255, 255, 0.2)',
+                    fontSize: '2rem',
+                    fontWeight: 700
+                  }}
+                >
+                  {user.profile.firstName?.charAt(0) || 'U'}
+                </Avatar>
+                <Box>
+                  <Typography variant="h3" fontWeight={800} sx={{ mb: 0.5 }}>
+                    {user.profile.firstName} {user.profile.lastName} 🌟
+                  </Typography>
+                  <Typography variant="h6" sx={{ opacity: 0.9, mb: 1 }}>
+                    Grade {user.grade} • Level {currentLevel} Learner
+                  </Typography>
+                  <Box sx={{ display: 'flex', gap: 2, flexWrap: 'wrap' }}>
+                    <Chip 
+                      icon={<LocalFireDepartment />}
+                      label={`${user.streaks.current} day streak 🔥`}
+                      sx={{ 
+                        background: 'rgba(255, 255, 255, 0.2)',
+                        color: 'white',
+                        fontWeight: 600
+                      }}
+                    />
+                    <Chip 
+                      icon={<EmojiEvents />}
+                      label={`Best: ${user.streaks.best} days`}
+                      sx={{ 
+                        background: 'rgba(255, 255, 255, 0.2)',
+                        color: 'white',
+                        fontWeight: 600
+                      }}
+                    />
+                  </Box>
+                </Box>
+              </Box>
+            </Grid>
+            
+            <Grid item xs={12} md={4}>
+              <Box sx={{ textAlign: 'center' }}>
+                <Typography variant="h2" fontWeight={800} sx={{ mb: 1 }}>
+                  {user.stats.averageScore}%
+                </Typography>
+                <Typography variant="h6" sx={{ opacity: 0.9, mb: 2 }}>
+                  Overall Accuracy
+                </Typography>
+                <LinearProgress 
+                  variant="determinate" 
+                  value={levelProgress} 
+                  sx={{ 
+                    height: 10, 
+                    borderRadius: 5,
+                    backgroundColor: 'rgba(255, 255, 255, 0.2)',
+                    '& .MuiLinearProgress-bar': {
+                      backgroundColor: 'white'
+                    }
+                  }} 
+                />
+                <Typography variant="caption" sx={{ opacity: 0.8, mt: 1, display: 'block' }}>
+                  {10 - (user.stats.totalQuestions % 10)} questions to Level {currentLevel + 1}
+                </Typography>
+              </Box>
+            </Grid>
+          </Grid>
+        </Paper>
 
-        {questionAttempts.length === 0 && (
-          <Alert severity="info" sx={{ mb: 3 }}>
-            No question attempts found. Start practicing to see your progress here!
-          </Alert>
-        )}
-
-        {/* Overall Statistics Cards */}
+        {/* Stats Cards */}
         <Grid container spacing={3} sx={{ mb: 4 }}>
-          <Grid item xs={12} sm={6} md={3}>
-            <Card>
-              <CardContent>
-                <Typography color="textSecondary" gutterBottom>
+          <Grid item xs={6} md={3}>
+            <Card sx={{ 
+              background: 'linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%)',
+              color: 'white',
+              transition: 'transform 0.2s',
+              '&:hover': { transform: 'translateY(-4px)' }
+            }}>
+              <CardContent sx={{ textAlign: 'center', py: 3 }}>
+                <School sx={{ fontSize: 40, mb: 1 }} />
+                <Typography variant="h4" fontWeight={700}>
+                  {user.stats.totalQuestions}
+                </Typography>
+                <Typography variant="body2" sx={{ opacity: 0.9 }}>
                   Total Questions
                 </Typography>
-                <Typography variant="h4">
-                  {overallStats.totalQuestions}
-                </Typography>
               </CardContent>
             </Card>
           </Grid>
-          <Grid item xs={12} sm={6} md={3}>
-            <Card>
-              <CardContent>
-                <Typography color="textSecondary" gutterBottom>
-                  Questions Attempted
+          
+          <Grid item xs={6} md={3}>
+            <Card sx={{ 
+              background: 'linear-gradient(135deg, #10b981 0%, #059669 100%)',
+              color: 'white',
+              transition: 'transform 0.2s',
+              '&:hover': { transform: 'translateY(-4px)' }
+            }}>
+              <CardContent sx={{ textAlign: 'center', py: 3 }}>
+                <CheckCircle sx={{ fontSize: 40, mb: 1 }} />
+                <Typography variant="h4" fontWeight={700}>
+                  {user.stats.correctAnswers}
                 </Typography>
-                <Typography variant="h4">
-                  {overallStats.questionsAttempted}
-                </Typography>
-              </CardContent>
-            </Card>
-          </Grid>
-          <Grid item xs={12} sm={6} md={3}>
-            <Card>
-              <CardContent>
-                <Typography color="textSecondary" gutterBottom>
+                <Typography variant="body2" sx={{ opacity: 0.9 }}>
                   Correct Answers
                 </Typography>
-                <Typography variant="h4">
-                  {overallStats.correctAnswers}
+              </CardContent>
+            </Card>
+          </Grid>
+          
+          <Grid item xs={6} md={3}>
+            <Card sx={{ 
+              background: 'linear-gradient(135deg, #f59e0b 0%, #f97316 100%)',
+              color: 'white',
+              transition: 'transform 0.2s',
+              '&:hover': { transform: 'translateY(-4px)' }
+            }}>
+              <CardContent sx={{ textAlign: 'center', py: 3 }}>
+                <Star sx={{ fontSize: 40, mb: 1 }} />
+                <Typography variant="h4" fontWeight={700}>
+                  {currentLevel}
+                </Typography>
+                <Typography variant="body2" sx={{ opacity: 0.9 }}>
+                  Current Level
                 </Typography>
               </CardContent>
             </Card>
           </Grid>
-          <Grid item xs={12} sm={6} md={3}>
-            <Card>
-              <CardContent>
-                <Typography color="textSecondary" gutterBottom>
-                  Average Score
+          
+          <Grid item xs={6} md={3}>
+            <Card sx={{ 
+              background: 'linear-gradient(135deg, #ef4444 0%, #dc2626 100%)',
+              color: 'white',
+              transition: 'transform 0.2s',
+              '&:hover': { transform: 'translateY(-4px)' }
+            }}>
+              <CardContent sx={{ textAlign: 'center', py: 3 }}>
+                <Cancel sx={{ fontSize: 40, mb: 1 }} />
+                <Typography variant="h4" fontWeight={700}>
+                  {user.stats.wrongAnswers}
                 </Typography>
-                <Typography variant="h4">
-                  {overallStats.averageScore}%
+                <Typography variant="body2" sx={{ opacity: 0.9 }}>
+                  Wrong Answers
                 </Typography>
               </CardContent>
             </Card>
           </Grid>
         </Grid>
 
-        {/* Filters */}
-        <Box sx={{ mb: 4, display: 'flex', gap: 2 }}>
-          <FormControl sx={{ minWidth: 200 }}>
-            <InputLabel>Subject</InputLabel>
-            <Select
-              value={selectedSubject}
-              label="Subject"
-              onChange={handleSubjectChange}
+        {/* Tabs Section */}
+        <Paper sx={{ 
+          borderRadius: 4,
+          overflow: 'hidden',
+          background: 'linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(248, 250, 252, 0.9) 100%)',
+          backdropFilter: 'blur(20px)',
+          border: '1px solid rgba(255, 255, 255, 0.2)'
+        }}>
+          <Box sx={{ 
+            borderBottom: 1, 
+            borderColor: 'divider',
+            background: 'linear-gradient(135deg, rgba(99, 102, 241, 0.05) 0%, rgba(139, 92, 246, 0.05) 100%)'
+          }}>
+            <Tabs 
+              value={tabValue} 
+              onChange={handleTabChange} 
+              aria-label="profile tabs"
+              sx={{
+                '& .MuiTab-root': {
+                  fontWeight: 600,
+                  fontSize: '1rem',
+                  textTransform: 'none',
+                  minHeight: 64,
+                },
+                '& .Mui-selected': {
+                  background: 'linear-gradient(135deg, rgba(99, 102, 241, 0.1) 0%, rgba(139, 92, 246, 0.1) 100%)',
+                }
+              }}
             >
-              <MenuItem value="all">All Subjects</MenuItem>
-              {subjectData.map(subject => (
-                <MenuItem key={subject.subject} value={subject.subject}>
-                  {subject.subject}
-                </MenuItem>
-              ))}
-            </Select>
-          </FormControl>
+              <Tab 
+                icon={<Analytics />} 
+                label="Analytics 📊" 
+                iconPosition="start"
+              />
+              <Tab 
+                icon={<TrendingUp />} 
+                label="Progress 📈" 
+                iconPosition="start"
+              />
+              <Tab 
+                icon={<School />} 
+                label="History 📚" 
+                iconPosition="start"
+              />
+              <Tab 
+                icon={<Settings />} 
+                label="Settings ⚙️" 
+                iconPosition="start"
+              />
+            </Tabs>
+          </Box>
 
-          <FormControl sx={{ minWidth: 200 }}>
-            <InputLabel>Grade</InputLabel>
-            <Select
-              value={selectedGrade}
-              label="Grade"
-              onChange={handleGradeChange}
-            >
-              <MenuItem value="all">All Grades</MenuItem>
-              {gradeData.map(grade => (
-                <MenuItem key={grade.grade} value={grade.grade}>
-                  {grade.grade}
-                </MenuItem>
-              ))}
-            </Select>
-          </FormControl>
-        </Box>
-
-        {/* Tabs for different views */}
-        <Box sx={{ borderBottom: 1, borderColor: 'divider', mb: 4 }}>
-          <Tabs value={selectedView} onChange={handleViewChange}>
-            <Tab label="Performance by Subject" />
-            <Tab label="Difficulty Distribution" />
-            <Tab label="Grade Progress" />
-            <Tab label="Performance Trend" />
-            <Tab label="Question History" />
-          </Tabs>
-        </Box>
-
-        {/* Performance by Subject Chart */}
-        {selectedView === 0 && (
-          <Paper sx={{ p: 3, mb: 4 }}>
-            <Typography variant="h6" gutterBottom>
-              Performance by Subject
-              {selectedSubject !== 'all' && ` - ${selectedSubject}`}
-              {selectedGrade !== 'all' && ` - ${selectedGrade}`}
+          {/* Analytics Tab */}
+          <TabPanel value={tabValue} index={0}>
+            <Typography variant="h5" fontWeight={700} gutterBottom color="primary">
+              📊 Performance Analytics
             </Typography>
-            {getFilteredSubjectData().length > 0 ? (
-              <ResponsiveContainer width="100%" height={400}>
-                <BarChart
-                  data={getFilteredSubjectData()}
-                  margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
-                >
-                  <CartesianGrid strokeDasharray="3 3" />
-                  <XAxis dataKey="subject" />
-                  <YAxis />
-                  <Tooltip />
-                  <Legend />
-                  <Bar dataKey="easy" name="Easy %" fill="#82ca9d" />
-                  <Bar dataKey="medium" name="Medium %" fill="#8884d8" />
-                  <Bar dataKey="hard" name="Hard %" fill="#ffc658" />
-                </BarChart>
-              </ResponsiveContainer>
-            ) : (
-              <Typography variant="body1" color="text.secondary" sx={{ textAlign: 'center', py: 4 }}>
-                No subject data available. Start practicing to see your performance!
-              </Typography>
-            )}
-          </Paper>
-        )}
+            
+            <Grid container spacing={3}>
+              <Grid item xs={12} md={6}>
+                <Card sx={{ p: 3, height: 400 }}>
+                  <Typography variant="h6" gutterBottom>
+                    Subject Performance
+                  </Typography>
+                  <ResponsiveContainer width="100%" height="100%">
+                    <BarChart data={subjectChartData}>
+                      <CartesianGrid strokeDasharray="3 3" />
+                      <XAxis dataKey="subject" />
+                      <YAxis />
+                      <Tooltip />
+                      <Legend />
+                      <Bar dataKey="accuracy" fill="#6366f1" name="Accuracy %" />
+                    </BarChart>
+                  </ResponsiveContainer>
+                </Card>
+              </Grid>
+              
+              <Grid item xs={12} md={6}>
+                <Card sx={{ p: 3, height: 400 }}>
+                  <Typography variant="h6" gutterBottom>
+                    Overall Performance
+                  </Typography>
+                  <ResponsiveContainer width="100%" height="100%">
+                    <PieChart>
+                      <Pie
+                        data={pieChartData}
+                        cx="50%"
+                        cy="50%"
+                        labelLine={false}
+                        label={({ name, percent }: any) => `${name} ${((percent || 0) * 100).toFixed(0)}%`}
+                        outerRadius={80}
+                        fill="#8884d8"
+                        dataKey="value"
+                      >
+                        {pieChartData.map((entry, index) => (
+                          <Cell key={`cell-${index}`} fill={entry.color} />
+                        ))}
+                      </Pie>
+                      <Tooltip />
+                    </PieChart>
+                  </ResponsiveContainer>
+                </Card>
+              </Grid>
+            </Grid>
+          </TabPanel>
 
-        {/* Difficulty Distribution Chart */}
-        {selectedView === 1 && (
-          <Paper sx={{ p: 3, mb: 4 }}>
-            <Typography variant="h6" gutterBottom>
-              Difficulty Distribution
-              {selectedSubject !== 'all' && ` - ${selectedSubject}`}
-              {selectedGrade !== 'all' && ` - ${selectedGrade}`}
+          {/* Progress Tab */}
+          <TabPanel value={tabValue} index={1}>
+            <Typography variant="h5" fontWeight={700} gutterBottom color="primary">
+              📈 Learning Progress
             </Typography>
-            {difficultyDistribution.length > 0 && difficultyDistribution.some(d => d.count > 0) ? (
-              <ResponsiveContainer width="100%" height={400}>
-                <PieChart>
-                  <Pie
-                    data={difficultyDistribution}
-                    cx="50%"
-                    cy="50%"
-                    labelLine={false}
-                    label={({ name, value, count }) => `${name}: ${value}% (${count} questions)`}
-                    outerRadius={150}
-                    fill="#8884d8"
-                    dataKey="value"
-                  >
-                    {difficultyDistribution.map((entry, index) => (
-                      <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+            
+            <Grid container spacing={3}>
+              <Grid item xs={12}>
+                <Card sx={{ p: 3 }}>
+                  <Typography variant="h6" gutterBottom>
+                    Grade-wise Performance
+                  </Typography>
+                  <ResponsiveContainer width="100%" height={300}>
+                    <LineChart data={gradeChartData}>
+                      <CartesianGrid strokeDasharray="3 3" />
+                      <XAxis dataKey="grade" />
+                      <YAxis />
+                      <Tooltip />
+                      <Legend />
+                      <Line type="monotone" dataKey="accuracy" stroke="#10b981" strokeWidth={3} name="Accuracy %" />
+                    </LineChart>
+                  </ResponsiveContainer>
+                </Card>
+              </Grid>
+            </Grid>
+          </TabPanel>
+
+          {/* History Tab */}
+          <TabPanel value={tabValue} index={2}>
+            <Typography variant="h5" fontWeight={700} gutterBottom color="primary">
+              📚 Question History
+            </Typography>
+            
+            <Grid container spacing={2} sx={{ mb: 3 }}>
+              <Grid item xs={12} md={6}>
+                <FormControl fullWidth>
+                  <InputLabel>Subject</InputLabel>
+                  <Select value={selectedSubject} label="Subject" onChange={handleSubjectChange}>
+                    <MenuItem value="All">All Subjects</MenuItem>
+                    <MenuItem value="Math">Math</MenuItem>
+                    <MenuItem value="English">English</MenuItem>
+                    <MenuItem value="Reading">Reading</MenuItem>
+                    <MenuItem value="Thinking Skills">Thinking Skills</MenuItem>
+                  </Select>
+                </FormControl>
+              </Grid>
+              <Grid item xs={12} md={6}>
+                <FormControl fullWidth>
+                  <InputLabel>Grade</InputLabel>
+                  <Select value={selectedGrade} label="Grade" onChange={handleGradeChange}>
+                    <MenuItem value="All">All Grades</MenuItem>
+                    {Array.from({ length: 12 }, (_, i) => (
+                      <MenuItem key={i + 1} value={(i + 1).toString()}>
+                        Grade {i + 1}
+                      </MenuItem>
                     ))}
-                  </Pie>
-                  <Tooltip formatter={(value, name) => [`${value}%`, name]} />
-                </PieChart>
-              </ResponsiveContainer>
-            ) : (
-              <Typography variant="body1" color="text.secondary" sx={{ textAlign: 'center', py: 4 }}>
-                No difficulty data available. Start practicing to see your difficulty distribution!
-              </Typography>
-            )}
-          </Paper>
-        )}
+                  </Select>
+                </FormControl>
+              </Grid>
+            </Grid>
 
-        {/* Grade Progress Chart */}
-        {selectedView === 2 && (
-          <Paper sx={{ p: 3, mb: 4 }}>
-            <Typography variant="h6" gutterBottom>
-              Grade Progress (All Grades 1-12)
-            </Typography>
-            {gradeData.length > 0 ? (
-              <ResponsiveContainer width="100%" height={400}>
-                <BarChart
-                  data={gradeData}
-                  margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
-                >
-                  <CartesianGrid strokeDasharray="3 3" />
-                  <XAxis dataKey="grade" />
-                  <YAxis />
-                  <Tooltip />
-                  <Legend />
-                  <Bar dataKey="performance" name="Performance %" fill="#8884d8" />
-                  <Bar dataKey="questionsAttempted" name="Questions Attempted" fill="#82ca9d" />
-                </BarChart>
-              </ResponsiveContainer>
-            ) : (
-              <Typography variant="body1" color="text.secondary" sx={{ textAlign: 'center', py: 4 }}>
-                No grade data available. Start practicing different grade levels to see your progress!
-              </Typography>
-            )}
-          </Paper>
-        )}
-
-        {/* Performance Trend Chart */}
-        {selectedView === 3 && (
-          <Paper sx={{ p: 3, mb: 4 }}>
-            <Typography variant="h6" gutterBottom>
-              Performance Trend (Last 14 Days)
-            </Typography>
-            {performanceTrend.length > 0 && performanceTrend.some(d => d.questions > 0) ? (
-              <ResponsiveContainer width="100%" height={400}>
-                <LineChart
-                  data={performanceTrend}
-                  margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
-                >
-                  <CartesianGrid strokeDasharray="3 3" />
-                  <XAxis dataKey="date" />
-                  <YAxis />
-                  <Tooltip />
-                  <Legend />
-                  <Line type="monotone" dataKey="accuracy" stroke="#8884d8" name="Accuracy %" />
-                  <Line type="monotone" dataKey="questions" stroke="#82ca9d" name="Questions Attempted" />
-                </LineChart>
-              </ResponsiveContainer>
-            ) : (
-              <Typography variant="body1" color="text.secondary" sx={{ textAlign: 'center', py: 4 }}>
-                No trend data available. Practice regularly to see your performance trend!
-              </Typography>
-            )}
-          </Paper>
-        )}
-
-        {/* Question History */}
-        {selectedView === 4 && (
-          <Paper sx={{ p: 3, mb: 4 }}>
-            <Typography variant="h6" gutterBottom>
-              Recent Question History
-              {selectedSubject !== 'all' && ` - ${selectedSubject}`}
-              {selectedGrade !== 'all' && ` - ${selectedGrade}`}
-            </Typography>
-            {getFilteredData().length > 0 ? (
+            <Card>
               <List>
-                {getFilteredData().slice(0, 20).map((attempt, index) => (
+                {filteredHistory.slice(0, 20).map((attempt, index) => (
                   <React.Fragment key={index}>
-                    <ListItem 
-                      button 
+                    <ListItem
+                      button
                       onClick={() => handleQuestionClick(attempt)}
-                      sx={{ 
-                        cursor: 'pointer',
-                        '&:hover': { 
-                          backgroundColor: 'action.hover' 
-                        },
-                        borderRadius: 1,
-                        mb: 1
+                      sx={{
+                        '&:hover': {
+                          backgroundColor: 'rgba(99, 102, 241, 0.04)',
+                        }
                       }}
                     >
                       <ListItemIcon>
-                        {attempt.isCorrect ? (
-                          <CheckCircle color="success" />
-                        ) : (
-                          <Cancel color="error" />
-                        )}
+                        {attempt.isCorrect ? 
+                          <CheckCircle sx={{ color: '#10b981' }} /> : 
+                          <Cancel sx={{ color: '#ef4444' }} />
+                        }
                       </ListItemIcon>
                       <ListItemText
                         primary={
                           <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
                             <Typography variant="body1">
-                              {attempt.subject} - Grade {attempt.grade}
+                              {(attempt as any).questionContent?.substring(0, 100) || attempt.userAnswer?.substring(0, 100) || 'Click to view question details'}...
                             </Typography>
                             <Chip 
-                              label={attempt.difficulty} 
+                              label={attempt.subject} 
                               size="small" 
-                              color={
-                                attempt.difficulty.toLowerCase() === 'easy' ? 'success' :
-                                attempt.difficulty.toLowerCase() === 'medium' ? 'warning' : 'error'
-                              }
+                              color="primary"
                             />
                             <Chip 
-                              label={attempt.isCorrect ? 'Correct' : 'Incorrect'} 
+                              label={`Grade ${attempt.grade}`} 
                               size="small" 
-                              color={attempt.isCorrect ? 'success' : 'error'}
+                              color="secondary"
                             />
                           </Box>
                         }
                         secondary={
-                          <Box>
-                            <Typography variant="body2" color="text.secondary">
-                              {attempt.content ? attempt.content.substring(0, 100) + '...' : 'Question content not available'}
-                            </Typography>
-                            <Typography variant="caption" color="text.secondary">
-                              {new Date(attempt.timestamp).toLocaleString()}
-                            </Typography>
-                          </Box>
+                          <Typography variant="body2" color="text.secondary">
+                            {new Date(attempt.timestamp).toLocaleDateString()} • 
+                            Your answer: {attempt.userAnswer} • 
+                            Correct: {attempt.correctAnswer}
+                          </Typography>
                         }
                       />
                     </ListItem>
-                    {index < recentAttempts.length - 1 && <Divider />}
+                    {index < filteredHistory.slice(0, 20).length - 1 && <Divider />}
                   </React.Fragment>
                 ))}
               </List>
-            ) : (
-              <Typography variant="body1" color="text.secondary" sx={{ textAlign: 'center', py: 4 }}>
-                No question history available. Start practicing to build your question history!
-              </Typography>
-            )}
-          </Paper>
-        )}
+            </Card>
+          </TabPanel>
 
-        {/* Recent Activity */}
-        <Paper sx={{ p: 3 }}>
-          <Typography variant="h6" gutterBottom>
-            Recent Activity Summary
-            {selectedSubject !== 'all' && ` - ${selectedSubject}`}
-            {selectedGrade !== 'all' && ` - ${selectedGrade}`}
-          </Typography>
-          {getFilteredSubjectData().length > 0 ? (
-            <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
-              {getFilteredSubjectData().slice(0, 4).map((subject, index) => (
-                <Box
-                  key={index}
-                  sx={{
-                    display: 'flex',
-                    justifyContent: 'space-between',
-                    alignItems: 'center',
-                    p: 2,
-                    bgcolor: 'background.default',
-                    borderRadius: 1
-                  }}
-                >
-                  <Box>
-                    <Typography variant="subtitle1">
-                      {subject.subject}
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                      {subject.attempted} questions attempted • {subject.correct} correct
-                    </Typography>
-                  </Box>
-                  <Chip
-                    label={`${subject.percentage}% correct`}
-                    color={subject.percentage > 70 ? "success" : subject.percentage > 50 ? "warning" : "error"}
-                  />
-                </Box>
-              ))}
-            </Box>
-          ) : (
-            <Typography variant="body1" color="text.secondary" sx={{ textAlign: 'center', py: 4 }}>
-              No recent activity. Start practicing to see your activity here!
+          {/* Settings Tab */}
+          <TabPanel value={tabValue} index={3}>
+            <Typography variant="h5" fontWeight={700} gutterBottom color="primary">
+              ⚙️ Profile Settings
             </Typography>
-          )}
+            
+            <Alert severity="warning" sx={{ mb: 3 }}>
+              <Typography variant="body1" fontWeight={600}>
+                ⚠️ Data Reset Options
+              </Typography>
+              <Typography variant="body2">
+                Use these options carefully. Data reset cannot be undone!
+              </Typography>
+            </Alert>
+
+            <Card sx={{ p: 3 }}>
+              <Typography variant="h6" gutterBottom>
+                Reset Learning Data
+              </Typography>
+              <Button
+                variant="outlined"
+                color="error"
+                onClick={() => setShowResetDialog(true)}
+                sx={{ mt: 2 }}
+              >
+                Reset Data
+              </Button>
+            </Card>
+          </TabPanel>
         </Paper>
 
-        {/* Enhanced Question Details Dialog */}
+        {/* Motivational Footer */}
+        <Paper sx={{ 
+          mt: 4, 
+          p: 3, 
+          textAlign: 'center',
+          background: 'linear-gradient(135deg, rgba(16, 185, 129, 0.05) 0%, rgba(5, 150, 105, 0.05) 100%)',
+          border: '1px solid rgba(16, 185, 129, 0.1)',
+          borderRadius: 4
+        }}>
+          <Typography variant="h6" fontWeight={600} color="#10b981" gutterBottom>
+            🎉 Amazing Progress, {user.profile.firstName}! 🎉
+          </Typography>
+          <Typography variant="body1" color="text.secondary">
+            You've completed {user.stats.totalQuestions} questions with {user.stats.averageScore}% accuracy. 
+            Keep up the fantastic work! 🌟
+          </Typography>
+        </Paper>
+
+        {/* Question Details Dialog */}
         <Dialog 
-          open={dialogOpen} 
-          onClose={handleCloseDialog}
+          open={showQuestionDialog} 
+          onClose={() => {
+            setShowQuestionDialog(false);
+            setSelectedQuestion(null);
+            setSelectedQuestionDetails(null);
+          }}
           maxWidth="md"
           fullWidth
-          PaperProps={{
-            sx: { minHeight: '400px' }
-          }}
         >
-          <DialogTitle sx={{ m: 0, p: 2, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-            <Typography variant="h6">Question Details</Typography>
-            <IconButton
-              aria-label="close"
-              onClick={handleCloseDialog}
-              sx={{
-                color: (theme) => theme.palette.grey[500],
-              }}
-            >
-              <CloseIcon />
-            </IconButton>
+          <DialogTitle>
+            <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
+              {selectedQuestion?.isCorrect ? 
+                <CheckCircle sx={{ color: '#10b981' }} /> : 
+                <Cancel sx={{ color: '#ef4444' }} />
+              }
+              <Typography variant="h6">
+                Question Details
+              </Typography>
+              <Box sx={{ ml: 'auto', display: 'flex', gap: 1 }}>
+                <Chip 
+                  label={selectedQuestion?.subject} 
+                  size="small" 
+                  color="primary"
+                />
+                <Chip 
+                  label={`Grade ${selectedQuestion?.grade}`} 
+                  size="small" 
+                  color="secondary"
+                />
+              </Box>
+            </Box>
           </DialogTitle>
-          <DialogContent dividers>
+          <DialogContent>
             {selectedQuestion && (
-              <Box>
-                {/* Question Content */}
-                <Typography variant="h6" gutterBottom sx={{ mb: 3 }}>
-                  {selectedQuestion.content || `Question ${selectedQuestion.questionId}`}
+              <Box sx={{ py: 2 }}>
+                <Typography variant="h6" gutterBottom>
+                  Question:
                 </Typography>
-                
-                {/* Question Metadata */}
-                <Box sx={{ mb: 3, display: 'flex', flexWrap: 'wrap', gap: 1 }}>
-                  <Chip label={`Subject: ${selectedQuestion.subject}`} color="primary" />
-                  <Chip label={`Grade: ${selectedQuestion.grade}`} color="info" />
-                  <Chip 
-                    label={`Difficulty: ${selectedQuestion.difficulty}`} 
-                    color={
-                      selectedQuestion.difficulty.toLowerCase() === 'easy' ? 'success' :
-                      selectedQuestion.difficulty.toLowerCase() === 'medium' ? 'warning' : 'error'
-                    }
-                  />
-                  <Chip 
-                    label={selectedQuestion.isCorrect ? 'Correct' : 'Incorrect'} 
-                    color={selectedQuestion.isCorrect ? 'success' : 'error'}
-                  />
-                </Box>
-                
-                {/* Options and Answers */}
-                <Box sx={{ my: 3 }}>
-                  <Typography variant="subtitle1" gutterBottom sx={{ fontWeight: 'bold' }}>
-                    Answer Options:
+                <Paper sx={{ p: 3, mb: 3, backgroundColor: '#f8fafc' }}>
+                  <Typography variant="body1">
+                    {selectedQuestionDetails?.content || 
+                     (selectedQuestion as any).questionContent || 
+                     `Question ID: ${selectedQuestion.questionId} - Content not available in history`}
                   </Typography>
-                  {selectedQuestion.options && selectedQuestion.options.length > 0 ? (
-                    <RadioGroup value={selectedQuestion.correctAnswer}>
-                      {selectedQuestion.options.map((option: string, index: number) => (
-                        <FormControlLabel
-                          key={index}
-                          value={option}
-                          control={
-                            <Radio 
-                              color={option === selectedQuestion.correctAnswer ? "success" : 
-                                    (option === selectedQuestion.userAnswer && option !== selectedQuestion.correctAnswer) ? "error" : "default"}
-                              checked={option === selectedQuestion.correctAnswer || option === selectedQuestion.userAnswer}
-                              disabled
-                            />
-                          }
-                          label={
-                            <Box component="span" sx={{ 
-                              color: option === selectedQuestion.correctAnswer ? "success.main" : 
-                                    (option === selectedQuestion.userAnswer && option !== selectedQuestion.correctAnswer) ? "error.main" : "text.primary",
-                              fontWeight: option === selectedQuestion.correctAnswer || option === selectedQuestion.userAnswer ? 'bold' : 'normal'
-                            }}>
-                              {option}
-                              {option === selectedQuestion.correctAnswer && " ✓ (Correct Answer)"}
-                              {option === selectedQuestion.userAnswer && option !== selectedQuestion.correctAnswer && " ✗ (Your Answer)"}
-                            </Box>
-                          }
-                        />
+                </Paper>
+
+                {selectedQuestionDetails?.options && (
+                  <Box sx={{ mb: 3 }}>
+                    <Typography variant="h6" gutterBottom>
+                      Available Options:
+                    </Typography>
+                    <Grid container spacing={2}>
+                      {selectedQuestionDetails.options.map((option: string, index: number) => (
+                        <Grid item xs={12} sm={6} key={index}>
+                          <Paper sx={{ 
+                            p: 2, 
+                            backgroundColor: option === selectedQuestion.correctAnswer ? '#f0fdf4' : 
+                                           option === selectedQuestion.userAnswer ? '#fef2f2' : '#f8fafc',
+                            border: `1px solid ${
+                              option === selectedQuestion.correctAnswer ? '#10b981' : 
+                              option === selectedQuestion.userAnswer ? '#ef4444' : '#e2e8f0'
+                            }`
+                          }}>
+                            <Typography variant="body2" fontWeight={
+                              option === selectedQuestion.correctAnswer || option === selectedQuestion.userAnswer ? 600 : 400
+                            }>
+                              {String.fromCharCode(65 + index)}. {option}
+                              {option === selectedQuestion.correctAnswer && ' ✅'}
+                              {option === selectedQuestion.userAnswer && option !== selectedQuestion.correctAnswer && ' ❌'}
+                            </Typography>
+                          </Paper>
+                        </Grid>
                       ))}
-                    </RadioGroup>
-                  ) : (
-                    <Box sx={{ p: 2, bgcolor: 'background.paper', borderRadius: 1, border: '1px solid rgba(0, 0, 0, 0.12)' }}>
-                      <Typography variant="body1" sx={{ mb: 1 }}>
-                        <strong>Your answer:</strong> {selectedQuestion.userAnswer}
-                      </Typography>
-                      <Typography variant="body1" sx={{ color: 'success.main' }}>
-                        <strong>Correct answer:</strong> {selectedQuestion.correctAnswer}
-                      </Typography>
-                    </Box>
-                  )}
-                </Box>
-                
-                {/* Explanation */}
-                {selectedQuestion.explanation && (
-                  <Box sx={{ mt: 3, p: 2, bgcolor: 'info.light', borderRadius: 1, border: '1px solid', borderColor: 'info.main' }}>
-                    <Typography variant="subtitle1" gutterBottom sx={{ fontWeight: 'bold', color: 'info.dark' }}>
-                      💡 Explanation:
-                    </Typography>
-                    <Typography variant="body1" sx={{ color: 'info.dark' }}>
-                      {selectedQuestion.explanation}
-                    </Typography>
+                    </Grid>
                   </Box>
                 )}
-                
-                {/* Timestamp */}
-                <Box sx={{ mt: 3, pt: 2, borderTop: '1px solid rgba(0, 0, 0, 0.12)' }}>
-                  <Typography variant="caption" color="text.secondary">
-                    Attempted on: {new Date(selectedQuestion.timestamp).toLocaleString()}
+
+                <Grid container spacing={3}>
+                  <Grid item xs={12} md={6}>
+                    <Typography variant="h6" gutterBottom>
+                      Your Answer:
+                    </Typography>
+                    <Paper sx={{ 
+                      p: 2, 
+                      backgroundColor: selectedQuestion.isCorrect ? '#f0fdf4' : '#fef2f2',
+                      border: `1px solid ${selectedQuestion.isCorrect ? '#10b981' : '#ef4444'}`
+                    }}>
+                      <Typography variant="body1" fontWeight={600}>
+                        {selectedQuestion.userAnswer}
+                      </Typography>
+                    </Paper>
+                  </Grid>
+                  
+                  <Grid item xs={12} md={6}>
+                    <Typography variant="h6" gutterBottom>
+                      Correct Answer:
+                    </Typography>
+                    <Paper sx={{ 
+                      p: 2, 
+                      backgroundColor: '#f0fdf4',
+                      border: '1px solid #10b981'
+                    }}>
+                      <Typography variant="body1" fontWeight={600}>
+                        {selectedQuestion.correctAnswer}
+                      </Typography>
+                    </Paper>
+                  </Grid>
+                </Grid>
+
+                {selectedQuestionDetails?.explanation && (
+                  <Box sx={{ mt: 3 }}>
+                    <Typography variant="h6" gutterBottom>
+                      Explanation:
+                    </Typography>
+                    <Paper sx={{ p: 3, backgroundColor: '#f0f9ff', border: '1px solid #3b82f6' }}>
+                      <Typography variant="body1">
+                        {selectedQuestionDetails.explanation}
+                      </Typography>
+                    </Paper>
+                  </Box>
+                )}
+
+                <Box sx={{ mt: 3 }}>
+                  <Typography variant="h6" gutterBottom>
+                    Performance Details:
                   </Typography>
+                  <Grid container spacing={2}>
+                    <Grid item xs={6} md={3}>
+                      <Paper sx={{ p: 2, textAlign: 'center' }}>
+                        <Typography variant="caption" color="text.secondary">
+                          Result
+                        </Typography>
+                        <Typography variant="h6" color={selectedQuestion.isCorrect ? '#10b981' : '#ef4444'}>
+                          {selectedQuestion.isCorrect ? 'Correct ✅' : 'Incorrect ❌'}
+                        </Typography>
+                      </Paper>
+                    </Grid>
+                    <Grid item xs={6} md={3}>
+                      <Paper sx={{ p: 2, textAlign: 'center' }}>
+                        <Typography variant="caption" color="text.secondary">
+                          Date
+                        </Typography>
+                        <Typography variant="h6">
+                          {new Date(selectedQuestion.timestamp).toLocaleDateString()}
+                        </Typography>
+                      </Paper>
+                    </Grid>
+                    <Grid item xs={6} md={3}>
+                      <Paper sx={{ p: 2, textAlign: 'center' }}>
+                        <Typography variant="caption" color="text.secondary">
+                          Difficulty
+                        </Typography>
+                        <Typography variant="h6">
+                          {selectedQuestion.difficulty || selectedQuestionDetails?.difficulty || 'N/A'}
+                        </Typography>
+                      </Paper>
+                    </Grid>
+                    <Grid item xs={6} md={3}>
+                      <Paper sx={{ p: 2, textAlign: 'center' }}>
+                        <Typography variant="caption" color="text.secondary">
+                          Time
+                        </Typography>
+                        <Typography variant="h6">
+                          {new Date(selectedQuestion.timestamp).toLocaleTimeString()}
+                        </Typography>
+                      </Paper>
+                    </Grid>
+                  </Grid>
                 </Box>
               </Box>
             )}
           </DialogContent>
           <DialogActions>
-            <Button onClick={handleCloseDialog} variant="contained">
+            <Button onClick={() => {
+              setShowQuestionDialog(false);
+              setSelectedQuestion(null);
+              setSelectedQuestionDetails(null);
+            }}>
               Close
+            </Button>
+          </DialogActions>
+        </Dialog>
+
+        {/* Reset Dialog */}
+        <Dialog open={showResetDialog} onClose={() => setShowResetDialog(false)}>
+          <DialogTitle>Reset Learning Data</DialogTitle>
+          <DialogContent>
+            <Typography gutterBottom>
+              What would you like to reset?
+            </Typography>
+            <RadioGroup
+              value={resetType}
+              onChange={(e) => setResetType(e.target.value as 'all' | 'history' | 'progress')}
+            >
+              <FormControlLabel value="all" control={<Radio />} label="All data (history + progress)" />
+              <FormControlLabel value="history" control={<Radio />} label="Question history only" />
+              <FormControlLabel value="progress" control={<Radio />} label="Progress stats only" />
+            </RadioGroup>
+          </DialogContent>
+          <DialogActions>
+            <Button onClick={() => setShowResetDialog(false)}>Cancel</Button>
+            <Button 
+              onClick={() => {
+                // Reset logic would go here
+                setShowResetDialog(false);
+              }} 
+              color="error"
+            >
+              Reset
             </Button>
           </DialogActions>
         </Dialog>
