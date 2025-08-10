@@ -507,7 +507,7 @@ const Profile: React.FC = () => {
                         fill="#8884d8"
                         dataKey="value"
                       >
-                        {pieChartData.map((entry, index) => (
+                        {pieChartData.map((entry: any, index: number) => (
                           <Cell key={`cell-${index}`} fill={entry.color} />
                         ))}
                       </Pie>
@@ -582,7 +582,7 @@ const Profile: React.FC = () => {
 
             <Card>
               <List>
-                {filteredHistory.slice(0, 20).map((attempt, index) => (
+                {filteredHistory.slice(0, 20).map((attempt: QuestionAttempt, index: number) => (
                   <React.Fragment key={index}>
                     <ListItem
                       button

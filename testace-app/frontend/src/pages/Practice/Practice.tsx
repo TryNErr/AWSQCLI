@@ -179,7 +179,7 @@ const Practice: React.FC = () => {
 
         {/* Practice Options */}
         <Grid container spacing={3} sx={{ mb: 4 }}>
-          {practiceOptions.map((option, index) => (
+          {practiceOptions.map((option: any, index: number) => (
             <Grid item xs={12} md={4} key={index}>
               <Card
                 sx={{
@@ -220,7 +220,7 @@ const Practice: React.FC = () => {
                   </Typography>
                   
                   <Box sx={{ mb: 3 }}>
-                    {option.features.map((feature, idx) => (
+                    {option.features.map((feature: string, idx: number) => (
                       <Chip
                         key={idx}
                         label={feature}

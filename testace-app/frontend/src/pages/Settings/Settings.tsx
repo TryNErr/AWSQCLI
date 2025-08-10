@@ -308,7 +308,7 @@ const Settings: React.FC = () => {
 
         {/* Settings Categories */}
         <Grid container spacing={3} sx={{ mb: 4 }}>
-          {settingsCategories.map((category, categoryIndex) => (
+          {settingsCategories.map((category: any, categoryIndex: number) => (
             <Grid item xs={12} md={6} key={categoryIndex}>
               <Card
                 sx={{
@@ -342,7 +342,7 @@ const Settings: React.FC = () => {
                 />
                 
                 <CardContent sx={{ pt: 0 }}>
-                  {category.settings.map((setting, settingIndex) => (
+                  {category.settings.map((setting: any, settingIndex: number) => (
                     <Box key={settingIndex} sx={{ mb: 3 }}>
                       <Typography variant="subtitle1" fontWeight={600} gutterBottom>
                         {setting.label}
@@ -399,7 +399,7 @@ const Settings: React.FC = () => {
                             value={(settings as any)[setting.key] || setting.options?.[0]}
                             onChange={(e) => updateSettings({ [setting.key]: e.target.value })}
                           >
-                            {setting.options?.map((option) => (
+                            {setting.options?.map((option: string) => (
                               <MenuItem key={option} value={option}>
                                 {option}
                               </MenuItem>
@@ -414,7 +414,7 @@ const Settings: React.FC = () => {
                           onChange={(e) => updateSettings({ [setting.key]: e.target.value })}
                           row
                         >
-                          {setting.options?.map((option) => (
+                          {setting.options?.map((option: string) => (
                             <FormControlLabel
                               key={option}
                               value={option}
