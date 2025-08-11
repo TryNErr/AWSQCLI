@@ -1,676 +1,402 @@
 [
   {
-    "_id": "build_math_9_hard_0",
-    "content": "Solve for x: 2x² -8x -3 = 0",
+    "_id": "grade_specific_math_9_hard_0",
+    "content": "Grade 9 Math: What is 11 × 10?",
     "type": "multiple_choice",
     "options": [
-      "-0.3, 4.3",
-      "5.3, 0.7",
-      "3.3, -1.3",
-      "No real solutions"
+      "110",
+      "121",
+      "99",
+      "120"
     ],
-    "correctAnswer": "-0.3, 4.3",
-    "explanation": "Using the quadratic formula: x = (-b ± √(b² - 4ac)) / 2a. Solutions: -0.3, 4.3",
+    "correctAnswer": "110",
     "subject": "Mathematical Reasoning",
-    "topic": "Quadratic Equations",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "quadratic",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "explanation": "This is a hard level math question specifically designed for grade 9."
   },
   {
-    "_id": "build_math_9_hard_1",
-    "content": "Solve the system of equations:\n2x + 3y = 15\n4x + 5y = 27",
+    "_id": "grade_specific_math_9_hard_1",
+    "content": "Grade 9 Math: What is 9 × 6?",
     "type": "multiple_choice",
     "options": [
-      "x = 3, y = 3",
-      "x = 4, y = 3",
-      "x = 3, y = 4",
-      "x = 2, y = 2"
+      "54",
+      "63",
+      "45",
+      "60"
     ],
-    "correctAnswer": "x = 3, y = 3",
-    "explanation": "Using substitution or elimination method: x = 3, y = 3",
+    "correctAnswer": "54",
     "subject": "Mathematical Reasoning",
-    "topic": "Systems of Equations",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "systems",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "explanation": "This is a hard level math question specifically designed for grade 9."
   },
   {
-    "_id": "build_math_9_hard_2",
-    "content": "If a bacteria culture doubles every hour and starts with 100 bacteria, how many bacteria will there be after 3 hours?",
+    "_id": "grade_specific_math_9_hard_2",
+    "content": "Grade 9 Math: What is 36 ÷ 6?",
     "type": "multiple_choice",
     "options": [
-      "800",
-      "400",
-      "1600",
-      "600"
+      "6",
+      "7",
+      "5",
+      "8"
     ],
-    "correctAnswer": "800",
-    "explanation": "Using exponential growth formula: N = N₀ × 2^t = 100 × 2^3 = 800",
+    "correctAnswer": "6",
     "subject": "Mathematical Reasoning",
-    "topic": "Exponential Functions",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "exponential",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 105,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "explanation": "This is a hard level math question specifically designed for grade 9."
   },
   {
-    "_id": "build_math_9_hard_3",
-    "content": "Simplify √72",
+    "_id": "grade_specific_math_9_hard_3",
+    "content": "Grade 9 Math: What is 11 × 9?",
     "type": "multiple_choice",
     "options": [
-      "6√2",
-      "√72",
-      "8√0",
-      "9"
+      "99",
+      "110",
+      "88",
+      "108"
     ],
-    "correctAnswer": "6√2",
-    "explanation": "√72 = 6√2 (factor out perfect squares)",
+    "correctAnswer": "99",
     "subject": "Mathematical Reasoning",
-    "topic": "Radical Expressions",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "radicals",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "explanation": "This is a hard level math question specifically designed for grade 9."
   },
   {
-    "_id": "build_math_9_hard_4",
-    "content": "What is the domain of f(x) = 1/(2x +0)?",
+    "_id": "grade_specific_math_9_hard_4",
+    "content": "Grade 9 Math: What is 8 × 9?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers except x = 0",
-      "All real numbers except x = 0",
-      "All real numbers",
-      "x ≥ 0"
+      "72",
+      "80",
+      "64",
+      "81"
     ],
-    "correctAnswer": "All real numbers except x = 0",
-    "explanation": "The denominator cannot equal zero: 2x +0 ≠ 0, so x ≠ 0",
+    "correctAnswer": "72",
     "subject": "Mathematical Reasoning",
-    "topic": "Rational Functions",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "rational",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "explanation": "This is a hard level math question specifically designed for grade 9."
   },
   {
-    "_id": "build_math_9_hard_5",
-    "content": "Factor completely: x² + 6x + 8",
+    "_id": "grade_specific_math_9_hard_5",
+    "content": "Grade 9 Math: What is 99 ÷ 11?",
     "type": "multiple_choice",
     "options": [
-      "(x + 4)(x + 2)",
-      "(x - 4)(x - 2)",
-      "(x + 4)(x - 2)",
-      "Cannot be factored"
+      "9",
+      "10",
+      "8",
+      "11"
     ],
-    "correctAnswer": "(x + 4)(x + 2)",
-    "explanation": "Find two numbers that multiply to 8 and add to 6: 4 and 2",
+    "correctAnswer": "9",
     "subject": "Mathematical Reasoning",
-    "topic": "Polynomial Factoring",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "factoring",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "explanation": "This is a hard level math question specifically designed for grade 9."
   },
   {
-    "_id": "build_math_9_hard_6",
-    "content": "Factor completely: x² + 5x + 6",
+    "_id": "grade_specific_math_9_hard_6",
+    "content": "Grade 9 Math: What is 63 + 81?",
     "type": "multiple_choice",
     "options": [
-      "(x + 3)(x + 2)",
-      "(x - 3)(x - 2)",
-      "(x + 3)(x - 2)",
-      "Cannot be factored"
+      "144",
+      "145",
+      "143",
+      "146"
     ],
-    "correctAnswer": "(x + 3)(x + 2)",
-    "explanation": "Find two numbers that multiply to 6 and add to 5: 3 and 2",
+    "correctAnswer": "144",
     "subject": "Mathematical Reasoning",
-    "topic": "Polynomial Factoring",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "factoring",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "explanation": "This is a hard level math question specifically designed for grade 9."
   },
   {
-    "_id": "build_math_9_hard_7",
-    "content": "Factor completely: x² + 4x + 4",
+    "_id": "grade_specific_math_9_hard_7",
+    "content": "Grade 9 Math: Sarah has 75 marbles. She gets 33 more. How many does she have now?",
     "type": "multiple_choice",
     "options": [
-      "(x + 2)(x + 2)",
-      "(x - 2)(x - 2)",
-      "(x + 2)(x - 2)",
-      "Cannot be factored"
+      "108",
+      "109",
+      "107",
+      "42"
     ],
-    "correctAnswer": "(x + 2)(x + 2)",
-    "explanation": "Find two numbers that multiply to 4 and add to 4: 2 and 2",
+    "correctAnswer": "108",
     "subject": "Mathematical Reasoning",
-    "topic": "Polynomial Factoring",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "factoring",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "explanation": "This is a hard level math question specifically designed for grade 9."
   },
   {
-    "_id": "build_math_9_hard_8",
-    "content": "Factor completely: x² + 7x + 12",
+    "_id": "grade_specific_math_9_hard_8",
+    "content": "Grade 9 Math: What is 48 ÷ 4?",
     "type": "multiple_choice",
     "options": [
-      "(x + 3)(x + 4)",
-      "(x - 3)(x - 4)",
-      "(x + 3)(x - 4)",
-      "Cannot be factored"
+      "12",
+      "13",
+      "11",
+      "14"
     ],
-    "correctAnswer": "(x + 3)(x + 4)",
-    "explanation": "Find two numbers that multiply to 12 and add to 7: 3 and 4",
+    "correctAnswer": "12",
     "subject": "Mathematical Reasoning",
-    "topic": "Polynomial Factoring",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "factoring",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "explanation": "This is a hard level math question specifically designed for grade 9."
   },
   {
-    "_id": "build_math_9_hard_9",
-    "content": "Factor completely: x² + 5x + 6",
+    "_id": "grade_specific_math_9_hard_9",
+    "content": "Grade 9 Math: What is 9 × 7?",
     "type": "multiple_choice",
     "options": [
-      "(x + 3)(x + 2)",
-      "(x - 3)(x - 2)",
-      "(x + 3)(x - 2)",
-      "Cannot be factored"
+      "63",
+      "72",
+      "54",
+      "70"
     ],
-    "correctAnswer": "(x + 3)(x + 2)",
-    "explanation": "Find two numbers that multiply to 6 and add to 5: 3 and 2",
+    "correctAnswer": "63",
     "subject": "Mathematical Reasoning",
-    "topic": "Polynomial Factoring",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "factoring",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "explanation": "This is a hard level math question specifically designed for grade 9."
   },
   {
-    "_id": "build_math_9_hard_10",
-    "content": "Factor completely: x² + 7x + 12",
+    "_id": "grade_specific_math_9_hard_10",
+    "content": "Grade 9 Math: What is 176 + 86?",
     "type": "multiple_choice",
     "options": [
-      "(x + 3)(x + 4)",
-      "(x - 3)(x - 4)",
-      "(x + 3)(x - 4)",
-      "Cannot be factored"
+      "262",
+      "263",
+      "261",
+      "264"
     ],
-    "correctAnswer": "(x + 3)(x + 4)",
-    "explanation": "Find two numbers that multiply to 12 and add to 7: 3 and 4",
+    "correctAnswer": "262",
     "subject": "Mathematical Reasoning",
-    "topic": "Polynomial Factoring",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "factoring",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "explanation": "This is a hard level math question specifically designed for grade 9."
   },
   {
-    "_id": "build_math_9_hard_11",
-    "content": "Factor completely: x² + 4x + 4",
+    "_id": "grade_specific_math_9_hard_11",
+    "content": "Grade 9 Math: What is 2 × 4?",
     "type": "multiple_choice",
     "options": [
-      "(x + 2)(x + 2)",
-      "(x - 2)(x - 2)",
-      "(x + 2)(x - 2)",
-      "Cannot be factored"
+      "8",
+      "10",
+      "6",
+      "12"
     ],
-    "correctAnswer": "(x + 2)(x + 2)",
-    "explanation": "Find two numbers that multiply to 4 and add to 4: 2 and 2",
+    "correctAnswer": "8",
     "subject": "Mathematical Reasoning",
-    "topic": "Polynomial Factoring",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "factoring",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "explanation": "This is a hard level math question specifically designed for grade 9."
   },
   {
-    "_id": "build_math_9_hard_12",
-    "content": "Solve for x: 5x² -6x -3 = 0",
+    "_id": "grade_specific_math_9_hard_12",
+    "content": "Grade 9 Math: What is 7 × 12?",
     "type": "multiple_choice",
     "options": [
-      "-0.4, 1.6",
-      "2.6, 0.6",
-      "0.6, -1.4",
-      "No real solutions"
+      "84",
+      "91",
+      "77",
+      "96"
     ],
-    "correctAnswer": "-0.4, 1.6",
-    "explanation": "Using the quadratic formula: x = (-b ± √(b² - 4ac)) / 2a. Solutions: -0.4, 1.6",
+    "correctAnswer": "84",
     "subject": "Mathematical Reasoning",
-    "topic": "Quadratic Equations",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "quadratic",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "explanation": "This is a hard level math question specifically designed for grade 9."
   },
   {
-    "_id": "build_math_9_hard_13",
-    "content": "Solve the system of equations:\n4x + 4y = 12\n2x + 5y = 9",
+    "_id": "grade_specific_math_9_hard_13",
+    "content": "Grade 9 Math: What is 173 - 95?",
     "type": "multiple_choice",
     "options": [
-      "x = 2, y = 1",
-      "x = 3, y = 1",
-      "x = 2, y = 2",
-      "x = 1, y = 0"
+      "78",
+      "79",
+      "77",
+      "80"
     ],
-    "correctAnswer": "x = 2, y = 1",
-    "explanation": "Using substitution or elimination method: x = 2, y = 1",
+    "correctAnswer": "78",
     "subject": "Mathematical Reasoning",
-    "topic": "Systems of Equations",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "systems",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "explanation": "This is a hard level math question specifically designed for grade 9."
   },
   {
-    "_id": "build_math_9_hard_14",
-    "content": "If a bacteria culture doubles every hour and starts with 100 bacteria, how many bacteria will there be after 3 hours?",
+    "_id": "grade_specific_math_9_hard_14",
+    "content": "Grade 9 Math: What is 5 × 10?",
     "type": "multiple_choice",
     "options": [
-      "800",
-      "400",
-      "1600",
-      "600"
+      "50",
+      "55",
+      "45",
+      "60"
     ],
-    "correctAnswer": "800",
-    "explanation": "Using exponential growth formula: N = N₀ × 2^t = 100 × 2^3 = 800",
+    "correctAnswer": "50",
     "subject": "Mathematical Reasoning",
-    "topic": "Exponential Functions",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "exponential",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 105,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "explanation": "This is a hard level math question specifically designed for grade 9."
   },
   {
-    "_id": "build_math_9_hard_15",
-    "content": "Simplify √18",
+    "_id": "grade_specific_math_9_hard_15",
+    "content": "Grade 9 Math: What is 123 - 45?",
     "type": "multiple_choice",
     "options": [
-      "3√2",
-      "√18",
-      "4√2",
-      "5"
+      "78",
+      "79",
+      "77",
+      "80"
     ],
-    "correctAnswer": "3√2",
-    "explanation": "√18 = 3√2 (factor out perfect squares)",
+    "correctAnswer": "78",
     "subject": "Mathematical Reasoning",
-    "topic": "Radical Expressions",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "radicals",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "explanation": "This is a hard level math question specifically designed for grade 9."
   },
   {
-    "_id": "build_math_9_hard_16",
-    "content": "What is the domain of f(x) = 1/(3x +3)?",
+    "_id": "grade_specific_math_9_hard_16",
+    "content": "Grade 9 Math: What is 8 × 5?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers except x = -1",
-      "All real numbers except x = 1",
-      "All real numbers",
-      "x ≥ -1"
+      "40",
+      "48",
+      "32",
+      "45"
     ],
-    "correctAnswer": "All real numbers except x = -1",
-    "explanation": "The denominator cannot equal zero: 3x +3 ≠ 0, so x ≠ -1",
+    "correctAnswer": "40",
     "subject": "Mathematical Reasoning",
-    "topic": "Rational Functions",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "rational",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "explanation": "This is a hard level math question specifically designed for grade 9."
   },
   {
-    "_id": "build_math_9_hard_17",
-    "content": "Factor completely: x² + 6x + 8",
+    "_id": "grade_specific_math_9_hard_17",
+    "content": "Grade 9 Math: What is 18 ÷ 2?",
     "type": "multiple_choice",
     "options": [
-      "(x + 2)(x + 4)",
-      "(x - 2)(x - 4)",
-      "(x + 2)(x - 4)",
-      "Cannot be factored"
+      "9",
+      "10",
+      "8",
+      "11"
     ],
-    "correctAnswer": "(x + 2)(x + 4)",
-    "explanation": "Find two numbers that multiply to 8 and add to 6: 2 and 4",
+    "correctAnswer": "9",
     "subject": "Mathematical Reasoning",
-    "topic": "Polynomial Factoring",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "factoring",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "explanation": "This is a hard level math question specifically designed for grade 9."
   },
   {
-    "_id": "build_math_9_hard_18",
-    "content": "Factor completely: x² + 6x + 9",
+    "_id": "grade_specific_math_9_hard_18",
+    "content": "Grade 9 Math: What is 4 × 6?",
     "type": "multiple_choice",
     "options": [
-      "(x + 3)(x + 3)",
-      "(x - 3)(x - 3)",
-      "(x + 3)(x - 3)",
-      "Cannot be factored"
+      "24",
+      "28",
+      "20",
+      "30"
     ],
-    "correctAnswer": "(x + 3)(x + 3)",
-    "explanation": "Find two numbers that multiply to 9 and add to 6: 3 and 3",
+    "correctAnswer": "24",
     "subject": "Mathematical Reasoning",
-    "topic": "Polynomial Factoring",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "factoring",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "explanation": "This is a hard level math question specifically designed for grade 9."
   },
   {
-    "_id": "build_math_9_hard_19",
-    "content": "Factor completely: x² + 6x + 9",
+    "_id": "grade_specific_math_9_hard_19",
+    "content": "Grade 9 Math: Sarah has 170 books. She gets 39 more. How many does she have now?",
     "type": "multiple_choice",
     "options": [
-      "(x + 3)(x + 3)",
-      "(x - 3)(x - 3)",
-      "(x + 3)(x - 3)",
-      "Cannot be factored"
+      "209",
+      "210",
+      "208",
+      "131"
     ],
-    "correctAnswer": "(x + 3)(x + 3)",
-    "explanation": "Find two numbers that multiply to 9 and add to 6: 3 and 3",
+    "correctAnswer": "209",
     "subject": "Mathematical Reasoning",
-    "topic": "Polynomial Factoring",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "factoring",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "explanation": "This is a hard level math question specifically designed for grade 9."
   },
   {
-    "_id": "build_math_9_hard_20",
-    "content": "Factor completely: x² + 8x + 16",
+    "_id": "grade_specific_math_9_hard_20",
+    "content": "Grade 9 Math: What is 159 + 146?",
     "type": "multiple_choice",
     "options": [
-      "(x + 4)(x + 4)",
-      "(x - 4)(x - 4)",
-      "(x + 4)(x - 4)",
-      "Cannot be factored"
+      "305",
+      "306",
+      "304",
+      "307"
     ],
-    "correctAnswer": "(x + 4)(x + 4)",
-    "explanation": "Find two numbers that multiply to 16 and add to 8: 4 and 4",
+    "correctAnswer": "305",
     "subject": "Mathematical Reasoning",
-    "topic": "Polynomial Factoring",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "factoring",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "explanation": "This is a hard level math question specifically designed for grade 9."
   },
   {
-    "_id": "build_math_9_hard_21",
-    "content": "Factor completely: x² + 7x + 12",
+    "_id": "grade_specific_math_9_hard_21",
+    "content": "Grade 9 Math: What is 84 + 175?",
     "type": "multiple_choice",
     "options": [
-      "(x + 3)(x + 4)",
-      "(x - 3)(x - 4)",
-      "(x + 3)(x - 4)",
-      "Cannot be factored"
+      "259",
+      "260",
+      "258",
+      "261"
     ],
-    "correctAnswer": "(x + 3)(x + 4)",
-    "explanation": "Find two numbers that multiply to 12 and add to 7: 3 and 4",
+    "correctAnswer": "259",
     "subject": "Mathematical Reasoning",
-    "topic": "Polynomial Factoring",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "factoring",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "explanation": "This is a hard level math question specifically designed for grade 9."
   },
   {
-    "_id": "build_math_9_hard_22",
-    "content": "Factor completely: x² + 4x + 4",
+    "_id": "grade_specific_math_9_hard_22",
+    "content": "Grade 9 Math: What is 10 × 3?",
     "type": "multiple_choice",
     "options": [
-      "(x + 2)(x + 2)",
-      "(x - 2)(x - 2)",
-      "(x + 2)(x - 2)",
-      "Cannot be factored"
+      "30",
+      "40",
+      "20",
+      "33"
     ],
-    "correctAnswer": "(x + 2)(x + 2)",
-    "explanation": "Find two numbers that multiply to 4 and add to 4: 2 and 2",
+    "correctAnswer": "30",
     "subject": "Mathematical Reasoning",
-    "topic": "Polynomial Factoring",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "factoring",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "explanation": "This is a hard level math question specifically designed for grade 9."
   },
   {
-    "_id": "build_math_9_hard_23",
-    "content": "Factor completely: x² + 7x + 12",
+    "_id": "grade_specific_math_9_hard_23",
+    "content": "Grade 9 Math: What is 12 × 6?",
     "type": "multiple_choice",
     "options": [
-      "(x + 4)(x + 3)",
-      "(x - 4)(x - 3)",
-      "(x + 4)(x - 3)",
-      "Cannot be factored"
+      "72",
+      "84",
+      "60",
+      "78"
     ],
-    "correctAnswer": "(x + 4)(x + 3)",
-    "explanation": "Find two numbers that multiply to 12 and add to 7: 4 and 3",
+    "correctAnswer": "72",
     "subject": "Mathematical Reasoning",
-    "topic": "Polynomial Factoring",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "factoring",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "explanation": "This is a hard level math question specifically designed for grade 9."
   },
   {
-    "_id": "build_math_9_hard_24",
-    "content": "Solve for x: 2x + 20 = 34",
+    "_id": "grade_specific_math_9_hard_24",
+    "content": "Grade 9 Math: What is 7 ÷ 1?",
     "type": "multiple_choice",
     "options": [
       "7",
+      "8",
       "6",
-      "9",
-      "8"
+      "9"
     ],
     "correctAnswer": "7",
-    "explanation": "2x + 20 = 34, so 2x = 14, therefore x = 7",
     "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "algebra",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z",
-    "estimatedTime": 90
+    "explanation": "This is a hard level math question specifically designed for grade 9."
   }
 ]

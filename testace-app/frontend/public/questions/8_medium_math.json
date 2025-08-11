@@ -1,639 +1,402 @@
 [
   {
-    "_id": "build_math_8_medium_0",
-    "content": "Solve for x: 4x + 13 = 53",
-    "type": "multiple_choice",
-    "options": [
-      "12",
-      "11",
-      "9",
-      "10"
-    ],
-    "correctAnswer": "10",
-    "explanation": "4x + 13 = 53, so 4x = 40, therefore x = 10",
-    "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
-    "difficulty": "medium",
-    "grade": 8,
-    "tags": [
-      "mathematics",
-      "algebra",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.845Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_8_medium_1",
-    "content": "What is 39 - 7?",
-    "type": "multiple_choice",
-    "options": [
-      "31",
-      "33",
-      "34",
-      "32"
-    ],
-    "correctAnswer": "32",
-    "explanation": "39 - 7 = 32",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "medium",
-    "grade": 8,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.845Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_8_medium_2",
-    "content": "What is 6 × 4?",
-    "type": "multiple_choice",
-    "options": [
-      "24",
-      "25",
-      "26",
-      "23"
-    ],
-    "correctAnswer": "24",
-    "explanation": "6 × 4 = 24",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "medium",
-    "grade": 8,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.845Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_8_medium_3",
-    "content": "What is 67% of 69?",
-    "type": "multiple_choice",
-    "options": [
-      "48",
-      "45",
-      "46",
-      "47"
-    ],
-    "correctAnswer": "46",
-    "explanation": "67% of 69 = (67/100) × 69 = 46",
-    "subject": "Mathematical Reasoning",
-    "topic": "Percentages",
-    "difficulty": "medium",
-    "grade": 8,
-    "tags": [
-      "mathematics",
-      "percentages",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.845Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_8_medium_4",
-    "content": "Solve for x: 6x + 12 = 54",
-    "type": "multiple_choice",
-    "options": [
-      "8",
-      "9",
-      "6",
-      "7"
-    ],
-    "correctAnswer": "7",
-    "explanation": "6x + 12 = 54, so 6x = 42, therefore x = 7",
-    "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
-    "difficulty": "medium",
-    "grade": 8,
-    "tags": [
-      "mathematics",
-      "algebra",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.845Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_8_medium_5",
-    "content": "What is 46 - 32?",
-    "type": "multiple_choice",
-    "options": [
-      "13",
-      "14",
-      "15",
-      "16"
-    ],
-    "correctAnswer": "14",
-    "explanation": "46 - 32 = 14",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "medium",
-    "grade": 8,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.845Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_8_medium_6",
-    "content": "What is 10 × 7?",
-    "type": "multiple_choice",
-    "options": [
-      "69",
-      "72",
-      "71",
-      "70"
-    ],
-    "correctAnswer": "70",
-    "explanation": "10 × 7 = 70",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "medium",
-    "grade": 8,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.845Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_8_medium_7",
-    "content": "What is 19% of 146?",
-    "type": "multiple_choice",
-    "options": [
-      "29",
-      "28",
-      "27",
-      "30"
-    ],
-    "correctAnswer": "28",
-    "explanation": "19% of 146 = (19/100) × 146 = 28",
-    "subject": "Mathematical Reasoning",
-    "topic": "Percentages",
-    "difficulty": "medium",
-    "grade": 8,
-    "tags": [
-      "mathematics",
-      "percentages",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.845Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_8_medium_8",
-    "content": "Solve for x: 4x + 9 = 29",
-    "type": "multiple_choice",
-    "options": [
-      "5",
-      "6",
-      "4",
-      "7"
-    ],
-    "correctAnswer": "5",
-    "explanation": "4x + 9 = 29, so 4x = 20, therefore x = 5",
-    "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
-    "difficulty": "medium",
-    "grade": 8,
-    "tags": [
-      "mathematics",
-      "algebra",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.845Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_8_medium_9",
-    "content": "What is 19 - 4?",
-    "type": "multiple_choice",
-    "options": [
-      "15",
-      "17",
-      "16",
-      "14"
-    ],
-    "correctAnswer": "15",
-    "explanation": "19 - 4 = 15",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "medium",
-    "grade": 8,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.845Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_8_medium_10",
-    "content": "What is 6 × 12?",
-    "type": "multiple_choice",
-    "options": [
-      "71",
-      "74",
-      "72",
-      "73"
-    ],
-    "correctAnswer": "72",
-    "explanation": "6 × 12 = 72",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "medium",
-    "grade": 8,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.845Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_8_medium_11",
-    "content": "What is 39% of 52?",
-    "type": "multiple_choice",
-    "options": [
-      "20",
-      "22",
-      "19",
-      "21"
-    ],
-    "correctAnswer": "20",
-    "explanation": "39% of 52 = (39/100) × 52 = 20",
-    "subject": "Mathematical Reasoning",
-    "topic": "Percentages",
-    "difficulty": "medium",
-    "grade": 8,
-    "tags": [
-      "mathematics",
-      "percentages",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.845Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_8_medium_12",
-    "content": "Solve for x: 5x + 19 = 49",
-    "type": "multiple_choice",
-    "options": [
-      "5",
-      "6",
-      "7",
-      "8"
-    ],
-    "correctAnswer": "6",
-    "explanation": "5x + 19 = 49, so 5x = 30, therefore x = 6",
-    "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
-    "difficulty": "medium",
-    "grade": 8,
-    "tags": [
-      "mathematics",
-      "algebra",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.845Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_8_medium_13",
-    "content": "What is 35 - 35?",
-    "type": "multiple_choice",
-    "options": [
-      "2",
-      "1",
-      "0"
-    ],
-    "correctAnswer": "0",
-    "explanation": "35 - 35 = 0",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "medium",
-    "grade": 8,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.845Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_8_medium_14",
-    "content": "What is 7 × 6?",
-    "type": "multiple_choice",
-    "options": [
-      "42",
-      "41",
-      "43",
-      "44"
-    ],
-    "correctAnswer": "42",
-    "explanation": "7 × 6 = 42",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "medium",
-    "grade": 8,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.845Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_8_medium_15",
-    "content": "What is 36% of 50?",
-    "type": "multiple_choice",
-    "options": [
-      "19",
-      "20",
-      "17",
-      "18"
-    ],
-    "correctAnswer": "18",
-    "explanation": "36% of 50 = (36/100) × 50 = 18",
-    "subject": "Mathematical Reasoning",
-    "topic": "Percentages",
-    "difficulty": "medium",
-    "grade": 8,
-    "tags": [
-      "mathematics",
-      "percentages",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.845Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_8_medium_16",
-    "content": "Solve for x: 2x + 18 = 20",
-    "type": "multiple_choice",
-    "options": [
-      "1",
-      "2",
-      "3",
-      "2"
-    ],
-    "correctAnswer": "1",
-    "explanation": "2x + 18 = 20, so 2x = 2, therefore x = 1",
-    "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
-    "difficulty": "medium",
-    "grade": 8,
-    "tags": [
-      "mathematics",
-      "algebra",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.845Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_8_medium_17",
-    "content": "What is 40 - 30?",
-    "type": "multiple_choice",
-    "options": [
-      "10",
-      "11",
-      "9",
-      "12"
-    ],
-    "correctAnswer": "10",
-    "explanation": "40 - 30 = 10",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "medium",
-    "grade": 8,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.845Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_8_medium_18",
-    "content": "What is 8 × 7?",
-    "type": "multiple_choice",
-    "options": [
-      "58",
-      "55",
-      "57",
-      "56"
-    ],
-    "correctAnswer": "56",
-    "explanation": "8 × 7 = 56",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "medium",
-    "grade": 8,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.845Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_8_medium_19",
-    "content": "What is 46% of 87?",
-    "type": "multiple_choice",
-    "options": [
-      "39",
-      "40",
-      "42",
-      "41"
-    ],
-    "correctAnswer": "40",
-    "explanation": "46% of 87 = (46/100) × 87 = 40",
-    "subject": "Mathematical Reasoning",
-    "topic": "Percentages",
-    "difficulty": "medium",
-    "grade": 8,
-    "tags": [
-      "mathematics",
-      "percentages",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.845Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_8_medium_20",
-    "content": "Solve for x: 5x + 13 = 53",
-    "type": "multiple_choice",
-    "options": [
-      "10",
-      "8",
-      "9",
-      "7"
-    ],
-    "correctAnswer": "8",
-    "explanation": "5x + 13 = 53, so 5x = 40, therefore x = 8",
-    "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
-    "difficulty": "medium",
-    "grade": 8,
-    "tags": [
-      "mathematics",
-      "algebra",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.845Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_8_medium_21",
-    "content": "What is 16 - 8?",
-    "type": "multiple_choice",
-    "options": [
-      "10",
-      "7",
-      "9",
-      "8"
-    ],
-    "correctAnswer": "8",
-    "explanation": "16 - 8 = 8",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "medium",
-    "grade": 8,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.845Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_8_medium_22",
-    "content": "What is 3 × 10?",
+    "_id": "grade_specific_math_8_medium_0",
+    "content": "Grade 8 Math: Sarah has 27 books. She gets 3 more. How many does she have now?",
     "type": "multiple_choice",
     "options": [
       "30",
-      "32",
       "31",
-      "29"
+      "29",
+      "24"
     ],
     "correctAnswer": "30",
-    "explanation": "3 × 10 = 30",
     "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "medium",
     "grade": 8,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.845Z",
-    "estimatedTime": 60
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 8."
   },
   {
-    "_id": "build_math_8_medium_23",
-    "content": "What is 59% of 153?",
+    "_id": "grade_specific_math_8_medium_1",
+    "content": "Grade 8 Math: What is 29 + 83?",
+    "type": "multiple_choice",
+    "options": [
+      "112",
+      "113",
+      "111",
+      "114"
+    ],
+    "correctAnswer": "112",
+    "subject": "Mathematical Reasoning",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 8."
+  },
+  {
+    "_id": "grade_specific_math_8_medium_2",
+    "content": "Grade 8 Math: What is 12 × 9?",
+    "type": "multiple_choice",
+    "options": [
+      "108",
+      "120",
+      "96",
+      "117"
+    ],
+    "correctAnswer": "108",
+    "subject": "Mathematical Reasoning",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 8."
+  },
+  {
+    "_id": "grade_specific_math_8_medium_3",
+    "content": "Grade 8 Math: Sarah has 47 marbles. She gets 5 more. How many does she have now?",
+    "type": "multiple_choice",
+    "options": [
+      "52",
+      "53",
+      "51",
+      "42"
+    ],
+    "correctAnswer": "52",
+    "subject": "Mathematical Reasoning",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 8."
+  },
+  {
+    "_id": "grade_specific_math_8_medium_4",
+    "content": "Grade 8 Math: What is 4 × 9?",
+    "type": "multiple_choice",
+    "options": [
+      "36",
+      "40",
+      "32",
+      "45"
+    ],
+    "correctAnswer": "36",
+    "subject": "Mathematical Reasoning",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 8."
+  },
+  {
+    "_id": "grade_specific_math_8_medium_5",
+    "content": "Grade 8 Math: Sarah has 43 pencils. She gets 4 more. How many does she have now?",
+    "type": "multiple_choice",
+    "options": [
+      "47",
+      "48",
+      "46",
+      "39"
+    ],
+    "correctAnswer": "47",
+    "subject": "Mathematical Reasoning",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 8."
+  },
+  {
+    "_id": "grade_specific_math_8_medium_6",
+    "content": "Grade 8 Math: Sarah has 77 marbles. She gets 14 more. How many does she have now?",
+    "type": "multiple_choice",
+    "options": [
+      "91",
+      "92",
+      "90",
+      "63"
+    ],
+    "correctAnswer": "91",
+    "subject": "Mathematical Reasoning",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 8."
+  },
+  {
+    "_id": "grade_specific_math_8_medium_7",
+    "content": "Grade 8 Math: Sarah has 75 books. She gets 14 more. How many does she have now?",
     "type": "multiple_choice",
     "options": [
       "89",
       "90",
-      "91",
-      "92"
+      "88",
+      "61"
     ],
-    "correctAnswer": "90",
-    "explanation": "59% of 153 = (59/100) × 153 = 90",
+    "correctAnswer": "89",
     "subject": "Mathematical Reasoning",
-    "topic": "Percentages",
-    "difficulty": "medium",
     "grade": 8,
-    "tags": [
-      "mathematics",
-      "percentages",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.845Z",
-    "estimatedTime": 60
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 8."
   },
   {
-    "_id": "build_math_8_medium_24",
-    "content": "Solve for x: 3x + 20 = 50",
+    "_id": "grade_specific_math_8_medium_8",
+    "content": "Grade 8 Math: Sarah has 49 stickers. She gets 12 more. How many does she have now?",
     "type": "multiple_choice",
     "options": [
-      "9",
+      "61",
+      "62",
+      "60",
+      "37"
+    ],
+    "correctAnswer": "61",
+    "subject": "Mathematical Reasoning",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 8."
+  },
+  {
+    "_id": "grade_specific_math_8_medium_9",
+    "content": "Grade 8 Math: What is 90 + 89?",
+    "type": "multiple_choice",
+    "options": [
+      "179",
+      "180",
+      "178",
+      "181"
+    ],
+    "correctAnswer": "179",
+    "subject": "Mathematical Reasoning",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 8."
+  },
+  {
+    "_id": "grade_specific_math_8_medium_10",
+    "content": "Grade 8 Math: Sarah has 53 books. She gets 4 more. How many does she have now?",
+    "type": "multiple_choice",
+    "options": [
+      "57",
+      "58",
+      "56",
+      "49"
+    ],
+    "correctAnswer": "57",
+    "subject": "Mathematical Reasoning",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 8."
+  },
+  {
+    "_id": "grade_specific_math_8_medium_11",
+    "content": "Grade 8 Math: What is 56 + 76?",
+    "type": "multiple_choice",
+    "options": [
+      "132",
+      "133",
+      "131",
+      "134"
+    ],
+    "correctAnswer": "132",
+    "subject": "Mathematical Reasoning",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 8."
+  },
+  {
+    "_id": "grade_specific_math_8_medium_12",
+    "content": "Grade 8 Math: What is 34 + 72?",
+    "type": "multiple_choice",
+    "options": [
+      "106",
+      "107",
+      "105",
+      "108"
+    ],
+    "correctAnswer": "106",
+    "subject": "Mathematical Reasoning",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 8."
+  },
+  {
+    "_id": "grade_specific_math_8_medium_13",
+    "content": "Grade 8 Math: What is 44 ÷ 4?",
+    "type": "multiple_choice",
+    "options": [
+      "11",
       "12",
       "10",
-      "11"
+      "13"
     ],
-    "correctAnswer": "10",
-    "explanation": "3x + 20 = 50, so 3x = 30, therefore x = 10",
+    "correctAnswer": "11",
     "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
-    "difficulty": "medium",
     "grade": 8,
-    "tags": [
-      "mathematics",
-      "algebra",
-      "build-time-generated",
-      "timed-test-ready"
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 8."
+  },
+  {
+    "_id": "grade_specific_math_8_medium_14",
+    "content": "Grade 8 Math: What is 31 + 81?",
+    "type": "multiple_choice",
+    "options": [
+      "112",
+      "113",
+      "111",
+      "114"
     ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.845Z",
-    "estimatedTime": 60
+    "correctAnswer": "112",
+    "subject": "Mathematical Reasoning",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 8."
+  },
+  {
+    "_id": "grade_specific_math_8_medium_15",
+    "content": "Grade 8 Math: What is 89 - 20?",
+    "type": "multiple_choice",
+    "options": [
+      "69",
+      "70",
+      "68",
+      "71"
+    ],
+    "correctAnswer": "69",
+    "subject": "Mathematical Reasoning",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 8."
+  },
+  {
+    "_id": "grade_specific_math_8_medium_16",
+    "content": "Grade 8 Math: What is 12 × 4?",
+    "type": "multiple_choice",
+    "options": [
+      "48",
+      "60",
+      "36",
+      "52"
+    ],
+    "correctAnswer": "48",
+    "subject": "Mathematical Reasoning",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 8."
+  },
+  {
+    "_id": "grade_specific_math_8_medium_17",
+    "content": "Grade 8 Math: What is 58 + 69?",
+    "type": "multiple_choice",
+    "options": [
+      "127",
+      "128",
+      "126",
+      "129"
+    ],
+    "correctAnswer": "127",
+    "subject": "Mathematical Reasoning",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 8."
+  },
+  {
+    "_id": "grade_specific_math_8_medium_18",
+    "content": "Grade 8 Math: What is 32 + 32?",
+    "type": "multiple_choice",
+    "options": [
+      "64",
+      "65",
+      "63",
+      "66"
+    ],
+    "correctAnswer": "64",
+    "subject": "Mathematical Reasoning",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 8."
+  },
+  {
+    "_id": "grade_specific_math_8_medium_19",
+    "content": "Grade 8 Math: Sarah has 26 apples. She gets 7 more. How many does she have now?",
+    "type": "multiple_choice",
+    "options": [
+      "33",
+      "34",
+      "32",
+      "19"
+    ],
+    "correctAnswer": "33",
+    "subject": "Mathematical Reasoning",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 8."
+  },
+  {
+    "_id": "grade_specific_math_8_medium_20",
+    "content": "Grade 8 Math: What is 33 - 29?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "5",
+      "3",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "Mathematical Reasoning",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 8."
+  },
+  {
+    "_id": "grade_specific_math_8_medium_21",
+    "content": "Grade 8 Math: What is 10 × 5?",
+    "type": "multiple_choice",
+    "options": [
+      "50",
+      "60",
+      "40",
+      "55"
+    ],
+    "correctAnswer": "50",
+    "subject": "Mathematical Reasoning",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 8."
+  },
+  {
+    "_id": "grade_specific_math_8_medium_22",
+    "content": "Grade 8 Math: What is 48 - 16?",
+    "type": "multiple_choice",
+    "options": [
+      "32",
+      "33",
+      "31",
+      "34"
+    ],
+    "correctAnswer": "32",
+    "subject": "Mathematical Reasoning",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 8."
+  },
+  {
+    "_id": "grade_specific_math_8_medium_23",
+    "content": "Grade 8 Math: What is 32 + 42?",
+    "type": "multiple_choice",
+    "options": [
+      "74",
+      "75",
+      "73",
+      "76"
+    ],
+    "correctAnswer": "74",
+    "subject": "Mathematical Reasoning",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 8."
+  },
+  {
+    "_id": "grade_specific_math_8_medium_24",
+    "content": "Grade 8 Math: Sarah has 46 pencils. She gets 1 more. How many does she have now?",
+    "type": "multiple_choice",
+    "options": [
+      "47",
+      "48",
+      "46",
+      "45"
+    ],
+    "correctAnswer": "47",
+    "subject": "Mathematical Reasoning",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 8."
   }
 ]

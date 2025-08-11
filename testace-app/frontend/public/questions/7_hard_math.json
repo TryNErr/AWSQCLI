@@ -1,640 +1,402 @@
 [
   {
-    "_id": "build_math_7_hard_0",
-    "content": "Solve for x: 8x + 5 = 61",
+    "_id": "grade_specific_math_7_hard_0",
+    "content": "Grade 7 Math: What is 6 × 8?",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "8",
-      "6",
-      "9"
-    ],
-    "correctAnswer": "7",
-    "explanation": "8x + 5 = 61, so 8x = 56, therefore x = 7",
-    "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
-    "difficulty": "hard",
-    "grade": 7,
-    "tags": [
-      "mathematics",
-      "algebra",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.840Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_7_hard_1",
-    "content": "What is 100 - 69?",
-    "type": "multiple_choice",
-    "options": [
-      "30",
-      "32",
-      "33",
-      "31"
-    ],
-    "correctAnswer": "31",
-    "explanation": "100 - 69 = 31",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "hard",
-    "grade": 7,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.841Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_7_hard_2",
-    "content": "What is 11 × 3?",
-    "type": "multiple_choice",
-    "options": [
-      "33",
-      "32",
-      "34",
-      "35"
-    ],
-    "correctAnswer": "33",
-    "explanation": "11 × 3 = 33",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "hard",
-    "grade": 7,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.841Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_7_hard_3",
-    "content": "What is 42% of 94?",
-    "type": "multiple_choice",
-    "options": [
-      "38",
-      "39",
-      "41",
-      "40"
-    ],
-    "correctAnswer": "39",
-    "explanation": "42% of 94 = (42/100) × 94 = 39",
-    "subject": "Mathematical Reasoning",
-    "topic": "Percentages",
-    "difficulty": "hard",
-    "grade": 7,
-    "tags": [
-      "mathematics",
-      "percentages",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.841Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_7_hard_4",
-    "content": "Solve for x: 8x + 7 = 23",
-    "type": "multiple_choice",
-    "options": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "correctAnswer": "2",
-    "explanation": "8x + 7 = 23, so 8x = 16, therefore x = 2",
-    "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
-    "difficulty": "hard",
-    "grade": 7,
-    "tags": [
-      "mathematics",
-      "algebra",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.841Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_7_hard_5",
-    "content": "What is 29 - 2?",
-    "type": "multiple_choice",
-    "options": [
-      "27",
-      "28",
-      "26",
-      "29"
-    ],
-    "correctAnswer": "27",
-    "explanation": "29 - 2 = 27",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "hard",
-    "grade": 7,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.841Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_7_hard_6",
-    "content": "What is 8 × 2?",
-    "type": "multiple_choice",
-    "options": [
-      "16",
-      "15",
-      "18",
-      "17"
-    ],
-    "correctAnswer": "16",
-    "explanation": "8 × 2 = 16",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "hard",
-    "grade": 7,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.841Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_7_hard_7",
-    "content": "What is 75% of 159?",
-    "type": "multiple_choice",
-    "options": [
-      "121",
-      "120",
-      "119",
-      "118"
-    ],
-    "correctAnswer": "119",
-    "explanation": "75% of 159 = (75/100) × 159 = 119",
-    "subject": "Mathematical Reasoning",
-    "topic": "Percentages",
-    "difficulty": "hard",
-    "grade": 7,
-    "tags": [
-      "mathematics",
-      "percentages",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.841Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_7_hard_8",
-    "content": "Solve for x: 8x + 20 = 36",
-    "type": "multiple_choice",
-    "options": [
-      "4",
-      "1",
-      "3",
-      "2"
-    ],
-    "correctAnswer": "2",
-    "explanation": "8x + 20 = 36, so 8x = 16, therefore x = 2",
-    "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
-    "difficulty": "hard",
-    "grade": 7,
-    "tags": [
-      "mathematics",
-      "algebra",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.841Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_7_hard_9",
-    "content": "What is 26 - 21?",
-    "type": "multiple_choice",
-    "options": [
-      "5",
-      "7",
-      "4",
-      "6"
-    ],
-    "correctAnswer": "5",
-    "explanation": "26 - 21 = 5",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "hard",
-    "grade": 7,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.841Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_7_hard_10",
-    "content": "What is 7 × 12?",
-    "type": "multiple_choice",
-    "options": [
-      "83",
-      "84",
-      "85",
-      "86"
-    ],
-    "correctAnswer": "84",
-    "explanation": "7 × 12 = 84",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "hard",
-    "grade": 7,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.841Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_7_hard_11",
-    "content": "What is 81% of 53?",
-    "type": "multiple_choice",
-    "options": [
-      "44",
-      "43",
-      "45",
-      "42"
-    ],
-    "correctAnswer": "43",
-    "explanation": "81% of 53 = (81/100) × 53 = 43",
-    "subject": "Mathematical Reasoning",
-    "topic": "Percentages",
-    "difficulty": "hard",
-    "grade": 7,
-    "tags": [
-      "mathematics",
-      "percentages",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.841Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_7_hard_12",
-    "content": "Solve for x: 8x + 13 = 69",
-    "type": "multiple_choice",
-    "options": [
-      "7",
-      "9",
-      "8",
-      "6"
-    ],
-    "correctAnswer": "7",
-    "explanation": "8x + 13 = 69, so 8x = 56, therefore x = 7",
-    "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
-    "difficulty": "hard",
-    "grade": 7,
-    "tags": [
-      "mathematics",
-      "algebra",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.841Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_7_hard_13",
-    "content": "What is 77 - 13?",
-    "type": "multiple_choice",
-    "options": [
-      "63",
-      "66",
-      "65",
-      "64"
-    ],
-    "correctAnswer": "64",
-    "explanation": "77 - 13 = 64",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "hard",
-    "grade": 7,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.841Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_7_hard_14",
-    "content": "What is 3 × 10?",
-    "type": "multiple_choice",
-    "options": [
-      "32",
-      "29",
-      "31",
-      "30"
-    ],
-    "correctAnswer": "30",
-    "explanation": "3 × 10 = 30",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "hard",
-    "grade": 7,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.841Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_7_hard_15",
-    "content": "What is 38% of 193?",
-    "type": "multiple_choice",
-    "options": [
-      "73",
-      "72",
-      "74",
-      "75"
-    ],
-    "correctAnswer": "73",
-    "explanation": "38% of 193 = (38/100) × 193 = 73",
-    "subject": "Mathematical Reasoning",
-    "topic": "Percentages",
-    "difficulty": "hard",
-    "grade": 7,
-    "tags": [
-      "mathematics",
-      "percentages",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.841Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_7_hard_16",
-    "content": "Solve for x: 4x + 16 = 44",
-    "type": "multiple_choice",
-    "options": [
-      "9",
-      "7",
-      "8",
-      "6"
-    ],
-    "correctAnswer": "7",
-    "explanation": "4x + 16 = 44, so 4x = 28, therefore x = 7",
-    "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
-    "difficulty": "hard",
-    "grade": 7,
-    "tags": [
-      "mathematics",
-      "algebra",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.841Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_7_hard_17",
-    "content": "What is 75 - 9?",
-    "type": "multiple_choice",
-    "options": [
-      "67",
-      "68",
-      "65",
-      "66"
-    ],
-    "correctAnswer": "66",
-    "explanation": "75 - 9 = 66",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "hard",
-    "grade": 7,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.841Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_7_hard_18",
-    "content": "What is 10 × 11?",
-    "type": "multiple_choice",
-    "options": [
-      "111",
-      "112",
-      "109",
-      "110"
-    ],
-    "correctAnswer": "110",
-    "explanation": "10 × 11 = 110",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "hard",
-    "grade": 7,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.841Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_7_hard_19",
-    "content": "What is 66% of 85?",
-    "type": "multiple_choice",
-    "options": [
-      "55",
-      "56",
-      "57",
-      "58"
-    ],
-    "correctAnswer": "56",
-    "explanation": "66% of 85 = (66/100) × 85 = 56",
-    "subject": "Mathematical Reasoning",
-    "topic": "Percentages",
-    "difficulty": "hard",
-    "grade": 7,
-    "tags": [
-      "mathematics",
-      "percentages",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.841Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_7_hard_20",
-    "content": "Solve for x: 6x + 12 = 30",
-    "type": "multiple_choice",
-    "options": [
-      "2",
-      "4",
-      "5",
-      "3"
-    ],
-    "correctAnswer": "3",
-    "explanation": "6x + 12 = 30, so 6x = 18, therefore x = 3",
-    "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
-    "difficulty": "hard",
-    "grade": 7,
-    "tags": [
-      "mathematics",
-      "algebra",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.841Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_7_hard_21",
-    "content": "What is 25 - 19?",
-    "type": "multiple_choice",
-    "options": [
-      "8",
-      "6",
-      "7",
-      "5"
-    ],
-    "correctAnswer": "6",
-    "explanation": "25 - 19 = 6",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "hard",
-    "grade": 7,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.841Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_7_hard_22",
-    "content": "What is 5 × 9?",
-    "type": "multiple_choice",
-    "options": [
-      "45",
-      "44",
-      "46",
-      "47"
-    ],
-    "correctAnswer": "45",
-    "explanation": "5 × 9 = 45",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "hard",
-    "grade": 7,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.841Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_7_hard_23",
-    "content": "What is 48% of 115?",
-    "type": "multiple_choice",
-    "options": [
+      "48",
       "54",
-      "55",
-      "57",
+      "42",
       "56"
     ],
-    "correctAnswer": "55",
-    "explanation": "48% of 115 = (48/100) × 115 = 55",
+    "correctAnswer": "48",
     "subject": "Mathematical Reasoning",
-    "topic": "Percentages",
-    "difficulty": "hard",
     "grade": 7,
-    "tags": [
-      "mathematics",
-      "percentages",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.841Z",
-    "estimatedTime": 90
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 7."
   },
   {
-    "_id": "build_math_7_hard_24",
-    "content": "Solve for x: 6x + 5 = 35",
+    "_id": "grade_specific_math_7_hard_1",
+    "content": "Grade 7 Math: What is 133 + 52?",
     "type": "multiple_choice",
     "options": [
-      "4",
+      "185",
+      "186",
+      "184",
+      "187"
+    ],
+    "correctAnswer": "185",
+    "subject": "Mathematical Reasoning",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 7."
+  },
+  {
+    "_id": "grade_specific_math_7_hard_2",
+    "content": "Grade 7 Math: What is 66 ÷ 6?",
+    "type": "multiple_choice",
+    "options": [
+      "11",
+      "12",
+      "10",
+      "13"
+    ],
+    "correctAnswer": "11",
+    "subject": "Mathematical Reasoning",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 7."
+  },
+  {
+    "_id": "grade_specific_math_7_hard_3",
+    "content": "Grade 7 Math: What is 9 × 1?",
+    "type": "multiple_choice",
+    "options": [
+      "9",
+      "18",
+      "0",
+      "10"
+    ],
+    "correctAnswer": "9",
+    "subject": "Mathematical Reasoning",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 7."
+  },
+  {
+    "_id": "grade_specific_math_7_hard_4",
+    "content": "Grade 7 Math: What is 37 + 97?",
+    "type": "multiple_choice",
+    "options": [
+      "134",
+      "135",
+      "133",
+      "136"
+    ],
+    "correctAnswer": "134",
+    "subject": "Mathematical Reasoning",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 7."
+  },
+  {
+    "_id": "grade_specific_math_7_hard_5",
+    "content": "Grade 7 Math: What is 97 - 86?",
+    "type": "multiple_choice",
+    "options": [
+      "11",
+      "12",
+      "10",
+      "13"
+    ],
+    "correctAnswer": "11",
+    "subject": "Mathematical Reasoning",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 7."
+  },
+  {
+    "_id": "grade_specific_math_7_hard_6",
+    "content": "Grade 7 Math: What is 6 × 3?",
+    "type": "multiple_choice",
+    "options": [
+      "18",
+      "24",
+      "12",
+      "21"
+    ],
+    "correctAnswer": "18",
+    "subject": "Mathematical Reasoning",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 7."
+  },
+  {
+    "_id": "grade_specific_math_7_hard_7",
+    "content": "Grade 7 Math: What is 5 × 10?",
+    "type": "multiple_choice",
+    "options": [
+      "50",
+      "55",
+      "45",
+      "60"
+    ],
+    "correctAnswer": "50",
+    "subject": "Mathematical Reasoning",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 7."
+  },
+  {
+    "_id": "grade_specific_math_7_hard_8",
+    "content": "Grade 7 Math: What is 69 + 98?",
+    "type": "multiple_choice",
+    "options": [
+      "167",
+      "168",
+      "166",
+      "169"
+    ],
+    "correctAnswer": "167",
+    "subject": "Mathematical Reasoning",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 7."
+  },
+  {
+    "_id": "grade_specific_math_7_hard_9",
+    "content": "Grade 7 Math: Sarah has 102 marbles. She gets 31 more. How many does she have now?",
+    "type": "multiple_choice",
+    "options": [
+      "133",
+      "134",
+      "132",
+      "71"
+    ],
+    "correctAnswer": "133",
+    "subject": "Mathematical Reasoning",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 7."
+  },
+  {
+    "_id": "grade_specific_math_7_hard_10",
+    "content": "Grade 7 Math: Sarah has 73 apples. She gets 15 more. How many does she have now?",
+    "type": "multiple_choice",
+    "options": [
+      "88",
+      "89",
+      "87",
+      "58"
+    ],
+    "correctAnswer": "88",
+    "subject": "Mathematical Reasoning",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 7."
+  },
+  {
+    "_id": "grade_specific_math_7_hard_11",
+    "content": "Grade 7 Math: Sarah has 107 pencils. She gets 30 more. How many does she have now?",
+    "type": "multiple_choice",
+    "options": [
+      "137",
+      "138",
+      "136",
+      "77"
+    ],
+    "correctAnswer": "137",
+    "subject": "Mathematical Reasoning",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 7."
+  },
+  {
+    "_id": "grade_specific_math_7_hard_12",
+    "content": "Grade 7 Math: What is 3 × 5?",
+    "type": "multiple_choice",
+    "options": [
+      "15",
+      "18",
+      "12",
+      "20"
+    ],
+    "correctAnswer": "15",
+    "subject": "Mathematical Reasoning",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 7."
+  },
+  {
+    "_id": "grade_specific_math_7_hard_13",
+    "content": "Grade 7 Math: What is 40 + 65?",
+    "type": "multiple_choice",
+    "options": [
+      "105",
+      "106",
+      "104",
+      "107"
+    ],
+    "correctAnswer": "105",
+    "subject": "Mathematical Reasoning",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 7."
+  },
+  {
+    "_id": "grade_specific_math_7_hard_14",
+    "content": "Grade 7 Math: What is 7 × 1?",
+    "type": "multiple_choice",
+    "options": [
       "7",
-      "6",
+      "14",
+      "0",
+      "8"
+    ],
+    "correctAnswer": "7",
+    "subject": "Mathematical Reasoning",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 7."
+  },
+  {
+    "_id": "grade_specific_math_7_hard_15",
+    "content": "Grade 7 Math: What is 64 ÷ 8?",
+    "type": "multiple_choice",
+    "options": [
+      "8",
+      "9",
+      "7",
+      "10"
+    ],
+    "correctAnswer": "8",
+    "subject": "Mathematical Reasoning",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 7."
+  },
+  {
+    "_id": "grade_specific_math_7_hard_16",
+    "content": "Grade 7 Math: What is 94 + 114?",
+    "type": "multiple_choice",
+    "options": [
+      "208",
+      "209",
+      "207",
+      "210"
+    ],
+    "correctAnswer": "208",
+    "subject": "Mathematical Reasoning",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 7."
+  },
+  {
+    "_id": "grade_specific_math_7_hard_17",
+    "content": "Grade 7 Math: What is 8 × 9?",
+    "type": "multiple_choice",
+    "options": [
+      "72",
+      "80",
+      "64",
+      "81"
+    ],
+    "correctAnswer": "72",
+    "subject": "Mathematical Reasoning",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 7."
+  },
+  {
+    "_id": "grade_specific_math_7_hard_18",
+    "content": "Grade 7 Math: Sarah has 35 books. She gets 13 more. How many does she have now?",
+    "type": "multiple_choice",
+    "options": [
+      "48",
+      "49",
+      "47",
+      "22"
+    ],
+    "correctAnswer": "48",
+    "subject": "Mathematical Reasoning",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 7."
+  },
+  {
+    "_id": "grade_specific_math_7_hard_19",
+    "content": "Grade 7 Math: What is 83 - 80?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "2",
       "5"
     ],
-    "correctAnswer": "5",
-    "explanation": "6x + 5 = 35, so 6x = 30, therefore x = 5",
+    "correctAnswer": "3",
     "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
-    "difficulty": "hard",
     "grade": 7,
-    "tags": [
-      "mathematics",
-      "algebra",
-      "build-time-generated",
-      "timed-test-ready"
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 7."
+  },
+  {
+    "_id": "grade_specific_math_7_hard_20",
+    "content": "Grade 7 Math: Sarah has 113 marbles. She gets 19 more. How many does she have now?",
+    "type": "multiple_choice",
+    "options": [
+      "132",
+      "133",
+      "131",
+      "94"
     ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.841Z",
-    "estimatedTime": 90
+    "correctAnswer": "132",
+    "subject": "Mathematical Reasoning",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 7."
+  },
+  {
+    "_id": "grade_specific_math_7_hard_21",
+    "content": "Grade 7 Math: Sarah has 118 books. She gets 33 more. How many does she have now?",
+    "type": "multiple_choice",
+    "options": [
+      "151",
+      "152",
+      "150",
+      "85"
+    ],
+    "correctAnswer": "151",
+    "subject": "Mathematical Reasoning",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 7."
+  },
+  {
+    "_id": "grade_specific_math_7_hard_22",
+    "content": "Grade 7 Math: What is 99 ÷ 9?",
+    "type": "multiple_choice",
+    "options": [
+      "11",
+      "12",
+      "10",
+      "13"
+    ],
+    "correctAnswer": "11",
+    "subject": "Mathematical Reasoning",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 7."
+  },
+  {
+    "_id": "grade_specific_math_7_hard_23",
+    "content": "Grade 7 Math: What is 3 × 6?",
+    "type": "multiple_choice",
+    "options": [
+      "18",
+      "21",
+      "15",
+      "24"
+    ],
+    "correctAnswer": "18",
+    "subject": "Mathematical Reasoning",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 7."
+  },
+  {
+    "_id": "grade_specific_math_7_hard_24",
+    "content": "Grade 7 Math: What is 45 - 39?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "5",
+      "8"
+    ],
+    "correctAnswer": "6",
+    "subject": "Mathematical Reasoning",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 7."
   }
 ]

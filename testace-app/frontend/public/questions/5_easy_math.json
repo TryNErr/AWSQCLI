@@ -1,281 +1,7 @@
 [
   {
-    "_id": "build_math_5_easy_0",
-    "content": "What is 16 + 6?",
-    "type": "multiple_choice",
-    "options": [
-      "22",
-      "24",
-      "23",
-      "21"
-    ],
-    "correctAnswer": "22",
-    "explanation": "16 + 6 = 22",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "easy",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.825Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_5_easy_1",
-    "content": "What is 19 - 12?",
-    "type": "multiple_choice",
-    "options": [
-      "7",
-      "9",
-      "6",
-      "8"
-    ],
-    "correctAnswer": "7",
-    "explanation": "19 - 12 = 7",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "easy",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.825Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_5_easy_2",
-    "content": "What is 5 × 2?",
-    "type": "multiple_choice",
-    "options": [
-      "12",
-      "9",
-      "10",
-      "11"
-    ],
-    "correctAnswer": "10",
-    "explanation": "5 × 2 = 10",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "easy",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.825Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_5_easy_3",
-    "content": "What is 40 ÷ 5?",
-    "type": "multiple_choice",
-    "options": [
-      "9",
-      "7",
-      "10",
-      "8"
-    ],
-    "correctAnswer": "8",
-    "explanation": "40 ÷ 5 = 8",
-    "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "easy",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.825Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_5_easy_4",
-    "content": "What is 18 + 1?",
-    "type": "multiple_choice",
-    "options": [
-      "18",
-      "21",
-      "19",
-      "20"
-    ],
-    "correctAnswer": "19",
-    "explanation": "18 + 1 = 19",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "easy",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.825Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_5_easy_5",
-    "content": "What is 19 - 8?",
-    "type": "multiple_choice",
-    "options": [
-      "13",
-      "11",
-      "12",
-      "10"
-    ],
-    "correctAnswer": "11",
-    "explanation": "19 - 8 = 11",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "easy",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.825Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_5_easy_6",
-    "content": "What is 4 × 9?",
-    "type": "multiple_choice",
-    "options": [
-      "36",
-      "35",
-      "37",
-      "38"
-    ],
-    "correctAnswer": "36",
-    "explanation": "4 × 9 = 36",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "easy",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.825Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_5_easy_7",
-    "content": "What is 10 ÷ 2?",
-    "type": "multiple_choice",
-    "options": [
-      "6",
-      "4",
-      "5",
-      "7"
-    ],
-    "correctAnswer": "5",
-    "explanation": "10 ÷ 2 = 5",
-    "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "easy",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.825Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_5_easy_8",
-    "content": "What is 11 + 7?",
-    "type": "multiple_choice",
-    "options": [
-      "20",
-      "18",
-      "19",
-      "17"
-    ],
-    "correctAnswer": "18",
-    "explanation": "11 + 7 = 18",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "easy",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.825Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_5_easy_9",
-    "content": "What is 1 - 1?",
-    "type": "multiple_choice",
-    "options": [
-      "1",
-      "2",
-      "0"
-    ],
-    "correctAnswer": "0",
-    "explanation": "1 - 1 = 0",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "easy",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.825Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_5_easy_10",
-    "content": "What is 12 × 6?",
-    "type": "multiple_choice",
-    "options": [
-      "74",
-      "73",
-      "72",
-      "71"
-    ],
-    "correctAnswer": "72",
-    "explanation": "12 × 6 = 72",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "easy",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.825Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_5_easy_11",
-    "content": "What is 75 ÷ 5?",
+    "_id": "grade_specific_math_5_easy_0",
+    "content": "Grade 5 Math: What is 6 + 9?",
     "type": "multiple_choice",
     "options": [
       "15",
@@ -284,297 +10,366 @@
       "17"
     ],
     "correctAnswer": "15",
-    "explanation": "75 ÷ 5 = 15",
     "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "easy",
     "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.825Z",
-    "estimatedTime": 45
+    "difficulty": "easy",
+    "explanation": "This is a easy level math question specifically designed for grade 5."
   },
   {
-    "_id": "build_math_5_easy_12",
-    "content": "What is 9 + 13?",
+    "_id": "grade_specific_math_5_easy_1",
+    "content": "Grade 5 Math: What is 24 - 4?",
     "type": "multiple_choice",
     "options": [
-      "24",
+      "20",
+      "21",
+      "19",
+      "22"
+    ],
+    "correctAnswer": "20",
+    "subject": "Mathematical Reasoning",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "This is a easy level math question specifically designed for grade 5."
+  },
+  {
+    "_id": "grade_specific_math_5_easy_2",
+    "content": "Grade 5 Math: What is 11 × 3?",
+    "type": "multiple_choice",
+    "options": [
+      "33",
+      "44",
       "22",
-      "23",
-      "21"
+      "36"
     ],
-    "correctAnswer": "22",
-    "explanation": "9 + 13 = 22",
+    "correctAnswer": "33",
     "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "easy",
     "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.825Z",
-    "estimatedTime": 45
+    "difficulty": "easy",
+    "explanation": "This is a easy level math question specifically designed for grade 5."
   },
   {
-    "_id": "build_math_5_easy_13",
-    "content": "What is 14 - 5?",
+    "_id": "grade_specific_math_5_easy_3",
+    "content": "Grade 5 Math: Sarah has 25 stickers. She gets 1 more. How many does she have now?",
     "type": "multiple_choice",
     "options": [
-      "9",
-      "10",
-      "11",
-      "8"
+      "26",
+      "27",
+      "25",
+      "24"
     ],
-    "correctAnswer": "9",
-    "explanation": "14 - 5 = 9",
+    "correctAnswer": "26",
     "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "easy",
     "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.825Z",
-    "estimatedTime": 45
+    "difficulty": "easy",
+    "explanation": "This is a easy level math question specifically designed for grade 5."
   },
   {
-    "_id": "build_math_5_easy_14",
-    "content": "What is 12 × 3?",
+    "_id": "grade_specific_math_5_easy_4",
+    "content": "Grade 5 Math: What is 20 + 24?",
     "type": "multiple_choice",
     "options": [
-      "35",
-      "36",
-      "37",
-      "38"
+      "44",
+      "45",
+      "43",
+      "46"
     ],
-    "correctAnswer": "36",
-    "explanation": "12 × 3 = 36",
+    "correctAnswer": "44",
     "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "easy",
     "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.825Z",
-    "estimatedTime": 45
+    "difficulty": "easy",
+    "explanation": "This is a easy level math question specifically designed for grade 5."
   },
   {
-    "_id": "build_math_5_easy_15",
-    "content": "What is 132 ÷ 12?",
-    "type": "multiple_choice",
-    "options": [
-      "10",
-      "11",
-      "12",
-      "13"
-    ],
-    "correctAnswer": "11",
-    "explanation": "132 ÷ 12 = 11",
-    "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "easy",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.825Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_5_easy_16",
-    "content": "What is 20 + 12?",
-    "type": "multiple_choice",
-    "options": [
-      "34",
-      "31",
-      "32",
-      "33"
-    ],
-    "correctAnswer": "32",
-    "explanation": "20 + 12 = 32",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "easy",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.825Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_5_easy_17",
-    "content": "What is 18 - 9?",
-    "type": "multiple_choice",
-    "options": [
-      "11",
-      "8",
-      "9",
-      "10"
-    ],
-    "correctAnswer": "9",
-    "explanation": "18 - 9 = 9",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "easy",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.825Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_5_easy_18",
-    "content": "What is 9 × 6?",
-    "type": "multiple_choice",
-    "options": [
-      "56",
-      "54",
-      "53",
-      "55"
-    ],
-    "correctAnswer": "54",
-    "explanation": "9 × 6 = 54",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "easy",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.825Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_5_easy_19",
-    "content": "What is 20 ÷ 4?",
+    "_id": "grade_specific_math_5_easy_5",
+    "content": "Grade 5 Math: What is 15 - 11?",
     "type": "multiple_choice",
     "options": [
       "4",
       "5",
+      "3",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "Mathematical Reasoning",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "This is a easy level math question specifically designed for grade 5."
+  },
+  {
+    "_id": "grade_specific_math_5_easy_6",
+    "content": "Grade 5 Math: What is 17 - 10?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "8",
       "6",
-      "7"
+      "9"
     ],
-    "correctAnswer": "5",
-    "explanation": "20 ÷ 4 = 5",
+    "correctAnswer": "7",
     "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "easy",
     "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.825Z",
-    "estimatedTime": 45
+    "difficulty": "easy",
+    "explanation": "This is a easy level math question specifically designed for grade 5."
   },
   {
-    "_id": "build_math_5_easy_20",
-    "content": "What is 11 + 6?",
-    "type": "multiple_choice",
-    "options": [
-      "18",
-      "16",
-      "17",
-      "19"
-    ],
-    "correctAnswer": "17",
-    "explanation": "11 + 6 = 17",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "easy",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.825Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_5_easy_21",
-    "content": "What is 5 - 5?",
-    "type": "multiple_choice",
-    "options": [
-      "2",
-      "0",
-      "1"
-    ],
-    "correctAnswer": "0",
-    "explanation": "5 - 5 = 0",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "easy",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.825Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_5_easy_22",
-    "content": "What is 8 × 4?",
+    "_id": "grade_specific_math_5_easy_7",
+    "content": "Grade 5 Math: What is 10 + 23?",
     "type": "multiple_choice",
     "options": [
       "33",
-      "31",
       "34",
-      "32"
+      "32",
+      "35"
     ],
-    "correctAnswer": "32",
-    "explanation": "8 × 4 = 32",
+    "correctAnswer": "33",
     "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "easy",
     "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.825Z",
-    "estimatedTime": 45
+    "difficulty": "easy",
+    "explanation": "This is a easy level math question specifically designed for grade 5."
   },
   {
-    "_id": "build_math_5_easy_23",
-    "content": "What is 132 ÷ 11?",
+    "_id": "grade_specific_math_5_easy_8",
+    "content": "Grade 5 Math: What is 2 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "6",
+      "2",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "Mathematical Reasoning",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "This is a easy level math question specifically designed for grade 5."
+  },
+  {
+    "_id": "grade_specific_math_5_easy_9",
+    "content": "Grade 5 Math: Sarah has 19 apples. She gets 1 more. How many does she have now?",
+    "type": "multiple_choice",
+    "options": [
+      "20",
+      "21",
+      "19",
+      "18"
+    ],
+    "correctAnswer": "20",
+    "subject": "Mathematical Reasoning",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "This is a easy level math question specifically designed for grade 5."
+  },
+  {
+    "_id": "grade_specific_math_5_easy_10",
+    "content": "Grade 5 Math: What is 2 + 12?",
+    "type": "multiple_choice",
+    "options": [
+      "14",
+      "15",
+      "13",
+      "16"
+    ],
+    "correctAnswer": "14",
+    "subject": "Mathematical Reasoning",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "This is a easy level math question specifically designed for grade 5."
+  },
+  {
+    "_id": "grade_specific_math_5_easy_11",
+    "content": "Grade 5 Math: What is 35 ÷ 5?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "8",
+      "6",
+      "9"
+    ],
+    "correctAnswer": "7",
+    "subject": "Mathematical Reasoning",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "This is a easy level math question specifically designed for grade 5."
+  },
+  {
+    "_id": "grade_specific_math_5_easy_12",
+    "content": "Grade 5 Math: What is 22 + 11?",
+    "type": "multiple_choice",
+    "options": [
+      "33",
+      "34",
+      "32",
+      "35"
+    ],
+    "correctAnswer": "33",
+    "subject": "Mathematical Reasoning",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "This is a easy level math question specifically designed for grade 5."
+  },
+  {
+    "_id": "grade_specific_math_5_easy_13",
+    "content": "Grade 5 Math: Sarah has 5 pencils. She gets 1 more. How many does she have now?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "5",
+      "4"
+    ],
+    "correctAnswer": "6",
+    "subject": "Mathematical Reasoning",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "This is a easy level math question specifically designed for grade 5."
+  },
+  {
+    "_id": "grade_specific_math_5_easy_14",
+    "content": "Grade 5 Math: What is 34 - 14?",
+    "type": "multiple_choice",
+    "options": [
+      "20",
+      "21",
+      "19",
+      "22"
+    ],
+    "correctAnswer": "20",
+    "subject": "Mathematical Reasoning",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "This is a easy level math question specifically designed for grade 5."
+  },
+  {
+    "_id": "grade_specific_math_5_easy_15",
+    "content": "Grade 5 Math: What is 5 × 7?",
+    "type": "multiple_choice",
+    "options": [
+      "35",
+      "40",
+      "30",
+      "42"
+    ],
+    "correctAnswer": "35",
+    "subject": "Mathematical Reasoning",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "This is a easy level math question specifically designed for grade 5."
+  },
+  {
+    "_id": "grade_specific_math_5_easy_16",
+    "content": "Grade 5 Math: What is 25 - 23?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "3",
+      "1",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "Mathematical Reasoning",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "This is a easy level math question specifically designed for grade 5."
+  },
+  {
+    "_id": "grade_specific_math_5_easy_17",
+    "content": "Grade 5 Math: What is 4 × 1?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "8",
+      "0",
+      "5"
+    ],
+    "correctAnswer": "4",
+    "subject": "Mathematical Reasoning",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "This is a easy level math question specifically designed for grade 5."
+  },
+  {
+    "_id": "grade_specific_math_5_easy_18",
+    "content": "Grade 5 Math: What is 9 + 1?",
+    "type": "multiple_choice",
+    "options": [
+      "10",
+      "11",
+      "9",
+      "12"
+    ],
+    "correctAnswer": "10",
+    "subject": "Mathematical Reasoning",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "This is a easy level math question specifically designed for grade 5."
+  },
+  {
+    "_id": "grade_specific_math_5_easy_19",
+    "content": "Grade 5 Math: What is 36 ÷ 12?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "2",
+      "5"
+    ],
+    "correctAnswer": "3",
+    "subject": "Mathematical Reasoning",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "This is a easy level math question specifically designed for grade 5."
+  },
+  {
+    "_id": "grade_specific_math_5_easy_20",
+    "content": "Grade 5 Math: What is 1 × 8?",
+    "type": "multiple_choice",
+    "options": [
+      "8",
+      "9",
+      "7",
+      "16"
+    ],
+    "correctAnswer": "8",
+    "subject": "Mathematical Reasoning",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "This is a easy level math question specifically designed for grade 5."
+  },
+  {
+    "_id": "grade_specific_math_5_easy_21",
+    "content": "Grade 5 Math: Sarah has 18 marbles. She gets 1 more. How many does she have now?",
+    "type": "multiple_choice",
+    "options": [
+      "19",
+      "20",
+      "18",
+      "17"
+    ],
+    "correctAnswer": "19",
+    "subject": "Mathematical Reasoning",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "This is a easy level math question specifically designed for grade 5."
+  },
+  {
+    "_id": "grade_specific_math_5_easy_22",
+    "content": "Grade 5 Math: What is 30 ÷ 10?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "2",
+      "5"
+    ],
+    "correctAnswer": "3",
+    "subject": "Mathematical Reasoning",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "This is a easy level math question specifically designed for grade 5."
+  },
+  {
+    "_id": "grade_specific_math_5_easy_23",
+    "content": "Grade 5 Math: What is 84 ÷ 7?",
     "type": "multiple_choice",
     "options": [
       "12",
@@ -583,43 +378,25 @@
       "14"
     ],
     "correctAnswer": "12",
-    "explanation": "132 ÷ 11 = 12",
     "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "easy",
     "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.825Z",
-    "estimatedTime": 45
+    "difficulty": "easy",
+    "explanation": "This is a easy level math question specifically designed for grade 5."
   },
   {
-    "_id": "build_math_5_easy_24",
-    "content": "What is 9 + 18?",
+    "_id": "grade_specific_math_5_easy_24",
+    "content": "Grade 5 Math: What is 9 × 1?",
     "type": "multiple_choice",
     "options": [
-      "26",
-      "28",
-      "27",
-      "29"
+      "9",
+      "18",
+      "0",
+      "10"
     ],
-    "correctAnswer": "27",
-    "explanation": "9 + 18 = 27",
+    "correctAnswer": "9",
     "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "easy",
     "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.825Z",
-    "estimatedTime": 45
+    "difficulty": "easy",
+    "explanation": "This is a easy level math question specifically designed for grade 5."
   }
 ]

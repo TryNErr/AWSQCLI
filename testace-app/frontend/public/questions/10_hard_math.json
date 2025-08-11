@@ -1,644 +1,402 @@
 [
   {
-    "_id": "build_math_10_hard_0",
-    "content": "Solve for x: 6x + 13 = 43",
+    "_id": "grade_specific_math_10_hard_0",
+    "content": "Grade 10 Math: Sarah has 89 books. She gets 14 more. How many does she have now?",
     "type": "multiple_choice",
     "options": [
-      "6",
-      "7",
-      "4",
-      "5"
+      "103",
+      "104",
+      "102",
+      "75"
     ],
-    "correctAnswer": "5",
-    "explanation": "6x + 13 = 43, so 6x = 30, therefore x = 5",
+    "correctAnswer": "103",
     "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
-    "difficulty": "hard",
     "grade": 10,
-    "tags": [
-      "mathematics",
-      "algebra",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.863Z",
-    "estimatedTime": 90
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 10."
   },
   {
-    "_id": "build_math_10_hard_1",
-    "content": "If f(x) = 5x +1, what is f(1)?",
+    "_id": "grade_specific_math_10_hard_1",
+    "content": "Grade 10 Math: Sarah has 108 marbles. She gets 13 more. How many does she have now?",
     "type": "multiple_choice",
     "options": [
-      "6",
-      "7",
-      "5",
-      "8"
+      "121",
+      "122",
+      "120",
+      "95"
     ],
-    "correctAnswer": "6",
-    "explanation": "f(1) = 5(1) +1 = 6",
+    "correctAnswer": "121",
     "subject": "Mathematical Reasoning",
-    "topic": "Functions",
-    "difficulty": "hard",
     "grade": 10,
-    "tags": [
-      "mathematics",
-      "functions",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.863Z",
-    "estimatedTime": 90
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 10."
   },
   {
-    "_id": "build_math_10_hard_2",
-    "content": "What is sin(60°)?",
+    "_id": "grade_specific_math_10_hard_2",
+    "content": "Grade 10 Math: What is 10 × 8?",
     "type": "multiple_choice",
     "options": [
-      "√3/2",
-      "1/2",
-      "√2/2",
-      "√3/2"
-    ],
-    "correctAnswer": "√3/2",
-    "explanation": "sin(60°) = √3/2 (special angle)",
-    "subject": "Mathematical Reasoning",
-    "topic": "Trigonometry",
-    "difficulty": "hard",
-    "grade": 10,
-    "tags": [
-      "mathematics",
-      "trigonometry",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.863Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_10_hard_3",
-    "content": "What is 64% of 142?",
-    "type": "multiple_choice",
-    "options": [
-      "92",
-      "91",
+      "80",
       "90",
-      "93"
+      "70",
+      "88"
     ],
-    "correctAnswer": "91",
-    "explanation": "64% of 142 = (64/100) × 142 = 91",
+    "correctAnswer": "80",
     "subject": "Mathematical Reasoning",
-    "topic": "Percentages",
-    "difficulty": "hard",
     "grade": 10,
-    "tags": [
-      "mathematics",
-      "percentages",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.863Z",
-    "estimatedTime": 90
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 10."
   },
   {
-    "_id": "build_math_10_hard_4",
-    "content": "Solve for x: 3x + 11 = 41",
+    "_id": "grade_specific_math_10_hard_3",
+    "content": "Grade 10 Math: What is 170 - 156?",
     "type": "multiple_choice",
     "options": [
-      "9",
+      "14",
+      "15",
+      "13",
+      "16"
+    ],
+    "correctAnswer": "14",
+    "subject": "Mathematical Reasoning",
+    "grade": 10,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 10."
+  },
+  {
+    "_id": "grade_specific_math_10_hard_4",
+    "content": "Grade 10 Math: What is 4 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "8",
       "12",
-      "11",
+      "4",
       "10"
     ],
-    "correctAnswer": "10",
-    "explanation": "3x + 11 = 41, so 3x = 30, therefore x = 10",
+    "correctAnswer": "8",
     "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
-    "difficulty": "hard",
     "grade": 10,
-    "tags": [
-      "mathematics",
-      "algebra",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.863Z",
-    "estimatedTime": 90
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 10."
   },
   {
-    "_id": "build_math_10_hard_5",
-    "content": "What is 75 - 51?",
+    "_id": "grade_specific_math_10_hard_5",
+    "content": "Grade 10 Math: What is 16 ÷ 4?",
     "type": "multiple_choice",
     "options": [
-      "23",
-      "24",
-      "26",
-      "25"
-    ],
-    "correctAnswer": "24",
-    "explanation": "75 - 51 = 24",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "hard",
-    "grade": 10,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.863Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_10_hard_6",
-    "content": "What is 11 × 4?",
-    "type": "multiple_choice",
-    "options": [
-      "46",
-      "43",
-      "44",
-      "45"
-    ],
-    "correctAnswer": "44",
-    "explanation": "11 × 4 = 44",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "hard",
-    "grade": 10,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.863Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_10_hard_7",
-    "content": "If f(x) = 3x +2, what is f(3)?",
-    "type": "multiple_choice",
-    "options": [
-      "10",
-      "12",
-      "11",
-      "13"
-    ],
-    "correctAnswer": "11",
-    "explanation": "f(3) = 3(3) +2 = 11",
-    "subject": "Mathematical Reasoning",
-    "topic": "Functions",
-    "difficulty": "hard",
-    "grade": 10,
-    "tags": [
-      "mathematics",
-      "functions",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.863Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_10_hard_8",
-    "content": "What is sin(60°)?",
-    "type": "multiple_choice",
-    "options": [
-      "√3/2",
-      "1/2",
-      "√2/2",
-      "√3/2"
-    ],
-    "correctAnswer": "√3/2",
-    "explanation": "sin(60°) = √3/2 (special angle)",
-    "subject": "Mathematical Reasoning",
-    "topic": "Trigonometry",
-    "difficulty": "hard",
-    "grade": 10,
-    "tags": [
-      "mathematics",
-      "trigonometry",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.863Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_10_hard_9",
-    "content": "What is 92 - 25?",
-    "type": "multiple_choice",
-    "options": [
-      "69",
-      "68",
-      "66",
-      "67"
-    ],
-    "correctAnswer": "67",
-    "explanation": "92 - 25 = 67",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "hard",
-    "grade": 10,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.863Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_10_hard_10",
-    "content": "What is 8 × 12?",
-    "type": "multiple_choice",
-    "options": [
-      "97",
-      "95",
-      "96",
-      "98"
-    ],
-    "correctAnswer": "96",
-    "explanation": "8 × 12 = 96",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "hard",
-    "grade": 10,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.863Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_10_hard_11",
-    "content": "What is 37% of 100?",
-    "type": "multiple_choice",
-    "options": [
-      "36",
-      "39",
-      "38",
-      "37"
-    ],
-    "correctAnswer": "37",
-    "explanation": "37% of 100 = (37/100) × 100 = 37",
-    "subject": "Mathematical Reasoning",
-    "topic": "Percentages",
-    "difficulty": "hard",
-    "grade": 10,
-    "tags": [
-      "mathematics",
-      "percentages",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.863Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_10_hard_12",
-    "content": "Solve for x: 7x + 9 = 37",
-    "type": "multiple_choice",
-    "options": [
+      "4",
       "5",
       "3",
-      "4",
       "6"
     ],
     "correctAnswer": "4",
-    "explanation": "7x + 9 = 37, so 7x = 28, therefore x = 4",
     "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
-    "difficulty": "hard",
     "grade": 10,
-    "tags": [
-      "mathematics",
-      "algebra",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.863Z",
-    "estimatedTime": 90
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 10."
   },
   {
-    "_id": "build_math_10_hard_13",
-    "content": "If f(x) = 5x +0, what is f(5)?",
+    "_id": "grade_specific_math_10_hard_6",
+    "content": "Grade 10 Math: What is 5 ÷ 1?",
     "type": "multiple_choice",
     "options": [
-      "26",
-      "24",
-      "25",
-      "27"
+      "5",
+      "6",
+      "4",
+      "7"
     ],
-    "correctAnswer": "25",
-    "explanation": "f(5) = 5(5) +0 = 25",
+    "correctAnswer": "5",
     "subject": "Mathematical Reasoning",
-    "topic": "Functions",
-    "difficulty": "hard",
     "grade": 10,
-    "tags": [
-      "mathematics",
-      "functions",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.863Z",
-    "estimatedTime": 90
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 10."
   },
   {
-    "_id": "build_math_10_hard_14",
-    "content": "What is sin(60°)?",
+    "_id": "grade_specific_math_10_hard_7",
+    "content": "Grade 10 Math: What is 7 × 6?",
     "type": "multiple_choice",
     "options": [
-      "√3/2",
-      "1/2",
-      "√2/2",
-      "√3/2"
+      "42",
+      "49",
+      "35",
+      "48"
     ],
-    "correctAnswer": "√3/2",
-    "explanation": "sin(60°) = √3/2 (special angle)",
+    "correctAnswer": "42",
     "subject": "Mathematical Reasoning",
-    "topic": "Trigonometry",
-    "difficulty": "hard",
     "grade": 10,
-    "tags": [
-      "mathematics",
-      "trigonometry",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.863Z",
-    "estimatedTime": 90
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 10."
   },
   {
-    "_id": "build_math_10_hard_15",
-    "content": "What is 46% of 60?",
+    "_id": "grade_specific_math_10_hard_8",
+    "content": "Grade 10 Math: What is 7 ÷ 1?",
     "type": "multiple_choice",
     "options": [
-      "27",
-      "28",
+      "7",
+      "8",
+      "6",
+      "9"
+    ],
+    "correctAnswer": "7",
+    "subject": "Mathematical Reasoning",
+    "grade": 10,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 10."
+  },
+  {
+    "_id": "grade_specific_math_10_hard_9",
+    "content": "Grade 10 Math: What is 10 × 3?",
+    "type": "multiple_choice",
+    "options": [
       "30",
-      "29"
+      "40",
+      "20",
+      "33"
     ],
-    "correctAnswer": "28",
-    "explanation": "46% of 60 = (46/100) × 60 = 28",
+    "correctAnswer": "30",
     "subject": "Mathematical Reasoning",
-    "topic": "Percentages",
-    "difficulty": "hard",
     "grade": 10,
-    "tags": [
-      "mathematics",
-      "percentages",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.863Z",
-    "estimatedTime": 90
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 10."
   },
   {
-    "_id": "build_math_10_hard_16",
-    "content": "Solve for x: 5x + 15 = 20",
+    "_id": "grade_specific_math_10_hard_10",
+    "content": "Grade 10 Math: What is 16 ÷ 8?",
     "type": "multiple_choice",
     "options": [
       "2",
       "3",
       "1",
-      "2"
+      "4"
     ],
-    "correctAnswer": "1",
-    "explanation": "5x + 15 = 20, so 5x = 5, therefore x = 1",
+    "correctAnswer": "2",
     "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
-    "difficulty": "hard",
     "grade": 10,
-    "tags": [
-      "mathematics",
-      "algebra",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.863Z",
-    "estimatedTime": 90
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 10."
   },
   {
-    "_id": "build_math_10_hard_17",
-    "content": "What is 66 - 27?",
+    "_id": "grade_specific_math_10_hard_11",
+    "content": "Grade 10 Math: Sarah has 173 stickers. She gets 30 more. How many does she have now?",
     "type": "multiple_choice",
     "options": [
-      "41",
-      "39",
-      "40",
-      "38"
+      "203",
+      "204",
+      "202",
+      "143"
     ],
-    "correctAnswer": "39",
-    "explanation": "66 - 27 = 39",
+    "correctAnswer": "203",
     "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "hard",
     "grade": 10,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.863Z",
-    "estimatedTime": 90
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 10."
   },
   {
-    "_id": "build_math_10_hard_18",
-    "content": "What is 4 × 12?",
+    "_id": "grade_specific_math_10_hard_12",
+    "content": "Grade 10 Math: What is 120 + 176?",
     "type": "multiple_choice",
     "options": [
-      "47",
-      "50",
-      "49",
-      "48"
+      "296",
+      "297",
+      "295",
+      "298"
     ],
-    "correctAnswer": "48",
-    "explanation": "4 × 12 = 48",
+    "correctAnswer": "296",
     "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "hard",
     "grade": 10,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.863Z",
-    "estimatedTime": 90
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 10."
   },
   {
-    "_id": "build_math_10_hard_19",
-    "content": "If f(x) = 8x +0, what is f(5)?",
+    "_id": "grade_specific_math_10_hard_13",
+    "content": "Grade 10 Math: What is 113 + 60?",
     "type": "multiple_choice",
     "options": [
-      "42",
-      "41",
-      "40",
-      "39"
+      "173",
+      "174",
+      "172",
+      "175"
     ],
-    "correctAnswer": "40",
-    "explanation": "f(5) = 8(5) +0 = 40",
+    "correctAnswer": "173",
     "subject": "Mathematical Reasoning",
-    "topic": "Functions",
-    "difficulty": "hard",
     "grade": 10,
-    "tags": [
-      "mathematics",
-      "functions",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.863Z",
-    "estimatedTime": 90
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 10."
   },
   {
-    "_id": "build_math_10_hard_20",
-    "content": "What is sin(60°)?",
+    "_id": "grade_specific_math_10_hard_14",
+    "content": "Grade 10 Math: Sarah has 111 books. She gets 19 more. How many does she have now?",
     "type": "multiple_choice",
     "options": [
-      "√3/2",
-      "1/2",
-      "√2/2",
-      "√3/2"
+      "130",
+      "131",
+      "129",
+      "92"
     ],
-    "correctAnswer": "√3/2",
-    "explanation": "sin(60°) = √3/2 (special angle)",
+    "correctAnswer": "130",
     "subject": "Mathematical Reasoning",
-    "topic": "Trigonometry",
-    "difficulty": "hard",
     "grade": 10,
-    "tags": [
-      "mathematics",
-      "trigonometry",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.863Z",
-    "estimatedTime": 90
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 10."
   },
   {
-    "_id": "build_math_10_hard_21",
-    "content": "What is 20 - 16?",
+    "_id": "grade_specific_math_10_hard_15",
+    "content": "Grade 10 Math: What is 1 × 7?",
     "type": "multiple_choice",
     "options": [
-      "6",
-      "5",
-      "4",
-      "3"
-    ],
-    "correctAnswer": "4",
-    "explanation": "20 - 16 = 4",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "hard",
-    "grade": 10,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.863Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_10_hard_22",
-    "content": "What is 11 × 8?",
-    "type": "multiple_choice",
-    "options": [
-      "90",
-      "89",
-      "87",
-      "88"
-    ],
-    "correctAnswer": "88",
-    "explanation": "11 × 8 = 88",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "hard",
-    "grade": 10,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.863Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_10_hard_23",
-    "content": "What is 60% of 67?",
-    "type": "multiple_choice",
-    "options": [
-      "42",
-      "40",
-      "39",
-      "41"
-    ],
-    "correctAnswer": "40",
-    "explanation": "60% of 67 = (60/100) × 67 = 40",
-    "subject": "Mathematical Reasoning",
-    "topic": "Percentages",
-    "difficulty": "hard",
-    "grade": 10,
-    "tags": [
-      "mathematics",
-      "percentages",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.863Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_10_hard_24",
-    "content": "Solve for x: 5x + 5 = 50",
-    "type": "multiple_choice",
-    "options": [
+      "7",
       "8",
-      "9",
+      "6",
+      "14"
+    ],
+    "correctAnswer": "7",
+    "subject": "Mathematical Reasoning",
+    "grade": 10,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 10."
+  },
+  {
+    "_id": "grade_specific_math_10_hard_16",
+    "content": "Grade 10 Math: What is 4 × 5?",
+    "type": "multiple_choice",
+    "options": [
+      "20",
+      "24",
+      "16",
+      "25"
+    ],
+    "correctAnswer": "20",
+    "subject": "Mathematical Reasoning",
+    "grade": 10,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 10."
+  },
+  {
+    "_id": "grade_specific_math_10_hard_17",
+    "content": "Grade 10 Math: What is 44 ÷ 4?",
+    "type": "multiple_choice",
+    "options": [
       "11",
-      "10"
+      "12",
+      "10",
+      "13"
+    ],
+    "correctAnswer": "11",
+    "subject": "Mathematical Reasoning",
+    "grade": 10,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 10."
+  },
+  {
+    "_id": "grade_specific_math_10_hard_18",
+    "content": "Grade 10 Math: What is 57 + 141?",
+    "type": "multiple_choice",
+    "options": [
+      "198",
+      "199",
+      "197",
+      "200"
+    ],
+    "correctAnswer": "198",
+    "subject": "Mathematical Reasoning",
+    "grade": 10,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 10."
+  },
+  {
+    "_id": "grade_specific_math_10_hard_19",
+    "content": "Grade 10 Math: What is 30 ÷ 3?",
+    "type": "multiple_choice",
+    "options": [
+      "10",
+      "11",
+      "9",
+      "12"
+    ],
+    "correctAnswer": "10",
+    "subject": "Mathematical Reasoning",
+    "grade": 10,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 10."
+  },
+  {
+    "_id": "grade_specific_math_10_hard_20",
+    "content": "Grade 10 Math: What is 15 ÷ 3?",
+    "type": "multiple_choice",
+    "options": [
+      "5",
+      "6",
+      "4",
+      "7"
+    ],
+    "correctAnswer": "5",
+    "subject": "Mathematical Reasoning",
+    "grade": 10,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 10."
+  },
+  {
+    "_id": "grade_specific_math_10_hard_21",
+    "content": "Grade 10 Math: What is 50 ÷ 5?",
+    "type": "multiple_choice",
+    "options": [
+      "10",
+      "11",
+      "9",
+      "12"
+    ],
+    "correctAnswer": "10",
+    "subject": "Mathematical Reasoning",
+    "grade": 10,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 10."
+  },
+  {
+    "_id": "grade_specific_math_10_hard_22",
+    "content": "Grade 10 Math: What is 99 ÷ 11?",
+    "type": "multiple_choice",
+    "options": [
+      "9",
+      "10",
+      "8",
+      "11"
     ],
     "correctAnswer": "9",
-    "explanation": "5x + 5 = 50, so 5x = 45, therefore x = 9",
     "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
-    "difficulty": "hard",
     "grade": 10,
-    "tags": [
-      "mathematics",
-      "algebra",
-      "build-time-generated",
-      "timed-test-ready"
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 10."
+  },
+  {
+    "_id": "grade_specific_math_10_hard_23",
+    "content": "Grade 10 Math: What is 120 - 99?",
+    "type": "multiple_choice",
+    "options": [
+      "21",
+      "22",
+      "20",
+      "23"
     ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.863Z",
-    "estimatedTime": 90
+    "correctAnswer": "21",
+    "subject": "Mathematical Reasoning",
+    "grade": 10,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 10."
+  },
+  {
+    "_id": "grade_specific_math_10_hard_24",
+    "content": "Grade 10 Math: What is 146 - 135?",
+    "type": "multiple_choice",
+    "options": [
+      "11",
+      "12",
+      "10",
+      "13"
+    ],
+    "correctAnswer": "11",
+    "subject": "Mathematical Reasoning",
+    "grade": 10,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 10."
   }
 ]

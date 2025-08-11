@@ -1,626 +1,402 @@
 [
   {
-    "_id": "build_math_4_hard_0",
-    "content": "What is 93 + 36?",
+    "_id": "grade_specific_math_4_hard_0",
+    "content": "Grade 4 Math: What is 3 × 10?",
     "type": "multiple_choice",
     "options": [
-      "128",
-      "129",
-      "130",
-      "131"
-    ],
-    "correctAnswer": "129",
-    "explanation": "93 + 36 = 129",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "hard",
-    "grade": 4,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.821Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_4_hard_1",
-    "content": "What is 64 - 33?",
-    "type": "multiple_choice",
-    "options": [
-      "31",
-      "33",
       "30",
-      "32"
+      "33",
+      "27",
+      "40"
     ],
-    "correctAnswer": "31",
-    "explanation": "64 - 33 = 31",
+    "correctAnswer": "30",
     "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "hard",
     "grade": 4,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.821Z",
-    "estimatedTime": 90
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 4."
   },
   {
-    "_id": "build_math_4_hard_2",
-    "content": "What is 8 × 6?",
+    "_id": "grade_specific_math_4_hard_1",
+    "content": "Grade 4 Math: What is 5 × 10?",
     "type": "multiple_choice",
     "options": [
-      "49",
-      "48",
+      "50",
+      "55",
+      "45",
+      "60"
+    ],
+    "correctAnswer": "50",
+    "subject": "Mathematical Reasoning",
+    "grade": 4,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 4."
+  },
+  {
+    "_id": "grade_specific_math_4_hard_2",
+    "content": "Grade 4 Math: What is 10 × 8?",
+    "type": "multiple_choice",
+    "options": [
+      "80",
+      "90",
+      "70",
+      "88"
+    ],
+    "correctAnswer": "80",
+    "subject": "Mathematical Reasoning",
+    "grade": 4,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 4."
+  },
+  {
+    "_id": "grade_specific_math_4_hard_3",
+    "content": "Grade 4 Math: What is 75 + 21?",
+    "type": "multiple_choice",
+    "options": [
+      "96",
+      "97",
+      "95",
+      "98"
+    ],
+    "correctAnswer": "96",
+    "subject": "Mathematical Reasoning",
+    "grade": 4,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 4."
+  },
+  {
+    "_id": "grade_specific_math_4_hard_4",
+    "content": "Grade 4 Math: Sarah has 40 stickers. She gets 7 more. How many does she have now?",
+    "type": "multiple_choice",
+    "options": [
       "47",
-      "50"
-    ],
-    "correctAnswer": "48",
-    "explanation": "8 × 6 = 48",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "hard",
-    "grade": 4,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.821Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_4_hard_3",
-    "content": "What is 14 ÷ 2?",
-    "type": "multiple_choice",
-    "options": [
-      "8",
-      "7",
-      "9",
-      "6"
-    ],
-    "correctAnswer": "7",
-    "explanation": "14 ÷ 2 = 7",
-    "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "hard",
-    "grade": 4,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.821Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_4_hard_4",
-    "content": "What is 81 + 20?",
-    "type": "multiple_choice",
-    "options": [
-      "102",
-      "100",
-      "103",
-      "101"
-    ],
-    "correctAnswer": "101",
-    "explanation": "81 + 20 = 101",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "hard",
-    "grade": 4,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.821Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_4_hard_5",
-    "content": "What is 81 - 39?",
-    "type": "multiple_choice",
-    "options": [
-      "43",
-      "44",
-      "41",
-      "42"
-    ],
-    "correctAnswer": "42",
-    "explanation": "81 - 39 = 42",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "hard",
-    "grade": 4,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.821Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_4_hard_6",
-    "content": "What is 11 × 2?",
-    "type": "multiple_choice",
-    "options": [
-      "24",
-      "21",
-      "22",
-      "23"
-    ],
-    "correctAnswer": "22",
-    "explanation": "11 × 2 = 22",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "hard",
-    "grade": 4,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.821Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_4_hard_7",
-    "content": "What is 77 ÷ 11?",
-    "type": "multiple_choice",
-    "options": [
-      "9",
-      "7",
-      "6",
-      "8"
-    ],
-    "correctAnswer": "7",
-    "explanation": "77 ÷ 11 = 7",
-    "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "hard",
-    "grade": 4,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.821Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_4_hard_8",
-    "content": "What is 52 + 35?",
-    "type": "multiple_choice",
-    "options": [
-      "86",
-      "88",
-      "89",
-      "87"
-    ],
-    "correctAnswer": "87",
-    "explanation": "52 + 35 = 87",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "hard",
-    "grade": 4,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.821Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_4_hard_9",
-    "content": "What is 36 - 4?",
-    "type": "multiple_choice",
-    "options": [
-      "32",
-      "31",
-      "34",
+      "48",
+      "46",
       "33"
     ],
-    "correctAnswer": "32",
-    "explanation": "36 - 4 = 32",
+    "correctAnswer": "47",
     "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "hard",
     "grade": 4,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.821Z",
-    "estimatedTime": 90
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 4."
   },
   {
-    "_id": "build_math_4_hard_10",
-    "content": "What is 2 × 6?",
+    "_id": "grade_specific_math_4_hard_5",
+    "content": "Grade 4 Math: What is 50 - 38?",
     "type": "multiple_choice",
     "options": [
-      "14",
       "12",
+      "13",
       "11",
-      "13"
+      "14"
     ],
     "correctAnswer": "12",
-    "explanation": "2 × 6 = 12",
     "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "hard",
     "grade": 4,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.821Z",
-    "estimatedTime": 90
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 4."
   },
   {
-    "_id": "build_math_4_hard_11",
-    "content": "What is 110 ÷ 10?",
+    "_id": "grade_specific_math_4_hard_6",
+    "content": "Grade 4 Math: What is 56 - 52?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "5",
+      "3",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "Mathematical Reasoning",
+    "grade": 4,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 4."
+  },
+  {
+    "_id": "grade_specific_math_4_hard_7",
+    "content": "Grade 4 Math: What is 70 ÷ 7?",
     "type": "multiple_choice",
     "options": [
       "10",
-      "12",
       "11",
-      "13"
+      "9",
+      "12"
     ],
-    "correctAnswer": "11",
-    "explanation": "110 ÷ 10 = 11",
+    "correctAnswer": "10",
     "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "hard",
     "grade": 4,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.821Z",
-    "estimatedTime": 90
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 4."
   },
   {
-    "_id": "build_math_4_hard_12",
-    "content": "What is 91 + 67?",
+    "_id": "grade_specific_math_4_hard_8",
+    "content": "Grade 4 Math: What is 8 × 2?",
     "type": "multiple_choice",
     "options": [
-      "158",
-      "160",
-      "157",
-      "159"
-    ],
-    "correctAnswer": "158",
-    "explanation": "91 + 67 = 158",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "hard",
-    "grade": 4,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.821Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_4_hard_13",
-    "content": "What is 86 - 44?",
-    "type": "multiple_choice",
-    "options": [
-      "42",
-      "44",
-      "41",
-      "43"
-    ],
-    "correctAnswer": "42",
-    "explanation": "86 - 44 = 42",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "hard",
-    "grade": 4,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.821Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_4_hard_14",
-    "content": "What is 5 × 8?",
-    "type": "multiple_choice",
-    "options": [
-      "42",
-      "41",
-      "39",
-      "40"
-    ],
-    "correctAnswer": "40",
-    "explanation": "5 × 8 = 40",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "hard",
-    "grade": 4,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.821Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_4_hard_15",
-    "content": "What is 24 ÷ 4?",
-    "type": "multiple_choice",
-    "options": [
-      "5",
-      "6",
-      "7",
-      "8"
-    ],
-    "correctAnswer": "6",
-    "explanation": "24 ÷ 4 = 6",
-    "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "hard",
-    "grade": 4,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.821Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_4_hard_16",
-    "content": "What is 65 + 25?",
-    "type": "multiple_choice",
-    "options": [
-      "92",
-      "89",
-      "90",
-      "91"
-    ],
-    "correctAnswer": "90",
-    "explanation": "65 + 25 = 90",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "hard",
-    "grade": 4,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.821Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_4_hard_17",
-    "content": "What is 55 - 55?",
-    "type": "multiple_choice",
-    "options": [
-      "0",
-      "1",
-      "2"
-    ],
-    "correctAnswer": "0",
-    "explanation": "55 - 55 = 0",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "hard",
-    "grade": 4,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.821Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_4_hard_18",
-    "content": "What is 7 × 6?",
-    "type": "multiple_choice",
-    "options": [
-      "41",
-      "43",
-      "44",
-      "42"
-    ],
-    "correctAnswer": "42",
-    "explanation": "7 × 6 = 42",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "hard",
-    "grade": 4,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.821Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_4_hard_19",
-    "content": "What is 84 ÷ 12?",
-    "type": "multiple_choice",
-    "options": [
-      "7",
-      "6",
+      "16",
+      "24",
       "8",
+      "18"
+    ],
+    "correctAnswer": "16",
+    "subject": "Mathematical Reasoning",
+    "grade": 4,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 4."
+  },
+  {
+    "_id": "grade_specific_math_4_hard_9",
+    "content": "Grade 4 Math: What is 40 - 24?",
+    "type": "multiple_choice",
+    "options": [
+      "16",
+      "17",
+      "15",
+      "18"
+    ],
+    "correctAnswer": "16",
+    "subject": "Mathematical Reasoning",
+    "grade": 4,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 4."
+  },
+  {
+    "_id": "grade_specific_math_4_hard_10",
+    "content": "Grade 4 Math: What is 14 ÷ 7?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "3",
+      "1",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "Mathematical Reasoning",
+    "grade": 4,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 4."
+  },
+  {
+    "_id": "grade_specific_math_4_hard_11",
+    "content": "Grade 4 Math: What is 71 + 68?",
+    "type": "multiple_choice",
+    "options": [
+      "139",
+      "140",
+      "138",
+      "141"
+    ],
+    "correctAnswer": "139",
+    "subject": "Mathematical Reasoning",
+    "grade": 4,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 4."
+  },
+  {
+    "_id": "grade_specific_math_4_hard_12",
+    "content": "Grade 4 Math: What is 55 - 48?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "8",
+      "6",
       "9"
     ],
     "correctAnswer": "7",
-    "explanation": "84 ÷ 12 = 7",
     "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "hard",
     "grade": 4,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.821Z",
-    "estimatedTime": 90
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 4."
   },
   {
-    "_id": "build_math_4_hard_20",
-    "content": "What is 37 + 60?",
+    "_id": "grade_specific_math_4_hard_13",
+    "content": "Grade 4 Math: What is 60 - 38?",
     "type": "multiple_choice",
     "options": [
-      "98",
-      "97",
-      "96",
-      "99"
+      "22",
+      "23",
+      "21",
+      "24"
     ],
-    "correctAnswer": "97",
-    "explanation": "37 + 60 = 97",
+    "correctAnswer": "22",
     "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "hard",
     "grade": 4,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.821Z",
-    "estimatedTime": 90
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 4."
   },
   {
-    "_id": "build_math_4_hard_21",
-    "content": "What is 40 - 27?",
+    "_id": "grade_specific_math_4_hard_14",
+    "content": "Grade 4 Math: Sarah has 20 pencils. She gets 15 more. How many does she have now?",
+    "type": "multiple_choice",
+    "options": [
+      "35",
+      "36",
+      "34",
+      "5"
+    ],
+    "correctAnswer": "35",
+    "subject": "Mathematical Reasoning",
+    "grade": 4,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 4."
+  },
+  {
+    "_id": "grade_specific_math_4_hard_15",
+    "content": "Grade 4 Math: Sarah has 77 pencils. She gets 20 more. How many does she have now?",
+    "type": "multiple_choice",
+    "options": [
+      "97",
+      "98",
+      "96",
+      "57"
+    ],
+    "correctAnswer": "97",
+    "subject": "Mathematical Reasoning",
+    "grade": 4,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 4."
+  },
+  {
+    "_id": "grade_specific_math_4_hard_16",
+    "content": "Grade 4 Math: What is 88 - 30?",
+    "type": "multiple_choice",
+    "options": [
+      "58",
+      "59",
+      "57",
+      "60"
+    ],
+    "correctAnswer": "58",
+    "subject": "Mathematical Reasoning",
+    "grade": 4,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 4."
+  },
+  {
+    "_id": "grade_specific_math_4_hard_17",
+    "content": "Grade 4 Math: What is 73 + 79?",
+    "type": "multiple_choice",
+    "options": [
+      "152",
+      "153",
+      "151",
+      "154"
+    ],
+    "correctAnswer": "152",
+    "subject": "Mathematical Reasoning",
+    "grade": 4,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 4."
+  },
+  {
+    "_id": "grade_specific_math_4_hard_18",
+    "content": "Grade 4 Math: What is 120 ÷ 10?",
     "type": "multiple_choice",
     "options": [
       "12",
-      "14",
-      "15",
-      "13"
+      "13",
+      "11",
+      "14"
     ],
-    "correctAnswer": "13",
-    "explanation": "40 - 27 = 13",
+    "correctAnswer": "12",
     "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "hard",
     "grade": 4,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.821Z",
-    "estimatedTime": 90
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 4."
   },
   {
-    "_id": "build_math_4_hard_22",
-    "content": "What is 8 × 11?",
+    "_id": "grade_specific_math_4_hard_19",
+    "content": "Grade 4 Math: What is 61 - 58?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "2",
+      "5"
+    ],
+    "correctAnswer": "3",
+    "subject": "Mathematical Reasoning",
+    "grade": 4,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 4."
+  },
+  {
+    "_id": "grade_specific_math_4_hard_20",
+    "content": "Grade 4 Math: Sarah has 33 apples. She gets 2 more. How many does she have now?",
+    "type": "multiple_choice",
+    "options": [
+      "35",
+      "36",
+      "34",
+      "31"
+    ],
+    "correctAnswer": "35",
+    "subject": "Mathematical Reasoning",
+    "grade": 4,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 4."
+  },
+  {
+    "_id": "grade_specific_math_4_hard_21",
+    "content": "Grade 4 Math: What is 67 + 38?",
+    "type": "multiple_choice",
+    "options": [
+      "105",
+      "106",
+      "104",
+      "107"
+    ],
+    "correctAnswer": "105",
+    "subject": "Mathematical Reasoning",
+    "grade": 4,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 4."
+  },
+  {
+    "_id": "grade_specific_math_4_hard_22",
+    "content": "Grade 4 Math: Sarah has 71 stickers. She gets 19 more. How many does she have now?",
     "type": "multiple_choice",
     "options": [
       "90",
-      "87",
+      "91",
       "89",
-      "88"
+      "52"
     ],
-    "correctAnswer": "88",
-    "explanation": "8 × 11 = 88",
+    "correctAnswer": "90",
     "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "hard",
     "grade": 4,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.821Z",
-    "estimatedTime": 90
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 4."
   },
   {
-    "_id": "build_math_4_hard_23",
-    "content": "What is 120 ÷ 8?",
+    "_id": "grade_specific_math_4_hard_23",
+    "content": "Grade 4 Math: What is 10 × 6?",
     "type": "multiple_choice",
     "options": [
-      "17",
-      "16",
-      "15",
-      "14"
+      "60",
+      "70",
+      "50",
+      "66"
     ],
-    "correctAnswer": "15",
-    "explanation": "120 ÷ 8 = 15",
+    "correctAnswer": "60",
     "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "hard",
     "grade": 4,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.821Z",
-    "estimatedTime": 90
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 4."
   },
   {
-    "_id": "build_math_4_hard_24",
-    "content": "What is 32 + 42?",
+    "_id": "grade_specific_math_4_hard_24",
+    "content": "Grade 4 Math: What is 37 - 27?",
     "type": "multiple_choice",
     "options": [
-      "75",
-      "76",
-      "74",
-      "73"
+      "10",
+      "11",
+      "9",
+      "12"
     ],
-    "correctAnswer": "74",
-    "explanation": "32 + 42 = 74",
+    "correctAnswer": "10",
     "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "hard",
     "grade": 4,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.821Z",
-    "estimatedTime": 90
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 4."
   }
 ]

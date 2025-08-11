@@ -1,626 +1,402 @@
 [
   {
-    "_id": "build_math_1_hard_0",
-    "content": "What is 65 + 97?",
+    "_id": "grade_specific_math_1_hard_0",
+    "content": "Grade 1 Math: Sarah has 13 stickers. She gets 2 more. How many does she have now?",
     "type": "multiple_choice",
     "options": [
-      "163",
-      "161",
-      "162",
-      "164"
-    ],
-    "correctAnswer": "162",
-    "explanation": "65 + 97 = 162",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "hard",
-    "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.803Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_1_hard_1",
-    "content": "What is 67 - 2?",
-    "type": "multiple_choice",
-    "options": [
-      "64",
-      "66",
-      "67",
-      "65"
-    ],
-    "correctAnswer": "65",
-    "explanation": "67 - 2 = 65",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "hard",
-    "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.804Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_1_hard_2",
-    "content": "What is 11 × 10?",
-    "type": "multiple_choice",
-    "options": [
-      "112",
-      "109",
-      "111",
-      "110"
-    ],
-    "correctAnswer": "110",
-    "explanation": "11 × 10 = 110",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "hard",
-    "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.804Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_1_hard_3",
-    "content": "What is 132 ÷ 11?",
-    "type": "multiple_choice",
-    "options": [
-      "12",
-      "11",
-      "14",
-      "13"
-    ],
-    "correctAnswer": "12",
-    "explanation": "132 ÷ 11 = 12",
-    "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "hard",
-    "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.804Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_1_hard_4",
-    "content": "What is 24 + 25?",
-    "type": "multiple_choice",
-    "options": [
-      "49",
-      "51",
-      "50",
-      "48"
-    ],
-    "correctAnswer": "49",
-    "explanation": "24 + 25 = 49",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "hard",
-    "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.804Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_1_hard_5",
-    "content": "What is 38 - 38?",
-    "type": "multiple_choice",
-    "options": [
-      "1",
-      "0",
-      "2"
-    ],
-    "correctAnswer": "0",
-    "explanation": "38 - 38 = 0",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "hard",
-    "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.804Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_1_hard_6",
-    "content": "What is 3 × 9?",
-    "type": "multiple_choice",
-    "options": [
-      "28",
-      "27",
-      "29",
-      "26"
-    ],
-    "correctAnswer": "27",
-    "explanation": "3 × 9 = 27",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "hard",
-    "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.804Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_1_hard_7",
-    "content": "What is 90 ÷ 9?",
-    "type": "multiple_choice",
-    "options": [
-      "12",
-      "11",
-      "9",
-      "10"
-    ],
-    "correctAnswer": "10",
-    "explanation": "90 ÷ 9 = 10",
-    "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "hard",
-    "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.804Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_1_hard_8",
-    "content": "What is 78 + 72?",
-    "type": "multiple_choice",
-    "options": [
-      "150",
-      "151",
-      "149",
-      "152"
-    ],
-    "correctAnswer": "150",
-    "explanation": "78 + 72 = 150",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "hard",
-    "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.804Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_1_hard_9",
-    "content": "What is 77 - 28?",
-    "type": "multiple_choice",
-    "options": [
-      "50",
-      "48",
-      "49",
-      "51"
-    ],
-    "correctAnswer": "49",
-    "explanation": "77 - 28 = 49",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "hard",
-    "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.804Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_1_hard_10",
-    "content": "What is 3 × 9?",
-    "type": "multiple_choice",
-    "options": [
-      "26",
-      "27",
-      "28",
-      "29"
-    ],
-    "correctAnswer": "27",
-    "explanation": "3 × 9 = 27",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "hard",
-    "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.804Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_1_hard_11",
-    "content": "What is 80 ÷ 10?",
-    "type": "multiple_choice",
-    "options": [
-      "8",
-      "10",
-      "9",
-      "7"
-    ],
-    "correctAnswer": "8",
-    "explanation": "80 ÷ 10 = 8",
-    "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "hard",
-    "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.804Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_1_hard_12",
-    "content": "What is 24 + 73?",
-    "type": "multiple_choice",
-    "options": [
-      "98",
-      "99",
-      "96",
-      "97"
-    ],
-    "correctAnswer": "97",
-    "explanation": "24 + 73 = 97",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "hard",
-    "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.804Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_1_hard_13",
-    "content": "What is 36 - 11?",
-    "type": "multiple_choice",
-    "options": [
-      "26",
-      "24",
-      "27",
-      "25"
-    ],
-    "correctAnswer": "25",
-    "explanation": "36 - 11 = 25",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "hard",
-    "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.804Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_1_hard_14",
-    "content": "What is 4 × 7?",
-    "type": "multiple_choice",
-    "options": [
-      "27",
-      "28",
-      "30",
-      "29"
-    ],
-    "correctAnswer": "28",
-    "explanation": "4 × 7 = 28",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "hard",
-    "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.804Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_1_hard_15",
-    "content": "What is 135 ÷ 9?",
-    "type": "multiple_choice",
-    "options": [
-      "17",
       "15",
       "16",
-      "14"
+      "14",
+      "11"
     ],
     "correctAnswer": "15",
-    "explanation": "135 ÷ 9 = 15",
     "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "hard",
     "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.804Z",
-    "estimatedTime": 90
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 1."
   },
   {
-    "_id": "build_math_1_hard_16",
-    "content": "What is 80 + 91?",
+    "_id": "grade_specific_math_1_hard_1",
+    "content": "Grade 1 Math: Sarah has 11 stickers. She gets 1 more. How many does she have now?",
     "type": "multiple_choice",
     "options": [
-      "170",
-      "172",
-      "171",
-      "173"
+      "12",
+      "13",
+      "11",
+      "10"
     ],
-    "correctAnswer": "171",
-    "explanation": "80 + 91 = 171",
+    "correctAnswer": "12",
     "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "hard",
     "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.804Z",
-    "estimatedTime": 90
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 1."
   },
   {
-    "_id": "build_math_1_hard_17",
-    "content": "What is 44 - 37?",
+    "_id": "grade_specific_math_1_hard_2",
+    "content": "Grade 1 Math: Sarah has 13 marbles. She gets 2 more. How many does she have now?",
+    "type": "multiple_choice",
+    "options": [
+      "15",
+      "16",
+      "14",
+      "11"
+    ],
+    "correctAnswer": "15",
+    "subject": "Mathematical Reasoning",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 1."
+  },
+  {
+    "_id": "grade_specific_math_1_hard_3",
+    "content": "Grade 1 Math: What is 6 + 12?",
+    "type": "multiple_choice",
+    "options": [
+      "18",
+      "19",
+      "17",
+      "20"
+    ],
+    "correctAnswer": "18",
+    "subject": "Mathematical Reasoning",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 1."
+  },
+  {
+    "_id": "grade_specific_math_1_hard_4",
+    "content": "Grade 1 Math: Sarah has 5 books. She gets 5 more. How many does she have now?",
+    "type": "multiple_choice",
+    "options": [
+      "10",
+      "11",
+      "9",
+      "0"
+    ],
+    "correctAnswer": "10",
+    "subject": "Mathematical Reasoning",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 1."
+  },
+  {
+    "_id": "grade_specific_math_1_hard_5",
+    "content": "Grade 1 Math: Sarah has 8 marbles. She gets 1 more. How many does she have now?",
+    "type": "multiple_choice",
+    "options": [
+      "9",
+      "10",
+      "8",
+      "7"
+    ],
+    "correctAnswer": "9",
+    "subject": "Mathematical Reasoning",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 1."
+  },
+  {
+    "_id": "grade_specific_math_1_hard_6",
+    "content": "Grade 1 Math: Sarah has 10 books. She gets 3 more. How many does she have now?",
+    "type": "multiple_choice",
+    "options": [
+      "13",
+      "14",
+      "12",
+      "7"
+    ],
+    "correctAnswer": "13",
+    "subject": "Mathematical Reasoning",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 1."
+  },
+  {
+    "_id": "grade_specific_math_1_hard_7",
+    "content": "Grade 1 Math: What is 19 - 9?",
+    "type": "multiple_choice",
+    "options": [
+      "10",
+      "11",
+      "9",
+      "12"
+    ],
+    "correctAnswer": "10",
+    "subject": "Mathematical Reasoning",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 1."
+  },
+  {
+    "_id": "grade_specific_math_1_hard_8",
+    "content": "Grade 1 Math: Sarah has 12 books. She gets 4 more. How many does she have now?",
+    "type": "multiple_choice",
+    "options": [
+      "16",
+      "17",
+      "15",
+      "8"
+    ],
+    "correctAnswer": "16",
+    "subject": "Mathematical Reasoning",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 1."
+  },
+  {
+    "_id": "grade_specific_math_1_hard_9",
+    "content": "Grade 1 Math: Sarah has 5 apples. She gets 4 more. How many does she have now?",
+    "type": "multiple_choice",
+    "options": [
+      "9",
+      "10",
+      "8",
+      "1"
+    ],
+    "correctAnswer": "9",
+    "subject": "Mathematical Reasoning",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 1."
+  },
+  {
+    "_id": "grade_specific_math_1_hard_10",
+    "content": "Grade 1 Math: What is 5 + 18?",
+    "type": "multiple_choice",
+    "options": [
+      "23",
+      "24",
+      "22",
+      "25"
+    ],
+    "correctAnswer": "23",
+    "subject": "Mathematical Reasoning",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 1."
+  },
+  {
+    "_id": "grade_specific_math_1_hard_11",
+    "content": "Grade 1 Math: Sarah has 10 marbles. She gets 3 more. How many does she have now?",
+    "type": "multiple_choice",
+    "options": [
+      "13",
+      "14",
+      "12",
+      "7"
+    ],
+    "correctAnswer": "13",
+    "subject": "Mathematical Reasoning",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 1."
+  },
+  {
+    "_id": "grade_specific_math_1_hard_12",
+    "content": "Grade 1 Math: Sarah has 6 marbles. She gets 5 more. How many does she have now?",
+    "type": "multiple_choice",
+    "options": [
+      "11",
+      "12",
+      "10",
+      "1"
+    ],
+    "correctAnswer": "11",
+    "subject": "Mathematical Reasoning",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 1."
+  },
+  {
+    "_id": "grade_specific_math_1_hard_13",
+    "content": "Grade 1 Math: Sarah has 10 books. She gets 2 more. How many does she have now?",
+    "type": "multiple_choice",
+    "options": [
+      "12",
+      "13",
+      "11",
+      "8"
+    ],
+    "correctAnswer": "12",
+    "subject": "Mathematical Reasoning",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 1."
+  },
+  {
+    "_id": "grade_specific_math_1_hard_14",
+    "content": "Grade 1 Math: Sarah has 19 apples. She gets 5 more. How many does she have now?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "25",
+      "23",
+      "14"
+    ],
+    "correctAnswer": "24",
+    "subject": "Mathematical Reasoning",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 1."
+  },
+  {
+    "_id": "grade_specific_math_1_hard_15",
+    "content": "Grade 1 Math: Sarah has 6 marbles. She gets 3 more. How many does she have now?",
+    "type": "multiple_choice",
+    "options": [
+      "9",
+      "10",
+      "8",
+      "3"
+    ],
+    "correctAnswer": "9",
+    "subject": "Mathematical Reasoning",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 1."
+  },
+  {
+    "_id": "grade_specific_math_1_hard_16",
+    "content": "Grade 1 Math: What is 15 - 8?",
     "type": "multiple_choice",
     "options": [
       "7",
-      "9",
       "8",
-      "6"
+      "6",
+      "9"
     ],
     "correctAnswer": "7",
-    "explanation": "44 - 37 = 7",
     "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "hard",
     "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.804Z",
-    "estimatedTime": 90
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 1."
   },
   {
-    "_id": "build_math_1_hard_18",
-    "content": "What is 11 × 5?",
+    "_id": "grade_specific_math_1_hard_17",
+    "content": "Grade 1 Math: Sarah has 6 apples. She gets 1 more. How many does she have now?",
     "type": "multiple_choice",
     "options": [
-      "57",
-      "54",
-      "56",
-      "55"
-    ],
-    "correctAnswer": "55",
-    "explanation": "11 × 5 = 55",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "hard",
-    "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.804Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_1_hard_19",
-    "content": "What is 8 ÷ 2?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "5",
-      "4",
-      "6"
-    ],
-    "correctAnswer": "4",
-    "explanation": "8 ÷ 2 = 4",
-    "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "hard",
-    "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.804Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_1_hard_20",
-    "content": "What is 70 + 48?",
-    "type": "multiple_choice",
-    "options": [
-      "119",
-      "118",
-      "117",
-      "120"
-    ],
-    "correctAnswer": "118",
-    "explanation": "70 + 48 = 118",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "hard",
-    "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.804Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_1_hard_21",
-    "content": "What is 79 - 76?",
-    "type": "multiple_choice",
-    "options": [
-      "4",
-      "3",
-      "2",
+      "7",
+      "8",
+      "6",
       "5"
     ],
-    "correctAnswer": "3",
-    "explanation": "79 - 76 = 3",
+    "correctAnswer": "7",
     "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "hard",
     "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.804Z",
-    "estimatedTime": 90
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 1."
   },
   {
-    "_id": "build_math_1_hard_22",
-    "content": "What is 10 × 11?",
-    "type": "multiple_choice",
-    "options": [
-      "112",
-      "110",
-      "111",
-      "109"
-    ],
-    "correctAnswer": "110",
-    "explanation": "10 × 11 = 110",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "hard",
-    "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.804Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_1_hard_23",
-    "content": "What is 132 ÷ 11?",
+    "_id": "grade_specific_math_1_hard_18",
+    "content": "Grade 1 Math: Sarah has 7 apples. She gets 4 more. How many does she have now?",
     "type": "multiple_choice",
     "options": [
       "11",
-      "14",
-      "13",
-      "12"
+      "12",
+      "10",
+      "3"
     ],
-    "correctAnswer": "12",
-    "explanation": "132 ÷ 11 = 12",
+    "correctAnswer": "11",
     "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "hard",
     "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.804Z",
-    "estimatedTime": 90
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 1."
   },
   {
-    "_id": "build_math_1_hard_24",
-    "content": "What is 30 + 56?",
+    "_id": "grade_specific_math_1_hard_19",
+    "content": "Grade 1 Math: What is 24 - 7?",
     "type": "multiple_choice",
     "options": [
-      "87",
-      "88",
-      "86",
-      "85"
+      "17",
+      "18",
+      "16",
+      "19"
     ],
-    "correctAnswer": "86",
-    "explanation": "30 + 56 = 86",
+    "correctAnswer": "17",
     "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "hard",
     "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 1."
+  },
+  {
+    "_id": "grade_specific_math_1_hard_20",
+    "content": "Grade 1 Math: Sarah has 11 books. She gets 1 more. How many does she have now?",
+    "type": "multiple_choice",
+    "options": [
+      "12",
+      "13",
+      "11",
+      "10"
     ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.804Z",
-    "estimatedTime": 90
+    "correctAnswer": "12",
+    "subject": "Mathematical Reasoning",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 1."
+  },
+  {
+    "_id": "grade_specific_math_1_hard_21",
+    "content": "Grade 1 Math: Sarah has 15 pencils. She gets 5 more. How many does she have now?",
+    "type": "multiple_choice",
+    "options": [
+      "20",
+      "21",
+      "19",
+      "10"
+    ],
+    "correctAnswer": "20",
+    "subject": "Mathematical Reasoning",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 1."
+  },
+  {
+    "_id": "grade_specific_math_1_hard_22",
+    "content": "Grade 1 Math: Sarah has 5 books. She gets 3 more. How many does she have now?",
+    "type": "multiple_choice",
+    "options": [
+      "8",
+      "9",
+      "7",
+      "2"
+    ],
+    "correctAnswer": "8",
+    "subject": "Mathematical Reasoning",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 1."
+  },
+  {
+    "_id": "grade_specific_math_1_hard_23",
+    "content": "Grade 1 Math: What is 28 - 6?",
+    "type": "multiple_choice",
+    "options": [
+      "22",
+      "23",
+      "21",
+      "24"
+    ],
+    "correctAnswer": "22",
+    "subject": "Mathematical Reasoning",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 1."
+  },
+  {
+    "_id": "grade_specific_math_1_hard_24",
+    "content": "Grade 1 Math: What is 19 - 5?",
+    "type": "multiple_choice",
+    "options": [
+      "14",
+      "15",
+      "13",
+      "16"
+    ],
+    "correctAnswer": "14",
+    "subject": "Mathematical Reasoning",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "This is a hard level math question specifically designed for grade 1."
   }
 ]

@@ -1,627 +1,402 @@
 [
   {
-    "_id": "build_math_3_medium_0",
-    "content": "What is 34 + 34?",
-    "type": "multiple_choice",
-    "options": [
-      "70",
-      "68",
-      "67",
-      "69"
-    ],
-    "correctAnswer": "68",
-    "explanation": "34 + 34 = 68",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "medium",
-    "grade": 3,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.814Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_3_medium_1",
-    "content": "What is 14 - 12?",
-    "type": "multiple_choice",
-    "options": [
-      "2",
-      "1",
-      "4",
-      "3"
-    ],
-    "correctAnswer": "2",
-    "explanation": "14 - 12 = 2",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "medium",
-    "grade": 3,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.814Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_3_medium_2",
-    "content": "What is 8 × 6?",
-    "type": "multiple_choice",
-    "options": [
-      "49",
-      "50",
-      "47",
-      "48"
-    ],
-    "correctAnswer": "48",
-    "explanation": "8 × 6 = 48",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "medium",
-    "grade": 3,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.814Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_3_medium_3",
-    "content": "What is 78 ÷ 6?",
-    "type": "multiple_choice",
-    "options": [
-      "15",
-      "14",
-      "12",
-      "13"
-    ],
-    "correctAnswer": "13",
-    "explanation": "78 ÷ 6 = 13",
-    "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "medium",
-    "grade": 3,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.814Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_3_medium_4",
-    "content": "What is 44 + 17?",
-    "type": "multiple_choice",
-    "options": [
-      "60",
-      "61",
-      "63",
-      "62"
-    ],
-    "correctAnswer": "61",
-    "explanation": "44 + 17 = 61",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "medium",
-    "grade": 3,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.814Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_3_medium_5",
-    "content": "What is 42 - 4?",
-    "type": "multiple_choice",
-    "options": [
-      "37",
-      "38",
-      "40",
-      "39"
-    ],
-    "correctAnswer": "38",
-    "explanation": "42 - 4 = 38",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "medium",
-    "grade": 3,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.814Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_3_medium_6",
-    "content": "What is 9 × 11?",
-    "type": "multiple_choice",
-    "options": [
-      "98",
-      "100",
-      "99",
-      "101"
-    ],
-    "correctAnswer": "99",
-    "explanation": "9 × 11 = 99",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "medium",
-    "grade": 3,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.814Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_3_medium_7",
-    "content": "What is 100 ÷ 10?",
-    "type": "multiple_choice",
-    "options": [
-      "10",
-      "12",
-      "11",
-      "9"
-    ],
-    "correctAnswer": "10",
-    "explanation": "100 ÷ 10 = 10",
-    "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "medium",
-    "grade": 3,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.814Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_3_medium_8",
-    "content": "What is 27 + 35?",
-    "type": "multiple_choice",
-    "options": [
-      "62",
-      "61",
-      "64",
-      "63"
-    ],
-    "correctAnswer": "62",
-    "explanation": "27 + 35 = 62",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "medium",
-    "grade": 3,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.814Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_3_medium_9",
-    "content": "What is 22 - 17?",
-    "type": "multiple_choice",
-    "options": [
-      "4",
-      "7",
-      "5",
-      "6"
-    ],
-    "correctAnswer": "5",
-    "explanation": "22 - 17 = 5",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "medium",
-    "grade": 3,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.814Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_3_medium_10",
-    "content": "What is 11 × 12?",
-    "type": "multiple_choice",
-    "options": [
-      "131",
-      "132",
-      "133",
-      "134"
-    ],
-    "correctAnswer": "132",
-    "explanation": "11 × 12 = 132",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "medium",
-    "grade": 3,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.814Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_3_medium_11",
-    "content": "What is 84 ÷ 6?",
-    "type": "multiple_choice",
-    "options": [
-      "15",
-      "14",
-      "16",
-      "13"
-    ],
-    "correctAnswer": "14",
-    "explanation": "84 ÷ 6 = 14",
-    "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "medium",
-    "grade": 3,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.814Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_3_medium_12",
-    "content": "What is 50 + 16?",
-    "type": "multiple_choice",
-    "options": [
-      "67",
-      "66",
-      "68",
-      "65"
-    ],
-    "correctAnswer": "66",
-    "explanation": "50 + 16 = 66",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "medium",
-    "grade": 3,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.814Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_3_medium_13",
-    "content": "What is 13 - 6?",
+    "_id": "grade_specific_math_3_medium_0",
+    "content": "Grade 3 Math: What is 9 × 1?",
     "type": "multiple_choice",
     "options": [
       "9",
-      "6",
-      "7",
-      "8"
+      "18",
+      "0",
+      "10"
     ],
-    "correctAnswer": "7",
-    "explanation": "13 - 6 = 7",
+    "correctAnswer": "9",
     "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "medium",
     "grade": 3,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.814Z",
-    "estimatedTime": 60
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 3."
   },
   {
-    "_id": "build_math_3_medium_14",
-    "content": "What is 11 × 6?",
+    "_id": "grade_specific_math_3_medium_1",
+    "content": "Grade 3 Math: What is 26 + 17?",
     "type": "multiple_choice",
     "options": [
-      "65",
-      "67",
-      "66",
-      "68"
+      "43",
+      "44",
+      "42",
+      "45"
     ],
-    "correctAnswer": "66",
-    "explanation": "11 × 6 = 66",
+    "correctAnswer": "43",
     "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "medium",
     "grade": 3,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.814Z",
-    "estimatedTime": 60
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 3."
   },
   {
-    "_id": "build_math_3_medium_15",
-    "content": "What is 56 ÷ 8?",
+    "_id": "grade_specific_math_3_medium_2",
+    "content": "Grade 3 Math: What is 7 × 4?",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "6",
-      "8",
-      "9"
+      "28",
+      "35",
+      "21",
+      "32"
     ],
-    "correctAnswer": "7",
-    "explanation": "56 ÷ 8 = 7",
+    "correctAnswer": "28",
     "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "medium",
     "grade": 3,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.814Z",
-    "estimatedTime": 60
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 3."
   },
   {
-    "_id": "build_math_3_medium_16",
-    "content": "What is 38 + 23?",
+    "_id": "grade_specific_math_3_medium_3",
+    "content": "Grade 3 Math: What is 34 + 27?",
     "type": "multiple_choice",
     "options": [
       "61",
-      "63",
       "62",
-      "60"
+      "60",
+      "63"
     ],
     "correctAnswer": "61",
-    "explanation": "38 + 23 = 61",
     "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "medium",
     "grade": 3,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.814Z",
-    "estimatedTime": 60
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 3."
   },
   {
-    "_id": "build_math_3_medium_17",
-    "content": "What is 32 - 26?",
+    "_id": "grade_specific_math_3_medium_4",
+    "content": "Grade 3 Math: What is 34 - 9?",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "8",
-      "6",
-      "5"
+      "25",
+      "26",
+      "24",
+      "27"
     ],
-    "correctAnswer": "6",
-    "explanation": "32 - 26 = 6",
+    "correctAnswer": "25",
     "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "medium",
     "grade": 3,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.814Z",
-    "estimatedTime": 60
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 3."
   },
   {
-    "_id": "build_math_3_medium_18",
-    "content": "What is 4 × 5?",
-    "type": "multiple_choice",
-    "options": [
-      "19",
-      "21",
-      "22",
-      "20"
-    ],
-    "correctAnswer": "20",
-    "explanation": "4 × 5 = 20",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "medium",
-    "grade": 3,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.814Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_3_medium_19",
-    "content": "What is 156 ÷ 12?",
-    "type": "multiple_choice",
-    "options": [
-      "12",
-      "15",
-      "14",
-      "13"
-    ],
-    "correctAnswer": "13",
-    "explanation": "156 ÷ 12 = 13",
-    "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "medium",
-    "grade": 3,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.814Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_3_medium_20",
-    "content": "What is 32 + 34?",
-    "type": "multiple_choice",
-    "options": [
-      "68",
-      "66",
-      "65",
-      "67"
-    ],
-    "correctAnswer": "66",
-    "explanation": "32 + 34 = 66",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "medium",
-    "grade": 3,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.814Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_3_medium_21",
-    "content": "What is 22 - 16?",
-    "type": "multiple_choice",
-    "options": [
-      "6",
-      "7",
-      "8",
-      "5"
-    ],
-    "correctAnswer": "6",
-    "explanation": "22 - 16 = 6",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "medium",
-    "grade": 3,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.814Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_3_medium_22",
-    "content": "What is 2 × 9?",
+    "_id": "grade_specific_math_3_medium_5",
+    "content": "Grade 3 Math: What is 8 + 10?",
     "type": "multiple_choice",
     "options": [
       "18",
       "19",
-      "20",
-      "17"
+      "17",
+      "20"
     ],
     "correctAnswer": "18",
-    "explanation": "2 × 9 = 18",
     "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "medium",
     "grade": 3,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.814Z",
-    "estimatedTime": 60
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 3."
   },
   {
-    "_id": "build_math_3_medium_23",
-    "content": "What is 24 ÷ 2?",
+    "_id": "grade_specific_math_3_medium_6",
+    "content": "Grade 3 Math: What is 18 - 15?",
     "type": "multiple_choice",
     "options": [
-      "11",
+      "3",
+      "4",
+      "2",
+      "5"
+    ],
+    "correctAnswer": "3",
+    "subject": "Mathematical Reasoning",
+    "grade": 3,
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 3."
+  },
+  {
+    "_id": "grade_specific_math_3_medium_7",
+    "content": "Grade 3 Math: What is 13 + 22?",
+    "type": "multiple_choice",
+    "options": [
+      "35",
+      "36",
+      "34",
+      "37"
+    ],
+    "correctAnswer": "35",
+    "subject": "Mathematical Reasoning",
+    "grade": 3,
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 3."
+  },
+  {
+    "_id": "grade_specific_math_3_medium_8",
+    "content": "Grade 3 Math: Sarah has 33 apples. She gets 6 more. How many does she have now?",
+    "type": "multiple_choice",
+    "options": [
+      "39",
+      "40",
+      "38",
+      "27"
+    ],
+    "correctAnswer": "39",
+    "subject": "Mathematical Reasoning",
+    "grade": 3,
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 3."
+  },
+  {
+    "_id": "grade_specific_math_3_medium_9",
+    "content": "Grade 3 Math: What is 6 × 2?",
+    "type": "multiple_choice",
+    "options": [
       "12",
-      "13",
+      "18",
+      "6",
       "14"
     ],
     "correctAnswer": "12",
-    "explanation": "24 ÷ 2 = 12",
     "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "medium",
     "grade": 3,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.814Z",
-    "estimatedTime": 60
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 3."
   },
   {
-    "_id": "build_math_3_medium_24",
-    "content": "What is 39 + 20?",
+    "_id": "grade_specific_math_3_medium_10",
+    "content": "Grade 3 Math: What is 4 × 10?",
     "type": "multiple_choice",
     "options": [
-      "58",
-      "60",
-      "59",
-      "61"
+      "40",
+      "44",
+      "36",
+      "50"
     ],
-    "correctAnswer": "59",
-    "explanation": "39 + 20 = 59",
+    "correctAnswer": "40",
     "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "medium",
     "grade": 3,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 3."
+  },
+  {
+    "_id": "grade_specific_math_3_medium_11",
+    "content": "Grade 3 Math: What is 9 × 6?",
+    "type": "multiple_choice",
+    "options": [
+      "54",
+      "63",
+      "45",
+      "60"
     ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.814Z",
-    "estimatedTime": 60
+    "correctAnswer": "54",
+    "subject": "Mathematical Reasoning",
+    "grade": 3,
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 3."
+  },
+  {
+    "_id": "grade_specific_math_3_medium_12",
+    "content": "Grade 3 Math: What is 14 + 31?",
+    "type": "multiple_choice",
+    "options": [
+      "45",
+      "46",
+      "44",
+      "47"
+    ],
+    "correctAnswer": "45",
+    "subject": "Mathematical Reasoning",
+    "grade": 3,
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 3."
+  },
+  {
+    "_id": "grade_specific_math_3_medium_13",
+    "content": "Grade 3 Math: What is 35 + 8?",
+    "type": "multiple_choice",
+    "options": [
+      "43",
+      "44",
+      "42",
+      "45"
+    ],
+    "correctAnswer": "43",
+    "subject": "Mathematical Reasoning",
+    "grade": 3,
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 3."
+  },
+  {
+    "_id": "grade_specific_math_3_medium_14",
+    "content": "Grade 3 Math: What is 26 + 28?",
+    "type": "multiple_choice",
+    "options": [
+      "54",
+      "55",
+      "53",
+      "56"
+    ],
+    "correctAnswer": "54",
+    "subject": "Mathematical Reasoning",
+    "grade": 3,
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 3."
+  },
+  {
+    "_id": "grade_specific_math_3_medium_15",
+    "content": "Grade 3 Math: Sarah has 34 marbles. She gets 5 more. How many does she have now?",
+    "type": "multiple_choice",
+    "options": [
+      "39",
+      "40",
+      "38",
+      "29"
+    ],
+    "correctAnswer": "39",
+    "subject": "Mathematical Reasoning",
+    "grade": 3,
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 3."
+  },
+  {
+    "_id": "grade_specific_math_3_medium_16",
+    "content": "Grade 3 Math: What is 12 + 13?",
+    "type": "multiple_choice",
+    "options": [
+      "25",
+      "26",
+      "24",
+      "27"
+    ],
+    "correctAnswer": "25",
+    "subject": "Mathematical Reasoning",
+    "grade": 3,
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 3."
+  },
+  {
+    "_id": "grade_specific_math_3_medium_17",
+    "content": "Grade 3 Math: What is 2 × 1?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "4",
+      "0",
+      "3"
+    ],
+    "correctAnswer": "2",
+    "subject": "Mathematical Reasoning",
+    "grade": 3,
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 3."
+  },
+  {
+    "_id": "grade_specific_math_3_medium_18",
+    "content": "Grade 3 Math: Sarah has 13 apples. She gets 4 more. How many does she have now?",
+    "type": "multiple_choice",
+    "options": [
+      "17",
+      "18",
+      "16",
+      "9"
+    ],
+    "correctAnswer": "17",
+    "subject": "Mathematical Reasoning",
+    "grade": 3,
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 3."
+  },
+  {
+    "_id": "grade_specific_math_3_medium_19",
+    "content": "Grade 3 Math: Sarah has 20 marbles. She gets 3 more. How many does she have now?",
+    "type": "multiple_choice",
+    "options": [
+      "23",
+      "24",
+      "22",
+      "17"
+    ],
+    "correctAnswer": "23",
+    "subject": "Mathematical Reasoning",
+    "grade": 3,
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 3."
+  },
+  {
+    "_id": "grade_specific_math_3_medium_20",
+    "content": "Grade 3 Math: Sarah has 32 books. She gets 5 more. How many does she have now?",
+    "type": "multiple_choice",
+    "options": [
+      "37",
+      "38",
+      "36",
+      "27"
+    ],
+    "correctAnswer": "37",
+    "subject": "Mathematical Reasoning",
+    "grade": 3,
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 3."
+  },
+  {
+    "_id": "grade_specific_math_3_medium_21",
+    "content": "Grade 3 Math: Sarah has 8 marbles. She gets 4 more. How many does she have now?",
+    "type": "multiple_choice",
+    "options": [
+      "12",
+      "13",
+      "11",
+      "4"
+    ],
+    "correctAnswer": "12",
+    "subject": "Mathematical Reasoning",
+    "grade": 3,
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 3."
+  },
+  {
+    "_id": "grade_specific_math_3_medium_22",
+    "content": "Grade 3 Math: What is 11 + 26?",
+    "type": "multiple_choice",
+    "options": [
+      "37",
+      "38",
+      "36",
+      "39"
+    ],
+    "correctAnswer": "37",
+    "subject": "Mathematical Reasoning",
+    "grade": 3,
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 3."
+  },
+  {
+    "_id": "grade_specific_math_3_medium_23",
+    "content": "Grade 3 Math: What is 6 + 30?",
+    "type": "multiple_choice",
+    "options": [
+      "36",
+      "37",
+      "35",
+      "38"
+    ],
+    "correctAnswer": "36",
+    "subject": "Mathematical Reasoning",
+    "grade": 3,
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 3."
+  },
+  {
+    "_id": "grade_specific_math_3_medium_24",
+    "content": "Grade 3 Math: What is 6 + 35?",
+    "type": "multiple_choice",
+    "options": [
+      "41",
+      "42",
+      "40",
+      "43"
+    ],
+    "correctAnswer": "41",
+    "subject": "Mathematical Reasoning",
+    "grade": 3,
+    "difficulty": "medium",
+    "explanation": "This is a medium level math question specifically designed for grade 3."
   }
 ]

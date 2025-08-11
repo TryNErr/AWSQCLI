@@ -1,652 +1,402 @@
 [
   {
-    "_id": "build_thinking_8_medium_0",
-    "content": "What comes next in the sequence: 2, 4, 8, 16, ___?",
+    "_id": "grade_specific_thinking_8_medium_0",
+    "content": "Grade 8: Which number doesn't fit: 2, 4, 6, 9, 8?",
+    "type": "multiple_choice",
+    "options": [
+      "True",
+      "False",
+      "Maybe",
+      "Always"
+    ],
+    "correctAnswer": "True",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "This is a medium level thinking skills question specifically designed for grade 8."
+  },
+  {
+    "_id": "grade_specific_thinking_8_medium_1",
+    "content": "Grade 8: What's the pattern: 1, 4, 9, 16, ___?",
     "type": "multiple_choice",
     "options": [
       "32",
       "24",
       "20",
-      "18"
+      "28"
     ],
     "correctAnswer": "32",
-    "explanation": "Each number is doubled: 2×2=4, 4×2=8, 8×2=16, 16×2=32",
     "subject": "Thinking Skills",
-    "topic": "logical sequence",
+    "grade": 8,
     "difficulty": "medium",
-    "grade": "8",
-    "tags": [
-      "thinking-skills",
-      "logic",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 75,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.846Z"
+    "explanation": "This is a medium level thinking skills question specifically designed for grade 8."
   },
   {
-    "_id": "build_thinking_8_medium_1",
-    "content": "If CAT = 3-1-20, what does DOG equal?",
+    "_id": "grade_specific_thinking_8_medium_2",
+    "content": "Grade 8: Which statement is always true about squares?",
+    "type": "multiple_choice",
+    "options": [
+      "True",
+      "False",
+      "Maybe",
+      "Always"
+    ],
+    "correctAnswer": "True",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "This is a medium level thinking skills question specifically designed for grade 8."
+  },
+  {
+    "_id": "grade_specific_thinking_8_medium_3",
+    "content": "Grade 8: Complete the logic: If A > B and B > C, then ___?",
+    "type": "multiple_choice",
+    "options": [
+      "True",
+      "False",
+      "Maybe",
+      "Always"
+    ],
+    "correctAnswer": "True",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "This is a medium level thinking skills question specifically designed for grade 8."
+  },
+  {
+    "_id": "grade_specific_thinking_8_medium_4",
+    "content": "Grade 8: What comes before 5: ___, 5, 6?",
+    "type": "multiple_choice",
+    "options": [
+      "True",
+      "False",
+      "Maybe",
+      "Always"
+    ],
+    "correctAnswer": "True",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "This is a medium level thinking skills question specifically designed for grade 8."
+  },
+  {
+    "_id": "grade_specific_thinking_8_medium_5",
+    "content": "Grade 8: What comes next in sequence: 2, 4, 8, 16, ___?",
+    "type": "multiple_choice",
+    "options": [
+      "32",
+      "24",
+      "20",
+      "28"
+    ],
+    "correctAnswer": "32",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "This is a medium level thinking skills question specifically designed for grade 8."
+  },
+  {
+    "_id": "grade_specific_thinking_8_medium_6",
+    "content": "Grade 8: Complete the analogy: hand is to glove as foot is to ___?",
+    "type": "multiple_choice",
+    "options": [
+      "sock",
+      "shoe",
+      "hand",
+      "arm"
+    ],
+    "correctAnswer": "sock",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "This is a medium level thinking skills question specifically designed for grade 8."
+  },
+  {
+    "_id": "grade_specific_thinking_8_medium_7",
+    "content": "Grade 8: Complete the pattern: 1, 2, 1, 2, ___?",
+    "type": "multiple_choice",
+    "options": [
+      "32",
+      "24",
+      "20",
+      "28"
+    ],
+    "correctAnswer": "32",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "This is a medium level thinking skills question specifically designed for grade 8."
+  },
+  {
+    "_id": "grade_specific_thinking_8_medium_8",
+    "content": "Grade 8: Which is the odd one out: 2, 4, 6, 7?",
+    "type": "multiple_choice",
+    "options": [
+      "True",
+      "False",
+      "Maybe",
+      "Always"
+    ],
+    "correctAnswer": "True",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "This is a medium level thinking skills question specifically designed for grade 8."
+  },
+  {
+    "_id": "grade_specific_thinking_8_medium_9",
+    "content": "Grade 8: Count the stars: ⭐⭐⭐ How many?",
+    "type": "multiple_choice",
+    "options": [
+      "True",
+      "False",
+      "Maybe",
+      "Always"
+    ],
+    "correctAnswer": "True",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "This is a medium level thinking skills question specifically designed for grade 8."
+  },
+  {
+    "_id": "grade_specific_thinking_8_medium_10",
+    "content": "Grade 8: Which is bigger: elephant or mouse?",
+    "type": "multiple_choice",
+    "options": [
+      "True",
+      "False",
+      "Maybe",
+      "Always"
+    ],
+    "correctAnswer": "True",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "This is a medium level thinking skills question specifically designed for grade 8."
+  },
+  {
+    "_id": "grade_specific_thinking_8_medium_11",
+    "content": "Grade 8: Which shape comes next: circle, square, circle, ___?",
+    "type": "multiple_choice",
+    "options": [
+      "True",
+      "False",
+      "Maybe",
+      "Always"
+    ],
+    "correctAnswer": "True",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "This is a medium level thinking skills question specifically designed for grade 8."
+  },
+  {
+    "_id": "grade_specific_thinking_8_medium_12",
+    "content": "Grade 8: If STAR = 19-20-1-18, what does MOON equal?",
     "type": "multiple_choice",
     "options": [
       "4-15-7",
-      "4-14-7",
-      "3-15-7",
-      "4-15-8"
+      "12-5-1-6",
+      "13-15-15-14",
+      "8-9-10"
     ],
     "correctAnswer": "4-15-7",
-    "explanation": "Each letter corresponds to its position in the alphabet: D=4, O=15, G=7",
     "subject": "Thinking Skills",
-    "topic": "pattern recognition",
+    "grade": 8,
     "difficulty": "medium",
-    "grade": "8",
-    "tags": [
-      "thinking-skills",
-      "logic",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.846Z"
+    "explanation": "This is a medium level thinking skills question specifically designed for grade 8."
   },
   {
-    "_id": "build_thinking_8_medium_2",
-    "content": "All roses are flowers. Some flowers are red. Therefore:",
-    "type": "multiple_choice",
-    "options": [
-      "All roses are red",
-      "Some roses are red",
-      "No roses are red",
-      "Cannot be determined"
-    ],
-    "correctAnswer": "Cannot be determined",
-    "explanation": "We cannot determine if roses are red from the given information",
-    "subject": "Thinking Skills",
-    "topic": "logical reasoning",
-    "difficulty": "medium",
-    "grade": "8",
-    "tags": [
-      "thinking-skills",
-      "logic",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 60,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.846Z"
-  },
-  {
-    "_id": "build_thinking_8_medium_3",
-    "content": "What comes next in the sequence: 2, 4, 8, 16, ___?",
+    "_id": "grade_specific_thinking_8_medium_13",
+    "content": "Grade 8: What rule makes this pattern: 2, 4, 6, 8?",
     "type": "multiple_choice",
     "options": [
       "32",
       "24",
       "20",
-      "18"
+      "28"
     ],
     "correctAnswer": "32",
-    "explanation": "Each number is doubled: 2×2=4, 4×2=8, 8×2=16, 16×2=32",
     "subject": "Thinking Skills",
-    "topic": "logical sequence",
+    "grade": 8,
     "difficulty": "medium",
-    "grade": "8",
-    "tags": [
-      "thinking-skills",
-      "logic",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 75,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.846Z"
+    "explanation": "This is a medium level thinking skills question specifically designed for grade 8."
   },
   {
-    "_id": "build_thinking_8_medium_4",
-    "content": "If CAT = 3-1-20, what does DOG equal?",
+    "_id": "grade_specific_thinking_8_medium_14",
+    "content": "Grade 8: What comes after: A, B, ___?",
+    "type": "multiple_choice",
+    "options": [
+      "True",
+      "False",
+      "Maybe",
+      "Always"
+    ],
+    "correctAnswer": "True",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "This is a medium level thinking skills question specifically designed for grade 8."
+  },
+  {
+    "_id": "grade_specific_thinking_8_medium_15",
+    "content": "Grade 8: Which is longer: pencil or eraser?",
+    "type": "multiple_choice",
+    "options": [
+      "True",
+      "False",
+      "Maybe",
+      "Always"
+    ],
+    "correctAnswer": "True",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "This is a medium level thinking skills question specifically designed for grade 8."
+  },
+  {
+    "_id": "grade_specific_thinking_8_medium_16",
+    "content": "Grade 8: What's the next number: 2, 6, 18, 54, ___?",
+    "type": "multiple_choice",
+    "options": [
+      "True",
+      "False",
+      "Maybe",
+      "Always"
+    ],
+    "correctAnswer": "True",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "This is a medium level thinking skills question specifically designed for grade 8."
+  },
+  {
+    "_id": "grade_specific_thinking_8_medium_17",
+    "content": "Grade 8: If BOOK = 2-15-15-11, what does WORD equal?",
     "type": "multiple_choice",
     "options": [
       "4-15-7",
-      "4-14-7",
-      "3-15-7",
-      "4-15-8"
+      "12-5-1-6",
+      "13-15-15-14",
+      "8-9-10"
     ],
     "correctAnswer": "4-15-7",
-    "explanation": "Each letter corresponds to its position in the alphabet: D=4, O=15, G=7",
     "subject": "Thinking Skills",
-    "topic": "pattern recognition",
+    "grade": 8,
     "difficulty": "medium",
-    "grade": "8",
-    "tags": [
-      "thinking-skills",
-      "logic",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.846Z"
+    "explanation": "This is a medium level thinking skills question specifically designed for grade 8."
   },
   {
-    "_id": "build_thinking_8_medium_5",
-    "content": "All roses are flowers. Some flowers are red. Therefore:",
+    "_id": "grade_specific_thinking_8_medium_18",
+    "content": "Grade 8: What comes next: red, blue, red, blue, ___?",
     "type": "multiple_choice",
     "options": [
-      "All roses are red",
-      "Some roses are red",
-      "No roses are red",
-      "Cannot be determined"
+      "True",
+      "False",
+      "Maybe",
+      "Always"
     ],
-    "correctAnswer": "Cannot be determined",
-    "explanation": "We cannot determine if roses are red from the given information",
+    "correctAnswer": "True",
     "subject": "Thinking Skills",
-    "topic": "logical reasoning",
+    "grade": 8,
     "difficulty": "medium",
-    "grade": "8",
-    "tags": [
-      "thinking-skills",
-      "logic",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 60,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.846Z"
+    "explanation": "This is a medium level thinking skills question specifically designed for grade 8."
   },
   {
-    "_id": "build_thinking_8_medium_6",
-    "content": "What comes next in the sequence: 2, 4, 8, 16, ___?",
+    "_id": "grade_specific_thinking_8_medium_19",
+    "content": "Grade 8: Complete: day is to sun as night is to ___?",
     "type": "multiple_choice",
     "options": [
-      "32",
-      "24",
-      "20",
-      "18"
+      "sock",
+      "shoe",
+      "hand",
+      "arm"
     ],
-    "correctAnswer": "32",
-    "explanation": "Each number is doubled: 2×2=4, 4×2=8, 8×2=16, 16×2=32",
+    "correctAnswer": "sock",
     "subject": "Thinking Skills",
-    "topic": "logical sequence",
+    "grade": 8,
     "difficulty": "medium",
-    "grade": "8",
-    "tags": [
-      "thinking-skills",
-      "logic",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 75,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.846Z"
+    "explanation": "This is a medium level thinking skills question specifically designed for grade 8."
   },
   {
-    "_id": "build_thinking_8_medium_7",
-    "content": "If CAT = 3-1-20, what does DOG equal?",
+    "_id": "grade_specific_thinking_8_medium_20",
+    "content": "Grade 8: If all cats are animals, and Fluffy is a cat, then ___?",
+    "type": "multiple_choice",
+    "options": [
+      "True",
+      "False",
+      "Maybe",
+      "Always"
+    ],
+    "correctAnswer": "True",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "This is a medium level thinking skills question specifically designed for grade 8."
+  },
+  {
+    "_id": "grade_specific_thinking_8_medium_21",
+    "content": "Grade 8: If TREE = 20-18-5-5, what does LEAF equal?",
     "type": "multiple_choice",
     "options": [
       "4-15-7",
-      "4-14-7",
-      "3-15-7",
-      "4-15-8"
+      "12-5-1-6",
+      "13-15-15-14",
+      "8-9-10"
     ],
     "correctAnswer": "4-15-7",
-    "explanation": "Each letter corresponds to its position in the alphabet: D=4, O=15, G=7",
     "subject": "Thinking Skills",
-    "topic": "pattern recognition",
+    "grade": 8,
     "difficulty": "medium",
-    "grade": "8",
-    "tags": [
-      "thinking-skills",
-      "logic",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.846Z"
+    "explanation": "This is a medium level thinking skills question specifically designed for grade 8."
   },
   {
-    "_id": "build_thinking_8_medium_8",
-    "content": "All roses are flowers. Some flowers are red. Therefore:",
+    "_id": "grade_specific_thinking_8_medium_22",
+    "content": "Grade 8: What is different: red apple, red ball, blue ball?",
     "type": "multiple_choice",
     "options": [
-      "All roses are red",
-      "Some roses are red",
-      "No roses are red",
-      "Cannot be determined"
+      "True",
+      "False",
+      "Maybe",
+      "Always"
     ],
-    "correctAnswer": "Cannot be determined",
-    "explanation": "We cannot determine if roses are red from the given information",
+    "correctAnswer": "True",
     "subject": "Thinking Skills",
-    "topic": "logical reasoning",
+    "grade": 8,
     "difficulty": "medium",
-    "grade": "8",
-    "tags": [
-      "thinking-skills",
-      "logic",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 60,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.846Z"
+    "explanation": "This is a medium level thinking skills question specifically designed for grade 8."
   },
   {
-    "_id": "build_thinking_8_medium_9",
-    "content": "What comes next in the sequence: 2, 4, 8, 16, ___?",
+    "_id": "grade_specific_thinking_8_medium_23",
+    "content": "Grade 8: What comes next: 3, 7, 15, 31, ___?",
     "type": "multiple_choice",
     "options": [
-      "32",
-      "24",
-      "20",
-      "18"
+      "True",
+      "False",
+      "Maybe",
+      "Always"
     ],
-    "correctAnswer": "32",
-    "explanation": "Each number is doubled: 2×2=4, 4×2=8, 8×2=16, 16×2=32",
+    "correctAnswer": "True",
     "subject": "Thinking Skills",
-    "topic": "logical sequence",
+    "grade": 8,
     "difficulty": "medium",
-    "grade": "8",
-    "tags": [
-      "thinking-skills",
-      "logic",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 75,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.846Z"
+    "explanation": "This is a medium level thinking skills question specifically designed for grade 8."
   },
   {
-    "_id": "build_thinking_8_medium_10",
-    "content": "If CAT = 3-1-20, what does DOG equal?",
+    "_id": "grade_specific_thinking_8_medium_24",
+    "content": "Grade 8: Which doesn't belong: triangle, square, circle, red?",
     "type": "multiple_choice",
     "options": [
-      "4-15-7",
-      "4-14-7",
-      "3-15-7",
-      "4-15-8"
+      "True",
+      "False",
+      "Maybe",
+      "Always"
     ],
-    "correctAnswer": "4-15-7",
-    "explanation": "Each letter corresponds to its position in the alphabet: D=4, O=15, G=7",
+    "correctAnswer": "True",
     "subject": "Thinking Skills",
-    "topic": "pattern recognition",
+    "grade": 8,
     "difficulty": "medium",
-    "grade": "8",
-    "tags": [
-      "thinking-skills",
-      "logic",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.846Z"
-  },
-  {
-    "_id": "build_thinking_8_medium_11",
-    "content": "All roses are flowers. Some flowers are red. Therefore:",
-    "type": "multiple_choice",
-    "options": [
-      "All roses are red",
-      "Some roses are red",
-      "No roses are red",
-      "Cannot be determined"
-    ],
-    "correctAnswer": "Cannot be determined",
-    "explanation": "We cannot determine if roses are red from the given information",
-    "subject": "Thinking Skills",
-    "topic": "logical reasoning",
-    "difficulty": "medium",
-    "grade": "8",
-    "tags": [
-      "thinking-skills",
-      "logic",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 60,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.846Z"
-  },
-  {
-    "_id": "build_thinking_8_medium_12",
-    "content": "What comes next in the sequence: 2, 4, 8, 16, ___?",
-    "type": "multiple_choice",
-    "options": [
-      "32",
-      "24",
-      "20",
-      "18"
-    ],
-    "correctAnswer": "32",
-    "explanation": "Each number is doubled: 2×2=4, 4×2=8, 8×2=16, 16×2=32",
-    "subject": "Thinking Skills",
-    "topic": "logical sequence",
-    "difficulty": "medium",
-    "grade": "8",
-    "tags": [
-      "thinking-skills",
-      "logic",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 75,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.846Z"
-  },
-  {
-    "_id": "build_thinking_8_medium_13",
-    "content": "If CAT = 3-1-20, what does DOG equal?",
-    "type": "multiple_choice",
-    "options": [
-      "4-15-7",
-      "4-14-7",
-      "3-15-7",
-      "4-15-8"
-    ],
-    "correctAnswer": "4-15-7",
-    "explanation": "Each letter corresponds to its position in the alphabet: D=4, O=15, G=7",
-    "subject": "Thinking Skills",
-    "topic": "pattern recognition",
-    "difficulty": "medium",
-    "grade": "8",
-    "tags": [
-      "thinking-skills",
-      "logic",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.846Z"
-  },
-  {
-    "_id": "build_thinking_8_medium_14",
-    "content": "All roses are flowers. Some flowers are red. Therefore:",
-    "type": "multiple_choice",
-    "options": [
-      "All roses are red",
-      "Some roses are red",
-      "No roses are red",
-      "Cannot be determined"
-    ],
-    "correctAnswer": "Cannot be determined",
-    "explanation": "We cannot determine if roses are red from the given information",
-    "subject": "Thinking Skills",
-    "topic": "logical reasoning",
-    "difficulty": "medium",
-    "grade": "8",
-    "tags": [
-      "thinking-skills",
-      "logic",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 60,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.846Z"
-  },
-  {
-    "_id": "build_thinking_8_medium_15",
-    "content": "What comes next in the sequence: 2, 4, 8, 16, ___?",
-    "type": "multiple_choice",
-    "options": [
-      "32",
-      "24",
-      "20",
-      "18"
-    ],
-    "correctAnswer": "32",
-    "explanation": "Each number is doubled: 2×2=4, 4×2=8, 8×2=16, 16×2=32",
-    "subject": "Thinking Skills",
-    "topic": "logical sequence",
-    "difficulty": "medium",
-    "grade": "8",
-    "tags": [
-      "thinking-skills",
-      "logic",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 75,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.846Z"
-  },
-  {
-    "_id": "build_thinking_8_medium_16",
-    "content": "If CAT = 3-1-20, what does DOG equal?",
-    "type": "multiple_choice",
-    "options": [
-      "4-15-7",
-      "4-14-7",
-      "3-15-7",
-      "4-15-8"
-    ],
-    "correctAnswer": "4-15-7",
-    "explanation": "Each letter corresponds to its position in the alphabet: D=4, O=15, G=7",
-    "subject": "Thinking Skills",
-    "topic": "pattern recognition",
-    "difficulty": "medium",
-    "grade": "8",
-    "tags": [
-      "thinking-skills",
-      "logic",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.846Z"
-  },
-  {
-    "_id": "build_thinking_8_medium_17",
-    "content": "All roses are flowers. Some flowers are red. Therefore:",
-    "type": "multiple_choice",
-    "options": [
-      "All roses are red",
-      "Some roses are red",
-      "No roses are red",
-      "Cannot be determined"
-    ],
-    "correctAnswer": "Cannot be determined",
-    "explanation": "We cannot determine if roses are red from the given information",
-    "subject": "Thinking Skills",
-    "topic": "logical reasoning",
-    "difficulty": "medium",
-    "grade": "8",
-    "tags": [
-      "thinking-skills",
-      "logic",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 60,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.846Z"
-  },
-  {
-    "_id": "build_thinking_8_medium_18",
-    "content": "What comes next in the sequence: 2, 4, 8, 16, ___?",
-    "type": "multiple_choice",
-    "options": [
-      "32",
-      "24",
-      "20",
-      "18"
-    ],
-    "correctAnswer": "32",
-    "explanation": "Each number is doubled: 2×2=4, 4×2=8, 8×2=16, 16×2=32",
-    "subject": "Thinking Skills",
-    "topic": "logical sequence",
-    "difficulty": "medium",
-    "grade": "8",
-    "tags": [
-      "thinking-skills",
-      "logic",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 75,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.846Z"
-  },
-  {
-    "_id": "build_thinking_8_medium_19",
-    "content": "If CAT = 3-1-20, what does DOG equal?",
-    "type": "multiple_choice",
-    "options": [
-      "4-15-7",
-      "4-14-7",
-      "3-15-7",
-      "4-15-8"
-    ],
-    "correctAnswer": "4-15-7",
-    "explanation": "Each letter corresponds to its position in the alphabet: D=4, O=15, G=7",
-    "subject": "Thinking Skills",
-    "topic": "pattern recognition",
-    "difficulty": "medium",
-    "grade": "8",
-    "tags": [
-      "thinking-skills",
-      "logic",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.846Z"
-  },
-  {
-    "_id": "build_thinking_8_medium_20",
-    "content": "All roses are flowers. Some flowers are red. Therefore:",
-    "type": "multiple_choice",
-    "options": [
-      "All roses are red",
-      "Some roses are red",
-      "No roses are red",
-      "Cannot be determined"
-    ],
-    "correctAnswer": "Cannot be determined",
-    "explanation": "We cannot determine if roses are red from the given information",
-    "subject": "Thinking Skills",
-    "topic": "logical reasoning",
-    "difficulty": "medium",
-    "grade": "8",
-    "tags": [
-      "thinking-skills",
-      "logic",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 60,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.846Z"
-  },
-  {
-    "_id": "build_thinking_8_medium_21",
-    "content": "What comes next in the sequence: 2, 4, 8, 16, ___?",
-    "type": "multiple_choice",
-    "options": [
-      "32",
-      "24",
-      "20",
-      "18"
-    ],
-    "correctAnswer": "32",
-    "explanation": "Each number is doubled: 2×2=4, 4×2=8, 8×2=16, 16×2=32",
-    "subject": "Thinking Skills",
-    "topic": "logical sequence",
-    "difficulty": "medium",
-    "grade": "8",
-    "tags": [
-      "thinking-skills",
-      "logic",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 75,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.846Z"
-  },
-  {
-    "_id": "build_thinking_8_medium_22",
-    "content": "If CAT = 3-1-20, what does DOG equal?",
-    "type": "multiple_choice",
-    "options": [
-      "4-15-7",
-      "4-14-7",
-      "3-15-7",
-      "4-15-8"
-    ],
-    "correctAnswer": "4-15-7",
-    "explanation": "Each letter corresponds to its position in the alphabet: D=4, O=15, G=7",
-    "subject": "Thinking Skills",
-    "topic": "pattern recognition",
-    "difficulty": "medium",
-    "grade": "8",
-    "tags": [
-      "thinking-skills",
-      "logic",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.846Z"
-  },
-  {
-    "_id": "build_thinking_8_medium_23",
-    "content": "All roses are flowers. Some flowers are red. Therefore:",
-    "type": "multiple_choice",
-    "options": [
-      "All roses are red",
-      "Some roses are red",
-      "No roses are red",
-      "Cannot be determined"
-    ],
-    "correctAnswer": "Cannot be determined",
-    "explanation": "We cannot determine if roses are red from the given information",
-    "subject": "Thinking Skills",
-    "topic": "logical reasoning",
-    "difficulty": "medium",
-    "grade": "8",
-    "tags": [
-      "thinking-skills",
-      "logic",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 60,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.846Z"
-  },
-  {
-    "_id": "build_thinking_8_medium_24",
-    "content": "What comes next in the sequence: 2, 4, 8, 16, ___?",
-    "type": "multiple_choice",
-    "options": [
-      "32",
-      "24",
-      "20",
-      "18"
-    ],
-    "correctAnswer": "32",
-    "explanation": "Each number is doubled: 2×2=4, 4×2=8, 8×2=16, 16×2=32",
-    "subject": "Thinking Skills",
-    "topic": "logical sequence",
-    "difficulty": "medium",
-    "grade": "8",
-    "tags": [
-      "thinking-skills",
-      "logic",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 75,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.846Z"
+    "explanation": "This is a medium level thinking skills question specifically designed for grade 8."
   }
 ]
