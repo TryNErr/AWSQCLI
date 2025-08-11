@@ -1,16 +1,16 @@
 [
   {
     "_id": "build_math_7_easy_0",
-    "content": "Solve for x: 7x + 7 = 63",
+    "content": "Solve for x: 7x + 7 = 28",
     "type": "multiple_choice",
     "options": [
-      "9",
-      "7",
-      "10",
-      "8"
+      "4",
+      "2",
+      "3",
+      "5"
     ],
-    "correctAnswer": "8",
-    "explanation": "7x + 7 = 63, so 7x = 56, therefore x = 8",
+    "correctAnswer": "3",
+    "explanation": "7x + 7 = 28, so 7x = 21, therefore x = 3",
     "subject": "Mathematical Reasoning",
     "topic": "Algebra",
     "difficulty": "easy",
@@ -22,215 +22,11 @@
       "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:04:23.090Z",
+    "createdAt": "2025-08-11T14:57:08.432Z",
     "estimatedTime": 45
   },
   {
     "_id": "build_math_7_easy_1",
-    "content": "What is 4 - 2?",
-    "type": "multiple_choice",
-    "options": [
-      "2",
-      "1",
-      "3",
-      "4"
-    ],
-    "correctAnswer": "2",
-    "explanation": "4 - 2 = 2",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "easy",
-    "grade": 7,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:04:23.090Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_7_easy_2",
-    "content": "What is 8 × 10?",
-    "type": "multiple_choice",
-    "options": [
-      "81",
-      "80",
-      "79",
-      "82"
-    ],
-    "correctAnswer": "80",
-    "explanation": "8 × 10 = 80",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "easy",
-    "grade": 7,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:04:23.090Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_7_easy_3",
-    "content": "What is 70% of 74?",
-    "type": "multiple_choice",
-    "options": [
-      "54",
-      "52",
-      "51",
-      "53"
-    ],
-    "correctAnswer": "52",
-    "explanation": "70% of 74 = (70/100) × 74 = 52",
-    "subject": "Mathematical Reasoning",
-    "topic": "Percentages",
-    "difficulty": "easy",
-    "grade": 7,
-    "tags": [
-      "mathematics",
-      "percentages",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:04:23.090Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_7_easy_4",
-    "content": "Solve for x: 2x + 16 = 24",
-    "type": "multiple_choice",
-    "options": [
-      "4",
-      "5",
-      "6",
-      "3"
-    ],
-    "correctAnswer": "4",
-    "explanation": "2x + 16 = 24, so 2x = 8, therefore x = 4",
-    "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
-    "difficulty": "easy",
-    "grade": 7,
-    "tags": [
-      "mathematics",
-      "algebra",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:04:23.090Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_7_easy_5",
-    "content": "What is 13 - 8?",
-    "type": "multiple_choice",
-    "options": [
-      "5",
-      "6",
-      "7",
-      "4"
-    ],
-    "correctAnswer": "5",
-    "explanation": "13 - 8 = 5",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "easy",
-    "grade": 7,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:04:23.090Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_7_easy_6",
-    "content": "What is 4 × 10?",
-    "type": "multiple_choice",
-    "options": [
-      "41",
-      "42",
-      "40",
-      "39"
-    ],
-    "correctAnswer": "40",
-    "explanation": "4 × 10 = 40",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "easy",
-    "grade": 7,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:04:23.090Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_7_easy_7",
-    "content": "What is 54% of 80?",
-    "type": "multiple_choice",
-    "options": [
-      "42",
-      "45",
-      "43",
-      "44"
-    ],
-    "correctAnswer": "43",
-    "explanation": "54% of 80 = (54/100) × 80 = 43",
-    "subject": "Mathematical Reasoning",
-    "topic": "Percentages",
-    "difficulty": "easy",
-    "grade": 7,
-    "tags": [
-      "mathematics",
-      "percentages",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:04:23.090Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_7_easy_8",
-    "content": "Solve for x: 2x + 8 = 22",
-    "type": "multiple_choice",
-    "options": [
-      "6",
-      "9",
-      "7",
-      "8"
-    ],
-    "correctAnswer": "7",
-    "explanation": "2x + 8 = 22, so 2x = 14, therefore x = 7",
-    "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
-    "difficulty": "easy",
-    "grade": 7,
-    "tags": [
-      "mathematics",
-      "algebra",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:04:23.090Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_7_easy_9",
     "content": "What is 1 - 1?",
     "type": "multiple_choice",
     "options": [
@@ -250,21 +46,224 @@
       "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:04:23.090Z",
+    "createdAt": "2025-08-11T14:57:08.432Z",
+    "estimatedTime": 45
+  },
+  {
+    "_id": "build_math_7_easy_2",
+    "content": "What is 5 × 11?",
+    "type": "multiple_choice",
+    "options": [
+      "57",
+      "56",
+      "55",
+      "54"
+    ],
+    "correctAnswer": "55",
+    "explanation": "5 × 11 = 55",
+    "subject": "Mathematical Reasoning",
+    "topic": "Multiplication",
+    "difficulty": "easy",
+    "grade": 7,
+    "tags": [
+      "mathematics",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-11T14:57:08.432Z",
+    "estimatedTime": 45
+  },
+  {
+    "_id": "build_math_7_easy_3",
+    "content": "What is 55% of 143?",
+    "type": "multiple_choice",
+    "options": [
+      "79",
+      "78",
+      "81",
+      "80"
+    ],
+    "correctAnswer": "79",
+    "explanation": "55% of 143 = (55/100) × 143 = 79",
+    "subject": "Mathematical Reasoning",
+    "topic": "Percentages",
+    "difficulty": "easy",
+    "grade": 7,
+    "tags": [
+      "mathematics",
+      "percentages",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-11T14:57:08.432Z",
+    "estimatedTime": 45
+  },
+  {
+    "_id": "build_math_7_easy_4",
+    "content": "Solve for x: 3x + 8 = 14",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "4",
+      "3",
+      "1"
+    ],
+    "correctAnswer": "2",
+    "explanation": "3x + 8 = 14, so 3x = 6, therefore x = 2",
+    "subject": "Mathematical Reasoning",
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "grade": 7,
+    "tags": [
+      "mathematics",
+      "algebra",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-11T14:57:08.432Z",
+    "estimatedTime": 45
+  },
+  {
+    "_id": "build_math_7_easy_5",
+    "content": "What is 5 - 5?",
+    "type": "multiple_choice",
+    "options": [
+      "0",
+      "2",
+      "1"
+    ],
+    "correctAnswer": "0",
+    "explanation": "5 - 5 = 0",
+    "subject": "Mathematical Reasoning",
+    "topic": "Subtraction",
+    "difficulty": "easy",
+    "grade": 7,
+    "tags": [
+      "mathematics",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-11T14:57:08.432Z",
+    "estimatedTime": 45
+  },
+  {
+    "_id": "build_math_7_easy_6",
+    "content": "What is 8 × 7?",
+    "type": "multiple_choice",
+    "options": [
+      "57",
+      "55",
+      "58",
+      "56"
+    ],
+    "correctAnswer": "56",
+    "explanation": "8 × 7 = 56",
+    "subject": "Mathematical Reasoning",
+    "topic": "Multiplication",
+    "difficulty": "easy",
+    "grade": 7,
+    "tags": [
+      "mathematics",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-11T14:57:08.432Z",
+    "estimatedTime": 45
+  },
+  {
+    "_id": "build_math_7_easy_7",
+    "content": "What is 42% of 134?",
+    "type": "multiple_choice",
+    "options": [
+      "57",
+      "56",
+      "55",
+      "58"
+    ],
+    "correctAnswer": "56",
+    "explanation": "42% of 134 = (42/100) × 134 = 56",
+    "subject": "Mathematical Reasoning",
+    "topic": "Percentages",
+    "difficulty": "easy",
+    "grade": 7,
+    "tags": [
+      "mathematics",
+      "percentages",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-11T14:57:08.432Z",
+    "estimatedTime": 45
+  },
+  {
+    "_id": "build_math_7_easy_8",
+    "content": "Solve for x: 6x + 17 = 71",
+    "type": "multiple_choice",
+    "options": [
+      "11",
+      "8",
+      "9",
+      "10"
+    ],
+    "correctAnswer": "9",
+    "explanation": "6x + 17 = 71, so 6x = 54, therefore x = 9",
+    "subject": "Mathematical Reasoning",
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "grade": 7,
+    "tags": [
+      "mathematics",
+      "algebra",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-11T14:57:08.432Z",
+    "estimatedTime": 45
+  },
+  {
+    "_id": "build_math_7_easy_9",
+    "content": "What is 16 - 6?",
+    "type": "multiple_choice",
+    "options": [
+      "11",
+      "10",
+      "12",
+      "9"
+    ],
+    "correctAnswer": "10",
+    "explanation": "16 - 6 = 10",
+    "subject": "Mathematical Reasoning",
+    "topic": "Subtraction",
+    "difficulty": "easy",
+    "grade": 7,
+    "tags": [
+      "mathematics",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-11T14:57:08.432Z",
     "estimatedTime": 45
   },
   {
     "_id": "build_math_7_easy_10",
-    "content": "What is 11 × 4?",
+    "content": "What is 5 × 5?",
     "type": "multiple_choice",
     "options": [
-      "43",
-      "46",
-      "45",
-      "44"
+      "27",
+      "25",
+      "26",
+      "24"
     ],
-    "correctAnswer": "44",
-    "explanation": "11 × 4 = 44",
+    "correctAnswer": "25",
+    "explanation": "5 × 5 = 25",
     "subject": "Mathematical Reasoning",
     "topic": "Multiplication",
     "difficulty": "easy",
@@ -275,21 +274,21 @@
       "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:04:23.090Z",
+    "createdAt": "2025-08-11T14:57:08.432Z",
     "estimatedTime": 45
   },
   {
     "_id": "build_math_7_easy_11",
-    "content": "What is 88% of 129?",
+    "content": "What is 41% of 110?",
     "type": "multiple_choice",
     "options": [
-      "114",
-      "116",
-      "113",
-      "115"
+      "45",
+      "47",
+      "44",
+      "46"
     ],
-    "correctAnswer": "114",
-    "explanation": "88% of 129 = (88/100) × 129 = 114",
+    "correctAnswer": "45",
+    "explanation": "41% of 110 = (41/100) × 110 = 45",
     "subject": "Mathematical Reasoning",
     "topic": "Percentages",
     "difficulty": "easy",
@@ -301,21 +300,21 @@
       "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:04:23.090Z",
+    "createdAt": "2025-08-11T14:57:08.432Z",
     "estimatedTime": 45
   },
   {
     "_id": "build_math_7_easy_12",
-    "content": "Solve for x: 8x + 12 = 44",
+    "content": "Solve for x: 2x + 9 = 23",
     "type": "multiple_choice",
     "options": [
-      "4",
-      "6",
-      "3",
-      "5"
+      "8",
+      "9",
+      "7",
+      "6"
     ],
-    "correctAnswer": "4",
-    "explanation": "8x + 12 = 44, so 8x = 32, therefore x = 4",
+    "correctAnswer": "7",
+    "explanation": "2x + 9 = 23, so 2x = 14, therefore x = 7",
     "subject": "Mathematical Reasoning",
     "topic": "Algebra",
     "difficulty": "easy",
@@ -327,21 +326,21 @@
       "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:04:23.090Z",
+    "createdAt": "2025-08-11T14:57:08.432Z",
     "estimatedTime": 45
   },
   {
     "_id": "build_math_7_easy_13",
-    "content": "What is 12 - 5?",
+    "content": "What is 8 - 2?",
     "type": "multiple_choice",
     "options": [
-      "9",
       "8",
       "6",
+      "5",
       "7"
     ],
-    "correctAnswer": "7",
-    "explanation": "12 - 5 = 7",
+    "correctAnswer": "6",
+    "explanation": "8 - 2 = 6",
     "subject": "Mathematical Reasoning",
     "topic": "Subtraction",
     "difficulty": "easy",
@@ -352,21 +351,21 @@
       "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:04:23.090Z",
+    "createdAt": "2025-08-11T14:57:08.432Z",
     "estimatedTime": 45
   },
   {
     "_id": "build_math_7_easy_14",
-    "content": "What is 10 × 7?",
+    "content": "What is 4 × 7?",
     "type": "multiple_choice",
     "options": [
-      "71",
-      "72",
-      "70",
-      "69"
+      "27",
+      "28",
+      "30",
+      "29"
     ],
-    "correctAnswer": "70",
-    "explanation": "10 × 7 = 70",
+    "correctAnswer": "28",
+    "explanation": "4 × 7 = 28",
     "subject": "Mathematical Reasoning",
     "topic": "Multiplication",
     "difficulty": "easy",
@@ -377,21 +376,21 @@
       "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:04:23.090Z",
+    "createdAt": "2025-08-11T14:57:08.432Z",
     "estimatedTime": 45
   },
   {
     "_id": "build_math_7_easy_15",
-    "content": "What is 67% of 162?",
+    "content": "What is 41% of 157?",
     "type": "multiple_choice",
     "options": [
-      "109",
-      "111",
-      "110",
-      "108"
+      "66",
+      "64",
+      "65",
+      "63"
     ],
-    "correctAnswer": "109",
-    "explanation": "67% of 162 = (67/100) × 162 = 109",
+    "correctAnswer": "64",
+    "explanation": "41% of 157 = (41/100) × 157 = 64",
     "subject": "Mathematical Reasoning",
     "topic": "Percentages",
     "difficulty": "easy",
@@ -403,21 +402,21 @@
       "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:04:23.090Z",
+    "createdAt": "2025-08-11T14:57:08.432Z",
     "estimatedTime": 45
   },
   {
     "_id": "build_math_7_easy_16",
-    "content": "Solve for x: 8x + 17 = 25",
+    "content": "Solve for x: 6x + 7 = 25",
     "type": "multiple_choice",
     "options": [
       "3",
-      "1",
-      "2",
+      "5",
+      "4",
       "2"
     ],
-    "correctAnswer": "1",
-    "explanation": "8x + 17 = 25, so 8x = 8, therefore x = 1",
+    "correctAnswer": "3",
+    "explanation": "6x + 7 = 25, so 6x = 18, therefore x = 3",
     "subject": "Mathematical Reasoning",
     "topic": "Algebra",
     "difficulty": "easy",
@@ -429,21 +428,21 @@
       "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:04:23.090Z",
+    "createdAt": "2025-08-11T14:57:08.432Z",
     "estimatedTime": 45
   },
   {
     "_id": "build_math_7_easy_17",
-    "content": "What is 12 - 10?",
+    "content": "What is 8 - 2?",
     "type": "multiple_choice",
     "options": [
-      "4",
-      "1",
-      "3",
-      "2"
+      "5",
+      "8",
+      "6",
+      "7"
     ],
-    "correctAnswer": "2",
-    "explanation": "12 - 10 = 2",
+    "correctAnswer": "6",
+    "explanation": "8 - 2 = 6",
     "subject": "Mathematical Reasoning",
     "topic": "Subtraction",
     "difficulty": "easy",
@@ -454,21 +453,21 @@
       "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:04:23.090Z",
+    "createdAt": "2025-08-11T14:57:08.432Z",
     "estimatedTime": 45
   },
   {
     "_id": "build_math_7_easy_18",
-    "content": "What is 12 × 5?",
+    "content": "What is 9 × 7?",
     "type": "multiple_choice",
     "options": [
-      "60",
-      "61",
-      "59",
-      "62"
+      "65",
+      "62",
+      "63",
+      "64"
     ],
-    "correctAnswer": "60",
-    "explanation": "12 × 5 = 60",
+    "correctAnswer": "63",
+    "explanation": "9 × 7 = 63",
     "subject": "Mathematical Reasoning",
     "topic": "Multiplication",
     "difficulty": "easy",
@@ -479,21 +478,21 @@
       "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:04:23.090Z",
+    "createdAt": "2025-08-11T14:57:08.432Z",
     "estimatedTime": 45
   },
   {
     "_id": "build_math_7_easy_19",
-    "content": "What is 48% of 77?",
+    "content": "What is 19% of 136?",
     "type": "multiple_choice",
     "options": [
-      "39",
-      "36",
-      "38",
-      "37"
+      "27",
+      "28",
+      "26",
+      "25"
     ],
-    "correctAnswer": "37",
-    "explanation": "48% of 77 = (48/100) × 77 = 37",
+    "correctAnswer": "26",
+    "explanation": "19% of 136 = (19/100) × 136 = 26",
     "subject": "Mathematical Reasoning",
     "topic": "Percentages",
     "difficulty": "easy",
@@ -505,21 +504,21 @@
       "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:04:23.090Z",
+    "createdAt": "2025-08-11T14:57:08.432Z",
     "estimatedTime": 45
   },
   {
     "_id": "build_math_7_easy_20",
-    "content": "Solve for x: 4x + 16 = 48",
+    "content": "Solve for x: 2x + 13 = 31",
     "type": "multiple_choice",
     "options": [
-      "10",
-      "7",
+      "11",
       "9",
-      "8"
+      "8",
+      "10"
     ],
-    "correctAnswer": "8",
-    "explanation": "4x + 16 = 48, so 4x = 32, therefore x = 8",
+    "correctAnswer": "9",
+    "explanation": "2x + 13 = 31, so 2x = 18, therefore x = 9",
     "subject": "Mathematical Reasoning",
     "topic": "Algebra",
     "difficulty": "easy",
@@ -531,20 +530,21 @@
       "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:04:23.090Z",
+    "createdAt": "2025-08-11T14:57:08.432Z",
     "estimatedTime": 45
   },
   {
     "_id": "build_math_7_easy_21",
-    "content": "What is 3 - 3?",
+    "content": "What is 14 - 7?",
     "type": "multiple_choice",
     "options": [
-      "0",
-      "1",
-      "2"
+      "7",
+      "6",
+      "9",
+      "8"
     ],
-    "correctAnswer": "0",
-    "explanation": "3 - 3 = 0",
+    "correctAnswer": "7",
+    "explanation": "14 - 7 = 7",
     "subject": "Mathematical Reasoning",
     "topic": "Subtraction",
     "difficulty": "easy",
@@ -555,21 +555,21 @@
       "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:04:23.090Z",
+    "createdAt": "2025-08-11T14:57:08.432Z",
     "estimatedTime": 45
   },
   {
     "_id": "build_math_7_easy_22",
-    "content": "What is 9 × 6?",
+    "content": "What is 2 × 3?",
     "type": "multiple_choice",
     "options": [
-      "56",
-      "54",
-      "55",
-      "53"
+      "5",
+      "7",
+      "6",
+      "8"
     ],
-    "correctAnswer": "54",
-    "explanation": "9 × 6 = 54",
+    "correctAnswer": "6",
+    "explanation": "2 × 3 = 6",
     "subject": "Mathematical Reasoning",
     "topic": "Multiplication",
     "difficulty": "easy",
@@ -580,21 +580,21 @@
       "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:04:23.090Z",
+    "createdAt": "2025-08-11T14:57:08.432Z",
     "estimatedTime": 45
   },
   {
     "_id": "build_math_7_easy_23",
-    "content": "What is 49% of 194?",
+    "content": "What is 70% of 114?",
     "type": "multiple_choice",
     "options": [
-      "97",
-      "95",
-      "94",
-      "96"
+      "79",
+      "80",
+      "81",
+      "82"
     ],
-    "correctAnswer": "95",
-    "explanation": "49% of 194 = (49/100) × 194 = 95",
+    "correctAnswer": "80",
+    "explanation": "70% of 114 = (70/100) × 114 = 80",
     "subject": "Mathematical Reasoning",
     "topic": "Percentages",
     "difficulty": "easy",
@@ -606,21 +606,21 @@
       "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:04:23.090Z",
+    "createdAt": "2025-08-11T14:57:08.433Z",
     "estimatedTime": 45
   },
   {
     "_id": "build_math_7_easy_24",
-    "content": "Solve for x: 8x + 12 = 20",
+    "content": "Solve for x: 5x + 9 = 29",
     "type": "multiple_choice",
     "options": [
+      "6",
       "3",
-      "2",
-      "1",
-      "2"
+      "5",
+      "4"
     ],
-    "correctAnswer": "1",
-    "explanation": "8x + 12 = 20, so 8x = 8, therefore x = 1",
+    "correctAnswer": "4",
+    "explanation": "5x + 9 = 29, so 5x = 20, therefore x = 4",
     "subject": "Mathematical Reasoning",
     "topic": "Algebra",
     "difficulty": "easy",
@@ -632,7 +632,7 @@
       "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:04:23.090Z",
+    "createdAt": "2025-08-11T14:57:08.433Z",
     "estimatedTime": 45
   }
 ]
