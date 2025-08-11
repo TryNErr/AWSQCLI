@@ -26,7 +26,6 @@ import {
 } from '@mui/icons-material';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../../contexts/AuthContext';
-import PracticeOptionsTest from '../../components/PracticeOptionsTest';
 
 const Practice: React.FC = () => {
   const navigate = useNavigate();
@@ -94,9 +93,6 @@ const Practice: React.FC = () => {
 
   return (
     <Container maxWidth="xl">
-      {/* Temporary debug component - remove after testing */}
-      <PracticeOptionsTest />
-      
       <Box sx={{ py: 2 }}>
         {/* Hero Header */}
         <Paper 

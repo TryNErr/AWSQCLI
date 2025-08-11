@@ -1,16 +1,16 @@
 [
   {
     "_id": "build_math_9_hard_0",
-    "content": "Solve for x: 2x² -8x -3 = 0",
+    "content": "Solve for x: 3x² -7x -1 = 0",
     "type": "multiple_choice",
     "options": [
-      "-0.3, 4.3",
-      "5.3, 0.7",
-      "3.3, -1.3",
+      "-0.1, 2.5",
+      "3.5, 0.9",
+      "1.5, -1.1",
       "No real solutions"
     ],
-    "correctAnswer": "-0.3, 4.3",
-    "explanation": "Using the quadratic formula: x = (-b ± √(b² - 4ac)) / 2a. Solutions: -0.3, 4.3",
+    "correctAnswer": "-0.1, 2.5",
+    "explanation": "Using the quadratic formula: x = (-b ± √(b² - 4ac)) / 2a. Solutions: -0.1, 2.5",
     "subject": "Mathematical Reasoning",
     "topic": "Quadratic Equations",
     "difficulty": "hard",
@@ -24,11 +24,11 @@
     ],
     "estimatedTime": 90,
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "createdAt": "2025-08-11T13:47:51.857Z"
   },
   {
     "_id": "build_math_9_hard_1",
-    "content": "Solve the system of equations:\n2x + 3y = 15\n4x + 5y = 27",
+    "content": "Solve the system of equations:\n2x + 4y = 18\n3x + 2y = 15",
     "type": "multiple_choice",
     "options": [
       "x = 3, y = 3",
@@ -51,20 +51,20 @@
     ],
     "estimatedTime": 90,
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "createdAt": "2025-08-11T13:47:51.857Z"
   },
   {
     "_id": "build_math_9_hard_2",
-    "content": "If a bacteria culture doubles every hour and starts with 100 bacteria, how many bacteria will there be after 3 hours?",
+    "content": "If a bacteria culture doubles every hour and starts with 100 bacteria, how many bacteria will there be after 4 hours?",
     "type": "multiple_choice",
     "options": [
-      "800",
-      "400",
       "1600",
-      "600"
+      "800",
+      "3200",
+      "800"
     ],
-    "correctAnswer": "800",
-    "explanation": "Using exponential growth formula: N = N₀ × 2^t = 100 × 2^3 = 800",
+    "correctAnswer": "1600",
+    "explanation": "Using exponential growth formula: N = N₀ × 2^t = 100 × 2^4 = 1600",
     "subject": "Mathematical Reasoning",
     "topic": "Exponential Functions",
     "difficulty": "hard",
@@ -78,7 +78,7 @@
     ],
     "estimatedTime": 105,
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "createdAt": "2025-08-11T13:47:51.858Z"
   },
   {
     "_id": "build_math_9_hard_3",
@@ -105,20 +105,20 @@
     ],
     "estimatedTime": 90,
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "createdAt": "2025-08-11T13:47:51.858Z"
   },
   {
     "_id": "build_math_9_hard_4",
-    "content": "What is the domain of f(x) = 1/(2x +0)?",
+    "content": "What is the domain of f(x) = 1/(1x -3)?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers except x = 0",
-      "All real numbers except x = 0",
+      "All real numbers except x = 3",
+      "All real numbers except x = -3",
       "All real numbers",
-      "x ≥ 0"
+      "x ≥ 3"
     ],
-    "correctAnswer": "All real numbers except x = 0",
-    "explanation": "The denominator cannot equal zero: 2x +0 ≠ 0, so x ≠ 0",
+    "correctAnswer": "All real numbers except x = 3",
+    "explanation": "The denominator cannot equal zero: 1x -3 ≠ 0, so x ≠ 3",
     "subject": "Mathematical Reasoning",
     "topic": "Rational Functions",
     "difficulty": "hard",
@@ -132,20 +132,20 @@
     ],
     "estimatedTime": 90,
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "createdAt": "2025-08-11T13:47:51.858Z"
   },
   {
     "_id": "build_math_9_hard_5",
-    "content": "Factor completely: x² + 6x + 8",
+    "content": "Factor completely: x² + 5x + 6",
     "type": "multiple_choice",
     "options": [
-      "(x + 4)(x + 2)",
-      "(x - 4)(x - 2)",
-      "(x + 4)(x - 2)",
+      "(x + 3)(x + 2)",
+      "(x - 3)(x - 2)",
+      "(x + 3)(x - 2)",
       "Cannot be factored"
     ],
-    "correctAnswer": "(x + 4)(x + 2)",
-    "explanation": "Find two numbers that multiply to 8 and add to 6: 4 and 2",
+    "correctAnswer": "(x + 3)(x + 2)",
+    "explanation": "Find two numbers that multiply to 6 and add to 5: 3 and 2",
     "subject": "Mathematical Reasoning",
     "topic": "Polynomial Factoring",
     "difficulty": "hard",
@@ -159,20 +159,20 @@
     ],
     "estimatedTime": 90,
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "createdAt": "2025-08-11T13:47:51.858Z"
   },
   {
     "_id": "build_math_9_hard_6",
     "content": "Factor completely: x² + 5x + 6",
     "type": "multiple_choice",
     "options": [
-      "(x + 3)(x + 2)",
-      "(x - 3)(x - 2)",
-      "(x + 3)(x - 2)",
+      "(x + 2)(x + 3)",
+      "(x - 2)(x - 3)",
+      "(x + 2)(x - 3)",
       "Cannot be factored"
     ],
-    "correctAnswer": "(x + 3)(x + 2)",
-    "explanation": "Find two numbers that multiply to 6 and add to 5: 3 and 2",
+    "correctAnswer": "(x + 2)(x + 3)",
+    "explanation": "Find two numbers that multiply to 6 and add to 5: 2 and 3",
     "subject": "Mathematical Reasoning",
     "topic": "Polynomial Factoring",
     "difficulty": "hard",
@@ -186,20 +186,20 @@
     ],
     "estimatedTime": 90,
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "createdAt": "2025-08-11T13:47:51.858Z"
   },
   {
     "_id": "build_math_9_hard_7",
-    "content": "Factor completely: x² + 4x + 4",
+    "content": "Factor completely: x² + 8x + 16",
     "type": "multiple_choice",
     "options": [
-      "(x + 2)(x + 2)",
-      "(x - 2)(x - 2)",
-      "(x + 2)(x - 2)",
+      "(x + 4)(x + 4)",
+      "(x - 4)(x - 4)",
+      "(x + 4)(x - 4)",
       "Cannot be factored"
     ],
-    "correctAnswer": "(x + 2)(x + 2)",
-    "explanation": "Find two numbers that multiply to 4 and add to 4: 2 and 2",
+    "correctAnswer": "(x + 4)(x + 4)",
+    "explanation": "Find two numbers that multiply to 16 and add to 8: 4 and 4",
     "subject": "Mathematical Reasoning",
     "topic": "Polynomial Factoring",
     "difficulty": "hard",
@@ -213,20 +213,20 @@
     ],
     "estimatedTime": 90,
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "createdAt": "2025-08-11T13:47:51.858Z"
   },
   {
     "_id": "build_math_9_hard_8",
-    "content": "Factor completely: x² + 7x + 12",
+    "content": "Factor completely: x² + 6x + 8",
     "type": "multiple_choice",
     "options": [
-      "(x + 3)(x + 4)",
-      "(x - 3)(x - 4)",
-      "(x + 3)(x - 4)",
+      "(x + 2)(x + 4)",
+      "(x - 2)(x - 4)",
+      "(x + 2)(x - 4)",
       "Cannot be factored"
     ],
-    "correctAnswer": "(x + 3)(x + 4)",
-    "explanation": "Find two numbers that multiply to 12 and add to 7: 3 and 4",
+    "correctAnswer": "(x + 2)(x + 4)",
+    "explanation": "Find two numbers that multiply to 8 and add to 6: 2 and 4",
     "subject": "Mathematical Reasoning",
     "topic": "Polynomial Factoring",
     "difficulty": "hard",
@@ -240,20 +240,20 @@
     ],
     "estimatedTime": 90,
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "createdAt": "2025-08-11T13:47:51.858Z"
   },
   {
     "_id": "build_math_9_hard_9",
-    "content": "Factor completely: x² + 5x + 6",
+    "content": "Factor completely: x² + 6x + 8",
     "type": "multiple_choice",
     "options": [
-      "(x + 3)(x + 2)",
-      "(x - 3)(x - 2)",
-      "(x + 3)(x - 2)",
+      "(x + 2)(x + 4)",
+      "(x - 2)(x - 4)",
+      "(x + 2)(x - 4)",
       "Cannot be factored"
     ],
-    "correctAnswer": "(x + 3)(x + 2)",
-    "explanation": "Find two numbers that multiply to 6 and add to 5: 3 and 2",
+    "correctAnswer": "(x + 2)(x + 4)",
+    "explanation": "Find two numbers that multiply to 8 and add to 6: 2 and 4",
     "subject": "Mathematical Reasoning",
     "topic": "Polynomial Factoring",
     "difficulty": "hard",
@@ -267,20 +267,20 @@
     ],
     "estimatedTime": 90,
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "createdAt": "2025-08-11T13:47:51.858Z"
   },
   {
     "_id": "build_math_9_hard_10",
-    "content": "Factor completely: x² + 7x + 12",
+    "content": "Factor completely: x² + 6x + 8",
     "type": "multiple_choice",
     "options": [
-      "(x + 3)(x + 4)",
-      "(x - 3)(x - 4)",
-      "(x + 3)(x - 4)",
+      "(x + 2)(x + 4)",
+      "(x - 2)(x - 4)",
+      "(x + 2)(x - 4)",
       "Cannot be factored"
     ],
-    "correctAnswer": "(x + 3)(x + 4)",
-    "explanation": "Find two numbers that multiply to 12 and add to 7: 3 and 4",
+    "correctAnswer": "(x + 2)(x + 4)",
+    "explanation": "Find two numbers that multiply to 8 and add to 6: 2 and 4",
     "subject": "Mathematical Reasoning",
     "topic": "Polynomial Factoring",
     "difficulty": "hard",
@@ -294,20 +294,20 @@
     ],
     "estimatedTime": 90,
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "createdAt": "2025-08-11T13:47:51.858Z"
   },
   {
     "_id": "build_math_9_hard_11",
-    "content": "Factor completely: x² + 4x + 4",
+    "content": "Factor completely: x² + 5x + 6",
     "type": "multiple_choice",
     "options": [
-      "(x + 2)(x + 2)",
-      "(x - 2)(x - 2)",
-      "(x + 2)(x - 2)",
+      "(x + 2)(x + 3)",
+      "(x - 2)(x - 3)",
+      "(x + 2)(x - 3)",
       "Cannot be factored"
     ],
-    "correctAnswer": "(x + 2)(x + 2)",
-    "explanation": "Find two numbers that multiply to 4 and add to 4: 2 and 2",
+    "correctAnswer": "(x + 2)(x + 3)",
+    "explanation": "Find two numbers that multiply to 6 and add to 5: 2 and 3",
     "subject": "Mathematical Reasoning",
     "topic": "Polynomial Factoring",
     "difficulty": "hard",
@@ -321,47 +321,46 @@
     ],
     "estimatedTime": 90,
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "createdAt": "2025-08-11T13:47:51.858Z"
   },
   {
     "_id": "build_math_9_hard_12",
-    "content": "Solve for x: 5x² -6x -3 = 0",
+    "content": "Solve for x: 5x + 14 = 44",
     "type": "multiple_choice",
     "options": [
-      "-0.4, 1.6",
-      "2.6, 0.6",
-      "0.6, -1.4",
-      "No real solutions"
+      "5",
+      "8",
+      "7",
+      "6"
     ],
-    "correctAnswer": "-0.4, 1.6",
-    "explanation": "Using the quadratic formula: x = (-b ± √(b² - 4ac)) / 2a. Solutions: -0.4, 1.6",
+    "correctAnswer": "6",
+    "explanation": "5x + 14 = 44, so 5x = 30, therefore x = 6",
     "subject": "Mathematical Reasoning",
-    "topic": "Quadratic Equations",
+    "topic": "Algebra",
     "difficulty": "hard",
     "grade": "9",
     "tags": [
       "mathematics",
-      "quadratic",
-      "hard",
+      "algebra",
       "build-time-generated",
       "timed-test-ready"
     ],
-    "estimatedTime": 90,
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "createdAt": "2025-08-11T13:47:51.858Z",
+    "estimatedTime": 90
   },
   {
     "_id": "build_math_9_hard_13",
-    "content": "Solve the system of equations:\n4x + 4y = 12\n2x + 5y = 9",
+    "content": "Solve the system of equations:\n3x + 4y = 25\n4x + 4y = 28",
     "type": "multiple_choice",
     "options": [
-      "x = 2, y = 1",
-      "x = 3, y = 1",
-      "x = 2, y = 2",
-      "x = 1, y = 0"
+      "x = 3, y = 4",
+      "x = 4, y = 4",
+      "x = 3, y = 5",
+      "x = 2, y = 3"
     ],
-    "correctAnswer": "x = 2, y = 1",
-    "explanation": "Using substitution or elimination method: x = 2, y = 1",
+    "correctAnswer": "x = 3, y = 4",
+    "explanation": "Using substitution or elimination method: x = 3, y = 4",
     "subject": "Mathematical Reasoning",
     "topic": "Systems of Equations",
     "difficulty": "hard",
@@ -375,20 +374,20 @@
     ],
     "estimatedTime": 90,
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "createdAt": "2025-08-11T13:47:51.858Z"
   },
   {
     "_id": "build_math_9_hard_14",
-    "content": "If a bacteria culture doubles every hour and starts with 100 bacteria, how many bacteria will there be after 3 hours?",
+    "content": "If a bacteria culture doubles every hour and starts with 100 bacteria, how many bacteria will there be after 5 hours?",
     "type": "multiple_choice",
     "options": [
-      "800",
-      "400",
+      "3200",
       "1600",
-      "600"
+      "6400",
+      "1000"
     ],
-    "correctAnswer": "800",
-    "explanation": "Using exponential growth formula: N = N₀ × 2^t = 100 × 2^3 = 800",
+    "correctAnswer": "3200",
+    "explanation": "Using exponential growth formula: N = N₀ × 2^t = 100 × 2^5 = 3200",
     "subject": "Mathematical Reasoning",
     "topic": "Exponential Functions",
     "difficulty": "hard",
@@ -402,7 +401,7 @@
     ],
     "estimatedTime": 105,
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "createdAt": "2025-08-11T13:47:51.858Z"
   },
   {
     "_id": "build_math_9_hard_15",
@@ -429,20 +428,20 @@
     ],
     "estimatedTime": 90,
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "createdAt": "2025-08-11T13:47:51.858Z"
   },
   {
     "_id": "build_math_9_hard_16",
-    "content": "What is the domain of f(x) = 1/(3x +3)?",
+    "content": "What is the domain of f(x) = 1/(3x -5)?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers except x = -1",
-      "All real numbers except x = 1",
+      "All real numbers except x = 1.6666666666666667",
+      "All real numbers except x = -1.6666666666666667",
       "All real numbers",
-      "x ≥ -1"
+      "x ≥ 1.6666666666666667"
     ],
-    "correctAnswer": "All real numbers except x = -1",
-    "explanation": "The denominator cannot equal zero: 3x +3 ≠ 0, so x ≠ -1",
+    "correctAnswer": "All real numbers except x = 1.6666666666666667",
+    "explanation": "The denominator cannot equal zero: 3x -5 ≠ 0, so x ≠ 1.6666666666666667",
     "subject": "Mathematical Reasoning",
     "topic": "Rational Functions",
     "difficulty": "hard",
@@ -456,20 +455,20 @@
     ],
     "estimatedTime": 90,
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "createdAt": "2025-08-11T13:47:51.858Z"
   },
   {
     "_id": "build_math_9_hard_17",
-    "content": "Factor completely: x² + 6x + 8",
+    "content": "Factor completely: x² + 6x + 9",
     "type": "multiple_choice",
     "options": [
-      "(x + 2)(x + 4)",
-      "(x - 2)(x - 4)",
-      "(x + 2)(x - 4)",
+      "(x + 3)(x + 3)",
+      "(x - 3)(x - 3)",
+      "(x + 3)(x - 3)",
       "Cannot be factored"
     ],
-    "correctAnswer": "(x + 2)(x + 4)",
-    "explanation": "Find two numbers that multiply to 8 and add to 6: 2 and 4",
+    "correctAnswer": "(x + 3)(x + 3)",
+    "explanation": "Find two numbers that multiply to 9 and add to 6: 3 and 3",
     "subject": "Mathematical Reasoning",
     "topic": "Polynomial Factoring",
     "difficulty": "hard",
@@ -483,91 +482,10 @@
     ],
     "estimatedTime": 90,
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "createdAt": "2025-08-11T13:47:51.858Z"
   },
   {
     "_id": "build_math_9_hard_18",
-    "content": "Factor completely: x² + 6x + 9",
-    "type": "multiple_choice",
-    "options": [
-      "(x + 3)(x + 3)",
-      "(x - 3)(x - 3)",
-      "(x + 3)(x - 3)",
-      "Cannot be factored"
-    ],
-    "correctAnswer": "(x + 3)(x + 3)",
-    "explanation": "Find two numbers that multiply to 9 and add to 6: 3 and 3",
-    "subject": "Mathematical Reasoning",
-    "topic": "Polynomial Factoring",
-    "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "factoring",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
-  },
-  {
-    "_id": "build_math_9_hard_19",
-    "content": "Factor completely: x² + 6x + 9",
-    "type": "multiple_choice",
-    "options": [
-      "(x + 3)(x + 3)",
-      "(x - 3)(x - 3)",
-      "(x + 3)(x - 3)",
-      "Cannot be factored"
-    ],
-    "correctAnswer": "(x + 3)(x + 3)",
-    "explanation": "Find two numbers that multiply to 9 and add to 6: 3 and 3",
-    "subject": "Mathematical Reasoning",
-    "topic": "Polynomial Factoring",
-    "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "factoring",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
-  },
-  {
-    "_id": "build_math_9_hard_20",
-    "content": "Factor completely: x² + 8x + 16",
-    "type": "multiple_choice",
-    "options": [
-      "(x + 4)(x + 4)",
-      "(x - 4)(x - 4)",
-      "(x + 4)(x - 4)",
-      "Cannot be factored"
-    ],
-    "correctAnswer": "(x + 4)(x + 4)",
-    "explanation": "Find two numbers that multiply to 16 and add to 8: 4 and 4",
-    "subject": "Mathematical Reasoning",
-    "topic": "Polynomial Factoring",
-    "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "factoring",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
-  },
-  {
-    "_id": "build_math_9_hard_21",
     "content": "Factor completely: x² + 7x + 12",
     "type": "multiple_choice",
     "options": [
@@ -591,7 +509,88 @@
     ],
     "estimatedTime": 90,
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "createdAt": "2025-08-11T13:47:51.858Z"
+  },
+  {
+    "_id": "build_math_9_hard_19",
+    "content": "Factor completely: x² + 7x + 12",
+    "type": "multiple_choice",
+    "options": [
+      "(x + 4)(x + 3)",
+      "(x - 4)(x - 3)",
+      "(x + 4)(x - 3)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x + 4)(x + 3)",
+    "explanation": "Find two numbers that multiply to 12 and add to 7: 4 and 3",
+    "subject": "Mathematical Reasoning",
+    "topic": "Polynomial Factoring",
+    "difficulty": "hard",
+    "grade": "9",
+    "tags": [
+      "mathematics",
+      "factoring",
+      "hard",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "estimatedTime": 90,
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-11T13:47:51.858Z"
+  },
+  {
+    "_id": "build_math_9_hard_20",
+    "content": "Factor completely: x² + 6x + 8",
+    "type": "multiple_choice",
+    "options": [
+      "(x + 2)(x + 4)",
+      "(x - 2)(x - 4)",
+      "(x + 2)(x - 4)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x + 2)(x + 4)",
+    "explanation": "Find two numbers that multiply to 8 and add to 6: 2 and 4",
+    "subject": "Mathematical Reasoning",
+    "topic": "Polynomial Factoring",
+    "difficulty": "hard",
+    "grade": "9",
+    "tags": [
+      "mathematics",
+      "factoring",
+      "hard",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "estimatedTime": 90,
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-11T13:47:51.858Z"
+  },
+  {
+    "_id": "build_math_9_hard_21",
+    "content": "Factor completely: x² + 7x + 12",
+    "type": "multiple_choice",
+    "options": [
+      "(x + 4)(x + 3)",
+      "(x - 4)(x - 3)",
+      "(x + 4)(x - 3)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x + 4)(x + 3)",
+    "explanation": "Find two numbers that multiply to 12 and add to 7: 4 and 3",
+    "subject": "Mathematical Reasoning",
+    "topic": "Polynomial Factoring",
+    "difficulty": "hard",
+    "grade": "9",
+    "tags": [
+      "mathematics",
+      "factoring",
+      "hard",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "estimatedTime": 90,
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-11T13:47:51.858Z"
   },
   {
     "_id": "build_math_9_hard_22",
@@ -618,20 +617,20 @@
     ],
     "estimatedTime": 90,
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "createdAt": "2025-08-11T13:47:51.858Z"
   },
   {
     "_id": "build_math_9_hard_23",
-    "content": "Factor completely: x² + 7x + 12",
+    "content": "Factor completely: x² + 6x + 8",
     "type": "multiple_choice",
     "options": [
-      "(x + 4)(x + 3)",
-      "(x - 4)(x - 3)",
-      "(x + 4)(x - 3)",
+      "(x + 2)(x + 4)",
+      "(x - 2)(x - 4)",
+      "(x + 2)(x - 4)",
       "Cannot be factored"
     ],
-    "correctAnswer": "(x + 4)(x + 3)",
-    "explanation": "Find two numbers that multiply to 12 and add to 7: 4 and 3",
+    "correctAnswer": "(x + 2)(x + 4)",
+    "explanation": "Find two numbers that multiply to 8 and add to 6: 2 and 4",
     "subject": "Mathematical Reasoning",
     "topic": "Polynomial Factoring",
     "difficulty": "hard",
@@ -645,20 +644,20 @@
     ],
     "estimatedTime": 90,
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z"
+    "createdAt": "2025-08-11T13:47:51.858Z"
   },
   {
     "_id": "build_math_9_hard_24",
-    "content": "Solve for x: 2x + 20 = 34",
+    "content": "Solve for x: 5x + 12 = 22",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "6",
-      "9",
-      "8"
+      "4",
+      "2",
+      "3",
+      "1"
     ],
-    "correctAnswer": "7",
-    "explanation": "2x + 20 = 34, so 2x = 14, therefore x = 7",
+    "correctAnswer": "2",
+    "explanation": "5x + 12 = 22, so 5x = 10, therefore x = 2",
     "subject": "Mathematical Reasoning",
     "topic": "Algebra",
     "difficulty": "hard",
@@ -670,7 +669,7 @@
       "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T12:48:00.855Z",
+    "createdAt": "2025-08-11T13:47:51.858Z",
     "estimatedTime": 90
   }
 ]
