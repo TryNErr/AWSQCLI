@@ -10,6 +10,7 @@ import EnhancedPractice from './pages/Practice/EnhancedPractice';
 import PracticeSession from './pages/Practice/PracticeSession';
 import SessionComplete from './pages/Practice/SessionComplete';
 import EnhancedQuestion from './pages/Practice/EnhancedQuestion';
+import DailyChallenge from './pages/Practice/DailyChallenge';
 import TimedTest from './pages/TimedTest/TimedTest';
 import TimedTestResults from './pages/TimedTest/TimedTestResults';
 import Profile from './pages/Profile/Profile';
@@ -133,6 +134,13 @@ function App() {
                 <PrivateRoute>
                   <Layout>
                     <EnhancedQuestion />
+                  </Layout>
+                </PrivateRoute>
+              } />
+              <Route path="/practice/daily-challenge" element={
+                <PrivateRoute>
+                  <Layout>
+                    <DailyChallenge />
                   </Layout>
                 </PrivateRoute>
               } />

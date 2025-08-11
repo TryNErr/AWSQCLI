@@ -22,7 +22,7 @@ import { Add, History, NewReleases, PlayArrow, AutoMode, FilterList, CheckCircle
 import { useNavigate } from 'react-router-dom';
 import { Question, DifficultyLevel } from '../../types';
 import { getUserGrade } from '../../services/userContextService';
-import BulletproofPracticeSystem from '../../utils/bulletproofPracticeSystem';
+import StaticQuestionLoader from '../../utils/staticQuestionLoader';
 import { useAuth } from '../../contexts/AuthContext';
 
 // Enhanced Practice component with bulletproof filtering and deduplication
@@ -35,6 +35,9 @@ const EnhancedPractice: React.FC = () => {
   useEffect(() => {
     // Refresh stats when component loads
     refreshUserStats();
+    
+    // Preload common question combinations for instant UX
+    preloadCommonQuestions();
   }, [refreshUserStats]);
   
   const [selectedGrade, setSelectedGrade] = useState(() => {
@@ -51,72 +54,105 @@ const EnhancedPractice: React.FC = () => {
     'Thinking Skills',
     'Mathematical Reasoning'
   ]);
+  
+  // Debug logging for subjects
+  console.log('🎯 Enhanced Practice - Available Subjects:', availableSubjects);
   const [availableGrades] = useState<string[]>(['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12']);
 
-  // Load questions when filters change - GUARANTEED filtering
+  // Load questions when filters change - INSTANT with preloaded static files
   useEffect(() => {
     if (selectedGrade && selectedDifficulty) {
-      loadQuestionsWithBulletproofFiltering();
+      loadQuestionsInstantly();
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedSubject, selectedGrade, selectedDifficulty]);
 
-  const loadQuestionsWithBulletproofFiltering = async () => {
+  const preloadCommonQuestions = async () => {
+    try {
+      console.log('🚀 Preloading common question combinations for instant UX...');
+      
+      // Preload the most common combinations (user's grade + all difficulties + all subjects)
+      const userGrade = selectedGrade;
+      const difficulties = ['easy', 'medium', 'hard'];
+      const subjects = ['math', 'english', 'reading', 'thinking-skills'];
+      
+      const preloadPromises = [];
+      
+      // Preload user's grade with all combinations
+      for (const difficulty of difficulties) {
+        for (const subject of subjects) {
+          const promise = StaticQuestionLoader.getQuestions(
+            userGrade,
+            getDifficultyLevel(difficulty),
+            subject,
+            5 // Just preload 5 questions per combination to cache the files
+          ).catch(error => {
+            console.warn(`Preload failed for ${userGrade}-${difficulty}-${subject}:`, error);
+          });
+          preloadPromises.push(promise);
+        }
+      }
+      
+      // Execute all preloads in parallel (non-blocking)
+      await Promise.allSettled(preloadPromises);
+      console.log('✅ Preloading complete - questions will now load instantly!');
+      
+    } catch (error) {
+      console.warn('Preloading failed (non-critical):', error);
+    }
+  };
+
+  const loadQuestionsInstantly = async () => {
     if (!selectedGrade || !selectedDifficulty) return;
     
+    // Only show loading for very brief moment (questions load in <50ms)
     setLoading(true);
     
-    // Create a timeout promise to prevent infinite hanging
-    const timeoutPromise = new Promise((_, reject) => {
-      setTimeout(() => {
-        reject(new Error('Question generation timed out after 30 seconds'));
-      }, 30000); // 30 second timeout
-    });
-    
     try {
-      // Get difficulty level enum
       const difficultyLevel = getDifficultyLevel(selectedDifficulty);
       
-      console.log(`🎯 Loading with BULLETPROOF filtering: Grade ${selectedGrade}, ${selectedDifficulty}${selectedSubject ? `, ${selectedSubject}` : ''}`);
+      console.log(`⚡ Loading INSTANT static questions: Grade ${selectedGrade}, ${selectedDifficulty}${selectedSubject ? `, ${selectedSubject}` : ''}`);
       
-      // Race between question generation and timeout
-      const questionGenerationPromise = BulletproofPracticeSystem.getPracticeQuestions({
-        grade: selectedGrade,
-        difficulty: difficultyLevel,
-        subject: selectedSubject || undefined,
-        count: 20
-      });
+      // Debug: Show what we're requesting
+      console.log(`🔍 StaticQuestionLoader.getQuestions(${selectedGrade}, ${difficultyLevel}, ${selectedSubject || 'undefined'}, 20)`);
       
-      const pool = await Promise.race([questionGenerationPromise, timeoutPromise]) as any;
+      // Use StaticQuestionLoader for INSTANT loading (no generation delays)
+      const staticQuestions = await StaticQuestionLoader.getQuestions(
+        selectedGrade,
+        difficultyLevel,
+        selectedSubject || undefined,
+        20 // Load 20 questions
+      );
       
-      console.log(`✅ Bulletproof system results:`, {
-        questionsLoaded: pool.questions.length,
-        totalAvailable: pool.totalAvailable,
-        filtersApplied: pool.filtersApplied,
-        duplicatesRemoved: pool.duplicatesRemoved
-      });
+      console.log(`✅ Loaded ${staticQuestions.length} static questions instantly`);
+      console.log(`📊 Questions preview:`, staticQuestions.slice(0, 2).map(q => ({ id: q._id, content: q.content.substring(0, 50) + '...', subject: q.subject })));
       
-      setQuestions(pool.questions);
-      setQuestionPool(pool);
-      
-      // Show helpful message if no questions were generated
-      if (pool.questions.length === 0) {
-        console.warn('⚠️ No questions could be generated for the selected criteria');
-        // You could show a user-friendly message here
+      // If we have questions, show them immediately
+      if (staticQuestions.length > 0) {
+        setQuestions(staticQuestions);
+        setQuestionPool({
+          questions: staticQuestions,
+          totalAvailable: staticQuestions.length,
+          filtersApplied: { 
+            grade: selectedGrade, 
+            difficulty: selectedDifficulty, 
+            subject: selectedSubject 
+          },
+          duplicatesRemoved: 0
+        });
+      } else {
+        // No questions found - show helpful message
+        console.warn(`⚠️ No static questions found for ${selectedGrade}-${selectedDifficulty}-${selectedSubject || 'any'}`);
+        setQuestions([]);
+        setQuestionPool(null);
       }
       
     } catch (error: any) {
-      console.error('Error loading questions:', error);
-      
-      // Handle timeout specifically
-      if (error?.message && error.message.includes('timed out')) {
-        console.error('🕐 Question generation timed out - this may indicate an infinite loop or system issue');
-        alert('Question generation is taking too long. Please try different criteria or contact support.');
-      }
-      
+      console.error('Error loading static questions:', error);
       setQuestions([]);
       setQuestionPool(null);
     } finally {
+      // Loading state is so brief it's barely visible
       setLoading(false);
     }
   };
@@ -289,7 +325,7 @@ const EnhancedPractice: React.FC = () => {
         {loading && (
           <Box sx={{ mb: 3 }}>
             <Typography variant="body2" gutterBottom>
-              🎯 Loading questions with bulletproof filtering: Grade {selectedGrade}, {selectedDifficulty} difficulty...
+              ⚡ Loading questions instantly: Grade {selectedGrade}, {selectedDifficulty} difficulty{selectedSubject ? `, ${selectedSubject}` : ''}...
             </Typography>
             <LinearProgress />
           </Box>
@@ -412,10 +448,10 @@ const EnhancedPractice: React.FC = () => {
                 <Button
                   variant="contained"
                   color="primary"
-                  onClick={loadQuestionsWithBulletproofFiltering}
+                  onClick={loadQuestionsInstantly}
                   sx={{ mt: 2 }}
                 >
-                  Generate Questions Now
+                  Load Questions Instantly
                 </Button>
               </Box>
             )}

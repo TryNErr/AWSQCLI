@@ -227,9 +227,42 @@ export class StaticQuestionLoader {
 
   private static normalizeSubject(subject: string): string {
     const normalized = subject.toLowerCase().trim();
-    if (normalized.includes('math')) return 'math';
-    if (normalized.includes('thinking')) return 'thinking-skills';
-    if (normalized.includes('reading')) return 'reading';
+    
+    // EXACT matches first (most specific) - map to static file names
+    if (normalized === 'math' || normalized === 'mathematics') {
+      return 'math';
+    }
+    if (normalized === 'mathematical reasoning') {
+      return 'math'; // Mathematical reasoning uses math files
+    }
+    if (normalized === 'reading' || normalized === 'reading comprehension') {
+      return 'reading';
+    }
+    if (normalized === 'thinking skills' || normalized === 'critical thinking') {
+      return 'thinking-skills';
+    }
+    if (normalized === 'english' || normalized === 'grammar' || normalized === 'literacy') {
+      return 'english';
+    }
+    
+    // Partial matches (be very specific to avoid conflicts)
+    if (normalized.includes('mathematical') && normalized.includes('reasoning')) {
+      return 'math';
+    }
+    if (normalized.includes('thinking') && normalized.includes('skills')) {
+      return 'thinking-skills';
+    }
+    if (normalized.includes('reading') && !normalized.includes('reasoning')) {
+      return 'reading';
+    }
+    if (normalized.includes('english') || normalized.includes('grammar')) {
+      return 'english';
+    }
+    if (normalized === 'math' || (normalized.includes('math') && !normalized.includes('reasoning'))) {
+      return 'math';
+    }
+    
+    // Default fallback
     return 'math';
   }
 

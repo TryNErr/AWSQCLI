@@ -1,0 +1,723 @@
+[
+  {
+    "_id": "build_thinking_9_hard_0",
+    "content": "In a group of 100 people, 70 like coffee, 60 like tea, and 40 like both. If someone is chosen at random and likes coffee, what is the probability they also like tea?",
+    "type": "multiple_choice",
+    "options": [
+      "4/7",
+      "2/5",
+      "3/5",
+      "1/2"
+    ],
+    "correctAnswer": "4/7",
+    "explanation": "P(tea|coffee) = P(both)/P(coffee) = (40/100)/(70/100) = 40/70 = 4/7",
+    "subject": "Mathematical Reasoning",
+    "topic": "complex logical reasoning",
+    "difficulty": "hard",
+    "grade": "9",
+    "tags": [
+      "thinking-skills",
+      "logic",
+      "hard",
+      "challenging",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "estimatedTime": 180,
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-10T02:54:24.114Z",
+    "fixedAt": "2025-08-11T11:40:13.022Z",
+    "fixedBy": "subject-categorization-fix",
+    "originalSubject": "Thinking Skills"
+  },
+  {
+    "_id": "build_thinking_9_hard_1",
+    "content": "In the sequence 1, 4, 9, 16, 25, 36, what is the 10th term?",
+    "type": "multiple_choice",
+    "options": [
+      "100",
+      "81",
+      "64",
+      "121"
+    ],
+    "correctAnswer": "100",
+    "explanation": "This is the sequence of perfect squares: n². The 10th term is 10² = 100",
+    "subject": "Thinking Skills",
+    "topic": "advanced pattern recognition",
+    "difficulty": "hard",
+    "grade": "9",
+    "tags": [
+      "thinking-skills",
+      "logic",
+      "hard",
+      "challenging",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "estimatedTime": 120,
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-10T02:54:24.114Z"
+  },
+  {
+    "_id": "build_thinking_9_hard_2",
+    "content": "All mathematicians are logical. Some logical people are creative. All creative people are innovative. Therefore:",
+    "type": "multiple_choice",
+    "options": [
+      "All mathematicians are innovative",
+      "Some mathematicians might be innovative",
+      "No mathematicians are creative",
+      "All innovative people are mathematicians"
+    ],
+    "correctAnswer": "Some mathematicians might be innovative",
+    "explanation": "We cannot conclude all mathematicians are innovative, but some might be through the logical→creative→innovative chain",
+    "subject": "Thinking Skills",
+    "topic": "complex syllogism",
+    "difficulty": "hard",
+    "grade": "9",
+    "tags": [
+      "thinking-skills",
+      "logic",
+      "hard",
+      "challenging",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "estimatedTime": 150,
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-10T02:54:24.114Z"
+  },
+  {
+    "_id": "build_thinking_9_hard_3",
+    "content": "A cube is painted red on all faces, then cut into 27 smaller cubes of equal size. How many small cubes have exactly 2 red faces?",
+    "type": "multiple_choice",
+    "options": [
+      "12",
+      "8",
+      "6",
+      "4"
+    ],
+    "correctAnswer": "12",
+    "explanation": "Cubes with exactly 2 red faces are on the edges but not corners. A 3×3×3 cube has 12 such edge cubes",
+    "subject": "Thinking Skills",
+    "topic": "spatial reasoning",
+    "difficulty": "hard",
+    "grade": "9",
+    "tags": [
+      "thinking-skills",
+      "logic",
+      "hard",
+      "challenging",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "estimatedTime": 200,
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-10T02:54:24.114Z"
+  },
+  {
+    "_id": "build_thinking_9_hard_4",
+    "content": "If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?",
+    "type": "multiple_choice",
+    "options": [
+      "5 minutes",
+      "100 minutes",
+      "20 minutes",
+      "1 minute"
+    ],
+    "correctAnswer": "5 minutes",
+    "explanation": "Each machine makes 1 widget in 5 minutes. 100 machines can make 100 widgets in the same 5 minutes",
+    "subject": "Thinking Skills",
+    "topic": "analytical reasoning",
+    "difficulty": "hard",
+    "grade": "9",
+    "tags": [
+      "thinking-skills",
+      "logic",
+      "hard",
+      "challenging",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "estimatedTime": 135,
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-10T02:54:24.114Z"
+  },
+  {
+    "_id": "build_thinking_9_hard_5",
+    "content": "In a certain code, MONDAY is written as NPOEBZ. How is FRIDAY written in the same code?",
+    "type": "multiple_choice",
+    "options": [
+      "GSJEBZ",
+      "GSJFBZ",
+      "GQJEBZ",
+      "GSJDAY"
+    ],
+    "correctAnswer": "GSJEBZ",
+    "explanation": "Each letter is shifted by +1 in the alphabet: F→G, R→S, I→J, D→E, A→B, Y→Z",
+    "subject": "Thinking Skills",
+    "topic": "logical deduction",
+    "difficulty": "hard",
+    "grade": "9",
+    "tags": [
+      "thinking-skills",
+      "logic",
+      "hard",
+      "challenging",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "estimatedTime": 165,
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-10T02:54:24.114Z"
+  },
+  {
+    "_id": "build_thinking_9_hard_6",
+    "content": "If x² - 5x + 6 = 0, and y² - 7y + 12 = 0, what is the maximum possible value of x + y?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "6",
+      "5",
+      "8"
+    ],
+    "correctAnswer": "7",
+    "explanation": "x² - 5x + 6 = 0 gives x = 2 or 3. y² - 7y + 12 = 0 gives y = 3 or 4. Maximum x + y = 3 + 4 = 7",
+    "subject": "Mathematical Reasoning",
+    "topic": "algebra",
+    "difficulty": "hard",
+    "grade": "9",
+    "tags": [
+      "thinking-skills",
+      "logic",
+      "hard",
+      "challenging",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "estimatedTime": 210,
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-10T02:54:24.114Z",
+    "fixedAt": "2025-08-11T11:40:13.022Z",
+    "fixedBy": "subject-categorization-fix",
+    "originalSubject": "Thinking Skills"
+  },
+  {
+    "_id": "build_thinking_9_hard_7",
+    "content": "A bag contains 3 red balls, 4 blue balls, and 5 green balls. If 3 balls are drawn without replacement, what is the probability that all 3 are different colors?",
+    "type": "multiple_choice",
+    "options": [
+      "60/220",
+      "1/4",
+      "3/11",
+      "5/22"
+    ],
+    "correctAnswer": "60/220",
+    "explanation": "P = (3×4×5)/(12×11×10) × 3! = 60/1320 × 6 = 360/1320 = 60/220",
+    "subject": "Mathematical Reasoning",
+    "topic": "probability",
+    "difficulty": "hard",
+    "grade": "9",
+    "tags": [
+      "thinking-skills",
+      "logic",
+      "hard",
+      "challenging",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "estimatedTime": 240,
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-10T02:54:24.114Z",
+    "fixedAt": "2025-08-11T11:40:13.022Z",
+    "fixedBy": "subject-categorization-fix",
+    "originalSubject": "Thinking Skills"
+  },
+  {
+    "_id": "build_thinking_9_hard_8",
+    "content": "In a certain pattern: ★ = +5, ☆ = ×2, ◇ = -3. What is the result of applying ★☆◇ to the number 4?",
+    "type": "multiple_choice",
+    "options": [
+      "15",
+      "12",
+      "18",
+      "21"
+    ],
+    "correctAnswer": "15",
+    "explanation": "Apply operations left to right: 4 + 5 = 9, then 9 × 2 = 18, then 18 - 3 = 15",
+    "subject": "Thinking Skills",
+    "topic": "abstract reasoning",
+    "difficulty": "hard",
+    "grade": "9",
+    "tags": [
+      "thinking-skills",
+      "logic",
+      "hard",
+      "challenging",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "estimatedTime": 120,
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-10T02:54:24.114Z"
+  },
+  {
+    "_id": "build_thinking_9_hard_9",
+    "content": "A study shows that students who eat breakfast score higher on tests. Which conclusion is most valid?",
+    "type": "multiple_choice",
+    "options": [
+      "Eating breakfast causes better test scores",
+      "Students should be required to eat breakfast",
+      "There is a correlation between breakfast and test scores",
+      "Breakfast is the most important meal"
+    ],
+    "correctAnswer": "There is a correlation between breakfast and test scores",
+    "explanation": "Correlation does not imply causation. The study shows a relationship but not necessarily that breakfast causes better scores",
+    "subject": "Thinking Skills",
+    "topic": "critical thinking",
+    "difficulty": "hard",
+    "grade": "9",
+    "tags": [
+      "thinking-skills",
+      "logic",
+      "hard",
+      "challenging",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "estimatedTime": 120,
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-10T02:54:24.114Z"
+  },
+  {
+    "_id": "build_thinking_9_hard_10",
+    "content": "In a group of 100 people, 70 like coffee, 60 like tea, and 40 like both. If someone is chosen at random and likes coffee, what is the probability they also like tea?",
+    "type": "multiple_choice",
+    "options": [
+      "4/7",
+      "2/5",
+      "3/5",
+      "1/2"
+    ],
+    "correctAnswer": "4/7",
+    "explanation": "P(tea|coffee) = P(both)/P(coffee) = (40/100)/(70/100) = 40/70 = 4/7",
+    "subject": "Mathematical Reasoning",
+    "topic": "complex logical reasoning",
+    "difficulty": "hard",
+    "grade": "9",
+    "tags": [
+      "thinking-skills",
+      "logic",
+      "hard",
+      "challenging",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "estimatedTime": 180,
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-10T02:54:24.114Z",
+    "fixedAt": "2025-08-11T11:40:13.022Z",
+    "fixedBy": "subject-categorization-fix",
+    "originalSubject": "Thinking Skills"
+  },
+  {
+    "_id": "build_thinking_9_hard_11",
+    "content": "In the sequence 1, 4, 9, 16, 25, 36, what is the 10th term?",
+    "type": "multiple_choice",
+    "options": [
+      "100",
+      "81",
+      "64",
+      "121"
+    ],
+    "correctAnswer": "100",
+    "explanation": "This is the sequence of perfect squares: n². The 10th term is 10² = 100",
+    "subject": "Thinking Skills",
+    "topic": "advanced pattern recognition",
+    "difficulty": "hard",
+    "grade": "9",
+    "tags": [
+      "thinking-skills",
+      "logic",
+      "hard",
+      "challenging",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "estimatedTime": 120,
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-10T02:54:24.114Z"
+  },
+  {
+    "_id": "build_thinking_9_hard_12",
+    "content": "All mathematicians are logical. Some logical people are creative. All creative people are innovative. Therefore:",
+    "type": "multiple_choice",
+    "options": [
+      "All mathematicians are innovative",
+      "Some mathematicians might be innovative",
+      "No mathematicians are creative",
+      "All innovative people are mathematicians"
+    ],
+    "correctAnswer": "Some mathematicians might be innovative",
+    "explanation": "We cannot conclude all mathematicians are innovative, but some might be through the logical→creative→innovative chain",
+    "subject": "Thinking Skills",
+    "topic": "complex syllogism",
+    "difficulty": "hard",
+    "grade": "9",
+    "tags": [
+      "thinking-skills",
+      "logic",
+      "hard",
+      "challenging",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "estimatedTime": 150,
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-10T02:54:24.114Z"
+  },
+  {
+    "_id": "build_thinking_9_hard_13",
+    "content": "A cube is painted red on all faces, then cut into 27 smaller cubes of equal size. How many small cubes have exactly 2 red faces?",
+    "type": "multiple_choice",
+    "options": [
+      "12",
+      "8",
+      "6",
+      "4"
+    ],
+    "correctAnswer": "12",
+    "explanation": "Cubes with exactly 2 red faces are on the edges but not corners. A 3×3×3 cube has 12 such edge cubes",
+    "subject": "Thinking Skills",
+    "topic": "spatial reasoning",
+    "difficulty": "hard",
+    "grade": "9",
+    "tags": [
+      "thinking-skills",
+      "logic",
+      "hard",
+      "challenging",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "estimatedTime": 200,
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-10T02:54:24.114Z"
+  },
+  {
+    "_id": "build_thinking_9_hard_14",
+    "content": "If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?",
+    "type": "multiple_choice",
+    "options": [
+      "5 minutes",
+      "100 minutes",
+      "20 minutes",
+      "1 minute"
+    ],
+    "correctAnswer": "5 minutes",
+    "explanation": "Each machine makes 1 widget in 5 minutes. 100 machines can make 100 widgets in the same 5 minutes",
+    "subject": "Thinking Skills",
+    "topic": "analytical reasoning",
+    "difficulty": "hard",
+    "grade": "9",
+    "tags": [
+      "thinking-skills",
+      "logic",
+      "hard",
+      "challenging",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "estimatedTime": 135,
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-10T02:54:24.114Z"
+  },
+  {
+    "_id": "build_thinking_9_hard_15",
+    "content": "In a certain code, MONDAY is written as NPOEBZ. How is FRIDAY written in the same code?",
+    "type": "multiple_choice",
+    "options": [
+      "GSJEBZ",
+      "GSJFBZ",
+      "GQJEBZ",
+      "GSJDAY"
+    ],
+    "correctAnswer": "GSJEBZ",
+    "explanation": "Each letter is shifted by +1 in the alphabet: F→G, R→S, I→J, D→E, A→B, Y→Z",
+    "subject": "Thinking Skills",
+    "topic": "logical deduction",
+    "difficulty": "hard",
+    "grade": "9",
+    "tags": [
+      "thinking-skills",
+      "logic",
+      "hard",
+      "challenging",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "estimatedTime": 165,
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-10T02:54:24.114Z"
+  },
+  {
+    "_id": "build_thinking_9_hard_16",
+    "content": "If x² - 5x + 6 = 0, and y² - 7y + 12 = 0, what is the maximum possible value of x + y?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "6",
+      "5",
+      "8"
+    ],
+    "correctAnswer": "7",
+    "explanation": "x² - 5x + 6 = 0 gives x = 2 or 3. y² - 7y + 12 = 0 gives y = 3 or 4. Maximum x + y = 3 + 4 = 7",
+    "subject": "Mathematical Reasoning",
+    "topic": "algebra",
+    "difficulty": "hard",
+    "grade": "9",
+    "tags": [
+      "thinking-skills",
+      "logic",
+      "hard",
+      "challenging",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "estimatedTime": 210,
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-10T02:54:24.114Z",
+    "fixedAt": "2025-08-11T11:40:13.022Z",
+    "fixedBy": "subject-categorization-fix",
+    "originalSubject": "Thinking Skills"
+  },
+  {
+    "_id": "build_thinking_9_hard_17",
+    "content": "A bag contains 3 red balls, 4 blue balls, and 5 green balls. If 3 balls are drawn without replacement, what is the probability that all 3 are different colors?",
+    "type": "multiple_choice",
+    "options": [
+      "60/220",
+      "1/4",
+      "3/11",
+      "5/22"
+    ],
+    "correctAnswer": "60/220",
+    "explanation": "P = (3×4×5)/(12×11×10) × 3! = 60/1320 × 6 = 360/1320 = 60/220",
+    "subject": "Mathematical Reasoning",
+    "topic": "probability",
+    "difficulty": "hard",
+    "grade": "9",
+    "tags": [
+      "thinking-skills",
+      "logic",
+      "hard",
+      "challenging",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "estimatedTime": 240,
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-10T02:54:24.114Z",
+    "fixedAt": "2025-08-11T11:40:13.022Z",
+    "fixedBy": "subject-categorization-fix",
+    "originalSubject": "Thinking Skills"
+  },
+  {
+    "_id": "build_thinking_9_hard_18",
+    "content": "In a certain pattern: ★ = +5, ☆ = ×2, ◇ = -3. What is the result of applying ★☆◇ to the number 4?",
+    "type": "multiple_choice",
+    "options": [
+      "15",
+      "12",
+      "18",
+      "21"
+    ],
+    "correctAnswer": "15",
+    "explanation": "Apply operations left to right: 4 + 5 = 9, then 9 × 2 = 18, then 18 - 3 = 15",
+    "subject": "Thinking Skills",
+    "topic": "abstract reasoning",
+    "difficulty": "hard",
+    "grade": "9",
+    "tags": [
+      "thinking-skills",
+      "logic",
+      "hard",
+      "challenging",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "estimatedTime": 120,
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-10T02:54:24.114Z"
+  },
+  {
+    "_id": "build_thinking_9_hard_19",
+    "content": "A study shows that students who eat breakfast score higher on tests. Which conclusion is most valid?",
+    "type": "multiple_choice",
+    "options": [
+      "Eating breakfast causes better test scores",
+      "Students should be required to eat breakfast",
+      "There is a correlation between breakfast and test scores",
+      "Breakfast is the most important meal"
+    ],
+    "correctAnswer": "There is a correlation between breakfast and test scores",
+    "explanation": "Correlation does not imply causation. The study shows a relationship but not necessarily that breakfast causes better scores",
+    "subject": "Thinking Skills",
+    "topic": "critical thinking",
+    "difficulty": "hard",
+    "grade": "9",
+    "tags": [
+      "thinking-skills",
+      "logic",
+      "hard",
+      "challenging",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "estimatedTime": 120,
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-10T02:54:24.114Z"
+  },
+  {
+    "_id": "build_thinking_9_hard_20",
+    "content": "In a group of 100 people, 70 like coffee, 60 like tea, and 40 like both. If someone is chosen at random and likes coffee, what is the probability they also like tea?",
+    "type": "multiple_choice",
+    "options": [
+      "4/7",
+      "2/5",
+      "3/5",
+      "1/2"
+    ],
+    "correctAnswer": "4/7",
+    "explanation": "P(tea|coffee) = P(both)/P(coffee) = (40/100)/(70/100) = 40/70 = 4/7",
+    "subject": "Mathematical Reasoning",
+    "topic": "complex logical reasoning",
+    "difficulty": "hard",
+    "grade": "9",
+    "tags": [
+      "thinking-skills",
+      "logic",
+      "hard",
+      "challenging",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "estimatedTime": 180,
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-10T02:54:24.114Z",
+    "fixedAt": "2025-08-11T11:40:13.022Z",
+    "fixedBy": "subject-categorization-fix",
+    "originalSubject": "Thinking Skills"
+  },
+  {
+    "_id": "build_thinking_9_hard_21",
+    "content": "In the sequence 1, 4, 9, 16, 25, 36, what is the 10th term?",
+    "type": "multiple_choice",
+    "options": [
+      "100",
+      "81",
+      "64",
+      "121"
+    ],
+    "correctAnswer": "100",
+    "explanation": "This is the sequence of perfect squares: n². The 10th term is 10² = 100",
+    "subject": "Thinking Skills",
+    "topic": "advanced pattern recognition",
+    "difficulty": "hard",
+    "grade": "9",
+    "tags": [
+      "thinking-skills",
+      "logic",
+      "hard",
+      "challenging",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "estimatedTime": 120,
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-10T02:54:24.114Z"
+  },
+  {
+    "_id": "build_thinking_9_hard_22",
+    "content": "All mathematicians are logical. Some logical people are creative. All creative people are innovative. Therefore:",
+    "type": "multiple_choice",
+    "options": [
+      "All mathematicians are innovative",
+      "Some mathematicians might be innovative",
+      "No mathematicians are creative",
+      "All innovative people are mathematicians"
+    ],
+    "correctAnswer": "Some mathematicians might be innovative",
+    "explanation": "We cannot conclude all mathematicians are innovative, but some might be through the logical→creative→innovative chain",
+    "subject": "Thinking Skills",
+    "topic": "complex syllogism",
+    "difficulty": "hard",
+    "grade": "9",
+    "tags": [
+      "thinking-skills",
+      "logic",
+      "hard",
+      "challenging",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "estimatedTime": 150,
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-10T02:54:24.114Z"
+  },
+  {
+    "_id": "build_thinking_9_hard_23",
+    "content": "A cube is painted red on all faces, then cut into 27 smaller cubes of equal size. How many small cubes have exactly 2 red faces?",
+    "type": "multiple_choice",
+    "options": [
+      "12",
+      "8",
+      "6",
+      "4"
+    ],
+    "correctAnswer": "12",
+    "explanation": "Cubes with exactly 2 red faces are on the edges but not corners. A 3×3×3 cube has 12 such edge cubes",
+    "subject": "Thinking Skills",
+    "topic": "spatial reasoning",
+    "difficulty": "hard",
+    "grade": "9",
+    "tags": [
+      "thinking-skills",
+      "logic",
+      "hard",
+      "challenging",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "estimatedTime": 200,
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-10T02:54:24.114Z"
+  },
+  {
+    "_id": "build_thinking_9_hard_24",
+    "content": "If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?",
+    "type": "multiple_choice",
+    "options": [
+      "5 minutes",
+      "100 minutes",
+      "20 minutes",
+      "1 minute"
+    ],
+    "correctAnswer": "5 minutes",
+    "explanation": "Each machine makes 1 widget in 5 minutes. 100 machines can make 100 widgets in the same 5 minutes",
+    "subject": "Thinking Skills",
+    "topic": "analytical reasoning",
+    "difficulty": "hard",
+    "grade": "9",
+    "tags": [
+      "thinking-skills",
+      "logic",
+      "hard",
+      "challenging",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "estimatedTime": 135,
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-10T02:54:24.114Z"
+  }
+]

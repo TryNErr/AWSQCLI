@@ -200,7 +200,7 @@ export class BulletproofPracticeSystem {
   ): Question[] {
     return questions.filter(question => {
       // Grade must match EXACTLY
-      const gradeMatch = question.grade === grade;
+      const gradeMatch = question.grade === grade || String(question.grade) === String(grade);
       if (!gradeMatch) return false;
       
       // Difficulty must match EXACTLY
@@ -209,8 +209,14 @@ export class BulletproofPracticeSystem {
       
       // Subject must match EXACTLY (if specified)
       if (subject) {
-        const subjectMatch = this.normalizeSubject(question.subject) === this.normalizeSubject(subject);
-        if (!subjectMatch) return false;
+        const normalizedQuestionSubject = this.normalizeSubject(question.subject);
+        const normalizedFilterSubject = this.normalizeSubject(subject);
+        const subjectMatch = normalizedQuestionSubject === normalizedFilterSubject;
+        
+        if (!subjectMatch) {
+          console.log(`🚫 Subject mismatch: "${question.subject}" vs "${subject}" (normalized: "${normalizedQuestionSubject}" vs "${normalizedFilterSubject}")`);
+          return false;
+        }
       }
       
       // Question must be valid
@@ -219,6 +225,10 @@ export class BulletproofPracticeSystem {
                      question.options.length >= 2 && 
                      question.correctAnswer &&
                      question.options.includes(question.correctAnswer);
+      
+      if (!isValid) {
+        console.log(`⚠️ Invalid question: ${question._id}`);
+      }
       
       return isValid;
     });
@@ -494,15 +504,46 @@ export class BulletproofPracticeSystem {
   /**
    * Normalize subject names for consistent matching
    */
+  /**
+   * Normalize subject names for consistent matching
+   * IMPROVED VERSION - handles all edge cases
+   */
   private static normalizeSubject(subject: string): string {
     const normalized = subject.toLowerCase().trim();
     
-    // Handle common variations
-    if (normalized.includes('math')) return 'math';
-    if (normalized.includes('english')) return 'english';
-    if (normalized.includes('reading')) return 'reading';
-    if (normalized.includes('thinking')) return 'thinking skills';
-    if (normalized.includes('reasoning')) return 'mathematical reasoning';
+    // EXACT matches first (most specific)
+    if (normalized === 'math' || normalized === 'mathematics') {
+      return 'mathematical reasoning';
+    }
+    if (normalized === 'mathematical reasoning') {
+      return 'mathematical reasoning';
+    }
+    if (normalized === 'reading' || normalized === 'reading comprehension') {
+      return 'reading';
+    }
+    if (normalized === 'thinking skills' || normalized === 'critical thinking') {
+      return 'thinking skills';
+    }
+    if (normalized === 'english' || normalized === 'grammar' || normalized === 'literacy') {
+      return 'english';
+    }
+    
+    // Partial matches (be very specific to avoid conflicts)
+    if (normalized.includes('mathematical') && normalized.includes('reasoning')) {
+      return 'mathematical reasoning';
+    }
+    if (normalized.includes('thinking') && normalized.includes('skills')) {
+      return 'thinking skills';
+    }
+    if (normalized.includes('reading') && !normalized.includes('reasoning')) {
+      return 'reading';
+    }
+    if (normalized.includes('english') || normalized.includes('grammar')) {
+      return 'english';
+    }
+    if (normalized === 'math' || (normalized.includes('math') && !normalized.includes('reasoning'))) {
+      return 'mathematical reasoning';
+    }
     
     return normalized;
   }

@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+// Updated: 2025-08-11 - Added 5 practice options including Timed Test and Daily Challenge
 import {
   Container,
   Typography,
@@ -21,9 +22,11 @@ import {
   FlashOn,
   RocketLaunch,
   LocalFireDepartment,
+  Timer,
 } from '@mui/icons-material';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../../contexts/AuthContext';
+import PracticeOptionsTest from '../../components/PracticeOptionsTest';
 
 const Practice: React.FC = () => {
   const navigate = useNavigate();
@@ -54,18 +57,46 @@ const Practice: React.FC = () => {
       emoji: '📚'
     },
     {
+      title: 'Timed Test',
+      description: 'Challenge yourself with time-limited practice sessions',
+      icon: <Timer />,
+      gradient: 'linear-gradient(135deg, #ef4444 0%, #dc2626 100%)',
+      path: '/timed-test',
+      features: ['Time Pressure', 'Exam Simulation', 'Performance Metrics'],
+      emoji: '⏱️'
+    },
+    {
+      title: 'Daily Challenge',
+      description: 'Complete daily challenges to maintain your streak',
+      icon: <EmojiEvents />,
+      gradient: 'linear-gradient(135deg, #f59e0b 0%, #f97316 100%)',
+      path: '/practice/daily-challenge',
+      features: ['Daily Rewards', 'Streak Building', 'Special Challenges'],
+      emoji: '🏆'
+    },
+    {
       title: 'Question History',
       description: 'Review your past performance and track improvement',
       icon: <TrendingUp />,
-      gradient: 'linear-gradient(135deg, #f59e0b 0%, #f97316 100%)',
+      gradient: 'linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%)',
       path: '/practice/history',
       features: ['Performance Analytics', 'Progress Insights', 'Improvement Tips'],
       emoji: '📊'
     }
   ];
 
+  // Debug logging to help identify the issue
+  console.log('🎯 Practice Options Debug:', {
+    optionsCount: practiceOptions.length,
+    optionTitles: practiceOptions.map(opt => opt.title),
+    timestamp: new Date().toISOString()
+  });
+
   return (
     <Container maxWidth="xl">
+      {/* Temporary debug component - remove after testing */}
+      <PracticeOptionsTest />
+      
       <Box sx={{ py: 2 }}>
         {/* Hero Header */}
         <Paper 
@@ -180,7 +211,7 @@ const Practice: React.FC = () => {
         {/* Practice Options */}
         <Grid container spacing={3} sx={{ mb: 4 }}>
           {practiceOptions.map((option: any, index: number) => (
-            <Grid item xs={12} md={4} key={index}>
+            <Grid item xs={12} sm={6} md={4} lg={2.4} key={index}>
               <Card
                 sx={{
                   height: '100%',
