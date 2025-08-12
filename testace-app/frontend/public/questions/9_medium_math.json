@@ -1,322 +1,322 @@
 [
   {
     "_id": "grade9_medium_math_001",
-    "content": "What is 1 × 1?",
+    "content": "Solve for x: 2x + 5 = 17",
     "type": "multiple_choice",
     "options": [
-      "0",
-      "1",
-      "2",
-      "2"
+      "x = 4",
+      "x = 6",
+      "x = 8",
+      "x = 11"
     ],
-    "correctAnswer": "1",
+    "correctAnswer": "x = 6",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "1 × 1 = 1"
+    "explanation": "2x + 5 = 17. Subtract 5: 2x = 12. Divide by 2: x = 6."
   },
   {
     "_id": "grade9_medium_math_002",
-    "content": "What is 2 × 1?",
+    "content": "Expand: (x + 3)(x + 4)",
     "type": "multiple_choice",
     "options": [
-      "1",
-      "2",
-      "3",
-      "3"
+      "x² + 7x + 12",
+      "x² + 12x + 7",
+      "x² + 6x + 12",
+      "x² + 7x + 7"
     ],
-    "correctAnswer": "2",
+    "correctAnswer": "x² + 7x + 12",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "2 × 1 = 2"
+    "explanation": "(x + 3)(x + 4) = x² + 4x + 3x + 12 = x² + 7x + 12."
   },
   {
     "_id": "grade9_medium_math_003",
-    "content": "What is 2 × 1?",
+    "content": "Factorize: x² - 9",
     "type": "multiple_choice",
     "options": [
-      "1",
-      "2",
-      "3",
-      "3"
+      "(x - 3)²",
+      "(x + 3)²",
+      "(x - 3)(x + 3)",
+      "x(x - 9)"
     ],
-    "correctAnswer": "2",
+    "correctAnswer": "(x - 3)(x + 3)",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "2 × 1 = 2"
+    "explanation": "x² - 9 is a difference of squares: x² - 3² = (x - 3)(x + 3)."
   },
   {
     "_id": "grade9_medium_math_004",
-    "content": "What is 15 × 1?",
+    "content": "If y = 3x - 2, what is y when x = 5?",
     "type": "multiple_choice",
     "options": [
-      "14",
+      "11",
+      "13",
       "15",
-      "16",
-      "16"
+      "17"
     ],
-    "correctAnswer": "15",
+    "correctAnswer": "13",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "15 × 1 = 15"
+    "explanation": "Substitute x = 5: y = 3(5) - 2 = 15 - 2 = 13."
   },
   {
     "_id": "grade9_medium_math_005",
-    "content": "What is 2 × 1?",
+    "content": "Solve the simultaneous equations: x + y = 8 and x - y = 2",
     "type": "multiple_choice",
     "options": [
-      "1",
-      "2",
-      "3",
-      "3"
+      "x = 4, y = 4",
+      "x = 5, y = 3",
+      "x = 6, y = 2",
+      "x = 3, y = 5"
     ],
-    "correctAnswer": "2",
+    "correctAnswer": "x = 5, y = 3",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "2 × 1 = 2"
+    "explanation": "Add equations: 2x = 10, so x = 5. Substitute: 5 + y = 8, so y = 3."
   },
   {
     "_id": "grade9_medium_math_006",
-    "content": "What is 5 × 1?",
+    "content": "What is the gradient of the line passing through (2, 5) and (4, 11)?",
     "type": "multiple_choice",
     "options": [
+      "2",
+      "3",
       "4",
-      "5",
-      "6",
       "6"
     ],
-    "correctAnswer": "5",
+    "correctAnswer": "3",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "5 × 1 = 5"
+    "explanation": "Gradient = (y₂ - y₁)/(x₂ - x₁) = (11 - 5)/(4 - 2) = 6/2 = 3."
   },
   {
     "_id": "grade9_medium_math_007",
-    "content": "What is 30 × 1?",
+    "content": "A circle has radius 6 cm. What is its area? (Use π ≈ 3.14)",
     "type": "multiple_choice",
     "options": [
-      "29",
-      "30",
-      "31",
-      "31"
+      "37.68 cm²",
+      "113.04 cm²",
+      "226.08 cm²",
+      "452.16 cm²"
     ],
-    "correctAnswer": "30",
+    "correctAnswer": "113.04 cm²",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "30 × 1 = 30"
+    "explanation": "Area = πr² = 3.14 × 6² = 3.14 × 36 = 113.04 cm²."
   },
   {
     "_id": "grade9_medium_math_008",
-    "content": "What is 1 × 1?",
+    "content": "Solve: 3x - 7 = 2x + 5",
     "type": "multiple_choice",
     "options": [
-      "0",
-      "1",
-      "2",
-      "2"
+      "x = 10",
+      "x = 12",
+      "x = 14",
+      "x = 16"
     ],
-    "correctAnswer": "1",
+    "correctAnswer": "x = 12",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "1 × 1 = 1"
+    "explanation": "3x - 7 = 2x + 5. Subtract 2x: x - 7 = 5. Add 7: x = 12."
   },
   {
     "_id": "grade9_medium_math_009",
-    "content": "What is 3 × 2?",
+    "content": "What is the area of a triangle with base 8 cm and height 6 cm?",
     "type": "multiple_choice",
     "options": [
-      "5",
-      "6",
-      "7",
-      "5"
+      "14 cm²",
+      "24 cm²",
+      "28 cm²",
+      "48 cm²"
     ],
-    "correctAnswer": "6",
+    "correctAnswer": "24 cm²",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "3 × 2 = 6"
+    "explanation": "Area = ½ × base × height = ½ × 8 × 6 = 24 cm²."
   },
   {
     "_id": "grade9_medium_math_010",
-    "content": "What is 4 × 2?",
+    "content": "If 2ˣ = 16, what is x?",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "8",
-      "9",
-      "6"
+      "3",
+      "4",
+      "5",
+      "8"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "4",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "4 × 2 = 8"
+    "explanation": "2⁴ = 16, so x = 4."
   },
   {
     "_id": "grade9_medium_math_011",
-    "content": "What is 4 × 2?",
+    "content": "Simplify: 3x + 2x - 5x",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "8",
-      "9",
-      "6"
+      "0",
+      "x",
+      "10x",
+      "-x"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "0",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "4 × 2 = 8"
+    "explanation": "3x + 2x - 5x = (3 + 2 - 5)x = 0x = 0."
   },
   {
     "_id": "grade9_medium_math_012",
-    "content": "What is 17 × 2?",
+    "content": "What is the circumference of a circle with diameter 10 cm? (Use π ≈ 3.14)",
     "type": "multiple_choice",
     "options": [
-      "33",
-      "34",
-      "35",
-      "19"
+      "15.7 cm",
+      "31.4 cm",
+      "62.8 cm",
+      "314 cm"
     ],
-    "correctAnswer": "34",
+    "correctAnswer": "31.4 cm",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "17 × 2 = 34"
+    "explanation": "Circumference = πd = 3.14 × 10 = 31.4 cm."
   },
   {
     "_id": "grade9_medium_math_013",
-    "content": "What is 4 × 2?",
+    "content": "Solve for y: 4y + 3 = 19",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "8",
-      "9",
-      "6"
+      "y = 3",
+      "y = 4",
+      "y = 5",
+      "y = 6"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "y = 4",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "4 × 2 = 8"
+    "explanation": "4y + 3 = 19. Subtract 3: 4y = 16. Divide by 4: y = 4."
   },
   {
     "_id": "grade9_medium_math_014",
-    "content": "What is 7 × 2?",
+    "content": "What is the volume of a cube with side length 4 cm?",
     "type": "multiple_choice",
     "options": [
-      "13",
-      "14",
-      "15",
-      "9"
+      "16 cm³",
+      "48 cm³",
+      "64 cm³",
+      "256 cm³"
     ],
-    "correctAnswer": "14",
+    "correctAnswer": "64 cm³",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "7 × 2 = 14"
+    "explanation": "Volume = side³ = 4³ = 64 cm³."
   },
   {
     "_id": "grade9_medium_math_015",
-    "content": "What is 32 × 2?",
-    "type": "multiple_choice",
-    "options": [
-      "63",
-      "64",
-      "65",
-      "34"
-    ],
-    "correctAnswer": "64",
-    "subject": "Mathematics",
-    "grade": 9,
-    "difficulty": "medium",
-    "explanation": "32 × 2 = 64"
-  },
-  {
-    "_id": "grade9_medium_math_016",
-    "content": "What is 3 × 2?",
+    "content": "If f(x) = 2x + 1, what is f(3)?",
     "type": "multiple_choice",
     "options": [
       "5",
       "6",
       "7",
-      "5"
+      "8"
     ],
-    "correctAnswer": "6",
+    "correctAnswer": "7",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "3 × 2 = 6"
+    "explanation": "f(3) = 2(3) + 1 = 6 + 1 = 7."
+  },
+  {
+    "_id": "grade9_medium_math_016",
+    "content": "What is the mean of: 12, 16, 20, 24?",
+    "type": "multiple_choice",
+    "options": [
+      "16",
+      "17",
+      "18",
+      "19"
+    ],
+    "correctAnswer": "18",
+    "subject": "Mathematics",
+    "grade": 9,
+    "difficulty": "medium",
+    "explanation": "Mean = (12 + 16 + 20 + 24) ÷ 4 = 72 ÷ 4 = 18."
   },
   {
     "_id": "grade9_medium_math_017",
-    "content": "What is 5 × 3?",
+    "content": "Solve: x² = 25",
     "type": "multiple_choice",
     "options": [
-      "14",
-      "15",
-      "16",
-      "8"
+      "x = 5",
+      "x = ±5",
+      "x = 25",
+      "x = ±25"
     ],
-    "correctAnswer": "15",
+    "correctAnswer": "x = ±5",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "5 × 3 = 15"
+    "explanation": "x² = 25, so x = ±√25 = ±5."
   },
   {
     "_id": "grade9_medium_math_018",
-    "content": "What is 6 × 3?",
+    "content": "What is 30% of 150?",
     "type": "multiple_choice",
     "options": [
-      "17",
-      "18",
-      "19",
-      "9"
+      "35",
+      "40",
+      "45",
+      "50"
     ],
-    "correctAnswer": "18",
+    "correctAnswer": "45",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "6 × 3 = 18"
+    "explanation": "30% of 150 = 0.30 × 150 = 45."
   },
   {
     "_id": "grade9_medium_math_019",
-    "content": "What is 6 × 3?",
+    "content": "A rectangle has length 12 cm and width 8 cm. What is its perimeter?",
     "type": "multiple_choice",
     "options": [
-      "17",
-      "18",
-      "19",
-      "9"
+      "20 cm",
+      "40 cm",
+      "96 cm",
+      "192 cm"
     ],
-    "correctAnswer": "18",
+    "correctAnswer": "40 cm",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "6 × 3 = 18"
+    "explanation": "Perimeter = 2(length + width) = 2(12 + 8) = 2(20) = 40 cm."
   },
   {
     "_id": "grade9_medium_math_020",
-    "content": "What is 19 × 3?",
+    "content": "If log₂(x) = 3, what is x?",
     "type": "multiple_choice",
     "options": [
-      "56",
-      "57",
-      "58",
-      "22"
+      "6",
+      "8",
+      "9",
+      "16"
     ],
-    "correctAnswer": "57",
+    "correctAnswer": "8",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "19 × 3 = 57"
+    "explanation": "log₂(x) = 3 means 2³ = x, so x = 8."
   }
 ]
