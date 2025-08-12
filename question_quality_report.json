@@ -1,0 +1,37 @@
+{
+  "timestamp": "2025-08-12T00:32:15.772Z",
+  "totalFiles": 145,
+  "gradeDistribution": {
+    "1": 12,
+    "2": 12,
+    "3": 12,
+    "4": 12,
+    "5": 12,
+    "6": 12,
+    "7": 12,
+    "8": 12,
+    "9": 13,
+    "10": 12,
+    "11": 12,
+    "12": 12
+  },
+  "difficultyDistribution": {
+    "easy": 48,
+    "hard": 49,
+    "medium": 48
+  },
+  "subjectDistribution": {
+    "english": 36,
+    "math": 37,
+    "reading": 36,
+    "thinking-skills": 36
+  },
+  "qualityIssues": [],
+  "recommendations": [
+    "Implement automated quality checks for new questions",
+    "Create grade-specific question templates",
+    "Add peer review process for question creation",
+    "Implement difficulty validation algorithms",
+    "Create subject matter expert review workflows"
+  ]
+}

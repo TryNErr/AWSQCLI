@@ -1,0 +1,179 @@
+{
+  "totalFiles": 145,
+  "totalQuestions": 2414,
+  "qualityIssues": [
+    {
+      "type": "missing_explanation",
+      "file": "1_easy_math.json",
+      "questionIndex": 15,
+      "content": "What is 3 + 4?...",
+      "severity": "low"
+    },
+    {
+      "type": "missing_explanation",
+      "file": "2_easy_math.json",
+      "questionIndex": 18,
+      "content": "What is 4 + 3?...",
+      "severity": "low"
+    },
+    {
+      "type": "missing_explanation",
+      "file": "3_hard_math.json",
+      "questionIndex": 4,
+      "content": "What is 8 × 1?...",
+      "severity": "low"
+    },
+    {
+      "type": "missing_explanation",
+      "file": "3_hard_math.json",
+      "questionIndex": 8,
+      "content": "What is 2 × 3?...",
+      "severity": "low"
+    },
+    {
+      "type": "missing_explanation",
+      "file": "3_hard_math.json",
+      "questionIndex": 18,
+      "content": "What is 7 × 1?...",
+      "severity": "low"
+    },
+    {
+      "type": "missing_explanation",
+      "file": "3_hard_math.json",
+      "questionIndex": 19,
+      "content": "What is 5 × 1?...",
+      "severity": "low"
+    },
+    {
+      "type": "missing_explanation",
+      "file": "3_medium_math.json",
+      "questionIndex": 2,
+      "content": "What is 2 × 2?...",
+      "severity": "low"
+    },
+    {
+      "type": "missing_explanation",
+      "file": "3_medium_math.json",
+      "questionIndex": 5,
+      "content": "What is 5 × 1?...",
+      "severity": "low"
+    },
+    {
+      "type": "missing_explanation",
+      "file": "3_medium_math.json",
+      "questionIndex": 12,
+      "content": "What is 7 × 1?...",
+      "severity": "low"
+    },
+    {
+      "type": "missing_explanation",
+      "file": "3_medium_math.json",
+      "questionIndex": 13,
+      "content": "What is 1 × 9?...",
+      "severity": "low"
+    },
+    {
+      "type": "missing_explanation",
+      "file": "3_medium_math.json",
+      "questionIndex": 15,
+      "content": "What is 6 × 1?...",
+      "severity": "low"
+    },
+    {
+      "type": "missing_explanation",
+      "file": "3_medium_math.json",
+      "questionIndex": 16,
+      "content": "What is 2 × 4?...",
+      "severity": "low"
+    },
+    {
+      "type": "missing_explanation",
+      "file": "3_medium_math.json",
+      "questionIndex": 19,
+      "content": "What is 4 × 2?...",
+      "severity": "low"
+    },
+    {
+      "type": "missing_explanation",
+      "file": "4_hard_math.json",
+      "questionIndex": 7,
+      "content": "What is 9 × 1?...",
+      "severity": "low"
+    },
+    {
+      "type": "missing_explanation",
+      "file": "4_hard_math.json",
+      "questionIndex": 8,
+      "content": "What is 4 × 1?...",
+      "severity": "low"
+    },
+    {
+      "type": "missing_explanation",
+      "file": "4_hard_math.json",
+      "questionIndex": 12,
+      "content": "What is 2 × 3?...",
+      "severity": "low"
+    },
+    {
+      "type": "missing_explanation",
+      "file": "4_hard_math.json",
+      "questionIndex": 13,
+      "content": "What is 8 × 1?...",
+      "severity": "low"
+    },
+    {
+      "type": "missing_explanation",
+      "file": "4_medium_math.json",
+      "questionIndex": 0,
+      "content": "What is 1 × 2?...",
+      "severity": "low"
+    },
+    {
+      "type": "missing_explanation",
+      "file": "4_medium_math.json",
+      "questionIndex": 12,
+      "content": "What is 1 × 1?...",
+      "severity": "low"
+    },
+    {
+      "type": "missing_explanation",
+      "file": "4_medium_math.json",
+      "questionIndex": 14,
+      "content": "What is 8 × 1?...",
+      "severity": "low"
+    },
+    {
+      "type": "missing_explanation",
+      "file": "4_medium_math.json",
+      "questionIndex": 18,
+      "content": "What is 2 × 1?...",
+      "severity": "low"
+    }
+  ],
+  "gradeBreakdown": {
+    "1": 162,
+    "2": 177,
+    "3": 192,
+    "4": 207,
+    "5": 207,
+    "6": 207,
+    "7": 207,
+    "8": 207,
+    "9": 227,
+    "10": 207,
+    "11": 207,
+    "12": 207
+  },
+  "subjectBreakdown": {
+    "english": 720,
+    "math": 740,
+    "reading": 324,
+    "thinking-skills": 630
+  },
+  "difficultyBreakdown": {
+    "easy": 798,
+    "hard": 818,
+    "medium": 798
+  },
+  "redFlags": []
+}
