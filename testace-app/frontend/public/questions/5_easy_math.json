@@ -13,7 +13,7 @@
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "Convert to common denominator: 2/3 = 4/6. So 4/6 + 1/6 = 5/6."
+    "explanation": "Convert to common denominator: 2/3 = 4/6. So 4/6 + 1/6 = 5/6"
   },
   {
     "_id": "grade5_easy_math_002",
@@ -33,6 +33,22 @@
   },
   {
     "_id": "grade5_easy_math_003",
+    "content": "What is 10% of 50?",
+    "type": "multiple_choice",
+    "options": [
+      "5",
+      "10",
+      "15",
+      "500"
+    ],
+    "correctAnswer": "5",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "10% of 50 = 10/100 × 50 = 5"
+  },
+  {
+    "_id": "grade5_easy_math_004",
     "content": "A rectangle has length 8m and width 5m. What is its area?",
     "type": "multiple_choice",
     "options": [
@@ -48,39 +64,7 @@
     "explanation": "Area = length × width = 8 × 5 = 40 m²"
   },
   {
-    "_id": "grade5_easy_math_004",
-    "content": "What is 10% of 50?",
-    "type": "multiple_choice",
-    "options": [
-      "5",
-      "10",
-      "15",
-      "50"
-    ],
-    "correctAnswer": "5",
-    "subject": "Mathematics",
-    "grade": 5,
-    "difficulty": "easy",
-    "explanation": "10% of 50 = 10/100 × 50 = 5"
-  },
-  {
     "_id": "grade5_easy_math_005",
-    "content": "Round 47.6 to the nearest whole number.",
-    "type": "multiple_choice",
-    "options": [
-      "47",
-      "48",
-      "50",
-      "40"
-    ],
-    "correctAnswer": "48",
-    "subject": "Mathematics",
-    "grade": 5,
-    "difficulty": "easy",
-    "explanation": "47.6 is closer to 48 than 47, so round up to 48."
-  },
-  {
-    "_id": "grade5_easy_math_006",
     "content": "What is 2/3 + 1/6?",
     "type": "multiple_choice",
     "options": [
@@ -93,10 +77,10 @@
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "Convert to common denominator: 2/3 = 4/6. So 4/6 + 1/6 = 5/6."
+    "explanation": "Convert to common denominator: 2/3 = 4/6. So 4/6 + 1/6 = 5/6"
   },
   {
-    "_id": "grade5_easy_math_007",
+    "_id": "grade5_easy_math_006",
     "content": "What is 3.4 + 1.7?",
     "type": "multiple_choice",
     "options": [
@@ -110,6 +94,22 @@
     "grade": 5,
     "difficulty": "easy",
     "explanation": "3.4 + 1.7 = 5.1"
+  },
+  {
+    "_id": "grade5_easy_math_007",
+    "content": "What is 10% of 50?",
+    "type": "multiple_choice",
+    "options": [
+      "5",
+      "10",
+      "15",
+      "500"
+    ],
+    "correctAnswer": "5",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "10% of 50 = 10/100 × 50 = 5"
   },
   {
     "_id": "grade5_easy_math_008",
@@ -129,54 +129,22 @@
   },
   {
     "_id": "grade5_easy_math_009",
-    "content": "What is 10% of 50?",
+    "content": "What is 2/3 + 1/6?",
     "type": "multiple_choice",
     "options": [
-      "5",
-      "10",
-      "15",
-      "50"
+      "3/9",
+      "5/6",
+      "3/6",
+      "1/2"
     ],
-    "correctAnswer": "5",
+    "correctAnswer": "5/6",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "10% of 50 = 10/100 × 50 = 5"
+    "explanation": "Convert to common denominator: 2/3 = 4/6. So 4/6 + 1/6 = 5/6"
   },
   {
     "_id": "grade5_easy_math_010",
-    "content": "Round 47.6 to the nearest whole number.",
-    "type": "multiple_choice",
-    "options": [
-      "47",
-      "48",
-      "50",
-      "40"
-    ],
-    "correctAnswer": "48",
-    "subject": "Mathematics",
-    "grade": 5,
-    "difficulty": "easy",
-    "explanation": "47.6 is closer to 48 than 47, so round up to 48."
-  },
-  {
-    "_id": "grade5_easy_math_011",
-    "content": "What is 2/3 + 1/6?",
-    "type": "multiple_choice",
-    "options": [
-      "3/9",
-      "5/6",
-      "3/6",
-      "1/2"
-    ],
-    "correctAnswer": "5/6",
-    "subject": "Mathematics",
-    "grade": 5,
-    "difficulty": "easy",
-    "explanation": "Convert to common denominator: 2/3 = 4/6. So 4/6 + 1/6 = 5/6."
-  },
-  {
-    "_id": "grade5_easy_math_012",
     "content": "What is 3.4 + 1.7?",
     "type": "multiple_choice",
     "options": [
@@ -192,30 +160,14 @@
     "explanation": "3.4 + 1.7 = 5.1"
   },
   {
-    "_id": "grade5_easy_math_013",
-    "content": "A rectangle has length 8m and width 5m. What is its area?",
-    "type": "multiple_choice",
-    "options": [
-      "13 m²",
-      "26 m²",
-      "40 m²",
-      "80 m²"
-    ],
-    "correctAnswer": "40 m²",
-    "subject": "Mathematics",
-    "grade": 5,
-    "difficulty": "easy",
-    "explanation": "Area = length × width = 8 × 5 = 40 m²"
-  },
-  {
-    "_id": "grade5_easy_math_014",
+    "_id": "grade5_easy_math_011",
     "content": "What is 10% of 50?",
     "type": "multiple_choice",
     "options": [
       "5",
       "10",
       "15",
-      "50"
+      "500"
     ],
     "correctAnswer": "5",
     "subject": "Mathematics",
@@ -224,23 +176,23 @@
     "explanation": "10% of 50 = 10/100 × 50 = 5"
   },
   {
-    "_id": "grade5_easy_math_015",
-    "content": "Round 47.6 to the nearest whole number.",
+    "_id": "grade5_easy_math_012",
+    "content": "A rectangle has length 8m and width 5m. What is its area?",
     "type": "multiple_choice",
     "options": [
-      "47",
-      "48",
-      "50",
-      "40"
+      "13 m²",
+      "26 m²",
+      "40 m²",
+      "80 m²"
     ],
-    "correctAnswer": "48",
+    "correctAnswer": "40 m²",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "47.6 is closer to 48 than 47, so round up to 48."
+    "explanation": "Area = length × width = 8 × 5 = 40 m²"
   },
   {
-    "_id": "grade5_easy_math_016",
+    "_id": "grade5_easy_math_013",
     "content": "What is 2/3 + 1/6?",
     "type": "multiple_choice",
     "options": [
@@ -253,10 +205,10 @@
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "Convert to common denominator: 2/3 = 4/6. So 4/6 + 1/6 = 5/6."
+    "explanation": "Convert to common denominator: 2/3 = 4/6. So 4/6 + 1/6 = 5/6"
   },
   {
-    "_id": "grade5_easy_math_017",
+    "_id": "grade5_easy_math_014",
     "content": "What is 3.4 + 1.7?",
     "type": "multiple_choice",
     "options": [
@@ -272,7 +224,23 @@
     "explanation": "3.4 + 1.7 = 5.1"
   },
   {
-    "_id": "grade5_easy_math_018",
+    "_id": "grade5_easy_math_015",
+    "content": "What is 10% of 50?",
+    "type": "multiple_choice",
+    "options": [
+      "5",
+      "10",
+      "15",
+      "500"
+    ],
+    "correctAnswer": "5",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "10% of 50 = 10/100 × 50 = 5"
+  },
+  {
+    "_id": "grade5_easy_math_016",
     "content": "A rectangle has length 8m and width 5m. What is its area?",
     "type": "multiple_choice",
     "options": [
@@ -286,6 +254,38 @@
     "grade": 5,
     "difficulty": "easy",
     "explanation": "Area = length × width = 8 × 5 = 40 m²"
+  },
+  {
+    "_id": "grade5_easy_math_017",
+    "content": "What is 2/3 + 1/6?",
+    "type": "multiple_choice",
+    "options": [
+      "3/9",
+      "5/6",
+      "3/6",
+      "1/2"
+    ],
+    "correctAnswer": "5/6",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "Convert to common denominator: 2/3 = 4/6. So 4/6 + 1/6 = 5/6"
+  },
+  {
+    "_id": "grade5_easy_math_018",
+    "content": "What is 3.4 + 1.7?",
+    "type": "multiple_choice",
+    "options": [
+      "4.1",
+      "5.1",
+      "4.11",
+      "5.11"
+    ],
+    "correctAnswer": "5.1",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "3.4 + 1.7 = 5.1"
   },
   {
     "_id": "grade5_easy_math_019",
@@ -295,7 +295,7 @@
       "5",
       "10",
       "15",
-      "50"
+      "500"
     ],
     "correctAnswer": "5",
     "subject": "Mathematics",
@@ -305,18 +305,18 @@
   },
   {
     "_id": "grade5_easy_math_020",
-    "content": "Round 47.6 to the nearest whole number.",
+    "content": "A rectangle has length 8m and width 5m. What is its area?",
     "type": "multiple_choice",
     "options": [
-      "47",
-      "48",
-      "50",
-      "40"
+      "13 m²",
+      "26 m²",
+      "40 m²",
+      "80 m²"
     ],
-    "correctAnswer": "48",
+    "correctAnswer": "40 m²",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "47.6 is closer to 48 than 47, so round up to 48."
+    "explanation": "Area = length × width = 8 × 5 = 40 m²"
   }
 ]

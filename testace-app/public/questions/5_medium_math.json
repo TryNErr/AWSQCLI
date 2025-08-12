@@ -17,22 +17,6 @@
   },
   {
     "_id": "grade5_medium_math_002",
-    "content": "A triangle has base 12cm and height 8cm. What is its area?",
-    "type": "multiple_choice",
-    "options": [
-      "20 cm²",
-      "48 cm²",
-      "96 cm²",
-      "192 cm²"
-    ],
-    "correctAnswer": "48 cm²",
-    "subject": "Mathematics",
-    "grade": 5,
-    "difficulty": "medium",
-    "explanation": "Area = 1/2 × base × height = 1/2 × 12 × 8 = 48 cm²"
-  },
-  {
-    "_id": "grade5_medium_math_003",
     "content": "What is 6.25 - 2.8?",
     "type": "multiple_choice",
     "options": [
@@ -48,23 +32,7 @@
     "explanation": "6.25 - 2.80 = 3.45"
   },
   {
-    "_id": "grade5_medium_math_004",
-    "content": "Convert 0.6 to a fraction in lowest terms.",
-    "type": "multiple_choice",
-    "options": [
-      "6/10",
-      "3/5",
-      "60/100",
-      "12/20"
-    ],
-    "correctAnswer": "3/5",
-    "subject": "Mathematics",
-    "grade": 5,
-    "difficulty": "medium",
-    "explanation": "0.6 = 6/10 = 3/5 (divide by 2)"
-  },
-  {
-    "_id": "grade5_medium_math_005",
+    "_id": "grade5_medium_math_003",
     "content": "What is 20% of 75?",
     "type": "multiple_choice",
     "options": [
@@ -80,7 +48,7 @@
     "explanation": "20% of 75 = 20/100 × 75 = 15"
   },
   {
-    "_id": "grade5_medium_math_006",
+    "_id": "grade5_medium_math_004",
     "content": "What is 3/4 × 2/5?",
     "type": "multiple_choice",
     "options": [
@@ -96,20 +64,52 @@
     "explanation": "3/4 × 2/5 = (3×2)/(4×5) = 6/20 = 3/10"
   },
   {
-    "_id": "grade5_medium_math_007",
-    "content": "A triangle has base 12cm and height 8cm. What is its area?",
+    "_id": "grade5_medium_math_005",
+    "content": "What is 6.25 - 2.8?",
     "type": "multiple_choice",
     "options": [
-      "20 cm²",
-      "48 cm²",
-      "96 cm²",
-      "192 cm²"
+      "3.45",
+      "4.45",
+      "3.55",
+      "4.55"
     ],
-    "correctAnswer": "48 cm²",
+    "correctAnswer": "3.45",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "medium",
-    "explanation": "Area = 1/2 × base × height = 1/2 × 12 × 8 = 48 cm²"
+    "explanation": "6.25 - 2.80 = 3.45"
+  },
+  {
+    "_id": "grade5_medium_math_006",
+    "content": "What is 20% of 75?",
+    "type": "multiple_choice",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "correctAnswer": "15",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "medium",
+    "explanation": "20% of 75 = 20/100 × 75 = 15"
+  },
+  {
+    "_id": "grade5_medium_math_007",
+    "content": "What is 3/4 × 2/5?",
+    "type": "multiple_choice",
+    "options": [
+      "5/9",
+      "6/20",
+      "3/10",
+      "5/20"
+    ],
+    "correctAnswer": "3/10",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "medium",
+    "explanation": "3/4 × 2/5 = (3×2)/(4×5) = 6/20 = 3/10"
   },
   {
     "_id": "grade5_medium_math_008",
@@ -129,22 +129,6 @@
   },
   {
     "_id": "grade5_medium_math_009",
-    "content": "Convert 0.6 to a fraction in lowest terms.",
-    "type": "multiple_choice",
-    "options": [
-      "6/10",
-      "3/5",
-      "60/100",
-      "12/20"
-    ],
-    "correctAnswer": "3/5",
-    "subject": "Mathematics",
-    "grade": 5,
-    "difficulty": "medium",
-    "explanation": "0.6 = 6/10 = 3/5 (divide by 2)"
-  },
-  {
-    "_id": "grade5_medium_math_010",
     "content": "What is 20% of 75?",
     "type": "multiple_choice",
     "options": [
@@ -160,7 +144,7 @@
     "explanation": "20% of 75 = 20/100 × 75 = 15"
   },
   {
-    "_id": "grade5_medium_math_011",
+    "_id": "grade5_medium_math_010",
     "content": "What is 3/4 × 2/5?",
     "type": "multiple_choice",
     "options": [
@@ -176,23 +160,7 @@
     "explanation": "3/4 × 2/5 = (3×2)/(4×5) = 6/20 = 3/10"
   },
   {
-    "_id": "grade5_medium_math_012",
-    "content": "A triangle has base 12cm and height 8cm. What is its area?",
-    "type": "multiple_choice",
-    "options": [
-      "20 cm²",
-      "48 cm²",
-      "96 cm²",
-      "192 cm²"
-    ],
-    "correctAnswer": "48 cm²",
-    "subject": "Mathematics",
-    "grade": 5,
-    "difficulty": "medium",
-    "explanation": "Area = 1/2 × base × height = 1/2 × 12 × 8 = 48 cm²"
-  },
-  {
-    "_id": "grade5_medium_math_013",
+    "_id": "grade5_medium_math_011",
     "content": "What is 6.25 - 2.8?",
     "type": "multiple_choice",
     "options": [
@@ -208,20 +176,52 @@
     "explanation": "6.25 - 2.80 = 3.45"
   },
   {
-    "_id": "grade5_medium_math_014",
-    "content": "Convert 0.6 to a fraction in lowest terms.",
+    "_id": "grade5_medium_math_012",
+    "content": "What is 20% of 75?",
     "type": "multiple_choice",
     "options": [
-      "6/10",
-      "3/5",
-      "60/100",
-      "12/20"
+      "10",
+      "15",
+      "20",
+      "25"
     ],
-    "correctAnswer": "3/5",
+    "correctAnswer": "15",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "medium",
-    "explanation": "0.6 = 6/10 = 3/5 (divide by 2)"
+    "explanation": "20% of 75 = 20/100 × 75 = 15"
+  },
+  {
+    "_id": "grade5_medium_math_013",
+    "content": "What is 3/4 × 2/5?",
+    "type": "multiple_choice",
+    "options": [
+      "5/9",
+      "6/20",
+      "3/10",
+      "5/20"
+    ],
+    "correctAnswer": "3/10",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "medium",
+    "explanation": "3/4 × 2/5 = (3×2)/(4×5) = 6/20 = 3/10"
+  },
+  {
+    "_id": "grade5_medium_math_014",
+    "content": "What is 6.25 - 2.8?",
+    "type": "multiple_choice",
+    "options": [
+      "3.45",
+      "4.45",
+      "3.55",
+      "4.55"
+    ],
+    "correctAnswer": "3.45",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "medium",
+    "explanation": "6.25 - 2.80 = 3.45"
   },
   {
     "_id": "grade5_medium_math_015",
@@ -257,22 +257,6 @@
   },
   {
     "_id": "grade5_medium_math_017",
-    "content": "A triangle has base 12cm and height 8cm. What is its area?",
-    "type": "multiple_choice",
-    "options": [
-      "20 cm²",
-      "48 cm²",
-      "96 cm²",
-      "192 cm²"
-    ],
-    "correctAnswer": "48 cm²",
-    "subject": "Mathematics",
-    "grade": 5,
-    "difficulty": "medium",
-    "explanation": "Area = 1/2 × base × height = 1/2 × 12 × 8 = 48 cm²"
-  },
-  {
-    "_id": "grade5_medium_math_018",
     "content": "What is 6.25 - 2.8?",
     "type": "multiple_choice",
     "options": [
@@ -288,23 +272,7 @@
     "explanation": "6.25 - 2.80 = 3.45"
   },
   {
-    "_id": "grade5_medium_math_019",
-    "content": "Convert 0.6 to a fraction in lowest terms.",
-    "type": "multiple_choice",
-    "options": [
-      "6/10",
-      "3/5",
-      "60/100",
-      "12/20"
-    ],
-    "correctAnswer": "3/5",
-    "subject": "Mathematics",
-    "grade": 5,
-    "difficulty": "medium",
-    "explanation": "0.6 = 6/10 = 3/5 (divide by 2)"
-  },
-  {
-    "_id": "grade5_medium_math_020",
+    "_id": "grade5_medium_math_018",
     "content": "What is 20% of 75?",
     "type": "multiple_choice",
     "options": [
@@ -318,5 +286,37 @@
     "grade": 5,
     "difficulty": "medium",
     "explanation": "20% of 75 = 20/100 × 75 = 15"
+  },
+  {
+    "_id": "grade5_medium_math_019",
+    "content": "What is 3/4 × 2/5?",
+    "type": "multiple_choice",
+    "options": [
+      "5/9",
+      "6/20",
+      "3/10",
+      "5/20"
+    ],
+    "correctAnswer": "3/10",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "medium",
+    "explanation": "3/4 × 2/5 = (3×2)/(4×5) = 6/20 = 3/10"
+  },
+  {
+    "_id": "grade5_medium_math_020",
+    "content": "What is 6.25 - 2.8?",
+    "type": "multiple_choice",
+    "options": [
+      "3.45",
+      "4.45",
+      "3.55",
+      "4.55"
+    ],
+    "correctAnswer": "3.45",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "medium",
+    "explanation": "6.25 - 2.80 = 3.45"
   }
 ]
