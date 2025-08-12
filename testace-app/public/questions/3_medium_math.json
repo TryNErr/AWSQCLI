@@ -1,16 +1,16 @@
 [
   {
     "_id": "build_math_3_medium_0",
-    "content": "What is 35 + 46?",
+    "content": "What is 47 + 27?",
     "type": "multiple_choice",
     "options": [
-      "80",
-      "82",
-      "81",
-      "83"
+      "75",
+      "74",
+      "73",
+      "76"
     ],
-    "correctAnswer": "81",
-    "explanation": "35 + 46 = 81",
+    "correctAnswer": "74",
+    "explanation": "47 + 27 = 74",
     "subject": "Mathematical Reasoning",
     "topic": "Addition",
     "difficulty": "medium",
@@ -21,21 +21,21 @@
       "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:57:08.409Z",
+    "createdAt": "2025-08-12T03:19:48.868Z",
     "estimatedTime": 60
   },
   {
     "_id": "build_math_3_medium_1",
-    "content": "What is 32 - 6?",
+    "content": "What is 32 - 17?",
     "type": "multiple_choice",
     "options": [
-      "27",
-      "25",
-      "26",
-      "28"
+      "16",
+      "17",
+      "14",
+      "15"
     ],
-    "correctAnswer": "26",
-    "explanation": "32 - 6 = 26",
+    "correctAnswer": "15",
+    "explanation": "32 - 17 = 15",
     "subject": "Mathematical Reasoning",
     "topic": "Subtraction",
     "difficulty": "medium",
@@ -46,21 +46,21 @@
       "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:57:08.409Z",
+    "createdAt": "2025-08-12T03:19:48.868Z",
     "estimatedTime": 60
   },
   {
     "_id": "build_math_3_medium_2",
-    "content": "What is 8 × 5?",
+    "content": "What is 9 × 7?",
     "type": "multiple_choice",
     "options": [
-      "42",
-      "40",
-      "41",
-      "39"
+      "62",
+      "65",
+      "63",
+      "64"
     ],
-    "correctAnswer": "40",
-    "explanation": "8 × 5 = 40",
+    "correctAnswer": "63",
+    "explanation": "9 × 7 = 63",
     "subject": "Mathematical Reasoning",
     "topic": "Multiplication",
     "difficulty": "medium",
@@ -71,18 +71,218 @@
       "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:57:08.409Z",
+    "createdAt": "2025-08-12T03:19:48.868Z",
     "estimatedTime": 60
   },
   {
     "_id": "build_math_3_medium_3",
+    "content": "What is 50 ÷ 10?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "5",
+    "explanation": "50 ÷ 10 = 5",
+    "subject": "Mathematical Reasoning",
+    "topic": "Division",
+    "difficulty": "medium",
+    "grade": 3,
+    "tags": [
+      "mathematics",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-12T03:19:48.868Z",
+    "estimatedTime": 60
+  },
+  {
+    "_id": "build_math_3_medium_4",
+    "content": "What is 13 + 40?",
+    "type": "multiple_choice",
+    "options": [
+      "55",
+      "52",
+      "54",
+      "53"
+    ],
+    "correctAnswer": "53",
+    "explanation": "13 + 40 = 53",
+    "subject": "Mathematical Reasoning",
+    "topic": "Addition",
+    "difficulty": "medium",
+    "grade": 3,
+    "tags": [
+      "mathematics",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-12T03:19:48.868Z",
+    "estimatedTime": 60
+  },
+  {
+    "_id": "build_math_3_medium_5",
+    "content": "What is 16 - 12?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "explanation": "16 - 12 = 4",
+    "subject": "Mathematical Reasoning",
+    "topic": "Subtraction",
+    "difficulty": "medium",
+    "grade": 3,
+    "tags": [
+      "mathematics",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-12T03:19:48.868Z",
+    "estimatedTime": 60
+  },
+  {
+    "_id": "build_math_3_medium_6",
+    "content": "What is 11 × 6?",
+    "type": "multiple_choice",
+    "options": [
+      "65",
+      "66",
+      "67",
+      "68"
+    ],
+    "correctAnswer": "66",
+    "explanation": "11 × 6 = 66",
+    "subject": "Mathematical Reasoning",
+    "topic": "Multiplication",
+    "difficulty": "medium",
+    "grade": 3,
+    "tags": [
+      "mathematics",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-12T03:19:48.868Z",
+    "estimatedTime": 60
+  },
+  {
+    "_id": "build_math_3_medium_7",
+    "content": "What is 154 ÷ 11?",
+    "type": "multiple_choice",
+    "options": [
+      "15",
+      "13",
+      "16",
+      "14"
+    ],
+    "correctAnswer": "14",
+    "explanation": "154 ÷ 11 = 14",
+    "subject": "Mathematical Reasoning",
+    "topic": "Division",
+    "difficulty": "medium",
+    "grade": 3,
+    "tags": [
+      "mathematics",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-12T03:19:48.868Z",
+    "estimatedTime": 60
+  },
+  {
+    "_id": "build_math_3_medium_8",
+    "content": "What is 18 + 39?",
+    "type": "multiple_choice",
+    "options": [
+      "59",
+      "57",
+      "56",
+      "58"
+    ],
+    "correctAnswer": "57",
+    "explanation": "18 + 39 = 57",
+    "subject": "Mathematical Reasoning",
+    "topic": "Addition",
+    "difficulty": "medium",
+    "grade": 3,
+    "tags": [
+      "mathematics",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-12T03:19:48.868Z",
+    "estimatedTime": 60
+  },
+  {
+    "_id": "build_math_3_medium_9",
+    "content": "What is 13 - 6?",
+    "type": "multiple_choice",
+    "options": [
+      "9",
+      "8",
+      "7",
+      "6"
+    ],
+    "correctAnswer": "7",
+    "explanation": "13 - 6 = 7",
+    "subject": "Mathematical Reasoning",
+    "topic": "Subtraction",
+    "difficulty": "medium",
+    "grade": 3,
+    "tags": [
+      "mathematics",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-12T03:19:48.868Z",
+    "estimatedTime": 60
+  },
+  {
+    "_id": "build_math_3_medium_10",
+    "content": "What is 7 × 11?",
+    "type": "multiple_choice",
+    "options": [
+      "79",
+      "77",
+      "76",
+      "78"
+    ],
+    "correctAnswer": "77",
+    "explanation": "7 × 11 = 77",
+    "subject": "Mathematical Reasoning",
+    "topic": "Multiplication",
+    "difficulty": "medium",
+    "grade": 3,
+    "tags": [
+      "mathematics",
+      "build-time-generated",
+      "timed-test-ready"
+    ],
+    "createdBy": "build-time-generator",
+    "createdAt": "2025-08-12T03:19:48.868Z",
+    "estimatedTime": 60
+  },
+  {
+    "_id": "build_math_3_medium_11",
     "content": "What is 143 ÷ 11?",
     "type": "multiple_choice",
     "options": [
       "13",
       "15",
-      "12",
-      "14"
+      "14",
+      "12"
     ],
     "correctAnswer": "13",
     "explanation": "143 ÷ 11 = 13",
@@ -96,221 +296,21 @@
       "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:57:08.409Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_3_medium_4",
-    "content": "What is 30 + 34?",
-    "type": "multiple_choice",
-    "options": [
-      "63",
-      "64",
-      "66",
-      "65"
-    ],
-    "correctAnswer": "64",
-    "explanation": "30 + 34 = 64",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "medium",
-    "grade": 3,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:57:08.409Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_3_medium_5",
-    "content": "What is 39 - 30?",
-    "type": "multiple_choice",
-    "options": [
-      "11",
-      "9",
-      "10",
-      "8"
-    ],
-    "correctAnswer": "9",
-    "explanation": "39 - 30 = 9",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "medium",
-    "grade": 3,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:57:08.409Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_3_medium_6",
-    "content": "What is 2 × 7?",
-    "type": "multiple_choice",
-    "options": [
-      "16",
-      "14",
-      "15",
-      "13"
-    ],
-    "correctAnswer": "14",
-    "explanation": "2 × 7 = 14",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "medium",
-    "grade": 3,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:57:08.409Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_3_medium_7",
-    "content": "What is 70 ÷ 10?",
-    "type": "multiple_choice",
-    "options": [
-      "6",
-      "8",
-      "7",
-      "9"
-    ],
-    "correctAnswer": "7",
-    "explanation": "70 ÷ 10 = 7",
-    "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "medium",
-    "grade": 3,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:57:08.409Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_3_medium_8",
-    "content": "What is 15 + 35?",
-    "type": "multiple_choice",
-    "options": [
-      "52",
-      "50",
-      "51",
-      "49"
-    ],
-    "correctAnswer": "50",
-    "explanation": "15 + 35 = 50",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "medium",
-    "grade": 3,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:57:08.409Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_3_medium_9",
-    "content": "What is 33 - 31?",
-    "type": "multiple_choice",
-    "options": [
-      "4",
-      "3",
-      "1",
-      "2"
-    ],
-    "correctAnswer": "2",
-    "explanation": "33 - 31 = 2",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "medium",
-    "grade": 3,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:57:08.409Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_3_medium_10",
-    "content": "What is 12 × 5?",
-    "type": "multiple_choice",
-    "options": [
-      "59",
-      "62",
-      "61",
-      "60"
-    ],
-    "correctAnswer": "60",
-    "explanation": "12 × 5 = 60",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "medium",
-    "grade": 3,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:57:08.409Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_3_medium_11",
-    "content": "What is 36 ÷ 6?",
-    "type": "multiple_choice",
-    "options": [
-      "6",
-      "7",
-      "8",
-      "5"
-    ],
-    "correctAnswer": "6",
-    "explanation": "36 ÷ 6 = 6",
-    "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "medium",
-    "grade": 3,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:57:08.409Z",
+    "createdAt": "2025-08-12T03:19:48.868Z",
     "estimatedTime": 60
   },
   {
     "_id": "build_math_3_medium_12",
-    "content": "What is 33 + 42?",
+    "content": "What is 45 + 36?",
     "type": "multiple_choice",
     "options": [
-      "76",
-      "77",
-      "75",
-      "74"
+      "83",
+      "81",
+      "80",
+      "82"
     ],
-    "correctAnswer": "75",
-    "explanation": "33 + 42 = 75",
+    "correctAnswer": "81",
+    "explanation": "45 + 36 = 81",
     "subject": "Mathematical Reasoning",
     "topic": "Addition",
     "difficulty": "medium",
@@ -321,21 +321,21 @@
       "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:57:08.409Z",
+    "createdAt": "2025-08-12T03:19:48.868Z",
     "estimatedTime": 60
   },
   {
     "_id": "build_math_3_medium_13",
-    "content": "What is 35 - 23?",
+    "content": "What is 22 - 5?",
     "type": "multiple_choice",
     "options": [
-      "13",
-      "12",
-      "14",
-      "11"
+      "17",
+      "18",
+      "16",
+      "19"
     ],
-    "correctAnswer": "12",
-    "explanation": "35 - 23 = 12",
+    "correctAnswer": "17",
+    "explanation": "22 - 5 = 17",
     "subject": "Mathematical Reasoning",
     "topic": "Subtraction",
     "difficulty": "medium",
@@ -346,21 +346,21 @@
       "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:57:08.409Z",
+    "createdAt": "2025-08-12T03:19:48.868Z",
     "estimatedTime": 60
   },
   {
     "_id": "build_math_3_medium_14",
-    "content": "What is 11 × 3?",
+    "content": "What is 9 × 5?",
     "type": "multiple_choice",
     "options": [
-      "33",
-      "34",
-      "32",
-      "35"
+      "44",
+      "46",
+      "47",
+      "45"
     ],
-    "correctAnswer": "33",
-    "explanation": "11 × 3 = 33",
+    "correctAnswer": "45",
+    "explanation": "9 × 5 = 45",
     "subject": "Mathematical Reasoning",
     "topic": "Multiplication",
     "difficulty": "medium",
@@ -371,21 +371,21 @@
       "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:57:08.409Z",
+    "createdAt": "2025-08-12T03:19:48.868Z",
     "estimatedTime": 60
   },
   {
     "_id": "build_math_3_medium_15",
-    "content": "What is 30 ÷ 6?",
+    "content": "What is 45 ÷ 9?",
     "type": "multiple_choice",
     "options": [
+      "4",
       "6",
       "5",
-      "7",
-      "4"
+      "7"
     ],
     "correctAnswer": "5",
-    "explanation": "30 ÷ 6 = 5",
+    "explanation": "45 ÷ 9 = 5",
     "subject": "Mathematical Reasoning",
     "topic": "Division",
     "difficulty": "medium",
@@ -396,21 +396,21 @@
       "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:57:08.409Z",
+    "createdAt": "2025-08-12T03:19:48.868Z",
     "estimatedTime": 60
   },
   {
     "_id": "build_math_3_medium_16",
-    "content": "What is 37 + 15?",
+    "content": "What is 17 + 13?",
     "type": "multiple_choice",
     "options": [
-      "54",
-      "52",
-      "51",
-      "53"
+      "32",
+      "31",
+      "30",
+      "29"
     ],
-    "correctAnswer": "52",
-    "explanation": "37 + 15 = 52",
+    "correctAnswer": "30",
+    "explanation": "17 + 13 = 30",
     "subject": "Mathematical Reasoning",
     "topic": "Addition",
     "difficulty": "medium",
@@ -421,21 +421,21 @@
       "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:57:08.409Z",
+    "createdAt": "2025-08-12T03:19:48.868Z",
     "estimatedTime": 60
   },
   {
     "_id": "build_math_3_medium_17",
-    "content": "What is 14 - 8?",
+    "content": "What is 22 - 13?",
     "type": "multiple_choice",
     "options": [
-      "5",
-      "7",
-      "6",
-      "8"
+      "8",
+      "10",
+      "9",
+      "11"
     ],
-    "correctAnswer": "6",
-    "explanation": "14 - 8 = 6",
+    "correctAnswer": "9",
+    "explanation": "22 - 13 = 9",
     "subject": "Mathematical Reasoning",
     "topic": "Subtraction",
     "difficulty": "medium",
@@ -446,21 +446,21 @@
       "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:57:08.409Z",
+    "createdAt": "2025-08-12T03:19:48.868Z",
     "estimatedTime": 60
   },
   {
     "_id": "build_math_3_medium_18",
-    "content": "What is 9 × 4?",
+    "content": "What is 2 × 4?",
     "type": "multiple_choice",
     "options": [
-      "38",
-      "35",
-      "37",
-      "36"
+      "7",
+      "10",
+      "9",
+      "8"
     ],
-    "correctAnswer": "36",
-    "explanation": "9 × 4 = 36",
+    "correctAnswer": "8",
+    "explanation": "2 × 4 = 8",
     "subject": "Mathematical Reasoning",
     "topic": "Multiplication",
     "difficulty": "medium",
@@ -471,21 +471,21 @@
       "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:57:08.409Z",
+    "createdAt": "2025-08-12T03:19:48.868Z",
     "estimatedTime": 60
   },
   {
     "_id": "build_math_3_medium_19",
-    "content": "What is 48 ÷ 12?",
+    "content": "What is 75 ÷ 5?",
     "type": "multiple_choice",
     "options": [
-      "4",
-      "3",
-      "5",
-      "6"
+      "14",
+      "16",
+      "15",
+      "17"
     ],
-    "correctAnswer": "4",
-    "explanation": "48 ÷ 12 = 4",
+    "correctAnswer": "15",
+    "explanation": "75 ÷ 5 = 15",
     "subject": "Mathematical Reasoning",
     "topic": "Division",
     "difficulty": "medium",
@@ -496,21 +496,21 @@
       "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:57:08.409Z",
+    "createdAt": "2025-08-12T03:19:48.868Z",
     "estimatedTime": 60
   },
   {
     "_id": "build_math_3_medium_20",
-    "content": "What is 30 + 29?",
+    "content": "What is 16 + 20?",
     "type": "multiple_choice",
     "options": [
-      "61",
-      "59",
-      "58",
-      "60"
+      "37",
+      "36",
+      "38",
+      "35"
     ],
-    "correctAnswer": "59",
-    "explanation": "30 + 29 = 59",
+    "correctAnswer": "36",
+    "explanation": "16 + 20 = 36",
     "subject": "Mathematical Reasoning",
     "topic": "Addition",
     "difficulty": "medium",
@@ -521,21 +521,21 @@
       "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:57:08.409Z",
+    "createdAt": "2025-08-12T03:19:48.868Z",
     "estimatedTime": 60
   },
   {
     "_id": "build_math_3_medium_21",
-    "content": "What is 43 - 22?",
+    "content": "What is 25 - 8?",
     "type": "multiple_choice",
     "options": [
-      "21",
-      "22",
-      "23",
-      "20"
+      "18",
+      "19",
+      "16",
+      "17"
     ],
-    "correctAnswer": "21",
-    "explanation": "43 - 22 = 21",
+    "correctAnswer": "17",
+    "explanation": "25 - 8 = 17",
     "subject": "Mathematical Reasoning",
     "topic": "Subtraction",
     "difficulty": "medium",
@@ -546,21 +546,21 @@
       "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:57:08.409Z",
+    "createdAt": "2025-08-12T03:19:48.868Z",
     "estimatedTime": 60
   },
   {
     "_id": "build_math_3_medium_22",
-    "content": "What is 12 × 2?",
+    "content": "What is 2 × 5?",
     "type": "multiple_choice",
     "options": [
-      "23",
-      "24",
-      "26",
-      "25"
+      "12",
+      "9",
+      "11",
+      "10"
     ],
-    "correctAnswer": "24",
-    "explanation": "12 × 2 = 24",
+    "correctAnswer": "10",
+    "explanation": "2 × 5 = 10",
     "subject": "Mathematical Reasoning",
     "topic": "Multiplication",
     "difficulty": "medium",
@@ -571,21 +571,21 @@
       "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:57:08.409Z",
+    "createdAt": "2025-08-12T03:19:48.868Z",
     "estimatedTime": 60
   },
   {
     "_id": "build_math_3_medium_23",
-    "content": "What is 44 ÷ 11?",
+    "content": "What is 12 ÷ 3?",
     "type": "multiple_choice",
     "options": [
-      "6",
+      "3",
       "4",
-      "5",
-      "3"
+      "6",
+      "5"
     ],
     "correctAnswer": "4",
-    "explanation": "44 ÷ 11 = 4",
+    "explanation": "12 ÷ 3 = 4",
     "subject": "Mathematical Reasoning",
     "topic": "Division",
     "difficulty": "medium",
@@ -596,21 +596,21 @@
       "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:57:08.409Z",
+    "createdAt": "2025-08-12T03:19:48.868Z",
     "estimatedTime": 60
   },
   {
     "_id": "build_math_3_medium_24",
-    "content": "What is 36 + 18?",
+    "content": "What is 37 + 13?",
     "type": "multiple_choice",
     "options": [
-      "54",
-      "53",
-      "55",
-      "56"
+      "49",
+      "51",
+      "50",
+      "52"
     ],
-    "correctAnswer": "54",
-    "explanation": "36 + 18 = 54",
+    "correctAnswer": "50",
+    "explanation": "37 + 13 = 50",
     "subject": "Mathematical Reasoning",
     "topic": "Addition",
     "difficulty": "medium",
@@ -621,7 +621,7 @@
       "timed-test-ready"
     ],
     "createdBy": "build-time-generator",
-    "createdAt": "2025-08-11T14:57:08.409Z",
+    "createdAt": "2025-08-12T03:19:48.868Z",
     "estimatedTime": 60
   }
 ]
