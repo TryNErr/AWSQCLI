@@ -1,322 +1,342 @@
 [
   {
     "_id": "grade1_easy_thinking-skills_001",
-    "content": "What comes next? Circle, Square, Circle, Square, ?",
+    "content": "Look at this pattern: Purple, Orange, Purple, Orange, Purple, ?\nWhat comes next?",
     "type": "multiple_choice",
     "options": [
-      "Circle",
-      "Triangle",
-      "Square",
-      "Star"
+      "Purple",
+      "Orange",
+      "Red",
+      "Blue"
     ],
-    "correctAnswer": "Circle",
+    "correctAnswer": "Orange",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "The pattern repeats: Circle, Square, so Circle comes next."
+    "explanation": "The pattern alternates between Purple and Orange, so Orange comes next.",
+    "topic": "Color Pattern Recognition"
   },
   {
     "_id": "grade1_easy_thinking-skills_002",
-    "content": "Which one is different? Dog, Cat, Fish, Car",
+    "content": "If Sarah has 10 toys and gives away 1 toys, how many toys does Sarah have left?",
     "type": "multiple_choice",
     "options": [
-      "Dog",
-      "Cat",
-      "Fish",
-      "Car"
+      "9",
+      "10",
+      "8",
+      "10"
     ],
-    "correctAnswer": "Car",
+    "correctAnswer": "9",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "Car is different because it's not an animal."
+    "explanation": "Sarah starts with 10 toys and gives away 1, so 10 - 1 = 9 toys left.",
+    "topic": "Basic Subtraction Problems"
   },
   {
     "_id": "grade1_easy_thinking-skills_003",
-    "content": "If you have 3 apples and eat 1, how many are left?",
+    "content": "Which shape comes next in this sequence: Circle, Square, Triangle, Circle, Square, ?\nWhat comes next?",
     "type": "multiple_choice",
     "options": [
-      "1",
-      "2",
-      "3",
-      "4"
+      "Triangle",
+      "Circle",
+      "Square",
+      "Rectangle"
     ],
-    "correctAnswer": "2",
+    "correctAnswer": "Triangle",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "3 apples minus 1 apple equals 2 apples left."
+    "explanation": "The pattern repeats every three shapes: Circle, Square, Triangle.",
+    "topic": "Shape Pattern Recognition"
   },
   {
     "_id": "grade1_easy_thinking-skills_004",
-    "content": "What comes next? Red, Blue, Red, Blue, ?",
+    "content": "Anna is taller than Mike. Mike is taller than Sarah. Who is the shortest?",
     "type": "multiple_choice",
     "options": [
-      "Red",
-      "Green",
-      "Yellow",
-      "Blue"
+      "Anna",
+      "Mike",
+      "Sarah",
+      "Cannot tell"
     ],
-    "correctAnswer": "Red",
+    "correctAnswer": "Sarah",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "The pattern repeats: Red, Blue, so Red comes next."
+    "explanation": "If Anna > Mike > Sarah, then Sarah is the shortest.",
+    "topic": "Simple Logic Comparisons"
   },
   {
     "_id": "grade1_easy_thinking-skills_005",
-    "content": "What comes next? Circle, Square, Circle, Square, ?",
+    "content": "What number is missing: 6, 9, ?, 18",
     "type": "multiple_choice",
     "options": [
-      "Circle",
-      "Triangle",
-      "Square",
-      "Star"
+      "15",
+      "18",
+      "12",
+      "16"
     ],
-    "correctAnswer": "Circle",
+    "correctAnswer": "15",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "The pattern repeats: Circle, Square, so Circle comes next."
+    "explanation": "The sequence increases by 3 each time: 6, 9, 15, 18.",
+    "topic": "Number Sequence Completion"
   },
   {
     "_id": "grade1_easy_thinking-skills_006",
-    "content": "Which one is different? Dog, Cat, Fish, Car",
+    "content": "Look at this pattern: Green, Yellow, Green, Yellow, Green, ?\nWhat comes next?",
     "type": "multiple_choice",
     "options": [
-      "Dog",
-      "Cat",
-      "Fish",
-      "Car"
+      "Green",
+      "Yellow",
+      "Red",
+      "Blue"
     ],
-    "correctAnswer": "Car",
+    "correctAnswer": "Yellow",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "Car is different because it's not an animal."
+    "explanation": "The pattern alternates between Green and Yellow, so Yellow comes next.",
+    "topic": "Color Pattern Recognition"
   },
   {
     "_id": "grade1_easy_thinking-skills_007",
-    "content": "If you have 3 apples and eat 1, how many are left?",
+    "content": "If Ben has 5 apples and gives away 4 apples, how many apples does Ben have left?",
     "type": "multiple_choice",
     "options": [
       "1",
       "2",
-      "3",
-      "4"
+      "0",
+      "5"
     ],
-    "correctAnswer": "2",
+    "correctAnswer": "1",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "3 apples minus 1 apple equals 2 apples left."
+    "explanation": "Ben starts with 5 apples and gives away 4, so 5 - 4 = 1 apples left.",
+    "topic": "Basic Subtraction Problems"
   },
   {
     "_id": "grade1_easy_thinking-skills_008",
-    "content": "What comes next? Red, Blue, Red, Blue, ?",
+    "content": "Which shape comes next in this sequence: Circle, Square, Triangle, Circle, Square, ?\nWhat comes next?",
     "type": "multiple_choice",
     "options": [
-      "Red",
-      "Green",
-      "Yellow",
-      "Blue"
+      "Triangle",
+      "Circle",
+      "Square",
+      "Rectangle"
     ],
-    "correctAnswer": "Red",
+    "correctAnswer": "Triangle",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "The pattern repeats: Red, Blue, so Red comes next."
+    "explanation": "The pattern repeats every three shapes: Circle, Square, Triangle.",
+    "topic": "Shape Pattern Recognition"
   },
   {
     "_id": "grade1_easy_thinking-skills_009",
-    "content": "What comes next? Circle, Square, Circle, Square, ?",
+    "content": "Anna is taller than Mike. Mike is taller than Sarah. Who is the shortest?",
     "type": "multiple_choice",
     "options": [
-      "Circle",
-      "Triangle",
-      "Square",
-      "Star"
+      "Anna",
+      "Mike",
+      "Sarah",
+      "Cannot tell"
     ],
-    "correctAnswer": "Circle",
+    "correctAnswer": "Sarah",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "The pattern repeats: Circle, Square, so Circle comes next."
+    "explanation": "If Anna > Mike > Sarah, then Sarah is the shortest.",
+    "topic": "Simple Logic Comparisons"
   },
   {
     "_id": "grade1_easy_thinking-skills_010",
-    "content": "Which one is different? Dog, Cat, Fish, Car",
+    "content": "What number is missing: 7, 11, ?, 23",
     "type": "multiple_choice",
     "options": [
-      "Dog",
-      "Cat",
-      "Fish",
-      "Car"
+      "19",
+      "23",
+      "15",
+      "20"
     ],
-    "correctAnswer": "Car",
+    "correctAnswer": "19",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "Car is different because it's not an animal."
+    "explanation": "The sequence increases by 4 each time: 7, 11, 19, 23.",
+    "topic": "Number Sequence Completion"
   },
   {
     "_id": "grade1_easy_thinking-skills_011",
-    "content": "If you have 3 apples and eat 1, how many are left?",
+    "content": "Look at this pattern: Red, Blue, Red, Blue, Red, ?\nWhat comes next?",
     "type": "multiple_choice",
     "options": [
-      "1",
-      "2",
-      "3",
-      "4"
+      "Red",
+      "Blue",
+      "Green",
+      "Yellow"
     ],
-    "correctAnswer": "2",
+    "correctAnswer": "Blue",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "3 apples minus 1 apple equals 2 apples left."
+    "explanation": "The pattern alternates between Red and Blue, so Blue comes next.",
+    "topic": "Color Pattern Recognition"
   },
   {
     "_id": "grade1_easy_thinking-skills_012",
-    "content": "What comes next? Red, Blue, Red, Blue, ?",
+    "content": "If Mike has 10 toys and gives away 1 toys, how many toys does Mike have left?",
     "type": "multiple_choice",
     "options": [
-      "Red",
-      "Green",
-      "Yellow",
-      "Blue"
+      "9",
+      "10",
+      "8",
+      "10"
     ],
-    "correctAnswer": "Red",
+    "correctAnswer": "9",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "The pattern repeats: Red, Blue, so Red comes next."
+    "explanation": "Mike starts with 10 toys and gives away 1, so 10 - 1 = 9 toys left.",
+    "topic": "Basic Subtraction Problems"
   },
   {
     "_id": "grade1_easy_thinking-skills_013",
-    "content": "What comes next? Circle, Square, Circle, Square, ?",
+    "content": "Which shape comes next in this sequence: Circle, Square, Triangle, Circle, Square, ?\nWhat comes next?",
     "type": "multiple_choice",
     "options": [
-      "Circle",
       "Triangle",
+      "Circle",
       "Square",
-      "Star"
+      "Rectangle"
     ],
-    "correctAnswer": "Circle",
+    "correctAnswer": "Triangle",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "The pattern repeats: Circle, Square, so Circle comes next."
+    "explanation": "The pattern repeats every three shapes: Circle, Square, Triangle.",
+    "topic": "Shape Pattern Recognition"
   },
   {
     "_id": "grade1_easy_thinking-skills_014",
-    "content": "Which one is different? Dog, Cat, Fish, Car",
+    "content": "Sarah is taller than Mike. Mike is taller than Anna. Who is the shortest?",
     "type": "multiple_choice",
     "options": [
-      "Dog",
-      "Cat",
-      "Fish",
-      "Car"
+      "Sarah",
+      "Mike",
+      "Anna",
+      "Cannot tell"
     ],
-    "correctAnswer": "Car",
+    "correctAnswer": "Anna",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "Car is different because it's not an animal."
+    "explanation": "If Sarah > Mike > Anna, then Anna is the shortest.",
+    "topic": "Simple Logic Comparisons"
   },
   {
     "_id": "grade1_easy_thinking-skills_015",
-    "content": "If you have 3 apples and eat 1, how many are left?",
+    "content": "What number is missing: 8, 11, ?, 20",
     "type": "multiple_choice",
     "options": [
-      "1",
-      "2",
-      "3",
-      "4"
+      "17",
+      "20",
+      "14",
+      "18"
     ],
-    "correctAnswer": "2",
+    "correctAnswer": "17",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "3 apples minus 1 apple equals 2 apples left."
+    "explanation": "The sequence increases by 3 each time: 8, 11, 17, 20.",
+    "topic": "Number Sequence Completion"
   },
   {
     "_id": "grade1_easy_thinking-skills_016",
-    "content": "What comes next? Red, Blue, Red, Blue, ?",
+    "content": "Look at this pattern: Purple, Orange, Purple, Orange, Purple, ?\nWhat comes next?",
     "type": "multiple_choice",
     "options": [
+      "Purple",
+      "Orange",
       "Red",
-      "Green",
-      "Yellow",
       "Blue"
     ],
-    "correctAnswer": "Red",
+    "correctAnswer": "Orange",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "The pattern repeats: Red, Blue, so Red comes next."
+    "explanation": "The pattern alternates between Purple and Orange, so Orange comes next.",
+    "topic": "Color Pattern Recognition"
   },
   {
     "_id": "grade1_easy_thinking-skills_017",
-    "content": "What comes next? Circle, Square, Circle, Square, ?",
+    "content": "If Ben has 9 marbles and gives away 3 marbles, how many marbles does Ben have left?",
     "type": "multiple_choice",
     "options": [
-      "Circle",
-      "Triangle",
-      "Square",
-      "Star"
+      "6",
+      "7",
+      "5",
+      "9"
     ],
-    "correctAnswer": "Circle",
+    "correctAnswer": "6",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "The pattern repeats: Circle, Square, so Circle comes next."
+    "explanation": "Ben starts with 9 marbles and gives away 3, so 9 - 3 = 6 marbles left.",
+    "topic": "Basic Subtraction Problems"
   },
   {
     "_id": "grade1_easy_thinking-skills_018",
-    "content": "Which one is different? Dog, Cat, Fish, Car",
+    "content": "Which shape comes next in this sequence: Circle, Square, Triangle, Circle, Square, ?\nWhat comes next?",
     "type": "multiple_choice",
     "options": [
-      "Dog",
-      "Cat",
-      "Fish",
-      "Car"
+      "Triangle",
+      "Circle",
+      "Square",
+      "Rectangle"
     ],
-    "correctAnswer": "Car",
+    "correctAnswer": "Triangle",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "Car is different because it's not an animal."
+    "explanation": "The pattern repeats every three shapes: Circle, Square, Triangle.",
+    "topic": "Shape Pattern Recognition"
   },
   {
     "_id": "grade1_easy_thinking-skills_019",
-    "content": "If you have 3 apples and eat 1, how many are left?",
+    "content": "Sarah is taller than Mike. Mike is taller than Anna. Who is the shortest?",
     "type": "multiple_choice",
     "options": [
-      "1",
-      "2",
-      "3",
-      "4"
+      "Sarah",
+      "Mike",
+      "Anna",
+      "Cannot tell"
     ],
-    "correctAnswer": "2",
+    "correctAnswer": "Anna",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "3 apples minus 1 apple equals 2 apples left."
+    "explanation": "If Sarah > Mike > Anna, then Anna is the shortest.",
+    "topic": "Simple Logic Comparisons"
   },
   {
     "_id": "grade1_easy_thinking-skills_020",
-    "content": "What comes next? Red, Blue, Red, Blue, ?",
+    "content": "What number is missing: 5, 8, ?, 17",
     "type": "multiple_choice",
     "options": [
-      "Red",
-      "Green",
-      "Yellow",
-      "Blue"
+      "14",
+      "17",
+      "11",
+      "15"
     ],
-    "correctAnswer": "Red",
+    "correctAnswer": "14",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "The pattern repeats: Red, Blue, so Red comes next."
+    "explanation": "The sequence increases by 3 each time: 5, 8, 14, 17.",
+    "topic": "Number Sequence Completion"
   }
 ]

@@ -1,442 +1,777 @@
 [
   {
-    "_id": "grade11_medium_english_001",
-    "content": "Identify the subject in: 'The tall building cast a long shadow.'",
+    "_id": "eng_11_medium_1",
+    "content": "Which word is an adjective in this sentence: 'The beautiful flower bloomed.'?",
     "type": "multiple_choice",
-    "options": [
-      "tall",
-      "building",
-      "cast",
-      "shadow"
-    ],
-    "correctAnswer": "building",
     "subject": "English",
-    "grade": 11,
+    "topic": "Grammar and Language",
     "difficulty": "medium",
-    "explanation": "The subject is 'building' because it's what performs the action.",
-    "topic": "Grammar & Reading",
+    "grade": "11",
+    "options": [
+      "The",
+      "beautiful",
+      "flower",
+      "bloomed"
+    ],
+    "correctAnswer": "beautiful",
+    "explanation": "An adjective describes a noun. 'Beautiful' describes the flower.",
+    "hints": [
+      "Think about intermediate English grammar rules."
+    ],
+    "timeLimit": 45,
     "tags": [
       "english",
       "grammar",
-      "medium"
-    ]
+      "language"
+    ],
+    "createdBy": "system",
+    "createdAt": "2025-08-11T13:03:46.667Z",
+    "isGenerated": true,
+    "generatedAt": "2025-08-11T13:03:46.667Z",
+    "generationMethod": "english-template-system"
   },
   {
-    "_id": "grade11_medium_english_002",
-    "content": "Which uses the correct form of 'their/there/they're'?",
+    "_id": "eng_11_medium_2",
+    "content": "What type of sentence is this: 'Please close the door.'?",
     "type": "multiple_choice",
-    "options": [
-      "Their going to the store.",
-      "There going to the store.",
-      "They're going to the store.",
-      "Theyre going to the store."
-    ],
-    "correctAnswer": "They're going to the store.",
     "subject": "English",
-    "grade": 11,
+    "topic": "Grammar and Language",
     "difficulty": "medium",
-    "explanation": "They're is the contraction for 'they are'.",
-    "topic": "Grammar & Reading",
+    "grade": "11",
+    "options": [
+      "Statement",
+      "Question",
+      "Command",
+      "Exclamation"
+    ],
+    "correctAnswer": "Command",
+    "explanation": "This is a command (imperative sentence) because it tells someone to do something.",
+    "hints": [
+      "Think about intermediate English grammar rules."
+    ],
+    "timeLimit": 45,
     "tags": [
       "english",
       "grammar",
-      "medium"
-    ]
+      "language"
+    ],
+    "createdBy": "system",
+    "createdAt": "2025-08-11T13:03:46.667Z",
+    "isGenerated": true,
+    "generatedAt": "2025-08-11T13:03:46.667Z",
+    "generationMethod": "english-template-system"
   },
   {
-    "_id": "grade11_medium_english_003",
-    "content": "Identify the subject in: 'The tall building cast a long shadow.'",
+    "_id": "eng_11_medium_3",
+    "content": "Which word should be capitalized: 'i went to sydney last week'?",
     "type": "multiple_choice",
-    "options": [
-      "tall",
-      "building",
-      "cast",
-      "shadow"
-    ],
-    "correctAnswer": "building",
     "subject": "English",
-    "grade": 11,
+    "topic": "Grammar and Language",
     "difficulty": "medium",
-    "explanation": "The subject is 'building' because it's what performs the action.",
-    "topic": "Grammar & Reading",
+    "grade": "11",
+    "options": [
+      "went",
+      "sydney",
+      "last",
+      "week"
+    ],
+    "correctAnswer": "sydney",
+    "explanation": "Sydney is a proper noun (city name) and should always be capitalized.",
+    "hints": [
+      "Think about intermediate English grammar rules."
+    ],
+    "timeLimit": 45,
     "tags": [
       "english",
       "grammar",
-      "medium"
-    ]
+      "language"
+    ],
+    "createdBy": "system",
+    "createdAt": "2025-08-11T13:03:46.667Z",
+    "isGenerated": true,
+    "generatedAt": "2025-08-11T13:03:46.667Z",
+    "generationMethod": "english-template-system"
   },
   {
-    "_id": "grade11_medium_english_004",
-    "content": "Which uses the correct form of 'their/there/they're'?",
+    "_id": "eng_11_medium_4",
+    "content": "Which word is an adjective in this sentence: 'The beautiful flower bloomed.'?",
     "type": "multiple_choice",
-    "options": [
-      "Their going to the store.",
-      "There going to the store.",
-      "They're going to the store.",
-      "Theyre going to the store."
-    ],
-    "correctAnswer": "They're going to the store.",
     "subject": "English",
-    "grade": 11,
+    "topic": "Grammar and Language",
     "difficulty": "medium",
-    "explanation": "They're is the contraction for 'they are'.",
-    "topic": "Grammar & Reading",
+    "grade": "11",
+    "options": [
+      "The",
+      "beautiful",
+      "flower",
+      "bloomed"
+    ],
+    "correctAnswer": "beautiful",
+    "explanation": "An adjective describes a noun. 'Beautiful' describes the flower.",
+    "hints": [
+      "Think about intermediate English grammar rules."
+    ],
+    "timeLimit": 45,
     "tags": [
       "english",
       "grammar",
-      "medium"
-    ]
+      "language"
+    ],
+    "createdBy": "system",
+    "createdAt": "2025-08-11T13:03:46.667Z",
+    "isGenerated": true,
+    "generatedAt": "2025-08-11T13:03:46.667Z",
+    "generationMethod": "english-template-system"
   },
   {
-    "_id": "grade11_medium_english_005",
-    "content": "Identify the subject in: 'The tall building cast a long shadow.'",
+    "_id": "eng_11_medium_5",
+    "content": "What type of sentence is this: 'Please close the door.'?",
     "type": "multiple_choice",
-    "options": [
-      "tall",
-      "building",
-      "cast",
-      "shadow"
-    ],
-    "correctAnswer": "building",
     "subject": "English",
-    "grade": 11,
+    "topic": "Grammar and Language",
     "difficulty": "medium",
-    "explanation": "The subject is 'building' because it's what performs the action.",
-    "topic": "Grammar & Reading",
+    "grade": "11",
+    "options": [
+      "Statement",
+      "Question",
+      "Command",
+      "Exclamation"
+    ],
+    "correctAnswer": "Command",
+    "explanation": "This is a command (imperative sentence) because it tells someone to do something.",
+    "hints": [
+      "Think about intermediate English grammar rules."
+    ],
+    "timeLimit": 45,
     "tags": [
       "english",
       "grammar",
-      "medium"
-    ]
+      "language"
+    ],
+    "createdBy": "system",
+    "createdAt": "2025-08-11T13:03:46.667Z",
+    "isGenerated": true,
+    "generatedAt": "2025-08-11T13:03:46.667Z",
+    "generationMethod": "english-template-system"
   },
   {
-    "_id": "grade11_medium_english_006",
-    "content": "Which uses the correct form of 'their/there/they're'?",
+    "_id": "eng_11_medium_6",
+    "content": "Which word should be capitalized: 'i went to sydney last week'?",
     "type": "multiple_choice",
-    "options": [
-      "Their going to the store.",
-      "There going to the store.",
-      "They're going to the store.",
-      "Theyre going to the store."
-    ],
-    "correctAnswer": "They're going to the store.",
     "subject": "English",
-    "grade": 11,
+    "topic": "Grammar and Language",
     "difficulty": "medium",
-    "explanation": "They're is the contraction for 'they are'.",
-    "topic": "Grammar & Reading",
+    "grade": "11",
+    "options": [
+      "went",
+      "sydney",
+      "last",
+      "week"
+    ],
+    "correctAnswer": "sydney",
+    "explanation": "Sydney is a proper noun (city name) and should always be capitalized.",
+    "hints": [
+      "Think about intermediate English grammar rules."
+    ],
+    "timeLimit": 45,
     "tags": [
       "english",
       "grammar",
-      "medium"
-    ]
+      "language"
+    ],
+    "createdBy": "system",
+    "createdAt": "2025-08-11T13:03:46.667Z",
+    "isGenerated": true,
+    "generatedAt": "2025-08-11T13:03:46.667Z",
+    "generationMethod": "english-template-system"
   },
   {
-    "_id": "grade11_medium_english_007",
-    "content": "Identify the subject in: 'The tall building cast a long shadow.'",
+    "_id": "eng_11_medium_7",
+    "content": "Which word is an adjective in this sentence: 'The beautiful flower bloomed.'?",
     "type": "multiple_choice",
-    "options": [
-      "tall",
-      "building",
-      "cast",
-      "shadow"
-    ],
-    "correctAnswer": "building",
     "subject": "English",
-    "grade": 11,
+    "topic": "Grammar and Language",
     "difficulty": "medium",
-    "explanation": "The subject is 'building' because it's what performs the action.",
-    "topic": "Grammar & Reading",
+    "grade": "11",
+    "options": [
+      "The",
+      "beautiful",
+      "flower",
+      "bloomed"
+    ],
+    "correctAnswer": "beautiful",
+    "explanation": "An adjective describes a noun. 'Beautiful' describes the flower.",
+    "hints": [
+      "Think about intermediate English grammar rules."
+    ],
+    "timeLimit": 45,
     "tags": [
       "english",
       "grammar",
-      "medium"
-    ]
+      "language"
+    ],
+    "createdBy": "system",
+    "createdAt": "2025-08-11T13:03:46.667Z",
+    "isGenerated": true,
+    "generatedAt": "2025-08-11T13:03:46.667Z",
+    "generationMethod": "english-template-system"
   },
   {
-    "_id": "grade11_medium_english_008",
-    "content": "Which uses the correct form of 'their/there/they're'?",
+    "_id": "eng_11_medium_8",
+    "content": "What type of sentence is this: 'Please close the door.'?",
     "type": "multiple_choice",
-    "options": [
-      "Their going to the store.",
-      "There going to the store.",
-      "They're going to the store.",
-      "Theyre going to the store."
-    ],
-    "correctAnswer": "They're going to the store.",
     "subject": "English",
-    "grade": 11,
+    "topic": "Grammar and Language",
     "difficulty": "medium",
-    "explanation": "They're is the contraction for 'they are'.",
-    "topic": "Grammar & Reading",
+    "grade": "11",
+    "options": [
+      "Statement",
+      "Question",
+      "Command",
+      "Exclamation"
+    ],
+    "correctAnswer": "Command",
+    "explanation": "This is a command (imperative sentence) because it tells someone to do something.",
+    "hints": [
+      "Think about intermediate English grammar rules."
+    ],
+    "timeLimit": 45,
     "tags": [
       "english",
       "grammar",
-      "medium"
-    ]
+      "language"
+    ],
+    "createdBy": "system",
+    "createdAt": "2025-08-11T13:03:46.667Z",
+    "isGenerated": true,
+    "generatedAt": "2025-08-11T13:03:46.667Z",
+    "generationMethod": "english-template-system"
   },
   {
-    "_id": "grade11_medium_english_009",
-    "content": "Identify the subject in: 'The tall building cast a long shadow.'",
+    "_id": "eng_11_medium_9",
+    "content": "Which word should be capitalized: 'i went to sydney last week'?",
     "type": "multiple_choice",
-    "options": [
-      "tall",
-      "building",
-      "cast",
-      "shadow"
-    ],
-    "correctAnswer": "building",
     "subject": "English",
-    "grade": 11,
+    "topic": "Grammar and Language",
     "difficulty": "medium",
-    "explanation": "The subject is 'building' because it's what performs the action.",
-    "topic": "Grammar & Reading",
+    "grade": "11",
+    "options": [
+      "went",
+      "sydney",
+      "last",
+      "week"
+    ],
+    "correctAnswer": "sydney",
+    "explanation": "Sydney is a proper noun (city name) and should always be capitalized.",
+    "hints": [
+      "Think about intermediate English grammar rules."
+    ],
+    "timeLimit": 45,
     "tags": [
       "english",
       "grammar",
-      "medium"
-    ]
+      "language"
+    ],
+    "createdBy": "system",
+    "createdAt": "2025-08-11T13:03:46.667Z",
+    "isGenerated": true,
+    "generatedAt": "2025-08-11T13:03:46.667Z",
+    "generationMethod": "english-template-system"
   },
   {
-    "_id": "grade11_medium_english_010",
-    "content": "Which uses the correct form of 'their/there/they're'?",
+    "_id": "eng_11_medium_10",
+    "content": "Which word is an adjective in this sentence: 'The beautiful flower bloomed.'?",
     "type": "multiple_choice",
-    "options": [
-      "Their going to the store.",
-      "There going to the store.",
-      "They're going to the store.",
-      "Theyre going to the store."
-    ],
-    "correctAnswer": "They're going to the store.",
     "subject": "English",
-    "grade": 11,
+    "topic": "Grammar and Language",
     "difficulty": "medium",
-    "explanation": "They're is the contraction for 'they are'.",
-    "topic": "Grammar & Reading",
+    "grade": "11",
+    "options": [
+      "The",
+      "beautiful",
+      "flower",
+      "bloomed"
+    ],
+    "correctAnswer": "beautiful",
+    "explanation": "An adjective describes a noun. 'Beautiful' describes the flower.",
+    "hints": [
+      "Think about intermediate English grammar rules."
+    ],
+    "timeLimit": 45,
     "tags": [
       "english",
       "grammar",
-      "medium"
-    ]
+      "language"
+    ],
+    "createdBy": "system",
+    "createdAt": "2025-08-11T13:03:46.667Z",
+    "isGenerated": true,
+    "generatedAt": "2025-08-11T13:03:46.667Z",
+    "generationMethod": "english-template-system"
   },
   {
-    "_id": "grade11_medium_english_011",
-    "content": "Identify the subject in: 'The tall building cast a long shadow.'",
+    "_id": "eng_11_medium_11",
+    "content": "What type of sentence is this: 'Please close the door.'?",
     "type": "multiple_choice",
-    "options": [
-      "tall",
-      "building",
-      "cast",
-      "shadow"
-    ],
-    "correctAnswer": "building",
     "subject": "English",
-    "grade": 11,
+    "topic": "Grammar and Language",
     "difficulty": "medium",
-    "explanation": "The subject is 'building' because it's what performs the action.",
-    "topic": "Grammar & Reading",
+    "grade": "11",
+    "options": [
+      "Statement",
+      "Question",
+      "Command",
+      "Exclamation"
+    ],
+    "correctAnswer": "Command",
+    "explanation": "This is a command (imperative sentence) because it tells someone to do something.",
+    "hints": [
+      "Think about intermediate English grammar rules."
+    ],
+    "timeLimit": 45,
     "tags": [
       "english",
       "grammar",
-      "medium"
-    ]
+      "language"
+    ],
+    "createdBy": "system",
+    "createdAt": "2025-08-11T13:03:46.667Z",
+    "isGenerated": true,
+    "generatedAt": "2025-08-11T13:03:46.667Z",
+    "generationMethod": "english-template-system"
   },
   {
-    "_id": "grade11_medium_english_012",
-    "content": "Which uses the correct form of 'their/there/they're'?",
+    "_id": "eng_11_medium_12",
+    "content": "Which word should be capitalized: 'i went to sydney last week'?",
     "type": "multiple_choice",
-    "options": [
-      "Their going to the store.",
-      "There going to the store.",
-      "They're going to the store.",
-      "Theyre going to the store."
-    ],
-    "correctAnswer": "They're going to the store.",
     "subject": "English",
-    "grade": 11,
+    "topic": "Grammar and Language",
     "difficulty": "medium",
-    "explanation": "They're is the contraction for 'they are'.",
-    "topic": "Grammar & Reading",
+    "grade": "11",
+    "options": [
+      "went",
+      "sydney",
+      "last",
+      "week"
+    ],
+    "correctAnswer": "sydney",
+    "explanation": "Sydney is a proper noun (city name) and should always be capitalized.",
+    "hints": [
+      "Think about intermediate English grammar rules."
+    ],
+    "timeLimit": 45,
     "tags": [
       "english",
       "grammar",
-      "medium"
-    ]
+      "language"
+    ],
+    "createdBy": "system",
+    "createdAt": "2025-08-11T13:03:46.667Z",
+    "isGenerated": true,
+    "generatedAt": "2025-08-11T13:03:46.667Z",
+    "generationMethod": "english-template-system"
   },
   {
-    "_id": "grade11_medium_english_013",
-    "content": "Identify the subject in: 'The tall building cast a long shadow.'",
+    "_id": "eng_11_medium_13",
+    "content": "Which word is an adjective in this sentence: 'The beautiful flower bloomed.'?",
     "type": "multiple_choice",
-    "options": [
-      "tall",
-      "building",
-      "cast",
-      "shadow"
-    ],
-    "correctAnswer": "building",
     "subject": "English",
-    "grade": 11,
+    "topic": "Grammar and Language",
     "difficulty": "medium",
-    "explanation": "The subject is 'building' because it's what performs the action.",
-    "topic": "Grammar & Reading",
+    "grade": "11",
+    "options": [
+      "The",
+      "beautiful",
+      "flower",
+      "bloomed"
+    ],
+    "correctAnswer": "beautiful",
+    "explanation": "An adjective describes a noun. 'Beautiful' describes the flower.",
+    "hints": [
+      "Think about intermediate English grammar rules."
+    ],
+    "timeLimit": 45,
     "tags": [
       "english",
       "grammar",
-      "medium"
-    ]
+      "language"
+    ],
+    "createdBy": "system",
+    "createdAt": "2025-08-11T13:03:46.667Z",
+    "isGenerated": true,
+    "generatedAt": "2025-08-11T13:03:46.667Z",
+    "generationMethod": "english-template-system"
   },
   {
-    "_id": "grade11_medium_english_014",
-    "content": "Which uses the correct form of 'their/there/they're'?",
+    "_id": "eng_11_medium_14",
+    "content": "What type of sentence is this: 'Please close the door.'?",
     "type": "multiple_choice",
-    "options": [
-      "Their going to the store.",
-      "There going to the store.",
-      "They're going to the store.",
-      "Theyre going to the store."
-    ],
-    "correctAnswer": "They're going to the store.",
     "subject": "English",
-    "grade": 11,
+    "topic": "Grammar and Language",
     "difficulty": "medium",
-    "explanation": "They're is the contraction for 'they are'.",
-    "topic": "Grammar & Reading",
+    "grade": "11",
+    "options": [
+      "Statement",
+      "Question",
+      "Command",
+      "Exclamation"
+    ],
+    "correctAnswer": "Command",
+    "explanation": "This is a command (imperative sentence) because it tells someone to do something.",
+    "hints": [
+      "Think about intermediate English grammar rules."
+    ],
+    "timeLimit": 45,
     "tags": [
       "english",
       "grammar",
-      "medium"
-    ]
+      "language"
+    ],
+    "createdBy": "system",
+    "createdAt": "2025-08-11T13:03:46.667Z",
+    "isGenerated": true,
+    "generatedAt": "2025-08-11T13:03:46.667Z",
+    "generationMethod": "english-template-system"
   },
   {
-    "_id": "grade11_medium_english_015",
-    "content": "Identify the subject in: 'The tall building cast a long shadow.'",
+    "_id": "eng_11_medium_15",
+    "content": "Which word should be capitalized: 'i went to sydney last week'?",
     "type": "multiple_choice",
-    "options": [
-      "tall",
-      "building",
-      "cast",
-      "shadow"
-    ],
-    "correctAnswer": "building",
     "subject": "English",
-    "grade": 11,
+    "topic": "Grammar and Language",
     "difficulty": "medium",
-    "explanation": "The subject is 'building' because it's what performs the action.",
-    "topic": "Grammar & Reading",
+    "grade": "11",
+    "options": [
+      "went",
+      "sydney",
+      "last",
+      "week"
+    ],
+    "correctAnswer": "sydney",
+    "explanation": "Sydney is a proper noun (city name) and should always be capitalized.",
+    "hints": [
+      "Think about intermediate English grammar rules."
+    ],
+    "timeLimit": 45,
     "tags": [
       "english",
       "grammar",
-      "medium"
-    ]
+      "language"
+    ],
+    "createdBy": "system",
+    "createdAt": "2025-08-11T13:03:46.667Z",
+    "isGenerated": true,
+    "generatedAt": "2025-08-11T13:03:46.667Z",
+    "generationMethod": "english-template-system"
   },
   {
-    "_id": "grade11_medium_english_016",
-    "content": "Which uses the correct form of 'their/there/they're'?",
+    "_id": "eng_11_medium_16",
+    "content": "Which word is an adjective in this sentence: 'The beautiful flower bloomed.'?",
     "type": "multiple_choice",
-    "options": [
-      "Their going to the store.",
-      "There going to the store.",
-      "They're going to the store.",
-      "Theyre going to the store."
-    ],
-    "correctAnswer": "They're going to the store.",
     "subject": "English",
-    "grade": 11,
+    "topic": "Grammar and Language",
     "difficulty": "medium",
-    "explanation": "They're is the contraction for 'they are'.",
-    "topic": "Grammar & Reading",
+    "grade": "11",
+    "options": [
+      "The",
+      "beautiful",
+      "flower",
+      "bloomed"
+    ],
+    "correctAnswer": "beautiful",
+    "explanation": "An adjective describes a noun. 'Beautiful' describes the flower.",
+    "hints": [
+      "Think about intermediate English grammar rules."
+    ],
+    "timeLimit": 45,
     "tags": [
       "english",
       "grammar",
-      "medium"
-    ]
+      "language"
+    ],
+    "createdBy": "system",
+    "createdAt": "2025-08-11T13:03:46.667Z",
+    "isGenerated": true,
+    "generatedAt": "2025-08-11T13:03:46.667Z",
+    "generationMethod": "english-template-system"
   },
   {
-    "_id": "grade11_medium_english_017",
-    "content": "Identify the subject in: 'The tall building cast a long shadow.'",
+    "_id": "eng_11_medium_17",
+    "content": "What type of sentence is this: 'Please close the door.'?",
     "type": "multiple_choice",
-    "options": [
-      "tall",
-      "building",
-      "cast",
-      "shadow"
-    ],
-    "correctAnswer": "building",
     "subject": "English",
-    "grade": 11,
+    "topic": "Grammar and Language",
     "difficulty": "medium",
-    "explanation": "The subject is 'building' because it's what performs the action.",
-    "topic": "Grammar & Reading",
+    "grade": "11",
+    "options": [
+      "Statement",
+      "Question",
+      "Command",
+      "Exclamation"
+    ],
+    "correctAnswer": "Command",
+    "explanation": "This is a command (imperative sentence) because it tells someone to do something.",
+    "hints": [
+      "Think about intermediate English grammar rules."
+    ],
+    "timeLimit": 45,
     "tags": [
       "english",
       "grammar",
-      "medium"
-    ]
+      "language"
+    ],
+    "createdBy": "system",
+    "createdAt": "2025-08-11T13:03:46.667Z",
+    "isGenerated": true,
+    "generatedAt": "2025-08-11T13:03:46.667Z",
+    "generationMethod": "english-template-system"
   },
   {
-    "_id": "grade11_medium_english_018",
-    "content": "Which uses the correct form of 'their/there/they're'?",
+    "_id": "eng_11_medium_18",
+    "content": "Which word should be capitalized: 'i went to sydney last week'?",
     "type": "multiple_choice",
-    "options": [
-      "Their going to the store.",
-      "There going to the store.",
-      "They're going to the store.",
-      "Theyre going to the store."
-    ],
-    "correctAnswer": "They're going to the store.",
     "subject": "English",
-    "grade": 11,
+    "topic": "Grammar and Language",
     "difficulty": "medium",
-    "explanation": "They're is the contraction for 'they are'.",
-    "topic": "Grammar & Reading",
+    "grade": "11",
+    "options": [
+      "went",
+      "sydney",
+      "last",
+      "week"
+    ],
+    "correctAnswer": "sydney",
+    "explanation": "Sydney is a proper noun (city name) and should always be capitalized.",
+    "hints": [
+      "Think about intermediate English grammar rules."
+    ],
+    "timeLimit": 45,
     "tags": [
       "english",
       "grammar",
-      "medium"
-    ]
+      "language"
+    ],
+    "createdBy": "system",
+    "createdAt": "2025-08-11T13:03:46.667Z",
+    "isGenerated": true,
+    "generatedAt": "2025-08-11T13:03:46.667Z",
+    "generationMethod": "english-template-system"
   },
   {
-    "_id": "grade11_medium_english_019",
-    "content": "Identify the subject in: 'The tall building cast a long shadow.'",
+    "_id": "eng_11_medium_19",
+    "content": "Which word is an adjective in this sentence: 'The beautiful flower bloomed.'?",
     "type": "multiple_choice",
-    "options": [
-      "tall",
-      "building",
-      "cast",
-      "shadow"
-    ],
-    "correctAnswer": "building",
     "subject": "English",
-    "grade": 11,
+    "topic": "Grammar and Language",
     "difficulty": "medium",
-    "explanation": "The subject is 'building' because it's what performs the action.",
-    "topic": "Grammar & Reading",
+    "grade": "11",
+    "options": [
+      "The",
+      "beautiful",
+      "flower",
+      "bloomed"
+    ],
+    "correctAnswer": "beautiful",
+    "explanation": "An adjective describes a noun. 'Beautiful' describes the flower.",
+    "hints": [
+      "Think about intermediate English grammar rules."
+    ],
+    "timeLimit": 45,
     "tags": [
       "english",
       "grammar",
-      "medium"
-    ]
+      "language"
+    ],
+    "createdBy": "system",
+    "createdAt": "2025-08-11T13:03:46.667Z",
+    "isGenerated": true,
+    "generatedAt": "2025-08-11T13:03:46.667Z",
+    "generationMethod": "english-template-system"
   },
   {
-    "_id": "grade11_medium_english_020",
-    "content": "Which uses the correct form of 'their/there/they're'?",
+    "_id": "eng_11_medium_20",
+    "content": "What type of sentence is this: 'Please close the door.'?",
     "type": "multiple_choice",
-    "options": [
-      "Their going to the store.",
-      "There going to the store.",
-      "They're going to the store.",
-      "Theyre going to the store."
-    ],
-    "correctAnswer": "They're going to the store.",
     "subject": "English",
-    "grade": 11,
+    "topic": "Grammar and Language",
     "difficulty": "medium",
-    "explanation": "They're is the contraction for 'they are'.",
-    "topic": "Grammar & Reading",
+    "grade": "11",
+    "options": [
+      "Statement",
+      "Question",
+      "Command",
+      "Exclamation"
+    ],
+    "correctAnswer": "Command",
+    "explanation": "This is a command (imperative sentence) because it tells someone to do something.",
+    "hints": [
+      "Think about intermediate English grammar rules."
+    ],
+    "timeLimit": 45,
     "tags": [
       "english",
       "grammar",
-      "medium"
-    ]
+      "language"
+    ],
+    "createdBy": "system",
+    "createdAt": "2025-08-11T13:03:46.667Z",
+    "isGenerated": true,
+    "generatedAt": "2025-08-11T13:03:46.667Z",
+    "generationMethod": "english-template-system"
+  },
+  {
+    "_id": "eng_11_medium_21",
+    "content": "Which word should be capitalized: 'i went to sydney last week'?",
+    "type": "multiple_choice",
+    "subject": "English",
+    "topic": "Grammar and Language",
+    "difficulty": "medium",
+    "grade": "11",
+    "options": [
+      "went",
+      "sydney",
+      "last",
+      "week"
+    ],
+    "correctAnswer": "sydney",
+    "explanation": "Sydney is a proper noun (city name) and should always be capitalized.",
+    "hints": [
+      "Think about intermediate English grammar rules."
+    ],
+    "timeLimit": 45,
+    "tags": [
+      "english",
+      "grammar",
+      "language"
+    ],
+    "createdBy": "system",
+    "createdAt": "2025-08-11T13:03:46.667Z",
+    "isGenerated": true,
+    "generatedAt": "2025-08-11T13:03:46.667Z",
+    "generationMethod": "english-template-system"
+  },
+  {
+    "_id": "eng_11_medium_22",
+    "content": "Which word is an adjective in this sentence: 'The beautiful flower bloomed.'?",
+    "type": "multiple_choice",
+    "subject": "English",
+    "topic": "Grammar and Language",
+    "difficulty": "medium",
+    "grade": "11",
+    "options": [
+      "The",
+      "beautiful",
+      "flower",
+      "bloomed"
+    ],
+    "correctAnswer": "beautiful",
+    "explanation": "An adjective describes a noun. 'Beautiful' describes the flower.",
+    "hints": [
+      "Think about intermediate English grammar rules."
+    ],
+    "timeLimit": 45,
+    "tags": [
+      "english",
+      "grammar",
+      "language"
+    ],
+    "createdBy": "system",
+    "createdAt": "2025-08-11T13:03:46.667Z",
+    "isGenerated": true,
+    "generatedAt": "2025-08-11T13:03:46.667Z",
+    "generationMethod": "english-template-system"
+  },
+  {
+    "_id": "eng_11_medium_23",
+    "content": "What type of sentence is this: 'Please close the door.'?",
+    "type": "multiple_choice",
+    "subject": "English",
+    "topic": "Grammar and Language",
+    "difficulty": "medium",
+    "grade": "11",
+    "options": [
+      "Statement",
+      "Question",
+      "Command",
+      "Exclamation"
+    ],
+    "correctAnswer": "Command",
+    "explanation": "This is a command (imperative sentence) because it tells someone to do something.",
+    "hints": [
+      "Think about intermediate English grammar rules."
+    ],
+    "timeLimit": 45,
+    "tags": [
+      "english",
+      "grammar",
+      "language"
+    ],
+    "createdBy": "system",
+    "createdAt": "2025-08-11T13:03:46.667Z",
+    "isGenerated": true,
+    "generatedAt": "2025-08-11T13:03:46.667Z",
+    "generationMethod": "english-template-system"
+  },
+  {
+    "_id": "eng_11_medium_24",
+    "content": "Which word should be capitalized: 'i went to sydney last week'?",
+    "type": "multiple_choice",
+    "subject": "English",
+    "topic": "Grammar and Language",
+    "difficulty": "medium",
+    "grade": "11",
+    "options": [
+      "went",
+      "sydney",
+      "last",
+      "week"
+    ],
+    "correctAnswer": "sydney",
+    "explanation": "Sydney is a proper noun (city name) and should always be capitalized.",
+    "hints": [
+      "Think about intermediate English grammar rules."
+    ],
+    "timeLimit": 45,
+    "tags": [
+      "english",
+      "grammar",
+      "language"
+    ],
+    "createdBy": "system",
+    "createdAt": "2025-08-11T13:03:46.667Z",
+    "isGenerated": true,
+    "generatedAt": "2025-08-11T13:03:46.667Z",
+    "generationMethod": "english-template-system"
+  },
+  {
+    "_id": "eng_11_medium_25",
+    "content": "Which word is an adjective in this sentence: 'The beautiful flower bloomed.'?",
+    "type": "multiple_choice",
+    "subject": "English",
+    "topic": "Grammar and Language",
+    "difficulty": "medium",
+    "grade": "11",
+    "options": [
+      "The",
+      "beautiful",
+      "flower",
+      "bloomed"
+    ],
+    "correctAnswer": "beautiful",
+    "explanation": "An adjective describes a noun. 'Beautiful' describes the flower.",
+    "hints": [
+      "Think about intermediate English grammar rules."
+    ],
+    "timeLimit": 45,
+    "tags": [
+      "english",
+      "grammar",
+      "language"
+    ],
+    "createdBy": "system",
+    "createdAt": "2025-08-11T13:03:46.667Z",
+    "isGenerated": true,
+    "generatedAt": "2025-08-11T13:03:46.667Z",
+    "generationMethod": "english-template-system"
   }
 ]

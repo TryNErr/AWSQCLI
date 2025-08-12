@@ -1,322 +1,342 @@
 [
   {
     "_id": "grade4_medium_thinking-skills_001",
-    "content": "If it takes 3 minutes to boil 1 egg, how long does it take to boil 4 eggs?",
+    "content": "A box contains 6 red balls and 5 blue balls. If you pick one ball without looking, what is the probability it will be red?",
     "type": "multiple_choice",
     "options": [
-      "3 minutes",
-      "6 minutes",
-      "9 minutes",
-      "12 minutes"
+      "6/11",
+      "5/11",
+      "1/2",
+      "6/5"
     ],
-    "correctAnswer": "3 minutes",
+    "correctAnswer": "6/11",
     "subject": "Thinking Skills",
     "grade": 4,
     "difficulty": "medium",
-    "explanation": "You can boil all 4 eggs at the same time, so it still takes 3 minutes."
+    "explanation": "There are 6 red balls out of 11 total balls, so the probability is 6/11.",
+    "topic": "Basic Probability"
   },
   {
     "_id": "grade4_medium_thinking-skills_002",
-    "content": "Sarah is taller than Mike. Mike is taller than Jenny. Who is the shortest?",
+    "content": "If all cats are animals, and Charlie is a cat, what can we conclude?",
     "type": "multiple_choice",
     "options": [
-      "Sarah",
-      "Mike",
-      "Jenny",
-      "Can't tell"
+      "Charlie is not an animal",
+      "Charlie is an animal",
+      "Some cats are not animals",
+      "Cannot tell"
     ],
-    "correctAnswer": "Jenny",
+    "correctAnswer": "Charlie is an animal",
     "subject": "Thinking Skills",
     "grade": 4,
     "difficulty": "medium",
-    "explanation": "If Sarah > Mike > Jenny, then Jenny is shortest."
+    "explanation": "Since all cats are animals and Charlie is a cat, Charlie must be an animal.",
+    "topic": "Logical Deduction"
   },
   {
     "_id": "grade4_medium_thinking-skills_003",
-    "content": "If it takes 3 minutes to boil 1 egg, how long does it take to boil 4 eggs?",
+    "content": "A farmer has chickens and rabbits. He counts 10 heads and 26 legs. How many chickens are there?",
     "type": "multiple_choice",
     "options": [
-      "3 minutes",
-      "6 minutes",
-      "9 minutes",
-      "12 minutes"
+      "7",
+      "3",
+      "10",
+      "13"
     ],
-    "correctAnswer": "3 minutes",
+    "correctAnswer": "7",
     "subject": "Thinking Skills",
     "grade": 4,
     "difficulty": "medium",
-    "explanation": "You can boil all 4 eggs at the same time, so it still takes 3 minutes."
+    "explanation": "If all were chickens: 10×2=20 legs. Extra legs: 26-20=6. Each rabbit adds 2 extra legs, so 3 rabbits. Therefore 10-3=7 chickens.",
+    "topic": "Problem Solving with Systems"
   },
   {
     "_id": "grade4_medium_thinking-skills_004",
-    "content": "Sarah is taller than Mike. Mike is taller than Jenny. Who is the shortest?",
+    "content": "A box contains 8 red balls and 3 blue balls. If you pick one ball without looking, what is the probability it will be red?",
     "type": "multiple_choice",
     "options": [
-      "Sarah",
-      "Mike",
-      "Jenny",
-      "Can't tell"
+      "8/11",
+      "3/11",
+      "1/2",
+      "8/3"
     ],
-    "correctAnswer": "Jenny",
+    "correctAnswer": "8/11",
     "subject": "Thinking Skills",
     "grade": 4,
     "difficulty": "medium",
-    "explanation": "If Sarah > Mike > Jenny, then Jenny is shortest."
+    "explanation": "There are 8 red balls out of 11 total balls, so the probability is 8/11.",
+    "topic": "Basic Probability"
   },
   {
     "_id": "grade4_medium_thinking-skills_005",
-    "content": "If it takes 3 minutes to boil 1 egg, how long does it take to boil 4 eggs?",
+    "content": "If all dogs are animals, and Charlie is a dog, what can we conclude?",
     "type": "multiple_choice",
     "options": [
-      "3 minutes",
-      "6 minutes",
-      "9 minutes",
-      "12 minutes"
+      "Charlie is not an animal",
+      "Charlie is an animal",
+      "Some dogs are not animals",
+      "Cannot tell"
     ],
-    "correctAnswer": "3 minutes",
+    "correctAnswer": "Charlie is an animal",
     "subject": "Thinking Skills",
     "grade": 4,
     "difficulty": "medium",
-    "explanation": "You can boil all 4 eggs at the same time, so it still takes 3 minutes."
+    "explanation": "Since all dogs are animals and Charlie is a dog, Charlie must be an animal.",
+    "topic": "Logical Deduction"
   },
   {
     "_id": "grade4_medium_thinking-skills_006",
-    "content": "Sarah is taller than Mike. Mike is taller than Jenny. Who is the shortest?",
+    "content": "A farmer has chickens and rabbits. He counts 11 heads and 34 legs. How many chickens are there?",
     "type": "multiple_choice",
     "options": [
-      "Sarah",
-      "Mike",
-      "Jenny",
-      "Can't tell"
+      "5",
+      "6",
+      "11",
+      "17"
     ],
-    "correctAnswer": "Jenny",
+    "correctAnswer": "5",
     "subject": "Thinking Skills",
     "grade": 4,
     "difficulty": "medium",
-    "explanation": "If Sarah > Mike > Jenny, then Jenny is shortest."
+    "explanation": "If all were chickens: 11×2=22 legs. Extra legs: 34-22=12. Each rabbit adds 2 extra legs, so 6 rabbits. Therefore 11-6=5 chickens.",
+    "topic": "Problem Solving with Systems"
   },
   {
     "_id": "grade4_medium_thinking-skills_007",
-    "content": "If it takes 3 minutes to boil 1 egg, how long does it take to boil 4 eggs?",
+    "content": "A box contains 5 red balls and 3 blue balls. If you pick one ball without looking, what is the probability it will be red?",
     "type": "multiple_choice",
     "options": [
-      "3 minutes",
-      "6 minutes",
-      "9 minutes",
-      "12 minutes"
+      "5/8",
+      "3/8",
+      "1/2",
+      "5/3"
     ],
-    "correctAnswer": "3 minutes",
+    "correctAnswer": "5/8",
     "subject": "Thinking Skills",
     "grade": 4,
     "difficulty": "medium",
-    "explanation": "You can boil all 4 eggs at the same time, so it still takes 3 minutes."
+    "explanation": "There are 5 red balls out of 8 total balls, so the probability is 5/8.",
+    "topic": "Basic Probability"
   },
   {
     "_id": "grade4_medium_thinking-skills_008",
-    "content": "Sarah is taller than Mike. Mike is taller than Jenny. Who is the shortest?",
+    "content": "If all dogs are animals, and Charlie is a dog, what can we conclude?",
     "type": "multiple_choice",
     "options": [
-      "Sarah",
-      "Mike",
-      "Jenny",
-      "Can't tell"
+      "Charlie is not an animal",
+      "Charlie is an animal",
+      "Some dogs are not animals",
+      "Cannot tell"
     ],
-    "correctAnswer": "Jenny",
+    "correctAnswer": "Charlie is an animal",
     "subject": "Thinking Skills",
     "grade": 4,
     "difficulty": "medium",
-    "explanation": "If Sarah > Mike > Jenny, then Jenny is shortest."
+    "explanation": "Since all dogs are animals and Charlie is a dog, Charlie must be an animal.",
+    "topic": "Logical Deduction"
   },
   {
     "_id": "grade4_medium_thinking-skills_009",
-    "content": "If it takes 3 minutes to boil 1 egg, how long does it take to boil 4 eggs?",
+    "content": "A farmer has chickens and rabbits. He counts 10 heads and 32 legs. How many chickens are there?",
     "type": "multiple_choice",
     "options": [
-      "3 minutes",
-      "6 minutes",
-      "9 minutes",
-      "12 minutes"
+      "4",
+      "6",
+      "10",
+      "16"
     ],
-    "correctAnswer": "3 minutes",
+    "correctAnswer": "4",
     "subject": "Thinking Skills",
     "grade": 4,
     "difficulty": "medium",
-    "explanation": "You can boil all 4 eggs at the same time, so it still takes 3 minutes."
+    "explanation": "If all were chickens: 10×2=20 legs. Extra legs: 32-20=12. Each rabbit adds 2 extra legs, so 6 rabbits. Therefore 10-6=4 chickens.",
+    "topic": "Problem Solving with Systems"
   },
   {
     "_id": "grade4_medium_thinking-skills_010",
-    "content": "Sarah is taller than Mike. Mike is taller than Jenny. Who is the shortest?",
+    "content": "A box contains 4 red balls and 2 blue balls. If you pick one ball without looking, what is the probability it will be red?",
     "type": "multiple_choice",
     "options": [
-      "Sarah",
-      "Mike",
-      "Jenny",
-      "Can't tell"
+      "4/6",
+      "2/6",
+      "1/2",
+      "4/2"
     ],
-    "correctAnswer": "Jenny",
+    "correctAnswer": "4/6",
     "subject": "Thinking Skills",
     "grade": 4,
     "difficulty": "medium",
-    "explanation": "If Sarah > Mike > Jenny, then Jenny is shortest."
+    "explanation": "There are 4 red balls out of 6 total balls, so the probability is 4/6.",
+    "topic": "Basic Probability"
   },
   {
     "_id": "grade4_medium_thinking-skills_011",
-    "content": "If it takes 3 minutes to boil 1 egg, how long does it take to boil 4 eggs?",
+    "content": "If all birds are animals, and Buddy is a bird, what can we conclude?",
     "type": "multiple_choice",
     "options": [
-      "3 minutes",
-      "6 minutes",
-      "9 minutes",
-      "12 minutes"
+      "Buddy is not an animal",
+      "Buddy is an animal",
+      "Some birds are not animals",
+      "Cannot tell"
     ],
-    "correctAnswer": "3 minutes",
+    "correctAnswer": "Buddy is an animal",
     "subject": "Thinking Skills",
     "grade": 4,
     "difficulty": "medium",
-    "explanation": "You can boil all 4 eggs at the same time, so it still takes 3 minutes."
+    "explanation": "Since all birds are animals and Buddy is a bird, Buddy must be an animal.",
+    "topic": "Logical Deduction"
   },
   {
     "_id": "grade4_medium_thinking-skills_012",
-    "content": "Sarah is taller than Mike. Mike is taller than Jenny. Who is the shortest?",
+    "content": "A farmer has chickens and rabbits. He counts 8 heads and 26 legs. How many chickens are there?",
     "type": "multiple_choice",
     "options": [
-      "Sarah",
-      "Mike",
-      "Jenny",
-      "Can't tell"
+      "3",
+      "5",
+      "8",
+      "13"
     ],
-    "correctAnswer": "Jenny",
+    "correctAnswer": "3",
     "subject": "Thinking Skills",
     "grade": 4,
     "difficulty": "medium",
-    "explanation": "If Sarah > Mike > Jenny, then Jenny is shortest."
+    "explanation": "If all were chickens: 8×2=16 legs. Extra legs: 26-16=10. Each rabbit adds 2 extra legs, so 5 rabbits. Therefore 8-5=3 chickens.",
+    "topic": "Problem Solving with Systems"
   },
   {
     "_id": "grade4_medium_thinking-skills_013",
-    "content": "If it takes 3 minutes to boil 1 egg, how long does it take to boil 4 eggs?",
+    "content": "A box contains 8 red balls and 3 blue balls. If you pick one ball without looking, what is the probability it will be red?",
     "type": "multiple_choice",
     "options": [
-      "3 minutes",
-      "6 minutes",
-      "9 minutes",
-      "12 minutes"
+      "8/11",
+      "3/11",
+      "1/2",
+      "8/3"
     ],
-    "correctAnswer": "3 minutes",
+    "correctAnswer": "8/11",
     "subject": "Thinking Skills",
     "grade": 4,
     "difficulty": "medium",
-    "explanation": "You can boil all 4 eggs at the same time, so it still takes 3 minutes."
+    "explanation": "There are 8 red balls out of 11 total balls, so the probability is 8/11.",
+    "topic": "Basic Probability"
   },
   {
     "_id": "grade4_medium_thinking-skills_014",
-    "content": "Sarah is taller than Mike. Mike is taller than Jenny. Who is the shortest?",
+    "content": "If all dogs are animals, and Buddy is a dog, what can we conclude?",
     "type": "multiple_choice",
     "options": [
-      "Sarah",
-      "Mike",
-      "Jenny",
-      "Can't tell"
+      "Buddy is not an animal",
+      "Buddy is an animal",
+      "Some dogs are not animals",
+      "Cannot tell"
     ],
-    "correctAnswer": "Jenny",
+    "correctAnswer": "Buddy is an animal",
     "subject": "Thinking Skills",
     "grade": 4,
     "difficulty": "medium",
-    "explanation": "If Sarah > Mike > Jenny, then Jenny is shortest."
+    "explanation": "Since all dogs are animals and Buddy is a dog, Buddy must be an animal.",
+    "topic": "Logical Deduction"
   },
   {
     "_id": "grade4_medium_thinking-skills_015",
-    "content": "If it takes 3 minutes to boil 1 egg, how long does it take to boil 4 eggs?",
+    "content": "A farmer has chickens and rabbits. He counts 10 heads and 36 legs. How many chickens are there?",
     "type": "multiple_choice",
     "options": [
-      "3 minutes",
-      "6 minutes",
-      "9 minutes",
-      "12 minutes"
+      "2",
+      "8",
+      "10",
+      "18"
     ],
-    "correctAnswer": "3 minutes",
+    "correctAnswer": "2",
     "subject": "Thinking Skills",
     "grade": 4,
     "difficulty": "medium",
-    "explanation": "You can boil all 4 eggs at the same time, so it still takes 3 minutes."
+    "explanation": "If all were chickens: 10×2=20 legs. Extra legs: 36-20=16. Each rabbit adds 2 extra legs, so 8 rabbits. Therefore 10-8=2 chickens.",
+    "topic": "Problem Solving with Systems"
   },
   {
     "_id": "grade4_medium_thinking-skills_016",
-    "content": "Sarah is taller than Mike. Mike is taller than Jenny. Who is the shortest?",
+    "content": "A box contains 6 red balls and 3 blue balls. If you pick one ball without looking, what is the probability it will be red?",
     "type": "multiple_choice",
     "options": [
-      "Sarah",
-      "Mike",
-      "Jenny",
-      "Can't tell"
+      "6/9",
+      "3/9",
+      "1/2",
+      "6/3"
     ],
-    "correctAnswer": "Jenny",
+    "correctAnswer": "6/9",
     "subject": "Thinking Skills",
     "grade": 4,
     "difficulty": "medium",
-    "explanation": "If Sarah > Mike > Jenny, then Jenny is shortest."
+    "explanation": "There are 6 red balls out of 9 total balls, so the probability is 6/9.",
+    "topic": "Basic Probability"
   },
   {
     "_id": "grade4_medium_thinking-skills_017",
-    "content": "If it takes 3 minutes to boil 1 egg, how long does it take to boil 4 eggs?",
+    "content": "If all dogs are animals, and Charlie is a dog, what can we conclude?",
     "type": "multiple_choice",
     "options": [
-      "3 minutes",
-      "6 minutes",
-      "9 minutes",
-      "12 minutes"
+      "Charlie is not an animal",
+      "Charlie is an animal",
+      "Some dogs are not animals",
+      "Cannot tell"
     ],
-    "correctAnswer": "3 minutes",
+    "correctAnswer": "Charlie is an animal",
     "subject": "Thinking Skills",
     "grade": 4,
     "difficulty": "medium",
-    "explanation": "You can boil all 4 eggs at the same time, so it still takes 3 minutes."
+    "explanation": "Since all dogs are animals and Charlie is a dog, Charlie must be an animal.",
+    "topic": "Logical Deduction"
   },
   {
     "_id": "grade4_medium_thinking-skills_018",
-    "content": "Sarah is taller than Mike. Mike is taller than Jenny. Who is the shortest?",
+    "content": "A farmer has chickens and rabbits. He counts 10 heads and 28 legs. How many chickens are there?",
     "type": "multiple_choice",
     "options": [
-      "Sarah",
-      "Mike",
-      "Jenny",
-      "Can't tell"
+      "6",
+      "4",
+      "10",
+      "14"
     ],
-    "correctAnswer": "Jenny",
+    "correctAnswer": "6",
     "subject": "Thinking Skills",
     "grade": 4,
     "difficulty": "medium",
-    "explanation": "If Sarah > Mike > Jenny, then Jenny is shortest."
+    "explanation": "If all were chickens: 10×2=20 legs. Extra legs: 28-20=8. Each rabbit adds 2 extra legs, so 4 rabbits. Therefore 10-4=6 chickens.",
+    "topic": "Problem Solving with Systems"
   },
   {
     "_id": "grade4_medium_thinking-skills_019",
-    "content": "If it takes 3 minutes to boil 1 egg, how long does it take to boil 4 eggs?",
+    "content": "A box contains 5 red balls and 5 blue balls. If you pick one ball without looking, what is the probability it will be red?",
     "type": "multiple_choice",
     "options": [
-      "3 minutes",
-      "6 minutes",
-      "9 minutes",
-      "12 minutes"
+      "5/10",
+      "5/10",
+      "1/2",
+      "5/5"
     ],
-    "correctAnswer": "3 minutes",
+    "correctAnswer": "5/10",
     "subject": "Thinking Skills",
     "grade": 4,
     "difficulty": "medium",
-    "explanation": "You can boil all 4 eggs at the same time, so it still takes 3 minutes."
+    "explanation": "There are 5 red balls out of 10 total balls, so the probability is 5/10.",
+    "topic": "Basic Probability"
   },
   {
     "_id": "grade4_medium_thinking-skills_020",
-    "content": "Sarah is taller than Mike. Mike is taller than Jenny. Who is the shortest?",
+    "content": "If all cats are animals, and Buddy is a cat, what can we conclude?",
     "type": "multiple_choice",
     "options": [
-      "Sarah",
-      "Mike",
-      "Jenny",
-      "Can't tell"
+      "Buddy is not an animal",
+      "Buddy is an animal",
+      "Some cats are not animals",
+      "Cannot tell"
     ],
-    "correctAnswer": "Jenny",
+    "correctAnswer": "Buddy is an animal",
     "subject": "Thinking Skills",
     "grade": 4,
     "difficulty": "medium",
-    "explanation": "If Sarah > Mike > Jenny, then Jenny is shortest."
+    "explanation": "Since all cats are animals and Buddy is a cat, Buddy must be an animal.",
+    "topic": "Logical Deduction"
   }
 ]

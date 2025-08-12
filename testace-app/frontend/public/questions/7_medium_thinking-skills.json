@@ -1,322 +1,342 @@
 [
   {
     "_id": "grade7_medium_thinking-skills_001",
-    "content": "What is the next number in the sequence: 2, 4, 6, 8, ?",
+    "content": "A sequence follows the rule: multiply by 3, then subtract 2. If it starts with 2, what is the 4th term?",
     "type": "multiple_choice",
     "options": [
-      "8",
-      "10",
-      "11",
-      "12"
+      "28",
+      "29",
+      "27",
+      "10"
     ],
-    "correctAnswer": "10",
+    "correctAnswer": "28",
     "subject": "Thinking Skills",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "The sequence increases by 2 each time: 8 + 2 = 10"
+    "explanation": "Starting with 2: 2 → 2×3-2=4 → 4×3-2=10 → 10×3-2=28.",
+    "topic": "Recursive Sequences"
   },
   {
     "_id": "grade7_medium_thinking-skills_002",
-    "content": "If all students who study hard get good grades, and Sarah studies hard, what can we conclude?",
+    "content": "A sequence follows the rule: multiply by 3, then subtract 2. If it starts with 5, what is the 4th term?",
     "type": "multiple_choice",
     "options": [
-      "Sarah will fail",
-      "Sarah will get good grades",
-      "Sarah might get good grades",
-      "Nothing can be concluded"
+      "109",
+      "110",
+      "108",
+      "37"
     ],
-    "correctAnswer": "Sarah will get good grades",
+    "correctAnswer": "109",
     "subject": "Thinking Skills",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "Since Sarah studies hard and all students who study hard get good grades, Sarah will get good grades."
+    "explanation": "Starting with 5: 5 → 5×3-2=13 → 13×3-2=37 → 37×3-2=109.",
+    "topic": "Recursive Sequences"
   },
   {
     "_id": "grade7_medium_thinking-skills_003",
-    "content": "What is 7 + 8?",
+    "content": "A sequence follows the rule: multiply by 2, then subtract 3. If it starts with 2, what is the 4th term?",
     "type": "multiple_choice",
     "options": [
-      "14",
-      "15",
-      "16",
-      "56"
+      "-5",
+      "-4",
+      "-6",
+      "-1"
     ],
-    "correctAnswer": "15",
+    "correctAnswer": "-5",
     "subject": "Thinking Skills",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "7 + 8 = 15"
+    "explanation": "Starting with 2: 2 → 2×2-3=1 → 1×2-3=-1 → -1×2-3=-5.",
+    "topic": "Recursive Sequences"
   },
   {
     "_id": "grade7_medium_thinking-skills_004",
-    "content": "If x + 2 = 10, what is x?",
+    "content": "A sequence follows the rule: multiply by 3, then subtract 3. If it starts with 6, what is the 4th term?",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "8",
-      "9",
-      "10"
+      "123",
+      "124",
+      "122",
+      "42"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "123",
     "subject": "Thinking Skills",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "x + 2 = 10, so x = 10 - 2 = 8"
+    "explanation": "Starting with 6: 6 → 6×3-3=15 → 15×3-3=42 → 42×3-3=123.",
+    "topic": "Recursive Sequences"
   },
   {
     "_id": "grade7_medium_thinking-skills_005",
-    "content": "What is 7 + 8?",
+    "content": "A sequence follows the rule: multiply by 4, then subtract 2. If it starts with 5, what is the 4th term?",
     "type": "multiple_choice",
     "options": [
-      "14",
-      "15",
-      "16",
-      "56"
+      "278",
+      "279",
+      "277",
+      "70"
     ],
-    "correctAnswer": "15",
+    "correctAnswer": "278",
     "subject": "Thinking Skills",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "7 + 8 = 15"
+    "explanation": "Starting with 5: 5 → 5×4-2=18 → 18×4-2=70 → 70×4-2=278.",
+    "topic": "Recursive Sequences"
   },
   {
     "_id": "grade7_medium_thinking-skills_006",
-    "content": "What is 7 + 8?",
+    "content": "A sequence follows the rule: multiply by 3, then subtract 3. If it starts with 5, what is the 4th term?",
     "type": "multiple_choice",
     "options": [
-      "14",
-      "15",
-      "16",
-      "56"
+      "96",
+      "97",
+      "95",
+      "33"
     ],
-    "correctAnswer": "15",
+    "correctAnswer": "96",
     "subject": "Thinking Skills",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "7 + 8 = 15"
+    "explanation": "Starting with 5: 5 → 5×3-3=12 → 12×3-3=33 → 33×3-3=96.",
+    "topic": "Recursive Sequences"
   },
   {
     "_id": "grade7_medium_thinking-skills_007",
-    "content": "What is 7 + 8?",
+    "content": "A sequence follows the rule: multiply by 4, then subtract 2. If it starts with 6, what is the 4th term?",
     "type": "multiple_choice",
     "options": [
-      "14",
-      "15",
-      "16",
-      "56"
+      "342",
+      "343",
+      "341",
+      "86"
     ],
-    "correctAnswer": "15",
+    "correctAnswer": "342",
     "subject": "Thinking Skills",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "7 + 8 = 15"
+    "explanation": "Starting with 6: 6 → 6×4-2=22 → 22×4-2=86 → 86×4-2=342.",
+    "topic": "Recursive Sequences"
   },
   {
     "_id": "grade7_medium_thinking-skills_008",
-    "content": "What is 7 + 8?",
+    "content": "A sequence follows the rule: multiply by 4, then subtract 1. If it starts with 3, what is the 4th term?",
     "type": "multiple_choice",
     "options": [
-      "14",
-      "15",
-      "16",
-      "56"
+      "171",
+      "172",
+      "170",
+      "43"
     ],
-    "correctAnswer": "15",
+    "correctAnswer": "171",
     "subject": "Thinking Skills",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "7 + 8 = 15"
+    "explanation": "Starting with 3: 3 → 3×4-1=11 → 11×4-1=43 → 43×4-1=171.",
+    "topic": "Recursive Sequences"
   },
   {
     "_id": "grade7_medium_thinking-skills_009",
-    "content": "What is the next number in the sequence: 4, 7, 10, 13, ?",
+    "content": "A sequence follows the rule: multiply by 2, then subtract 3. If it starts with 5, what is the 4th term?",
     "type": "multiple_choice",
     "options": [
-      "14",
-      "16",
-      "17",
-      "19"
+      "19",
+      "20",
+      "18",
+      "11"
     ],
-    "correctAnswer": "16",
+    "correctAnswer": "19",
     "subject": "Thinking Skills",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "The sequence increases by 3 each time: 13 + 3 = 16"
+    "explanation": "Starting with 5: 5 → 5×2-3=7 → 7×2-3=11 → 11×2-3=19.",
+    "topic": "Recursive Sequences"
   },
   {
     "_id": "grade7_medium_thinking-skills_010",
-    "content": "If all students who study hard get good grades, and Sarah studies hard, what can we conclude?",
+    "content": "A sequence follows the rule: multiply by 3, then subtract 2. If it starts with 3, what is the 4th term?",
     "type": "multiple_choice",
     "options": [
-      "Sarah will fail",
-      "Sarah will get good grades",
-      "Sarah might get good grades",
-      "Nothing can be concluded"
+      "55",
+      "56",
+      "54",
+      "19"
     ],
-    "correctAnswer": "Sarah will get good grades",
+    "correctAnswer": "55",
     "subject": "Thinking Skills",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "Since Sarah studies hard and all students who study hard get good grades, Sarah will get good grades."
+    "explanation": "Starting with 3: 3 → 3×3-2=7 → 7×3-2=19 → 19×3-2=55.",
+    "topic": "Recursive Sequences"
   },
   {
     "_id": "grade7_medium_thinking-skills_011",
-    "content": "What is 14 + 9?",
+    "content": "A sequence follows the rule: multiply by 3, then subtract 1. If it starts with 6, what is the 4th term?",
     "type": "multiple_choice",
     "options": [
-      "22",
-      "23",
-      "24",
-      "126"
+      "149",
+      "150",
+      "148",
+      "50"
     ],
-    "correctAnswer": "23",
+    "correctAnswer": "149",
     "subject": "Thinking Skills",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "14 + 9 = 23"
+    "explanation": "Starting with 6: 6 → 6×3-1=17 → 17×3-1=50 → 50×3-1=149.",
+    "topic": "Recursive Sequences"
   },
   {
     "_id": "grade7_medium_thinking-skills_012",
-    "content": "If x + 4 = 13, what is x?",
+    "content": "A sequence follows the rule: multiply by 2, then subtract 2. If it starts with 6, what is the 4th term?",
     "type": "multiple_choice",
     "options": [
-      "8",
-      "9",
-      "10",
-      "13"
+      "34",
+      "35",
+      "33",
+      "18"
     ],
-    "correctAnswer": "9",
+    "correctAnswer": "34",
     "subject": "Thinking Skills",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "x + 4 = 13, so x = 13 - 4 = 9"
+    "explanation": "Starting with 6: 6 → 6×2-2=10 → 10×2-2=18 → 18×2-2=34.",
+    "topic": "Recursive Sequences"
   },
   {
     "_id": "grade7_medium_thinking-skills_013",
-    "content": "What is 14 + 9?",
+    "content": "A sequence follows the rule: multiply by 3, then subtract 1. If it starts with 5, what is the 4th term?",
     "type": "multiple_choice",
     "options": [
-      "22",
-      "23",
-      "24",
-      "126"
+      "122",
+      "123",
+      "121",
+      "41"
     ],
-    "correctAnswer": "23",
+    "correctAnswer": "122",
     "subject": "Thinking Skills",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "14 + 9 = 23"
+    "explanation": "Starting with 5: 5 → 5×3-1=14 → 14×3-1=41 → 41×3-1=122.",
+    "topic": "Recursive Sequences"
   },
   {
     "_id": "grade7_medium_thinking-skills_014",
-    "content": "What is 14 + 9?",
+    "content": "A sequence follows the rule: multiply by 3, then subtract 1. If it starts with 4, what is the 4th term?",
     "type": "multiple_choice",
     "options": [
-      "22",
-      "23",
-      "24",
-      "126"
+      "95",
+      "96",
+      "94",
+      "32"
     ],
-    "correctAnswer": "23",
+    "correctAnswer": "95",
     "subject": "Thinking Skills",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "14 + 9 = 23"
+    "explanation": "Starting with 4: 4 → 4×3-1=11 → 11×3-1=32 → 32×3-1=95.",
+    "topic": "Recursive Sequences"
   },
   {
     "_id": "grade7_medium_thinking-skills_015",
-    "content": "What is 14 + 9?",
+    "content": "A sequence follows the rule: multiply by 4, then subtract 3. If it starts with 4, what is the 4th term?",
     "type": "multiple_choice",
     "options": [
-      "22",
-      "23",
-      "24",
-      "126"
+      "193",
+      "194",
+      "192",
+      "49"
     ],
-    "correctAnswer": "23",
+    "correctAnswer": "193",
     "subject": "Thinking Skills",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "14 + 9 = 23"
+    "explanation": "Starting with 4: 4 → 4×4-3=13 → 13×4-3=49 → 49×4-3=193.",
+    "topic": "Recursive Sequences"
   },
   {
     "_id": "grade7_medium_thinking-skills_016",
-    "content": "What is 14 + 9?",
+    "content": "A sequence follows the rule: multiply by 3, then subtract 2. If it starts with 2, what is the 4th term?",
     "type": "multiple_choice",
     "options": [
-      "22",
-      "23",
-      "24",
-      "126"
+      "28",
+      "29",
+      "27",
+      "10"
     ],
-    "correctAnswer": "23",
+    "correctAnswer": "28",
     "subject": "Thinking Skills",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "14 + 9 = 23"
+    "explanation": "Starting with 2: 2 → 2×3-2=4 → 4×3-2=10 → 10×3-2=28.",
+    "topic": "Recursive Sequences"
   },
   {
     "_id": "grade7_medium_thinking-skills_017",
-    "content": "What is the next number in the sequence: 6, 10, 14, 18, ?",
+    "content": "A sequence follows the rule: multiply by 4, then subtract 3. If it starts with 5, what is the 4th term?",
     "type": "multiple_choice",
     "options": [
-      "20",
-      "22",
-      "23",
-      "26"
+      "257",
+      "258",
+      "256",
+      "65"
     ],
-    "correctAnswer": "22",
+    "correctAnswer": "257",
     "subject": "Thinking Skills",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "The sequence increases by 4 each time: 18 + 4 = 22"
+    "explanation": "Starting with 5: 5 → 5×4-3=17 → 17×4-3=65 → 65×4-3=257.",
+    "topic": "Recursive Sequences"
   },
   {
     "_id": "grade7_medium_thinking-skills_018",
-    "content": "If all students who study hard get good grades, and Sarah studies hard, what can we conclude?",
+    "content": "A sequence follows the rule: multiply by 2, then subtract 3. If it starts with 3, what is the 4th term?",
     "type": "multiple_choice",
     "options": [
-      "Sarah will fail",
-      "Sarah will get good grades",
-      "Sarah might get good grades",
-      "Nothing can be concluded"
+      "3",
+      "4",
+      "2",
+      "3"
     ],
-    "correctAnswer": "Sarah will get good grades",
+    "correctAnswer": "3",
     "subject": "Thinking Skills",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "Since Sarah studies hard and all students who study hard get good grades, Sarah will get good grades."
+    "explanation": "Starting with 3: 3 → 3×2-3=3 → 3×2-3=3 → 3×2-3=3.",
+    "topic": "Recursive Sequences"
   },
   {
     "_id": "grade7_medium_thinking-skills_019",
-    "content": "What is 21 + 10?",
+    "content": "A sequence follows the rule: multiply by 4, then subtract 1. If it starts with 4, what is the 4th term?",
     "type": "multiple_choice",
     "options": [
-      "30",
-      "31",
-      "32",
-      "210"
+      "235",
+      "236",
+      "234",
+      "59"
     ],
-    "correctAnswer": "31",
+    "correctAnswer": "235",
     "subject": "Thinking Skills",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "21 + 10 = 31"
+    "explanation": "Starting with 4: 4 → 4×4-1=15 → 15×4-1=59 → 59×4-1=235.",
+    "topic": "Recursive Sequences"
   },
   {
     "_id": "grade7_medium_thinking-skills_020",
-    "content": "If x + 6 = 16, what is x?",
+    "content": "A sequence follows the rule: multiply by 4, then subtract 2. If it starts with 2, what is the 4th term?",
     "type": "multiple_choice",
     "options": [
-      "9",
-      "10",
-      "11",
-      "16"
+      "86",
+      "87",
+      "85",
+      "22"
     ],
-    "correctAnswer": "10",
+    "correctAnswer": "86",
     "subject": "Thinking Skills",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "x + 6 = 16, so x = 16 - 6 = 10"
+    "explanation": "Starting with 2: 2 → 2×4-2=6 → 6×4-2=22 → 22×4-2=86.",
+    "topic": "Recursive Sequences"
   }
 ]

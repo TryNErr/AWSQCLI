@@ -1,322 +1,342 @@
 [
   {
     "_id": "grade4_easy_thinking-skills_001",
-    "content": "What is the next number in the sequence: 2, 4, 6, 8, ?",
+    "content": "Look at this pattern: Blue, Yellow, Blue, Yellow, Blue, ?\nWhat comes next?",
     "type": "multiple_choice",
     "options": [
-      "9",
-      "10",
-      "11",
-      "12"
+      "Blue",
+      "Yellow",
+      "Red",
+      "Green"
     ],
-    "correctAnswer": "10",
+    "correctAnswer": "Yellow",
     "subject": "Thinking Skills",
     "grade": 4,
     "difficulty": "easy",
-    "explanation": "The sequence increases by 2 each time: 8 + 2 = 10."
+    "explanation": "The pattern alternates between Blue and Yellow, so Yellow comes next.",
+    "topic": "Color Pattern Recognition"
   },
   {
     "_id": "grade4_easy_thinking-skills_002",
-    "content": "If all birds can fly, and a robin is a bird, what can we conclude?",
+    "content": "If Sarah has 8 stickers and gives away 3 stickers, how many stickers does Sarah have left?",
     "type": "multiple_choice",
     "options": [
-      "Robins are red",
-      "Robins can fly",
-      "Robins are small",
-      "Robins sing"
+      "5",
+      "6",
+      "4",
+      "8"
     ],
-    "correctAnswer": "Robins can fly",
+    "correctAnswer": "5",
     "subject": "Thinking Skills",
     "grade": 4,
     "difficulty": "easy",
-    "explanation": "Since all birds can fly and robins are birds, robins can fly."
+    "explanation": "Sarah starts with 8 stickers and gives away 3, so 8 - 3 = 5 stickers left.",
+    "topic": "Basic Subtraction Problems"
   },
   {
     "_id": "grade4_easy_thinking-skills_003",
-    "content": "Which number doesn't belong? 2, 4, 6, 9, 8",
+    "content": "Which shape comes next in this sequence: Circle, Square, Triangle, Circle, Square, ?\nWhat comes next?",
     "type": "multiple_choice",
     "options": [
-      "2",
-      "4",
-      "6",
-      "9"
+      "Triangle",
+      "Circle",
+      "Square",
+      "Rectangle"
     ],
-    "correctAnswer": "9",
+    "correctAnswer": "Triangle",
     "subject": "Thinking Skills",
     "grade": 4,
     "difficulty": "easy",
-    "explanation": "All others are even numbers, but 9 is odd."
+    "explanation": "The pattern repeats every three shapes: Circle, Square, Triangle.",
+    "topic": "Shape Pattern Recognition"
   },
   {
     "_id": "grade4_easy_thinking-skills_004",
-    "content": "What comes next in the pattern? A, C, E, G, ?",
+    "content": "Anna is taller than Mike. Mike is taller than Sarah. Who is the shortest?",
     "type": "multiple_choice",
     "options": [
-      "H",
-      "I",
-      "J",
-      "K"
+      "Anna",
+      "Mike",
+      "Sarah",
+      "Cannot tell"
     ],
-    "correctAnswer": "I",
+    "correctAnswer": "Sarah",
     "subject": "Thinking Skills",
     "grade": 4,
     "difficulty": "easy",
-    "explanation": "Skip one letter each time: A(skip B)C(skip D)E(skip F)G(skip H)I."
+    "explanation": "If Anna > Mike > Sarah, then Sarah is the shortest.",
+    "topic": "Simple Logic Comparisons"
   },
   {
     "_id": "grade4_easy_thinking-skills_005",
-    "content": "What is the next number in the sequence: 2, 4, 6, 8, ?",
+    "content": "What number is missing: 6, 10, ?, 22",
     "type": "multiple_choice",
     "options": [
-      "9",
-      "10",
-      "11",
-      "12"
+      "18",
+      "22",
+      "14",
+      "19"
     ],
-    "correctAnswer": "10",
+    "correctAnswer": "18",
     "subject": "Thinking Skills",
     "grade": 4,
     "difficulty": "easy",
-    "explanation": "The sequence increases by 2 each time: 8 + 2 = 10."
+    "explanation": "The sequence increases by 4 each time: 6, 10, 18, 22.",
+    "topic": "Number Sequence Completion"
   },
   {
     "_id": "grade4_easy_thinking-skills_006",
-    "content": "If all birds can fly, and a robin is a bird, what can we conclude?",
+    "content": "Look at this pattern: Green, Blue, Green, Blue, Green, ?\nWhat comes next?",
     "type": "multiple_choice",
     "options": [
-      "Robins are red",
-      "Robins can fly",
-      "Robins are small",
-      "Robins sing"
+      "Green",
+      "Blue",
+      "Red",
+      "Yellow"
     ],
-    "correctAnswer": "Robins can fly",
+    "correctAnswer": "Blue",
     "subject": "Thinking Skills",
     "grade": 4,
     "difficulty": "easy",
-    "explanation": "Since all birds can fly and robins are birds, robins can fly."
+    "explanation": "The pattern alternates between Green and Blue, so Blue comes next.",
+    "topic": "Color Pattern Recognition"
   },
   {
     "_id": "grade4_easy_thinking-skills_007",
-    "content": "Which number doesn't belong? 2, 4, 6, 9, 8",
+    "content": "If Tom has 6 books and gives away 1 books, how many books does Tom have left?",
     "type": "multiple_choice",
     "options": [
-      "2",
-      "4",
+      "5",
       "6",
-      "9"
+      "4",
+      "6"
     ],
-    "correctAnswer": "9",
+    "correctAnswer": "5",
     "subject": "Thinking Skills",
     "grade": 4,
     "difficulty": "easy",
-    "explanation": "All others are even numbers, but 9 is odd."
+    "explanation": "Tom starts with 6 books and gives away 1, so 6 - 1 = 5 books left.",
+    "topic": "Basic Subtraction Problems"
   },
   {
     "_id": "grade4_easy_thinking-skills_008",
-    "content": "What comes next in the pattern? A, C, E, G, ?",
+    "content": "Which shape comes next in this sequence: Circle, Square, Triangle, Circle, Square, ?\nWhat comes next?",
     "type": "multiple_choice",
     "options": [
-      "H",
-      "I",
-      "J",
-      "K"
+      "Triangle",
+      "Circle",
+      "Square",
+      "Rectangle"
     ],
-    "correctAnswer": "I",
+    "correctAnswer": "Triangle",
     "subject": "Thinking Skills",
     "grade": 4,
     "difficulty": "easy",
-    "explanation": "Skip one letter each time: A(skip B)C(skip D)E(skip F)G(skip H)I."
+    "explanation": "The pattern repeats every three shapes: Circle, Square, Triangle.",
+    "topic": "Shape Pattern Recognition"
   },
   {
     "_id": "grade4_easy_thinking-skills_009",
-    "content": "What is the next number in the sequence: 2, 4, 6, 8, ?",
+    "content": "Anna is taller than Sarah. Sarah is taller than Mike. Who is the shortest?",
     "type": "multiple_choice",
     "options": [
-      "9",
-      "10",
-      "11",
-      "12"
+      "Anna",
+      "Sarah",
+      "Mike",
+      "Cannot tell"
     ],
-    "correctAnswer": "10",
+    "correctAnswer": "Mike",
     "subject": "Thinking Skills",
     "grade": 4,
     "difficulty": "easy",
-    "explanation": "The sequence increases by 2 each time: 8 + 2 = 10."
+    "explanation": "If Anna > Sarah > Mike, then Mike is the shortest.",
+    "topic": "Simple Logic Comparisons"
   },
   {
     "_id": "grade4_easy_thinking-skills_010",
-    "content": "If all birds can fly, and a robin is a bird, what can we conclude?",
+    "content": "What number is missing: 6, 10, ?, 22",
     "type": "multiple_choice",
     "options": [
-      "Robins are red",
-      "Robins can fly",
-      "Robins are small",
-      "Robins sing"
+      "18",
+      "22",
+      "14",
+      "19"
     ],
-    "correctAnswer": "Robins can fly",
+    "correctAnswer": "18",
     "subject": "Thinking Skills",
     "grade": 4,
     "difficulty": "easy",
-    "explanation": "Since all birds can fly and robins are birds, robins can fly."
+    "explanation": "The sequence increases by 4 each time: 6, 10, 18, 22.",
+    "topic": "Number Sequence Completion"
   },
   {
     "_id": "grade4_easy_thinking-skills_011",
-    "content": "Which number doesn't belong? 2, 4, 6, 9, 8",
+    "content": "Look at this pattern: Purple, Red, Purple, Red, Purple, ?\nWhat comes next?",
     "type": "multiple_choice",
     "options": [
-      "2",
-      "4",
-      "6",
-      "9"
+      "Purple",
+      "Red",
+      "Blue",
+      "Green"
     ],
-    "correctAnswer": "9",
+    "correctAnswer": "Red",
     "subject": "Thinking Skills",
     "grade": 4,
     "difficulty": "easy",
-    "explanation": "All others are even numbers, but 9 is odd."
+    "explanation": "The pattern alternates between Purple and Red, so Red comes next.",
+    "topic": "Color Pattern Recognition"
   },
   {
     "_id": "grade4_easy_thinking-skills_012",
-    "content": "What comes next in the pattern? A, C, E, G, ?",
+    "content": "If Ben has 10 stickers and gives away 8 stickers, how many stickers does Ben have left?",
     "type": "multiple_choice",
     "options": [
-      "H",
-      "I",
-      "J",
-      "K"
+      "2",
+      "3",
+      "1",
+      "10"
     ],
-    "correctAnswer": "I",
+    "correctAnswer": "2",
     "subject": "Thinking Skills",
     "grade": 4,
     "difficulty": "easy",
-    "explanation": "Skip one letter each time: A(skip B)C(skip D)E(skip F)G(skip H)I."
+    "explanation": "Ben starts with 10 stickers and gives away 8, so 10 - 8 = 2 stickers left.",
+    "topic": "Basic Subtraction Problems"
   },
   {
     "_id": "grade4_easy_thinking-skills_013",
-    "content": "What is the next number in the sequence: 2, 4, 6, 8, ?",
+    "content": "Which shape comes next in this sequence: Circle, Square, Triangle, Circle, Square, ?\nWhat comes next?",
     "type": "multiple_choice",
     "options": [
-      "9",
-      "10",
-      "11",
-      "12"
+      "Triangle",
+      "Circle",
+      "Square",
+      "Rectangle"
     ],
-    "correctAnswer": "10",
+    "correctAnswer": "Triangle",
     "subject": "Thinking Skills",
     "grade": 4,
     "difficulty": "easy",
-    "explanation": "The sequence increases by 2 each time: 8 + 2 = 10."
+    "explanation": "The pattern repeats every three shapes: Circle, Square, Triangle.",
+    "topic": "Shape Pattern Recognition"
   },
   {
     "_id": "grade4_easy_thinking-skills_014",
-    "content": "If all birds can fly, and a robin is a bird, what can we conclude?",
+    "content": "Anna is taller than Mike. Mike is taller than Sarah. Who is the shortest?",
     "type": "multiple_choice",
     "options": [
-      "Robins are red",
-      "Robins can fly",
-      "Robins are small",
-      "Robins sing"
+      "Anna",
+      "Mike",
+      "Sarah",
+      "Cannot tell"
     ],
-    "correctAnswer": "Robins can fly",
+    "correctAnswer": "Sarah",
     "subject": "Thinking Skills",
     "grade": 4,
     "difficulty": "easy",
-    "explanation": "Since all birds can fly and robins are birds, robins can fly."
+    "explanation": "If Anna > Mike > Sarah, then Sarah is the shortest.",
+    "topic": "Simple Logic Comparisons"
   },
   {
     "_id": "grade4_easy_thinking-skills_015",
-    "content": "Which number doesn't belong? 2, 4, 6, 9, 8",
+    "content": "What number is missing: 5, 7, ?, 13",
     "type": "multiple_choice",
     "options": [
-      "2",
-      "4",
-      "6",
-      "9"
+      "11",
+      "13",
+      "9",
+      "12"
     ],
-    "correctAnswer": "9",
+    "correctAnswer": "11",
     "subject": "Thinking Skills",
     "grade": 4,
     "difficulty": "easy",
-    "explanation": "All others are even numbers, but 9 is odd."
+    "explanation": "The sequence increases by 2 each time: 5, 7, 11, 13.",
+    "topic": "Number Sequence Completion"
   },
   {
     "_id": "grade4_easy_thinking-skills_016",
-    "content": "What comes next in the pattern? A, C, E, G, ?",
+    "content": "Look at this pattern: Blue, Red, Blue, Red, Blue, ?\nWhat comes next?",
     "type": "multiple_choice",
     "options": [
-      "H",
-      "I",
-      "J",
-      "K"
+      "Blue",
+      "Red",
+      "Green",
+      "Yellow"
     ],
-    "correctAnswer": "I",
+    "correctAnswer": "Red",
     "subject": "Thinking Skills",
     "grade": 4,
     "difficulty": "easy",
-    "explanation": "Skip one letter each time: A(skip B)C(skip D)E(skip F)G(skip H)I."
+    "explanation": "The pattern alternates between Blue and Red, so Red comes next.",
+    "topic": "Color Pattern Recognition"
   },
   {
     "_id": "grade4_easy_thinking-skills_017",
-    "content": "What is the next number in the sequence: 2, 4, 6, 8, ?",
-    "type": "multiple_choice",
-    "options": [
-      "9",
-      "10",
-      "11",
-      "12"
-    ],
-    "correctAnswer": "10",
-    "subject": "Thinking Skills",
-    "grade": 4,
-    "difficulty": "easy",
-    "explanation": "The sequence increases by 2 each time: 8 + 2 = 10."
-  },
-  {
-    "_id": "grade4_easy_thinking-skills_018",
-    "content": "If all birds can fly, and a robin is a bird, what can we conclude?",
-    "type": "multiple_choice",
-    "options": [
-      "Robins are red",
-      "Robins can fly",
-      "Robins are small",
-      "Robins sing"
-    ],
-    "correctAnswer": "Robins can fly",
-    "subject": "Thinking Skills",
-    "grade": 4,
-    "difficulty": "easy",
-    "explanation": "Since all birds can fly and robins are birds, robins can fly."
-  },
-  {
-    "_id": "grade4_easy_thinking-skills_019",
-    "content": "Which number doesn't belong? 2, 4, 6, 9, 8",
+    "content": "If Sarah has 4 marbles and gives away 2 marbles, how many marbles does Sarah have left?",
     "type": "multiple_choice",
     "options": [
       "2",
-      "4",
-      "6",
-      "9"
+      "3",
+      "1",
+      "4"
     ],
-    "correctAnswer": "9",
+    "correctAnswer": "2",
     "subject": "Thinking Skills",
     "grade": 4,
     "difficulty": "easy",
-    "explanation": "All others are even numbers, but 9 is odd."
+    "explanation": "Sarah starts with 4 marbles and gives away 2, so 4 - 2 = 2 marbles left.",
+    "topic": "Basic Subtraction Problems"
+  },
+  {
+    "_id": "grade4_easy_thinking-skills_018",
+    "content": "Which shape comes next in this sequence: Circle, Square, Triangle, Circle, Square, ?\nWhat comes next?",
+    "type": "multiple_choice",
+    "options": [
+      "Triangle",
+      "Circle",
+      "Square",
+      "Rectangle"
+    ],
+    "correctAnswer": "Triangle",
+    "subject": "Thinking Skills",
+    "grade": 4,
+    "difficulty": "easy",
+    "explanation": "The pattern repeats every three shapes: Circle, Square, Triangle.",
+    "topic": "Shape Pattern Recognition"
+  },
+  {
+    "_id": "grade4_easy_thinking-skills_019",
+    "content": "Sarah is taller than Mike. Mike is taller than Anna. Who is the shortest?",
+    "type": "multiple_choice",
+    "options": [
+      "Sarah",
+      "Mike",
+      "Anna",
+      "Cannot tell"
+    ],
+    "correctAnswer": "Anna",
+    "subject": "Thinking Skills",
+    "grade": 4,
+    "difficulty": "easy",
+    "explanation": "If Sarah > Mike > Anna, then Anna is the shortest.",
+    "topic": "Simple Logic Comparisons"
   },
   {
     "_id": "grade4_easy_thinking-skills_020",
-    "content": "What comes next in the pattern? A, C, E, G, ?",
+    "content": "What number is missing: 9, 12, ?, 21",
     "type": "multiple_choice",
     "options": [
-      "H",
-      "I",
-      "J",
-      "K"
+      "18",
+      "21",
+      "15",
+      "19"
     ],
-    "correctAnswer": "I",
+    "correctAnswer": "18",
     "subject": "Thinking Skills",
     "grade": 4,
     "difficulty": "easy",
-    "explanation": "Skip one letter each time: A(skip B)C(skip D)E(skip F)G(skip H)I."
+    "explanation": "The sequence increases by 3 each time: 9, 12, 18, 21.",
+    "topic": "Number Sequence Completion"
   }
 ]

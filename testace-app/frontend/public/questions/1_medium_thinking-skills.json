@@ -1,322 +1,342 @@
 [
   {
     "_id": "grade1_medium_thinking-skills_001",
-    "content": "Which group has more? 🍎🍎🍎 or 🍌🍌?",
+    "content": "A box contains 9 red balls and 3 blue balls. If you pick one ball without looking, what is the probability it will be red?",
     "type": "multiple_choice",
     "options": [
-      "Apples",
-      "Bananas",
-      "Same",
-      "Can't tell"
+      "9/12",
+      "3/12",
+      "1/2",
+      "9/3"
     ],
-    "correctAnswer": "Apples",
+    "correctAnswer": "9/12",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "There are 3 apples and 2 bananas, so apples has more."
+    "explanation": "There are 9 red balls out of 12 total balls, so the probability is 9/12.",
+    "topic": "Basic Probability"
   },
   {
     "_id": "grade1_medium_thinking-skills_002",
-    "content": "What number comes between 5 and 7?",
+    "content": "If all dogs are animals, and Fluffy is a dog, what can we conclude?",
     "type": "multiple_choice",
     "options": [
-      "4",
-      "6",
-      "8",
-      "9"
+      "Fluffy is not an animal",
+      "Fluffy is an animal",
+      "Some dogs are not animals",
+      "Cannot tell"
     ],
-    "correctAnswer": "6",
+    "correctAnswer": "Fluffy is an animal",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "The number between 5 and 7 is 6."
+    "explanation": "Since all dogs are animals and Fluffy is a dog, Fluffy must be an animal.",
+    "topic": "Logical Deduction"
   },
   {
     "_id": "grade1_medium_thinking-skills_003",
-    "content": "Which group has more? 🍎🍎🍎 or 🍌🍌?",
+    "content": "A farmer has chickens and rabbits. He counts 10 heads and 36 legs. How many chickens are there?",
     "type": "multiple_choice",
     "options": [
-      "Apples",
-      "Bananas",
-      "Same",
-      "Can't tell"
+      "2",
+      "8",
+      "10",
+      "18"
     ],
-    "correctAnswer": "Apples",
+    "correctAnswer": "2",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "There are 3 apples and 2 bananas, so apples has more."
+    "explanation": "If all were chickens: 10×2=20 legs. Extra legs: 36-20=16. Each rabbit adds 2 extra legs, so 8 rabbits. Therefore 10-8=2 chickens.",
+    "topic": "Problem Solving with Systems"
   },
   {
     "_id": "grade1_medium_thinking-skills_004",
-    "content": "What number comes between 5 and 7?",
+    "content": "A box contains 5 red balls and 5 blue balls. If you pick one ball without looking, what is the probability it will be red?",
     "type": "multiple_choice",
     "options": [
-      "4",
-      "6",
-      "8",
-      "9"
+      "5/10",
+      "5/10",
+      "1/2",
+      "5/5"
     ],
-    "correctAnswer": "6",
+    "correctAnswer": "5/10",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "The number between 5 and 7 is 6."
+    "explanation": "There are 5 red balls out of 10 total balls, so the probability is 5/10.",
+    "topic": "Basic Probability"
   },
   {
     "_id": "grade1_medium_thinking-skills_005",
-    "content": "Which group has more? 🍎🍎🍎 or 🍌🍌?",
+    "content": "If all cats are animals, and Buddy is a cat, what can we conclude?",
     "type": "multiple_choice",
     "options": [
-      "Apples",
-      "Bananas",
-      "Same",
-      "Can't tell"
+      "Buddy is not an animal",
+      "Buddy is an animal",
+      "Some cats are not animals",
+      "Cannot tell"
     ],
-    "correctAnswer": "Apples",
+    "correctAnswer": "Buddy is an animal",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "There are 3 apples and 2 bananas, so apples has more."
+    "explanation": "Since all cats are animals and Buddy is a cat, Buddy must be an animal.",
+    "topic": "Logical Deduction"
   },
   {
     "_id": "grade1_medium_thinking-skills_006",
-    "content": "What number comes between 5 and 7?",
+    "content": "A farmer has chickens and rabbits. He counts 10 heads and 38 legs. How many chickens are there?",
     "type": "multiple_choice",
     "options": [
-      "4",
-      "6",
-      "8",
-      "9"
+      "1",
+      "9",
+      "10",
+      "19"
     ],
-    "correctAnswer": "6",
+    "correctAnswer": "1",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "The number between 5 and 7 is 6."
+    "explanation": "If all were chickens: 10×2=20 legs. Extra legs: 38-20=18. Each rabbit adds 2 extra legs, so 9 rabbits. Therefore 10-9=1 chickens.",
+    "topic": "Problem Solving with Systems"
   },
   {
     "_id": "grade1_medium_thinking-skills_007",
-    "content": "Which group has more? 🍎🍎🍎 or 🍌🍌?",
+    "content": "A box contains 7 red balls and 5 blue balls. If you pick one ball without looking, what is the probability it will be red?",
     "type": "multiple_choice",
     "options": [
-      "Apples",
-      "Bananas",
-      "Same",
-      "Can't tell"
+      "7/12",
+      "5/12",
+      "1/2",
+      "7/5"
     ],
-    "correctAnswer": "Apples",
+    "correctAnswer": "7/12",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "There are 3 apples and 2 bananas, so apples has more."
+    "explanation": "There are 7 red balls out of 12 total balls, so the probability is 7/12.",
+    "topic": "Basic Probability"
   },
   {
     "_id": "grade1_medium_thinking-skills_008",
-    "content": "What number comes between 5 and 7?",
+    "content": "If all birds are animals, and Fluffy is a bird, what can we conclude?",
     "type": "multiple_choice",
     "options": [
-      "4",
-      "6",
-      "8",
-      "9"
+      "Fluffy is not an animal",
+      "Fluffy is an animal",
+      "Some birds are not animals",
+      "Cannot tell"
     ],
-    "correctAnswer": "6",
+    "correctAnswer": "Fluffy is an animal",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "The number between 5 and 7 is 6."
+    "explanation": "Since all birds are animals and Fluffy is a bird, Fluffy must be an animal.",
+    "topic": "Logical Deduction"
   },
   {
     "_id": "grade1_medium_thinking-skills_009",
-    "content": "Which group has more? 🍎🍎🍎 or 🍌🍌?",
+    "content": "A farmer has chickens and rabbits. He counts 8 heads and 16 legs. How many chickens are there?",
     "type": "multiple_choice",
     "options": [
-      "Apples",
-      "Bananas",
-      "Same",
-      "Can't tell"
+      "8",
+      "0",
+      "8",
+      "8"
     ],
-    "correctAnswer": "Apples",
+    "correctAnswer": "8",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "There are 3 apples and 2 bananas, so apples has more."
+    "explanation": "If all were chickens: 8×2=16 legs. Extra legs: 16-16=0. Each rabbit adds 2 extra legs, so 0 rabbits. Therefore 8-0=8 chickens.",
+    "topic": "Problem Solving with Systems"
   },
   {
     "_id": "grade1_medium_thinking-skills_010",
-    "content": "What number comes between 5 and 7?",
+    "content": "A box contains 7 red balls and 2 blue balls. If you pick one ball without looking, what is the probability it will be red?",
     "type": "multiple_choice",
     "options": [
-      "4",
-      "6",
-      "8",
-      "9"
+      "7/9",
+      "2/9",
+      "1/2",
+      "7/2"
     ],
-    "correctAnswer": "6",
+    "correctAnswer": "7/9",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "The number between 5 and 7 is 6."
+    "explanation": "There are 7 red balls out of 9 total balls, so the probability is 7/9.",
+    "topic": "Basic Probability"
   },
   {
     "_id": "grade1_medium_thinking-skills_011",
-    "content": "Which group has more? 🍎🍎🍎 or 🍌🍌?",
+    "content": "If all cats are animals, and Buddy is a cat, what can we conclude?",
     "type": "multiple_choice",
     "options": [
-      "Apples",
-      "Bananas",
-      "Same",
-      "Can't tell"
+      "Buddy is not an animal",
+      "Buddy is an animal",
+      "Some cats are not animals",
+      "Cannot tell"
     ],
-    "correctAnswer": "Apples",
+    "correctAnswer": "Buddy is an animal",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "There are 3 apples and 2 bananas, so apples has more."
+    "explanation": "Since all cats are animals and Buddy is a cat, Buddy must be an animal.",
+    "topic": "Logical Deduction"
   },
   {
     "_id": "grade1_medium_thinking-skills_012",
-    "content": "What number comes between 5 and 7?",
+    "content": "A farmer has chickens and rabbits. He counts 8 heads and 16 legs. How many chickens are there?",
     "type": "multiple_choice",
     "options": [
-      "4",
-      "6",
       "8",
-      "9"
+      "0",
+      "8",
+      "8"
     ],
-    "correctAnswer": "6",
+    "correctAnswer": "8",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "The number between 5 and 7 is 6."
+    "explanation": "If all were chickens: 8×2=16 legs. Extra legs: 16-16=0. Each rabbit adds 2 extra legs, so 0 rabbits. Therefore 8-0=8 chickens.",
+    "topic": "Problem Solving with Systems"
   },
   {
     "_id": "grade1_medium_thinking-skills_013",
-    "content": "Which group has more? 🍎🍎🍎 or 🍌🍌?",
+    "content": "A box contains 4 red balls and 2 blue balls. If you pick one ball without looking, what is the probability it will be red?",
     "type": "multiple_choice",
     "options": [
-      "Apples",
-      "Bananas",
-      "Same",
-      "Can't tell"
+      "4/6",
+      "2/6",
+      "1/2",
+      "4/2"
     ],
-    "correctAnswer": "Apples",
+    "correctAnswer": "4/6",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "There are 3 apples and 2 bananas, so apples has more."
+    "explanation": "There are 4 red balls out of 6 total balls, so the probability is 4/6.",
+    "topic": "Basic Probability"
   },
   {
     "_id": "grade1_medium_thinking-skills_014",
-    "content": "What number comes between 5 and 7?",
+    "content": "If all cats are animals, and Buddy is a cat, what can we conclude?",
     "type": "multiple_choice",
     "options": [
-      "4",
-      "6",
-      "8",
-      "9"
+      "Buddy is not an animal",
+      "Buddy is an animal",
+      "Some cats are not animals",
+      "Cannot tell"
     ],
-    "correctAnswer": "6",
+    "correctAnswer": "Buddy is an animal",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "The number between 5 and 7 is 6."
+    "explanation": "Since all cats are animals and Buddy is a cat, Buddy must be an animal.",
+    "topic": "Logical Deduction"
   },
   {
     "_id": "grade1_medium_thinking-skills_015",
-    "content": "Which group has more? 🍎🍎🍎 or 🍌🍌?",
+    "content": "A farmer has chickens and rabbits. He counts 10 heads and 34 legs. How many chickens are there?",
     "type": "multiple_choice",
     "options": [
-      "Apples",
-      "Bananas",
-      "Same",
-      "Can't tell"
+      "3",
+      "7",
+      "10",
+      "17"
     ],
-    "correctAnswer": "Apples",
+    "correctAnswer": "3",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "There are 3 apples and 2 bananas, so apples has more."
+    "explanation": "If all were chickens: 10×2=20 legs. Extra legs: 34-20=14. Each rabbit adds 2 extra legs, so 7 rabbits. Therefore 10-7=3 chickens.",
+    "topic": "Problem Solving with Systems"
   },
   {
     "_id": "grade1_medium_thinking-skills_016",
-    "content": "What number comes between 5 and 7?",
+    "content": "A box contains 9 red balls and 3 blue balls. If you pick one ball without looking, what is the probability it will be red?",
     "type": "multiple_choice",
     "options": [
-      "4",
-      "6",
-      "8",
-      "9"
+      "9/12",
+      "3/12",
+      "1/2",
+      "9/3"
     ],
-    "correctAnswer": "6",
+    "correctAnswer": "9/12",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "The number between 5 and 7 is 6."
+    "explanation": "There are 9 red balls out of 12 total balls, so the probability is 9/12.",
+    "topic": "Basic Probability"
   },
   {
     "_id": "grade1_medium_thinking-skills_017",
-    "content": "Which group has more? 🍎🍎🍎 or 🍌🍌?",
+    "content": "If all cats are animals, and Fluffy is a cat, what can we conclude?",
     "type": "multiple_choice",
     "options": [
-      "Apples",
-      "Bananas",
-      "Same",
-      "Can't tell"
+      "Fluffy is not an animal",
+      "Fluffy is an animal",
+      "Some cats are not animals",
+      "Cannot tell"
     ],
-    "correctAnswer": "Apples",
+    "correctAnswer": "Fluffy is an animal",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "There are 3 apples and 2 bananas, so apples has more."
+    "explanation": "Since all cats are animals and Fluffy is a cat, Fluffy must be an animal.",
+    "topic": "Logical Deduction"
   },
   {
     "_id": "grade1_medium_thinking-skills_018",
-    "content": "What number comes between 5 and 7?",
+    "content": "A farmer has chickens and rabbits. He counts 9 heads and 26 legs. How many chickens are there?",
     "type": "multiple_choice",
     "options": [
+      "5",
       "4",
-      "6",
-      "8",
-      "9"
+      "9",
+      "13"
     ],
-    "correctAnswer": "6",
+    "correctAnswer": "5",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "The number between 5 and 7 is 6."
+    "explanation": "If all were chickens: 9×2=18 legs. Extra legs: 26-18=8. Each rabbit adds 2 extra legs, so 4 rabbits. Therefore 9-4=5 chickens.",
+    "topic": "Problem Solving with Systems"
   },
   {
     "_id": "grade1_medium_thinking-skills_019",
-    "content": "Which group has more? 🍎🍎🍎 or 🍌🍌?",
+    "content": "A box contains 7 red balls and 2 blue balls. If you pick one ball without looking, what is the probability it will be red?",
     "type": "multiple_choice",
     "options": [
-      "Apples",
-      "Bananas",
-      "Same",
-      "Can't tell"
+      "7/9",
+      "2/9",
+      "1/2",
+      "7/2"
     ],
-    "correctAnswer": "Apples",
+    "correctAnswer": "7/9",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "There are 3 apples and 2 bananas, so apples has more."
+    "explanation": "There are 7 red balls out of 9 total balls, so the probability is 7/9.",
+    "topic": "Basic Probability"
   },
   {
     "_id": "grade1_medium_thinking-skills_020",
-    "content": "What number comes between 5 and 7?",
+    "content": "If all dogs are animals, and Charlie is a dog, what can we conclude?",
     "type": "multiple_choice",
     "options": [
-      "4",
-      "6",
-      "8",
-      "9"
+      "Charlie is not an animal",
+      "Charlie is an animal",
+      "Some dogs are not animals",
+      "Cannot tell"
     ],
-    "correctAnswer": "6",
+    "correctAnswer": "Charlie is an animal",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "The number between 5 and 7 is 6."
+    "explanation": "Since all dogs are animals and Charlie is a dog, Charlie must be an animal.",
+    "topic": "Logical Deduction"
   }
 ]

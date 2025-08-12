@@ -1,322 +1,342 @@
 [
   {
     "_id": "grade11_medium_thinking-skills_001",
-    "content": "What is the next number in the sequence: 2, 4, 6, 8, ?",
+    "content": "A company's profit increases by 17% each year. If the profit was $65 in 2020, what will it be in 2023?",
     "type": "multiple_choice",
     "options": [
-      "8",
-      "10",
-      "11",
-      "12"
+      "$104",
+      "$98",
+      "$116",
+      "$98"
     ],
-    "correctAnswer": "10",
+    "correctAnswer": "$104",
     "subject": "Thinking Skills",
     "grade": 11,
     "difficulty": "medium",
-    "explanation": "The sequence increases by 2 each time: 8 + 2 = 10"
+    "explanation": "After 3 years with 17% annual growth: $65 × (1.17)^3 = $104.",
+    "topic": "Exponential Growth"
   },
   {
     "_id": "grade11_medium_thinking-skills_002",
-    "content": "If all students who study hard get good grades, and Sarah studies hard, what can we conclude?",
+    "content": "A company's profit increases by 16% each year. If the profit was $48 in 2020, what will it be in 2024?",
     "type": "multiple_choice",
     "options": [
-      "Sarah will fail",
-      "Sarah will get good grades",
-      "Sarah might get good grades",
-      "Nothing can be concluded"
+      "$87",
+      "$79",
+      "$112",
+      "$72"
     ],
-    "correctAnswer": "Sarah will get good grades",
+    "correctAnswer": "$87",
     "subject": "Thinking Skills",
     "grade": 11,
     "difficulty": "medium",
-    "explanation": "Since Sarah studies hard and all students who study hard get good grades, Sarah will get good grades."
+    "explanation": "After 4 years with 16% annual growth: $48 × (1.16)^4 = $87.",
+    "topic": "Exponential Growth"
   },
   {
     "_id": "grade11_medium_thinking-skills_003",
-    "content": "What is 11 + 12?",
+    "content": "A company's profit increases by 19% each year. If the profit was $41 in 2020, what will it be in 2022?",
     "type": "multiple_choice",
     "options": [
-      "22",
-      "23",
-      "24",
-      "132"
+      "$58",
+      "$57",
+      "$79",
+      "$62"
     ],
-    "correctAnswer": "23",
+    "correctAnswer": "$58",
     "subject": "Thinking Skills",
     "grade": 11,
     "difficulty": "medium",
-    "explanation": "11 + 12 = 23"
+    "explanation": "After 2 years with 19% annual growth: $41 × (1.19)^2 = $58.",
+    "topic": "Exponential Growth"
   },
   {
     "_id": "grade11_medium_thinking-skills_004",
-    "content": "If x + 2 = 14, what is x?",
+    "content": "A company's profit increases by 15% each year. If the profit was $54 in 2020, what will it be in 2023?",
     "type": "multiple_choice",
     "options": [
-      "11",
-      "12",
-      "13",
-      "14"
+      "$82",
+      "$78",
+      "$99",
+      "$81"
     ],
-    "correctAnswer": "12",
+    "correctAnswer": "$82",
     "subject": "Thinking Skills",
     "grade": 11,
     "difficulty": "medium",
-    "explanation": "x + 2 = 14, so x = 14 - 2 = 12"
+    "explanation": "After 3 years with 15% annual growth: $54 × (1.15)^3 = $82.",
+    "topic": "Exponential Growth"
   },
   {
     "_id": "grade11_medium_thinking-skills_005",
-    "content": "What is 11 + 12?",
+    "content": "A company's profit increases by 23% each year. If the profit was $42 in 2020, what will it be in 2024?",
     "type": "multiple_choice",
     "options": [
-      "22",
-      "23",
-      "24",
-      "132"
+      "$96",
+      "$81",
+      "$134",
+      "$63"
     ],
-    "correctAnswer": "23",
+    "correctAnswer": "$96",
     "subject": "Thinking Skills",
     "grade": 11,
     "difficulty": "medium",
-    "explanation": "11 + 12 = 23"
+    "explanation": "After 4 years with 23% annual growth: $42 × (1.23)^4 = $96.",
+    "topic": "Exponential Growth"
   },
   {
     "_id": "grade11_medium_thinking-skills_006",
-    "content": "What is 11 + 12?",
+    "content": "A company's profit increases by 21% each year. If the profit was $58 in 2020, what will it be in 2024?",
     "type": "multiple_choice",
     "options": [
-      "22",
-      "23",
-      "24",
-      "132"
+      "$124",
+      "$107",
+      "$142",
+      "$87"
     ],
-    "correctAnswer": "23",
+    "correctAnswer": "$124",
     "subject": "Thinking Skills",
     "grade": 11,
     "difficulty": "medium",
-    "explanation": "11 + 12 = 23"
+    "explanation": "After 4 years with 21% annual growth: $58 × (1.21)^4 = $124.",
+    "topic": "Exponential Growth"
   },
   {
     "_id": "grade11_medium_thinking-skills_007",
-    "content": "What is 11 + 12?",
+    "content": "A company's profit increases by 16% each year. If the profit was $44 in 2020, what will it be in 2024?",
     "type": "multiple_choice",
     "options": [
-      "22",
-      "23",
-      "24",
-      "132"
+      "$80",
+      "$72",
+      "$108",
+      "$66"
     ],
-    "correctAnswer": "23",
+    "correctAnswer": "$80",
     "subject": "Thinking Skills",
     "grade": 11,
     "difficulty": "medium",
-    "explanation": "11 + 12 = 23"
+    "explanation": "After 4 years with 16% annual growth: $44 × (1.16)^4 = $80.",
+    "topic": "Exponential Growth"
   },
   {
     "_id": "grade11_medium_thinking-skills_008",
-    "content": "What is 11 + 12?",
+    "content": "A company's profit increases by 23% each year. If the profit was $65 in 2020, what will it be in 2024?",
     "type": "multiple_choice",
     "options": [
-      "22",
-      "23",
-      "24",
-      "132"
+      "$149",
+      "$125",
+      "$157",
+      "$98"
     ],
-    "correctAnswer": "23",
+    "correctAnswer": "$149",
     "subject": "Thinking Skills",
     "grade": 11,
     "difficulty": "medium",
-    "explanation": "11 + 12 = 23"
+    "explanation": "After 4 years with 23% annual growth: $65 × (1.23)^4 = $149.",
+    "topic": "Exponential Growth"
   },
   {
     "_id": "grade11_medium_thinking-skills_009",
-    "content": "What is the next number in the sequence: 4, 7, 10, 13, ?",
+    "content": "A company's profit increases by 24% each year. If the profit was $48 in 2020, what will it be in 2024?",
     "type": "multiple_choice",
     "options": [
-      "14",
-      "16",
-      "17",
-      "19"
+      "$113",
+      "$94",
+      "$144",
+      "$72"
     ],
-    "correctAnswer": "16",
+    "correctAnswer": "$113",
     "subject": "Thinking Skills",
     "grade": 11,
     "difficulty": "medium",
-    "explanation": "The sequence increases by 3 each time: 13 + 3 = 16"
+    "explanation": "After 4 years with 24% annual growth: $48 × (1.24)^4 = $113.",
+    "topic": "Exponential Growth"
   },
   {
     "_id": "grade11_medium_thinking-skills_010",
-    "content": "If all students who study hard get good grades, and Sarah studies hard, what can we conclude?",
+    "content": "A company's profit increases by 24% each year. If the profit was $66 in 2020, what will it be in 2024?",
     "type": "multiple_choice",
     "options": [
-      "Sarah will fail",
-      "Sarah will get good grades",
-      "Sarah might get good grades",
-      "Nothing can be concluded"
+      "$156",
+      "$129",
+      "$162",
+      "$99"
     ],
-    "correctAnswer": "Sarah will get good grades",
+    "correctAnswer": "$156",
     "subject": "Thinking Skills",
     "grade": 11,
     "difficulty": "medium",
-    "explanation": "Since Sarah studies hard and all students who study hard get good grades, Sarah will get good grades."
+    "explanation": "After 4 years with 24% annual growth: $66 × (1.24)^4 = $156.",
+    "topic": "Exponential Growth"
   },
   {
     "_id": "grade11_medium_thinking-skills_011",
-    "content": "What is 22 + 13?",
+    "content": "A company's profit increases by 22% each year. If the profit was $67 in 2020, what will it be in 2022?",
     "type": "multiple_choice",
     "options": [
-      "34",
-      "35",
-      "36",
-      "286"
+      "$100",
+      "$96",
+      "$111",
+      "$101"
     ],
-    "correctAnswer": "35",
+    "correctAnswer": "$100",
     "subject": "Thinking Skills",
     "grade": 11,
     "difficulty": "medium",
-    "explanation": "22 + 13 = 35"
+    "explanation": "After 2 years with 22% annual growth: $67 × (1.22)^2 = $100.",
+    "topic": "Exponential Growth"
   },
   {
     "_id": "grade11_medium_thinking-skills_012",
-    "content": "If x + 4 = 17, what is x?",
+    "content": "A company's profit increases by 20% each year. If the profit was $43 in 2020, what will it be in 2023?",
     "type": "multiple_choice",
     "options": [
-      "12",
-      "13",
-      "14",
-      "17"
+      "$74",
+      "$69",
+      "$103",
+      "$65"
     ],
-    "correctAnswer": "13",
+    "correctAnswer": "$74",
     "subject": "Thinking Skills",
     "grade": 11,
     "difficulty": "medium",
-    "explanation": "x + 4 = 17, so x = 17 - 4 = 13"
+    "explanation": "After 3 years with 20% annual growth: $43 × (1.2)^3 = $74.",
+    "topic": "Exponential Growth"
   },
   {
     "_id": "grade11_medium_thinking-skills_013",
-    "content": "What is 22 + 13?",
+    "content": "A company's profit increases by 19% each year. If the profit was $68 in 2020, what will it be in 2024?",
     "type": "multiple_choice",
     "options": [
-      "34",
-      "35",
-      "36",
-      "286"
+      "$136",
+      "$120",
+      "$144",
+      "$102"
     ],
-    "correctAnswer": "35",
+    "correctAnswer": "$136",
     "subject": "Thinking Skills",
     "grade": 11,
     "difficulty": "medium",
-    "explanation": "22 + 13 = 35"
+    "explanation": "After 4 years with 19% annual growth: $68 × (1.19)^4 = $136.",
+    "topic": "Exponential Growth"
   },
   {
     "_id": "grade11_medium_thinking-skills_014",
-    "content": "What is 22 + 13?",
+    "content": "A company's profit increases by 24% each year. If the profit was $58 in 2020, what will it be in 2023?",
     "type": "multiple_choice",
     "options": [
-      "34",
-      "35",
-      "36",
-      "286"
+      "$111",
+      "$100",
+      "$130",
+      "$87"
     ],
-    "correctAnswer": "35",
+    "correctAnswer": "$111",
     "subject": "Thinking Skills",
     "grade": 11,
     "difficulty": "medium",
-    "explanation": "22 + 13 = 35"
+    "explanation": "After 3 years with 24% annual growth: $58 × (1.24)^3 = $111.",
+    "topic": "Exponential Growth"
   },
   {
     "_id": "grade11_medium_thinking-skills_015",
-    "content": "What is 22 + 13?",
+    "content": "A company's profit increases by 15% each year. If the profit was $59 in 2020, what will it be in 2024?",
     "type": "multiple_choice",
     "options": [
-      "34",
-      "35",
-      "36",
-      "286"
+      "$103",
+      "$94",
+      "$119",
+      "$89"
     ],
-    "correctAnswer": "35",
+    "correctAnswer": "$103",
     "subject": "Thinking Skills",
     "grade": 11,
     "difficulty": "medium",
-    "explanation": "22 + 13 = 35"
+    "explanation": "After 4 years with 15% annual growth: $59 × (1.15)^4 = $103.",
+    "topic": "Exponential Growth"
   },
   {
     "_id": "grade11_medium_thinking-skills_016",
-    "content": "What is 22 + 13?",
+    "content": "A company's profit increases by 17% each year. If the profit was $47 in 2020, what will it be in 2024?",
     "type": "multiple_choice",
     "options": [
-      "34",
-      "35",
-      "36",
-      "286"
+      "$88",
+      "$79",
+      "$115",
+      "$71"
     ],
-    "correctAnswer": "35",
+    "correctAnswer": "$88",
     "subject": "Thinking Skills",
     "grade": 11,
     "difficulty": "medium",
-    "explanation": "22 + 13 = 35"
+    "explanation": "After 4 years with 17% annual growth: $47 × (1.17)^4 = $88.",
+    "topic": "Exponential Growth"
   },
   {
     "_id": "grade11_medium_thinking-skills_017",
-    "content": "What is the next number in the sequence: 6, 10, 14, 18, ?",
+    "content": "A company's profit increases by 16% each year. If the profit was $47 in 2020, what will it be in 2024?",
     "type": "multiple_choice",
     "options": [
-      "20",
-      "22",
-      "23",
-      "26"
+      "$85",
+      "$77",
+      "$111",
+      "$71"
     ],
-    "correctAnswer": "22",
+    "correctAnswer": "$85",
     "subject": "Thinking Skills",
     "grade": 11,
     "difficulty": "medium",
-    "explanation": "The sequence increases by 4 each time: 18 + 4 = 22"
+    "explanation": "After 4 years with 16% annual growth: $47 × (1.16)^4 = $85.",
+    "topic": "Exponential Growth"
   },
   {
     "_id": "grade11_medium_thinking-skills_018",
-    "content": "If all students who study hard get good grades, and Sarah studies hard, what can we conclude?",
+    "content": "A company's profit increases by 15% each year. If the profit was $55 in 2020, what will it be in 2023?",
     "type": "multiple_choice",
     "options": [
-      "Sarah will fail",
-      "Sarah will get good grades",
-      "Sarah might get good grades",
-      "Nothing can be concluded"
+      "$84",
+      "$80",
+      "$100",
+      "$83"
     ],
-    "correctAnswer": "Sarah will get good grades",
+    "correctAnswer": "$84",
     "subject": "Thinking Skills",
     "grade": 11,
     "difficulty": "medium",
-    "explanation": "Since Sarah studies hard and all students who study hard get good grades, Sarah will get good grades."
+    "explanation": "After 3 years with 15% annual growth: $55 × (1.15)^3 = $84.",
+    "topic": "Exponential Growth"
   },
   {
     "_id": "grade11_medium_thinking-skills_019",
-    "content": "What is 33 + 14?",
+    "content": "A company's profit increases by 22% each year. If the profit was $43 in 2020, what will it be in 2023?",
     "type": "multiple_choice",
     "options": [
-      "46",
-      "47",
-      "48",
-      "462"
+      "$78",
+      "$71",
+      "$109",
+      "$65"
     ],
-    "correctAnswer": "47",
+    "correctAnswer": "$78",
     "subject": "Thinking Skills",
     "grade": 11,
     "difficulty": "medium",
-    "explanation": "33 + 14 = 47"
+    "explanation": "After 3 years with 22% annual growth: $43 × (1.22)^3 = $78.",
+    "topic": "Exponential Growth"
   },
   {
     "_id": "grade11_medium_thinking-skills_020",
-    "content": "If x + 6 = 20, what is x?",
+    "content": "A company's profit increases by 16% each year. If the profit was $67 in 2020, what will it be in 2022?",
     "type": "multiple_choice",
     "options": [
-      "13",
-      "14",
-      "15",
-      "20"
+      "$90",
+      "$88",
+      "$99",
+      "$101"
     ],
-    "correctAnswer": "14",
+    "correctAnswer": "$90",
     "subject": "Thinking Skills",
     "grade": 11,
     "difficulty": "medium",
-    "explanation": "x + 6 = 20, so x = 20 - 6 = 14"
+    "explanation": "After 2 years with 16% annual growth: $67 × (1.16)^2 = $90.",
+    "topic": "Exponential Growth"
   }
 ]

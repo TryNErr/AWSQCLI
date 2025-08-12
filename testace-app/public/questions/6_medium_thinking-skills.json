@@ -1,11 +1,45 @@
 [
   {
     "_id": "grade6_medium_thinking-skills_001",
-    "content": "What is the next number in the sequence: 2, 4, 6, 8, ?",
+    "content": "A box contains 6 red balls and 4 blue balls. If you pick one ball without looking, what is the probability it will be red?",
     "type": "multiple_choice",
     "options": [
-      "8",
+      "6/10",
+      "4/10",
+      "1/2",
+      "6/4"
+    ],
+    "correctAnswer": "6/10",
+    "subject": "Thinking Skills",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "There are 6 red balls out of 10 total balls, so the probability is 6/10.",
+    "topic": "Basic Probability"
+  },
+  {
+    "_id": "grade6_medium_thinking-skills_002",
+    "content": "If all birds are animals, and Charlie is a bird, what can we conclude?",
+    "type": "multiple_choice",
+    "options": [
+      "Charlie is not an animal",
+      "Charlie is an animal",
+      "Some birds are not animals",
+      "Cannot tell"
+    ],
+    "correctAnswer": "Charlie is an animal",
+    "subject": "Thinking Skills",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "Since all birds are animals and Charlie is a bird, Charlie must be an animal.",
+    "topic": "Logical Deduction"
+  },
+  {
+    "_id": "grade6_medium_thinking-skills_003",
+    "content": "A farmer has chickens and rabbits. He counts 11 heads and 24 legs. How many chickens are there?",
+    "type": "multiple_choice",
+    "options": [
       "10",
+      "1",
       "11",
       "12"
     ],
@@ -13,310 +47,296 @@
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "medium",
-    "explanation": "The sequence increases by 2 each time: 8 + 2 = 10"
-  },
-  {
-    "_id": "grade6_medium_thinking-skills_002",
-    "content": "If all students who study hard get good grades, and Sarah studies hard, what can we conclude?",
-    "type": "multiple_choice",
-    "options": [
-      "Sarah will fail",
-      "Sarah will get good grades",
-      "Sarah might get good grades",
-      "Nothing can be concluded"
-    ],
-    "correctAnswer": "Sarah will get good grades",
-    "subject": "Thinking Skills",
-    "grade": 6,
-    "difficulty": "medium",
-    "explanation": "Since Sarah studies hard and all students who study hard get good grades, Sarah will get good grades."
-  },
-  {
-    "_id": "grade6_medium_thinking-skills_003",
-    "content": "What is 6 + 7?",
-    "type": "multiple_choice",
-    "options": [
-      "12",
-      "13",
-      "14",
-      "42"
-    ],
-    "correctAnswer": "13",
-    "subject": "Thinking Skills",
-    "grade": 6,
-    "difficulty": "medium",
-    "explanation": "6 + 7 = 13"
+    "explanation": "If all were chickens: 11×2=22 legs. Extra legs: 24-22=2. Each rabbit adds 2 extra legs, so 1 rabbits. Therefore 11-1=10 chickens.",
+    "topic": "Problem Solving with Systems"
   },
   {
     "_id": "grade6_medium_thinking-skills_004",
-    "content": "If x + 2 = 9, what is x?",
+    "content": "A box contains 4 red balls and 5 blue balls. If you pick one ball without looking, what is the probability it will be red?",
     "type": "multiple_choice",
     "options": [
-      "6",
-      "7",
-      "8",
-      "9"
+      "4/9",
+      "5/9",
+      "1/2",
+      "4/5"
     ],
-    "correctAnswer": "7",
+    "correctAnswer": "4/9",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "medium",
-    "explanation": "x + 2 = 9, so x = 9 - 2 = 7"
+    "explanation": "There are 4 red balls out of 9 total balls, so the probability is 4/9.",
+    "topic": "Basic Probability"
   },
   {
     "_id": "grade6_medium_thinking-skills_005",
-    "content": "What is 6 + 7?",
+    "content": "If all birds are animals, and Fluffy is a bird, what can we conclude?",
     "type": "multiple_choice",
     "options": [
-      "12",
-      "13",
-      "14",
-      "42"
+      "Fluffy is not an animal",
+      "Fluffy is an animal",
+      "Some birds are not animals",
+      "Cannot tell"
     ],
-    "correctAnswer": "13",
+    "correctAnswer": "Fluffy is an animal",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "medium",
-    "explanation": "6 + 7 = 13"
+    "explanation": "Since all birds are animals and Fluffy is a bird, Fluffy must be an animal.",
+    "topic": "Logical Deduction"
   },
   {
     "_id": "grade6_medium_thinking-skills_006",
-    "content": "What is 6 + 7?",
+    "content": "A farmer has chickens and rabbits. He counts 12 heads and 40 legs. How many chickens are there?",
     "type": "multiple_choice",
     "options": [
+      "4",
+      "8",
       "12",
-      "13",
-      "14",
-      "42"
+      "20"
     ],
-    "correctAnswer": "13",
+    "correctAnswer": "4",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "medium",
-    "explanation": "6 + 7 = 13"
+    "explanation": "If all were chickens: 12×2=24 legs. Extra legs: 40-24=16. Each rabbit adds 2 extra legs, so 8 rabbits. Therefore 12-8=4 chickens.",
+    "topic": "Problem Solving with Systems"
   },
   {
     "_id": "grade6_medium_thinking-skills_007",
-    "content": "What is 6 + 7?",
+    "content": "A box contains 4 red balls and 3 blue balls. If you pick one ball without looking, what is the probability it will be red?",
     "type": "multiple_choice",
     "options": [
-      "12",
-      "13",
-      "14",
-      "42"
+      "4/7",
+      "3/7",
+      "1/2",
+      "4/3"
     ],
-    "correctAnswer": "13",
+    "correctAnswer": "4/7",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "medium",
-    "explanation": "6 + 7 = 13"
+    "explanation": "There are 4 red balls out of 7 total balls, so the probability is 4/7.",
+    "topic": "Basic Probability"
   },
   {
     "_id": "grade6_medium_thinking-skills_008",
-    "content": "What is 6 + 7?",
+    "content": "If all cats are animals, and Buddy is a cat, what can we conclude?",
     "type": "multiple_choice",
     "options": [
-      "12",
-      "13",
-      "14",
-      "42"
+      "Buddy is not an animal",
+      "Buddy is an animal",
+      "Some cats are not animals",
+      "Cannot tell"
     ],
-    "correctAnswer": "13",
+    "correctAnswer": "Buddy is an animal",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "medium",
-    "explanation": "6 + 7 = 13"
+    "explanation": "Since all cats are animals and Buddy is a cat, Buddy must be an animal.",
+    "topic": "Logical Deduction"
   },
   {
     "_id": "grade6_medium_thinking-skills_009",
-    "content": "What is the next number in the sequence: 4, 7, 10, 13, ?",
+    "content": "A farmer has chickens and rabbits. He counts 11 heads and 22 legs. How many chickens are there?",
     "type": "multiple_choice",
     "options": [
-      "14",
-      "16",
-      "17",
-      "19"
+      "11",
+      "0",
+      "11",
+      "11"
     ],
-    "correctAnswer": "16",
+    "correctAnswer": "11",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "medium",
-    "explanation": "The sequence increases by 3 each time: 13 + 3 = 16"
+    "explanation": "If all were chickens: 11×2=22 legs. Extra legs: 22-22=0. Each rabbit adds 2 extra legs, so 0 rabbits. Therefore 11-0=11 chickens.",
+    "topic": "Problem Solving with Systems"
   },
   {
     "_id": "grade6_medium_thinking-skills_010",
-    "content": "If all students who study hard get good grades, and Sarah studies hard, what can we conclude?",
+    "content": "A box contains 9 red balls and 5 blue balls. If you pick one ball without looking, what is the probability it will be red?",
     "type": "multiple_choice",
     "options": [
-      "Sarah will fail",
-      "Sarah will get good grades",
-      "Sarah might get good grades",
-      "Nothing can be concluded"
+      "9/14",
+      "5/14",
+      "1/2",
+      "9/5"
     ],
-    "correctAnswer": "Sarah will get good grades",
+    "correctAnswer": "9/14",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "medium",
-    "explanation": "Since Sarah studies hard and all students who study hard get good grades, Sarah will get good grades."
+    "explanation": "There are 9 red balls out of 14 total balls, so the probability is 9/14.",
+    "topic": "Basic Probability"
   },
   {
     "_id": "grade6_medium_thinking-skills_011",
-    "content": "What is 12 + 8?",
+    "content": "If all birds are animals, and Buddy is a bird, what can we conclude?",
     "type": "multiple_choice",
     "options": [
-      "19",
-      "20",
-      "21",
-      "96"
+      "Buddy is not an animal",
+      "Buddy is an animal",
+      "Some birds are not animals",
+      "Cannot tell"
     ],
-    "correctAnswer": "20",
+    "correctAnswer": "Buddy is an animal",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "medium",
-    "explanation": "12 + 8 = 20"
+    "explanation": "Since all birds are animals and Buddy is a bird, Buddy must be an animal.",
+    "topic": "Logical Deduction"
   },
   {
     "_id": "grade6_medium_thinking-skills_012",
-    "content": "If x + 4 = 12, what is x?",
+    "content": "A farmer has chickens and rabbits. He counts 9 heads and 30 legs. How many chickens are there?",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "8",
+      "3",
+      "6",
       "9",
-      "12"
+      "15"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "3",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "medium",
-    "explanation": "x + 4 = 12, so x = 12 - 4 = 8"
+    "explanation": "If all were chickens: 9×2=18 legs. Extra legs: 30-18=12. Each rabbit adds 2 extra legs, so 6 rabbits. Therefore 9-6=3 chickens.",
+    "topic": "Problem Solving with Systems"
   },
   {
     "_id": "grade6_medium_thinking-skills_013",
-    "content": "What is 12 + 8?",
+    "content": "A box contains 5 red balls and 4 blue balls. If you pick one ball without looking, what is the probability it will be red?",
     "type": "multiple_choice",
     "options": [
-      "19",
-      "20",
-      "21",
-      "96"
+      "5/9",
+      "4/9",
+      "1/2",
+      "5/4"
     ],
-    "correctAnswer": "20",
+    "correctAnswer": "5/9",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "medium",
-    "explanation": "12 + 8 = 20"
+    "explanation": "There are 5 red balls out of 9 total balls, so the probability is 5/9.",
+    "topic": "Basic Probability"
   },
   {
     "_id": "grade6_medium_thinking-skills_014",
-    "content": "What is 12 + 8?",
+    "content": "If all cats are animals, and Fluffy is a cat, what can we conclude?",
     "type": "multiple_choice",
     "options": [
-      "19",
-      "20",
-      "21",
-      "96"
+      "Fluffy is not an animal",
+      "Fluffy is an animal",
+      "Some cats are not animals",
+      "Cannot tell"
     ],
-    "correctAnswer": "20",
+    "correctAnswer": "Fluffy is an animal",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "medium",
-    "explanation": "12 + 8 = 20"
+    "explanation": "Since all cats are animals and Fluffy is a cat, Fluffy must be an animal.",
+    "topic": "Logical Deduction"
   },
   {
     "_id": "grade6_medium_thinking-skills_015",
-    "content": "What is 12 + 8?",
+    "content": "A farmer has chickens and rabbits. He counts 10 heads and 36 legs. How many chickens are there?",
     "type": "multiple_choice",
     "options": [
-      "19",
-      "20",
-      "21",
-      "96"
+      "2",
+      "8",
+      "10",
+      "18"
     ],
-    "correctAnswer": "20",
+    "correctAnswer": "2",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "medium",
-    "explanation": "12 + 8 = 20"
+    "explanation": "If all were chickens: 10×2=20 legs. Extra legs: 36-20=16. Each rabbit adds 2 extra legs, so 8 rabbits. Therefore 10-8=2 chickens.",
+    "topic": "Problem Solving with Systems"
   },
   {
     "_id": "grade6_medium_thinking-skills_016",
-    "content": "What is 12 + 8?",
+    "content": "A box contains 7 red balls and 5 blue balls. If you pick one ball without looking, what is the probability it will be red?",
     "type": "multiple_choice",
     "options": [
-      "19",
-      "20",
-      "21",
-      "96"
+      "7/12",
+      "5/12",
+      "1/2",
+      "7/5"
     ],
-    "correctAnswer": "20",
+    "correctAnswer": "7/12",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "medium",
-    "explanation": "12 + 8 = 20"
+    "explanation": "There are 7 red balls out of 12 total balls, so the probability is 7/12.",
+    "topic": "Basic Probability"
   },
   {
     "_id": "grade6_medium_thinking-skills_017",
-    "content": "What is the next number in the sequence: 6, 10, 14, 18, ?",
+    "content": "If all dogs are animals, and Fluffy is a dog, what can we conclude?",
     "type": "multiple_choice",
     "options": [
-      "20",
-      "22",
-      "23",
-      "26"
+      "Fluffy is not an animal",
+      "Fluffy is an animal",
+      "Some dogs are not animals",
+      "Cannot tell"
     ],
-    "correctAnswer": "22",
+    "correctAnswer": "Fluffy is an animal",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "medium",
-    "explanation": "The sequence increases by 4 each time: 18 + 4 = 22"
+    "explanation": "Since all dogs are animals and Fluffy is a dog, Fluffy must be an animal.",
+    "topic": "Logical Deduction"
   },
   {
     "_id": "grade6_medium_thinking-skills_018",
-    "content": "If all students who study hard get good grades, and Sarah studies hard, what can we conclude?",
+    "content": "A farmer has chickens and rabbits. He counts 8 heads and 30 legs. How many chickens are there?",
     "type": "multiple_choice",
     "options": [
-      "Sarah will fail",
-      "Sarah will get good grades",
-      "Sarah might get good grades",
-      "Nothing can be concluded"
+      "1",
+      "7",
+      "8",
+      "15"
     ],
-    "correctAnswer": "Sarah will get good grades",
+    "correctAnswer": "1",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "medium",
-    "explanation": "Since Sarah studies hard and all students who study hard get good grades, Sarah will get good grades."
+    "explanation": "If all were chickens: 8×2=16 legs. Extra legs: 30-16=14. Each rabbit adds 2 extra legs, so 7 rabbits. Therefore 8-7=1 chickens.",
+    "topic": "Problem Solving with Systems"
   },
   {
     "_id": "grade6_medium_thinking-skills_019",
-    "content": "What is 18 + 9?",
+    "content": "A box contains 8 red balls and 5 blue balls. If you pick one ball without looking, what is the probability it will be red?",
     "type": "multiple_choice",
     "options": [
-      "26",
-      "27",
-      "28",
-      "162"
+      "8/13",
+      "5/13",
+      "1/2",
+      "8/5"
     ],
-    "correctAnswer": "27",
+    "correctAnswer": "8/13",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "medium",
-    "explanation": "18 + 9 = 27"
+    "explanation": "There are 8 red balls out of 13 total balls, so the probability is 8/13.",
+    "topic": "Basic Probability"
   },
   {
     "_id": "grade6_medium_thinking-skills_020",
-    "content": "If x + 6 = 15, what is x?",
+    "content": "If all dogs are animals, and Fluffy is a dog, what can we conclude?",
     "type": "multiple_choice",
     "options": [
-      "8",
-      "9",
-      "10",
-      "15"
+      "Fluffy is not an animal",
+      "Fluffy is an animal",
+      "Some dogs are not animals",
+      "Cannot tell"
     ],
-    "correctAnswer": "9",
+    "correctAnswer": "Fluffy is an animal",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "medium",
-    "explanation": "x + 6 = 15, so x = 15 - 6 = 9"
+    "explanation": "Since all dogs are animals and Fluffy is a dog, Fluffy must be an animal.",
+    "topic": "Logical Deduction"
   }
 ]

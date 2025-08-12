@@ -1,322 +1,342 @@
 [
   {
     "_id": "grade8_easy_thinking-skills_001",
-    "content": "What is the next number in the sequence: 2, 4, 6, 8, ?",
+    "content": "In a survey, 27 students like pizza, 20 like burgers, and 6 like both. How many like either pizza or burgers?",
     "type": "multiple_choice",
     "options": [
-      "8",
-      "10",
-      "11",
-      "12"
+      "41",
+      "47",
+      "53",
+      "21"
     ],
-    "correctAnswer": "10",
+    "correctAnswer": "41",
     "subject": "Thinking Skills",
     "grade": 8,
     "difficulty": "easy",
-    "explanation": "The sequence increases by 2 each time: 8 + 2 = 10"
+    "explanation": "Using inclusion-exclusion principle: 27 + 20 - 6 = 41 students like either pizza or burgers.",
+    "topic": "Set Theory Applications"
   },
   {
     "_id": "grade8_easy_thinking-skills_002",
-    "content": "If all students who study hard get good grades, and Sarah studies hard, what can we conclude?",
+    "content": "If x + 4 = 14, what is the value of x?",
     "type": "multiple_choice",
     "options": [
-      "Sarah will fail",
-      "Sarah will get good grades",
-      "Sarah might get good grades",
-      "Nothing can be concluded"
-    ],
-    "correctAnswer": "Sarah will get good grades",
-    "subject": "Thinking Skills",
-    "grade": 8,
-    "difficulty": "easy",
-    "explanation": "Since Sarah studies hard and all students who study hard get good grades, Sarah will get good grades."
-  },
-  {
-    "_id": "grade8_easy_thinking-skills_003",
-    "content": "What is 8 + 9?",
-    "type": "multiple_choice",
-    "options": [
-      "16",
-      "17",
-      "18",
-      "72"
-    ],
-    "correctAnswer": "17",
-    "subject": "Thinking Skills",
-    "grade": 8,
-    "difficulty": "easy",
-    "explanation": "8 + 9 = 17"
-  },
-  {
-    "_id": "grade8_easy_thinking-skills_004",
-    "content": "If x + 2 = 11, what is x?",
-    "type": "multiple_choice",
-    "options": [
-      "8",
-      "9",
       "10",
-      "11"
-    ],
-    "correctAnswer": "9",
-    "subject": "Thinking Skills",
-    "grade": 8,
-    "difficulty": "easy",
-    "explanation": "x + 2 = 11, so x = 11 - 2 = 9"
-  },
-  {
-    "_id": "grade8_easy_thinking-skills_005",
-    "content": "What is 8 + 9?",
-    "type": "multiple_choice",
-    "options": [
-      "16",
-      "17",
-      "18",
-      "72"
-    ],
-    "correctAnswer": "17",
-    "subject": "Thinking Skills",
-    "grade": 8,
-    "difficulty": "easy",
-    "explanation": "8 + 9 = 17"
-  },
-  {
-    "_id": "grade8_easy_thinking-skills_006",
-    "content": "What is 8 + 9?",
-    "type": "multiple_choice",
-    "options": [
-      "16",
-      "17",
-      "18",
-      "72"
-    ],
-    "correctAnswer": "17",
-    "subject": "Thinking Skills",
-    "grade": 8,
-    "difficulty": "easy",
-    "explanation": "8 + 9 = 17"
-  },
-  {
-    "_id": "grade8_easy_thinking-skills_007",
-    "content": "What is 8 + 9?",
-    "type": "multiple_choice",
-    "options": [
-      "16",
-      "17",
-      "18",
-      "72"
-    ],
-    "correctAnswer": "17",
-    "subject": "Thinking Skills",
-    "grade": 8,
-    "difficulty": "easy",
-    "explanation": "8 + 9 = 17"
-  },
-  {
-    "_id": "grade8_easy_thinking-skills_008",
-    "content": "What is 8 + 9?",
-    "type": "multiple_choice",
-    "options": [
-      "16",
-      "17",
-      "18",
-      "72"
-    ],
-    "correctAnswer": "17",
-    "subject": "Thinking Skills",
-    "grade": 8,
-    "difficulty": "easy",
-    "explanation": "8 + 9 = 17"
-  },
-  {
-    "_id": "grade8_easy_thinking-skills_009",
-    "content": "What is the next number in the sequence: 4, 7, 10, 13, ?",
-    "type": "multiple_choice",
-    "options": [
       "14",
-      "16",
-      "17",
-      "19"
-    ],
-    "correctAnswer": "16",
-    "subject": "Thinking Skills",
-    "grade": 8,
-    "difficulty": "easy",
-    "explanation": "The sequence increases by 3 each time: 13 + 3 = 16"
-  },
-  {
-    "_id": "grade8_easy_thinking-skills_010",
-    "content": "If all students who study hard get good grades, and Sarah studies hard, what can we conclude?",
-    "type": "multiple_choice",
-    "options": [
-      "Sarah will fail",
-      "Sarah will get good grades",
-      "Sarah might get good grades",
-      "Nothing can be concluded"
-    ],
-    "correctAnswer": "Sarah will get good grades",
-    "subject": "Thinking Skills",
-    "grade": 8,
-    "difficulty": "easy",
-    "explanation": "Since Sarah studies hard and all students who study hard get good grades, Sarah will get good grades."
-  },
-  {
-    "_id": "grade8_easy_thinking-skills_011",
-    "content": "What is 16 + 10?",
-    "type": "multiple_choice",
-    "options": [
-      "25",
-      "26",
-      "27",
-      "160"
-    ],
-    "correctAnswer": "26",
-    "subject": "Thinking Skills",
-    "grade": 8,
-    "difficulty": "easy",
-    "explanation": "16 + 10 = 26"
-  },
-  {
-    "_id": "grade8_easy_thinking-skills_012",
-    "content": "If x + 4 = 14, what is x?",
-    "type": "multiple_choice",
-    "options": [
-      "9",
-      "10",
-      "11",
-      "14"
+      "4",
+      "11"
     ],
     "correctAnswer": "10",
     "subject": "Thinking Skills",
     "grade": 8,
     "difficulty": "easy",
-    "explanation": "x + 4 = 14, so x = 14 - 4 = 10"
+    "explanation": "Solving x + 4 = 14: subtract 4 from both sides to get x = 10.",
+    "topic": "Basic Algebra"
   },
   {
-    "_id": "grade8_easy_thinking-skills_013",
-    "content": "What is 16 + 10?",
+    "_id": "grade8_easy_thinking-skills_003",
+    "content": "In a survey, 26 students like pizza, 18 like burgers, and 12 like both. How many like either pizza or burgers?",
     "type": "multiple_choice",
     "options": [
-      "25",
-      "26",
-      "27",
-      "160"
+      "32",
+      "44",
+      "56",
+      "14"
     ],
-    "correctAnswer": "26",
+    "correctAnswer": "32",
     "subject": "Thinking Skills",
     "grade": 8,
     "difficulty": "easy",
-    "explanation": "16 + 10 = 26"
+    "explanation": "Using inclusion-exclusion principle: 26 + 18 - 12 = 32 students like either pizza or burgers.",
+    "topic": "Set Theory Applications"
   },
   {
-    "_id": "grade8_easy_thinking-skills_014",
-    "content": "What is 16 + 10?",
+    "_id": "grade8_easy_thinking-skills_004",
+    "content": "If x + 7 = 18, what is the value of x?",
     "type": "multiple_choice",
     "options": [
-      "25",
-      "26",
-      "27",
-      "160"
-    ],
-    "correctAnswer": "26",
-    "subject": "Thinking Skills",
-    "grade": 8,
-    "difficulty": "easy",
-    "explanation": "16 + 10 = 26"
-  },
-  {
-    "_id": "grade8_easy_thinking-skills_015",
-    "content": "What is 16 + 10?",
-    "type": "multiple_choice",
-    "options": [
-      "25",
-      "26",
-      "27",
-      "160"
-    ],
-    "correctAnswer": "26",
-    "subject": "Thinking Skills",
-    "grade": 8,
-    "difficulty": "easy",
-    "explanation": "16 + 10 = 26"
-  },
-  {
-    "_id": "grade8_easy_thinking-skills_016",
-    "content": "What is 16 + 10?",
-    "type": "multiple_choice",
-    "options": [
-      "25",
-      "26",
-      "27",
-      "160"
-    ],
-    "correctAnswer": "26",
-    "subject": "Thinking Skills",
-    "grade": 8,
-    "difficulty": "easy",
-    "explanation": "16 + 10 = 26"
-  },
-  {
-    "_id": "grade8_easy_thinking-skills_017",
-    "content": "What is the next number in the sequence: 6, 10, 14, 18, ?",
-    "type": "multiple_choice",
-    "options": [
-      "20",
-      "22",
-      "23",
-      "26"
-    ],
-    "correctAnswer": "22",
-    "subject": "Thinking Skills",
-    "grade": 8,
-    "difficulty": "easy",
-    "explanation": "The sequence increases by 4 each time: 18 + 4 = 22"
-  },
-  {
-    "_id": "grade8_easy_thinking-skills_018",
-    "content": "If all students who study hard get good grades, and Sarah studies hard, what can we conclude?",
-    "type": "multiple_choice",
-    "options": [
-      "Sarah will fail",
-      "Sarah will get good grades",
-      "Sarah might get good grades",
-      "Nothing can be concluded"
-    ],
-    "correctAnswer": "Sarah will get good grades",
-    "subject": "Thinking Skills",
-    "grade": 8,
-    "difficulty": "easy",
-    "explanation": "Since Sarah studies hard and all students who study hard get good grades, Sarah will get good grades."
-  },
-  {
-    "_id": "grade8_easy_thinking-skills_019",
-    "content": "What is 24 + 11?",
-    "type": "multiple_choice",
-    "options": [
-      "34",
-      "35",
-      "36",
-      "264"
-    ],
-    "correctAnswer": "35",
-    "subject": "Thinking Skills",
-    "grade": 8,
-    "difficulty": "easy",
-    "explanation": "24 + 11 = 35"
-  },
-  {
-    "_id": "grade8_easy_thinking-skills_020",
-    "content": "If x + 6 = 17, what is x?",
-    "type": "multiple_choice",
-    "options": [
-      "10",
       "11",
-      "12",
-      "17"
+      "18",
+      "7",
+      "12"
     ],
     "correctAnswer": "11",
     "subject": "Thinking Skills",
     "grade": 8,
     "difficulty": "easy",
-    "explanation": "x + 6 = 17, so x = 17 - 6 = 11"
+    "explanation": "Solving x + 7 = 18: subtract 7 from both sides to get x = 11.",
+    "topic": "Basic Algebra"
+  },
+  {
+    "_id": "grade8_easy_thinking-skills_005",
+    "content": "In a survey, 23 students like pizza, 21 like burgers, and 6 like both. How many like either pizza or burgers?",
+    "type": "multiple_choice",
+    "options": [
+      "38",
+      "44",
+      "50",
+      "17"
+    ],
+    "correctAnswer": "38",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "Using inclusion-exclusion principle: 23 + 21 - 6 = 38 students like either pizza or burgers.",
+    "topic": "Set Theory Applications"
+  },
+  {
+    "_id": "grade8_easy_thinking-skills_006",
+    "content": "If x + 3 = 13, what is the value of x?",
+    "type": "multiple_choice",
+    "options": [
+      "10",
+      "13",
+      "3",
+      "11"
+    ],
+    "correctAnswer": "10",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "Solving x + 3 = 13: subtract 3 from both sides to get x = 10.",
+    "topic": "Basic Algebra"
+  },
+  {
+    "_id": "grade8_easy_thinking-skills_007",
+    "content": "In a survey, 23 students like pizza, 16 like burgers, and 9 like both. How many like either pizza or burgers?",
+    "type": "multiple_choice",
+    "options": [
+      "30",
+      "39",
+      "48",
+      "14"
+    ],
+    "correctAnswer": "30",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "Using inclusion-exclusion principle: 23 + 16 - 9 = 30 students like either pizza or burgers.",
+    "topic": "Set Theory Applications"
+  },
+  {
+    "_id": "grade8_easy_thinking-skills_008",
+    "content": "If x + 7 = 10, what is the value of x?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "10",
+      "7",
+      "4"
+    ],
+    "correctAnswer": "3",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "Solving x + 7 = 10: subtract 7 from both sides to get x = 3.",
+    "topic": "Basic Algebra"
+  },
+  {
+    "_id": "grade8_easy_thinking-skills_009",
+    "content": "In a survey, 22 students like pizza, 20 like burgers, and 11 like both. How many like either pizza or burgers?",
+    "type": "multiple_choice",
+    "options": [
+      "31",
+      "42",
+      "53",
+      "11"
+    ],
+    "correctAnswer": "31",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "Using inclusion-exclusion principle: 22 + 20 - 11 = 31 students like either pizza or burgers.",
+    "topic": "Set Theory Applications"
+  },
+  {
+    "_id": "grade8_easy_thinking-skills_010",
+    "content": "If x + 6 = 17, what is the value of x?",
+    "type": "multiple_choice",
+    "options": [
+      "11",
+      "17",
+      "6",
+      "12"
+    ],
+    "correctAnswer": "11",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "Solving x + 6 = 17: subtract 6 from both sides to get x = 11.",
+    "topic": "Basic Algebra"
+  },
+  {
+    "_id": "grade8_easy_thinking-skills_011",
+    "content": "In a survey, 24 students like pizza, 16 like burgers, and 9 like both. How many like either pizza or burgers?",
+    "type": "multiple_choice",
+    "options": [
+      "31",
+      "40",
+      "49",
+      "15"
+    ],
+    "correctAnswer": "31",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "Using inclusion-exclusion principle: 24 + 16 - 9 = 31 students like either pizza or burgers.",
+    "topic": "Set Theory Applications"
+  },
+  {
+    "_id": "grade8_easy_thinking-skills_012",
+    "content": "If x + 5 = 11, what is the value of x?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "11",
+      "5",
+      "7"
+    ],
+    "correctAnswer": "6",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "Solving x + 5 = 11: subtract 5 from both sides to get x = 6.",
+    "topic": "Basic Algebra"
+  },
+  {
+    "_id": "grade8_easy_thinking-skills_013",
+    "content": "In a survey, 20 students like pizza, 16 like burgers, and 6 like both. How many like either pizza or burgers?",
+    "type": "multiple_choice",
+    "options": [
+      "30",
+      "36",
+      "42",
+      "14"
+    ],
+    "correctAnswer": "30",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "Using inclusion-exclusion principle: 20 + 16 - 6 = 30 students like either pizza or burgers.",
+    "topic": "Set Theory Applications"
+  },
+  {
+    "_id": "grade8_easy_thinking-skills_014",
+    "content": "If x + 6 = 12, what is the value of x?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "12",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "6",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "Solving x + 6 = 12: subtract 6 from both sides to get x = 6.",
+    "topic": "Basic Algebra"
+  },
+  {
+    "_id": "grade8_easy_thinking-skills_015",
+    "content": "In a survey, 24 students like pizza, 22 like burgers, and 8 like both. How many like either pizza or burgers?",
+    "type": "multiple_choice",
+    "options": [
+      "38",
+      "46",
+      "54",
+      "16"
+    ],
+    "correctAnswer": "38",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "Using inclusion-exclusion principle: 24 + 22 - 8 = 38 students like either pizza or burgers.",
+    "topic": "Set Theory Applications"
+  },
+  {
+    "_id": "grade8_easy_thinking-skills_016",
+    "content": "If x + 10 = 18, what is the value of x?",
+    "type": "multiple_choice",
+    "options": [
+      "8",
+      "18",
+      "10",
+      "9"
+    ],
+    "correctAnswer": "8",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "Solving x + 10 = 18: subtract 10 from both sides to get x = 8.",
+    "topic": "Basic Algebra"
+  },
+  {
+    "_id": "grade8_easy_thinking-skills_017",
+    "content": "In a survey, 27 students like pizza, 17 like burgers, and 7 like both. How many like either pizza or burgers?",
+    "type": "multiple_choice",
+    "options": [
+      "37",
+      "44",
+      "51",
+      "20"
+    ],
+    "correctAnswer": "37",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "Using inclusion-exclusion principle: 27 + 17 - 7 = 37 students like either pizza or burgers.",
+    "topic": "Set Theory Applications"
+  },
+  {
+    "_id": "grade8_easy_thinking-skills_018",
+    "content": "If x + 6 = 19, what is the value of x?",
+    "type": "multiple_choice",
+    "options": [
+      "13",
+      "19",
+      "6",
+      "14"
+    ],
+    "correctAnswer": "13",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "Solving x + 6 = 19: subtract 6 from both sides to get x = 13.",
+    "topic": "Basic Algebra"
+  },
+  {
+    "_id": "grade8_easy_thinking-skills_019",
+    "content": "In a survey, 21 students like pizza, 22 like burgers, and 10 like both. How many like either pizza or burgers?",
+    "type": "multiple_choice",
+    "options": [
+      "33",
+      "43",
+      "53",
+      "11"
+    ],
+    "correctAnswer": "33",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "Using inclusion-exclusion principle: 21 + 22 - 10 = 33 students like either pizza or burgers.",
+    "topic": "Set Theory Applications"
+  },
+  {
+    "_id": "grade8_easy_thinking-skills_020",
+    "content": "If x + 5 = 19, what is the value of x?",
+    "type": "multiple_choice",
+    "options": [
+      "14",
+      "19",
+      "5",
+      "15"
+    ],
+    "correctAnswer": "14",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "Solving x + 5 = 19: subtract 5 from both sides to get x = 14.",
+    "topic": "Basic Algebra"
   }
 ]
