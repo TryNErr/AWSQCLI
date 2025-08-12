@@ -1,322 +1,322 @@
 [
   {
     "_id": "grade5_hard_math_001",
-    "content": "Solve: x² - 3x + 2 = 0",
+    "content": "What is 3/4 + 1/8?",
     "type": "multiple_choice",
     "options": [
-      "x = 1, 2",
-      "x = 2, 3",
-      "x = 0, 1",
-      "x = 2, 1"
+      "4/12",
+      "7/8",
+      "4/8",
+      "11/12"
     ],
-    "correctAnswer": "x = 1, 2",
+    "correctAnswer": "7/8",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "hard",
-    "explanation": "Factoring: (x - 1)(x - 2) = 0, so x = 1 or x = 2"
+    "explanation": "Convert to common denominator: 3/4 = 6/8. So 6/8 + 1/8 = 7/8."
   },
   {
     "_id": "grade5_hard_math_002",
-    "content": "What is 1 × 1?",
+    "content": "A rectangle has length 12 cm and width 8 cm. What is its area?",
     "type": "multiple_choice",
     "options": [
-      "0",
-      "1",
-      "2",
-      "2"
+      "20 cm²",
+      "40 cm²",
+      "96 cm²",
+      "192 cm²"
     ],
-    "correctAnswer": "1",
+    "correctAnswer": "96 cm²",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "hard",
-    "explanation": "1 × 1 = 1"
+    "explanation": "Area = length × width = 12 × 8 = 96 cm²."
   },
   {
     "_id": "grade5_hard_math_003",
-    "content": "What is 2 × 1?",
+    "content": "What is 4.7 + 2.85?",
     "type": "multiple_choice",
     "options": [
-      "1",
-      "2",
-      "3",
-      "3"
+      "6.32",
+      "7.55",
+      "7.32",
+      "6.55"
     ],
-    "correctAnswer": "2",
+    "correctAnswer": "7.55",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "hard",
-    "explanation": "2 × 1 = 2"
+    "explanation": "Line up decimal points: 4.70 + 2.85 = 7.55."
   },
   {
     "_id": "grade5_hard_math_004",
-    "content": "What is 30 × 1?",
+    "content": "Sarah has 24 stickers. She gives 1/3 to her brother. How many stickers does she give away?",
     "type": "multiple_choice",
     "options": [
-      "29",
+      "6",
+      "8",
+      "12",
+      "16"
+    ],
+    "correctAnswer": "8",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "1/3 of 24 = 24 ÷ 3 = 8 stickers."
+  },
+  {
+    "_id": "grade5_hard_math_005",
+    "content": "What is 15% of 80?",
+    "type": "multiple_choice",
+    "options": [
+      "10",
+      "12",
+      "15",
+      "20"
+    ],
+    "correctAnswer": "12",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "15% of 80 = 15/100 × 80 = 0.15 × 80 = 12."
+  },
+  {
+    "_id": "grade5_hard_math_006",
+    "content": "A box contains 144 chocolates arranged in 12 equal rows. How many chocolates are in each row?",
+    "type": "multiple_choice",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "14"
+    ],
+    "correctAnswer": "12",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "144 ÷ 12 = 12 chocolates per row."
+  },
+  {
+    "_id": "grade5_hard_math_007",
+    "content": "What is 2.5 × 4?",
+    "type": "multiple_choice",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "15"
+    ],
+    "correctAnswer": "10",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "2.5 × 4 = 10. (Think: 2.5 × 4 = 2 × 4 + 0.5 × 4 = 8 + 2 = 10)"
+  },
+  {
+    "_id": "grade5_hard_math_008",
+    "content": "A triangle has a base of 10 cm and height of 6 cm. What is its area?",
+    "type": "multiple_choice",
+    "options": [
+      "16 cm²",
+      "30 cm²",
+      "60 cm²",
+      "120 cm²"
+    ],
+    "correctAnswer": "30 cm²",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "Area of triangle = 1/2 × base × height = 1/2 × 10 × 6 = 30 cm²."
+  },
+  {
+    "_id": "grade5_hard_math_009",
+    "content": "What is 5/6 - 1/3?",
+    "type": "multiple_choice",
+    "options": [
+      "1/2",
+      "1/3",
+      "2/3",
+      "4/6"
+    ],
+    "correctAnswer": "1/2",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "Convert to common denominator: 1/3 = 2/6. So 5/6 - 2/6 = 3/6 = 1/2."
+  },
+  {
+    "_id": "grade5_hard_math_010",
+    "content": "Tom buys 3 books for $4.50 each. How much does he spend in total?",
+    "type": "multiple_choice",
+    "options": [
+      "$12.50",
+      "$13.50",
+      "$14.50",
+      "$15.50"
+    ],
+    "correctAnswer": "$13.50",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "3 × $4.50 = $13.50."
+  },
+  {
+    "_id": "grade5_hard_math_011",
+    "content": "What is 7.2 ÷ 3?",
+    "type": "multiple_choice",
+    "options": [
+      "2.2",
+      "2.4",
+      "2.6",
+      "2.8"
+    ],
+    "correctAnswer": "2.4",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "7.2 ÷ 3 = 2.4. (Check: 2.4 × 3 = 7.2)"
+  },
+  {
+    "_id": "grade5_hard_math_012",
+    "content": "A garden is 15 meters long and 8 meters wide. What is its perimeter?",
+    "type": "multiple_choice",
+    "options": [
+      "23 m",
+      "46 m",
+      "120 m",
+      "240 m"
+    ],
+    "correctAnswer": "46 m",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "Perimeter = 2 × (length + width) = 2 × (15 + 8) = 2 × 23 = 46 m."
+  },
+  {
+    "_id": "grade5_hard_math_013",
+    "content": "What is 3 2/5 as an improper fraction?",
+    "type": "multiple_choice",
+    "options": [
+      "11/5",
+      "17/5",
+      "15/5",
+      "13/5"
+    ],
+    "correctAnswer": "17/5",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "3 2/5 = (3 × 5 + 2)/5 = (15 + 2)/5 = 17/5."
+  },
+  {
+    "_id": "grade5_hard_math_014",
+    "content": "A pizza is cut into 8 equal slices. If 5 slices are eaten, what fraction remains?",
+    "type": "multiple_choice",
+    "options": [
+      "3/8",
+      "5/8",
+      "3/5",
+      "5/3"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "8 slices total, 5 eaten, so 8 - 5 = 3 slices remain. Fraction = 3/8."
+  },
+  {
+    "_id": "grade5_hard_math_015",
+    "content": "What is 0.75 as a fraction in lowest terms?",
+    "type": "multiple_choice",
+    "options": [
+      "75/100",
+      "3/4",
+      "7/10",
+      "15/20"
+    ],
+    "correctAnswer": "3/4",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "0.75 = 75/100 = 3/4 (divide both by 25)."
+  },
+  {
+    "_id": "grade5_hard_math_016",
+    "content": "A car travels 240 km in 4 hours. What is its average speed?",
+    "type": "multiple_choice",
+    "options": [
+      "50 km/h",
+      "60 km/h",
+      "70 km/h",
+      "80 km/h"
+    ],
+    "correctAnswer": "60 km/h",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "Speed = distance ÷ time = 240 ÷ 4 = 60 km/h."
+  },
+  {
+    "_id": "grade5_hard_math_017",
+    "content": "What is 25% of 120?",
+    "type": "multiple_choice",
+    "options": [
+      "25",
       "30",
-      "31",
-      "31"
+      "35",
+      "40"
     ],
     "correctAnswer": "30",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "hard",
-    "explanation": "30 × 1 = 30"
-  },
-  {
-    "_id": "grade5_hard_math_005",
-    "content": "What is 2 × 1?",
-    "type": "multiple_choice",
-    "options": [
-      "1",
-      "2",
-      "3",
-      "3"
-    ],
-    "correctAnswer": "2",
-    "subject": "Mathematics",
-    "grade": 5,
-    "difficulty": "hard",
-    "explanation": "2 × 1 = 2"
-  },
-  {
-    "_id": "grade5_hard_math_006",
-    "content": "What is 1 × 1?",
-    "type": "multiple_choice",
-    "options": [
-      "0",
-      "1",
-      "2",
-      "2"
-    ],
-    "correctAnswer": "1",
-    "subject": "Mathematics",
-    "grade": 5,
-    "difficulty": "hard",
-    "explanation": "1 × 1 = 1"
-  },
-  {
-    "_id": "grade5_hard_math_007",
-    "content": "What is 2 × 1?",
-    "type": "multiple_choice",
-    "options": [
-      "1",
-      "2",
-      "3",
-      "3"
-    ],
-    "correctAnswer": "2",
-    "subject": "Mathematics",
-    "grade": 5,
-    "difficulty": "hard",
-    "explanation": "2 × 1 = 2"
-  },
-  {
-    "_id": "grade5_hard_math_008",
-    "content": "What is 2 × 1?",
-    "type": "multiple_choice",
-    "options": [
-      "1",
-      "2",
-      "3",
-      "3"
-    ],
-    "correctAnswer": "2",
-    "subject": "Mathematics",
-    "grade": 5,
-    "difficulty": "hard",
-    "explanation": "2 × 1 = 2"
-  },
-  {
-    "_id": "grade5_hard_math_009",
-    "content": "Solve: x² - 8x + 15 = 0",
-    "type": "multiple_choice",
-    "options": [
-      "x = 3, 5",
-      "x = 4, 6",
-      "x = 2, 4",
-      "x = 15, 1"
-    ],
-    "correctAnswer": "x = 3, 5",
-    "subject": "Mathematics",
-    "grade": 5,
-    "difficulty": "hard",
-    "explanation": "Factoring: (x - 3)(x - 5) = 0, so x = 3 or x = 5"
-  },
-  {
-    "_id": "grade5_hard_math_010",
-    "content": "What is 3 × 2?",
-    "type": "multiple_choice",
-    "options": [
-      "5",
-      "6",
-      "7",
-      "5"
-    ],
-    "correctAnswer": "6",
-    "subject": "Mathematics",
-    "grade": 5,
-    "difficulty": "hard",
-    "explanation": "3 × 2 = 6"
-  },
-  {
-    "_id": "grade5_hard_math_011",
-    "content": "What is 4 × 2?",
-    "type": "multiple_choice",
-    "options": [
-      "7",
-      "8",
-      "9",
-      "6"
-    ],
-    "correctAnswer": "8",
-    "subject": "Mathematics",
-    "grade": 5,
-    "difficulty": "hard",
-    "explanation": "4 × 2 = 8"
-  },
-  {
-    "_id": "grade5_hard_math_012",
-    "content": "What is 32 × 2?",
-    "type": "multiple_choice",
-    "options": [
-      "63",
-      "64",
-      "65",
-      "34"
-    ],
-    "correctAnswer": "64",
-    "subject": "Mathematics",
-    "grade": 5,
-    "difficulty": "hard",
-    "explanation": "32 × 2 = 64"
-  },
-  {
-    "_id": "grade5_hard_math_013",
-    "content": "What is 4 × 2?",
-    "type": "multiple_choice",
-    "options": [
-      "7",
-      "8",
-      "9",
-      "6"
-    ],
-    "correctAnswer": "8",
-    "subject": "Mathematics",
-    "grade": 5,
-    "difficulty": "hard",
-    "explanation": "4 × 2 = 8"
-  },
-  {
-    "_id": "grade5_hard_math_014",
-    "content": "What is 3 × 2?",
-    "type": "multiple_choice",
-    "options": [
-      "5",
-      "6",
-      "7",
-      "5"
-    ],
-    "correctAnswer": "6",
-    "subject": "Mathematics",
-    "grade": 5,
-    "difficulty": "hard",
-    "explanation": "3 × 2 = 6"
-  },
-  {
-    "_id": "grade5_hard_math_015",
-    "content": "What is 4 × 2?",
-    "type": "multiple_choice",
-    "options": [
-      "7",
-      "8",
-      "9",
-      "6"
-    ],
-    "correctAnswer": "8",
-    "subject": "Mathematics",
-    "grade": 5,
-    "difficulty": "hard",
-    "explanation": "4 × 2 = 8"
-  },
-  {
-    "_id": "grade5_hard_math_016",
-    "content": "What is 4 × 2?",
-    "type": "multiple_choice",
-    "options": [
-      "7",
-      "8",
-      "9",
-      "6"
-    ],
-    "correctAnswer": "8",
-    "subject": "Mathematics",
-    "grade": 5,
-    "difficulty": "hard",
-    "explanation": "4 × 2 = 8"
-  },
-  {
-    "_id": "grade5_hard_math_017",
-    "content": "Solve: x² - 13x + 40 = 0",
-    "type": "multiple_choice",
-    "options": [
-      "x = 5, 8",
-      "x = 6, 9",
-      "x = 4, 7",
-      "x = 40, 1"
-    ],
-    "correctAnswer": "x = 5, 8",
-    "subject": "Mathematics",
-    "grade": 5,
-    "difficulty": "hard",
-    "explanation": "Factoring: (x - 5)(x - 8) = 0, so x = 5 or x = 8"
+    "explanation": "25% of 120 = 1/4 × 120 = 120 ÷ 4 = 30."
   },
   {
     "_id": "grade5_hard_math_018",
-    "content": "What is 5 × 3?",
+    "content": "A cube has sides of 5 cm. What is its volume?",
     "type": "multiple_choice",
     "options": [
-      "14",
-      "15",
-      "16",
-      "8"
+      "15 cm³",
+      "25 cm³",
+      "75 cm³",
+      "125 cm³"
     ],
-    "correctAnswer": "15",
+    "correctAnswer": "125 cm³",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "hard",
-    "explanation": "5 × 3 = 15"
+    "explanation": "Volume of cube = side³ = 5³ = 5 × 5 × 5 = 125 cm³."
   },
   {
     "_id": "grade5_hard_math_019",
-    "content": "What is 6 × 3?",
+    "content": "What is 6 3/4 - 2 1/2?",
     "type": "multiple_choice",
     "options": [
-      "17",
-      "18",
-      "19",
-      "9"
+      "4 1/4",
+      "4 1/2",
+      "4 3/4",
+      "5 1/4"
     ],
-    "correctAnswer": "18",
+    "correctAnswer": "4 1/4",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "hard",
-    "explanation": "6 × 3 = 18"
+    "explanation": "6 3/4 - 2 1/2 = 6 3/4 - 2 2/4 = 4 1/4."
   },
   {
     "_id": "grade5_hard_math_020",
-    "content": "What is 34 × 3?",
+    "content": "A store sells apples for $1.25 per kg. How much do 3.2 kg of apples cost?",
     "type": "multiple_choice",
     "options": [
-      "101",
-      "102",
-      "103",
-      "37"
+      "$3.75",
+      "$4.00",
+      "$4.25",
+      "$4.50"
     ],
-    "correctAnswer": "102",
+    "correctAnswer": "$4.00",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "hard",
-    "explanation": "34 × 3 = 102"
+    "explanation": "3.2 × $1.25 = $4.00."
   }
 ]
