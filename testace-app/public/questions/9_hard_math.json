@@ -1,673 +1,322 @@
 [
   {
-    "_id": "build_math_9_hard_0",
-    "content": "Solve for x: 6x + 11 = 65",
+    "_id": "grade9_hard_math_001",
+    "content": "A cylinder has radius 4cm and height 10cm. What is its volume? (Use π ≈ 3.14)",
     "type": "multiple_choice",
     "options": [
-      "9",
-      "11",
-      "8",
-      "10"
+      "125.6 cm³",
+      "251.2 cm³",
+      "502.4 cm³",
+      "1004.8 cm³"
     ],
-    "correctAnswer": "9",
-    "explanation": "6x + 11 = 65, so 6x = 54, therefore x = 9",
-    "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
+    "correctAnswer": "502.4 cm³",
+    "subject": "Mathematics",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "algebra",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.916Z",
-    "estimatedTime": 90
+    "explanation": "Volume = πr²h = 3.14 × 4² × 10 = 502.4 cm³."
   },
   {
-    "_id": "build_math_9_hard_1",
-    "content": "What is 64 - 61?",
+    "_id": "grade9_hard_math_002",
+    "content": "A cylinder has radius 4cm and height 10cm. What is its volume? (Use π ≈ 3.14)",
     "type": "multiple_choice",
     "options": [
-      "3",
-      "2",
-      "5",
-      "4"
+      "125.6 cm³",
+      "251.2 cm³",
+      "502.4 cm³",
+      "1004.8 cm³"
     ],
-    "correctAnswer": "3",
-    "explanation": "64 - 61 = 3",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
+    "correctAnswer": "502.4 cm³",
+    "subject": "Mathematics",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.916Z",
-    "estimatedTime": 90
+    "explanation": "Volume = πr²h = 3.14 × 4² × 10 = 502.4 cm³."
   },
   {
-    "_id": "build_math_9_hard_2",
-    "content": "If a bacteria culture doubles every hour and starts with 100 bacteria, how many bacteria will there be after 6 hours?",
+    "_id": "grade9_hard_math_003",
+    "content": "A cylinder has radius 4cm and height 10cm. What is its volume? (Use π ≈ 3.14)",
     "type": "multiple_choice",
     "options": [
-      "6400",
-      "3200",
-      "12800",
-      "1200"
+      "125.6 cm³",
+      "251.2 cm³",
+      "502.4 cm³",
+      "1004.8 cm³"
     ],
-    "correctAnswer": "6400",
-    "explanation": "Using exponential growth formula: N = N₀ × 2^t = 100 × 2^6 = 6400",
-    "subject": "Mathematical Reasoning",
-    "topic": "Exponential Functions",
+    "correctAnswer": "502.4 cm³",
+    "subject": "Mathematics",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "exponential",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 105,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.916Z"
+    "explanation": "Volume = πr²h = 3.14 × 4² × 10 = 502.4 cm³."
   },
   {
-    "_id": "build_math_9_hard_3",
-    "content": "Simplify √72",
+    "_id": "grade9_hard_math_004",
+    "content": "A cylinder has radius 4cm and height 10cm. What is its volume? (Use π ≈ 3.14)",
     "type": "multiple_choice",
     "options": [
-      "6√2",
-      "√72",
-      "8√0",
-      "9"
+      "125.6 cm³",
+      "251.2 cm³",
+      "502.4 cm³",
+      "1004.8 cm³"
     ],
-    "correctAnswer": "6√2",
-    "explanation": "√72 = 6√2 (factor out perfect squares)",
-    "subject": "Mathematical Reasoning",
-    "topic": "Radical Expressions",
+    "correctAnswer": "502.4 cm³",
+    "subject": "Mathematics",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "radicals",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.917Z"
+    "explanation": "Volume = πr²h = 3.14 × 4² × 10 = 502.4 cm³."
   },
   {
-    "_id": "build_math_9_hard_4",
-    "content": "What is the domain of f(x) = 1/(3x -2)?",
+    "_id": "grade9_hard_math_005",
+    "content": "A cylinder has radius 4cm and height 10cm. What is its volume? (Use π ≈ 3.14)",
     "type": "multiple_choice",
     "options": [
-      "All real numbers except x = 0.6666666666666666",
-      "All real numbers except x = -0.6666666666666666",
-      "All real numbers",
-      "x ≥ 0.6666666666666666"
+      "125.6 cm³",
+      "251.2 cm³",
+      "502.4 cm³",
+      "1004.8 cm³"
     ],
-    "correctAnswer": "All real numbers except x = 0.6666666666666666",
-    "explanation": "The denominator cannot equal zero: 3x -2 ≠ 0, so x ≠ 0.6666666666666666",
-    "subject": "Mathematical Reasoning",
-    "topic": "Rational Functions",
+    "correctAnswer": "502.4 cm³",
+    "subject": "Mathematics",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "rational",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.917Z"
+    "explanation": "Volume = πr²h = 3.14 × 4² × 10 = 502.4 cm³."
   },
   {
-    "_id": "build_math_9_hard_5",
-    "content": "Factor completely: x² + 5x + 6",
+    "_id": "grade9_hard_math_006",
+    "content": "A cylinder has radius 4cm and height 10cm. What is its volume? (Use π ≈ 3.14)",
     "type": "multiple_choice",
     "options": [
-      "(x + 2)(x + 3)",
-      "(x - 2)(x - 3)",
-      "(x + 2)(x - 3)",
-      "Cannot be factored"
+      "125.6 cm³",
+      "251.2 cm³",
+      "502.4 cm³",
+      "1004.8 cm³"
     ],
-    "correctAnswer": "(x + 2)(x + 3)",
-    "explanation": "Find two numbers that multiply to 6 and add to 5: 2 and 3",
-    "subject": "Mathematical Reasoning",
-    "topic": "Polynomial Factoring",
+    "correctAnswer": "502.4 cm³",
+    "subject": "Mathematics",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "factoring",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.917Z"
+    "explanation": "Volume = πr²h = 3.14 × 4² × 10 = 502.4 cm³."
   },
   {
-    "_id": "build_math_9_hard_6",
-    "content": "Factor completely: x² + 5x + 6",
+    "_id": "grade9_hard_math_007",
+    "content": "A cylinder has radius 4cm and height 10cm. What is its volume? (Use π ≈ 3.14)",
     "type": "multiple_choice",
     "options": [
-      "(x + 3)(x + 2)",
-      "(x - 3)(x - 2)",
-      "(x + 3)(x - 2)",
-      "Cannot be factored"
+      "125.6 cm³",
+      "251.2 cm³",
+      "502.4 cm³",
+      "1004.8 cm³"
     ],
-    "correctAnswer": "(x + 3)(x + 2)",
-    "explanation": "Find two numbers that multiply to 6 and add to 5: 3 and 2",
-    "subject": "Mathematical Reasoning",
-    "topic": "Polynomial Factoring",
+    "correctAnswer": "502.4 cm³",
+    "subject": "Mathematics",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "factoring",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.917Z"
+    "explanation": "Volume = πr²h = 3.14 × 4² × 10 = 502.4 cm³."
   },
   {
-    "_id": "build_math_9_hard_7",
-    "content": "Factor completely: x² + 7x + 12",
+    "_id": "grade9_hard_math_008",
+    "content": "A cylinder has radius 4cm and height 10cm. What is its volume? (Use π ≈ 3.14)",
     "type": "multiple_choice",
     "options": [
-      "(x + 4)(x + 3)",
-      "(x - 4)(x - 3)",
-      "(x + 4)(x - 3)",
-      "Cannot be factored"
+      "125.6 cm³",
+      "251.2 cm³",
+      "502.4 cm³",
+      "1004.8 cm³"
     ],
-    "correctAnswer": "(x + 4)(x + 3)",
-    "explanation": "Find two numbers that multiply to 12 and add to 7: 4 and 3",
-    "subject": "Mathematical Reasoning",
-    "topic": "Polynomial Factoring",
+    "correctAnswer": "502.4 cm³",
+    "subject": "Mathematics",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "factoring",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.917Z"
+    "explanation": "Volume = πr²h = 3.14 × 4² × 10 = 502.4 cm³."
   },
   {
-    "_id": "build_math_9_hard_8",
-    "content": "Factor completely: x² + 5x + 6",
+    "_id": "grade9_hard_math_009",
+    "content": "A cylinder has radius 4cm and height 10cm. What is its volume? (Use π ≈ 3.14)",
     "type": "multiple_choice",
     "options": [
-      "(x + 2)(x + 3)",
-      "(x - 2)(x - 3)",
-      "(x + 2)(x - 3)",
-      "Cannot be factored"
+      "125.6 cm³",
+      "251.2 cm³",
+      "502.4 cm³",
+      "1004.8 cm³"
     ],
-    "correctAnswer": "(x + 2)(x + 3)",
-    "explanation": "Find two numbers that multiply to 6 and add to 5: 2 and 3",
-    "subject": "Mathematical Reasoning",
-    "topic": "Polynomial Factoring",
+    "correctAnswer": "502.4 cm³",
+    "subject": "Mathematics",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "factoring",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.917Z"
+    "explanation": "Volume = πr²h = 3.14 × 4² × 10 = 502.4 cm³."
   },
   {
-    "_id": "build_math_9_hard_9",
-    "content": "Factor completely: x² + 4x + 4",
+    "_id": "grade9_hard_math_010",
+    "content": "A cylinder has radius 4cm and height 10cm. What is its volume? (Use π ≈ 3.14)",
     "type": "multiple_choice",
     "options": [
-      "(x + 2)(x + 2)",
-      "(x - 2)(x - 2)",
-      "(x + 2)(x - 2)",
-      "Cannot be factored"
+      "125.6 cm³",
+      "251.2 cm³",
+      "502.4 cm³",
+      "1004.8 cm³"
     ],
-    "correctAnswer": "(x + 2)(x + 2)",
-    "explanation": "Find two numbers that multiply to 4 and add to 4: 2 and 2",
-    "subject": "Mathematical Reasoning",
-    "topic": "Polynomial Factoring",
+    "correctAnswer": "502.4 cm³",
+    "subject": "Mathematics",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "factoring",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.917Z"
+    "explanation": "Volume = πr²h = 3.14 × 4² × 10 = 502.4 cm³."
   },
   {
-    "_id": "build_math_9_hard_10",
-    "content": "Factor completely: x² + 6x + 8",
+    "_id": "grade9_hard_math_011",
+    "content": "A cylinder has radius 4cm and height 10cm. What is its volume? (Use π ≈ 3.14)",
     "type": "multiple_choice",
     "options": [
-      "(x + 2)(x + 4)",
-      "(x - 2)(x - 4)",
-      "(x + 2)(x - 4)",
-      "Cannot be factored"
+      "125.6 cm³",
+      "251.2 cm³",
+      "502.4 cm³",
+      "1004.8 cm³"
     ],
-    "correctAnswer": "(x + 2)(x + 4)",
-    "explanation": "Find two numbers that multiply to 8 and add to 6: 2 and 4",
-    "subject": "Mathematical Reasoning",
-    "topic": "Polynomial Factoring",
+    "correctAnswer": "502.4 cm³",
+    "subject": "Mathematics",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "factoring",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.917Z"
+    "explanation": "Volume = πr²h = 3.14 × 4² × 10 = 502.4 cm³."
   },
   {
-    "_id": "build_math_9_hard_11",
-    "content": "Factor completely: x² + 8x + 16",
+    "_id": "grade9_hard_math_012",
+    "content": "A cylinder has radius 4cm and height 10cm. What is its volume? (Use π ≈ 3.14)",
     "type": "multiple_choice",
     "options": [
-      "(x + 4)(x + 4)",
-      "(x - 4)(x - 4)",
-      "(x + 4)(x - 4)",
-      "Cannot be factored"
+      "125.6 cm³",
+      "251.2 cm³",
+      "502.4 cm³",
+      "1004.8 cm³"
     ],
-    "correctAnswer": "(x + 4)(x + 4)",
-    "explanation": "Find two numbers that multiply to 16 and add to 8: 4 and 4",
-    "subject": "Mathematical Reasoning",
-    "topic": "Polynomial Factoring",
+    "correctAnswer": "502.4 cm³",
+    "subject": "Mathematics",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "factoring",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.917Z"
+    "explanation": "Volume = πr²h = 3.14 × 4² × 10 = 502.4 cm³."
   },
   {
-    "_id": "build_math_9_hard_12",
-    "content": "Solve for x: 8x + 19 = 27",
+    "_id": "grade9_hard_math_013",
+    "content": "A cylinder has radius 4cm and height 10cm. What is its volume? (Use π ≈ 3.14)",
     "type": "multiple_choice",
     "options": [
-      "1",
-      "3",
-      "2",
-      "2"
+      "125.6 cm³",
+      "251.2 cm³",
+      "502.4 cm³",
+      "1004.8 cm³"
     ],
-    "correctAnswer": "1",
-    "explanation": "8x + 19 = 27, so 8x = 8, therefore x = 1",
-    "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
+    "correctAnswer": "502.4 cm³",
+    "subject": "Mathematics",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "algebra",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.917Z",
-    "estimatedTime": 90
+    "explanation": "Volume = πr²h = 3.14 × 4² × 10 = 502.4 cm³."
   },
   {
-    "_id": "build_math_9_hard_13",
-    "content": "Solve the system of equations:\n3x + 4y = 20\n2x + 3y = 14",
+    "_id": "grade9_hard_math_014",
+    "content": "A cylinder has radius 4cm and height 10cm. What is its volume? (Use π ≈ 3.14)",
     "type": "multiple_choice",
     "options": [
-      "x = 4, y = 2",
-      "x = 5, y = 2",
-      "x = 4, y = 3",
-      "x = 3, y = 1"
+      "125.6 cm³",
+      "251.2 cm³",
+      "502.4 cm³",
+      "1004.8 cm³"
     ],
-    "correctAnswer": "x = 4, y = 2",
-    "explanation": "Using substitution or elimination method: x = 4, y = 2",
-    "subject": "Mathematical Reasoning",
-    "topic": "Systems of Equations",
+    "correctAnswer": "502.4 cm³",
+    "subject": "Mathematics",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "systems",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.917Z"
+    "explanation": "Volume = πr²h = 3.14 × 4² × 10 = 502.4 cm³."
   },
   {
-    "_id": "build_math_9_hard_14",
-    "content": "If a bacteria culture doubles every hour and starts with 100 bacteria, how many bacteria will there be after 5 hours?",
+    "_id": "grade9_hard_math_015",
+    "content": "A cylinder has radius 4cm and height 10cm. What is its volume? (Use π ≈ 3.14)",
     "type": "multiple_choice",
     "options": [
-      "3200",
-      "1600",
-      "6400",
-      "1000"
+      "125.6 cm³",
+      "251.2 cm³",
+      "502.4 cm³",
+      "1004.8 cm³"
     ],
-    "correctAnswer": "3200",
-    "explanation": "Using exponential growth formula: N = N₀ × 2^t = 100 × 2^5 = 3200",
-    "subject": "Mathematical Reasoning",
-    "topic": "Exponential Functions",
+    "correctAnswer": "502.4 cm³",
+    "subject": "Mathematics",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "exponential",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 105,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.917Z"
+    "explanation": "Volume = πr²h = 3.14 × 4² × 10 = 502.4 cm³."
   },
   {
-    "_id": "build_math_9_hard_15",
-    "content": "Simplify √18",
+    "_id": "grade9_hard_math_016",
+    "content": "A cylinder has radius 4cm and height 10cm. What is its volume? (Use π ≈ 3.14)",
     "type": "multiple_choice",
     "options": [
-      "3√2",
-      "√18",
-      "4√2",
-      "5"
+      "125.6 cm³",
+      "251.2 cm³",
+      "502.4 cm³",
+      "1004.8 cm³"
     ],
-    "correctAnswer": "3√2",
-    "explanation": "√18 = 3√2 (factor out perfect squares)",
-    "subject": "Mathematical Reasoning",
-    "topic": "Radical Expressions",
+    "correctAnswer": "502.4 cm³",
+    "subject": "Mathematics",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "radicals",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.917Z"
+    "explanation": "Volume = πr²h = 3.14 × 4² × 10 = 502.4 cm³."
   },
   {
-    "_id": "build_math_9_hard_16",
-    "content": "What is the domain of f(x) = 1/(3x -3)?",
+    "_id": "grade9_hard_math_017",
+    "content": "A cylinder has radius 4cm and height 10cm. What is its volume? (Use π ≈ 3.14)",
     "type": "multiple_choice",
     "options": [
-      "All real numbers except x = 1",
-      "All real numbers except x = -1",
-      "All real numbers",
-      "x ≥ 1"
+      "125.6 cm³",
+      "251.2 cm³",
+      "502.4 cm³",
+      "1004.8 cm³"
     ],
-    "correctAnswer": "All real numbers except x = 1",
-    "explanation": "The denominator cannot equal zero: 3x -3 ≠ 0, so x ≠ 1",
-    "subject": "Mathematical Reasoning",
-    "topic": "Rational Functions",
+    "correctAnswer": "502.4 cm³",
+    "subject": "Mathematics",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "rational",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.917Z"
+    "explanation": "Volume = πr²h = 3.14 × 4² × 10 = 502.4 cm³."
   },
   {
-    "_id": "build_math_9_hard_17",
-    "content": "Factor completely: x² + 5x + 6",
+    "_id": "grade9_hard_math_018",
+    "content": "A cylinder has radius 4cm and height 10cm. What is its volume? (Use π ≈ 3.14)",
     "type": "multiple_choice",
     "options": [
-      "(x + 3)(x + 2)",
-      "(x - 3)(x - 2)",
-      "(x + 3)(x - 2)",
-      "Cannot be factored"
+      "125.6 cm³",
+      "251.2 cm³",
+      "502.4 cm³",
+      "1004.8 cm³"
     ],
-    "correctAnswer": "(x + 3)(x + 2)",
-    "explanation": "Find two numbers that multiply to 6 and add to 5: 3 and 2",
-    "subject": "Mathematical Reasoning",
-    "topic": "Polynomial Factoring",
+    "correctAnswer": "502.4 cm³",
+    "subject": "Mathematics",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "factoring",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.917Z"
+    "explanation": "Volume = πr²h = 3.14 × 4² × 10 = 502.4 cm³."
   },
   {
-    "_id": "build_math_9_hard_18",
-    "content": "Factor completely: x² + 6x + 8",
+    "_id": "grade9_hard_math_019",
+    "content": "A cylinder has radius 4cm and height 10cm. What is its volume? (Use π ≈ 3.14)",
     "type": "multiple_choice",
     "options": [
-      "(x + 4)(x + 2)",
-      "(x - 4)(x - 2)",
-      "(x + 4)(x - 2)",
-      "Cannot be factored"
+      "125.6 cm³",
+      "251.2 cm³",
+      "502.4 cm³",
+      "1004.8 cm³"
     ],
-    "correctAnswer": "(x + 4)(x + 2)",
-    "explanation": "Find two numbers that multiply to 8 and add to 6: 4 and 2",
-    "subject": "Mathematical Reasoning",
-    "topic": "Polynomial Factoring",
+    "correctAnswer": "502.4 cm³",
+    "subject": "Mathematics",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "factoring",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.917Z"
+    "explanation": "Volume = πr²h = 3.14 × 4² × 10 = 502.4 cm³."
   },
   {
-    "_id": "build_math_9_hard_19",
-    "content": "Factor completely: x² + 5x + 6",
+    "_id": "grade9_hard_math_020",
+    "content": "A cylinder has radius 4cm and height 10cm. What is its volume? (Use π ≈ 3.14)",
     "type": "multiple_choice",
     "options": [
-      "(x + 2)(x + 3)",
-      "(x - 2)(x - 3)",
-      "(x + 2)(x - 3)",
-      "Cannot be factored"
+      "125.6 cm³",
+      "251.2 cm³",
+      "502.4 cm³",
+      "1004.8 cm³"
     ],
-    "correctAnswer": "(x + 2)(x + 3)",
-    "explanation": "Find two numbers that multiply to 6 and add to 5: 2 and 3",
-    "subject": "Mathematical Reasoning",
-    "topic": "Polynomial Factoring",
+    "correctAnswer": "502.4 cm³",
+    "subject": "Mathematics",
+    "grade": 9,
     "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "factoring",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.917Z"
-  },
-  {
-    "_id": "build_math_9_hard_20",
-    "content": "Factor completely: x² + 5x + 6",
-    "type": "multiple_choice",
-    "options": [
-      "(x + 3)(x + 2)",
-      "(x - 3)(x - 2)",
-      "(x + 3)(x - 2)",
-      "Cannot be factored"
-    ],
-    "correctAnswer": "(x + 3)(x + 2)",
-    "explanation": "Find two numbers that multiply to 6 and add to 5: 3 and 2",
-    "subject": "Mathematical Reasoning",
-    "topic": "Polynomial Factoring",
-    "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "factoring",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.917Z"
-  },
-  {
-    "_id": "build_math_9_hard_21",
-    "content": "Factor completely: x² + 5x + 6",
-    "type": "multiple_choice",
-    "options": [
-      "(x + 2)(x + 3)",
-      "(x - 2)(x - 3)",
-      "(x + 2)(x - 3)",
-      "Cannot be factored"
-    ],
-    "correctAnswer": "(x + 2)(x + 3)",
-    "explanation": "Find two numbers that multiply to 6 and add to 5: 2 and 3",
-    "subject": "Mathematical Reasoning",
-    "topic": "Polynomial Factoring",
-    "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "factoring",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.917Z"
-  },
-  {
-    "_id": "build_math_9_hard_22",
-    "content": "Factor completely: x² + 5x + 6",
-    "type": "multiple_choice",
-    "options": [
-      "(x + 2)(x + 3)",
-      "(x - 2)(x - 3)",
-      "(x + 2)(x - 3)",
-      "Cannot be factored"
-    ],
-    "correctAnswer": "(x + 2)(x + 3)",
-    "explanation": "Find two numbers that multiply to 6 and add to 5: 2 and 3",
-    "subject": "Mathematical Reasoning",
-    "topic": "Polynomial Factoring",
-    "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "factoring",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.917Z"
-  },
-  {
-    "_id": "build_math_9_hard_23",
-    "content": "Factor completely: x² + 6x + 8",
-    "type": "multiple_choice",
-    "options": [
-      "(x + 4)(x + 2)",
-      "(x - 4)(x - 2)",
-      "(x + 4)(x - 2)",
-      "Cannot be factored"
-    ],
-    "correctAnswer": "(x + 4)(x + 2)",
-    "explanation": "Find two numbers that multiply to 8 and add to 6: 4 and 2",
-    "subject": "Mathematical Reasoning",
-    "topic": "Polynomial Factoring",
-    "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "factoring",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.917Z"
-  },
-  {
-    "_id": "build_math_9_hard_24",
-    "content": "Solve for x: 2x² -3x -1 = 0",
-    "type": "multiple_choice",
-    "options": [
-      "-0.3, 1.8",
-      "2.8, 0.7",
-      "0.8, -1.3",
-      "No real solutions"
-    ],
-    "correctAnswer": "-0.3, 1.8",
-    "explanation": "Using the quadratic formula: x = (-b ± √(b² - 4ac)) / 2a. Solutions: -0.3, 1.8",
-    "subject": "Mathematical Reasoning",
-    "topic": "Quadratic Equations",
-    "difficulty": "hard",
-    "grade": "9",
-    "tags": [
-      "mathematics",
-      "quadratic",
-      "hard",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "estimatedTime": 90,
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.917Z"
+    "explanation": "Volume = πr²h = 3.14 × 4² × 10 = 502.4 cm³."
   }
 ]

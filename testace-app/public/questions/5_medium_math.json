@@ -1,627 +1,322 @@
 [
   {
-    "_id": "build_math_5_medium_0",
-    "content": "What is 42 + 45?",
+    "_id": "grade5_medium_math_001",
+    "content": "What is 8 × 7?",
     "type": "multiple_choice",
     "options": [
-      "87",
-      "88",
-      "89",
-      "86"
-    ],
-    "correctAnswer": "87",
-    "explanation": "42 + 45 = 87",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "medium",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.882Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_5_medium_1",
-    "content": "What is 15 - 7?",
-    "type": "multiple_choice",
-    "options": [
-      "7",
-      "8",
-      "10",
-      "9"
-    ],
-    "correctAnswer": "8",
-    "explanation": "15 - 7 = 8",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "medium",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.882Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_5_medium_2",
-    "content": "What is 4 × 7?",
-    "type": "multiple_choice",
-    "options": [
-      "27",
-      "29",
-      "30",
-      "28"
-    ],
-    "correctAnswer": "28",
-    "explanation": "4 × 7 = 28",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "medium",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.882Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_5_medium_3",
-    "content": "What is 49 ÷ 7?",
-    "type": "multiple_choice",
-    "options": [
-      "7",
-      "6",
-      "8",
-      "9"
-    ],
-    "correctAnswer": "7",
-    "explanation": "49 ÷ 7 = 7",
-    "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "medium",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.882Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_5_medium_4",
-    "content": "What is 20 + 47?",
-    "type": "multiple_choice",
-    "options": [
-      "66",
-      "67",
-      "68",
-      "69"
-    ],
-    "correctAnswer": "67",
-    "explanation": "20 + 47 = 67",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "medium",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.882Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_5_medium_5",
-    "content": "What is 34 - 25?",
-    "type": "multiple_choice",
-    "options": [
-      "9",
-      "10",
-      "11",
-      "8"
-    ],
-    "correctAnswer": "9",
-    "explanation": "34 - 25 = 9",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "medium",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.882Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_5_medium_6",
-    "content": "What is 7 × 5?",
-    "type": "multiple_choice",
-    "options": [
-      "35",
-      "34",
-      "37",
-      "36"
-    ],
-    "correctAnswer": "35",
-    "explanation": "7 × 5 = 35",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "medium",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.882Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_5_medium_7",
-    "content": "What is 63 ÷ 7?",
-    "type": "multiple_choice",
-    "options": [
-      "9",
-      "10",
-      "8",
-      "11"
-    ],
-    "correctAnswer": "9",
-    "explanation": "63 ÷ 7 = 9",
-    "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "medium",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.882Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_5_medium_8",
-    "content": "What is 47 + 31?",
-    "type": "multiple_choice",
-    "options": [
-      "80",
-      "77",
-      "78",
-      "79"
-    ],
-    "correctAnswer": "78",
-    "explanation": "47 + 31 = 78",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "medium",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.882Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_5_medium_9",
-    "content": "What is 17 - 4?",
-    "type": "multiple_choice",
-    "options": [
-      "13",
-      "15",
-      "14",
-      "12"
-    ],
-    "correctAnswer": "13",
-    "explanation": "17 - 4 = 13",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "medium",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.882Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_5_medium_10",
-    "content": "What is 11 × 7?",
-    "type": "multiple_choice",
-    "options": [
-      "76",
-      "78",
-      "77",
-      "79"
-    ],
-    "correctAnswer": "77",
-    "explanation": "11 × 7 = 77",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "medium",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.882Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_5_medium_11",
-    "content": "What is 78 ÷ 6?",
-    "type": "multiple_choice",
-    "options": [
-      "12",
-      "13",
-      "15",
-      "14"
-    ],
-    "correctAnswer": "13",
-    "explanation": "78 ÷ 6 = 13",
-    "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "medium",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.882Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_5_medium_12",
-    "content": "What is 13 + 43?",
-    "type": "multiple_choice",
-    "options": [
+      "54",
       "55",
-      "57",
-      "58",
-      "56"
+      "56",
+      "57"
     ],
     "correctAnswer": "56",
-    "explanation": "13 + 43 = 56",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "medium",
+    "subject": "Mathematics",
     "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.882Z",
-    "estimatedTime": 60
+    "difficulty": "medium",
+    "explanation": "8 × 7 = 56"
   },
   {
-    "_id": "build_math_5_medium_13",
-    "content": "What is 12 - 3?",
+    "_id": "grade5_medium_math_002",
+    "content": "A pizza is cut into 8 equal slices. If you eat 3 slices, what fraction did you eat?",
     "type": "multiple_choice",
     "options": [
-      "8",
-      "9",
-      "10",
-      "11"
+      "3/5",
+      "3/8",
+      "5/8",
+      "8/3"
     ],
-    "correctAnswer": "9",
-    "explanation": "12 - 3 = 9",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "medium",
+    "correctAnswer": "3/8",
+    "subject": "Mathematics",
     "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.882Z",
-    "estimatedTime": 60
+    "difficulty": "medium",
+    "explanation": "You ate 3 out of 8 slices = 3/8"
   },
   {
-    "_id": "build_math_5_medium_14",
-    "content": "What is 8 × 6?",
+    "_id": "grade5_medium_math_003",
+    "content": "What is 8 × 7?",
     "type": "multiple_choice",
     "options": [
-      "49",
-      "47",
-      "48",
-      "50"
-    ],
-    "correctAnswer": "48",
-    "explanation": "8 × 6 = 48",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "medium",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.882Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_5_medium_15",
-    "content": "What is 6 ÷ 3?",
-    "type": "multiple_choice",
-    "options": [
-      "4",
-      "3",
-      "1",
-      "2"
-    ],
-    "correctAnswer": "2",
-    "explanation": "6 ÷ 3 = 2",
-    "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "medium",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.882Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_5_medium_16",
-    "content": "What is 23 + 18?",
-    "type": "multiple_choice",
-    "options": [
-      "43",
-      "40",
-      "41",
-      "42"
-    ],
-    "correctAnswer": "41",
-    "explanation": "23 + 18 = 41",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "medium",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.882Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_5_medium_17",
-    "content": "What is 44 - 38?",
-    "type": "multiple_choice",
-    "options": [
-      "8",
-      "6",
-      "7",
-      "5"
-    ],
-    "correctAnswer": "6",
-    "explanation": "44 - 38 = 6",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "medium",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.882Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_5_medium_18",
-    "content": "What is 11 × 10?",
-    "type": "multiple_choice",
-    "options": [
-      "110",
-      "112",
-      "111",
-      "109"
-    ],
-    "correctAnswer": "110",
-    "explanation": "11 × 10 = 110",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "medium",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.882Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_5_medium_19",
-    "content": "What is 40 ÷ 5?",
-    "type": "multiple_choice",
-    "options": [
-      "10",
-      "9",
-      "8",
-      "7"
-    ],
-    "correctAnswer": "8",
-    "explanation": "40 ÷ 5 = 8",
-    "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "medium",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.882Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_5_medium_20",
-    "content": "What is 30 + 27?",
-    "type": "multiple_choice",
-    "options": [
+      "54",
+      "55",
       "56",
-      "58",
-      "57",
-      "59"
+      "57"
     ],
-    "correctAnswer": "57",
-    "explanation": "30 + 27 = 57",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "medium",
+    "correctAnswer": "56",
+    "subject": "Mathematics",
     "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.882Z",
-    "estimatedTime": 60
+    "difficulty": "medium",
+    "explanation": "8 × 7 = 56"
   },
   {
-    "_id": "build_math_5_medium_21",
-    "content": "What is 48 - 35?",
+    "_id": "grade5_medium_math_004",
+    "content": "A pizza is cut into 8 equal slices. If you eat 3 slices, what fraction did you eat?",
     "type": "multiple_choice",
     "options": [
-      "15",
-      "14",
-      "12",
-      "13"
+      "3/5",
+      "3/8",
+      "5/8",
+      "8/3"
     ],
-    "correctAnswer": "13",
-    "explanation": "48 - 35 = 13",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "medium",
+    "correctAnswer": "3/8",
+    "subject": "Mathematics",
     "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.882Z",
-    "estimatedTime": 60
+    "difficulty": "medium",
+    "explanation": "You ate 3 out of 8 slices = 3/8"
   },
   {
-    "_id": "build_math_5_medium_22",
-    "content": "What is 10 × 2?",
+    "_id": "grade5_medium_math_005",
+    "content": "What is 8 × 7?",
     "type": "multiple_choice",
     "options": [
-      "21",
-      "22",
-      "20",
-      "19"
+      "54",
+      "55",
+      "56",
+      "57"
     ],
-    "correctAnswer": "20",
-    "explanation": "10 × 2 = 20",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "medium",
+    "correctAnswer": "56",
+    "subject": "Mathematics",
     "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.882Z",
-    "estimatedTime": 60
+    "difficulty": "medium",
+    "explanation": "8 × 7 = 56"
   },
   {
-    "_id": "build_math_5_medium_23",
-    "content": "What is 117 ÷ 9?",
+    "_id": "grade5_medium_math_006",
+    "content": "A pizza is cut into 8 equal slices. If you eat 3 slices, what fraction did you eat?",
     "type": "multiple_choice",
     "options": [
-      "12",
-      "14",
-      "15",
-      "13"
+      "3/5",
+      "3/8",
+      "5/8",
+      "8/3"
     ],
-    "correctAnswer": "13",
-    "explanation": "117 ÷ 9 = 13",
-    "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "medium",
+    "correctAnswer": "3/8",
+    "subject": "Mathematics",
     "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.882Z",
-    "estimatedTime": 60
+    "difficulty": "medium",
+    "explanation": "You ate 3 out of 8 slices = 3/8"
   },
   {
-    "_id": "build_math_5_medium_24",
-    "content": "What is 17 + 44?",
+    "_id": "grade5_medium_math_007",
+    "content": "What is 8 × 7?",
     "type": "multiple_choice",
     "options": [
-      "63",
-      "61",
-      "62",
-      "60"
+      "54",
+      "55",
+      "56",
+      "57"
     ],
-    "correctAnswer": "61",
-    "explanation": "17 + 44 = 61",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "medium",
+    "correctAnswer": "56",
+    "subject": "Mathematics",
     "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
+    "difficulty": "medium",
+    "explanation": "8 × 7 = 56"
+  },
+  {
+    "_id": "grade5_medium_math_008",
+    "content": "A pizza is cut into 8 equal slices. If you eat 3 slices, what fraction did you eat?",
+    "type": "multiple_choice",
+    "options": [
+      "3/5",
+      "3/8",
+      "5/8",
+      "8/3"
     ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.882Z",
-    "estimatedTime": 60
+    "correctAnswer": "3/8",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "medium",
+    "explanation": "You ate 3 out of 8 slices = 3/8"
+  },
+  {
+    "_id": "grade5_medium_math_009",
+    "content": "What is 8 × 7?",
+    "type": "multiple_choice",
+    "options": [
+      "54",
+      "55",
+      "56",
+      "57"
+    ],
+    "correctAnswer": "56",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "medium",
+    "explanation": "8 × 7 = 56"
+  },
+  {
+    "_id": "grade5_medium_math_010",
+    "content": "A pizza is cut into 8 equal slices. If you eat 3 slices, what fraction did you eat?",
+    "type": "multiple_choice",
+    "options": [
+      "3/5",
+      "3/8",
+      "5/8",
+      "8/3"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "medium",
+    "explanation": "You ate 3 out of 8 slices = 3/8"
+  },
+  {
+    "_id": "grade5_medium_math_011",
+    "content": "What is 8 × 7?",
+    "type": "multiple_choice",
+    "options": [
+      "54",
+      "55",
+      "56",
+      "57"
+    ],
+    "correctAnswer": "56",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "medium",
+    "explanation": "8 × 7 = 56"
+  },
+  {
+    "_id": "grade5_medium_math_012",
+    "content": "A pizza is cut into 8 equal slices. If you eat 3 slices, what fraction did you eat?",
+    "type": "multiple_choice",
+    "options": [
+      "3/5",
+      "3/8",
+      "5/8",
+      "8/3"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "medium",
+    "explanation": "You ate 3 out of 8 slices = 3/8"
+  },
+  {
+    "_id": "grade5_medium_math_013",
+    "content": "What is 8 × 7?",
+    "type": "multiple_choice",
+    "options": [
+      "54",
+      "55",
+      "56",
+      "57"
+    ],
+    "correctAnswer": "56",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "medium",
+    "explanation": "8 × 7 = 56"
+  },
+  {
+    "_id": "grade5_medium_math_014",
+    "content": "A pizza is cut into 8 equal slices. If you eat 3 slices, what fraction did you eat?",
+    "type": "multiple_choice",
+    "options": [
+      "3/5",
+      "3/8",
+      "5/8",
+      "8/3"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "medium",
+    "explanation": "You ate 3 out of 8 slices = 3/8"
+  },
+  {
+    "_id": "grade5_medium_math_015",
+    "content": "What is 8 × 7?",
+    "type": "multiple_choice",
+    "options": [
+      "54",
+      "55",
+      "56",
+      "57"
+    ],
+    "correctAnswer": "56",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "medium",
+    "explanation": "8 × 7 = 56"
+  },
+  {
+    "_id": "grade5_medium_math_016",
+    "content": "A pizza is cut into 8 equal slices. If you eat 3 slices, what fraction did you eat?",
+    "type": "multiple_choice",
+    "options": [
+      "3/5",
+      "3/8",
+      "5/8",
+      "8/3"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "medium",
+    "explanation": "You ate 3 out of 8 slices = 3/8"
+  },
+  {
+    "_id": "grade5_medium_math_017",
+    "content": "What is 8 × 7?",
+    "type": "multiple_choice",
+    "options": [
+      "54",
+      "55",
+      "56",
+      "57"
+    ],
+    "correctAnswer": "56",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "medium",
+    "explanation": "8 × 7 = 56"
+  },
+  {
+    "_id": "grade5_medium_math_018",
+    "content": "A pizza is cut into 8 equal slices. If you eat 3 slices, what fraction did you eat?",
+    "type": "multiple_choice",
+    "options": [
+      "3/5",
+      "3/8",
+      "5/8",
+      "8/3"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "medium",
+    "explanation": "You ate 3 out of 8 slices = 3/8"
+  },
+  {
+    "_id": "grade5_medium_math_019",
+    "content": "What is 8 × 7?",
+    "type": "multiple_choice",
+    "options": [
+      "54",
+      "55",
+      "56",
+      "57"
+    ],
+    "correctAnswer": "56",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "medium",
+    "explanation": "8 × 7 = 56"
+  },
+  {
+    "_id": "grade5_medium_math_020",
+    "content": "A pizza is cut into 8 equal slices. If you eat 3 slices, what fraction did you eat?",
+    "type": "multiple_choice",
+    "options": [
+      "3/5",
+      "3/8",
+      "5/8",
+      "8/3"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "medium",
+    "explanation": "You ate 3 out of 8 slices = 3/8"
   }
 ]

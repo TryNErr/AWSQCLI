@@ -1,442 +1,322 @@
 [
   {
     "_id": "grade1_medium_math_001",
-    "content": "Solve for x: 2x + 5 = 13",
+    "content": "What is 6 + 4?",
     "type": "multiple_choice",
     "options": [
-      "x = 4",
-      "x = 3",
-      "x = 5",
-      "x = 6"
+      "9",
+      "10",
+      "11",
+      "12"
     ],
-    "correctAnswer": "x = 4",
+    "correctAnswer": "10",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "2x + 5 = 13, so 2x = 8, therefore x = 4",
-    "topic": "Algebra",
-    "tags": [
-      "math",
-      "mathematics",
-      "medium"
-    ]
+    "explanation": "6 + 4 = 10"
   },
   {
     "_id": "grade1_medium_math_002",
-    "content": "What is the area of a rectangle with length 8 and width 5?",
+    "content": "If you have 8 toys and give away 3, how many do you have left?",
     "type": "multiple_choice",
     "options": [
-      "40",
-      "35",
-      "45",
-      "30"
+      "4",
+      "5",
+      "6",
+      "11"
     ],
-    "correctAnswer": "40",
+    "correctAnswer": "5",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "Area = length × width = 8 × 5 = 40",
-    "topic": "Algebra",
-    "tags": [
-      "math",
-      "mathematics",
-      "medium"
-    ]
+    "explanation": "8 - 3 = 5 toys left."
   },
   {
     "_id": "grade1_medium_math_003",
-    "content": "Solve for x: 2x + 5 = 13",
+    "content": "What is double 4?",
     "type": "multiple_choice",
     "options": [
-      "x = 4",
-      "x = 3",
-      "x = 5",
-      "x = 6"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "x = 4",
+    "correctAnswer": "8",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "2x + 5 = 13, so 2x = 8, therefore x = 4",
-    "topic": "Algebra",
-    "tags": [
-      "math",
-      "mathematics",
-      "medium"
-    ]
+    "explanation": "Double 4 means 4 + 4 = 8."
   },
   {
     "_id": "grade1_medium_math_004",
-    "content": "What is the area of a rectangle with length 8 and width 5?",
+    "content": "What is 6 + 4?",
     "type": "multiple_choice",
     "options": [
-      "40",
-      "35",
-      "45",
-      "30"
+      "9",
+      "10",
+      "11",
+      "12"
     ],
-    "correctAnswer": "40",
+    "correctAnswer": "10",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "Area = length × width = 8 × 5 = 40",
-    "topic": "Algebra",
-    "tags": [
-      "math",
-      "mathematics",
-      "medium"
-    ]
+    "explanation": "6 + 4 = 10"
   },
   {
     "_id": "grade1_medium_math_005",
-    "content": "Solve for x: 2x + 5 = 13",
+    "content": "If you have 8 toys and give away 3, how many do you have left?",
     "type": "multiple_choice",
     "options": [
-      "x = 4",
-      "x = 3",
-      "x = 5",
-      "x = 6"
+      "4",
+      "5",
+      "6",
+      "11"
     ],
-    "correctAnswer": "x = 4",
+    "correctAnswer": "5",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "2x + 5 = 13, so 2x = 8, therefore x = 4",
-    "topic": "Algebra",
-    "tags": [
-      "math",
-      "mathematics",
-      "medium"
-    ]
+    "explanation": "8 - 3 = 5 toys left."
   },
   {
     "_id": "grade1_medium_math_006",
-    "content": "What is the area of a rectangle with length 8 and width 5?",
+    "content": "What is double 4?",
     "type": "multiple_choice",
     "options": [
-      "40",
-      "35",
-      "45",
-      "30"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "40",
+    "correctAnswer": "8",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "Area = length × width = 8 × 5 = 40",
-    "topic": "Algebra",
-    "tags": [
-      "math",
-      "mathematics",
-      "medium"
-    ]
+    "explanation": "Double 4 means 4 + 4 = 8."
   },
   {
     "_id": "grade1_medium_math_007",
-    "content": "Solve for x: 2x + 5 = 13",
+    "content": "What is 6 + 4?",
     "type": "multiple_choice",
     "options": [
-      "x = 4",
-      "x = 3",
-      "x = 5",
-      "x = 6"
+      "9",
+      "10",
+      "11",
+      "12"
     ],
-    "correctAnswer": "x = 4",
+    "correctAnswer": "10",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "2x + 5 = 13, so 2x = 8, therefore x = 4",
-    "topic": "Algebra",
-    "tags": [
-      "math",
-      "mathematics",
-      "medium"
-    ]
+    "explanation": "6 + 4 = 10"
   },
   {
     "_id": "grade1_medium_math_008",
-    "content": "What is the area of a rectangle with length 8 and width 5?",
+    "content": "If you have 8 toys and give away 3, how many do you have left?",
     "type": "multiple_choice",
     "options": [
-      "40",
-      "35",
-      "45",
-      "30"
+      "4",
+      "5",
+      "6",
+      "11"
     ],
-    "correctAnswer": "40",
+    "correctAnswer": "5",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "Area = length × width = 8 × 5 = 40",
-    "topic": "Algebra",
-    "tags": [
-      "math",
-      "mathematics",
-      "medium"
-    ]
+    "explanation": "8 - 3 = 5 toys left."
   },
   {
     "_id": "grade1_medium_math_009",
-    "content": "Solve for x: 2x + 5 = 13",
+    "content": "What is double 4?",
     "type": "multiple_choice",
     "options": [
-      "x = 4",
-      "x = 3",
-      "x = 5",
-      "x = 6"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "x = 4",
+    "correctAnswer": "8",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "2x + 5 = 13, so 2x = 8, therefore x = 4",
-    "topic": "Algebra",
-    "tags": [
-      "math",
-      "mathematics",
-      "medium"
-    ]
+    "explanation": "Double 4 means 4 + 4 = 8."
   },
   {
     "_id": "grade1_medium_math_010",
-    "content": "What is the area of a rectangle with length 8 and width 5?",
+    "content": "What is 6 + 4?",
     "type": "multiple_choice",
     "options": [
-      "40",
-      "35",
-      "45",
-      "30"
+      "9",
+      "10",
+      "11",
+      "12"
     ],
-    "correctAnswer": "40",
+    "correctAnswer": "10",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "Area = length × width = 8 × 5 = 40",
-    "topic": "Algebra",
-    "tags": [
-      "math",
-      "mathematics",
-      "medium"
-    ]
+    "explanation": "6 + 4 = 10"
   },
   {
     "_id": "grade1_medium_math_011",
-    "content": "Solve for x: 2x + 5 = 13",
+    "content": "If you have 8 toys and give away 3, how many do you have left?",
     "type": "multiple_choice",
     "options": [
-      "x = 4",
-      "x = 3",
-      "x = 5",
-      "x = 6"
+      "4",
+      "5",
+      "6",
+      "11"
     ],
-    "correctAnswer": "x = 4",
+    "correctAnswer": "5",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "2x + 5 = 13, so 2x = 8, therefore x = 4",
-    "topic": "Algebra",
-    "tags": [
-      "math",
-      "mathematics",
-      "medium"
-    ]
+    "explanation": "8 - 3 = 5 toys left."
   },
   {
     "_id": "grade1_medium_math_012",
-    "content": "What is the area of a rectangle with length 8 and width 5?",
+    "content": "What is double 4?",
     "type": "multiple_choice",
     "options": [
-      "40",
-      "35",
-      "45",
-      "30"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "40",
+    "correctAnswer": "8",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "Area = length × width = 8 × 5 = 40",
-    "topic": "Algebra",
-    "tags": [
-      "math",
-      "mathematics",
-      "medium"
-    ]
+    "explanation": "Double 4 means 4 + 4 = 8."
   },
   {
     "_id": "grade1_medium_math_013",
-    "content": "Solve for x: 2x + 5 = 13",
+    "content": "What is 6 + 4?",
     "type": "multiple_choice",
     "options": [
-      "x = 4",
-      "x = 3",
-      "x = 5",
-      "x = 6"
+      "9",
+      "10",
+      "11",
+      "12"
     ],
-    "correctAnswer": "x = 4",
+    "correctAnswer": "10",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "2x + 5 = 13, so 2x = 8, therefore x = 4",
-    "topic": "Algebra",
-    "tags": [
-      "math",
-      "mathematics",
-      "medium"
-    ]
+    "explanation": "6 + 4 = 10"
   },
   {
     "_id": "grade1_medium_math_014",
-    "content": "What is the area of a rectangle with length 8 and width 5?",
+    "content": "If you have 8 toys and give away 3, how many do you have left?",
     "type": "multiple_choice",
     "options": [
-      "40",
-      "35",
-      "45",
-      "30"
+      "4",
+      "5",
+      "6",
+      "11"
     ],
-    "correctAnswer": "40",
+    "correctAnswer": "5",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "Area = length × width = 8 × 5 = 40",
-    "topic": "Algebra",
-    "tags": [
-      "math",
-      "mathematics",
-      "medium"
-    ]
+    "explanation": "8 - 3 = 5 toys left."
   },
   {
     "_id": "grade1_medium_math_015",
-    "content": "Solve for x: 2x + 5 = 13",
+    "content": "What is double 4?",
     "type": "multiple_choice",
     "options": [
-      "x = 4",
-      "x = 3",
-      "x = 5",
-      "x = 6"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "x = 4",
+    "correctAnswer": "8",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "2x + 5 = 13, so 2x = 8, therefore x = 4",
-    "topic": "Algebra",
-    "tags": [
-      "math",
-      "mathematics",
-      "medium"
-    ]
+    "explanation": "Double 4 means 4 + 4 = 8."
   },
   {
     "_id": "grade1_medium_math_016",
-    "content": "What is the area of a rectangle with length 8 and width 5?",
+    "content": "What is 6 + 4?",
     "type": "multiple_choice",
     "options": [
-      "40",
-      "35",
-      "45",
-      "30"
+      "9",
+      "10",
+      "11",
+      "12"
     ],
-    "correctAnswer": "40",
+    "correctAnswer": "10",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "Area = length × width = 8 × 5 = 40",
-    "topic": "Algebra",
-    "tags": [
-      "math",
-      "mathematics",
-      "medium"
-    ]
+    "explanation": "6 + 4 = 10"
   },
   {
     "_id": "grade1_medium_math_017",
-    "content": "Solve for x: 2x + 5 = 13",
+    "content": "If you have 8 toys and give away 3, how many do you have left?",
     "type": "multiple_choice",
     "options": [
-      "x = 4",
-      "x = 3",
-      "x = 5",
-      "x = 6"
+      "4",
+      "5",
+      "6",
+      "11"
     ],
-    "correctAnswer": "x = 4",
+    "correctAnswer": "5",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "2x + 5 = 13, so 2x = 8, therefore x = 4",
-    "topic": "Algebra",
-    "tags": [
-      "math",
-      "mathematics",
-      "medium"
-    ]
+    "explanation": "8 - 3 = 5 toys left."
   },
   {
     "_id": "grade1_medium_math_018",
-    "content": "What is the area of a rectangle with length 8 and width 5?",
+    "content": "What is double 4?",
     "type": "multiple_choice",
     "options": [
-      "40",
-      "35",
-      "45",
-      "30"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "40",
+    "correctAnswer": "8",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "Area = length × width = 8 × 5 = 40",
-    "topic": "Algebra",
-    "tags": [
-      "math",
-      "mathematics",
-      "medium"
-    ]
+    "explanation": "Double 4 means 4 + 4 = 8."
   },
   {
     "_id": "grade1_medium_math_019",
-    "content": "Solve for x: 2x + 5 = 13",
+    "content": "What is 6 + 4?",
     "type": "multiple_choice",
     "options": [
-      "x = 4",
-      "x = 3",
-      "x = 5",
-      "x = 6"
+      "9",
+      "10",
+      "11",
+      "12"
     ],
-    "correctAnswer": "x = 4",
+    "correctAnswer": "10",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "2x + 5 = 13, so 2x = 8, therefore x = 4",
-    "topic": "Algebra",
-    "tags": [
-      "math",
-      "mathematics",
-      "medium"
-    ]
+    "explanation": "6 + 4 = 10"
   },
   {
     "_id": "grade1_medium_math_020",
-    "content": "What is the area of a rectangle with length 8 and width 5?",
+    "content": "If you have 8 toys and give away 3, how many do you have left?",
     "type": "multiple_choice",
     "options": [
-      "40",
-      "35",
-      "45",
-      "30"
+      "4",
+      "5",
+      "6",
+      "11"
     ],
-    "correctAnswer": "40",
+    "correctAnswer": "5",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "Area = length × width = 8 × 5 = 40",
-    "topic": "Algebra",
-    "tags": [
-      "math",
-      "mathematics",
-      "medium"
-    ]
+    "explanation": "8 - 3 = 5 toys left."
   }
 ]

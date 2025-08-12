@@ -1,627 +1,322 @@
 [
   {
-    "_id": "build_math_5_hard_0",
-    "content": "What is 32 + 95?",
+    "_id": "grade5_hard_math_001",
+    "content": "Emma has 24 marbles. She wants to share them equally among 6 friends. How many marbles will each friend get?",
     "type": "multiple_choice",
     "options": [
-      "126",
-      "128",
-      "127",
-      "129"
-    ],
-    "correctAnswer": "127",
-    "explanation": "32 + 95 = 127",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "hard",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.883Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_5_hard_1",
-    "content": "What is 78 - 74?",
-    "type": "multiple_choice",
-    "options": [
-      "5",
-      "4",
       "3",
+      "4",
+      "5",
       "6"
     ],
     "correctAnswer": "4",
-    "explanation": "78 - 74 = 4",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "hard",
+    "subject": "Mathematics",
     "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.883Z",
-    "estimatedTime": 90
+    "difficulty": "hard",
+    "explanation": "24 ÷ 6 = 4 marbles each."
   },
   {
-    "_id": "build_math_5_hard_2",
-    "content": "What is 7 × 2?",
+    "_id": "grade5_hard_math_002",
+    "content": "What is the perimeter of a rectangle with length 8cm and width 3cm?",
     "type": "multiple_choice",
     "options": [
-      "14",
-      "13",
-      "15",
-      "16"
+      "11cm",
+      "22cm",
+      "24cm",
+      "32cm"
     ],
-    "correctAnswer": "14",
-    "explanation": "7 × 2 = 14",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "hard",
+    "correctAnswer": "22cm",
+    "subject": "Mathematics",
     "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.883Z",
-    "estimatedTime": 90
+    "difficulty": "hard",
+    "explanation": "Perimeter = 2(length + width) = 2(8 + 3) = 22cm"
   },
   {
-    "_id": "build_math_5_hard_3",
-    "content": "What is 80 ÷ 8?",
-    "type": "multiple_choice",
-    "options": [
-      "11",
-      "9",
-      "12",
-      "10"
-    ],
-    "correctAnswer": "10",
-    "explanation": "80 ÷ 8 = 10",
-    "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "hard",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.883Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_5_hard_4",
-    "content": "What is 98 + 64?",
-    "type": "multiple_choice",
-    "options": [
-      "162",
-      "161",
-      "164",
-      "163"
-    ],
-    "correctAnswer": "162",
-    "explanation": "98 + 64 = 162",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "hard",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.883Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_5_hard_5",
-    "content": "What is 66 - 51?",
-    "type": "multiple_choice",
-    "options": [
-      "16",
-      "14",
-      "17",
-      "15"
-    ],
-    "correctAnswer": "15",
-    "explanation": "66 - 51 = 15",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "hard",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.883Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_5_hard_6",
-    "content": "What is 11 × 4?",
-    "type": "multiple_choice",
-    "options": [
-      "45",
-      "46",
-      "43",
-      "44"
-    ],
-    "correctAnswer": "44",
-    "explanation": "11 × 4 = 44",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "hard",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.883Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_5_hard_7",
-    "content": "What is 24 ÷ 8?",
+    "_id": "grade5_hard_math_003",
+    "content": "Emma has 24 marbles. She wants to share them equally among 6 friends. How many marbles will each friend get?",
     "type": "multiple_choice",
     "options": [
       "3",
-      "2",
-      "5",
-      "4"
-    ],
-    "correctAnswer": "3",
-    "explanation": "24 ÷ 8 = 3",
-    "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "hard",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.883Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_5_hard_8",
-    "content": "What is 28 + 39?",
-    "type": "multiple_choice",
-    "options": [
-      "69",
-      "66",
-      "68",
-      "67"
-    ],
-    "correctAnswer": "67",
-    "explanation": "28 + 39 = 67",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "hard",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.883Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_5_hard_9",
-    "content": "What is 95 - 41?",
-    "type": "multiple_choice",
-    "options": [
-      "54",
-      "53",
-      "55",
-      "56"
-    ],
-    "correctAnswer": "54",
-    "explanation": "95 - 41 = 54",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "hard",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.883Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_5_hard_10",
-    "content": "What is 10 × 11?",
-    "type": "multiple_choice",
-    "options": [
-      "109",
-      "111",
-      "110",
-      "112"
-    ],
-    "correctAnswer": "110",
-    "explanation": "10 × 11 = 110",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "hard",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.883Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_5_hard_11",
-    "content": "What is 117 ÷ 9?",
-    "type": "multiple_choice",
-    "options": [
-      "12",
-      "13",
-      "15",
-      "14"
-    ],
-    "correctAnswer": "13",
-    "explanation": "117 ÷ 9 = 13",
-    "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "hard",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.883Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_5_hard_12",
-    "content": "What is 82 + 42?",
-    "type": "multiple_choice",
-    "options": [
-      "124",
-      "126",
-      "125",
-      "123"
-    ],
-    "correctAnswer": "124",
-    "explanation": "82 + 42 = 124",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "hard",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.883Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_5_hard_13",
-    "content": "What is 41 - 39?",
-    "type": "multiple_choice",
-    "options": [
-      "2",
-      "1",
       "4",
-      "3"
-    ],
-    "correctAnswer": "2",
-    "explanation": "41 - 39 = 2",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "hard",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.883Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_5_hard_14",
-    "content": "What is 4 × 5?",
-    "type": "multiple_choice",
-    "options": [
-      "19",
-      "20",
-      "22",
-      "21"
-    ],
-    "correctAnswer": "20",
-    "explanation": "4 × 5 = 20",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "hard",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.883Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_5_hard_15",
-    "content": "What is 120 ÷ 12?",
-    "type": "multiple_choice",
-    "options": [
-      "12",
-      "9",
-      "10",
-      "11"
-    ],
-    "correctAnswer": "10",
-    "explanation": "120 ÷ 12 = 10",
-    "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "hard",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.883Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_5_hard_16",
-    "content": "What is 86 + 71?",
-    "type": "multiple_choice",
-    "options": [
-      "159",
-      "156",
-      "157",
-      "158"
-    ],
-    "correctAnswer": "157",
-    "explanation": "86 + 71 = 157",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "hard",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.883Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_5_hard_17",
-    "content": "What is 22 - 19?",
-    "type": "multiple_choice",
-    "options": [
       "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "24 ÷ 6 = 4 marbles each."
+  },
+  {
+    "_id": "grade5_hard_math_004",
+    "content": "What is the perimeter of a rectangle with length 8cm and width 3cm?",
+    "type": "multiple_choice",
+    "options": [
+      "11cm",
+      "22cm",
+      "24cm",
+      "32cm"
+    ],
+    "correctAnswer": "22cm",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "Perimeter = 2(length + width) = 2(8 + 3) = 22cm"
+  },
+  {
+    "_id": "grade5_hard_math_005",
+    "content": "Emma has 24 marbles. She wants to share them equally among 6 friends. How many marbles will each friend get?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
       "4",
-      "2",
-      "3"
-    ],
-    "correctAnswer": "3",
-    "explanation": "22 - 19 = 3",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "hard",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.883Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_5_hard_18",
-    "content": "What is 3 × 6?",
-    "type": "multiple_choice",
-    "options": [
-      "18",
-      "19",
-      "17",
-      "20"
-    ],
-    "correctAnswer": "18",
-    "explanation": "3 × 6 = 18",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "hard",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.883Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_5_hard_19",
-    "content": "What is 32 ÷ 4?",
-    "type": "multiple_choice",
-    "options": [
-      "10",
-      "7",
-      "9",
-      "8"
-    ],
-    "correctAnswer": "8",
-    "explanation": "32 ÷ 4 = 8",
-    "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "hard",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.883Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_5_hard_20",
-    "content": "What is 33 + 37?",
-    "type": "multiple_choice",
-    "options": [
-      "70",
-      "69",
-      "71",
-      "72"
-    ],
-    "correctAnswer": "70",
-    "explanation": "33 + 37 = 70",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "hard",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.883Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_5_hard_21",
-    "content": "What is 95 - 15?",
-    "type": "multiple_choice",
-    "options": [
-      "82",
-      "80",
-      "79",
-      "81"
-    ],
-    "correctAnswer": "80",
-    "explanation": "95 - 15 = 80",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "hard",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.883Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_5_hard_22",
-    "content": "What is 9 × 2?",
-    "type": "multiple_choice",
-    "options": [
-      "18",
-      "17",
-      "20",
-      "19"
-    ],
-    "correctAnswer": "18",
-    "explanation": "9 × 2 = 18",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "hard",
-    "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.883Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_5_hard_23",
-    "content": "What is 24 ÷ 4?",
-    "type": "multiple_choice",
-    "options": [
       "5",
-      "6",
-      "7",
-      "8"
+      "6"
     ],
-    "correctAnswer": "6",
-    "explanation": "24 ÷ 4 = 6",
-    "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "hard",
+    "correctAnswer": "4",
+    "subject": "Mathematics",
     "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.883Z",
-    "estimatedTime": 90
+    "difficulty": "hard",
+    "explanation": "24 ÷ 6 = 4 marbles each."
   },
   {
-    "_id": "build_math_5_hard_24",
-    "content": "What is 91 + 67?",
+    "_id": "grade5_hard_math_006",
+    "content": "What is the perimeter of a rectangle with length 8cm and width 3cm?",
     "type": "multiple_choice",
     "options": [
-      "159",
-      "160",
-      "157",
-      "158"
+      "11cm",
+      "22cm",
+      "24cm",
+      "32cm"
     ],
-    "correctAnswer": "158",
-    "explanation": "91 + 67 = 158",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "hard",
+    "correctAnswer": "22cm",
+    "subject": "Mathematics",
     "grade": 5,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
+    "difficulty": "hard",
+    "explanation": "Perimeter = 2(length + width) = 2(8 + 3) = 22cm"
+  },
+  {
+    "_id": "grade5_hard_math_007",
+    "content": "Emma has 24 marbles. She wants to share them equally among 6 friends. How many marbles will each friend get?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
     ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.883Z",
-    "estimatedTime": 90
+    "correctAnswer": "4",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "24 ÷ 6 = 4 marbles each."
+  },
+  {
+    "_id": "grade5_hard_math_008",
+    "content": "What is the perimeter of a rectangle with length 8cm and width 3cm?",
+    "type": "multiple_choice",
+    "options": [
+      "11cm",
+      "22cm",
+      "24cm",
+      "32cm"
+    ],
+    "correctAnswer": "22cm",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "Perimeter = 2(length + width) = 2(8 + 3) = 22cm"
+  },
+  {
+    "_id": "grade5_hard_math_009",
+    "content": "Emma has 24 marbles. She wants to share them equally among 6 friends. How many marbles will each friend get?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "24 ÷ 6 = 4 marbles each."
+  },
+  {
+    "_id": "grade5_hard_math_010",
+    "content": "What is the perimeter of a rectangle with length 8cm and width 3cm?",
+    "type": "multiple_choice",
+    "options": [
+      "11cm",
+      "22cm",
+      "24cm",
+      "32cm"
+    ],
+    "correctAnswer": "22cm",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "Perimeter = 2(length + width) = 2(8 + 3) = 22cm"
+  },
+  {
+    "_id": "grade5_hard_math_011",
+    "content": "Emma has 24 marbles. She wants to share them equally among 6 friends. How many marbles will each friend get?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "24 ÷ 6 = 4 marbles each."
+  },
+  {
+    "_id": "grade5_hard_math_012",
+    "content": "What is the perimeter of a rectangle with length 8cm and width 3cm?",
+    "type": "multiple_choice",
+    "options": [
+      "11cm",
+      "22cm",
+      "24cm",
+      "32cm"
+    ],
+    "correctAnswer": "22cm",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "Perimeter = 2(length + width) = 2(8 + 3) = 22cm"
+  },
+  {
+    "_id": "grade5_hard_math_013",
+    "content": "Emma has 24 marbles. She wants to share them equally among 6 friends. How many marbles will each friend get?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "24 ÷ 6 = 4 marbles each."
+  },
+  {
+    "_id": "grade5_hard_math_014",
+    "content": "What is the perimeter of a rectangle with length 8cm and width 3cm?",
+    "type": "multiple_choice",
+    "options": [
+      "11cm",
+      "22cm",
+      "24cm",
+      "32cm"
+    ],
+    "correctAnswer": "22cm",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "Perimeter = 2(length + width) = 2(8 + 3) = 22cm"
+  },
+  {
+    "_id": "grade5_hard_math_015",
+    "content": "Emma has 24 marbles. She wants to share them equally among 6 friends. How many marbles will each friend get?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "24 ÷ 6 = 4 marbles each."
+  },
+  {
+    "_id": "grade5_hard_math_016",
+    "content": "What is the perimeter of a rectangle with length 8cm and width 3cm?",
+    "type": "multiple_choice",
+    "options": [
+      "11cm",
+      "22cm",
+      "24cm",
+      "32cm"
+    ],
+    "correctAnswer": "22cm",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "Perimeter = 2(length + width) = 2(8 + 3) = 22cm"
+  },
+  {
+    "_id": "grade5_hard_math_017",
+    "content": "Emma has 24 marbles. She wants to share them equally among 6 friends. How many marbles will each friend get?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "24 ÷ 6 = 4 marbles each."
+  },
+  {
+    "_id": "grade5_hard_math_018",
+    "content": "What is the perimeter of a rectangle with length 8cm and width 3cm?",
+    "type": "multiple_choice",
+    "options": [
+      "11cm",
+      "22cm",
+      "24cm",
+      "32cm"
+    ],
+    "correctAnswer": "22cm",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "Perimeter = 2(length + width) = 2(8 + 3) = 22cm"
+  },
+  {
+    "_id": "grade5_hard_math_019",
+    "content": "Emma has 24 marbles. She wants to share them equally among 6 friends. How many marbles will each friend get?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "24 ÷ 6 = 4 marbles each."
+  },
+  {
+    "_id": "grade5_hard_math_020",
+    "content": "What is the perimeter of a rectangle with length 8cm and width 3cm?",
+    "type": "multiple_choice",
+    "options": [
+      "11cm",
+      "22cm",
+      "24cm",
+      "32cm"
+    ],
+    "correctAnswer": "22cm",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "Perimeter = 2(length + width) = 2(8 + 3) = 22cm"
   }
 ]

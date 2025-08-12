@@ -1,627 +1,322 @@
 [
   {
-    "_id": "build_math_1_hard_0",
-    "content": "What is 72 + 34?",
+    "_id": "grade1_hard_math_001",
+    "content": "What is 10 - 7?",
     "type": "multiple_choice",
     "options": [
-      "108",
-      "105",
-      "107",
-      "106"
-    ],
-    "correctAnswer": "106",
-    "explanation": "72 + 34 = 106",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "hard",
-    "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.859Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_1_hard_1",
-    "content": "What is 83 - 41?",
-    "type": "multiple_choice",
-    "options": [
-      "43",
-      "42",
-      "41",
-      "44"
-    ],
-    "correctAnswer": "42",
-    "explanation": "83 - 41 = 42",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "hard",
-    "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.859Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_1_hard_2",
-    "content": "What is 6 × 8?",
-    "type": "multiple_choice",
-    "options": [
-      "49",
-      "50",
-      "48",
-      "47"
-    ],
-    "correctAnswer": "48",
-    "explanation": "6 × 8 = 48",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "hard",
-    "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.859Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_1_hard_3",
-    "content": "What is 20 ÷ 10?",
-    "type": "multiple_choice",
-    "options": [
-      "4",
-      "3",
-      "1",
-      "2"
-    ],
-    "correctAnswer": "2",
-    "explanation": "20 ÷ 10 = 2",
-    "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "hard",
-    "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.859Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_1_hard_4",
-    "content": "What is 72 + 54?",
-    "type": "multiple_choice",
-    "options": [
-      "125",
-      "127",
-      "128",
-      "126"
-    ],
-    "correctAnswer": "126",
-    "explanation": "72 + 54 = 126",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "hard",
-    "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.859Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_1_hard_5",
-    "content": "What is 67 - 41?",
-    "type": "multiple_choice",
-    "options": [
-      "26",
-      "28",
-      "27",
-      "25"
-    ],
-    "correctAnswer": "26",
-    "explanation": "67 - 41 = 26",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "hard",
-    "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.859Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_1_hard_6",
-    "content": "What is 5 × 12?",
-    "type": "multiple_choice",
-    "options": [
-      "61",
-      "60",
-      "62",
-      "59"
-    ],
-    "correctAnswer": "60",
-    "explanation": "5 × 12 = 60",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "hard",
-    "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.859Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_1_hard_7",
-    "content": "What is 15 ÷ 5?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "2",
-      "5",
-      "4"
-    ],
-    "correctAnswer": "3",
-    "explanation": "15 ÷ 5 = 3",
-    "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "hard",
-    "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.859Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_1_hard_8",
-    "content": "What is 81 + 66?",
-    "type": "multiple_choice",
-    "options": [
-      "148",
-      "147",
-      "149",
-      "146"
-    ],
-    "correctAnswer": "147",
-    "explanation": "81 + 66 = 147",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "hard",
-    "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.859Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_1_hard_9",
-    "content": "What is 46 - 15?",
-    "type": "multiple_choice",
-    "options": [
-      "31",
-      "33",
-      "32",
-      "30"
-    ],
-    "correctAnswer": "31",
-    "explanation": "46 - 15 = 31",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "hard",
-    "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.859Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_1_hard_10",
-    "content": "What is 10 × 6?",
-    "type": "multiple_choice",
-    "options": [
-      "62",
-      "59",
-      "60",
-      "61"
-    ],
-    "correctAnswer": "60",
-    "explanation": "10 × 6 = 60",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "hard",
-    "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.859Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_1_hard_11",
-    "content": "What is 48 ÷ 12?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "5",
-      "4",
-      "6"
-    ],
-    "correctAnswer": "4",
-    "explanation": "48 ÷ 12 = 4",
-    "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "hard",
-    "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.859Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_1_hard_12",
-    "content": "What is 94 + 57?",
-    "type": "multiple_choice",
-    "options": [
-      "151",
-      "153",
-      "150",
-      "152"
-    ],
-    "correctAnswer": "151",
-    "explanation": "94 + 57 = 151",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "hard",
-    "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.859Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_1_hard_13",
-    "content": "What is 74 - 57?",
-    "type": "multiple_choice",
-    "options": [
-      "19",
-      "17",
-      "18",
-      "16"
-    ],
-    "correctAnswer": "17",
-    "explanation": "74 - 57 = 17",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "hard",
-    "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.859Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_1_hard_14",
-    "content": "What is 10 × 2?",
-    "type": "multiple_choice",
-    "options": [
-      "19",
-      "21",
-      "22",
-      "20"
-    ],
-    "correctAnswer": "20",
-    "explanation": "10 × 2 = 20",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "hard",
-    "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.859Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_1_hard_15",
-    "content": "What is 56 ÷ 4?",
-    "type": "multiple_choice",
-    "options": [
-      "16",
-      "15",
-      "13",
-      "14"
-    ],
-    "correctAnswer": "14",
-    "explanation": "56 ÷ 4 = 14",
-    "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "hard",
-    "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.859Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_1_hard_16",
-    "content": "What is 42 + 57?",
-    "type": "multiple_choice",
-    "options": [
-      "98",
-      "101",
-      "100",
-      "99"
-    ],
-    "correctAnswer": "99",
-    "explanation": "42 + 57 = 99",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "hard",
-    "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.859Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_1_hard_17",
-    "content": "What is 79 - 54?",
-    "type": "multiple_choice",
-    "options": [
-      "27",
-      "25",
-      "26",
-      "24"
-    ],
-    "correctAnswer": "25",
-    "explanation": "79 - 54 = 25",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "hard",
-    "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.859Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_1_hard_18",
-    "content": "What is 12 × 10?",
-    "type": "multiple_choice",
-    "options": [
-      "121",
-      "119",
-      "120",
-      "122"
-    ],
-    "correctAnswer": "120",
-    "explanation": "12 × 10 = 120",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "hard",
-    "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.859Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_1_hard_19",
-    "content": "What is 96 ÷ 12?",
-    "type": "multiple_choice",
-    "options": [
-      "8",
-      "10",
       "7",
-      "9"
+      "8",
+      "9",
+      "22"
     ],
     "correctAnswer": "8",
-    "explanation": "96 ÷ 12 = 8",
-    "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "hard",
+    "subject": "Mathematics",
     "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.859Z",
-    "estimatedTime": 90
+    "difficulty": "hard",
+    "explanation": "15 - 7 = 8"
   },
   {
-    "_id": "build_math_1_hard_20",
-    "content": "What is 45 + 45?",
+    "_id": "grade1_hard_math_002",
+    "content": "If you buy 2 packs of 5 stickers each, how many stickers do you have?",
     "type": "multiple_choice",
     "options": [
-      "89",
-      "91",
-      "90",
-      "92"
-    ],
-    "correctAnswer": "90",
-    "explanation": "45 + 45 = 90",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "hard",
-    "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.859Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_1_hard_21",
-    "content": "What is 63 - 26?",
-    "type": "multiple_choice",
-    "options": [
-      "37",
-      "38",
-      "39",
-      "36"
-    ],
-    "correctAnswer": "37",
-    "explanation": "63 - 26 = 37",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "hard",
-    "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.859Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_1_hard_22",
-    "content": "What is 4 × 5?",
-    "type": "multiple_choice",
-    "options": [
-      "22",
-      "20",
-      "21",
-      "19"
-    ],
-    "correctAnswer": "20",
-    "explanation": "4 × 5 = 20",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "hard",
-    "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.859Z",
-    "estimatedTime": 90
-  },
-  {
-    "_id": "build_math_1_hard_23",
-    "content": "What is 35 ÷ 5?",
-    "type": "multiple_choice",
-    "options": [
-      "9",
-      "8",
       "7",
-      "6"
+      "10",
+      "12",
+      "15"
     ],
-    "correctAnswer": "7",
-    "explanation": "35 ÷ 5 = 7",
-    "subject": "Mathematical Reasoning",
-    "topic": "Division",
-    "difficulty": "hard",
+    "correctAnswer": "10",
+    "subject": "Mathematics",
     "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.859Z",
-    "estimatedTime": 90
+    "difficulty": "hard",
+    "explanation": "2 packs × 5 stickers = 10 stickers total."
   },
   {
-    "_id": "build_math_1_hard_24",
-    "content": "What is 55 + 31?",
+    "_id": "grade1_hard_math_003",
+    "content": "What is 10 - 7?",
     "type": "multiple_choice",
     "options": [
-      "87",
-      "88",
-      "85",
-      "86"
+      "7",
+      "8",
+      "9",
+      "22"
     ],
-    "correctAnswer": "86",
-    "explanation": "55 + 31 = 86",
-    "subject": "Mathematical Reasoning",
-    "topic": "Addition",
-    "difficulty": "hard",
+    "correctAnswer": "8",
+    "subject": "Mathematics",
     "grade": 1,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
+    "difficulty": "hard",
+    "explanation": "15 - 7 = 8"
+  },
+  {
+    "_id": "grade1_hard_math_004",
+    "content": "If you buy 2 packs of 5 stickers each, how many stickers do you have?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "10",
+      "12",
+      "15"
     ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.859Z",
-    "estimatedTime": 90
+    "correctAnswer": "10",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "2 packs × 5 stickers = 10 stickers total."
+  },
+  {
+    "_id": "grade1_hard_math_005",
+    "content": "What is 10 - 7?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "22"
+    ],
+    "correctAnswer": "8",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "15 - 7 = 8"
+  },
+  {
+    "_id": "grade1_hard_math_006",
+    "content": "If you buy 2 packs of 5 stickers each, how many stickers do you have?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "10",
+      "12",
+      "15"
+    ],
+    "correctAnswer": "10",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "2 packs × 5 stickers = 10 stickers total."
+  },
+  {
+    "_id": "grade1_hard_math_007",
+    "content": "What is 10 - 7?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "22"
+    ],
+    "correctAnswer": "8",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "15 - 7 = 8"
+  },
+  {
+    "_id": "grade1_hard_math_008",
+    "content": "If you buy 2 packs of 5 stickers each, how many stickers do you have?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "10",
+      "12",
+      "15"
+    ],
+    "correctAnswer": "10",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "2 packs × 5 stickers = 10 stickers total."
+  },
+  {
+    "_id": "grade1_hard_math_009",
+    "content": "What is 10 - 7?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "22"
+    ],
+    "correctAnswer": "8",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "15 - 7 = 8"
+  },
+  {
+    "_id": "grade1_hard_math_010",
+    "content": "If you buy 2 packs of 5 stickers each, how many stickers do you have?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "10",
+      "12",
+      "15"
+    ],
+    "correctAnswer": "10",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "2 packs × 5 stickers = 10 stickers total."
+  },
+  {
+    "_id": "grade1_hard_math_011",
+    "content": "What is 10 - 7?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "22"
+    ],
+    "correctAnswer": "8",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "15 - 7 = 8"
+  },
+  {
+    "_id": "grade1_hard_math_012",
+    "content": "If you buy 2 packs of 5 stickers each, how many stickers do you have?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "10",
+      "12",
+      "15"
+    ],
+    "correctAnswer": "10",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "2 packs × 5 stickers = 10 stickers total."
+  },
+  {
+    "_id": "grade1_hard_math_013",
+    "content": "What is 10 - 7?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "22"
+    ],
+    "correctAnswer": "8",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "15 - 7 = 8"
+  },
+  {
+    "_id": "grade1_hard_math_014",
+    "content": "If you buy 2 packs of 5 stickers each, how many stickers do you have?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "10",
+      "12",
+      "15"
+    ],
+    "correctAnswer": "10",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "2 packs × 5 stickers = 10 stickers total."
+  },
+  {
+    "_id": "grade1_hard_math_015",
+    "content": "What is 10 - 7?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "22"
+    ],
+    "correctAnswer": "8",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "15 - 7 = 8"
+  },
+  {
+    "_id": "grade1_hard_math_016",
+    "content": "If you buy 2 packs of 5 stickers each, how many stickers do you have?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "10",
+      "12",
+      "15"
+    ],
+    "correctAnswer": "10",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "2 packs × 5 stickers = 10 stickers total."
+  },
+  {
+    "_id": "grade1_hard_math_017",
+    "content": "What is 10 - 7?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "22"
+    ],
+    "correctAnswer": "8",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "15 - 7 = 8"
+  },
+  {
+    "_id": "grade1_hard_math_018",
+    "content": "If you buy 2 packs of 5 stickers each, how many stickers do you have?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "10",
+      "12",
+      "15"
+    ],
+    "correctAnswer": "10",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "2 packs × 5 stickers = 10 stickers total."
+  },
+  {
+    "_id": "grade1_hard_math_019",
+    "content": "What is 10 - 7?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "22"
+    ],
+    "correctAnswer": "8",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "15 - 7 = 8"
+  },
+  {
+    "_id": "grade1_hard_math_020",
+    "content": "If you buy 2 packs of 5 stickers each, how many stickers do you have?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "10",
+      "12",
+      "15"
+    ],
+    "correctAnswer": "10",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "2 packs × 5 stickers = 10 stickers total."
   }
 ]

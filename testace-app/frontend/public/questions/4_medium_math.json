@@ -1,322 +1,322 @@
 [
   {
-    "_id": "grade4_medium_math_000",
-    "content": "What is 1 × 2?",
-    "type": "multiple_choice",
-    "options": [
-      "2",
-      "3",
-      "1",
-      "4"
-    ],
-    "correctAnswer": "2",
-    "subject": "Mathematics",
-    "grade": 4,
-    "difficulty": "medium",
-    "explanation": "1 × 2 = 2"
-  },
-  {
     "_id": "grade4_medium_math_001",
-    "content": "What is 6 × 7?",
-    "type": "multiple_choice",
-    "options": [
-      "42",
-      "43",
-      "41",
-      "44"
-    ],
-    "correctAnswer": "42",
-    "subject": "Mathematics",
-    "grade": 4,
-    "difficulty": "medium",
-    "explanation": "6 × 7 = 42"
-  },
-  {
-    "_id": "grade4_medium_math_002",
-    "content": "What is 4 × 6?",
-    "type": "multiple_choice",
-    "options": [
-      "24",
-      "25",
-      "23",
-      "26"
-    ],
-    "correctAnswer": "24",
-    "subject": "Mathematics",
-    "grade": 4,
-    "difficulty": "medium",
-    "explanation": "4 × 6 = 24"
-  },
-  {
-    "_id": "grade4_medium_math_003",
-    "content": "What is 6 × 6?",
-    "type": "multiple_choice",
-    "options": [
-      "36",
-      "37",
-      "35",
-      "38"
-    ],
-    "correctAnswer": "36",
-    "subject": "Mathematics",
-    "grade": 4,
-    "difficulty": "medium",
-    "explanation": "6 × 6 = 36"
-  },
-  {
-    "_id": "grade4_medium_math_004",
-    "content": "What is 8 × 3?",
-    "type": "multiple_choice",
-    "options": [
-      "24",
-      "25",
-      "23",
-      "26"
-    ],
-    "correctAnswer": "24",
-    "subject": "Mathematics",
-    "grade": 4,
-    "difficulty": "medium",
-    "explanation": "8 × 3 = 24"
-  },
-  {
-    "_id": "grade4_medium_math_005",
-    "content": "What is 9 × 4?",
-    "type": "multiple_choice",
-    "options": [
-      "36",
-      "37",
-      "35",
-      "38"
-    ],
-    "correctAnswer": "36",
-    "subject": "Mathematics",
-    "grade": 4,
-    "difficulty": "medium",
-    "explanation": "9 × 4 = 36"
-  },
-  {
-    "_id": "grade4_medium_math_006",
-    "content": "What is 8 × 6?",
-    "type": "multiple_choice",
-    "options": [
-      "48",
-      "49",
-      "47",
-      "50"
-    ],
-    "correctAnswer": "48",
-    "subject": "Mathematics",
-    "grade": 4,
-    "difficulty": "medium",
-    "explanation": "8 × 6 = 48"
-  },
-  {
-    "_id": "grade4_medium_math_007",
-    "content": "What is 8 × 4?",
-    "type": "multiple_choice",
-    "options": [
-      "32",
-      "33",
-      "31",
-      "34"
-    ],
-    "correctAnswer": "32",
-    "subject": "Mathematics",
-    "grade": 4,
-    "difficulty": "medium",
-    "explanation": "8 × 4 = 32"
-  },
-  {
-    "_id": "grade4_medium_math_008",
-    "content": "What is 10 × 4?",
-    "type": "multiple_choice",
-    "options": [
-      "40",
-      "41",
-      "39",
-      "42"
-    ],
-    "correctAnswer": "40",
-    "subject": "Mathematics",
-    "grade": 4,
-    "difficulty": "medium",
-    "explanation": "10 × 4 = 40"
-  },
-  {
-    "_id": "grade4_medium_math_009",
-    "content": "What is 9 × 6?",
+    "content": "What is 8 × 7?",
     "type": "multiple_choice",
     "options": [
       "54",
       "55",
-      "53",
-      "56"
+      "56",
+      "57"
     ],
-    "correctAnswer": "54",
+    "correctAnswer": "56",
     "subject": "Mathematics",
     "grade": 4,
     "difficulty": "medium",
-    "explanation": "9 × 6 = 54"
+    "explanation": "8 × 7 = 56"
+  },
+  {
+    "_id": "grade4_medium_math_002",
+    "content": "A pizza is cut into 8 equal slices. If you eat 3 slices, what fraction did you eat?",
+    "type": "multiple_choice",
+    "options": [
+      "3/5",
+      "3/8",
+      "5/8",
+      "8/3"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "Mathematics",
+    "grade": 4,
+    "difficulty": "medium",
+    "explanation": "You ate 3 out of 8 slices = 3/8"
+  },
+  {
+    "_id": "grade4_medium_math_003",
+    "content": "What is 8 × 7?",
+    "type": "multiple_choice",
+    "options": [
+      "54",
+      "55",
+      "56",
+      "57"
+    ],
+    "correctAnswer": "56",
+    "subject": "Mathematics",
+    "grade": 4,
+    "difficulty": "medium",
+    "explanation": "8 × 7 = 56"
+  },
+  {
+    "_id": "grade4_medium_math_004",
+    "content": "A pizza is cut into 8 equal slices. If you eat 3 slices, what fraction did you eat?",
+    "type": "multiple_choice",
+    "options": [
+      "3/5",
+      "3/8",
+      "5/8",
+      "8/3"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "Mathematics",
+    "grade": 4,
+    "difficulty": "medium",
+    "explanation": "You ate 3 out of 8 slices = 3/8"
+  },
+  {
+    "_id": "grade4_medium_math_005",
+    "content": "What is 8 × 7?",
+    "type": "multiple_choice",
+    "options": [
+      "54",
+      "55",
+      "56",
+      "57"
+    ],
+    "correctAnswer": "56",
+    "subject": "Mathematics",
+    "grade": 4,
+    "difficulty": "medium",
+    "explanation": "8 × 7 = 56"
+  },
+  {
+    "_id": "grade4_medium_math_006",
+    "content": "A pizza is cut into 8 equal slices. If you eat 3 slices, what fraction did you eat?",
+    "type": "multiple_choice",
+    "options": [
+      "3/5",
+      "3/8",
+      "5/8",
+      "8/3"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "Mathematics",
+    "grade": 4,
+    "difficulty": "medium",
+    "explanation": "You ate 3 out of 8 slices = 3/8"
+  },
+  {
+    "_id": "grade4_medium_math_007",
+    "content": "What is 8 × 7?",
+    "type": "multiple_choice",
+    "options": [
+      "54",
+      "55",
+      "56",
+      "57"
+    ],
+    "correctAnswer": "56",
+    "subject": "Mathematics",
+    "grade": 4,
+    "difficulty": "medium",
+    "explanation": "8 × 7 = 56"
+  },
+  {
+    "_id": "grade4_medium_math_008",
+    "content": "A pizza is cut into 8 equal slices. If you eat 3 slices, what fraction did you eat?",
+    "type": "multiple_choice",
+    "options": [
+      "3/5",
+      "3/8",
+      "5/8",
+      "8/3"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "Mathematics",
+    "grade": 4,
+    "difficulty": "medium",
+    "explanation": "You ate 3 out of 8 slices = 3/8"
+  },
+  {
+    "_id": "grade4_medium_math_009",
+    "content": "What is 8 × 7?",
+    "type": "multiple_choice",
+    "options": [
+      "54",
+      "55",
+      "56",
+      "57"
+    ],
+    "correctAnswer": "56",
+    "subject": "Mathematics",
+    "grade": 4,
+    "difficulty": "medium",
+    "explanation": "8 × 7 = 56"
   },
   {
     "_id": "grade4_medium_math_010",
-    "content": "What is 7 × 3?",
+    "content": "A pizza is cut into 8 equal slices. If you eat 3 slices, what fraction did you eat?",
     "type": "multiple_choice",
     "options": [
-      "21",
-      "22",
-      "20",
-      "23"
+      "3/5",
+      "3/8",
+      "5/8",
+      "8/3"
     ],
-    "correctAnswer": "21",
+    "correctAnswer": "3/8",
     "subject": "Mathematics",
     "grade": 4,
     "difficulty": "medium",
-    "explanation": "7 × 3 = 21"
+    "explanation": "You ate 3 out of 8 slices = 3/8"
   },
   {
     "_id": "grade4_medium_math_011",
-    "content": "What is 4 × 5?",
+    "content": "What is 8 × 7?",
     "type": "multiple_choice",
     "options": [
-      "20",
-      "21",
-      "19",
-      "22"
+      "54",
+      "55",
+      "56",
+      "57"
     ],
-    "correctAnswer": "20",
+    "correctAnswer": "56",
     "subject": "Mathematics",
     "grade": 4,
     "difficulty": "medium",
-    "explanation": "4 × 5 = 20"
+    "explanation": "8 × 7 = 56"
   },
   {
     "_id": "grade4_medium_math_012",
-    "content": "What is 1 × 1?",
+    "content": "A pizza is cut into 8 equal slices. If you eat 3 slices, what fraction did you eat?",
     "type": "multiple_choice",
     "options": [
-      "1",
-      "2",
-      "0",
-      "3"
+      "3/5",
+      "3/8",
+      "5/8",
+      "8/3"
     ],
-    "correctAnswer": "1",
+    "correctAnswer": "3/8",
     "subject": "Mathematics",
     "grade": 4,
     "difficulty": "medium",
-    "explanation": "1 × 1 = 1"
+    "explanation": "You ate 3 out of 8 slices = 3/8"
   },
   {
     "_id": "grade4_medium_math_013",
-    "content": "What is 5 × 4?",
+    "content": "What is 8 × 7?",
     "type": "multiple_choice",
     "options": [
-      "20",
-      "21",
-      "19",
-      "22"
+      "54",
+      "55",
+      "56",
+      "57"
     ],
-    "correctAnswer": "20",
+    "correctAnswer": "56",
     "subject": "Mathematics",
     "grade": 4,
     "difficulty": "medium",
-    "explanation": "5 × 4 = 20"
+    "explanation": "8 × 7 = 56"
   },
   {
     "_id": "grade4_medium_math_014",
-    "content": "What is 8 × 1?",
+    "content": "A pizza is cut into 8 equal slices. If you eat 3 slices, what fraction did you eat?",
     "type": "multiple_choice",
     "options": [
-      "8",
-      "9",
-      "7",
-      "10"
+      "3/5",
+      "3/8",
+      "5/8",
+      "8/3"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "3/8",
     "subject": "Mathematics",
     "grade": 4,
     "difficulty": "medium",
-    "explanation": "8 × 1 = 8"
+    "explanation": "You ate 3 out of 8 slices = 3/8"
   },
   {
     "_id": "grade4_medium_math_015",
-    "content": "What is 5 × 10?",
+    "content": "What is 8 × 7?",
     "type": "multiple_choice",
     "options": [
-      "50",
-      "51",
-      "49",
-      "52"
+      "54",
+      "55",
+      "56",
+      "57"
     ],
-    "correctAnswer": "50",
+    "correctAnswer": "56",
     "subject": "Mathematics",
     "grade": 4,
     "difficulty": "medium",
-    "explanation": "5 × 10 = 50"
+    "explanation": "8 × 7 = 56"
   },
   {
     "_id": "grade4_medium_math_016",
-    "content": "What is 2 × 5?",
+    "content": "A pizza is cut into 8 equal slices. If you eat 3 slices, what fraction did you eat?",
     "type": "multiple_choice",
     "options": [
-      "10",
-      "11",
-      "9",
-      "12"
+      "3/5",
+      "3/8",
+      "5/8",
+      "8/3"
     ],
-    "correctAnswer": "10",
+    "correctAnswer": "3/8",
     "subject": "Mathematics",
     "grade": 4,
     "difficulty": "medium",
-    "explanation": "2 × 5 = 10"
+    "explanation": "You ate 3 out of 8 slices = 3/8"
   },
   {
     "_id": "grade4_medium_math_017",
-    "content": "What is 10 × 6?",
+    "content": "What is 8 × 7?",
     "type": "multiple_choice",
     "options": [
-      "60",
-      "61",
-      "59",
-      "62"
+      "54",
+      "55",
+      "56",
+      "57"
     ],
-    "correctAnswer": "60",
+    "correctAnswer": "56",
     "subject": "Mathematics",
     "grade": 4,
     "difficulty": "medium",
-    "explanation": "10 × 6 = 60"
+    "explanation": "8 × 7 = 56"
   },
   {
     "_id": "grade4_medium_math_018",
-    "content": "What is 2 × 1?",
+    "content": "A pizza is cut into 8 equal slices. If you eat 3 slices, what fraction did you eat?",
     "type": "multiple_choice",
     "options": [
-      "2",
-      "3",
-      "1",
-      "4"
+      "3/5",
+      "3/8",
+      "5/8",
+      "8/3"
     ],
-    "correctAnswer": "2",
+    "correctAnswer": "3/8",
     "subject": "Mathematics",
     "grade": 4,
     "difficulty": "medium",
-    "explanation": "2 × 1 = 2"
+    "explanation": "You ate 3 out of 8 slices = 3/8"
   },
   {
     "_id": "grade4_medium_math_019",
-    "content": "What is 9 × 8?",
+    "content": "What is 8 × 7?",
     "type": "multiple_choice",
     "options": [
-      "72",
-      "73",
-      "71",
-      "74"
+      "54",
+      "55",
+      "56",
+      "57"
     ],
-    "correctAnswer": "72",
+    "correctAnswer": "56",
     "subject": "Mathematics",
     "grade": 4,
     "difficulty": "medium",
-    "explanation": "9 × 8 = 72"
+    "explanation": "8 × 7 = 56"
+  },
+  {
+    "_id": "grade4_medium_math_020",
+    "content": "A pizza is cut into 8 equal slices. If you eat 3 slices, what fraction did you eat?",
+    "type": "multiple_choice",
+    "options": [
+      "3/5",
+      "3/8",
+      "5/8",
+      "8/3"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "Mathematics",
+    "grade": 4,
+    "difficulty": "medium",
+    "explanation": "You ate 3 out of 8 slices = 3/8"
   }
 ]

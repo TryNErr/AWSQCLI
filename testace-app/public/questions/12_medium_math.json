@@ -1,644 +1,322 @@
 [
   {
-    "_id": "build_math_12_medium_0",
-    "content": "Solve for x: 6x + 8 = 56",
+    "_id": "grade12_medium_math_001",
+    "content": "Solve: 2x + 7 = 19",
     "type": "multiple_choice",
     "options": [
-      "10",
-      "7",
-      "8",
-      "9"
+      "x = 5",
+      "x = 6",
+      "x = 7",
+      "x = 13"
     ],
-    "correctAnswer": "8",
-    "explanation": "6x + 8 = 56, so 6x = 48, therefore x = 8",
-    "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
-    "difficulty": "medium",
+    "correctAnswer": "x = 6",
+    "subject": "Mathematics",
     "grade": 12,
-    "tags": [
-      "mathematics",
-      "algebra",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.939Z",
-    "estimatedTime": 60
+    "difficulty": "medium",
+    "explanation": "2x + 7 = 19. Subtract 7: 2x = 12. Divide by 2: x = 6."
   },
   {
-    "_id": "build_math_12_medium_1",
-    "content": "If f(x) = 2x -2, what is f(5)?",
+    "_id": "grade12_medium_math_002",
+    "content": "If y = 2x - 3, find y when x = 6.",
     "type": "multiple_choice",
     "options": [
-      "9",
-      "10",
-      "7",
-      "8"
-    ],
-    "correctAnswer": "8",
-    "explanation": "f(5) = 2(5) -2 = 8",
-    "subject": "Mathematical Reasoning",
-    "topic": "Functions",
-    "difficulty": "medium",
-    "grade": 12,
-    "tags": [
-      "mathematics",
-      "functions",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.939Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_12_medium_2",
-    "content": "What is sin(60°)?",
-    "type": "multiple_choice",
-    "options": [
-      "√3/2",
-      "1/2",
-      "√2/2",
-      "√3/2"
-    ],
-    "correctAnswer": "√3/2",
-    "explanation": "sin(60°) = √3/2 (special angle)",
-    "subject": "Mathematical Reasoning",
-    "topic": "Trigonometry",
-    "difficulty": "medium",
-    "grade": 12,
-    "tags": [
-      "mathematics",
-      "trigonometry",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.939Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_12_medium_3",
-    "content": "What is 89% of 70?",
-    "type": "multiple_choice",
-    "options": [
-      "61",
-      "62",
-      "64",
-      "63"
-    ],
-    "correctAnswer": "62",
-    "explanation": "89% of 70 = (89/100) × 70 = 62",
-    "subject": "Mathematical Reasoning",
-    "topic": "Percentages",
-    "difficulty": "medium",
-    "grade": 12,
-    "tags": [
-      "mathematics",
-      "percentages",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.939Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_12_medium_4",
-    "content": "Solve for x: 8x + 20 = 60",
-    "type": "multiple_choice",
-    "options": [
-      "5",
-      "7",
       "6",
-      "4"
-    ],
-    "correctAnswer": "5",
-    "explanation": "8x + 20 = 60, so 8x = 40, therefore x = 5",
-    "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
-    "difficulty": "medium",
-    "grade": 12,
-    "tags": [
-      "mathematics",
-      "algebra",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.939Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_12_medium_5",
-    "content": "What is 49 - 33?",
-    "type": "multiple_choice",
-    "options": [
-      "17",
-      "18",
-      "15",
-      "16"
-    ],
-    "correctAnswer": "16",
-    "explanation": "49 - 33 = 16",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "medium",
-    "grade": 12,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.939Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_12_medium_6",
-    "content": "What is 2 × 12?",
-    "type": "multiple_choice",
-    "options": [
-      "26",
-      "25",
-      "23",
-      "24"
-    ],
-    "correctAnswer": "24",
-    "explanation": "2 × 12 = 24",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "medium",
-    "grade": 12,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.939Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_12_medium_7",
-    "content": "If f(x) = 3x -1, what is f(4)?",
-    "type": "multiple_choice",
-    "options": [
+      "9",
       "12",
-      "10",
-      "13",
-      "11"
+      "15"
     ],
-    "correctAnswer": "11",
-    "explanation": "f(4) = 3(4) -1 = 11",
-    "subject": "Mathematical Reasoning",
-    "topic": "Functions",
-    "difficulty": "medium",
+    "correctAnswer": "9",
+    "subject": "Mathematics",
     "grade": 12,
-    "tags": [
-      "mathematics",
-      "functions",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.939Z",
-    "estimatedTime": 60
+    "difficulty": "medium",
+    "explanation": "Substitute x = 6: y = 2(6) - 3 = 12 - 3 = 9."
   },
   {
-    "_id": "build_math_12_medium_8",
-    "content": "What is sin(60°)?",
+    "_id": "grade12_medium_math_003",
+    "content": "Solve: 2x + 7 = 19",
     "type": "multiple_choice",
     "options": [
-      "√3/2",
-      "1/2",
-      "√2/2",
-      "√3/2"
+      "x = 5",
+      "x = 6",
+      "x = 7",
+      "x = 13"
     ],
-    "correctAnswer": "√3/2",
-    "explanation": "sin(60°) = √3/2 (special angle)",
-    "subject": "Mathematical Reasoning",
-    "topic": "Trigonometry",
-    "difficulty": "medium",
+    "correctAnswer": "x = 6",
+    "subject": "Mathematics",
     "grade": 12,
-    "tags": [
-      "mathematics",
-      "trigonometry",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.939Z",
-    "estimatedTime": 60
+    "difficulty": "medium",
+    "explanation": "2x + 7 = 19. Subtract 7: 2x = 12. Divide by 2: x = 6."
   },
   {
-    "_id": "build_math_12_medium_9",
-    "content": "What is 50 - 22?",
-    "type": "multiple_choice",
-    "options": [
-      "30",
-      "29",
-      "27",
-      "28"
-    ],
-    "correctAnswer": "28",
-    "explanation": "50 - 22 = 28",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "medium",
-    "grade": 12,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.939Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_12_medium_10",
-    "content": "What is 6 × 8?",
-    "type": "multiple_choice",
-    "options": [
-      "49",
-      "47",
-      "50",
-      "48"
-    ],
-    "correctAnswer": "48",
-    "explanation": "6 × 8 = 48",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "medium",
-    "grade": 12,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.939Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_12_medium_11",
-    "content": "What is 48% of 75?",
-    "type": "multiple_choice",
-    "options": [
-      "36",
-      "37",
-      "35",
-      "38"
-    ],
-    "correctAnswer": "36",
-    "explanation": "48% of 75 = (48/100) × 75 = 36",
-    "subject": "Mathematical Reasoning",
-    "topic": "Percentages",
-    "difficulty": "medium",
-    "grade": 12,
-    "tags": [
-      "mathematics",
-      "percentages",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.939Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_12_medium_12",
-    "content": "Solve for x: 7x + 7 = 35",
+    "_id": "grade12_medium_math_004",
+    "content": "If y = 2x - 3, find y when x = 6.",
     "type": "multiple_choice",
     "options": [
       "6",
-      "4",
-      "3",
-      "5"
-    ],
-    "correctAnswer": "4",
-    "explanation": "7x + 7 = 35, so 7x = 28, therefore x = 4",
-    "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
-    "difficulty": "medium",
-    "grade": 12,
-    "tags": [
-      "mathematics",
-      "algebra",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.939Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_12_medium_13",
-    "content": "If f(x) = 8x -1, what is f(1)?",
-    "type": "multiple_choice",
-    "options": [
-      "6",
-      "8",
-      "7",
-      "9"
-    ],
-    "correctAnswer": "7",
-    "explanation": "f(1) = 8(1) -1 = 7",
-    "subject": "Mathematical Reasoning",
-    "topic": "Functions",
-    "difficulty": "medium",
-    "grade": 12,
-    "tags": [
-      "mathematics",
-      "functions",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.939Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_12_medium_14",
-    "content": "What is sin(60°)?",
-    "type": "multiple_choice",
-    "options": [
-      "√3/2",
-      "1/2",
-      "√2/2",
-      "√3/2"
-    ],
-    "correctAnswer": "√3/2",
-    "explanation": "sin(60°) = √3/2 (special angle)",
-    "subject": "Mathematical Reasoning",
-    "topic": "Trigonometry",
-    "difficulty": "medium",
-    "grade": 12,
-    "tags": [
-      "mathematics",
-      "trigonometry",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.939Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_12_medium_15",
-    "content": "What is 79% of 83?",
-    "type": "multiple_choice",
-    "options": [
-      "65",
-      "66",
-      "68",
-      "67"
-    ],
-    "correctAnswer": "66",
-    "explanation": "79% of 83 = (79/100) × 83 = 66",
-    "subject": "Mathematical Reasoning",
-    "topic": "Percentages",
-    "difficulty": "medium",
-    "grade": 12,
-    "tags": [
-      "mathematics",
-      "percentages",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.939Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_12_medium_16",
-    "content": "Solve for x: 5x + 8 = 33",
-    "type": "multiple_choice",
-    "options": [
-      "7",
-      "6",
-      "5",
-      "4"
-    ],
-    "correctAnswer": "5",
-    "explanation": "5x + 8 = 33, so 5x = 25, therefore x = 5",
-    "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
-    "difficulty": "medium",
-    "grade": 12,
-    "tags": [
-      "mathematics",
-      "algebra",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.939Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_12_medium_17",
-    "content": "What is 20 - 6?",
-    "type": "multiple_choice",
-    "options": [
-      "16",
-      "13",
-      "15",
-      "14"
-    ],
-    "correctAnswer": "14",
-    "explanation": "20 - 6 = 14",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "medium",
-    "grade": 12,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.940Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_12_medium_18",
-    "content": "What is 11 × 10?",
-    "type": "multiple_choice",
-    "options": [
-      "109",
-      "112",
-      "111",
-      "110"
-    ],
-    "correctAnswer": "110",
-    "explanation": "11 × 10 = 110",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "medium",
-    "grade": 12,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.940Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_12_medium_19",
-    "content": "If f(x) = 2x +5, what is f(1)?",
-    "type": "multiple_choice",
-    "options": [
       "9",
+      "12",
+      "15"
+    ],
+    "correctAnswer": "9",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "medium",
+    "explanation": "Substitute x = 6: y = 2(6) - 3 = 12 - 3 = 9."
+  },
+  {
+    "_id": "grade12_medium_math_005",
+    "content": "Solve: 2x + 7 = 19",
+    "type": "multiple_choice",
+    "options": [
+      "x = 5",
+      "x = 6",
+      "x = 7",
+      "x = 13"
+    ],
+    "correctAnswer": "x = 6",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "medium",
+    "explanation": "2x + 7 = 19. Subtract 7: 2x = 12. Divide by 2: x = 6."
+  },
+  {
+    "_id": "grade12_medium_math_006",
+    "content": "If y = 2x - 3, find y when x = 6.",
+    "type": "multiple_choice",
+    "options": [
       "6",
-      "7",
-      "8"
-    ],
-    "correctAnswer": "7",
-    "explanation": "f(1) = 2(1) +5 = 7",
-    "subject": "Mathematical Reasoning",
-    "topic": "Functions",
-    "difficulty": "medium",
-    "grade": 12,
-    "tags": [
-      "mathematics",
-      "functions",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.940Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_12_medium_20",
-    "content": "What is sin(60°)?",
-    "type": "multiple_choice",
-    "options": [
-      "√3/2",
-      "1/2",
-      "√2/2",
-      "√3/2"
-    ],
-    "correctAnswer": "√3/2",
-    "explanation": "sin(60°) = √3/2 (special angle)",
-    "subject": "Mathematical Reasoning",
-    "topic": "Trigonometry",
-    "difficulty": "medium",
-    "grade": 12,
-    "tags": [
-      "mathematics",
-      "trigonometry",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.940Z",
-    "estimatedTime": 60
-  },
-  {
-    "_id": "build_math_12_medium_21",
-    "content": "What is 22 - 12?",
-    "type": "multiple_choice",
-    "options": [
-      "10",
-      "11",
       "9",
-      "12"
+      "12",
+      "15"
     ],
-    "correctAnswer": "10",
-    "explanation": "22 - 12 = 10",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "medium",
+    "correctAnswer": "9",
+    "subject": "Mathematics",
     "grade": 12,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.940Z",
-    "estimatedTime": 60
+    "difficulty": "medium",
+    "explanation": "Substitute x = 6: y = 2(6) - 3 = 12 - 3 = 9."
   },
   {
-    "_id": "build_math_12_medium_22",
-    "content": "What is 8 × 7?",
+    "_id": "grade12_medium_math_007",
+    "content": "Solve: 2x + 7 = 19",
     "type": "multiple_choice",
     "options": [
-      "58",
-      "57",
-      "56",
-      "55"
+      "x = 5",
+      "x = 6",
+      "x = 7",
+      "x = 13"
     ],
-    "correctAnswer": "56",
-    "explanation": "8 × 7 = 56",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "medium",
+    "correctAnswer": "x = 6",
+    "subject": "Mathematics",
     "grade": 12,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.940Z",
-    "estimatedTime": 60
+    "difficulty": "medium",
+    "explanation": "2x + 7 = 19. Subtract 7: 2x = 12. Divide by 2: x = 6."
   },
   {
-    "_id": "build_math_12_medium_23",
-    "content": "What is 43% of 113?",
+    "_id": "grade12_medium_math_008",
+    "content": "If y = 2x - 3, find y when x = 6.",
     "type": "multiple_choice",
     "options": [
-      "48",
-      "49",
-      "50",
-      "51"
+      "6",
+      "9",
+      "12",
+      "15"
     ],
-    "correctAnswer": "49",
-    "explanation": "43% of 113 = (43/100) × 113 = 49",
-    "subject": "Mathematical Reasoning",
-    "topic": "Percentages",
-    "difficulty": "medium",
+    "correctAnswer": "9",
+    "subject": "Mathematics",
     "grade": 12,
-    "tags": [
-      "mathematics",
-      "percentages",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.940Z",
-    "estimatedTime": 60
+    "difficulty": "medium",
+    "explanation": "Substitute x = 6: y = 2(6) - 3 = 12 - 3 = 9."
   },
   {
-    "_id": "build_math_12_medium_24",
-    "content": "Solve for x: 4x + 8 = 16",
+    "_id": "grade12_medium_math_009",
+    "content": "Solve: 2x + 7 = 19",
     "type": "multiple_choice",
     "options": [
-      "4",
-      "2",
-      "3",
-      "1"
+      "x = 5",
+      "x = 6",
+      "x = 7",
+      "x = 13"
     ],
-    "correctAnswer": "2",
-    "explanation": "4x + 8 = 16, so 4x = 8, therefore x = 2",
-    "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
-    "difficulty": "medium",
+    "correctAnswer": "x = 6",
+    "subject": "Mathematics",
     "grade": 12,
-    "tags": [
-      "mathematics",
-      "algebra",
-      "build-time-generated",
-      "timed-test-ready"
+    "difficulty": "medium",
+    "explanation": "2x + 7 = 19. Subtract 7: 2x = 12. Divide by 2: x = 6."
+  },
+  {
+    "_id": "grade12_medium_math_010",
+    "content": "If y = 2x - 3, find y when x = 6.",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "9",
+      "12",
+      "15"
     ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.940Z",
-    "estimatedTime": 60
+    "correctAnswer": "9",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "medium",
+    "explanation": "Substitute x = 6: y = 2(6) - 3 = 12 - 3 = 9."
+  },
+  {
+    "_id": "grade12_medium_math_011",
+    "content": "Solve: 2x + 7 = 19",
+    "type": "multiple_choice",
+    "options": [
+      "x = 5",
+      "x = 6",
+      "x = 7",
+      "x = 13"
+    ],
+    "correctAnswer": "x = 6",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "medium",
+    "explanation": "2x + 7 = 19. Subtract 7: 2x = 12. Divide by 2: x = 6."
+  },
+  {
+    "_id": "grade12_medium_math_012",
+    "content": "If y = 2x - 3, find y when x = 6.",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "9",
+      "12",
+      "15"
+    ],
+    "correctAnswer": "9",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "medium",
+    "explanation": "Substitute x = 6: y = 2(6) - 3 = 12 - 3 = 9."
+  },
+  {
+    "_id": "grade12_medium_math_013",
+    "content": "Solve: 2x + 7 = 19",
+    "type": "multiple_choice",
+    "options": [
+      "x = 5",
+      "x = 6",
+      "x = 7",
+      "x = 13"
+    ],
+    "correctAnswer": "x = 6",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "medium",
+    "explanation": "2x + 7 = 19. Subtract 7: 2x = 12. Divide by 2: x = 6."
+  },
+  {
+    "_id": "grade12_medium_math_014",
+    "content": "If y = 2x - 3, find y when x = 6.",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "9",
+      "12",
+      "15"
+    ],
+    "correctAnswer": "9",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "medium",
+    "explanation": "Substitute x = 6: y = 2(6) - 3 = 12 - 3 = 9."
+  },
+  {
+    "_id": "grade12_medium_math_015",
+    "content": "Solve: 2x + 7 = 19",
+    "type": "multiple_choice",
+    "options": [
+      "x = 5",
+      "x = 6",
+      "x = 7",
+      "x = 13"
+    ],
+    "correctAnswer": "x = 6",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "medium",
+    "explanation": "2x + 7 = 19. Subtract 7: 2x = 12. Divide by 2: x = 6."
+  },
+  {
+    "_id": "grade12_medium_math_016",
+    "content": "If y = 2x - 3, find y when x = 6.",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "9",
+      "12",
+      "15"
+    ],
+    "correctAnswer": "9",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "medium",
+    "explanation": "Substitute x = 6: y = 2(6) - 3 = 12 - 3 = 9."
+  },
+  {
+    "_id": "grade12_medium_math_017",
+    "content": "Solve: 2x + 7 = 19",
+    "type": "multiple_choice",
+    "options": [
+      "x = 5",
+      "x = 6",
+      "x = 7",
+      "x = 13"
+    ],
+    "correctAnswer": "x = 6",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "medium",
+    "explanation": "2x + 7 = 19. Subtract 7: 2x = 12. Divide by 2: x = 6."
+  },
+  {
+    "_id": "grade12_medium_math_018",
+    "content": "If y = 2x - 3, find y when x = 6.",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "9",
+      "12",
+      "15"
+    ],
+    "correctAnswer": "9",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "medium",
+    "explanation": "Substitute x = 6: y = 2(6) - 3 = 12 - 3 = 9."
+  },
+  {
+    "_id": "grade12_medium_math_019",
+    "content": "Solve: 2x + 7 = 19",
+    "type": "multiple_choice",
+    "options": [
+      "x = 5",
+      "x = 6",
+      "x = 7",
+      "x = 13"
+    ],
+    "correctAnswer": "x = 6",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "medium",
+    "explanation": "2x + 7 = 19. Subtract 7: 2x = 12. Divide by 2: x = 6."
+  },
+  {
+    "_id": "grade12_medium_math_020",
+    "content": "If y = 2x - 3, find y when x = 6.",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "9",
+      "12",
+      "15"
+    ],
+    "correctAnswer": "9",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "medium",
+    "explanation": "Substitute x = 6: y = 2(6) - 3 = 12 - 3 = 9."
   }
 ]

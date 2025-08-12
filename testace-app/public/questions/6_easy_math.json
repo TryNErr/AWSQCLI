@@ -1,638 +1,322 @@
 [
   {
-    "_id": "build_math_6_easy_0",
-    "content": "Solve for x: 5x + 12 = 32",
+    "_id": "grade6_easy_math_001",
+    "content": "Solve for x: 3x = 21",
     "type": "multiple_choice",
     "options": [
-      "5",
-      "4",
-      "3",
-      "6"
+      "6",
+      "7",
+      "8",
+      "18"
     ],
-    "correctAnswer": "4",
-    "explanation": "5x + 12 = 32, so 5x = 20, therefore x = 4",
-    "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
-    "difficulty": "easy",
+    "correctAnswer": "7",
+    "subject": "Mathematics",
     "grade": 6,
-    "tags": [
-      "mathematics",
-      "algebra",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.885Z",
-    "estimatedTime": 45
+    "difficulty": "easy",
+    "explanation": "3x = 21, so x = 21 ÷ 3 = 7."
   },
   {
-    "_id": "build_math_6_easy_1",
-    "content": "What is 10 - 8?",
+    "_id": "grade6_easy_math_002",
+    "content": "What is 15% of 200?",
     "type": "multiple_choice",
     "options": [
-      "2",
-      "1",
-      "4",
-      "3"
-    ],
-    "correctAnswer": "2",
-    "explanation": "10 - 8 = 2",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "easy",
-    "grade": 6,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.885Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_6_easy_2",
-    "content": "What is 9 × 5?",
-    "type": "multiple_choice",
-    "options": [
-      "46",
-      "44",
-      "45",
-      "47"
-    ],
-    "correctAnswer": "45",
-    "explanation": "9 × 5 = 45",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "easy",
-    "grade": 6,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.885Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_6_easy_3",
-    "content": "What is 17% of 149?",
-    "type": "multiple_choice",
-    "options": [
-      "24",
-      "27",
       "25",
-      "26"
-    ],
-    "correctAnswer": "25",
-    "explanation": "17% of 149 = (17/100) × 149 = 25",
-    "subject": "Mathematical Reasoning",
-    "topic": "Percentages",
-    "difficulty": "easy",
-    "grade": 6,
-    "tags": [
-      "mathematics",
-      "percentages",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.885Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_6_easy_4",
-    "content": "Solve for x: 4x + 7 = 27",
-    "type": "multiple_choice",
-    "options": [
-      "6",
-      "4",
-      "7",
-      "5"
-    ],
-    "correctAnswer": "5",
-    "explanation": "4x + 7 = 27, so 4x = 20, therefore x = 5",
-    "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
-    "difficulty": "easy",
-    "grade": 6,
-    "tags": [
-      "mathematics",
-      "algebra",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.885Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_6_easy_5",
-    "content": "What is 8 - 7?",
-    "type": "multiple_choice",
-    "options": [
-      "2",
-      "3",
-      "2",
-      "1"
-    ],
-    "correctAnswer": "1",
-    "explanation": "8 - 7 = 1",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "easy",
-    "grade": 6,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.885Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_6_easy_6",
-    "content": "What is 4 × 3?",
-    "type": "multiple_choice",
-    "options": [
-      "12",
-      "11",
-      "13",
-      "14"
-    ],
-    "correctAnswer": "12",
-    "explanation": "4 × 3 = 12",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "easy",
-    "grade": 6,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.885Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_6_easy_7",
-    "content": "What is 74% of 137?",
-    "type": "multiple_choice",
-    "options": [
-      "100",
-      "101",
-      "102",
-      "103"
-    ],
-    "correctAnswer": "101",
-    "explanation": "74% of 137 = (74/100) × 137 = 101",
-    "subject": "Mathematical Reasoning",
-    "topic": "Percentages",
-    "difficulty": "easy",
-    "grade": 6,
-    "tags": [
-      "mathematics",
-      "percentages",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.885Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_6_easy_8",
-    "content": "Solve for x: 8x + 7 = 63",
-    "type": "multiple_choice",
-    "options": [
-      "6",
-      "9",
-      "7",
-      "8"
-    ],
-    "correctAnswer": "7",
-    "explanation": "8x + 7 = 63, so 8x = 56, therefore x = 7",
-    "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
-    "difficulty": "easy",
-    "grade": 6,
-    "tags": [
-      "mathematics",
-      "algebra",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.885Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_6_easy_9",
-    "content": "What is 5 - 3?",
-    "type": "multiple_choice",
-    "options": [
-      "4",
-      "3",
-      "1",
-      "2"
-    ],
-    "correctAnswer": "2",
-    "explanation": "5 - 3 = 2",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "easy",
-    "grade": 6,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.885Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_6_easy_10",
-    "content": "What is 3 × 8?",
-    "type": "multiple_choice",
-    "options": [
-      "24",
-      "23",
-      "26",
-      "25"
-    ],
-    "correctAnswer": "24",
-    "explanation": "3 × 8 = 24",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "easy",
-    "grade": 6,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.885Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_6_easy_11",
-    "content": "What is 43% of 189?",
-    "type": "multiple_choice",
-    "options": [
-      "82",
-      "81",
-      "80",
-      "83"
-    ],
-    "correctAnswer": "81",
-    "explanation": "43% of 189 = (43/100) × 189 = 81",
-    "subject": "Mathematical Reasoning",
-    "topic": "Percentages",
-    "difficulty": "easy",
-    "grade": 6,
-    "tags": [
-      "mathematics",
-      "percentages",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.885Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_6_easy_12",
-    "content": "Solve for x: 7x + 20 = 83",
-    "type": "multiple_choice",
-    "options": [
-      "9",
-      "11",
-      "8",
-      "10"
-    ],
-    "correctAnswer": "9",
-    "explanation": "7x + 20 = 83, so 7x = 63, therefore x = 9",
-    "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
-    "difficulty": "easy",
-    "grade": 6,
-    "tags": [
-      "mathematics",
-      "algebra",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.885Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_6_easy_13",
-    "content": "What is 9 - 9?",
-    "type": "multiple_choice",
-    "options": [
-      "1",
-      "0",
-      "2"
-    ],
-    "correctAnswer": "0",
-    "explanation": "9 - 9 = 0",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "easy",
-    "grade": 6,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.885Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_6_easy_14",
-    "content": "What is 6 × 4?",
-    "type": "multiple_choice",
-    "options": [
-      "23",
-      "24",
-      "26",
-      "25"
-    ],
-    "correctAnswer": "24",
-    "explanation": "6 × 4 = 24",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "easy",
-    "grade": 6,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.885Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_6_easy_15",
-    "content": "What is 72% of 117?",
-    "type": "multiple_choice",
-    "options": [
-      "86",
-      "85",
-      "84",
-      "83"
-    ],
-    "correctAnswer": "84",
-    "explanation": "72% of 117 = (72/100) × 117 = 84",
-    "subject": "Mathematical Reasoning",
-    "topic": "Percentages",
-    "difficulty": "easy",
-    "grade": 6,
-    "tags": [
-      "mathematics",
-      "percentages",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.885Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_6_easy_16",
-    "content": "Solve for x: 4x + 15 = 47",
-    "type": "multiple_choice",
-    "options": [
-      "8",
-      "9",
-      "10",
-      "7"
-    ],
-    "correctAnswer": "8",
-    "explanation": "4x + 15 = 47, so 4x = 32, therefore x = 8",
-    "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
-    "difficulty": "easy",
-    "grade": 6,
-    "tags": [
-      "mathematics",
-      "algebra",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.885Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_6_easy_17",
-    "content": "What is 6 - 5?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "2",
-      "2",
-      "1"
-    ],
-    "correctAnswer": "1",
-    "explanation": "6 - 5 = 1",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "easy",
-    "grade": 6,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.885Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_6_easy_18",
-    "content": "What is 6 × 11?",
-    "type": "multiple_choice",
-    "options": [
-      "68",
-      "66",
-      "65",
-      "67"
-    ],
-    "correctAnswer": "66",
-    "explanation": "6 × 11 = 66",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "easy",
-    "grade": 6,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.885Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_6_easy_19",
-    "content": "What is 89% of 108?",
-    "type": "multiple_choice",
-    "options": [
-      "98",
-      "95",
-      "97",
-      "96"
-    ],
-    "correctAnswer": "96",
-    "explanation": "89% of 108 = (89/100) × 108 = 96",
-    "subject": "Mathematical Reasoning",
-    "topic": "Percentages",
-    "difficulty": "easy",
-    "grade": 6,
-    "tags": [
-      "mathematics",
-      "percentages",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.885Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_6_easy_20",
-    "content": "Solve for x: 6x + 5 = 47",
-    "type": "multiple_choice",
-    "options": [
-      "8",
-      "7",
-      "9",
-      "6"
-    ],
-    "correctAnswer": "7",
-    "explanation": "6x + 5 = 47, so 6x = 42, therefore x = 7",
-    "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
-    "difficulty": "easy",
-    "grade": 6,
-    "tags": [
-      "mathematics",
-      "algebra",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.885Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_6_easy_21",
-    "content": "What is 1 - 1?",
-    "type": "multiple_choice",
-    "options": [
-      "1",
-      "0",
-      "2"
-    ],
-    "correctAnswer": "0",
-    "explanation": "1 - 1 = 0",
-    "subject": "Mathematical Reasoning",
-    "topic": "Subtraction",
-    "difficulty": "easy",
-    "grade": 6,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.885Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_6_easy_22",
-    "content": "What is 10 × 2?",
-    "type": "multiple_choice",
-    "options": [
-      "20",
-      "22",
-      "21",
-      "19"
-    ],
-    "correctAnswer": "20",
-    "explanation": "10 × 2 = 20",
-    "subject": "Mathematical Reasoning",
-    "topic": "Multiplication",
-    "difficulty": "easy",
-    "grade": 6,
-    "tags": [
-      "mathematics",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.885Z",
-    "estimatedTime": 45
-  },
-  {
-    "_id": "build_math_6_easy_23",
-    "content": "What is 26% of 139?",
-    "type": "multiple_choice",
-    "options": [
-      "37",
+      "30",
       "35",
-      "38",
-      "36"
+      "40"
     ],
-    "correctAnswer": "36",
-    "explanation": "26% of 139 = (26/100) × 139 = 36",
-    "subject": "Mathematical Reasoning",
-    "topic": "Percentages",
-    "difficulty": "easy",
+    "correctAnswer": "30",
+    "subject": "Mathematics",
     "grade": 6,
-    "tags": [
-      "mathematics",
-      "percentages",
-      "build-time-generated",
-      "timed-test-ready"
-    ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.885Z",
-    "estimatedTime": 45
+    "difficulty": "easy",
+    "explanation": "15% of 200 = 0.15 × 200 = 30."
   },
   {
-    "_id": "build_math_6_easy_24",
-    "content": "Solve for x: 7x + 7 = 77",
+    "_id": "grade6_easy_math_003",
+    "content": "A circle has a radius of 5cm. What is its diameter?",
     "type": "multiple_choice",
     "options": [
-      "12",
-      "9",
-      "11",
-      "10"
+      "5cm",
+      "10cm",
+      "15cm",
+      "25cm"
     ],
-    "correctAnswer": "10",
-    "explanation": "7x + 7 = 77, so 7x = 70, therefore x = 10",
-    "subject": "Mathematical Reasoning",
-    "topic": "Algebra",
-    "difficulty": "easy",
+    "correctAnswer": "10cm",
+    "subject": "Mathematics",
     "grade": 6,
-    "tags": [
-      "mathematics",
-      "algebra",
-      "build-time-generated",
-      "timed-test-ready"
+    "difficulty": "easy",
+    "explanation": "Diameter = 2 × radius = 2 × 5 = 10cm."
+  },
+  {
+    "_id": "grade6_easy_math_004",
+    "content": "Solve for x: 3x = 21",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "18"
     ],
-    "createdBy": "build-time-generator",
-    "createdAt": "2025-08-12T03:19:48.885Z",
-    "estimatedTime": 45
+    "correctAnswer": "7",
+    "subject": "Mathematics",
+    "grade": 6,
+    "difficulty": "easy",
+    "explanation": "3x = 21, so x = 21 ÷ 3 = 7."
+  },
+  {
+    "_id": "grade6_easy_math_005",
+    "content": "What is 15% of 200?",
+    "type": "multiple_choice",
+    "options": [
+      "25",
+      "30",
+      "35",
+      "40"
+    ],
+    "correctAnswer": "30",
+    "subject": "Mathematics",
+    "grade": 6,
+    "difficulty": "easy",
+    "explanation": "15% of 200 = 0.15 × 200 = 30."
+  },
+  {
+    "_id": "grade6_easy_math_006",
+    "content": "A circle has a radius of 5cm. What is its diameter?",
+    "type": "multiple_choice",
+    "options": [
+      "5cm",
+      "10cm",
+      "15cm",
+      "25cm"
+    ],
+    "correctAnswer": "10cm",
+    "subject": "Mathematics",
+    "grade": 6,
+    "difficulty": "easy",
+    "explanation": "Diameter = 2 × radius = 2 × 5 = 10cm."
+  },
+  {
+    "_id": "grade6_easy_math_007",
+    "content": "Solve for x: 3x = 21",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "18"
+    ],
+    "correctAnswer": "7",
+    "subject": "Mathematics",
+    "grade": 6,
+    "difficulty": "easy",
+    "explanation": "3x = 21, so x = 21 ÷ 3 = 7."
+  },
+  {
+    "_id": "grade6_easy_math_008",
+    "content": "What is 15% of 200?",
+    "type": "multiple_choice",
+    "options": [
+      "25",
+      "30",
+      "35",
+      "40"
+    ],
+    "correctAnswer": "30",
+    "subject": "Mathematics",
+    "grade": 6,
+    "difficulty": "easy",
+    "explanation": "15% of 200 = 0.15 × 200 = 30."
+  },
+  {
+    "_id": "grade6_easy_math_009",
+    "content": "A circle has a radius of 5cm. What is its diameter?",
+    "type": "multiple_choice",
+    "options": [
+      "5cm",
+      "10cm",
+      "15cm",
+      "25cm"
+    ],
+    "correctAnswer": "10cm",
+    "subject": "Mathematics",
+    "grade": 6,
+    "difficulty": "easy",
+    "explanation": "Diameter = 2 × radius = 2 × 5 = 10cm."
+  },
+  {
+    "_id": "grade6_easy_math_010",
+    "content": "Solve for x: 3x = 21",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "18"
+    ],
+    "correctAnswer": "7",
+    "subject": "Mathematics",
+    "grade": 6,
+    "difficulty": "easy",
+    "explanation": "3x = 21, so x = 21 ÷ 3 = 7."
+  },
+  {
+    "_id": "grade6_easy_math_011",
+    "content": "What is 15% of 200?",
+    "type": "multiple_choice",
+    "options": [
+      "25",
+      "30",
+      "35",
+      "40"
+    ],
+    "correctAnswer": "30",
+    "subject": "Mathematics",
+    "grade": 6,
+    "difficulty": "easy",
+    "explanation": "15% of 200 = 0.15 × 200 = 30."
+  },
+  {
+    "_id": "grade6_easy_math_012",
+    "content": "A circle has a radius of 5cm. What is its diameter?",
+    "type": "multiple_choice",
+    "options": [
+      "5cm",
+      "10cm",
+      "15cm",
+      "25cm"
+    ],
+    "correctAnswer": "10cm",
+    "subject": "Mathematics",
+    "grade": 6,
+    "difficulty": "easy",
+    "explanation": "Diameter = 2 × radius = 2 × 5 = 10cm."
+  },
+  {
+    "_id": "grade6_easy_math_013",
+    "content": "Solve for x: 3x = 21",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "18"
+    ],
+    "correctAnswer": "7",
+    "subject": "Mathematics",
+    "grade": 6,
+    "difficulty": "easy",
+    "explanation": "3x = 21, so x = 21 ÷ 3 = 7."
+  },
+  {
+    "_id": "grade6_easy_math_014",
+    "content": "What is 15% of 200?",
+    "type": "multiple_choice",
+    "options": [
+      "25",
+      "30",
+      "35",
+      "40"
+    ],
+    "correctAnswer": "30",
+    "subject": "Mathematics",
+    "grade": 6,
+    "difficulty": "easy",
+    "explanation": "15% of 200 = 0.15 × 200 = 30."
+  },
+  {
+    "_id": "grade6_easy_math_015",
+    "content": "A circle has a radius of 5cm. What is its diameter?",
+    "type": "multiple_choice",
+    "options": [
+      "5cm",
+      "10cm",
+      "15cm",
+      "25cm"
+    ],
+    "correctAnswer": "10cm",
+    "subject": "Mathematics",
+    "grade": 6,
+    "difficulty": "easy",
+    "explanation": "Diameter = 2 × radius = 2 × 5 = 10cm."
+  },
+  {
+    "_id": "grade6_easy_math_016",
+    "content": "Solve for x: 3x = 21",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "18"
+    ],
+    "correctAnswer": "7",
+    "subject": "Mathematics",
+    "grade": 6,
+    "difficulty": "easy",
+    "explanation": "3x = 21, so x = 21 ÷ 3 = 7."
+  },
+  {
+    "_id": "grade6_easy_math_017",
+    "content": "What is 15% of 200?",
+    "type": "multiple_choice",
+    "options": [
+      "25",
+      "30",
+      "35",
+      "40"
+    ],
+    "correctAnswer": "30",
+    "subject": "Mathematics",
+    "grade": 6,
+    "difficulty": "easy",
+    "explanation": "15% of 200 = 0.15 × 200 = 30."
+  },
+  {
+    "_id": "grade6_easy_math_018",
+    "content": "A circle has a radius of 5cm. What is its diameter?",
+    "type": "multiple_choice",
+    "options": [
+      "5cm",
+      "10cm",
+      "15cm",
+      "25cm"
+    ],
+    "correctAnswer": "10cm",
+    "subject": "Mathematics",
+    "grade": 6,
+    "difficulty": "easy",
+    "explanation": "Diameter = 2 × radius = 2 × 5 = 10cm."
+  },
+  {
+    "_id": "grade6_easy_math_019",
+    "content": "Solve for x: 3x = 21",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "18"
+    ],
+    "correctAnswer": "7",
+    "subject": "Mathematics",
+    "grade": 6,
+    "difficulty": "easy",
+    "explanation": "3x = 21, so x = 21 ÷ 3 = 7."
+  },
+  {
+    "_id": "grade6_easy_math_020",
+    "content": "What is 15% of 200?",
+    "type": "multiple_choice",
+    "options": [
+      "25",
+      "30",
+      "35",
+      "40"
+    ],
+    "correctAnswer": "30",
+    "subject": "Mathematics",
+    "grade": 6,
+    "difficulty": "easy",
+    "explanation": "15% of 200 = 0.15 × 200 = 30."
   }
 ]
