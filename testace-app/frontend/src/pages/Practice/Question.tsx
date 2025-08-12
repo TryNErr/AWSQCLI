@@ -251,8 +251,8 @@ const Question: React.FC = () => {
       console.error('Error loading question:', error);
       console.error('Error details:', {
         questionId,
-        error: error.message,
-        stack: error.stack
+        error: error instanceof Error ? error.message : String(error),
+        stack: error instanceof Error ? error.stack : undefined
       });
       setQuestion(null);
     } finally {
