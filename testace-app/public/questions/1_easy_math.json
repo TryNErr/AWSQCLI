@@ -1,322 +1,322 @@
 [
   {
     "_id": "grade1_easy_math_001",
-    "content": "What is 2 + 3?",
+    "content": "What is 1 + 2?",
     "type": "multiple_choice",
     "options": [
+      "1",
+      "3",
       "4",
-      "5",
-      "6",
-      "7"
+      "6"
     ],
-    "correctAnswer": "5",
+    "correctAnswer": "3",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "2 + 3 = 5"
+    "explanation": "1 + 2 = 3"
   },
   {
     "_id": "grade1_easy_math_002",
-    "content": "Count the objects: 🍎🍎🍎. How many apples?",
+    "content": "What is 1 × 1?",
     "type": "multiple_choice",
     "options": [
+      "0",
+      "1",
       "2",
-      "3",
-      "4",
-      "5"
+      "2"
     ],
-    "correctAnswer": "3",
+    "correctAnswer": "1",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "There are 3 apples."
+    "explanation": "1 × 1 = 1"
   },
   {
     "_id": "grade1_easy_math_003",
-    "content": "What comes after 7?",
+    "content": "What is 1 × 1?",
     "type": "multiple_choice",
     "options": [
-      "6",
-      "8",
-      "9",
-      "10"
+      "0",
+      "1",
+      "2",
+      "2"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "1",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "The number after 7 is 8."
+    "explanation": "1 × 1 = 1"
   },
   {
     "_id": "grade1_easy_math_004",
-    "content": "Which is bigger: 5 or 3?",
+    "content": "What is 1 × 1?",
     "type": "multiple_choice",
     "options": [
-      "3",
-      "5",
-      "Same",
-      "Can't tell"
+      "0",
+      "1",
+      "2",
+      "2"
     ],
-    "correctAnswer": "5",
+    "correctAnswer": "1",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "5 is bigger than 3."
+    "explanation": "1 × 1 = 1"
   },
   {
     "_id": "grade1_easy_math_005",
-    "content": "What is 10 - 1?",
+    "content": "What is 10% of 110?",
     "type": "multiple_choice",
     "options": [
-      "8",
-      "9",
-      "10",
-      "11"
+      "6",
+      "11",
+      "16",
+      "120"
     ],
-    "correctAnswer": "9",
+    "correctAnswer": "11",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "10 - 1 = 9"
+    "explanation": "10% of 110 = 0.1 × 110 = 11"
   },
   {
     "_id": "grade1_easy_math_006",
-    "content": "What is 2 + 3?",
+    "content": "A rectangle has length 2cm and width 3cm. What is its area?",
     "type": "multiple_choice",
     "options": [
-      "4",
-      "5",
-      "6",
-      "7"
+      "1 cm²",
+      "6 cm²",
+      "9 cm²",
+      "5 cm²"
     ],
-    "correctAnswer": "5",
+    "correctAnswer": "6 cm²",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "2 + 3 = 5"
+    "explanation": "Area = length × width = 2 × 3 = 6 cm²"
   },
   {
     "_id": "grade1_easy_math_007",
-    "content": "Count the objects: 🍎🍎🍎. How many apples?",
+    "content": "What is 3 × 1?",
     "type": "multiple_choice",
     "options": [
       "2",
       "3",
       "4",
-      "5"
+      "4"
     ],
     "correctAnswer": "3",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "There are 3 apples."
+    "explanation": "3 × 1 = 3"
   },
   {
     "_id": "grade1_easy_math_008",
-    "content": "What comes after 7?",
+    "content": "Solve for x: x + 3 = 4",
     "type": "multiple_choice",
     "options": [
-      "6",
-      "8",
-      "9",
-      "10"
+      "0",
+      "1",
+      "2",
+      "4"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "1",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "The number after 7 is 8."
+    "explanation": "x + 3 = 4, so x = 4 - 3 = 1"
   },
   {
     "_id": "grade1_easy_math_009",
-    "content": "Which is bigger: 5 or 3?",
+    "content": "What is 3 + 5?",
     "type": "multiple_choice",
     "options": [
-      "3",
-      "5",
-      "Same",
-      "Can't tell"
+      "6",
+      "8",
+      "9",
+      "11"
     ],
-    "correctAnswer": "5",
+    "correctAnswer": "8",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "5 is bigger than 3."
+    "explanation": "3 + 5 = 8"
   },
   {
     "_id": "grade1_easy_math_010",
-    "content": "What is 10 - 1?",
+    "content": "What is 3 × 2?",
     "type": "multiple_choice",
     "options": [
-      "8",
-      "9",
-      "10",
-      "11"
+      "5",
+      "6",
+      "7",
+      "5"
     ],
-    "correctAnswer": "9",
+    "correctAnswer": "6",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "10 - 1 = 9"
+    "explanation": "3 × 2 = 6"
   },
   {
     "_id": "grade1_easy_math_011",
-    "content": "What is 2 + 3?",
+    "content": "What is 3 × 2?",
     "type": "multiple_choice",
     "options": [
-      "4",
       "5",
       "6",
-      "7"
+      "7",
+      "5"
     ],
-    "correctAnswer": "5",
+    "correctAnswer": "6",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "2 + 3 = 5"
+    "explanation": "3 × 2 = 6"
   },
   {
     "_id": "grade1_easy_math_012",
-    "content": "Count the objects: 🍎🍎🍎. How many apples?",
+    "content": "What is 3 × 2?",
     "type": "multiple_choice",
     "options": [
-      "2",
-      "3",
-      "4",
+      "5",
+      "6",
+      "7",
       "5"
     ],
-    "correctAnswer": "3",
+    "correctAnswer": "6",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "There are 3 apples."
+    "explanation": "3 × 2 = 6"
   },
   {
     "_id": "grade1_easy_math_013",
-    "content": "What comes after 7?",
+    "content": "What is 12% of 140?",
     "type": "multiple_choice",
     "options": [
-      "6",
-      "8",
-      "9",
-      "10"
+      "11.8",
+      "16.8",
+      "21.8",
+      "152"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "16.8",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "The number after 7 is 8."
+    "explanation": "12% of 140 = 0.12 × 140 = 16.8"
   },
   {
     "_id": "grade1_easy_math_014",
-    "content": "Which is bigger: 5 or 3?",
+    "content": "A rectangle has length 4cm and width 6cm. What is its area?",
     "type": "multiple_choice",
     "options": [
-      "3",
-      "5",
-      "Same",
-      "Can't tell"
+      "19 cm²",
+      "24 cm²",
+      "27 cm²",
+      "10 cm²"
     ],
-    "correctAnswer": "5",
+    "correctAnswer": "24 cm²",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "5 is bigger than 3."
+    "explanation": "Area = length × width = 4 × 6 = 24 cm²"
   },
   {
     "_id": "grade1_easy_math_015",
-    "content": "What is 10 - 1?",
+    "content": "What is 5 × 2?",
     "type": "multiple_choice",
     "options": [
-      "8",
       "9",
       "10",
-      "11"
+      "11",
+      "7"
     ],
-    "correctAnswer": "9",
+    "correctAnswer": "10",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "10 - 1 = 9"
+    "explanation": "5 × 2 = 10"
   },
   {
     "_id": "grade1_easy_math_016",
-    "content": "What is 2 + 3?",
-    "type": "multiple_choice",
-    "options": [
-      "4",
-      "5",
-      "6",
-      "7"
-    ],
-    "correctAnswer": "5",
-    "subject": "Mathematics",
-    "grade": 1,
-    "difficulty": "easy",
-    "explanation": "2 + 3 = 5"
-  },
-  {
-    "_id": "grade1_easy_math_017",
-    "content": "Count the objects: 🍎🍎🍎. How many apples?",
+    "content": "Solve for x: x + 6 = 9",
     "type": "multiple_choice",
     "options": [
       "2",
       "3",
       "4",
-      "5"
+      "9"
     ],
     "correctAnswer": "3",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "There are 3 apples."
+    "explanation": "x + 6 = 9, so x = 9 - 6 = 3"
+  },
+  {
+    "_id": "grade1_easy_math_017",
+    "content": "What is 5 + 8?",
+    "type": "multiple_choice",
+    "options": [
+      "11",
+      "13",
+      "14",
+      "16"
+    ],
+    "correctAnswer": "13",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "5 + 8 = 13"
   },
   {
     "_id": "grade1_easy_math_018",
-    "content": "What comes after 7?",
+    "content": "What is 5 × 3?",
     "type": "multiple_choice",
     "options": [
-      "6",
-      "8",
-      "9",
-      "10"
+      "14",
+      "15",
+      "16",
+      "8"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "15",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "The number after 7 is 8."
+    "explanation": "5 × 3 = 15"
   },
   {
     "_id": "grade1_easy_math_019",
-    "content": "Which is bigger: 5 or 3?",
+    "content": "What is 5 × 3?",
     "type": "multiple_choice",
     "options": [
-      "3",
-      "5",
-      "Same",
-      "Can't tell"
+      "14",
+      "15",
+      "16",
+      "8"
     ],
-    "correctAnswer": "5",
+    "correctAnswer": "15",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "5 is bigger than 3."
+    "explanation": "5 × 3 = 15"
   },
   {
     "_id": "grade1_easy_math_020",
-    "content": "What is 10 - 1?",
+    "content": "What is 5 × 3?",
     "type": "multiple_choice",
     "options": [
-      "8",
-      "9",
-      "10",
-      "11"
+      "14",
+      "15",
+      "16",
+      "8"
     ],
-    "correctAnswer": "9",
+    "correctAnswer": "15",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "10 - 1 = 9"
+    "explanation": "5 × 3 = 15"
   }
 ]
