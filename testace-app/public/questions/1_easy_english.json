@@ -1,777 +1,422 @@
 [
   {
-    "_id": "eng_1_easy_1",
-    "content": "Which word is a noun?",
+    "_id": "grade1_easy_english_001",
+    "content": "Which word rhymes with 'cat'?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "1",
     "options": [
-      "run",
-      "happy",
       "dog",
-      "quickly"
-    ],
-    "correctAnswer": "dog",
-    "explanation": "A noun is a person, place, or thing. 'Dog' is a thing, making it a noun.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.651Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.651Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_1_easy_2",
-    "content": "What is the past tense of 'walk'?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "1",
-    "options": [
-      "walking",
-      "walked",
-      "walks",
-      "walker"
-    ],
-    "correctAnswer": "walked",
-    "explanation": "The past tense of 'walk' is 'walked'. We add -ed to regular verbs to form the past tense.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.651Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.651Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_1_easy_3",
-    "content": "Which sentence uses correct punctuation?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "1",
-    "options": [
-      "Hello how are you",
-      "Hello, how are you?",
-      "Hello how are you.",
-      "Hello? how are you"
-    ],
-    "correctAnswer": "Hello, how are you?",
-    "explanation": "Questions should end with a question mark, and we use a comma after greetings.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.651Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.651Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_1_easy_4",
-    "content": "Which word is a noun?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "1",
-    "options": [
+      "hat",
       "run",
-      "happy",
+      "big"
+    ],
+    "correctAnswer": "hat",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "Cat and hat both end with the 'at' sound.",
+    "topic": "Basic Reading",
+    "tags": [
+      "english",
+      "basic"
+    ]
+  },
+  {
+    "_id": "grade1_easy_english_002",
+    "content": "What is the first letter of 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "a",
+      "b",
+      "c",
+      "p"
+    ],
+    "correctAnswer": "a",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "Apple starts with the letter 'a'.",
+    "topic": "Basic Reading",
+    "tags": [
+      "english",
+      "basic"
+    ]
+  },
+  {
+    "_id": "grade1_easy_english_003",
+    "content": "How many letters are in the word 'dog'?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswer": "3",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The word 'dog' has 3 letters: d-o-g.",
+    "topic": "Basic Reading",
+    "tags": [
+      "english",
+      "basic"
+    ]
+  },
+  {
+    "_id": "grade1_easy_english_004",
+    "content": "Which word starts with the same sound as 'sun'?",
+    "type": "multiple_choice",
+    "options": [
+      "moon",
+      "star",
+      "sit",
+      "run"
+    ],
+    "correctAnswer": "sit",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "Both 'sun' and 'sit' start with the 's' sound.",
+    "topic": "Basic Reading",
+    "tags": [
+      "english",
+      "basic"
+    ]
+  },
+  {
+    "_id": "grade1_easy_english_005",
+    "content": "What comes at the end of a sentence?",
+    "type": "multiple_choice",
+    "options": [
+      "comma",
+      "period",
+      "question",
+      "word"
+    ],
+    "correctAnswer": "period",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "A period (.) comes at the end of a sentence.",
+    "topic": "Basic Reading",
+    "tags": [
+      "english",
+      "basic"
+    ]
+  },
+  {
+    "_id": "grade1_easy_english_006",
+    "content": "Which word (example 2) rhymes with 'cat'?",
+    "type": "multiple_choice",
+    "options": [
       "dog",
-      "quickly"
-    ],
-    "correctAnswer": "dog",
-    "explanation": "A noun is a person, place, or thing. 'Dog' is a thing, making it a noun.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.651Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.651Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_1_easy_5",
-    "content": "What is the past tense of 'walk'?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "1",
-    "options": [
-      "walking",
-      "walked",
-      "walks",
-      "walker"
-    ],
-    "correctAnswer": "walked",
-    "explanation": "The past tense of 'walk' is 'walked'. We add -ed to regular verbs to form the past tense.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.651Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.651Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_1_easy_6",
-    "content": "Which sentence uses correct punctuation?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "1",
-    "options": [
-      "Hello how are you",
-      "Hello, how are you?",
-      "Hello how are you.",
-      "Hello? how are you"
-    ],
-    "correctAnswer": "Hello, how are you?",
-    "explanation": "Questions should end with a question mark, and we use a comma after greetings.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.651Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.651Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_1_easy_7",
-    "content": "Which word is a noun?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "1",
-    "options": [
+      "hat",
       "run",
-      "happy",
+      "big"
+    ],
+    "correctAnswer": "hat",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "Cat and hat both end with the 'at' sound.",
+    "topic": "Basic Reading",
+    "tags": [
+      "english",
+      "basic"
+    ]
+  },
+  {
+    "_id": "grade1_easy_english_007",
+    "content": "What is the first letter of 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "a",
+      "b",
+      "c",
+      "p"
+    ],
+    "correctAnswer": "a",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "Apple starts with the letter 'a'.",
+    "topic": "Basic Reading",
+    "tags": [
+      "english",
+      "basic"
+    ]
+  },
+  {
+    "_id": "grade1_easy_english_008",
+    "content": "How many letters are in the word (example 2) 'dog'?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswer": "3",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The word 'dog' has 3 letters: d-o-g.",
+    "topic": "Basic Reading",
+    "tags": [
+      "english",
+      "basic"
+    ]
+  },
+  {
+    "_id": "grade1_easy_english_009",
+    "content": "Which word (example 2) starts with the same sound as 'sun'?",
+    "type": "multiple_choice",
+    "options": [
+      "moon",
+      "star",
+      "sit",
+      "run"
+    ],
+    "correctAnswer": "sit",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "Both 'sun' and 'sit' start with the 's' sound.",
+    "topic": "Basic Reading",
+    "tags": [
+      "english",
+      "basic"
+    ]
+  },
+  {
+    "_id": "grade1_easy_english_010",
+    "content": "What comes at the end of a sentence?",
+    "type": "multiple_choice",
+    "options": [
+      "comma",
+      "period",
+      "question",
+      "word"
+    ],
+    "correctAnswer": "period",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "A period (.) comes at the end of a sentence.",
+    "topic": "Basic Reading",
+    "tags": [
+      "english",
+      "basic"
+    ]
+  },
+  {
+    "_id": "grade1_easy_english_011",
+    "content": "Which word (example 3) rhymes with 'cat'?",
+    "type": "multiple_choice",
+    "options": [
       "dog",
-      "quickly"
-    ],
-    "correctAnswer": "dog",
-    "explanation": "A noun is a person, place, or thing. 'Dog' is a thing, making it a noun.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.651Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.651Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_1_easy_8",
-    "content": "What is the past tense of 'walk'?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "1",
-    "options": [
-      "walking",
-      "walked",
-      "walks",
-      "walker"
-    ],
-    "correctAnswer": "walked",
-    "explanation": "The past tense of 'walk' is 'walked'. We add -ed to regular verbs to form the past tense.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.651Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.651Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_1_easy_9",
-    "content": "Which sentence uses correct punctuation?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "1",
-    "options": [
-      "Hello how are you",
-      "Hello, how are you?",
-      "Hello how are you.",
-      "Hello? how are you"
-    ],
-    "correctAnswer": "Hello, how are you?",
-    "explanation": "Questions should end with a question mark, and we use a comma after greetings.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.651Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.651Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_1_easy_10",
-    "content": "Which word is a noun?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "1",
-    "options": [
+      "hat",
       "run",
-      "happy",
+      "big"
+    ],
+    "correctAnswer": "hat",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "Cat and hat both end with the 'at' sound.",
+    "topic": "Basic Reading",
+    "tags": [
+      "english",
+      "basic"
+    ]
+  },
+  {
+    "_id": "grade1_easy_english_012",
+    "content": "What is the first letter of 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "a",
+      "b",
+      "c",
+      "p"
+    ],
+    "correctAnswer": "a",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "Apple starts with the letter 'a'.",
+    "topic": "Basic Reading",
+    "tags": [
+      "english",
+      "basic"
+    ]
+  },
+  {
+    "_id": "grade1_easy_english_013",
+    "content": "How many letters are in the word (example 3) 'dog'?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswer": "3",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The word 'dog' has 3 letters: d-o-g.",
+    "topic": "Basic Reading",
+    "tags": [
+      "english",
+      "basic"
+    ]
+  },
+  {
+    "_id": "grade1_easy_english_014",
+    "content": "Which word (example 3) starts with the same sound as 'sun'?",
+    "type": "multiple_choice",
+    "options": [
+      "moon",
+      "star",
+      "sit",
+      "run"
+    ],
+    "correctAnswer": "sit",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "Both 'sun' and 'sit' start with the 's' sound.",
+    "topic": "Basic Reading",
+    "tags": [
+      "english",
+      "basic"
+    ]
+  },
+  {
+    "_id": "grade1_easy_english_015",
+    "content": "What comes at the end of a sentence?",
+    "type": "multiple_choice",
+    "options": [
+      "comma",
+      "period",
+      "question",
+      "word"
+    ],
+    "correctAnswer": "period",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "A period (.) comes at the end of a sentence.",
+    "topic": "Basic Reading",
+    "tags": [
+      "english",
+      "basic"
+    ]
+  },
+  {
+    "_id": "grade1_easy_english_016",
+    "content": "Which word (example 4) rhymes with 'cat'?",
+    "type": "multiple_choice",
+    "options": [
       "dog",
-      "quickly"
-    ],
-    "correctAnswer": "dog",
-    "explanation": "A noun is a person, place, or thing. 'Dog' is a thing, making it a noun.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.651Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.651Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_1_easy_11",
-    "content": "What is the past tense of 'walk'?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "1",
-    "options": [
-      "walking",
-      "walked",
-      "walks",
-      "walker"
-    ],
-    "correctAnswer": "walked",
-    "explanation": "The past tense of 'walk' is 'walked'. We add -ed to regular verbs to form the past tense.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.651Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.651Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_1_easy_12",
-    "content": "Which sentence uses correct punctuation?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "1",
-    "options": [
-      "Hello how are you",
-      "Hello, how are you?",
-      "Hello how are you.",
-      "Hello? how are you"
-    ],
-    "correctAnswer": "Hello, how are you?",
-    "explanation": "Questions should end with a question mark, and we use a comma after greetings.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.651Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.651Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_1_easy_13",
-    "content": "Which word is a noun?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "1",
-    "options": [
+      "hat",
       "run",
-      "happy",
-      "dog",
-      "quickly"
+      "big"
     ],
-    "correctAnswer": "dog",
-    "explanation": "A noun is a person, place, or thing. 'Dog' is a thing, making it a noun.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
+    "correctAnswer": "hat",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "Cat and hat both end with the 'at' sound.",
+    "topic": "Basic Reading",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.651Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.651Z",
-    "generationMethod": "english-template-system"
+      "basic"
+    ]
   },
   {
-    "_id": "eng_1_easy_14",
-    "content": "What is the past tense of 'walk'?",
+    "_id": "grade1_easy_english_017",
+    "content": "What is the first letter of 'apple'?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "1",
     "options": [
-      "walking",
-      "walked",
-      "walks",
-      "walker"
+      "a",
+      "b",
+      "c",
+      "p"
     ],
-    "correctAnswer": "walked",
-    "explanation": "The past tense of 'walk' is 'walked'. We add -ed to regular verbs to form the past tense.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
+    "correctAnswer": "a",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "Apple starts with the letter 'a'.",
+    "topic": "Basic Reading",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.651Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.651Z",
-    "generationMethod": "english-template-system"
+      "basic"
+    ]
   },
   {
-    "_id": "eng_1_easy_15",
-    "content": "Which sentence uses correct punctuation?",
+    "_id": "grade1_easy_english_018",
+    "content": "How many letters are in the word (example 4) 'dog'?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "1",
     "options": [
-      "Hello how are you",
-      "Hello, how are you?",
-      "Hello how are you.",
-      "Hello? how are you"
+      "2",
+      "3",
+      "4",
+      "5"
     ],
-    "correctAnswer": "Hello, how are you?",
-    "explanation": "Questions should end with a question mark, and we use a comma after greetings.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
+    "correctAnswer": "3",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The word 'dog' has 3 letters: d-o-g.",
+    "topic": "Basic Reading",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.651Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.651Z",
-    "generationMethod": "english-template-system"
+      "basic"
+    ]
   },
   {
-    "_id": "eng_1_easy_16",
-    "content": "Which word is a noun?",
+    "_id": "grade1_easy_english_019",
+    "content": "Which word (example 4) starts with the same sound as 'sun'?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "1",
     "options": [
-      "run",
-      "happy",
-      "dog",
-      "quickly"
+      "moon",
+      "star",
+      "sit",
+      "run"
     ],
-    "correctAnswer": "dog",
-    "explanation": "A noun is a person, place, or thing. 'Dog' is a thing, making it a noun.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
+    "correctAnswer": "sit",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "Both 'sun' and 'sit' start with the 's' sound.",
+    "topic": "Basic Reading",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.651Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.651Z",
-    "generationMethod": "english-template-system"
+      "basic"
+    ]
   },
   {
-    "_id": "eng_1_easy_17",
-    "content": "What is the past tense of 'walk'?",
+    "_id": "grade1_easy_english_020",
+    "content": "What comes at the end of a sentence?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "1",
     "options": [
-      "walking",
-      "walked",
-      "walks",
-      "walker"
+      "comma",
+      "period",
+      "question",
+      "word"
     ],
-    "correctAnswer": "walked",
-    "explanation": "The past tense of 'walk' is 'walked'. We add -ed to regular verbs to form the past tense.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
+    "correctAnswer": "period",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "A period (.) comes at the end of a sentence.",
+    "topic": "Basic Reading",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.651Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.651Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_1_easy_18",
-    "content": "Which sentence uses correct punctuation?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "1",
-    "options": [
-      "Hello how are you",
-      "Hello, how are you?",
-      "Hello how are you.",
-      "Hello? how are you"
-    ],
-    "correctAnswer": "Hello, how are you?",
-    "explanation": "Questions should end with a question mark, and we use a comma after greetings.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.651Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.651Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_1_easy_19",
-    "content": "Which word is a noun?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "1",
-    "options": [
-      "run",
-      "happy",
-      "dog",
-      "quickly"
-    ],
-    "correctAnswer": "dog",
-    "explanation": "A noun is a person, place, or thing. 'Dog' is a thing, making it a noun.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.651Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.651Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_1_easy_20",
-    "content": "What is the past tense of 'walk'?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "1",
-    "options": [
-      "walking",
-      "walked",
-      "walks",
-      "walker"
-    ],
-    "correctAnswer": "walked",
-    "explanation": "The past tense of 'walk' is 'walked'. We add -ed to regular verbs to form the past tense.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.651Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.651Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_1_easy_21",
-    "content": "Which sentence uses correct punctuation?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "1",
-    "options": [
-      "Hello how are you",
-      "Hello, how are you?",
-      "Hello how are you.",
-      "Hello? how are you"
-    ],
-    "correctAnswer": "Hello, how are you?",
-    "explanation": "Questions should end with a question mark, and we use a comma after greetings.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.651Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.651Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_1_easy_22",
-    "content": "Which word is a noun?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "1",
-    "options": [
-      "run",
-      "happy",
-      "dog",
-      "quickly"
-    ],
-    "correctAnswer": "dog",
-    "explanation": "A noun is a person, place, or thing. 'Dog' is a thing, making it a noun.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.651Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.651Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_1_easy_23",
-    "content": "What is the past tense of 'walk'?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "1",
-    "options": [
-      "walking",
-      "walked",
-      "walks",
-      "walker"
-    ],
-    "correctAnswer": "walked",
-    "explanation": "The past tense of 'walk' is 'walked'. We add -ed to regular verbs to form the past tense.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.651Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.651Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_1_easy_24",
-    "content": "Which sentence uses correct punctuation?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "1",
-    "options": [
-      "Hello how are you",
-      "Hello, how are you?",
-      "Hello how are you.",
-      "Hello? how are you"
-    ],
-    "correctAnswer": "Hello, how are you?",
-    "explanation": "Questions should end with a question mark, and we use a comma after greetings.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.651Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.651Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_1_easy_25",
-    "content": "Which word is a noun?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "1",
-    "options": [
-      "run",
-      "happy",
-      "dog",
-      "quickly"
-    ],
-    "correctAnswer": "dog",
-    "explanation": "A noun is a person, place, or thing. 'Dog' is a thing, making it a noun.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.651Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.651Z",
-    "generationMethod": "english-template-system"
+      "basic"
+    ]
   }
 ]

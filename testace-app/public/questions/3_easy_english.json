@@ -1,777 +1,422 @@
 [
   {
-    "_id": "eng_3_easy_1",
+    "_id": "grade3_easy_english_001",
     "content": "Which word is a noun?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "3",
     "options": [
-      "run",
+      "quickly",
+      "beautiful",
+      "elephant",
+      "running"
+    ],
+    "correctAnswer": "elephant",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "Elephant is a noun because it names an animal.",
+    "topic": "Basic Grammar",
+    "tags": [
+      "english",
+      "basic"
+    ]
+  },
+  {
+    "_id": "grade3_easy_english_002",
+    "content": "What is the correct plural of 'child'?",
+    "type": "multiple_choice",
+    "options": [
+      "childs",
+      "childes",
+      "children",
+      "child"
+    ],
+    "correctAnswer": "children",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "Child has an irregular plural: children.",
+    "topic": "Basic Grammar",
+    "tags": [
+      "english",
+      "basic"
+    ]
+  },
+  {
+    "_id": "grade3_easy_english_003",
+    "content": "Which word is an adverb?",
+    "type": "multiple_choice",
+    "options": [
       "happy",
+      "slowly",
       "dog",
-      "quickly"
+      "green"
     ],
-    "correctAnswer": "dog",
-    "explanation": "A noun is a person, place, or thing. 'Dog' is a thing, making it a noun.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
+    "correctAnswer": "slowly",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "Slowly is an adverb because it describes how something is done.",
+    "topic": "Basic Grammar",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.654Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.654Z",
-    "generationMethod": "english-template-system"
+      "basic"
+    ]
   },
   {
-    "_id": "eng_3_easy_2",
-    "content": "What is the past tense of 'walk'?",
+    "_id": "grade3_easy_english_004",
+    "content": "What punctuation is needed: 'What time is it'",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "3",
     "options": [
-      "walking",
-      "walked",
-      "walks",
-      "walker"
+      ".",
+      "!",
+      "?",
+      ","
     ],
-    "correctAnswer": "walked",
-    "explanation": "The past tense of 'walk' is 'walked'. We add -ed to regular verbs to form the past tense.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
+    "correctAnswer": "?",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "This is a question, so it needs a question mark.",
+    "topic": "Basic Grammar",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.654Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.654Z",
-    "generationMethod": "english-template-system"
+      "basic"
+    ]
   },
   {
-    "_id": "eng_3_easy_3",
-    "content": "Which sentence uses correct punctuation?",
+    "_id": "grade3_easy_english_005",
+    "content": "Which word is a proper noun?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "3",
     "options": [
-      "Hello how are you",
-      "Hello, how are you?",
-      "Hello how are you.",
-      "Hello? how are you"
+      "city",
+      "school",
+      "London",
+      "book"
     ],
-    "correctAnswer": "Hello, how are you?",
-    "explanation": "Questions should end with a question mark, and we use a comma after greetings.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
+    "correctAnswer": "London",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "London is a proper noun because it's the name of a specific place.",
+    "topic": "Basic Grammar",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.654Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.654Z",
-    "generationMethod": "english-template-system"
+      "basic"
+    ]
   },
   {
-    "_id": "eng_3_easy_4",
-    "content": "Which word is a noun?",
+    "_id": "grade3_easy_english_006",
+    "content": "Which word (example 2) is a noun?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "3",
     "options": [
-      "run",
+      "quickly",
+      "beautiful",
+      "elephant",
+      "running"
+    ],
+    "correctAnswer": "elephant",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "Elephant is a noun because it names an animal.",
+    "topic": "Basic Grammar",
+    "tags": [
+      "english",
+      "basic"
+    ]
+  },
+  {
+    "_id": "grade3_easy_english_007",
+    "content": "What is the correct plural of 'child'?",
+    "type": "multiple_choice",
+    "options": [
+      "childs",
+      "childes",
+      "children",
+      "child"
+    ],
+    "correctAnswer": "children",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "Child has an irregular plural: children.",
+    "topic": "Basic Grammar",
+    "tags": [
+      "english",
+      "basic"
+    ]
+  },
+  {
+    "_id": "grade3_easy_english_008",
+    "content": "Which word (example 2) is an adverb?",
+    "type": "multiple_choice",
+    "options": [
       "happy",
+      "slowly",
       "dog",
-      "quickly"
+      "green"
     ],
-    "correctAnswer": "dog",
-    "explanation": "A noun is a person, place, or thing. 'Dog' is a thing, making it a noun.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
+    "correctAnswer": "slowly",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "Slowly is an adverb because it describes how something is done.",
+    "topic": "Basic Grammar",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.654Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.654Z",
-    "generationMethod": "english-template-system"
+      "basic"
+    ]
   },
   {
-    "_id": "eng_3_easy_5",
-    "content": "What is the past tense of 'walk'?",
+    "_id": "grade3_easy_english_009",
+    "content": "What punctuation is needed: 'What time is it'",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "3",
     "options": [
-      "walking",
-      "walked",
-      "walks",
-      "walker"
+      ".",
+      "!",
+      "?",
+      ","
     ],
-    "correctAnswer": "walked",
-    "explanation": "The past tense of 'walk' is 'walked'. We add -ed to regular verbs to form the past tense.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
+    "correctAnswer": "?",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "This is a question, so it needs a question mark.",
+    "topic": "Basic Grammar",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.654Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.654Z",
-    "generationMethod": "english-template-system"
+      "basic"
+    ]
   },
   {
-    "_id": "eng_3_easy_6",
-    "content": "Which sentence uses correct punctuation?",
+    "_id": "grade3_easy_english_010",
+    "content": "Which word (example 2) is a proper noun?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "3",
     "options": [
-      "Hello how are you",
-      "Hello, how are you?",
-      "Hello how are you.",
-      "Hello? how are you"
+      "city",
+      "school",
+      "London",
+      "book"
     ],
-    "correctAnswer": "Hello, how are you?",
-    "explanation": "Questions should end with a question mark, and we use a comma after greetings.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
+    "correctAnswer": "London",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "London is a proper noun because it's the name of a specific place.",
+    "topic": "Basic Grammar",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.654Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.654Z",
-    "generationMethod": "english-template-system"
+      "basic"
+    ]
   },
   {
-    "_id": "eng_3_easy_7",
-    "content": "Which word is a noun?",
+    "_id": "grade3_easy_english_011",
+    "content": "Which word (example 3) is a noun?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "3",
     "options": [
-      "run",
+      "quickly",
+      "beautiful",
+      "elephant",
+      "running"
+    ],
+    "correctAnswer": "elephant",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "Elephant is a noun because it names an animal.",
+    "topic": "Basic Grammar",
+    "tags": [
+      "english",
+      "basic"
+    ]
+  },
+  {
+    "_id": "grade3_easy_english_012",
+    "content": "What is the correct plural of 'child'?",
+    "type": "multiple_choice",
+    "options": [
+      "childs",
+      "childes",
+      "children",
+      "child"
+    ],
+    "correctAnswer": "children",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "Child has an irregular plural: children.",
+    "topic": "Basic Grammar",
+    "tags": [
+      "english",
+      "basic"
+    ]
+  },
+  {
+    "_id": "grade3_easy_english_013",
+    "content": "Which word (example 3) is an adverb?",
+    "type": "multiple_choice",
+    "options": [
       "happy",
+      "slowly",
       "dog",
-      "quickly"
+      "green"
     ],
-    "correctAnswer": "dog",
-    "explanation": "A noun is a person, place, or thing. 'Dog' is a thing, making it a noun.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
+    "correctAnswer": "slowly",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "Slowly is an adverb because it describes how something is done.",
+    "topic": "Basic Grammar",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.654Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.654Z",
-    "generationMethod": "english-template-system"
+      "basic"
+    ]
   },
   {
-    "_id": "eng_3_easy_8",
-    "content": "What is the past tense of 'walk'?",
+    "_id": "grade3_easy_english_014",
+    "content": "What punctuation is needed: 'What time is it'",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "3",
     "options": [
-      "walking",
-      "walked",
-      "walks",
-      "walker"
+      ".",
+      "!",
+      "?",
+      ","
     ],
-    "correctAnswer": "walked",
-    "explanation": "The past tense of 'walk' is 'walked'. We add -ed to regular verbs to form the past tense.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
+    "correctAnswer": "?",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "This is a question, so it needs a question mark.",
+    "topic": "Basic Grammar",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.654Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.654Z",
-    "generationMethod": "english-template-system"
+      "basic"
+    ]
   },
   {
-    "_id": "eng_3_easy_9",
-    "content": "Which sentence uses correct punctuation?",
+    "_id": "grade3_easy_english_015",
+    "content": "Which word (example 3) is a proper noun?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "3",
     "options": [
-      "Hello how are you",
-      "Hello, how are you?",
-      "Hello how are you.",
-      "Hello? how are you"
+      "city",
+      "school",
+      "London",
+      "book"
     ],
-    "correctAnswer": "Hello, how are you?",
-    "explanation": "Questions should end with a question mark, and we use a comma after greetings.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
+    "correctAnswer": "London",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "London is a proper noun because it's the name of a specific place.",
+    "topic": "Basic Grammar",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.654Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.654Z",
-    "generationMethod": "english-template-system"
+      "basic"
+    ]
   },
   {
-    "_id": "eng_3_easy_10",
-    "content": "Which word is a noun?",
+    "_id": "grade3_easy_english_016",
+    "content": "Which word (example 4) is a noun?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "3",
     "options": [
-      "run",
+      "quickly",
+      "beautiful",
+      "elephant",
+      "running"
+    ],
+    "correctAnswer": "elephant",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "Elephant is a noun because it names an animal.",
+    "topic": "Basic Grammar",
+    "tags": [
+      "english",
+      "basic"
+    ]
+  },
+  {
+    "_id": "grade3_easy_english_017",
+    "content": "What is the correct plural of 'child'?",
+    "type": "multiple_choice",
+    "options": [
+      "childs",
+      "childes",
+      "children",
+      "child"
+    ],
+    "correctAnswer": "children",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "Child has an irregular plural: children.",
+    "topic": "Basic Grammar",
+    "tags": [
+      "english",
+      "basic"
+    ]
+  },
+  {
+    "_id": "grade3_easy_english_018",
+    "content": "Which word (example 4) is an adverb?",
+    "type": "multiple_choice",
+    "options": [
       "happy",
+      "slowly",
       "dog",
-      "quickly"
+      "green"
     ],
-    "correctAnswer": "dog",
-    "explanation": "A noun is a person, place, or thing. 'Dog' is a thing, making it a noun.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
+    "correctAnswer": "slowly",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "Slowly is an adverb because it describes how something is done.",
+    "topic": "Basic Grammar",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.654Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.654Z",
-    "generationMethod": "english-template-system"
+      "basic"
+    ]
   },
   {
-    "_id": "eng_3_easy_11",
-    "content": "What is the past tense of 'walk'?",
+    "_id": "grade3_easy_english_019",
+    "content": "What punctuation is needed: 'What time is it'",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "3",
     "options": [
-      "walking",
-      "walked",
-      "walks",
-      "walker"
+      ".",
+      "!",
+      "?",
+      ","
     ],
-    "correctAnswer": "walked",
-    "explanation": "The past tense of 'walk' is 'walked'. We add -ed to regular verbs to form the past tense.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
+    "correctAnswer": "?",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "This is a question, so it needs a question mark.",
+    "topic": "Basic Grammar",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.654Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.654Z",
-    "generationMethod": "english-template-system"
+      "basic"
+    ]
   },
   {
-    "_id": "eng_3_easy_12",
-    "content": "Which sentence uses correct punctuation?",
+    "_id": "grade3_easy_english_020",
+    "content": "Which word (example 4) is a proper noun?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "3",
     "options": [
-      "Hello how are you",
-      "Hello, how are you?",
-      "Hello how are you.",
-      "Hello? how are you"
+      "city",
+      "school",
+      "London",
+      "book"
     ],
-    "correctAnswer": "Hello, how are you?",
-    "explanation": "Questions should end with a question mark, and we use a comma after greetings.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
+    "correctAnswer": "London",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "London is a proper noun because it's the name of a specific place.",
+    "topic": "Basic Grammar",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.654Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.654Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_3_easy_13",
-    "content": "Which word is a noun?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "3",
-    "options": [
-      "run",
-      "happy",
-      "dog",
-      "quickly"
-    ],
-    "correctAnswer": "dog",
-    "explanation": "A noun is a person, place, or thing. 'Dog' is a thing, making it a noun.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.654Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.654Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_3_easy_14",
-    "content": "What is the past tense of 'walk'?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "3",
-    "options": [
-      "walking",
-      "walked",
-      "walks",
-      "walker"
-    ],
-    "correctAnswer": "walked",
-    "explanation": "The past tense of 'walk' is 'walked'. We add -ed to regular verbs to form the past tense.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.654Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.654Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_3_easy_15",
-    "content": "Which sentence uses correct punctuation?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "3",
-    "options": [
-      "Hello how are you",
-      "Hello, how are you?",
-      "Hello how are you.",
-      "Hello? how are you"
-    ],
-    "correctAnswer": "Hello, how are you?",
-    "explanation": "Questions should end with a question mark, and we use a comma after greetings.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.654Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.654Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_3_easy_16",
-    "content": "Which word is a noun?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "3",
-    "options": [
-      "run",
-      "happy",
-      "dog",
-      "quickly"
-    ],
-    "correctAnswer": "dog",
-    "explanation": "A noun is a person, place, or thing. 'Dog' is a thing, making it a noun.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.654Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.654Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_3_easy_17",
-    "content": "What is the past tense of 'walk'?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "3",
-    "options": [
-      "walking",
-      "walked",
-      "walks",
-      "walker"
-    ],
-    "correctAnswer": "walked",
-    "explanation": "The past tense of 'walk' is 'walked'. We add -ed to regular verbs to form the past tense.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.654Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.654Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_3_easy_18",
-    "content": "Which sentence uses correct punctuation?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "3",
-    "options": [
-      "Hello how are you",
-      "Hello, how are you?",
-      "Hello how are you.",
-      "Hello? how are you"
-    ],
-    "correctAnswer": "Hello, how are you?",
-    "explanation": "Questions should end with a question mark, and we use a comma after greetings.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.654Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.654Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_3_easy_19",
-    "content": "Which word is a noun?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "3",
-    "options": [
-      "run",
-      "happy",
-      "dog",
-      "quickly"
-    ],
-    "correctAnswer": "dog",
-    "explanation": "A noun is a person, place, or thing. 'Dog' is a thing, making it a noun.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.654Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.654Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_3_easy_20",
-    "content": "What is the past tense of 'walk'?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "3",
-    "options": [
-      "walking",
-      "walked",
-      "walks",
-      "walker"
-    ],
-    "correctAnswer": "walked",
-    "explanation": "The past tense of 'walk' is 'walked'. We add -ed to regular verbs to form the past tense.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.654Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.654Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_3_easy_21",
-    "content": "Which sentence uses correct punctuation?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "3",
-    "options": [
-      "Hello how are you",
-      "Hello, how are you?",
-      "Hello how are you.",
-      "Hello? how are you"
-    ],
-    "correctAnswer": "Hello, how are you?",
-    "explanation": "Questions should end with a question mark, and we use a comma after greetings.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.654Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.654Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_3_easy_22",
-    "content": "Which word is a noun?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "3",
-    "options": [
-      "run",
-      "happy",
-      "dog",
-      "quickly"
-    ],
-    "correctAnswer": "dog",
-    "explanation": "A noun is a person, place, or thing. 'Dog' is a thing, making it a noun.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.654Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.654Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_3_easy_23",
-    "content": "What is the past tense of 'walk'?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "3",
-    "options": [
-      "walking",
-      "walked",
-      "walks",
-      "walker"
-    ],
-    "correctAnswer": "walked",
-    "explanation": "The past tense of 'walk' is 'walked'. We add -ed to regular verbs to form the past tense.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.654Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.654Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_3_easy_24",
-    "content": "Which sentence uses correct punctuation?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "3",
-    "options": [
-      "Hello how are you",
-      "Hello, how are you?",
-      "Hello how are you.",
-      "Hello? how are you"
-    ],
-    "correctAnswer": "Hello, how are you?",
-    "explanation": "Questions should end with a question mark, and we use a comma after greetings.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.654Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.654Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_3_easy_25",
-    "content": "Which word is a noun?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "3",
-    "options": [
-      "run",
-      "happy",
-      "dog",
-      "quickly"
-    ],
-    "correctAnswer": "dog",
-    "explanation": "A noun is a person, place, or thing. 'Dog' is a thing, making it a noun.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.654Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.654Z",
-    "generationMethod": "english-template-system"
+      "basic"
+    ]
   }
 ]

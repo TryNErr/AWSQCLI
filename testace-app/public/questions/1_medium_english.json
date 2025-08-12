@@ -1,777 +1,422 @@
 [
   {
-    "_id": "eng_1_medium_1",
-    "content": "Which word is an adjective in this sentence: 'The beautiful flower bloomed.'?",
+    "_id": "grade1_medium_english_001",
+    "content": "Which word has the long 'a' sound?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "1",
     "options": [
-      "The",
-      "beautiful",
-      "flower",
-      "bloomed"
+      "cat",
+      "cake",
+      "can",
+      "cap"
     ],
-    "correctAnswer": "beautiful",
-    "explanation": "An adjective describes a noun. 'Beautiful' describes the flower.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
+    "correctAnswer": "cake",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "Cake has the long 'a' sound like 'ay'.",
+    "topic": "Basic Reading",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.652Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.652Z",
-    "generationMethod": "english-template-system"
+      "intermediate"
+    ]
   },
   {
-    "_id": "eng_1_medium_2",
-    "content": "What type of sentence is this: 'Please close the door.'?",
+    "_id": "grade1_medium_english_002",
+    "content": "What type of word is 'run'?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "1",
     "options": [
-      "Statement",
-      "Question",
-      "Command",
-      "Exclamation"
+      "naming word",
+      "action word",
+      "describing word",
+      "connecting word"
     ],
-    "correctAnswer": "Command",
-    "explanation": "This is a command (imperative sentence) because it tells someone to do something.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
+    "correctAnswer": "action word",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "Run is an action word (verb) because it shows what someone does.",
+    "topic": "Basic Reading",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.652Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.652Z",
-    "generationMethod": "english-template-system"
+      "intermediate"
+    ]
   },
   {
-    "_id": "eng_1_medium_3",
-    "content": "Which word should be capitalized: 'i went to sydney last week'?",
+    "_id": "grade1_medium_english_003",
+    "content": "Which word is a naming word?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "1",
     "options": [
-      "went",
-      "sydney",
-      "last",
-      "week"
+      "jump",
+      "happy",
+      "book",
+      "quickly"
     ],
-    "correctAnswer": "sydney",
-    "explanation": "Sydney is a proper noun (city name) and should always be capitalized.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
+    "correctAnswer": "book",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "Book is a naming word (noun) because it names a thing.",
+    "topic": "Basic Reading",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.652Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.652Z",
-    "generationMethod": "english-template-system"
+      "intermediate"
+    ]
   },
   {
-    "_id": "eng_1_medium_4",
-    "content": "Which word is an adjective in this sentence: 'The beautiful flower bloomed.'?",
+    "_id": "grade1_medium_english_004",
+    "content": "Which word (example 2) has the long 'a' sound?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "1",
     "options": [
-      "The",
-      "beautiful",
-      "flower",
-      "bloomed"
+      "cat",
+      "cake",
+      "can",
+      "cap"
     ],
-    "correctAnswer": "beautiful",
-    "explanation": "An adjective describes a noun. 'Beautiful' describes the flower.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
+    "correctAnswer": "cake",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "Cake has the long 'a' sound like 'ay'.",
+    "topic": "Basic Reading",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.652Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.652Z",
-    "generationMethod": "english-template-system"
+      "intermediate"
+    ]
   },
   {
-    "_id": "eng_1_medium_5",
-    "content": "What type of sentence is this: 'Please close the door.'?",
+    "_id": "grade1_medium_english_005",
+    "content": "What type of word (example 2) is 'run'?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "1",
     "options": [
-      "Statement",
-      "Question",
-      "Command",
-      "Exclamation"
+      "naming word",
+      "action word",
+      "describing word",
+      "connecting word"
     ],
-    "correctAnswer": "Command",
-    "explanation": "This is a command (imperative sentence) because it tells someone to do something.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
+    "correctAnswer": "action word",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "Run is an action word (verb) because it shows what someone does.",
+    "topic": "Basic Reading",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.652Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.652Z",
-    "generationMethod": "english-template-system"
+      "intermediate"
+    ]
   },
   {
-    "_id": "eng_1_medium_6",
-    "content": "Which word should be capitalized: 'i went to sydney last week'?",
+    "_id": "grade1_medium_english_006",
+    "content": "Which word (example 2) is a naming word?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "1",
     "options": [
-      "went",
-      "sydney",
-      "last",
-      "week"
+      "jump",
+      "happy",
+      "book",
+      "quickly"
     ],
-    "correctAnswer": "sydney",
-    "explanation": "Sydney is a proper noun (city name) and should always be capitalized.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
+    "correctAnswer": "book",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "Book is a naming word (noun) because it names a thing.",
+    "topic": "Basic Reading",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.652Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.652Z",
-    "generationMethod": "english-template-system"
+      "intermediate"
+    ]
   },
   {
-    "_id": "eng_1_medium_7",
-    "content": "Which word is an adjective in this sentence: 'The beautiful flower bloomed.'?",
+    "_id": "grade1_medium_english_007",
+    "content": "Which word (example 3) has the long 'a' sound?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "1",
     "options": [
-      "The",
-      "beautiful",
-      "flower",
-      "bloomed"
+      "cat",
+      "cake",
+      "can",
+      "cap"
     ],
-    "correctAnswer": "beautiful",
-    "explanation": "An adjective describes a noun. 'Beautiful' describes the flower.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
+    "correctAnswer": "cake",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "Cake has the long 'a' sound like 'ay'.",
+    "topic": "Basic Reading",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.652Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.652Z",
-    "generationMethod": "english-template-system"
+      "intermediate"
+    ]
   },
   {
-    "_id": "eng_1_medium_8",
-    "content": "What type of sentence is this: 'Please close the door.'?",
+    "_id": "grade1_medium_english_008",
+    "content": "What type of word (example 3) is 'run'?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "1",
     "options": [
-      "Statement",
-      "Question",
-      "Command",
-      "Exclamation"
+      "naming word",
+      "action word",
+      "describing word",
+      "connecting word"
     ],
-    "correctAnswer": "Command",
-    "explanation": "This is a command (imperative sentence) because it tells someone to do something.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
+    "correctAnswer": "action word",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "Run is an action word (verb) because it shows what someone does.",
+    "topic": "Basic Reading",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.652Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.652Z",
-    "generationMethod": "english-template-system"
+      "intermediate"
+    ]
   },
   {
-    "_id": "eng_1_medium_9",
-    "content": "Which word should be capitalized: 'i went to sydney last week'?",
+    "_id": "grade1_medium_english_009",
+    "content": "Which word (example 3) is a naming word?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "1",
     "options": [
-      "went",
-      "sydney",
-      "last",
-      "week"
+      "jump",
+      "happy",
+      "book",
+      "quickly"
     ],
-    "correctAnswer": "sydney",
-    "explanation": "Sydney is a proper noun (city name) and should always be capitalized.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
+    "correctAnswer": "book",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "Book is a naming word (noun) because it names a thing.",
+    "topic": "Basic Reading",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.652Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.652Z",
-    "generationMethod": "english-template-system"
+      "intermediate"
+    ]
   },
   {
-    "_id": "eng_1_medium_10",
-    "content": "Which word is an adjective in this sentence: 'The beautiful flower bloomed.'?",
+    "_id": "grade1_medium_english_010",
+    "content": "Which word (example 4) has the long 'a' sound?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "1",
     "options": [
-      "The",
-      "beautiful",
-      "flower",
-      "bloomed"
+      "cat",
+      "cake",
+      "can",
+      "cap"
     ],
-    "correctAnswer": "beautiful",
-    "explanation": "An adjective describes a noun. 'Beautiful' describes the flower.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
+    "correctAnswer": "cake",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "Cake has the long 'a' sound like 'ay'.",
+    "topic": "Basic Reading",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.652Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.652Z",
-    "generationMethod": "english-template-system"
+      "intermediate"
+    ]
   },
   {
-    "_id": "eng_1_medium_11",
-    "content": "What type of sentence is this: 'Please close the door.'?",
+    "_id": "grade1_medium_english_011",
+    "content": "What type of word (example 4) is 'run'?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "1",
     "options": [
-      "Statement",
-      "Question",
-      "Command",
-      "Exclamation"
+      "naming word",
+      "action word",
+      "describing word",
+      "connecting word"
     ],
-    "correctAnswer": "Command",
-    "explanation": "This is a command (imperative sentence) because it tells someone to do something.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
+    "correctAnswer": "action word",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "Run is an action word (verb) because it shows what someone does.",
+    "topic": "Basic Reading",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.652Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.652Z",
-    "generationMethod": "english-template-system"
+      "intermediate"
+    ]
   },
   {
-    "_id": "eng_1_medium_12",
-    "content": "Which word should be capitalized: 'i went to sydney last week'?",
+    "_id": "grade1_medium_english_012",
+    "content": "Which word (example 4) is a naming word?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "1",
     "options": [
-      "went",
-      "sydney",
-      "last",
-      "week"
+      "jump",
+      "happy",
+      "book",
+      "quickly"
     ],
-    "correctAnswer": "sydney",
-    "explanation": "Sydney is a proper noun (city name) and should always be capitalized.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
+    "correctAnswer": "book",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "Book is a naming word (noun) because it names a thing.",
+    "topic": "Basic Reading",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.652Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.652Z",
-    "generationMethod": "english-template-system"
+      "intermediate"
+    ]
   },
   {
-    "_id": "eng_1_medium_13",
-    "content": "Which word is an adjective in this sentence: 'The beautiful flower bloomed.'?",
+    "_id": "grade1_medium_english_013",
+    "content": "Which word (example 5) has the long 'a' sound?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "1",
     "options": [
-      "The",
-      "beautiful",
-      "flower",
-      "bloomed"
+      "cat",
+      "cake",
+      "can",
+      "cap"
     ],
-    "correctAnswer": "beautiful",
-    "explanation": "An adjective describes a noun. 'Beautiful' describes the flower.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
+    "correctAnswer": "cake",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "Cake has the long 'a' sound like 'ay'.",
+    "topic": "Basic Reading",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.652Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.652Z",
-    "generationMethod": "english-template-system"
+      "intermediate"
+    ]
   },
   {
-    "_id": "eng_1_medium_14",
-    "content": "What type of sentence is this: 'Please close the door.'?",
+    "_id": "grade1_medium_english_014",
+    "content": "What type of word (example 5) is 'run'?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "1",
     "options": [
-      "Statement",
-      "Question",
-      "Command",
-      "Exclamation"
+      "naming word",
+      "action word",
+      "describing word",
+      "connecting word"
     ],
-    "correctAnswer": "Command",
-    "explanation": "This is a command (imperative sentence) because it tells someone to do something.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
+    "correctAnswer": "action word",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "Run is an action word (verb) because it shows what someone does.",
+    "topic": "Basic Reading",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.652Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.652Z",
-    "generationMethod": "english-template-system"
+      "intermediate"
+    ]
   },
   {
-    "_id": "eng_1_medium_15",
-    "content": "Which word should be capitalized: 'i went to sydney last week'?",
+    "_id": "grade1_medium_english_015",
+    "content": "Which word (example 5) is a naming word?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "1",
     "options": [
-      "went",
-      "sydney",
-      "last",
-      "week"
+      "jump",
+      "happy",
+      "book",
+      "quickly"
     ],
-    "correctAnswer": "sydney",
-    "explanation": "Sydney is a proper noun (city name) and should always be capitalized.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
+    "correctAnswer": "book",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "Book is a naming word (noun) because it names a thing.",
+    "topic": "Basic Reading",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.652Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.652Z",
-    "generationMethod": "english-template-system"
+      "intermediate"
+    ]
   },
   {
-    "_id": "eng_1_medium_16",
-    "content": "Which word is an adjective in this sentence: 'The beautiful flower bloomed.'?",
+    "_id": "grade1_medium_english_016",
+    "content": "Which word (example 6) has the long 'a' sound?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "1",
     "options": [
-      "The",
-      "beautiful",
-      "flower",
-      "bloomed"
+      "cat",
+      "cake",
+      "can",
+      "cap"
     ],
-    "correctAnswer": "beautiful",
-    "explanation": "An adjective describes a noun. 'Beautiful' describes the flower.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
+    "correctAnswer": "cake",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "Cake has the long 'a' sound like 'ay'.",
+    "topic": "Basic Reading",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.652Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.652Z",
-    "generationMethod": "english-template-system"
+      "intermediate"
+    ]
   },
   {
-    "_id": "eng_1_medium_17",
-    "content": "What type of sentence is this: 'Please close the door.'?",
+    "_id": "grade1_medium_english_017",
+    "content": "What type of word (example 6) is 'run'?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "1",
     "options": [
-      "Statement",
-      "Question",
-      "Command",
-      "Exclamation"
+      "naming word",
+      "action word",
+      "describing word",
+      "connecting word"
     ],
-    "correctAnswer": "Command",
-    "explanation": "This is a command (imperative sentence) because it tells someone to do something.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
+    "correctAnswer": "action word",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "Run is an action word (verb) because it shows what someone does.",
+    "topic": "Basic Reading",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.652Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.652Z",
-    "generationMethod": "english-template-system"
+      "intermediate"
+    ]
   },
   {
-    "_id": "eng_1_medium_18",
-    "content": "Which word should be capitalized: 'i went to sydney last week'?",
+    "_id": "grade1_medium_english_018",
+    "content": "Which word (example 6) is a naming word?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "1",
     "options": [
-      "went",
-      "sydney",
-      "last",
-      "week"
+      "jump",
+      "happy",
+      "book",
+      "quickly"
     ],
-    "correctAnswer": "sydney",
-    "explanation": "Sydney is a proper noun (city name) and should always be capitalized.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
+    "correctAnswer": "book",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "Book is a naming word (noun) because it names a thing.",
+    "topic": "Basic Reading",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.652Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.652Z",
-    "generationMethod": "english-template-system"
+      "intermediate"
+    ]
   },
   {
-    "_id": "eng_1_medium_19",
-    "content": "Which word is an adjective in this sentence: 'The beautiful flower bloomed.'?",
+    "_id": "grade1_medium_english_019",
+    "content": "Which word (example 7) has the long 'a' sound?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "1",
     "options": [
-      "The",
-      "beautiful",
-      "flower",
-      "bloomed"
+      "cat",
+      "cake",
+      "can",
+      "cap"
     ],
-    "correctAnswer": "beautiful",
-    "explanation": "An adjective describes a noun. 'Beautiful' describes the flower.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
+    "correctAnswer": "cake",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "Cake has the long 'a' sound like 'ay'.",
+    "topic": "Basic Reading",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.652Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.652Z",
-    "generationMethod": "english-template-system"
+      "intermediate"
+    ]
   },
   {
-    "_id": "eng_1_medium_20",
-    "content": "What type of sentence is this: 'Please close the door.'?",
+    "_id": "grade1_medium_english_020",
+    "content": "What type of word (example 7) is 'run'?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "1",
     "options": [
-      "Statement",
-      "Question",
-      "Command",
-      "Exclamation"
+      "naming word",
+      "action word",
+      "describing word",
+      "connecting word"
     ],
-    "correctAnswer": "Command",
-    "explanation": "This is a command (imperative sentence) because it tells someone to do something.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
+    "correctAnswer": "action word",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "Run is an action word (verb) because it shows what someone does.",
+    "topic": "Basic Reading",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.652Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.652Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_1_medium_21",
-    "content": "Which word should be capitalized: 'i went to sydney last week'?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "1",
-    "options": [
-      "went",
-      "sydney",
-      "last",
-      "week"
-    ],
-    "correctAnswer": "sydney",
-    "explanation": "Sydney is a proper noun (city name) and should always be capitalized.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.652Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.652Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_1_medium_22",
-    "content": "Which word is an adjective in this sentence: 'The beautiful flower bloomed.'?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "1",
-    "options": [
-      "The",
-      "beautiful",
-      "flower",
-      "bloomed"
-    ],
-    "correctAnswer": "beautiful",
-    "explanation": "An adjective describes a noun. 'Beautiful' describes the flower.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.652Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.652Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_1_medium_23",
-    "content": "What type of sentence is this: 'Please close the door.'?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "1",
-    "options": [
-      "Statement",
-      "Question",
-      "Command",
-      "Exclamation"
-    ],
-    "correctAnswer": "Command",
-    "explanation": "This is a command (imperative sentence) because it tells someone to do something.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.652Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.652Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_1_medium_24",
-    "content": "Which word should be capitalized: 'i went to sydney last week'?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "1",
-    "options": [
-      "went",
-      "sydney",
-      "last",
-      "week"
-    ],
-    "correctAnswer": "sydney",
-    "explanation": "Sydney is a proper noun (city name) and should always be capitalized.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.652Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.652Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_1_medium_25",
-    "content": "Which word is an adjective in this sentence: 'The beautiful flower bloomed.'?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "1",
-    "options": [
-      "The",
-      "beautiful",
-      "flower",
-      "bloomed"
-    ],
-    "correctAnswer": "beautiful",
-    "explanation": "An adjective describes a noun. 'Beautiful' describes the flower.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.652Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.652Z",
-    "generationMethod": "english-template-system"
+      "intermediate"
+    ]
   }
 ]

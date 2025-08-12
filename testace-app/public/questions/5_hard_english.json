@@ -1,777 +1,422 @@
 [
   {
-    "_id": "eng_5_hard_1",
-    "content": "Identify the subordinate clause: 'Although it was raining, we went to the park.'",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "hard",
-    "grade": "5",
-    "options": [
-      "Although it was raining",
-      "it was raining",
-      "we went to the park",
-      "to the park"
-    ],
-    "correctAnswer": "Although it was raining",
-    "explanation": "A subordinate clause begins with a subordinating conjunction like 'although' and cannot stand alone.",
-    "hints": [
-      "Think about advanced English grammar rules."
-    ],
-    "timeLimit": 60,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.658Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.658Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_5_hard_2",
-    "content": "What literary device is used in 'The wind whispered through the trees'?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "hard",
-    "grade": "5",
-    "options": [
-      "Metaphor",
-      "Simile",
-      "Personification",
-      "Alliteration"
-    ],
-    "correctAnswer": "Personification",
-    "explanation": "Personification gives human qualities (whispering) to non-human things (wind).",
-    "hints": [
-      "Think about advanced English grammar rules."
-    ],
-    "timeLimit": 60,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.658Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.658Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_5_hard_3",
+    "_id": "grade5_hard_english_001",
     "content": "Which sentence uses the subjunctive mood correctly?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "hard",
-    "grade": "5",
     "options": [
-      "If I was rich, I would travel.",
-      "If I were rich, I would travel.",
-      "If I am rich, I will travel.",
-      "If I will be rich, I would travel."
+      "If I was rich, I would travel",
+      "If I were rich, I would travel",
+      "If I am rich, I would travel",
+      "If I will be rich, I would travel"
     ],
-    "correctAnswer": "If I were rich, I would travel.",
-    "explanation": "The subjunctive mood uses 'were' instead of 'was' in hypothetical situations.",
-    "hints": [
-      "Think about advanced English grammar rules."
-    ],
-    "timeLimit": 60,
+    "correctAnswer": "If I were rich, I would travel",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "Use 'were' (not 'was') in hypothetical situations with 'if'.",
+    "topic": "Advanced Grammar",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.658Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.658Z",
-    "generationMethod": "english-template-system"
+      "advanced"
+    ]
   },
   {
-    "_id": "eng_5_hard_4",
-    "content": "Identify the subordinate clause: 'Although it was raining, we went to the park.'",
+    "_id": "grade5_hard_english_002",
+    "content": "What type of clause is underlined: 'The book that I read was excellent'?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "hard",
-    "grade": "5",
     "options": [
-      "Although it was raining",
-      "it was raining",
-      "we went to the park",
-      "to the park"
+      "independent clause",
+      "dependent clause",
+      "noun clause",
+      "adverb clause"
     ],
-    "correctAnswer": "Although it was raining",
-    "explanation": "A subordinate clause begins with a subordinating conjunction like 'although' and cannot stand alone.",
-    "hints": [
-      "Think about advanced English grammar rules."
-    ],
-    "timeLimit": 60,
+    "correctAnswer": "dependent clause",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "'That I read' is a dependent clause because it cannot stand alone.",
+    "topic": "Advanced Grammar",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.658Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.658Z",
-    "generationMethod": "english-template-system"
+      "advanced"
+    ]
   },
   {
-    "_id": "eng_5_hard_5",
-    "content": "What literary device is used in 'The wind whispered through the trees'?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "hard",
-    "grade": "5",
-    "options": [
-      "Metaphor",
-      "Simile",
-      "Personification",
-      "Alliteration"
-    ],
-    "correctAnswer": "Personification",
-    "explanation": "Personification gives human qualities (whispering) to non-human things (wind).",
-    "hints": [
-      "Think about advanced English grammar rules."
-    ],
-    "timeLimit": 60,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.658Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.658Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_5_hard_6",
+    "_id": "grade5_hard_english_003",
     "content": "Which sentence uses the subjunctive mood correctly?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "hard",
-    "grade": "5",
     "options": [
-      "If I was rich, I would travel.",
-      "If I were rich, I would travel.",
-      "If I am rich, I will travel.",
-      "If I will be rich, I would travel."
+      "If I was rich, I would travel",
+      "If I were rich, I would travel",
+      "If I am rich, I would travel",
+      "If I will be rich, I would travel"
     ],
-    "correctAnswer": "If I were rich, I would travel.",
-    "explanation": "The subjunctive mood uses 'were' instead of 'was' in hypothetical situations.",
-    "hints": [
-      "Think about advanced English grammar rules."
-    ],
-    "timeLimit": 60,
+    "correctAnswer": "If I were rich, I would travel",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "Use 'were' (not 'was') in hypothetical situations with 'if'.",
+    "topic": "Advanced Grammar",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.658Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.658Z",
-    "generationMethod": "english-template-system"
+      "advanced"
+    ]
   },
   {
-    "_id": "eng_5_hard_7",
-    "content": "Identify the subordinate clause: 'Although it was raining, we went to the park.'",
+    "_id": "grade5_hard_english_004",
+    "content": "What type of clause is underlined: 'The book that I read was excellent'?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "hard",
-    "grade": "5",
     "options": [
-      "Although it was raining",
-      "it was raining",
-      "we went to the park",
-      "to the park"
+      "independent clause",
+      "dependent clause",
+      "noun clause",
+      "adverb clause"
     ],
-    "correctAnswer": "Although it was raining",
-    "explanation": "A subordinate clause begins with a subordinating conjunction like 'although' and cannot stand alone.",
-    "hints": [
-      "Think about advanced English grammar rules."
-    ],
-    "timeLimit": 60,
+    "correctAnswer": "dependent clause",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "'That I read' is a dependent clause because it cannot stand alone.",
+    "topic": "Advanced Grammar",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.658Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.658Z",
-    "generationMethod": "english-template-system"
+      "advanced"
+    ]
   },
   {
-    "_id": "eng_5_hard_8",
-    "content": "What literary device is used in 'The wind whispered through the trees'?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "hard",
-    "grade": "5",
-    "options": [
-      "Metaphor",
-      "Simile",
-      "Personification",
-      "Alliteration"
-    ],
-    "correctAnswer": "Personification",
-    "explanation": "Personification gives human qualities (whispering) to non-human things (wind).",
-    "hints": [
-      "Think about advanced English grammar rules."
-    ],
-    "timeLimit": 60,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.658Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.658Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_5_hard_9",
+    "_id": "grade5_hard_english_005",
     "content": "Which sentence uses the subjunctive mood correctly?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "hard",
-    "grade": "5",
     "options": [
-      "If I was rich, I would travel.",
-      "If I were rich, I would travel.",
-      "If I am rich, I will travel.",
-      "If I will be rich, I would travel."
+      "If I was rich, I would travel",
+      "If I were rich, I would travel",
+      "If I am rich, I would travel",
+      "If I will be rich, I would travel"
     ],
-    "correctAnswer": "If I were rich, I would travel.",
-    "explanation": "The subjunctive mood uses 'were' instead of 'was' in hypothetical situations.",
-    "hints": [
-      "Think about advanced English grammar rules."
-    ],
-    "timeLimit": 60,
+    "correctAnswer": "If I were rich, I would travel",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "Use 'were' (not 'was') in hypothetical situations with 'if'.",
+    "topic": "Advanced Grammar",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.658Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.658Z",
-    "generationMethod": "english-template-system"
+      "advanced"
+    ]
   },
   {
-    "_id": "eng_5_hard_10",
-    "content": "Identify the subordinate clause: 'Although it was raining, we went to the park.'",
+    "_id": "grade5_hard_english_006",
+    "content": "What type of clause is underlined: 'The book that I read was excellent'?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "hard",
-    "grade": "5",
     "options": [
-      "Although it was raining",
-      "it was raining",
-      "we went to the park",
-      "to the park"
+      "independent clause",
+      "dependent clause",
+      "noun clause",
+      "adverb clause"
     ],
-    "correctAnswer": "Although it was raining",
-    "explanation": "A subordinate clause begins with a subordinating conjunction like 'although' and cannot stand alone.",
-    "hints": [
-      "Think about advanced English grammar rules."
-    ],
-    "timeLimit": 60,
+    "correctAnswer": "dependent clause",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "'That I read' is a dependent clause because it cannot stand alone.",
+    "topic": "Advanced Grammar",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.658Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.658Z",
-    "generationMethod": "english-template-system"
+      "advanced"
+    ]
   },
   {
-    "_id": "eng_5_hard_11",
-    "content": "What literary device is used in 'The wind whispered through the trees'?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "hard",
-    "grade": "5",
-    "options": [
-      "Metaphor",
-      "Simile",
-      "Personification",
-      "Alliteration"
-    ],
-    "correctAnswer": "Personification",
-    "explanation": "Personification gives human qualities (whispering) to non-human things (wind).",
-    "hints": [
-      "Think about advanced English grammar rules."
-    ],
-    "timeLimit": 60,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.658Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.658Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_5_hard_12",
+    "_id": "grade5_hard_english_007",
     "content": "Which sentence uses the subjunctive mood correctly?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "hard",
-    "grade": "5",
     "options": [
-      "If I was rich, I would travel.",
-      "If I were rich, I would travel.",
-      "If I am rich, I will travel.",
-      "If I will be rich, I would travel."
+      "If I was rich, I would travel",
+      "If I were rich, I would travel",
+      "If I am rich, I would travel",
+      "If I will be rich, I would travel"
     ],
-    "correctAnswer": "If I were rich, I would travel.",
-    "explanation": "The subjunctive mood uses 'were' instead of 'was' in hypothetical situations.",
-    "hints": [
-      "Think about advanced English grammar rules."
-    ],
-    "timeLimit": 60,
+    "correctAnswer": "If I were rich, I would travel",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "Use 'were' (not 'was') in hypothetical situations with 'if'.",
+    "topic": "Advanced Grammar",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.658Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.658Z",
-    "generationMethod": "english-template-system"
+      "advanced"
+    ]
   },
   {
-    "_id": "eng_5_hard_13",
-    "content": "Identify the subordinate clause: 'Although it was raining, we went to the park.'",
+    "_id": "grade5_hard_english_008",
+    "content": "What type of clause is underlined: 'The book that I read was excellent'?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "hard",
-    "grade": "5",
     "options": [
-      "Although it was raining",
-      "it was raining",
-      "we went to the park",
-      "to the park"
+      "independent clause",
+      "dependent clause",
+      "noun clause",
+      "adverb clause"
     ],
-    "correctAnswer": "Although it was raining",
-    "explanation": "A subordinate clause begins with a subordinating conjunction like 'although' and cannot stand alone.",
-    "hints": [
-      "Think about advanced English grammar rules."
-    ],
-    "timeLimit": 60,
+    "correctAnswer": "dependent clause",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "'That I read' is a dependent clause because it cannot stand alone.",
+    "topic": "Advanced Grammar",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.658Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.658Z",
-    "generationMethod": "english-template-system"
+      "advanced"
+    ]
   },
   {
-    "_id": "eng_5_hard_14",
-    "content": "What literary device is used in 'The wind whispered through the trees'?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "hard",
-    "grade": "5",
-    "options": [
-      "Metaphor",
-      "Simile",
-      "Personification",
-      "Alliteration"
-    ],
-    "correctAnswer": "Personification",
-    "explanation": "Personification gives human qualities (whispering) to non-human things (wind).",
-    "hints": [
-      "Think about advanced English grammar rules."
-    ],
-    "timeLimit": 60,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.658Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.658Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_5_hard_15",
+    "_id": "grade5_hard_english_009",
     "content": "Which sentence uses the subjunctive mood correctly?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "hard",
-    "grade": "5",
     "options": [
-      "If I was rich, I would travel.",
-      "If I were rich, I would travel.",
-      "If I am rich, I will travel.",
-      "If I will be rich, I would travel."
+      "If I was rich, I would travel",
+      "If I were rich, I would travel",
+      "If I am rich, I would travel",
+      "If I will be rich, I would travel"
     ],
-    "correctAnswer": "If I were rich, I would travel.",
-    "explanation": "The subjunctive mood uses 'were' instead of 'was' in hypothetical situations.",
-    "hints": [
-      "Think about advanced English grammar rules."
-    ],
-    "timeLimit": 60,
+    "correctAnswer": "If I were rich, I would travel",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "Use 'were' (not 'was') in hypothetical situations with 'if'.",
+    "topic": "Advanced Grammar",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.658Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.658Z",
-    "generationMethod": "english-template-system"
+      "advanced"
+    ]
   },
   {
-    "_id": "eng_5_hard_16",
-    "content": "Identify the subordinate clause: 'Although it was raining, we went to the park.'",
+    "_id": "grade5_hard_english_010",
+    "content": "What type of clause is underlined: 'The book that I read was excellent'?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "hard",
-    "grade": "5",
     "options": [
-      "Although it was raining",
-      "it was raining",
-      "we went to the park",
-      "to the park"
+      "independent clause",
+      "dependent clause",
+      "noun clause",
+      "adverb clause"
     ],
-    "correctAnswer": "Although it was raining",
-    "explanation": "A subordinate clause begins with a subordinating conjunction like 'although' and cannot stand alone.",
-    "hints": [
-      "Think about advanced English grammar rules."
-    ],
-    "timeLimit": 60,
+    "correctAnswer": "dependent clause",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "'That I read' is a dependent clause because it cannot stand alone.",
+    "topic": "Advanced Grammar",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.658Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.658Z",
-    "generationMethod": "english-template-system"
+      "advanced"
+    ]
   },
   {
-    "_id": "eng_5_hard_17",
-    "content": "What literary device is used in 'The wind whispered through the trees'?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "hard",
-    "grade": "5",
-    "options": [
-      "Metaphor",
-      "Simile",
-      "Personification",
-      "Alliteration"
-    ],
-    "correctAnswer": "Personification",
-    "explanation": "Personification gives human qualities (whispering) to non-human things (wind).",
-    "hints": [
-      "Think about advanced English grammar rules."
-    ],
-    "timeLimit": 60,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.658Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.658Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_5_hard_18",
+    "_id": "grade5_hard_english_011",
     "content": "Which sentence uses the subjunctive mood correctly?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "hard",
-    "grade": "5",
     "options": [
-      "If I was rich, I would travel.",
-      "If I were rich, I would travel.",
-      "If I am rich, I will travel.",
-      "If I will be rich, I would travel."
+      "If I was rich, I would travel",
+      "If I were rich, I would travel",
+      "If I am rich, I would travel",
+      "If I will be rich, I would travel"
     ],
-    "correctAnswer": "If I were rich, I would travel.",
-    "explanation": "The subjunctive mood uses 'were' instead of 'was' in hypothetical situations.",
-    "hints": [
-      "Think about advanced English grammar rules."
-    ],
-    "timeLimit": 60,
+    "correctAnswer": "If I were rich, I would travel",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "Use 'were' (not 'was') in hypothetical situations with 'if'.",
+    "topic": "Advanced Grammar",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.658Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.658Z",
-    "generationMethod": "english-template-system"
+      "advanced"
+    ]
   },
   {
-    "_id": "eng_5_hard_19",
-    "content": "Identify the subordinate clause: 'Although it was raining, we went to the park.'",
+    "_id": "grade5_hard_english_012",
+    "content": "What type of clause is underlined: 'The book that I read was excellent'?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "hard",
-    "grade": "5",
     "options": [
-      "Although it was raining",
-      "it was raining",
-      "we went to the park",
-      "to the park"
+      "independent clause",
+      "dependent clause",
+      "noun clause",
+      "adverb clause"
     ],
-    "correctAnswer": "Although it was raining",
-    "explanation": "A subordinate clause begins with a subordinating conjunction like 'although' and cannot stand alone.",
-    "hints": [
-      "Think about advanced English grammar rules."
-    ],
-    "timeLimit": 60,
+    "correctAnswer": "dependent clause",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "'That I read' is a dependent clause because it cannot stand alone.",
+    "topic": "Advanced Grammar",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.658Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.658Z",
-    "generationMethod": "english-template-system"
+      "advanced"
+    ]
   },
   {
-    "_id": "eng_5_hard_20",
-    "content": "What literary device is used in 'The wind whispered through the trees'?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "hard",
-    "grade": "5",
-    "options": [
-      "Metaphor",
-      "Simile",
-      "Personification",
-      "Alliteration"
-    ],
-    "correctAnswer": "Personification",
-    "explanation": "Personification gives human qualities (whispering) to non-human things (wind).",
-    "hints": [
-      "Think about advanced English grammar rules."
-    ],
-    "timeLimit": 60,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.658Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.658Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_5_hard_21",
+    "_id": "grade5_hard_english_013",
     "content": "Which sentence uses the subjunctive mood correctly?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "hard",
-    "grade": "5",
     "options": [
-      "If I was rich, I would travel.",
-      "If I were rich, I would travel.",
-      "If I am rich, I will travel.",
-      "If I will be rich, I would travel."
+      "If I was rich, I would travel",
+      "If I were rich, I would travel",
+      "If I am rich, I would travel",
+      "If I will be rich, I would travel"
     ],
-    "correctAnswer": "If I were rich, I would travel.",
-    "explanation": "The subjunctive mood uses 'were' instead of 'was' in hypothetical situations.",
-    "hints": [
-      "Think about advanced English grammar rules."
-    ],
-    "timeLimit": 60,
+    "correctAnswer": "If I were rich, I would travel",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "Use 'were' (not 'was') in hypothetical situations with 'if'.",
+    "topic": "Advanced Grammar",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.658Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.658Z",
-    "generationMethod": "english-template-system"
+      "advanced"
+    ]
   },
   {
-    "_id": "eng_5_hard_22",
-    "content": "Identify the subordinate clause: 'Although it was raining, we went to the park.'",
+    "_id": "grade5_hard_english_014",
+    "content": "What type of clause is underlined: 'The book that I read was excellent'?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "hard",
-    "grade": "5",
     "options": [
-      "Although it was raining",
-      "it was raining",
-      "we went to the park",
-      "to the park"
+      "independent clause",
+      "dependent clause",
+      "noun clause",
+      "adverb clause"
     ],
-    "correctAnswer": "Although it was raining",
-    "explanation": "A subordinate clause begins with a subordinating conjunction like 'although' and cannot stand alone.",
-    "hints": [
-      "Think about advanced English grammar rules."
-    ],
-    "timeLimit": 60,
+    "correctAnswer": "dependent clause",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "'That I read' is a dependent clause because it cannot stand alone.",
+    "topic": "Advanced Grammar",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.658Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.658Z",
-    "generationMethod": "english-template-system"
+      "advanced"
+    ]
   },
   {
-    "_id": "eng_5_hard_23",
-    "content": "What literary device is used in 'The wind whispered through the trees'?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "hard",
-    "grade": "5",
-    "options": [
-      "Metaphor",
-      "Simile",
-      "Personification",
-      "Alliteration"
-    ],
-    "correctAnswer": "Personification",
-    "explanation": "Personification gives human qualities (whispering) to non-human things (wind).",
-    "hints": [
-      "Think about advanced English grammar rules."
-    ],
-    "timeLimit": 60,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.658Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.658Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_5_hard_24",
+    "_id": "grade5_hard_english_015",
     "content": "Which sentence uses the subjunctive mood correctly?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "hard",
-    "grade": "5",
     "options": [
-      "If I was rich, I would travel.",
-      "If I were rich, I would travel.",
-      "If I am rich, I will travel.",
-      "If I will be rich, I would travel."
+      "If I was rich, I would travel",
+      "If I were rich, I would travel",
+      "If I am rich, I would travel",
+      "If I will be rich, I would travel"
     ],
-    "correctAnswer": "If I were rich, I would travel.",
-    "explanation": "The subjunctive mood uses 'were' instead of 'was' in hypothetical situations.",
-    "hints": [
-      "Think about advanced English grammar rules."
-    ],
-    "timeLimit": 60,
+    "correctAnswer": "If I were rich, I would travel",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "Use 'were' (not 'was') in hypothetical situations with 'if'.",
+    "topic": "Advanced Grammar",
     "tags": [
       "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.658Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.658Z",
-    "generationMethod": "english-template-system"
+      "advanced"
+    ]
   },
   {
-    "_id": "eng_5_hard_25",
-    "content": "Identify the subordinate clause: 'Although it was raining, we went to the park.'",
+    "_id": "grade5_hard_english_016",
+    "content": "What type of clause is underlined: 'The book that I read was excellent'?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "hard",
-    "grade": "5",
     "options": [
-      "Although it was raining",
-      "it was raining",
-      "we went to the park",
-      "to the park"
+      "independent clause",
+      "dependent clause",
+      "noun clause",
+      "adverb clause"
     ],
-    "correctAnswer": "Although it was raining",
-    "explanation": "A subordinate clause begins with a subordinating conjunction like 'although' and cannot stand alone.",
-    "hints": [
-      "Think about advanced English grammar rules."
-    ],
-    "timeLimit": 60,
+    "correctAnswer": "dependent clause",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "'That I read' is a dependent clause because it cannot stand alone.",
+    "topic": "Advanced Grammar",
     "tags": [
       "english",
-      "grammar",
-      "language"
+      "advanced"
+    ]
+  },
+  {
+    "_id": "grade5_hard_english_017",
+    "content": "Which sentence uses the subjunctive mood correctly?",
+    "type": "multiple_choice",
+    "options": [
+      "If I was rich, I would travel",
+      "If I were rich, I would travel",
+      "If I am rich, I would travel",
+      "If I will be rich, I would travel"
     ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.658Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.658Z",
-    "generationMethod": "english-template-system"
+    "correctAnswer": "If I were rich, I would travel",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "Use 'were' (not 'was') in hypothetical situations with 'if'.",
+    "topic": "Advanced Grammar",
+    "tags": [
+      "english",
+      "advanced"
+    ]
+  },
+  {
+    "_id": "grade5_hard_english_018",
+    "content": "What type of clause is underlined: 'The book that I read was excellent'?",
+    "type": "multiple_choice",
+    "options": [
+      "independent clause",
+      "dependent clause",
+      "noun clause",
+      "adverb clause"
+    ],
+    "correctAnswer": "dependent clause",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "'That I read' is a dependent clause because it cannot stand alone.",
+    "topic": "Advanced Grammar",
+    "tags": [
+      "english",
+      "advanced"
+    ]
+  },
+  {
+    "_id": "grade5_hard_english_019",
+    "content": "Which sentence uses the subjunctive mood correctly?",
+    "type": "multiple_choice",
+    "options": [
+      "If I was rich, I would travel",
+      "If I were rich, I would travel",
+      "If I am rich, I would travel",
+      "If I will be rich, I would travel"
+    ],
+    "correctAnswer": "If I were rich, I would travel",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "Use 'were' (not 'was') in hypothetical situations with 'if'.",
+    "topic": "Advanced Grammar",
+    "tags": [
+      "english",
+      "advanced"
+    ]
+  },
+  {
+    "_id": "grade5_hard_english_020",
+    "content": "What type of clause is underlined: 'The book that I read was excellent'?",
+    "type": "multiple_choice",
+    "options": [
+      "independent clause",
+      "dependent clause",
+      "noun clause",
+      "adverb clause"
+    ],
+    "correctAnswer": "dependent clause",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "'That I read' is a dependent clause because it cannot stand alone.",
+    "topic": "Advanced Grammar",
+    "tags": [
+      "english",
+      "advanced"
+    ]
   }
 ]
