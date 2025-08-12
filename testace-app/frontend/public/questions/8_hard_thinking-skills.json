@@ -1,322 +1,322 @@
 [
   {
     "_id": "grade8_hard_thinking-skills_001",
-    "content": "Grade 8 hard thinking-skills question 1 - varied content",
+    "content": "Solve the equation: 2(x - 3) = 3(x + 1) - 7",
     "type": "multiple_choice",
     "options": [
-      "Option A0",
-      "Option B0",
-      "Option C0",
-      "Option D0"
+      "x = -2",
+      "x = -1",
+      "x = 0",
+      "x = 2"
     ],
-    "correctAnswer": "Option A0",
+    "correctAnswer": "x = -2",
     "subject": "Thinking Skills",
     "grade": 8,
     "difficulty": "hard",
-    "explanation": "This is a varied hard level question 1 for grade 8."
+    "explanation": "Expand: 2x - 6 = 3x + 3 - 7. Simplify: 2x - 6 = 3x - 4. Solve: -6 + 4 = 3x - 2x, so x = -2."
   },
   {
     "_id": "grade8_hard_thinking-skills_002",
-    "content": "Grade 8 hard thinking-skills question 2 - varied content",
+    "content": "If V = πr²h gives the volume of a cylinder, find r when V = 314 and h = 10. (Use π ≈ 3.14)",
     "type": "multiple_choice",
     "options": [
-      "Option A1",
-      "Option B1",
-      "Option C1",
-      "Option D1"
+      "r = 2",
+      "r = 3",
+      "r = 4",
+      "r = 5"
     ],
-    "correctAnswer": "Option A1",
+    "correctAnswer": "r = 3",
     "subject": "Thinking Skills",
     "grade": 8,
     "difficulty": "hard",
-    "explanation": "This is a varied hard level question 2 for grade 8."
+    "explanation": "314 = 3.14 × r² × 10. So 314 = 31.4r². Therefore r² = 10, and r = √10 ≈ 3.16 ≈ 3."
   },
   {
     "_id": "grade8_hard_thinking-skills_003",
-    "content": "Grade 8 hard thinking-skills question 3 - varied content",
+    "content": "A shape has vertices at (1,2), (4,2), (4,6), and (1,6). After a 90° clockwise rotation about the origin, where is the vertex (4,2)?",
     "type": "multiple_choice",
     "options": [
-      "Option A2",
-      "Option B2",
-      "Option C2",
-      "Option D2"
+      "(2, -4)",
+      "(-2, 4)",
+      "(2, 4)",
+      "(-4, 2)"
     ],
-    "correctAnswer": "Option A2",
+    "correctAnswer": "(2, -4)",
     "subject": "Thinking Skills",
     "grade": 8,
     "difficulty": "hard",
-    "explanation": "This is a varied hard level question 3 for grade 8."
+    "explanation": "90° clockwise rotation: (x,y) → (y,-x). So (4,2) → (2,-4)."
   },
   {
     "_id": "grade8_hard_thinking-skills_004",
-    "content": "Grade 8 hard thinking-skills question 4 - varied content",
+    "content": "Two similar triangles have corresponding sides in the ratio 2:3. If the smaller triangle has an area of 8 cm², what is the area of the larger triangle?",
     "type": "multiple_choice",
     "options": [
-      "Option A3",
-      "Option B3",
-      "Option C3",
-      "Option D3"
+      "12 cm²",
+      "16 cm²",
+      "18 cm²",
+      "24 cm²"
     ],
-    "correctAnswer": "Option A3",
+    "correctAnswer": "18 cm²",
     "subject": "Thinking Skills",
     "grade": 8,
     "difficulty": "hard",
-    "explanation": "This is a varied hard level question 4 for grade 8."
+    "explanation": "Area ratio = (side ratio)² = (2:3)² = 4:9. If smaller area is 8, then larger area = 8 × (9/4) = 18 cm²."
   },
   {
     "_id": "grade8_hard_thinking-skills_005",
-    "content": "Grade 8 hard thinking-skills question 5 - varied content",
+    "content": "A survey of 100 students found that 60 like math, 40 like science, and 25 like both. How many like neither subject?",
     "type": "multiple_choice",
     "options": [
-      "Option A4",
-      "Option B4",
-      "Option C4",
-      "Option D4"
+      "15",
+      "20",
+      "25",
+      "35"
     ],
-    "correctAnswer": "Option A4",
+    "correctAnswer": "25",
     "subject": "Thinking Skills",
     "grade": 8,
     "difficulty": "hard",
-    "explanation": "This is a varied hard level question 5 for grade 8."
+    "explanation": "Using inclusion-exclusion: Like at least one = 60 + 40 - 25 = 75. Like neither = 100 - 75 = 25."
   },
   {
     "_id": "grade8_hard_thinking-skills_006",
-    "content": "Grade 8 hard thinking-skills question 6 - varied content",
+    "content": "In a frequency table, the modal class has a frequency of 15 and represents 30% of the data. What is the total frequency?",
     "type": "multiple_choice",
     "options": [
-      "Option A5",
-      "Option B5",
-      "Option C5",
-      "Option D5"
+      "45",
+      "50",
+      "60",
+      "75"
     ],
-    "correctAnswer": "Option A5",
+    "correctAnswer": "50",
     "subject": "Thinking Skills",
     "grade": 8,
     "difficulty": "hard",
-    "explanation": "This is a varied hard level question 6 for grade 8."
+    "explanation": "If 15 represents 30% of the total, then total = 15 ÷ 0.30 = 50."
   },
   {
     "_id": "grade8_hard_thinking-skills_007",
-    "content": "Grade 8 hard thinking-skills question 7 - varied content",
+    "content": "Using logical reasoning: If all Year 8 students study algebra, and some algebra students find it challenging, which conclusion is valid?",
     "type": "multiple_choice",
     "options": [
-      "Option A6",
-      "Option B6",
-      "Option C6",
-      "Option D6"
+      "All Year 8 students find algebra challenging",
+      "Some Year 8 students might find algebra challenging",
+      "No Year 8 students find algebra easy",
+      "All challenging subjects are algebra"
     ],
-    "correctAnswer": "Option A6",
+    "correctAnswer": "Some Year 8 students might find algebra challenging",
     "subject": "Thinking Skills",
     "grade": 8,
     "difficulty": "hard",
-    "explanation": "This is a varied hard level question 7 for grade 8."
+    "explanation": "Since all Year 8 students study algebra, and some algebra students find it challenging, it's possible (but not certain) that some Year 8 students find it challenging."
   },
   {
     "_id": "grade8_hard_thinking-skills_008",
-    "content": "Grade 8 hard thinking-skills question 8 - varied content",
+    "content": "Solve the equation: 2(x - 3) = 3(x + 1) - 7",
     "type": "multiple_choice",
     "options": [
-      "Option A7",
-      "Option B7",
-      "Option C7",
-      "Option D7"
+      "x = -2",
+      "x = -1",
+      "x = 0",
+      "x = 2"
     ],
-    "correctAnswer": "Option A7",
+    "correctAnswer": "x = -2",
     "subject": "Thinking Skills",
     "grade": 8,
     "difficulty": "hard",
-    "explanation": "This is a varied hard level question 8 for grade 8."
+    "explanation": "Expand: 2x - 6 = 3x + 3 - 7. Simplify: 2x - 6 = 3x - 4. Solve: -6 + 4 = 3x - 2x, so x = -2."
   },
   {
     "_id": "grade8_hard_thinking-skills_009",
-    "content": "Grade 8 hard thinking-skills question 9 - varied content",
+    "content": "If V = πr²h gives the volume of a cylinder, find r when V = 314 and h = 10. (Use π ≈ 3.14)",
     "type": "multiple_choice",
     "options": [
-      "Option A8",
-      "Option B8",
-      "Option C8",
-      "Option D8"
+      "r = 2",
+      "r = 3",
+      "r = 4",
+      "r = 5"
     ],
-    "correctAnswer": "Option A8",
+    "correctAnswer": "r = 3",
     "subject": "Thinking Skills",
     "grade": 8,
     "difficulty": "hard",
-    "explanation": "This is a varied hard level question 9 for grade 8."
+    "explanation": "314 = 3.14 × r² × 10. So 314 = 31.4r². Therefore r² = 10, and r = √10 ≈ 3.16 ≈ 3."
   },
   {
     "_id": "grade8_hard_thinking-skills_010",
-    "content": "Grade 8 hard thinking-skills question 10 - varied content",
+    "content": "A shape has vertices at (1,2), (4,2), (4,6), and (1,6). After a 90° clockwise rotation about the origin, where is the vertex (4,2)?",
     "type": "multiple_choice",
     "options": [
-      "Option A9",
-      "Option B9",
-      "Option C9",
-      "Option D9"
+      "(2, -4)",
+      "(-2, 4)",
+      "(2, 4)",
+      "(-4, 2)"
     ],
-    "correctAnswer": "Option A9",
+    "correctAnswer": "(2, -4)",
     "subject": "Thinking Skills",
     "grade": 8,
     "difficulty": "hard",
-    "explanation": "This is a varied hard level question 10 for grade 8."
+    "explanation": "90° clockwise rotation: (x,y) → (y,-x). So (4,2) → (2,-4)."
   },
   {
     "_id": "grade8_hard_thinking-skills_011",
-    "content": "Grade 8 hard thinking-skills question 11 - varied content",
+    "content": "Two similar triangles have corresponding sides in the ratio 2:3. If the smaller triangle has an area of 8 cm², what is the area of the larger triangle?",
     "type": "multiple_choice",
     "options": [
-      "Option A10",
-      "Option B10",
-      "Option C10",
-      "Option D10"
+      "12 cm²",
+      "16 cm²",
+      "18 cm²",
+      "24 cm²"
     ],
-    "correctAnswer": "Option A10",
+    "correctAnswer": "18 cm²",
     "subject": "Thinking Skills",
     "grade": 8,
     "difficulty": "hard",
-    "explanation": "This is a varied hard level question 11 for grade 8."
+    "explanation": "Area ratio = (side ratio)² = (2:3)² = 4:9. If smaller area is 8, then larger area = 8 × (9/4) = 18 cm²."
   },
   {
     "_id": "grade8_hard_thinking-skills_012",
-    "content": "Grade 8 hard thinking-skills question 12 - varied content",
+    "content": "A survey of 100 students found that 60 like math, 40 like science, and 25 like both. How many like neither subject?",
     "type": "multiple_choice",
     "options": [
-      "Option A11",
-      "Option B11",
-      "Option C11",
-      "Option D11"
+      "15",
+      "20",
+      "25",
+      "35"
     ],
-    "correctAnswer": "Option A11",
+    "correctAnswer": "25",
     "subject": "Thinking Skills",
     "grade": 8,
     "difficulty": "hard",
-    "explanation": "This is a varied hard level question 12 for grade 8."
+    "explanation": "Using inclusion-exclusion: Like at least one = 60 + 40 - 25 = 75. Like neither = 100 - 75 = 25."
   },
   {
     "_id": "grade8_hard_thinking-skills_013",
-    "content": "Grade 8 hard thinking-skills question 13 - varied content",
+    "content": "In a frequency table, the modal class has a frequency of 15 and represents 30% of the data. What is the total frequency?",
     "type": "multiple_choice",
     "options": [
-      "Option A12",
-      "Option B12",
-      "Option C12",
-      "Option D12"
+      "45",
+      "50",
+      "60",
+      "75"
     ],
-    "correctAnswer": "Option A12",
+    "correctAnswer": "50",
     "subject": "Thinking Skills",
     "grade": 8,
     "difficulty": "hard",
-    "explanation": "This is a varied hard level question 13 for grade 8."
+    "explanation": "If 15 represents 30% of the total, then total = 15 ÷ 0.30 = 50."
   },
   {
     "_id": "grade8_hard_thinking-skills_014",
-    "content": "Grade 8 hard thinking-skills question 14 - varied content",
+    "content": "Using logical reasoning: If all Year 8 students study algebra, and some algebra students find it challenging, which conclusion is valid?",
     "type": "multiple_choice",
     "options": [
-      "Option A13",
-      "Option B13",
-      "Option C13",
-      "Option D13"
+      "All Year 8 students find algebra challenging",
+      "Some Year 8 students might find algebra challenging",
+      "No Year 8 students find algebra easy",
+      "All challenging subjects are algebra"
     ],
-    "correctAnswer": "Option A13",
+    "correctAnswer": "Some Year 8 students might find algebra challenging",
     "subject": "Thinking Skills",
     "grade": 8,
     "difficulty": "hard",
-    "explanation": "This is a varied hard level question 14 for grade 8."
+    "explanation": "Since all Year 8 students study algebra, and some algebra students find it challenging, it's possible (but not certain) that some Year 8 students find it challenging."
   },
   {
     "_id": "grade8_hard_thinking-skills_015",
-    "content": "Grade 8 hard thinking-skills question 15 - varied content",
+    "content": "Solve the equation: 2(x - 3) = 3(x + 1) - 7",
     "type": "multiple_choice",
     "options": [
-      "Option A14",
-      "Option B14",
-      "Option C14",
-      "Option D14"
+      "x = -2",
+      "x = -1",
+      "x = 0",
+      "x = 2"
     ],
-    "correctAnswer": "Option A14",
+    "correctAnswer": "x = -2",
     "subject": "Thinking Skills",
     "grade": 8,
     "difficulty": "hard",
-    "explanation": "This is a varied hard level question 15 for grade 8."
+    "explanation": "Expand: 2x - 6 = 3x + 3 - 7. Simplify: 2x - 6 = 3x - 4. Solve: -6 + 4 = 3x - 2x, so x = -2."
   },
   {
     "_id": "grade8_hard_thinking-skills_016",
-    "content": "Grade 8 hard thinking-skills question 16 - varied content",
+    "content": "If V = πr²h gives the volume of a cylinder, find r when V = 314 and h = 10. (Use π ≈ 3.14)",
     "type": "multiple_choice",
     "options": [
-      "Option A15",
-      "Option B15",
-      "Option C15",
-      "Option D15"
+      "r = 2",
+      "r = 3",
+      "r = 4",
+      "r = 5"
     ],
-    "correctAnswer": "Option A15",
+    "correctAnswer": "r = 3",
     "subject": "Thinking Skills",
     "grade": 8,
     "difficulty": "hard",
-    "explanation": "This is a varied hard level question 16 for grade 8."
+    "explanation": "314 = 3.14 × r² × 10. So 314 = 31.4r². Therefore r² = 10, and r = √10 ≈ 3.16 ≈ 3."
   },
   {
     "_id": "grade8_hard_thinking-skills_017",
-    "content": "Grade 8 hard thinking-skills question 17 - varied content",
+    "content": "A shape has vertices at (1,2), (4,2), (4,6), and (1,6). After a 90° clockwise rotation about the origin, where is the vertex (4,2)?",
     "type": "multiple_choice",
     "options": [
-      "Option A16",
-      "Option B16",
-      "Option C16",
-      "Option D16"
+      "(2, -4)",
+      "(-2, 4)",
+      "(2, 4)",
+      "(-4, 2)"
     ],
-    "correctAnswer": "Option A16",
+    "correctAnswer": "(2, -4)",
     "subject": "Thinking Skills",
     "grade": 8,
     "difficulty": "hard",
-    "explanation": "This is a varied hard level question 17 for grade 8."
+    "explanation": "90° clockwise rotation: (x,y) → (y,-x). So (4,2) → (2,-4)."
   },
   {
     "_id": "grade8_hard_thinking-skills_018",
-    "content": "Grade 8 hard thinking-skills question 18 - varied content",
+    "content": "Two similar triangles have corresponding sides in the ratio 2:3. If the smaller triangle has an area of 8 cm², what is the area of the larger triangle?",
     "type": "multiple_choice",
     "options": [
-      "Option A17",
-      "Option B17",
-      "Option C17",
-      "Option D17"
+      "12 cm²",
+      "16 cm²",
+      "18 cm²",
+      "24 cm²"
     ],
-    "correctAnswer": "Option A17",
+    "correctAnswer": "18 cm²",
     "subject": "Thinking Skills",
     "grade": 8,
     "difficulty": "hard",
-    "explanation": "This is a varied hard level question 18 for grade 8."
+    "explanation": "Area ratio = (side ratio)² = (2:3)² = 4:9. If smaller area is 8, then larger area = 8 × (9/4) = 18 cm²."
   },
   {
     "_id": "grade8_hard_thinking-skills_019",
-    "content": "Grade 8 hard thinking-skills question 19 - varied content",
+    "content": "A survey of 100 students found that 60 like math, 40 like science, and 25 like both. How many like neither subject?",
     "type": "multiple_choice",
     "options": [
-      "Option A18",
-      "Option B18",
-      "Option C18",
-      "Option D18"
+      "15",
+      "20",
+      "25",
+      "35"
     ],
-    "correctAnswer": "Option A18",
+    "correctAnswer": "25",
     "subject": "Thinking Skills",
     "grade": 8,
     "difficulty": "hard",
-    "explanation": "This is a varied hard level question 19 for grade 8."
+    "explanation": "Using inclusion-exclusion: Like at least one = 60 + 40 - 25 = 75. Like neither = 100 - 75 = 25."
   },
   {
     "_id": "grade8_hard_thinking-skills_020",
-    "content": "Grade 8 hard thinking-skills question 20 - varied content",
+    "content": "In a frequency table, the modal class has a frequency of 15 and represents 30% of the data. What is the total frequency?",
     "type": "multiple_choice",
     "options": [
-      "Option A19",
-      "Option B19",
-      "Option C19",
-      "Option D19"
+      "45",
+      "50",
+      "60",
+      "75"
     ],
-    "correctAnswer": "Option A19",
+    "correctAnswer": "50",
     "subject": "Thinking Skills",
     "grade": 8,
     "difficulty": "hard",
-    "explanation": "This is a varied hard level question 20 for grade 8."
+    "explanation": "If 15 represents 30% of the total, then total = 15 ÷ 0.30 = 50."
   }
 ]
