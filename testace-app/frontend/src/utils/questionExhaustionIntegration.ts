@@ -5,13 +5,13 @@
  * with existing question loading systems WITHOUT breaking current functionality.
  */
 
-import { Question, DifficultyLevel } from '../types';
-import { ProgressiveQuestionHandler, QuestionExpansionStrategy } from './questionExhaustionHandler';
+import { Question } from '../types';
+import { ProgressiveQuestionHandler, QuestionExpansionStrategy, DifficultyString } from './questionExhaustionHandler';
 
 export interface EnhancedQuestionRequest {
   grade: number;
   subject: string;
-  difficulty: DifficultyLevel;
+  difficulty: DifficultyString;
   userId?: string;
   requestedCount: number;
 }
@@ -102,7 +102,7 @@ export async function loadQuestionsWithExhaustionHandling(
 async function loadNormalQuestions(
   grade: number, 
   subject: string, 
-  difficulty: DifficultyLevel, 
+  difficulty: DifficultyString, 
   userId?: string
 ): Promise<Question[]> {
   try {
