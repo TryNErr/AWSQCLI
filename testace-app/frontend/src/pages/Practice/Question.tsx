@@ -28,6 +28,7 @@ import { generateThinkingSkillsQuestions } from '../../utils/thinkingSkillsQuest
 import { generateEnglishQuestions } from '../../utils/englishQuestionGenerator';
 import { generateMathematicalReasoningQuestions } from '../../utils/mathematicalReasoningQuestionGenerator';
 import BulletproofPracticeSystem from '../../utils/bulletproofPracticeSystem';
+import { StaticQuestionLoader } from '../../utils/staticQuestionLoader';
 
 // Helper function to shuffle an array
 const shuffleArray = function<T>(array: T[]): T[] {
@@ -49,6 +50,38 @@ const getDifficultyLevel = (difficulty: string): DifficultyLevel => {
   }
 };
 
+// Component to properly format reading passages with paragraph breaks
+const FormattedText: React.FC<{ text: string }> = ({ text }) => {
+  const paragraphs = text.split('\n\n').filter(p => p.trim().length > 0);
+  
+  return (
+    <Box>
+      {paragraphs.map((paragraph, index) => {
+        const parts = paragraph.split('**');
+        const formattedParagraph = parts.map((part, partIndex) => 
+          partIndex % 2 === 1 ? <strong key={partIndex}>{part}</strong> : part
+        );
+        
+        return (
+          <Typography 
+            key={index} 
+            variant="body1" 
+            paragraph 
+            sx={{ 
+              mb: 2,
+              lineHeight: 1.6,
+              textAlign: 'left',
+              whiteSpace: 'pre-line'
+            }}
+          >
+            {formattedParagraph}
+          </Typography>
+        );
+      })}
+    </Box>
+  );
+};
+
 const Question: React.FC = () => {
   const { id } = useParams();
   const navigate = useNavigate();
@@ -65,44 +98,66 @@ const Question: React.FC = () => {
   const sessionGrade = searchParams.get('grade');
   const sessionDifficulty = searchParams.get('difficulty');
   const sessionSubject = searchParams.get('subject');
+  // Smart navigation back to the correct practice screen with filters preserved
+  const handleBackToPractice = () => {
+    // If we have session parameters, user came from Enhanced Practice
+    if (sessionGrade || sessionDifficulty || sessionSubject) {
+      console.log('🔙 Navigating back to Enhanced Practice with filters preserved');
+      
+      // Build URL with filter parameters to maintain state
+      const params = new URLSearchParams();
+      if (sessionGrade) params.set('grade', sessionGrade);
+      if (sessionDifficulty) params.set('difficulty', sessionDifficulty);
+      if (sessionSubject) params.set('subject', sessionSubject);
+      
+      const enhancedPracticeUrl = `/practice/enhanced?${params.toString()}`;
+      console.log(`🎯 Navigating to: ${enhancedPracticeUrl}`);
+      
+      navigate(enhancedPracticeUrl);
+    } else {
+      console.log('🔙 Navigating back to main Practice page');
+      navigate('/practice');
+    }
+  };
 
-  const loadQuestion = (questionId: string) => {
+    const loadQuestion = async (questionId: string) => {
     setLoading(true);
     
     try {
-      // Find question in both standard and generated questions
-      const allQuestions = [...questionData, ...getGeneratedQuestions()];
-      let foundQuestion = allQuestions.find(q => q._id === questionId);
+      console.log(`🔍 Loading question: ${questionId}`);
       
-      // If question not found, try to generate a new one
-      if (!foundQuestion) {
-        console.log(`Question ${questionId} not found, generating new question`);
+      // Parse question ID to extract grade, difficulty, and subject
+      const parts = questionId.split('_');
+      if (parts.length >= 3) {
+        const grade = parts[0].replace('grade', '');
+        const difficulty = parts[1];
+        const subject = parts[2];
         
-        try {
-          const grade = getUserGrade().toString();
-          const difficulty = DifficultyLevel.MEDIUM;
-          
-          foundQuestion = generateEnhancedQuestion(grade, undefined, difficulty);
-          
-          if (foundQuestion) {
-            // Update the question ID to match the requested one for consistency
-            foundQuestion._id = questionId;
-            
-            // Save the generated question for future use
-            const currentGenerated = getGeneratedQuestions();
-            const updatedGenerated = [...currentGenerated, foundQuestion];
-            saveGeneratedQuestions(updatedGenerated);
-            
-            console.log(`Generated new question for ID ${questionId}`);
-          }
-        } catch (error) {
-          console.error('Error generating fallback question:', error);
+        console.log(`📊 Parsed: Grade ${grade}, ${difficulty}, ${subject}`);
+        
+        // Use StaticQuestionLoader ONLY
+        const questions = await StaticQuestionLoader.getQuestions(
+          grade,
+          getDifficultyLevel(difficulty),
+          subject,
+          50
+        );
+        
+        const foundQuestion = questions.find(q => q._id === questionId);
+        
+        if (foundQuestion) {
+          console.log(`✅ Found: ${foundQuestion.subject} question`);
+          setQuestion(foundQuestion);
+        } else {
+          console.error(`❌ Question ${questionId} not found`);
+          setQuestion(null);
         }
+      } else {
+        console.error(`❌ Invalid question ID: ${questionId}`);
+        setQuestion(null);
       }
       
-      setQuestion(foundQuestion || null);
-      
-      // Reset question state
+      // Reset form state
       setSelectedAnswer('');
       setIsSubmitted(false);
       setIsCorrect(false);
@@ -345,7 +400,7 @@ const Question: React.FC = () => {
         <Box sx={{ mt: 4 }}>
           <Button
             startIcon={<ArrowBack />}
-            onClick={() => navigate('/practice')}
+            onClick={handleBackToPractice}
             sx={{ mb: 2 }}
           >
             Back to Practice
@@ -361,7 +416,7 @@ const Question: React.FC = () => {
       <Box sx={{ mt: 4, mb: 8 }}>
         <Button
           startIcon={<ArrowBack />}
-          onClick={() => navigate('/practice')}
+          onClick={handleBackToPractice}
           sx={{ mb: 2 }}
         >
           Back to Practice
@@ -450,9 +505,7 @@ const Question: React.FC = () => {
               <Chip label={question.difficulty} color="secondary" />
               <Chip label={question.topic} variant="outlined" />
             </Stack>
-            <Typography variant="h5" gutterBottom>
-              {question.content}
-            </Typography>
+            <FormattedText text={question.content} />
           </Box>
 
           <Divider sx={{ my: 3 }} />

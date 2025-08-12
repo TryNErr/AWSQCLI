@@ -1,103 +1,7 @@
 [
   {
-    "_id": "grade_specific_math_12_medium_0",
-    "content": "Grade 12 Math: What is 104 + 118?",
-    "type": "multiple_choice",
-    "options": [
-      "222",
-      "223",
-      "221",
-      "224"
-    ],
-    "correctAnswer": "222",
-    "subject": "Mathematical Reasoning",
-    "grade": 12,
-    "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 12."
-  },
-  {
-    "_id": "grade_specific_math_12_medium_1",
-    "content": "Grade 12 Math: What is 53 + 78?",
-    "type": "multiple_choice",
-    "options": [
-      "131",
-      "132",
-      "130",
-      "133"
-    ],
-    "correctAnswer": "131",
-    "subject": "Mathematical Reasoning",
-    "grade": 12,
-    "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 12."
-  },
-  {
-    "_id": "grade_specific_math_12_medium_2",
-    "content": "Grade 12 Math: Sarah has 81 books. She gets 10 more. How many does she have now?",
-    "type": "multiple_choice",
-    "options": [
-      "91",
-      "92",
-      "90",
-      "71"
-    ],
-    "correctAnswer": "91",
-    "subject": "Mathematical Reasoning",
-    "grade": 12,
-    "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 12."
-  },
-  {
-    "_id": "grade_specific_math_12_medium_3",
-    "content": "Grade 12 Math: Sarah has 96 pencils. She gets 6 more. How many does she have now?",
-    "type": "multiple_choice",
-    "options": [
-      "102",
-      "103",
-      "101",
-      "90"
-    ],
-    "correctAnswer": "102",
-    "subject": "Mathematical Reasoning",
-    "grade": 12,
-    "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 12."
-  },
-  {
-    "_id": "grade_specific_math_12_medium_4",
-    "content": "Grade 12 Math: What is 9 ÷ 3?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "2",
-      "5"
-    ],
-    "correctAnswer": "3",
-    "subject": "Mathematical Reasoning",
-    "grade": 12,
-    "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 12."
-  },
-  {
-    "_id": "grade_specific_math_12_medium_5",
-    "content": "Grade 12 Math: What is 10 × 11?",
-    "type": "multiple_choice",
-    "options": [
-      "110",
-      "120",
-      "100",
-      "121"
-    ],
-    "correctAnswer": "110",
-    "subject": "Mathematical Reasoning",
-    "grade": 12,
-    "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 12."
-  },
-  {
-    "_id": "grade_specific_math_12_medium_6",
-    "content": "Grade 12 Math: What is 41 - 37?",
+    "_id": "grade12_medium_math_001",
+    "content": "Solve for x: 2x + 3 = 11",
     "type": "multiple_choice",
     "options": [
       "4",
@@ -106,297 +10,313 @@
       "6"
     ],
     "correctAnswer": "4",
-    "subject": "Mathematical Reasoning",
+    "subject": "Mathematics",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 12."
+    "explanation": "Solving step by step gives us 4"
   },
   {
-    "_id": "grade_specific_math_12_medium_7",
-    "content": "Grade 12 Math: What is 60 ÷ 12?",
+    "_id": "grade12_medium_math_002",
+    "content": "What is 15% of 70?",
     "type": "multiple_choice",
     "options": [
-      "5",
-      "6",
-      "4",
-      "7"
+      "10.5",
+      "11.5",
+      "9.5",
+      "12.5"
     ],
-    "correctAnswer": "5",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "10.5",
+    "subject": "Mathematics",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 12."
+    "explanation": "Solving step by step gives us 10.5"
   },
   {
-    "_id": "grade_specific_math_12_medium_8",
-    "content": "Grade 12 Math: Sarah has 130 pencils. She gets 13 more. How many does she have now?",
+    "_id": "grade12_medium_math_003",
+    "content": "If f(x) = 3x + 4, what is f(5)?",
     "type": "multiple_choice",
     "options": [
-      "143",
-      "144",
-      "142",
-      "117"
+      "19",
+      "20",
+      "18",
+      "21"
     ],
-    "correctAnswer": "143",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "19",
+    "subject": "Mathematics",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 12."
+    "explanation": "Solving step by step gives us 19"
   },
   {
-    "_id": "grade_specific_math_12_medium_9",
-    "content": "Grade 12 Math: What is 36 - 24?",
+    "_id": "grade12_medium_math_004",
+    "content": "Solve for x: 5x + 6 = 17",
     "type": "multiple_choice",
     "options": [
-      "12",
-      "13",
-      "11",
-      "14"
+      "2",
+      "3",
+      "1",
+      "4"
     ],
-    "correctAnswer": "12",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "2",
+    "subject": "Mathematics",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 12."
+    "explanation": "Solving step by step gives us 2"
   },
   {
-    "_id": "grade_specific_math_12_medium_10",
-    "content": "Grade 12 Math: What is 48 ÷ 4?",
+    "_id": "grade12_medium_math_005",
+    "content": "What is 30% of 100?",
     "type": "multiple_choice",
     "options": [
-      "12",
-      "13",
-      "11",
-      "14"
+      "30",
+      "31",
+      "29",
+      "32"
     ],
-    "correctAnswer": "12",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "30",
+    "subject": "Mathematics",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 12."
+    "explanation": "Solving step by step gives us 30"
   },
   {
-    "_id": "grade_specific_math_12_medium_11",
-    "content": "Grade 12 Math: Sarah has 109 books. She gets 14 more. How many does she have now?",
-    "type": "multiple_choice",
-    "options": [
-      "123",
-      "124",
-      "122",
-      "95"
-    ],
-    "correctAnswer": "123",
-    "subject": "Mathematical Reasoning",
-    "grade": 12,
-    "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 12."
-  },
-  {
-    "_id": "grade_specific_math_12_medium_12",
-    "content": "Grade 12 Math: What is 113 - 91?",
-    "type": "multiple_choice",
-    "options": [
-      "22",
-      "23",
-      "21",
-      "24"
-    ],
-    "correctAnswer": "22",
-    "subject": "Mathematical Reasoning",
-    "grade": 12,
-    "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 12."
-  },
-  {
-    "_id": "grade_specific_math_12_medium_13",
-    "content": "Grade 12 Math: What is 11 × 5?",
+    "_id": "grade12_medium_math_006",
+    "content": "If f(x) = 6x + 7, what is f(8)?",
     "type": "multiple_choice",
     "options": [
       "55",
-      "66",
-      "44",
-      "60"
+      "56",
+      "54",
+      "57"
     ],
     "correctAnswer": "55",
-    "subject": "Mathematical Reasoning",
+    "subject": "Mathematics",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 12."
+    "explanation": "Solving step by step gives us 55"
   },
   {
-    "_id": "grade_specific_math_12_medium_14",
-    "content": "Grade 12 Math: Sarah has 90 books. She gets 19 more. How many does she have now?",
+    "_id": "grade12_medium_math_007",
+    "content": "Solve for x: 8x + 9 = 23",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "0",
+      "3"
+    ],
+    "correctAnswer": "1",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "medium",
+    "explanation": "Solving step by step gives us 1"
+  },
+  {
+    "_id": "grade12_medium_math_008",
+    "content": "What is 45% of 130?",
+    "type": "multiple_choice",
+    "options": [
+      "58.5",
+      "59.5",
+      "57.5",
+      "60.5"
+    ],
+    "correctAnswer": "58.5",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "medium",
+    "explanation": "Solving step by step gives us 58.5"
+  },
+  {
+    "_id": "grade12_medium_math_009",
+    "content": "If f(x) = 9x + 10, what is f(11)?",
     "type": "multiple_choice",
     "options": [
       "109",
       "110",
       "108",
-      "71"
+      "111"
     ],
     "correctAnswer": "109",
-    "subject": "Mathematical Reasoning",
+    "subject": "Mathematics",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 12."
+    "explanation": "Solving step by step gives us 109"
   },
   {
-    "_id": "grade_specific_math_12_medium_15",
-    "content": "Grade 12 Math: What is 103 + 55?",
+    "_id": "grade12_medium_math_010",
+    "content": "Solve for x: 11x + 12 = 29",
     "type": "multiple_choice",
     "options": [
-      "158",
-      "159",
-      "157",
-      "160"
+      "1",
+      "2",
+      "0",
+      "3"
     ],
-    "correctAnswer": "158",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "1",
+    "subject": "Mathematics",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 12."
+    "explanation": "Solving step by step gives us 1"
   },
   {
-    "_id": "grade_specific_math_12_medium_16",
-    "content": "Grade 12 Math: What is 43 - 38?",
+    "_id": "grade12_medium_math_011",
+    "content": "What is 60% of 160?",
     "type": "multiple_choice",
     "options": [
-      "5",
-      "6",
-      "4",
-      "7"
+      "96",
+      "97",
+      "95",
+      "98"
     ],
-    "correctAnswer": "5",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "96",
+    "subject": "Mathematics",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 12."
+    "explanation": "Solving step by step gives us 96"
   },
   {
-    "_id": "grade_specific_math_12_medium_17",
-    "content": "Grade 12 Math: What is 11 × 10?",
+    "_id": "grade12_medium_math_012",
+    "content": "If f(x) = 12x + 13, what is f(14)?",
     "type": "multiple_choice",
     "options": [
-      "110",
-      "121",
-      "99",
-      "120"
+      "181",
+      "182",
+      "180",
+      "183"
     ],
-    "correctAnswer": "110",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "181",
+    "subject": "Mathematics",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 12."
+    "explanation": "Solving step by step gives us 181"
   },
   {
-    "_id": "grade_specific_math_12_medium_18",
-    "content": "Grade 12 Math: Sarah has 142 pencils. She gets 18 more. How many does she have now?",
+    "_id": "grade12_medium_math_013",
+    "content": "Solve for x: 14x + 15 = 35",
     "type": "multiple_choice",
     "options": [
-      "160",
-      "161",
-      "159",
-      "124"
+      "1",
+      "2",
+      "0",
+      "3"
     ],
-    "correctAnswer": "160",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "1",
+    "subject": "Mathematics",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 12."
+    "explanation": "Solving step by step gives us 1"
   },
   {
-    "_id": "grade_specific_math_12_medium_19",
-    "content": "Grade 12 Math: What is 49 ÷ 7?",
+    "_id": "grade12_medium_math_014",
+    "content": "What is 75% of 190?",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "8",
-      "6",
-      "9"
+      "142.5",
+      "143.5",
+      "141.5",
+      "144.5"
     ],
-    "correctAnswer": "7",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "142.5",
+    "subject": "Mathematics",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 12."
+    "explanation": "Solving step by step gives us 142.5"
   },
   {
-    "_id": "grade_specific_math_12_medium_20",
-    "content": "Grade 12 Math: What is 70 ÷ 7?",
+    "_id": "grade12_medium_math_015",
+    "content": "If f(x) = 15x + 16, what is f(17)?",
     "type": "multiple_choice",
     "options": [
-      "10",
-      "11",
-      "9",
-      "12"
+      "271",
+      "272",
+      "270",
+      "273"
     ],
-    "correctAnswer": "10",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "271",
+    "subject": "Mathematics",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 12."
+    "explanation": "Solving step by step gives us 271"
   },
   {
-    "_id": "grade_specific_math_12_medium_21",
-    "content": "Grade 12 Math: What is 127 - 64?",
+    "_id": "grade12_medium_math_016",
+    "content": "Solve for x: 17x + 18 = 41",
     "type": "multiple_choice",
     "options": [
-      "63",
-      "64",
-      "62",
-      "65"
+      "1",
+      "2",
+      "0",
+      "3"
     ],
-    "correctAnswer": "63",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "1",
+    "subject": "Mathematics",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 12."
+    "explanation": "Solving step by step gives us 1"
   },
   {
-    "_id": "grade_specific_math_12_medium_22",
-    "content": "Grade 12 Math: What is 73 - 67?",
+    "_id": "grade12_medium_math_017",
+    "content": "What is 90% of 220?",
     "type": "multiple_choice",
     "options": [
-      "6",
-      "7",
-      "5",
-      "8"
+      "198",
+      "199",
+      "197",
+      "200"
     ],
-    "correctAnswer": "6",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "198",
+    "subject": "Mathematics",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 12."
+    "explanation": "Solving step by step gives us 198"
   },
   {
-    "_id": "grade_specific_math_12_medium_23",
-    "content": "Grade 12 Math: What is 83 + 109?",
+    "_id": "grade12_medium_math_018",
+    "content": "If f(x) = 18x + 19, what is f(20)?",
     "type": "multiple_choice",
     "options": [
-      "192",
-      "193",
-      "191",
-      "194"
+      "379",
+      "380",
+      "378",
+      "381"
     ],
-    "correctAnswer": "192",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "379",
+    "subject": "Mathematics",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 12."
+    "explanation": "Solving step by step gives us 379"
   },
   {
-    "_id": "grade_specific_math_12_medium_24",
-    "content": "Grade 12 Math: What is 58 + 79?",
+    "_id": "grade12_medium_math_019",
+    "content": "Solve for x: 20x + 21 = 47",
     "type": "multiple_choice",
     "options": [
-      "137",
-      "138",
-      "136",
-      "139"
+      "1",
+      "2",
+      "0",
+      "3"
     ],
-    "correctAnswer": "137",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "1",
+    "subject": "Mathematics",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 12."
+    "explanation": "Solving step by step gives us 1"
+  },
+  {
+    "_id": "grade12_medium_math_020",
+    "content": "What is 105% of 250?",
+    "type": "multiple_choice",
+    "options": [
+      "262.5",
+      "263.5",
+      "261.5",
+      "264.5"
+    ],
+    "correctAnswer": "262.5",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "medium",
+    "explanation": "Solving step by step gives us 262.5"
   }
 ]

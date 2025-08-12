@@ -1,199 +1,7 @@
 [
   {
-    "_id": "grade_specific_math_7_medium_0",
-    "content": "Grade 7 Math: What is 43 + 77?",
-    "type": "multiple_choice",
-    "options": [
-      "120",
-      "121",
-      "119",
-      "122"
-    ],
-    "correctAnswer": "120",
-    "subject": "Mathematical Reasoning",
-    "grade": 7,
-    "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 7."
-  },
-  {
-    "_id": "grade_specific_math_7_medium_1",
-    "content": "Grade 7 Math: What is 8 × 4?",
-    "type": "multiple_choice",
-    "options": [
-      "32",
-      "40",
-      "24",
-      "36"
-    ],
-    "correctAnswer": "32",
-    "subject": "Mathematical Reasoning",
-    "grade": 7,
-    "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 7."
-  },
-  {
-    "_id": "grade_specific_math_7_medium_2",
-    "content": "Grade 7 Math: What is 5 × 6?",
-    "type": "multiple_choice",
-    "options": [
-      "30",
-      "35",
-      "25",
-      "36"
-    ],
-    "correctAnswer": "30",
-    "subject": "Mathematical Reasoning",
-    "grade": 7,
-    "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 7."
-  },
-  {
-    "_id": "grade_specific_math_7_medium_3",
-    "content": "Grade 7 Math: What is 64 + 54?",
-    "type": "multiple_choice",
-    "options": [
-      "118",
-      "119",
-      "117",
-      "120"
-    ],
-    "correctAnswer": "118",
-    "subject": "Mathematical Reasoning",
-    "grade": 7,
-    "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 7."
-  },
-  {
-    "_id": "grade_specific_math_7_medium_4",
-    "content": "Grade 7 Math: What is 12 ÷ 2?",
-    "type": "multiple_choice",
-    "options": [
-      "6",
-      "7",
-      "5",
-      "8"
-    ],
-    "correctAnswer": "6",
-    "subject": "Mathematical Reasoning",
-    "grade": 7,
-    "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 7."
-  },
-  {
-    "_id": "grade_specific_math_7_medium_5",
-    "content": "Grade 7 Math: What is 47 + 65?",
-    "type": "multiple_choice",
-    "options": [
-      "112",
-      "113",
-      "111",
-      "114"
-    ],
-    "correctAnswer": "112",
-    "subject": "Mathematical Reasoning",
-    "grade": 7,
-    "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 7."
-  },
-  {
-    "_id": "grade_specific_math_7_medium_6",
-    "content": "Grade 7 Math: What is 24 ÷ 8?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "2",
-      "5"
-    ],
-    "correctAnswer": "3",
-    "subject": "Mathematical Reasoning",
-    "grade": 7,
-    "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 7."
-  },
-  {
-    "_id": "grade_specific_math_7_medium_7",
-    "content": "Grade 7 Math: What is 88 ÷ 11?",
-    "type": "multiple_choice",
-    "options": [
-      "8",
-      "9",
-      "7",
-      "10"
-    ],
-    "correctAnswer": "8",
-    "subject": "Mathematical Reasoning",
-    "grade": 7,
-    "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 7."
-  },
-  {
-    "_id": "grade_specific_math_7_medium_8",
-    "content": "Grade 7 Math: What is 55 ÷ 11?",
-    "type": "multiple_choice",
-    "options": [
-      "5",
-      "6",
-      "4",
-      "7"
-    ],
-    "correctAnswer": "5",
-    "subject": "Mathematical Reasoning",
-    "grade": 7,
-    "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 7."
-  },
-  {
-    "_id": "grade_specific_math_7_medium_9",
-    "content": "Grade 7 Math: What is 66 + 58?",
-    "type": "multiple_choice",
-    "options": [
-      "124",
-      "125",
-      "123",
-      "126"
-    ],
-    "correctAnswer": "124",
-    "subject": "Mathematical Reasoning",
-    "grade": 7,
-    "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 7."
-  },
-  {
-    "_id": "grade_specific_math_7_medium_10",
-    "content": "Grade 7 Math: What is 9 ÷ 3?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "2",
-      "5"
-    ],
-    "correctAnswer": "3",
-    "subject": "Mathematical Reasoning",
-    "grade": 7,
-    "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 7."
-  },
-  {
-    "_id": "grade_specific_math_7_medium_11",
-    "content": "Grade 7 Math: Sarah has 70 marbles. She gets 3 more. How many does she have now?",
-    "type": "multiple_choice",
-    "options": [
-      "73",
-      "74",
-      "72",
-      "67"
-    ],
-    "correctAnswer": "73",
-    "subject": "Mathematical Reasoning",
-    "grade": 7,
-    "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 7."
-  },
-  {
-    "_id": "grade_specific_math_7_medium_12",
-    "content": "Grade 7 Math: What is 35 - 34?",
+    "_id": "grade7_medium_math_000",
+    "content": "Solve for x: 5x + 14 = 19",
     "type": "multiple_choice",
     "options": [
       "1",
@@ -202,14 +10,30 @@
       "3"
     ],
     "correctAnswer": "1",
-    "subject": "Mathematical Reasoning",
+    "subject": "Mathematics",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 7."
+    "explanation": "Subtracting 14 from both sides: 5x = 5, so x = 1"
   },
   {
-    "_id": "grade_specific_math_7_medium_13",
-    "content": "Grade 7 Math: What is 10 ÷ 10?",
+    "_id": "grade7_medium_math_001",
+    "content": "Solve for x: 2x + 14 = 20",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "2",
+      "5"
+    ],
+    "correctAnswer": "3",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "medium",
+    "explanation": "Subtracting 14 from both sides: 2x = 6, so x = 3"
+  },
+  {
+    "_id": "grade7_medium_math_002",
+    "content": "Solve for x: 7x + 8 = 15",
     "type": "multiple_choice",
     "options": [
       "1",
@@ -218,14 +42,14 @@
       "3"
     ],
     "correctAnswer": "1",
-    "subject": "Mathematical Reasoning",
+    "subject": "Mathematics",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 7."
+    "explanation": "Subtracting 8 from both sides: 7x = 7, so x = 1"
   },
   {
-    "_id": "grade_specific_math_7_medium_14",
-    "content": "Grade 7 Math: What is 30 - 21?",
+    "_id": "grade7_medium_math_003",
+    "content": "Solve for x: 11x + 9 = 108",
     "type": "multiple_choice",
     "options": [
       "9",
@@ -234,78 +58,62 @@
       "11"
     ],
     "correctAnswer": "9",
-    "subject": "Mathematical Reasoning",
+    "subject": "Mathematics",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 7."
+    "explanation": "Subtracting 9 from both sides: 11x = 99, so x = 9"
   },
   {
-    "_id": "grade_specific_math_7_medium_15",
-    "content": "Grade 7 Math: Sarah has 38 pencils. She gets 11 more. How many does she have now?",
+    "_id": "grade7_medium_math_004",
+    "content": "Solve for x: 7x + 20 = 41",
     "type": "multiple_choice",
     "options": [
-      "49",
-      "50",
-      "48",
-      "27"
-    ],
-    "correctAnswer": "49",
-    "subject": "Mathematical Reasoning",
-    "grade": 7,
-    "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 7."
-  },
-  {
-    "_id": "grade_specific_math_7_medium_16",
-    "content": "Grade 7 Math: What is 78 - 67?",
-    "type": "multiple_choice",
-    "options": [
-      "11",
-      "12",
-      "10",
-      "13"
-    ],
-    "correctAnswer": "11",
-    "subject": "Mathematical Reasoning",
-    "grade": 7,
-    "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 7."
-  },
-  {
-    "_id": "grade_specific_math_7_medium_17",
-    "content": "Grade 7 Math: What is 48 ÷ 6?",
-    "type": "multiple_choice",
-    "options": [
-      "8",
-      "9",
-      "7",
-      "10"
-    ],
-    "correctAnswer": "8",
-    "subject": "Mathematical Reasoning",
-    "grade": 7,
-    "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 7."
-  },
-  {
-    "_id": "grade_specific_math_7_medium_18",
-    "content": "Grade 7 Math: What is 45 ÷ 9?",
-    "type": "multiple_choice",
-    "options": [
-      "5",
-      "6",
+      "3",
       "4",
-      "7"
+      "2",
+      "5"
     ],
-    "correctAnswer": "5",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "3",
+    "subject": "Mathematics",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 7."
+    "explanation": "Subtracting 20 from both sides: 7x = 21, so x = 3"
   },
   {
-    "_id": "grade_specific_math_7_medium_19",
-    "content": "Grade 7 Math: What is 12 ÷ 6?",
+    "_id": "grade7_medium_math_005",
+    "content": "Solve for x: 8x + 5 = 77",
+    "type": "multiple_choice",
+    "options": [
+      "9",
+      "10",
+      "8",
+      "11"
+    ],
+    "correctAnswer": "9",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "medium",
+    "explanation": "Subtracting 5 from both sides: 8x = 72, so x = 9"
+  },
+  {
+    "_id": "grade7_medium_math_006",
+    "content": "Solve for x: 8x + 11 = 43",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "5",
+      "3",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "medium",
+    "explanation": "Subtracting 11 from both sides: 8x = 32, so x = 4"
+  },
+  {
+    "_id": "grade7_medium_math_007",
+    "content": "Solve for x: 7x + 17 = 31",
     "type": "multiple_choice",
     "options": [
       "2",
@@ -314,89 +122,201 @@
       "4"
     ],
     "correctAnswer": "2",
-    "subject": "Mathematical Reasoning",
+    "subject": "Mathematics",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 7."
+    "explanation": "Subtracting 17 from both sides: 7x = 14, so x = 2"
   },
   {
-    "_id": "grade_specific_math_7_medium_20",
-    "content": "Grade 7 Math: What is 49 - 22?",
+    "_id": "grade7_medium_math_008",
+    "content": "Solve for x: 8x + 21 = 69",
     "type": "multiple_choice",
     "options": [
-      "27",
-      "28",
-      "26",
-      "29"
+      "6",
+      "7",
+      "5",
+      "8"
     ],
-    "correctAnswer": "27",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "6",
+    "subject": "Mathematics",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 7."
+    "explanation": "Subtracting 21 from both sides: 8x = 48, so x = 6"
   },
   {
-    "_id": "grade_specific_math_7_medium_21",
-    "content": "Grade 7 Math: What is 71 + 21?",
+    "_id": "grade7_medium_math_009",
+    "content": "Solve for x: 8x + 16 = 24",
     "type": "multiple_choice",
     "options": [
-      "92",
-      "93",
-      "91",
-      "94"
+      "1",
+      "2",
+      "0",
+      "3"
     ],
-    "correctAnswer": "92",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "1",
+    "subject": "Mathematics",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 7."
+    "explanation": "Subtracting 16 from both sides: 8x = 8, so x = 1"
   },
   {
-    "_id": "grade_specific_math_7_medium_22",
-    "content": "Grade 7 Math: What is 8 × 2?",
+    "_id": "grade7_medium_math_010",
+    "content": "Solve for x: 4x + 14 = 50",
     "type": "multiple_choice",
     "options": [
-      "16",
-      "24",
+      "9",
+      "10",
       "8",
-      "18"
+      "11"
     ],
-    "correctAnswer": "16",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "9",
+    "subject": "Mathematics",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 7."
+    "explanation": "Subtracting 14 from both sides: 4x = 36, so x = 9"
   },
   {
-    "_id": "grade_specific_math_7_medium_23",
-    "content": "Grade 7 Math: Sarah has 32 pencils. She gets 7 more. How many does she have now?",
+    "_id": "grade7_medium_math_011",
+    "content": "Solve for x: 6x + 16 = 34",
     "type": "multiple_choice",
     "options": [
-      "39",
-      "40",
-      "38",
-      "25"
+      "3",
+      "4",
+      "2",
+      "5"
     ],
-    "correctAnswer": "39",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "3",
+    "subject": "Mathematics",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 7."
+    "explanation": "Subtracting 16 from both sides: 6x = 18, so x = 3"
   },
   {
-    "_id": "grade_specific_math_7_medium_24",
-    "content": "Grade 7 Math: What is 35 - 19?",
+    "_id": "grade7_medium_math_012",
+    "content": "Solve for x: 8x + 17 = 33",
     "type": "multiple_choice",
     "options": [
-      "16",
-      "17",
-      "15",
-      "18"
+      "2",
+      "3",
+      "1",
+      "4"
     ],
-    "correctAnswer": "16",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "2",
+    "subject": "Mathematics",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 7."
+    "explanation": "Subtracting 17 from both sides: 8x = 16, so x = 2"
+  },
+  {
+    "_id": "grade7_medium_math_013",
+    "content": "Solve for x: 7x + 24 = 80",
+    "type": "multiple_choice",
+    "options": [
+      "8",
+      "9",
+      "7",
+      "10"
+    ],
+    "correctAnswer": "8",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "medium",
+    "explanation": "Subtracting 24 from both sides: 7x = 56, so x = 8"
+  },
+  {
+    "_id": "grade7_medium_math_014",
+    "content": "Solve for x: 9x + 15 = 69",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "5",
+      "8"
+    ],
+    "correctAnswer": "6",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "medium",
+    "explanation": "Subtracting 15 from both sides: 9x = 54, so x = 6"
+  },
+  {
+    "_id": "grade7_medium_math_015",
+    "content": "Solve for x: 9x + 9 = 36",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "2",
+      "5"
+    ],
+    "correctAnswer": "3",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "medium",
+    "explanation": "Subtracting 9 from both sides: 9x = 27, so x = 3"
+  },
+  {
+    "_id": "grade7_medium_math_016",
+    "content": "Solve for x: 7x + 9 = 37",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "5",
+      "3",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "medium",
+    "explanation": "Subtracting 9 from both sides: 7x = 28, so x = 4"
+  },
+  {
+    "_id": "grade7_medium_math_017",
+    "content": "Solve for x: 3x + 8 = 35",
+    "type": "multiple_choice",
+    "options": [
+      "9",
+      "10",
+      "8",
+      "11"
+    ],
+    "correctAnswer": "9",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "medium",
+    "explanation": "Subtracting 8 from both sides: 3x = 27, so x = 9"
+  },
+  {
+    "_id": "grade7_medium_math_018",
+    "content": "Solve for x: 10x + 14 = 34",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "3",
+      "1",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "medium",
+    "explanation": "Subtracting 14 from both sides: 10x = 20, so x = 2"
+  },
+  {
+    "_id": "grade7_medium_math_019",
+    "content": "Solve for x: 10x + 15 = 85",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "8",
+      "6",
+      "9"
+    ],
+    "correctAnswer": "7",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "medium",
+    "explanation": "Subtracting 15 from both sides: 10x = 70, so x = 7"
   }
 ]

@@ -96,6 +96,24 @@ export class StaticQuestionLoader {
       }
       
       const questions: Question[] = await response.json();
+      
+      // Apply subject filtering to ensure only correct subjects are returned
+      const keyParts = key.split('_');
+      const expectedSubject = keyParts[keyParts.length - 1];
+      const subjectMapping: { [key: string]: string } = {
+        'math': 'Mathematics',
+        'english': 'English',
+        'reading': 'Reading',
+        'thinking-skills': 'Thinking Skills'
+      };
+      
+      const expectedQuestionSubject = subjectMapping[expectedSubject];
+      if (expectedQuestionSubject) {
+        const filtered = questions.filter(q => q.subject === expectedQuestionSubject);
+        console.log(`🔍 Subject filter: ${filtered.length}/${questions.length} questions match "${expectedQuestionSubject}"`);
+        return filtered;
+      }
+      
       return questions;
       
     } catch (error) {

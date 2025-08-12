@@ -19,7 +19,7 @@ import {
   LinearProgress
 } from '@mui/material';
 import { Add, History, NewReleases, PlayArrow, AutoMode, FilterList, CheckCircle } from '@mui/icons-material';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import { Question, DifficultyLevel } from '../../types';
 import { getUserGrade } from '../../services/userContextService';
 import StaticQuestionLoader from '../../utils/staticQuestionLoader';
@@ -27,8 +27,20 @@ import { useAuth } from '../../contexts/AuthContext';
 
 // Enhanced Practice component with bulletproof filtering and deduplication
 const EnhancedPractice: React.FC = () => {
+  const [searchParams] = useSearchParams();
+  
+  // Get initial filter values from URL parameters (for back navigation)
+  const getInitialSubject = () => {
+    const urlSubject = searchParams.get('subject');
+    if (urlSubject) {
+      console.log(`🔄 Restoring subject filter from URL: ${urlSubject}`);
+      return urlSubject;
+    }
+    return '';
+  };
+  
   const [questions, setQuestions] = useState<Question[]>([]);
-  const [selectedSubject, setSelectedSubject] = useState('');
+  const [selectedSubject, setSelectedSubject] = useState(getInitialSubject());
   const navigate = useNavigate();
   const { refreshUserStats } = useAuth();
 
@@ -41,10 +53,22 @@ const EnhancedPractice: React.FC = () => {
   }, [refreshUserStats]);
   
   const [selectedGrade, setSelectedGrade] = useState(() => {
+    const urlGrade = searchParams.get('grade');
+    if (urlGrade) {
+      console.log(`🔄 Restoring grade filter from URL: ${urlGrade}`);
+      return urlGrade;
+    }
     const grade = getUserGrade();
     return typeof grade === 'string' ? grade : String(grade);
   });
-  const [selectedDifficulty, setSelectedDifficulty] = useState('');
+  const [selectedDifficulty, setSelectedDifficulty] = useState(() => {
+    const urlDifficulty = searchParams.get('difficulty');
+    if (urlDifficulty) {
+      console.log(`🔄 Restoring difficulty filter from URL: ${urlDifficulty}`);
+      return urlDifficulty;
+    }
+    return '';
+  });
   const [loading, setLoading] = useState(false);
   const [questionPool, setQuestionPool] = useState<any>(null);
   const [availableSubjects] = useState<string[]>([

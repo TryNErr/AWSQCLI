@@ -1,777 +1,322 @@
 [
   {
-    "_id": "eng_9_easy_1",
-    "content": "Which word is a noun?",
+    "_id": "grade9_easy_english_001",
+    "content": "What is the main idea of a paragraph called?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "9",
     "options": [
-      "run",
-      "happy",
-      "dog",
-      "quickly"
+      "Topic sentence",
+      "Conclusion",
+      "Supporting detail",
+      "Transition"
     ],
-    "correctAnswer": "dog",
-    "explanation": "A noun is a person, place, or thing. 'Dog' is a thing, making it a noun.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.664Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.664Z",
-    "generationMethod": "english-template-system"
+    "correctAnswer": "Topic sentence",
+    "subject": "English",
+    "grade": 9,
+    "difficulty": "easy",
+    "explanation": "The topic sentence states the main idea of a paragraph."
   },
   {
-    "_id": "eng_9_easy_2",
-    "content": "What is the past tense of 'walk'?",
+    "_id": "grade9_easy_english_002",
+    "content": "What type of sentence is: 'Open your books.'?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "9",
     "options": [
-      "walking",
-      "walked",
-      "walks",
-      "walker"
+      "Imperative",
+      "Declarative",
+      "Interrogative",
+      "Exclamatory"
     ],
-    "correctAnswer": "walked",
-    "explanation": "The past tense of 'walk' is 'walked'. We add -ed to regular verbs to form the past tense.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.664Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.664Z",
-    "generationMethod": "english-template-system"
+    "correctAnswer": "Imperative",
+    "subject": "English",
+    "grade": 9,
+    "difficulty": "easy",
+    "explanation": "An imperative sentence gives a command or makes a request."
   },
   {
-    "_id": "eng_9_easy_3",
-    "content": "Which sentence uses correct punctuation?",
+    "_id": "grade9_easy_english_003",
+    "content": "What is the past tense of 'go'?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "9",
     "options": [
-      "Hello how are you",
-      "Hello, how are you?",
-      "Hello how are you.",
-      "Hello? how are you"
+      "went",
+      "goed",
+      "going",
+      "gos"
     ],
-    "correctAnswer": "Hello, how are you?",
-    "explanation": "Questions should end with a question mark, and we use a comma after greetings.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.664Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.664Z",
-    "generationMethod": "english-template-system"
+    "correctAnswer": "went",
+    "subject": "English",
+    "grade": 9,
+    "difficulty": "easy",
+    "explanation": "The past tense of 'go' is 'went'."
   },
   {
-    "_id": "eng_9_easy_4",
-    "content": "Which word is a noun?",
+    "_id": "grade9_easy_english_004",
+    "content": "Which word is a proper noun?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "9",
     "options": [
-      "run",
-      "happy",
-      "dog",
-      "quickly"
+      "Amazon",
+      "ocean",
+      "running",
+      "beautiful"
     ],
-    "correctAnswer": "dog",
-    "explanation": "A noun is a person, place, or thing. 'Dog' is a thing, making it a noun.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.664Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.664Z",
-    "generationMethod": "english-template-system"
+    "correctAnswer": "Amazon",
+    "subject": "English",
+    "grade": 9,
+    "difficulty": "easy",
+    "explanation": "Amazon is a proper noun because it's the specific name of a place, person, or thing."
   },
   {
-    "_id": "eng_9_easy_5",
-    "content": "What is the past tense of 'walk'?",
+    "_id": "grade9_easy_english_005",
+    "content": "Which word is a synonym for 'big'?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "9",
     "options": [
-      "walking",
-      "walked",
-      "walks",
-      "walker"
+      "large",
+      "opposite",
+      "different",
+      "unrelated"
     ],
-    "correctAnswer": "walked",
-    "explanation": "The past tense of 'walk' is 'walked'. We add -ed to regular verbs to form the past tense.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.664Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.664Z",
-    "generationMethod": "english-template-system"
+    "correctAnswer": "large",
+    "subject": "English",
+    "grade": 9,
+    "difficulty": "easy",
+    "explanation": "large means the same as big, making it a synonym."
   },
   {
-    "_id": "eng_9_easy_6",
-    "content": "Which sentence uses correct punctuation?",
+    "_id": "grade9_easy_english_006",
+    "content": "What is the past tense of 'eat'?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "9",
     "options": [
-      "Hello how are you",
-      "Hello, how are you?",
-      "Hello how are you.",
-      "Hello? how are you"
+      "ate",
+      "eated",
+      "eating",
+      "eats"
     ],
-    "correctAnswer": "Hello, how are you?",
-    "explanation": "Questions should end with a question mark, and we use a comma after greetings.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.664Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.664Z",
-    "generationMethod": "english-template-system"
+    "correctAnswer": "ate",
+    "subject": "English",
+    "grade": 9,
+    "difficulty": "easy",
+    "explanation": "The past tense of 'eat' is 'ate'."
   },
   {
-    "_id": "eng_9_easy_7",
-    "content": "Which word is a noun?",
+    "_id": "grade9_easy_english_007",
+    "content": "What is the past tense of 'run'?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "9",
     "options": [
-      "run",
-      "happy",
-      "dog",
-      "quickly"
+      "ran",
+      "runed",
+      "runing",
+      "runs"
     ],
-    "correctAnswer": "dog",
-    "explanation": "A noun is a person, place, or thing. 'Dog' is a thing, making it a noun.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.664Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.664Z",
-    "generationMethod": "english-template-system"
+    "correctAnswer": "ran",
+    "subject": "English",
+    "grade": 9,
+    "difficulty": "easy",
+    "explanation": "The past tense of 'run' is 'ran'."
   },
   {
-    "_id": "eng_9_easy_8",
-    "content": "What is the past tense of 'walk'?",
+    "_id": "grade9_easy_english_008",
+    "content": "Which word is a synonym for 'fast'?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "9",
     "options": [
-      "walking",
-      "walked",
-      "walks",
-      "walker"
+      "quick",
+      "opposite",
+      "different",
+      "unrelated"
     ],
-    "correctAnswer": "walked",
-    "explanation": "The past tense of 'walk' is 'walked'. We add -ed to regular verbs to form the past tense.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.664Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.664Z",
-    "generationMethod": "english-template-system"
+    "correctAnswer": "quick",
+    "subject": "English",
+    "grade": 9,
+    "difficulty": "easy",
+    "explanation": "quick means the same as fast, making it a synonym."
   },
   {
-    "_id": "eng_9_easy_9",
-    "content": "Which sentence uses correct punctuation?",
+    "_id": "grade9_easy_english_009",
+    "content": "What is the past tense of 'sing'?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "9",
     "options": [
-      "Hello how are you",
-      "Hello, how are you?",
-      "Hello how are you.",
-      "Hello? how are you"
+      "sang",
+      "singed",
+      "singing",
+      "sings"
     ],
-    "correctAnswer": "Hello, how are you?",
-    "explanation": "Questions should end with a question mark, and we use a comma after greetings.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.664Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.664Z",
-    "generationMethod": "english-template-system"
+    "correctAnswer": "sang",
+    "subject": "English",
+    "grade": 9,
+    "difficulty": "easy",
+    "explanation": "The past tense of 'sing' is 'sang'."
   },
   {
-    "_id": "eng_9_easy_10",
-    "content": "Which word is a noun?",
+    "_id": "grade9_easy_english_010",
+    "content": "What type of sentence is: 'Turn off the lights.'?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "9",
     "options": [
-      "run",
-      "happy",
-      "dog",
-      "quickly"
+      "Imperative",
+      "Declarative",
+      "Interrogative",
+      "Exclamatory"
     ],
-    "correctAnswer": "dog",
-    "explanation": "A noun is a person, place, or thing. 'Dog' is a thing, making it a noun.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.664Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.664Z",
-    "generationMethod": "english-template-system"
+    "correctAnswer": "Imperative",
+    "subject": "English",
+    "grade": 9,
+    "difficulty": "easy",
+    "explanation": "An imperative sentence gives a command or makes a request."
   },
   {
-    "_id": "eng_9_easy_11",
-    "content": "What is the past tense of 'walk'?",
+    "_id": "grade9_easy_english_011",
+    "content": "Which word is a synonym for 'angry'?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "9",
     "options": [
-      "walking",
-      "walked",
-      "walks",
-      "walker"
+      "furious",
+      "opposite",
+      "different",
+      "unrelated"
     ],
-    "correctAnswer": "walked",
-    "explanation": "The past tense of 'walk' is 'walked'. We add -ed to regular verbs to form the past tense.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.664Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.664Z",
-    "generationMethod": "english-template-system"
+    "correctAnswer": "furious",
+    "subject": "English",
+    "grade": 9,
+    "difficulty": "easy",
+    "explanation": "furious means the same as angry, making it a synonym."
   },
   {
-    "_id": "eng_9_easy_12",
-    "content": "Which sentence uses correct punctuation?",
+    "_id": "grade9_easy_english_012",
+    "content": "Which word is a synonym for 'happy'?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "9",
     "options": [
-      "Hello how are you",
-      "Hello, how are you?",
-      "Hello how are you.",
-      "Hello? how are you"
+      "joyful",
+      "opposite",
+      "different",
+      "unrelated"
     ],
-    "correctAnswer": "Hello, how are you?",
-    "explanation": "Questions should end with a question mark, and we use a comma after greetings.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.664Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.664Z",
-    "generationMethod": "english-template-system"
+    "correctAnswer": "joyful",
+    "subject": "English",
+    "grade": 9,
+    "difficulty": "easy",
+    "explanation": "joyful means the same as happy, making it a synonym."
   },
   {
-    "_id": "eng_9_easy_13",
-    "content": "Which word is a noun?",
+    "_id": "grade9_easy_english_013",
+    "content": "What type of sentence is: 'Please sit down.'?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "9",
     "options": [
-      "run",
-      "happy",
-      "dog",
-      "quickly"
+      "Imperative",
+      "Declarative",
+      "Interrogative",
+      "Exclamatory"
     ],
-    "correctAnswer": "dog",
-    "explanation": "A noun is a person, place, or thing. 'Dog' is a thing, making it a noun.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.664Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.664Z",
-    "generationMethod": "english-template-system"
+    "correctAnswer": "Imperative",
+    "subject": "English",
+    "grade": 9,
+    "difficulty": "easy",
+    "explanation": "An imperative sentence gives a command or makes a request."
   },
   {
-    "_id": "eng_9_easy_14",
-    "content": "What is the past tense of 'walk'?",
+    "_id": "grade9_easy_english_014",
+    "content": "Which word is a synonym for 'smart'?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "9",
     "options": [
-      "walking",
-      "walked",
-      "walks",
-      "walker"
+      "intelligent",
+      "opposite",
+      "different",
+      "unrelated"
     ],
-    "correctAnswer": "walked",
-    "explanation": "The past tense of 'walk' is 'walked'. We add -ed to regular verbs to form the past tense.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.664Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.664Z",
-    "generationMethod": "english-template-system"
+    "correctAnswer": "intelligent",
+    "subject": "English",
+    "grade": 9,
+    "difficulty": "easy",
+    "explanation": "intelligent means the same as smart, making it a synonym."
   },
   {
-    "_id": "eng_9_easy_15",
-    "content": "Which sentence uses correct punctuation?",
+    "_id": "grade9_easy_english_015",
+    "content": "What type of sentence is: 'Close the door.'?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "9",
     "options": [
-      "Hello how are you",
-      "Hello, how are you?",
-      "Hello how are you.",
-      "Hello? how are you"
+      "Imperative",
+      "Declarative",
+      "Interrogative",
+      "Exclamatory"
     ],
-    "correctAnswer": "Hello, how are you?",
-    "explanation": "Questions should end with a question mark, and we use a comma after greetings.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.664Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.664Z",
-    "generationMethod": "english-template-system"
+    "correctAnswer": "Imperative",
+    "subject": "English",
+    "grade": 9,
+    "difficulty": "easy",
+    "explanation": "An imperative sentence gives a command or makes a request."
   },
   {
-    "_id": "eng_9_easy_16",
-    "content": "Which word is a noun?",
+    "_id": "grade9_easy_english_016",
+    "content": "What is the past tense of 'see'?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "9",
     "options": [
-      "run",
-      "happy",
-      "dog",
-      "quickly"
+      "saw",
+      "seeed",
+      "seeing",
+      "sees"
     ],
-    "correctAnswer": "dog",
-    "explanation": "A noun is a person, place, or thing. 'Dog' is a thing, making it a noun.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.664Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.664Z",
-    "generationMethod": "english-template-system"
+    "correctAnswer": "saw",
+    "subject": "English",
+    "grade": 9,
+    "difficulty": "easy",
+    "explanation": "The past tense of 'see' is 'saw'."
   },
   {
-    "_id": "eng_9_easy_17",
-    "content": "What is the past tense of 'walk'?",
+    "_id": "grade9_easy_english_017",
+    "content": "Which word is a synonym for 'beautiful'?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "9",
     "options": [
-      "walking",
-      "walked",
-      "walks",
-      "walker"
+      "lovely",
+      "opposite",
+      "different",
+      "unrelated"
     ],
-    "correctAnswer": "walked",
-    "explanation": "The past tense of 'walk' is 'walked'. We add -ed to regular verbs to form the past tense.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.664Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.664Z",
-    "generationMethod": "english-template-system"
+    "correctAnswer": "lovely",
+    "subject": "English",
+    "grade": 9,
+    "difficulty": "easy",
+    "explanation": "lovely means the same as beautiful, making it a synonym."
   },
   {
-    "_id": "eng_9_easy_18",
-    "content": "Which sentence uses correct punctuation?",
+    "_id": "grade9_easy_english_018",
+    "content": "What is the past tense of 'write'?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "9",
     "options": [
-      "Hello how are you",
-      "Hello, how are you?",
-      "Hello how are you.",
-      "Hello? how are you"
+      "wrote",
+      "writeed",
+      "writeing",
+      "writes"
     ],
-    "correctAnswer": "Hello, how are you?",
-    "explanation": "Questions should end with a question mark, and we use a comma after greetings.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.664Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.664Z",
-    "generationMethod": "english-template-system"
+    "correctAnswer": "wrote",
+    "subject": "English",
+    "grade": 9,
+    "difficulty": "easy",
+    "explanation": "The past tense of 'write' is 'wrote'."
   },
   {
-    "_id": "eng_9_easy_19",
-    "content": "Which word is a noun?",
+    "_id": "grade9_easy_english_019",
+    "content": "Which word is a proper noun? [y3oxu]",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "9",
     "options": [
-      "run",
-      "happy",
-      "dog",
-      "quickly"
+      "Pacific Ocean",
+      "author",
+      "running",
+      "beautiful"
     ],
-    "correctAnswer": "dog",
-    "explanation": "A noun is a person, place, or thing. 'Dog' is a thing, making it a noun.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.664Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.664Z",
-    "generationMethod": "english-template-system"
+    "correctAnswer": "Pacific Ocean",
+    "subject": "English",
+    "grade": 9,
+    "difficulty": "easy",
+    "explanation": "Pacific Ocean is a proper noun because it's the specific name of a place, person, or thing."
   },
   {
-    "_id": "eng_9_easy_20",
-    "content": "What is the past tense of 'walk'?",
+    "_id": "grade9_easy_english_020",
+    "content": "What is the main idea of a paragraph called? [h4aij]",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "9",
     "options": [
-      "walking",
-      "walked",
-      "walks",
-      "walker"
+      "Topic sentence",
+      "Conclusion",
+      "Supporting detail",
+      "Transition"
     ],
-    "correctAnswer": "walked",
-    "explanation": "The past tense of 'walk' is 'walked'. We add -ed to regular verbs to form the past tense.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.664Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.664Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_9_easy_21",
-    "content": "Which sentence uses correct punctuation?",
-    "type": "multiple_choice",
+    "correctAnswer": "Topic sentence",
     "subject": "English",
-    "topic": "Grammar and Language",
+    "grade": 9,
     "difficulty": "easy",
-    "grade": "9",
-    "options": [
-      "Hello how are you",
-      "Hello, how are you?",
-      "Hello how are you.",
-      "Hello? how are you"
-    ],
-    "correctAnswer": "Hello, how are you?",
-    "explanation": "Questions should end with a question mark, and we use a comma after greetings.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.664Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.664Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_9_easy_22",
-    "content": "Which word is a noun?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "9",
-    "options": [
-      "run",
-      "happy",
-      "dog",
-      "quickly"
-    ],
-    "correctAnswer": "dog",
-    "explanation": "A noun is a person, place, or thing. 'Dog' is a thing, making it a noun.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.664Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.664Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_9_easy_23",
-    "content": "What is the past tense of 'walk'?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "9",
-    "options": [
-      "walking",
-      "walked",
-      "walks",
-      "walker"
-    ],
-    "correctAnswer": "walked",
-    "explanation": "The past tense of 'walk' is 'walked'. We add -ed to regular verbs to form the past tense.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.664Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.664Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_9_easy_24",
-    "content": "Which sentence uses correct punctuation?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "9",
-    "options": [
-      "Hello how are you",
-      "Hello, how are you?",
-      "Hello how are you.",
-      "Hello? how are you"
-    ],
-    "correctAnswer": "Hello, how are you?",
-    "explanation": "Questions should end with a question mark, and we use a comma after greetings.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.664Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.664Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_9_easy_25",
-    "content": "Which word is a noun?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "easy",
-    "grade": "9",
-    "options": [
-      "run",
-      "happy",
-      "dog",
-      "quickly"
-    ],
-    "correctAnswer": "dog",
-    "explanation": "A noun is a person, place, or thing. 'Dog' is a thing, making it a noun.",
-    "hints": [
-      "Think about basic English grammar rules."
-    ],
-    "timeLimit": 30,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.664Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.664Z",
-    "generationMethod": "english-template-system"
+    "explanation": "The topic sentence states the main idea of a paragraph."
   }
 ]

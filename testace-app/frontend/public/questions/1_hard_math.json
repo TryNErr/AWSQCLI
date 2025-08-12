@@ -1,402 +1,442 @@
 [
   {
-    "_id": "grade_specific_math_1_hard_0",
-    "content": "Grade 1 Math: Sarah has 13 stickers. She gets 2 more. How many does she have now?",
+    "_id": "grade1_hard_math_001",
+    "content": "Solve the quadratic equation: x² - 5x + 6 = 0",
     "type": "multiple_choice",
     "options": [
-      "15",
-      "16",
-      "14",
-      "11"
+      "x = 2, 3",
+      "x = 1, 6",
+      "x = 2, 4",
+      "x = 1, 5"
     ],
-    "correctAnswer": "15",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "x = 2, 3",
+    "subject": "Mathematics",
     "grade": 1,
     "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 1."
+    "explanation": "Factoring: (x-2)(x-3) = 0, so x = 2 or x = 3",
+    "topic": "Advanced Mathematics",
+    "tags": [
+      "math",
+      "mathematics",
+      "hard"
+    ]
   },
   {
-    "_id": "grade_specific_math_1_hard_1",
-    "content": "Grade 1 Math: Sarah has 11 stickers. She gets 1 more. How many does she have now?",
+    "_id": "grade1_hard_math_002",
+    "content": "What is the derivative of f(x) = 3x² + 2x - 1?",
     "type": "multiple_choice",
     "options": [
-      "12",
-      "13",
-      "11",
-      "10"
+      "6x + 2",
+      "6x - 2",
+      "3x + 2",
+      "6x + 1"
     ],
-    "correctAnswer": "12",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "6x + 2",
+    "subject": "Mathematics",
     "grade": 1,
     "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 1."
+    "explanation": "Using power rule: d/dx(3x²) = 6x, d/dx(2x) = 2, d/dx(-1) = 0",
+    "topic": "Advanced Mathematics",
+    "tags": [
+      "math",
+      "mathematics",
+      "hard"
+    ]
   },
   {
-    "_id": "grade_specific_math_1_hard_2",
-    "content": "Grade 1 Math: Sarah has 13 marbles. She gets 2 more. How many does she have now?",
+    "_id": "grade1_hard_math_003",
+    "content": "Solve the quadratic equation: x² - 5x + 6 = 0",
     "type": "multiple_choice",
     "options": [
-      "15",
-      "16",
-      "14",
-      "11"
+      "x = 2, 3",
+      "x = 1, 6",
+      "x = 2, 4",
+      "x = 1, 5"
     ],
-    "correctAnswer": "15",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "x = 2, 3",
+    "subject": "Mathematics",
     "grade": 1,
     "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 1."
+    "explanation": "Factoring: (x-2)(x-3) = 0, so x = 2 or x = 3",
+    "topic": "Advanced Mathematics",
+    "tags": [
+      "math",
+      "mathematics",
+      "hard"
+    ]
   },
   {
-    "_id": "grade_specific_math_1_hard_3",
-    "content": "Grade 1 Math: What is 6 + 12?",
+    "_id": "grade1_hard_math_004",
+    "content": "What is the derivative of f(x) = 3x² + 2x - 1?",
     "type": "multiple_choice",
     "options": [
-      "18",
-      "19",
-      "17",
-      "20"
+      "6x + 2",
+      "6x - 2",
+      "3x + 2",
+      "6x + 1"
     ],
-    "correctAnswer": "18",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "6x + 2",
+    "subject": "Mathematics",
     "grade": 1,
     "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 1."
+    "explanation": "Using power rule: d/dx(3x²) = 6x, d/dx(2x) = 2, d/dx(-1) = 0",
+    "topic": "Advanced Mathematics",
+    "tags": [
+      "math",
+      "mathematics",
+      "hard"
+    ]
   },
   {
-    "_id": "grade_specific_math_1_hard_4",
-    "content": "Grade 1 Math: Sarah has 5 books. She gets 5 more. How many does she have now?",
+    "_id": "grade1_hard_math_005",
+    "content": "Solve the quadratic equation: x² - 5x + 6 = 0",
     "type": "multiple_choice",
     "options": [
-      "10",
-      "11",
-      "9",
-      "0"
+      "x = 2, 3",
+      "x = 1, 6",
+      "x = 2, 4",
+      "x = 1, 5"
     ],
-    "correctAnswer": "10",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "x = 2, 3",
+    "subject": "Mathematics",
     "grade": 1,
     "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 1."
+    "explanation": "Factoring: (x-2)(x-3) = 0, so x = 2 or x = 3",
+    "topic": "Advanced Mathematics",
+    "tags": [
+      "math",
+      "mathematics",
+      "hard"
+    ]
   },
   {
-    "_id": "grade_specific_math_1_hard_5",
-    "content": "Grade 1 Math: Sarah has 8 marbles. She gets 1 more. How many does she have now?",
+    "_id": "grade1_hard_math_006",
+    "content": "What is the derivative of f(x) = 3x² + 2x - 1?",
     "type": "multiple_choice",
     "options": [
-      "9",
-      "10",
-      "8",
-      "7"
+      "6x + 2",
+      "6x - 2",
+      "3x + 2",
+      "6x + 1"
     ],
-    "correctAnswer": "9",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "6x + 2",
+    "subject": "Mathematics",
     "grade": 1,
     "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 1."
+    "explanation": "Using power rule: d/dx(3x²) = 6x, d/dx(2x) = 2, d/dx(-1) = 0",
+    "topic": "Advanced Mathematics",
+    "tags": [
+      "math",
+      "mathematics",
+      "hard"
+    ]
   },
   {
-    "_id": "grade_specific_math_1_hard_6",
-    "content": "Grade 1 Math: Sarah has 10 books. She gets 3 more. How many does she have now?",
+    "_id": "grade1_hard_math_007",
+    "content": "Solve the quadratic equation: x² - 5x + 6 = 0",
     "type": "multiple_choice",
     "options": [
-      "13",
-      "14",
-      "12",
-      "7"
+      "x = 2, 3",
+      "x = 1, 6",
+      "x = 2, 4",
+      "x = 1, 5"
     ],
-    "correctAnswer": "13",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "x = 2, 3",
+    "subject": "Mathematics",
     "grade": 1,
     "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 1."
+    "explanation": "Factoring: (x-2)(x-3) = 0, so x = 2 or x = 3",
+    "topic": "Advanced Mathematics",
+    "tags": [
+      "math",
+      "mathematics",
+      "hard"
+    ]
   },
   {
-    "_id": "grade_specific_math_1_hard_7",
-    "content": "Grade 1 Math: What is 19 - 9?",
+    "_id": "grade1_hard_math_008",
+    "content": "What is the derivative of f(x) = 3x² + 2x - 1?",
     "type": "multiple_choice",
     "options": [
-      "10",
-      "11",
-      "9",
-      "12"
+      "6x + 2",
+      "6x - 2",
+      "3x + 2",
+      "6x + 1"
     ],
-    "correctAnswer": "10",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "6x + 2",
+    "subject": "Mathematics",
     "grade": 1,
     "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 1."
+    "explanation": "Using power rule: d/dx(3x²) = 6x, d/dx(2x) = 2, d/dx(-1) = 0",
+    "topic": "Advanced Mathematics",
+    "tags": [
+      "math",
+      "mathematics",
+      "hard"
+    ]
   },
   {
-    "_id": "grade_specific_math_1_hard_8",
-    "content": "Grade 1 Math: Sarah has 12 books. She gets 4 more. How many does she have now?",
+    "_id": "grade1_hard_math_009",
+    "content": "Solve the quadratic equation: x² - 5x + 6 = 0",
     "type": "multiple_choice",
     "options": [
-      "16",
-      "17",
-      "15",
-      "8"
+      "x = 2, 3",
+      "x = 1, 6",
+      "x = 2, 4",
+      "x = 1, 5"
     ],
-    "correctAnswer": "16",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "x = 2, 3",
+    "subject": "Mathematics",
     "grade": 1,
     "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 1."
+    "explanation": "Factoring: (x-2)(x-3) = 0, so x = 2 or x = 3",
+    "topic": "Advanced Mathematics",
+    "tags": [
+      "math",
+      "mathematics",
+      "hard"
+    ]
   },
   {
-    "_id": "grade_specific_math_1_hard_9",
-    "content": "Grade 1 Math: Sarah has 5 apples. She gets 4 more. How many does she have now?",
+    "_id": "grade1_hard_math_010",
+    "content": "What is the derivative of f(x) = 3x² + 2x - 1?",
     "type": "multiple_choice",
     "options": [
-      "9",
-      "10",
-      "8",
-      "1"
+      "6x + 2",
+      "6x - 2",
+      "3x + 2",
+      "6x + 1"
     ],
-    "correctAnswer": "9",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "6x + 2",
+    "subject": "Mathematics",
     "grade": 1,
     "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 1."
+    "explanation": "Using power rule: d/dx(3x²) = 6x, d/dx(2x) = 2, d/dx(-1) = 0",
+    "topic": "Advanced Mathematics",
+    "tags": [
+      "math",
+      "mathematics",
+      "hard"
+    ]
   },
   {
-    "_id": "grade_specific_math_1_hard_10",
-    "content": "Grade 1 Math: What is 5 + 18?",
+    "_id": "grade1_hard_math_011",
+    "content": "Solve the quadratic equation: x² - 5x + 6 = 0",
     "type": "multiple_choice",
     "options": [
-      "23",
-      "24",
-      "22",
-      "25"
+      "x = 2, 3",
+      "x = 1, 6",
+      "x = 2, 4",
+      "x = 1, 5"
     ],
-    "correctAnswer": "23",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "x = 2, 3",
+    "subject": "Mathematics",
     "grade": 1,
     "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 1."
+    "explanation": "Factoring: (x-2)(x-3) = 0, so x = 2 or x = 3",
+    "topic": "Advanced Mathematics",
+    "tags": [
+      "math",
+      "mathematics",
+      "hard"
+    ]
   },
   {
-    "_id": "grade_specific_math_1_hard_11",
-    "content": "Grade 1 Math: Sarah has 10 marbles. She gets 3 more. How many does she have now?",
+    "_id": "grade1_hard_math_012",
+    "content": "What is the derivative of f(x) = 3x² + 2x - 1?",
     "type": "multiple_choice",
     "options": [
-      "13",
-      "14",
-      "12",
-      "7"
+      "6x + 2",
+      "6x - 2",
+      "3x + 2",
+      "6x + 1"
     ],
-    "correctAnswer": "13",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "6x + 2",
+    "subject": "Mathematics",
     "grade": 1,
     "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 1."
+    "explanation": "Using power rule: d/dx(3x²) = 6x, d/dx(2x) = 2, d/dx(-1) = 0",
+    "topic": "Advanced Mathematics",
+    "tags": [
+      "math",
+      "mathematics",
+      "hard"
+    ]
   },
   {
-    "_id": "grade_specific_math_1_hard_12",
-    "content": "Grade 1 Math: Sarah has 6 marbles. She gets 5 more. How many does she have now?",
+    "_id": "grade1_hard_math_013",
+    "content": "Solve the quadratic equation: x² - 5x + 6 = 0",
     "type": "multiple_choice",
     "options": [
-      "11",
-      "12",
-      "10",
-      "1"
+      "x = 2, 3",
+      "x = 1, 6",
+      "x = 2, 4",
+      "x = 1, 5"
     ],
-    "correctAnswer": "11",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "x = 2, 3",
+    "subject": "Mathematics",
     "grade": 1,
     "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 1."
+    "explanation": "Factoring: (x-2)(x-3) = 0, so x = 2 or x = 3",
+    "topic": "Advanced Mathematics",
+    "tags": [
+      "math",
+      "mathematics",
+      "hard"
+    ]
   },
   {
-    "_id": "grade_specific_math_1_hard_13",
-    "content": "Grade 1 Math: Sarah has 10 books. She gets 2 more. How many does she have now?",
+    "_id": "grade1_hard_math_014",
+    "content": "What is the derivative of f(x) = 3x² + 2x - 1?",
     "type": "multiple_choice",
     "options": [
-      "12",
-      "13",
-      "11",
-      "8"
+      "6x + 2",
+      "6x - 2",
+      "3x + 2",
+      "6x + 1"
     ],
-    "correctAnswer": "12",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "6x + 2",
+    "subject": "Mathematics",
     "grade": 1,
     "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 1."
+    "explanation": "Using power rule: d/dx(3x²) = 6x, d/dx(2x) = 2, d/dx(-1) = 0",
+    "topic": "Advanced Mathematics",
+    "tags": [
+      "math",
+      "mathematics",
+      "hard"
+    ]
   },
   {
-    "_id": "grade_specific_math_1_hard_14",
-    "content": "Grade 1 Math: Sarah has 19 apples. She gets 5 more. How many does she have now?",
+    "_id": "grade1_hard_math_015",
+    "content": "Solve the quadratic equation: x² - 5x + 6 = 0",
     "type": "multiple_choice",
     "options": [
-      "24",
-      "25",
-      "23",
-      "14"
+      "x = 2, 3",
+      "x = 1, 6",
+      "x = 2, 4",
+      "x = 1, 5"
     ],
-    "correctAnswer": "24",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "x = 2, 3",
+    "subject": "Mathematics",
     "grade": 1,
     "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 1."
+    "explanation": "Factoring: (x-2)(x-3) = 0, so x = 2 or x = 3",
+    "topic": "Advanced Mathematics",
+    "tags": [
+      "math",
+      "mathematics",
+      "hard"
+    ]
   },
   {
-    "_id": "grade_specific_math_1_hard_15",
-    "content": "Grade 1 Math: Sarah has 6 marbles. She gets 3 more. How many does she have now?",
+    "_id": "grade1_hard_math_016",
+    "content": "What is the derivative of f(x) = 3x² + 2x - 1?",
     "type": "multiple_choice",
     "options": [
-      "9",
-      "10",
-      "8",
-      "3"
+      "6x + 2",
+      "6x - 2",
+      "3x + 2",
+      "6x + 1"
     ],
-    "correctAnswer": "9",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "6x + 2",
+    "subject": "Mathematics",
     "grade": 1,
     "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 1."
+    "explanation": "Using power rule: d/dx(3x²) = 6x, d/dx(2x) = 2, d/dx(-1) = 0",
+    "topic": "Advanced Mathematics",
+    "tags": [
+      "math",
+      "mathematics",
+      "hard"
+    ]
   },
   {
-    "_id": "grade_specific_math_1_hard_16",
-    "content": "Grade 1 Math: What is 15 - 8?",
+    "_id": "grade1_hard_math_017",
+    "content": "Solve the quadratic equation: x² - 5x + 6 = 0",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "8",
-      "6",
-      "9"
+      "x = 2, 3",
+      "x = 1, 6",
+      "x = 2, 4",
+      "x = 1, 5"
     ],
-    "correctAnswer": "7",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "x = 2, 3",
+    "subject": "Mathematics",
     "grade": 1,
     "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 1."
+    "explanation": "Factoring: (x-2)(x-3) = 0, so x = 2 or x = 3",
+    "topic": "Advanced Mathematics",
+    "tags": [
+      "math",
+      "mathematics",
+      "hard"
+    ]
   },
   {
-    "_id": "grade_specific_math_1_hard_17",
-    "content": "Grade 1 Math: Sarah has 6 apples. She gets 1 more. How many does she have now?",
+    "_id": "grade1_hard_math_018",
+    "content": "What is the derivative of f(x) = 3x² + 2x - 1?",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "8",
-      "6",
-      "5"
+      "6x + 2",
+      "6x - 2",
+      "3x + 2",
+      "6x + 1"
     ],
-    "correctAnswer": "7",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "6x + 2",
+    "subject": "Mathematics",
     "grade": 1,
     "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 1."
+    "explanation": "Using power rule: d/dx(3x²) = 6x, d/dx(2x) = 2, d/dx(-1) = 0",
+    "topic": "Advanced Mathematics",
+    "tags": [
+      "math",
+      "mathematics",
+      "hard"
+    ]
   },
   {
-    "_id": "grade_specific_math_1_hard_18",
-    "content": "Grade 1 Math: Sarah has 7 apples. She gets 4 more. How many does she have now?",
+    "_id": "grade1_hard_math_019",
+    "content": "Solve the quadratic equation: x² - 5x + 6 = 0",
     "type": "multiple_choice",
     "options": [
-      "11",
-      "12",
-      "10",
-      "3"
+      "x = 2, 3",
+      "x = 1, 6",
+      "x = 2, 4",
+      "x = 1, 5"
     ],
-    "correctAnswer": "11",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "x = 2, 3",
+    "subject": "Mathematics",
     "grade": 1,
     "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 1."
+    "explanation": "Factoring: (x-2)(x-3) = 0, so x = 2 or x = 3",
+    "topic": "Advanced Mathematics",
+    "tags": [
+      "math",
+      "mathematics",
+      "hard"
+    ]
   },
   {
-    "_id": "grade_specific_math_1_hard_19",
-    "content": "Grade 1 Math: What is 24 - 7?",
+    "_id": "grade1_hard_math_020",
+    "content": "What is the derivative of f(x) = 3x² + 2x - 1?",
     "type": "multiple_choice",
     "options": [
-      "17",
-      "18",
-      "16",
-      "19"
+      "6x + 2",
+      "6x - 2",
+      "3x + 2",
+      "6x + 1"
     ],
-    "correctAnswer": "17",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "6x + 2",
+    "subject": "Mathematics",
     "grade": 1,
     "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 1."
-  },
-  {
-    "_id": "grade_specific_math_1_hard_20",
-    "content": "Grade 1 Math: Sarah has 11 books. She gets 1 more. How many does she have now?",
-    "type": "multiple_choice",
-    "options": [
-      "12",
-      "13",
-      "11",
-      "10"
-    ],
-    "correctAnswer": "12",
-    "subject": "Mathematical Reasoning",
-    "grade": 1,
-    "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 1."
-  },
-  {
-    "_id": "grade_specific_math_1_hard_21",
-    "content": "Grade 1 Math: Sarah has 15 pencils. She gets 5 more. How many does she have now?",
-    "type": "multiple_choice",
-    "options": [
-      "20",
-      "21",
-      "19",
-      "10"
-    ],
-    "correctAnswer": "20",
-    "subject": "Mathematical Reasoning",
-    "grade": 1,
-    "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 1."
-  },
-  {
-    "_id": "grade_specific_math_1_hard_22",
-    "content": "Grade 1 Math: Sarah has 5 books. She gets 3 more. How many does she have now?",
-    "type": "multiple_choice",
-    "options": [
-      "8",
-      "9",
-      "7",
-      "2"
-    ],
-    "correctAnswer": "8",
-    "subject": "Mathematical Reasoning",
-    "grade": 1,
-    "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 1."
-  },
-  {
-    "_id": "grade_specific_math_1_hard_23",
-    "content": "Grade 1 Math: What is 28 - 6?",
-    "type": "multiple_choice",
-    "options": [
-      "22",
-      "23",
-      "21",
-      "24"
-    ],
-    "correctAnswer": "22",
-    "subject": "Mathematical Reasoning",
-    "grade": 1,
-    "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 1."
-  },
-  {
-    "_id": "grade_specific_math_1_hard_24",
-    "content": "Grade 1 Math: What is 19 - 5?",
-    "type": "multiple_choice",
-    "options": [
-      "14",
-      "15",
-      "13",
-      "16"
-    ],
-    "correctAnswer": "14",
-    "subject": "Mathematical Reasoning",
-    "grade": 1,
-    "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 1."
+    "explanation": "Using power rule: d/dx(3x²) = 6x, d/dx(2x) = 2, d/dx(-1) = 0",
+    "topic": "Advanced Mathematics",
+    "tags": [
+      "math",
+      "mathematics",
+      "hard"
+    ]
   }
 ]

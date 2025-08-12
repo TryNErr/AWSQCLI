@@ -1,87 +1,295 @@
 [
   {
-    "_id": "grade_specific_math_2_easy_0",
-    "content": "Grade 2 Math: Sarah has 5 books. She gets 1 more. How many does she have now?",
+    "_id": "grade2_easy_math_000",
+    "content": "What is 5 + 19?",
     "type": "multiple_choice",
     "options": [
-      "6",
-      "7",
-      "5",
-      "4"
+      "24",
+      "25",
+      "23",
+      "26"
     ],
-    "correctAnswer": "6",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "24",
+    "subject": "Mathematics",
     "grade": 2,
     "difficulty": "easy",
-    "explanation": "This is a easy level math question specifically designed for grade 2."
+    "explanation": "5 + 19 = 24"
   },
   {
-    "_id": "grade_specific_math_2_easy_1",
-    "content": "Grade 2 Math: Sarah has 2 marbles. She gets 1 more. How many does she have now?",
+    "_id": "grade2_easy_math_001",
+    "content": "What is 4 + 6?",
     "type": "multiple_choice",
     "options": [
-      "3",
-      "4",
-      "2",
-      "1"
-    ],
-    "correctAnswer": "3",
-    "subject": "Mathematical Reasoning",
-    "grade": 2,
-    "difficulty": "easy",
-    "explanation": "This is a easy level math question specifically designed for grade 2."
-  },
-  {
-    "_id": "grade_specific_math_2_easy_2",
-    "content": "Grade 2 Math: Sarah has 1 stickers. She gets 1 more. How many does she have now?",
-    "type": "multiple_choice",
-    "options": [
-      "2",
-      "3",
-      "1",
-      "0"
-    ],
-    "correctAnswer": "2",
-    "subject": "Mathematical Reasoning",
-    "grade": 2,
-    "difficulty": "easy",
-    "explanation": "This is a easy level math question specifically designed for grade 2."
-  },
-  {
-    "_id": "grade_specific_math_2_easy_3",
-    "content": "Grade 2 Math: What is 13 - 8?",
-    "type": "multiple_choice",
-    "options": [
-      "5",
-      "6",
-      "4",
-      "7"
-    ],
-    "correctAnswer": "5",
-    "subject": "Mathematical Reasoning",
-    "grade": 2,
-    "difficulty": "easy",
-    "explanation": "This is a easy level math question specifically designed for grade 2."
-  },
-  {
-    "_id": "grade_specific_math_2_easy_4",
-    "content": "Grade 2 Math: Sarah has 10 pencils. She gets 1 more. How many does she have now?",
-    "type": "multiple_choice",
-    "options": [
-      "11",
-      "12",
       "10",
-      "9"
+      "11",
+      "9",
+      "12"
     ],
-    "correctAnswer": "11",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "10",
+    "subject": "Mathematics",
     "grade": 2,
     "difficulty": "easy",
-    "explanation": "This is a easy level math question specifically designed for grade 2."
+    "explanation": "4 + 6 = 10"
   },
   {
-    "_id": "grade_specific_math_2_easy_5",
-    "content": "Grade 2 Math: What is 15 - 8?",
+    "_id": "grade2_easy_math_002",
+    "content": "What is 3 + 15?",
+    "type": "multiple_choice",
+    "options": [
+      "18",
+      "19",
+      "17",
+      "20"
+    ],
+    "correctAnswer": "18",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "easy",
+    "explanation": "3 + 15 = 18"
+  },
+  {
+    "_id": "grade2_easy_math_003",
+    "content": "What is 18 + 18?",
+    "type": "multiple_choice",
+    "options": [
+      "36",
+      "37",
+      "35",
+      "38"
+    ],
+    "correctAnswer": "36",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "easy",
+    "explanation": "18 + 18 = 36"
+  },
+  {
+    "_id": "grade2_easy_math_004",
+    "content": "What is 20 + 20?",
+    "type": "multiple_choice",
+    "options": [
+      "40",
+      "41",
+      "39",
+      "42"
+    ],
+    "correctAnswer": "40",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "easy",
+    "explanation": "20 + 20 = 40"
+  },
+  {
+    "_id": "grade2_easy_math_005",
+    "content": "What is 7 + 17?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "25",
+      "23",
+      "26"
+    ],
+    "correctAnswer": "24",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "easy",
+    "explanation": "7 + 17 = 24"
+  },
+  {
+    "_id": "grade2_easy_math_006",
+    "content": "What is 2 + 18?",
+    "type": "multiple_choice",
+    "options": [
+      "20",
+      "21",
+      "19",
+      "22"
+    ],
+    "correctAnswer": "20",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "easy",
+    "explanation": "2 + 18 = 20"
+  },
+  {
+    "_id": "grade2_easy_math_007",
+    "content": "What is 9 + 15?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "25",
+      "23",
+      "26"
+    ],
+    "correctAnswer": "24",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "easy",
+    "explanation": "9 + 15 = 24"
+  },
+  {
+    "_id": "grade2_easy_math_008",
+    "content": "What is 20 + 8?",
+    "type": "multiple_choice",
+    "options": [
+      "28",
+      "29",
+      "27",
+      "30"
+    ],
+    "correctAnswer": "28",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "easy",
+    "explanation": "20 + 8 = 28"
+  },
+  {
+    "_id": "grade2_easy_math_009",
+    "content": "What is 6 + 17?",
+    "type": "multiple_choice",
+    "options": [
+      "23",
+      "24",
+      "22",
+      "25"
+    ],
+    "correctAnswer": "23",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "easy",
+    "explanation": "6 + 17 = 23"
+  },
+  {
+    "_id": "grade2_easy_math_010",
+    "content": "What is 15 + 4?",
+    "type": "multiple_choice",
+    "options": [
+      "19",
+      "20",
+      "18",
+      "21"
+    ],
+    "correctAnswer": "19",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "easy",
+    "explanation": "15 + 4 = 19"
+  },
+  {
+    "_id": "grade2_easy_math_011",
+    "content": "What is 19 + 9?",
+    "type": "multiple_choice",
+    "options": [
+      "28",
+      "29",
+      "27",
+      "30"
+    ],
+    "correctAnswer": "28",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "easy",
+    "explanation": "19 + 9 = 28"
+  },
+  {
+    "_id": "grade2_easy_math_012",
+    "content": "What is 12 + 11?",
+    "type": "multiple_choice",
+    "options": [
+      "23",
+      "24",
+      "22",
+      "25"
+    ],
+    "correctAnswer": "23",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "easy",
+    "explanation": "12 + 11 = 23"
+  },
+  {
+    "_id": "grade2_easy_math_013",
+    "content": "What is 9 + 5?",
+    "type": "multiple_choice",
+    "options": [
+      "14",
+      "15",
+      "13",
+      "16"
+    ],
+    "correctAnswer": "14",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "easy",
+    "explanation": "9 + 5 = 14"
+  },
+  {
+    "_id": "grade2_easy_math_014",
+    "content": "What is 10 + 10?",
+    "type": "multiple_choice",
+    "options": [
+      "20",
+      "21",
+      "19",
+      "22"
+    ],
+    "correctAnswer": "20",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "easy",
+    "explanation": "10 + 10 = 20"
+  },
+  {
+    "_id": "grade2_easy_math_015",
+    "content": "What is 18 + 10?",
+    "type": "multiple_choice",
+    "options": [
+      "28",
+      "29",
+      "27",
+      "30"
+    ],
+    "correctAnswer": "28",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "easy",
+    "explanation": "18 + 10 = 28"
+  },
+  {
+    "_id": "grade2_easy_math_016",
+    "content": "What is 7 + 7?",
+    "type": "multiple_choice",
+    "options": [
+      "14",
+      "15",
+      "13",
+      "16"
+    ],
+    "correctAnswer": "14",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "easy",
+    "explanation": "7 + 7 = 14"
+  },
+  {
+    "_id": "grade2_easy_math_017",
+    "content": "What is 7 + 3?",
+    "type": "multiple_choice",
+    "options": [
+      "10",
+      "11",
+      "9",
+      "12"
+    ],
+    "correctAnswer": "10",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "easy",
+    "explanation": "7 + 3 = 10"
+  },
+  {
+    "_id": "grade2_easy_math_018",
+    "content": "What is 4 + 3?",
     "type": "multiple_choice",
     "options": [
       "7",
@@ -90,313 +298,25 @@
       "9"
     ],
     "correctAnswer": "7",
-    "subject": "Mathematical Reasoning",
+    "subject": "Mathematics",
     "grade": 2,
     "difficulty": "easy",
-    "explanation": "This is a easy level math question specifically designed for grade 2."
+    "explanation": "4 + 3 = 7"
   },
   {
-    "_id": "grade_specific_math_2_easy_6",
-    "content": "Grade 2 Math: Sarah has 7 pencils. She gets 1 more. How many does she have now?",
+    "_id": "grade2_easy_math_019",
+    "content": "What is 20 + 9?",
     "type": "multiple_choice",
     "options": [
-      "8",
-      "9",
-      "7",
-      "6"
+      "29",
+      "30",
+      "28",
+      "31"
     ],
-    "correctAnswer": "8",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "29",
+    "subject": "Mathematics",
     "grade": 2,
     "difficulty": "easy",
-    "explanation": "This is a easy level math question specifically designed for grade 2."
-  },
-  {
-    "_id": "grade_specific_math_2_easy_7",
-    "content": "Grade 2 Math: Sarah has 10 marbles. She gets 1 more. How many does she have now?",
-    "type": "multiple_choice",
-    "options": [
-      "11",
-      "12",
-      "10",
-      "9"
-    ],
-    "correctAnswer": "11",
-    "subject": "Mathematical Reasoning",
-    "grade": 2,
-    "difficulty": "easy",
-    "explanation": "This is a easy level math question specifically designed for grade 2."
-  },
-  {
-    "_id": "grade_specific_math_2_easy_8",
-    "content": "Grade 2 Math: Sarah has 8 books. She gets 1 more. How many does she have now?",
-    "type": "multiple_choice",
-    "options": [
-      "9",
-      "10",
-      "8",
-      "7"
-    ],
-    "correctAnswer": "9",
-    "subject": "Mathematical Reasoning",
-    "grade": 2,
-    "difficulty": "easy",
-    "explanation": "This is a easy level math question specifically designed for grade 2."
-  },
-  {
-    "_id": "grade_specific_math_2_easy_9",
-    "content": "Grade 2 Math: What is 2 + 1?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "2",
-      "5"
-    ],
-    "correctAnswer": "3",
-    "subject": "Mathematical Reasoning",
-    "grade": 2,
-    "difficulty": "easy",
-    "explanation": "This is a easy level math question specifically designed for grade 2."
-  },
-  {
-    "_id": "grade_specific_math_2_easy_10",
-    "content": "Grade 2 Math: What is 18 - 6?",
-    "type": "multiple_choice",
-    "options": [
-      "12",
-      "13",
-      "11",
-      "14"
-    ],
-    "correctAnswer": "12",
-    "subject": "Mathematical Reasoning",
-    "grade": 2,
-    "difficulty": "easy",
-    "explanation": "This is a easy level math question specifically designed for grade 2."
-  },
-  {
-    "_id": "grade_specific_math_2_easy_11",
-    "content": "Grade 2 Math: What is 6 + 10?",
-    "type": "multiple_choice",
-    "options": [
-      "16",
-      "17",
-      "15",
-      "18"
-    ],
-    "correctAnswer": "16",
-    "subject": "Mathematical Reasoning",
-    "grade": 2,
-    "difficulty": "easy",
-    "explanation": "This is a easy level math question specifically designed for grade 2."
-  },
-  {
-    "_id": "grade_specific_math_2_easy_12",
-    "content": "Grade 2 Math: Sarah has 8 apples. She gets 1 more. How many does she have now?",
-    "type": "multiple_choice",
-    "options": [
-      "9",
-      "10",
-      "8",
-      "7"
-    ],
-    "correctAnswer": "9",
-    "subject": "Mathematical Reasoning",
-    "grade": 2,
-    "difficulty": "easy",
-    "explanation": "This is a easy level math question specifically designed for grade 2."
-  },
-  {
-    "_id": "grade_specific_math_2_easy_13",
-    "content": "Grade 2 Math: Sarah has 4 marbles. She gets 1 more. How many does she have now?",
-    "type": "multiple_choice",
-    "options": [
-      "5",
-      "6",
-      "4",
-      "3"
-    ],
-    "correctAnswer": "5",
-    "subject": "Mathematical Reasoning",
-    "grade": 2,
-    "difficulty": "easy",
-    "explanation": "This is a easy level math question specifically designed for grade 2."
-  },
-  {
-    "_id": "grade_specific_math_2_easy_14",
-    "content": "Grade 2 Math: What is 4 + 5?",
-    "type": "multiple_choice",
-    "options": [
-      "9",
-      "10",
-      "8",
-      "11"
-    ],
-    "correctAnswer": "9",
-    "subject": "Mathematical Reasoning",
-    "grade": 2,
-    "difficulty": "easy",
-    "explanation": "This is a easy level math question specifically designed for grade 2."
-  },
-  {
-    "_id": "grade_specific_math_2_easy_15",
-    "content": "Grade 2 Math: Sarah has 10 books. She gets 1 more. How many does she have now?",
-    "type": "multiple_choice",
-    "options": [
-      "11",
-      "12",
-      "10",
-      "9"
-    ],
-    "correctAnswer": "11",
-    "subject": "Mathematical Reasoning",
-    "grade": 2,
-    "difficulty": "easy",
-    "explanation": "This is a easy level math question specifically designed for grade 2."
-  },
-  {
-    "_id": "grade_specific_math_2_easy_16",
-    "content": "Grade 2 Math: Sarah has 5 pencils. She gets 1 more. How many does she have now?",
-    "type": "multiple_choice",
-    "options": [
-      "6",
-      "7",
-      "5",
-      "4"
-    ],
-    "correctAnswer": "6",
-    "subject": "Mathematical Reasoning",
-    "grade": 2,
-    "difficulty": "easy",
-    "explanation": "This is a easy level math question specifically designed for grade 2."
-  },
-  {
-    "_id": "grade_specific_math_2_easy_17",
-    "content": "Grade 2 Math: Sarah has 4 stickers. She gets 1 more. How many does she have now?",
-    "type": "multiple_choice",
-    "options": [
-      "5",
-      "6",
-      "4",
-      "3"
-    ],
-    "correctAnswer": "5",
-    "subject": "Mathematical Reasoning",
-    "grade": 2,
-    "difficulty": "easy",
-    "explanation": "This is a easy level math question specifically designed for grade 2."
-  },
-  {
-    "_id": "grade_specific_math_2_easy_18",
-    "content": "Grade 2 Math: Sarah has 3 books. She gets 1 more. How many does she have now?",
-    "type": "multiple_choice",
-    "options": [
-      "4",
-      "5",
-      "3",
-      "2"
-    ],
-    "correctAnswer": "4",
-    "subject": "Mathematical Reasoning",
-    "grade": 2,
-    "difficulty": "easy",
-    "explanation": "This is a easy level math question specifically designed for grade 2."
-  },
-  {
-    "_id": "grade_specific_math_2_easy_19",
-    "content": "Grade 2 Math: Sarah has 3 marbles. She gets 1 more. How many does she have now?",
-    "type": "multiple_choice",
-    "options": [
-      "4",
-      "5",
-      "3",
-      "2"
-    ],
-    "correctAnswer": "4",
-    "subject": "Mathematical Reasoning",
-    "grade": 2,
-    "difficulty": "easy",
-    "explanation": "This is a easy level math question specifically designed for grade 2."
-  },
-  {
-    "_id": "grade_specific_math_2_easy_20",
-    "content": "Grade 2 Math: What is 15 - 14?",
-    "type": "multiple_choice",
-    "options": [
-      "1",
-      "2",
-      "0",
-      "3"
-    ],
-    "correctAnswer": "1",
-    "subject": "Mathematical Reasoning",
-    "grade": 2,
-    "difficulty": "easy",
-    "explanation": "This is a easy level math question specifically designed for grade 2."
-  },
-  {
-    "_id": "grade_specific_math_2_easy_21",
-    "content": "Grade 2 Math: What is 4 + 9?",
-    "type": "multiple_choice",
-    "options": [
-      "13",
-      "14",
-      "12",
-      "15"
-    ],
-    "correctAnswer": "13",
-    "subject": "Mathematical Reasoning",
-    "grade": 2,
-    "difficulty": "easy",
-    "explanation": "This is a easy level math question specifically designed for grade 2."
-  },
-  {
-    "_id": "grade_specific_math_2_easy_22",
-    "content": "Grade 2 Math: Sarah has 5 apples. She gets 1 more. How many does she have now?",
-    "type": "multiple_choice",
-    "options": [
-      "6",
-      "7",
-      "5",
-      "4"
-    ],
-    "correctAnswer": "6",
-    "subject": "Mathematical Reasoning",
-    "grade": 2,
-    "difficulty": "easy",
-    "explanation": "This is a easy level math question specifically designed for grade 2."
-  },
-  {
-    "_id": "grade_specific_math_2_easy_23",
-    "content": "Grade 2 Math: What is 6 + 5?",
-    "type": "multiple_choice",
-    "options": [
-      "11",
-      "12",
-      "10",
-      "13"
-    ],
-    "correctAnswer": "11",
-    "subject": "Mathematical Reasoning",
-    "grade": 2,
-    "difficulty": "easy",
-    "explanation": "This is a easy level math question specifically designed for grade 2."
-  },
-  {
-    "_id": "grade_specific_math_2_easy_24",
-    "content": "Grade 2 Math: Sarah has 2 books. She gets 1 more. How many does she have now?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "2",
-      "1"
-    ],
-    "correctAnswer": "3",
-    "subject": "Mathematical Reasoning",
-    "grade": 2,
-    "difficulty": "easy",
-    "explanation": "This is a easy level math question specifically designed for grade 2."
+    "explanation": "20 + 9 = 29"
   }
 ]

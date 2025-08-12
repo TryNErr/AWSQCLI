@@ -1,343 +1,311 @@
 [
   {
-    "_id": "grade_specific_math_4_medium_0",
-    "content": "Grade 4 Math: What is 4 × 2?",
+    "_id": "grade4_medium_math_000",
+    "content": "What is 1 × 2?",
     "type": "multiple_choice",
     "options": [
-      "8",
-      "12",
-      "4",
-      "10"
-    ],
-    "correctAnswer": "8",
-    "subject": "Mathematical Reasoning",
-    "grade": 4,
-    "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 4."
-  },
-  {
-    "_id": "grade_specific_math_4_medium_1",
-    "content": "Grade 4 Math: What is 40 ÷ 5?",
-    "type": "multiple_choice",
-    "options": [
-      "8",
-      "9",
-      "7",
-      "10"
-    ],
-    "correctAnswer": "8",
-    "subject": "Mathematical Reasoning",
-    "grade": 4,
-    "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 4."
-  },
-  {
-    "_id": "grade_specific_math_4_medium_2",
-    "content": "Grade 4 Math: What is 41 + 33?",
-    "type": "multiple_choice",
-    "options": [
-      "74",
-      "75",
-      "73",
-      "76"
-    ],
-    "correctAnswer": "74",
-    "subject": "Mathematical Reasoning",
-    "grade": 4,
-    "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 4."
-  },
-  {
-    "_id": "grade_specific_math_4_medium_3",
-    "content": "Grade 4 Math: What is 55 ÷ 11?",
-    "type": "multiple_choice",
-    "options": [
-      "5",
-      "6",
-      "4",
-      "7"
-    ],
-    "correctAnswer": "5",
-    "subject": "Mathematical Reasoning",
-    "grade": 4,
-    "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 4."
-  },
-  {
-    "_id": "grade_specific_math_4_medium_4",
-    "content": "Grade 4 Math: What is 3 × 8?",
-    "type": "multiple_choice",
-    "options": [
-      "24",
-      "27",
-      "21",
-      "32"
-    ],
-    "correctAnswer": "24",
-    "subject": "Mathematical Reasoning",
-    "grade": 4,
-    "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 4."
-  },
-  {
-    "_id": "grade_specific_math_4_medium_5",
-    "content": "Grade 4 Math: What is 6 × 12?",
-    "type": "multiple_choice",
-    "options": [
-      "72",
-      "78",
-      "66",
-      "84"
-    ],
-    "correctAnswer": "72",
-    "subject": "Mathematical Reasoning",
-    "grade": 4,
-    "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 4."
-  },
-  {
-    "_id": "grade_specific_math_4_medium_6",
-    "content": "Grade 4 Math: Sarah has 13 apples. She gets 2 more. How many does she have now?",
-    "type": "multiple_choice",
-    "options": [
-      "15",
-      "16",
-      "14",
-      "11"
-    ],
-    "correctAnswer": "15",
-    "subject": "Mathematical Reasoning",
-    "grade": 4,
-    "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 4."
-  },
-  {
-    "_id": "grade_specific_math_4_medium_7",
-    "content": "Grade 4 Math: Sarah has 41 apples. She gets 4 more. How many does she have now?",
-    "type": "multiple_choice",
-    "options": [
-      "45",
-      "46",
-      "44",
-      "37"
-    ],
-    "correctAnswer": "45",
-    "subject": "Mathematical Reasoning",
-    "grade": 4,
-    "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 4."
-  },
-  {
-    "_id": "grade_specific_math_4_medium_8",
-    "content": "Grade 4 Math: What is 30 ÷ 10?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
       "2",
-      "5"
-    ],
-    "correctAnswer": "3",
-    "subject": "Mathematical Reasoning",
-    "grade": 4,
-    "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 4."
-  },
-  {
-    "_id": "grade_specific_math_4_medium_9",
-    "content": "Grade 4 Math: What is 32 ÷ 4?",
-    "type": "multiple_choice",
-    "options": [
-      "8",
-      "9",
-      "7",
-      "10"
-    ],
-    "correctAnswer": "8",
-    "subject": "Mathematical Reasoning",
-    "grade": 4,
-    "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 4."
-  },
-  {
-    "_id": "grade_specific_math_4_medium_10",
-    "content": "Grade 4 Math: What is 27 - 13?",
-    "type": "multiple_choice",
-    "options": [
-      "14",
-      "15",
-      "13",
-      "16"
-    ],
-    "correctAnswer": "14",
-    "subject": "Mathematical Reasoning",
-    "grade": 4,
-    "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 4."
-  },
-  {
-    "_id": "grade_specific_math_4_medium_11",
-    "content": "Grade 4 Math: What is 88 ÷ 11?",
-    "type": "multiple_choice",
-    "options": [
-      "8",
-      "9",
-      "7",
-      "10"
-    ],
-    "correctAnswer": "8",
-    "subject": "Mathematical Reasoning",
-    "grade": 4,
-    "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 4."
-  },
-  {
-    "_id": "grade_specific_math_4_medium_12",
-    "content": "Grade 4 Math: What is 24 - 10?",
-    "type": "multiple_choice",
-    "options": [
-      "14",
-      "15",
-      "13",
-      "16"
-    ],
-    "correctAnswer": "14",
-    "subject": "Mathematical Reasoning",
-    "grade": 4,
-    "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 4."
-  },
-  {
-    "_id": "grade_specific_math_4_medium_13",
-    "content": "Grade 4 Math: What is 20 ÷ 4?",
-    "type": "multiple_choice",
-    "options": [
-      "5",
-      "6",
-      "4",
-      "7"
-    ],
-    "correctAnswer": "5",
-    "subject": "Mathematical Reasoning",
-    "grade": 4,
-    "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 4."
-  },
-  {
-    "_id": "grade_specific_math_4_medium_14",
-    "content": "Grade 4 Math: What is 54 - 50?",
-    "type": "multiple_choice",
-    "options": [
-      "4",
-      "5",
       "3",
-      "6"
+      "1",
+      "4"
     ],
-    "correctAnswer": "4",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "2",
+    "subject": "Mathematics",
     "grade": 4,
     "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 4."
+    "explanation": "1 × 2 = 2"
   },
   {
-    "_id": "grade_specific_math_4_medium_15",
-    "content": "Grade 4 Math: What is 37 + 29?",
+    "_id": "grade4_medium_math_001",
+    "content": "What is 6 × 7?",
     "type": "multiple_choice",
     "options": [
-      "66",
-      "67",
-      "65",
-      "68"
+      "42",
+      "43",
+      "41",
+      "44"
     ],
-    "correctAnswer": "66",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "42",
+    "subject": "Mathematics",
     "grade": 4,
     "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 4."
+    "explanation": "6 × 7 = 42"
   },
   {
-    "_id": "grade_specific_math_4_medium_16",
-    "content": "Grade 4 Math: Sarah has 20 books. She gets 6 more. How many does she have now?",
-    "type": "multiple_choice",
-    "options": [
-      "26",
-      "27",
-      "25",
-      "14"
-    ],
-    "correctAnswer": "26",
-    "subject": "Mathematical Reasoning",
-    "grade": 4,
-    "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 4."
-  },
-  {
-    "_id": "grade_specific_math_4_medium_17",
-    "content": "Grade 4 Math: What is 12 × 2?",
+    "_id": "grade4_medium_math_002",
+    "content": "What is 4 × 6?",
     "type": "multiple_choice",
     "options": [
       "24",
-      "36",
-      "12",
+      "25",
+      "23",
       "26"
     ],
     "correctAnswer": "24",
-    "subject": "Mathematical Reasoning",
+    "subject": "Mathematics",
     "grade": 4,
     "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 4."
+    "explanation": "4 × 6 = 24"
   },
   {
-    "_id": "grade_specific_math_4_medium_18",
-    "content": "Grade 4 Math: What is 40 + 19?",
+    "_id": "grade4_medium_math_003",
+    "content": "What is 6 × 6?",
     "type": "multiple_choice",
     "options": [
-      "59",
-      "60",
-      "58",
-      "61"
+      "36",
+      "37",
+      "35",
+      "38"
     ],
-    "correctAnswer": "59",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "36",
+    "subject": "Mathematics",
     "grade": 4,
     "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 4."
+    "explanation": "6 × 6 = 36"
   },
   {
-    "_id": "grade_specific_math_4_medium_19",
-    "content": "Grade 4 Math: Sarah has 26 stickers. She gets 2 more. How many does she have now?",
+    "_id": "grade4_medium_math_004",
+    "content": "What is 8 × 3?",
     "type": "multiple_choice",
     "options": [
-      "28",
-      "29",
-      "27",
-      "24"
+      "24",
+      "25",
+      "23",
+      "26"
     ],
-    "correctAnswer": "28",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "24",
+    "subject": "Mathematics",
     "grade": 4,
     "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 4."
+    "explanation": "8 × 3 = 24"
   },
   {
-    "_id": "grade_specific_math_4_medium_20",
-    "content": "Grade 4 Math: Sarah has 44 apples. She gets 4 more. How many does she have now?",
+    "_id": "grade4_medium_math_005",
+    "content": "What is 9 × 4?",
+    "type": "multiple_choice",
+    "options": [
+      "36",
+      "37",
+      "35",
+      "38"
+    ],
+    "correctAnswer": "36",
+    "subject": "Mathematics",
+    "grade": 4,
+    "difficulty": "medium",
+    "explanation": "9 × 4 = 36"
+  },
+  {
+    "_id": "grade4_medium_math_006",
+    "content": "What is 8 × 6?",
     "type": "multiple_choice",
     "options": [
       "48",
       "49",
       "47",
-      "40"
+      "50"
     ],
     "correctAnswer": "48",
-    "subject": "Mathematical Reasoning",
+    "subject": "Mathematics",
     "grade": 4,
     "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 4."
+    "explanation": "8 × 6 = 48"
   },
   {
-    "_id": "grade_specific_math_4_medium_21",
-    "content": "Grade 4 Math: What is 30 + 42?",
+    "_id": "grade4_medium_math_007",
+    "content": "What is 8 × 4?",
+    "type": "multiple_choice",
+    "options": [
+      "32",
+      "33",
+      "31",
+      "34"
+    ],
+    "correctAnswer": "32",
+    "subject": "Mathematics",
+    "grade": 4,
+    "difficulty": "medium",
+    "explanation": "8 × 4 = 32"
+  },
+  {
+    "_id": "grade4_medium_math_008",
+    "content": "What is 10 × 4?",
+    "type": "multiple_choice",
+    "options": [
+      "40",
+      "41",
+      "39",
+      "42"
+    ],
+    "correctAnswer": "40",
+    "subject": "Mathematics",
+    "grade": 4,
+    "difficulty": "medium",
+    "explanation": "10 × 4 = 40"
+  },
+  {
+    "_id": "grade4_medium_math_009",
+    "content": "What is 9 × 6?",
+    "type": "multiple_choice",
+    "options": [
+      "54",
+      "55",
+      "53",
+      "56"
+    ],
+    "correctAnswer": "54",
+    "subject": "Mathematics",
+    "grade": 4,
+    "difficulty": "medium",
+    "explanation": "9 × 6 = 54"
+  },
+  {
+    "_id": "grade4_medium_math_010",
+    "content": "What is 7 × 3?",
+    "type": "multiple_choice",
+    "options": [
+      "21",
+      "22",
+      "20",
+      "23"
+    ],
+    "correctAnswer": "21",
+    "subject": "Mathematics",
+    "grade": 4,
+    "difficulty": "medium",
+    "explanation": "7 × 3 = 21"
+  },
+  {
+    "_id": "grade4_medium_math_011",
+    "content": "What is 4 × 5?",
+    "type": "multiple_choice",
+    "options": [
+      "20",
+      "21",
+      "19",
+      "22"
+    ],
+    "correctAnswer": "20",
+    "subject": "Mathematics",
+    "grade": 4,
+    "difficulty": "medium",
+    "explanation": "4 × 5 = 20"
+  },
+  {
+    "_id": "grade4_medium_math_012",
+    "content": "What is 1 × 1?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "0",
+      "3"
+    ],
+    "correctAnswer": "1",
+    "subject": "Mathematics",
+    "grade": 4,
+    "difficulty": "medium",
+    "explanation": "1 × 1 = 1"
+  },
+  {
+    "_id": "grade4_medium_math_013",
+    "content": "What is 5 × 4?",
+    "type": "multiple_choice",
+    "options": [
+      "20",
+      "21",
+      "19",
+      "22"
+    ],
+    "correctAnswer": "20",
+    "subject": "Mathematics",
+    "grade": 4,
+    "difficulty": "medium",
+    "explanation": "5 × 4 = 20"
+  },
+  {
+    "_id": "grade4_medium_math_014",
+    "content": "What is 8 × 1?",
+    "type": "multiple_choice",
+    "options": [
+      "8",
+      "9",
+      "7",
+      "10"
+    ],
+    "correctAnswer": "8",
+    "subject": "Mathematics",
+    "grade": 4,
+    "difficulty": "medium",
+    "explanation": "8 × 1 = 8"
+  },
+  {
+    "_id": "grade4_medium_math_015",
+    "content": "What is 5 × 10?",
+    "type": "multiple_choice",
+    "options": [
+      "50",
+      "51",
+      "49",
+      "52"
+    ],
+    "correctAnswer": "50",
+    "subject": "Mathematics",
+    "grade": 4,
+    "difficulty": "medium",
+    "explanation": "5 × 10 = 50"
+  },
+  {
+    "_id": "grade4_medium_math_016",
+    "content": "What is 2 × 5?",
+    "type": "multiple_choice",
+    "options": [
+      "10",
+      "11",
+      "9",
+      "12"
+    ],
+    "correctAnswer": "10",
+    "subject": "Mathematics",
+    "grade": 4,
+    "difficulty": "medium",
+    "explanation": "2 × 5 = 10"
+  },
+  {
+    "_id": "grade4_medium_math_017",
+    "content": "What is 10 × 6?",
+    "type": "multiple_choice",
+    "options": [
+      "60",
+      "61",
+      "59",
+      "62"
+    ],
+    "correctAnswer": "60",
+    "subject": "Mathematics",
+    "grade": 4,
+    "difficulty": "medium",
+    "explanation": "10 × 6 = 60"
+  },
+  {
+    "_id": "grade4_medium_math_018",
+    "content": "What is 2 × 1?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "3",
+      "1",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "Mathematics",
+    "grade": 4,
+    "difficulty": "medium",
+    "explanation": "2 × 1 = 2"
+  },
+  {
+    "_id": "grade4_medium_math_019",
+    "content": "What is 9 × 8?",
     "type": "multiple_choice",
     "options": [
       "72",
@@ -346,57 +314,9 @@
       "74"
     ],
     "correctAnswer": "72",
-    "subject": "Mathematical Reasoning",
+    "subject": "Mathematics",
     "grade": 4,
     "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 4."
-  },
-  {
-    "_id": "grade_specific_math_4_medium_22",
-    "content": "Grade 4 Math: Sarah has 30 stickers. She gets 6 more. How many does she have now?",
-    "type": "multiple_choice",
-    "options": [
-      "36",
-      "37",
-      "35",
-      "24"
-    ],
-    "correctAnswer": "36",
-    "subject": "Mathematical Reasoning",
-    "grade": 4,
-    "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 4."
-  },
-  {
-    "_id": "grade_specific_math_4_medium_23",
-    "content": "Grade 4 Math: What is 27 ÷ 3?",
-    "type": "multiple_choice",
-    "options": [
-      "9",
-      "10",
-      "8",
-      "11"
-    ],
-    "correctAnswer": "9",
-    "subject": "Mathematical Reasoning",
-    "grade": 4,
-    "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 4."
-  },
-  {
-    "_id": "grade_specific_math_4_medium_24",
-    "content": "Grade 4 Math: What is 51 - 25?",
-    "type": "multiple_choice",
-    "options": [
-      "26",
-      "27",
-      "25",
-      "28"
-    ],
-    "correctAnswer": "26",
-    "subject": "Mathematical Reasoning",
-    "grade": 4,
-    "difficulty": "medium",
-    "explanation": "This is a medium level math question specifically designed for grade 4."
+    "explanation": "9 × 8 = 72"
   }
 ]

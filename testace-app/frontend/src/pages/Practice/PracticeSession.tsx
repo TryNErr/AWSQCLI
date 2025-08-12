@@ -34,8 +34,41 @@ import {
 import { Question as QuestionType, DifficultyLevel, QuestionType as QType } from '../../types';
 import { markQuestionAnswered, getAnsweredQuestionIds } from '../../services/userProgressService';
 import { recordQuestionAttempt } from '../../services/questionHistoryService';
-import { getQuestionsForPractice } from '../../utils/enhancedQuestionMaintenance';
+import { StaticQuestionLoader } from '../../utils/staticQuestionLoader';
 import { validateAnswer } from '../../utils/enhancedAnswerValidation';
+
+
+// Component to properly format reading passages with paragraph breaks
+const FormattedText: React.FC<{ text: string }> = ({ text }) => {
+  const paragraphs = text.split('\n\n').filter(p => p.trim().length > 0);
+  
+  return (
+    <Box>
+      {paragraphs.map((paragraph, index) => {
+        const parts = paragraph.split('**');
+        const formattedParagraph = parts.map((part, partIndex) => 
+          partIndex % 2 === 1 ? <strong key={partIndex}>{part}</strong> : part
+        );
+        
+        return (
+          <Typography 
+            key={index} 
+            variant="body1" 
+            paragraph 
+            sx={{ 
+              mb: 2,
+              lineHeight: 1.6,
+              textAlign: 'left',
+              whiteSpace: 'pre-line'
+            }}
+          >
+            {formattedParagraph}
+          </Typography>
+        );
+      })}
+    </Box>
+  );
+};
 
 interface PracticeSessionState {
   questions: QuestionType[];
@@ -54,6 +87,20 @@ interface PracticeSessionState {
 }
 
 const PracticeSession: React.FC = () => {
+  // Smart navigation back to the correct practice screen
+  const handleBackToPractice = () => {
+    // Get URL parameters to determine where user came from
+    const urlParams = new URLSearchParams(window.location.search);
+    const hasFilters = urlParams.has('grade') || urlParams.has('difficulty') || urlParams.has('subject');
+    
+    if (hasFilters) {
+      console.log('🔙 Navigating back to Enhanced Practice with filters');
+      navigate('/practice/enhanced');
+    } else {
+      console.log('🔙 Navigating back to main Practice page');
+      navigate('/practice');
+    }
+  };
   const [searchParams] = useSearchParams();
   const navigate = useNavigate();
   
@@ -137,13 +184,13 @@ const PracticeSession: React.FC = () => {
       
       console.log(`Initializing practice session: Grade ${grade}, ${difficulty} difficulty${subject ? `, ${subject}` : ''}`);
       
-      // Use enhanced question maintenance system to get questions
-      const questions = await getQuestionsForPractice({
+      // Use StaticQuestionLoader for consistent subject filtering (fixes Grade 9 Hard Reading → English bug)
+      const questions = await StaticQuestionLoader.getQuestions(
         grade,
-        difficulty: difficultyLevel,
-        subject: subject || undefined,
-        count: 20 // Request 20 questions for the session
-      });
+        difficultyLevel,
+        subject || undefined,
+        20 // Request 20 questions for the session
+      );
       
       console.log(`Loaded ${questions.length} questions for practice session`);
       
@@ -393,7 +440,7 @@ const PracticeSession: React.FC = () => {
           </Alert>
           <Button
             variant="contained"
-            onClick={() => navigate('/practice')}
+            onClick={handleBackToPractice}
             sx={{ mt: 2 }}
           >
             Back to Practice
@@ -514,7 +561,7 @@ const PracticeSession: React.FC = () => {
               )}
             </Stack>
             <Typography variant="h5" gutterBottom>
-              {currentQuestion.content}
+              <FormattedText text={currentQuestion.content} />
             </Typography>
           </Box>
 

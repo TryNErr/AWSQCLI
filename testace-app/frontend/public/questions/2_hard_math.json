@@ -1,55 +1,151 @@
 [
   {
-    "_id": "grade_specific_math_2_hard_0",
-    "content": "Grade 2 Math: Sarah has 10 stickers. She gets 4 more. How many does she have now?",
+    "_id": "grade2_hard_math_001",
+    "content": "What is 3 + 14?",
     "type": "multiple_choice",
     "options": [
-      "14",
+      "17",
+      "18",
+      "16",
+      "19"
+    ],
+    "correctAnswer": "17",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "hard",
+    "explanation": "3 + 14 = 17"
+  },
+  {
+    "_id": "grade2_hard_math_002",
+    "content": "What is 25 - 6?",
+    "type": "multiple_choice",
+    "options": [
+      "19",
+      "20",
+      "18",
+      "21"
+    ],
+    "correctAnswer": "19",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "hard",
+    "explanation": "25 - 6 = 19"
+  },
+  {
+    "_id": "grade2_hard_math_003",
+    "content": "What is 3 × 6?",
+    "type": "multiple_choice",
+    "options": [
+      "18",
+      "19",
+      "17",
+      "20"
+    ],
+    "correctAnswer": "18",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "hard",
+    "explanation": "3 × 6 = 18"
+  },
+  {
+    "_id": "grade2_hard_math_004",
+    "content": "What is 10 + 6?",
+    "type": "multiple_choice",
+    "options": [
+      "16",
+      "17",
       "15",
+      "18"
+    ],
+    "correctAnswer": "16",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "hard",
+    "explanation": "10 + 6 = 16"
+  },
+  {
+    "_id": "grade2_hard_math_005",
+    "content": "What is 14 - 2?",
+    "type": "multiple_choice",
+    "options": [
+      "12",
       "13",
-      "6"
+      "11",
+      "14"
     ],
-    "correctAnswer": "14",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "12",
+    "subject": "Mathematics",
     "grade": 2,
     "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 2."
+    "explanation": "14 - 2 = 12"
   },
   {
-    "_id": "grade_specific_math_2_hard_1",
-    "content": "Grade 2 Math: Sarah has 30 stickers. She gets 8 more. How many does she have now?",
+    "_id": "grade2_hard_math_006",
+    "content": "What is 3 × 4?",
     "type": "multiple_choice",
     "options": [
-      "38",
-      "39",
-      "37",
-      "22"
+      "12",
+      "13",
+      "11",
+      "14"
     ],
-    "correctAnswer": "38",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "12",
+    "subject": "Mathematics",
     "grade": 2,
     "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 2."
+    "explanation": "3 × 4 = 12"
   },
   {
-    "_id": "grade_specific_math_2_hard_2",
-    "content": "Grade 2 Math: What is 32 + 32?",
+    "_id": "grade2_hard_math_007",
+    "content": "What is 16 + 10?",
     "type": "multiple_choice",
     "options": [
-      "64",
-      "65",
-      "63",
-      "66"
+      "26",
+      "27",
+      "25",
+      "28"
     ],
-    "correctAnswer": "64",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "26",
+    "subject": "Mathematics",
     "grade": 2,
     "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 2."
+    "explanation": "16 + 10 = 26"
   },
   {
-    "_id": "grade_specific_math_2_hard_3",
-    "content": "Grade 2 Math: What is 12 + 10?",
+    "_id": "grade2_hard_math_008",
+    "content": "What is 13 - 8?",
+    "type": "multiple_choice",
+    "options": [
+      "5",
+      "6",
+      "4",
+      "7"
+    ],
+    "correctAnswer": "5",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "hard",
+    "explanation": "13 - 8 = 5"
+  },
+  {
+    "_id": "grade2_hard_math_009",
+    "content": "What is 6 × 8?",
+    "type": "multiple_choice",
+    "options": [
+      "48",
+      "49",
+      "47",
+      "50"
+    ],
+    "correctAnswer": "48",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "hard",
+    "explanation": "6 × 8 = 48"
+  },
+  {
+    "_id": "grade2_hard_math_010",
+    "content": "What is 13 + 9?",
     "type": "multiple_choice",
     "options": [
       "22",
@@ -58,345 +154,169 @@
       "24"
     ],
     "correctAnswer": "22",
-    "subject": "Mathematical Reasoning",
+    "subject": "Mathematics",
     "grade": 2,
     "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 2."
+    "explanation": "13 + 9 = 22"
   },
   {
-    "_id": "grade_specific_math_2_hard_4",
-    "content": "Grade 2 Math: Sarah has 21 books. She gets 3 more. How many does she have now?",
+    "_id": "grade2_hard_math_011",
+    "content": "What is 14 - 10?",
     "type": "multiple_choice",
     "options": [
-      "24",
-      "25",
-      "23",
-      "18"
-    ],
-    "correctAnswer": "24",
-    "subject": "Mathematical Reasoning",
-    "grade": 2,
-    "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 2."
-  },
-  {
-    "_id": "grade_specific_math_2_hard_5",
-    "content": "Grade 2 Math: Sarah has 37 stickers. She gets 1 more. How many does she have now?",
-    "type": "multiple_choice",
-    "options": [
-      "38",
-      "39",
-      "37",
-      "36"
-    ],
-    "correctAnswer": "38",
-    "subject": "Mathematical Reasoning",
-    "grade": 2,
-    "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 2."
-  },
-  {
-    "_id": "grade_specific_math_2_hard_6",
-    "content": "Grade 2 Math: Sarah has 14 stickers. She gets 8 more. How many does she have now?",
-    "type": "multiple_choice",
-    "options": [
-      "22",
-      "23",
-      "21",
+      "4",
+      "5",
+      "3",
       "6"
     ],
-    "correctAnswer": "22",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "4",
+    "subject": "Mathematics",
     "grade": 2,
     "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 2."
+    "explanation": "14 - 10 = 4"
   },
   {
-    "_id": "grade_specific_math_2_hard_7",
-    "content": "Grade 2 Math: Sarah has 10 marbles. She gets 5 more. How many does she have now?",
-    "type": "multiple_choice",
-    "options": [
-      "15",
-      "16",
-      "14",
-      "5"
-    ],
-    "correctAnswer": "15",
-    "subject": "Mathematical Reasoning",
-    "grade": 2,
-    "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 2."
-  },
-  {
-    "_id": "grade_specific_math_2_hard_8",
-    "content": "Grade 2 Math: Sarah has 26 books. She gets 1 more. How many does she have now?",
-    "type": "multiple_choice",
-    "options": [
-      "27",
-      "28",
-      "26",
-      "25"
-    ],
-    "correctAnswer": "27",
-    "subject": "Mathematical Reasoning",
-    "grade": 2,
-    "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 2."
-  },
-  {
-    "_id": "grade_specific_math_2_hard_9",
-    "content": "Grade 2 Math: Sarah has 11 marbles. She gets 8 more. How many does she have now?",
-    "type": "multiple_choice",
-    "options": [
-      "19",
-      "20",
-      "18",
-      "3"
-    ],
-    "correctAnswer": "19",
-    "subject": "Mathematical Reasoning",
-    "grade": 2,
-    "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 2."
-  },
-  {
-    "_id": "grade_specific_math_2_hard_10",
-    "content": "Grade 2 Math: Sarah has 39 books. She gets 4 more. How many does she have now?",
-    "type": "multiple_choice",
-    "options": [
-      "43",
-      "44",
-      "42",
-      "35"
-    ],
-    "correctAnswer": "43",
-    "subject": "Mathematical Reasoning",
-    "grade": 2,
-    "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 2."
-  },
-  {
-    "_id": "grade_specific_math_2_hard_11",
-    "content": "Grade 2 Math: What is 34 - 24?",
-    "type": "multiple_choice",
-    "options": [
-      "10",
-      "11",
-      "9",
-      "12"
-    ],
-    "correctAnswer": "10",
-    "subject": "Mathematical Reasoning",
-    "grade": 2,
-    "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 2."
-  },
-  {
-    "_id": "grade_specific_math_2_hard_12",
-    "content": "Grade 2 Math: Sarah has 32 marbles. She gets 4 more. How many does she have now?",
+    "_id": "grade2_hard_math_012",
+    "content": "What is 9 × 4?",
     "type": "multiple_choice",
     "options": [
       "36",
       "37",
       "35",
-      "28"
+      "38"
     ],
     "correctAnswer": "36",
-    "subject": "Mathematical Reasoning",
+    "subject": "Mathematics",
     "grade": 2,
     "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 2."
+    "explanation": "9 × 4 = 36"
   },
   {
-    "_id": "grade_specific_math_2_hard_13",
-    "content": "Grade 2 Math: What is 33 + 19?",
+    "_id": "grade2_hard_math_013",
+    "content": "What is 6 + 7?",
     "type": "multiple_choice",
     "options": [
-      "52",
-      "53",
-      "51",
-      "54"
-    ],
-    "correctAnswer": "52",
-    "subject": "Mathematical Reasoning",
-    "grade": 2,
-    "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 2."
-  },
-  {
-    "_id": "grade_specific_math_2_hard_14",
-    "content": "Grade 2 Math: Sarah has 24 books. She gets 2 more. How many does she have now?",
-    "type": "multiple_choice",
-    "options": [
-      "26",
-      "27",
-      "25",
-      "22"
-    ],
-    "correctAnswer": "26",
-    "subject": "Mathematical Reasoning",
-    "grade": 2,
-    "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 2."
-  },
-  {
-    "_id": "grade_specific_math_2_hard_15",
-    "content": "Grade 2 Math: Sarah has 34 books. She gets 9 more. How many does she have now?",
-    "type": "multiple_choice",
-    "options": [
-      "43",
-      "44",
-      "42",
-      "25"
-    ],
-    "correctAnswer": "43",
-    "subject": "Mathematical Reasoning",
-    "grade": 2,
-    "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 2."
-  },
-  {
-    "_id": "grade_specific_math_2_hard_16",
-    "content": "Grade 2 Math: What is 29 - 18?",
-    "type": "multiple_choice",
-    "options": [
-      "11",
-      "12",
-      "10",
-      "13"
-    ],
-    "correctAnswer": "11",
-    "subject": "Mathematical Reasoning",
-    "grade": 2,
-    "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 2."
-  },
-  {
-    "_id": "grade_specific_math_2_hard_17",
-    "content": "Grade 2 Math: What is 24 - 18?",
-    "type": "multiple_choice",
-    "options": [
-      "6",
-      "7",
-      "5",
-      "8"
-    ],
-    "correctAnswer": "6",
-    "subject": "Mathematical Reasoning",
-    "grade": 2,
-    "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 2."
-  },
-  {
-    "_id": "grade_specific_math_2_hard_18",
-    "content": "Grade 2 Math: Sarah has 11 marbles. She gets 4 more. How many does she have now?",
-    "type": "multiple_choice",
-    "options": [
-      "15",
-      "16",
+      "13",
       "14",
-      "7"
+      "12",
+      "15"
     ],
-    "correctAnswer": "15",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "13",
+    "subject": "Mathematics",
     "grade": 2,
     "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 2."
+    "explanation": "6 + 7 = 13"
   },
   {
-    "_id": "grade_specific_math_2_hard_19",
-    "content": "Grade 2 Math: Sarah has 31 marbles. She gets 8 more. How many does she have now?",
+    "_id": "grade2_hard_math_014",
+    "content": "What is 14 - 7?",
     "type": "multiple_choice",
     "options": [
-      "39",
-      "40",
-      "38",
+      "7",
+      "8",
+      "6",
+      "9"
+    ],
+    "correctAnswer": "7",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "hard",
+    "explanation": "14 - 7 = 7"
+  },
+  {
+    "_id": "grade2_hard_math_015",
+    "content": "What is 6 × 5?",
+    "type": "multiple_choice",
+    "options": [
+      "30",
+      "31",
+      "29",
+      "32"
+    ],
+    "correctAnswer": "30",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "hard",
+    "explanation": "6 × 5 = 30"
+  },
+  {
+    "_id": "grade2_hard_math_016",
+    "content": "What is 12 + 5?",
+    "type": "multiple_choice",
+    "options": [
+      "17",
+      "18",
+      "16",
+      "19"
+    ],
+    "correctAnswer": "17",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "hard",
+    "explanation": "12 + 5 = 17"
+  },
+  {
+    "_id": "grade2_hard_math_017",
+    "content": "What is 27 - 6?",
+    "type": "multiple_choice",
+    "options": [
+      "21",
+      "22",
+      "20",
       "23"
     ],
-    "correctAnswer": "39",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "21",
+    "subject": "Mathematics",
     "grade": 2,
     "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 2."
+    "explanation": "27 - 6 = 21"
   },
   {
-    "_id": "grade_specific_math_2_hard_20",
-    "content": "Grade 2 Math: Sarah has 11 pencils. She gets 1 more. How many does she have now?",
+    "_id": "grade2_hard_math_018",
+    "content": "What is 7 × 7?",
     "type": "multiple_choice",
     "options": [
-      "12",
-      "13",
-      "11",
-      "10"
+      "49",
+      "50",
+      "48",
+      "51"
     ],
-    "correctAnswer": "12",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "49",
+    "subject": "Mathematics",
     "grade": 2,
     "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 2."
+    "explanation": "7 × 7 = 49"
   },
   {
-    "_id": "grade_specific_math_2_hard_21",
-    "content": "Grade 2 Math: Sarah has 30 pencils. She gets 3 more. How many does she have now?",
+    "_id": "grade2_hard_math_019",
+    "content": "What is 14 + 5?",
     "type": "multiple_choice",
     "options": [
-      "33",
-      "34",
-      "32",
-      "27"
+      "19",
+      "20",
+      "18",
+      "21"
     ],
-    "correctAnswer": "33",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "19",
+    "subject": "Mathematics",
     "grade": 2,
     "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 2."
+    "explanation": "14 + 5 = 19"
   },
   {
-    "_id": "grade_specific_math_2_hard_22",
-    "content": "Grade 2 Math: Sarah has 29 marbles. She gets 2 more. How many does she have now?",
+    "_id": "grade2_hard_math_020",
+    "content": "What is 21 - 1?",
     "type": "multiple_choice",
     "options": [
-      "31",
-      "32",
-      "30",
-      "27"
+      "20",
+      "21",
+      "19",
+      "22"
     ],
-    "correctAnswer": "31",
-    "subject": "Mathematical Reasoning",
+    "correctAnswer": "20",
+    "subject": "Mathematics",
     "grade": 2,
     "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 2."
-  },
-  {
-    "_id": "grade_specific_math_2_hard_23",
-    "content": "Grade 2 Math: What is 41 - 18?",
-    "type": "multiple_choice",
-    "options": [
-      "23",
-      "24",
-      "22",
-      "25"
-    ],
-    "correctAnswer": "23",
-    "subject": "Mathematical Reasoning",
-    "grade": 2,
-    "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 2."
-  },
-  {
-    "_id": "grade_specific_math_2_hard_24",
-    "content": "Grade 2 Math: What is 33 - 22?",
-    "type": "multiple_choice",
-    "options": [
-      "11",
-      "12",
-      "10",
-      "13"
-    ],
-    "correctAnswer": "11",
-    "subject": "Mathematical Reasoning",
-    "grade": 2,
-    "difficulty": "hard",
-    "explanation": "This is a hard level math question specifically designed for grade 2."
+    "explanation": "21 - 1 = 20"
   }
 ]
