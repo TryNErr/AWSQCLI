@@ -131,7 +131,7 @@ const Question: React.FC = () => {
       // Format 1: 'eng_6_hard_6' -> subject=English, grade=6, difficulty=hard
       // Format 2: 'grade6_hard_math' -> grade=6, difficulty=hard, subject=math
       const parts = questionId.split('_');
-      let grade, difficulty, subject;
+      let grade: string, difficulty: string, subject: string;
       
       if (parts.length >= 3) {
         // Check if first part is a subject prefix (eng, math, etc.)
