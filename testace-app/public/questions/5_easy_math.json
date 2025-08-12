@@ -1,322 +1,322 @@
 [
   {
     "_id": "grade5_easy_math_001",
-    "content": "What is 1 + 2?",
+    "content": "What is 2/3 + 1/6?",
     "type": "multiple_choice",
     "options": [
-      "1",
-      "3",
-      "4",
-      "6"
+      "3/9",
+      "5/6",
+      "3/6",
+      "1/2"
     ],
-    "correctAnswer": "3",
+    "correctAnswer": "5/6",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "1 + 2 = 3"
+    "explanation": "Convert to common denominator: 2/3 = 4/6. So 4/6 + 1/6 = 5/6."
   },
   {
     "_id": "grade5_easy_math_002",
-    "content": "What is 1 × 1?",
+    "content": "What is 3.4 + 1.7?",
     "type": "multiple_choice",
     "options": [
-      "0",
-      "1",
-      "2",
-      "2"
+      "4.1",
+      "5.1",
+      "4.11",
+      "5.11"
     ],
-    "correctAnswer": "1",
+    "correctAnswer": "5.1",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "1 × 1 = 1"
+    "explanation": "3.4 + 1.7 = 5.1"
   },
   {
     "_id": "grade5_easy_math_003",
-    "content": "What is 1 × 1?",
+    "content": "A rectangle has length 8m and width 5m. What is its area?",
     "type": "multiple_choice",
     "options": [
-      "0",
-      "1",
-      "2",
-      "2"
+      "13 m²",
+      "26 m²",
+      "40 m²",
+      "80 m²"
     ],
-    "correctAnswer": "1",
+    "correctAnswer": "40 m²",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "1 × 1 = 1"
+    "explanation": "Area = length × width = 8 × 5 = 40 m²"
   },
   {
     "_id": "grade5_easy_math_004",
-    "content": "What is 1 × 1?",
+    "content": "What is 10% of 50?",
     "type": "multiple_choice",
     "options": [
-      "0",
-      "1",
-      "2",
-      "2"
+      "5",
+      "10",
+      "15",
+      "50"
     ],
-    "correctAnswer": "1",
+    "correctAnswer": "5",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "1 × 1 = 1"
+    "explanation": "10% of 50 = 10/100 × 50 = 5"
   },
   {
     "_id": "grade5_easy_math_005",
-    "content": "What is 10% of 110?",
+    "content": "Round 47.6 to the nearest whole number.",
     "type": "multiple_choice",
     "options": [
-      "6",
-      "11",
-      "16",
-      "120"
+      "47",
+      "48",
+      "50",
+      "40"
     ],
-    "correctAnswer": "11",
+    "correctAnswer": "48",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "10% of 110 = 0.1 × 110 = 11"
+    "explanation": "47.6 is closer to 48 than 47, so round up to 48."
   },
   {
     "_id": "grade5_easy_math_006",
-    "content": "A rectangle has length 2cm and width 3cm. What is its area?",
+    "content": "What is 2/3 + 1/6?",
     "type": "multiple_choice",
     "options": [
-      "1 cm²",
-      "6 cm²",
-      "9 cm²",
-      "5 cm²"
+      "3/9",
+      "5/6",
+      "3/6",
+      "1/2"
     ],
-    "correctAnswer": "6 cm²",
+    "correctAnswer": "5/6",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "Area = length × width = 2 × 3 = 6 cm²"
+    "explanation": "Convert to common denominator: 2/3 = 4/6. So 4/6 + 1/6 = 5/6."
   },
   {
     "_id": "grade5_easy_math_007",
-    "content": "What is 3 × 1?",
+    "content": "What is 3.4 + 1.7?",
     "type": "multiple_choice",
     "options": [
-      "2",
-      "3",
-      "4",
-      "4"
+      "4.1",
+      "5.1",
+      "4.11",
+      "5.11"
     ],
-    "correctAnswer": "3",
+    "correctAnswer": "5.1",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "3 × 1 = 3"
+    "explanation": "3.4 + 1.7 = 5.1"
   },
   {
     "_id": "grade5_easy_math_008",
-    "content": "Solve for x: x + 3 = 4",
+    "content": "A rectangle has length 8m and width 5m. What is its area?",
     "type": "multiple_choice",
     "options": [
-      "0",
-      "1",
-      "2",
-      "4"
+      "13 m²",
+      "26 m²",
+      "40 m²",
+      "80 m²"
     ],
-    "correctAnswer": "1",
+    "correctAnswer": "40 m²",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "x + 3 = 4, so x = 4 - 3 = 1"
+    "explanation": "Area = length × width = 8 × 5 = 40 m²"
   },
   {
     "_id": "grade5_easy_math_009",
-    "content": "What is 3 + 5?",
+    "content": "What is 10% of 50?",
     "type": "multiple_choice",
     "options": [
-      "6",
-      "8",
-      "9",
-      "11"
+      "5",
+      "10",
+      "15",
+      "50"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "5",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "3 + 5 = 8"
+    "explanation": "10% of 50 = 10/100 × 50 = 5"
   },
   {
     "_id": "grade5_easy_math_010",
-    "content": "What is 3 × 2?",
+    "content": "Round 47.6 to the nearest whole number.",
     "type": "multiple_choice",
     "options": [
-      "5",
-      "6",
-      "7",
-      "5"
+      "47",
+      "48",
+      "50",
+      "40"
     ],
-    "correctAnswer": "6",
+    "correctAnswer": "48",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "3 × 2 = 6"
+    "explanation": "47.6 is closer to 48 than 47, so round up to 48."
   },
   {
     "_id": "grade5_easy_math_011",
-    "content": "What is 3 × 2?",
+    "content": "What is 2/3 + 1/6?",
     "type": "multiple_choice",
     "options": [
-      "5",
-      "6",
-      "7",
-      "5"
+      "3/9",
+      "5/6",
+      "3/6",
+      "1/2"
     ],
-    "correctAnswer": "6",
+    "correctAnswer": "5/6",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "3 × 2 = 6"
+    "explanation": "Convert to common denominator: 2/3 = 4/6. So 4/6 + 1/6 = 5/6."
   },
   {
     "_id": "grade5_easy_math_012",
-    "content": "What is 3 × 2?",
+    "content": "What is 3.4 + 1.7?",
     "type": "multiple_choice",
     "options": [
-      "5",
-      "6",
-      "7",
-      "5"
+      "4.1",
+      "5.1",
+      "4.11",
+      "5.11"
     ],
-    "correctAnswer": "6",
+    "correctAnswer": "5.1",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "3 × 2 = 6"
+    "explanation": "3.4 + 1.7 = 5.1"
   },
   {
     "_id": "grade5_easy_math_013",
-    "content": "What is 12% of 140?",
+    "content": "A rectangle has length 8m and width 5m. What is its area?",
     "type": "multiple_choice",
     "options": [
-      "11.8",
-      "16.8",
-      "21.8",
-      "152"
+      "13 m²",
+      "26 m²",
+      "40 m²",
+      "80 m²"
     ],
-    "correctAnswer": "16.8",
+    "correctAnswer": "40 m²",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "12% of 140 = 0.12 × 140 = 16.8"
+    "explanation": "Area = length × width = 8 × 5 = 40 m²"
   },
   {
     "_id": "grade5_easy_math_014",
-    "content": "A rectangle has length 4cm and width 6cm. What is its area?",
+    "content": "What is 10% of 50?",
     "type": "multiple_choice",
     "options": [
-      "19 cm²",
-      "24 cm²",
-      "27 cm²",
-      "10 cm²"
+      "5",
+      "10",
+      "15",
+      "50"
     ],
-    "correctAnswer": "24 cm²",
+    "correctAnswer": "5",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "Area = length × width = 4 × 6 = 24 cm²"
+    "explanation": "10% of 50 = 10/100 × 50 = 5"
   },
   {
     "_id": "grade5_easy_math_015",
-    "content": "What is 5 × 2?",
+    "content": "Round 47.6 to the nearest whole number.",
     "type": "multiple_choice",
     "options": [
-      "9",
-      "10",
-      "11",
-      "7"
+      "47",
+      "48",
+      "50",
+      "40"
     ],
-    "correctAnswer": "10",
+    "correctAnswer": "48",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "5 × 2 = 10"
+    "explanation": "47.6 is closer to 48 than 47, so round up to 48."
   },
   {
     "_id": "grade5_easy_math_016",
-    "content": "Solve for x: x + 6 = 9",
+    "content": "What is 2/3 + 1/6?",
     "type": "multiple_choice",
     "options": [
-      "2",
-      "3",
-      "4",
-      "9"
+      "3/9",
+      "5/6",
+      "3/6",
+      "1/2"
     ],
-    "correctAnswer": "3",
+    "correctAnswer": "5/6",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "x + 6 = 9, so x = 9 - 6 = 3"
+    "explanation": "Convert to common denominator: 2/3 = 4/6. So 4/6 + 1/6 = 5/6."
   },
   {
     "_id": "grade5_easy_math_017",
-    "content": "What is 5 + 8?",
+    "content": "What is 3.4 + 1.7?",
     "type": "multiple_choice",
     "options": [
-      "11",
-      "13",
-      "14",
-      "16"
+      "4.1",
+      "5.1",
+      "4.11",
+      "5.11"
     ],
-    "correctAnswer": "13",
+    "correctAnswer": "5.1",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "5 + 8 = 13"
+    "explanation": "3.4 + 1.7 = 5.1"
   },
   {
     "_id": "grade5_easy_math_018",
-    "content": "What is 5 × 3?",
+    "content": "A rectangle has length 8m and width 5m. What is its area?",
     "type": "multiple_choice",
     "options": [
-      "14",
-      "15",
-      "16",
-      "8"
+      "13 m²",
+      "26 m²",
+      "40 m²",
+      "80 m²"
     ],
-    "correctAnswer": "15",
+    "correctAnswer": "40 m²",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "5 × 3 = 15"
+    "explanation": "Area = length × width = 8 × 5 = 40 m²"
   },
   {
     "_id": "grade5_easy_math_019",
-    "content": "What is 5 × 3?",
+    "content": "What is 10% of 50?",
     "type": "multiple_choice",
     "options": [
-      "14",
+      "5",
+      "10",
       "15",
-      "16",
-      "8"
+      "50"
     ],
-    "correctAnswer": "15",
+    "correctAnswer": "5",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "5 × 3 = 15"
+    "explanation": "10% of 50 = 10/100 × 50 = 5"
   },
   {
     "_id": "grade5_easy_math_020",
-    "content": "What is 5 × 3?",
+    "content": "Round 47.6 to the nearest whole number.",
     "type": "multiple_choice",
     "options": [
-      "14",
-      "15",
-      "16",
-      "8"
+      "47",
+      "48",
+      "50",
+      "40"
     ],
-    "correctAnswer": "15",
+    "correctAnswer": "48",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "5 × 3 = 15"
+    "explanation": "47.6 is closer to 48 than 47, so round up to 48."
   }
 ]
