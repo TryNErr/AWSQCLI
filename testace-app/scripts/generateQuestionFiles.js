@@ -20,6 +20,41 @@ const QUESTIONS_PER_COMBINATION = 25;
 
 class BuildTimeQuestionGenerator {
   
+  
+  /**
+   * Check if a question file already contains real (non-fake) questions
+   */
+  static hasRealQuestions(filePath) {
+    try {
+      if (!fs.existsSync(filePath)) return false;
+      
+      const content = fs.readFileSync(filePath, 'utf8');
+      const questions = JSON.parse(content);
+      
+      if (!Array.isArray(questions) || questions.length === 0) return false;
+      
+      // Check if questions are fake (contain generic patterns)
+      const firstQuestion = questions[0];
+      if (!firstQuestion.content) return false;
+      
+      // Fake question patterns to detect
+      const fakePatterns = [
+        /Grade \d+ \w+ \w+ question \d+/,
+        /Option [A-D]\d*$/,
+        /varied content/i
+      ];
+      
+      const isFake = fakePatterns.some(pattern => 
+        pattern.test(firstQuestion.content) || 
+        (firstQuestion.options && firstQuestion.options.some(opt => pattern.test(opt)))
+      );
+      
+      return !isFake; // Return true if NOT fake (i.e., has real questions)
+    } catch (error) {
+      return false;
+    }
+  }
+
   static async generateAllQuestions() {
     console.log('🚀 Starting build-time question generation...');
     const startTime = Date.now();
