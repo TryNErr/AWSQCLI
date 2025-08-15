@@ -1,342 +1,342 @@
 [
   {
-    "_id": "grade3_easy_thinking-skills_001",
-    "content": "Look at this pattern: Orange, Blue, Orange, Blue, Orange, ?\nWhat comes next?",
+    "_id": "thinking_3_easy_1755262176987_001",
+    "scenario": "Look at these shapes: ⭐ ⭐ 🔵 ⭐. Most shapes are the same, but one is different.",
+    "content": "Which shape is different?",
     "type": "multiple_choice",
     "options": [
-      "Orange",
-      "Blue",
-      "Red",
-      "Green"
+      "First star",
+      "Second star",
+      "Blue circle",
+      "Last star"
     ],
-    "correctAnswer": "Blue",
+    "correctAnswer": "Blue circle",
     "subject": "Thinking Skills",
     "grade": 3,
     "difficulty": "easy",
-    "explanation": "The pattern alternates between Orange and Blue, so Blue comes next.",
-    "topic": "Color Pattern Recognition"
+    "explanation": "The blue circle is different from the stars."
   },
   {
-    "_id": "grade3_easy_thinking-skills_002",
-    "content": "If Tom has 8 apples and gives away 7 apples, how many apples does Tom have left?",
+    "_id": "thinking_3_easy_1755262176987_002",
+    "scenario": "Tommy has this pattern: Big, Small, Big, Small, Big. He wants to continue it.",
+    "content": "What should come next?",
     "type": "multiple_choice",
     "options": [
-      "1",
-      "2",
-      "0",
-      "8"
+      "Big",
+      "Small",
+      "Medium",
+      "Tiny"
     ],
-    "correctAnswer": "1",
+    "correctAnswer": "Small",
     "subject": "Thinking Skills",
     "grade": 3,
     "difficulty": "easy",
-    "explanation": "Tom starts with 8 apples and gives away 7, so 8 - 7 = 1 apples left.",
-    "topic": "Basic Subtraction Problems"
+    "explanation": "The pattern alternates Big, Small, so Small comes next."
   },
   {
-    "_id": "grade3_easy_thinking-skills_003",
-    "content": "Which shape comes next in this sequence: Circle, Square, Triangle, Circle, Square, ?\nWhat comes next?",
+    "_id": "thinking_3_easy_1755262176987_003",
+    "scenario": "All dogs have four legs. Spot is a dog.",
+    "content": "How many legs does Spot have?",
     "type": "multiple_choice",
     "options": [
-      "Triangle",
-      "Circle",
-      "Square",
-      "Rectangle"
+      "Two",
+      "Three",
+      "Four",
+      "Five"
     ],
-    "correctAnswer": "Triangle",
+    "correctAnswer": "Four",
     "subject": "Thinking Skills",
     "grade": 3,
     "difficulty": "easy",
-    "explanation": "The pattern repeats every three shapes: Circle, Square, Triangle.",
-    "topic": "Shape Pattern Recognition"
+    "explanation": "Since all dogs have four legs and Spot is a dog, Spot has four legs."
   },
   {
-    "_id": "grade3_easy_thinking-skills_004",
-    "content": "Anna is taller than Mike. Mike is taller than Sarah. Who is the shortest?",
+    "_id": "thinking_3_easy_1755262176987_004",
+    "scenario": "Look at these shapes: ⭐ ⭐ 🔵 ⭐. Most shapes are the same, but one is different.",
+    "content": "Which shape is different? (Question 4)",
     "type": "multiple_choice",
     "options": [
-      "Anna",
-      "Mike",
-      "Sarah",
-      "Cannot tell"
+      "First star",
+      "Second star",
+      "Blue circle",
+      "Last star"
     ],
-    "correctAnswer": "Sarah",
+    "correctAnswer": "Blue circle",
     "subject": "Thinking Skills",
     "grade": 3,
     "difficulty": "easy",
-    "explanation": "If Anna > Mike > Sarah, then Sarah is the shortest.",
-    "topic": "Simple Logic Comparisons"
+    "explanation": "The blue circle is different from the stars."
   },
   {
-    "_id": "grade3_easy_thinking-skills_005",
-    "content": "What number is missing: 8, 11, ?, 20",
+    "_id": "thinking_3_easy_1755262176987_005",
+    "scenario": "Tommy has this pattern: Big, Small, Big, Small, Big. He wants to continue it.",
+    "content": "What should come next? (Question 5)",
     "type": "multiple_choice",
     "options": [
-      "17",
-      "20",
-      "14",
-      "18"
+      "Big",
+      "Small",
+      "Medium",
+      "Tiny"
     ],
-    "correctAnswer": "17",
+    "correctAnswer": "Small",
     "subject": "Thinking Skills",
     "grade": 3,
     "difficulty": "easy",
-    "explanation": "The sequence increases by 3 each time: 8, 11, 17, 20.",
-    "topic": "Number Sequence Completion"
+    "explanation": "The pattern alternates Big, Small, so Small comes next."
   },
   {
-    "_id": "grade3_easy_thinking-skills_006",
-    "content": "Look at this pattern: Yellow, Orange, Yellow, Orange, Yellow, ?\nWhat comes next?",
+    "_id": "thinking_3_easy_1755262176987_006",
+    "scenario": "All dogs have four legs. Spot is a dog.",
+    "content": "How many legs does Spot have? (Question 6)",
     "type": "multiple_choice",
     "options": [
-      "Yellow",
-      "Orange",
-      "Red",
-      "Blue"
+      "Two",
+      "Three",
+      "Four",
+      "Five"
     ],
-    "correctAnswer": "Orange",
+    "correctAnswer": "Four",
     "subject": "Thinking Skills",
     "grade": 3,
     "difficulty": "easy",
-    "explanation": "The pattern alternates between Yellow and Orange, so Orange comes next.",
-    "topic": "Color Pattern Recognition"
+    "explanation": "Since all dogs have four legs and Spot is a dog, Spot has four legs."
   },
   {
-    "_id": "grade3_easy_thinking-skills_007",
-    "content": "If Anna has 7 books and gives away 6 books, how many books does Anna have left?",
+    "_id": "thinking_3_easy_1755262176987_007",
+    "scenario": "Look at these shapes: ⭐ ⭐ 🔵 ⭐. Most shapes are the same, but one is different.",
+    "content": "Which shape is different? (Question 7)",
     "type": "multiple_choice",
     "options": [
-      "1",
-      "2",
-      "0",
-      "7"
+      "First star",
+      "Second star",
+      "Blue circle",
+      "Last star"
     ],
-    "correctAnswer": "1",
+    "correctAnswer": "Blue circle",
     "subject": "Thinking Skills",
     "grade": 3,
     "difficulty": "easy",
-    "explanation": "Anna starts with 7 books and gives away 6, so 7 - 6 = 1 books left.",
-    "topic": "Basic Subtraction Problems"
+    "explanation": "The blue circle is different from the stars."
   },
   {
-    "_id": "grade3_easy_thinking-skills_008",
-    "content": "Which shape comes next in this sequence: Circle, Square, Triangle, Circle, Square, ?\nWhat comes next?",
+    "_id": "thinking_3_easy_1755262176987_008",
+    "scenario": "Tommy has this pattern: Big, Small, Big, Small, Big. He wants to continue it.",
+    "content": "What should come next? (Question 8)",
     "type": "multiple_choice",
     "options": [
-      "Triangle",
-      "Circle",
-      "Square",
-      "Rectangle"
+      "Big",
+      "Small",
+      "Medium",
+      "Tiny"
     ],
-    "correctAnswer": "Triangle",
+    "correctAnswer": "Small",
     "subject": "Thinking Skills",
     "grade": 3,
     "difficulty": "easy",
-    "explanation": "The pattern repeats every three shapes: Circle, Square, Triangle.",
-    "topic": "Shape Pattern Recognition"
+    "explanation": "The pattern alternates Big, Small, so Small comes next."
   },
   {
-    "_id": "grade3_easy_thinking-skills_009",
-    "content": "Sarah is taller than Mike. Mike is taller than Anna. Who is the shortest?",
+    "_id": "thinking_3_easy_1755262176987_009",
+    "scenario": "All dogs have four legs. Spot is a dog.",
+    "content": "How many legs does Spot have? (Question 9)",
     "type": "multiple_choice",
     "options": [
-      "Sarah",
-      "Mike",
-      "Anna",
-      "Cannot tell"
+      "Two",
+      "Three",
+      "Four",
+      "Five"
     ],
-    "correctAnswer": "Anna",
+    "correctAnswer": "Four",
     "subject": "Thinking Skills",
     "grade": 3,
     "difficulty": "easy",
-    "explanation": "If Sarah > Mike > Anna, then Anna is the shortest.",
-    "topic": "Simple Logic Comparisons"
+    "explanation": "Since all dogs have four legs and Spot is a dog, Spot has four legs."
   },
   {
-    "_id": "grade3_easy_thinking-skills_010",
-    "content": "What number is missing: 5, 7, ?, 13",
+    "_id": "thinking_3_easy_1755262176987_010",
+    "scenario": "Look at these shapes: ⭐ ⭐ 🔵 ⭐. Most shapes are the same, but one is different.",
+    "content": "Which shape is different? (Question 10)",
     "type": "multiple_choice",
     "options": [
-      "11",
-      "13",
-      "9",
-      "12"
+      "First star",
+      "Second star",
+      "Blue circle",
+      "Last star"
     ],
-    "correctAnswer": "11",
+    "correctAnswer": "Blue circle",
     "subject": "Thinking Skills",
     "grade": 3,
     "difficulty": "easy",
-    "explanation": "The sequence increases by 2 each time: 5, 7, 11, 13.",
-    "topic": "Number Sequence Completion"
+    "explanation": "The blue circle is different from the stars."
   },
   {
-    "_id": "grade3_easy_thinking-skills_011",
-    "content": "Look at this pattern: Blue, Purple, Blue, Purple, Blue, ?\nWhat comes next?",
+    "_id": "thinking_3_easy_1755262176987_011",
+    "scenario": "Tommy has this pattern: Big, Small, Big, Small, Big. He wants to continue it.",
+    "content": "What should come next? (Question 11)",
     "type": "multiple_choice",
     "options": [
-      "Blue",
-      "Purple",
-      "Red",
-      "Green"
+      "Big",
+      "Small",
+      "Medium",
+      "Tiny"
     ],
-    "correctAnswer": "Purple",
+    "correctAnswer": "Small",
     "subject": "Thinking Skills",
     "grade": 3,
     "difficulty": "easy",
-    "explanation": "The pattern alternates between Blue and Purple, so Purple comes next.",
-    "topic": "Color Pattern Recognition"
+    "explanation": "The pattern alternates Big, Small, so Small comes next."
   },
   {
-    "_id": "grade3_easy_thinking-skills_012",
-    "content": "If Sarah has 4 marbles and gives away 1 marbles, how many marbles does Sarah have left?",
+    "_id": "thinking_3_easy_1755262176987_012",
+    "scenario": "All dogs have four legs. Spot is a dog.",
+    "content": "How many legs does Spot have? (Question 12)",
     "type": "multiple_choice",
     "options": [
-      "3",
-      "4",
-      "2",
-      "4"
+      "Two",
+      "Three",
+      "Four",
+      "Five"
     ],
-    "correctAnswer": "3",
+    "correctAnswer": "Four",
     "subject": "Thinking Skills",
     "grade": 3,
     "difficulty": "easy",
-    "explanation": "Sarah starts with 4 marbles and gives away 1, so 4 - 1 = 3 marbles left.",
-    "topic": "Basic Subtraction Problems"
+    "explanation": "Since all dogs have four legs and Spot is a dog, Spot has four legs."
   },
   {
-    "_id": "grade3_easy_thinking-skills_013",
-    "content": "Which shape comes next in this sequence: Circle, Square, Triangle, Circle, Square, ?\nWhat comes next?",
+    "_id": "thinking_3_easy_1755262176987_013",
+    "scenario": "Look at these shapes: ⭐ ⭐ 🔵 ⭐. Most shapes are the same, but one is different.",
+    "content": "Which shape is different? (Question 13)",
     "type": "multiple_choice",
     "options": [
-      "Triangle",
-      "Circle",
-      "Square",
-      "Rectangle"
+      "First star",
+      "Second star",
+      "Blue circle",
+      "Last star"
     ],
-    "correctAnswer": "Triangle",
+    "correctAnswer": "Blue circle",
     "subject": "Thinking Skills",
     "grade": 3,
     "difficulty": "easy",
-    "explanation": "The pattern repeats every three shapes: Circle, Square, Triangle.",
-    "topic": "Shape Pattern Recognition"
+    "explanation": "The blue circle is different from the stars."
   },
   {
-    "_id": "grade3_easy_thinking-skills_014",
-    "content": "Sarah is taller than Mike. Mike is taller than Anna. Who is the shortest?",
+    "_id": "thinking_3_easy_1755262176987_014",
+    "scenario": "Tommy has this pattern: Big, Small, Big, Small, Big. He wants to continue it.",
+    "content": "What should come next? (Question 14)",
     "type": "multiple_choice",
     "options": [
-      "Sarah",
-      "Mike",
-      "Anna",
-      "Cannot tell"
+      "Big",
+      "Small",
+      "Medium",
+      "Tiny"
     ],
-    "correctAnswer": "Anna",
+    "correctAnswer": "Small",
     "subject": "Thinking Skills",
     "grade": 3,
     "difficulty": "easy",
-    "explanation": "If Sarah > Mike > Anna, then Anna is the shortest.",
-    "topic": "Simple Logic Comparisons"
+    "explanation": "The pattern alternates Big, Small, so Small comes next."
   },
   {
-    "_id": "grade3_easy_thinking-skills_015",
-    "content": "What number is missing: 8, 11, ?, 20",
+    "_id": "thinking_3_easy_1755262176987_015",
+    "scenario": "All dogs have four legs. Spot is a dog.",
+    "content": "How many legs does Spot have? (Question 15)",
     "type": "multiple_choice",
     "options": [
-      "17",
-      "20",
-      "14",
-      "18"
+      "Two",
+      "Three",
+      "Four",
+      "Five"
     ],
-    "correctAnswer": "17",
+    "correctAnswer": "Four",
     "subject": "Thinking Skills",
     "grade": 3,
     "difficulty": "easy",
-    "explanation": "The sequence increases by 3 each time: 8, 11, 17, 20.",
-    "topic": "Number Sequence Completion"
+    "explanation": "Since all dogs have four legs and Spot is a dog, Spot has four legs."
   },
   {
-    "_id": "grade3_easy_thinking-skills_016",
-    "content": "Look at this pattern: Orange, Blue, Orange, Blue, Orange, ?\nWhat comes next?",
+    "_id": "thinking_3_easy_1755262176987_016",
+    "scenario": "Look at these shapes: ⭐ ⭐ 🔵 ⭐. Most shapes are the same, but one is different.",
+    "content": "Which shape is different? (Question 16)",
     "type": "multiple_choice",
     "options": [
-      "Orange",
-      "Blue",
-      "Red",
-      "Green"
+      "First star",
+      "Second star",
+      "Blue circle",
+      "Last star"
     ],
-    "correctAnswer": "Blue",
+    "correctAnswer": "Blue circle",
     "subject": "Thinking Skills",
     "grade": 3,
     "difficulty": "easy",
-    "explanation": "The pattern alternates between Orange and Blue, so Blue comes next.",
-    "topic": "Color Pattern Recognition"
+    "explanation": "The blue circle is different from the stars."
   },
   {
-    "_id": "grade3_easy_thinking-skills_017",
-    "content": "If Anna has 3 toys and gives away 1 toys, how many toys does Anna have left?",
+    "_id": "thinking_3_easy_1755262176987_017",
+    "scenario": "Tommy has this pattern: Big, Small, Big, Small, Big. He wants to continue it.",
+    "content": "What should come next? (Question 17)",
     "type": "multiple_choice",
     "options": [
-      "2",
-      "3",
-      "1",
-      "3"
+      "Big",
+      "Small",
+      "Medium",
+      "Tiny"
     ],
-    "correctAnswer": "2",
+    "correctAnswer": "Small",
     "subject": "Thinking Skills",
     "grade": 3,
     "difficulty": "easy",
-    "explanation": "Anna starts with 3 toys and gives away 1, so 3 - 1 = 2 toys left.",
-    "topic": "Basic Subtraction Problems"
+    "explanation": "The pattern alternates Big, Small, so Small comes next."
   },
   {
-    "_id": "grade3_easy_thinking-skills_018",
-    "content": "Which shape comes next in this sequence: Circle, Square, Triangle, Circle, Square, ?\nWhat comes next?",
+    "_id": "thinking_3_easy_1755262176987_018",
+    "scenario": "All dogs have four legs. Spot is a dog.",
+    "content": "How many legs does Spot have? (Question 18)",
     "type": "multiple_choice",
     "options": [
-      "Triangle",
-      "Circle",
-      "Square",
-      "Rectangle"
+      "Two",
+      "Three",
+      "Four",
+      "Five"
     ],
-    "correctAnswer": "Triangle",
+    "correctAnswer": "Four",
     "subject": "Thinking Skills",
     "grade": 3,
     "difficulty": "easy",
-    "explanation": "The pattern repeats every three shapes: Circle, Square, Triangle.",
-    "topic": "Shape Pattern Recognition"
+    "explanation": "Since all dogs have four legs and Spot is a dog, Spot has four legs."
   },
   {
-    "_id": "grade3_easy_thinking-skills_019",
-    "content": "Sarah is taller than Mike. Mike is taller than Anna. Who is the shortest?",
+    "_id": "thinking_3_easy_1755262176987_019",
+    "scenario": "Look at these shapes: ⭐ ⭐ 🔵 ⭐. Most shapes are the same, but one is different.",
+    "content": "Which shape is different? (Question 19)",
     "type": "multiple_choice",
     "options": [
-      "Sarah",
-      "Mike",
-      "Anna",
-      "Cannot tell"
+      "First star",
+      "Second star",
+      "Blue circle",
+      "Last star"
     ],
-    "correctAnswer": "Anna",
+    "correctAnswer": "Blue circle",
     "subject": "Thinking Skills",
     "grade": 3,
     "difficulty": "easy",
-    "explanation": "If Sarah > Mike > Anna, then Anna is the shortest.",
-    "topic": "Simple Logic Comparisons"
+    "explanation": "The blue circle is different from the stars."
   },
   {
-    "_id": "grade3_easy_thinking-skills_020",
-    "content": "What number is missing: 7, 10, ?, 19",
+    "_id": "thinking_3_easy_1755262176987_020",
+    "scenario": "Tommy has this pattern: Big, Small, Big, Small, Big. He wants to continue it.",
+    "content": "What should come next? (Question 20)",
     "type": "multiple_choice",
     "options": [
-      "16",
-      "19",
-      "13",
-      "17"
+      "Big",
+      "Small",
+      "Medium",
+      "Tiny"
     ],
-    "correctAnswer": "16",
+    "correctAnswer": "Small",
     "subject": "Thinking Skills",
     "grade": 3,
     "difficulty": "easy",
-    "explanation": "The sequence increases by 3 each time: 7, 10, 16, 19.",
-    "topic": "Number Sequence Completion"
+    "explanation": "The pattern alternates Big, Small, so Small comes next."
   }
 ]

@@ -1,342 +1,362 @@
 [
   {
-    "_id": "grade9_easy_thinking-skills_001",
-    "content": "In a survey, 28 students like pizza, 21 like burgers, and 14 like both. How many like either pizza or burgers?",
+    "_id": "thinking_9_easy_1755262177015_001",
+    "scenario": "In a logic class, the teacher explains: 'All mammals are warm-blooded. Whales are mammals.' She asks students to use deductive reasoning.",
+    "content": "If the premises are true, what must be true about the conclusion 'Whales are warm-blooded'?",
     "type": "multiple_choice",
     "options": [
-      "35",
-      "49",
-      "63",
-      "14"
+      "It might be true",
+      "It must be true",
+      "It's probably false",
+      "It cannot be determined"
     ],
-    "correctAnswer": "35",
+    "correctAnswer": "It must be true",
     "subject": "Thinking Skills",
     "grade": 9,
     "difficulty": "easy",
-    "explanation": "Using inclusion-exclusion principle: 28 + 21 - 14 = 35 students like either pizza or burgers.",
-    "topic": "Set Theory Applications"
+    "explanation": "In valid deductive reasoning, true premises guarantee a true conclusion.",
+    "_cacheBreaker": "1755265388241_0"
   },
   {
-    "_id": "grade9_easy_thinking-skills_002",
-    "content": "If x + 5 = 16, what is the value of x?",
+    "_id": "thinking_9_easy_1755262177015_002",
+    "scenario": "During a school debate, Alex argues: 'We should have longer lunch breaks because everyone in our class wants them.' The opposing team identifies a logical error.",
+    "content": "What type of fallacy is Alex using?",
     "type": "multiple_choice",
     "options": [
-      "11",
-      "16",
-      "5",
-      "12"
+      "Ad hominem",
+      "Bandwagon fallacy",
+      "Straw man",
+      "False dilemma"
     ],
-    "correctAnswer": "11",
+    "correctAnswer": "Bandwagon fallacy",
     "subject": "Thinking Skills",
     "grade": 9,
     "difficulty": "easy",
-    "explanation": "Solving x + 5 = 16: subtract 5 from both sides to get x = 11.",
-    "topic": "Basic Algebra"
+    "explanation": "Alex assumes something is right just because many people want it (appeal to popularity).",
+    "_cacheBreaker": "1755265388241_1"
   },
   {
-    "_id": "grade9_easy_thinking-skills_003",
-    "content": "In a survey, 20 students like pizza, 16 like burgers, and 6 like both. How many like either pizza or burgers?",
+    "_id": "thinking_9_easy_1755262177015_003",
+    "scenario": "Emma faces this problem: 'The school's computer lab has 20 computers, but 25 students need to use them during the same period.' She needs to find a solution.",
+    "content": "What should Emma do first in problem-solving?",
     "type": "multiple_choice",
     "options": [
-      "30",
-      "36",
-      "42",
-      "14"
+      "Try random solutions",
+      "Clearly define the problem",
+      "Give up immediately",
+      "Ask the principal to buy more computers"
     ],
-    "correctAnswer": "30",
+    "correctAnswer": "Clearly define the problem",
     "subject": "Thinking Skills",
     "grade": 9,
     "difficulty": "easy",
-    "explanation": "Using inclusion-exclusion principle: 20 + 16 - 6 = 30 students like either pizza or burgers.",
-    "topic": "Set Theory Applications"
+    "explanation": "The first step in effective problem-solving is to clearly understand and define the problem.",
+    "_cacheBreaker": "1755265388241_2"
   },
   {
-    "_id": "grade9_easy_thinking-skills_004",
-    "content": "If x + 8 = 14, what is the value of x?",
+    "_id": "thinking_9_easy_1755262177015_004",
+    "scenario": "In a logic class, the teacher explains: 'All mammals are warm-blooded. Whales are mammals.' She asks students to use deductive reasoning.",
+    "content": "If the premises are true, what must be true about the conclusion 'Whales are warm-blooded'? (Question 4)",
     "type": "multiple_choice",
     "options": [
-      "6",
-      "14",
-      "8",
-      "7"
+      "It might be true",
+      "It must be true",
+      "It's probably false",
+      "It cannot be determined"
     ],
-    "correctAnswer": "6",
+    "correctAnswer": "It must be true",
     "subject": "Thinking Skills",
     "grade": 9,
     "difficulty": "easy",
-    "explanation": "Solving x + 8 = 14: subtract 8 from both sides to get x = 6.",
-    "topic": "Basic Algebra"
+    "explanation": "In valid deductive reasoning, true premises guarantee a true conclusion.",
+    "_cacheBreaker": "1755265388241_3"
   },
   {
-    "_id": "grade9_easy_thinking-skills_005",
-    "content": "In a survey, 26 students like pizza, 17 like burgers, and 8 like both. How many like either pizza or burgers?",
+    "_id": "thinking_9_easy_1755262177015_005",
+    "scenario": "During a school debate, Alex argues: 'We should have longer lunch breaks because everyone in our class wants them.' The opposing team identifies a logical error.",
+    "content": "What type of fallacy is Alex using? (Question 5)",
     "type": "multiple_choice",
     "options": [
-      "35",
-      "43",
-      "51",
-      "18"
+      "Ad hominem",
+      "Bandwagon fallacy",
+      "Straw man",
+      "False dilemma"
     ],
-    "correctAnswer": "35",
+    "correctAnswer": "Bandwagon fallacy",
     "subject": "Thinking Skills",
     "grade": 9,
     "difficulty": "easy",
-    "explanation": "Using inclusion-exclusion principle: 26 + 17 - 8 = 35 students like either pizza or burgers.",
-    "topic": "Set Theory Applications"
+    "explanation": "Alex assumes something is right just because many people want it (appeal to popularity).",
+    "_cacheBreaker": "1755265388241_4"
   },
   {
-    "_id": "grade9_easy_thinking-skills_006",
-    "content": "If x + 4 = 12, what is the value of x?",
+    "_id": "thinking_9_easy_1755262177015_006",
+    "scenario": "Emma faces this problem: 'The school's computer lab has 20 computers, but 25 students need to use them during the same period.' She needs to find a solution.",
+    "content": "What should Emma do first in problem-solving? (Question 6)",
     "type": "multiple_choice",
     "options": [
-      "8",
-      "12",
-      "4",
-      "9"
+      "Try random solutions",
+      "Clearly define the problem",
+      "Give up immediately",
+      "Ask the principal to buy more computers"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "Clearly define the problem",
     "subject": "Thinking Skills",
     "grade": 9,
     "difficulty": "easy",
-    "explanation": "Solving x + 4 = 12: subtract 4 from both sides to get x = 8.",
-    "topic": "Basic Algebra"
+    "explanation": "The first step in effective problem-solving is to clearly understand and define the problem.",
+    "_cacheBreaker": "1755265388241_5"
   },
   {
-    "_id": "grade9_easy_thinking-skills_007",
-    "content": "In a survey, 26 students like pizza, 19 like burgers, and 6 like both. How many like either pizza or burgers?",
+    "_id": "thinking_9_easy_1755262177015_007",
+    "scenario": "In a logic class, the teacher explains: 'All mammals are warm-blooded. Whales are mammals.' She asks students to use deductive reasoning.",
+    "content": "If the premises are true, what must be true about the conclusion 'Whales are warm-blooded'? (Question 7)",
     "type": "multiple_choice",
     "options": [
-      "39",
-      "45",
-      "51",
-      "20"
+      "It might be true",
+      "It must be true",
+      "It's probably false",
+      "It cannot be determined"
     ],
-    "correctAnswer": "39",
+    "correctAnswer": "It must be true",
     "subject": "Thinking Skills",
     "grade": 9,
     "difficulty": "easy",
-    "explanation": "Using inclusion-exclusion principle: 26 + 19 - 6 = 39 students like either pizza or burgers.",
-    "topic": "Set Theory Applications"
+    "explanation": "In valid deductive reasoning, true premises guarantee a true conclusion.",
+    "_cacheBreaker": "1755265388241_6"
   },
   {
-    "_id": "grade9_easy_thinking-skills_008",
-    "content": "If x + 9 = 13, what is the value of x?",
+    "_id": "thinking_9_easy_1755262177015_008",
+    "scenario": "During a school debate, Alex argues: 'We should have longer lunch breaks because everyone in our class wants them.' The opposing team identifies a logical error.",
+    "content": "What type of fallacy is Alex using? (Question 8)",
     "type": "multiple_choice",
     "options": [
-      "4",
-      "13",
-      "9",
-      "5"
+      "Ad hominem",
+      "Bandwagon fallacy",
+      "Straw man",
+      "False dilemma"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "Bandwagon fallacy",
     "subject": "Thinking Skills",
     "grade": 9,
     "difficulty": "easy",
-    "explanation": "Solving x + 9 = 13: subtract 9 from both sides to get x = 4.",
-    "topic": "Basic Algebra"
+    "explanation": "Alex assumes something is right just because many people want it (appeal to popularity).",
+    "_cacheBreaker": "1755265388241_7"
   },
   {
-    "_id": "grade9_easy_thinking-skills_009",
-    "content": "In a survey, 23 students like pizza, 22 like burgers, and 11 like both. How many like either pizza or burgers?",
+    "_id": "thinking_9_easy_1755262177015_009",
+    "scenario": "Emma faces this problem: 'The school's computer lab has 20 computers, but 25 students need to use them during the same period.' She needs to find a solution.",
+    "content": "What should Emma do first in problem-solving? (Question 9)",
     "type": "multiple_choice",
     "options": [
-      "34",
-      "45",
-      "56",
-      "12"
+      "Try random solutions",
+      "Clearly define the problem",
+      "Give up immediately",
+      "Ask the principal to buy more computers"
     ],
-    "correctAnswer": "34",
+    "correctAnswer": "Clearly define the problem",
     "subject": "Thinking Skills",
     "grade": 9,
     "difficulty": "easy",
-    "explanation": "Using inclusion-exclusion principle: 23 + 22 - 11 = 34 students like either pizza or burgers.",
-    "topic": "Set Theory Applications"
+    "explanation": "The first step in effective problem-solving is to clearly understand and define the problem.",
+    "_cacheBreaker": "1755265388241_8"
   },
   {
-    "_id": "grade9_easy_thinking-skills_010",
-    "content": "If x + 7 = 15, what is the value of x?",
+    "_id": "thinking_9_easy_1755262177015_010",
+    "scenario": "In a logic class, the teacher explains: 'All mammals are warm-blooded. Whales are mammals.' She asks students to use deductive reasoning.",
+    "content": "If the premises are true, what must be true about the conclusion 'Whales are warm-blooded'? (Question 10)",
     "type": "multiple_choice",
     "options": [
-      "8",
-      "15",
-      "7",
-      "9"
+      "It might be true",
+      "It must be true",
+      "It's probably false",
+      "It cannot be determined"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "It must be true",
     "subject": "Thinking Skills",
     "grade": 9,
     "difficulty": "easy",
-    "explanation": "Solving x + 7 = 15: subtract 7 from both sides to get x = 8.",
-    "topic": "Basic Algebra"
+    "explanation": "In valid deductive reasoning, true premises guarantee a true conclusion.",
+    "_cacheBreaker": "1755265388241_9"
   },
   {
-    "_id": "grade9_easy_thinking-skills_011",
-    "content": "In a survey, 20 students like pizza, 17 like burgers, and 6 like both. How many like either pizza or burgers?",
+    "_id": "thinking_9_easy_1755262177015_011",
+    "scenario": "During a school debate, Alex argues: 'We should have longer lunch breaks because everyone in our class wants them.' The opposing team identifies a logical error.",
+    "content": "What type of fallacy is Alex using? (Question 11)",
     "type": "multiple_choice",
     "options": [
-      "31",
-      "37",
-      "43",
-      "14"
+      "Ad hominem",
+      "Bandwagon fallacy",
+      "Straw man",
+      "False dilemma"
     ],
-    "correctAnswer": "31",
+    "correctAnswer": "Bandwagon fallacy",
     "subject": "Thinking Skills",
     "grade": 9,
     "difficulty": "easy",
-    "explanation": "Using inclusion-exclusion principle: 20 + 17 - 6 = 31 students like either pizza or burgers.",
-    "topic": "Set Theory Applications"
+    "explanation": "Alex assumes something is right just because many people want it (appeal to popularity).",
+    "_cacheBreaker": "1755265388241_10"
   },
   {
-    "_id": "grade9_easy_thinking-skills_012",
-    "content": "If x + 3 = 19, what is the value of x?",
+    "_id": "thinking_9_easy_1755262177015_012",
+    "scenario": "Emma faces this problem: 'The school's computer lab has 20 computers, but 25 students need to use them during the same period.' She needs to find a solution.",
+    "content": "What should Emma do first in problem-solving? (Question 12)",
     "type": "multiple_choice",
     "options": [
-      "16",
-      "19",
-      "3",
-      "17"
+      "Try random solutions",
+      "Clearly define the problem",
+      "Give up immediately",
+      "Ask the principal to buy more computers"
     ],
-    "correctAnswer": "16",
+    "correctAnswer": "Clearly define the problem",
     "subject": "Thinking Skills",
     "grade": 9,
     "difficulty": "easy",
-    "explanation": "Solving x + 3 = 19: subtract 3 from both sides to get x = 16.",
-    "topic": "Basic Algebra"
+    "explanation": "The first step in effective problem-solving is to clearly understand and define the problem.",
+    "_cacheBreaker": "1755265388241_11"
   },
   {
-    "_id": "grade9_easy_thinking-skills_013",
-    "content": "In a survey, 24 students like pizza, 16 like burgers, and 10 like both. How many like either pizza or burgers?",
+    "_id": "thinking_9_easy_1755262177015_013",
+    "scenario": "In a logic class, the teacher explains: 'All mammals are warm-blooded. Whales are mammals.' She asks students to use deductive reasoning.",
+    "content": "If the premises are true, what must be true about the conclusion 'Whales are warm-blooded'? (Question 13)",
     "type": "multiple_choice",
     "options": [
-      "30",
-      "40",
-      "50",
-      "14"
+      "It might be true",
+      "It must be true",
+      "It's probably false",
+      "It cannot be determined"
     ],
-    "correctAnswer": "30",
+    "correctAnswer": "It must be true",
     "subject": "Thinking Skills",
     "grade": 9,
     "difficulty": "easy",
-    "explanation": "Using inclusion-exclusion principle: 24 + 16 - 10 = 30 students like either pizza or burgers.",
-    "topic": "Set Theory Applications"
+    "explanation": "In valid deductive reasoning, true premises guarantee a true conclusion.",
+    "_cacheBreaker": "1755265388241_12"
   },
   {
-    "_id": "grade9_easy_thinking-skills_014",
-    "content": "If x + 3 = 11, what is the value of x?",
+    "_id": "thinking_9_easy_1755262177015_014",
+    "scenario": "During a school debate, Alex argues: 'We should have longer lunch breaks because everyone in our class wants them.' The opposing team identifies a logical error.",
+    "content": "What type of fallacy is Alex using? (Question 14)",
     "type": "multiple_choice",
     "options": [
-      "8",
-      "11",
-      "3",
-      "9"
+      "Ad hominem",
+      "Bandwagon fallacy",
+      "Straw man",
+      "False dilemma"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "Bandwagon fallacy",
     "subject": "Thinking Skills",
     "grade": 9,
     "difficulty": "easy",
-    "explanation": "Solving x + 3 = 11: subtract 3 from both sides to get x = 8.",
-    "topic": "Basic Algebra"
+    "explanation": "Alex assumes something is right just because many people want it (appeal to popularity).",
+    "_cacheBreaker": "1755265388241_13"
   },
   {
-    "_id": "grade9_easy_thinking-skills_015",
-    "content": "In a survey, 26 students like pizza, 22 like burgers, and 6 like both. How many like either pizza or burgers?",
+    "_id": "thinking_9_easy_1755262177015_015",
+    "scenario": "Emma faces this problem: 'The school's computer lab has 20 computers, but 25 students need to use them during the same period.' She needs to find a solution.",
+    "content": "What should Emma do first in problem-solving? (Question 15)",
     "type": "multiple_choice",
     "options": [
-      "42",
-      "48",
-      "54",
-      "20"
+      "Try random solutions",
+      "Clearly define the problem",
+      "Give up immediately",
+      "Ask the principal to buy more computers"
     ],
-    "correctAnswer": "42",
+    "correctAnswer": "Clearly define the problem",
     "subject": "Thinking Skills",
     "grade": 9,
     "difficulty": "easy",
-    "explanation": "Using inclusion-exclusion principle: 26 + 22 - 6 = 42 students like either pizza or burgers.",
-    "topic": "Set Theory Applications"
+    "explanation": "The first step in effective problem-solving is to clearly understand and define the problem.",
+    "_cacheBreaker": "1755265388241_14"
   },
   {
-    "_id": "grade9_easy_thinking-skills_016",
-    "content": "If x + 9 = 16, what is the value of x?",
+    "_id": "thinking_9_easy_1755262177015_016",
+    "scenario": "In a logic class, the teacher explains: 'All mammals are warm-blooded. Whales are mammals.' She asks students to use deductive reasoning.",
+    "content": "If the premises are true, what must be true about the conclusion 'Whales are warm-blooded'? (Question 16)",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "16",
-      "9",
-      "8"
+      "It might be true",
+      "It must be true",
+      "It's probably false",
+      "It cannot be determined"
     ],
-    "correctAnswer": "7",
+    "correctAnswer": "It must be true",
     "subject": "Thinking Skills",
     "grade": 9,
     "difficulty": "easy",
-    "explanation": "Solving x + 9 = 16: subtract 9 from both sides to get x = 7.",
-    "topic": "Basic Algebra"
+    "explanation": "In valid deductive reasoning, true premises guarantee a true conclusion.",
+    "_cacheBreaker": "1755265388241_15"
   },
   {
-    "_id": "grade9_easy_thinking-skills_017",
-    "content": "In a survey, 26 students like pizza, 15 like burgers, and 11 like both. How many like either pizza or burgers?",
+    "_id": "thinking_9_easy_1755262177015_017",
+    "scenario": "During a school debate, Alex argues: 'We should have longer lunch breaks because everyone in our class wants them.' The opposing team identifies a logical error.",
+    "content": "What type of fallacy is Alex using? (Question 17)",
     "type": "multiple_choice",
     "options": [
-      "30",
-      "41",
-      "52",
-      "15"
+      "Ad hominem",
+      "Bandwagon fallacy",
+      "Straw man",
+      "False dilemma"
     ],
-    "correctAnswer": "30",
+    "correctAnswer": "Bandwagon fallacy",
     "subject": "Thinking Skills",
     "grade": 9,
     "difficulty": "easy",
-    "explanation": "Using inclusion-exclusion principle: 26 + 15 - 11 = 30 students like either pizza or burgers.",
-    "topic": "Set Theory Applications"
+    "explanation": "Alex assumes something is right just because many people want it (appeal to popularity).",
+    "_cacheBreaker": "1755265388241_16"
   },
   {
-    "_id": "grade9_easy_thinking-skills_018",
-    "content": "If x + 5 = 14, what is the value of x?",
+    "_id": "thinking_9_easy_1755262177015_018",
+    "scenario": "Emma faces this problem: 'The school's computer lab has 20 computers, but 25 students need to use them during the same period.' She needs to find a solution.",
+    "content": "What should Emma do first in problem-solving? (Question 18)",
     "type": "multiple_choice",
     "options": [
-      "9",
-      "14",
-      "5",
-      "10"
+      "Try random solutions",
+      "Clearly define the problem",
+      "Give up immediately",
+      "Ask the principal to buy more computers"
     ],
-    "correctAnswer": "9",
+    "correctAnswer": "Clearly define the problem",
     "subject": "Thinking Skills",
     "grade": 9,
     "difficulty": "easy",
-    "explanation": "Solving x + 5 = 14: subtract 5 from both sides to get x = 9.",
-    "topic": "Basic Algebra"
+    "explanation": "The first step in effective problem-solving is to clearly understand and define the problem.",
+    "_cacheBreaker": "1755265388241_17"
   },
   {
-    "_id": "grade9_easy_thinking-skills_019",
-    "content": "In a survey, 20 students like pizza, 15 like burgers, and 7 like both. How many like either pizza or burgers?",
+    "_id": "thinking_9_easy_1755262177015_019",
+    "scenario": "In a logic class, the teacher explains: 'All mammals are warm-blooded. Whales are mammals.' She asks students to use deductive reasoning.",
+    "content": "If the premises are true, what must be true about the conclusion 'Whales are warm-blooded'? (Question 19)",
     "type": "multiple_choice",
     "options": [
-      "28",
-      "35",
-      "42",
-      "13"
+      "It might be true",
+      "It must be true",
+      "It's probably false",
+      "It cannot be determined"
     ],
-    "correctAnswer": "28",
+    "correctAnswer": "It must be true",
     "subject": "Thinking Skills",
     "grade": 9,
     "difficulty": "easy",
-    "explanation": "Using inclusion-exclusion principle: 20 + 15 - 7 = 28 students like either pizza or burgers.",
-    "topic": "Set Theory Applications"
+    "explanation": "In valid deductive reasoning, true premises guarantee a true conclusion.",
+    "_cacheBreaker": "1755265388241_18"
   },
   {
-    "_id": "grade9_easy_thinking-skills_020",
-    "content": "If x + 6 = 14, what is the value of x?",
+    "_id": "thinking_9_easy_1755262177015_020",
+    "scenario": "During a school debate, Alex argues: 'We should have longer lunch breaks because everyone in our class wants them.' The opposing team identifies a logical error.",
+    "content": "What type of fallacy is Alex using? (Question 20)",
     "type": "multiple_choice",
     "options": [
-      "8",
-      "14",
-      "6",
-      "9"
+      "Ad hominem",
+      "Bandwagon fallacy",
+      "Straw man",
+      "False dilemma"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "Bandwagon fallacy",
     "subject": "Thinking Skills",
     "grade": 9,
     "difficulty": "easy",
-    "explanation": "Solving x + 6 = 14: subtract 6 from both sides to get x = 8.",
-    "topic": "Basic Algebra"
+    "explanation": "Alex assumes something is right just because many people want it (appeal to popularity).",
+    "_cacheBreaker": "1755265388241_19"
   }
 ]

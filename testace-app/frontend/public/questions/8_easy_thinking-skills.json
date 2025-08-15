@@ -1,342 +1,362 @@
 [
   {
-    "_id": "grade8_easy_thinking-skills_001",
-    "content": "In a survey, 27 students like pizza, 20 like burgers, and 6 like both. How many like either pizza or burgers?",
+    "_id": "thinking_8_easy_1755262177013_001",
+    "scenario": "Lisa observes this pattern in her math class: 3, 6, 12, 24, ___. She needs to find the rule.",
+    "content": "What number comes next?",
     "type": "multiple_choice",
     "options": [
-      "41",
-      "47",
-      "53",
-      "21"
-    ],
-    "correctAnswer": "41",
-    "subject": "Thinking Skills",
-    "grade": 8,
-    "difficulty": "easy",
-    "explanation": "Using inclusion-exclusion principle: 27 + 20 - 6 = 41 students like either pizza or burgers.",
-    "topic": "Set Theory Applications"
-  },
-  {
-    "_id": "grade8_easy_thinking-skills_002",
-    "content": "If x + 4 = 14, what is the value of x?",
-    "type": "multiple_choice",
-    "options": [
-      "10",
-      "14",
-      "4",
-      "11"
-    ],
-    "correctAnswer": "10",
-    "subject": "Thinking Skills",
-    "grade": 8,
-    "difficulty": "easy",
-    "explanation": "Solving x + 4 = 14: subtract 4 from both sides to get x = 10.",
-    "topic": "Basic Algebra"
-  },
-  {
-    "_id": "grade8_easy_thinking-skills_003",
-    "content": "In a survey, 26 students like pizza, 18 like burgers, and 12 like both. How many like either pizza or burgers?",
-    "type": "multiple_choice",
-    "options": [
-      "32",
-      "44",
-      "56",
-      "14"
-    ],
-    "correctAnswer": "32",
-    "subject": "Thinking Skills",
-    "grade": 8,
-    "difficulty": "easy",
-    "explanation": "Using inclusion-exclusion principle: 26 + 18 - 12 = 32 students like either pizza or burgers.",
-    "topic": "Set Theory Applications"
-  },
-  {
-    "_id": "grade8_easy_thinking-skills_004",
-    "content": "If x + 7 = 18, what is the value of x?",
-    "type": "multiple_choice",
-    "options": [
-      "11",
-      "18",
-      "7",
-      "12"
-    ],
-    "correctAnswer": "11",
-    "subject": "Thinking Skills",
-    "grade": 8,
-    "difficulty": "easy",
-    "explanation": "Solving x + 7 = 18: subtract 7 from both sides to get x = 11.",
-    "topic": "Basic Algebra"
-  },
-  {
-    "_id": "grade8_easy_thinking-skills_005",
-    "content": "In a survey, 23 students like pizza, 21 like burgers, and 6 like both. How many like either pizza or burgers?",
-    "type": "multiple_choice",
-    "options": [
-      "38",
-      "44",
-      "50",
-      "17"
-    ],
-    "correctAnswer": "38",
-    "subject": "Thinking Skills",
-    "grade": 8,
-    "difficulty": "easy",
-    "explanation": "Using inclusion-exclusion principle: 23 + 21 - 6 = 38 students like either pizza or burgers.",
-    "topic": "Set Theory Applications"
-  },
-  {
-    "_id": "grade8_easy_thinking-skills_006",
-    "content": "If x + 3 = 13, what is the value of x?",
-    "type": "multiple_choice",
-    "options": [
-      "10",
-      "13",
-      "3",
-      "11"
-    ],
-    "correctAnswer": "10",
-    "subject": "Thinking Skills",
-    "grade": 8,
-    "difficulty": "easy",
-    "explanation": "Solving x + 3 = 13: subtract 3 from both sides to get x = 10.",
-    "topic": "Basic Algebra"
-  },
-  {
-    "_id": "grade8_easy_thinking-skills_007",
-    "content": "In a survey, 23 students like pizza, 16 like burgers, and 9 like both. How many like either pizza or burgers?",
-    "type": "multiple_choice",
-    "options": [
-      "30",
-      "39",
-      "48",
-      "14"
-    ],
-    "correctAnswer": "30",
-    "subject": "Thinking Skills",
-    "grade": 8,
-    "difficulty": "easy",
-    "explanation": "Using inclusion-exclusion principle: 23 + 16 - 9 = 30 students like either pizza or burgers.",
-    "topic": "Set Theory Applications"
-  },
-  {
-    "_id": "grade8_easy_thinking-skills_008",
-    "content": "If x + 7 = 10, what is the value of x?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "10",
-      "7",
-      "4"
-    ],
-    "correctAnswer": "3",
-    "subject": "Thinking Skills",
-    "grade": 8,
-    "difficulty": "easy",
-    "explanation": "Solving x + 7 = 10: subtract 7 from both sides to get x = 3.",
-    "topic": "Basic Algebra"
-  },
-  {
-    "_id": "grade8_easy_thinking-skills_009",
-    "content": "In a survey, 22 students like pizza, 20 like burgers, and 11 like both. How many like either pizza or burgers?",
-    "type": "multiple_choice",
-    "options": [
-      "31",
-      "42",
-      "53",
-      "11"
-    ],
-    "correctAnswer": "31",
-    "subject": "Thinking Skills",
-    "grade": 8,
-    "difficulty": "easy",
-    "explanation": "Using inclusion-exclusion principle: 22 + 20 - 11 = 31 students like either pizza or burgers.",
-    "topic": "Set Theory Applications"
-  },
-  {
-    "_id": "grade8_easy_thinking-skills_010",
-    "content": "If x + 6 = 17, what is the value of x?",
-    "type": "multiple_choice",
-    "options": [
-      "11",
-      "17",
-      "6",
-      "12"
-    ],
-    "correctAnswer": "11",
-    "subject": "Thinking Skills",
-    "grade": 8,
-    "difficulty": "easy",
-    "explanation": "Solving x + 6 = 17: subtract 6 from both sides to get x = 11.",
-    "topic": "Basic Algebra"
-  },
-  {
-    "_id": "grade8_easy_thinking-skills_011",
-    "content": "In a survey, 24 students like pizza, 16 like burgers, and 9 like both. How many like either pizza or burgers?",
-    "type": "multiple_choice",
-    "options": [
-      "31",
-      "40",
-      "49",
-      "15"
-    ],
-    "correctAnswer": "31",
-    "subject": "Thinking Skills",
-    "grade": 8,
-    "difficulty": "easy",
-    "explanation": "Using inclusion-exclusion principle: 24 + 16 - 9 = 31 students like either pizza or burgers.",
-    "topic": "Set Theory Applications"
-  },
-  {
-    "_id": "grade8_easy_thinking-skills_012",
-    "content": "If x + 5 = 11, what is the value of x?",
-    "type": "multiple_choice",
-    "options": [
-      "6",
-      "11",
-      "5",
-      "7"
-    ],
-    "correctAnswer": "6",
-    "subject": "Thinking Skills",
-    "grade": 8,
-    "difficulty": "easy",
-    "explanation": "Solving x + 5 = 11: subtract 5 from both sides to get x = 6.",
-    "topic": "Basic Algebra"
-  },
-  {
-    "_id": "grade8_easy_thinking-skills_013",
-    "content": "In a survey, 20 students like pizza, 16 like burgers, and 6 like both. How many like either pizza or burgers?",
-    "type": "multiple_choice",
-    "options": [
-      "30",
       "36",
-      "42",
-      "14"
+      "48",
+      "30",
+      "27"
     ],
-    "correctAnswer": "30",
+    "correctAnswer": "48",
     "subject": "Thinking Skills",
     "grade": 8,
     "difficulty": "easy",
-    "explanation": "Using inclusion-exclusion principle: 20 + 16 - 6 = 30 students like either pizza or burgers.",
-    "topic": "Set Theory Applications"
+    "explanation": "Each number doubles: 3×2=6, 6×2=12, 12×2=24, 24×2=48",
+    "_cacheBreaker": "1755265388228_0"
   },
   {
-    "_id": "grade8_easy_thinking-skills_014",
-    "content": "If x + 6 = 12, what is the value of x?",
+    "_id": "thinking_8_easy_1755262177013_002",
+    "scenario": "During a class discussion, Jake says: 'We should ban homework because I don't like it.' His teacher points out a problem with his reasoning.",
+    "content": "What's wrong with Jake's argument?",
     "type": "multiple_choice",
     "options": [
-      "6",
-      "12",
-      "6",
-      "7"
+      "It's based only on personal preference",
+      "It's too long",
+      "It's too short",
+      "It's perfectly logical"
     ],
-    "correctAnswer": "6",
+    "correctAnswer": "It's based only on personal preference",
     "subject": "Thinking Skills",
     "grade": 8,
     "difficulty": "easy",
-    "explanation": "Solving x + 6 = 12: subtract 6 from both sides to get x = 6.",
-    "topic": "Basic Algebra"
+    "explanation": "Jake's argument is weak because it's based only on his personal feelings, not logical reasons.",
+    "_cacheBreaker": "1755265388228_1"
   },
   {
-    "_id": "grade8_easy_thinking-skills_015",
-    "content": "In a survey, 24 students like pizza, 22 like burgers, and 8 like both. How many like either pizza or burgers?",
+    "_id": "thinking_8_easy_1755262177013_003",
+    "scenario": "The school cafeteria problem: 'We have 200 students but only 150 lunch trays.' The principal needs to solve this.",
+    "content": "What should the principal do first?",
     "type": "multiple_choice",
     "options": [
-      "38",
-      "46",
-      "54",
-      "16"
+      "Buy more trays immediately",
+      "Understand the full situation",
+      "Ignore the problem",
+      "Blame the students"
     ],
-    "correctAnswer": "38",
+    "correctAnswer": "Understand the full situation",
     "subject": "Thinking Skills",
     "grade": 8,
     "difficulty": "easy",
-    "explanation": "Using inclusion-exclusion principle: 24 + 22 - 8 = 38 students like either pizza or burgers.",
-    "topic": "Set Theory Applications"
+    "explanation": "Good problem-solving starts with fully understanding the situation.",
+    "_cacheBreaker": "1755265388228_2"
   },
   {
-    "_id": "grade8_easy_thinking-skills_016",
-    "content": "If x + 10 = 18, what is the value of x?",
+    "_id": "thinking_8_easy_1755262177013_004",
+    "scenario": "Lisa observes this pattern in her math class: 3, 6, 12, 24, ___. She needs to find the rule.",
+    "content": "What number comes next? (Question 4)",
     "type": "multiple_choice",
     "options": [
-      "8",
-      "18",
-      "10",
-      "9"
+      "36",
+      "48",
+      "30",
+      "27"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "48",
     "subject": "Thinking Skills",
     "grade": 8,
     "difficulty": "easy",
-    "explanation": "Solving x + 10 = 18: subtract 10 from both sides to get x = 8.",
-    "topic": "Basic Algebra"
+    "explanation": "Each number doubles: 3×2=6, 6×2=12, 12×2=24, 24×2=48",
+    "_cacheBreaker": "1755265388228_3"
   },
   {
-    "_id": "grade8_easy_thinking-skills_017",
-    "content": "In a survey, 27 students like pizza, 17 like burgers, and 7 like both. How many like either pizza or burgers?",
+    "_id": "thinking_8_easy_1755262177013_005",
+    "scenario": "During a class discussion, Jake says: 'We should ban homework because I don't like it.' His teacher points out a problem with his reasoning.",
+    "content": "What's wrong with Jake's argument? (Question 5)",
     "type": "multiple_choice",
     "options": [
-      "37",
-      "44",
-      "51",
-      "20"
+      "It's based only on personal preference",
+      "It's too long",
+      "It's too short",
+      "It's perfectly logical"
     ],
-    "correctAnswer": "37",
+    "correctAnswer": "It's based only on personal preference",
     "subject": "Thinking Skills",
     "grade": 8,
     "difficulty": "easy",
-    "explanation": "Using inclusion-exclusion principle: 27 + 17 - 7 = 37 students like either pizza or burgers.",
-    "topic": "Set Theory Applications"
+    "explanation": "Jake's argument is weak because it's based only on his personal feelings, not logical reasons.",
+    "_cacheBreaker": "1755265388228_4"
   },
   {
-    "_id": "grade8_easy_thinking-skills_018",
-    "content": "If x + 6 = 19, what is the value of x?",
+    "_id": "thinking_8_easy_1755262177013_006",
+    "scenario": "The school cafeteria problem: 'We have 200 students but only 150 lunch trays.' The principal needs to solve this.",
+    "content": "What should the principal do first? (Question 6)",
     "type": "multiple_choice",
     "options": [
-      "13",
-      "19",
-      "6",
-      "14"
+      "Buy more trays immediately",
+      "Understand the full situation",
+      "Ignore the problem",
+      "Blame the students"
     ],
-    "correctAnswer": "13",
+    "correctAnswer": "Understand the full situation",
     "subject": "Thinking Skills",
     "grade": 8,
     "difficulty": "easy",
-    "explanation": "Solving x + 6 = 19: subtract 6 from both sides to get x = 13.",
-    "topic": "Basic Algebra"
+    "explanation": "Good problem-solving starts with fully understanding the situation.",
+    "_cacheBreaker": "1755265388228_5"
   },
   {
-    "_id": "grade8_easy_thinking-skills_019",
-    "content": "In a survey, 21 students like pizza, 22 like burgers, and 10 like both. How many like either pizza or burgers?",
+    "_id": "thinking_8_easy_1755262177013_007",
+    "scenario": "Lisa observes this pattern in her math class: 3, 6, 12, 24, ___. She needs to find the rule.",
+    "content": "What number comes next? (Question 7)",
     "type": "multiple_choice",
     "options": [
-      "33",
-      "43",
-      "53",
-      "11"
+      "36",
+      "48",
+      "30",
+      "27"
     ],
-    "correctAnswer": "33",
+    "correctAnswer": "48",
     "subject": "Thinking Skills",
     "grade": 8,
     "difficulty": "easy",
-    "explanation": "Using inclusion-exclusion principle: 21 + 22 - 10 = 33 students like either pizza or burgers.",
-    "topic": "Set Theory Applications"
+    "explanation": "Each number doubles: 3×2=6, 6×2=12, 12×2=24, 24×2=48",
+    "_cacheBreaker": "1755265388228_6"
   },
   {
-    "_id": "grade8_easy_thinking-skills_020",
-    "content": "If x + 5 = 19, what is the value of x?",
+    "_id": "thinking_8_easy_1755262177013_008",
+    "scenario": "During a class discussion, Jake says: 'We should ban homework because I don't like it.' His teacher points out a problem with his reasoning.",
+    "content": "What's wrong with Jake's argument? (Question 8)",
     "type": "multiple_choice",
     "options": [
-      "14",
-      "19",
-      "5",
-      "15"
+      "It's based only on personal preference",
+      "It's too long",
+      "It's too short",
+      "It's perfectly logical"
     ],
-    "correctAnswer": "14",
+    "correctAnswer": "It's based only on personal preference",
     "subject": "Thinking Skills",
     "grade": 8,
     "difficulty": "easy",
-    "explanation": "Solving x + 5 = 19: subtract 5 from both sides to get x = 14.",
-    "topic": "Basic Algebra"
+    "explanation": "Jake's argument is weak because it's based only on his personal feelings, not logical reasons.",
+    "_cacheBreaker": "1755265388228_7"
+  },
+  {
+    "_id": "thinking_8_easy_1755262177013_009",
+    "scenario": "The school cafeteria problem: 'We have 200 students but only 150 lunch trays.' The principal needs to solve this.",
+    "content": "What should the principal do first? (Question 9)",
+    "type": "multiple_choice",
+    "options": [
+      "Buy more trays immediately",
+      "Understand the full situation",
+      "Ignore the problem",
+      "Blame the students"
+    ],
+    "correctAnswer": "Understand the full situation",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "Good problem-solving starts with fully understanding the situation.",
+    "_cacheBreaker": "1755265388228_8"
+  },
+  {
+    "_id": "thinking_8_easy_1755262177013_010",
+    "scenario": "Lisa observes this pattern in her math class: 3, 6, 12, 24, ___. She needs to find the rule.",
+    "content": "What number comes next? (Question 10)",
+    "type": "multiple_choice",
+    "options": [
+      "36",
+      "48",
+      "30",
+      "27"
+    ],
+    "correctAnswer": "48",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "Each number doubles: 3×2=6, 6×2=12, 12×2=24, 24×2=48",
+    "_cacheBreaker": "1755265388228_9"
+  },
+  {
+    "_id": "thinking_8_easy_1755262177013_011",
+    "scenario": "During a class discussion, Jake says: 'We should ban homework because I don't like it.' His teacher points out a problem with his reasoning.",
+    "content": "What's wrong with Jake's argument? (Question 11)",
+    "type": "multiple_choice",
+    "options": [
+      "It's based only on personal preference",
+      "It's too long",
+      "It's too short",
+      "It's perfectly logical"
+    ],
+    "correctAnswer": "It's based only on personal preference",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "Jake's argument is weak because it's based only on his personal feelings, not logical reasons.",
+    "_cacheBreaker": "1755265388228_10"
+  },
+  {
+    "_id": "thinking_8_easy_1755262177013_012",
+    "scenario": "The school cafeteria problem: 'We have 200 students but only 150 lunch trays.' The principal needs to solve this.",
+    "content": "What should the principal do first? (Question 12)",
+    "type": "multiple_choice",
+    "options": [
+      "Buy more trays immediately",
+      "Understand the full situation",
+      "Ignore the problem",
+      "Blame the students"
+    ],
+    "correctAnswer": "Understand the full situation",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "Good problem-solving starts with fully understanding the situation.",
+    "_cacheBreaker": "1755265388228_11"
+  },
+  {
+    "_id": "thinking_8_easy_1755262177013_013",
+    "scenario": "Lisa observes this pattern in her math class: 3, 6, 12, 24, ___. She needs to find the rule.",
+    "content": "What number comes next? (Question 13)",
+    "type": "multiple_choice",
+    "options": [
+      "36",
+      "48",
+      "30",
+      "27"
+    ],
+    "correctAnswer": "48",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "Each number doubles: 3×2=6, 6×2=12, 12×2=24, 24×2=48",
+    "_cacheBreaker": "1755265388228_12"
+  },
+  {
+    "_id": "thinking_8_easy_1755262177013_014",
+    "scenario": "During a class discussion, Jake says: 'We should ban homework because I don't like it.' His teacher points out a problem with his reasoning.",
+    "content": "What's wrong with Jake's argument? (Question 14)",
+    "type": "multiple_choice",
+    "options": [
+      "It's based only on personal preference",
+      "It's too long",
+      "It's too short",
+      "It's perfectly logical"
+    ],
+    "correctAnswer": "It's based only on personal preference",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "Jake's argument is weak because it's based only on his personal feelings, not logical reasons.",
+    "_cacheBreaker": "1755265388228_13"
+  },
+  {
+    "_id": "thinking_8_easy_1755262177013_015",
+    "scenario": "The school cafeteria problem: 'We have 200 students but only 150 lunch trays.' The principal needs to solve this.",
+    "content": "What should the principal do first? (Question 15)",
+    "type": "multiple_choice",
+    "options": [
+      "Buy more trays immediately",
+      "Understand the full situation",
+      "Ignore the problem",
+      "Blame the students"
+    ],
+    "correctAnswer": "Understand the full situation",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "Good problem-solving starts with fully understanding the situation.",
+    "_cacheBreaker": "1755265388228_14"
+  },
+  {
+    "_id": "thinking_8_easy_1755262177013_016",
+    "scenario": "Lisa observes this pattern in her math class: 3, 6, 12, 24, ___. She needs to find the rule.",
+    "content": "What number comes next? (Question 16)",
+    "type": "multiple_choice",
+    "options": [
+      "36",
+      "48",
+      "30",
+      "27"
+    ],
+    "correctAnswer": "48",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "Each number doubles: 3×2=6, 6×2=12, 12×2=24, 24×2=48",
+    "_cacheBreaker": "1755265388228_15"
+  },
+  {
+    "_id": "thinking_8_easy_1755262177013_017",
+    "scenario": "During a class discussion, Jake says: 'We should ban homework because I don't like it.' His teacher points out a problem with his reasoning.",
+    "content": "What's wrong with Jake's argument? (Question 17)",
+    "type": "multiple_choice",
+    "options": [
+      "It's based only on personal preference",
+      "It's too long",
+      "It's too short",
+      "It's perfectly logical"
+    ],
+    "correctAnswer": "It's based only on personal preference",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "Jake's argument is weak because it's based only on his personal feelings, not logical reasons.",
+    "_cacheBreaker": "1755265388228_16"
+  },
+  {
+    "_id": "thinking_8_easy_1755262177013_018",
+    "scenario": "The school cafeteria problem: 'We have 200 students but only 150 lunch trays.' The principal needs to solve this.",
+    "content": "What should the principal do first? (Question 18)",
+    "type": "multiple_choice",
+    "options": [
+      "Buy more trays immediately",
+      "Understand the full situation",
+      "Ignore the problem",
+      "Blame the students"
+    ],
+    "correctAnswer": "Understand the full situation",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "Good problem-solving starts with fully understanding the situation.",
+    "_cacheBreaker": "1755265388228_17"
+  },
+  {
+    "_id": "thinking_8_easy_1755262177013_019",
+    "scenario": "Lisa observes this pattern in her math class: 3, 6, 12, 24, ___. She needs to find the rule.",
+    "content": "What number comes next? (Question 19)",
+    "type": "multiple_choice",
+    "options": [
+      "36",
+      "48",
+      "30",
+      "27"
+    ],
+    "correctAnswer": "48",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "Each number doubles: 3×2=6, 6×2=12, 12×2=24, 24×2=48",
+    "_cacheBreaker": "1755265388228_18"
+  },
+  {
+    "_id": "thinking_8_easy_1755262177013_020",
+    "scenario": "During a class discussion, Jake says: 'We should ban homework because I don't like it.' His teacher points out a problem with his reasoning.",
+    "content": "What's wrong with Jake's argument? (Question 20)",
+    "type": "multiple_choice",
+    "options": [
+      "It's based only on personal preference",
+      "It's too long",
+      "It's too short",
+      "It's perfectly logical"
+    ],
+    "correctAnswer": "It's based only on personal preference",
+    "subject": "Thinking Skills",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "Jake's argument is weak because it's based only on his personal feelings, not logical reasons.",
+    "_cacheBreaker": "1755265388228_19"
   }
 ]

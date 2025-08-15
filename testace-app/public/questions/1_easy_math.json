@@ -1,39 +1,7 @@
 [
   {
-    "_id": "grade1_easy_math_001",
-    "content": "What is 2 + 3?",
-    "type": "multiple_choice",
-    "options": [
-      "4",
-      "5",
-      "6",
-      "7"
-    ],
-    "correctAnswer": "5",
-    "subject": "Mathematics",
-    "grade": 1,
-    "difficulty": "easy",
-    "explanation": "2 + 3 = 5"
-  },
-  {
-    "_id": "grade1_easy_math_002",
-    "content": "What is 7 - 4?",
-    "type": "multiple_choice",
-    "options": [
-      "2",
-      "3",
-      "4",
-      "11"
-    ],
-    "correctAnswer": "3",
-    "subject": "Mathematics",
-    "grade": 1,
-    "difficulty": "easy",
-    "explanation": "7 - 4 = 3"
-  },
-  {
-    "_id": "grade1_easy_math_003",
-    "content": "Count: 🍎🍎🍎. How many apples?",
+    "_id": "easy1_1755260948241_001",
+    "content": "Count the apples: 🍎🍎🍎. How many apples are there?",
     "type": "multiple_choice",
     "options": [
       "2",
@@ -41,282 +9,314 @@
       "4",
       "5"
     ],
-    "correctAnswer": "3",
+    "correct_answer": "3",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "There are 3 apples."
+    "explanation": "Count each apple: 1, 2, 3. There are 3 apples."
   },
   {
-    "_id": "grade1_easy_math_004",
-    "content": "What comes after 8?",
+    "_id": "easy1_1755260948241_002",
+    "content": "What is 2 + 1?",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "9",
-      "10",
-      "6"
+      "2",
+      "3",
+      "4",
+      "1"
     ],
-    "correctAnswer": "9",
+    "correct_answer": "3",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "The number after 8 is 9."
+    "explanation": "When you add 2 + 1, you get 3."
   },
   {
-    "_id": "grade1_easy_math_005",
-    "content": "What is 5 + 2?",
-    "type": "multiple_choice",
-    "options": [
-      "6",
-      "7",
-      "8",
-      "3"
-    ],
-    "correctAnswer": "7",
-    "subject": "Mathematics",
-    "grade": 1,
-    "difficulty": "easy",
-    "explanation": "5 + 2 = 7"
-  },
-  {
-    "_id": "grade1_easy_math_006",
-    "content": "What is 2 + 3?",
+    "_id": "easy1_1755260948241_003",
+    "content": "Count the stars: ⭐⭐⭐⭐⭐. How many stars?",
     "type": "multiple_choice",
     "options": [
       "4",
       "5",
       "6",
-      "7"
+      "3"
     ],
-    "correctAnswer": "5",
+    "correct_answer": "5",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "2 + 3 = 5"
+    "explanation": "Count each star: 1, 2, 3, 4, 5. There are 5 stars."
   },
   {
-    "_id": "grade1_easy_math_007",
-    "content": "What is 7 - 4?",
+    "_id": "easy1_1755260948241_004",
+    "content": "What is 2 + 1?",
     "type": "multiple_choice",
     "options": [
-      "2",
       "3",
       "4",
-      "11"
-    ],
-    "correctAnswer": "3",
-    "subject": "Mathematics",
-    "grade": 1,
-    "difficulty": "easy",
-    "explanation": "7 - 4 = 3"
-  },
-  {
-    "_id": "grade1_easy_math_008",
-    "content": "Count: 🍎🍎🍎. How many apples?",
-    "type": "multiple_choice",
-    "options": [
       "2",
-      "3",
-      "4",
       "5"
     ],
-    "correctAnswer": "3",
+    "correct_answer": "3",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "There are 3 apples."
+    "explanation": "The correct answer is 3."
   },
   {
-    "_id": "grade1_easy_math_009",
-    "content": "What comes after 8?",
+    "_id": "easy1_1755260948241_005",
+    "content": "Count the hearts: ❤️❤️❤️. How many hearts?",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "9",
-      "10",
-      "6"
+      "3",
+      "4",
+      "2",
+      "5"
     ],
-    "correctAnswer": "9",
+    "correct_answer": "3",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "The number after 8 is 9."
+    "explanation": "The correct answer is 3."
   },
   {
-    "_id": "grade1_easy_math_010",
-    "content": "What is 5 + 2?",
+    "_id": "easy1_1755260948241_006",
+    "content": "What comes after 5?",
     "type": "multiple_choice",
     "options": [
       "6",
       "7",
-      "8",
-      "3"
-    ],
-    "correctAnswer": "7",
-    "subject": "Mathematics",
-    "grade": 1,
-    "difficulty": "easy",
-    "explanation": "5 + 2 = 7"
-  },
-  {
-    "_id": "grade1_easy_math_011",
-    "content": "What is 2 + 3?",
-    "type": "multiple_choice",
-    "options": [
-      "4",
       "5",
-      "6",
-      "7"
+      "8"
     ],
-    "correctAnswer": "5",
+    "correct_answer": "6",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "2 + 3 = 5"
+    "explanation": "The correct answer is 6."
   },
   {
-    "_id": "grade1_easy_math_012",
-    "content": "What is 7 - 4?",
-    "type": "multiple_choice",
-    "options": [
-      "2",
-      "3",
-      "4",
-      "11"
-    ],
-    "correctAnswer": "3",
-    "subject": "Mathematics",
-    "grade": 1,
-    "difficulty": "easy",
-    "explanation": "7 - 4 = 3"
-  },
-  {
-    "_id": "grade1_easy_math_013",
-    "content": "Count: 🍎🍎🍎. How many apples?",
-    "type": "multiple_choice",
-    "options": [
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "correctAnswer": "3",
-    "subject": "Mathematics",
-    "grade": 1,
-    "difficulty": "easy",
-    "explanation": "There are 3 apples."
-  },
-  {
-    "_id": "grade1_easy_math_014",
-    "content": "What comes after 8?",
-    "type": "multiple_choice",
-    "options": [
-      "7",
-      "9",
-      "10",
-      "6"
-    ],
-    "correctAnswer": "9",
-    "subject": "Mathematics",
-    "grade": 1,
-    "difficulty": "easy",
-    "explanation": "The number after 8 is 9."
-  },
-  {
-    "_id": "grade1_easy_math_015",
-    "content": "What is 5 + 2?",
+    "_id": "easy1_1755260948241_007",
+    "content": "What is 5 + 1?",
     "type": "multiple_choice",
     "options": [
       "6",
       "7",
-      "8",
-      "3"
-    ],
-    "correctAnswer": "7",
-    "subject": "Mathematics",
-    "grade": 1,
-    "difficulty": "easy",
-    "explanation": "5 + 2 = 7"
-  },
-  {
-    "_id": "grade1_easy_math_016",
-    "content": "What is 2 + 3?",
-    "type": "multiple_choice",
-    "options": [
-      "4",
       "5",
+      "8"
+    ],
+    "correct_answer": "6",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The correct answer is 6."
+  },
+  {
+    "_id": "easy1_1755260948241_008",
+    "content": "Count the hearts: ❤️❤️❤️❤️❤️❤️. How many hearts?",
+    "type": "multiple_choice",
+    "options": [
       "6",
-      "7"
+      "7",
+      "5",
+      "8"
     ],
-    "correctAnswer": "5",
+    "correct_answer": "6",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "2 + 3 = 5"
+    "explanation": "The correct answer is 6."
   },
   {
-    "_id": "grade1_easy_math_017",
-    "content": "What is 7 - 4?",
-    "type": "multiple_choice",
-    "options": [
-      "2",
-      "3",
-      "4",
-      "11"
-    ],
-    "correctAnswer": "3",
-    "subject": "Mathematics",
-    "grade": 1,
-    "difficulty": "easy",
-    "explanation": "7 - 4 = 3"
-  },
-  {
-    "_id": "grade1_easy_math_018",
-    "content": "Count: 🍎🍎🍎. How many apples?",
-    "type": "multiple_choice",
-    "options": [
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "correctAnswer": "3",
-    "subject": "Mathematics",
-    "grade": 1,
-    "difficulty": "easy",
-    "explanation": "There are 3 apples."
-  },
-  {
-    "_id": "grade1_easy_math_019",
+    "_id": "easy1_1755260948241_009",
     "content": "What comes after 8?",
     "type": "multiple_choice",
     "options": [
-      "7",
       "9",
       "10",
-      "6"
+      "8",
+      "11"
     ],
-    "correctAnswer": "9",
+    "correct_answer": "9",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "The number after 8 is 9."
+    "explanation": "The correct answer is 9."
   },
   {
-    "_id": "grade1_easy_math_020",
-    "content": "What is 5 + 2?",
+    "_id": "easy1_1755260948241_010",
+    "content": "What is 8 + 1?",
     "type": "multiple_choice",
     "options": [
-      "6",
-      "7",
+      "9",
+      "10",
       "8",
-      "3"
+      "11"
     ],
-    "correctAnswer": "7",
+    "correct_answer": "9",
     "subject": "Mathematics",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "5 + 2 = 7"
+    "explanation": "The correct answer is 9."
+  },
+  {
+    "_id": "easy1_1755260948241_011",
+    "content": "Count the hearts: ❤️❤️❤️❤️❤️❤️❤️❤️❤️. How many hearts?",
+    "type": "multiple_choice",
+    "options": [
+      "9",
+      "10",
+      "8",
+      "11"
+    ],
+    "correct_answer": "9",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The correct answer is 9."
+  },
+  {
+    "_id": "easy1_1755260948241_012",
+    "content": "What comes after 11?",
+    "type": "multiple_choice",
+    "options": [
+      "12",
+      "13",
+      "11",
+      "14"
+    ],
+    "correct_answer": "12",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The correct answer is 12."
+  },
+  {
+    "_id": "easy1_1755260948241_013",
+    "content": "What is 11 + 1?",
+    "type": "multiple_choice",
+    "options": [
+      "12",
+      "13",
+      "11",
+      "14"
+    ],
+    "correct_answer": "12",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The correct answer is 12."
+  },
+  {
+    "_id": "easy1_1755260948241_014",
+    "content": "Count the hearts: ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️. How many hearts?",
+    "type": "multiple_choice",
+    "options": [
+      "12",
+      "13",
+      "11",
+      "14"
+    ],
+    "correct_answer": "12",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The correct answer is 12."
+  },
+  {
+    "_id": "easy1_1755260948241_015",
+    "content": "What comes after 14?",
+    "type": "multiple_choice",
+    "options": [
+      "15",
+      "16",
+      "14",
+      "17"
+    ],
+    "correct_answer": "15",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The correct answer is 15."
+  },
+  {
+    "_id": "easy1_1755260948241_016",
+    "content": "What is 14 + 1?",
+    "type": "multiple_choice",
+    "options": [
+      "15",
+      "16",
+      "14",
+      "17"
+    ],
+    "correct_answer": "15",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The correct answer is 15."
+  },
+  {
+    "_id": "easy1_1755260948241_017",
+    "content": "Count the hearts: ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️. How many hearts?",
+    "type": "multiple_choice",
+    "options": [
+      "15",
+      "16",
+      "14",
+      "17"
+    ],
+    "correct_answer": "15",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The correct answer is 15."
+  },
+  {
+    "_id": "easy1_1755260948241_018",
+    "content": "What comes after 17?",
+    "type": "multiple_choice",
+    "options": [
+      "18",
+      "19",
+      "17",
+      "20"
+    ],
+    "correct_answer": "18",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The correct answer is 18."
+  },
+  {
+    "_id": "easy1_1755260948241_019",
+    "content": "What is 17 + 1?",
+    "type": "multiple_choice",
+    "options": [
+      "18",
+      "19",
+      "17",
+      "20"
+    ],
+    "correct_answer": "18",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The correct answer is 18."
+  },
+  {
+    "_id": "easy1_1755260948241_020",
+    "content": "Count the hearts: ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️. How many hearts?",
+    "type": "multiple_choice",
+    "options": [
+      "18",
+      "19",
+      "17",
+      "20"
+    ],
+    "correct_answer": "18",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The correct answer is 18."
   }
 ]

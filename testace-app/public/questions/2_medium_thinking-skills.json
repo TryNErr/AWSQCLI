@@ -1,342 +1,342 @@
 [
   {
-    "_id": "grade2_medium_thinking-skills_001",
-    "content": "A box contains 9 red balls and 2 blue balls. If you pick one ball without looking, what is the probability it will be red?",
+    "_id": "thinking_2_medium_1755262176984_001",
+    "scenario": "Look at these shapes: ⭐ ⭐ 🔵 ⭐. Most shapes are the same, but one is different.",
+    "content": "Which shape is different?",
     "type": "multiple_choice",
     "options": [
-      "9/11",
-      "2/11",
-      "1/2",
-      "9/2"
+      "First star",
+      "Second star",
+      "Blue circle",
+      "Last star"
     ],
-    "correctAnswer": "9/11",
+    "correctAnswer": "Blue circle",
     "subject": "Thinking Skills",
     "grade": 2,
     "difficulty": "medium",
-    "explanation": "There are 9 red balls out of 11 total balls, so the probability is 9/11.",
-    "topic": "Basic Probability"
+    "explanation": "The blue circle is different from the stars."
   },
   {
-    "_id": "grade2_medium_thinking-skills_002",
-    "content": "If all dogs are animals, and Buddy is a dog, what can we conclude?",
+    "_id": "thinking_2_medium_1755262176984_002",
+    "scenario": "Tommy has this pattern: Big, Small, Big, Small, Big. He wants to continue it.",
+    "content": "What should come next?",
     "type": "multiple_choice",
     "options": [
-      "Buddy is not an animal",
-      "Buddy is an animal",
-      "Some dogs are not animals",
-      "Cannot tell"
+      "Big",
+      "Small",
+      "Medium",
+      "Tiny"
     ],
-    "correctAnswer": "Buddy is an animal",
+    "correctAnswer": "Small",
     "subject": "Thinking Skills",
     "grade": 2,
     "difficulty": "medium",
-    "explanation": "Since all dogs are animals and Buddy is a dog, Buddy must be an animal.",
-    "topic": "Logical Deduction"
+    "explanation": "The pattern alternates Big, Small, so Small comes next."
   },
   {
-    "_id": "grade2_medium_thinking-skills_003",
-    "content": "A farmer has chickens and rabbits. He counts 8 heads and 30 legs. How many chickens are there?",
+    "_id": "thinking_2_medium_1755262176984_003",
+    "scenario": "All dogs have four legs. Spot is a dog.",
+    "content": "How many legs does Spot have?",
     "type": "multiple_choice",
     "options": [
-      "1",
-      "7",
-      "8",
-      "15"
+      "Two",
+      "Three",
+      "Four",
+      "Five"
     ],
-    "correctAnswer": "1",
+    "correctAnswer": "Four",
     "subject": "Thinking Skills",
     "grade": 2,
     "difficulty": "medium",
-    "explanation": "If all were chickens: 8×2=16 legs. Extra legs: 30-16=14. Each rabbit adds 2 extra legs, so 7 rabbits. Therefore 8-7=1 chickens.",
-    "topic": "Problem Solving with Systems"
+    "explanation": "Since all dogs have four legs and Spot is a dog, Spot has four legs."
   },
   {
-    "_id": "grade2_medium_thinking-skills_004",
-    "content": "A box contains 7 red balls and 5 blue balls. If you pick one ball without looking, what is the probability it will be red?",
+    "_id": "thinking_2_medium_1755262176984_004",
+    "scenario": "Look at these shapes: ⭐ ⭐ 🔵 ⭐. Most shapes are the same, but one is different.",
+    "content": "Which shape is different? (Question 4)",
     "type": "multiple_choice",
     "options": [
-      "7/12",
-      "5/12",
-      "1/2",
-      "7/5"
+      "First star",
+      "Second star",
+      "Blue circle",
+      "Last star"
     ],
-    "correctAnswer": "7/12",
+    "correctAnswer": "Blue circle",
     "subject": "Thinking Skills",
     "grade": 2,
     "difficulty": "medium",
-    "explanation": "There are 7 red balls out of 12 total balls, so the probability is 7/12.",
-    "topic": "Basic Probability"
+    "explanation": "The blue circle is different from the stars."
   },
   {
-    "_id": "grade2_medium_thinking-skills_005",
-    "content": "If all dogs are animals, and Fluffy is a dog, what can we conclude?",
+    "_id": "thinking_2_medium_1755262176984_005",
+    "scenario": "Tommy has this pattern: Big, Small, Big, Small, Big. He wants to continue it.",
+    "content": "What should come next? (Question 5)",
     "type": "multiple_choice",
     "options": [
-      "Fluffy is not an animal",
-      "Fluffy is an animal",
-      "Some dogs are not animals",
-      "Cannot tell"
+      "Big",
+      "Small",
+      "Medium",
+      "Tiny"
     ],
-    "correctAnswer": "Fluffy is an animal",
+    "correctAnswer": "Small",
     "subject": "Thinking Skills",
     "grade": 2,
     "difficulty": "medium",
-    "explanation": "Since all dogs are animals and Fluffy is a dog, Fluffy must be an animal.",
-    "topic": "Logical Deduction"
+    "explanation": "The pattern alternates Big, Small, so Small comes next."
   },
   {
-    "_id": "grade2_medium_thinking-skills_006",
-    "content": "A farmer has chickens and rabbits. He counts 8 heads and 22 legs. How many chickens are there?",
+    "_id": "thinking_2_medium_1755262176984_006",
+    "scenario": "All dogs have four legs. Spot is a dog.",
+    "content": "How many legs does Spot have? (Question 6)",
     "type": "multiple_choice",
     "options": [
-      "5",
-      "3",
-      "8",
-      "11"
+      "Two",
+      "Three",
+      "Four",
+      "Five"
     ],
-    "correctAnswer": "5",
+    "correctAnswer": "Four",
     "subject": "Thinking Skills",
     "grade": 2,
     "difficulty": "medium",
-    "explanation": "If all were chickens: 8×2=16 legs. Extra legs: 22-16=6. Each rabbit adds 2 extra legs, so 3 rabbits. Therefore 8-3=5 chickens.",
-    "topic": "Problem Solving with Systems"
+    "explanation": "Since all dogs have four legs and Spot is a dog, Spot has four legs."
   },
   {
-    "_id": "grade2_medium_thinking-skills_007",
-    "content": "A box contains 6 red balls and 5 blue balls. If you pick one ball without looking, what is the probability it will be red?",
+    "_id": "thinking_2_medium_1755262176984_007",
+    "scenario": "Look at these shapes: ⭐ ⭐ 🔵 ⭐. Most shapes are the same, but one is different.",
+    "content": "Which shape is different? (Question 7)",
     "type": "multiple_choice",
     "options": [
-      "6/11",
-      "5/11",
-      "1/2",
-      "6/5"
+      "First star",
+      "Second star",
+      "Blue circle",
+      "Last star"
     ],
-    "correctAnswer": "6/11",
+    "correctAnswer": "Blue circle",
     "subject": "Thinking Skills",
     "grade": 2,
     "difficulty": "medium",
-    "explanation": "There are 6 red balls out of 11 total balls, so the probability is 6/11.",
-    "topic": "Basic Probability"
+    "explanation": "The blue circle is different from the stars."
   },
   {
-    "_id": "grade2_medium_thinking-skills_008",
-    "content": "If all cats are animals, and Charlie is a cat, what can we conclude?",
+    "_id": "thinking_2_medium_1755262176984_008",
+    "scenario": "Tommy has this pattern: Big, Small, Big, Small, Big. He wants to continue it.",
+    "content": "What should come next? (Question 8)",
     "type": "multiple_choice",
     "options": [
-      "Charlie is not an animal",
-      "Charlie is an animal",
-      "Some cats are not animals",
-      "Cannot tell"
+      "Big",
+      "Small",
+      "Medium",
+      "Tiny"
     ],
-    "correctAnswer": "Charlie is an animal",
+    "correctAnswer": "Small",
     "subject": "Thinking Skills",
     "grade": 2,
     "difficulty": "medium",
-    "explanation": "Since all cats are animals and Charlie is a cat, Charlie must be an animal.",
-    "topic": "Logical Deduction"
+    "explanation": "The pattern alternates Big, Small, so Small comes next."
   },
   {
-    "_id": "grade2_medium_thinking-skills_009",
-    "content": "A farmer has chickens and rabbits. He counts 11 heads and 42 legs. How many chickens are there?",
+    "_id": "thinking_2_medium_1755262176984_009",
+    "scenario": "All dogs have four legs. Spot is a dog.",
+    "content": "How many legs does Spot have? (Question 9)",
     "type": "multiple_choice",
     "options": [
-      "1",
-      "10",
-      "11",
-      "21"
+      "Two",
+      "Three",
+      "Four",
+      "Five"
     ],
-    "correctAnswer": "1",
+    "correctAnswer": "Four",
     "subject": "Thinking Skills",
     "grade": 2,
     "difficulty": "medium",
-    "explanation": "If all were chickens: 11×2=22 legs. Extra legs: 42-22=20. Each rabbit adds 2 extra legs, so 10 rabbits. Therefore 11-10=1 chickens.",
-    "topic": "Problem Solving with Systems"
+    "explanation": "Since all dogs have four legs and Spot is a dog, Spot has four legs."
   },
   {
-    "_id": "grade2_medium_thinking-skills_010",
-    "content": "A box contains 7 red balls and 3 blue balls. If you pick one ball without looking, what is the probability it will be red?",
+    "_id": "thinking_2_medium_1755262176984_010",
+    "scenario": "Look at these shapes: ⭐ ⭐ 🔵 ⭐. Most shapes are the same, but one is different.",
+    "content": "Which shape is different? (Question 10)",
     "type": "multiple_choice",
     "options": [
-      "7/10",
-      "3/10",
-      "1/2",
-      "7/3"
+      "First star",
+      "Second star",
+      "Blue circle",
+      "Last star"
     ],
-    "correctAnswer": "7/10",
+    "correctAnswer": "Blue circle",
     "subject": "Thinking Skills",
     "grade": 2,
     "difficulty": "medium",
-    "explanation": "There are 7 red balls out of 10 total balls, so the probability is 7/10.",
-    "topic": "Basic Probability"
+    "explanation": "The blue circle is different from the stars."
   },
   {
-    "_id": "grade2_medium_thinking-skills_011",
-    "content": "If all dogs are animals, and Fluffy is a dog, what can we conclude?",
+    "_id": "thinking_2_medium_1755262176984_011",
+    "scenario": "Tommy has this pattern: Big, Small, Big, Small, Big. He wants to continue it.",
+    "content": "What should come next? (Question 11)",
     "type": "multiple_choice",
     "options": [
-      "Fluffy is not an animal",
-      "Fluffy is an animal",
-      "Some dogs are not animals",
-      "Cannot tell"
+      "Big",
+      "Small",
+      "Medium",
+      "Tiny"
     ],
-    "correctAnswer": "Fluffy is an animal",
+    "correctAnswer": "Small",
     "subject": "Thinking Skills",
     "grade": 2,
     "difficulty": "medium",
-    "explanation": "Since all dogs are animals and Fluffy is a dog, Fluffy must be an animal.",
-    "topic": "Logical Deduction"
+    "explanation": "The pattern alternates Big, Small, so Small comes next."
   },
   {
-    "_id": "grade2_medium_thinking-skills_012",
-    "content": "A farmer has chickens and rabbits. He counts 12 heads and 34 legs. How many chickens are there?",
+    "_id": "thinking_2_medium_1755262176984_012",
+    "scenario": "All dogs have four legs. Spot is a dog.",
+    "content": "How many legs does Spot have? (Question 12)",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "5",
-      "12",
-      "17"
+      "Two",
+      "Three",
+      "Four",
+      "Five"
     ],
-    "correctAnswer": "7",
+    "correctAnswer": "Four",
     "subject": "Thinking Skills",
     "grade": 2,
     "difficulty": "medium",
-    "explanation": "If all were chickens: 12×2=24 legs. Extra legs: 34-24=10. Each rabbit adds 2 extra legs, so 5 rabbits. Therefore 12-5=7 chickens.",
-    "topic": "Problem Solving with Systems"
+    "explanation": "Since all dogs have four legs and Spot is a dog, Spot has four legs."
   },
   {
-    "_id": "grade2_medium_thinking-skills_013",
-    "content": "A box contains 7 red balls and 4 blue balls. If you pick one ball without looking, what is the probability it will be red?",
+    "_id": "thinking_2_medium_1755262176984_013",
+    "scenario": "Look at these shapes: ⭐ ⭐ 🔵 ⭐. Most shapes are the same, but one is different.",
+    "content": "Which shape is different? (Question 13)",
     "type": "multiple_choice",
     "options": [
-      "7/11",
-      "4/11",
-      "1/2",
-      "7/4"
+      "First star",
+      "Second star",
+      "Blue circle",
+      "Last star"
     ],
-    "correctAnswer": "7/11",
+    "correctAnswer": "Blue circle",
     "subject": "Thinking Skills",
     "grade": 2,
     "difficulty": "medium",
-    "explanation": "There are 7 red balls out of 11 total balls, so the probability is 7/11.",
-    "topic": "Basic Probability"
+    "explanation": "The blue circle is different from the stars."
   },
   {
-    "_id": "grade2_medium_thinking-skills_014",
-    "content": "If all dogs are animals, and Buddy is a dog, what can we conclude?",
+    "_id": "thinking_2_medium_1755262176984_014",
+    "scenario": "Tommy has this pattern: Big, Small, Big, Small, Big. He wants to continue it.",
+    "content": "What should come next? (Question 14)",
     "type": "multiple_choice",
     "options": [
-      "Buddy is not an animal",
-      "Buddy is an animal",
-      "Some dogs are not animals",
-      "Cannot tell"
+      "Big",
+      "Small",
+      "Medium",
+      "Tiny"
     ],
-    "correctAnswer": "Buddy is an animal",
+    "correctAnswer": "Small",
     "subject": "Thinking Skills",
     "grade": 2,
     "difficulty": "medium",
-    "explanation": "Since all dogs are animals and Buddy is a dog, Buddy must be an animal.",
-    "topic": "Logical Deduction"
+    "explanation": "The pattern alternates Big, Small, so Small comes next."
   },
   {
-    "_id": "grade2_medium_thinking-skills_015",
-    "content": "A farmer has chickens and rabbits. He counts 11 heads and 42 legs. How many chickens are there?",
+    "_id": "thinking_2_medium_1755262176984_015",
+    "scenario": "All dogs have four legs. Spot is a dog.",
+    "content": "How many legs does Spot have? (Question 15)",
     "type": "multiple_choice",
     "options": [
-      "1",
-      "10",
-      "11",
-      "21"
+      "Two",
+      "Three",
+      "Four",
+      "Five"
     ],
-    "correctAnswer": "1",
+    "correctAnswer": "Four",
     "subject": "Thinking Skills",
     "grade": 2,
     "difficulty": "medium",
-    "explanation": "If all were chickens: 11×2=22 legs. Extra legs: 42-22=20. Each rabbit adds 2 extra legs, so 10 rabbits. Therefore 11-10=1 chickens.",
-    "topic": "Problem Solving with Systems"
+    "explanation": "Since all dogs have four legs and Spot is a dog, Spot has four legs."
   },
   {
-    "_id": "grade2_medium_thinking-skills_016",
-    "content": "A box contains 5 red balls and 4 blue balls. If you pick one ball without looking, what is the probability it will be red?",
+    "_id": "thinking_2_medium_1755262176984_016",
+    "scenario": "Look at these shapes: ⭐ ⭐ 🔵 ⭐. Most shapes are the same, but one is different.",
+    "content": "Which shape is different? (Question 16)",
     "type": "multiple_choice",
     "options": [
-      "5/9",
-      "4/9",
-      "1/2",
-      "5/4"
+      "First star",
+      "Second star",
+      "Blue circle",
+      "Last star"
     ],
-    "correctAnswer": "5/9",
+    "correctAnswer": "Blue circle",
     "subject": "Thinking Skills",
     "grade": 2,
     "difficulty": "medium",
-    "explanation": "There are 5 red balls out of 9 total balls, so the probability is 5/9.",
-    "topic": "Basic Probability"
+    "explanation": "The blue circle is different from the stars."
   },
   {
-    "_id": "grade2_medium_thinking-skills_017",
-    "content": "If all cats are animals, and Buddy is a cat, what can we conclude?",
+    "_id": "thinking_2_medium_1755262176984_017",
+    "scenario": "Tommy has this pattern: Big, Small, Big, Small, Big. He wants to continue it.",
+    "content": "What should come next? (Question 17)",
     "type": "multiple_choice",
     "options": [
-      "Buddy is not an animal",
-      "Buddy is an animal",
-      "Some cats are not animals",
-      "Cannot tell"
+      "Big",
+      "Small",
+      "Medium",
+      "Tiny"
     ],
-    "correctAnswer": "Buddy is an animal",
+    "correctAnswer": "Small",
     "subject": "Thinking Skills",
     "grade": 2,
     "difficulty": "medium",
-    "explanation": "Since all cats are animals and Buddy is a cat, Buddy must be an animal.",
-    "topic": "Logical Deduction"
+    "explanation": "The pattern alternates Big, Small, so Small comes next."
   },
   {
-    "_id": "grade2_medium_thinking-skills_018",
-    "content": "A farmer has chickens and rabbits. He counts 11 heads and 28 legs. How many chickens are there?",
+    "_id": "thinking_2_medium_1755262176984_018",
+    "scenario": "All dogs have four legs. Spot is a dog.",
+    "content": "How many legs does Spot have? (Question 18)",
     "type": "multiple_choice",
     "options": [
-      "8",
-      "3",
-      "11",
-      "14"
+      "Two",
+      "Three",
+      "Four",
+      "Five"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "Four",
     "subject": "Thinking Skills",
     "grade": 2,
     "difficulty": "medium",
-    "explanation": "If all were chickens: 11×2=22 legs. Extra legs: 28-22=6. Each rabbit adds 2 extra legs, so 3 rabbits. Therefore 11-3=8 chickens.",
-    "topic": "Problem Solving with Systems"
+    "explanation": "Since all dogs have four legs and Spot is a dog, Spot has four legs."
   },
   {
-    "_id": "grade2_medium_thinking-skills_019",
-    "content": "A box contains 6 red balls and 4 blue balls. If you pick one ball without looking, what is the probability it will be red?",
+    "_id": "thinking_2_medium_1755262176984_019",
+    "scenario": "Look at these shapes: ⭐ ⭐ 🔵 ⭐. Most shapes are the same, but one is different.",
+    "content": "Which shape is different? (Question 19)",
     "type": "multiple_choice",
     "options": [
-      "6/10",
-      "4/10",
-      "1/2",
-      "6/4"
+      "First star",
+      "Second star",
+      "Blue circle",
+      "Last star"
     ],
-    "correctAnswer": "6/10",
+    "correctAnswer": "Blue circle",
     "subject": "Thinking Skills",
     "grade": 2,
     "difficulty": "medium",
-    "explanation": "There are 6 red balls out of 10 total balls, so the probability is 6/10.",
-    "topic": "Basic Probability"
+    "explanation": "The blue circle is different from the stars."
   },
   {
-    "_id": "grade2_medium_thinking-skills_020",
-    "content": "If all dogs are animals, and Buddy is a dog, what can we conclude?",
+    "_id": "thinking_2_medium_1755262176984_020",
+    "scenario": "Tommy has this pattern: Big, Small, Big, Small, Big. He wants to continue it.",
+    "content": "What should come next? (Question 20)",
     "type": "multiple_choice",
     "options": [
-      "Buddy is not an animal",
-      "Buddy is an animal",
-      "Some dogs are not animals",
-      "Cannot tell"
+      "Big",
+      "Small",
+      "Medium",
+      "Tiny"
     ],
-    "correctAnswer": "Buddy is an animal",
+    "correctAnswer": "Small",
     "subject": "Thinking Skills",
     "grade": 2,
     "difficulty": "medium",
-    "explanation": "Since all dogs are animals and Buddy is a dog, Buddy must be an animal.",
-    "topic": "Logical Deduction"
+    "explanation": "The pattern alternates Big, Small, so Small comes next."
   }
 ]

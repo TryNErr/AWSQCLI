@@ -1,422 +1,342 @@
 [
   {
-    "_id": "grade5_easy_english_001",
+    "_id": "english_5_easy_1755261255168_001",
+    "content": "Which word is a noun in this sentence: 'The happy dog ran quickly to the park'?",
+    "type": "multiple_choice",
+    "options": [
+      "happy",
+      "dog",
+      "ran",
+      "quickly"
+    ],
+    "correct_answer": "dog",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "A noun is a person, place, or thing. 'Dog' is a thing (animal), so it's a noun.",
+    "_cacheBreaker": "1755265388189_0"
+  },
+  {
+    "_id": "english_5_easy_1755261255168_002",
+    "content": "What is the past tense of the verb 'run'?",
+    "type": "multiple_choice",
+    "options": [
+      "running",
+      "ran",
+      "runs",
+      "runner"
+    ],
+    "correct_answer": "ran",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "The past tense of 'run' is 'ran'. For example: Yesterday I ran to school.",
+    "_cacheBreaker": "1755265388189_1"
+  },
+  {
+    "_id": "english_5_easy_1755261255168_003",
+    "content": "Which sentence uses correct punctuation?",
+    "type": "multiple_choice",
+    "options": [
+      "What time is it?",
+      "What time is it.",
+      "what time is it?",
+      "What time is it"
+    ],
+    "correct_answer": "What time is it?",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "Questions should end with a question mark and start with a capital letter.",
+    "_cacheBreaker": "1755265388189_2"
+  },
+  {
+    "_id": "english_5_easy_1755261255168_004",
+    "content": "Which word rhymes with 'cat'?",
+    "type": "multiple_choice",
+    "options": [
+      "dog",
+      "hat",
+      "run",
+      "big"
+    ],
+    "correct_answer": "hat",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "Hat rhymes with cat - they both end with the 'at' sound.",
+    "_cacheBreaker": "1755265388189_3"
+  },
+  {
+    "_id": "english_5_easy_1755261255168_005",
+    "content": "What type of word describes an action?",
+    "type": "multiple_choice",
+    "options": [
+      "noun",
+      "verb",
+      "adjective",
+      "article"
+    ],
+    "correct_answer": "verb",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "A verb is a word that describes an action, like run, jump, or think.",
+    "_cacheBreaker": "1755265388189_4"
+  },
+  {
+    "_id": "english_5_easy_1755261255168_006",
     "content": "Which word is spelled correctly?",
     "type": "multiple_choice",
     "options": [
-      "recieve",
-      "receive",
-      "receve",
-      "receave"
+      "freind",
+      "friend",
+      "frend",
+      "freend"
     ],
-    "correctAnswer": "receive",
+    "correct_answer": "friend",
     "subject": "English",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "The correct spelling is 'receive' (i before e except after c).",
-    "topic": "Advanced Grammar",
-    "tags": [
-      "english",
-      "basic"
-    ]
+    "explanation": "The correct spelling is 'friend' - remember 'i before e'.",
+    "_cacheBreaker": "1755265388189_5"
   },
   {
-    "_id": "grade5_easy_english_002",
-    "content": "What is the correct possessive form of 'children'?",
+    "_id": "english_5_easy_1755261255168_007",
+    "content": "Which word rhymes with 'cat'?",
     "type": "multiple_choice",
     "options": [
-      "childrens",
-      "childrens'",
-      "children's",
-      "childrens's"
+      "dog",
+      "hat",
+      "run",
+      "big"
     ],
-    "correctAnswer": "children's",
+    "correct_answer": "hat",
     "subject": "English",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "For irregular plurals like children, add 's to show possession.",
-    "topic": "Advanced Grammar",
-    "tags": [
-      "english",
-      "basic"
-    ]
+    "explanation": "Hat rhymes with cat - they both end with the 'at' sound.",
+    "_cacheBreaker": "1755265388189_6"
   },
   {
-    "_id": "grade5_easy_english_003",
-    "content": "Which sentence has a dangling modifier?",
+    "_id": "english_5_easy_1755261255168_008",
+    "content": "What type of word describes an action?",
     "type": "multiple_choice",
     "options": [
-      "Running quickly, John caught the bus",
-      "Running quickly, the bus was caught by John",
-      "John caught the bus while running quickly",
-      "The bus was caught by John who was running"
+      "noun",
+      "verb",
+      "adjective",
+      "article"
     ],
-    "correctAnswer": "Running quickly, the bus was caught by John",
+    "correct_answer": "verb",
     "subject": "English",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "The modifier 'running quickly' should describe John, not the bus.",
-    "topic": "Advanced Grammar",
-    "tags": [
-      "english",
-      "basic"
-    ]
+    "explanation": "A verb is a word that describes an action, like run, jump, or think.",
+    "_cacheBreaker": "1755265388189_7"
   },
   {
-    "_id": "grade5_easy_english_004",
-    "content": "What is the antonym of 'ancient'?",
+    "_id": "english_5_easy_1755261255168_009",
+    "content": "Which word is spelled correctly?",
     "type": "multiple_choice",
     "options": [
-      "old",
-      "modern",
-      "historic",
-      "past"
+      "freind",
+      "friend",
+      "frend",
+      "freend"
     ],
-    "correctAnswer": "modern",
+    "correct_answer": "friend",
     "subject": "English",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "Modern is the opposite of ancient.",
-    "topic": "Advanced Grammar",
-    "tags": [
-      "english",
-      "basic"
-    ]
+    "explanation": "The correct spelling is 'friend' - remember 'i before e'.",
+    "_cacheBreaker": "1755265388189_8"
   },
   {
-    "_id": "grade5_easy_english_005",
-    "content": "Which word (example 2) is spelled correctly?",
+    "_id": "english_5_easy_1755261255168_010",
+    "content": "Which word rhymes with 'cat'?",
     "type": "multiple_choice",
     "options": [
-      "recieve",
-      "receive",
-      "receve",
-      "receave"
+      "dog",
+      "hat",
+      "run",
+      "big"
     ],
-    "correctAnswer": "receive",
+    "correct_answer": "hat",
     "subject": "English",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "The correct spelling is 'receive' (i before e except after c).",
-    "topic": "Advanced Grammar",
-    "tags": [
-      "english",
-      "basic"
-    ]
+    "explanation": "Hat rhymes with cat - they both end with the 'at' sound.",
+    "_cacheBreaker": "1755265388189_9"
   },
   {
-    "_id": "grade5_easy_english_006",
-    "content": "What is the correct possessive form of 'children'?",
+    "_id": "english_5_easy_1755261255168_011",
+    "content": "What type of word describes an action?",
     "type": "multiple_choice",
     "options": [
-      "childrens",
-      "childrens'",
-      "children's",
-      "childrens's"
+      "noun",
+      "verb",
+      "adjective",
+      "article"
     ],
-    "correctAnswer": "children's",
+    "correct_answer": "verb",
     "subject": "English",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "For irregular plurals like children, add 's to show possession.",
-    "topic": "Advanced Grammar",
-    "tags": [
-      "english",
-      "basic"
-    ]
+    "explanation": "A verb is a word that describes an action, like run, jump, or think.",
+    "_cacheBreaker": "1755265388189_10"
   },
   {
-    "_id": "grade5_easy_english_007",
-    "content": "Which sentence has a dangling modifier?",
+    "_id": "english_5_easy_1755261255168_012",
+    "content": "Which word is spelled correctly?",
     "type": "multiple_choice",
     "options": [
-      "Running quickly, John caught the bus",
-      "Running quickly, the bus was caught by John",
-      "John caught the bus while running quickly",
-      "The bus was caught by John who was running"
+      "freind",
+      "friend",
+      "frend",
+      "freend"
     ],
-    "correctAnswer": "Running quickly, the bus was caught by John",
+    "correct_answer": "friend",
     "subject": "English",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "The modifier 'running quickly' should describe John, not the bus.",
-    "topic": "Advanced Grammar",
-    "tags": [
-      "english",
-      "basic"
-    ]
+    "explanation": "The correct spelling is 'friend' - remember 'i before e'.",
+    "_cacheBreaker": "1755265388189_11"
   },
   {
-    "_id": "grade5_easy_english_008",
-    "content": "What is the antonym of 'ancient'?",
+    "_id": "english_5_easy_1755261255168_013",
+    "content": "Which word rhymes with 'cat'?",
     "type": "multiple_choice",
     "options": [
-      "old",
-      "modern",
-      "historic",
-      "past"
+      "dog",
+      "hat",
+      "run",
+      "big"
     ],
-    "correctAnswer": "modern",
+    "correct_answer": "hat",
     "subject": "English",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "Modern is the opposite of ancient.",
-    "topic": "Advanced Grammar",
-    "tags": [
-      "english",
-      "basic"
-    ]
+    "explanation": "Hat rhymes with cat - they both end with the 'at' sound.",
+    "_cacheBreaker": "1755265388189_12"
   },
   {
-    "_id": "grade5_easy_english_009",
-    "content": "Which word (example 3) is spelled correctly?",
+    "_id": "english_5_easy_1755261255168_014",
+    "content": "What type of word describes an action?",
     "type": "multiple_choice",
     "options": [
-      "recieve",
-      "receive",
-      "receve",
-      "receave"
+      "noun",
+      "verb",
+      "adjective",
+      "article"
     ],
-    "correctAnswer": "receive",
+    "correct_answer": "verb",
     "subject": "English",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "The correct spelling is 'receive' (i before e except after c).",
-    "topic": "Advanced Grammar",
-    "tags": [
-      "english",
-      "basic"
-    ]
+    "explanation": "A verb is a word that describes an action, like run, jump, or think.",
+    "_cacheBreaker": "1755265388189_13"
   },
   {
-    "_id": "grade5_easy_english_010",
-    "content": "What is the correct possessive form of 'children'?",
+    "_id": "english_5_easy_1755261255168_015",
+    "content": "Which word is spelled correctly?",
     "type": "multiple_choice",
     "options": [
-      "childrens",
-      "childrens'",
-      "children's",
-      "childrens's"
+      "freind",
+      "friend",
+      "frend",
+      "freend"
     ],
-    "correctAnswer": "children's",
+    "correct_answer": "friend",
     "subject": "English",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "For irregular plurals like children, add 's to show possession.",
-    "topic": "Advanced Grammar",
-    "tags": [
-      "english",
-      "basic"
-    ]
+    "explanation": "The correct spelling is 'friend' - remember 'i before e'.",
+    "_cacheBreaker": "1755265388189_14"
   },
   {
-    "_id": "grade5_easy_english_011",
-    "content": "Which sentence has a dangling modifier?",
+    "_id": "english_5_easy_1755261255168_016",
+    "content": "Which word rhymes with 'cat'?",
     "type": "multiple_choice",
     "options": [
-      "Running quickly, John caught the bus",
-      "Running quickly, the bus was caught by John",
-      "John caught the bus while running quickly",
-      "The bus was caught by John who was running"
+      "dog",
+      "hat",
+      "run",
+      "big"
     ],
-    "correctAnswer": "Running quickly, the bus was caught by John",
+    "correct_answer": "hat",
     "subject": "English",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "The modifier 'running quickly' should describe John, not the bus.",
-    "topic": "Advanced Grammar",
-    "tags": [
-      "english",
-      "basic"
-    ]
+    "explanation": "Hat rhymes with cat - they both end with the 'at' sound.",
+    "_cacheBreaker": "1755265388189_15"
   },
   {
-    "_id": "grade5_easy_english_012",
-    "content": "What is the antonym of 'ancient'?",
+    "_id": "english_5_easy_1755261255168_017",
+    "content": "What type of word describes an action?",
     "type": "multiple_choice",
     "options": [
-      "old",
-      "modern",
-      "historic",
-      "past"
+      "noun",
+      "verb",
+      "adjective",
+      "article"
     ],
-    "correctAnswer": "modern",
+    "correct_answer": "verb",
     "subject": "English",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "Modern is the opposite of ancient.",
-    "topic": "Advanced Grammar",
-    "tags": [
-      "english",
-      "basic"
-    ]
+    "explanation": "A verb is a word that describes an action, like run, jump, or think.",
+    "_cacheBreaker": "1755265388189_16"
   },
   {
-    "_id": "grade5_easy_english_013",
-    "content": "Which word (example 4) is spelled correctly?",
+    "_id": "english_5_easy_1755261255168_018",
+    "content": "Which word is spelled correctly?",
     "type": "multiple_choice",
     "options": [
-      "recieve",
-      "receive",
-      "receve",
-      "receave"
+      "freind",
+      "friend",
+      "frend",
+      "freend"
     ],
-    "correctAnswer": "receive",
+    "correct_answer": "friend",
     "subject": "English",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "The correct spelling is 'receive' (i before e except after c).",
-    "topic": "Advanced Grammar",
-    "tags": [
-      "english",
-      "basic"
-    ]
+    "explanation": "The correct spelling is 'friend' - remember 'i before e'.",
+    "_cacheBreaker": "1755265388189_17"
   },
   {
-    "_id": "grade5_easy_english_014",
-    "content": "What is the correct possessive form of 'children'?",
+    "_id": "english_5_easy_1755261255168_019",
+    "content": "Which word rhymes with 'cat'?",
     "type": "multiple_choice",
     "options": [
-      "childrens",
-      "childrens'",
-      "children's",
-      "childrens's"
+      "dog",
+      "hat",
+      "run",
+      "big"
     ],
-    "correctAnswer": "children's",
+    "correct_answer": "hat",
     "subject": "English",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "For irregular plurals like children, add 's to show possession.",
-    "topic": "Advanced Grammar",
-    "tags": [
-      "english",
-      "basic"
-    ]
+    "explanation": "Hat rhymes with cat - they both end with the 'at' sound.",
+    "_cacheBreaker": "1755265388189_18"
   },
   {
-    "_id": "grade5_easy_english_015",
-    "content": "Which sentence has a dangling modifier?",
+    "_id": "english_5_easy_1755261255168_020",
+    "content": "What type of word describes an action?",
     "type": "multiple_choice",
     "options": [
-      "Running quickly, John caught the bus",
-      "Running quickly, the bus was caught by John",
-      "John caught the bus while running quickly",
-      "The bus was caught by John who was running"
+      "noun",
+      "verb",
+      "adjective",
+      "article"
     ],
-    "correctAnswer": "Running quickly, the bus was caught by John",
+    "correct_answer": "verb",
     "subject": "English",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "The modifier 'running quickly' should describe John, not the bus.",
-    "topic": "Advanced Grammar",
-    "tags": [
-      "english",
-      "basic"
-    ]
-  },
-  {
-    "_id": "grade5_easy_english_016",
-    "content": "What is the antonym of 'ancient'?",
-    "type": "multiple_choice",
-    "options": [
-      "old",
-      "modern",
-      "historic",
-      "past"
-    ],
-    "correctAnswer": "modern",
-    "subject": "English",
-    "grade": 5,
-    "difficulty": "easy",
-    "explanation": "Modern is the opposite of ancient.",
-    "topic": "Advanced Grammar",
-    "tags": [
-      "english",
-      "basic"
-    ]
-  },
-  {
-    "_id": "grade5_easy_english_017",
-    "content": "Which word (example 5) is spelled correctly?",
-    "type": "multiple_choice",
-    "options": [
-      "recieve",
-      "receive",
-      "receve",
-      "receave"
-    ],
-    "correctAnswer": "receive",
-    "subject": "English",
-    "grade": 5,
-    "difficulty": "easy",
-    "explanation": "The correct spelling is 'receive' (i before e except after c).",
-    "topic": "Advanced Grammar",
-    "tags": [
-      "english",
-      "basic"
-    ]
-  },
-  {
-    "_id": "grade5_easy_english_018",
-    "content": "What is the correct possessive form of 'children'?",
-    "type": "multiple_choice",
-    "options": [
-      "childrens",
-      "childrens'",
-      "children's",
-      "childrens's"
-    ],
-    "correctAnswer": "children's",
-    "subject": "English",
-    "grade": 5,
-    "difficulty": "easy",
-    "explanation": "For irregular plurals like children, add 's to show possession.",
-    "topic": "Advanced Grammar",
-    "tags": [
-      "english",
-      "basic"
-    ]
-  },
-  {
-    "_id": "grade5_easy_english_019",
-    "content": "Which sentence has a dangling modifier?",
-    "type": "multiple_choice",
-    "options": [
-      "Running quickly, John caught the bus",
-      "Running quickly, the bus was caught by John",
-      "John caught the bus while running quickly",
-      "The bus was caught by John who was running"
-    ],
-    "correctAnswer": "Running quickly, the bus was caught by John",
-    "subject": "English",
-    "grade": 5,
-    "difficulty": "easy",
-    "explanation": "The modifier 'running quickly' should describe John, not the bus.",
-    "topic": "Advanced Grammar",
-    "tags": [
-      "english",
-      "basic"
-    ]
-  },
-  {
-    "_id": "grade5_easy_english_020",
-    "content": "What is the antonym of 'ancient'?",
-    "type": "multiple_choice",
-    "options": [
-      "old",
-      "modern",
-      "historic",
-      "past"
-    ],
-    "correctAnswer": "modern",
-    "subject": "English",
-    "grade": 5,
-    "difficulty": "easy",
-    "explanation": "Modern is the opposite of ancient.",
-    "topic": "Advanced Grammar",
-    "tags": [
-      "english",
-      "basic"
-    ]
+    "explanation": "A verb is a word that describes an action, like run, jump, or think.",
+    "_cacheBreaker": "1755265388189_19"
   }
 ]

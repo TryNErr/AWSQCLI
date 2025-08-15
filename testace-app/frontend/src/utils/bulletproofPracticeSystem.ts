@@ -3,7 +3,7 @@ import { questionData } from '../pages/Practice/questionData';
 import { getGeneratedQuestions, saveGeneratedQuestions } from '../services/generatedQuestionsService';
 import { getAnsweredQuestionIds } from '../services/userProgressService';
 import BulletproofMathGenerator from './bulletproofMathGenerator';
-import DiverseMathGenerator from './diverseMathGenerator';
+// import DiverseMathGenerator from './diverseMathGenerator'; // DISABLED - using static JSON files only
 import { generateRobustThinkingSkillsQuestions } from './robustThinkingSkillsGenerator';
 import { comprehensiveReadingDatabase } from './comprehensiveReadingDatabase';
 import StaticQuestionLoader from './staticQuestionLoader';
@@ -288,7 +288,7 @@ export class BulletproofPracticeSystem {
         if (!subject || subject.toLowerCase().includes('math')) {
           // Use diverse math generator for better variety, fallback to bulletproof if needed
           try {
-            newQuestion = DiverseMathGenerator.generateQuestion(grade, difficulty);
+            newQuestion = null as any; // Disabled: generateQuestion(grade, difficulty);
           } catch (error) {
             console.warn('Diverse math generator failed, using bulletproof fallback:', error);
             try {
@@ -346,8 +346,8 @@ export class BulletproofPracticeSystem {
             if (consecutiveFailures > 5) {
               console.log('🔄 Switching to math questions due to reading generation failures');
               try {
-                newQuestion = DiverseMathGenerator.generateQuestion(grade, difficulty);
-                if (newQuestion) {
+                newQuestion = null as any; // Disabled: generateQuestion(grade, difficulty);
+                if (newQuestion && newQuestion !== null) {
                   newQuestion.subject = 'Reading'; // Keep the subject as reading for filtering
                   newQuestion.topic = 'Emergency Math Question';
                 }
@@ -361,7 +361,7 @@ export class BulletproofPracticeSystem {
         } else {
           // Default to diverse math for other subjects
           try {
-            newQuestion = DiverseMathGenerator.generateQuestion(grade, difficulty);
+            newQuestion = null as any; // Disabled: generateQuestion(grade, difficulty);
           } catch (error) {
             console.warn('Diverse math generator failed, using bulletproof fallback:', error);
             try {
@@ -374,7 +374,7 @@ export class BulletproofPracticeSystem {
           }
         }
         
-        if (newQuestion) {
+        if (newQuestion && newQuestion !== null) {
           // Ensure it matches our criteria
           const contentKey = newQuestion.content.toLowerCase().trim();
           

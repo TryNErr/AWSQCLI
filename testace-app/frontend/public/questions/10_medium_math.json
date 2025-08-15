@@ -1,322 +1,342 @@
 [
   {
-    "_id": "grade10_medium_math_001",
-    "content": "What is 1 × 1?",
+    "_id": "med10_1755260816494_001",
+    "content": "Solve: 2x² - 8x + 6 = 0",
     "type": "multiple_choice",
     "options": [
-      "0",
-      "1",
-      "2",
-      "2"
+      "x = 1, 3",
+      "x = 2, 4",
+      "x = -1, -3",
+      "x = 0, 4"
     ],
-    "correctAnswer": "1",
+    "correctAnswer": "x = 1, 3",
     "subject": "Mathematics",
     "grade": 10,
     "difficulty": "medium",
-    "explanation": "1 × 1 = 1"
+    "explanation": "Factor out 2: 2(x² - 4x + 3) = 0, then factor: 2(x - 1)(x - 3) = 0",
+    "_cacheBreaker": "1755265388130_0"
   },
   {
-    "_id": "grade10_medium_math_002",
-    "content": "What is 2 × 1?",
+    "_id": "med10_1755260816494_002",
+    "content": "Find the domain of f(x) = √(x - 4)",
     "type": "multiple_choice",
     "options": [
-      "1",
-      "2",
-      "3",
-      "3"
+      "x ≥ 4",
+      "x ≤ 4",
+      "x > 4",
+      "All real numbers"
     ],
-    "correctAnswer": "2",
+    "correctAnswer": "x ≥ 4",
     "subject": "Mathematics",
     "grade": 10,
     "difficulty": "medium",
-    "explanation": "2 × 1 = 2"
+    "explanation": "For square root to be defined, x - 4 ≥ 0, so x ≥ 4",
+    "_cacheBreaker": "1755265388130_1"
   },
   {
-    "_id": "grade10_medium_math_003",
-    "content": "What is 2 × 1?",
+    "_id": "med10_1755260816494_003",
+    "content": "Simplify: (x² - 4)/(x - 2)",
     "type": "multiple_choice",
     "options": [
-      "1",
-      "2",
-      "3",
-      "3"
+      "x + 2",
+      "x - 2",
+      "x² + 2",
+      "Cannot be simplified"
     ],
-    "correctAnswer": "2",
+    "correctAnswer": "x + 2",
     "subject": "Mathematics",
     "grade": 10,
     "difficulty": "medium",
-    "explanation": "2 × 1 = 2"
+    "explanation": "Factor numerator: (x - 2)(x + 2)/(x - 2) = x + 2 (for x ≠ 2)",
+    "_cacheBreaker": "1755265388130_2"
   },
   {
-    "_id": "grade10_medium_math_004",
-    "content": "What is 15 × 1?",
+    "_id": "med10_1755260816494_004",
+    "content": "Find sin(60°)",
     "type": "multiple_choice",
     "options": [
-      "14",
-      "15",
-      "16",
-      "16"
+      "1/2",
+      "√2/2",
+      "√3/2",
+      "1"
     ],
-    "correctAnswer": "15",
+    "correctAnswer": "√3/2",
     "subject": "Mathematics",
     "grade": 10,
     "difficulty": "medium",
-    "explanation": "15 × 1 = 15"
+    "explanation": "sin(60°) = √3/2 is a special angle value",
+    "_cacheBreaker": "1755265388130_3"
   },
   {
-    "_id": "grade10_medium_math_005",
-    "content": "What is 2 × 1?",
+    "_id": "med10_1755260816494_005",
+    "content": "Solve: log₂(x) = 3",
     "type": "multiple_choice",
     "options": [
-      "1",
-      "2",
-      "3",
-      "3"
+      "x = 6",
+      "x = 8",
+      "x = 9",
+      "x = 32"
     ],
-    "correctAnswer": "2",
+    "correctAnswer": "x = 8",
     "subject": "Mathematics",
     "grade": 10,
     "difficulty": "medium",
-    "explanation": "2 × 1 = 2"
+    "explanation": "Convert to exponential form: x = 2³ = 8",
+    "_cacheBreaker": "1755265388130_4"
   },
   {
-    "_id": "grade10_medium_math_006",
-    "content": "What is 5 × 1?",
+    "_id": "med10_1755260816494_006",
+    "content": "Grade 10 medium math problem 6: Solve 3x + 6 = 21",
     "type": "multiple_choice",
     "options": [
-      "4",
-      "5",
-      "6",
-      "6"
+      "x = 5",
+      "x = 6",
+      "x = 7",
+      "x = 8"
     ],
-    "correctAnswer": "5",
+    "correctAnswer": "x = 5",
     "subject": "Mathematics",
     "grade": 10,
     "difficulty": "medium",
-    "explanation": "5 × 1 = 5"
+    "explanation": "Subtract 6 from both sides, then divide by 3",
+    "_cacheBreaker": "1755265388130_5"
   },
   {
-    "_id": "grade10_medium_math_007",
-    "content": "What is 30 × 1?",
+    "_id": "med10_1755260816494_007",
+    "content": "Grade 10 medium math problem 7: Solve 3x + 7 = 22",
     "type": "multiple_choice",
     "options": [
-      "29",
-      "30",
-      "31",
-      "31"
+      "x = 5",
+      "x = 6",
+      "x = 7",
+      "x = 8"
     ],
-    "correctAnswer": "30",
+    "correctAnswer": "x = 5",
     "subject": "Mathematics",
     "grade": 10,
     "difficulty": "medium",
-    "explanation": "30 × 1 = 30"
+    "explanation": "Subtract 7 from both sides, then divide by 3",
+    "_cacheBreaker": "1755265388130_6"
   },
   {
-    "_id": "grade10_medium_math_008",
-    "content": "What is 1 × 1?",
+    "_id": "med10_1755260816494_008",
+    "content": "Grade 10 medium math problem 8: Solve 3x + 8 = 23",
     "type": "multiple_choice",
     "options": [
-      "0",
-      "1",
-      "2",
-      "2"
+      "x = 5",
+      "x = 6",
+      "x = 7",
+      "x = 8"
     ],
-    "correctAnswer": "1",
+    "correctAnswer": "x = 5",
     "subject": "Mathematics",
     "grade": 10,
     "difficulty": "medium",
-    "explanation": "1 × 1 = 1"
+    "explanation": "Subtract 8 from both sides, then divide by 3",
+    "_cacheBreaker": "1755265388130_7"
   },
   {
-    "_id": "grade10_medium_math_009",
-    "content": "What is 3 × 2?",
+    "_id": "med10_1755260816494_009",
+    "content": "Grade 10 medium math problem 9: Solve 3x + 9 = 24",
     "type": "multiple_choice",
     "options": [
-      "5",
-      "6",
-      "7",
-      "5"
+      "x = 5",
+      "x = 6",
+      "x = 7",
+      "x = 8"
     ],
-    "correctAnswer": "6",
+    "correctAnswer": "x = 5",
     "subject": "Mathematics",
     "grade": 10,
     "difficulty": "medium",
-    "explanation": "3 × 2 = 6"
+    "explanation": "Subtract 9 from both sides, then divide by 3",
+    "_cacheBreaker": "1755265388130_8"
   },
   {
-    "_id": "grade10_medium_math_010",
-    "content": "What is 4 × 2?",
+    "_id": "med10_1755260816494_010",
+    "content": "Grade 10 medium math problem 10: Solve 3x + 10 = 25",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "8",
-      "9",
-      "6"
+      "x = 5",
+      "x = 6",
+      "x = 7",
+      "x = 8"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "x = 5",
     "subject": "Mathematics",
     "grade": 10,
     "difficulty": "medium",
-    "explanation": "4 × 2 = 8"
+    "explanation": "Subtract 10 from both sides, then divide by 3",
+    "_cacheBreaker": "1755265388130_9"
   },
   {
-    "_id": "grade10_medium_math_011",
-    "content": "What is 4 × 2?",
+    "_id": "med10_1755260816494_011",
+    "content": "Grade 10 medium math problem 11: Solve 3x + 11 = 26",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "8",
-      "9",
-      "6"
+      "x = 5",
+      "x = 6",
+      "x = 7",
+      "x = 8"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "x = 5",
     "subject": "Mathematics",
     "grade": 10,
     "difficulty": "medium",
-    "explanation": "4 × 2 = 8"
+    "explanation": "Subtract 11 from both sides, then divide by 3",
+    "_cacheBreaker": "1755265388130_10"
   },
   {
-    "_id": "grade10_medium_math_012",
-    "content": "What is 17 × 2?",
+    "_id": "med10_1755260816494_012",
+    "content": "Grade 10 medium math problem 12: Solve 3x + 12 = 27",
     "type": "multiple_choice",
     "options": [
-      "33",
-      "34",
-      "35",
-      "19"
+      "x = 5",
+      "x = 6",
+      "x = 7",
+      "x = 8"
     ],
-    "correctAnswer": "34",
+    "correctAnswer": "x = 5",
     "subject": "Mathematics",
     "grade": 10,
     "difficulty": "medium",
-    "explanation": "17 × 2 = 34"
+    "explanation": "Subtract 12 from both sides, then divide by 3",
+    "_cacheBreaker": "1755265388130_11"
   },
   {
-    "_id": "grade10_medium_math_013",
-    "content": "What is 4 × 2?",
+    "_id": "med10_1755260816494_013",
+    "content": "Grade 10 medium math problem 13: Solve 3x + 13 = 28",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "8",
-      "9",
-      "6"
+      "x = 5",
+      "x = 6",
+      "x = 7",
+      "x = 8"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "x = 5",
     "subject": "Mathematics",
     "grade": 10,
     "difficulty": "medium",
-    "explanation": "4 × 2 = 8"
+    "explanation": "Subtract 13 from both sides, then divide by 3",
+    "_cacheBreaker": "1755265388130_12"
   },
   {
-    "_id": "grade10_medium_math_014",
-    "content": "What is 7 × 2?",
+    "_id": "med10_1755260816494_014",
+    "content": "Grade 10 medium math problem 14: Solve 3x + 14 = 29",
     "type": "multiple_choice",
     "options": [
-      "13",
-      "14",
-      "15",
-      "9"
+      "x = 5",
+      "x = 6",
+      "x = 7",
+      "x = 8"
     ],
-    "correctAnswer": "14",
+    "correctAnswer": "x = 5",
     "subject": "Mathematics",
     "grade": 10,
     "difficulty": "medium",
-    "explanation": "7 × 2 = 14"
+    "explanation": "Subtract 14 from both sides, then divide by 3",
+    "_cacheBreaker": "1755265388130_13"
   },
   {
-    "_id": "grade10_medium_math_015",
-    "content": "What is 32 × 2?",
+    "_id": "med10_1755260816494_015",
+    "content": "Grade 10 medium math problem 15: Solve 3x + 15 = 30",
     "type": "multiple_choice",
     "options": [
-      "63",
-      "64",
-      "65",
-      "34"
+      "x = 5",
+      "x = 6",
+      "x = 7",
+      "x = 8"
     ],
-    "correctAnswer": "64",
+    "correctAnswer": "x = 5",
     "subject": "Mathematics",
     "grade": 10,
     "difficulty": "medium",
-    "explanation": "32 × 2 = 64"
+    "explanation": "Subtract 15 from both sides, then divide by 3",
+    "_cacheBreaker": "1755265388130_14"
   },
   {
-    "_id": "grade10_medium_math_016",
-    "content": "What is 3 × 2?",
+    "_id": "med10_1755260816494_016",
+    "content": "Grade 10 medium math problem 16: Solve 3x + 16 = 31",
     "type": "multiple_choice",
     "options": [
-      "5",
-      "6",
-      "7",
-      "5"
+      "x = 5",
+      "x = 6",
+      "x = 7",
+      "x = 8"
     ],
-    "correctAnswer": "6",
+    "correctAnswer": "x = 5",
     "subject": "Mathematics",
     "grade": 10,
     "difficulty": "medium",
-    "explanation": "3 × 2 = 6"
+    "explanation": "Subtract 16 from both sides, then divide by 3",
+    "_cacheBreaker": "1755265388130_15"
   },
   {
-    "_id": "grade10_medium_math_017",
-    "content": "What is 5 × 3?",
+    "_id": "med10_1755260816494_017",
+    "content": "Grade 10 medium math problem 17: Solve 3x + 17 = 32",
     "type": "multiple_choice",
     "options": [
-      "14",
-      "15",
-      "16",
-      "8"
+      "x = 5",
+      "x = 6",
+      "x = 7",
+      "x = 8"
     ],
-    "correctAnswer": "15",
+    "correctAnswer": "x = 5",
     "subject": "Mathematics",
     "grade": 10,
     "difficulty": "medium",
-    "explanation": "5 × 3 = 15"
+    "explanation": "Subtract 17 from both sides, then divide by 3",
+    "_cacheBreaker": "1755265388130_16"
   },
   {
-    "_id": "grade10_medium_math_018",
-    "content": "What is 6 × 3?",
+    "_id": "med10_1755260816494_018",
+    "content": "Grade 10 medium math problem 18: Solve 3x + 18 = 33",
     "type": "multiple_choice",
     "options": [
-      "17",
-      "18",
-      "19",
-      "9"
+      "x = 5",
+      "x = 6",
+      "x = 7",
+      "x = 8"
     ],
-    "correctAnswer": "18",
+    "correctAnswer": "x = 5",
     "subject": "Mathematics",
     "grade": 10,
     "difficulty": "medium",
-    "explanation": "6 × 3 = 18"
+    "explanation": "Subtract 18 from both sides, then divide by 3",
+    "_cacheBreaker": "1755265388130_17"
   },
   {
-    "_id": "grade10_medium_math_019",
-    "content": "What is 6 × 3?",
+    "_id": "med10_1755260816494_019",
+    "content": "Grade 10 medium math problem 19: Solve 3x + 19 = 34",
     "type": "multiple_choice",
     "options": [
-      "17",
-      "18",
-      "19",
-      "9"
+      "x = 5",
+      "x = 6",
+      "x = 7",
+      "x = 8"
     ],
-    "correctAnswer": "18",
+    "correctAnswer": "x = 5",
     "subject": "Mathematics",
     "grade": 10,
     "difficulty": "medium",
-    "explanation": "6 × 3 = 18"
+    "explanation": "Subtract 19 from both sides, then divide by 3",
+    "_cacheBreaker": "1755265388130_18"
   },
   {
-    "_id": "grade10_medium_math_020",
-    "content": "What is 19 × 3?",
+    "_id": "med10_1755260816494_020",
+    "content": "Grade 10 medium math problem 20: Solve 3x + 20 = 35",
     "type": "multiple_choice",
     "options": [
-      "56",
-      "57",
-      "58",
-      "22"
+      "x = 5",
+      "x = 6",
+      "x = 7",
+      "x = 8"
     ],
-    "correctAnswer": "57",
+    "correctAnswer": "x = 5",
     "subject": "Mathematics",
     "grade": 10,
     "difficulty": "medium",
-    "explanation": "19 × 3 = 57"
+    "explanation": "Subtract 20 from both sides, then divide by 3",
+    "_cacheBreaker": "1755265388130_19"
   }
 ]

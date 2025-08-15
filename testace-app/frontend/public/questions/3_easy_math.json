@@ -1,55 +1,24 @@
 [
   {
-    "_id": "grade3_easy_math_001",
-    "content": "What is 6 × 7?",
-    "type": "multiple_choice",
-    "options": [
-      "42",
-      "43",
-      "41",
-      "13"
-    ],
-    "correctAnswer": "42",
-    "subject": "Mathematics",
-    "grade": 3,
-    "difficulty": "easy",
-    "explanation": "6 × 7 = 42"
-  },
-  {
-    "_id": "grade3_easy_math_002",
-    "content": "What is 45 ÷ 5?",
+    "_id": "easy3_1755260948241_001",
+    "content": "What is 6 × 2?",
     "type": "multiple_choice",
     "options": [
       "8",
-      "9",
       "10",
-      "50"
+      "12",
+      "14"
     ],
-    "correctAnswer": "9",
+    "correctAnswer": "12",
     "subject": "Mathematics",
     "grade": 3,
     "difficulty": "easy",
-    "explanation": "45 ÷ 5 = 9"
+    "explanation": "6 × 2 = 12",
+    "_cacheBreaker": "1755265388172_0"
   },
   {
-    "_id": "grade3_easy_math_003",
-    "content": "What is 1/2 of 8?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "5",
-      "16"
-    ],
-    "correctAnswer": "4",
-    "subject": "Mathematics",
-    "grade": 3,
-    "difficulty": "easy",
-    "explanation": "1/2 of 8 = 8 ÷ 2 = 4"
-  },
-  {
-    "_id": "grade3_easy_math_004",
-    "content": "Round 47 to the nearest 10.",
+    "_id": "easy3_1755260948241_002",
+    "content": "Round 47 to the nearest 10",
     "type": "multiple_choice",
     "options": [
       "40",
@@ -61,59 +30,46 @@
     "subject": "Mathematics",
     "grade": 3,
     "difficulty": "easy",
-    "explanation": "47 is closer to 50 than 40"
+    "explanation": "47 is closer to 50 than to 40",
+    "_cacheBreaker": "1755265388172_1"
   },
   {
-    "_id": "grade3_easy_math_005",
-    "content": "What is 6 × 7?",
-    "type": "multiple_choice",
-    "options": [
-      "42",
-      "43",
-      "41",
-      "13"
-    ],
-    "correctAnswer": "42",
-    "subject": "Mathematics",
-    "grade": 3,
-    "difficulty": "easy",
-    "explanation": "6 × 7 = 42"
-  },
-  {
-    "_id": "grade3_easy_math_006",
-    "content": "What is 45 ÷ 5?",
-    "type": "multiple_choice",
-    "options": [
-      "8",
-      "9",
-      "10",
-      "50"
-    ],
-    "correctAnswer": "9",
-    "subject": "Mathematics",
-    "grade": 3,
-    "difficulty": "easy",
-    "explanation": "45 ÷ 5 = 9"
-  },
-  {
-    "_id": "grade3_easy_math_007",
-    "content": "What is 1/2 of 8?",
+    "_id": "easy3_1755260948241_003",
+    "content": "What is 15 ÷ 3?",
     "type": "multiple_choice",
     "options": [
       "3",
       "4",
       "5",
-      "16"
+      "6"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "5",
     "subject": "Mathematics",
     "grade": 3,
     "difficulty": "easy",
-    "explanation": "1/2 of 8 = 8 ÷ 2 = 4"
+    "explanation": "15 ÷ 3 = 5",
+    "_cacheBreaker": "1755265388172_2"
   },
   {
-    "_id": "grade3_easy_math_008",
-    "content": "Round 47 to the nearest 10.",
+    "_id": "easy3_1755260948242_004",
+    "content": "What is 6 × 2? (Question 4)",
+    "type": "multiple_choice",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "14"
+    ],
+    "correctAnswer": "12",
+    "subject": "Mathematics",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "6 × 2 = 12",
+    "_cacheBreaker": "1755265388172_3"
+  },
+  {
+    "_id": "easy3_1755260948242_005",
+    "content": "Round 47 to the nearest 10 (Question 5)",
     "type": "multiple_choice",
     "options": [
       "40",
@@ -125,59 +81,46 @@
     "subject": "Mathematics",
     "grade": 3,
     "difficulty": "easy",
-    "explanation": "47 is closer to 50 than 40"
+    "explanation": "47 is closer to 50 than to 40",
+    "_cacheBreaker": "1755265388172_4"
   },
   {
-    "_id": "grade3_easy_math_009",
-    "content": "What is 6 × 7?",
-    "type": "multiple_choice",
-    "options": [
-      "42",
-      "43",
-      "41",
-      "13"
-    ],
-    "correctAnswer": "42",
-    "subject": "Mathematics",
-    "grade": 3,
-    "difficulty": "easy",
-    "explanation": "6 × 7 = 42"
-  },
-  {
-    "_id": "grade3_easy_math_010",
-    "content": "What is 45 ÷ 5?",
-    "type": "multiple_choice",
-    "options": [
-      "8",
-      "9",
-      "10",
-      "50"
-    ],
-    "correctAnswer": "9",
-    "subject": "Mathematics",
-    "grade": 3,
-    "difficulty": "easy",
-    "explanation": "45 ÷ 5 = 9"
-  },
-  {
-    "_id": "grade3_easy_math_011",
-    "content": "What is 1/2 of 8?",
+    "_id": "easy3_1755260948242_006",
+    "content": "What is 15 ÷ 3? (Question 6)",
     "type": "multiple_choice",
     "options": [
       "3",
       "4",
       "5",
-      "16"
+      "6"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "5",
     "subject": "Mathematics",
     "grade": 3,
     "difficulty": "easy",
-    "explanation": "1/2 of 8 = 8 ÷ 2 = 4"
+    "explanation": "15 ÷ 3 = 5",
+    "_cacheBreaker": "1755265388172_5"
   },
   {
-    "_id": "grade3_easy_math_012",
-    "content": "Round 47 to the nearest 10.",
+    "_id": "easy3_1755260948242_007",
+    "content": "What is 6 × 2? (Question 7)",
+    "type": "multiple_choice",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "14"
+    ],
+    "correctAnswer": "12",
+    "subject": "Mathematics",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "6 × 2 = 12",
+    "_cacheBreaker": "1755265388172_6"
+  },
+  {
+    "_id": "easy3_1755260948242_008",
+    "content": "Round 47 to the nearest 10 (Question 8)",
     "type": "multiple_choice",
     "options": [
       "40",
@@ -189,59 +132,46 @@
     "subject": "Mathematics",
     "grade": 3,
     "difficulty": "easy",
-    "explanation": "47 is closer to 50 than 40"
+    "explanation": "47 is closer to 50 than to 40",
+    "_cacheBreaker": "1755265388172_7"
   },
   {
-    "_id": "grade3_easy_math_013",
-    "content": "What is 6 × 7?",
-    "type": "multiple_choice",
-    "options": [
-      "42",
-      "43",
-      "41",
-      "13"
-    ],
-    "correctAnswer": "42",
-    "subject": "Mathematics",
-    "grade": 3,
-    "difficulty": "easy",
-    "explanation": "6 × 7 = 42"
-  },
-  {
-    "_id": "grade3_easy_math_014",
-    "content": "What is 45 ÷ 5?",
-    "type": "multiple_choice",
-    "options": [
-      "8",
-      "9",
-      "10",
-      "50"
-    ],
-    "correctAnswer": "9",
-    "subject": "Mathematics",
-    "grade": 3,
-    "difficulty": "easy",
-    "explanation": "45 ÷ 5 = 9"
-  },
-  {
-    "_id": "grade3_easy_math_015",
-    "content": "What is 1/2 of 8?",
+    "_id": "easy3_1755260948242_009",
+    "content": "What is 15 ÷ 3? (Question 9)",
     "type": "multiple_choice",
     "options": [
       "3",
       "4",
       "5",
-      "16"
+      "6"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "5",
     "subject": "Mathematics",
     "grade": 3,
     "difficulty": "easy",
-    "explanation": "1/2 of 8 = 8 ÷ 2 = 4"
+    "explanation": "15 ÷ 3 = 5",
+    "_cacheBreaker": "1755265388172_8"
   },
   {
-    "_id": "grade3_easy_math_016",
-    "content": "Round 47 to the nearest 10.",
+    "_id": "easy3_1755260948242_010",
+    "content": "What is 6 × 2? (Question 10)",
+    "type": "multiple_choice",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "14"
+    ],
+    "correctAnswer": "12",
+    "subject": "Mathematics",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "6 × 2 = 12",
+    "_cacheBreaker": "1755265388172_9"
+  },
+  {
+    "_id": "easy3_1755260948242_011",
+    "content": "Round 47 to the nearest 10 (Question 11)",
     "type": "multiple_choice",
     "options": [
       "40",
@@ -253,59 +183,46 @@
     "subject": "Mathematics",
     "grade": 3,
     "difficulty": "easy",
-    "explanation": "47 is closer to 50 than 40"
+    "explanation": "47 is closer to 50 than to 40",
+    "_cacheBreaker": "1755265388172_10"
   },
   {
-    "_id": "grade3_easy_math_017",
-    "content": "What is 6 × 7?",
-    "type": "multiple_choice",
-    "options": [
-      "42",
-      "43",
-      "41",
-      "13"
-    ],
-    "correctAnswer": "42",
-    "subject": "Mathematics",
-    "grade": 3,
-    "difficulty": "easy",
-    "explanation": "6 × 7 = 42"
-  },
-  {
-    "_id": "grade3_easy_math_018",
-    "content": "What is 45 ÷ 5?",
-    "type": "multiple_choice",
-    "options": [
-      "8",
-      "9",
-      "10",
-      "50"
-    ],
-    "correctAnswer": "9",
-    "subject": "Mathematics",
-    "grade": 3,
-    "difficulty": "easy",
-    "explanation": "45 ÷ 5 = 9"
-  },
-  {
-    "_id": "grade3_easy_math_019",
-    "content": "What is 1/2 of 8?",
+    "_id": "easy3_1755260948242_012",
+    "content": "What is 15 ÷ 3? (Question 12)",
     "type": "multiple_choice",
     "options": [
       "3",
       "4",
       "5",
-      "16"
+      "6"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "5",
     "subject": "Mathematics",
     "grade": 3,
     "difficulty": "easy",
-    "explanation": "1/2 of 8 = 8 ÷ 2 = 4"
+    "explanation": "15 ÷ 3 = 5",
+    "_cacheBreaker": "1755265388172_11"
   },
   {
-    "_id": "grade3_easy_math_020",
-    "content": "Round 47 to the nearest 10.",
+    "_id": "easy3_1755260948242_013",
+    "content": "What is 6 × 2? (Question 13)",
+    "type": "multiple_choice",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "14"
+    ],
+    "correctAnswer": "12",
+    "subject": "Mathematics",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "6 × 2 = 12",
+    "_cacheBreaker": "1755265388172_12"
+  },
+  {
+    "_id": "easy3_1755260948242_014",
+    "content": "Round 47 to the nearest 10 (Question 14)",
     "type": "multiple_choice",
     "options": [
       "40",
@@ -317,6 +234,109 @@
     "subject": "Mathematics",
     "grade": 3,
     "difficulty": "easy",
-    "explanation": "47 is closer to 50 than 40"
+    "explanation": "47 is closer to 50 than to 40",
+    "_cacheBreaker": "1755265388172_13"
+  },
+  {
+    "_id": "easy3_1755260948242_015",
+    "content": "What is 15 ÷ 3? (Question 15)",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "5",
+    "subject": "Mathematics",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "15 ÷ 3 = 5",
+    "_cacheBreaker": "1755265388172_14"
+  },
+  {
+    "_id": "easy3_1755260948242_016",
+    "content": "What is 6 × 2? (Question 16)",
+    "type": "multiple_choice",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "14"
+    ],
+    "correctAnswer": "12",
+    "subject": "Mathematics",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "6 × 2 = 12",
+    "_cacheBreaker": "1755265388172_15"
+  },
+  {
+    "_id": "easy3_1755260948242_017",
+    "content": "Round 47 to the nearest 10 (Question 17)",
+    "type": "multiple_choice",
+    "options": [
+      "40",
+      "45",
+      "50",
+      "60"
+    ],
+    "correctAnswer": "50",
+    "subject": "Mathematics",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "47 is closer to 50 than to 40",
+    "_cacheBreaker": "1755265388172_16"
+  },
+  {
+    "_id": "easy3_1755260948242_018",
+    "content": "What is 15 ÷ 3? (Question 18)",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "5",
+    "subject": "Mathematics",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "15 ÷ 3 = 5",
+    "_cacheBreaker": "1755265388172_17"
+  },
+  {
+    "_id": "easy3_1755260948242_019",
+    "content": "What is 6 × 2? (Question 19)",
+    "type": "multiple_choice",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "14"
+    ],
+    "correctAnswer": "12",
+    "subject": "Mathematics",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "6 × 2 = 12",
+    "_cacheBreaker": "1755265388172_18"
+  },
+  {
+    "_id": "easy3_1755260948242_020",
+    "content": "Round 47 to the nearest 10 (Question 20)",
+    "type": "multiple_choice",
+    "options": [
+      "40",
+      "45",
+      "50",
+      "60"
+    ],
+    "correctAnswer": "50",
+    "subject": "Mathematics",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "47 is closer to 50 than to 40",
+    "_cacheBreaker": "1755265388172_19"
   }
 ]

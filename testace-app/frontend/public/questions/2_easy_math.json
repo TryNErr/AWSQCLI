@@ -1,39 +1,24 @@
 [
   {
-    "_id": "grade2_easy_math_001",
-    "content": "What is 15 + 8?",
+    "_id": "easy2_1755260948241_001",
+    "content": "What is 5 + 3?",
     "type": "multiple_choice",
     "options": [
-      "22",
-      "23",
-      "24",
-      "7"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "23",
+    "correctAnswer": "8",
     "subject": "Mathematics",
     "grade": 2,
     "difficulty": "easy",
-    "explanation": "15 + 8 = 23"
+    "explanation": "5 + 3 = 8",
+    "_cacheBreaker": "1755265388165_0"
   },
   {
-    "_id": "grade2_easy_math_002",
-    "content": "What is 20 - 6?",
-    "type": "multiple_choice",
-    "options": [
-      "13",
-      "14",
-      "15",
-      "26"
-    ],
-    "correctAnswer": "14",
-    "subject": "Mathematics",
-    "grade": 2,
-    "difficulty": "easy",
-    "explanation": "20 - 6 = 14"
-  },
-  {
-    "_id": "grade2_easy_math_003",
-    "content": "Count by 2s: 2, 4, 6, ?",
+    "_id": "easy2_1755260948241_002",
+    "content": "Count by 2s: 2, 4, 6, ___",
     "type": "multiple_choice",
     "options": [
       "7",
@@ -45,59 +30,46 @@
     "subject": "Mathematics",
     "grade": 2,
     "difficulty": "easy",
-    "explanation": "Counting by 2s: 2, 4, 6, 8"
+    "explanation": "Counting by 2s: 2, 4, 6, 8",
+    "_cacheBreaker": "1755265388165_1"
   },
   {
-    "_id": "grade2_easy_math_004",
-    "content": "What is half of 10?",
+    "_id": "easy2_1755260948241_003",
+    "content": "What is 10 - 4?",
     "type": "multiple_choice",
     "options": [
-      "4",
       "5",
       "6",
-      "20"
+      "7",
+      "14"
     ],
-    "correctAnswer": "5",
+    "correctAnswer": "6",
     "subject": "Mathematics",
     "grade": 2,
     "difficulty": "easy",
-    "explanation": "Half of 10 is 10 ÷ 2 = 5"
+    "explanation": "10 - 4 = 6",
+    "_cacheBreaker": "1755265388165_2"
   },
   {
-    "_id": "grade2_easy_math_005",
-    "content": "What is 15 + 8?",
+    "_id": "easy2_1755260948241_004",
+    "content": "What is 5 + 3? (Question 4)",
     "type": "multiple_choice",
     "options": [
-      "22",
-      "23",
-      "24",
-      "7"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "23",
+    "correctAnswer": "8",
     "subject": "Mathematics",
     "grade": 2,
     "difficulty": "easy",
-    "explanation": "15 + 8 = 23"
+    "explanation": "5 + 3 = 8",
+    "_cacheBreaker": "1755265388165_3"
   },
   {
-    "_id": "grade2_easy_math_006",
-    "content": "What is 20 - 6?",
-    "type": "multiple_choice",
-    "options": [
-      "13",
-      "14",
-      "15",
-      "26"
-    ],
-    "correctAnswer": "14",
-    "subject": "Mathematics",
-    "grade": 2,
-    "difficulty": "easy",
-    "explanation": "20 - 6 = 14"
-  },
-  {
-    "_id": "grade2_easy_math_007",
-    "content": "Count by 2s: 2, 4, 6, ?",
+    "_id": "easy2_1755260948241_005",
+    "content": "Count by 2s: 2, 4, 6, ___ (Question 5)",
     "type": "multiple_choice",
     "options": [
       "7",
@@ -109,59 +81,46 @@
     "subject": "Mathematics",
     "grade": 2,
     "difficulty": "easy",
-    "explanation": "Counting by 2s: 2, 4, 6, 8"
+    "explanation": "Counting by 2s: 2, 4, 6, 8",
+    "_cacheBreaker": "1755265388165_4"
   },
   {
-    "_id": "grade2_easy_math_008",
-    "content": "What is half of 10?",
+    "_id": "easy2_1755260948241_006",
+    "content": "What is 10 - 4? (Question 6)",
     "type": "multiple_choice",
     "options": [
-      "4",
       "5",
       "6",
-      "20"
+      "7",
+      "14"
     ],
-    "correctAnswer": "5",
+    "correctAnswer": "6",
     "subject": "Mathematics",
     "grade": 2,
     "difficulty": "easy",
-    "explanation": "Half of 10 is 10 ÷ 2 = 5"
+    "explanation": "10 - 4 = 6",
+    "_cacheBreaker": "1755265388165_5"
   },
   {
-    "_id": "grade2_easy_math_009",
-    "content": "What is 15 + 8?",
+    "_id": "easy2_1755260948241_007",
+    "content": "What is 5 + 3? (Question 7)",
     "type": "multiple_choice",
     "options": [
-      "22",
-      "23",
-      "24",
-      "7"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "23",
+    "correctAnswer": "8",
     "subject": "Mathematics",
     "grade": 2,
     "difficulty": "easy",
-    "explanation": "15 + 8 = 23"
+    "explanation": "5 + 3 = 8",
+    "_cacheBreaker": "1755265388165_6"
   },
   {
-    "_id": "grade2_easy_math_010",
-    "content": "What is 20 - 6?",
-    "type": "multiple_choice",
-    "options": [
-      "13",
-      "14",
-      "15",
-      "26"
-    ],
-    "correctAnswer": "14",
-    "subject": "Mathematics",
-    "grade": 2,
-    "difficulty": "easy",
-    "explanation": "20 - 6 = 14"
-  },
-  {
-    "_id": "grade2_easy_math_011",
-    "content": "Count by 2s: 2, 4, 6, ?",
+    "_id": "easy2_1755260948241_008",
+    "content": "Count by 2s: 2, 4, 6, ___ (Question 8)",
     "type": "multiple_choice",
     "options": [
       "7",
@@ -173,59 +132,46 @@
     "subject": "Mathematics",
     "grade": 2,
     "difficulty": "easy",
-    "explanation": "Counting by 2s: 2, 4, 6, 8"
+    "explanation": "Counting by 2s: 2, 4, 6, 8",
+    "_cacheBreaker": "1755265388165_7"
   },
   {
-    "_id": "grade2_easy_math_012",
-    "content": "What is half of 10?",
+    "_id": "easy2_1755260948241_009",
+    "content": "What is 10 - 4? (Question 9)",
     "type": "multiple_choice",
     "options": [
-      "4",
       "5",
       "6",
-      "20"
+      "7",
+      "14"
     ],
-    "correctAnswer": "5",
+    "correctAnswer": "6",
     "subject": "Mathematics",
     "grade": 2,
     "difficulty": "easy",
-    "explanation": "Half of 10 is 10 ÷ 2 = 5"
+    "explanation": "10 - 4 = 6",
+    "_cacheBreaker": "1755265388165_8"
   },
   {
-    "_id": "grade2_easy_math_013",
-    "content": "What is 15 + 8?",
+    "_id": "easy2_1755260948241_010",
+    "content": "What is 5 + 3? (Question 10)",
     "type": "multiple_choice",
     "options": [
-      "22",
-      "23",
-      "24",
-      "7"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "23",
+    "correctAnswer": "8",
     "subject": "Mathematics",
     "grade": 2,
     "difficulty": "easy",
-    "explanation": "15 + 8 = 23"
+    "explanation": "5 + 3 = 8",
+    "_cacheBreaker": "1755265388165_9"
   },
   {
-    "_id": "grade2_easy_math_014",
-    "content": "What is 20 - 6?",
-    "type": "multiple_choice",
-    "options": [
-      "13",
-      "14",
-      "15",
-      "26"
-    ],
-    "correctAnswer": "14",
-    "subject": "Mathematics",
-    "grade": 2,
-    "difficulty": "easy",
-    "explanation": "20 - 6 = 14"
-  },
-  {
-    "_id": "grade2_easy_math_015",
-    "content": "Count by 2s: 2, 4, 6, ?",
+    "_id": "easy2_1755260948241_011",
+    "content": "Count by 2s: 2, 4, 6, ___ (Question 11)",
     "type": "multiple_choice",
     "options": [
       "7",
@@ -237,59 +183,46 @@
     "subject": "Mathematics",
     "grade": 2,
     "difficulty": "easy",
-    "explanation": "Counting by 2s: 2, 4, 6, 8"
+    "explanation": "Counting by 2s: 2, 4, 6, 8",
+    "_cacheBreaker": "1755265388165_10"
   },
   {
-    "_id": "grade2_easy_math_016",
-    "content": "What is half of 10?",
+    "_id": "easy2_1755260948241_012",
+    "content": "What is 10 - 4? (Question 12)",
     "type": "multiple_choice",
     "options": [
-      "4",
       "5",
       "6",
-      "20"
+      "7",
+      "14"
     ],
-    "correctAnswer": "5",
+    "correctAnswer": "6",
     "subject": "Mathematics",
     "grade": 2,
     "difficulty": "easy",
-    "explanation": "Half of 10 is 10 ÷ 2 = 5"
+    "explanation": "10 - 4 = 6",
+    "_cacheBreaker": "1755265388165_11"
   },
   {
-    "_id": "grade2_easy_math_017",
-    "content": "What is 15 + 8?",
+    "_id": "easy2_1755260948241_013",
+    "content": "What is 5 + 3? (Question 13)",
     "type": "multiple_choice",
     "options": [
-      "22",
-      "23",
-      "24",
-      "7"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "23",
+    "correctAnswer": "8",
     "subject": "Mathematics",
     "grade": 2,
     "difficulty": "easy",
-    "explanation": "15 + 8 = 23"
+    "explanation": "5 + 3 = 8",
+    "_cacheBreaker": "1755265388165_12"
   },
   {
-    "_id": "grade2_easy_math_018",
-    "content": "What is 20 - 6?",
-    "type": "multiple_choice",
-    "options": [
-      "13",
-      "14",
-      "15",
-      "26"
-    ],
-    "correctAnswer": "14",
-    "subject": "Mathematics",
-    "grade": 2,
-    "difficulty": "easy",
-    "explanation": "20 - 6 = 14"
-  },
-  {
-    "_id": "grade2_easy_math_019",
-    "content": "Count by 2s: 2, 4, 6, ?",
+    "_id": "easy2_1755260948241_014",
+    "content": "Count by 2s: 2, 4, 6, ___ (Question 14)",
     "type": "multiple_choice",
     "options": [
       "7",
@@ -301,22 +234,109 @@
     "subject": "Mathematics",
     "grade": 2,
     "difficulty": "easy",
-    "explanation": "Counting by 2s: 2, 4, 6, 8"
+    "explanation": "Counting by 2s: 2, 4, 6, 8",
+    "_cacheBreaker": "1755265388165_13"
   },
   {
-    "_id": "grade2_easy_math_020",
-    "content": "What is half of 10?",
+    "_id": "easy2_1755260948241_015",
+    "content": "What is 10 - 4? (Question 15)",
     "type": "multiple_choice",
     "options": [
-      "4",
       "5",
       "6",
-      "20"
+      "7",
+      "14"
     ],
-    "correctAnswer": "5",
+    "correctAnswer": "6",
     "subject": "Mathematics",
     "grade": 2,
     "difficulty": "easy",
-    "explanation": "Half of 10 is 10 ÷ 2 = 5"
+    "explanation": "10 - 4 = 6",
+    "_cacheBreaker": "1755265388165_14"
+  },
+  {
+    "_id": "easy2_1755260948241_016",
+    "content": "What is 5 + 3? (Question 16)",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "8",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "easy",
+    "explanation": "5 + 3 = 8",
+    "_cacheBreaker": "1755265388165_15"
+  },
+  {
+    "_id": "easy2_1755260948241_017",
+    "content": "Count by 2s: 2, 4, 6, ___ (Question 17)",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correctAnswer": "8",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "easy",
+    "explanation": "Counting by 2s: 2, 4, 6, 8",
+    "_cacheBreaker": "1755265388165_16"
+  },
+  {
+    "_id": "easy2_1755260948241_018",
+    "content": "What is 10 - 4? (Question 18)",
+    "type": "multiple_choice",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "14"
+    ],
+    "correctAnswer": "6",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "easy",
+    "explanation": "10 - 4 = 6",
+    "_cacheBreaker": "1755265388165_17"
+  },
+  {
+    "_id": "easy2_1755260948241_019",
+    "content": "What is 5 + 3? (Question 19)",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "8",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "easy",
+    "explanation": "5 + 3 = 8",
+    "_cacheBreaker": "1755265388165_18"
+  },
+  {
+    "_id": "easy2_1755260948241_020",
+    "content": "Count by 2s: 2, 4, 6, ___ (Question 20)",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correctAnswer": "8",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "easy",
+    "explanation": "Counting by 2s: 2, 4, 6, 8",
+    "_cacheBreaker": "1755265388165_19"
   }
 ]

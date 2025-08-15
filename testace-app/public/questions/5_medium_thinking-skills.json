@@ -1,342 +1,342 @@
 [
   {
-    "_id": "grade5_medium_thinking-skills_001",
-    "content": "A box contains 7 red balls and 3 blue balls. If you pick one ball without looking, what is the probability it will be red?",
+    "_id": "thinking_5_medium_1755262177003_001",
+    "scenario": "Lisa observes this pattern in her math class: 3, 6, 12, 24, ___. She needs to find the rule.",
+    "content": "What number comes next?",
     "type": "multiple_choice",
     "options": [
-      "7/10",
-      "3/10",
-      "1/2",
-      "7/3"
+      "36",
+      "48",
+      "30",
+      "27"
     ],
-    "correctAnswer": "7/10",
+    "correctAnswer": "48",
     "subject": "Thinking Skills",
     "grade": 5,
     "difficulty": "medium",
-    "explanation": "There are 7 red balls out of 10 total balls, so the probability is 7/10.",
-    "topic": "Basic Probability"
+    "explanation": "Each number doubles: 3×2=6, 6×2=12, 12×2=24, 24×2=48"
   },
   {
-    "_id": "grade5_medium_thinking-skills_002",
-    "content": "If all cats are animals, and Buddy is a cat, what can we conclude?",
+    "_id": "thinking_5_medium_1755262177003_002",
+    "scenario": "During a class discussion, Jake says: 'We should ban homework because I don't like it.' His teacher points out a problem with his reasoning.",
+    "content": "What's wrong with Jake's argument?",
     "type": "multiple_choice",
     "options": [
-      "Buddy is not an animal",
-      "Buddy is an animal",
-      "Some cats are not animals",
-      "Cannot tell"
+      "It's based only on personal preference",
+      "It's too long",
+      "It's too short",
+      "It's perfectly logical"
     ],
-    "correctAnswer": "Buddy is an animal",
+    "correctAnswer": "It's based only on personal preference",
     "subject": "Thinking Skills",
     "grade": 5,
     "difficulty": "medium",
-    "explanation": "Since all cats are animals and Buddy is a cat, Buddy must be an animal.",
-    "topic": "Logical Deduction"
+    "explanation": "Jake's argument is weak because it's based only on his personal feelings, not logical reasons."
   },
   {
-    "_id": "grade5_medium_thinking-skills_003",
-    "content": "A farmer has chickens and rabbits. He counts 9 heads and 32 legs. How many chickens are there?",
+    "_id": "thinking_5_medium_1755262177003_003",
+    "scenario": "The school cafeteria problem: 'We have 200 students but only 150 lunch trays.' The principal needs to solve this.",
+    "content": "What should the principal do first?",
     "type": "multiple_choice",
     "options": [
-      "2",
-      "7",
-      "9",
-      "16"
+      "Buy more trays immediately",
+      "Understand the full situation",
+      "Ignore the problem",
+      "Blame the students"
     ],
-    "correctAnswer": "2",
+    "correctAnswer": "Understand the full situation",
     "subject": "Thinking Skills",
     "grade": 5,
     "difficulty": "medium",
-    "explanation": "If all were chickens: 9×2=18 legs. Extra legs: 32-18=14. Each rabbit adds 2 extra legs, so 7 rabbits. Therefore 9-7=2 chickens.",
-    "topic": "Problem Solving with Systems"
+    "explanation": "Good problem-solving starts with fully understanding the situation."
   },
   {
-    "_id": "grade5_medium_thinking-skills_004",
-    "content": "A box contains 4 red balls and 3 blue balls. If you pick one ball without looking, what is the probability it will be red?",
+    "_id": "thinking_5_medium_1755262177003_004",
+    "scenario": "Lisa observes this pattern in her math class: 3, 6, 12, 24, ___. She needs to find the rule.",
+    "content": "What number comes next? (Question 4)",
     "type": "multiple_choice",
     "options": [
-      "4/7",
-      "3/7",
-      "1/2",
-      "4/3"
+      "36",
+      "48",
+      "30",
+      "27"
     ],
-    "correctAnswer": "4/7",
+    "correctAnswer": "48",
     "subject": "Thinking Skills",
     "grade": 5,
     "difficulty": "medium",
-    "explanation": "There are 4 red balls out of 7 total balls, so the probability is 4/7.",
-    "topic": "Basic Probability"
+    "explanation": "Each number doubles: 3×2=6, 6×2=12, 12×2=24, 24×2=48"
   },
   {
-    "_id": "grade5_medium_thinking-skills_005",
-    "content": "If all birds are animals, and Fluffy is a bird, what can we conclude?",
+    "_id": "thinking_5_medium_1755262177003_005",
+    "scenario": "During a class discussion, Jake says: 'We should ban homework because I don't like it.' His teacher points out a problem with his reasoning.",
+    "content": "What's wrong with Jake's argument? (Question 5)",
     "type": "multiple_choice",
     "options": [
-      "Fluffy is not an animal",
-      "Fluffy is an animal",
-      "Some birds are not animals",
-      "Cannot tell"
+      "It's based only on personal preference",
+      "It's too long",
+      "It's too short",
+      "It's perfectly logical"
     ],
-    "correctAnswer": "Fluffy is an animal",
+    "correctAnswer": "It's based only on personal preference",
     "subject": "Thinking Skills",
     "grade": 5,
     "difficulty": "medium",
-    "explanation": "Since all birds are animals and Fluffy is a bird, Fluffy must be an animal.",
-    "topic": "Logical Deduction"
+    "explanation": "Jake's argument is weak because it's based only on his personal feelings, not logical reasons."
   },
   {
-    "_id": "grade5_medium_thinking-skills_006",
-    "content": "A farmer has chickens and rabbits. He counts 12 heads and 26 legs. How many chickens are there?",
+    "_id": "thinking_5_medium_1755262177003_006",
+    "scenario": "The school cafeteria problem: 'We have 200 students but only 150 lunch trays.' The principal needs to solve this.",
+    "content": "What should the principal do first? (Question 6)",
     "type": "multiple_choice",
     "options": [
-      "11",
-      "1",
-      "12",
-      "13"
+      "Buy more trays immediately",
+      "Understand the full situation",
+      "Ignore the problem",
+      "Blame the students"
     ],
-    "correctAnswer": "11",
+    "correctAnswer": "Understand the full situation",
     "subject": "Thinking Skills",
     "grade": 5,
     "difficulty": "medium",
-    "explanation": "If all were chickens: 12×2=24 legs. Extra legs: 26-24=2. Each rabbit adds 2 extra legs, so 1 rabbits. Therefore 12-1=11 chickens.",
-    "topic": "Problem Solving with Systems"
+    "explanation": "Good problem-solving starts with fully understanding the situation."
   },
   {
-    "_id": "grade5_medium_thinking-skills_007",
-    "content": "A box contains 6 red balls and 2 blue balls. If you pick one ball without looking, what is the probability it will be red?",
+    "_id": "thinking_5_medium_1755262177003_007",
+    "scenario": "Lisa observes this pattern in her math class: 3, 6, 12, 24, ___. She needs to find the rule.",
+    "content": "What number comes next? (Question 7)",
     "type": "multiple_choice",
     "options": [
-      "6/8",
-      "2/8",
-      "1/2",
-      "6/2"
+      "36",
+      "48",
+      "30",
+      "27"
     ],
-    "correctAnswer": "6/8",
+    "correctAnswer": "48",
     "subject": "Thinking Skills",
     "grade": 5,
     "difficulty": "medium",
-    "explanation": "There are 6 red balls out of 8 total balls, so the probability is 6/8.",
-    "topic": "Basic Probability"
+    "explanation": "Each number doubles: 3×2=6, 6×2=12, 12×2=24, 24×2=48"
   },
   {
-    "_id": "grade5_medium_thinking-skills_008",
-    "content": "If all cats are animals, and Buddy is a cat, what can we conclude?",
+    "_id": "thinking_5_medium_1755262177003_008",
+    "scenario": "During a class discussion, Jake says: 'We should ban homework because I don't like it.' His teacher points out a problem with his reasoning.",
+    "content": "What's wrong with Jake's argument? (Question 8)",
     "type": "multiple_choice",
     "options": [
-      "Buddy is not an animal",
-      "Buddy is an animal",
-      "Some cats are not animals",
-      "Cannot tell"
+      "It's based only on personal preference",
+      "It's too long",
+      "It's too short",
+      "It's perfectly logical"
     ],
-    "correctAnswer": "Buddy is an animal",
+    "correctAnswer": "It's based only on personal preference",
     "subject": "Thinking Skills",
     "grade": 5,
     "difficulty": "medium",
-    "explanation": "Since all cats are animals and Buddy is a cat, Buddy must be an animal.",
-    "topic": "Logical Deduction"
+    "explanation": "Jake's argument is weak because it's based only on his personal feelings, not logical reasons."
   },
   {
-    "_id": "grade5_medium_thinking-skills_009",
-    "content": "A farmer has chickens and rabbits. He counts 8 heads and 20 legs. How many chickens are there?",
+    "_id": "thinking_5_medium_1755262177003_009",
+    "scenario": "The school cafeteria problem: 'We have 200 students but only 150 lunch trays.' The principal needs to solve this.",
+    "content": "What should the principal do first? (Question 9)",
     "type": "multiple_choice",
     "options": [
-      "6",
-      "2",
-      "8",
-      "10"
+      "Buy more trays immediately",
+      "Understand the full situation",
+      "Ignore the problem",
+      "Blame the students"
     ],
-    "correctAnswer": "6",
+    "correctAnswer": "Understand the full situation",
     "subject": "Thinking Skills",
     "grade": 5,
     "difficulty": "medium",
-    "explanation": "If all were chickens: 8×2=16 legs. Extra legs: 20-16=4. Each rabbit adds 2 extra legs, so 2 rabbits. Therefore 8-2=6 chickens.",
-    "topic": "Problem Solving with Systems"
+    "explanation": "Good problem-solving starts with fully understanding the situation."
   },
   {
-    "_id": "grade5_medium_thinking-skills_010",
-    "content": "A box contains 5 red balls and 4 blue balls. If you pick one ball without looking, what is the probability it will be red?",
+    "_id": "thinking_5_medium_1755262177003_010",
+    "scenario": "Lisa observes this pattern in her math class: 3, 6, 12, 24, ___. She needs to find the rule.",
+    "content": "What number comes next? (Question 10)",
     "type": "multiple_choice",
     "options": [
-      "5/9",
-      "4/9",
-      "1/2",
-      "5/4"
+      "36",
+      "48",
+      "30",
+      "27"
     ],
-    "correctAnswer": "5/9",
+    "correctAnswer": "48",
     "subject": "Thinking Skills",
     "grade": 5,
     "difficulty": "medium",
-    "explanation": "There are 5 red balls out of 9 total balls, so the probability is 5/9.",
-    "topic": "Basic Probability"
+    "explanation": "Each number doubles: 3×2=6, 6×2=12, 12×2=24, 24×2=48"
   },
   {
-    "_id": "grade5_medium_thinking-skills_011",
-    "content": "If all cats are animals, and Buddy is a cat, what can we conclude?",
+    "_id": "thinking_5_medium_1755262177003_011",
+    "scenario": "During a class discussion, Jake says: 'We should ban homework because I don't like it.' His teacher points out a problem with his reasoning.",
+    "content": "What's wrong with Jake's argument? (Question 11)",
     "type": "multiple_choice",
     "options": [
-      "Buddy is not an animal",
-      "Buddy is an animal",
-      "Some cats are not animals",
-      "Cannot tell"
+      "It's based only on personal preference",
+      "It's too long",
+      "It's too short",
+      "It's perfectly logical"
     ],
-    "correctAnswer": "Buddy is an animal",
+    "correctAnswer": "It's based only on personal preference",
     "subject": "Thinking Skills",
     "grade": 5,
     "difficulty": "medium",
-    "explanation": "Since all cats are animals and Buddy is a cat, Buddy must be an animal.",
-    "topic": "Logical Deduction"
+    "explanation": "Jake's argument is weak because it's based only on his personal feelings, not logical reasons."
   },
   {
-    "_id": "grade5_medium_thinking-skills_012",
-    "content": "A farmer has chickens and rabbits. He counts 12 heads and 24 legs. How many chickens are there?",
+    "_id": "thinking_5_medium_1755262177003_012",
+    "scenario": "The school cafeteria problem: 'We have 200 students but only 150 lunch trays.' The principal needs to solve this.",
+    "content": "What should the principal do first? (Question 12)",
     "type": "multiple_choice",
     "options": [
-      "12",
-      "0",
-      "12",
-      "12"
+      "Buy more trays immediately",
+      "Understand the full situation",
+      "Ignore the problem",
+      "Blame the students"
     ],
-    "correctAnswer": "12",
+    "correctAnswer": "Understand the full situation",
     "subject": "Thinking Skills",
     "grade": 5,
     "difficulty": "medium",
-    "explanation": "If all were chickens: 12×2=24 legs. Extra legs: 24-24=0. Each rabbit adds 2 extra legs, so 0 rabbits. Therefore 12-0=12 chickens.",
-    "topic": "Problem Solving with Systems"
+    "explanation": "Good problem-solving starts with fully understanding the situation."
   },
   {
-    "_id": "grade5_medium_thinking-skills_013",
-    "content": "A box contains 5 red balls and 4 blue balls. If you pick one ball without looking, what is the probability it will be red?",
+    "_id": "thinking_5_medium_1755262177003_013",
+    "scenario": "Lisa observes this pattern in her math class: 3, 6, 12, 24, ___. She needs to find the rule.",
+    "content": "What number comes next? (Question 13)",
     "type": "multiple_choice",
     "options": [
-      "5/9",
-      "4/9",
-      "1/2",
-      "5/4"
+      "36",
+      "48",
+      "30",
+      "27"
     ],
-    "correctAnswer": "5/9",
+    "correctAnswer": "48",
     "subject": "Thinking Skills",
     "grade": 5,
     "difficulty": "medium",
-    "explanation": "There are 5 red balls out of 9 total balls, so the probability is 5/9.",
-    "topic": "Basic Probability"
+    "explanation": "Each number doubles: 3×2=6, 6×2=12, 12×2=24, 24×2=48"
   },
   {
-    "_id": "grade5_medium_thinking-skills_014",
-    "content": "If all birds are animals, and Buddy is a bird, what can we conclude?",
+    "_id": "thinking_5_medium_1755262177003_014",
+    "scenario": "During a class discussion, Jake says: 'We should ban homework because I don't like it.' His teacher points out a problem with his reasoning.",
+    "content": "What's wrong with Jake's argument? (Question 14)",
     "type": "multiple_choice",
     "options": [
-      "Buddy is not an animal",
-      "Buddy is an animal",
-      "Some birds are not animals",
-      "Cannot tell"
+      "It's based only on personal preference",
+      "It's too long",
+      "It's too short",
+      "It's perfectly logical"
     ],
-    "correctAnswer": "Buddy is an animal",
+    "correctAnswer": "It's based only on personal preference",
     "subject": "Thinking Skills",
     "grade": 5,
     "difficulty": "medium",
-    "explanation": "Since all birds are animals and Buddy is a bird, Buddy must be an animal.",
-    "topic": "Logical Deduction"
+    "explanation": "Jake's argument is weak because it's based only on his personal feelings, not logical reasons."
   },
   {
-    "_id": "grade5_medium_thinking-skills_015",
-    "content": "A farmer has chickens and rabbits. He counts 11 heads and 22 legs. How many chickens are there?",
+    "_id": "thinking_5_medium_1755262177003_015",
+    "scenario": "The school cafeteria problem: 'We have 200 students but only 150 lunch trays.' The principal needs to solve this.",
+    "content": "What should the principal do first? (Question 15)",
     "type": "multiple_choice",
     "options": [
-      "11",
-      "0",
-      "11",
-      "11"
+      "Buy more trays immediately",
+      "Understand the full situation",
+      "Ignore the problem",
+      "Blame the students"
     ],
-    "correctAnswer": "11",
+    "correctAnswer": "Understand the full situation",
     "subject": "Thinking Skills",
     "grade": 5,
     "difficulty": "medium",
-    "explanation": "If all were chickens: 11×2=22 legs. Extra legs: 22-22=0. Each rabbit adds 2 extra legs, so 0 rabbits. Therefore 11-0=11 chickens.",
-    "topic": "Problem Solving with Systems"
+    "explanation": "Good problem-solving starts with fully understanding the situation."
   },
   {
-    "_id": "grade5_medium_thinking-skills_016",
-    "content": "A box contains 6 red balls and 2 blue balls. If you pick one ball without looking, what is the probability it will be red?",
+    "_id": "thinking_5_medium_1755262177003_016",
+    "scenario": "Lisa observes this pattern in her math class: 3, 6, 12, 24, ___. She needs to find the rule.",
+    "content": "What number comes next? (Question 16)",
     "type": "multiple_choice",
     "options": [
-      "6/8",
-      "2/8",
-      "1/2",
-      "6/2"
+      "36",
+      "48",
+      "30",
+      "27"
     ],
-    "correctAnswer": "6/8",
+    "correctAnswer": "48",
     "subject": "Thinking Skills",
     "grade": 5,
     "difficulty": "medium",
-    "explanation": "There are 6 red balls out of 8 total balls, so the probability is 6/8.",
-    "topic": "Basic Probability"
+    "explanation": "Each number doubles: 3×2=6, 6×2=12, 12×2=24, 24×2=48"
   },
   {
-    "_id": "grade5_medium_thinking-skills_017",
-    "content": "If all cats are animals, and Fluffy is a cat, what can we conclude?",
+    "_id": "thinking_5_medium_1755262177003_017",
+    "scenario": "During a class discussion, Jake says: 'We should ban homework because I don't like it.' His teacher points out a problem with his reasoning.",
+    "content": "What's wrong with Jake's argument? (Question 17)",
     "type": "multiple_choice",
     "options": [
-      "Fluffy is not an animal",
-      "Fluffy is an animal",
-      "Some cats are not animals",
-      "Cannot tell"
+      "It's based only on personal preference",
+      "It's too long",
+      "It's too short",
+      "It's perfectly logical"
     ],
-    "correctAnswer": "Fluffy is an animal",
+    "correctAnswer": "It's based only on personal preference",
     "subject": "Thinking Skills",
     "grade": 5,
     "difficulty": "medium",
-    "explanation": "Since all cats are animals and Fluffy is a cat, Fluffy must be an animal.",
-    "topic": "Logical Deduction"
+    "explanation": "Jake's argument is weak because it's based only on his personal feelings, not logical reasons."
   },
   {
-    "_id": "grade5_medium_thinking-skills_018",
-    "content": "A farmer has chickens and rabbits. He counts 8 heads and 24 legs. How many chickens are there?",
+    "_id": "thinking_5_medium_1755262177003_018",
+    "scenario": "The school cafeteria problem: 'We have 200 students but only 150 lunch trays.' The principal needs to solve this.",
+    "content": "What should the principal do first? (Question 18)",
     "type": "multiple_choice",
     "options": [
-      "4",
-      "4",
-      "8",
-      "12"
+      "Buy more trays immediately",
+      "Understand the full situation",
+      "Ignore the problem",
+      "Blame the students"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "Understand the full situation",
     "subject": "Thinking Skills",
     "grade": 5,
     "difficulty": "medium",
-    "explanation": "If all were chickens: 8×2=16 legs. Extra legs: 24-16=8. Each rabbit adds 2 extra legs, so 4 rabbits. Therefore 8-4=4 chickens.",
-    "topic": "Problem Solving with Systems"
+    "explanation": "Good problem-solving starts with fully understanding the situation."
   },
   {
-    "_id": "grade5_medium_thinking-skills_019",
-    "content": "A box contains 8 red balls and 2 blue balls. If you pick one ball without looking, what is the probability it will be red?",
+    "_id": "thinking_5_medium_1755262177003_019",
+    "scenario": "Lisa observes this pattern in her math class: 3, 6, 12, 24, ___. She needs to find the rule.",
+    "content": "What number comes next? (Question 19)",
     "type": "multiple_choice",
     "options": [
-      "8/10",
-      "2/10",
-      "1/2",
-      "8/2"
+      "36",
+      "48",
+      "30",
+      "27"
     ],
-    "correctAnswer": "8/10",
+    "correctAnswer": "48",
     "subject": "Thinking Skills",
     "grade": 5,
     "difficulty": "medium",
-    "explanation": "There are 8 red balls out of 10 total balls, so the probability is 8/10.",
-    "topic": "Basic Probability"
+    "explanation": "Each number doubles: 3×2=6, 6×2=12, 12×2=24, 24×2=48"
   },
   {
-    "_id": "grade5_medium_thinking-skills_020",
-    "content": "If all cats are animals, and Charlie is a cat, what can we conclude?",
+    "_id": "thinking_5_medium_1755262177003_020",
+    "scenario": "During a class discussion, Jake says: 'We should ban homework because I don't like it.' His teacher points out a problem with his reasoning.",
+    "content": "What's wrong with Jake's argument? (Question 20)",
     "type": "multiple_choice",
     "options": [
-      "Charlie is not an animal",
-      "Charlie is an animal",
-      "Some cats are not animals",
-      "Cannot tell"
+      "It's based only on personal preference",
+      "It's too long",
+      "It's too short",
+      "It's perfectly logical"
     ],
-    "correctAnswer": "Charlie is an animal",
+    "correctAnswer": "It's based only on personal preference",
     "subject": "Thinking Skills",
     "grade": 5,
     "difficulty": "medium",
-    "explanation": "Since all cats are animals and Charlie is a cat, Charlie must be an animal.",
-    "topic": "Logical Deduction"
+    "explanation": "Jake's argument is weak because it's based only on his personal feelings, not logical reasons."
   }
 ]

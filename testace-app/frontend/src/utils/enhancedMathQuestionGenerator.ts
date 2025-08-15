@@ -546,9 +546,9 @@ class EnhancedMathQuestionGenerator {
           const angle = 30;
           const opposite = 0.5;
           
-          questionText = `In a right triangle, if one angle is 30° and the hypotenuse is 1, what is sin(30°)?`;
-          answer = "0.5";
-          explanation = `sin(30°) = opposite/hypotenuse = 0.5/1 = 0.5`;
+          questionText = `Find the derivative of f(x) = x³ + 2x² - 5x + 1`;
+          answer = "3x² + 4x - 5";
+          explanation = `Using power rule: d/dx[x³] = 3x², d/dx[2x²] = 4x, d/dx[-5x] = -5, d/dx[1] = 0`;
           break;
           
         case DifficultyLevel.HARD:

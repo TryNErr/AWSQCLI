@@ -1,342 +1,342 @@
 [
   {
-    "_id": "grade12_medium_thinking-skills_001",
-    "content": "A company's profit increases by 19% each year. If the profit was $40 in 2020, what will it be in 2023?",
+    "_id": "thinking_12_medium_1755262177036_001",
+    "scenario": "Dr. Smith conducts a study and observes: 'In 100 experiments, when I heat water to 100°C at sea level, it always boils.' She wants to make a general conclusion.",
+    "content": "What type of reasoning is Dr. Smith using to conclude 'Water boils at 100°C at sea level'?",
     "type": "multiple_choice",
     "options": [
-      "$67",
-      "$63",
-      "$97",
-      "$60"
+      "Deductive reasoning",
+      "Inductive reasoning",
+      "Circular reasoning",
+      "Emotional reasoning"
     ],
-    "correctAnswer": "$67",
+    "correctAnswer": "Inductive reasoning",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "After 3 years with 19% annual growth: $40 × (1.19)^3 = $67.",
-    "topic": "Exponential Growth"
+    "explanation": "Inductive reasoning builds general conclusions from specific observations and patterns."
   },
   {
-    "_id": "grade12_medium_thinking-skills_002",
-    "content": "A company's profit increases by 16% each year. If the profit was $47 in 2020, what will it be in 2022?",
+    "_id": "thinking_12_medium_1755262177036_002",
+    "scenario": "Professor Johnson notices that his student Mark always seeks out information that supports his political views while ignoring contradictory evidence. Mark dismisses studies that challenge his beliefs without reading them.",
+    "content": "What cognitive bias is Mark demonstrating?",
     "type": "multiple_choice",
     "options": [
-      "$63",
-      "$62",
-      "$79",
-      "$71"
+      "Confirmation bias",
+      "Anchoring bias",
+      "Availability heuristic",
+      "Hindsight bias"
     ],
-    "correctAnswer": "$63",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "After 2 years with 16% annual growth: $47 × (1.16)^2 = $63.",
-    "topic": "Exponential Growth"
+    "explanation": "Confirmation bias is the tendency to search for and favor information that confirms our existing beliefs."
   },
   {
-    "_id": "grade12_medium_thinking-skills_003",
-    "content": "A company's profit increases by 15% each year. If the profit was $54 in 2020, what will it be in 2024?",
+    "_id": "thinking_12_medium_1755262177036_003",
+    "scenario": "Two scientists propose explanations for a new phenomenon: Theory A involves complex interactions between 15 different variables and 3 unknown forces. Theory B explains the same phenomenon using 2 well-understood principles. Both theories fit the observed data equally well.",
+    "content": "According to Occam's Razor, which theory should be preferred?",
     "type": "multiple_choice",
     "options": [
-      "$94",
-      "$86",
-      "$114",
-      "$81"
+      "Theory A because it's more detailed",
+      "Theory B because it's simpler",
+      "Both theories are equally valid",
+      "Neither theory should be accepted"
     ],
-    "correctAnswer": "$94",
+    "correctAnswer": "Theory B because it's simpler",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "After 4 years with 15% annual growth: $54 × (1.15)^4 = $94.",
-    "topic": "Exponential Growth"
+    "explanation": "Occam's Razor suggests that when multiple explanations fit the data, the simplest one is usually correct."
   },
   {
-    "_id": "grade12_medium_thinking-skills_004",
-    "content": "A company's profit increases by 19% each year. If the profit was $63 in 2020, what will it be in 2022?",
+    "_id": "thinking_12_medium_1755262177036_004",
+    "scenario": "Dr. Smith conducts a study and observes: 'In 100 experiments, when I heat water to 100°C at sea level, it always boils.' She wants to make a general conclusion.",
+    "content": "What type of reasoning is Dr. Smith using to conclude 'Water boils at 100°C at sea level'? (Question 4)",
     "type": "multiple_choice",
     "options": [
-      "$89",
-      "$87",
-      "$101",
-      "$95"
+      "Deductive reasoning",
+      "Inductive reasoning",
+      "Circular reasoning",
+      "Emotional reasoning"
     ],
-    "correctAnswer": "$89",
+    "correctAnswer": "Inductive reasoning",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "After 2 years with 19% annual growth: $63 × (1.19)^2 = $89.",
-    "topic": "Exponential Growth"
+    "explanation": "Inductive reasoning builds general conclusions from specific observations and patterns."
   },
   {
-    "_id": "grade12_medium_thinking-skills_005",
-    "content": "A company's profit increases by 21% each year. If the profit was $47 in 2020, what will it be in 2023?",
+    "_id": "thinking_12_medium_1755262177036_005",
+    "scenario": "Professor Johnson notices that his student Mark always seeks out information that supports his political views while ignoring contradictory evidence. Mark dismisses studies that challenge his beliefs without reading them.",
+    "content": "What cognitive bias is Mark demonstrating? (Question 5)",
     "type": "multiple_choice",
     "options": [
-      "$83",
-      "$77",
-      "$110",
-      "$71"
+      "Confirmation bias",
+      "Anchoring bias",
+      "Availability heuristic",
+      "Hindsight bias"
     ],
-    "correctAnswer": "$83",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "After 3 years with 21% annual growth: $47 × (1.21)^3 = $83.",
-    "topic": "Exponential Growth"
+    "explanation": "Confirmation bias is the tendency to search for and favor information that confirms our existing beliefs."
   },
   {
-    "_id": "grade12_medium_thinking-skills_006",
-    "content": "A company's profit increases by 17% each year. If the profit was $48 in 2020, what will it be in 2023?",
+    "_id": "thinking_12_medium_1755262177036_006",
+    "scenario": "Two scientists propose explanations for a new phenomenon: Theory A involves complex interactions between 15 different variables and 3 unknown forces. Theory B explains the same phenomenon using 2 well-understood principles. Both theories fit the observed data equally well.",
+    "content": "According to Occam's Razor, which theory should be preferred? (Question 6)",
     "type": "multiple_choice",
     "options": [
-      "$77",
-      "$72",
-      "$99",
-      "$72"
+      "Theory A because it's more detailed",
+      "Theory B because it's simpler",
+      "Both theories are equally valid",
+      "Neither theory should be accepted"
     ],
-    "correctAnswer": "$77",
+    "correctAnswer": "Theory B because it's simpler",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "After 3 years with 17% annual growth: $48 × (1.17)^3 = $77.",
-    "topic": "Exponential Growth"
+    "explanation": "Occam's Razor suggests that when multiple explanations fit the data, the simplest one is usually correct."
   },
   {
-    "_id": "grade12_medium_thinking-skills_007",
-    "content": "A company's profit increases by 18% each year. If the profit was $69 in 2020, what will it be in 2022?",
+    "_id": "thinking_12_medium_1755262177036_007",
+    "scenario": "Dr. Smith conducts a study and observes: 'In 100 experiments, when I heat water to 100°C at sea level, it always boils.' She wants to make a general conclusion.",
+    "content": "What type of reasoning is Dr. Smith using to conclude 'Water boils at 100°C at sea level'? (Question 7)",
     "type": "multiple_choice",
     "options": [
-      "$96",
-      "$94",
-      "$105",
-      "$104"
+      "Deductive reasoning",
+      "Inductive reasoning",
+      "Circular reasoning",
+      "Emotional reasoning"
     ],
-    "correctAnswer": "$96",
+    "correctAnswer": "Inductive reasoning",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "After 2 years with 18% annual growth: $69 × (1.18)^2 = $96.",
-    "topic": "Exponential Growth"
+    "explanation": "Inductive reasoning builds general conclusions from specific observations and patterns."
   },
   {
-    "_id": "grade12_medium_thinking-skills_008",
-    "content": "A company's profit increases by 23% each year. If the profit was $58 in 2020, what will it be in 2022?",
+    "_id": "thinking_12_medium_1755262177036_008",
+    "scenario": "Professor Johnson notices that his student Mark always seeks out information that supports his political views while ignoring contradictory evidence. Mark dismisses studies that challenge his beliefs without reading them.",
+    "content": "What cognitive bias is Mark demonstrating? (Question 8)",
     "type": "multiple_choice",
     "options": [
-      "$88",
-      "$85",
-      "$104",
-      "$87"
+      "Confirmation bias",
+      "Anchoring bias",
+      "Availability heuristic",
+      "Hindsight bias"
     ],
-    "correctAnswer": "$88",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "After 2 years with 23% annual growth: $58 × (1.23)^2 = $88.",
-    "topic": "Exponential Growth"
+    "explanation": "Confirmation bias is the tendency to search for and favor information that confirms our existing beliefs."
   },
   {
-    "_id": "grade12_medium_thinking-skills_009",
-    "content": "A company's profit increases by 20% each year. If the profit was $49 in 2020, what will it be in 2022?",
+    "_id": "thinking_12_medium_1755262177036_009",
+    "scenario": "Two scientists propose explanations for a new phenomenon: Theory A involves complex interactions between 15 different variables and 3 unknown forces. Theory B explains the same phenomenon using 2 well-understood principles. Both theories fit the observed data equally well.",
+    "content": "According to Occam's Razor, which theory should be preferred? (Question 9)",
     "type": "multiple_choice",
     "options": [
-      "$71",
-      "$69",
-      "$89",
-      "$74"
+      "Theory A because it's more detailed",
+      "Theory B because it's simpler",
+      "Both theories are equally valid",
+      "Neither theory should be accepted"
     ],
-    "correctAnswer": "$71",
+    "correctAnswer": "Theory B because it's simpler",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "After 2 years with 20% annual growth: $49 × (1.2)^2 = $71.",
-    "topic": "Exponential Growth"
+    "explanation": "Occam's Razor suggests that when multiple explanations fit the data, the simplest one is usually correct."
   },
   {
-    "_id": "grade12_medium_thinking-skills_010",
-    "content": "A company's profit increases by 23% each year. If the profit was $43 in 2020, what will it be in 2023?",
+    "_id": "thinking_12_medium_1755262177036_010",
+    "scenario": "Dr. Smith conducts a study and observes: 'In 100 experiments, when I heat water to 100°C at sea level, it always boils.' She wants to make a general conclusion.",
+    "content": "What type of reasoning is Dr. Smith using to conclude 'Water boils at 100°C at sea level'? (Question 10)",
     "type": "multiple_choice",
     "options": [
-      "$80",
-      "$73",
-      "$112",
-      "$65"
+      "Deductive reasoning",
+      "Inductive reasoning",
+      "Circular reasoning",
+      "Emotional reasoning"
     ],
-    "correctAnswer": "$80",
+    "correctAnswer": "Inductive reasoning",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "After 3 years with 23% annual growth: $43 × (1.23)^3 = $80.",
-    "topic": "Exponential Growth"
+    "explanation": "Inductive reasoning builds general conclusions from specific observations and patterns."
   },
   {
-    "_id": "grade12_medium_thinking-skills_011",
-    "content": "A company's profit increases by 23% each year. If the profit was $68 in 2020, what will it be in 2024?",
+    "_id": "thinking_12_medium_1755262177036_011",
+    "scenario": "Professor Johnson notices that his student Mark always seeks out information that supports his political views while ignoring contradictory evidence. Mark dismisses studies that challenge his beliefs without reading them.",
+    "content": "What cognitive bias is Mark demonstrating? (Question 11)",
     "type": "multiple_choice",
     "options": [
-      "$156",
-      "$131",
-      "$160",
-      "$102"
+      "Confirmation bias",
+      "Anchoring bias",
+      "Availability heuristic",
+      "Hindsight bias"
     ],
-    "correctAnswer": "$156",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "After 4 years with 23% annual growth: $68 × (1.23)^4 = $156.",
-    "topic": "Exponential Growth"
+    "explanation": "Confirmation bias is the tendency to search for and favor information that confirms our existing beliefs."
   },
   {
-    "_id": "grade12_medium_thinking-skills_012",
-    "content": "A company's profit increases by 23% each year. If the profit was $61 in 2020, what will it be in 2022?",
+    "_id": "thinking_12_medium_1755262177036_012",
+    "scenario": "Two scientists propose explanations for a new phenomenon: Theory A involves complex interactions between 15 different variables and 3 unknown forces. Theory B explains the same phenomenon using 2 well-understood principles. Both theories fit the observed data equally well.",
+    "content": "According to Occam's Razor, which theory should be preferred? (Question 12)",
     "type": "multiple_choice",
     "options": [
-      "$92",
-      "$89",
-      "$107",
-      "$92"
+      "Theory A because it's more detailed",
+      "Theory B because it's simpler",
+      "Both theories are equally valid",
+      "Neither theory should be accepted"
     ],
-    "correctAnswer": "$92",
+    "correctAnswer": "Theory B because it's simpler",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "After 2 years with 23% annual growth: $61 × (1.23)^2 = $92.",
-    "topic": "Exponential Growth"
+    "explanation": "Occam's Razor suggests that when multiple explanations fit the data, the simplest one is usually correct."
   },
   {
-    "_id": "grade12_medium_thinking-skills_013",
-    "content": "A company's profit increases by 20% each year. If the profit was $69 in 2020, what will it be in 2024?",
+    "_id": "thinking_12_medium_1755262177036_013",
+    "scenario": "Dr. Smith conducts a study and observes: 'In 100 experiments, when I heat water to 100°C at sea level, it always boils.' She wants to make a general conclusion.",
+    "content": "What type of reasoning is Dr. Smith using to conclude 'Water boils at 100°C at sea level'? (Question 13)",
     "type": "multiple_choice",
     "options": [
-      "$143",
-      "$124",
-      "$149",
-      "$104"
+      "Deductive reasoning",
+      "Inductive reasoning",
+      "Circular reasoning",
+      "Emotional reasoning"
     ],
-    "correctAnswer": "$143",
+    "correctAnswer": "Inductive reasoning",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "After 4 years with 20% annual growth: $69 × (1.2)^4 = $143.",
-    "topic": "Exponential Growth"
+    "explanation": "Inductive reasoning builds general conclusions from specific observations and patterns."
   },
   {
-    "_id": "grade12_medium_thinking-skills_014",
-    "content": "A company's profit increases by 22% each year. If the profit was $49 in 2020, what will it be in 2023?",
+    "_id": "thinking_12_medium_1755262177036_014",
+    "scenario": "Professor Johnson notices that his student Mark always seeks out information that supports his political views while ignoring contradictory evidence. Mark dismisses studies that challenge his beliefs without reading them.",
+    "content": "What cognitive bias is Mark demonstrating? (Question 14)",
     "type": "multiple_choice",
     "options": [
-      "$89",
-      "$81",
-      "$115",
-      "$74"
+      "Confirmation bias",
+      "Anchoring bias",
+      "Availability heuristic",
+      "Hindsight bias"
     ],
-    "correctAnswer": "$89",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "After 3 years with 22% annual growth: $49 × (1.22)^3 = $89.",
-    "topic": "Exponential Growth"
+    "explanation": "Confirmation bias is the tendency to search for and favor information that confirms our existing beliefs."
   },
   {
-    "_id": "grade12_medium_thinking-skills_015",
-    "content": "A company's profit increases by 17% each year. If the profit was $63 in 2020, what will it be in 2023?",
+    "_id": "thinking_12_medium_1755262177036_015",
+    "scenario": "Two scientists propose explanations for a new phenomenon: Theory A involves complex interactions between 15 different variables and 3 unknown forces. Theory B explains the same phenomenon using 2 well-understood principles. Both theories fit the observed data equally well.",
+    "content": "According to Occam's Razor, which theory should be preferred? (Question 15)",
     "type": "multiple_choice",
     "options": [
-      "$101",
-      "$95",
-      "$114",
-      "$95"
+      "Theory A because it's more detailed",
+      "Theory B because it's simpler",
+      "Both theories are equally valid",
+      "Neither theory should be accepted"
     ],
-    "correctAnswer": "$101",
+    "correctAnswer": "Theory B because it's simpler",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "After 3 years with 17% annual growth: $63 × (1.17)^3 = $101.",
-    "topic": "Exponential Growth"
+    "explanation": "Occam's Razor suggests that when multiple explanations fit the data, the simplest one is usually correct."
   },
   {
-    "_id": "grade12_medium_thinking-skills_016",
-    "content": "A company's profit increases by 19% each year. If the profit was $61 in 2020, what will it be in 2024?",
+    "_id": "thinking_12_medium_1755262177036_016",
+    "scenario": "Dr. Smith conducts a study and observes: 'In 100 experiments, when I heat water to 100°C at sea level, it always boils.' She wants to make a general conclusion.",
+    "content": "What type of reasoning is Dr. Smith using to conclude 'Water boils at 100°C at sea level'? (Question 16)",
     "type": "multiple_choice",
     "options": [
-      "$122",
-      "$107",
-      "$137",
-      "$92"
+      "Deductive reasoning",
+      "Inductive reasoning",
+      "Circular reasoning",
+      "Emotional reasoning"
     ],
-    "correctAnswer": "$122",
+    "correctAnswer": "Inductive reasoning",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "After 4 years with 19% annual growth: $61 × (1.19)^4 = $122.",
-    "topic": "Exponential Growth"
+    "explanation": "Inductive reasoning builds general conclusions from specific observations and patterns."
   },
   {
-    "_id": "grade12_medium_thinking-skills_017",
-    "content": "A company's profit increases by 24% each year. If the profit was $50 in 2020, what will it be in 2023?",
+    "_id": "thinking_12_medium_1755262177036_017",
+    "scenario": "Professor Johnson notices that his student Mark always seeks out information that supports his political views while ignoring contradictory evidence. Mark dismisses studies that challenge his beliefs without reading them.",
+    "content": "What cognitive bias is Mark demonstrating? (Question 17)",
     "type": "multiple_choice",
     "options": [
-      "$95",
-      "$86",
-      "$122",
-      "$75"
+      "Confirmation bias",
+      "Anchoring bias",
+      "Availability heuristic",
+      "Hindsight bias"
     ],
-    "correctAnswer": "$95",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "After 3 years with 24% annual growth: $50 × (1.24)^3 = $95.",
-    "topic": "Exponential Growth"
+    "explanation": "Confirmation bias is the tendency to search for and favor information that confirms our existing beliefs."
   },
   {
-    "_id": "grade12_medium_thinking-skills_018",
-    "content": "A company's profit increases by 24% each year. If the profit was $41 in 2020, what will it be in 2022?",
+    "_id": "thinking_12_medium_1755262177036_018",
+    "scenario": "Two scientists propose explanations for a new phenomenon: Theory A involves complex interactions between 15 different variables and 3 unknown forces. Theory B explains the same phenomenon using 2 well-understood principles. Both theories fit the observed data equally well.",
+    "content": "According to Occam's Razor, which theory should be preferred? (Question 18)",
     "type": "multiple_choice",
     "options": [
-      "$63",
-      "$61",
-      "$89",
-      "$62"
+      "Theory A because it's more detailed",
+      "Theory B because it's simpler",
+      "Both theories are equally valid",
+      "Neither theory should be accepted"
     ],
-    "correctAnswer": "$63",
+    "correctAnswer": "Theory B because it's simpler",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "After 2 years with 24% annual growth: $41 × (1.24)^2 = $63.",
-    "topic": "Exponential Growth"
+    "explanation": "Occam's Razor suggests that when multiple explanations fit the data, the simplest one is usually correct."
   },
   {
-    "_id": "grade12_medium_thinking-skills_019",
-    "content": "A company's profit increases by 24% each year. If the profit was $63 in 2020, what will it be in 2024?",
+    "_id": "thinking_12_medium_1755262177036_019",
+    "scenario": "Dr. Smith conducts a study and observes: 'In 100 experiments, when I heat water to 100°C at sea level, it always boils.' She wants to make a general conclusion.",
+    "content": "What type of reasoning is Dr. Smith using to conclude 'Water boils at 100°C at sea level'? (Question 19)",
     "type": "multiple_choice",
     "options": [
-      "$149",
-      "$123",
-      "$159",
-      "$95"
+      "Deductive reasoning",
+      "Inductive reasoning",
+      "Circular reasoning",
+      "Emotional reasoning"
     ],
-    "correctAnswer": "$149",
+    "correctAnswer": "Inductive reasoning",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "After 4 years with 24% annual growth: $63 × (1.24)^4 = $149.",
-    "topic": "Exponential Growth"
+    "explanation": "Inductive reasoning builds general conclusions from specific observations and patterns."
   },
   {
-    "_id": "grade12_medium_thinking-skills_020",
-    "content": "A company's profit increases by 20% each year. If the profit was $46 in 2020, what will it be in 2022?",
+    "_id": "thinking_12_medium_1755262177036_020",
+    "scenario": "Professor Johnson notices that his student Mark always seeks out information that supports his political views while ignoring contradictory evidence. Mark dismisses studies that challenge his beliefs without reading them.",
+    "content": "What cognitive bias is Mark demonstrating? (Question 20)",
     "type": "multiple_choice",
     "options": [
-      "$66",
-      "$64",
-      "$86",
-      "$69"
+      "Confirmation bias",
+      "Anchoring bias",
+      "Availability heuristic",
+      "Hindsight bias"
     ],
-    "correctAnswer": "$66",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "After 2 years with 20% annual growth: $46 × (1.2)^2 = $66.",
-    "topic": "Exponential Growth"
+    "explanation": "Confirmation bias is the tendency to search for and favor information that confirms our existing beliefs."
   }
 ]

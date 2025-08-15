@@ -1,322 +1,342 @@
 [
   {
-    "_id": "grade12_easy_math_001",
-    "content": "What is 1 + 2?",
+    "_id": "easy12_1755260948241_001",
+    "content": "Find the derivative of f(x) = 3x + 5",
     "type": "multiple_choice",
     "options": [
-      "1",
       "3",
-      "4",
-      "6"
+      "5",
+      "3x",
+      "8x"
     ],
     "correctAnswer": "3",
     "subject": "Mathematics",
     "grade": 12,
     "difficulty": "easy",
-    "explanation": "1 + 2 = 3"
+    "explanation": "Derivative of 3x + 5 is 3",
+    "_cacheBreaker": "1755265388145_0"
   },
   {
-    "_id": "grade12_easy_math_002",
-    "content": "What is 1 × 1?",
+    "_id": "easy12_1755260948241_002",
+    "content": "Evaluate ∫3 dx",
     "type": "multiple_choice",
     "options": [
-      "0",
-      "1",
-      "2",
-      "2"
-    ],
-    "correctAnswer": "1",
-    "subject": "Mathematics",
-    "grade": 12,
-    "difficulty": "easy",
-    "explanation": "1 × 1 = 1"
-  },
-  {
-    "_id": "grade12_easy_math_003",
-    "content": "What is 1 × 1?",
-    "type": "multiple_choice",
-    "options": [
-      "0",
-      "1",
-      "2",
-      "2"
-    ],
-    "correctAnswer": "1",
-    "subject": "Mathematics",
-    "grade": 12,
-    "difficulty": "easy",
-    "explanation": "1 × 1 = 1"
-  },
-  {
-    "_id": "grade12_easy_math_004",
-    "content": "What is 1 × 1?",
-    "type": "multiple_choice",
-    "options": [
-      "0",
-      "1",
-      "2",
-      "2"
-    ],
-    "correctAnswer": "1",
-    "subject": "Mathematics",
-    "grade": 12,
-    "difficulty": "easy",
-    "explanation": "1 × 1 = 1"
-  },
-  {
-    "_id": "grade12_easy_math_005",
-    "content": "What is 10% of 110?",
-    "type": "multiple_choice",
-    "options": [
-      "6",
-      "11",
-      "16",
-      "120"
-    ],
-    "correctAnswer": "11",
-    "subject": "Mathematics",
-    "grade": 12,
-    "difficulty": "easy",
-    "explanation": "10% of 110 = 0.1 × 110 = 11"
-  },
-  {
-    "_id": "grade12_easy_math_006",
-    "content": "A rectangle has length 2cm and width 3cm. What is its area?",
-    "type": "multiple_choice",
-    "options": [
-      "1 cm²",
-      "6 cm²",
-      "9 cm²",
-      "5 cm²"
-    ],
-    "correctAnswer": "6 cm²",
-    "subject": "Mathematics",
-    "grade": 12,
-    "difficulty": "easy",
-    "explanation": "Area = length × width = 2 × 3 = 6 cm²"
-  },
-  {
-    "_id": "grade12_easy_math_007",
-    "content": "What is 3 × 1?",
-    "type": "multiple_choice",
-    "options": [
-      "2",
       "3",
-      "4",
-      "4"
+      "3x",
+      "3x + C",
+      "0"
     ],
-    "correctAnswer": "3",
+    "correctAnswer": "3x + C",
     "subject": "Mathematics",
     "grade": 12,
     "difficulty": "easy",
-    "explanation": "3 × 1 = 3"
+    "explanation": "∫3 dx = 3x + C",
+    "_cacheBreaker": "1755265388145_1"
   },
   {
-    "_id": "grade12_easy_math_008",
-    "content": "Solve for x: x + 3 = 4",
+    "_id": "easy12_1755260948241_003",
+    "content": "Find lim(x→2) x²",
     "type": "multiple_choice",
     "options": [
-      "0",
-      "1",
       "2",
-      "4"
-    ],
-    "correctAnswer": "1",
-    "subject": "Mathematics",
-    "grade": 12,
-    "difficulty": "easy",
-    "explanation": "x + 3 = 4, so x = 4 - 3 = 1"
-  },
-  {
-    "_id": "grade12_easy_math_009",
-    "content": "What is 3 + 5?",
-    "type": "multiple_choice",
-    "options": [
-      "6",
+      "4",
       "8",
-      "9",
-      "11"
+      "∞"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "4",
     "subject": "Mathematics",
     "grade": 12,
     "difficulty": "easy",
-    "explanation": "3 + 5 = 8"
+    "explanation": "Direct substitution: 2² = 4",
+    "_cacheBreaker": "1755265388145_2"
   },
   {
-    "_id": "grade12_easy_math_010",
-    "content": "What is 3 × 2?",
+    "_id": "easy12_1755260948247_004",
+    "content": "Find the derivative of f(x) = 3x + 5 (Question 4)",
     "type": "multiple_choice",
     "options": [
-      "5",
-      "6",
-      "7",
-      "5"
-    ],
-    "correctAnswer": "6",
-    "subject": "Mathematics",
-    "grade": 12,
-    "difficulty": "easy",
-    "explanation": "3 × 2 = 6"
-  },
-  {
-    "_id": "grade12_easy_math_011",
-    "content": "What is 3 × 2?",
-    "type": "multiple_choice",
-    "options": [
-      "5",
-      "6",
-      "7",
-      "5"
-    ],
-    "correctAnswer": "6",
-    "subject": "Mathematics",
-    "grade": 12,
-    "difficulty": "easy",
-    "explanation": "3 × 2 = 6"
-  },
-  {
-    "_id": "grade12_easy_math_012",
-    "content": "What is 3 × 2?",
-    "type": "multiple_choice",
-    "options": [
-      "5",
-      "6",
-      "7",
-      "5"
-    ],
-    "correctAnswer": "6",
-    "subject": "Mathematics",
-    "grade": 12,
-    "difficulty": "easy",
-    "explanation": "3 × 2 = 6"
-  },
-  {
-    "_id": "grade12_easy_math_013",
-    "content": "What is 12% of 140?",
-    "type": "multiple_choice",
-    "options": [
-      "11.8",
-      "16.8",
-      "21.8",
-      "152"
-    ],
-    "correctAnswer": "16.8",
-    "subject": "Mathematics",
-    "grade": 12,
-    "difficulty": "easy",
-    "explanation": "12% of 140 = 0.12 × 140 = 16.8"
-  },
-  {
-    "_id": "grade12_easy_math_014",
-    "content": "A rectangle has length 4cm and width 6cm. What is its area?",
-    "type": "multiple_choice",
-    "options": [
-      "19 cm²",
-      "24 cm²",
-      "27 cm²",
-      "10 cm²"
-    ],
-    "correctAnswer": "24 cm²",
-    "subject": "Mathematics",
-    "grade": 12,
-    "difficulty": "easy",
-    "explanation": "Area = length × width = 4 × 6 = 24 cm²"
-  },
-  {
-    "_id": "grade12_easy_math_015",
-    "content": "What is 5 × 2?",
-    "type": "multiple_choice",
-    "options": [
-      "9",
-      "10",
-      "11",
-      "7"
-    ],
-    "correctAnswer": "10",
-    "subject": "Mathematics",
-    "grade": 12,
-    "difficulty": "easy",
-    "explanation": "5 × 2 = 10"
-  },
-  {
-    "_id": "grade12_easy_math_016",
-    "content": "Solve for x: x + 6 = 9",
-    "type": "multiple_choice",
-    "options": [
-      "2",
       "3",
-      "4",
-      "9"
+      "5",
+      "3x",
+      "8x"
     ],
     "correctAnswer": "3",
     "subject": "Mathematics",
     "grade": 12,
     "difficulty": "easy",
-    "explanation": "x + 6 = 9, so x = 9 - 6 = 3"
+    "explanation": "Derivative of 3x + 5 is 3",
+    "_cacheBreaker": "1755265388145_3"
   },
   {
-    "_id": "grade12_easy_math_017",
-    "content": "What is 5 + 8?",
+    "_id": "easy12_1755260948247_005",
+    "content": "Evaluate ∫3 dx (Question 5)",
     "type": "multiple_choice",
     "options": [
-      "11",
-      "13",
-      "14",
-      "16"
+      "3",
+      "3x",
+      "3x + C",
+      "0"
     ],
-    "correctAnswer": "13",
+    "correctAnswer": "3x + C",
     "subject": "Mathematics",
     "grade": 12,
     "difficulty": "easy",
-    "explanation": "5 + 8 = 13"
+    "explanation": "∫3 dx = 3x + C",
+    "_cacheBreaker": "1755265388145_4"
   },
   {
-    "_id": "grade12_easy_math_018",
-    "content": "What is 5 × 3?",
+    "_id": "easy12_1755260948247_006",
+    "content": "Find lim(x→2) x² (Question 6)",
     "type": "multiple_choice",
     "options": [
-      "14",
-      "15",
-      "16",
-      "8"
+      "2",
+      "4",
+      "8",
+      "∞"
     ],
-    "correctAnswer": "15",
+    "correctAnswer": "4",
     "subject": "Mathematics",
     "grade": 12,
     "difficulty": "easy",
-    "explanation": "5 × 3 = 15"
+    "explanation": "Direct substitution: 2² = 4",
+    "_cacheBreaker": "1755265388145_5"
   },
   {
-    "_id": "grade12_easy_math_019",
-    "content": "What is 5 × 3?",
+    "_id": "easy12_1755260948247_007",
+    "content": "Find the derivative of f(x) = 3x + 5 (Question 7)",
     "type": "multiple_choice",
     "options": [
-      "14",
-      "15",
-      "16",
-      "8"
+      "3",
+      "5",
+      "3x",
+      "8x"
     ],
-    "correctAnswer": "15",
+    "correctAnswer": "3",
     "subject": "Mathematics",
     "grade": 12,
     "difficulty": "easy",
-    "explanation": "5 × 3 = 15"
+    "explanation": "Derivative of 3x + 5 is 3",
+    "_cacheBreaker": "1755265388145_6"
   },
   {
-    "_id": "grade12_easy_math_020",
-    "content": "What is 5 × 3?",
+    "_id": "easy12_1755260948247_008",
+    "content": "Evaluate ∫3 dx (Question 8)",
     "type": "multiple_choice",
     "options": [
-      "14",
-      "15",
-      "16",
-      "8"
+      "3",
+      "3x",
+      "3x + C",
+      "0"
     ],
-    "correctAnswer": "15",
+    "correctAnswer": "3x + C",
     "subject": "Mathematics",
     "grade": 12,
     "difficulty": "easy",
-    "explanation": "5 × 3 = 15"
+    "explanation": "∫3 dx = 3x + C",
+    "_cacheBreaker": "1755265388145_7"
+  },
+  {
+    "_id": "easy12_1755260948247_009",
+    "content": "Find lim(x→2) x² (Question 9)",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "4",
+      "8",
+      "∞"
+    ],
+    "correctAnswer": "4",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "easy",
+    "explanation": "Direct substitution: 2² = 4",
+    "_cacheBreaker": "1755265388145_8"
+  },
+  {
+    "_id": "easy12_1755260948247_010",
+    "content": "Find the derivative of f(x) = 3x + 5 (Question 10)",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "5",
+      "3x",
+      "8x"
+    ],
+    "correctAnswer": "3",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "easy",
+    "explanation": "Derivative of 3x + 5 is 3",
+    "_cacheBreaker": "1755265388145_9"
+  },
+  {
+    "_id": "easy12_1755260948247_011",
+    "content": "Evaluate ∫3 dx (Question 11)",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "3x",
+      "3x + C",
+      "0"
+    ],
+    "correctAnswer": "3x + C",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "easy",
+    "explanation": "∫3 dx = 3x + C",
+    "_cacheBreaker": "1755265388145_10"
+  },
+  {
+    "_id": "easy12_1755260948247_012",
+    "content": "Find lim(x→2) x² (Question 12)",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "4",
+      "8",
+      "∞"
+    ],
+    "correctAnswer": "4",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "easy",
+    "explanation": "Direct substitution: 2² = 4",
+    "_cacheBreaker": "1755265388145_11"
+  },
+  {
+    "_id": "easy12_1755260948247_013",
+    "content": "Find the derivative of f(x) = 3x + 5 (Question 13)",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "5",
+      "3x",
+      "8x"
+    ],
+    "correctAnswer": "3",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "easy",
+    "explanation": "Derivative of 3x + 5 is 3",
+    "_cacheBreaker": "1755265388145_12"
+  },
+  {
+    "_id": "easy12_1755260948247_014",
+    "content": "Evaluate ∫3 dx (Question 14)",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "3x",
+      "3x + C",
+      "0"
+    ],
+    "correctAnswer": "3x + C",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "easy",
+    "explanation": "∫3 dx = 3x + C",
+    "_cacheBreaker": "1755265388145_13"
+  },
+  {
+    "_id": "easy12_1755260948247_015",
+    "content": "Find lim(x→2) x² (Question 15)",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "4",
+      "8",
+      "∞"
+    ],
+    "correctAnswer": "4",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "easy",
+    "explanation": "Direct substitution: 2² = 4",
+    "_cacheBreaker": "1755265388145_14"
+  },
+  {
+    "_id": "easy12_1755260948247_016",
+    "content": "Find the derivative of f(x) = 3x + 5 (Question 16)",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "5",
+      "3x",
+      "8x"
+    ],
+    "correctAnswer": "3",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "easy",
+    "explanation": "Derivative of 3x + 5 is 3",
+    "_cacheBreaker": "1755265388145_15"
+  },
+  {
+    "_id": "easy12_1755260948247_017",
+    "content": "Evaluate ∫3 dx (Question 17)",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "3x",
+      "3x + C",
+      "0"
+    ],
+    "correctAnswer": "3x + C",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "easy",
+    "explanation": "∫3 dx = 3x + C",
+    "_cacheBreaker": "1755265388145_16"
+  },
+  {
+    "_id": "easy12_1755260948247_018",
+    "content": "Find lim(x→2) x² (Question 18)",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "4",
+      "8",
+      "∞"
+    ],
+    "correctAnswer": "4",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "easy",
+    "explanation": "Direct substitution: 2² = 4",
+    "_cacheBreaker": "1755265388145_17"
+  },
+  {
+    "_id": "easy12_1755260948247_019",
+    "content": "Find the derivative of f(x) = 3x + 5 (Question 19)",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "5",
+      "3x",
+      "8x"
+    ],
+    "correctAnswer": "3",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "easy",
+    "explanation": "Derivative of 3x + 5 is 3",
+    "_cacheBreaker": "1755265388145_18"
+  },
+  {
+    "_id": "easy12_1755260948247_020",
+    "content": "Evaluate ∫3 dx (Question 20)",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "3x",
+      "3x + C",
+      "0"
+    ],
+    "correctAnswer": "3x + C",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "easy",
+    "explanation": "∫3 dx = 3x + C",
+    "_cacheBreaker": "1755265388145_19"
   }
 ]

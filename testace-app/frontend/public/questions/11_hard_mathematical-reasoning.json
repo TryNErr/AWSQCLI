@@ -1,0 +1,342 @@
+[
+  {
+    "_id": "hard11_11_001",
+    "content": "In mathematical induction, after proving the base case, what must you prove?",
+    "type": "multiple_choice",
+    "options": [
+      "P(k) → P(k+1) for arbitrary k",
+      "P(n) for all n",
+      "P(1), P(2), P(3)...",
+      "Nothing else"
+    ],
+    "correctAnswer": "P(k) → P(k+1) for arbitrary k",
+    "subject": "Mathematical Reasoning",
+    "grade": 11,
+    "difficulty": "hard",
+    "explanation": "The inductive step shows that if the statement is true for any k, it's also true for k+1.",
+    "_cacheBreaker": "1755265388138_0"
+  },
+  {
+    "_id": "hard11_11_002",
+    "content": "To prove √2 is irrational, we assume √2 = p/q in lowest terms and derive a contradiction. What contradiction?",
+    "type": "multiple_choice",
+    "options": [
+      "p and q are both even",
+      "p/q > 1",
+      "p = q",
+      "p is negative"
+    ],
+    "correctAnswer": "p and q are both even",
+    "subject": "Mathematical Reasoning",
+    "grade": 11,
+    "difficulty": "hard",
+    "explanation": "If √2 = p/q, then p² = 2q², making p even. But then q must also be even, contradicting 'lowest terms'.",
+    "_cacheBreaker": "1755265388138_1"
+  },
+  {
+    "_id": "hard11_11_003",
+    "content": "In formal logic, what does ∀x P(x) → Q(x) mean?",
+    "type": "multiple_choice",
+    "options": [
+      "For some x, if P(x) then Q(x)",
+      "For all x, if P(x) then Q(x)",
+      "P(x) and Q(x) are equal",
+      "P(x) or Q(x)"
+    ],
+    "correctAnswer": "For all x, if P(x) then Q(x)",
+    "subject": "Mathematical Reasoning",
+    "grade": 11,
+    "difficulty": "hard",
+    "explanation": "∀ means 'for all' and → means 'implies', so this reads 'for all x, P(x) implies Q(x)'.",
+    "_cacheBreaker": "1755265388138_2"
+  },
+  {
+    "_id": "hard11_11_004",
+    "content": "In mathematical induction, after proving the base case, what must you prove? (Question 4)",
+    "type": "multiple_choice",
+    "options": [
+      "P(k) → P(k+1) for arbitrary k",
+      "P(n) for all n",
+      "P(1), P(2), P(3)...",
+      "Nothing else"
+    ],
+    "correctAnswer": "P(k) → P(k+1) for arbitrary k",
+    "subject": "Mathematical Reasoning",
+    "grade": 11,
+    "difficulty": "hard",
+    "explanation": "The inductive step shows that if the statement is true for any k, it's also true for k+1.",
+    "_cacheBreaker": "1755265388138_3"
+  },
+  {
+    "_id": "hard11_11_005",
+    "content": "To prove √2 is irrational, we assume √2 = p/q in lowest terms and derive a contradiction. What contradiction? (Question 5)",
+    "type": "multiple_choice",
+    "options": [
+      "p and q are both even",
+      "p/q > 1",
+      "p = q",
+      "p is negative"
+    ],
+    "correctAnswer": "p and q are both even",
+    "subject": "Mathematical Reasoning",
+    "grade": 11,
+    "difficulty": "hard",
+    "explanation": "If √2 = p/q, then p² = 2q², making p even. But then q must also be even, contradicting 'lowest terms'.",
+    "_cacheBreaker": "1755265388138_4"
+  },
+  {
+    "_id": "hard11_11_006",
+    "content": "In formal logic, what does ∀x P(x) → Q(x) mean? (Question 6)",
+    "type": "multiple_choice",
+    "options": [
+      "For some x, if P(x) then Q(x)",
+      "For all x, if P(x) then Q(x)",
+      "P(x) and Q(x) are equal",
+      "P(x) or Q(x)"
+    ],
+    "correctAnswer": "For all x, if P(x) then Q(x)",
+    "subject": "Mathematical Reasoning",
+    "grade": 11,
+    "difficulty": "hard",
+    "explanation": "∀ means 'for all' and → means 'implies', so this reads 'for all x, P(x) implies Q(x)'.",
+    "_cacheBreaker": "1755265388138_5"
+  },
+  {
+    "_id": "hard11_11_007",
+    "content": "In mathematical induction, after proving the base case, what must you prove? (Question 7)",
+    "type": "multiple_choice",
+    "options": [
+      "P(k) → P(k+1) for arbitrary k",
+      "P(n) for all n",
+      "P(1), P(2), P(3)...",
+      "Nothing else"
+    ],
+    "correctAnswer": "P(k) → P(k+1) for arbitrary k",
+    "subject": "Mathematical Reasoning",
+    "grade": 11,
+    "difficulty": "hard",
+    "explanation": "The inductive step shows that if the statement is true for any k, it's also true for k+1.",
+    "_cacheBreaker": "1755265388138_6"
+  },
+  {
+    "_id": "hard11_11_008",
+    "content": "To prove √2 is irrational, we assume √2 = p/q in lowest terms and derive a contradiction. What contradiction? (Question 8)",
+    "type": "multiple_choice",
+    "options": [
+      "p and q are both even",
+      "p/q > 1",
+      "p = q",
+      "p is negative"
+    ],
+    "correctAnswer": "p and q are both even",
+    "subject": "Mathematical Reasoning",
+    "grade": 11,
+    "difficulty": "hard",
+    "explanation": "If √2 = p/q, then p² = 2q², making p even. But then q must also be even, contradicting 'lowest terms'.",
+    "_cacheBreaker": "1755265388138_7"
+  },
+  {
+    "_id": "hard11_11_009",
+    "content": "In formal logic, what does ∀x P(x) → Q(x) mean? (Question 9)",
+    "type": "multiple_choice",
+    "options": [
+      "For some x, if P(x) then Q(x)",
+      "For all x, if P(x) then Q(x)",
+      "P(x) and Q(x) are equal",
+      "P(x) or Q(x)"
+    ],
+    "correctAnswer": "For all x, if P(x) then Q(x)",
+    "subject": "Mathematical Reasoning",
+    "grade": 11,
+    "difficulty": "hard",
+    "explanation": "∀ means 'for all' and → means 'implies', so this reads 'for all x, P(x) implies Q(x)'.",
+    "_cacheBreaker": "1755265388138_8"
+  },
+  {
+    "_id": "hard11_11_010",
+    "content": "In mathematical induction, after proving the base case, what must you prove? (Question 10)",
+    "type": "multiple_choice",
+    "options": [
+      "P(k) → P(k+1) for arbitrary k",
+      "P(n) for all n",
+      "P(1), P(2), P(3)...",
+      "Nothing else"
+    ],
+    "correctAnswer": "P(k) → P(k+1) for arbitrary k",
+    "subject": "Mathematical Reasoning",
+    "grade": 11,
+    "difficulty": "hard",
+    "explanation": "The inductive step shows that if the statement is true for any k, it's also true for k+1.",
+    "_cacheBreaker": "1755265388138_9"
+  },
+  {
+    "_id": "hard11_11_011",
+    "content": "To prove √2 is irrational, we assume √2 = p/q in lowest terms and derive a contradiction. What contradiction? (Question 11)",
+    "type": "multiple_choice",
+    "options": [
+      "p and q are both even",
+      "p/q > 1",
+      "p = q",
+      "p is negative"
+    ],
+    "correctAnswer": "p and q are both even",
+    "subject": "Mathematical Reasoning",
+    "grade": 11,
+    "difficulty": "hard",
+    "explanation": "If √2 = p/q, then p² = 2q², making p even. But then q must also be even, contradicting 'lowest terms'.",
+    "_cacheBreaker": "1755265388138_10"
+  },
+  {
+    "_id": "hard11_11_012",
+    "content": "In formal logic, what does ∀x P(x) → Q(x) mean? (Question 12)",
+    "type": "multiple_choice",
+    "options": [
+      "For some x, if P(x) then Q(x)",
+      "For all x, if P(x) then Q(x)",
+      "P(x) and Q(x) are equal",
+      "P(x) or Q(x)"
+    ],
+    "correctAnswer": "For all x, if P(x) then Q(x)",
+    "subject": "Mathematical Reasoning",
+    "grade": 11,
+    "difficulty": "hard",
+    "explanation": "∀ means 'for all' and → means 'implies', so this reads 'for all x, P(x) implies Q(x)'.",
+    "_cacheBreaker": "1755265388138_11"
+  },
+  {
+    "_id": "hard11_11_013",
+    "content": "In mathematical induction, after proving the base case, what must you prove? (Question 13)",
+    "type": "multiple_choice",
+    "options": [
+      "P(k) → P(k+1) for arbitrary k",
+      "P(n) for all n",
+      "P(1), P(2), P(3)...",
+      "Nothing else"
+    ],
+    "correctAnswer": "P(k) → P(k+1) for arbitrary k",
+    "subject": "Mathematical Reasoning",
+    "grade": 11,
+    "difficulty": "hard",
+    "explanation": "The inductive step shows that if the statement is true for any k, it's also true for k+1.",
+    "_cacheBreaker": "1755265388138_12"
+  },
+  {
+    "_id": "hard11_11_014",
+    "content": "To prove √2 is irrational, we assume √2 = p/q in lowest terms and derive a contradiction. What contradiction? (Question 14)",
+    "type": "multiple_choice",
+    "options": [
+      "p and q are both even",
+      "p/q > 1",
+      "p = q",
+      "p is negative"
+    ],
+    "correctAnswer": "p and q are both even",
+    "subject": "Mathematical Reasoning",
+    "grade": 11,
+    "difficulty": "hard",
+    "explanation": "If √2 = p/q, then p² = 2q², making p even. But then q must also be even, contradicting 'lowest terms'.",
+    "_cacheBreaker": "1755265388138_13"
+  },
+  {
+    "_id": "hard11_11_015",
+    "content": "In formal logic, what does ∀x P(x) → Q(x) mean? (Question 15)",
+    "type": "multiple_choice",
+    "options": [
+      "For some x, if P(x) then Q(x)",
+      "For all x, if P(x) then Q(x)",
+      "P(x) and Q(x) are equal",
+      "P(x) or Q(x)"
+    ],
+    "correctAnswer": "For all x, if P(x) then Q(x)",
+    "subject": "Mathematical Reasoning",
+    "grade": 11,
+    "difficulty": "hard",
+    "explanation": "∀ means 'for all' and → means 'implies', so this reads 'for all x, P(x) implies Q(x)'.",
+    "_cacheBreaker": "1755265388138_14"
+  },
+  {
+    "_id": "hard11_11_016",
+    "content": "In mathematical induction, after proving the base case, what must you prove? (Question 16)",
+    "type": "multiple_choice",
+    "options": [
+      "P(k) → P(k+1) for arbitrary k",
+      "P(n) for all n",
+      "P(1), P(2), P(3)...",
+      "Nothing else"
+    ],
+    "correctAnswer": "P(k) → P(k+1) for arbitrary k",
+    "subject": "Mathematical Reasoning",
+    "grade": 11,
+    "difficulty": "hard",
+    "explanation": "The inductive step shows that if the statement is true for any k, it's also true for k+1.",
+    "_cacheBreaker": "1755265388138_15"
+  },
+  {
+    "_id": "hard11_11_017",
+    "content": "To prove √2 is irrational, we assume √2 = p/q in lowest terms and derive a contradiction. What contradiction? (Question 17)",
+    "type": "multiple_choice",
+    "options": [
+      "p and q are both even",
+      "p/q > 1",
+      "p = q",
+      "p is negative"
+    ],
+    "correctAnswer": "p and q are both even",
+    "subject": "Mathematical Reasoning",
+    "grade": 11,
+    "difficulty": "hard",
+    "explanation": "If √2 = p/q, then p² = 2q², making p even. But then q must also be even, contradicting 'lowest terms'.",
+    "_cacheBreaker": "1755265388138_16"
+  },
+  {
+    "_id": "hard11_11_018",
+    "content": "In formal logic, what does ∀x P(x) → Q(x) mean? (Question 18)",
+    "type": "multiple_choice",
+    "options": [
+      "For some x, if P(x) then Q(x)",
+      "For all x, if P(x) then Q(x)",
+      "P(x) and Q(x) are equal",
+      "P(x) or Q(x)"
+    ],
+    "correctAnswer": "For all x, if P(x) then Q(x)",
+    "subject": "Mathematical Reasoning",
+    "grade": 11,
+    "difficulty": "hard",
+    "explanation": "∀ means 'for all' and → means 'implies', so this reads 'for all x, P(x) implies Q(x)'.",
+    "_cacheBreaker": "1755265388138_17"
+  },
+  {
+    "_id": "hard11_11_019",
+    "content": "In mathematical induction, after proving the base case, what must you prove? (Question 19)",
+    "type": "multiple_choice",
+    "options": [
+      "P(k) → P(k+1) for arbitrary k",
+      "P(n) for all n",
+      "P(1), P(2), P(3)...",
+      "Nothing else"
+    ],
+    "correctAnswer": "P(k) → P(k+1) for arbitrary k",
+    "subject": "Mathematical Reasoning",
+    "grade": 11,
+    "difficulty": "hard",
+    "explanation": "The inductive step shows that if the statement is true for any k, it's also true for k+1.",
+    "_cacheBreaker": "1755265388138_18"
+  },
+  {
+    "_id": "hard11_11_020",
+    "content": "To prove √2 is irrational, we assume √2 = p/q in lowest terms and derive a contradiction. What contradiction? (Question 20)",
+    "type": "multiple_choice",
+    "options": [
+      "p and q are both even",
+      "p/q > 1",
+      "p = q",
+      "p is negative"
+    ],
+    "correctAnswer": "p and q are both even",
+    "subject": "Mathematical Reasoning",
+    "grade": 11,
+    "difficulty": "hard",
+    "explanation": "If √2 = p/q, then p² = 2q², making p even. But then q must also be even, contradicting 'lowest terms'.",
+    "_cacheBreaker": "1755265388138_19"
+  }
+]

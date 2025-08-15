@@ -1,342 +1,362 @@
 [
   {
-    "_id": "grade10_easy_thinking-skills_001",
-    "content": "In a group of 100 people, 61 speak English, 39 speak French, and 20 speak both languages. How many speak neither language?",
+    "_id": "thinking_10_easy_1755262177018_001",
+    "scenario": "A researcher studies 1000 ravens and finds they are all black. She concludes 'All ravens are black.' Later, she learns about albino ravens.",
+    "content": "What does this show about her reasoning method?",
     "type": "multiple_choice",
     "options": [
-      "20",
-      "39",
-      "61",
-      "20"
+      "Inductive reasoning has limitations",
+      "Deductive reasoning is flawed",
+      "She should have studied more ravens",
+      "Ravens aren't really birds"
     ],
-    "correctAnswer": "20",
+    "correctAnswer": "Inductive reasoning has limitations",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "easy",
-    "explanation": "People speaking at least one language: 61 + 39 - 20 = 80. Therefore, 100 - 80 = 20 speak neither.",
-    "topic": "Venn Diagrams and Set Theory"
+    "explanation": "Inductive reasoning can be disproven by new evidence, unlike deductive reasoning.",
+    "_cacheBreaker": "1755265388125_0"
   },
   {
-    "_id": "grade10_easy_thinking-skills_002",
-    "content": "In a group of 100 people, 67 speak English, 34 speak French, and 21 speak both languages. How many speak neither language?",
+    "_id": "thinking_10_easy_1755262177018_002",
+    "scenario": "Student council member Sarah only reads news sources that support her political views. When presented with contradictory information, she dismisses it without consideration.",
+    "content": "What cognitive bias is Sarah showing?",
     "type": "multiple_choice",
     "options": [
-      "20",
-      "33",
-      "66",
-      "21"
+      "Confirmation bias",
+      "Availability heuristic",
+      "Anchoring bias",
+      "Overconfidence bias"
     ],
-    "correctAnswer": "20",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "easy",
-    "explanation": "People speaking at least one language: 67 + 34 - 21 = 80. Therefore, 100 - 80 = 20 speak neither.",
-    "topic": "Venn Diagrams and Set Theory"
+    "explanation": "Sarah seeks information that confirms her existing beliefs while avoiding contradictory evidence.",
+    "_cacheBreaker": "1755265388125_1"
   },
   {
-    "_id": "grade10_easy_thinking-skills_003",
-    "content": "In a group of 100 people, 53 speak English, 44 speak French, and 16 speak both languages. How many speak neither language?",
+    "_id": "thinking_10_easy_1755262177018_003",
+    "scenario": "Two theories explain the same scientific phenomenon: Theory X requires 10 assumptions and 5 unknown variables. Theory Y uses 2 well-established principles. Both explain the data equally well.",
+    "content": "Which principle suggests preferring Theory Y?",
     "type": "multiple_choice",
     "options": [
-      "19",
-      "47",
-      "56",
-      "16"
+      "Murphy's Law",
+      "Occam's Razor",
+      "Newton's Law",
+      "Parkinson's Law"
     ],
-    "correctAnswer": "19",
+    "correctAnswer": "Occam's Razor",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "easy",
-    "explanation": "People speaking at least one language: 53 + 44 - 16 = 81. Therefore, 100 - 81 = 19 speak neither.",
-    "topic": "Venn Diagrams and Set Theory"
+    "explanation": "Occam's Razor suggests choosing the simplest explanation that fits the evidence.",
+    "_cacheBreaker": "1755265388125_2"
   },
   {
-    "_id": "grade10_easy_thinking-skills_004",
-    "content": "In a group of 100 people, 66 speak English, 32 speak French, and 23 speak both languages. How many speak neither language?",
+    "_id": "thinking_10_easy_1755262177018_004",
+    "scenario": "A researcher studies 1000 ravens and finds they are all black. She concludes 'All ravens are black.' Later, she learns about albino ravens.",
+    "content": "What does this show about her reasoning method? (Question 4)",
     "type": "multiple_choice",
     "options": [
-      "25",
-      "34",
-      "68",
-      "23"
+      "Inductive reasoning has limitations",
+      "Deductive reasoning is flawed",
+      "She should have studied more ravens",
+      "Ravens aren't really birds"
     ],
-    "correctAnswer": "25",
+    "correctAnswer": "Inductive reasoning has limitations",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "easy",
-    "explanation": "People speaking at least one language: 66 + 32 - 23 = 75. Therefore, 100 - 75 = 25 speak neither.",
-    "topic": "Venn Diagrams and Set Theory"
+    "explanation": "Inductive reasoning can be disproven by new evidence, unlike deductive reasoning.",
+    "_cacheBreaker": "1755265388125_3"
   },
   {
-    "_id": "grade10_easy_thinking-skills_005",
-    "content": "In a group of 100 people, 67 speak English, 44 speak French, and 19 speak both languages. How many speak neither language?",
+    "_id": "thinking_10_easy_1755262177018_005",
+    "scenario": "Student council member Sarah only reads news sources that support her political views. When presented with contradictory information, she dismisses it without consideration.",
+    "content": "What cognitive bias is Sarah showing? (Question 5)",
     "type": "multiple_choice",
     "options": [
-      "8",
-      "33",
-      "56",
-      "19"
+      "Confirmation bias",
+      "Availability heuristic",
+      "Anchoring bias",
+      "Overconfidence bias"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "easy",
-    "explanation": "People speaking at least one language: 67 + 44 - 19 = 92. Therefore, 100 - 92 = 8 speak neither.",
-    "topic": "Venn Diagrams and Set Theory"
+    "explanation": "Sarah seeks information that confirms her existing beliefs while avoiding contradictory evidence.",
+    "_cacheBreaker": "1755265388125_4"
   },
   {
-    "_id": "grade10_easy_thinking-skills_006",
-    "content": "In a group of 100 people, 62 speak English, 37 speak French, and 21 speak both languages. How many speak neither language?",
+    "_id": "thinking_10_easy_1755262177018_006",
+    "scenario": "Two theories explain the same scientific phenomenon: Theory X requires 10 assumptions and 5 unknown variables. Theory Y uses 2 well-established principles. Both explain the data equally well.",
+    "content": "Which principle suggests preferring Theory Y? (Question 6)",
     "type": "multiple_choice",
     "options": [
-      "22",
-      "38",
-      "63",
-      "21"
+      "Murphy's Law",
+      "Occam's Razor",
+      "Newton's Law",
+      "Parkinson's Law"
     ],
-    "correctAnswer": "22",
+    "correctAnswer": "Occam's Razor",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "easy",
-    "explanation": "People speaking at least one language: 62 + 37 - 21 = 78. Therefore, 100 - 78 = 22 speak neither.",
-    "topic": "Venn Diagrams and Set Theory"
+    "explanation": "Occam's Razor suggests choosing the simplest explanation that fits the evidence.",
+    "_cacheBreaker": "1755265388125_5"
   },
   {
-    "_id": "grade10_easy_thinking-skills_007",
-    "content": "In a group of 100 people, 68 speak English, 34 speak French, and 23 speak both languages. How many speak neither language?",
+    "_id": "thinking_10_easy_1755262177018_007",
+    "scenario": "A researcher studies 1000 ravens and finds they are all black. She concludes 'All ravens are black.' Later, she learns about albino ravens.",
+    "content": "What does this show about her reasoning method? (Question 7)",
     "type": "multiple_choice",
     "options": [
-      "21",
-      "32",
-      "66",
-      "23"
+      "Inductive reasoning has limitations",
+      "Deductive reasoning is flawed",
+      "She should have studied more ravens",
+      "Ravens aren't really birds"
     ],
-    "correctAnswer": "21",
+    "correctAnswer": "Inductive reasoning has limitations",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "easy",
-    "explanation": "People speaking at least one language: 68 + 34 - 23 = 79. Therefore, 100 - 79 = 21 speak neither.",
-    "topic": "Venn Diagrams and Set Theory"
+    "explanation": "Inductive reasoning can be disproven by new evidence, unlike deductive reasoning.",
+    "_cacheBreaker": "1755265388125_6"
   },
   {
-    "_id": "grade10_easy_thinking-skills_008",
-    "content": "In a group of 100 people, 69 speak English, 45 speak French, and 22 speak both languages. How many speak neither language?",
+    "_id": "thinking_10_easy_1755262177018_008",
+    "scenario": "Student council member Sarah only reads news sources that support her political views. When presented with contradictory information, she dismisses it without consideration.",
+    "content": "What cognitive bias is Sarah showing? (Question 8)",
     "type": "multiple_choice",
     "options": [
-      "8",
-      "31",
-      "55",
-      "22"
+      "Confirmation bias",
+      "Availability heuristic",
+      "Anchoring bias",
+      "Overconfidence bias"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "easy",
-    "explanation": "People speaking at least one language: 69 + 45 - 22 = 92. Therefore, 100 - 92 = 8 speak neither.",
-    "topic": "Venn Diagrams and Set Theory"
+    "explanation": "Sarah seeks information that confirms her existing beliefs while avoiding contradictory evidence.",
+    "_cacheBreaker": "1755265388125_7"
   },
   {
-    "_id": "grade10_easy_thinking-skills_009",
-    "content": "In a group of 100 people, 60 speak English, 45 speak French, and 28 speak both languages. How many speak neither language?",
+    "_id": "thinking_10_easy_1755262177018_009",
+    "scenario": "Two theories explain the same scientific phenomenon: Theory X requires 10 assumptions and 5 unknown variables. Theory Y uses 2 well-established principles. Both explain the data equally well.",
+    "content": "Which principle suggests preferring Theory Y? (Question 9)",
     "type": "multiple_choice",
     "options": [
-      "23",
-      "40",
-      "55",
-      "28"
+      "Murphy's Law",
+      "Occam's Razor",
+      "Newton's Law",
+      "Parkinson's Law"
     ],
-    "correctAnswer": "23",
+    "correctAnswer": "Occam's Razor",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "easy",
-    "explanation": "People speaking at least one language: 60 + 45 - 28 = 77. Therefore, 100 - 77 = 23 speak neither.",
-    "topic": "Venn Diagrams and Set Theory"
+    "explanation": "Occam's Razor suggests choosing the simplest explanation that fits the evidence.",
+    "_cacheBreaker": "1755265388125_8"
   },
   {
-    "_id": "grade10_easy_thinking-skills_010",
-    "content": "In a group of 100 people, 62 speak English, 41 speak French, and 21 speak both languages. How many speak neither language?",
+    "_id": "thinking_10_easy_1755262177018_010",
+    "scenario": "A researcher studies 1000 ravens and finds they are all black. She concludes 'All ravens are black.' Later, she learns about albino ravens.",
+    "content": "What does this show about her reasoning method? (Question 10)",
     "type": "multiple_choice",
     "options": [
-      "18",
-      "38",
-      "59",
-      "21"
+      "Inductive reasoning has limitations",
+      "Deductive reasoning is flawed",
+      "She should have studied more ravens",
+      "Ravens aren't really birds"
     ],
-    "correctAnswer": "18",
+    "correctAnswer": "Inductive reasoning has limitations",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "easy",
-    "explanation": "People speaking at least one language: 62 + 41 - 21 = 82. Therefore, 100 - 82 = 18 speak neither.",
-    "topic": "Venn Diagrams and Set Theory"
+    "explanation": "Inductive reasoning can be disproven by new evidence, unlike deductive reasoning.",
+    "_cacheBreaker": "1755265388125_9"
   },
   {
-    "_id": "grade10_easy_thinking-skills_011",
-    "content": "In a group of 100 people, 62 speak English, 33 speak French, and 19 speak both languages. How many speak neither language?",
+    "_id": "thinking_10_easy_1755262177018_011",
+    "scenario": "Student council member Sarah only reads news sources that support her political views. When presented with contradictory information, she dismisses it without consideration.",
+    "content": "What cognitive bias is Sarah showing? (Question 11)",
     "type": "multiple_choice",
     "options": [
-      "24",
-      "38",
-      "67",
-      "19"
+      "Confirmation bias",
+      "Availability heuristic",
+      "Anchoring bias",
+      "Overconfidence bias"
     ],
-    "correctAnswer": "24",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "easy",
-    "explanation": "People speaking at least one language: 62 + 33 - 19 = 76. Therefore, 100 - 76 = 24 speak neither.",
-    "topic": "Venn Diagrams and Set Theory"
+    "explanation": "Sarah seeks information that confirms her existing beliefs while avoiding contradictory evidence.",
+    "_cacheBreaker": "1755265388125_10"
   },
   {
-    "_id": "grade10_easy_thinking-skills_012",
-    "content": "In a group of 100 people, 62 speak English, 31 speak French, and 22 speak both languages. How many speak neither language?",
+    "_id": "thinking_10_easy_1755262177018_012",
+    "scenario": "Two theories explain the same scientific phenomenon: Theory X requires 10 assumptions and 5 unknown variables. Theory Y uses 2 well-established principles. Both explain the data equally well.",
+    "content": "Which principle suggests preferring Theory Y? (Question 12)",
     "type": "multiple_choice",
     "options": [
-      "29",
-      "38",
-      "69",
-      "22"
+      "Murphy's Law",
+      "Occam's Razor",
+      "Newton's Law",
+      "Parkinson's Law"
     ],
-    "correctAnswer": "29",
+    "correctAnswer": "Occam's Razor",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "easy",
-    "explanation": "People speaking at least one language: 62 + 31 - 22 = 71. Therefore, 100 - 71 = 29 speak neither.",
-    "topic": "Venn Diagrams and Set Theory"
+    "explanation": "Occam's Razor suggests choosing the simplest explanation that fits the evidence.",
+    "_cacheBreaker": "1755265388125_11"
   },
   {
-    "_id": "grade10_easy_thinking-skills_013",
-    "content": "In a group of 100 people, 58 speak English, 37 speak French, and 17 speak both languages. How many speak neither language?",
+    "_id": "thinking_10_easy_1755262177018_013",
+    "scenario": "A researcher studies 1000 ravens and finds they are all black. She concludes 'All ravens are black.' Later, she learns about albino ravens.",
+    "content": "What does this show about her reasoning method? (Question 13)",
     "type": "multiple_choice",
     "options": [
-      "22",
-      "42",
-      "63",
-      "17"
+      "Inductive reasoning has limitations",
+      "Deductive reasoning is flawed",
+      "She should have studied more ravens",
+      "Ravens aren't really birds"
     ],
-    "correctAnswer": "22",
+    "correctAnswer": "Inductive reasoning has limitations",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "easy",
-    "explanation": "People speaking at least one language: 58 + 37 - 17 = 78. Therefore, 100 - 78 = 22 speak neither.",
-    "topic": "Venn Diagrams and Set Theory"
+    "explanation": "Inductive reasoning can be disproven by new evidence, unlike deductive reasoning.",
+    "_cacheBreaker": "1755265388125_12"
   },
   {
-    "_id": "grade10_easy_thinking-skills_014",
-    "content": "In a group of 100 people, 56 speak English, 48 speak French, and 23 speak both languages. How many speak neither language?",
+    "_id": "thinking_10_easy_1755262177018_014",
+    "scenario": "Student council member Sarah only reads news sources that support her political views. When presented with contradictory information, she dismisses it without consideration.",
+    "content": "What cognitive bias is Sarah showing? (Question 14)",
     "type": "multiple_choice",
     "options": [
-      "19",
-      "44",
-      "52",
-      "23"
+      "Confirmation bias",
+      "Availability heuristic",
+      "Anchoring bias",
+      "Overconfidence bias"
     ],
-    "correctAnswer": "19",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "easy",
-    "explanation": "People speaking at least one language: 56 + 48 - 23 = 81. Therefore, 100 - 81 = 19 speak neither.",
-    "topic": "Venn Diagrams and Set Theory"
+    "explanation": "Sarah seeks information that confirms her existing beliefs while avoiding contradictory evidence.",
+    "_cacheBreaker": "1755265388125_13"
   },
   {
-    "_id": "grade10_easy_thinking-skills_015",
-    "content": "In a group of 100 people, 51 speak English, 38 speak French, and 27 speak both languages. How many speak neither language?",
+    "_id": "thinking_10_easy_1755262177018_015",
+    "scenario": "Two theories explain the same scientific phenomenon: Theory X requires 10 assumptions and 5 unknown variables. Theory Y uses 2 well-established principles. Both explain the data equally well.",
+    "content": "Which principle suggests preferring Theory Y? (Question 15)",
     "type": "multiple_choice",
     "options": [
-      "38",
-      "49",
-      "62",
-      "27"
+      "Murphy's Law",
+      "Occam's Razor",
+      "Newton's Law",
+      "Parkinson's Law"
     ],
-    "correctAnswer": "38",
+    "correctAnswer": "Occam's Razor",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "easy",
-    "explanation": "People speaking at least one language: 51 + 38 - 27 = 62. Therefore, 100 - 62 = 38 speak neither.",
-    "topic": "Venn Diagrams and Set Theory"
+    "explanation": "Occam's Razor suggests choosing the simplest explanation that fits the evidence.",
+    "_cacheBreaker": "1755265388125_14"
   },
   {
-    "_id": "grade10_easy_thinking-skills_016",
-    "content": "In a group of 100 people, 58 speak English, 37 speak French, and 26 speak both languages. How many speak neither language?",
+    "_id": "thinking_10_easy_1755262177018_016",
+    "scenario": "A researcher studies 1000 ravens and finds they are all black. She concludes 'All ravens are black.' Later, she learns about albino ravens.",
+    "content": "What does this show about her reasoning method? (Question 16)",
     "type": "multiple_choice",
     "options": [
-      "31",
-      "42",
-      "63",
-      "26"
+      "Inductive reasoning has limitations",
+      "Deductive reasoning is flawed",
+      "She should have studied more ravens",
+      "Ravens aren't really birds"
     ],
-    "correctAnswer": "31",
+    "correctAnswer": "Inductive reasoning has limitations",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "easy",
-    "explanation": "People speaking at least one language: 58 + 37 - 26 = 69. Therefore, 100 - 69 = 31 speak neither.",
-    "topic": "Venn Diagrams and Set Theory"
+    "explanation": "Inductive reasoning can be disproven by new evidence, unlike deductive reasoning.",
+    "_cacheBreaker": "1755265388125_15"
   },
   {
-    "_id": "grade10_easy_thinking-skills_017",
-    "content": "In a group of 100 people, 55 speak English, 40 speak French, and 24 speak both languages. How many speak neither language?",
+    "_id": "thinking_10_easy_1755262177018_017",
+    "scenario": "Student council member Sarah only reads news sources that support her political views. When presented with contradictory information, she dismisses it without consideration.",
+    "content": "What cognitive bias is Sarah showing? (Question 17)",
     "type": "multiple_choice",
     "options": [
-      "29",
-      "45",
-      "60",
-      "24"
+      "Confirmation bias",
+      "Availability heuristic",
+      "Anchoring bias",
+      "Overconfidence bias"
     ],
-    "correctAnswer": "29",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "easy",
-    "explanation": "People speaking at least one language: 55 + 40 - 24 = 71. Therefore, 100 - 71 = 29 speak neither.",
-    "topic": "Venn Diagrams and Set Theory"
+    "explanation": "Sarah seeks information that confirms her existing beliefs while avoiding contradictory evidence.",
+    "_cacheBreaker": "1755265388125_16"
   },
   {
-    "_id": "grade10_easy_thinking-skills_018",
-    "content": "In a group of 100 people, 51 speak English, 38 speak French, and 26 speak both languages. How many speak neither language?",
+    "_id": "thinking_10_easy_1755262177018_018",
+    "scenario": "Two theories explain the same scientific phenomenon: Theory X requires 10 assumptions and 5 unknown variables. Theory Y uses 2 well-established principles. Both explain the data equally well.",
+    "content": "Which principle suggests preferring Theory Y? (Question 18)",
     "type": "multiple_choice",
     "options": [
-      "37",
-      "49",
-      "62",
-      "26"
+      "Murphy's Law",
+      "Occam's Razor",
+      "Newton's Law",
+      "Parkinson's Law"
     ],
-    "correctAnswer": "37",
+    "correctAnswer": "Occam's Razor",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "easy",
-    "explanation": "People speaking at least one language: 51 + 38 - 26 = 63. Therefore, 100 - 63 = 37 speak neither.",
-    "topic": "Venn Diagrams and Set Theory"
+    "explanation": "Occam's Razor suggests choosing the simplest explanation that fits the evidence.",
+    "_cacheBreaker": "1755265388125_17"
   },
   {
-    "_id": "grade10_easy_thinking-skills_019",
-    "content": "In a group of 100 people, 66 speak English, 47 speak French, and 27 speak both languages. How many speak neither language?",
+    "_id": "thinking_10_easy_1755262177018_019",
+    "scenario": "A researcher studies 1000 ravens and finds they are all black. She concludes 'All ravens are black.' Later, she learns about albino ravens.",
+    "content": "What does this show about her reasoning method? (Question 19)",
     "type": "multiple_choice",
     "options": [
-      "14",
-      "34",
-      "53",
-      "27"
+      "Inductive reasoning has limitations",
+      "Deductive reasoning is flawed",
+      "She should have studied more ravens",
+      "Ravens aren't really birds"
     ],
-    "correctAnswer": "14",
+    "correctAnswer": "Inductive reasoning has limitations",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "easy",
-    "explanation": "People speaking at least one language: 66 + 47 - 27 = 86. Therefore, 100 - 86 = 14 speak neither.",
-    "topic": "Venn Diagrams and Set Theory"
+    "explanation": "Inductive reasoning can be disproven by new evidence, unlike deductive reasoning.",
+    "_cacheBreaker": "1755265388125_18"
   },
   {
-    "_id": "grade10_easy_thinking-skills_020",
-    "content": "In a group of 100 people, 59 speak English, 33 speak French, and 20 speak both languages. How many speak neither language?",
+    "_id": "thinking_10_easy_1755262177018_020",
+    "scenario": "Student council member Sarah only reads news sources that support her political views. When presented with contradictory information, she dismisses it without consideration.",
+    "content": "What cognitive bias is Sarah showing? (Question 20)",
     "type": "multiple_choice",
     "options": [
-      "28",
-      "41",
-      "67",
-      "20"
+      "Confirmation bias",
+      "Availability heuristic",
+      "Anchoring bias",
+      "Overconfidence bias"
     ],
-    "correctAnswer": "28",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "easy",
-    "explanation": "People speaking at least one language: 59 + 33 - 20 = 72. Therefore, 100 - 72 = 28 speak neither.",
-    "topic": "Venn Diagrams and Set Theory"
+    "explanation": "Sarah seeks information that confirms her existing beliefs while avoiding contradictory evidence.",
+    "_cacheBreaker": "1755265388125_19"
   }
 ]

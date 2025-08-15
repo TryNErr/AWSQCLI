@@ -1,322 +1,322 @@
 [
   {
-    "_id": "grade12_medium_math_001",
-    "content": "What is 1 × 1?",
+    "_id": "med12_1755260816494_001",
+    "content": "Find the derivative of f(x) = 3x² + 2x - 1",
+    "type": "multiple_choice",
+    "options": [
+      "6x + 2",
+      "3x + 2",
+      "6x² + 2x",
+      "6x - 1"
+    ],
+    "correctAnswer": "6x + 2",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "medium",
+    "explanation": "Use power rule: d/dx[3x²] = 6x, d/dx[2x] = 2, d/dx[-1] = 0"
+  },
+  {
+    "_id": "med12_1755260816494_002",
+    "content": "Evaluate: ∫(2x + 3)dx",
+    "type": "multiple_choice",
+    "options": [
+      "x² + 3x + C",
+      "2x² + 3x + C",
+      "x² + 3x",
+      "2x + 3x + C"
+    ],
+    "correctAnswer": "x² + 3x + C",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "medium",
+    "explanation": "∫2x dx = x², ∫3 dx = 3x, don't forget constant C"
+  },
+  {
+    "_id": "med12_1755260816494_003",
+    "content": "Find lim(x→2) (x² - 4)/(x - 2)",
     "type": "multiple_choice",
     "options": [
       "0",
-      "1",
       "2",
-      "2"
-    ],
-    "correctAnswer": "1",
-    "subject": "Mathematics",
-    "grade": 12,
-    "difficulty": "medium",
-    "explanation": "1 × 1 = 1"
-  },
-  {
-    "_id": "grade12_medium_math_002",
-    "content": "What is 2 × 1?",
-    "type": "multiple_choice",
-    "options": [
-      "1",
-      "2",
-      "3",
-      "3"
-    ],
-    "correctAnswer": "2",
-    "subject": "Mathematics",
-    "grade": 12,
-    "difficulty": "medium",
-    "explanation": "2 × 1 = 2"
-  },
-  {
-    "_id": "grade12_medium_math_003",
-    "content": "What is 2 × 1?",
-    "type": "multiple_choice",
-    "options": [
-      "1",
-      "2",
-      "3",
-      "3"
-    ],
-    "correctAnswer": "2",
-    "subject": "Mathematics",
-    "grade": 12,
-    "difficulty": "medium",
-    "explanation": "2 × 1 = 2"
-  },
-  {
-    "_id": "grade12_medium_math_004",
-    "content": "What is 15 × 1?",
-    "type": "multiple_choice",
-    "options": [
-      "14",
-      "15",
-      "16",
-      "16"
-    ],
-    "correctAnswer": "15",
-    "subject": "Mathematics",
-    "grade": 12,
-    "difficulty": "medium",
-    "explanation": "15 × 1 = 15"
-  },
-  {
-    "_id": "grade12_medium_math_005",
-    "content": "What is 2 × 1?",
-    "type": "multiple_choice",
-    "options": [
-      "1",
-      "2",
-      "3",
-      "3"
-    ],
-    "correctAnswer": "2",
-    "subject": "Mathematics",
-    "grade": 12,
-    "difficulty": "medium",
-    "explanation": "2 × 1 = 2"
-  },
-  {
-    "_id": "grade12_medium_math_006",
-    "content": "What is 5 × 1?",
-    "type": "multiple_choice",
-    "options": [
       "4",
-      "5",
+      "Does not exist"
+    ],
+    "correctAnswer": "4",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "medium",
+    "explanation": "Factor: (x - 2)(x + 2)/(x - 2) = x + 2, then substitute x = 2"
+  },
+  {
+    "_id": "med12_1755260816494_004",
+    "content": "If f(x) = e^x, find f'(x)",
+    "type": "multiple_choice",
+    "options": [
+      "e^x",
+      "xe^(x-1)",
+      "e",
+      "x·e^x"
+    ],
+    "correctAnswer": "e^x",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "medium",
+    "explanation": "The derivative of e^x is e^x"
+  },
+  {
+    "_id": "med12_1755260816494_005",
+    "content": "Find the area under y = x from x = 0 to x = 3",
+    "type": "multiple_choice",
+    "options": [
+      "4.5",
       "6",
-      "6"
-    ],
-    "correctAnswer": "5",
-    "subject": "Mathematics",
-    "grade": 12,
-    "difficulty": "medium",
-    "explanation": "5 × 1 = 5"
-  },
-  {
-    "_id": "grade12_medium_math_007",
-    "content": "What is 30 × 1?",
-    "type": "multiple_choice",
-    "options": [
-      "29",
-      "30",
-      "31",
-      "31"
-    ],
-    "correctAnswer": "30",
-    "subject": "Mathematics",
-    "grade": 12,
-    "difficulty": "medium",
-    "explanation": "30 × 1 = 30"
-  },
-  {
-    "_id": "grade12_medium_math_008",
-    "content": "What is 1 × 1?",
-    "type": "multiple_choice",
-    "options": [
-      "0",
-      "1",
-      "2",
-      "2"
-    ],
-    "correctAnswer": "1",
-    "subject": "Mathematics",
-    "grade": 12,
-    "difficulty": "medium",
-    "explanation": "1 × 1 = 1"
-  },
-  {
-    "_id": "grade12_medium_math_009",
-    "content": "What is 3 × 2?",
-    "type": "multiple_choice",
-    "options": [
-      "5",
-      "6",
-      "7",
-      "5"
-    ],
-    "correctAnswer": "6",
-    "subject": "Mathematics",
-    "grade": 12,
-    "difficulty": "medium",
-    "explanation": "3 × 2 = 6"
-  },
-  {
-    "_id": "grade12_medium_math_010",
-    "content": "What is 4 × 2?",
-    "type": "multiple_choice",
-    "options": [
-      "7",
-      "8",
       "9",
-      "6"
+      "3"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "4.5",
     "subject": "Mathematics",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "4 × 2 = 8"
+    "explanation": "∫₀³ x dx = [x²/2]₀³ = 9/2 - 0 = 4.5"
   },
   {
-    "_id": "grade12_medium_math_011",
-    "content": "What is 4 × 2?",
+    "_id": "med12_1755260816494_006",
+    "content": "Find the derivative of f(x) = x^6",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "8",
-      "9",
-      "6"
+      "6x^5",
+      "x^5",
+      "6x^6",
+      "x^7"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "6x^5",
     "subject": "Mathematics",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "4 × 2 = 8"
+    "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)"
   },
   {
-    "_id": "grade12_medium_math_012",
-    "content": "What is 17 × 2?",
+    "_id": "med12_1755260816494_007",
+    "content": "Find the derivative of f(x) = x^7",
     "type": "multiple_choice",
     "options": [
-      "33",
-      "34",
-      "35",
-      "19"
+      "7x^6",
+      "x^6",
+      "7x^7",
+      "x^8"
     ],
-    "correctAnswer": "34",
+    "correctAnswer": "7x^6",
     "subject": "Mathematics",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "17 × 2 = 34"
+    "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)"
   },
   {
-    "_id": "grade12_medium_math_013",
-    "content": "What is 4 × 2?",
+    "_id": "med12_1755260816494_008",
+    "content": "Find the derivative of f(x) = x^8",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "8",
-      "9",
-      "6"
+      "8x^7",
+      "x^7",
+      "8x^8",
+      "x^9"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "8x^7",
     "subject": "Mathematics",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "4 × 2 = 8"
+    "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)"
   },
   {
-    "_id": "grade12_medium_math_014",
-    "content": "What is 7 × 2?",
+    "_id": "med12_1755260816494_009",
+    "content": "Find the derivative of f(x) = x^9",
     "type": "multiple_choice",
     "options": [
-      "13",
-      "14",
-      "15",
-      "9"
+      "9x^8",
+      "x^8",
+      "9x^9",
+      "x^10"
     ],
-    "correctAnswer": "14",
+    "correctAnswer": "9x^8",
     "subject": "Mathematics",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "7 × 2 = 14"
+    "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)"
   },
   {
-    "_id": "grade12_medium_math_015",
-    "content": "What is 32 × 2?",
+    "_id": "med12_1755260816494_010",
+    "content": "Find the derivative of f(x) = x^10",
     "type": "multiple_choice",
     "options": [
-      "63",
-      "64",
-      "65",
-      "34"
+      "10x^9",
+      "x^9",
+      "10x^10",
+      "x^11"
     ],
-    "correctAnswer": "64",
+    "correctAnswer": "10x^9",
     "subject": "Mathematics",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "32 × 2 = 64"
+    "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)"
   },
   {
-    "_id": "grade12_medium_math_016",
-    "content": "What is 3 × 2?",
+    "_id": "med12_1755260816494_011",
+    "content": "Find the derivative of f(x) = x^11",
     "type": "multiple_choice",
     "options": [
-      "5",
-      "6",
-      "7",
-      "5"
+      "11x^10",
+      "x^10",
+      "11x^11",
+      "x^12"
     ],
-    "correctAnswer": "6",
+    "correctAnswer": "11x^10",
     "subject": "Mathematics",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "3 × 2 = 6"
+    "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)"
   },
   {
-    "_id": "grade12_medium_math_017",
-    "content": "What is 5 × 3?",
+    "_id": "med12_1755260816494_012",
+    "content": "Find the derivative of f(x) = x^12",
     "type": "multiple_choice",
     "options": [
-      "14",
-      "15",
-      "16",
-      "8"
+      "12x^11",
+      "x^11",
+      "12x^12",
+      "x^13"
     ],
-    "correctAnswer": "15",
+    "correctAnswer": "12x^11",
     "subject": "Mathematics",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "5 × 3 = 15"
+    "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)"
   },
   {
-    "_id": "grade12_medium_math_018",
-    "content": "What is 6 × 3?",
+    "_id": "med12_1755260816494_013",
+    "content": "Find the derivative of f(x) = x^13",
     "type": "multiple_choice",
     "options": [
-      "17",
-      "18",
-      "19",
-      "9"
+      "13x^12",
+      "x^12",
+      "13x^13",
+      "x^14"
     ],
-    "correctAnswer": "18",
+    "correctAnswer": "13x^12",
     "subject": "Mathematics",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "6 × 3 = 18"
+    "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)"
   },
   {
-    "_id": "grade12_medium_math_019",
-    "content": "What is 6 × 3?",
+    "_id": "med12_1755260816494_014",
+    "content": "Find the derivative of f(x) = x^14",
     "type": "multiple_choice",
     "options": [
-      "17",
-      "18",
-      "19",
-      "9"
+      "14x^13",
+      "x^13",
+      "14x^14",
+      "x^15"
     ],
-    "correctAnswer": "18",
+    "correctAnswer": "14x^13",
     "subject": "Mathematics",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "6 × 3 = 18"
+    "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)"
   },
   {
-    "_id": "grade12_medium_math_020",
-    "content": "What is 19 × 3?",
+    "_id": "med12_1755260816494_015",
+    "content": "Find the derivative of f(x) = x^15",
     "type": "multiple_choice",
     "options": [
-      "56",
-      "57",
-      "58",
-      "22"
+      "15x^14",
+      "x^14",
+      "15x^15",
+      "x^16"
     ],
-    "correctAnswer": "57",
+    "correctAnswer": "15x^14",
     "subject": "Mathematics",
     "grade": 12,
     "difficulty": "medium",
-    "explanation": "19 × 3 = 57"
+    "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)"
+  },
+  {
+    "_id": "med12_1755260816494_016",
+    "content": "Find the derivative of f(x) = x^16",
+    "type": "multiple_choice",
+    "options": [
+      "16x^15",
+      "x^15",
+      "16x^16",
+      "x^17"
+    ],
+    "correctAnswer": "16x^15",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "medium",
+    "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)"
+  },
+  {
+    "_id": "med12_1755260816494_017",
+    "content": "Find the derivative of f(x) = x^17",
+    "type": "multiple_choice",
+    "options": [
+      "17x^16",
+      "x^16",
+      "17x^17",
+      "x^18"
+    ],
+    "correctAnswer": "17x^16",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "medium",
+    "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)"
+  },
+  {
+    "_id": "med12_1755260816494_018",
+    "content": "Find the derivative of f(x) = x^18",
+    "type": "multiple_choice",
+    "options": [
+      "18x^17",
+      "x^17",
+      "18x^18",
+      "x^19"
+    ],
+    "correctAnswer": "18x^17",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "medium",
+    "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)"
+  },
+  {
+    "_id": "med12_1755260816494_019",
+    "content": "Find the derivative of f(x) = x^19",
+    "type": "multiple_choice",
+    "options": [
+      "19x^18",
+      "x^18",
+      "19x^19",
+      "x^20"
+    ],
+    "correctAnswer": "19x^18",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "medium",
+    "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)"
+  },
+  {
+    "_id": "med12_1755260816494_020",
+    "content": "Find the derivative of f(x) = x^20",
+    "type": "multiple_choice",
+    "options": [
+      "20x^19",
+      "x^19",
+      "20x^20",
+      "x^21"
+    ],
+    "correctAnswer": "20x^19",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "medium",
+    "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)"
   }
 ]

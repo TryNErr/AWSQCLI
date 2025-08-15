@@ -1,342 +1,362 @@
 [
   {
-    "_id": "grade10_hard_thinking-skills_001",
-    "content": "In a tournament bracket with 36 teams, how many games must be played to determine a winner?",
+    "_id": "thinking_10_hard_1755262177029_001",
+    "scenario": "A researcher studies 1000 ravens and finds they are all black. She concludes 'All ravens are black.' Later, she learns about albino ravens.",
+    "content": "What does this show about her reasoning method?",
     "type": "multiple_choice",
     "options": [
-      "35",
-      "36",
-      "6",
-      "15"
+      "Inductive reasoning has limitations",
+      "Deductive reasoning is flawed",
+      "She should have studied more ravens",
+      "Ravens aren't really birds"
     ],
-    "correctAnswer": "35",
+    "correctAnswer": "Inductive reasoning has limitations",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "hard",
-    "explanation": "In a single-elimination tournament, each game eliminates exactly one team. To eliminate 35 teams (leaving 1 winner), exactly 35 games are needed.",
-    "topic": "Tournament Mathematics"
+    "explanation": "Inductive reasoning can be disproven by new evidence, unlike deductive reasoning.",
+    "_cacheBreaker": "1755265388129_0"
   },
   {
-    "_id": "grade10_hard_thinking-skills_002",
-    "content": "In a tournament bracket with 81 teams, how many games must be played to determine a winner?",
+    "_id": "thinking_10_hard_1755262177029_002",
+    "scenario": "Student council member Sarah only reads news sources that support her political views. When presented with contradictory information, she dismisses it without consideration.",
+    "content": "What cognitive bias is Sarah showing?",
     "type": "multiple_choice",
     "options": [
-      "80",
-      "81",
-      "9",
-      "36"
+      "Confirmation bias",
+      "Availability heuristic",
+      "Anchoring bias",
+      "Overconfidence bias"
     ],
-    "correctAnswer": "80",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "hard",
-    "explanation": "In a single-elimination tournament, each game eliminates exactly one team. To eliminate 80 teams (leaving 1 winner), exactly 80 games are needed.",
-    "topic": "Tournament Mathematics"
+    "explanation": "Sarah seeks information that confirms her existing beliefs while avoiding contradictory evidence.",
+    "_cacheBreaker": "1755265388129_1"
   },
   {
-    "_id": "grade10_hard_thinking-skills_003",
-    "content": "In a tournament bracket with 49 teams, how many games must be played to determine a winner?",
+    "_id": "thinking_10_hard_1755262177029_003",
+    "scenario": "Two theories explain the same scientific phenomenon: Theory X requires 10 assumptions and 5 unknown variables. Theory Y uses 2 well-established principles. Both explain the data equally well.",
+    "content": "Which principle suggests preferring Theory Y?",
     "type": "multiple_choice",
     "options": [
-      "48",
-      "49",
-      "7",
-      "21"
+      "Murphy's Law",
+      "Occam's Razor",
+      "Newton's Law",
+      "Parkinson's Law"
     ],
-    "correctAnswer": "48",
+    "correctAnswer": "Occam's Razor",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "hard",
-    "explanation": "In a single-elimination tournament, each game eliminates exactly one team. To eliminate 48 teams (leaving 1 winner), exactly 48 games are needed.",
-    "topic": "Tournament Mathematics"
+    "explanation": "Occam's Razor suggests choosing the simplest explanation that fits the evidence.",
+    "_cacheBreaker": "1755265388129_2"
   },
   {
-    "_id": "grade10_hard_thinking-skills_004",
-    "content": "In a tournament bracket with 64 teams, how many games must be played to determine a winner?",
+    "_id": "thinking_10_hard_1755262177029_004",
+    "scenario": "A researcher studies 1000 ravens and finds they are all black. She concludes 'All ravens are black.' Later, she learns about albino ravens.",
+    "content": "What does this show about her reasoning method? (Question 4)",
     "type": "multiple_choice",
     "options": [
-      "63",
-      "64",
-      "8",
-      "28"
+      "Inductive reasoning has limitations",
+      "Deductive reasoning is flawed",
+      "She should have studied more ravens",
+      "Ravens aren't really birds"
     ],
-    "correctAnswer": "63",
+    "correctAnswer": "Inductive reasoning has limitations",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "hard",
-    "explanation": "In a single-elimination tournament, each game eliminates exactly one team. To eliminate 63 teams (leaving 1 winner), exactly 63 games are needed.",
-    "topic": "Tournament Mathematics"
+    "explanation": "Inductive reasoning can be disproven by new evidence, unlike deductive reasoning.",
+    "_cacheBreaker": "1755265388129_3"
   },
   {
-    "_id": "grade10_hard_thinking-skills_005",
-    "content": "In a tournament bracket with 64 teams, how many games must be played to determine a winner?",
+    "_id": "thinking_10_hard_1755262177029_005",
+    "scenario": "Student council member Sarah only reads news sources that support her political views. When presented with contradictory information, she dismisses it without consideration.",
+    "content": "What cognitive bias is Sarah showing? (Question 5)",
     "type": "multiple_choice",
     "options": [
-      "63",
-      "64",
-      "8",
-      "28"
+      "Confirmation bias",
+      "Availability heuristic",
+      "Anchoring bias",
+      "Overconfidence bias"
     ],
-    "correctAnswer": "63",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "hard",
-    "explanation": "In a single-elimination tournament, each game eliminates exactly one team. To eliminate 63 teams (leaving 1 winner), exactly 63 games are needed.",
-    "topic": "Tournament Mathematics"
+    "explanation": "Sarah seeks information that confirms her existing beliefs while avoiding contradictory evidence.",
+    "_cacheBreaker": "1755265388129_4"
   },
   {
-    "_id": "grade10_hard_thinking-skills_006",
-    "content": "In a tournament bracket with 81 teams, how many games must be played to determine a winner?",
+    "_id": "thinking_10_hard_1755262177029_006",
+    "scenario": "Two theories explain the same scientific phenomenon: Theory X requires 10 assumptions and 5 unknown variables. Theory Y uses 2 well-established principles. Both explain the data equally well.",
+    "content": "Which principle suggests preferring Theory Y? (Question 6)",
     "type": "multiple_choice",
     "options": [
-      "80",
-      "81",
-      "9",
-      "36"
+      "Murphy's Law",
+      "Occam's Razor",
+      "Newton's Law",
+      "Parkinson's Law"
     ],
-    "correctAnswer": "80",
+    "correctAnswer": "Occam's Razor",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "hard",
-    "explanation": "In a single-elimination tournament, each game eliminates exactly one team. To eliminate 80 teams (leaving 1 winner), exactly 80 games are needed.",
-    "topic": "Tournament Mathematics"
+    "explanation": "Occam's Razor suggests choosing the simplest explanation that fits the evidence.",
+    "_cacheBreaker": "1755265388129_5"
   },
   {
-    "_id": "grade10_hard_thinking-skills_007",
-    "content": "In a tournament bracket with 81 teams, how many games must be played to determine a winner?",
+    "_id": "thinking_10_hard_1755262177029_007",
+    "scenario": "A researcher studies 1000 ravens and finds they are all black. She concludes 'All ravens are black.' Later, she learns about albino ravens.",
+    "content": "What does this show about her reasoning method? (Question 7)",
     "type": "multiple_choice",
     "options": [
-      "80",
-      "81",
-      "9",
-      "36"
+      "Inductive reasoning has limitations",
+      "Deductive reasoning is flawed",
+      "She should have studied more ravens",
+      "Ravens aren't really birds"
     ],
-    "correctAnswer": "80",
+    "correctAnswer": "Inductive reasoning has limitations",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "hard",
-    "explanation": "In a single-elimination tournament, each game eliminates exactly one team. To eliminate 80 teams (leaving 1 winner), exactly 80 games are needed.",
-    "topic": "Tournament Mathematics"
+    "explanation": "Inductive reasoning can be disproven by new evidence, unlike deductive reasoning.",
+    "_cacheBreaker": "1755265388129_6"
   },
   {
-    "_id": "grade10_hard_thinking-skills_008",
-    "content": "In a tournament bracket with 64 teams, how many games must be played to determine a winner?",
+    "_id": "thinking_10_hard_1755262177029_008",
+    "scenario": "Student council member Sarah only reads news sources that support her political views. When presented with contradictory information, she dismisses it without consideration.",
+    "content": "What cognitive bias is Sarah showing? (Question 8)",
     "type": "multiple_choice",
     "options": [
-      "63",
-      "64",
-      "8",
-      "28"
+      "Confirmation bias",
+      "Availability heuristic",
+      "Anchoring bias",
+      "Overconfidence bias"
     ],
-    "correctAnswer": "63",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "hard",
-    "explanation": "In a single-elimination tournament, each game eliminates exactly one team. To eliminate 63 teams (leaving 1 winner), exactly 63 games are needed.",
-    "topic": "Tournament Mathematics"
+    "explanation": "Sarah seeks information that confirms her existing beliefs while avoiding contradictory evidence.",
+    "_cacheBreaker": "1755265388129_7"
   },
   {
-    "_id": "grade10_hard_thinking-skills_009",
-    "content": "In a tournament bracket with 36 teams, how many games must be played to determine a winner?",
+    "_id": "thinking_10_hard_1755262177029_009",
+    "scenario": "Two theories explain the same scientific phenomenon: Theory X requires 10 assumptions and 5 unknown variables. Theory Y uses 2 well-established principles. Both explain the data equally well.",
+    "content": "Which principle suggests preferring Theory Y? (Question 9)",
     "type": "multiple_choice",
     "options": [
-      "35",
-      "36",
-      "6",
-      "15"
+      "Murphy's Law",
+      "Occam's Razor",
+      "Newton's Law",
+      "Parkinson's Law"
     ],
-    "correctAnswer": "35",
+    "correctAnswer": "Occam's Razor",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "hard",
-    "explanation": "In a single-elimination tournament, each game eliminates exactly one team. To eliminate 35 teams (leaving 1 winner), exactly 35 games are needed.",
-    "topic": "Tournament Mathematics"
+    "explanation": "Occam's Razor suggests choosing the simplest explanation that fits the evidence.",
+    "_cacheBreaker": "1755265388129_8"
   },
   {
-    "_id": "grade10_hard_thinking-skills_010",
-    "content": "In a tournament bracket with 64 teams, how many games must be played to determine a winner?",
+    "_id": "thinking_10_hard_1755262177029_010",
+    "scenario": "A researcher studies 1000 ravens and finds they are all black. She concludes 'All ravens are black.' Later, she learns about albino ravens.",
+    "content": "What does this show about her reasoning method? (Question 10)",
     "type": "multiple_choice",
     "options": [
-      "63",
-      "64",
-      "8",
-      "28"
+      "Inductive reasoning has limitations",
+      "Deductive reasoning is flawed",
+      "She should have studied more ravens",
+      "Ravens aren't really birds"
     ],
-    "correctAnswer": "63",
+    "correctAnswer": "Inductive reasoning has limitations",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "hard",
-    "explanation": "In a single-elimination tournament, each game eliminates exactly one team. To eliminate 63 teams (leaving 1 winner), exactly 63 games are needed.",
-    "topic": "Tournament Mathematics"
+    "explanation": "Inductive reasoning can be disproven by new evidence, unlike deductive reasoning.",
+    "_cacheBreaker": "1755265388129_9"
   },
   {
-    "_id": "grade10_hard_thinking-skills_011",
-    "content": "In a tournament bracket with 36 teams, how many games must be played to determine a winner?",
+    "_id": "thinking_10_hard_1755262177029_011",
+    "scenario": "Student council member Sarah only reads news sources that support her political views. When presented with contradictory information, she dismisses it without consideration.",
+    "content": "What cognitive bias is Sarah showing? (Question 11)",
     "type": "multiple_choice",
     "options": [
-      "35",
-      "36",
-      "6",
-      "15"
+      "Confirmation bias",
+      "Availability heuristic",
+      "Anchoring bias",
+      "Overconfidence bias"
     ],
-    "correctAnswer": "35",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "hard",
-    "explanation": "In a single-elimination tournament, each game eliminates exactly one team. To eliminate 35 teams (leaving 1 winner), exactly 35 games are needed.",
-    "topic": "Tournament Mathematics"
+    "explanation": "Sarah seeks information that confirms her existing beliefs while avoiding contradictory evidence.",
+    "_cacheBreaker": "1755265388129_10"
   },
   {
-    "_id": "grade10_hard_thinking-skills_012",
-    "content": "In a tournament bracket with 81 teams, how many games must be played to determine a winner?",
+    "_id": "thinking_10_hard_1755262177029_012",
+    "scenario": "Two theories explain the same scientific phenomenon: Theory X requires 10 assumptions and 5 unknown variables. Theory Y uses 2 well-established principles. Both explain the data equally well.",
+    "content": "Which principle suggests preferring Theory Y? (Question 12)",
     "type": "multiple_choice",
     "options": [
-      "80",
-      "81",
-      "9",
-      "36"
+      "Murphy's Law",
+      "Occam's Razor",
+      "Newton's Law",
+      "Parkinson's Law"
     ],
-    "correctAnswer": "80",
+    "correctAnswer": "Occam's Razor",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "hard",
-    "explanation": "In a single-elimination tournament, each game eliminates exactly one team. To eliminate 80 teams (leaving 1 winner), exactly 80 games are needed.",
-    "topic": "Tournament Mathematics"
+    "explanation": "Occam's Razor suggests choosing the simplest explanation that fits the evidence.",
+    "_cacheBreaker": "1755265388129_11"
   },
   {
-    "_id": "grade10_hard_thinking-skills_013",
-    "content": "In a tournament bracket with 36 teams, how many games must be played to determine a winner?",
+    "_id": "thinking_10_hard_1755262177029_013",
+    "scenario": "A researcher studies 1000 ravens and finds they are all black. She concludes 'All ravens are black.' Later, she learns about albino ravens.",
+    "content": "What does this show about her reasoning method? (Question 13)",
     "type": "multiple_choice",
     "options": [
-      "35",
-      "36",
-      "6",
-      "15"
+      "Inductive reasoning has limitations",
+      "Deductive reasoning is flawed",
+      "She should have studied more ravens",
+      "Ravens aren't really birds"
     ],
-    "correctAnswer": "35",
+    "correctAnswer": "Inductive reasoning has limitations",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "hard",
-    "explanation": "In a single-elimination tournament, each game eliminates exactly one team. To eliminate 35 teams (leaving 1 winner), exactly 35 games are needed.",
-    "topic": "Tournament Mathematics"
+    "explanation": "Inductive reasoning can be disproven by new evidence, unlike deductive reasoning.",
+    "_cacheBreaker": "1755265388129_12"
   },
   {
-    "_id": "grade10_hard_thinking-skills_014",
-    "content": "In a tournament bracket with 49 teams, how many games must be played to determine a winner?",
+    "_id": "thinking_10_hard_1755262177029_014",
+    "scenario": "Student council member Sarah only reads news sources that support her political views. When presented with contradictory information, she dismisses it without consideration.",
+    "content": "What cognitive bias is Sarah showing? (Question 14)",
     "type": "multiple_choice",
     "options": [
-      "48",
-      "49",
-      "7",
-      "21"
+      "Confirmation bias",
+      "Availability heuristic",
+      "Anchoring bias",
+      "Overconfidence bias"
     ],
-    "correctAnswer": "48",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "hard",
-    "explanation": "In a single-elimination tournament, each game eliminates exactly one team. To eliminate 48 teams (leaving 1 winner), exactly 48 games are needed.",
-    "topic": "Tournament Mathematics"
+    "explanation": "Sarah seeks information that confirms her existing beliefs while avoiding contradictory evidence.",
+    "_cacheBreaker": "1755265388129_13"
   },
   {
-    "_id": "grade10_hard_thinking-skills_015",
-    "content": "In a tournament bracket with 36 teams, how many games must be played to determine a winner?",
+    "_id": "thinking_10_hard_1755262177029_015",
+    "scenario": "Two theories explain the same scientific phenomenon: Theory X requires 10 assumptions and 5 unknown variables. Theory Y uses 2 well-established principles. Both explain the data equally well.",
+    "content": "Which principle suggests preferring Theory Y? (Question 15)",
     "type": "multiple_choice",
     "options": [
-      "35",
-      "36",
-      "6",
-      "15"
+      "Murphy's Law",
+      "Occam's Razor",
+      "Newton's Law",
+      "Parkinson's Law"
     ],
-    "correctAnswer": "35",
+    "correctAnswer": "Occam's Razor",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "hard",
-    "explanation": "In a single-elimination tournament, each game eliminates exactly one team. To eliminate 35 teams (leaving 1 winner), exactly 35 games are needed.",
-    "topic": "Tournament Mathematics"
+    "explanation": "Occam's Razor suggests choosing the simplest explanation that fits the evidence.",
+    "_cacheBreaker": "1755265388129_14"
   },
   {
-    "_id": "grade10_hard_thinking-skills_016",
-    "content": "In a tournament bracket with 36 teams, how many games must be played to determine a winner?",
+    "_id": "thinking_10_hard_1755262177029_016",
+    "scenario": "A researcher studies 1000 ravens and finds they are all black. She concludes 'All ravens are black.' Later, she learns about albino ravens.",
+    "content": "What does this show about her reasoning method? (Question 16)",
     "type": "multiple_choice",
     "options": [
-      "35",
-      "36",
-      "6",
-      "15"
+      "Inductive reasoning has limitations",
+      "Deductive reasoning is flawed",
+      "She should have studied more ravens",
+      "Ravens aren't really birds"
     ],
-    "correctAnswer": "35",
+    "correctAnswer": "Inductive reasoning has limitations",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "hard",
-    "explanation": "In a single-elimination tournament, each game eliminates exactly one team. To eliminate 35 teams (leaving 1 winner), exactly 35 games are needed.",
-    "topic": "Tournament Mathematics"
+    "explanation": "Inductive reasoning can be disproven by new evidence, unlike deductive reasoning.",
+    "_cacheBreaker": "1755265388129_15"
   },
   {
-    "_id": "grade10_hard_thinking-skills_017",
-    "content": "In a tournament bracket with 81 teams, how many games must be played to determine a winner?",
+    "_id": "thinking_10_hard_1755262177029_017",
+    "scenario": "Student council member Sarah only reads news sources that support her political views. When presented with contradictory information, she dismisses it without consideration.",
+    "content": "What cognitive bias is Sarah showing? (Question 17)",
     "type": "multiple_choice",
     "options": [
-      "80",
-      "81",
-      "9",
-      "36"
+      "Confirmation bias",
+      "Availability heuristic",
+      "Anchoring bias",
+      "Overconfidence bias"
     ],
-    "correctAnswer": "80",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "hard",
-    "explanation": "In a single-elimination tournament, each game eliminates exactly one team. To eliminate 80 teams (leaving 1 winner), exactly 80 games are needed.",
-    "topic": "Tournament Mathematics"
+    "explanation": "Sarah seeks information that confirms her existing beliefs while avoiding contradictory evidence.",
+    "_cacheBreaker": "1755265388129_16"
   },
   {
-    "_id": "grade10_hard_thinking-skills_018",
-    "content": "In a tournament bracket with 81 teams, how many games must be played to determine a winner?",
+    "_id": "thinking_10_hard_1755262177029_018",
+    "scenario": "Two theories explain the same scientific phenomenon: Theory X requires 10 assumptions and 5 unknown variables. Theory Y uses 2 well-established principles. Both explain the data equally well.",
+    "content": "Which principle suggests preferring Theory Y? (Question 18)",
     "type": "multiple_choice",
     "options": [
-      "80",
-      "81",
-      "9",
-      "36"
+      "Murphy's Law",
+      "Occam's Razor",
+      "Newton's Law",
+      "Parkinson's Law"
     ],
-    "correctAnswer": "80",
+    "correctAnswer": "Occam's Razor",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "hard",
-    "explanation": "In a single-elimination tournament, each game eliminates exactly one team. To eliminate 80 teams (leaving 1 winner), exactly 80 games are needed.",
-    "topic": "Tournament Mathematics"
+    "explanation": "Occam's Razor suggests choosing the simplest explanation that fits the evidence.",
+    "_cacheBreaker": "1755265388129_17"
   },
   {
-    "_id": "grade10_hard_thinking-skills_019",
-    "content": "In a tournament bracket with 49 teams, how many games must be played to determine a winner?",
+    "_id": "thinking_10_hard_1755262177029_019",
+    "scenario": "A researcher studies 1000 ravens and finds they are all black. She concludes 'All ravens are black.' Later, she learns about albino ravens.",
+    "content": "What does this show about her reasoning method? (Question 19)",
     "type": "multiple_choice",
     "options": [
-      "48",
-      "49",
-      "7",
-      "21"
+      "Inductive reasoning has limitations",
+      "Deductive reasoning is flawed",
+      "She should have studied more ravens",
+      "Ravens aren't really birds"
     ],
-    "correctAnswer": "48",
+    "correctAnswer": "Inductive reasoning has limitations",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "hard",
-    "explanation": "In a single-elimination tournament, each game eliminates exactly one team. To eliminate 48 teams (leaving 1 winner), exactly 48 games are needed.",
-    "topic": "Tournament Mathematics"
+    "explanation": "Inductive reasoning can be disproven by new evidence, unlike deductive reasoning.",
+    "_cacheBreaker": "1755265388129_18"
   },
   {
-    "_id": "grade10_hard_thinking-skills_020",
-    "content": "In a tournament bracket with 49 teams, how many games must be played to determine a winner?",
+    "_id": "thinking_10_hard_1755262177029_020",
+    "scenario": "Student council member Sarah only reads news sources that support her political views. When presented with contradictory information, she dismisses it without consideration.",
+    "content": "What cognitive bias is Sarah showing? (Question 20)",
     "type": "multiple_choice",
     "options": [
-      "48",
-      "49",
-      "7",
-      "21"
+      "Confirmation bias",
+      "Availability heuristic",
+      "Anchoring bias",
+      "Overconfidence bias"
     ],
-    "correctAnswer": "48",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "hard",
-    "explanation": "In a single-elimination tournament, each game eliminates exactly one team. To eliminate 48 teams (leaving 1 winner), exactly 48 games are needed.",
-    "topic": "Tournament Mathematics"
+    "explanation": "Sarah seeks information that confirms her existing beliefs while avoiding contradictory evidence.",
+    "_cacheBreaker": "1755265388129_19"
   }
 ]

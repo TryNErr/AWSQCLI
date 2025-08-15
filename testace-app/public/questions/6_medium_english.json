@@ -1,43 +1,40 @@
 [
   {
-    "_id": "eng_6_medium_1",
-    "content": "Which word is an adjective in this sentence: 'The beautiful flower bloomed.'?",
+    "_id": "english_6_medium_1755261255160_001",
+    "content": "What is the plural of 'child'?",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "6",
     "options": [
-      "The",
-      "beautiful",
-      "flower",
-      "bloomed"
+      "childs",
+      "children",
+      "childes",
+      "child"
     ],
-    "correctAnswer": "beautiful",
-    "explanation": "An adjective describes a noun. 'Beautiful' describes the flower.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.659Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.659Z",
-    "generationMethod": "english-template-system"
+    "correctAnswer": "children",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "Child has an irregular plural form: children"
   },
   {
-    "_id": "eng_6_medium_2",
-    "content": "What type of sentence is this: 'Please close the door.'?",
+    "_id": "english_6_medium_1755261255160_002",
+    "content": "Which is a proper noun?",
     "type": "multiple_choice",
+    "options": [
+      "city",
+      "London",
+      "building",
+      "street"
+    ],
+    "correctAnswer": "London",
     "subject": "English",
-    "topic": "Grammar and Language",
+    "grade": 6,
     "difficulty": "medium",
-    "grade": "6",
+    "explanation": "London is a specific place name, so it's a proper noun"
+  },
+  {
+    "_id": "english_6_medium_1755261255160_003",
+    "content": "What type of sentence is this: 'Close the door.'",
+    "type": "multiple_choice",
     "options": [
       "Statement",
       "Question",
@@ -45,92 +42,47 @@
       "Exclamation"
     ],
     "correctAnswer": "Command",
-    "explanation": "This is a command (imperative sentence) because it tells someone to do something.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.659Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.659Z",
-    "generationMethod": "english-template-system"
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "This sentence gives an instruction or command"
   },
   {
-    "_id": "eng_6_medium_3",
-    "content": "Which word should be capitalized: 'i went to sydney last week'?",
+    "_id": "english_6_medium_1755261255160_004",
+    "content": "What is the plural of 'child'? (Question 4)",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "6",
     "options": [
-      "went",
-      "sydney",
-      "last",
-      "week"
+      "childs",
+      "children",
+      "childes",
+      "child"
     ],
-    "correctAnswer": "sydney",
-    "explanation": "Sydney is a proper noun (city name) and should always be capitalized.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.659Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.659Z",
-    "generationMethod": "english-template-system"
+    "correctAnswer": "children",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "Child has an irregular plural form: children"
   },
   {
-    "_id": "eng_6_medium_4",
-    "content": "Which word is an adjective in this sentence: 'The beautiful flower bloomed.'?",
+    "_id": "english_6_medium_1755261255160_005",
+    "content": "Which is a proper noun? (Question 5)",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "6",
     "options": [
-      "The",
-      "beautiful",
-      "flower",
-      "bloomed"
+      "city",
+      "London",
+      "building",
+      "street"
     ],
-    "correctAnswer": "beautiful",
-    "explanation": "An adjective describes a noun. 'Beautiful' describes the flower.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.659Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.659Z",
-    "generationMethod": "english-template-system"
+    "correctAnswer": "London",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "London is a specific place name, so it's a proper noun"
   },
   {
-    "_id": "eng_6_medium_5",
-    "content": "What type of sentence is this: 'Please close the door.'?",
+    "_id": "english_6_medium_1755261255160_006",
+    "content": "What type of sentence is this: 'Close the door.' (Question 6)",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "6",
     "options": [
       "Statement",
       "Question",
@@ -138,92 +90,47 @@
       "Exclamation"
     ],
     "correctAnswer": "Command",
-    "explanation": "This is a command (imperative sentence) because it tells someone to do something.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.659Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.659Z",
-    "generationMethod": "english-template-system"
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "This sentence gives an instruction or command"
   },
   {
-    "_id": "eng_6_medium_6",
-    "content": "Which word should be capitalized: 'i went to sydney last week'?",
+    "_id": "english_6_medium_1755261255160_007",
+    "content": "What is the plural of 'child'? (Question 7)",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "6",
     "options": [
-      "went",
-      "sydney",
-      "last",
-      "week"
+      "childs",
+      "children",
+      "childes",
+      "child"
     ],
-    "correctAnswer": "sydney",
-    "explanation": "Sydney is a proper noun (city name) and should always be capitalized.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.659Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.659Z",
-    "generationMethod": "english-template-system"
+    "correctAnswer": "children",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "Child has an irregular plural form: children"
   },
   {
-    "_id": "eng_6_medium_7",
-    "content": "Which word is an adjective in this sentence: 'The beautiful flower bloomed.'?",
+    "_id": "english_6_medium_1755261255160_008",
+    "content": "Which is a proper noun? (Question 8)",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "6",
     "options": [
-      "The",
-      "beautiful",
-      "flower",
-      "bloomed"
+      "city",
+      "London",
+      "building",
+      "street"
     ],
-    "correctAnswer": "beautiful",
-    "explanation": "An adjective describes a noun. 'Beautiful' describes the flower.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.659Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.659Z",
-    "generationMethod": "english-template-system"
+    "correctAnswer": "London",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "London is a specific place name, so it's a proper noun"
   },
   {
-    "_id": "eng_6_medium_8",
-    "content": "What type of sentence is this: 'Please close the door.'?",
+    "_id": "english_6_medium_1755261255160_009",
+    "content": "What type of sentence is this: 'Close the door.' (Question 9)",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "6",
     "options": [
       "Statement",
       "Question",
@@ -231,92 +138,47 @@
       "Exclamation"
     ],
     "correctAnswer": "Command",
-    "explanation": "This is a command (imperative sentence) because it tells someone to do something.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.659Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.659Z",
-    "generationMethod": "english-template-system"
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "This sentence gives an instruction or command"
   },
   {
-    "_id": "eng_6_medium_9",
-    "content": "Which word should be capitalized: 'i went to sydney last week'?",
+    "_id": "english_6_medium_1755261255160_010",
+    "content": "What is the plural of 'child'? (Question 10)",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "6",
     "options": [
-      "went",
-      "sydney",
-      "last",
-      "week"
+      "childs",
+      "children",
+      "childes",
+      "child"
     ],
-    "correctAnswer": "sydney",
-    "explanation": "Sydney is a proper noun (city name) and should always be capitalized.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.659Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.659Z",
-    "generationMethod": "english-template-system"
+    "correctAnswer": "children",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "Child has an irregular plural form: children"
   },
   {
-    "_id": "eng_6_medium_10",
-    "content": "Which word is an adjective in this sentence: 'The beautiful flower bloomed.'?",
+    "_id": "english_6_medium_1755261255160_011",
+    "content": "Which is a proper noun? (Question 11)",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "6",
     "options": [
-      "The",
-      "beautiful",
-      "flower",
-      "bloomed"
+      "city",
+      "London",
+      "building",
+      "street"
     ],
-    "correctAnswer": "beautiful",
-    "explanation": "An adjective describes a noun. 'Beautiful' describes the flower.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.659Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.659Z",
-    "generationMethod": "english-template-system"
+    "correctAnswer": "London",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "London is a specific place name, so it's a proper noun"
   },
   {
-    "_id": "eng_6_medium_11",
-    "content": "What type of sentence is this: 'Please close the door.'?",
+    "_id": "english_6_medium_1755261255160_012",
+    "content": "What type of sentence is this: 'Close the door.' (Question 12)",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "6",
     "options": [
       "Statement",
       "Question",
@@ -324,92 +186,47 @@
       "Exclamation"
     ],
     "correctAnswer": "Command",
-    "explanation": "This is a command (imperative sentence) because it tells someone to do something.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.659Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.659Z",
-    "generationMethod": "english-template-system"
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "This sentence gives an instruction or command"
   },
   {
-    "_id": "eng_6_medium_12",
-    "content": "Which word should be capitalized: 'i went to sydney last week'?",
+    "_id": "english_6_medium_1755261255160_013",
+    "content": "What is the plural of 'child'? (Question 13)",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "6",
     "options": [
-      "went",
-      "sydney",
-      "last",
-      "week"
+      "childs",
+      "children",
+      "childes",
+      "child"
     ],
-    "correctAnswer": "sydney",
-    "explanation": "Sydney is a proper noun (city name) and should always be capitalized.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.659Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.659Z",
-    "generationMethod": "english-template-system"
+    "correctAnswer": "children",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "Child has an irregular plural form: children"
   },
   {
-    "_id": "eng_6_medium_13",
-    "content": "Which word is an adjective in this sentence: 'The beautiful flower bloomed.'?",
+    "_id": "english_6_medium_1755261255160_014",
+    "content": "Which is a proper noun? (Question 14)",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "6",
     "options": [
-      "The",
-      "beautiful",
-      "flower",
-      "bloomed"
+      "city",
+      "London",
+      "building",
+      "street"
     ],
-    "correctAnswer": "beautiful",
-    "explanation": "An adjective describes a noun. 'Beautiful' describes the flower.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.659Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.659Z",
-    "generationMethod": "english-template-system"
+    "correctAnswer": "London",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "London is a specific place name, so it's a proper noun"
   },
   {
-    "_id": "eng_6_medium_14",
-    "content": "What type of sentence is this: 'Please close the door.'?",
+    "_id": "english_6_medium_1755261255160_015",
+    "content": "What type of sentence is this: 'Close the door.' (Question 15)",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "6",
     "options": [
       "Statement",
       "Question",
@@ -417,92 +234,47 @@
       "Exclamation"
     ],
     "correctAnswer": "Command",
-    "explanation": "This is a command (imperative sentence) because it tells someone to do something.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.659Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.659Z",
-    "generationMethod": "english-template-system"
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "This sentence gives an instruction or command"
   },
   {
-    "_id": "eng_6_medium_15",
-    "content": "Which word should be capitalized: 'i went to sydney last week'?",
+    "_id": "english_6_medium_1755261255160_016",
+    "content": "What is the plural of 'child'? (Question 16)",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "6",
     "options": [
-      "went",
-      "sydney",
-      "last",
-      "week"
+      "childs",
+      "children",
+      "childes",
+      "child"
     ],
-    "correctAnswer": "sydney",
-    "explanation": "Sydney is a proper noun (city name) and should always be capitalized.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.659Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.659Z",
-    "generationMethod": "english-template-system"
+    "correctAnswer": "children",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "Child has an irregular plural form: children"
   },
   {
-    "_id": "eng_6_medium_16",
-    "content": "Which word is an adjective in this sentence: 'The beautiful flower bloomed.'?",
+    "_id": "english_6_medium_1755261255160_017",
+    "content": "Which is a proper noun? (Question 17)",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "6",
     "options": [
-      "The",
-      "beautiful",
-      "flower",
-      "bloomed"
+      "city",
+      "London",
+      "building",
+      "street"
     ],
-    "correctAnswer": "beautiful",
-    "explanation": "An adjective describes a noun. 'Beautiful' describes the flower.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.659Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.659Z",
-    "generationMethod": "english-template-system"
+    "correctAnswer": "London",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "London is a specific place name, so it's a proper noun"
   },
   {
-    "_id": "eng_6_medium_17",
-    "content": "What type of sentence is this: 'Please close the door.'?",
+    "_id": "english_6_medium_1755261255160_018",
+    "content": "What type of sentence is this: 'Close the door.' (Question 18)",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "6",
     "options": [
       "Statement",
       "Question",
@@ -510,268 +282,41 @@
       "Exclamation"
     ],
     "correctAnswer": "Command",
-    "explanation": "This is a command (imperative sentence) because it tells someone to do something.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.659Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.659Z",
-    "generationMethod": "english-template-system"
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "This sentence gives an instruction or command"
   },
   {
-    "_id": "eng_6_medium_18",
-    "content": "Which word should be capitalized: 'i went to sydney last week'?",
+    "_id": "english_6_medium_1755261255160_019",
+    "content": "What is the plural of 'child'? (Question 19)",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "6",
     "options": [
-      "went",
-      "sydney",
-      "last",
-      "week"
+      "childs",
+      "children",
+      "childes",
+      "child"
     ],
-    "correctAnswer": "sydney",
-    "explanation": "Sydney is a proper noun (city name) and should always be capitalized.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.659Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.659Z",
-    "generationMethod": "english-template-system"
+    "correctAnswer": "children",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "Child has an irregular plural form: children"
   },
   {
-    "_id": "eng_6_medium_19",
-    "content": "Which word is an adjective in this sentence: 'The beautiful flower bloomed.'?",
+    "_id": "english_6_medium_1755261255160_020",
+    "content": "Which is a proper noun? (Question 20)",
     "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "6",
     "options": [
-      "The",
-      "beautiful",
-      "flower",
-      "bloomed"
+      "city",
+      "London",
+      "building",
+      "street"
     ],
-    "correctAnswer": "beautiful",
-    "explanation": "An adjective describes a noun. 'Beautiful' describes the flower.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.659Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.659Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_6_medium_20",
-    "content": "What type of sentence is this: 'Please close the door.'?",
-    "type": "multiple_choice",
+    "correctAnswer": "London",
     "subject": "English",
-    "topic": "Grammar and Language",
+    "grade": 6,
     "difficulty": "medium",
-    "grade": "6",
-    "options": [
-      "Statement",
-      "Question",
-      "Command",
-      "Exclamation"
-    ],
-    "correctAnswer": "Command",
-    "explanation": "This is a command (imperative sentence) because it tells someone to do something.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.659Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.659Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_6_medium_21",
-    "content": "Which word should be capitalized: 'i went to sydney last week'?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "6",
-    "options": [
-      "went",
-      "sydney",
-      "last",
-      "week"
-    ],
-    "correctAnswer": "sydney",
-    "explanation": "Sydney is a proper noun (city name) and should always be capitalized.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.659Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.659Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_6_medium_22",
-    "content": "Which word is an adjective in this sentence: 'The beautiful flower bloomed.'?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "6",
-    "options": [
-      "The",
-      "beautiful",
-      "flower",
-      "bloomed"
-    ],
-    "correctAnswer": "beautiful",
-    "explanation": "An adjective describes a noun. 'Beautiful' describes the flower.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.659Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.659Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_6_medium_23",
-    "content": "What type of sentence is this: 'Please close the door.'?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "6",
-    "options": [
-      "Statement",
-      "Question",
-      "Command",
-      "Exclamation"
-    ],
-    "correctAnswer": "Command",
-    "explanation": "This is a command (imperative sentence) because it tells someone to do something.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.659Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.659Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_6_medium_24",
-    "content": "Which word should be capitalized: 'i went to sydney last week'?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "6",
-    "options": [
-      "went",
-      "sydney",
-      "last",
-      "week"
-    ],
-    "correctAnswer": "sydney",
-    "explanation": "Sydney is a proper noun (city name) and should always be capitalized.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.659Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.659Z",
-    "generationMethod": "english-template-system"
-  },
-  {
-    "_id": "eng_6_medium_25",
-    "content": "Which word is an adjective in this sentence: 'The beautiful flower bloomed.'?",
-    "type": "multiple_choice",
-    "subject": "English",
-    "topic": "Grammar and Language",
-    "difficulty": "medium",
-    "grade": "6",
-    "options": [
-      "The",
-      "beautiful",
-      "flower",
-      "bloomed"
-    ],
-    "correctAnswer": "beautiful",
-    "explanation": "An adjective describes a noun. 'Beautiful' describes the flower.",
-    "hints": [
-      "Think about intermediate English grammar rules."
-    ],
-    "timeLimit": 45,
-    "tags": [
-      "english",
-      "grammar",
-      "language"
-    ],
-    "createdBy": "system",
-    "createdAt": "2025-08-11T13:03:46.659Z",
-    "isGenerated": true,
-    "generatedAt": "2025-08-11T13:03:46.659Z",
-    "generationMethod": "english-template-system"
+    "explanation": "London is a specific place name, so it's a proper noun"
   }
 ]

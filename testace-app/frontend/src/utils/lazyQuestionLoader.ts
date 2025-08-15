@@ -1,5 +1,5 @@
 import { Question, DifficultyLevel } from '../types';
-import DiverseMathGenerator from './diverseMathGenerator';
+// import DiverseMathGenerator from './diverseMathGenerator'; // DISABLED - using static JSON files only
 import BulletproofMathGenerator from './bulletproofMathGenerator';
 import { generateRobustThinkingSkillsQuestions } from './robustThinkingSkillsGenerator';
 import { comprehensiveReadingDatabase } from './comprehensiveReadingDatabase';
@@ -97,7 +97,7 @@ export class LazyQuestionLoader {
         if (subject === 'math') {
           // Generate math questions
           try {
-            newQuestion = DiverseMathGenerator.generateQuestion(grade, difficulty);
+            newQuestion = null as any; // Disabled: generateQuestion - using static JSON files only
           } catch (error) {
             newQuestion = BulletproofMathGenerator.generateQuestion(grade, difficulty);
           }
@@ -112,8 +112,8 @@ export class LazyQuestionLoader {
             console.warn('Thinking skills generation failed:', error);
             // Fallback to math question
             try {
-              newQuestion = DiverseMathGenerator.generateQuestion(grade, difficulty);
-              if (newQuestion) {
+              newQuestion = null as any; // Disabled: generateQuestion - using static JSON files only
+              if (newQuestion && newQuestion !== null) {
                 newQuestion.subject = 'Thinking Skills';
                 newQuestion.topic = 'Problem Solving';
               }
@@ -127,8 +127,8 @@ export class LazyQuestionLoader {
           if (!newQuestion) {
             // Fallback to math question
             try {
-              newQuestion = DiverseMathGenerator.generateQuestion(grade, difficulty);
-              if (newQuestion) {
+              newQuestion = null as any; // Disabled: generateQuestion - using static JSON files only
+              if (newQuestion && newQuestion !== null) {
                 newQuestion.subject = 'Reading';
                 newQuestion.topic = 'Reading Comprehension';
               }
@@ -138,7 +138,7 @@ export class LazyQuestionLoader {
           }
         }
 
-        if (newQuestion) {
+        if (newQuestion && newQuestion !== null) {
           // Check for duplicates
           const isDuplicate = questions.some(q => 
             q.content.toLowerCase().trim() === newQuestion!.content.toLowerCase().trim()

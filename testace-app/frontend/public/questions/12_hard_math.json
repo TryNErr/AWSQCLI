@@ -1,322 +1,342 @@
 [
   {
-    "_id": "grade12_hard_math_001",
-    "content": "Solve: x² - 3x + 2 = 0",
+    "_id": "hard12_1755260548824_001",
+    "content": "Find the derivative of f(x) = x³ - 4x² + 5x - 2",
     "type": "multiple_choice",
     "options": [
-      "x = 1, 2",
-      "x = 2, 3",
-      "x = 0, 1",
-      "x = 2, 1"
+      "3x² - 8x + 5",
+      "x² - 4x + 5",
+      "3x² - 4x + 5",
+      "3x² - 8x - 2"
     ],
-    "correctAnswer": "x = 1, 2",
+    "correct_answer": "3x² - 8x + 5",
     "subject": "Mathematics",
     "grade": 12,
     "difficulty": "hard",
-    "explanation": "Factoring: (x - 1)(x - 2) = 0, so x = 1 or x = 2"
+    "explanation": "Using the power rule: d/dx(x³) = 3x², d/dx(-4x²) = -8x, d/dx(5x) = 5, d/dx(-2) = 0",
+    "_cacheBreaker": "1755265388149_0"
   },
   {
-    "_id": "grade12_hard_math_002",
-    "content": "What is 1 × 1?",
+    "_id": "hard12_1755260548824_002",
+    "content": "Evaluate the integral: ∫(2x + 3)dx",
     "type": "multiple_choice",
     "options": [
+      "x² + 3x + C",
+      "2x² + 3x + C",
+      "x² + 3x",
+      "2x + 3x + C"
+    ],
+    "correct_answer": "x² + 3x + C",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "hard",
+    "explanation": "∫2x dx = x² and ∫3 dx = 3x, so the result is x² + 3x + C",
+    "_cacheBreaker": "1755265388149_1"
+  },
+  {
+    "_id": "hard12_1755260548824_003",
+    "content": "Find lim(x→2) (x² - 4)/(x - 2)",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "2",
       "0",
-      "1",
-      "2",
-      "2"
+      "undefined"
     ],
-    "correctAnswer": "1",
+    "correct_answer": "4",
     "subject": "Mathematics",
     "grade": 12,
     "difficulty": "hard",
-    "explanation": "1 × 1 = 1"
+    "explanation": "Factor: (x² - 4)/(x - 2) = (x + 2)(x - 2)/(x - 2) = x + 2. As x→2, this approaches 4.",
+    "_cacheBreaker": "1755265388149_2"
   },
   {
-    "_id": "grade12_hard_math_003",
-    "content": "What is 2 × 1?",
+    "_id": "hard12_1755260548824_004",
+    "content": "Find d/dx(x^4)",
     "type": "multiple_choice",
     "options": [
-      "1",
-      "2",
-      "3",
-      "3"
+      "4x^3",
+      "Alternative 1",
+      "Alternative 2",
+      "Alternative 3"
     ],
-    "correctAnswer": "2",
+    "correct_answer": "4x^3",
     "subject": "Mathematics",
     "grade": 12,
     "difficulty": "hard",
-    "explanation": "2 × 1 = 2"
+    "explanation": "This requires advanced calculus knowledge.",
+    "_cacheBreaker": "1755265388149_3"
   },
   {
-    "_id": "grade12_hard_math_004",
-    "content": "What is 30 × 1?",
+    "_id": "hard12_1755260548824_005",
+    "content": "Evaluate ∫x^5 dx",
     "type": "multiple_choice",
     "options": [
-      "29",
-      "30",
-      "31",
-      "31"
+      "x^6/6 + C",
+      "Alternative 1",
+      "Alternative 2",
+      "Alternative 3"
     ],
-    "correctAnswer": "30",
+    "correct_answer": "x^6/6 + C",
     "subject": "Mathematics",
     "grade": 12,
     "difficulty": "hard",
-    "explanation": "30 × 1 = 30"
+    "explanation": "This requires advanced calculus knowledge.",
+    "_cacheBreaker": "1755265388149_4"
   },
   {
-    "_id": "grade12_hard_math_005",
-    "content": "What is 2 × 1?",
+    "_id": "hard12_1755260548824_006",
+    "content": "Find the critical points of f(x) = x^3 - 18x",
     "type": "multiple_choice",
     "options": [
-      "1",
-      "2",
-      "3",
-      "3"
+      "x = ±√6",
+      "Alternative 1",
+      "Alternative 2",
+      "Alternative 3"
     ],
-    "correctAnswer": "2",
+    "correct_answer": "x = ±√6",
     "subject": "Mathematics",
     "grade": 12,
     "difficulty": "hard",
-    "explanation": "2 × 1 = 2"
+    "explanation": "This requires advanced calculus knowledge.",
+    "_cacheBreaker": "1755265388149_5"
   },
   {
-    "_id": "grade12_hard_math_006",
-    "content": "What is 1 × 1?",
+    "_id": "hard12_1755260548824_007",
+    "content": "Find d/dx(x^7)",
     "type": "multiple_choice",
     "options": [
-      "0",
-      "1",
-      "2",
-      "2"
+      "7x^6",
+      "Alternative 1",
+      "Alternative 2",
+      "Alternative 3"
     ],
-    "correctAnswer": "1",
+    "correct_answer": "7x^6",
     "subject": "Mathematics",
     "grade": 12,
     "difficulty": "hard",
-    "explanation": "1 × 1 = 1"
+    "explanation": "This requires advanced calculus knowledge.",
+    "_cacheBreaker": "1755265388149_6"
   },
   {
-    "_id": "grade12_hard_math_007",
-    "content": "What is 2 × 1?",
+    "_id": "hard12_1755260548824_008",
+    "content": "Evaluate ∫x^8 dx",
     "type": "multiple_choice",
     "options": [
-      "1",
-      "2",
-      "3",
-      "3"
+      "x^9/9 + C",
+      "Alternative 1",
+      "Alternative 2",
+      "Alternative 3"
     ],
-    "correctAnswer": "2",
+    "correct_answer": "x^9/9 + C",
     "subject": "Mathematics",
     "grade": 12,
     "difficulty": "hard",
-    "explanation": "2 × 1 = 2"
+    "explanation": "This requires advanced calculus knowledge.",
+    "_cacheBreaker": "1755265388149_7"
   },
   {
-    "_id": "grade12_hard_math_008",
-    "content": "What is 2 × 1?",
+    "_id": "hard12_1755260548824_009",
+    "content": "Find the critical points of f(x) = x^3 - 27x",
     "type": "multiple_choice",
     "options": [
-      "1",
-      "2",
-      "3",
-      "3"
+      "x = ±√9",
+      "Alternative 1",
+      "Alternative 2",
+      "Alternative 3"
     ],
-    "correctAnswer": "2",
+    "correct_answer": "x = ±√9",
     "subject": "Mathematics",
     "grade": 12,
     "difficulty": "hard",
-    "explanation": "2 × 1 = 2"
+    "explanation": "This requires advanced calculus knowledge.",
+    "_cacheBreaker": "1755265388149_8"
   },
   {
-    "_id": "grade12_hard_math_009",
-    "content": "Solve: x² - 8x + 15 = 0",
+    "_id": "hard12_1755260548824_010",
+    "content": "Find d/dx(x^10)",
     "type": "multiple_choice",
     "options": [
-      "x = 3, 5",
-      "x = 4, 6",
-      "x = 2, 4",
-      "x = 15, 1"
+      "10x^9",
+      "Alternative 1",
+      "Alternative 2",
+      "Alternative 3"
     ],
-    "correctAnswer": "x = 3, 5",
+    "correct_answer": "10x^9",
     "subject": "Mathematics",
     "grade": 12,
     "difficulty": "hard",
-    "explanation": "Factoring: (x - 3)(x - 5) = 0, so x = 3 or x = 5"
+    "explanation": "This requires advanced calculus knowledge.",
+    "_cacheBreaker": "1755265388149_9"
   },
   {
-    "_id": "grade12_hard_math_010",
-    "content": "What is 3 × 2?",
+    "_id": "hard12_1755260548824_011",
+    "content": "Evaluate ∫x^11 dx",
     "type": "multiple_choice",
     "options": [
-      "5",
-      "6",
-      "7",
-      "5"
+      "x^12/12 + C",
+      "Alternative 1",
+      "Alternative 2",
+      "Alternative 3"
     ],
-    "correctAnswer": "6",
+    "correct_answer": "x^12/12 + C",
     "subject": "Mathematics",
     "grade": 12,
     "difficulty": "hard",
-    "explanation": "3 × 2 = 6"
+    "explanation": "This requires advanced calculus knowledge.",
+    "_cacheBreaker": "1755265388149_10"
   },
   {
-    "_id": "grade12_hard_math_011",
-    "content": "What is 4 × 2?",
+    "_id": "hard12_1755260548824_012",
+    "content": "Find the critical points of f(x) = x^3 - 36x",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "8",
-      "9",
-      "6"
+      "x = ±√12",
+      "Alternative 1",
+      "Alternative 2",
+      "Alternative 3"
     ],
-    "correctAnswer": "8",
+    "correct_answer": "x = ±√12",
     "subject": "Mathematics",
     "grade": 12,
     "difficulty": "hard",
-    "explanation": "4 × 2 = 8"
+    "explanation": "This requires advanced calculus knowledge.",
+    "_cacheBreaker": "1755265388149_11"
   },
   {
-    "_id": "grade12_hard_math_012",
-    "content": "What is 32 × 2?",
+    "_id": "hard12_1755260548824_013",
+    "content": "Find d/dx(x^13)",
     "type": "multiple_choice",
     "options": [
-      "63",
-      "64",
-      "65",
-      "34"
+      "13x^12",
+      "Alternative 1",
+      "Alternative 2",
+      "Alternative 3"
     ],
-    "correctAnswer": "64",
+    "correct_answer": "13x^12",
     "subject": "Mathematics",
     "grade": 12,
     "difficulty": "hard",
-    "explanation": "32 × 2 = 64"
+    "explanation": "This requires advanced calculus knowledge.",
+    "_cacheBreaker": "1755265388149_12"
   },
   {
-    "_id": "grade12_hard_math_013",
-    "content": "What is 4 × 2?",
+    "_id": "hard12_1755260548824_014",
+    "content": "Evaluate ∫x^14 dx",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "8",
-      "9",
-      "6"
+      "x^15/15 + C",
+      "Alternative 1",
+      "Alternative 2",
+      "Alternative 3"
     ],
-    "correctAnswer": "8",
+    "correct_answer": "x^15/15 + C",
     "subject": "Mathematics",
     "grade": 12,
     "difficulty": "hard",
-    "explanation": "4 × 2 = 8"
+    "explanation": "This requires advanced calculus knowledge.",
+    "_cacheBreaker": "1755265388149_13"
   },
   {
-    "_id": "grade12_hard_math_014",
-    "content": "What is 3 × 2?",
+    "_id": "hard12_1755260548824_015",
+    "content": "Find the critical points of f(x) = x^3 - 45x",
     "type": "multiple_choice",
     "options": [
-      "5",
-      "6",
-      "7",
-      "5"
+      "x = ±√15",
+      "Alternative 1",
+      "Alternative 2",
+      "Alternative 3"
     ],
-    "correctAnswer": "6",
+    "correct_answer": "x = ±√15",
     "subject": "Mathematics",
     "grade": 12,
     "difficulty": "hard",
-    "explanation": "3 × 2 = 6"
+    "explanation": "This requires advanced calculus knowledge.",
+    "_cacheBreaker": "1755265388149_14"
   },
   {
-    "_id": "grade12_hard_math_015",
-    "content": "What is 4 × 2?",
+    "_id": "hard12_1755260548824_016",
+    "content": "Find d/dx(x^16)",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "8",
-      "9",
-      "6"
+      "16x^15",
+      "Alternative 1",
+      "Alternative 2",
+      "Alternative 3"
     ],
-    "correctAnswer": "8",
+    "correct_answer": "16x^15",
     "subject": "Mathematics",
     "grade": 12,
     "difficulty": "hard",
-    "explanation": "4 × 2 = 8"
+    "explanation": "This requires advanced calculus knowledge.",
+    "_cacheBreaker": "1755265388149_15"
   },
   {
-    "_id": "grade12_hard_math_016",
-    "content": "What is 4 × 2?",
+    "_id": "hard12_1755260548824_017",
+    "content": "Evaluate ∫x^17 dx",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "8",
-      "9",
-      "6"
+      "x^18/18 + C",
+      "Alternative 1",
+      "Alternative 2",
+      "Alternative 3"
     ],
-    "correctAnswer": "8",
+    "correct_answer": "x^18/18 + C",
     "subject": "Mathematics",
     "grade": 12,
     "difficulty": "hard",
-    "explanation": "4 × 2 = 8"
+    "explanation": "This requires advanced calculus knowledge.",
+    "_cacheBreaker": "1755265388149_16"
   },
   {
-    "_id": "grade12_hard_math_017",
-    "content": "Solve: x² - 13x + 40 = 0",
+    "_id": "hard12_1755260548824_018",
+    "content": "Find the critical points of f(x) = x^3 - 54x",
     "type": "multiple_choice",
     "options": [
-      "x = 5, 8",
-      "x = 6, 9",
-      "x = 4, 7",
-      "x = 40, 1"
+      "x = ±√18",
+      "Alternative 1",
+      "Alternative 2",
+      "Alternative 3"
     ],
-    "correctAnswer": "x = 5, 8",
+    "correct_answer": "x = ±√18",
     "subject": "Mathematics",
     "grade": 12,
     "difficulty": "hard",
-    "explanation": "Factoring: (x - 5)(x - 8) = 0, so x = 5 or x = 8"
+    "explanation": "This requires advanced calculus knowledge.",
+    "_cacheBreaker": "1755265388149_17"
   },
   {
-    "_id": "grade12_hard_math_018",
-    "content": "What is 5 × 3?",
+    "_id": "hard12_1755260548824_019",
+    "content": "Find d/dx(x^19)",
     "type": "multiple_choice",
     "options": [
-      "14",
-      "15",
-      "16",
-      "8"
+      "19x^18",
+      "Alternative 1",
+      "Alternative 2",
+      "Alternative 3"
     ],
-    "correctAnswer": "15",
+    "correct_answer": "19x^18",
     "subject": "Mathematics",
     "grade": 12,
     "difficulty": "hard",
-    "explanation": "5 × 3 = 15"
+    "explanation": "This requires advanced calculus knowledge.",
+    "_cacheBreaker": "1755265388149_18"
   },
   {
-    "_id": "grade12_hard_math_019",
-    "content": "What is 6 × 3?",
+    "_id": "hard12_1755260548824_020",
+    "content": "Evaluate ∫x^20 dx",
     "type": "multiple_choice",
     "options": [
-      "17",
-      "18",
-      "19",
-      "9"
+      "x^21/21 + C",
+      "Alternative 1",
+      "Alternative 2",
+      "Alternative 3"
     ],
-    "correctAnswer": "18",
+    "correct_answer": "x^21/21 + C",
     "subject": "Mathematics",
     "grade": 12,
     "difficulty": "hard",
-    "explanation": "6 × 3 = 18"
-  },
-  {
-    "_id": "grade12_hard_math_020",
-    "content": "What is 34 × 3?",
-    "type": "multiple_choice",
-    "options": [
-      "101",
-      "102",
-      "103",
-      "37"
-    ],
-    "correctAnswer": "102",
-    "subject": "Mathematics",
-    "grade": 12,
-    "difficulty": "hard",
-    "explanation": "34 × 3 = 102"
+    "explanation": "This requires advanced calculus knowledge.",
+    "_cacheBreaker": "1755265388149_19"
   }
 ]

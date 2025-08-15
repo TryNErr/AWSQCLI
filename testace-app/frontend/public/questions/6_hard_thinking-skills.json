@@ -1,342 +1,362 @@
 [
   {
-    "_id": "grade6_hard_thinking-skills_001",
-    "content": "A snail climbs up a 8-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_6_hard_1755262177010_001",
+    "scenario": "Maria notices this number pattern: 2, 4, 8, 16, ___. Each number seems to follow a rule.",
+    "content": "What number should come next in this sequence?",
     "type": "multiple_choice",
     "options": [
-      "Day 7",
-      "Day 8",
-      "Day 6",
-      "Day 4"
+      "24",
+      "32",
+      "20",
+      "18"
     ],
-    "correctAnswer": "Day 7",
+    "correctAnswer": "32",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "hard",
-    "explanation": "After 6 days: net progress is 1m/day = 6m. On day 7, it climbs 2m more to reach 8m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "Each number doubles: 2×2=4, 4×2=8, 8×2=16, 16×2=32",
+    "_cacheBreaker": "1755265388206_0"
   },
   {
-    "_id": "grade6_hard_thinking-skills_002",
-    "content": "A snail climbs up a 11-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_6_hard_1755262177010_002",
+    "scenario": "Detective Johnson knows: 'Some cats are black' and 'Some black things are cars.' He's trying to solve a case.",
+    "content": "Can Detective Johnson conclude that some cats are cars?",
     "type": "multiple_choice",
     "options": [
-      "Day 10",
-      "Day 11",
-      "Day 9",
-      "Day 5"
+      "Yes, definitely",
+      "No, this doesn't follow logically",
+      "Only on weekends",
+      "Maybe, if he's lucky"
     ],
-    "correctAnswer": "Day 10",
+    "correctAnswer": "No, this doesn't follow logically",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "hard",
-    "explanation": "After 9 days: net progress is 1m/day = 9m. On day 10, it climbs 2m more to reach 11m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "This is a logical fallacy - just because cats and cars can both be black doesn't mean cats are cars.",
+    "_cacheBreaker": "1755265388206_1"
   },
   {
-    "_id": "grade6_hard_thinking-skills_003",
-    "content": "A snail climbs up a 9-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_6_hard_1755262177010_003",
+    "scenario": "The weather report says: 'Since it's raining heavily, the outdoor concert will be cancelled.' The reporter made an assumption.",
+    "content": "What assumption did the reporter make?",
     "type": "multiple_choice",
     "options": [
-      "Day 8",
-      "Day 9",
-      "Day 7",
-      "Day 4"
+      "Rain is wet",
+      "Concerts happen outside",
+      "People don't like getting wet",
+      "Umbrellas are expensive"
     ],
-    "correctAnswer": "Day 8",
+    "correctAnswer": "People don't like getting wet",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "hard",
-    "explanation": "After 7 days: net progress is 1m/day = 7m. On day 8, it climbs 2m more to reach 9m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "The reporter assumed people won't attend an outdoor concert in heavy rain.",
+    "_cacheBreaker": "1755265388206_2"
   },
   {
-    "_id": "grade6_hard_thinking-skills_004",
-    "content": "A snail climbs up a 8-meter wall. Each day it climbs 3 meters up, but each night it slides 2 meter down. On which day will it reach the top?",
+    "_id": "thinking_6_hard_1755262177010_004",
+    "scenario": "Maria notices this number pattern: 2, 4, 8, 16, ___. Each number seems to follow a rule.",
+    "content": "What number should come next in this sequence? (Question 4)",
     "type": "multiple_choice",
     "options": [
-      "Day 6",
-      "Day 7",
-      "Day 5",
-      "Day 2"
+      "24",
+      "32",
+      "20",
+      "18"
     ],
-    "correctAnswer": "Day 6",
+    "correctAnswer": "32",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "hard",
-    "explanation": "After 5 days: net progress is 1m/day = 5m. On day 6, it climbs 3m more to reach 8m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "Each number doubles: 2×2=4, 4×2=8, 8×2=16, 16×2=32",
+    "_cacheBreaker": "1755265388206_3"
   },
   {
-    "_id": "grade6_hard_thinking-skills_005",
-    "content": "A snail climbs up a 12-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_6_hard_1755262177010_005",
+    "scenario": "Detective Johnson knows: 'Some cats are black' and 'Some black things are cars.' He's trying to solve a case.",
+    "content": "Can Detective Johnson conclude that some cats are cars? (Question 5)",
     "type": "multiple_choice",
     "options": [
-      "Day 11",
-      "Day 12",
-      "Day 10",
-      "Day 6"
+      "Yes, definitely",
+      "No, this doesn't follow logically",
+      "Only on weekends",
+      "Maybe, if he's lucky"
     ],
-    "correctAnswer": "Day 11",
+    "correctAnswer": "No, this doesn't follow logically",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "hard",
-    "explanation": "After 10 days: net progress is 1m/day = 10m. On day 11, it climbs 2m more to reach 12m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "This is a logical fallacy - just because cats and cars can both be black doesn't mean cats are cars.",
+    "_cacheBreaker": "1755265388206_4"
   },
   {
-    "_id": "grade6_hard_thinking-skills_006",
-    "content": "A snail climbs up a 8-meter wall. Each day it climbs 3 meters up, but each night it slides 2 meter down. On which day will it reach the top?",
+    "_id": "thinking_6_hard_1755262177010_006",
+    "scenario": "The weather report says: 'Since it's raining heavily, the outdoor concert will be cancelled.' The reporter made an assumption.",
+    "content": "What assumption did the reporter make? (Question 6)",
     "type": "multiple_choice",
     "options": [
-      "Day 6",
-      "Day 7",
-      "Day 5",
-      "Day 2"
+      "Rain is wet",
+      "Concerts happen outside",
+      "People don't like getting wet",
+      "Umbrellas are expensive"
     ],
-    "correctAnswer": "Day 6",
+    "correctAnswer": "People don't like getting wet",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "hard",
-    "explanation": "After 5 days: net progress is 1m/day = 5m. On day 6, it climbs 3m more to reach 8m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "The reporter assumed people won't attend an outdoor concert in heavy rain.",
+    "_cacheBreaker": "1755265388206_5"
   },
   {
-    "_id": "grade6_hard_thinking-skills_007",
-    "content": "A snail climbs up a 11-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_6_hard_1755262177010_007",
+    "scenario": "Maria notices this number pattern: 2, 4, 8, 16, ___. Each number seems to follow a rule.",
+    "content": "What number should come next in this sequence? (Question 7)",
     "type": "multiple_choice",
     "options": [
-      "Day 10",
-      "Day 11",
-      "Day 9",
-      "Day 5"
+      "24",
+      "32",
+      "20",
+      "18"
     ],
-    "correctAnswer": "Day 10",
+    "correctAnswer": "32",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "hard",
-    "explanation": "After 9 days: net progress is 1m/day = 9m. On day 10, it climbs 2m more to reach 11m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "Each number doubles: 2×2=4, 4×2=8, 8×2=16, 16×2=32",
+    "_cacheBreaker": "1755265388206_6"
   },
   {
-    "_id": "grade6_hard_thinking-skills_008",
-    "content": "A snail climbs up a 11-meter wall. Each day it climbs 3 meters up, but each night it slides 2 meter down. On which day will it reach the top?",
+    "_id": "thinking_6_hard_1755262177010_008",
+    "scenario": "Detective Johnson knows: 'Some cats are black' and 'Some black things are cars.' He's trying to solve a case.",
+    "content": "Can Detective Johnson conclude that some cats are cars? (Question 8)",
     "type": "multiple_choice",
     "options": [
-      "Day 9",
-      "Day 10",
-      "Day 8",
-      "Day 3"
+      "Yes, definitely",
+      "No, this doesn't follow logically",
+      "Only on weekends",
+      "Maybe, if he's lucky"
     ],
-    "correctAnswer": "Day 9",
+    "correctAnswer": "No, this doesn't follow logically",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "hard",
-    "explanation": "After 8 days: net progress is 1m/day = 8m. On day 9, it climbs 3m more to reach 11m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "This is a logical fallacy - just because cats and cars can both be black doesn't mean cats are cars.",
+    "_cacheBreaker": "1755265388206_7"
   },
   {
-    "_id": "grade6_hard_thinking-skills_009",
-    "content": "A snail climbs up a 10-meter wall. Each day it climbs 3 meters up, but each night it slides 2 meter down. On which day will it reach the top?",
+    "_id": "thinking_6_hard_1755262177010_009",
+    "scenario": "The weather report says: 'Since it's raining heavily, the outdoor concert will be cancelled.' The reporter made an assumption.",
+    "content": "What assumption did the reporter make? (Question 9)",
     "type": "multiple_choice",
     "options": [
-      "Day 8",
-      "Day 9",
-      "Day 7",
-      "Day 3"
+      "Rain is wet",
+      "Concerts happen outside",
+      "People don't like getting wet",
+      "Umbrellas are expensive"
     ],
-    "correctAnswer": "Day 8",
+    "correctAnswer": "People don't like getting wet",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "hard",
-    "explanation": "After 7 days: net progress is 1m/day = 7m. On day 8, it climbs 3m more to reach 10m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "The reporter assumed people won't attend an outdoor concert in heavy rain.",
+    "_cacheBreaker": "1755265388206_8"
   },
   {
-    "_id": "grade6_hard_thinking-skills_010",
-    "content": "A snail climbs up a 11-meter wall. Each day it climbs 3 meters up, but each night it slides 2 meter down. On which day will it reach the top?",
+    "_id": "thinking_6_hard_1755262177010_010",
+    "scenario": "Maria notices this number pattern: 2, 4, 8, 16, ___. Each number seems to follow a rule.",
+    "content": "What number should come next in this sequence? (Question 10)",
     "type": "multiple_choice",
     "options": [
-      "Day 9",
-      "Day 10",
-      "Day 8",
-      "Day 3"
+      "24",
+      "32",
+      "20",
+      "18"
     ],
-    "correctAnswer": "Day 9",
+    "correctAnswer": "32",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "hard",
-    "explanation": "After 8 days: net progress is 1m/day = 8m. On day 9, it climbs 3m more to reach 11m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "Each number doubles: 2×2=4, 4×2=8, 8×2=16, 16×2=32",
+    "_cacheBreaker": "1755265388206_9"
   },
   {
-    "_id": "grade6_hard_thinking-skills_011",
-    "content": "A snail climbs up a 10-meter wall. Each day it climbs 3 meters up, but each night it slides 2 meter down. On which day will it reach the top?",
+    "_id": "thinking_6_hard_1755262177010_011",
+    "scenario": "Detective Johnson knows: 'Some cats are black' and 'Some black things are cars.' He's trying to solve a case.",
+    "content": "Can Detective Johnson conclude that some cats are cars? (Question 11)",
     "type": "multiple_choice",
     "options": [
-      "Day 8",
-      "Day 9",
-      "Day 7",
-      "Day 3"
+      "Yes, definitely",
+      "No, this doesn't follow logically",
+      "Only on weekends",
+      "Maybe, if he's lucky"
     ],
-    "correctAnswer": "Day 8",
+    "correctAnswer": "No, this doesn't follow logically",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "hard",
-    "explanation": "After 7 days: net progress is 1m/day = 7m. On day 8, it climbs 3m more to reach 10m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "This is a logical fallacy - just because cats and cars can both be black doesn't mean cats are cars.",
+    "_cacheBreaker": "1755265388206_10"
   },
   {
-    "_id": "grade6_hard_thinking-skills_012",
-    "content": "A snail climbs up a 12-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_6_hard_1755262177010_012",
+    "scenario": "The weather report says: 'Since it's raining heavily, the outdoor concert will be cancelled.' The reporter made an assumption.",
+    "content": "What assumption did the reporter make? (Question 12)",
     "type": "multiple_choice",
     "options": [
-      "Day 11",
-      "Day 12",
-      "Day 10",
-      "Day 6"
+      "Rain is wet",
+      "Concerts happen outside",
+      "People don't like getting wet",
+      "Umbrellas are expensive"
     ],
-    "correctAnswer": "Day 11",
+    "correctAnswer": "People don't like getting wet",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "hard",
-    "explanation": "After 10 days: net progress is 1m/day = 10m. On day 11, it climbs 2m more to reach 12m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "The reporter assumed people won't attend an outdoor concert in heavy rain.",
+    "_cacheBreaker": "1755265388206_11"
   },
   {
-    "_id": "grade6_hard_thinking-skills_013",
-    "content": "A snail climbs up a 11-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_6_hard_1755262177010_013",
+    "scenario": "Maria notices this number pattern: 2, 4, 8, 16, ___. Each number seems to follow a rule.",
+    "content": "What number should come next in this sequence? (Question 13)",
     "type": "multiple_choice",
     "options": [
-      "Day 10",
-      "Day 11",
-      "Day 9",
-      "Day 5"
+      "24",
+      "32",
+      "20",
+      "18"
     ],
-    "correctAnswer": "Day 10",
+    "correctAnswer": "32",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "hard",
-    "explanation": "After 9 days: net progress is 1m/day = 9m. On day 10, it climbs 2m more to reach 11m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "Each number doubles: 2×2=4, 4×2=8, 8×2=16, 16×2=32",
+    "_cacheBreaker": "1755265388206_12"
   },
   {
-    "_id": "grade6_hard_thinking-skills_014",
-    "content": "A snail climbs up a 8-meter wall. Each day it climbs 3 meters up, but each night it slides 2 meter down. On which day will it reach the top?",
+    "_id": "thinking_6_hard_1755262177010_014",
+    "scenario": "Detective Johnson knows: 'Some cats are black' and 'Some black things are cars.' He's trying to solve a case.",
+    "content": "Can Detective Johnson conclude that some cats are cars? (Question 14)",
     "type": "multiple_choice",
     "options": [
-      "Day 6",
-      "Day 7",
-      "Day 5",
-      "Day 2"
+      "Yes, definitely",
+      "No, this doesn't follow logically",
+      "Only on weekends",
+      "Maybe, if he's lucky"
     ],
-    "correctAnswer": "Day 6",
+    "correctAnswer": "No, this doesn't follow logically",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "hard",
-    "explanation": "After 5 days: net progress is 1m/day = 5m. On day 6, it climbs 3m more to reach 8m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "This is a logical fallacy - just because cats and cars can both be black doesn't mean cats are cars.",
+    "_cacheBreaker": "1755265388206_13"
   },
   {
-    "_id": "grade6_hard_thinking-skills_015",
-    "content": "A snail climbs up a 10-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_6_hard_1755262177010_015",
+    "scenario": "The weather report says: 'Since it's raining heavily, the outdoor concert will be cancelled.' The reporter made an assumption.",
+    "content": "What assumption did the reporter make? (Question 15)",
     "type": "multiple_choice",
     "options": [
-      "Day 9",
-      "Day 10",
-      "Day 8",
-      "Day 5"
+      "Rain is wet",
+      "Concerts happen outside",
+      "People don't like getting wet",
+      "Umbrellas are expensive"
     ],
-    "correctAnswer": "Day 9",
+    "correctAnswer": "People don't like getting wet",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "hard",
-    "explanation": "After 8 days: net progress is 1m/day = 8m. On day 9, it climbs 2m more to reach 10m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "The reporter assumed people won't attend an outdoor concert in heavy rain.",
+    "_cacheBreaker": "1755265388206_14"
   },
   {
-    "_id": "grade6_hard_thinking-skills_016",
-    "content": "A snail climbs up a 11-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_6_hard_1755262177010_016",
+    "scenario": "Maria notices this number pattern: 2, 4, 8, 16, ___. Each number seems to follow a rule.",
+    "content": "What number should come next in this sequence? (Question 16)",
     "type": "multiple_choice",
     "options": [
-      "Day 10",
-      "Day 11",
-      "Day 9",
-      "Day 5"
+      "24",
+      "32",
+      "20",
+      "18"
     ],
-    "correctAnswer": "Day 10",
+    "correctAnswer": "32",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "hard",
-    "explanation": "After 9 days: net progress is 1m/day = 9m. On day 10, it climbs 2m more to reach 11m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "Each number doubles: 2×2=4, 4×2=8, 8×2=16, 16×2=32",
+    "_cacheBreaker": "1755265388206_15"
   },
   {
-    "_id": "grade6_hard_thinking-skills_017",
-    "content": "A snail climbs up a 11-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_6_hard_1755262177010_017",
+    "scenario": "Detective Johnson knows: 'Some cats are black' and 'Some black things are cars.' He's trying to solve a case.",
+    "content": "Can Detective Johnson conclude that some cats are cars? (Question 17)",
     "type": "multiple_choice",
     "options": [
-      "Day 10",
-      "Day 11",
-      "Day 9",
-      "Day 5"
+      "Yes, definitely",
+      "No, this doesn't follow logically",
+      "Only on weekends",
+      "Maybe, if he's lucky"
     ],
-    "correctAnswer": "Day 10",
+    "correctAnswer": "No, this doesn't follow logically",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "hard",
-    "explanation": "After 9 days: net progress is 1m/day = 9m. On day 10, it climbs 2m more to reach 11m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "This is a logical fallacy - just because cats and cars can both be black doesn't mean cats are cars.",
+    "_cacheBreaker": "1755265388206_16"
   },
   {
-    "_id": "grade6_hard_thinking-skills_018",
-    "content": "A snail climbs up a 8-meter wall. Each day it climbs 3 meters up, but each night it slides 2 meter down. On which day will it reach the top?",
+    "_id": "thinking_6_hard_1755262177010_018",
+    "scenario": "The weather report says: 'Since it's raining heavily, the outdoor concert will be cancelled.' The reporter made an assumption.",
+    "content": "What assumption did the reporter make? (Question 18)",
     "type": "multiple_choice",
     "options": [
-      "Day 6",
-      "Day 7",
-      "Day 5",
-      "Day 2"
+      "Rain is wet",
+      "Concerts happen outside",
+      "People don't like getting wet",
+      "Umbrellas are expensive"
     ],
-    "correctAnswer": "Day 6",
+    "correctAnswer": "People don't like getting wet",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "hard",
-    "explanation": "After 5 days: net progress is 1m/day = 5m. On day 6, it climbs 3m more to reach 8m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "The reporter assumed people won't attend an outdoor concert in heavy rain.",
+    "_cacheBreaker": "1755265388206_17"
   },
   {
-    "_id": "grade6_hard_thinking-skills_019",
-    "content": "A snail climbs up a 9-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_6_hard_1755262177010_019",
+    "scenario": "Maria notices this number pattern: 2, 4, 8, 16, ___. Each number seems to follow a rule.",
+    "content": "What number should come next in this sequence? (Question 19)",
     "type": "multiple_choice",
     "options": [
-      "Day 8",
-      "Day 9",
-      "Day 7",
-      "Day 4"
+      "24",
+      "32",
+      "20",
+      "18"
     ],
-    "correctAnswer": "Day 8",
+    "correctAnswer": "32",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "hard",
-    "explanation": "After 7 days: net progress is 1m/day = 7m. On day 8, it climbs 2m more to reach 9m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "Each number doubles: 2×2=4, 4×2=8, 8×2=16, 16×2=32",
+    "_cacheBreaker": "1755265388206_18"
   },
   {
-    "_id": "grade6_hard_thinking-skills_020",
-    "content": "A snail climbs up a 9-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_6_hard_1755262177010_020",
+    "scenario": "Detective Johnson knows: 'Some cats are black' and 'Some black things are cars.' He's trying to solve a case.",
+    "content": "Can Detective Johnson conclude that some cats are cars? (Question 20)",
     "type": "multiple_choice",
     "options": [
-      "Day 8",
-      "Day 9",
-      "Day 7",
-      "Day 4"
+      "Yes, definitely",
+      "No, this doesn't follow logically",
+      "Only on weekends",
+      "Maybe, if he's lucky"
     ],
-    "correctAnswer": "Day 8",
+    "correctAnswer": "No, this doesn't follow logically",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "hard",
-    "explanation": "After 7 days: net progress is 1m/day = 7m. On day 8, it climbs 2m more to reach 9m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "This is a logical fallacy - just because cats and cars can both be black doesn't mean cats are cars.",
+    "_cacheBreaker": "1755265388206_19"
   }
 ]

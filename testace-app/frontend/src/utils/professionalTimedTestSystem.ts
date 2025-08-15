@@ -10,7 +10,7 @@ import { generateMathQuestions } from './mathQuestionGenerator';
 import { generateThinkingSkillsQuestions } from './thinkingSkillsQuestionGenerator';
 import { generateMathematicalReasoningQuestions } from './mathematicalReasoningQuestionGenerator';
 import { generateRobustThinkingSkillsQuestions } from './robustThinkingSkillsGenerator';
-import DiverseMathGenerator from './diverseMathGenerator';
+// import DiverseMathGenerator from './diverseMathGenerator'; // DISABLED - using static JSON files only
 
 /**
  * PROFESSIONAL TIMED TEST SYSTEM
@@ -351,8 +351,9 @@ export class ProfessionalTimedTestSystem {
           // Generate multiple math questions using DiverseMathGenerator
           for (let i = 0; i < count; i++) {
             try {
-              const mathQuestion = DiverseMathGenerator.generateQuestion(grade, difficulty);
-              generated.push(mathQuestion);
+              // Using static JSON files only - no dynamic generation
+              const mathQuestion = null as any; // Disabled dynamic generation
+              if (mathQuestion) generated.push(mathQuestion); // Skip null questions from disabled generator
             } catch (error) {
               console.warn(`Failed to generate math question ${i}:`, error);
             }

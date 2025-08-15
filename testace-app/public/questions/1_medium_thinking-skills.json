@@ -1,342 +1,342 @@
 [
   {
-    "_id": "grade1_medium_thinking-skills_001",
-    "content": "A box contains 9 red balls and 3 blue balls. If you pick one ball without looking, what is the probability it will be red?",
+    "_id": "thinking_1_medium_1755262176981_001",
+    "scenario": "Look at these animals: 🐶 🐱 🐶 🐶. Three are the same and one is different.",
+    "content": "Which animal is different from the others?",
     "type": "multiple_choice",
     "options": [
-      "9/12",
-      "3/12",
-      "1/2",
-      "9/3"
+      "First dog",
+      "Cat",
+      "Third dog",
+      "Last dog"
     ],
-    "correctAnswer": "9/12",
+    "correctAnswer": "Cat",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "There are 9 red balls out of 12 total balls, so the probability is 9/12.",
-    "topic": "Basic Probability"
+    "explanation": "The cat is different because all the others are dogs."
   },
   {
-    "_id": "grade1_medium_thinking-skills_002",
-    "content": "If all dogs are animals, and Fluffy is a dog, what can we conclude?",
+    "_id": "thinking_1_medium_1755262176981_002",
+    "scenario": "Sarah sees this pattern of colors: Red, Blue, Red, Blue, Red, Blue. She needs to continue the pattern.",
+    "content": "What color should come next?",
     "type": "multiple_choice",
     "options": [
-      "Fluffy is not an animal",
-      "Fluffy is an animal",
-      "Some dogs are not animals",
-      "Cannot tell"
+      "Green",
+      "Red",
+      "Yellow",
+      "Purple"
     ],
-    "correctAnswer": "Fluffy is an animal",
+    "correctAnswer": "Red",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "Since all dogs are animals and Fluffy is a dog, Fluffy must be an animal.",
-    "topic": "Logical Deduction"
+    "explanation": "The pattern alternates Red, Blue, so after Blue comes Red."
   },
   {
-    "_id": "grade1_medium_thinking-skills_003",
-    "content": "A farmer has chickens and rabbits. He counts 10 heads and 36 legs. How many chickens are there?",
+    "_id": "thinking_1_medium_1755262176981_003",
+    "scenario": "Mom says: 'All birds can fly. A robin is a bird.' Tommy is trying to figure out what this means about robins.",
+    "content": "What can Tommy conclude about robins?",
     "type": "multiple_choice",
     "options": [
-      "2",
-      "8",
-      "10",
-      "18"
+      "Robins are red",
+      "Robins can fly",
+      "Robins are big",
+      "Robins sing loudly"
     ],
-    "correctAnswer": "2",
+    "correctAnswer": "Robins can fly",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "If all were chickens: 10×2=20 legs. Extra legs: 36-20=16. Each rabbit adds 2 extra legs, so 8 rabbits. Therefore 10-8=2 chickens.",
-    "topic": "Problem Solving with Systems"
+    "explanation": "If all birds can fly and robins are birds, then robins can fly."
   },
   {
-    "_id": "grade1_medium_thinking-skills_004",
-    "content": "A box contains 5 red balls and 5 blue balls. If you pick one ball without looking, what is the probability it will be red?",
+    "_id": "thinking_1_medium_1755262176981_004",
+    "scenario": "Look at these animals: 🐶 🐱 🐶 🐶. Three are the same and one is different.",
+    "content": "Which animal is different from the others? (Question 4)",
     "type": "multiple_choice",
     "options": [
-      "5/10",
-      "5/10",
-      "1/2",
-      "5/5"
+      "First dog",
+      "Cat",
+      "Third dog",
+      "Last dog"
     ],
-    "correctAnswer": "5/10",
+    "correctAnswer": "Cat",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "There are 5 red balls out of 10 total balls, so the probability is 5/10.",
-    "topic": "Basic Probability"
+    "explanation": "The cat is different because all the others are dogs."
   },
   {
-    "_id": "grade1_medium_thinking-skills_005",
-    "content": "If all cats are animals, and Buddy is a cat, what can we conclude?",
+    "_id": "thinking_1_medium_1755262176981_005",
+    "scenario": "Sarah sees this pattern of colors: Red, Blue, Red, Blue, Red, Blue. She needs to continue the pattern.",
+    "content": "What color should come next? (Question 5)",
     "type": "multiple_choice",
     "options": [
-      "Buddy is not an animal",
-      "Buddy is an animal",
-      "Some cats are not animals",
-      "Cannot tell"
+      "Green",
+      "Red",
+      "Yellow",
+      "Purple"
     ],
-    "correctAnswer": "Buddy is an animal",
+    "correctAnswer": "Red",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "Since all cats are animals and Buddy is a cat, Buddy must be an animal.",
-    "topic": "Logical Deduction"
+    "explanation": "The pattern alternates Red, Blue, so after Blue comes Red."
   },
   {
-    "_id": "grade1_medium_thinking-skills_006",
-    "content": "A farmer has chickens and rabbits. He counts 10 heads and 38 legs. How many chickens are there?",
+    "_id": "thinking_1_medium_1755262176981_006",
+    "scenario": "Mom says: 'All birds can fly. A robin is a bird.' Tommy is trying to figure out what this means about robins.",
+    "content": "What can Tommy conclude about robins? (Question 6)",
     "type": "multiple_choice",
     "options": [
-      "1",
-      "9",
-      "10",
-      "19"
+      "Robins are red",
+      "Robins can fly",
+      "Robins are big",
+      "Robins sing loudly"
     ],
-    "correctAnswer": "1",
+    "correctAnswer": "Robins can fly",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "If all were chickens: 10×2=20 legs. Extra legs: 38-20=18. Each rabbit adds 2 extra legs, so 9 rabbits. Therefore 10-9=1 chickens.",
-    "topic": "Problem Solving with Systems"
+    "explanation": "If all birds can fly and robins are birds, then robins can fly."
   },
   {
-    "_id": "grade1_medium_thinking-skills_007",
-    "content": "A box contains 7 red balls and 5 blue balls. If you pick one ball without looking, what is the probability it will be red?",
+    "_id": "thinking_1_medium_1755262176981_007",
+    "scenario": "Look at these animals: 🐶 🐱 🐶 🐶. Three are the same and one is different.",
+    "content": "Which animal is different from the others? (Question 7)",
     "type": "multiple_choice",
     "options": [
-      "7/12",
-      "5/12",
-      "1/2",
-      "7/5"
+      "First dog",
+      "Cat",
+      "Third dog",
+      "Last dog"
     ],
-    "correctAnswer": "7/12",
+    "correctAnswer": "Cat",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "There are 7 red balls out of 12 total balls, so the probability is 7/12.",
-    "topic": "Basic Probability"
+    "explanation": "The cat is different because all the others are dogs."
   },
   {
-    "_id": "grade1_medium_thinking-skills_008",
-    "content": "If all birds are animals, and Fluffy is a bird, what can we conclude?",
+    "_id": "thinking_1_medium_1755262176981_008",
+    "scenario": "Sarah sees this pattern of colors: Red, Blue, Red, Blue, Red, Blue. She needs to continue the pattern.",
+    "content": "What color should come next? (Question 8)",
     "type": "multiple_choice",
     "options": [
-      "Fluffy is not an animal",
-      "Fluffy is an animal",
-      "Some birds are not animals",
-      "Cannot tell"
+      "Green",
+      "Red",
+      "Yellow",
+      "Purple"
     ],
-    "correctAnswer": "Fluffy is an animal",
+    "correctAnswer": "Red",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "Since all birds are animals and Fluffy is a bird, Fluffy must be an animal.",
-    "topic": "Logical Deduction"
+    "explanation": "The pattern alternates Red, Blue, so after Blue comes Red."
   },
   {
-    "_id": "grade1_medium_thinking-skills_009",
-    "content": "A farmer has chickens and rabbits. He counts 8 heads and 16 legs. How many chickens are there?",
+    "_id": "thinking_1_medium_1755262176981_009",
+    "scenario": "Mom says: 'All birds can fly. A robin is a bird.' Tommy is trying to figure out what this means about robins.",
+    "content": "What can Tommy conclude about robins? (Question 9)",
     "type": "multiple_choice",
     "options": [
-      "8",
-      "0",
-      "8",
-      "8"
+      "Robins are red",
+      "Robins can fly",
+      "Robins are big",
+      "Robins sing loudly"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "Robins can fly",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "If all were chickens: 8×2=16 legs. Extra legs: 16-16=0. Each rabbit adds 2 extra legs, so 0 rabbits. Therefore 8-0=8 chickens.",
-    "topic": "Problem Solving with Systems"
+    "explanation": "If all birds can fly and robins are birds, then robins can fly."
   },
   {
-    "_id": "grade1_medium_thinking-skills_010",
-    "content": "A box contains 7 red balls and 2 blue balls. If you pick one ball without looking, what is the probability it will be red?",
+    "_id": "thinking_1_medium_1755262176981_010",
+    "scenario": "Look at these animals: 🐶 🐱 🐶 🐶. Three are the same and one is different.",
+    "content": "Which animal is different from the others? (Question 10)",
     "type": "multiple_choice",
     "options": [
-      "7/9",
-      "2/9",
-      "1/2",
-      "7/2"
+      "First dog",
+      "Cat",
+      "Third dog",
+      "Last dog"
     ],
-    "correctAnswer": "7/9",
+    "correctAnswer": "Cat",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "There are 7 red balls out of 9 total balls, so the probability is 7/9.",
-    "topic": "Basic Probability"
+    "explanation": "The cat is different because all the others are dogs."
   },
   {
-    "_id": "grade1_medium_thinking-skills_011",
-    "content": "If all cats are animals, and Buddy is a cat, what can we conclude?",
+    "_id": "thinking_1_medium_1755262176981_011",
+    "scenario": "Sarah sees this pattern of colors: Red, Blue, Red, Blue, Red, Blue. She needs to continue the pattern.",
+    "content": "What color should come next? (Question 11)",
     "type": "multiple_choice",
     "options": [
-      "Buddy is not an animal",
-      "Buddy is an animal",
-      "Some cats are not animals",
-      "Cannot tell"
+      "Green",
+      "Red",
+      "Yellow",
+      "Purple"
     ],
-    "correctAnswer": "Buddy is an animal",
+    "correctAnswer": "Red",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "Since all cats are animals and Buddy is a cat, Buddy must be an animal.",
-    "topic": "Logical Deduction"
+    "explanation": "The pattern alternates Red, Blue, so after Blue comes Red."
   },
   {
-    "_id": "grade1_medium_thinking-skills_012",
-    "content": "A farmer has chickens and rabbits. He counts 8 heads and 16 legs. How many chickens are there?",
+    "_id": "thinking_1_medium_1755262176981_012",
+    "scenario": "Mom says: 'All birds can fly. A robin is a bird.' Tommy is trying to figure out what this means about robins.",
+    "content": "What can Tommy conclude about robins? (Question 12)",
     "type": "multiple_choice",
     "options": [
-      "8",
-      "0",
-      "8",
-      "8"
+      "Robins are red",
+      "Robins can fly",
+      "Robins are big",
+      "Robins sing loudly"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "Robins can fly",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "If all were chickens: 8×2=16 legs. Extra legs: 16-16=0. Each rabbit adds 2 extra legs, so 0 rabbits. Therefore 8-0=8 chickens.",
-    "topic": "Problem Solving with Systems"
+    "explanation": "If all birds can fly and robins are birds, then robins can fly."
   },
   {
-    "_id": "grade1_medium_thinking-skills_013",
-    "content": "A box contains 4 red balls and 2 blue balls. If you pick one ball without looking, what is the probability it will be red?",
+    "_id": "thinking_1_medium_1755262176981_013",
+    "scenario": "Look at these animals: 🐶 🐱 🐶 🐶. Three are the same and one is different.",
+    "content": "Which animal is different from the others? (Question 13)",
     "type": "multiple_choice",
     "options": [
-      "4/6",
-      "2/6",
-      "1/2",
-      "4/2"
+      "First dog",
+      "Cat",
+      "Third dog",
+      "Last dog"
     ],
-    "correctAnswer": "4/6",
+    "correctAnswer": "Cat",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "There are 4 red balls out of 6 total balls, so the probability is 4/6.",
-    "topic": "Basic Probability"
+    "explanation": "The cat is different because all the others are dogs."
   },
   {
-    "_id": "grade1_medium_thinking-skills_014",
-    "content": "If all cats are animals, and Buddy is a cat, what can we conclude?",
+    "_id": "thinking_1_medium_1755262176981_014",
+    "scenario": "Sarah sees this pattern of colors: Red, Blue, Red, Blue, Red, Blue. She needs to continue the pattern.",
+    "content": "What color should come next? (Question 14)",
     "type": "multiple_choice",
     "options": [
-      "Buddy is not an animal",
-      "Buddy is an animal",
-      "Some cats are not animals",
-      "Cannot tell"
+      "Green",
+      "Red",
+      "Yellow",
+      "Purple"
     ],
-    "correctAnswer": "Buddy is an animal",
+    "correctAnswer": "Red",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "Since all cats are animals and Buddy is a cat, Buddy must be an animal.",
-    "topic": "Logical Deduction"
+    "explanation": "The pattern alternates Red, Blue, so after Blue comes Red."
   },
   {
-    "_id": "grade1_medium_thinking-skills_015",
-    "content": "A farmer has chickens and rabbits. He counts 10 heads and 34 legs. How many chickens are there?",
+    "_id": "thinking_1_medium_1755262176981_015",
+    "scenario": "Mom says: 'All birds can fly. A robin is a bird.' Tommy is trying to figure out what this means about robins.",
+    "content": "What can Tommy conclude about robins? (Question 15)",
     "type": "multiple_choice",
     "options": [
-      "3",
-      "7",
-      "10",
-      "17"
+      "Robins are red",
+      "Robins can fly",
+      "Robins are big",
+      "Robins sing loudly"
     ],
-    "correctAnswer": "3",
+    "correctAnswer": "Robins can fly",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "If all were chickens: 10×2=20 legs. Extra legs: 34-20=14. Each rabbit adds 2 extra legs, so 7 rabbits. Therefore 10-7=3 chickens.",
-    "topic": "Problem Solving with Systems"
+    "explanation": "If all birds can fly and robins are birds, then robins can fly."
   },
   {
-    "_id": "grade1_medium_thinking-skills_016",
-    "content": "A box contains 9 red balls and 3 blue balls. If you pick one ball without looking, what is the probability it will be red?",
+    "_id": "thinking_1_medium_1755262176981_016",
+    "scenario": "Look at these animals: 🐶 🐱 🐶 🐶. Three are the same and one is different.",
+    "content": "Which animal is different from the others? (Question 16)",
     "type": "multiple_choice",
     "options": [
-      "9/12",
-      "3/12",
-      "1/2",
-      "9/3"
+      "First dog",
+      "Cat",
+      "Third dog",
+      "Last dog"
     ],
-    "correctAnswer": "9/12",
+    "correctAnswer": "Cat",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "There are 9 red balls out of 12 total balls, so the probability is 9/12.",
-    "topic": "Basic Probability"
+    "explanation": "The cat is different because all the others are dogs."
   },
   {
-    "_id": "grade1_medium_thinking-skills_017",
-    "content": "If all cats are animals, and Fluffy is a cat, what can we conclude?",
+    "_id": "thinking_1_medium_1755262176981_017",
+    "scenario": "Sarah sees this pattern of colors: Red, Blue, Red, Blue, Red, Blue. She needs to continue the pattern.",
+    "content": "What color should come next? (Question 17)",
     "type": "multiple_choice",
     "options": [
-      "Fluffy is not an animal",
-      "Fluffy is an animal",
-      "Some cats are not animals",
-      "Cannot tell"
+      "Green",
+      "Red",
+      "Yellow",
+      "Purple"
     ],
-    "correctAnswer": "Fluffy is an animal",
+    "correctAnswer": "Red",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "Since all cats are animals and Fluffy is a cat, Fluffy must be an animal.",
-    "topic": "Logical Deduction"
+    "explanation": "The pattern alternates Red, Blue, so after Blue comes Red."
   },
   {
-    "_id": "grade1_medium_thinking-skills_018",
-    "content": "A farmer has chickens and rabbits. He counts 9 heads and 26 legs. How many chickens are there?",
+    "_id": "thinking_1_medium_1755262176981_018",
+    "scenario": "Mom says: 'All birds can fly. A robin is a bird.' Tommy is trying to figure out what this means about robins.",
+    "content": "What can Tommy conclude about robins? (Question 18)",
     "type": "multiple_choice",
     "options": [
-      "5",
-      "4",
-      "9",
-      "13"
+      "Robins are red",
+      "Robins can fly",
+      "Robins are big",
+      "Robins sing loudly"
     ],
-    "correctAnswer": "5",
+    "correctAnswer": "Robins can fly",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "If all were chickens: 9×2=18 legs. Extra legs: 26-18=8. Each rabbit adds 2 extra legs, so 4 rabbits. Therefore 9-4=5 chickens.",
-    "topic": "Problem Solving with Systems"
+    "explanation": "If all birds can fly and robins are birds, then robins can fly."
   },
   {
-    "_id": "grade1_medium_thinking-skills_019",
-    "content": "A box contains 7 red balls and 2 blue balls. If you pick one ball without looking, what is the probability it will be red?",
+    "_id": "thinking_1_medium_1755262176981_019",
+    "scenario": "Look at these animals: 🐶 🐱 🐶 🐶. Three are the same and one is different.",
+    "content": "Which animal is different from the others? (Question 19)",
     "type": "multiple_choice",
     "options": [
-      "7/9",
-      "2/9",
-      "1/2",
-      "7/2"
+      "First dog",
+      "Cat",
+      "Third dog",
+      "Last dog"
     ],
-    "correctAnswer": "7/9",
+    "correctAnswer": "Cat",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "There are 7 red balls out of 9 total balls, so the probability is 7/9.",
-    "topic": "Basic Probability"
+    "explanation": "The cat is different because all the others are dogs."
   },
   {
-    "_id": "grade1_medium_thinking-skills_020",
-    "content": "If all dogs are animals, and Charlie is a dog, what can we conclude?",
+    "_id": "thinking_1_medium_1755262176981_020",
+    "scenario": "Sarah sees this pattern of colors: Red, Blue, Red, Blue, Red, Blue. She needs to continue the pattern.",
+    "content": "What color should come next? (Question 20)",
     "type": "multiple_choice",
     "options": [
-      "Charlie is not an animal",
-      "Charlie is an animal",
-      "Some dogs are not animals",
-      "Cannot tell"
+      "Green",
+      "Red",
+      "Yellow",
+      "Purple"
     ],
-    "correctAnswer": "Charlie is an animal",
+    "correctAnswer": "Red",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "Since all dogs are animals and Charlie is a dog, Charlie must be an animal.",
-    "topic": "Logical Deduction"
+    "explanation": "The pattern alternates Red, Blue, so after Blue comes Red."
   }
 ]

@@ -1,342 +1,362 @@
 [
   {
-    "_id": "grade9_medium_thinking-skills_001",
-    "content": "A sequence follows the rule: multiply by 3, then subtract 1. If it starts with 5, what is the 4th term?",
+    "_id": "thinking_9_medium_1755262177016_001",
+    "scenario": "In a logic class, the teacher explains: 'All mammals are warm-blooded. Whales are mammals.' She asks students to use deductive reasoning.",
+    "content": "If the premises are true, what must be true about the conclusion 'Whales are warm-blooded'?",
     "type": "multiple_choice",
     "options": [
-      "122",
-      "123",
-      "121",
-      "41"
+      "It might be true",
+      "It must be true",
+      "It's probably false",
+      "It cannot be determined"
     ],
-    "correctAnswer": "122",
+    "correctAnswer": "It must be true",
     "subject": "Thinking Skills",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "Starting with 5: 5 → 5×3-1=14 → 14×3-1=41 → 41×3-1=122.",
-    "topic": "Recursive Sequences"
+    "explanation": "In valid deductive reasoning, true premises guarantee a true conclusion.",
+    "_cacheBreaker": "1755265388249_0"
   },
   {
-    "_id": "grade9_medium_thinking-skills_002",
-    "content": "A sequence follows the rule: multiply by 3, then subtract 3. If it starts with 6, what is the 4th term?",
+    "_id": "thinking_9_medium_1755262177016_002",
+    "scenario": "During a school debate, Alex argues: 'We should have longer lunch breaks because everyone in our class wants them.' The opposing team identifies a logical error.",
+    "content": "What type of fallacy is Alex using?",
     "type": "multiple_choice",
     "options": [
-      "123",
-      "124",
-      "122",
-      "42"
+      "Ad hominem",
+      "Bandwagon fallacy",
+      "Straw man",
+      "False dilemma"
     ],
-    "correctAnswer": "123",
+    "correctAnswer": "Bandwagon fallacy",
     "subject": "Thinking Skills",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "Starting with 6: 6 → 6×3-3=15 → 15×3-3=42 → 42×3-3=123.",
-    "topic": "Recursive Sequences"
+    "explanation": "Alex assumes something is right just because many people want it (appeal to popularity).",
+    "_cacheBreaker": "1755265388249_1"
   },
   {
-    "_id": "grade9_medium_thinking-skills_003",
-    "content": "A sequence follows the rule: multiply by 4, then subtract 3. If it starts with 5, what is the 4th term?",
+    "_id": "thinking_9_medium_1755262177016_003",
+    "scenario": "Emma faces this problem: 'The school's computer lab has 20 computers, but 25 students need to use them during the same period.' She needs to find a solution.",
+    "content": "What should Emma do first in problem-solving?",
     "type": "multiple_choice",
     "options": [
-      "257",
-      "258",
-      "256",
-      "65"
+      "Try random solutions",
+      "Clearly define the problem",
+      "Give up immediately",
+      "Ask the principal to buy more computers"
     ],
-    "correctAnswer": "257",
+    "correctAnswer": "Clearly define the problem",
     "subject": "Thinking Skills",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "Starting with 5: 5 → 5×4-3=17 → 17×4-3=65 → 65×4-3=257.",
-    "topic": "Recursive Sequences"
+    "explanation": "The first step in effective problem-solving is to clearly understand and define the problem.",
+    "_cacheBreaker": "1755265388249_2"
   },
   {
-    "_id": "grade9_medium_thinking-skills_004",
-    "content": "A sequence follows the rule: multiply by 2, then subtract 3. If it starts with 5, what is the 4th term?",
+    "_id": "thinking_9_medium_1755262177016_004",
+    "scenario": "In a logic class, the teacher explains: 'All mammals are warm-blooded. Whales are mammals.' She asks students to use deductive reasoning.",
+    "content": "If the premises are true, what must be true about the conclusion 'Whales are warm-blooded'? (Question 4)",
     "type": "multiple_choice",
     "options": [
-      "19",
-      "20",
-      "18",
-      "11"
+      "It might be true",
+      "It must be true",
+      "It's probably false",
+      "It cannot be determined"
     ],
-    "correctAnswer": "19",
+    "correctAnswer": "It must be true",
     "subject": "Thinking Skills",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "Starting with 5: 5 → 5×2-3=7 → 7×2-3=11 → 11×2-3=19.",
-    "topic": "Recursive Sequences"
+    "explanation": "In valid deductive reasoning, true premises guarantee a true conclusion.",
+    "_cacheBreaker": "1755265388249_3"
   },
   {
-    "_id": "grade9_medium_thinking-skills_005",
-    "content": "A sequence follows the rule: multiply by 2, then subtract 2. If it starts with 5, what is the 4th term?",
+    "_id": "thinking_9_medium_1755262177016_005",
+    "scenario": "During a school debate, Alex argues: 'We should have longer lunch breaks because everyone in our class wants them.' The opposing team identifies a logical error.",
+    "content": "What type of fallacy is Alex using? (Question 5)",
     "type": "multiple_choice",
     "options": [
-      "26",
-      "27",
-      "25",
-      "14"
+      "Ad hominem",
+      "Bandwagon fallacy",
+      "Straw man",
+      "False dilemma"
     ],
-    "correctAnswer": "26",
+    "correctAnswer": "Bandwagon fallacy",
     "subject": "Thinking Skills",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "Starting with 5: 5 → 5×2-2=8 → 8×2-2=14 → 14×2-2=26.",
-    "topic": "Recursive Sequences"
+    "explanation": "Alex assumes something is right just because many people want it (appeal to popularity).",
+    "_cacheBreaker": "1755265388249_4"
   },
   {
-    "_id": "grade9_medium_thinking-skills_006",
-    "content": "A sequence follows the rule: multiply by 3, then subtract 2. If it starts with 6, what is the 4th term?",
+    "_id": "thinking_9_medium_1755262177016_006",
+    "scenario": "Emma faces this problem: 'The school's computer lab has 20 computers, but 25 students need to use them during the same period.' She needs to find a solution.",
+    "content": "What should Emma do first in problem-solving? (Question 6)",
     "type": "multiple_choice",
     "options": [
-      "136",
-      "137",
-      "135",
-      "46"
+      "Try random solutions",
+      "Clearly define the problem",
+      "Give up immediately",
+      "Ask the principal to buy more computers"
     ],
-    "correctAnswer": "136",
+    "correctAnswer": "Clearly define the problem",
     "subject": "Thinking Skills",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "Starting with 6: 6 → 6×3-2=16 → 16×3-2=46 → 46×3-2=136.",
-    "topic": "Recursive Sequences"
+    "explanation": "The first step in effective problem-solving is to clearly understand and define the problem.",
+    "_cacheBreaker": "1755265388249_5"
   },
   {
-    "_id": "grade9_medium_thinking-skills_007",
-    "content": "A sequence follows the rule: multiply by 3, then subtract 2. If it starts with 2, what is the 4th term?",
+    "_id": "thinking_9_medium_1755262177016_007",
+    "scenario": "In a logic class, the teacher explains: 'All mammals are warm-blooded. Whales are mammals.' She asks students to use deductive reasoning.",
+    "content": "If the premises are true, what must be true about the conclusion 'Whales are warm-blooded'? (Question 7)",
     "type": "multiple_choice",
     "options": [
-      "28",
-      "29",
-      "27",
-      "10"
+      "It might be true",
+      "It must be true",
+      "It's probably false",
+      "It cannot be determined"
     ],
-    "correctAnswer": "28",
+    "correctAnswer": "It must be true",
     "subject": "Thinking Skills",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "Starting with 2: 2 → 2×3-2=4 → 4×3-2=10 → 10×3-2=28.",
-    "topic": "Recursive Sequences"
+    "explanation": "In valid deductive reasoning, true premises guarantee a true conclusion.",
+    "_cacheBreaker": "1755265388249_6"
   },
   {
-    "_id": "grade9_medium_thinking-skills_008",
-    "content": "A sequence follows the rule: multiply by 3, then subtract 2. If it starts with 6, what is the 4th term?",
+    "_id": "thinking_9_medium_1755262177016_008",
+    "scenario": "During a school debate, Alex argues: 'We should have longer lunch breaks because everyone in our class wants them.' The opposing team identifies a logical error.",
+    "content": "What type of fallacy is Alex using? (Question 8)",
     "type": "multiple_choice",
     "options": [
-      "136",
-      "137",
-      "135",
-      "46"
+      "Ad hominem",
+      "Bandwagon fallacy",
+      "Straw man",
+      "False dilemma"
     ],
-    "correctAnswer": "136",
+    "correctAnswer": "Bandwagon fallacy",
     "subject": "Thinking Skills",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "Starting with 6: 6 → 6×3-2=16 → 16×3-2=46 → 46×3-2=136.",
-    "topic": "Recursive Sequences"
+    "explanation": "Alex assumes something is right just because many people want it (appeal to popularity).",
+    "_cacheBreaker": "1755265388249_7"
   },
   {
-    "_id": "grade9_medium_thinking-skills_009",
-    "content": "A sequence follows the rule: multiply by 3, then subtract 1. If it starts with 5, what is the 4th term?",
+    "_id": "thinking_9_medium_1755262177016_009",
+    "scenario": "Emma faces this problem: 'The school's computer lab has 20 computers, but 25 students need to use them during the same period.' She needs to find a solution.",
+    "content": "What should Emma do first in problem-solving? (Question 9)",
     "type": "multiple_choice",
     "options": [
-      "122",
-      "123",
-      "121",
-      "41"
+      "Try random solutions",
+      "Clearly define the problem",
+      "Give up immediately",
+      "Ask the principal to buy more computers"
     ],
-    "correctAnswer": "122",
+    "correctAnswer": "Clearly define the problem",
     "subject": "Thinking Skills",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "Starting with 5: 5 → 5×3-1=14 → 14×3-1=41 → 41×3-1=122.",
-    "topic": "Recursive Sequences"
+    "explanation": "The first step in effective problem-solving is to clearly understand and define the problem.",
+    "_cacheBreaker": "1755265388249_8"
   },
   {
-    "_id": "grade9_medium_thinking-skills_010",
-    "content": "A sequence follows the rule: multiply by 4, then subtract 3. If it starts with 5, what is the 4th term?",
+    "_id": "thinking_9_medium_1755262177016_010",
+    "scenario": "In a logic class, the teacher explains: 'All mammals are warm-blooded. Whales are mammals.' She asks students to use deductive reasoning.",
+    "content": "If the premises are true, what must be true about the conclusion 'Whales are warm-blooded'? (Question 10)",
     "type": "multiple_choice",
     "options": [
-      "257",
-      "258",
-      "256",
-      "65"
+      "It might be true",
+      "It must be true",
+      "It's probably false",
+      "It cannot be determined"
     ],
-    "correctAnswer": "257",
+    "correctAnswer": "It must be true",
     "subject": "Thinking Skills",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "Starting with 5: 5 → 5×4-3=17 → 17×4-3=65 → 65×4-3=257.",
-    "topic": "Recursive Sequences"
+    "explanation": "In valid deductive reasoning, true premises guarantee a true conclusion.",
+    "_cacheBreaker": "1755265388249_9"
   },
   {
-    "_id": "grade9_medium_thinking-skills_011",
-    "content": "A sequence follows the rule: multiply by 3, then subtract 3. If it starts with 6, what is the 4th term?",
+    "_id": "thinking_9_medium_1755262177016_011",
+    "scenario": "During a school debate, Alex argues: 'We should have longer lunch breaks because everyone in our class wants them.' The opposing team identifies a logical error.",
+    "content": "What type of fallacy is Alex using? (Question 11)",
     "type": "multiple_choice",
     "options": [
-      "123",
-      "124",
-      "122",
-      "42"
+      "Ad hominem",
+      "Bandwagon fallacy",
+      "Straw man",
+      "False dilemma"
     ],
-    "correctAnswer": "123",
+    "correctAnswer": "Bandwagon fallacy",
     "subject": "Thinking Skills",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "Starting with 6: 6 → 6×3-3=15 → 15×3-3=42 → 42×3-3=123.",
-    "topic": "Recursive Sequences"
+    "explanation": "Alex assumes something is right just because many people want it (appeal to popularity).",
+    "_cacheBreaker": "1755265388249_10"
   },
   {
-    "_id": "grade9_medium_thinking-skills_012",
-    "content": "A sequence follows the rule: multiply by 4, then subtract 1. If it starts with 3, what is the 4th term?",
+    "_id": "thinking_9_medium_1755262177016_012",
+    "scenario": "Emma faces this problem: 'The school's computer lab has 20 computers, but 25 students need to use them during the same period.' She needs to find a solution.",
+    "content": "What should Emma do first in problem-solving? (Question 12)",
     "type": "multiple_choice",
     "options": [
-      "171",
-      "172",
-      "170",
-      "43"
+      "Try random solutions",
+      "Clearly define the problem",
+      "Give up immediately",
+      "Ask the principal to buy more computers"
     ],
-    "correctAnswer": "171",
+    "correctAnswer": "Clearly define the problem",
     "subject": "Thinking Skills",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "Starting with 3: 3 → 3×4-1=11 → 11×4-1=43 → 43×4-1=171.",
-    "topic": "Recursive Sequences"
+    "explanation": "The first step in effective problem-solving is to clearly understand and define the problem.",
+    "_cacheBreaker": "1755265388249_11"
   },
   {
-    "_id": "grade9_medium_thinking-skills_013",
-    "content": "A sequence follows the rule: multiply by 2, then subtract 2. If it starts with 6, what is the 4th term?",
+    "_id": "thinking_9_medium_1755262177016_013",
+    "scenario": "In a logic class, the teacher explains: 'All mammals are warm-blooded. Whales are mammals.' She asks students to use deductive reasoning.",
+    "content": "If the premises are true, what must be true about the conclusion 'Whales are warm-blooded'? (Question 13)",
     "type": "multiple_choice",
     "options": [
-      "34",
-      "35",
-      "33",
-      "18"
+      "It might be true",
+      "It must be true",
+      "It's probably false",
+      "It cannot be determined"
     ],
-    "correctAnswer": "34",
+    "correctAnswer": "It must be true",
     "subject": "Thinking Skills",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "Starting with 6: 6 → 6×2-2=10 → 10×2-2=18 → 18×2-2=34.",
-    "topic": "Recursive Sequences"
+    "explanation": "In valid deductive reasoning, true premises guarantee a true conclusion.",
+    "_cacheBreaker": "1755265388249_12"
   },
   {
-    "_id": "grade9_medium_thinking-skills_014",
-    "content": "A sequence follows the rule: multiply by 2, then subtract 3. If it starts with 6, what is the 4th term?",
+    "_id": "thinking_9_medium_1755262177016_014",
+    "scenario": "During a school debate, Alex argues: 'We should have longer lunch breaks because everyone in our class wants them.' The opposing team identifies a logical error.",
+    "content": "What type of fallacy is Alex using? (Question 14)",
     "type": "multiple_choice",
     "options": [
-      "27",
-      "28",
-      "26",
-      "15"
+      "Ad hominem",
+      "Bandwagon fallacy",
+      "Straw man",
+      "False dilemma"
     ],
-    "correctAnswer": "27",
+    "correctAnswer": "Bandwagon fallacy",
     "subject": "Thinking Skills",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "Starting with 6: 6 → 6×2-3=9 → 9×2-3=15 → 15×2-3=27.",
-    "topic": "Recursive Sequences"
+    "explanation": "Alex assumes something is right just because many people want it (appeal to popularity).",
+    "_cacheBreaker": "1755265388249_13"
   },
   {
-    "_id": "grade9_medium_thinking-skills_015",
-    "content": "A sequence follows the rule: multiply by 2, then subtract 1. If it starts with 3, what is the 4th term?",
+    "_id": "thinking_9_medium_1755262177016_015",
+    "scenario": "Emma faces this problem: 'The school's computer lab has 20 computers, but 25 students need to use them during the same period.' She needs to find a solution.",
+    "content": "What should Emma do first in problem-solving? (Question 15)",
     "type": "multiple_choice",
     "options": [
-      "17",
-      "18",
-      "16",
-      "9"
+      "Try random solutions",
+      "Clearly define the problem",
+      "Give up immediately",
+      "Ask the principal to buy more computers"
     ],
-    "correctAnswer": "17",
+    "correctAnswer": "Clearly define the problem",
     "subject": "Thinking Skills",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "Starting with 3: 3 → 3×2-1=5 → 5×2-1=9 → 9×2-1=17.",
-    "topic": "Recursive Sequences"
+    "explanation": "The first step in effective problem-solving is to clearly understand and define the problem.",
+    "_cacheBreaker": "1755265388249_14"
   },
   {
-    "_id": "grade9_medium_thinking-skills_016",
-    "content": "A sequence follows the rule: multiply by 4, then subtract 2. If it starts with 6, what is the 4th term?",
+    "_id": "thinking_9_medium_1755262177016_016",
+    "scenario": "In a logic class, the teacher explains: 'All mammals are warm-blooded. Whales are mammals.' She asks students to use deductive reasoning.",
+    "content": "If the premises are true, what must be true about the conclusion 'Whales are warm-blooded'? (Question 16)",
     "type": "multiple_choice",
     "options": [
-      "342",
-      "343",
-      "341",
-      "86"
+      "It might be true",
+      "It must be true",
+      "It's probably false",
+      "It cannot be determined"
     ],
-    "correctAnswer": "342",
+    "correctAnswer": "It must be true",
     "subject": "Thinking Skills",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "Starting with 6: 6 → 6×4-2=22 → 22×4-2=86 → 86×4-2=342.",
-    "topic": "Recursive Sequences"
+    "explanation": "In valid deductive reasoning, true premises guarantee a true conclusion.",
+    "_cacheBreaker": "1755265388249_15"
   },
   {
-    "_id": "grade9_medium_thinking-skills_017",
-    "content": "A sequence follows the rule: multiply by 4, then subtract 1. If it starts with 5, what is the 4th term?",
+    "_id": "thinking_9_medium_1755262177016_017",
+    "scenario": "During a school debate, Alex argues: 'We should have longer lunch breaks because everyone in our class wants them.' The opposing team identifies a logical error.",
+    "content": "What type of fallacy is Alex using? (Question 17)",
     "type": "multiple_choice",
     "options": [
-      "299",
-      "300",
-      "298",
-      "75"
+      "Ad hominem",
+      "Bandwagon fallacy",
+      "Straw man",
+      "False dilemma"
     ],
-    "correctAnswer": "299",
+    "correctAnswer": "Bandwagon fallacy",
     "subject": "Thinking Skills",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "Starting with 5: 5 → 5×4-1=19 → 19×4-1=75 → 75×4-1=299.",
-    "topic": "Recursive Sequences"
+    "explanation": "Alex assumes something is right just because many people want it (appeal to popularity).",
+    "_cacheBreaker": "1755265388249_16"
   },
   {
-    "_id": "grade9_medium_thinking-skills_018",
-    "content": "A sequence follows the rule: multiply by 2, then subtract 1. If it starts with 4, what is the 4th term?",
+    "_id": "thinking_9_medium_1755262177016_018",
+    "scenario": "Emma faces this problem: 'The school's computer lab has 20 computers, but 25 students need to use them during the same period.' She needs to find a solution.",
+    "content": "What should Emma do first in problem-solving? (Question 18)",
     "type": "multiple_choice",
     "options": [
-      "25",
-      "26",
-      "24",
-      "13"
+      "Try random solutions",
+      "Clearly define the problem",
+      "Give up immediately",
+      "Ask the principal to buy more computers"
     ],
-    "correctAnswer": "25",
+    "correctAnswer": "Clearly define the problem",
     "subject": "Thinking Skills",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "Starting with 4: 4 → 4×2-1=7 → 7×2-1=13 → 13×2-1=25.",
-    "topic": "Recursive Sequences"
+    "explanation": "The first step in effective problem-solving is to clearly understand and define the problem.",
+    "_cacheBreaker": "1755265388249_17"
   },
   {
-    "_id": "grade9_medium_thinking-skills_019",
-    "content": "A sequence follows the rule: multiply by 4, then subtract 2. If it starts with 5, what is the 4th term?",
+    "_id": "thinking_9_medium_1755262177016_019",
+    "scenario": "In a logic class, the teacher explains: 'All mammals are warm-blooded. Whales are mammals.' She asks students to use deductive reasoning.",
+    "content": "If the premises are true, what must be true about the conclusion 'Whales are warm-blooded'? (Question 19)",
     "type": "multiple_choice",
     "options": [
-      "278",
-      "279",
-      "277",
-      "70"
+      "It might be true",
+      "It must be true",
+      "It's probably false",
+      "It cannot be determined"
     ],
-    "correctAnswer": "278",
+    "correctAnswer": "It must be true",
     "subject": "Thinking Skills",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "Starting with 5: 5 → 5×4-2=18 → 18×4-2=70 → 70×4-2=278.",
-    "topic": "Recursive Sequences"
+    "explanation": "In valid deductive reasoning, true premises guarantee a true conclusion.",
+    "_cacheBreaker": "1755265388249_18"
   },
   {
-    "_id": "grade9_medium_thinking-skills_020",
-    "content": "A sequence follows the rule: multiply by 2, then subtract 1. If it starts with 3, what is the 4th term?",
+    "_id": "thinking_9_medium_1755262177016_020",
+    "scenario": "During a school debate, Alex argues: 'We should have longer lunch breaks because everyone in our class wants them.' The opposing team identifies a logical error.",
+    "content": "What type of fallacy is Alex using? (Question 20)",
     "type": "multiple_choice",
     "options": [
-      "17",
-      "18",
-      "16",
-      "9"
+      "Ad hominem",
+      "Bandwagon fallacy",
+      "Straw man",
+      "False dilemma"
     ],
-    "correctAnswer": "17",
+    "correctAnswer": "Bandwagon fallacy",
     "subject": "Thinking Skills",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "Starting with 3: 3 → 3×2-1=5 → 5×2-1=9 → 9×2-1=17.",
-    "topic": "Recursive Sequences"
+    "explanation": "Alex assumes something is right just because many people want it (appeal to popularity).",
+    "_cacheBreaker": "1755265388249_19"
   }
 ]

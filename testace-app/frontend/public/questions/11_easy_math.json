@@ -1,322 +1,342 @@
 [
   {
-    "_id": "grade11_easy_math_001",
-    "content": "What is 1 + 2?",
+    "_id": "easy11_1755260948241_001",
+    "content": "Find the derivative of f(x) = x²",
     "type": "multiple_choice",
     "options": [
-      "1",
-      "3",
-      "4",
-      "6"
-    ],
-    "correctAnswer": "3",
-    "subject": "Mathematics",
-    "grade": 11,
-    "difficulty": "easy",
-    "explanation": "1 + 2 = 3"
-  },
-  {
-    "_id": "grade11_easy_math_002",
-    "content": "What is 1 × 1?",
-    "type": "multiple_choice",
-    "options": [
-      "0",
-      "1",
-      "2",
+      "x",
+      "2x",
+      "x²",
       "2"
     ],
-    "correctAnswer": "1",
+    "correctAnswer": "2x",
     "subject": "Mathematics",
     "grade": 11,
     "difficulty": "easy",
-    "explanation": "1 × 1 = 1"
+    "explanation": "Using power rule: d/dx[x²] = 2x",
+    "_cacheBreaker": "1755265388134_0"
   },
   {
-    "_id": "grade11_easy_math_003",
-    "content": "What is 1 × 1?",
+    "_id": "easy11_1755260948241_002",
+    "content": "What is ∫2x dx?",
     "type": "multiple_choice",
     "options": [
-      "0",
-      "1",
-      "2",
-      "2"
+      "x²",
+      "x² + C",
+      "2x²",
+      "2x² + C"
     ],
-    "correctAnswer": "1",
+    "correctAnswer": "x² + C",
     "subject": "Mathematics",
     "grade": 11,
     "difficulty": "easy",
-    "explanation": "1 × 1 = 1"
+    "explanation": "∫2x dx = x² + C",
+    "_cacheBreaker": "1755265388134_1"
   },
   {
-    "_id": "grade11_easy_math_004",
-    "content": "What is 1 × 1?",
+    "_id": "easy11_1755260948241_003",
+    "content": "Find lim(x→3) (x + 1)",
     "type": "multiple_choice",
     "options": [
-      "0",
-      "1",
-      "2",
-      "2"
-    ],
-    "correctAnswer": "1",
-    "subject": "Mathematics",
-    "grade": 11,
-    "difficulty": "easy",
-    "explanation": "1 × 1 = 1"
-  },
-  {
-    "_id": "grade11_easy_math_005",
-    "content": "What is 10% of 110?",
-    "type": "multiple_choice",
-    "options": [
-      "6",
-      "11",
-      "16",
-      "120"
-    ],
-    "correctAnswer": "11",
-    "subject": "Mathematics",
-    "grade": 11,
-    "difficulty": "easy",
-    "explanation": "10% of 110 = 0.1 × 110 = 11"
-  },
-  {
-    "_id": "grade11_easy_math_006",
-    "content": "A rectangle has length 2cm and width 3cm. What is its area?",
-    "type": "multiple_choice",
-    "options": [
-      "1 cm²",
-      "6 cm²",
-      "9 cm²",
-      "5 cm²"
-    ],
-    "correctAnswer": "6 cm²",
-    "subject": "Mathematics",
-    "grade": 11,
-    "difficulty": "easy",
-    "explanation": "Area = length × width = 2 × 3 = 6 cm²"
-  },
-  {
-    "_id": "grade11_easy_math_007",
-    "content": "What is 3 × 1?",
-    "type": "multiple_choice",
-    "options": [
-      "2",
       "3",
       "4",
-      "4"
-    ],
-    "correctAnswer": "3",
-    "subject": "Mathematics",
-    "grade": 11,
-    "difficulty": "easy",
-    "explanation": "3 × 1 = 3"
-  },
-  {
-    "_id": "grade11_easy_math_008",
-    "content": "Solve for x: x + 3 = 4",
-    "type": "multiple_choice",
-    "options": [
-      "0",
       "1",
-      "2",
-      "4"
+      "∞"
     ],
-    "correctAnswer": "1",
+    "correctAnswer": "4",
     "subject": "Mathematics",
     "grade": 11,
     "difficulty": "easy",
-    "explanation": "x + 3 = 4, so x = 4 - 3 = 1"
+    "explanation": "Direct substitution: 3 + 1 = 4",
+    "_cacheBreaker": "1755265388134_2"
   },
   {
-    "_id": "grade11_easy_math_009",
-    "content": "What is 3 + 5?",
+    "_id": "easy11_1755260948247_004",
+    "content": "Find the derivative of f(x) = x² (Question 4)",
     "type": "multiple_choice",
     "options": [
-      "6",
-      "8",
-      "9",
-      "11"
+      "x",
+      "2x",
+      "x²",
+      "2"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "2x",
     "subject": "Mathematics",
     "grade": 11,
     "difficulty": "easy",
-    "explanation": "3 + 5 = 8"
+    "explanation": "Using power rule: d/dx[x²] = 2x",
+    "_cacheBreaker": "1755265388134_3"
   },
   {
-    "_id": "grade11_easy_math_010",
-    "content": "What is 3 × 2?",
+    "_id": "easy11_1755260948247_005",
+    "content": "What is ∫2x dx? (Question 5)",
     "type": "multiple_choice",
     "options": [
-      "5",
-      "6",
-      "7",
-      "5"
+      "x²",
+      "x² + C",
+      "2x²",
+      "2x² + C"
     ],
-    "correctAnswer": "6",
+    "correctAnswer": "x² + C",
     "subject": "Mathematics",
     "grade": 11,
     "difficulty": "easy",
-    "explanation": "3 × 2 = 6"
+    "explanation": "∫2x dx = x² + C",
+    "_cacheBreaker": "1755265388134_4"
   },
   {
-    "_id": "grade11_easy_math_011",
-    "content": "What is 3 × 2?",
+    "_id": "easy11_1755260948247_006",
+    "content": "Find lim(x→3) (x + 1) (Question 6)",
     "type": "multiple_choice",
     "options": [
-      "5",
-      "6",
-      "7",
-      "5"
-    ],
-    "correctAnswer": "6",
-    "subject": "Mathematics",
-    "grade": 11,
-    "difficulty": "easy",
-    "explanation": "3 × 2 = 6"
-  },
-  {
-    "_id": "grade11_easy_math_012",
-    "content": "What is 3 × 2?",
-    "type": "multiple_choice",
-    "options": [
-      "5",
-      "6",
-      "7",
-      "5"
-    ],
-    "correctAnswer": "6",
-    "subject": "Mathematics",
-    "grade": 11,
-    "difficulty": "easy",
-    "explanation": "3 × 2 = 6"
-  },
-  {
-    "_id": "grade11_easy_math_013",
-    "content": "What is 12% of 140?",
-    "type": "multiple_choice",
-    "options": [
-      "11.8",
-      "16.8",
-      "21.8",
-      "152"
-    ],
-    "correctAnswer": "16.8",
-    "subject": "Mathematics",
-    "grade": 11,
-    "difficulty": "easy",
-    "explanation": "12% of 140 = 0.12 × 140 = 16.8"
-  },
-  {
-    "_id": "grade11_easy_math_014",
-    "content": "A rectangle has length 4cm and width 6cm. What is its area?",
-    "type": "multiple_choice",
-    "options": [
-      "19 cm²",
-      "24 cm²",
-      "27 cm²",
-      "10 cm²"
-    ],
-    "correctAnswer": "24 cm²",
-    "subject": "Mathematics",
-    "grade": 11,
-    "difficulty": "easy",
-    "explanation": "Area = length × width = 4 × 6 = 24 cm²"
-  },
-  {
-    "_id": "grade11_easy_math_015",
-    "content": "What is 5 × 2?",
-    "type": "multiple_choice",
-    "options": [
-      "9",
-      "10",
-      "11",
-      "7"
-    ],
-    "correctAnswer": "10",
-    "subject": "Mathematics",
-    "grade": 11,
-    "difficulty": "easy",
-    "explanation": "5 × 2 = 10"
-  },
-  {
-    "_id": "grade11_easy_math_016",
-    "content": "Solve for x: x + 6 = 9",
-    "type": "multiple_choice",
-    "options": [
-      "2",
       "3",
       "4",
-      "9"
+      "1",
+      "∞"
     ],
-    "correctAnswer": "3",
+    "correctAnswer": "4",
     "subject": "Mathematics",
     "grade": 11,
     "difficulty": "easy",
-    "explanation": "x + 6 = 9, so x = 9 - 6 = 3"
+    "explanation": "Direct substitution: 3 + 1 = 4",
+    "_cacheBreaker": "1755265388134_5"
   },
   {
-    "_id": "grade11_easy_math_017",
-    "content": "What is 5 + 8?",
+    "_id": "easy11_1755260948247_007",
+    "content": "Find the derivative of f(x) = x² (Question 7)",
     "type": "multiple_choice",
     "options": [
-      "11",
-      "13",
-      "14",
-      "16"
+      "x",
+      "2x",
+      "x²",
+      "2"
     ],
-    "correctAnswer": "13",
+    "correctAnswer": "2x",
     "subject": "Mathematics",
     "grade": 11,
     "difficulty": "easy",
-    "explanation": "5 + 8 = 13"
+    "explanation": "Using power rule: d/dx[x²] = 2x",
+    "_cacheBreaker": "1755265388134_6"
   },
   {
-    "_id": "grade11_easy_math_018",
-    "content": "What is 5 × 3?",
+    "_id": "easy11_1755260948247_008",
+    "content": "What is ∫2x dx? (Question 8)",
     "type": "multiple_choice",
     "options": [
-      "14",
-      "15",
-      "16",
-      "8"
+      "x²",
+      "x² + C",
+      "2x²",
+      "2x² + C"
     ],
-    "correctAnswer": "15",
+    "correctAnswer": "x² + C",
     "subject": "Mathematics",
     "grade": 11,
     "difficulty": "easy",
-    "explanation": "5 × 3 = 15"
+    "explanation": "∫2x dx = x² + C",
+    "_cacheBreaker": "1755265388134_7"
   },
   {
-    "_id": "grade11_easy_math_019",
-    "content": "What is 5 × 3?",
+    "_id": "easy11_1755260948247_009",
+    "content": "Find lim(x→3) (x + 1) (Question 9)",
     "type": "multiple_choice",
     "options": [
-      "14",
-      "15",
-      "16",
-      "8"
+      "3",
+      "4",
+      "1",
+      "∞"
     ],
-    "correctAnswer": "15",
+    "correctAnswer": "4",
     "subject": "Mathematics",
     "grade": 11,
     "difficulty": "easy",
-    "explanation": "5 × 3 = 15"
+    "explanation": "Direct substitution: 3 + 1 = 4",
+    "_cacheBreaker": "1755265388134_8"
   },
   {
-    "_id": "grade11_easy_math_020",
-    "content": "What is 5 × 3?",
+    "_id": "easy11_1755260948247_010",
+    "content": "Find the derivative of f(x) = x² (Question 10)",
     "type": "multiple_choice",
     "options": [
-      "14",
-      "15",
-      "16",
-      "8"
+      "x",
+      "2x",
+      "x²",
+      "2"
     ],
-    "correctAnswer": "15",
+    "correctAnswer": "2x",
     "subject": "Mathematics",
     "grade": 11,
     "difficulty": "easy",
-    "explanation": "5 × 3 = 15"
+    "explanation": "Using power rule: d/dx[x²] = 2x",
+    "_cacheBreaker": "1755265388134_9"
+  },
+  {
+    "_id": "easy11_1755260948247_011",
+    "content": "What is ∫2x dx? (Question 11)",
+    "type": "multiple_choice",
+    "options": [
+      "x²",
+      "x² + C",
+      "2x²",
+      "2x² + C"
+    ],
+    "correctAnswer": "x² + C",
+    "subject": "Mathematics",
+    "grade": 11,
+    "difficulty": "easy",
+    "explanation": "∫2x dx = x² + C",
+    "_cacheBreaker": "1755265388134_10"
+  },
+  {
+    "_id": "easy11_1755260948247_012",
+    "content": "Find lim(x→3) (x + 1) (Question 12)",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "1",
+      "∞"
+    ],
+    "correctAnswer": "4",
+    "subject": "Mathematics",
+    "grade": 11,
+    "difficulty": "easy",
+    "explanation": "Direct substitution: 3 + 1 = 4",
+    "_cacheBreaker": "1755265388134_11"
+  },
+  {
+    "_id": "easy11_1755260948247_013",
+    "content": "Find the derivative of f(x) = x² (Question 13)",
+    "type": "multiple_choice",
+    "options": [
+      "x",
+      "2x",
+      "x²",
+      "2"
+    ],
+    "correctAnswer": "2x",
+    "subject": "Mathematics",
+    "grade": 11,
+    "difficulty": "easy",
+    "explanation": "Using power rule: d/dx[x²] = 2x",
+    "_cacheBreaker": "1755265388134_12"
+  },
+  {
+    "_id": "easy11_1755260948247_014",
+    "content": "What is ∫2x dx? (Question 14)",
+    "type": "multiple_choice",
+    "options": [
+      "x²",
+      "x² + C",
+      "2x²",
+      "2x² + C"
+    ],
+    "correctAnswer": "x² + C",
+    "subject": "Mathematics",
+    "grade": 11,
+    "difficulty": "easy",
+    "explanation": "∫2x dx = x² + C",
+    "_cacheBreaker": "1755265388134_13"
+  },
+  {
+    "_id": "easy11_1755260948247_015",
+    "content": "Find lim(x→3) (x + 1) (Question 15)",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "1",
+      "∞"
+    ],
+    "correctAnswer": "4",
+    "subject": "Mathematics",
+    "grade": 11,
+    "difficulty": "easy",
+    "explanation": "Direct substitution: 3 + 1 = 4",
+    "_cacheBreaker": "1755265388134_14"
+  },
+  {
+    "_id": "easy11_1755260948247_016",
+    "content": "Find the derivative of f(x) = x² (Question 16)",
+    "type": "multiple_choice",
+    "options": [
+      "x",
+      "2x",
+      "x²",
+      "2"
+    ],
+    "correctAnswer": "2x",
+    "subject": "Mathematics",
+    "grade": 11,
+    "difficulty": "easy",
+    "explanation": "Using power rule: d/dx[x²] = 2x",
+    "_cacheBreaker": "1755265388134_15"
+  },
+  {
+    "_id": "easy11_1755260948247_017",
+    "content": "What is ∫2x dx? (Question 17)",
+    "type": "multiple_choice",
+    "options": [
+      "x²",
+      "x² + C",
+      "2x²",
+      "2x² + C"
+    ],
+    "correctAnswer": "x² + C",
+    "subject": "Mathematics",
+    "grade": 11,
+    "difficulty": "easy",
+    "explanation": "∫2x dx = x² + C",
+    "_cacheBreaker": "1755265388134_16"
+  },
+  {
+    "_id": "easy11_1755260948247_018",
+    "content": "Find lim(x→3) (x + 1) (Question 18)",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "1",
+      "∞"
+    ],
+    "correctAnswer": "4",
+    "subject": "Mathematics",
+    "grade": 11,
+    "difficulty": "easy",
+    "explanation": "Direct substitution: 3 + 1 = 4",
+    "_cacheBreaker": "1755265388134_17"
+  },
+  {
+    "_id": "easy11_1755260948247_019",
+    "content": "Find the derivative of f(x) = x² (Question 19)",
+    "type": "multiple_choice",
+    "options": [
+      "x",
+      "2x",
+      "x²",
+      "2"
+    ],
+    "correctAnswer": "2x",
+    "subject": "Mathematics",
+    "grade": 11,
+    "difficulty": "easy",
+    "explanation": "Using power rule: d/dx[x²] = 2x",
+    "_cacheBreaker": "1755265388134_18"
+  },
+  {
+    "_id": "easy11_1755260948247_020",
+    "content": "What is ∫2x dx? (Question 20)",
+    "type": "multiple_choice",
+    "options": [
+      "x²",
+      "x² + C",
+      "2x²",
+      "2x² + C"
+    ],
+    "correctAnswer": "x² + C",
+    "subject": "Mathematics",
+    "grade": 11,
+    "difficulty": "easy",
+    "explanation": "∫2x dx = x² + C",
+    "_cacheBreaker": "1755265388134_19"
   }
 ]

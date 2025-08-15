@@ -1,23 +1,7 @@
 [
   {
-    "_id": "grade8_easy_math_001",
-    "content": "Solve for x: 2x = 18",
-    "type": "multiple_choice",
-    "options": [
-      "x = 7",
-      "x = 9",
-      "x = 16",
-      "x = 36"
-    ],
-    "correctAnswer": "x = 9",
-    "subject": "Mathematics",
-    "grade": 8,
-    "difficulty": "easy",
-    "explanation": "2x = 18, so x = 18 ÷ 2 = 9"
-  },
-  {
-    "_id": "grade8_easy_math_002",
-    "content": "What is the gradient of y = 3x + 2?",
+    "_id": "easy8_1755260948241_001",
+    "content": "Find the slope of y = 3x + 2",
     "type": "multiple_choice",
     "options": [
       "2",
@@ -29,59 +13,46 @@
     "subject": "Mathematics",
     "grade": 8,
     "difficulty": "easy",
-    "explanation": "In y = mx + c form, the gradient is m = 3"
+    "explanation": "In y = mx + b form, m is the slope, so slope = 3",
+    "_cacheBreaker": "1755265388227_0"
   },
   {
-    "_id": "grade8_easy_math_003",
-    "content": "Expand: 4(x + 3)",
+    "_id": "easy8_1755260948241_002",
+    "content": "Simplify: √16",
     "type": "multiple_choice",
     "options": [
-      "4x + 3",
-      "4x + 12",
-      "x + 12",
-      "4x + 7"
+      "2",
+      "4",
+      "8",
+      "256"
     ],
-    "correctAnswer": "4x + 12",
+    "correctAnswer": "4",
     "subject": "Mathematics",
     "grade": 8,
     "difficulty": "easy",
-    "explanation": "4(x + 3) = 4x + 4(3) = 4x + 12"
+    "explanation": "√16 = 4 because 4² = 16",
+    "_cacheBreaker": "1755265388227_1"
   },
   {
-    "_id": "grade8_easy_math_004",
-    "content": "What is 15% of 200?",
+    "_id": "easy8_1755260948241_003",
+    "content": "What is the y-intercept of y = 2x - 5?",
     "type": "multiple_choice",
     "options": [
-      "25",
-      "30",
-      "35",
-      "40"
+      "2",
+      "-5",
+      "5",
+      "-2"
     ],
-    "correctAnswer": "30",
+    "correctAnswer": "-5",
     "subject": "Mathematics",
     "grade": 8,
     "difficulty": "easy",
-    "explanation": "15% of 200 = 0.15 × 200 = 30"
+    "explanation": "In y = mx + b form, b is the y-intercept, so y-intercept = -5",
+    "_cacheBreaker": "1755265388227_2"
   },
   {
-    "_id": "grade8_easy_math_005",
-    "content": "Solve for x: 2x = 18",
-    "type": "multiple_choice",
-    "options": [
-      "x = 7",
-      "x = 9",
-      "x = 16",
-      "x = 36"
-    ],
-    "correctAnswer": "x = 9",
-    "subject": "Mathematics",
-    "grade": 8,
-    "difficulty": "easy",
-    "explanation": "2x = 18, so x = 18 ÷ 2 = 9"
-  },
-  {
-    "_id": "grade8_easy_math_006",
-    "content": "What is the gradient of y = 3x + 2?",
+    "_id": "easy8_1755260948245_004",
+    "content": "Find the slope of y = 3x + 2 (Question 4)",
     "type": "multiple_choice",
     "options": [
       "2",
@@ -93,59 +64,46 @@
     "subject": "Mathematics",
     "grade": 8,
     "difficulty": "easy",
-    "explanation": "In y = mx + c form, the gradient is m = 3"
+    "explanation": "In y = mx + b form, m is the slope, so slope = 3",
+    "_cacheBreaker": "1755265388227_3"
   },
   {
-    "_id": "grade8_easy_math_007",
-    "content": "Expand: 4(x + 3)",
+    "_id": "easy8_1755260948245_005",
+    "content": "Simplify: √16 (Question 5)",
     "type": "multiple_choice",
     "options": [
-      "4x + 3",
-      "4x + 12",
-      "x + 12",
-      "4x + 7"
+      "2",
+      "4",
+      "8",
+      "256"
     ],
-    "correctAnswer": "4x + 12",
+    "correctAnswer": "4",
     "subject": "Mathematics",
     "grade": 8,
     "difficulty": "easy",
-    "explanation": "4(x + 3) = 4x + 4(3) = 4x + 12"
+    "explanation": "√16 = 4 because 4² = 16",
+    "_cacheBreaker": "1755265388227_4"
   },
   {
-    "_id": "grade8_easy_math_008",
-    "content": "What is 15% of 200?",
+    "_id": "easy8_1755260948245_006",
+    "content": "What is the y-intercept of y = 2x - 5? (Question 6)",
     "type": "multiple_choice",
     "options": [
-      "25",
-      "30",
-      "35",
-      "40"
+      "2",
+      "-5",
+      "5",
+      "-2"
     ],
-    "correctAnswer": "30",
+    "correctAnswer": "-5",
     "subject": "Mathematics",
     "grade": 8,
     "difficulty": "easy",
-    "explanation": "15% of 200 = 0.15 × 200 = 30"
+    "explanation": "In y = mx + b form, b is the y-intercept, so y-intercept = -5",
+    "_cacheBreaker": "1755265388227_5"
   },
   {
-    "_id": "grade8_easy_math_009",
-    "content": "Solve for x: 2x = 18",
-    "type": "multiple_choice",
-    "options": [
-      "x = 7",
-      "x = 9",
-      "x = 16",
-      "x = 36"
-    ],
-    "correctAnswer": "x = 9",
-    "subject": "Mathematics",
-    "grade": 8,
-    "difficulty": "easy",
-    "explanation": "2x = 18, so x = 18 ÷ 2 = 9"
-  },
-  {
-    "_id": "grade8_easy_math_010",
-    "content": "What is the gradient of y = 3x + 2?",
+    "_id": "easy8_1755260948245_007",
+    "content": "Find the slope of y = 3x + 2 (Question 7)",
     "type": "multiple_choice",
     "options": [
       "2",
@@ -157,59 +115,46 @@
     "subject": "Mathematics",
     "grade": 8,
     "difficulty": "easy",
-    "explanation": "In y = mx + c form, the gradient is m = 3"
+    "explanation": "In y = mx + b form, m is the slope, so slope = 3",
+    "_cacheBreaker": "1755265388227_6"
   },
   {
-    "_id": "grade8_easy_math_011",
-    "content": "Expand: 4(x + 3)",
+    "_id": "easy8_1755260948245_008",
+    "content": "Simplify: √16 (Question 8)",
     "type": "multiple_choice",
     "options": [
-      "4x + 3",
-      "4x + 12",
-      "x + 12",
-      "4x + 7"
+      "2",
+      "4",
+      "8",
+      "256"
     ],
-    "correctAnswer": "4x + 12",
+    "correctAnswer": "4",
     "subject": "Mathematics",
     "grade": 8,
     "difficulty": "easy",
-    "explanation": "4(x + 3) = 4x + 4(3) = 4x + 12"
+    "explanation": "√16 = 4 because 4² = 16",
+    "_cacheBreaker": "1755265388227_7"
   },
   {
-    "_id": "grade8_easy_math_012",
-    "content": "What is 15% of 200?",
+    "_id": "easy8_1755260948245_009",
+    "content": "What is the y-intercept of y = 2x - 5? (Question 9)",
     "type": "multiple_choice",
     "options": [
-      "25",
-      "30",
-      "35",
-      "40"
+      "2",
+      "-5",
+      "5",
+      "-2"
     ],
-    "correctAnswer": "30",
+    "correctAnswer": "-5",
     "subject": "Mathematics",
     "grade": 8,
     "difficulty": "easy",
-    "explanation": "15% of 200 = 0.15 × 200 = 30"
+    "explanation": "In y = mx + b form, b is the y-intercept, so y-intercept = -5",
+    "_cacheBreaker": "1755265388227_8"
   },
   {
-    "_id": "grade8_easy_math_013",
-    "content": "Solve for x: 2x = 18",
-    "type": "multiple_choice",
-    "options": [
-      "x = 7",
-      "x = 9",
-      "x = 16",
-      "x = 36"
-    ],
-    "correctAnswer": "x = 9",
-    "subject": "Mathematics",
-    "grade": 8,
-    "difficulty": "easy",
-    "explanation": "2x = 18, so x = 18 ÷ 2 = 9"
-  },
-  {
-    "_id": "grade8_easy_math_014",
-    "content": "What is the gradient of y = 3x + 2?",
+    "_id": "easy8_1755260948245_010",
+    "content": "Find the slope of y = 3x + 2 (Question 10)",
     "type": "multiple_choice",
     "options": [
       "2",
@@ -221,59 +166,46 @@
     "subject": "Mathematics",
     "grade": 8,
     "difficulty": "easy",
-    "explanation": "In y = mx + c form, the gradient is m = 3"
+    "explanation": "In y = mx + b form, m is the slope, so slope = 3",
+    "_cacheBreaker": "1755265388227_9"
   },
   {
-    "_id": "grade8_easy_math_015",
-    "content": "Expand: 4(x + 3)",
+    "_id": "easy8_1755260948245_011",
+    "content": "Simplify: √16 (Question 11)",
     "type": "multiple_choice",
     "options": [
-      "4x + 3",
-      "4x + 12",
-      "x + 12",
-      "4x + 7"
+      "2",
+      "4",
+      "8",
+      "256"
     ],
-    "correctAnswer": "4x + 12",
+    "correctAnswer": "4",
     "subject": "Mathematics",
     "grade": 8,
     "difficulty": "easy",
-    "explanation": "4(x + 3) = 4x + 4(3) = 4x + 12"
+    "explanation": "√16 = 4 because 4² = 16",
+    "_cacheBreaker": "1755265388227_10"
   },
   {
-    "_id": "grade8_easy_math_016",
-    "content": "What is 15% of 200?",
+    "_id": "easy8_1755260948245_012",
+    "content": "What is the y-intercept of y = 2x - 5? (Question 12)",
     "type": "multiple_choice",
     "options": [
-      "25",
-      "30",
-      "35",
-      "40"
+      "2",
+      "-5",
+      "5",
+      "-2"
     ],
-    "correctAnswer": "30",
+    "correctAnswer": "-5",
     "subject": "Mathematics",
     "grade": 8,
     "difficulty": "easy",
-    "explanation": "15% of 200 = 0.15 × 200 = 30"
+    "explanation": "In y = mx + b form, b is the y-intercept, so y-intercept = -5",
+    "_cacheBreaker": "1755265388227_11"
   },
   {
-    "_id": "grade8_easy_math_017",
-    "content": "Solve for x: 2x = 18",
-    "type": "multiple_choice",
-    "options": [
-      "x = 7",
-      "x = 9",
-      "x = 16",
-      "x = 36"
-    ],
-    "correctAnswer": "x = 9",
-    "subject": "Mathematics",
-    "grade": 8,
-    "difficulty": "easy",
-    "explanation": "2x = 18, so x = 18 ÷ 2 = 9"
-  },
-  {
-    "_id": "grade8_easy_math_018",
-    "content": "What is the gradient of y = 3x + 2?",
+    "_id": "easy8_1755260948245_013",
+    "content": "Find the slope of y = 3x + 2 (Question 13)",
     "type": "multiple_choice",
     "options": [
       "2",
@@ -285,38 +217,126 @@
     "subject": "Mathematics",
     "grade": 8,
     "difficulty": "easy",
-    "explanation": "In y = mx + c form, the gradient is m = 3"
+    "explanation": "In y = mx + b form, m is the slope, so slope = 3",
+    "_cacheBreaker": "1755265388227_12"
   },
   {
-    "_id": "grade8_easy_math_019",
-    "content": "Expand: 4(x + 3)",
+    "_id": "easy8_1755260948245_014",
+    "content": "Simplify: √16 (Question 14)",
     "type": "multiple_choice",
     "options": [
-      "4x + 3",
-      "4x + 12",
-      "x + 12",
-      "4x + 7"
+      "2",
+      "4",
+      "8",
+      "256"
     ],
-    "correctAnswer": "4x + 12",
+    "correctAnswer": "4",
     "subject": "Mathematics",
     "grade": 8,
     "difficulty": "easy",
-    "explanation": "4(x + 3) = 4x + 4(3) = 4x + 12"
+    "explanation": "√16 = 4 because 4² = 16",
+    "_cacheBreaker": "1755265388227_13"
   },
   {
-    "_id": "grade8_easy_math_020",
-    "content": "What is 15% of 200?",
+    "_id": "easy8_1755260948245_015",
+    "content": "What is the y-intercept of y = 2x - 5? (Question 15)",
     "type": "multiple_choice",
     "options": [
-      "25",
-      "30",
-      "35",
-      "40"
+      "2",
+      "-5",
+      "5",
+      "-2"
     ],
-    "correctAnswer": "30",
+    "correctAnswer": "-5",
     "subject": "Mathematics",
     "grade": 8,
     "difficulty": "easy",
-    "explanation": "15% of 200 = 0.15 × 200 = 30"
+    "explanation": "In y = mx + b form, b is the y-intercept, so y-intercept = -5",
+    "_cacheBreaker": "1755265388227_14"
+  },
+  {
+    "_id": "easy8_1755260948245_016",
+    "content": "Find the slope of y = 3x + 2 (Question 16)",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "3",
+      "5",
+      "3x"
+    ],
+    "correctAnswer": "3",
+    "subject": "Mathematics",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "In y = mx + b form, m is the slope, so slope = 3",
+    "_cacheBreaker": "1755265388227_15"
+  },
+  {
+    "_id": "easy8_1755260948245_017",
+    "content": "Simplify: √16 (Question 17)",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "4",
+      "8",
+      "256"
+    ],
+    "correctAnswer": "4",
+    "subject": "Mathematics",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "√16 = 4 because 4² = 16",
+    "_cacheBreaker": "1755265388227_16"
+  },
+  {
+    "_id": "easy8_1755260948245_018",
+    "content": "What is the y-intercept of y = 2x - 5? (Question 18)",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "-5",
+      "5",
+      "-2"
+    ],
+    "correctAnswer": "-5",
+    "subject": "Mathematics",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "In y = mx + b form, b is the y-intercept, so y-intercept = -5",
+    "_cacheBreaker": "1755265388227_17"
+  },
+  {
+    "_id": "easy8_1755260948245_019",
+    "content": "Find the slope of y = 3x + 2 (Question 19)",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "3",
+      "5",
+      "3x"
+    ],
+    "correctAnswer": "3",
+    "subject": "Mathematics",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "In y = mx + b form, m is the slope, so slope = 3",
+    "_cacheBreaker": "1755265388227_18"
+  },
+  {
+    "_id": "easy8_1755260948245_020",
+    "content": "Simplify: √16 (Question 20)",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "4",
+      "8",
+      "256"
+    ],
+    "correctAnswer": "4",
+    "subject": "Mathematics",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "√16 = 4 because 4² = 16",
+    "_cacheBreaker": "1755265388227_19"
   }
 ]

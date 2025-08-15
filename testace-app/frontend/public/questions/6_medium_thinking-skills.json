@@ -1,342 +1,362 @@
 [
   {
-    "_id": "grade6_medium_thinking-skills_001",
-    "content": "A box contains 6 red balls and 4 blue balls. If you pick one ball without looking, what is the probability it will be red?",
+    "_id": "thinking_6_medium_1755262177009_001",
+    "scenario": "Maria notices this number pattern: 2, 4, 8, 16, ___. Each number seems to follow a rule.",
+    "content": "What number should come next in this sequence?",
     "type": "multiple_choice",
     "options": [
-      "6/10",
-      "4/10",
-      "1/2",
-      "6/4"
-    ],
-    "correctAnswer": "6/10",
-    "subject": "Thinking Skills",
-    "grade": 6,
-    "difficulty": "medium",
-    "explanation": "There are 6 red balls out of 10 total balls, so the probability is 6/10.",
-    "topic": "Basic Probability"
-  },
-  {
-    "_id": "grade6_medium_thinking-skills_002",
-    "content": "If all birds are animals, and Charlie is a bird, what can we conclude?",
-    "type": "multiple_choice",
-    "options": [
-      "Charlie is not an animal",
-      "Charlie is an animal",
-      "Some birds are not animals",
-      "Cannot tell"
-    ],
-    "correctAnswer": "Charlie is an animal",
-    "subject": "Thinking Skills",
-    "grade": 6,
-    "difficulty": "medium",
-    "explanation": "Since all birds are animals and Charlie is a bird, Charlie must be an animal.",
-    "topic": "Logical Deduction"
-  },
-  {
-    "_id": "grade6_medium_thinking-skills_003",
-    "content": "A farmer has chickens and rabbits. He counts 11 heads and 24 legs. How many chickens are there?",
-    "type": "multiple_choice",
-    "options": [
-      "10",
-      "1",
-      "11",
-      "12"
-    ],
-    "correctAnswer": "10",
-    "subject": "Thinking Skills",
-    "grade": 6,
-    "difficulty": "medium",
-    "explanation": "If all were chickens: 11×2=22 legs. Extra legs: 24-22=2. Each rabbit adds 2 extra legs, so 1 rabbits. Therefore 11-1=10 chickens.",
-    "topic": "Problem Solving with Systems"
-  },
-  {
-    "_id": "grade6_medium_thinking-skills_004",
-    "content": "A box contains 4 red balls and 5 blue balls. If you pick one ball without looking, what is the probability it will be red?",
-    "type": "multiple_choice",
-    "options": [
-      "4/9",
-      "5/9",
-      "1/2",
-      "4/5"
-    ],
-    "correctAnswer": "4/9",
-    "subject": "Thinking Skills",
-    "grade": 6,
-    "difficulty": "medium",
-    "explanation": "There are 4 red balls out of 9 total balls, so the probability is 4/9.",
-    "topic": "Basic Probability"
-  },
-  {
-    "_id": "grade6_medium_thinking-skills_005",
-    "content": "If all birds are animals, and Fluffy is a bird, what can we conclude?",
-    "type": "multiple_choice",
-    "options": [
-      "Fluffy is not an animal",
-      "Fluffy is an animal",
-      "Some birds are not animals",
-      "Cannot tell"
-    ],
-    "correctAnswer": "Fluffy is an animal",
-    "subject": "Thinking Skills",
-    "grade": 6,
-    "difficulty": "medium",
-    "explanation": "Since all birds are animals and Fluffy is a bird, Fluffy must be an animal.",
-    "topic": "Logical Deduction"
-  },
-  {
-    "_id": "grade6_medium_thinking-skills_006",
-    "content": "A farmer has chickens and rabbits. He counts 12 heads and 40 legs. How many chickens are there?",
-    "type": "multiple_choice",
-    "options": [
-      "4",
-      "8",
-      "12",
-      "20"
-    ],
-    "correctAnswer": "4",
-    "subject": "Thinking Skills",
-    "grade": 6,
-    "difficulty": "medium",
-    "explanation": "If all were chickens: 12×2=24 legs. Extra legs: 40-24=16. Each rabbit adds 2 extra legs, so 8 rabbits. Therefore 12-8=4 chickens.",
-    "topic": "Problem Solving with Systems"
-  },
-  {
-    "_id": "grade6_medium_thinking-skills_007",
-    "content": "A box contains 4 red balls and 3 blue balls. If you pick one ball without looking, what is the probability it will be red?",
-    "type": "multiple_choice",
-    "options": [
-      "4/7",
-      "3/7",
-      "1/2",
-      "4/3"
-    ],
-    "correctAnswer": "4/7",
-    "subject": "Thinking Skills",
-    "grade": 6,
-    "difficulty": "medium",
-    "explanation": "There are 4 red balls out of 7 total balls, so the probability is 4/7.",
-    "topic": "Basic Probability"
-  },
-  {
-    "_id": "grade6_medium_thinking-skills_008",
-    "content": "If all cats are animals, and Buddy is a cat, what can we conclude?",
-    "type": "multiple_choice",
-    "options": [
-      "Buddy is not an animal",
-      "Buddy is an animal",
-      "Some cats are not animals",
-      "Cannot tell"
-    ],
-    "correctAnswer": "Buddy is an animal",
-    "subject": "Thinking Skills",
-    "grade": 6,
-    "difficulty": "medium",
-    "explanation": "Since all cats are animals and Buddy is a cat, Buddy must be an animal.",
-    "topic": "Logical Deduction"
-  },
-  {
-    "_id": "grade6_medium_thinking-skills_009",
-    "content": "A farmer has chickens and rabbits. He counts 11 heads and 22 legs. How many chickens are there?",
-    "type": "multiple_choice",
-    "options": [
-      "11",
-      "0",
-      "11",
-      "11"
-    ],
-    "correctAnswer": "11",
-    "subject": "Thinking Skills",
-    "grade": 6,
-    "difficulty": "medium",
-    "explanation": "If all were chickens: 11×2=22 legs. Extra legs: 22-22=0. Each rabbit adds 2 extra legs, so 0 rabbits. Therefore 11-0=11 chickens.",
-    "topic": "Problem Solving with Systems"
-  },
-  {
-    "_id": "grade6_medium_thinking-skills_010",
-    "content": "A box contains 9 red balls and 5 blue balls. If you pick one ball without looking, what is the probability it will be red?",
-    "type": "multiple_choice",
-    "options": [
-      "9/14",
-      "5/14",
-      "1/2",
-      "9/5"
-    ],
-    "correctAnswer": "9/14",
-    "subject": "Thinking Skills",
-    "grade": 6,
-    "difficulty": "medium",
-    "explanation": "There are 9 red balls out of 14 total balls, so the probability is 9/14.",
-    "topic": "Basic Probability"
-  },
-  {
-    "_id": "grade6_medium_thinking-skills_011",
-    "content": "If all birds are animals, and Buddy is a bird, what can we conclude?",
-    "type": "multiple_choice",
-    "options": [
-      "Buddy is not an animal",
-      "Buddy is an animal",
-      "Some birds are not animals",
-      "Cannot tell"
-    ],
-    "correctAnswer": "Buddy is an animal",
-    "subject": "Thinking Skills",
-    "grade": 6,
-    "difficulty": "medium",
-    "explanation": "Since all birds are animals and Buddy is a bird, Buddy must be an animal.",
-    "topic": "Logical Deduction"
-  },
-  {
-    "_id": "grade6_medium_thinking-skills_012",
-    "content": "A farmer has chickens and rabbits. He counts 9 heads and 30 legs. How many chickens are there?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "6",
-      "9",
-      "15"
-    ],
-    "correctAnswer": "3",
-    "subject": "Thinking Skills",
-    "grade": 6,
-    "difficulty": "medium",
-    "explanation": "If all were chickens: 9×2=18 legs. Extra legs: 30-18=12. Each rabbit adds 2 extra legs, so 6 rabbits. Therefore 9-6=3 chickens.",
-    "topic": "Problem Solving with Systems"
-  },
-  {
-    "_id": "grade6_medium_thinking-skills_013",
-    "content": "A box contains 5 red balls and 4 blue balls. If you pick one ball without looking, what is the probability it will be red?",
-    "type": "multiple_choice",
-    "options": [
-      "5/9",
-      "4/9",
-      "1/2",
-      "5/4"
-    ],
-    "correctAnswer": "5/9",
-    "subject": "Thinking Skills",
-    "grade": 6,
-    "difficulty": "medium",
-    "explanation": "There are 5 red balls out of 9 total balls, so the probability is 5/9.",
-    "topic": "Basic Probability"
-  },
-  {
-    "_id": "grade6_medium_thinking-skills_014",
-    "content": "If all cats are animals, and Fluffy is a cat, what can we conclude?",
-    "type": "multiple_choice",
-    "options": [
-      "Fluffy is not an animal",
-      "Fluffy is an animal",
-      "Some cats are not animals",
-      "Cannot tell"
-    ],
-    "correctAnswer": "Fluffy is an animal",
-    "subject": "Thinking Skills",
-    "grade": 6,
-    "difficulty": "medium",
-    "explanation": "Since all cats are animals and Fluffy is a cat, Fluffy must be an animal.",
-    "topic": "Logical Deduction"
-  },
-  {
-    "_id": "grade6_medium_thinking-skills_015",
-    "content": "A farmer has chickens and rabbits. He counts 10 heads and 36 legs. How many chickens are there?",
-    "type": "multiple_choice",
-    "options": [
-      "2",
-      "8",
-      "10",
+      "24",
+      "32",
+      "20",
       "18"
     ],
-    "correctAnswer": "2",
+    "correctAnswer": "32",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "medium",
-    "explanation": "If all were chickens: 10×2=20 legs. Extra legs: 36-20=16. Each rabbit adds 2 extra legs, so 8 rabbits. Therefore 10-8=2 chickens.",
-    "topic": "Problem Solving with Systems"
+    "explanation": "Each number doubles: 2×2=4, 4×2=8, 8×2=16, 16×2=32",
+    "_cacheBreaker": "1755265388209_0"
   },
   {
-    "_id": "grade6_medium_thinking-skills_016",
-    "content": "A box contains 7 red balls and 5 blue balls. If you pick one ball without looking, what is the probability it will be red?",
+    "_id": "thinking_6_medium_1755262177009_002",
+    "scenario": "Detective Johnson knows: 'Some cats are black' and 'Some black things are cars.' He's trying to solve a case.",
+    "content": "Can Detective Johnson conclude that some cats are cars?",
     "type": "multiple_choice",
     "options": [
-      "7/12",
-      "5/12",
-      "1/2",
-      "7/5"
+      "Yes, definitely",
+      "No, this doesn't follow logically",
+      "Only on weekends",
+      "Maybe, if he's lucky"
     ],
-    "correctAnswer": "7/12",
+    "correctAnswer": "No, this doesn't follow logically",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "medium",
-    "explanation": "There are 7 red balls out of 12 total balls, so the probability is 7/12.",
-    "topic": "Basic Probability"
+    "explanation": "This is a logical fallacy - just because cats and cars can both be black doesn't mean cats are cars.",
+    "_cacheBreaker": "1755265388209_1"
   },
   {
-    "_id": "grade6_medium_thinking-skills_017",
-    "content": "If all dogs are animals, and Fluffy is a dog, what can we conclude?",
+    "_id": "thinking_6_medium_1755262177009_003",
+    "scenario": "The weather report says: 'Since it's raining heavily, the outdoor concert will be cancelled.' The reporter made an assumption.",
+    "content": "What assumption did the reporter make?",
     "type": "multiple_choice",
     "options": [
-      "Fluffy is not an animal",
-      "Fluffy is an animal",
-      "Some dogs are not animals",
-      "Cannot tell"
+      "Rain is wet",
+      "Concerts happen outside",
+      "People don't like getting wet",
+      "Umbrellas are expensive"
     ],
-    "correctAnswer": "Fluffy is an animal",
+    "correctAnswer": "People don't like getting wet",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "medium",
-    "explanation": "Since all dogs are animals and Fluffy is a dog, Fluffy must be an animal.",
-    "topic": "Logical Deduction"
+    "explanation": "The reporter assumed people won't attend an outdoor concert in heavy rain.",
+    "_cacheBreaker": "1755265388209_2"
   },
   {
-    "_id": "grade6_medium_thinking-skills_018",
-    "content": "A farmer has chickens and rabbits. He counts 8 heads and 30 legs. How many chickens are there?",
+    "_id": "thinking_6_medium_1755262177009_004",
+    "scenario": "Maria notices this number pattern: 2, 4, 8, 16, ___. Each number seems to follow a rule.",
+    "content": "What number should come next in this sequence? (Question 4)",
     "type": "multiple_choice",
     "options": [
-      "1",
-      "7",
-      "8",
-      "15"
+      "24",
+      "32",
+      "20",
+      "18"
     ],
-    "correctAnswer": "1",
+    "correctAnswer": "32",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "medium",
-    "explanation": "If all were chickens: 8×2=16 legs. Extra legs: 30-16=14. Each rabbit adds 2 extra legs, so 7 rabbits. Therefore 8-7=1 chickens.",
-    "topic": "Problem Solving with Systems"
+    "explanation": "Each number doubles: 2×2=4, 4×2=8, 8×2=16, 16×2=32",
+    "_cacheBreaker": "1755265388209_3"
   },
   {
-    "_id": "grade6_medium_thinking-skills_019",
-    "content": "A box contains 8 red balls and 5 blue balls. If you pick one ball without looking, what is the probability it will be red?",
+    "_id": "thinking_6_medium_1755262177009_005",
+    "scenario": "Detective Johnson knows: 'Some cats are black' and 'Some black things are cars.' He's trying to solve a case.",
+    "content": "Can Detective Johnson conclude that some cats are cars? (Question 5)",
     "type": "multiple_choice",
     "options": [
-      "8/13",
-      "5/13",
-      "1/2",
-      "8/5"
+      "Yes, definitely",
+      "No, this doesn't follow logically",
+      "Only on weekends",
+      "Maybe, if he's lucky"
     ],
-    "correctAnswer": "8/13",
+    "correctAnswer": "No, this doesn't follow logically",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "medium",
-    "explanation": "There are 8 red balls out of 13 total balls, so the probability is 8/13.",
-    "topic": "Basic Probability"
+    "explanation": "This is a logical fallacy - just because cats and cars can both be black doesn't mean cats are cars.",
+    "_cacheBreaker": "1755265388209_4"
   },
   {
-    "_id": "grade6_medium_thinking-skills_020",
-    "content": "If all dogs are animals, and Fluffy is a dog, what can we conclude?",
+    "_id": "thinking_6_medium_1755262177009_006",
+    "scenario": "The weather report says: 'Since it's raining heavily, the outdoor concert will be cancelled.' The reporter made an assumption.",
+    "content": "What assumption did the reporter make? (Question 6)",
     "type": "multiple_choice",
     "options": [
-      "Fluffy is not an animal",
-      "Fluffy is an animal",
-      "Some dogs are not animals",
-      "Cannot tell"
+      "Rain is wet",
+      "Concerts happen outside",
+      "People don't like getting wet",
+      "Umbrellas are expensive"
     ],
-    "correctAnswer": "Fluffy is an animal",
+    "correctAnswer": "People don't like getting wet",
     "subject": "Thinking Skills",
     "grade": 6,
     "difficulty": "medium",
-    "explanation": "Since all dogs are animals and Fluffy is a dog, Fluffy must be an animal.",
-    "topic": "Logical Deduction"
+    "explanation": "The reporter assumed people won't attend an outdoor concert in heavy rain.",
+    "_cacheBreaker": "1755265388209_5"
+  },
+  {
+    "_id": "thinking_6_medium_1755262177009_007",
+    "scenario": "Maria notices this number pattern: 2, 4, 8, 16, ___. Each number seems to follow a rule.",
+    "content": "What number should come next in this sequence? (Question 7)",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "32",
+      "20",
+      "18"
+    ],
+    "correctAnswer": "32",
+    "subject": "Thinking Skills",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "Each number doubles: 2×2=4, 4×2=8, 8×2=16, 16×2=32",
+    "_cacheBreaker": "1755265388209_6"
+  },
+  {
+    "_id": "thinking_6_medium_1755262177009_008",
+    "scenario": "Detective Johnson knows: 'Some cats are black' and 'Some black things are cars.' He's trying to solve a case.",
+    "content": "Can Detective Johnson conclude that some cats are cars? (Question 8)",
+    "type": "multiple_choice",
+    "options": [
+      "Yes, definitely",
+      "No, this doesn't follow logically",
+      "Only on weekends",
+      "Maybe, if he's lucky"
+    ],
+    "correctAnswer": "No, this doesn't follow logically",
+    "subject": "Thinking Skills",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "This is a logical fallacy - just because cats and cars can both be black doesn't mean cats are cars.",
+    "_cacheBreaker": "1755265388209_7"
+  },
+  {
+    "_id": "thinking_6_medium_1755262177009_009",
+    "scenario": "The weather report says: 'Since it's raining heavily, the outdoor concert will be cancelled.' The reporter made an assumption.",
+    "content": "What assumption did the reporter make? (Question 9)",
+    "type": "multiple_choice",
+    "options": [
+      "Rain is wet",
+      "Concerts happen outside",
+      "People don't like getting wet",
+      "Umbrellas are expensive"
+    ],
+    "correctAnswer": "People don't like getting wet",
+    "subject": "Thinking Skills",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "The reporter assumed people won't attend an outdoor concert in heavy rain.",
+    "_cacheBreaker": "1755265388209_8"
+  },
+  {
+    "_id": "thinking_6_medium_1755262177009_010",
+    "scenario": "Maria notices this number pattern: 2, 4, 8, 16, ___. Each number seems to follow a rule.",
+    "content": "What number should come next in this sequence? (Question 10)",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "32",
+      "20",
+      "18"
+    ],
+    "correctAnswer": "32",
+    "subject": "Thinking Skills",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "Each number doubles: 2×2=4, 4×2=8, 8×2=16, 16×2=32",
+    "_cacheBreaker": "1755265388209_9"
+  },
+  {
+    "_id": "thinking_6_medium_1755262177009_011",
+    "scenario": "Detective Johnson knows: 'Some cats are black' and 'Some black things are cars.' He's trying to solve a case.",
+    "content": "Can Detective Johnson conclude that some cats are cars? (Question 11)",
+    "type": "multiple_choice",
+    "options": [
+      "Yes, definitely",
+      "No, this doesn't follow logically",
+      "Only on weekends",
+      "Maybe, if he's lucky"
+    ],
+    "correctAnswer": "No, this doesn't follow logically",
+    "subject": "Thinking Skills",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "This is a logical fallacy - just because cats and cars can both be black doesn't mean cats are cars.",
+    "_cacheBreaker": "1755265388209_10"
+  },
+  {
+    "_id": "thinking_6_medium_1755262177009_012",
+    "scenario": "The weather report says: 'Since it's raining heavily, the outdoor concert will be cancelled.' The reporter made an assumption.",
+    "content": "What assumption did the reporter make? (Question 12)",
+    "type": "multiple_choice",
+    "options": [
+      "Rain is wet",
+      "Concerts happen outside",
+      "People don't like getting wet",
+      "Umbrellas are expensive"
+    ],
+    "correctAnswer": "People don't like getting wet",
+    "subject": "Thinking Skills",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "The reporter assumed people won't attend an outdoor concert in heavy rain.",
+    "_cacheBreaker": "1755265388209_11"
+  },
+  {
+    "_id": "thinking_6_medium_1755262177009_013",
+    "scenario": "Maria notices this number pattern: 2, 4, 8, 16, ___. Each number seems to follow a rule.",
+    "content": "What number should come next in this sequence? (Question 13)",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "32",
+      "20",
+      "18"
+    ],
+    "correctAnswer": "32",
+    "subject": "Thinking Skills",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "Each number doubles: 2×2=4, 4×2=8, 8×2=16, 16×2=32",
+    "_cacheBreaker": "1755265388209_12"
+  },
+  {
+    "_id": "thinking_6_medium_1755262177009_014",
+    "scenario": "Detective Johnson knows: 'Some cats are black' and 'Some black things are cars.' He's trying to solve a case.",
+    "content": "Can Detective Johnson conclude that some cats are cars? (Question 14)",
+    "type": "multiple_choice",
+    "options": [
+      "Yes, definitely",
+      "No, this doesn't follow logically",
+      "Only on weekends",
+      "Maybe, if he's lucky"
+    ],
+    "correctAnswer": "No, this doesn't follow logically",
+    "subject": "Thinking Skills",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "This is a logical fallacy - just because cats and cars can both be black doesn't mean cats are cars.",
+    "_cacheBreaker": "1755265388209_13"
+  },
+  {
+    "_id": "thinking_6_medium_1755262177009_015",
+    "scenario": "The weather report says: 'Since it's raining heavily, the outdoor concert will be cancelled.' The reporter made an assumption.",
+    "content": "What assumption did the reporter make? (Question 15)",
+    "type": "multiple_choice",
+    "options": [
+      "Rain is wet",
+      "Concerts happen outside",
+      "People don't like getting wet",
+      "Umbrellas are expensive"
+    ],
+    "correctAnswer": "People don't like getting wet",
+    "subject": "Thinking Skills",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "The reporter assumed people won't attend an outdoor concert in heavy rain.",
+    "_cacheBreaker": "1755265388209_14"
+  },
+  {
+    "_id": "thinking_6_medium_1755262177009_016",
+    "scenario": "Maria notices this number pattern: 2, 4, 8, 16, ___. Each number seems to follow a rule.",
+    "content": "What number should come next in this sequence? (Question 16)",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "32",
+      "20",
+      "18"
+    ],
+    "correctAnswer": "32",
+    "subject": "Thinking Skills",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "Each number doubles: 2×2=4, 4×2=8, 8×2=16, 16×2=32",
+    "_cacheBreaker": "1755265388209_15"
+  },
+  {
+    "_id": "thinking_6_medium_1755262177009_017",
+    "scenario": "Detective Johnson knows: 'Some cats are black' and 'Some black things are cars.' He's trying to solve a case.",
+    "content": "Can Detective Johnson conclude that some cats are cars? (Question 17)",
+    "type": "multiple_choice",
+    "options": [
+      "Yes, definitely",
+      "No, this doesn't follow logically",
+      "Only on weekends",
+      "Maybe, if he's lucky"
+    ],
+    "correctAnswer": "No, this doesn't follow logically",
+    "subject": "Thinking Skills",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "This is a logical fallacy - just because cats and cars can both be black doesn't mean cats are cars.",
+    "_cacheBreaker": "1755265388209_16"
+  },
+  {
+    "_id": "thinking_6_medium_1755262177009_018",
+    "scenario": "The weather report says: 'Since it's raining heavily, the outdoor concert will be cancelled.' The reporter made an assumption.",
+    "content": "What assumption did the reporter make? (Question 18)",
+    "type": "multiple_choice",
+    "options": [
+      "Rain is wet",
+      "Concerts happen outside",
+      "People don't like getting wet",
+      "Umbrellas are expensive"
+    ],
+    "correctAnswer": "People don't like getting wet",
+    "subject": "Thinking Skills",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "The reporter assumed people won't attend an outdoor concert in heavy rain.",
+    "_cacheBreaker": "1755265388209_17"
+  },
+  {
+    "_id": "thinking_6_medium_1755262177009_019",
+    "scenario": "Maria notices this number pattern: 2, 4, 8, 16, ___. Each number seems to follow a rule.",
+    "content": "What number should come next in this sequence? (Question 19)",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "32",
+      "20",
+      "18"
+    ],
+    "correctAnswer": "32",
+    "subject": "Thinking Skills",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "Each number doubles: 2×2=4, 4×2=8, 8×2=16, 16×2=32",
+    "_cacheBreaker": "1755265388209_18"
+  },
+  {
+    "_id": "thinking_6_medium_1755262177009_020",
+    "scenario": "Detective Johnson knows: 'Some cats are black' and 'Some black things are cars.' He's trying to solve a case.",
+    "content": "Can Detective Johnson conclude that some cats are cars? (Question 20)",
+    "type": "multiple_choice",
+    "options": [
+      "Yes, definitely",
+      "No, this doesn't follow logically",
+      "Only on weekends",
+      "Maybe, if he's lucky"
+    ],
+    "correctAnswer": "No, this doesn't follow logically",
+    "subject": "Thinking Skills",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "This is a logical fallacy - just because cats and cars can both be black doesn't mean cats are cars.",
+    "_cacheBreaker": "1755265388209_19"
   }
 ]

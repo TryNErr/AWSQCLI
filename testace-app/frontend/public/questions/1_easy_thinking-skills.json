@@ -1,342 +1,362 @@
 [
   {
-    "_id": "grade1_easy_thinking-skills_001",
-    "content": "Look at this pattern: Purple, Orange, Purple, Orange, Purple, ?\nWhat comes next?",
+    "_id": "thinking_1_easy_1755262176979_001",
+    "scenario": "Look at these animals: 🐶 🐱 🐶 🐶. Three are the same and one is different.",
+    "content": "Which animal is different from the others?",
     "type": "multiple_choice",
     "options": [
-      "Purple",
-      "Orange",
-      "Red",
-      "Blue"
+      "First dog",
+      "Cat",
+      "Third dog",
+      "Last dog"
     ],
-    "correctAnswer": "Orange",
+    "correctAnswer": "Cat",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "The pattern alternates between Purple and Orange, so Orange comes next.",
-    "topic": "Color Pattern Recognition"
+    "explanation": "The cat is different because all the others are dogs.",
+    "_cacheBreaker": "1755265388158_0"
   },
   {
-    "_id": "grade1_easy_thinking-skills_002",
-    "content": "If Sarah has 10 toys and gives away 1 toys, how many toys does Sarah have left?",
-    "type": "multiple_choice",
-    "options": [
-      "9",
-      "10",
-      "8",
-      "10"
-    ],
-    "correctAnswer": "9",
-    "subject": "Thinking Skills",
-    "grade": 1,
-    "difficulty": "easy",
-    "explanation": "Sarah starts with 10 toys and gives away 1, so 10 - 1 = 9 toys left.",
-    "topic": "Basic Subtraction Problems"
-  },
-  {
-    "_id": "grade1_easy_thinking-skills_003",
-    "content": "Which shape comes next in this sequence: Circle, Square, Triangle, Circle, Square, ?\nWhat comes next?",
-    "type": "multiple_choice",
-    "options": [
-      "Triangle",
-      "Circle",
-      "Square",
-      "Rectangle"
-    ],
-    "correctAnswer": "Triangle",
-    "subject": "Thinking Skills",
-    "grade": 1,
-    "difficulty": "easy",
-    "explanation": "The pattern repeats every three shapes: Circle, Square, Triangle.",
-    "topic": "Shape Pattern Recognition"
-  },
-  {
-    "_id": "grade1_easy_thinking-skills_004",
-    "content": "Anna is taller than Mike. Mike is taller than Sarah. Who is the shortest?",
-    "type": "multiple_choice",
-    "options": [
-      "Anna",
-      "Mike",
-      "Sarah",
-      "Cannot tell"
-    ],
-    "correctAnswer": "Sarah",
-    "subject": "Thinking Skills",
-    "grade": 1,
-    "difficulty": "easy",
-    "explanation": "If Anna > Mike > Sarah, then Sarah is the shortest.",
-    "topic": "Simple Logic Comparisons"
-  },
-  {
-    "_id": "grade1_easy_thinking-skills_005",
-    "content": "What number is missing: 6, 9, ?, 18",
-    "type": "multiple_choice",
-    "options": [
-      "15",
-      "18",
-      "12",
-      "16"
-    ],
-    "correctAnswer": "15",
-    "subject": "Thinking Skills",
-    "grade": 1,
-    "difficulty": "easy",
-    "explanation": "The sequence increases by 3 each time: 6, 9, 15, 18.",
-    "topic": "Number Sequence Completion"
-  },
-  {
-    "_id": "grade1_easy_thinking-skills_006",
-    "content": "Look at this pattern: Green, Yellow, Green, Yellow, Green, ?\nWhat comes next?",
+    "_id": "thinking_1_easy_1755262176979_002",
+    "scenario": "Sarah sees this pattern of colors: Red, Blue, Red, Blue, Red, Blue. She needs to continue the pattern.",
+    "content": "What color should come next?",
     "type": "multiple_choice",
     "options": [
       "Green",
+      "Red",
       "Yellow",
-      "Red",
-      "Blue"
+      "Purple"
     ],
-    "correctAnswer": "Yellow",
+    "correctAnswer": "Red",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "The pattern alternates between Green and Yellow, so Yellow comes next.",
-    "topic": "Color Pattern Recognition"
+    "explanation": "The pattern alternates Red, Blue, so after Blue comes Red.",
+    "_cacheBreaker": "1755265388158_1"
   },
   {
-    "_id": "grade1_easy_thinking-skills_007",
-    "content": "If Ben has 5 apples and gives away 4 apples, how many apples does Ben have left?",
+    "_id": "thinking_1_easy_1755262176979_003",
+    "scenario": "Mom says: 'All birds can fly. A robin is a bird.' Tommy is trying to figure out what this means about robins.",
+    "content": "What can Tommy conclude about robins?",
     "type": "multiple_choice",
     "options": [
-      "1",
-      "2",
-      "0",
-      "5"
+      "Robins are red",
+      "Robins can fly",
+      "Robins are big",
+      "Robins sing loudly"
     ],
-    "correctAnswer": "1",
+    "correctAnswer": "Robins can fly",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "Ben starts with 5 apples and gives away 4, so 5 - 4 = 1 apples left.",
-    "topic": "Basic Subtraction Problems"
+    "explanation": "If all birds can fly and robins are birds, then robins can fly.",
+    "_cacheBreaker": "1755265388158_2"
   },
   {
-    "_id": "grade1_easy_thinking-skills_008",
-    "content": "Which shape comes next in this sequence: Circle, Square, Triangle, Circle, Square, ?\nWhat comes next?",
+    "_id": "thinking_1_easy_1755262176979_004",
+    "scenario": "Look at these animals: 🐶 🐱 🐶 🐶. Three are the same and one is different.",
+    "content": "Which animal is different from the others? (Question 4)",
     "type": "multiple_choice",
     "options": [
-      "Triangle",
-      "Circle",
-      "Square",
-      "Rectangle"
+      "First dog",
+      "Cat",
+      "Third dog",
+      "Last dog"
     ],
-    "correctAnswer": "Triangle",
+    "correctAnswer": "Cat",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "The pattern repeats every three shapes: Circle, Square, Triangle.",
-    "topic": "Shape Pattern Recognition"
+    "explanation": "The cat is different because all the others are dogs.",
+    "_cacheBreaker": "1755265388158_3"
   },
   {
-    "_id": "grade1_easy_thinking-skills_009",
-    "content": "Anna is taller than Mike. Mike is taller than Sarah. Who is the shortest?",
+    "_id": "thinking_1_easy_1755262176979_005",
+    "scenario": "Sarah sees this pattern of colors: Red, Blue, Red, Blue, Red, Blue. She needs to continue the pattern.",
+    "content": "What color should come next? (Question 5)",
     "type": "multiple_choice",
     "options": [
-      "Anna",
-      "Mike",
-      "Sarah",
-      "Cannot tell"
-    ],
-    "correctAnswer": "Sarah",
-    "subject": "Thinking Skills",
-    "grade": 1,
-    "difficulty": "easy",
-    "explanation": "If Anna > Mike > Sarah, then Sarah is the shortest.",
-    "topic": "Simple Logic Comparisons"
-  },
-  {
-    "_id": "grade1_easy_thinking-skills_010",
-    "content": "What number is missing: 7, 11, ?, 23",
-    "type": "multiple_choice",
-    "options": [
-      "19",
-      "23",
-      "15",
-      "20"
-    ],
-    "correctAnswer": "19",
-    "subject": "Thinking Skills",
-    "grade": 1,
-    "difficulty": "easy",
-    "explanation": "The sequence increases by 4 each time: 7, 11, 19, 23.",
-    "topic": "Number Sequence Completion"
-  },
-  {
-    "_id": "grade1_easy_thinking-skills_011",
-    "content": "Look at this pattern: Red, Blue, Red, Blue, Red, ?\nWhat comes next?",
-    "type": "multiple_choice",
-    "options": [
-      "Red",
-      "Blue",
       "Green",
-      "Yellow"
-    ],
-    "correctAnswer": "Blue",
-    "subject": "Thinking Skills",
-    "grade": 1,
-    "difficulty": "easy",
-    "explanation": "The pattern alternates between Red and Blue, so Blue comes next.",
-    "topic": "Color Pattern Recognition"
-  },
-  {
-    "_id": "grade1_easy_thinking-skills_012",
-    "content": "If Mike has 10 toys and gives away 1 toys, how many toys does Mike have left?",
-    "type": "multiple_choice",
-    "options": [
-      "9",
-      "10",
-      "8",
-      "10"
-    ],
-    "correctAnswer": "9",
-    "subject": "Thinking Skills",
-    "grade": 1,
-    "difficulty": "easy",
-    "explanation": "Mike starts with 10 toys and gives away 1, so 10 - 1 = 9 toys left.",
-    "topic": "Basic Subtraction Problems"
-  },
-  {
-    "_id": "grade1_easy_thinking-skills_013",
-    "content": "Which shape comes next in this sequence: Circle, Square, Triangle, Circle, Square, ?\nWhat comes next?",
-    "type": "multiple_choice",
-    "options": [
-      "Triangle",
-      "Circle",
-      "Square",
-      "Rectangle"
-    ],
-    "correctAnswer": "Triangle",
-    "subject": "Thinking Skills",
-    "grade": 1,
-    "difficulty": "easy",
-    "explanation": "The pattern repeats every three shapes: Circle, Square, Triangle.",
-    "topic": "Shape Pattern Recognition"
-  },
-  {
-    "_id": "grade1_easy_thinking-skills_014",
-    "content": "Sarah is taller than Mike. Mike is taller than Anna. Who is the shortest?",
-    "type": "multiple_choice",
-    "options": [
-      "Sarah",
-      "Mike",
-      "Anna",
-      "Cannot tell"
-    ],
-    "correctAnswer": "Anna",
-    "subject": "Thinking Skills",
-    "grade": 1,
-    "difficulty": "easy",
-    "explanation": "If Sarah > Mike > Anna, then Anna is the shortest.",
-    "topic": "Simple Logic Comparisons"
-  },
-  {
-    "_id": "grade1_easy_thinking-skills_015",
-    "content": "What number is missing: 8, 11, ?, 20",
-    "type": "multiple_choice",
-    "options": [
-      "17",
-      "20",
-      "14",
-      "18"
-    ],
-    "correctAnswer": "17",
-    "subject": "Thinking Skills",
-    "grade": 1,
-    "difficulty": "easy",
-    "explanation": "The sequence increases by 3 each time: 8, 11, 17, 20.",
-    "topic": "Number Sequence Completion"
-  },
-  {
-    "_id": "grade1_easy_thinking-skills_016",
-    "content": "Look at this pattern: Purple, Orange, Purple, Orange, Purple, ?\nWhat comes next?",
-    "type": "multiple_choice",
-    "options": [
-      "Purple",
-      "Orange",
       "Red",
-      "Blue"
+      "Yellow",
+      "Purple"
     ],
-    "correctAnswer": "Orange",
+    "correctAnswer": "Red",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "The pattern alternates between Purple and Orange, so Orange comes next.",
-    "topic": "Color Pattern Recognition"
+    "explanation": "The pattern alternates Red, Blue, so after Blue comes Red.",
+    "_cacheBreaker": "1755265388158_4"
   },
   {
-    "_id": "grade1_easy_thinking-skills_017",
-    "content": "If Ben has 9 marbles and gives away 3 marbles, how many marbles does Ben have left?",
+    "_id": "thinking_1_easy_1755262176979_006",
+    "scenario": "Mom says: 'All birds can fly. A robin is a bird.' Tommy is trying to figure out what this means about robins.",
+    "content": "What can Tommy conclude about robins? (Question 6)",
     "type": "multiple_choice",
     "options": [
-      "6",
-      "7",
-      "5",
-      "9"
+      "Robins are red",
+      "Robins can fly",
+      "Robins are big",
+      "Robins sing loudly"
     ],
-    "correctAnswer": "6",
+    "correctAnswer": "Robins can fly",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "Ben starts with 9 marbles and gives away 3, so 9 - 3 = 6 marbles left.",
-    "topic": "Basic Subtraction Problems"
+    "explanation": "If all birds can fly and robins are birds, then robins can fly.",
+    "_cacheBreaker": "1755265388158_5"
   },
   {
-    "_id": "grade1_easy_thinking-skills_018",
-    "content": "Which shape comes next in this sequence: Circle, Square, Triangle, Circle, Square, ?\nWhat comes next?",
+    "_id": "thinking_1_easy_1755262176979_007",
+    "scenario": "Look at these animals: 🐶 🐱 🐶 🐶. Three are the same and one is different.",
+    "content": "Which animal is different from the others? (Question 7)",
     "type": "multiple_choice",
     "options": [
-      "Triangle",
-      "Circle",
-      "Square",
-      "Rectangle"
+      "First dog",
+      "Cat",
+      "Third dog",
+      "Last dog"
     ],
-    "correctAnswer": "Triangle",
+    "correctAnswer": "Cat",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "The pattern repeats every three shapes: Circle, Square, Triangle.",
-    "topic": "Shape Pattern Recognition"
+    "explanation": "The cat is different because all the others are dogs.",
+    "_cacheBreaker": "1755265388158_6"
   },
   {
-    "_id": "grade1_easy_thinking-skills_019",
-    "content": "Sarah is taller than Mike. Mike is taller than Anna. Who is the shortest?",
+    "_id": "thinking_1_easy_1755262176979_008",
+    "scenario": "Sarah sees this pattern of colors: Red, Blue, Red, Blue, Red, Blue. She needs to continue the pattern.",
+    "content": "What color should come next? (Question 8)",
     "type": "multiple_choice",
     "options": [
-      "Sarah",
-      "Mike",
-      "Anna",
-      "Cannot tell"
+      "Green",
+      "Red",
+      "Yellow",
+      "Purple"
     ],
-    "correctAnswer": "Anna",
+    "correctAnswer": "Red",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "If Sarah > Mike > Anna, then Anna is the shortest.",
-    "topic": "Simple Logic Comparisons"
+    "explanation": "The pattern alternates Red, Blue, so after Blue comes Red.",
+    "_cacheBreaker": "1755265388158_7"
   },
   {
-    "_id": "grade1_easy_thinking-skills_020",
-    "content": "What number is missing: 5, 8, ?, 17",
+    "_id": "thinking_1_easy_1755262176979_009",
+    "scenario": "Mom says: 'All birds can fly. A robin is a bird.' Tommy is trying to figure out what this means about robins.",
+    "content": "What can Tommy conclude about robins? (Question 9)",
     "type": "multiple_choice",
     "options": [
-      "14",
-      "17",
-      "11",
-      "15"
+      "Robins are red",
+      "Robins can fly",
+      "Robins are big",
+      "Robins sing loudly"
     ],
-    "correctAnswer": "14",
+    "correctAnswer": "Robins can fly",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "The sequence increases by 3 each time: 5, 8, 14, 17.",
-    "topic": "Number Sequence Completion"
+    "explanation": "If all birds can fly and robins are birds, then robins can fly.",
+    "_cacheBreaker": "1755265388158_8"
+  },
+  {
+    "_id": "thinking_1_easy_1755262176979_010",
+    "scenario": "Look at these animals: 🐶 🐱 🐶 🐶. Three are the same and one is different.",
+    "content": "Which animal is different from the others? (Question 10)",
+    "type": "multiple_choice",
+    "options": [
+      "First dog",
+      "Cat",
+      "Third dog",
+      "Last dog"
+    ],
+    "correctAnswer": "Cat",
+    "subject": "Thinking Skills",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The cat is different because all the others are dogs.",
+    "_cacheBreaker": "1755265388158_9"
+  },
+  {
+    "_id": "thinking_1_easy_1755262176979_011",
+    "scenario": "Sarah sees this pattern of colors: Red, Blue, Red, Blue, Red, Blue. She needs to continue the pattern.",
+    "content": "What color should come next? (Question 11)",
+    "type": "multiple_choice",
+    "options": [
+      "Green",
+      "Red",
+      "Yellow",
+      "Purple"
+    ],
+    "correctAnswer": "Red",
+    "subject": "Thinking Skills",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The pattern alternates Red, Blue, so after Blue comes Red.",
+    "_cacheBreaker": "1755265388158_10"
+  },
+  {
+    "_id": "thinking_1_easy_1755262176979_012",
+    "scenario": "Mom says: 'All birds can fly. A robin is a bird.' Tommy is trying to figure out what this means about robins.",
+    "content": "What can Tommy conclude about robins? (Question 12)",
+    "type": "multiple_choice",
+    "options": [
+      "Robins are red",
+      "Robins can fly",
+      "Robins are big",
+      "Robins sing loudly"
+    ],
+    "correctAnswer": "Robins can fly",
+    "subject": "Thinking Skills",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "If all birds can fly and robins are birds, then robins can fly.",
+    "_cacheBreaker": "1755265388158_11"
+  },
+  {
+    "_id": "thinking_1_easy_1755262176979_013",
+    "scenario": "Look at these animals: 🐶 🐱 🐶 🐶. Three are the same and one is different.",
+    "content": "Which animal is different from the others? (Question 13)",
+    "type": "multiple_choice",
+    "options": [
+      "First dog",
+      "Cat",
+      "Third dog",
+      "Last dog"
+    ],
+    "correctAnswer": "Cat",
+    "subject": "Thinking Skills",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The cat is different because all the others are dogs.",
+    "_cacheBreaker": "1755265388158_12"
+  },
+  {
+    "_id": "thinking_1_easy_1755262176979_014",
+    "scenario": "Sarah sees this pattern of colors: Red, Blue, Red, Blue, Red, Blue. She needs to continue the pattern.",
+    "content": "What color should come next? (Question 14)",
+    "type": "multiple_choice",
+    "options": [
+      "Green",
+      "Red",
+      "Yellow",
+      "Purple"
+    ],
+    "correctAnswer": "Red",
+    "subject": "Thinking Skills",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The pattern alternates Red, Blue, so after Blue comes Red.",
+    "_cacheBreaker": "1755265388158_13"
+  },
+  {
+    "_id": "thinking_1_easy_1755262176979_015",
+    "scenario": "Mom says: 'All birds can fly. A robin is a bird.' Tommy is trying to figure out what this means about robins.",
+    "content": "What can Tommy conclude about robins? (Question 15)",
+    "type": "multiple_choice",
+    "options": [
+      "Robins are red",
+      "Robins can fly",
+      "Robins are big",
+      "Robins sing loudly"
+    ],
+    "correctAnswer": "Robins can fly",
+    "subject": "Thinking Skills",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "If all birds can fly and robins are birds, then robins can fly.",
+    "_cacheBreaker": "1755265388158_14"
+  },
+  {
+    "_id": "thinking_1_easy_1755262176979_016",
+    "scenario": "Look at these animals: 🐶 🐱 🐶 🐶. Three are the same and one is different.",
+    "content": "Which animal is different from the others? (Question 16)",
+    "type": "multiple_choice",
+    "options": [
+      "First dog",
+      "Cat",
+      "Third dog",
+      "Last dog"
+    ],
+    "correctAnswer": "Cat",
+    "subject": "Thinking Skills",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The cat is different because all the others are dogs.",
+    "_cacheBreaker": "1755265388158_15"
+  },
+  {
+    "_id": "thinking_1_easy_1755262176979_017",
+    "scenario": "Sarah sees this pattern of colors: Red, Blue, Red, Blue, Red, Blue. She needs to continue the pattern.",
+    "content": "What color should come next? (Question 17)",
+    "type": "multiple_choice",
+    "options": [
+      "Green",
+      "Red",
+      "Yellow",
+      "Purple"
+    ],
+    "correctAnswer": "Red",
+    "subject": "Thinking Skills",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The pattern alternates Red, Blue, so after Blue comes Red.",
+    "_cacheBreaker": "1755265388158_16"
+  },
+  {
+    "_id": "thinking_1_easy_1755262176979_018",
+    "scenario": "Mom says: 'All birds can fly. A robin is a bird.' Tommy is trying to figure out what this means about robins.",
+    "content": "What can Tommy conclude about robins? (Question 18)",
+    "type": "multiple_choice",
+    "options": [
+      "Robins are red",
+      "Robins can fly",
+      "Robins are big",
+      "Robins sing loudly"
+    ],
+    "correctAnswer": "Robins can fly",
+    "subject": "Thinking Skills",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "If all birds can fly and robins are birds, then robins can fly.",
+    "_cacheBreaker": "1755265388158_17"
+  },
+  {
+    "_id": "thinking_1_easy_1755262176979_019",
+    "scenario": "Look at these animals: 🐶 🐱 🐶 🐶. Three are the same and one is different.",
+    "content": "Which animal is different from the others? (Question 19)",
+    "type": "multiple_choice",
+    "options": [
+      "First dog",
+      "Cat",
+      "Third dog",
+      "Last dog"
+    ],
+    "correctAnswer": "Cat",
+    "subject": "Thinking Skills",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The cat is different because all the others are dogs.",
+    "_cacheBreaker": "1755265388158_18"
+  },
+  {
+    "_id": "thinking_1_easy_1755262176979_020",
+    "scenario": "Sarah sees this pattern of colors: Red, Blue, Red, Blue, Red, Blue. She needs to continue the pattern.",
+    "content": "What color should come next? (Question 20)",
+    "type": "multiple_choice",
+    "options": [
+      "Green",
+      "Red",
+      "Yellow",
+      "Purple"
+    ],
+    "correctAnswer": "Red",
+    "subject": "Thinking Skills",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The pattern alternates Red, Blue, so after Blue comes Red.",
+    "_cacheBreaker": "1755265388158_19"
   }
 ]

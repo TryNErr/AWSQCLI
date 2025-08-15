@@ -1,322 +1,342 @@
 [
   {
-    "_id": "grade11_medium_math_001",
-    "content": "What is 1 × 1?",
+    "_id": "med11_1755261000216_001",
+    "content": "Find the derivative of f(x) = x³ + 2x",
+    "type": "multiple_choice",
+    "options": [
+      "3x² + 2",
+      "x² + 2",
+      "3x³ + 2x",
+      "3x² + 2x"
+    ],
+    "correctAnswer": "3x² + 2",
+    "subject": "Mathematics",
+    "grade": 11,
+    "difficulty": "medium",
+    "explanation": "d/dx[x³] = 3x², d/dx[2x] = 2",
+    "_cacheBreaker": "1755265388141_0"
+  },
+  {
+    "_id": "med11_1755261000216_002",
+    "content": "Evaluate ∫(3x² + 1)dx",
+    "type": "multiple_choice",
+    "options": [
+      "x³ + x + C",
+      "6x + C",
+      "3x³ + x + C",
+      "x³ + C"
+    ],
+    "correctAnswer": "x³ + x + C",
+    "subject": "Mathematics",
+    "grade": 11,
+    "difficulty": "medium",
+    "explanation": "∫3x² dx = x³, ∫1 dx = x",
+    "_cacheBreaker": "1755265388141_1"
+  },
+  {
+    "_id": "med11_1755261000216_003",
+    "content": "Find lim(x→1) (x² - 1)/(x - 1)",
     "type": "multiple_choice",
     "options": [
       "0",
       "1",
       "2",
-      "2"
-    ],
-    "correctAnswer": "1",
-    "subject": "Mathematics",
-    "grade": 11,
-    "difficulty": "medium",
-    "explanation": "1 × 1 = 1"
-  },
-  {
-    "_id": "grade11_medium_math_002",
-    "content": "What is 2 × 1?",
-    "type": "multiple_choice",
-    "options": [
-      "1",
-      "2",
-      "3",
-      "3"
+      "Does not exist"
     ],
     "correctAnswer": "2",
     "subject": "Mathematics",
     "grade": 11,
     "difficulty": "medium",
-    "explanation": "2 × 1 = 2"
+    "explanation": "Factor: (x-1)(x+1)/(x-1) = x+1, substitute x=1",
+    "_cacheBreaker": "1755265388141_2"
   },
   {
-    "_id": "grade11_medium_math_003",
-    "content": "What is 2 × 1?",
+    "_id": "med11_1755261000216_004",
+    "content": "Find the derivative of f(x) = x³ + 2x",
     "type": "multiple_choice",
     "options": [
-      "1",
-      "2",
-      "3",
-      "3"
+      "3x² + 2",
+      "x² + 2",
+      "3x³ + 2x",
+      "3x² + 2x"
     ],
-    "correctAnswer": "2",
+    "correctAnswer": "3x² + 2",
     "subject": "Mathematics",
     "grade": 11,
     "difficulty": "medium",
-    "explanation": "2 × 1 = 2"
+    "explanation": "d/dx[x³] = 3x², d/dx[2x] = 2",
+    "_cacheBreaker": "1755265388141_3"
   },
   {
-    "_id": "grade11_medium_math_004",
-    "content": "What is 15 × 1?",
+    "_id": "med11_1755261000216_005",
+    "content": "Evaluate ∫(3x² + 1)dx",
     "type": "multiple_choice",
     "options": [
-      "14",
-      "15",
-      "16",
-      "16"
+      "x³ + x + C",
+      "6x + C",
+      "3x³ + x + C",
+      "x³ + C"
     ],
-    "correctAnswer": "15",
+    "correctAnswer": "x³ + x + C",
     "subject": "Mathematics",
     "grade": 11,
     "difficulty": "medium",
-    "explanation": "15 × 1 = 15"
+    "explanation": "∫3x² dx = x³, ∫1 dx = x",
+    "_cacheBreaker": "1755265388141_4"
   },
   {
-    "_id": "grade11_medium_math_005",
-    "content": "What is 2 × 1?",
-    "type": "multiple_choice",
-    "options": [
-      "1",
-      "2",
-      "3",
-      "3"
-    ],
-    "correctAnswer": "2",
-    "subject": "Mathematics",
-    "grade": 11,
-    "difficulty": "medium",
-    "explanation": "2 × 1 = 2"
-  },
-  {
-    "_id": "grade11_medium_math_006",
-    "content": "What is 5 × 1?",
-    "type": "multiple_choice",
-    "options": [
-      "4",
-      "5",
-      "6",
-      "6"
-    ],
-    "correctAnswer": "5",
-    "subject": "Mathematics",
-    "grade": 11,
-    "difficulty": "medium",
-    "explanation": "5 × 1 = 5"
-  },
-  {
-    "_id": "grade11_medium_math_007",
-    "content": "What is 30 × 1?",
-    "type": "multiple_choice",
-    "options": [
-      "29",
-      "30",
-      "31",
-      "31"
-    ],
-    "correctAnswer": "30",
-    "subject": "Mathematics",
-    "grade": 11,
-    "difficulty": "medium",
-    "explanation": "30 × 1 = 30"
-  },
-  {
-    "_id": "grade11_medium_math_008",
-    "content": "What is 1 × 1?",
+    "_id": "med11_1755261000216_006",
+    "content": "Find lim(x→1) (x² - 1)/(x - 1)",
     "type": "multiple_choice",
     "options": [
       "0",
       "1",
       "2",
-      "2"
+      "Does not exist"
     ],
-    "correctAnswer": "1",
+    "correctAnswer": "2",
     "subject": "Mathematics",
     "grade": 11,
     "difficulty": "medium",
-    "explanation": "1 × 1 = 1"
+    "explanation": "Factor: (x-1)(x+1)/(x-1) = x+1, substitute x=1",
+    "_cacheBreaker": "1755265388141_5"
   },
   {
-    "_id": "grade11_medium_math_009",
-    "content": "What is 3 × 2?",
+    "_id": "med11_1755261000216_007",
+    "content": "Find the derivative of f(x) = x³ + 2x",
     "type": "multiple_choice",
     "options": [
-      "5",
-      "6",
-      "7",
-      "5"
+      "3x² + 2",
+      "x² + 2",
+      "3x³ + 2x",
+      "3x² + 2x"
     ],
-    "correctAnswer": "6",
+    "correctAnswer": "3x² + 2",
     "subject": "Mathematics",
     "grade": 11,
     "difficulty": "medium",
-    "explanation": "3 × 2 = 6"
+    "explanation": "d/dx[x³] = 3x², d/dx[2x] = 2",
+    "_cacheBreaker": "1755265388141_6"
   },
   {
-    "_id": "grade11_medium_math_010",
-    "content": "What is 4 × 2?",
+    "_id": "med11_1755261000216_008",
+    "content": "Evaluate ∫(3x² + 1)dx",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "8",
-      "9",
-      "6"
+      "x³ + x + C",
+      "6x + C",
+      "3x³ + x + C",
+      "x³ + C"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "x³ + x + C",
     "subject": "Mathematics",
     "grade": 11,
     "difficulty": "medium",
-    "explanation": "4 × 2 = 8"
+    "explanation": "∫3x² dx = x³, ∫1 dx = x",
+    "_cacheBreaker": "1755265388141_7"
   },
   {
-    "_id": "grade11_medium_math_011",
-    "content": "What is 4 × 2?",
+    "_id": "med11_1755261000216_009",
+    "content": "Find lim(x→1) (x² - 1)/(x - 1)",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "8",
-      "9",
-      "6"
+      "0",
+      "1",
+      "2",
+      "Does not exist"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "2",
     "subject": "Mathematics",
     "grade": 11,
     "difficulty": "medium",
-    "explanation": "4 × 2 = 8"
+    "explanation": "Factor: (x-1)(x+1)/(x-1) = x+1, substitute x=1",
+    "_cacheBreaker": "1755265388141_8"
   },
   {
-    "_id": "grade11_medium_math_012",
-    "content": "What is 17 × 2?",
+    "_id": "med11_1755261000216_010",
+    "content": "Find the derivative of f(x) = x³ + 2x",
     "type": "multiple_choice",
     "options": [
-      "33",
-      "34",
-      "35",
-      "19"
+      "3x² + 2",
+      "x² + 2",
+      "3x³ + 2x",
+      "3x² + 2x"
     ],
-    "correctAnswer": "34",
+    "correctAnswer": "3x² + 2",
     "subject": "Mathematics",
     "grade": 11,
     "difficulty": "medium",
-    "explanation": "17 × 2 = 34"
+    "explanation": "d/dx[x³] = 3x², d/dx[2x] = 2",
+    "_cacheBreaker": "1755265388141_9"
   },
   {
-    "_id": "grade11_medium_math_013",
-    "content": "What is 4 × 2?",
+    "_id": "med11_1755261000216_011",
+    "content": "Evaluate ∫(3x² + 1)dx",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "8",
-      "9",
-      "6"
+      "x³ + x + C",
+      "6x + C",
+      "3x³ + x + C",
+      "x³ + C"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "x³ + x + C",
     "subject": "Mathematics",
     "grade": 11,
     "difficulty": "medium",
-    "explanation": "4 × 2 = 8"
+    "explanation": "∫3x² dx = x³, ∫1 dx = x",
+    "_cacheBreaker": "1755265388141_10"
   },
   {
-    "_id": "grade11_medium_math_014",
-    "content": "What is 7 × 2?",
+    "_id": "med11_1755261000216_012",
+    "content": "Find lim(x→1) (x² - 1)/(x - 1)",
     "type": "multiple_choice",
     "options": [
-      "13",
-      "14",
-      "15",
-      "9"
+      "0",
+      "1",
+      "2",
+      "Does not exist"
     ],
-    "correctAnswer": "14",
+    "correctAnswer": "2",
     "subject": "Mathematics",
     "grade": 11,
     "difficulty": "medium",
-    "explanation": "7 × 2 = 14"
+    "explanation": "Factor: (x-1)(x+1)/(x-1) = x+1, substitute x=1",
+    "_cacheBreaker": "1755265388141_11"
   },
   {
-    "_id": "grade11_medium_math_015",
-    "content": "What is 32 × 2?",
+    "_id": "med11_1755261000216_013",
+    "content": "Find the derivative of f(x) = x³ + 2x",
     "type": "multiple_choice",
     "options": [
-      "63",
-      "64",
-      "65",
-      "34"
+      "3x² + 2",
+      "x² + 2",
+      "3x³ + 2x",
+      "3x² + 2x"
     ],
-    "correctAnswer": "64",
+    "correctAnswer": "3x² + 2",
     "subject": "Mathematics",
     "grade": 11,
     "difficulty": "medium",
-    "explanation": "32 × 2 = 64"
+    "explanation": "d/dx[x³] = 3x², d/dx[2x] = 2",
+    "_cacheBreaker": "1755265388141_12"
   },
   {
-    "_id": "grade11_medium_math_016",
-    "content": "What is 3 × 2?",
+    "_id": "med11_1755261000216_014",
+    "content": "Evaluate ∫(3x² + 1)dx",
     "type": "multiple_choice",
     "options": [
-      "5",
-      "6",
-      "7",
-      "5"
+      "x³ + x + C",
+      "6x + C",
+      "3x³ + x + C",
+      "x³ + C"
     ],
-    "correctAnswer": "6",
+    "correctAnswer": "x³ + x + C",
     "subject": "Mathematics",
     "grade": 11,
     "difficulty": "medium",
-    "explanation": "3 × 2 = 6"
+    "explanation": "∫3x² dx = x³, ∫1 dx = x",
+    "_cacheBreaker": "1755265388141_13"
   },
   {
-    "_id": "grade11_medium_math_017",
-    "content": "What is 5 × 3?",
+    "_id": "med11_1755261000216_015",
+    "content": "Find lim(x→1) (x² - 1)/(x - 1)",
     "type": "multiple_choice",
     "options": [
-      "14",
-      "15",
-      "16",
-      "8"
+      "0",
+      "1",
+      "2",
+      "Does not exist"
     ],
-    "correctAnswer": "15",
+    "correctAnswer": "2",
     "subject": "Mathematics",
     "grade": 11,
     "difficulty": "medium",
-    "explanation": "5 × 3 = 15"
+    "explanation": "Factor: (x-1)(x+1)/(x-1) = x+1, substitute x=1",
+    "_cacheBreaker": "1755265388141_14"
   },
   {
-    "_id": "grade11_medium_math_018",
-    "content": "What is 6 × 3?",
+    "_id": "med11_1755261000216_016",
+    "content": "Find the derivative of f(x) = x³ + 2x",
     "type": "multiple_choice",
     "options": [
-      "17",
-      "18",
-      "19",
-      "9"
+      "3x² + 2",
+      "x² + 2",
+      "3x³ + 2x",
+      "3x² + 2x"
     ],
-    "correctAnswer": "18",
+    "correctAnswer": "3x² + 2",
     "subject": "Mathematics",
     "grade": 11,
     "difficulty": "medium",
-    "explanation": "6 × 3 = 18"
+    "explanation": "d/dx[x³] = 3x², d/dx[2x] = 2",
+    "_cacheBreaker": "1755265388141_15"
   },
   {
-    "_id": "grade11_medium_math_019",
-    "content": "What is 6 × 3?",
+    "_id": "med11_1755261000216_017",
+    "content": "Evaluate ∫(3x² + 1)dx",
     "type": "multiple_choice",
     "options": [
-      "17",
-      "18",
-      "19",
-      "9"
+      "x³ + x + C",
+      "6x + C",
+      "3x³ + x + C",
+      "x³ + C"
     ],
-    "correctAnswer": "18",
+    "correctAnswer": "x³ + x + C",
     "subject": "Mathematics",
     "grade": 11,
     "difficulty": "medium",
-    "explanation": "6 × 3 = 18"
+    "explanation": "∫3x² dx = x³, ∫1 dx = x",
+    "_cacheBreaker": "1755265388141_16"
   },
   {
-    "_id": "grade11_medium_math_020",
-    "content": "What is 19 × 3?",
+    "_id": "med11_1755261000216_018",
+    "content": "Find lim(x→1) (x² - 1)/(x - 1)",
     "type": "multiple_choice",
     "options": [
-      "56",
-      "57",
-      "58",
-      "22"
+      "0",
+      "1",
+      "2",
+      "Does not exist"
     ],
-    "correctAnswer": "57",
+    "correctAnswer": "2",
     "subject": "Mathematics",
     "grade": 11,
     "difficulty": "medium",
-    "explanation": "19 × 3 = 57"
+    "explanation": "Factor: (x-1)(x+1)/(x-1) = x+1, substitute x=1",
+    "_cacheBreaker": "1755265388141_17"
+  },
+  {
+    "_id": "med11_1755261000216_019",
+    "content": "Find the derivative of f(x) = x³ + 2x",
+    "type": "multiple_choice",
+    "options": [
+      "3x² + 2",
+      "x² + 2",
+      "3x³ + 2x",
+      "3x² + 2x"
+    ],
+    "correctAnswer": "3x² + 2",
+    "subject": "Mathematics",
+    "grade": 11,
+    "difficulty": "medium",
+    "explanation": "d/dx[x³] = 3x², d/dx[2x] = 2",
+    "_cacheBreaker": "1755265388141_18"
+  },
+  {
+    "_id": "med11_1755261000216_020",
+    "content": "Evaluate ∫(3x² + 1)dx",
+    "type": "multiple_choice",
+    "options": [
+      "x³ + x + C",
+      "6x + C",
+      "3x³ + x + C",
+      "x³ + C"
+    ],
+    "correctAnswer": "x³ + x + C",
+    "subject": "Mathematics",
+    "grade": 11,
+    "difficulty": "medium",
+    "explanation": "∫3x² dx = x³, ∫1 dx = x",
+    "_cacheBreaker": "1755265388141_19"
   }
 ]

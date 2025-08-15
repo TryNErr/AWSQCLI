@@ -1,342 +1,362 @@
 [
   {
-    "_id": "grade12_easy_thinking-skills_001",
-    "content": "In a group of 100 people, 54 speak English, 47 speak French, and 28 speak both languages. How many speak neither language?",
+    "_id": "thinking_12_easy_1755262177035_001",
+    "scenario": "Dr. Smith conducts a study and observes: 'In 100 experiments, when I heat water to 100°C at sea level, it always boils.' She wants to make a general conclusion.",
+    "content": "What type of reasoning is Dr. Smith using to conclude 'Water boils at 100°C at sea level'?",
     "type": "multiple_choice",
     "options": [
-      "27",
-      "46",
-      "53",
-      "28"
+      "Deductive reasoning",
+      "Inductive reasoning",
+      "Circular reasoning",
+      "Emotional reasoning"
     ],
-    "correctAnswer": "27",
+    "correctAnswer": "Inductive reasoning",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "easy",
-    "explanation": "People speaking at least one language: 54 + 47 - 28 = 73. Therefore, 100 - 73 = 27 speak neither.",
-    "topic": "Venn Diagrams and Set Theory"
+    "explanation": "Inductive reasoning builds general conclusions from specific observations and patterns.",
+    "_cacheBreaker": "1755265388148_0"
   },
   {
-    "_id": "grade12_easy_thinking-skills_002",
-    "content": "In a group of 100 people, 55 speak English, 44 speak French, and 26 speak both languages. How many speak neither language?",
+    "_id": "thinking_12_easy_1755262177035_002",
+    "scenario": "Professor Johnson notices that his student Mark always seeks out information that supports his political views while ignoring contradictory evidence. Mark dismisses studies that challenge his beliefs without reading them.",
+    "content": "What cognitive bias is Mark demonstrating?",
     "type": "multiple_choice",
     "options": [
-      "27",
-      "45",
-      "56",
-      "26"
+      "Confirmation bias",
+      "Anchoring bias",
+      "Availability heuristic",
+      "Hindsight bias"
     ],
-    "correctAnswer": "27",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "easy",
-    "explanation": "People speaking at least one language: 55 + 44 - 26 = 73. Therefore, 100 - 73 = 27 speak neither.",
-    "topic": "Venn Diagrams and Set Theory"
+    "explanation": "Confirmation bias is the tendency to search for and favor information that confirms our existing beliefs.",
+    "_cacheBreaker": "1755265388148_1"
   },
   {
-    "_id": "grade12_easy_thinking-skills_003",
-    "content": "In a group of 100 people, 61 speak English, 45 speak French, and 20 speak both languages. How many speak neither language?",
+    "_id": "thinking_12_easy_1755262177035_003",
+    "scenario": "Two scientists propose explanations for a new phenomenon: Theory A involves complex interactions between 15 different variables and 3 unknown forces. Theory B explains the same phenomenon using 2 well-understood principles. Both theories fit the observed data equally well.",
+    "content": "According to Occam's Razor, which theory should be preferred?",
     "type": "multiple_choice",
     "options": [
-      "14",
-      "39",
-      "55",
-      "20"
+      "Theory A because it's more detailed",
+      "Theory B because it's simpler",
+      "Both theories are equally valid",
+      "Neither theory should be accepted"
     ],
-    "correctAnswer": "14",
+    "correctAnswer": "Theory B because it's simpler",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "easy",
-    "explanation": "People speaking at least one language: 61 + 45 - 20 = 86. Therefore, 100 - 86 = 14 speak neither.",
-    "topic": "Venn Diagrams and Set Theory"
+    "explanation": "Occam's Razor suggests that when multiple explanations fit the data, the simplest one is usually correct.",
+    "_cacheBreaker": "1755265388148_2"
   },
   {
-    "_id": "grade12_easy_thinking-skills_004",
-    "content": "In a group of 100 people, 58 speak English, 33 speak French, and 17 speak both languages. How many speak neither language?",
+    "_id": "thinking_12_easy_1755262177035_004",
+    "scenario": "Dr. Smith conducts a study and observes: 'In 100 experiments, when I heat water to 100°C at sea level, it always boils.' She wants to make a general conclusion.",
+    "content": "What type of reasoning is Dr. Smith using to conclude 'Water boils at 100°C at sea level'? (Question 4)",
     "type": "multiple_choice",
     "options": [
-      "26",
-      "42",
-      "67",
-      "17"
+      "Deductive reasoning",
+      "Inductive reasoning",
+      "Circular reasoning",
+      "Emotional reasoning"
     ],
-    "correctAnswer": "26",
+    "correctAnswer": "Inductive reasoning",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "easy",
-    "explanation": "People speaking at least one language: 58 + 33 - 17 = 74. Therefore, 100 - 74 = 26 speak neither.",
-    "topic": "Venn Diagrams and Set Theory"
+    "explanation": "Inductive reasoning builds general conclusions from specific observations and patterns.",
+    "_cacheBreaker": "1755265388148_3"
   },
   {
-    "_id": "grade12_easy_thinking-skills_005",
-    "content": "In a group of 100 people, 50 speak English, 45 speak French, and 18 speak both languages. How many speak neither language?",
+    "_id": "thinking_12_easy_1755262177035_005",
+    "scenario": "Professor Johnson notices that his student Mark always seeks out information that supports his political views while ignoring contradictory evidence. Mark dismisses studies that challenge his beliefs without reading them.",
+    "content": "What cognitive bias is Mark demonstrating? (Question 5)",
     "type": "multiple_choice",
     "options": [
-      "23",
-      "50",
-      "55",
-      "18"
+      "Confirmation bias",
+      "Anchoring bias",
+      "Availability heuristic",
+      "Hindsight bias"
     ],
-    "correctAnswer": "23",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "easy",
-    "explanation": "People speaking at least one language: 50 + 45 - 18 = 77. Therefore, 100 - 77 = 23 speak neither.",
-    "topic": "Venn Diagrams and Set Theory"
+    "explanation": "Confirmation bias is the tendency to search for and favor information that confirms our existing beliefs.",
+    "_cacheBreaker": "1755265388148_4"
   },
   {
-    "_id": "grade12_easy_thinking-skills_006",
-    "content": "In a group of 100 people, 68 speak English, 37 speak French, and 23 speak both languages. How many speak neither language?",
+    "_id": "thinking_12_easy_1755262177035_006",
+    "scenario": "Two scientists propose explanations for a new phenomenon: Theory A involves complex interactions between 15 different variables and 3 unknown forces. Theory B explains the same phenomenon using 2 well-understood principles. Both theories fit the observed data equally well.",
+    "content": "According to Occam's Razor, which theory should be preferred? (Question 6)",
     "type": "multiple_choice",
     "options": [
-      "18",
-      "32",
-      "63",
-      "23"
+      "Theory A because it's more detailed",
+      "Theory B because it's simpler",
+      "Both theories are equally valid",
+      "Neither theory should be accepted"
     ],
-    "correctAnswer": "18",
+    "correctAnswer": "Theory B because it's simpler",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "easy",
-    "explanation": "People speaking at least one language: 68 + 37 - 23 = 82. Therefore, 100 - 82 = 18 speak neither.",
-    "topic": "Venn Diagrams and Set Theory"
+    "explanation": "Occam's Razor suggests that when multiple explanations fit the data, the simplest one is usually correct.",
+    "_cacheBreaker": "1755265388148_5"
   },
   {
-    "_id": "grade12_easy_thinking-skills_007",
-    "content": "In a group of 100 people, 64 speak English, 39 speak French, and 17 speak both languages. How many speak neither language?",
+    "_id": "thinking_12_easy_1755262177035_007",
+    "scenario": "Dr. Smith conducts a study and observes: 'In 100 experiments, when I heat water to 100°C at sea level, it always boils.' She wants to make a general conclusion.",
+    "content": "What type of reasoning is Dr. Smith using to conclude 'Water boils at 100°C at sea level'? (Question 7)",
     "type": "multiple_choice",
     "options": [
-      "14",
-      "36",
-      "61",
-      "17"
+      "Deductive reasoning",
+      "Inductive reasoning",
+      "Circular reasoning",
+      "Emotional reasoning"
     ],
-    "correctAnswer": "14",
+    "correctAnswer": "Inductive reasoning",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "easy",
-    "explanation": "People speaking at least one language: 64 + 39 - 17 = 86. Therefore, 100 - 86 = 14 speak neither.",
-    "topic": "Venn Diagrams and Set Theory"
+    "explanation": "Inductive reasoning builds general conclusions from specific observations and patterns.",
+    "_cacheBreaker": "1755265388148_6"
   },
   {
-    "_id": "grade12_easy_thinking-skills_008",
-    "content": "In a group of 100 people, 61 speak English, 44 speak French, and 28 speak both languages. How many speak neither language?",
+    "_id": "thinking_12_easy_1755262177035_008",
+    "scenario": "Professor Johnson notices that his student Mark always seeks out information that supports his political views while ignoring contradictory evidence. Mark dismisses studies that challenge his beliefs without reading them.",
+    "content": "What cognitive bias is Mark demonstrating? (Question 8)",
     "type": "multiple_choice",
     "options": [
-      "23",
-      "39",
-      "56",
-      "28"
+      "Confirmation bias",
+      "Anchoring bias",
+      "Availability heuristic",
+      "Hindsight bias"
     ],
-    "correctAnswer": "23",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "easy",
-    "explanation": "People speaking at least one language: 61 + 44 - 28 = 77. Therefore, 100 - 77 = 23 speak neither.",
-    "topic": "Venn Diagrams and Set Theory"
+    "explanation": "Confirmation bias is the tendency to search for and favor information that confirms our existing beliefs.",
+    "_cacheBreaker": "1755265388148_7"
   },
   {
-    "_id": "grade12_easy_thinking-skills_009",
-    "content": "In a group of 100 people, 53 speak English, 46 speak French, and 26 speak both languages. How many speak neither language?",
+    "_id": "thinking_12_easy_1755262177035_009",
+    "scenario": "Two scientists propose explanations for a new phenomenon: Theory A involves complex interactions between 15 different variables and 3 unknown forces. Theory B explains the same phenomenon using 2 well-understood principles. Both theories fit the observed data equally well.",
+    "content": "According to Occam's Razor, which theory should be preferred? (Question 9)",
     "type": "multiple_choice",
     "options": [
-      "27",
-      "47",
-      "54",
-      "26"
+      "Theory A because it's more detailed",
+      "Theory B because it's simpler",
+      "Both theories are equally valid",
+      "Neither theory should be accepted"
     ],
-    "correctAnswer": "27",
+    "correctAnswer": "Theory B because it's simpler",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "easy",
-    "explanation": "People speaking at least one language: 53 + 46 - 26 = 73. Therefore, 100 - 73 = 27 speak neither.",
-    "topic": "Venn Diagrams and Set Theory"
+    "explanation": "Occam's Razor suggests that when multiple explanations fit the data, the simplest one is usually correct.",
+    "_cacheBreaker": "1755265388148_8"
   },
   {
-    "_id": "grade12_easy_thinking-skills_010",
-    "content": "In a group of 100 people, 50 speak English, 47 speak French, and 16 speak both languages. How many speak neither language?",
+    "_id": "thinking_12_easy_1755262177035_010",
+    "scenario": "Dr. Smith conducts a study and observes: 'In 100 experiments, when I heat water to 100°C at sea level, it always boils.' She wants to make a general conclusion.",
+    "content": "What type of reasoning is Dr. Smith using to conclude 'Water boils at 100°C at sea level'? (Question 10)",
     "type": "multiple_choice",
     "options": [
-      "19",
-      "50",
-      "53",
-      "16"
+      "Deductive reasoning",
+      "Inductive reasoning",
+      "Circular reasoning",
+      "Emotional reasoning"
     ],
-    "correctAnswer": "19",
+    "correctAnswer": "Inductive reasoning",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "easy",
-    "explanation": "People speaking at least one language: 50 + 47 - 16 = 81. Therefore, 100 - 81 = 19 speak neither.",
-    "topic": "Venn Diagrams and Set Theory"
+    "explanation": "Inductive reasoning builds general conclusions from specific observations and patterns.",
+    "_cacheBreaker": "1755265388148_9"
   },
   {
-    "_id": "grade12_easy_thinking-skills_011",
-    "content": "In a group of 100 people, 55 speak English, 46 speak French, and 18 speak both languages. How many speak neither language?",
+    "_id": "thinking_12_easy_1755262177035_011",
+    "scenario": "Professor Johnson notices that his student Mark always seeks out information that supports his political views while ignoring contradictory evidence. Mark dismisses studies that challenge his beliefs without reading them.",
+    "content": "What cognitive bias is Mark demonstrating? (Question 11)",
     "type": "multiple_choice",
     "options": [
-      "17",
-      "45",
-      "54",
-      "18"
+      "Confirmation bias",
+      "Anchoring bias",
+      "Availability heuristic",
+      "Hindsight bias"
     ],
-    "correctAnswer": "17",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "easy",
-    "explanation": "People speaking at least one language: 55 + 46 - 18 = 83. Therefore, 100 - 83 = 17 speak neither.",
-    "topic": "Venn Diagrams and Set Theory"
+    "explanation": "Confirmation bias is the tendency to search for and favor information that confirms our existing beliefs.",
+    "_cacheBreaker": "1755265388148_10"
   },
   {
-    "_id": "grade12_easy_thinking-skills_012",
-    "content": "In a group of 100 people, 55 speak English, 43 speak French, and 19 speak both languages. How many speak neither language?",
+    "_id": "thinking_12_easy_1755262177035_012",
+    "scenario": "Two scientists propose explanations for a new phenomenon: Theory A involves complex interactions between 15 different variables and 3 unknown forces. Theory B explains the same phenomenon using 2 well-understood principles. Both theories fit the observed data equally well.",
+    "content": "According to Occam's Razor, which theory should be preferred? (Question 12)",
     "type": "multiple_choice",
     "options": [
-      "21",
-      "45",
-      "57",
-      "19"
+      "Theory A because it's more detailed",
+      "Theory B because it's simpler",
+      "Both theories are equally valid",
+      "Neither theory should be accepted"
     ],
-    "correctAnswer": "21",
+    "correctAnswer": "Theory B because it's simpler",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "easy",
-    "explanation": "People speaking at least one language: 55 + 43 - 19 = 79. Therefore, 100 - 79 = 21 speak neither.",
-    "topic": "Venn Diagrams and Set Theory"
+    "explanation": "Occam's Razor suggests that when multiple explanations fit the data, the simplest one is usually correct.",
+    "_cacheBreaker": "1755265388148_11"
   },
   {
-    "_id": "grade12_easy_thinking-skills_013",
-    "content": "In a group of 100 people, 53 speak English, 30 speak French, and 23 speak both languages. How many speak neither language?",
+    "_id": "thinking_12_easy_1755262177035_013",
+    "scenario": "Dr. Smith conducts a study and observes: 'In 100 experiments, when I heat water to 100°C at sea level, it always boils.' She wants to make a general conclusion.",
+    "content": "What type of reasoning is Dr. Smith using to conclude 'Water boils at 100°C at sea level'? (Question 13)",
     "type": "multiple_choice",
     "options": [
-      "40",
-      "47",
-      "70",
-      "23"
+      "Deductive reasoning",
+      "Inductive reasoning",
+      "Circular reasoning",
+      "Emotional reasoning"
     ],
-    "correctAnswer": "40",
+    "correctAnswer": "Inductive reasoning",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "easy",
-    "explanation": "People speaking at least one language: 53 + 30 - 23 = 60. Therefore, 100 - 60 = 40 speak neither.",
-    "topic": "Venn Diagrams and Set Theory"
+    "explanation": "Inductive reasoning builds general conclusions from specific observations and patterns.",
+    "_cacheBreaker": "1755265388148_12"
   },
   {
-    "_id": "grade12_easy_thinking-skills_014",
-    "content": "In a group of 100 people, 57 speak English, 45 speak French, and 19 speak both languages. How many speak neither language?",
+    "_id": "thinking_12_easy_1755262177035_014",
+    "scenario": "Professor Johnson notices that his student Mark always seeks out information that supports his political views while ignoring contradictory evidence. Mark dismisses studies that challenge his beliefs without reading them.",
+    "content": "What cognitive bias is Mark demonstrating? (Question 14)",
     "type": "multiple_choice",
     "options": [
-      "17",
-      "43",
-      "55",
-      "19"
+      "Confirmation bias",
+      "Anchoring bias",
+      "Availability heuristic",
+      "Hindsight bias"
     ],
-    "correctAnswer": "17",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "easy",
-    "explanation": "People speaking at least one language: 57 + 45 - 19 = 83. Therefore, 100 - 83 = 17 speak neither.",
-    "topic": "Venn Diagrams and Set Theory"
+    "explanation": "Confirmation bias is the tendency to search for and favor information that confirms our existing beliefs.",
+    "_cacheBreaker": "1755265388148_13"
   },
   {
-    "_id": "grade12_easy_thinking-skills_015",
-    "content": "In a group of 100 people, 67 speak English, 41 speak French, and 18 speak both languages. How many speak neither language?",
+    "_id": "thinking_12_easy_1755262177035_015",
+    "scenario": "Two scientists propose explanations for a new phenomenon: Theory A involves complex interactions between 15 different variables and 3 unknown forces. Theory B explains the same phenomenon using 2 well-understood principles. Both theories fit the observed data equally well.",
+    "content": "According to Occam's Razor, which theory should be preferred? (Question 15)",
     "type": "multiple_choice",
     "options": [
-      "10",
-      "33",
-      "59",
-      "18"
+      "Theory A because it's more detailed",
+      "Theory B because it's simpler",
+      "Both theories are equally valid",
+      "Neither theory should be accepted"
     ],
-    "correctAnswer": "10",
+    "correctAnswer": "Theory B because it's simpler",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "easy",
-    "explanation": "People speaking at least one language: 67 + 41 - 18 = 90. Therefore, 100 - 90 = 10 speak neither.",
-    "topic": "Venn Diagrams and Set Theory"
+    "explanation": "Occam's Razor suggests that when multiple explanations fit the data, the simplest one is usually correct.",
+    "_cacheBreaker": "1755265388148_14"
   },
   {
-    "_id": "grade12_easy_thinking-skills_016",
-    "content": "In a group of 100 people, 63 speak English, 39 speak French, and 18 speak both languages. How many speak neither language?",
+    "_id": "thinking_12_easy_1755262177035_016",
+    "scenario": "Dr. Smith conducts a study and observes: 'In 100 experiments, when I heat water to 100°C at sea level, it always boils.' She wants to make a general conclusion.",
+    "content": "What type of reasoning is Dr. Smith using to conclude 'Water boils at 100°C at sea level'? (Question 16)",
     "type": "multiple_choice",
     "options": [
-      "16",
-      "37",
-      "61",
-      "18"
+      "Deductive reasoning",
+      "Inductive reasoning",
+      "Circular reasoning",
+      "Emotional reasoning"
     ],
-    "correctAnswer": "16",
+    "correctAnswer": "Inductive reasoning",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "easy",
-    "explanation": "People speaking at least one language: 63 + 39 - 18 = 84. Therefore, 100 - 84 = 16 speak neither.",
-    "topic": "Venn Diagrams and Set Theory"
+    "explanation": "Inductive reasoning builds general conclusions from specific observations and patterns.",
+    "_cacheBreaker": "1755265388148_15"
   },
   {
-    "_id": "grade12_easy_thinking-skills_017",
-    "content": "In a group of 100 people, 54 speak English, 49 speak French, and 25 speak both languages. How many speak neither language?",
+    "_id": "thinking_12_easy_1755262177035_017",
+    "scenario": "Professor Johnson notices that his student Mark always seeks out information that supports his political views while ignoring contradictory evidence. Mark dismisses studies that challenge his beliefs without reading them.",
+    "content": "What cognitive bias is Mark demonstrating? (Question 17)",
     "type": "multiple_choice",
     "options": [
-      "22",
-      "46",
-      "51",
-      "25"
+      "Confirmation bias",
+      "Anchoring bias",
+      "Availability heuristic",
+      "Hindsight bias"
     ],
-    "correctAnswer": "22",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "easy",
-    "explanation": "People speaking at least one language: 54 + 49 - 25 = 78. Therefore, 100 - 78 = 22 speak neither.",
-    "topic": "Venn Diagrams and Set Theory"
+    "explanation": "Confirmation bias is the tendency to search for and favor information that confirms our existing beliefs.",
+    "_cacheBreaker": "1755265388148_16"
   },
   {
-    "_id": "grade12_easy_thinking-skills_018",
-    "content": "In a group of 100 people, 69 speak English, 39 speak French, and 16 speak both languages. How many speak neither language?",
+    "_id": "thinking_12_easy_1755262177035_018",
+    "scenario": "Two scientists propose explanations for a new phenomenon: Theory A involves complex interactions between 15 different variables and 3 unknown forces. Theory B explains the same phenomenon using 2 well-understood principles. Both theories fit the observed data equally well.",
+    "content": "According to Occam's Razor, which theory should be preferred? (Question 18)",
     "type": "multiple_choice",
     "options": [
-      "8",
-      "31",
-      "61",
-      "16"
+      "Theory A because it's more detailed",
+      "Theory B because it's simpler",
+      "Both theories are equally valid",
+      "Neither theory should be accepted"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "Theory B because it's simpler",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "easy",
-    "explanation": "People speaking at least one language: 69 + 39 - 16 = 92. Therefore, 100 - 92 = 8 speak neither.",
-    "topic": "Venn Diagrams and Set Theory"
+    "explanation": "Occam's Razor suggests that when multiple explanations fit the data, the simplest one is usually correct.",
+    "_cacheBreaker": "1755265388148_17"
   },
   {
-    "_id": "grade12_easy_thinking-skills_019",
-    "content": "In a group of 100 people, 57 speak English, 31 speak French, and 15 speak both languages. How many speak neither language?",
+    "_id": "thinking_12_easy_1755262177035_019",
+    "scenario": "Dr. Smith conducts a study and observes: 'In 100 experiments, when I heat water to 100°C at sea level, it always boils.' She wants to make a general conclusion.",
+    "content": "What type of reasoning is Dr. Smith using to conclude 'Water boils at 100°C at sea level'? (Question 19)",
     "type": "multiple_choice",
     "options": [
-      "27",
-      "43",
-      "69",
-      "15"
+      "Deductive reasoning",
+      "Inductive reasoning",
+      "Circular reasoning",
+      "Emotional reasoning"
     ],
-    "correctAnswer": "27",
+    "correctAnswer": "Inductive reasoning",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "easy",
-    "explanation": "People speaking at least one language: 57 + 31 - 15 = 73. Therefore, 100 - 73 = 27 speak neither.",
-    "topic": "Venn Diagrams and Set Theory"
+    "explanation": "Inductive reasoning builds general conclusions from specific observations and patterns.",
+    "_cacheBreaker": "1755265388148_18"
   },
   {
-    "_id": "grade12_easy_thinking-skills_020",
-    "content": "In a group of 100 people, 69 speak English, 38 speak French, and 25 speak both languages. How many speak neither language?",
+    "_id": "thinking_12_easy_1755262177035_020",
+    "scenario": "Professor Johnson notices that his student Mark always seeks out information that supports his political views while ignoring contradictory evidence. Mark dismisses studies that challenge his beliefs without reading them.",
+    "content": "What cognitive bias is Mark demonstrating? (Question 20)",
     "type": "multiple_choice",
     "options": [
-      "18",
-      "31",
-      "62",
-      "25"
+      "Confirmation bias",
+      "Anchoring bias",
+      "Availability heuristic",
+      "Hindsight bias"
     ],
-    "correctAnswer": "18",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "easy",
-    "explanation": "People speaking at least one language: 69 + 38 - 25 = 82. Therefore, 100 - 82 = 18 speak neither.",
-    "topic": "Venn Diagrams and Set Theory"
+    "explanation": "Confirmation bias is the tendency to search for and favor information that confirms our existing beliefs.",
+    "_cacheBreaker": "1755265388148_19"
   }
 ]

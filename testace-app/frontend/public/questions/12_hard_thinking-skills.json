@@ -1,342 +1,362 @@
 [
   {
-    "_id": "grade12_hard_thinking-skills_001",
-    "content": "In a tournament bracket with 81 teams, how many games must be played to determine a winner?",
+    "_id": "thinking_12_hard_1755262177037_001",
+    "scenario": "Dr. Smith conducts a study and observes: 'In 100 experiments, when I heat water to 100°C at sea level, it always boils.' She wants to make a general conclusion.",
+    "content": "What type of reasoning is Dr. Smith using to conclude 'Water boils at 100°C at sea level'?",
     "type": "multiple_choice",
     "options": [
-      "80",
-      "81",
-      "9",
-      "36"
+      "Deductive reasoning",
+      "Inductive reasoning",
+      "Circular reasoning",
+      "Emotional reasoning"
     ],
-    "correctAnswer": "80",
+    "correctAnswer": "Inductive reasoning",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "hard",
-    "explanation": "In a single-elimination tournament, each game eliminates exactly one team. To eliminate 80 teams (leaving 1 winner), exactly 80 games are needed.",
-    "topic": "Tournament Mathematics"
+    "explanation": "Inductive reasoning builds general conclusions from specific observations and patterns.",
+    "_cacheBreaker": "1755265388153_0"
   },
   {
-    "_id": "grade12_hard_thinking-skills_002",
-    "content": "In a tournament bracket with 49 teams, how many games must be played to determine a winner?",
+    "_id": "thinking_12_hard_1755262177037_002",
+    "scenario": "Professor Johnson notices that his student Mark always seeks out information that supports his political views while ignoring contradictory evidence. Mark dismisses studies that challenge his beliefs without reading them.",
+    "content": "What cognitive bias is Mark demonstrating?",
     "type": "multiple_choice",
     "options": [
-      "48",
-      "49",
-      "7",
-      "21"
+      "Confirmation bias",
+      "Anchoring bias",
+      "Availability heuristic",
+      "Hindsight bias"
     ],
-    "correctAnswer": "48",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "hard",
-    "explanation": "In a single-elimination tournament, each game eliminates exactly one team. To eliminate 48 teams (leaving 1 winner), exactly 48 games are needed.",
-    "topic": "Tournament Mathematics"
+    "explanation": "Confirmation bias is the tendency to search for and favor information that confirms our existing beliefs.",
+    "_cacheBreaker": "1755265388153_1"
   },
   {
-    "_id": "grade12_hard_thinking-skills_003",
-    "content": "In a tournament bracket with 81 teams, how many games must be played to determine a winner?",
+    "_id": "thinking_12_hard_1755262177037_003",
+    "scenario": "Two scientists propose explanations for a new phenomenon: Theory A involves complex interactions between 15 different variables and 3 unknown forces. Theory B explains the same phenomenon using 2 well-understood principles. Both theories fit the observed data equally well.",
+    "content": "According to Occam's Razor, which theory should be preferred?",
     "type": "multiple_choice",
     "options": [
-      "80",
-      "81",
-      "9",
-      "36"
+      "Theory A because it's more detailed",
+      "Theory B because it's simpler",
+      "Both theories are equally valid",
+      "Neither theory should be accepted"
     ],
-    "correctAnswer": "80",
+    "correctAnswer": "Theory B because it's simpler",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "hard",
-    "explanation": "In a single-elimination tournament, each game eliminates exactly one team. To eliminate 80 teams (leaving 1 winner), exactly 80 games are needed.",
-    "topic": "Tournament Mathematics"
+    "explanation": "Occam's Razor suggests that when multiple explanations fit the data, the simplest one is usually correct.",
+    "_cacheBreaker": "1755265388153_2"
   },
   {
-    "_id": "grade12_hard_thinking-skills_004",
-    "content": "In a tournament bracket with 36 teams, how many games must be played to determine a winner?",
+    "_id": "thinking_12_hard_1755262177037_004",
+    "scenario": "Dr. Smith conducts a study and observes: 'In 100 experiments, when I heat water to 100°C at sea level, it always boils.' She wants to make a general conclusion.",
+    "content": "What type of reasoning is Dr. Smith using to conclude 'Water boils at 100°C at sea level'? (Question 4)",
     "type": "multiple_choice",
     "options": [
-      "35",
-      "36",
-      "6",
-      "15"
+      "Deductive reasoning",
+      "Inductive reasoning",
+      "Circular reasoning",
+      "Emotional reasoning"
     ],
-    "correctAnswer": "35",
+    "correctAnswer": "Inductive reasoning",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "hard",
-    "explanation": "In a single-elimination tournament, each game eliminates exactly one team. To eliminate 35 teams (leaving 1 winner), exactly 35 games are needed.",
-    "topic": "Tournament Mathematics"
+    "explanation": "Inductive reasoning builds general conclusions from specific observations and patterns.",
+    "_cacheBreaker": "1755265388153_3"
   },
   {
-    "_id": "grade12_hard_thinking-skills_005",
-    "content": "In a tournament bracket with 49 teams, how many games must be played to determine a winner?",
+    "_id": "thinking_12_hard_1755262177037_005",
+    "scenario": "Professor Johnson notices that his student Mark always seeks out information that supports his political views while ignoring contradictory evidence. Mark dismisses studies that challenge his beliefs without reading them.",
+    "content": "What cognitive bias is Mark demonstrating? (Question 5)",
     "type": "multiple_choice",
     "options": [
-      "48",
-      "49",
-      "7",
-      "21"
+      "Confirmation bias",
+      "Anchoring bias",
+      "Availability heuristic",
+      "Hindsight bias"
     ],
-    "correctAnswer": "48",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "hard",
-    "explanation": "In a single-elimination tournament, each game eliminates exactly one team. To eliminate 48 teams (leaving 1 winner), exactly 48 games are needed.",
-    "topic": "Tournament Mathematics"
+    "explanation": "Confirmation bias is the tendency to search for and favor information that confirms our existing beliefs.",
+    "_cacheBreaker": "1755265388153_4"
   },
   {
-    "_id": "grade12_hard_thinking-skills_006",
-    "content": "In a tournament bracket with 81 teams, how many games must be played to determine a winner?",
+    "_id": "thinking_12_hard_1755262177037_006",
+    "scenario": "Two scientists propose explanations for a new phenomenon: Theory A involves complex interactions between 15 different variables and 3 unknown forces. Theory B explains the same phenomenon using 2 well-understood principles. Both theories fit the observed data equally well.",
+    "content": "According to Occam's Razor, which theory should be preferred? (Question 6)",
     "type": "multiple_choice",
     "options": [
-      "80",
-      "81",
-      "9",
-      "36"
+      "Theory A because it's more detailed",
+      "Theory B because it's simpler",
+      "Both theories are equally valid",
+      "Neither theory should be accepted"
     ],
-    "correctAnswer": "80",
+    "correctAnswer": "Theory B because it's simpler",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "hard",
-    "explanation": "In a single-elimination tournament, each game eliminates exactly one team. To eliminate 80 teams (leaving 1 winner), exactly 80 games are needed.",
-    "topic": "Tournament Mathematics"
+    "explanation": "Occam's Razor suggests that when multiple explanations fit the data, the simplest one is usually correct.",
+    "_cacheBreaker": "1755265388153_5"
   },
   {
-    "_id": "grade12_hard_thinking-skills_007",
-    "content": "In a tournament bracket with 49 teams, how many games must be played to determine a winner?",
+    "_id": "thinking_12_hard_1755262177037_007",
+    "scenario": "Dr. Smith conducts a study and observes: 'In 100 experiments, when I heat water to 100°C at sea level, it always boils.' She wants to make a general conclusion.",
+    "content": "What type of reasoning is Dr. Smith using to conclude 'Water boils at 100°C at sea level'? (Question 7)",
     "type": "multiple_choice",
     "options": [
-      "48",
-      "49",
-      "7",
-      "21"
+      "Deductive reasoning",
+      "Inductive reasoning",
+      "Circular reasoning",
+      "Emotional reasoning"
     ],
-    "correctAnswer": "48",
+    "correctAnswer": "Inductive reasoning",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "hard",
-    "explanation": "In a single-elimination tournament, each game eliminates exactly one team. To eliminate 48 teams (leaving 1 winner), exactly 48 games are needed.",
-    "topic": "Tournament Mathematics"
+    "explanation": "Inductive reasoning builds general conclusions from specific observations and patterns.",
+    "_cacheBreaker": "1755265388153_6"
   },
   {
-    "_id": "grade12_hard_thinking-skills_008",
-    "content": "In a tournament bracket with 81 teams, how many games must be played to determine a winner?",
+    "_id": "thinking_12_hard_1755262177037_008",
+    "scenario": "Professor Johnson notices that his student Mark always seeks out information that supports his political views while ignoring contradictory evidence. Mark dismisses studies that challenge his beliefs without reading them.",
+    "content": "What cognitive bias is Mark demonstrating? (Question 8)",
     "type": "multiple_choice",
     "options": [
-      "80",
-      "81",
-      "9",
-      "36"
+      "Confirmation bias",
+      "Anchoring bias",
+      "Availability heuristic",
+      "Hindsight bias"
     ],
-    "correctAnswer": "80",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "hard",
-    "explanation": "In a single-elimination tournament, each game eliminates exactly one team. To eliminate 80 teams (leaving 1 winner), exactly 80 games are needed.",
-    "topic": "Tournament Mathematics"
+    "explanation": "Confirmation bias is the tendency to search for and favor information that confirms our existing beliefs.",
+    "_cacheBreaker": "1755265388153_7"
   },
   {
-    "_id": "grade12_hard_thinking-skills_009",
-    "content": "In a tournament bracket with 36 teams, how many games must be played to determine a winner?",
+    "_id": "thinking_12_hard_1755262177037_009",
+    "scenario": "Two scientists propose explanations for a new phenomenon: Theory A involves complex interactions between 15 different variables and 3 unknown forces. Theory B explains the same phenomenon using 2 well-understood principles. Both theories fit the observed data equally well.",
+    "content": "According to Occam's Razor, which theory should be preferred? (Question 9)",
     "type": "multiple_choice",
     "options": [
-      "35",
-      "36",
-      "6",
-      "15"
+      "Theory A because it's more detailed",
+      "Theory B because it's simpler",
+      "Both theories are equally valid",
+      "Neither theory should be accepted"
     ],
-    "correctAnswer": "35",
+    "correctAnswer": "Theory B because it's simpler",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "hard",
-    "explanation": "In a single-elimination tournament, each game eliminates exactly one team. To eliminate 35 teams (leaving 1 winner), exactly 35 games are needed.",
-    "topic": "Tournament Mathematics"
+    "explanation": "Occam's Razor suggests that when multiple explanations fit the data, the simplest one is usually correct.",
+    "_cacheBreaker": "1755265388153_8"
   },
   {
-    "_id": "grade12_hard_thinking-skills_010",
-    "content": "In a tournament bracket with 64 teams, how many games must be played to determine a winner?",
+    "_id": "thinking_12_hard_1755262177037_010",
+    "scenario": "Dr. Smith conducts a study and observes: 'In 100 experiments, when I heat water to 100°C at sea level, it always boils.' She wants to make a general conclusion.",
+    "content": "What type of reasoning is Dr. Smith using to conclude 'Water boils at 100°C at sea level'? (Question 10)",
     "type": "multiple_choice",
     "options": [
-      "63",
-      "64",
-      "8",
-      "28"
+      "Deductive reasoning",
+      "Inductive reasoning",
+      "Circular reasoning",
+      "Emotional reasoning"
     ],
-    "correctAnswer": "63",
+    "correctAnswer": "Inductive reasoning",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "hard",
-    "explanation": "In a single-elimination tournament, each game eliminates exactly one team. To eliminate 63 teams (leaving 1 winner), exactly 63 games are needed.",
-    "topic": "Tournament Mathematics"
+    "explanation": "Inductive reasoning builds general conclusions from specific observations and patterns.",
+    "_cacheBreaker": "1755265388153_9"
   },
   {
-    "_id": "grade12_hard_thinking-skills_011",
-    "content": "In a tournament bracket with 49 teams, how many games must be played to determine a winner?",
+    "_id": "thinking_12_hard_1755262177037_011",
+    "scenario": "Professor Johnson notices that his student Mark always seeks out information that supports his political views while ignoring contradictory evidence. Mark dismisses studies that challenge his beliefs without reading them.",
+    "content": "What cognitive bias is Mark demonstrating? (Question 11)",
     "type": "multiple_choice",
     "options": [
-      "48",
-      "49",
-      "7",
-      "21"
+      "Confirmation bias",
+      "Anchoring bias",
+      "Availability heuristic",
+      "Hindsight bias"
     ],
-    "correctAnswer": "48",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "hard",
-    "explanation": "In a single-elimination tournament, each game eliminates exactly one team. To eliminate 48 teams (leaving 1 winner), exactly 48 games are needed.",
-    "topic": "Tournament Mathematics"
+    "explanation": "Confirmation bias is the tendency to search for and favor information that confirms our existing beliefs.",
+    "_cacheBreaker": "1755265388153_10"
   },
   {
-    "_id": "grade12_hard_thinking-skills_012",
-    "content": "In a tournament bracket with 81 teams, how many games must be played to determine a winner?",
+    "_id": "thinking_12_hard_1755262177037_012",
+    "scenario": "Two scientists propose explanations for a new phenomenon: Theory A involves complex interactions between 15 different variables and 3 unknown forces. Theory B explains the same phenomenon using 2 well-understood principles. Both theories fit the observed data equally well.",
+    "content": "According to Occam's Razor, which theory should be preferred? (Question 12)",
     "type": "multiple_choice",
     "options": [
-      "80",
-      "81",
-      "9",
-      "36"
+      "Theory A because it's more detailed",
+      "Theory B because it's simpler",
+      "Both theories are equally valid",
+      "Neither theory should be accepted"
     ],
-    "correctAnswer": "80",
+    "correctAnswer": "Theory B because it's simpler",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "hard",
-    "explanation": "In a single-elimination tournament, each game eliminates exactly one team. To eliminate 80 teams (leaving 1 winner), exactly 80 games are needed.",
-    "topic": "Tournament Mathematics"
+    "explanation": "Occam's Razor suggests that when multiple explanations fit the data, the simplest one is usually correct.",
+    "_cacheBreaker": "1755265388153_11"
   },
   {
-    "_id": "grade12_hard_thinking-skills_013",
-    "content": "In a tournament bracket with 36 teams, how many games must be played to determine a winner?",
+    "_id": "thinking_12_hard_1755262177037_013",
+    "scenario": "Dr. Smith conducts a study and observes: 'In 100 experiments, when I heat water to 100°C at sea level, it always boils.' She wants to make a general conclusion.",
+    "content": "What type of reasoning is Dr. Smith using to conclude 'Water boils at 100°C at sea level'? (Question 13)",
     "type": "multiple_choice",
     "options": [
-      "35",
-      "36",
-      "6",
-      "15"
+      "Deductive reasoning",
+      "Inductive reasoning",
+      "Circular reasoning",
+      "Emotional reasoning"
     ],
-    "correctAnswer": "35",
+    "correctAnswer": "Inductive reasoning",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "hard",
-    "explanation": "In a single-elimination tournament, each game eliminates exactly one team. To eliminate 35 teams (leaving 1 winner), exactly 35 games are needed.",
-    "topic": "Tournament Mathematics"
+    "explanation": "Inductive reasoning builds general conclusions from specific observations and patterns.",
+    "_cacheBreaker": "1755265388153_12"
   },
   {
-    "_id": "grade12_hard_thinking-skills_014",
-    "content": "In a tournament bracket with 49 teams, how many games must be played to determine a winner?",
+    "_id": "thinking_12_hard_1755262177037_014",
+    "scenario": "Professor Johnson notices that his student Mark always seeks out information that supports his political views while ignoring contradictory evidence. Mark dismisses studies that challenge his beliefs without reading them.",
+    "content": "What cognitive bias is Mark demonstrating? (Question 14)",
     "type": "multiple_choice",
     "options": [
-      "48",
-      "49",
-      "7",
-      "21"
+      "Confirmation bias",
+      "Anchoring bias",
+      "Availability heuristic",
+      "Hindsight bias"
     ],
-    "correctAnswer": "48",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "hard",
-    "explanation": "In a single-elimination tournament, each game eliminates exactly one team. To eliminate 48 teams (leaving 1 winner), exactly 48 games are needed.",
-    "topic": "Tournament Mathematics"
+    "explanation": "Confirmation bias is the tendency to search for and favor information that confirms our existing beliefs.",
+    "_cacheBreaker": "1755265388153_13"
   },
   {
-    "_id": "grade12_hard_thinking-skills_015",
-    "content": "In a tournament bracket with 36 teams, how many games must be played to determine a winner?",
+    "_id": "thinking_12_hard_1755262177037_015",
+    "scenario": "Two scientists propose explanations for a new phenomenon: Theory A involves complex interactions between 15 different variables and 3 unknown forces. Theory B explains the same phenomenon using 2 well-understood principles. Both theories fit the observed data equally well.",
+    "content": "According to Occam's Razor, which theory should be preferred? (Question 15)",
     "type": "multiple_choice",
     "options": [
-      "35",
-      "36",
-      "6",
-      "15"
+      "Theory A because it's more detailed",
+      "Theory B because it's simpler",
+      "Both theories are equally valid",
+      "Neither theory should be accepted"
     ],
-    "correctAnswer": "35",
+    "correctAnswer": "Theory B because it's simpler",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "hard",
-    "explanation": "In a single-elimination tournament, each game eliminates exactly one team. To eliminate 35 teams (leaving 1 winner), exactly 35 games are needed.",
-    "topic": "Tournament Mathematics"
+    "explanation": "Occam's Razor suggests that when multiple explanations fit the data, the simplest one is usually correct.",
+    "_cacheBreaker": "1755265388153_14"
   },
   {
-    "_id": "grade12_hard_thinking-skills_016",
-    "content": "In a tournament bracket with 81 teams, how many games must be played to determine a winner?",
+    "_id": "thinking_12_hard_1755262177037_016",
+    "scenario": "Dr. Smith conducts a study and observes: 'In 100 experiments, when I heat water to 100°C at sea level, it always boils.' She wants to make a general conclusion.",
+    "content": "What type of reasoning is Dr. Smith using to conclude 'Water boils at 100°C at sea level'? (Question 16)",
     "type": "multiple_choice",
     "options": [
-      "80",
-      "81",
-      "9",
-      "36"
+      "Deductive reasoning",
+      "Inductive reasoning",
+      "Circular reasoning",
+      "Emotional reasoning"
     ],
-    "correctAnswer": "80",
+    "correctAnswer": "Inductive reasoning",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "hard",
-    "explanation": "In a single-elimination tournament, each game eliminates exactly one team. To eliminate 80 teams (leaving 1 winner), exactly 80 games are needed.",
-    "topic": "Tournament Mathematics"
+    "explanation": "Inductive reasoning builds general conclusions from specific observations and patterns.",
+    "_cacheBreaker": "1755265388153_15"
   },
   {
-    "_id": "grade12_hard_thinking-skills_017",
-    "content": "In a tournament bracket with 81 teams, how many games must be played to determine a winner?",
+    "_id": "thinking_12_hard_1755262177037_017",
+    "scenario": "Professor Johnson notices that his student Mark always seeks out information that supports his political views while ignoring contradictory evidence. Mark dismisses studies that challenge his beliefs without reading them.",
+    "content": "What cognitive bias is Mark demonstrating? (Question 17)",
     "type": "multiple_choice",
     "options": [
-      "80",
-      "81",
-      "9",
-      "36"
+      "Confirmation bias",
+      "Anchoring bias",
+      "Availability heuristic",
+      "Hindsight bias"
     ],
-    "correctAnswer": "80",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "hard",
-    "explanation": "In a single-elimination tournament, each game eliminates exactly one team. To eliminate 80 teams (leaving 1 winner), exactly 80 games are needed.",
-    "topic": "Tournament Mathematics"
+    "explanation": "Confirmation bias is the tendency to search for and favor information that confirms our existing beliefs.",
+    "_cacheBreaker": "1755265388153_16"
   },
   {
-    "_id": "grade12_hard_thinking-skills_018",
-    "content": "In a tournament bracket with 36 teams, how many games must be played to determine a winner?",
+    "_id": "thinking_12_hard_1755262177037_018",
+    "scenario": "Two scientists propose explanations for a new phenomenon: Theory A involves complex interactions between 15 different variables and 3 unknown forces. Theory B explains the same phenomenon using 2 well-understood principles. Both theories fit the observed data equally well.",
+    "content": "According to Occam's Razor, which theory should be preferred? (Question 18)",
     "type": "multiple_choice",
     "options": [
-      "35",
-      "36",
-      "6",
-      "15"
+      "Theory A because it's more detailed",
+      "Theory B because it's simpler",
+      "Both theories are equally valid",
+      "Neither theory should be accepted"
     ],
-    "correctAnswer": "35",
+    "correctAnswer": "Theory B because it's simpler",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "hard",
-    "explanation": "In a single-elimination tournament, each game eliminates exactly one team. To eliminate 35 teams (leaving 1 winner), exactly 35 games are needed.",
-    "topic": "Tournament Mathematics"
+    "explanation": "Occam's Razor suggests that when multiple explanations fit the data, the simplest one is usually correct.",
+    "_cacheBreaker": "1755265388153_17"
   },
   {
-    "_id": "grade12_hard_thinking-skills_019",
-    "content": "In a tournament bracket with 49 teams, how many games must be played to determine a winner?",
+    "_id": "thinking_12_hard_1755262177037_019",
+    "scenario": "Dr. Smith conducts a study and observes: 'In 100 experiments, when I heat water to 100°C at sea level, it always boils.' She wants to make a general conclusion.",
+    "content": "What type of reasoning is Dr. Smith using to conclude 'Water boils at 100°C at sea level'? (Question 19)",
     "type": "multiple_choice",
     "options": [
-      "48",
-      "49",
-      "7",
-      "21"
+      "Deductive reasoning",
+      "Inductive reasoning",
+      "Circular reasoning",
+      "Emotional reasoning"
     ],
-    "correctAnswer": "48",
+    "correctAnswer": "Inductive reasoning",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "hard",
-    "explanation": "In a single-elimination tournament, each game eliminates exactly one team. To eliminate 48 teams (leaving 1 winner), exactly 48 games are needed.",
-    "topic": "Tournament Mathematics"
+    "explanation": "Inductive reasoning builds general conclusions from specific observations and patterns.",
+    "_cacheBreaker": "1755265388153_18"
   },
   {
-    "_id": "grade12_hard_thinking-skills_020",
-    "content": "In a tournament bracket with 36 teams, how many games must be played to determine a winner?",
+    "_id": "thinking_12_hard_1755262177037_020",
+    "scenario": "Professor Johnson notices that his student Mark always seeks out information that supports his political views while ignoring contradictory evidence. Mark dismisses studies that challenge his beliefs without reading them.",
+    "content": "What cognitive bias is Mark demonstrating? (Question 20)",
     "type": "multiple_choice",
     "options": [
-      "35",
-      "36",
-      "6",
-      "15"
+      "Confirmation bias",
+      "Anchoring bias",
+      "Availability heuristic",
+      "Hindsight bias"
     ],
-    "correctAnswer": "35",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 12,
     "difficulty": "hard",
-    "explanation": "In a single-elimination tournament, each game eliminates exactly one team. To eliminate 35 teams (leaving 1 winner), exactly 35 games are needed.",
-    "topic": "Tournament Mathematics"
+    "explanation": "Confirmation bias is the tendency to search for and favor information that confirms our existing beliefs.",
+    "_cacheBreaker": "1755265388153_19"
   }
 ]

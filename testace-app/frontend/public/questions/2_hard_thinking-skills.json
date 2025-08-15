@@ -1,342 +1,362 @@
 [
   {
-    "_id": "grade2_hard_thinking-skills_001",
-    "content": "A snail climbs up a 9-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_2_hard_1755262176985_001",
+    "scenario": "Look at these shapes: ⭐ ⭐ 🔵 ⭐. Most shapes are the same, but one is different.",
+    "content": "Which shape is different?",
     "type": "multiple_choice",
     "options": [
-      "Day 8",
-      "Day 9",
-      "Day 7",
-      "Day 4"
+      "First star",
+      "Second star",
+      "Blue circle",
+      "Last star"
     ],
-    "correctAnswer": "Day 8",
+    "correctAnswer": "Blue circle",
     "subject": "Thinking Skills",
     "grade": 2,
     "difficulty": "hard",
-    "explanation": "After 7 days: net progress is 1m/day = 7m. On day 8, it climbs 2m more to reach 9m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "The blue circle is different from the stars.",
+    "_cacheBreaker": "1755265388169_0"
   },
   {
-    "_id": "grade2_hard_thinking-skills_002",
-    "content": "A snail climbs up a 9-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_2_hard_1755262176985_002",
+    "scenario": "Tommy has this pattern: Big, Small, Big, Small, Big. He wants to continue it.",
+    "content": "What should come next?",
     "type": "multiple_choice",
     "options": [
-      "Day 8",
-      "Day 9",
-      "Day 7",
-      "Day 4"
+      "Big",
+      "Small",
+      "Medium",
+      "Tiny"
     ],
-    "correctAnswer": "Day 8",
+    "correctAnswer": "Small",
     "subject": "Thinking Skills",
     "grade": 2,
     "difficulty": "hard",
-    "explanation": "After 7 days: net progress is 1m/day = 7m. On day 8, it climbs 2m more to reach 9m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "The pattern alternates Big, Small, so Small comes next.",
+    "_cacheBreaker": "1755265388169_1"
   },
   {
-    "_id": "grade2_hard_thinking-skills_003",
-    "content": "A snail climbs up a 12-meter wall. Each day it climbs 3 meters up, but each night it slides 2 meter down. On which day will it reach the top?",
+    "_id": "thinking_2_hard_1755262176985_003",
+    "scenario": "All dogs have four legs. Spot is a dog.",
+    "content": "How many legs does Spot have?",
     "type": "multiple_choice",
     "options": [
-      "Day 10",
-      "Day 11",
-      "Day 9",
-      "Day 4"
+      "Two",
+      "Three",
+      "Four",
+      "Five"
     ],
-    "correctAnswer": "Day 10",
+    "correctAnswer": "Four",
     "subject": "Thinking Skills",
     "grade": 2,
     "difficulty": "hard",
-    "explanation": "After 9 days: net progress is 1m/day = 9m. On day 10, it climbs 3m more to reach 12m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "Since all dogs have four legs and Spot is a dog, Spot has four legs.",
+    "_cacheBreaker": "1755265388169_2"
   },
   {
-    "_id": "grade2_hard_thinking-skills_004",
-    "content": "A snail climbs up a 12-meter wall. Each day it climbs 3 meters up, but each night it slides 2 meter down. On which day will it reach the top?",
+    "_id": "thinking_2_hard_1755262176985_004",
+    "scenario": "Look at these shapes: ⭐ ⭐ 🔵 ⭐. Most shapes are the same, but one is different.",
+    "content": "Which shape is different? (Question 4)",
     "type": "multiple_choice",
     "options": [
-      "Day 10",
-      "Day 11",
-      "Day 9",
-      "Day 4"
+      "First star",
+      "Second star",
+      "Blue circle",
+      "Last star"
     ],
-    "correctAnswer": "Day 10",
+    "correctAnswer": "Blue circle",
     "subject": "Thinking Skills",
     "grade": 2,
     "difficulty": "hard",
-    "explanation": "After 9 days: net progress is 1m/day = 9m. On day 10, it climbs 3m more to reach 12m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "The blue circle is different from the stars.",
+    "_cacheBreaker": "1755265388169_3"
   },
   {
-    "_id": "grade2_hard_thinking-skills_005",
-    "content": "A snail climbs up a 10-meter wall. Each day it climbs 3 meters up, but each night it slides 2 meter down. On which day will it reach the top?",
+    "_id": "thinking_2_hard_1755262176985_005",
+    "scenario": "Tommy has this pattern: Big, Small, Big, Small, Big. He wants to continue it.",
+    "content": "What should come next? (Question 5)",
     "type": "multiple_choice",
     "options": [
-      "Day 8",
-      "Day 9",
-      "Day 7",
-      "Day 3"
+      "Big",
+      "Small",
+      "Medium",
+      "Tiny"
     ],
-    "correctAnswer": "Day 8",
+    "correctAnswer": "Small",
     "subject": "Thinking Skills",
     "grade": 2,
     "difficulty": "hard",
-    "explanation": "After 7 days: net progress is 1m/day = 7m. On day 8, it climbs 3m more to reach 10m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "The pattern alternates Big, Small, so Small comes next.",
+    "_cacheBreaker": "1755265388169_4"
   },
   {
-    "_id": "grade2_hard_thinking-skills_006",
-    "content": "A snail climbs up a 8-meter wall. Each day it climbs 3 meters up, but each night it slides 2 meter down. On which day will it reach the top?",
+    "_id": "thinking_2_hard_1755262176985_006",
+    "scenario": "All dogs have four legs. Spot is a dog.",
+    "content": "How many legs does Spot have? (Question 6)",
     "type": "multiple_choice",
     "options": [
-      "Day 6",
-      "Day 7",
-      "Day 5",
-      "Day 2"
+      "Two",
+      "Three",
+      "Four",
+      "Five"
     ],
-    "correctAnswer": "Day 6",
+    "correctAnswer": "Four",
     "subject": "Thinking Skills",
     "grade": 2,
     "difficulty": "hard",
-    "explanation": "After 5 days: net progress is 1m/day = 5m. On day 6, it climbs 3m more to reach 8m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "Since all dogs have four legs and Spot is a dog, Spot has four legs.",
+    "_cacheBreaker": "1755265388169_5"
   },
   {
-    "_id": "grade2_hard_thinking-skills_007",
-    "content": "A snail climbs up a 12-meter wall. Each day it climbs 3 meters up, but each night it slides 2 meter down. On which day will it reach the top?",
+    "_id": "thinking_2_hard_1755262176985_007",
+    "scenario": "Look at these shapes: ⭐ ⭐ 🔵 ⭐. Most shapes are the same, but one is different.",
+    "content": "Which shape is different? (Question 7)",
     "type": "multiple_choice",
     "options": [
-      "Day 10",
-      "Day 11",
-      "Day 9",
-      "Day 4"
+      "First star",
+      "Second star",
+      "Blue circle",
+      "Last star"
     ],
-    "correctAnswer": "Day 10",
+    "correctAnswer": "Blue circle",
     "subject": "Thinking Skills",
     "grade": 2,
     "difficulty": "hard",
-    "explanation": "After 9 days: net progress is 1m/day = 9m. On day 10, it climbs 3m more to reach 12m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "The blue circle is different from the stars.",
+    "_cacheBreaker": "1755265388169_6"
   },
   {
-    "_id": "grade2_hard_thinking-skills_008",
-    "content": "A snail climbs up a 11-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_2_hard_1755262176985_008",
+    "scenario": "Tommy has this pattern: Big, Small, Big, Small, Big. He wants to continue it.",
+    "content": "What should come next? (Question 8)",
     "type": "multiple_choice",
     "options": [
-      "Day 10",
-      "Day 11",
-      "Day 9",
-      "Day 5"
+      "Big",
+      "Small",
+      "Medium",
+      "Tiny"
     ],
-    "correctAnswer": "Day 10",
+    "correctAnswer": "Small",
     "subject": "Thinking Skills",
     "grade": 2,
     "difficulty": "hard",
-    "explanation": "After 9 days: net progress is 1m/day = 9m. On day 10, it climbs 2m more to reach 11m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "The pattern alternates Big, Small, so Small comes next.",
+    "_cacheBreaker": "1755265388169_7"
   },
   {
-    "_id": "grade2_hard_thinking-skills_009",
-    "content": "A snail climbs up a 11-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_2_hard_1755262176985_009",
+    "scenario": "All dogs have four legs. Spot is a dog.",
+    "content": "How many legs does Spot have? (Question 9)",
     "type": "multiple_choice",
     "options": [
-      "Day 10",
-      "Day 11",
-      "Day 9",
-      "Day 5"
+      "Two",
+      "Three",
+      "Four",
+      "Five"
     ],
-    "correctAnswer": "Day 10",
+    "correctAnswer": "Four",
     "subject": "Thinking Skills",
     "grade": 2,
     "difficulty": "hard",
-    "explanation": "After 9 days: net progress is 1m/day = 9m. On day 10, it climbs 2m more to reach 11m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "Since all dogs have four legs and Spot is a dog, Spot has four legs.",
+    "_cacheBreaker": "1755265388169_8"
   },
   {
-    "_id": "grade2_hard_thinking-skills_010",
-    "content": "A snail climbs up a 11-meter wall. Each day it climbs 3 meters up, but each night it slides 2 meter down. On which day will it reach the top?",
+    "_id": "thinking_2_hard_1755262176985_010",
+    "scenario": "Look at these shapes: ⭐ ⭐ 🔵 ⭐. Most shapes are the same, but one is different.",
+    "content": "Which shape is different? (Question 10)",
     "type": "multiple_choice",
     "options": [
-      "Day 9",
-      "Day 10",
-      "Day 8",
-      "Day 3"
+      "First star",
+      "Second star",
+      "Blue circle",
+      "Last star"
     ],
-    "correctAnswer": "Day 9",
+    "correctAnswer": "Blue circle",
     "subject": "Thinking Skills",
     "grade": 2,
     "difficulty": "hard",
-    "explanation": "After 8 days: net progress is 1m/day = 8m. On day 9, it climbs 3m more to reach 11m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "The blue circle is different from the stars.",
+    "_cacheBreaker": "1755265388169_9"
   },
   {
-    "_id": "grade2_hard_thinking-skills_011",
-    "content": "A snail climbs up a 12-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_2_hard_1755262176985_011",
+    "scenario": "Tommy has this pattern: Big, Small, Big, Small, Big. He wants to continue it.",
+    "content": "What should come next? (Question 11)",
     "type": "multiple_choice",
     "options": [
-      "Day 11",
-      "Day 12",
-      "Day 10",
-      "Day 6"
+      "Big",
+      "Small",
+      "Medium",
+      "Tiny"
     ],
-    "correctAnswer": "Day 11",
+    "correctAnswer": "Small",
     "subject": "Thinking Skills",
     "grade": 2,
     "difficulty": "hard",
-    "explanation": "After 10 days: net progress is 1m/day = 10m. On day 11, it climbs 2m more to reach 12m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "The pattern alternates Big, Small, so Small comes next.",
+    "_cacheBreaker": "1755265388169_10"
   },
   {
-    "_id": "grade2_hard_thinking-skills_012",
-    "content": "A snail climbs up a 9-meter wall. Each day it climbs 3 meters up, but each night it slides 2 meter down. On which day will it reach the top?",
+    "_id": "thinking_2_hard_1755262176985_012",
+    "scenario": "All dogs have four legs. Spot is a dog.",
+    "content": "How many legs does Spot have? (Question 12)",
     "type": "multiple_choice",
     "options": [
-      "Day 7",
-      "Day 8",
-      "Day 6",
-      "Day 3"
+      "Two",
+      "Three",
+      "Four",
+      "Five"
     ],
-    "correctAnswer": "Day 7",
+    "correctAnswer": "Four",
     "subject": "Thinking Skills",
     "grade": 2,
     "difficulty": "hard",
-    "explanation": "After 6 days: net progress is 1m/day = 6m. On day 7, it climbs 3m more to reach 9m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "Since all dogs have four legs and Spot is a dog, Spot has four legs.",
+    "_cacheBreaker": "1755265388169_11"
   },
   {
-    "_id": "grade2_hard_thinking-skills_013",
-    "content": "A snail climbs up a 9-meter wall. Each day it climbs 3 meters up, but each night it slides 2 meter down. On which day will it reach the top?",
+    "_id": "thinking_2_hard_1755262176985_013",
+    "scenario": "Look at these shapes: ⭐ ⭐ 🔵 ⭐. Most shapes are the same, but one is different.",
+    "content": "Which shape is different? (Question 13)",
     "type": "multiple_choice",
     "options": [
-      "Day 7",
-      "Day 8",
-      "Day 6",
-      "Day 3"
+      "First star",
+      "Second star",
+      "Blue circle",
+      "Last star"
     ],
-    "correctAnswer": "Day 7",
+    "correctAnswer": "Blue circle",
     "subject": "Thinking Skills",
     "grade": 2,
     "difficulty": "hard",
-    "explanation": "After 6 days: net progress is 1m/day = 6m. On day 7, it climbs 3m more to reach 9m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "The blue circle is different from the stars.",
+    "_cacheBreaker": "1755265388169_12"
   },
   {
-    "_id": "grade2_hard_thinking-skills_014",
-    "content": "A snail climbs up a 10-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_2_hard_1755262176985_014",
+    "scenario": "Tommy has this pattern: Big, Small, Big, Small, Big. He wants to continue it.",
+    "content": "What should come next? (Question 14)",
     "type": "multiple_choice",
     "options": [
-      "Day 9",
-      "Day 10",
-      "Day 8",
-      "Day 5"
+      "Big",
+      "Small",
+      "Medium",
+      "Tiny"
     ],
-    "correctAnswer": "Day 9",
+    "correctAnswer": "Small",
     "subject": "Thinking Skills",
     "grade": 2,
     "difficulty": "hard",
-    "explanation": "After 8 days: net progress is 1m/day = 8m. On day 9, it climbs 2m more to reach 10m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "The pattern alternates Big, Small, so Small comes next.",
+    "_cacheBreaker": "1755265388169_13"
   },
   {
-    "_id": "grade2_hard_thinking-skills_015",
-    "content": "A snail climbs up a 11-meter wall. Each day it climbs 3 meters up, but each night it slides 2 meter down. On which day will it reach the top?",
+    "_id": "thinking_2_hard_1755262176985_015",
+    "scenario": "All dogs have four legs. Spot is a dog.",
+    "content": "How many legs does Spot have? (Question 15)",
     "type": "multiple_choice",
     "options": [
-      "Day 9",
-      "Day 10",
-      "Day 8",
-      "Day 3"
+      "Two",
+      "Three",
+      "Four",
+      "Five"
     ],
-    "correctAnswer": "Day 9",
+    "correctAnswer": "Four",
     "subject": "Thinking Skills",
     "grade": 2,
     "difficulty": "hard",
-    "explanation": "After 8 days: net progress is 1m/day = 8m. On day 9, it climbs 3m more to reach 11m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "Since all dogs have four legs and Spot is a dog, Spot has four legs.",
+    "_cacheBreaker": "1755265388169_14"
   },
   {
-    "_id": "grade2_hard_thinking-skills_016",
-    "content": "A snail climbs up a 8-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_2_hard_1755262176985_016",
+    "scenario": "Look at these shapes: ⭐ ⭐ 🔵 ⭐. Most shapes are the same, but one is different.",
+    "content": "Which shape is different? (Question 16)",
     "type": "multiple_choice",
     "options": [
-      "Day 7",
-      "Day 8",
-      "Day 6",
-      "Day 4"
+      "First star",
+      "Second star",
+      "Blue circle",
+      "Last star"
     ],
-    "correctAnswer": "Day 7",
+    "correctAnswer": "Blue circle",
     "subject": "Thinking Skills",
     "grade": 2,
     "difficulty": "hard",
-    "explanation": "After 6 days: net progress is 1m/day = 6m. On day 7, it climbs 2m more to reach 8m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "The blue circle is different from the stars.",
+    "_cacheBreaker": "1755265388169_15"
   },
   {
-    "_id": "grade2_hard_thinking-skills_017",
-    "content": "A snail climbs up a 10-meter wall. Each day it climbs 3 meters up, but each night it slides 2 meter down. On which day will it reach the top?",
+    "_id": "thinking_2_hard_1755262176985_017",
+    "scenario": "Tommy has this pattern: Big, Small, Big, Small, Big. He wants to continue it.",
+    "content": "What should come next? (Question 17)",
     "type": "multiple_choice",
     "options": [
-      "Day 8",
-      "Day 9",
-      "Day 7",
-      "Day 3"
+      "Big",
+      "Small",
+      "Medium",
+      "Tiny"
     ],
-    "correctAnswer": "Day 8",
+    "correctAnswer": "Small",
     "subject": "Thinking Skills",
     "grade": 2,
     "difficulty": "hard",
-    "explanation": "After 7 days: net progress is 1m/day = 7m. On day 8, it climbs 3m more to reach 10m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "The pattern alternates Big, Small, so Small comes next.",
+    "_cacheBreaker": "1755265388169_16"
   },
   {
-    "_id": "grade2_hard_thinking-skills_018",
-    "content": "A snail climbs up a 11-meter wall. Each day it climbs 3 meters up, but each night it slides 2 meter down. On which day will it reach the top?",
+    "_id": "thinking_2_hard_1755262176985_018",
+    "scenario": "All dogs have four legs. Spot is a dog.",
+    "content": "How many legs does Spot have? (Question 18)",
     "type": "multiple_choice",
     "options": [
-      "Day 9",
-      "Day 10",
-      "Day 8",
-      "Day 3"
+      "Two",
+      "Three",
+      "Four",
+      "Five"
     ],
-    "correctAnswer": "Day 9",
+    "correctAnswer": "Four",
     "subject": "Thinking Skills",
     "grade": 2,
     "difficulty": "hard",
-    "explanation": "After 8 days: net progress is 1m/day = 8m. On day 9, it climbs 3m more to reach 11m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "Since all dogs have four legs and Spot is a dog, Spot has four legs.",
+    "_cacheBreaker": "1755265388169_17"
   },
   {
-    "_id": "grade2_hard_thinking-skills_019",
-    "content": "A snail climbs up a 10-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_2_hard_1755262176985_019",
+    "scenario": "Look at these shapes: ⭐ ⭐ 🔵 ⭐. Most shapes are the same, but one is different.",
+    "content": "Which shape is different? (Question 19)",
     "type": "multiple_choice",
     "options": [
-      "Day 9",
-      "Day 10",
-      "Day 8",
-      "Day 5"
+      "First star",
+      "Second star",
+      "Blue circle",
+      "Last star"
     ],
-    "correctAnswer": "Day 9",
+    "correctAnswer": "Blue circle",
     "subject": "Thinking Skills",
     "grade": 2,
     "difficulty": "hard",
-    "explanation": "After 8 days: net progress is 1m/day = 8m. On day 9, it climbs 2m more to reach 10m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "The blue circle is different from the stars.",
+    "_cacheBreaker": "1755265388169_18"
   },
   {
-    "_id": "grade2_hard_thinking-skills_020",
-    "content": "A snail climbs up a 10-meter wall. Each day it climbs 3 meters up, but each night it slides 2 meter down. On which day will it reach the top?",
+    "_id": "thinking_2_hard_1755262176985_020",
+    "scenario": "Tommy has this pattern: Big, Small, Big, Small, Big. He wants to continue it.",
+    "content": "What should come next? (Question 20)",
     "type": "multiple_choice",
     "options": [
-      "Day 8",
-      "Day 9",
-      "Day 7",
-      "Day 3"
+      "Big",
+      "Small",
+      "Medium",
+      "Tiny"
     ],
-    "correctAnswer": "Day 8",
+    "correctAnswer": "Small",
     "subject": "Thinking Skills",
     "grade": 2,
     "difficulty": "hard",
-    "explanation": "After 7 days: net progress is 1m/day = 7m. On day 8, it climbs 3m more to reach 10m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "The pattern alternates Big, Small, so Small comes next.",
+    "_cacheBreaker": "1755265388169_19"
   }
 ]

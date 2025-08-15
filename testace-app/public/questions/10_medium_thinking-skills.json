@@ -1,342 +1,342 @@
 [
   {
-    "_id": "grade10_medium_thinking-skills_001",
-    "content": "A company's profit increases by 24% each year. If the profit was $62 in 2020, what will it be in 2024?",
+    "_id": "thinking_10_medium_1755262177019_001",
+    "scenario": "A researcher studies 1000 ravens and finds they are all black. She concludes 'All ravens are black.' Later, she learns about albino ravens.",
+    "content": "What does this show about her reasoning method?",
     "type": "multiple_choice",
     "options": [
-      "$147",
-      "$122",
-      "$158",
-      "$93"
+      "Inductive reasoning has limitations",
+      "Deductive reasoning is flawed",
+      "She should have studied more ravens",
+      "Ravens aren't really birds"
     ],
-    "correctAnswer": "$147",
+    "correctAnswer": "Inductive reasoning has limitations",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "medium",
-    "explanation": "After 4 years with 24% annual growth: $62 × (1.24)^4 = $147.",
-    "topic": "Exponential Growth"
+    "explanation": "Inductive reasoning can be disproven by new evidence, unlike deductive reasoning."
   },
   {
-    "_id": "grade10_medium_thinking-skills_002",
-    "content": "A company's profit increases by 16% each year. If the profit was $65 in 2020, what will it be in 2022?",
+    "_id": "thinking_10_medium_1755262177019_002",
+    "scenario": "Student council member Sarah only reads news sources that support her political views. When presented with contradictory information, she dismisses it without consideration.",
+    "content": "What cognitive bias is Sarah showing?",
     "type": "multiple_choice",
     "options": [
-      "$87",
-      "$86",
-      "$97",
-      "$98"
+      "Confirmation bias",
+      "Availability heuristic",
+      "Anchoring bias",
+      "Overconfidence bias"
     ],
-    "correctAnswer": "$87",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "medium",
-    "explanation": "After 2 years with 16% annual growth: $65 × (1.16)^2 = $87.",
-    "topic": "Exponential Growth"
+    "explanation": "Sarah seeks information that confirms her existing beliefs while avoiding contradictory evidence."
   },
   {
-    "_id": "grade10_medium_thinking-skills_003",
-    "content": "A company's profit increases by 15% each year. If the profit was $66 in 2020, what will it be in 2022?",
+    "_id": "thinking_10_medium_1755262177019_003",
+    "scenario": "Two theories explain the same scientific phenomenon: Theory X requires 10 assumptions and 5 unknown variables. Theory Y uses 2 well-established principles. Both explain the data equally well.",
+    "content": "Which principle suggests preferring Theory Y?",
     "type": "multiple_choice",
     "options": [
-      "$87",
-      "$86",
-      "$96",
-      "$99"
+      "Murphy's Law",
+      "Occam's Razor",
+      "Newton's Law",
+      "Parkinson's Law"
     ],
-    "correctAnswer": "$87",
+    "correctAnswer": "Occam's Razor",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "medium",
-    "explanation": "After 2 years with 15% annual growth: $66 × (1.15)^2 = $87.",
-    "topic": "Exponential Growth"
+    "explanation": "Occam's Razor suggests choosing the simplest explanation that fits the evidence."
   },
   {
-    "_id": "grade10_medium_thinking-skills_004",
-    "content": "A company's profit increases by 16% each year. If the profit was $62 in 2020, what will it be in 2022?",
+    "_id": "thinking_10_medium_1755262177019_004",
+    "scenario": "A researcher studies 1000 ravens and finds they are all black. She concludes 'All ravens are black.' Later, she learns about albino ravens.",
+    "content": "What does this show about her reasoning method? (Question 4)",
     "type": "multiple_choice",
     "options": [
-      "$83",
-      "$82",
-      "$94",
-      "$93"
+      "Inductive reasoning has limitations",
+      "Deductive reasoning is flawed",
+      "She should have studied more ravens",
+      "Ravens aren't really birds"
     ],
-    "correctAnswer": "$83",
+    "correctAnswer": "Inductive reasoning has limitations",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "medium",
-    "explanation": "After 2 years with 16% annual growth: $62 × (1.16)^2 = $83.",
-    "topic": "Exponential Growth"
+    "explanation": "Inductive reasoning can be disproven by new evidence, unlike deductive reasoning."
   },
   {
-    "_id": "grade10_medium_thinking-skills_005",
-    "content": "A company's profit increases by 17% each year. If the profit was $52 in 2020, what will it be in 2023?",
+    "_id": "thinking_10_medium_1755262177019_005",
+    "scenario": "Student council member Sarah only reads news sources that support her political views. When presented with contradictory information, she dismisses it without consideration.",
+    "content": "What cognitive bias is Sarah showing? (Question 5)",
     "type": "multiple_choice",
     "options": [
-      "$83",
-      "$79",
-      "$103",
-      "$78"
+      "Confirmation bias",
+      "Availability heuristic",
+      "Anchoring bias",
+      "Overconfidence bias"
     ],
-    "correctAnswer": "$83",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "medium",
-    "explanation": "After 3 years with 17% annual growth: $52 × (1.17)^3 = $83.",
-    "topic": "Exponential Growth"
+    "explanation": "Sarah seeks information that confirms her existing beliefs while avoiding contradictory evidence."
   },
   {
-    "_id": "grade10_medium_thinking-skills_006",
-    "content": "A company's profit increases by 24% each year. If the profit was $65 in 2020, what will it be in 2024?",
+    "_id": "thinking_10_medium_1755262177019_006",
+    "scenario": "Two theories explain the same scientific phenomenon: Theory X requires 10 assumptions and 5 unknown variables. Theory Y uses 2 well-established principles. Both explain the data equally well.",
+    "content": "Which principle suggests preferring Theory Y? (Question 6)",
     "type": "multiple_choice",
     "options": [
-      "$154",
-      "$127",
-      "$161",
-      "$98"
+      "Murphy's Law",
+      "Occam's Razor",
+      "Newton's Law",
+      "Parkinson's Law"
     ],
-    "correctAnswer": "$154",
+    "correctAnswer": "Occam's Razor",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "medium",
-    "explanation": "After 4 years with 24% annual growth: $65 × (1.24)^4 = $154.",
-    "topic": "Exponential Growth"
+    "explanation": "Occam's Razor suggests choosing the simplest explanation that fits the evidence."
   },
   {
-    "_id": "grade10_medium_thinking-skills_007",
-    "content": "A company's profit increases by 22% each year. If the profit was $68 in 2020, what will it be in 2023?",
+    "_id": "thinking_10_medium_1755262177019_007",
+    "scenario": "A researcher studies 1000 ravens and finds they are all black. She concludes 'All ravens are black.' Later, she learns about albino ravens.",
+    "content": "What does this show about her reasoning method? (Question 7)",
     "type": "multiple_choice",
     "options": [
-      "$123",
-      "$113",
-      "$134",
-      "$102"
+      "Inductive reasoning has limitations",
+      "Deductive reasoning is flawed",
+      "She should have studied more ravens",
+      "Ravens aren't really birds"
     ],
-    "correctAnswer": "$123",
+    "correctAnswer": "Inductive reasoning has limitations",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "medium",
-    "explanation": "After 3 years with 22% annual growth: $68 × (1.22)^3 = $123.",
-    "topic": "Exponential Growth"
+    "explanation": "Inductive reasoning can be disproven by new evidence, unlike deductive reasoning."
   },
   {
-    "_id": "grade10_medium_thinking-skills_008",
-    "content": "A company's profit increases by 19% each year. If the profit was $59 in 2020, what will it be in 2024?",
+    "_id": "thinking_10_medium_1755262177019_008",
+    "scenario": "Student council member Sarah only reads news sources that support her political views. When presented with contradictory information, she dismisses it without consideration.",
+    "content": "What cognitive bias is Sarah showing? (Question 8)",
     "type": "multiple_choice",
     "options": [
-      "$118",
-      "$104",
-      "$135",
-      "$89"
+      "Confirmation bias",
+      "Availability heuristic",
+      "Anchoring bias",
+      "Overconfidence bias"
     ],
-    "correctAnswer": "$118",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "medium",
-    "explanation": "After 4 years with 19% annual growth: $59 × (1.19)^4 = $118.",
-    "topic": "Exponential Growth"
+    "explanation": "Sarah seeks information that confirms her existing beliefs while avoiding contradictory evidence."
   },
   {
-    "_id": "grade10_medium_thinking-skills_009",
-    "content": "A company's profit increases by 19% each year. If the profit was $44 in 2020, what will it be in 2024?",
+    "_id": "thinking_10_medium_1755262177019_009",
+    "scenario": "Two theories explain the same scientific phenomenon: Theory X requires 10 assumptions and 5 unknown variables. Theory Y uses 2 well-established principles. Both explain the data equally well.",
+    "content": "Which principle suggests preferring Theory Y? (Question 9)",
     "type": "multiple_choice",
     "options": [
-      "$88",
-      "$77",
-      "$120",
-      "$66"
+      "Murphy's Law",
+      "Occam's Razor",
+      "Newton's Law",
+      "Parkinson's Law"
     ],
-    "correctAnswer": "$88",
+    "correctAnswer": "Occam's Razor",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "medium",
-    "explanation": "After 4 years with 19% annual growth: $44 × (1.19)^4 = $88.",
-    "topic": "Exponential Growth"
+    "explanation": "Occam's Razor suggests choosing the simplest explanation that fits the evidence."
   },
   {
-    "_id": "grade10_medium_thinking-skills_010",
-    "content": "A company's profit increases by 16% each year. If the profit was $52 in 2020, what will it be in 2023?",
+    "_id": "thinking_10_medium_1755262177019_010",
+    "scenario": "A researcher studies 1000 ravens and finds they are all black. She concludes 'All ravens are black.' Later, she learns about albino ravens.",
+    "content": "What does this show about her reasoning method? (Question 10)",
     "type": "multiple_choice",
     "options": [
-      "$81",
-      "$77",
-      "$100",
-      "$78"
+      "Inductive reasoning has limitations",
+      "Deductive reasoning is flawed",
+      "She should have studied more ravens",
+      "Ravens aren't really birds"
     ],
-    "correctAnswer": "$81",
+    "correctAnswer": "Inductive reasoning has limitations",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "medium",
-    "explanation": "After 3 years with 16% annual growth: $52 × (1.16)^3 = $81.",
-    "topic": "Exponential Growth"
+    "explanation": "Inductive reasoning can be disproven by new evidence, unlike deductive reasoning."
   },
   {
-    "_id": "grade10_medium_thinking-skills_011",
-    "content": "A company's profit increases by 20% each year. If the profit was $40 in 2020, what will it be in 2023?",
+    "_id": "thinking_10_medium_1755262177019_011",
+    "scenario": "Student council member Sarah only reads news sources that support her political views. When presented with contradictory information, she dismisses it without consideration.",
+    "content": "What cognitive bias is Sarah showing? (Question 11)",
     "type": "multiple_choice",
     "options": [
-      "$69",
-      "$64",
-      "$100",
-      "$60"
+      "Confirmation bias",
+      "Availability heuristic",
+      "Anchoring bias",
+      "Overconfidence bias"
     ],
-    "correctAnswer": "$69",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "medium",
-    "explanation": "After 3 years with 20% annual growth: $40 × (1.2)^3 = $69.",
-    "topic": "Exponential Growth"
+    "explanation": "Sarah seeks information that confirms her existing beliefs while avoiding contradictory evidence."
   },
   {
-    "_id": "grade10_medium_thinking-skills_012",
-    "content": "A company's profit increases by 20% each year. If the profit was $63 in 2020, what will it be in 2022?",
+    "_id": "thinking_10_medium_1755262177019_012",
+    "scenario": "Two theories explain the same scientific phenomenon: Theory X requires 10 assumptions and 5 unknown variables. Theory Y uses 2 well-established principles. Both explain the data equally well.",
+    "content": "Which principle suggests preferring Theory Y? (Question 12)",
     "type": "multiple_choice",
     "options": [
-      "$91",
-      "$88",
-      "$103",
-      "$95"
+      "Murphy's Law",
+      "Occam's Razor",
+      "Newton's Law",
+      "Parkinson's Law"
     ],
-    "correctAnswer": "$91",
+    "correctAnswer": "Occam's Razor",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "medium",
-    "explanation": "After 2 years with 20% annual growth: $63 × (1.2)^2 = $91.",
-    "topic": "Exponential Growth"
+    "explanation": "Occam's Razor suggests choosing the simplest explanation that fits the evidence."
   },
   {
-    "_id": "grade10_medium_thinking-skills_013",
-    "content": "A company's profit increases by 19% each year. If the profit was $62 in 2020, what will it be in 2022?",
+    "_id": "thinking_10_medium_1755262177019_013",
+    "scenario": "A researcher studies 1000 ravens and finds they are all black. She concludes 'All ravens are black.' Later, she learns about albino ravens.",
+    "content": "What does this show about her reasoning method? (Question 13)",
     "type": "multiple_choice",
     "options": [
-      "$88",
-      "$86",
-      "$100",
-      "$93"
+      "Inductive reasoning has limitations",
+      "Deductive reasoning is flawed",
+      "She should have studied more ravens",
+      "Ravens aren't really birds"
     ],
-    "correctAnswer": "$88",
+    "correctAnswer": "Inductive reasoning has limitations",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "medium",
-    "explanation": "After 2 years with 19% annual growth: $62 × (1.19)^2 = $88.",
-    "topic": "Exponential Growth"
+    "explanation": "Inductive reasoning can be disproven by new evidence, unlike deductive reasoning."
   },
   {
-    "_id": "grade10_medium_thinking-skills_014",
-    "content": "A company's profit increases by 18% each year. If the profit was $40 in 2020, what will it be in 2024?",
+    "_id": "thinking_10_medium_1755262177019_014",
+    "scenario": "Student council member Sarah only reads news sources that support her political views. When presented with contradictory information, she dismisses it without consideration.",
+    "content": "What cognitive bias is Sarah showing? (Question 14)",
     "type": "multiple_choice",
     "options": [
-      "$78",
-      "$69",
-      "$112",
-      "$60"
+      "Confirmation bias",
+      "Availability heuristic",
+      "Anchoring bias",
+      "Overconfidence bias"
     ],
-    "correctAnswer": "$78",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "medium",
-    "explanation": "After 4 years with 18% annual growth: $40 × (1.18)^4 = $78.",
-    "topic": "Exponential Growth"
+    "explanation": "Sarah seeks information that confirms her existing beliefs while avoiding contradictory evidence."
   },
   {
-    "_id": "grade10_medium_thinking-skills_015",
-    "content": "A company's profit increases by 21% each year. If the profit was $68 in 2020, what will it be in 2023?",
+    "_id": "thinking_10_medium_1755262177019_015",
+    "scenario": "Two theories explain the same scientific phenomenon: Theory X requires 10 assumptions and 5 unknown variables. Theory Y uses 2 well-established principles. Both explain the data equally well.",
+    "content": "Which principle suggests preferring Theory Y? (Question 15)",
     "type": "multiple_choice",
     "options": [
-      "$120",
-      "$111",
-      "$131",
-      "$102"
+      "Murphy's Law",
+      "Occam's Razor",
+      "Newton's Law",
+      "Parkinson's Law"
     ],
-    "correctAnswer": "$120",
+    "correctAnswer": "Occam's Razor",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "medium",
-    "explanation": "After 3 years with 21% annual growth: $68 × (1.21)^3 = $120.",
-    "topic": "Exponential Growth"
+    "explanation": "Occam's Razor suggests choosing the simplest explanation that fits the evidence."
   },
   {
-    "_id": "grade10_medium_thinking-skills_016",
-    "content": "A company's profit increases by 15% each year. If the profit was $46 in 2020, what will it be in 2022?",
+    "_id": "thinking_10_medium_1755262177019_016",
+    "scenario": "A researcher studies 1000 ravens and finds they are all black. She concludes 'All ravens are black.' Later, she learns about albino ravens.",
+    "content": "What does this show about her reasoning method? (Question 16)",
     "type": "multiple_choice",
     "options": [
-      "$61",
-      "$60",
-      "$76",
-      "$69"
+      "Inductive reasoning has limitations",
+      "Deductive reasoning is flawed",
+      "She should have studied more ravens",
+      "Ravens aren't really birds"
     ],
-    "correctAnswer": "$61",
+    "correctAnswer": "Inductive reasoning has limitations",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "medium",
-    "explanation": "After 2 years with 15% annual growth: $46 × (1.15)^2 = $61.",
-    "topic": "Exponential Growth"
+    "explanation": "Inductive reasoning can be disproven by new evidence, unlike deductive reasoning."
   },
   {
-    "_id": "grade10_medium_thinking-skills_017",
-    "content": "A company's profit increases by 19% each year. If the profit was $42 in 2020, what will it be in 2023?",
+    "_id": "thinking_10_medium_1755262177019_017",
+    "scenario": "Student council member Sarah only reads news sources that support her political views. When presented with contradictory information, she dismisses it without consideration.",
+    "content": "What cognitive bias is Sarah showing? (Question 17)",
     "type": "multiple_choice",
     "options": [
-      "$71",
-      "$66",
-      "$99",
-      "$63"
+      "Confirmation bias",
+      "Availability heuristic",
+      "Anchoring bias",
+      "Overconfidence bias"
     ],
-    "correctAnswer": "$71",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "medium",
-    "explanation": "After 3 years with 19% annual growth: $42 × (1.19)^3 = $71.",
-    "topic": "Exponential Growth"
+    "explanation": "Sarah seeks information that confirms her existing beliefs while avoiding contradictory evidence."
   },
   {
-    "_id": "grade10_medium_thinking-skills_018",
-    "content": "A company's profit increases by 18% each year. If the profit was $50 in 2020, what will it be in 2022?",
+    "_id": "thinking_10_medium_1755262177019_018",
+    "scenario": "Two theories explain the same scientific phenomenon: Theory X requires 10 assumptions and 5 unknown variables. Theory Y uses 2 well-established principles. Both explain the data equally well.",
+    "content": "Which principle suggests preferring Theory Y? (Question 18)",
     "type": "multiple_choice",
     "options": [
-      "$70",
-      "$68",
-      "$86",
-      "$75"
+      "Murphy's Law",
+      "Occam's Razor",
+      "Newton's Law",
+      "Parkinson's Law"
     ],
-    "correctAnswer": "$70",
+    "correctAnswer": "Occam's Razor",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "medium",
-    "explanation": "After 2 years with 18% annual growth: $50 × (1.18)^2 = $70.",
-    "topic": "Exponential Growth"
+    "explanation": "Occam's Razor suggests choosing the simplest explanation that fits the evidence."
   },
   {
-    "_id": "grade10_medium_thinking-skills_019",
-    "content": "A company's profit increases by 24% each year. If the profit was $69 in 2020, what will it be in 2024?",
+    "_id": "thinking_10_medium_1755262177019_019",
+    "scenario": "A researcher studies 1000 ravens and finds they are all black. She concludes 'All ravens are black.' Later, she learns about albino ravens.",
+    "content": "What does this show about her reasoning method? (Question 19)",
     "type": "multiple_choice",
     "options": [
-      "$163",
-      "$135",
-      "$165",
-      "$104"
+      "Inductive reasoning has limitations",
+      "Deductive reasoning is flawed",
+      "She should have studied more ravens",
+      "Ravens aren't really birds"
     ],
-    "correctAnswer": "$163",
+    "correctAnswer": "Inductive reasoning has limitations",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "medium",
-    "explanation": "After 4 years with 24% annual growth: $69 × (1.24)^4 = $163.",
-    "topic": "Exponential Growth"
+    "explanation": "Inductive reasoning can be disproven by new evidence, unlike deductive reasoning."
   },
   {
-    "_id": "grade10_medium_thinking-skills_020",
-    "content": "A company's profit increases by 20% each year. If the profit was $43 in 2020, what will it be in 2022?",
+    "_id": "thinking_10_medium_1755262177019_020",
+    "scenario": "Student council member Sarah only reads news sources that support her political views. When presented with contradictory information, she dismisses it without consideration.",
+    "content": "What cognitive bias is Sarah showing? (Question 20)",
     "type": "multiple_choice",
     "options": [
-      "$62",
-      "$60",
-      "$83",
-      "$65"
+      "Confirmation bias",
+      "Availability heuristic",
+      "Anchoring bias",
+      "Overconfidence bias"
     ],
-    "correctAnswer": "$62",
+    "correctAnswer": "Confirmation bias",
     "subject": "Thinking Skills",
     "grade": 10,
     "difficulty": "medium",
-    "explanation": "After 2 years with 20% annual growth: $43 × (1.2)^2 = $62.",
-    "topic": "Exponential Growth"
+    "explanation": "Sarah seeks information that confirms her existing beliefs while avoiding contradictory evidence."
   }
 ]

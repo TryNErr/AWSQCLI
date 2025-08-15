@@ -251,7 +251,7 @@ export class StaticQuestionLoader {
       return 'math';
     }
     if (normalized === 'mathematical reasoning') {
-      return 'math'; // Mathematical reasoning uses math files
+      return 'mathematical-reasoning'; // Mathematical reasoning has its own files
     }
     if (normalized === 'reading' || normalized === 'reading comprehension') {
       return 'reading';
@@ -265,7 +265,7 @@ export class StaticQuestionLoader {
     
     // Partial matches (be very specific to avoid conflicts)
     if (normalized.includes('mathematical') && normalized.includes('reasoning')) {
-      return 'math';
+      return 'mathematical-reasoning';
     }
     if (normalized.includes('thinking') && normalized.includes('skills')) {
       return 'thinking-skills';

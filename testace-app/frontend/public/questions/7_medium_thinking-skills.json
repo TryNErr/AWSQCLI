@@ -1,342 +1,362 @@
 [
   {
-    "_id": "grade7_medium_thinking-skills_001",
-    "content": "A sequence follows the rule: multiply by 3, then subtract 2. If it starts with 2, what is the 4th term?",
+    "_id": "thinking_7_medium_1755262177011_001",
+    "scenario": "Lisa observes this pattern in her math class: 3, 6, 12, 24, ___. She needs to find the rule.",
+    "content": "What number comes next?",
     "type": "multiple_choice",
     "options": [
-      "28",
-      "29",
-      "27",
-      "10"
+      "36",
+      "48",
+      "30",
+      "27"
     ],
-    "correctAnswer": "28",
+    "correctAnswer": "48",
     "subject": "Thinking Skills",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "Starting with 2: 2 → 2×3-2=4 → 4×3-2=10 → 10×3-2=28.",
-    "topic": "Recursive Sequences"
+    "explanation": "Each number doubles: 3×2=6, 6×2=12, 12×2=24, 24×2=48",
+    "_cacheBreaker": "1755265388226_0"
   },
   {
-    "_id": "grade7_medium_thinking-skills_002",
-    "content": "A sequence follows the rule: multiply by 3, then subtract 2. If it starts with 5, what is the 4th term?",
+    "_id": "thinking_7_medium_1755262177011_002",
+    "scenario": "During a class discussion, Jake says: 'We should ban homework because I don't like it.' His teacher points out a problem with his reasoning.",
+    "content": "What's wrong with Jake's argument?",
     "type": "multiple_choice",
     "options": [
-      "109",
-      "110",
-      "108",
-      "37"
+      "It's based only on personal preference",
+      "It's too long",
+      "It's too short",
+      "It's perfectly logical"
     ],
-    "correctAnswer": "109",
+    "correctAnswer": "It's based only on personal preference",
     "subject": "Thinking Skills",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "Starting with 5: 5 → 5×3-2=13 → 13×3-2=37 → 37×3-2=109.",
-    "topic": "Recursive Sequences"
+    "explanation": "Jake's argument is weak because it's based only on his personal feelings, not logical reasons.",
+    "_cacheBreaker": "1755265388226_1"
   },
   {
-    "_id": "grade7_medium_thinking-skills_003",
-    "content": "A sequence follows the rule: multiply by 2, then subtract 3. If it starts with 2, what is the 4th term?",
+    "_id": "thinking_7_medium_1755262177011_003",
+    "scenario": "The school cafeteria problem: 'We have 200 students but only 150 lunch trays.' The principal needs to solve this.",
+    "content": "What should the principal do first?",
     "type": "multiple_choice",
     "options": [
-      "-5",
-      "-4",
-      "-6",
-      "-1"
+      "Buy more trays immediately",
+      "Understand the full situation",
+      "Ignore the problem",
+      "Blame the students"
     ],
-    "correctAnswer": "-5",
+    "correctAnswer": "Understand the full situation",
     "subject": "Thinking Skills",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "Starting with 2: 2 → 2×2-3=1 → 1×2-3=-1 → -1×2-3=-5.",
-    "topic": "Recursive Sequences"
+    "explanation": "Good problem-solving starts with fully understanding the situation.",
+    "_cacheBreaker": "1755265388226_2"
   },
   {
-    "_id": "grade7_medium_thinking-skills_004",
-    "content": "A sequence follows the rule: multiply by 3, then subtract 3. If it starts with 6, what is the 4th term?",
+    "_id": "thinking_7_medium_1755262177011_004",
+    "scenario": "Lisa observes this pattern in her math class: 3, 6, 12, 24, ___. She needs to find the rule.",
+    "content": "What number comes next? (Question 4)",
     "type": "multiple_choice",
     "options": [
-      "123",
-      "124",
-      "122",
-      "42"
+      "36",
+      "48",
+      "30",
+      "27"
     ],
-    "correctAnswer": "123",
+    "correctAnswer": "48",
     "subject": "Thinking Skills",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "Starting with 6: 6 → 6×3-3=15 → 15×3-3=42 → 42×3-3=123.",
-    "topic": "Recursive Sequences"
+    "explanation": "Each number doubles: 3×2=6, 6×2=12, 12×2=24, 24×2=48",
+    "_cacheBreaker": "1755265388226_3"
   },
   {
-    "_id": "grade7_medium_thinking-skills_005",
-    "content": "A sequence follows the rule: multiply by 4, then subtract 2. If it starts with 5, what is the 4th term?",
+    "_id": "thinking_7_medium_1755262177011_005",
+    "scenario": "During a class discussion, Jake says: 'We should ban homework because I don't like it.' His teacher points out a problem with his reasoning.",
+    "content": "What's wrong with Jake's argument? (Question 5)",
     "type": "multiple_choice",
     "options": [
-      "278",
-      "279",
-      "277",
-      "70"
+      "It's based only on personal preference",
+      "It's too long",
+      "It's too short",
+      "It's perfectly logical"
     ],
-    "correctAnswer": "278",
+    "correctAnswer": "It's based only on personal preference",
     "subject": "Thinking Skills",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "Starting with 5: 5 → 5×4-2=18 → 18×4-2=70 → 70×4-2=278.",
-    "topic": "Recursive Sequences"
+    "explanation": "Jake's argument is weak because it's based only on his personal feelings, not logical reasons.",
+    "_cacheBreaker": "1755265388226_4"
   },
   {
-    "_id": "grade7_medium_thinking-skills_006",
-    "content": "A sequence follows the rule: multiply by 3, then subtract 3. If it starts with 5, what is the 4th term?",
+    "_id": "thinking_7_medium_1755262177011_006",
+    "scenario": "The school cafeteria problem: 'We have 200 students but only 150 lunch trays.' The principal needs to solve this.",
+    "content": "What should the principal do first? (Question 6)",
     "type": "multiple_choice",
     "options": [
-      "96",
-      "97",
-      "95",
-      "33"
+      "Buy more trays immediately",
+      "Understand the full situation",
+      "Ignore the problem",
+      "Blame the students"
     ],
-    "correctAnswer": "96",
+    "correctAnswer": "Understand the full situation",
     "subject": "Thinking Skills",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "Starting with 5: 5 → 5×3-3=12 → 12×3-3=33 → 33×3-3=96.",
-    "topic": "Recursive Sequences"
+    "explanation": "Good problem-solving starts with fully understanding the situation.",
+    "_cacheBreaker": "1755265388226_5"
   },
   {
-    "_id": "grade7_medium_thinking-skills_007",
-    "content": "A sequence follows the rule: multiply by 4, then subtract 2. If it starts with 6, what is the 4th term?",
+    "_id": "thinking_7_medium_1755262177011_007",
+    "scenario": "Lisa observes this pattern in her math class: 3, 6, 12, 24, ___. She needs to find the rule.",
+    "content": "What number comes next? (Question 7)",
     "type": "multiple_choice",
     "options": [
-      "342",
-      "343",
-      "341",
-      "86"
+      "36",
+      "48",
+      "30",
+      "27"
     ],
-    "correctAnswer": "342",
+    "correctAnswer": "48",
     "subject": "Thinking Skills",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "Starting with 6: 6 → 6×4-2=22 → 22×4-2=86 → 86×4-2=342.",
-    "topic": "Recursive Sequences"
+    "explanation": "Each number doubles: 3×2=6, 6×2=12, 12×2=24, 24×2=48",
+    "_cacheBreaker": "1755265388226_6"
   },
   {
-    "_id": "grade7_medium_thinking-skills_008",
-    "content": "A sequence follows the rule: multiply by 4, then subtract 1. If it starts with 3, what is the 4th term?",
+    "_id": "thinking_7_medium_1755262177011_008",
+    "scenario": "During a class discussion, Jake says: 'We should ban homework because I don't like it.' His teacher points out a problem with his reasoning.",
+    "content": "What's wrong with Jake's argument? (Question 8)",
     "type": "multiple_choice",
     "options": [
-      "171",
-      "172",
-      "170",
-      "43"
+      "It's based only on personal preference",
+      "It's too long",
+      "It's too short",
+      "It's perfectly logical"
     ],
-    "correctAnswer": "171",
+    "correctAnswer": "It's based only on personal preference",
     "subject": "Thinking Skills",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "Starting with 3: 3 → 3×4-1=11 → 11×4-1=43 → 43×4-1=171.",
-    "topic": "Recursive Sequences"
+    "explanation": "Jake's argument is weak because it's based only on his personal feelings, not logical reasons.",
+    "_cacheBreaker": "1755265388226_7"
   },
   {
-    "_id": "grade7_medium_thinking-skills_009",
-    "content": "A sequence follows the rule: multiply by 2, then subtract 3. If it starts with 5, what is the 4th term?",
+    "_id": "thinking_7_medium_1755262177011_009",
+    "scenario": "The school cafeteria problem: 'We have 200 students but only 150 lunch trays.' The principal needs to solve this.",
+    "content": "What should the principal do first? (Question 9)",
     "type": "multiple_choice",
     "options": [
-      "19",
-      "20",
-      "18",
-      "11"
+      "Buy more trays immediately",
+      "Understand the full situation",
+      "Ignore the problem",
+      "Blame the students"
     ],
-    "correctAnswer": "19",
+    "correctAnswer": "Understand the full situation",
     "subject": "Thinking Skills",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "Starting with 5: 5 → 5×2-3=7 → 7×2-3=11 → 11×2-3=19.",
-    "topic": "Recursive Sequences"
+    "explanation": "Good problem-solving starts with fully understanding the situation.",
+    "_cacheBreaker": "1755265388226_8"
   },
   {
-    "_id": "grade7_medium_thinking-skills_010",
-    "content": "A sequence follows the rule: multiply by 3, then subtract 2. If it starts with 3, what is the 4th term?",
+    "_id": "thinking_7_medium_1755262177011_010",
+    "scenario": "Lisa observes this pattern in her math class: 3, 6, 12, 24, ___. She needs to find the rule.",
+    "content": "What number comes next? (Question 10)",
     "type": "multiple_choice",
     "options": [
-      "55",
-      "56",
-      "54",
-      "19"
+      "36",
+      "48",
+      "30",
+      "27"
     ],
-    "correctAnswer": "55",
+    "correctAnswer": "48",
     "subject": "Thinking Skills",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "Starting with 3: 3 → 3×3-2=7 → 7×3-2=19 → 19×3-2=55.",
-    "topic": "Recursive Sequences"
+    "explanation": "Each number doubles: 3×2=6, 6×2=12, 12×2=24, 24×2=48",
+    "_cacheBreaker": "1755265388226_9"
   },
   {
-    "_id": "grade7_medium_thinking-skills_011",
-    "content": "A sequence follows the rule: multiply by 3, then subtract 1. If it starts with 6, what is the 4th term?",
+    "_id": "thinking_7_medium_1755262177011_011",
+    "scenario": "During a class discussion, Jake says: 'We should ban homework because I don't like it.' His teacher points out a problem with his reasoning.",
+    "content": "What's wrong with Jake's argument? (Question 11)",
     "type": "multiple_choice",
     "options": [
-      "149",
-      "150",
-      "148",
-      "50"
+      "It's based only on personal preference",
+      "It's too long",
+      "It's too short",
+      "It's perfectly logical"
     ],
-    "correctAnswer": "149",
+    "correctAnswer": "It's based only on personal preference",
     "subject": "Thinking Skills",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "Starting with 6: 6 → 6×3-1=17 → 17×3-1=50 → 50×3-1=149.",
-    "topic": "Recursive Sequences"
+    "explanation": "Jake's argument is weak because it's based only on his personal feelings, not logical reasons.",
+    "_cacheBreaker": "1755265388226_10"
   },
   {
-    "_id": "grade7_medium_thinking-skills_012",
-    "content": "A sequence follows the rule: multiply by 2, then subtract 2. If it starts with 6, what is the 4th term?",
+    "_id": "thinking_7_medium_1755262177011_012",
+    "scenario": "The school cafeteria problem: 'We have 200 students but only 150 lunch trays.' The principal needs to solve this.",
+    "content": "What should the principal do first? (Question 12)",
     "type": "multiple_choice",
     "options": [
-      "34",
-      "35",
-      "33",
-      "18"
+      "Buy more trays immediately",
+      "Understand the full situation",
+      "Ignore the problem",
+      "Blame the students"
     ],
-    "correctAnswer": "34",
+    "correctAnswer": "Understand the full situation",
     "subject": "Thinking Skills",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "Starting with 6: 6 → 6×2-2=10 → 10×2-2=18 → 18×2-2=34.",
-    "topic": "Recursive Sequences"
+    "explanation": "Good problem-solving starts with fully understanding the situation.",
+    "_cacheBreaker": "1755265388226_11"
   },
   {
-    "_id": "grade7_medium_thinking-skills_013",
-    "content": "A sequence follows the rule: multiply by 3, then subtract 1. If it starts with 5, what is the 4th term?",
+    "_id": "thinking_7_medium_1755262177011_013",
+    "scenario": "Lisa observes this pattern in her math class: 3, 6, 12, 24, ___. She needs to find the rule.",
+    "content": "What number comes next? (Question 13)",
     "type": "multiple_choice",
     "options": [
-      "122",
-      "123",
-      "121",
-      "41"
+      "36",
+      "48",
+      "30",
+      "27"
     ],
-    "correctAnswer": "122",
+    "correctAnswer": "48",
     "subject": "Thinking Skills",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "Starting with 5: 5 → 5×3-1=14 → 14×3-1=41 → 41×3-1=122.",
-    "topic": "Recursive Sequences"
+    "explanation": "Each number doubles: 3×2=6, 6×2=12, 12×2=24, 24×2=48",
+    "_cacheBreaker": "1755265388226_12"
   },
   {
-    "_id": "grade7_medium_thinking-skills_014",
-    "content": "A sequence follows the rule: multiply by 3, then subtract 1. If it starts with 4, what is the 4th term?",
+    "_id": "thinking_7_medium_1755262177011_014",
+    "scenario": "During a class discussion, Jake says: 'We should ban homework because I don't like it.' His teacher points out a problem with his reasoning.",
+    "content": "What's wrong with Jake's argument? (Question 14)",
     "type": "multiple_choice",
     "options": [
-      "95",
-      "96",
-      "94",
-      "32"
+      "It's based only on personal preference",
+      "It's too long",
+      "It's too short",
+      "It's perfectly logical"
     ],
-    "correctAnswer": "95",
+    "correctAnswer": "It's based only on personal preference",
     "subject": "Thinking Skills",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "Starting with 4: 4 → 4×3-1=11 → 11×3-1=32 → 32×3-1=95.",
-    "topic": "Recursive Sequences"
+    "explanation": "Jake's argument is weak because it's based only on his personal feelings, not logical reasons.",
+    "_cacheBreaker": "1755265388226_13"
   },
   {
-    "_id": "grade7_medium_thinking-skills_015",
-    "content": "A sequence follows the rule: multiply by 4, then subtract 3. If it starts with 4, what is the 4th term?",
+    "_id": "thinking_7_medium_1755262177011_015",
+    "scenario": "The school cafeteria problem: 'We have 200 students but only 150 lunch trays.' The principal needs to solve this.",
+    "content": "What should the principal do first? (Question 15)",
     "type": "multiple_choice",
     "options": [
-      "193",
-      "194",
-      "192",
-      "49"
+      "Buy more trays immediately",
+      "Understand the full situation",
+      "Ignore the problem",
+      "Blame the students"
     ],
-    "correctAnswer": "193",
+    "correctAnswer": "Understand the full situation",
     "subject": "Thinking Skills",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "Starting with 4: 4 → 4×4-3=13 → 13×4-3=49 → 49×4-3=193.",
-    "topic": "Recursive Sequences"
+    "explanation": "Good problem-solving starts with fully understanding the situation.",
+    "_cacheBreaker": "1755265388226_14"
   },
   {
-    "_id": "grade7_medium_thinking-skills_016",
-    "content": "A sequence follows the rule: multiply by 3, then subtract 2. If it starts with 2, what is the 4th term?",
+    "_id": "thinking_7_medium_1755262177011_016",
+    "scenario": "Lisa observes this pattern in her math class: 3, 6, 12, 24, ___. She needs to find the rule.",
+    "content": "What number comes next? (Question 16)",
     "type": "multiple_choice",
     "options": [
-      "28",
-      "29",
-      "27",
-      "10"
+      "36",
+      "48",
+      "30",
+      "27"
     ],
-    "correctAnswer": "28",
+    "correctAnswer": "48",
     "subject": "Thinking Skills",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "Starting with 2: 2 → 2×3-2=4 → 4×3-2=10 → 10×3-2=28.",
-    "topic": "Recursive Sequences"
+    "explanation": "Each number doubles: 3×2=6, 6×2=12, 12×2=24, 24×2=48",
+    "_cacheBreaker": "1755265388226_15"
   },
   {
-    "_id": "grade7_medium_thinking-skills_017",
-    "content": "A sequence follows the rule: multiply by 4, then subtract 3. If it starts with 5, what is the 4th term?",
+    "_id": "thinking_7_medium_1755262177011_017",
+    "scenario": "During a class discussion, Jake says: 'We should ban homework because I don't like it.' His teacher points out a problem with his reasoning.",
+    "content": "What's wrong with Jake's argument? (Question 17)",
     "type": "multiple_choice",
     "options": [
-      "257",
-      "258",
-      "256",
-      "65"
+      "It's based only on personal preference",
+      "It's too long",
+      "It's too short",
+      "It's perfectly logical"
     ],
-    "correctAnswer": "257",
+    "correctAnswer": "It's based only on personal preference",
     "subject": "Thinking Skills",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "Starting with 5: 5 → 5×4-3=17 → 17×4-3=65 → 65×4-3=257.",
-    "topic": "Recursive Sequences"
+    "explanation": "Jake's argument is weak because it's based only on his personal feelings, not logical reasons.",
+    "_cacheBreaker": "1755265388226_16"
   },
   {
-    "_id": "grade7_medium_thinking-skills_018",
-    "content": "A sequence follows the rule: multiply by 2, then subtract 3. If it starts with 3, what is the 4th term?",
+    "_id": "thinking_7_medium_1755262177011_018",
+    "scenario": "The school cafeteria problem: 'We have 200 students but only 150 lunch trays.' The principal needs to solve this.",
+    "content": "What should the principal do first? (Question 18)",
     "type": "multiple_choice",
     "options": [
-      "3",
-      "4",
-      "2",
-      "3"
+      "Buy more trays immediately",
+      "Understand the full situation",
+      "Ignore the problem",
+      "Blame the students"
     ],
-    "correctAnswer": "3",
+    "correctAnswer": "Understand the full situation",
     "subject": "Thinking Skills",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "Starting with 3: 3 → 3×2-3=3 → 3×2-3=3 → 3×2-3=3.",
-    "topic": "Recursive Sequences"
+    "explanation": "Good problem-solving starts with fully understanding the situation.",
+    "_cacheBreaker": "1755265388226_17"
   },
   {
-    "_id": "grade7_medium_thinking-skills_019",
-    "content": "A sequence follows the rule: multiply by 4, then subtract 1. If it starts with 4, what is the 4th term?",
+    "_id": "thinking_7_medium_1755262177011_019",
+    "scenario": "Lisa observes this pattern in her math class: 3, 6, 12, 24, ___. She needs to find the rule.",
+    "content": "What number comes next? (Question 19)",
     "type": "multiple_choice",
     "options": [
-      "235",
-      "236",
-      "234",
-      "59"
+      "36",
+      "48",
+      "30",
+      "27"
     ],
-    "correctAnswer": "235",
+    "correctAnswer": "48",
     "subject": "Thinking Skills",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "Starting with 4: 4 → 4×4-1=15 → 15×4-1=59 → 59×4-1=235.",
-    "topic": "Recursive Sequences"
+    "explanation": "Each number doubles: 3×2=6, 6×2=12, 12×2=24, 24×2=48",
+    "_cacheBreaker": "1755265388226_18"
   },
   {
-    "_id": "grade7_medium_thinking-skills_020",
-    "content": "A sequence follows the rule: multiply by 4, then subtract 2. If it starts with 2, what is the 4th term?",
+    "_id": "thinking_7_medium_1755262177011_020",
+    "scenario": "During a class discussion, Jake says: 'We should ban homework because I don't like it.' His teacher points out a problem with his reasoning.",
+    "content": "What's wrong with Jake's argument? (Question 20)",
     "type": "multiple_choice",
     "options": [
-      "86",
-      "87",
-      "85",
-      "22"
+      "It's based only on personal preference",
+      "It's too long",
+      "It's too short",
+      "It's perfectly logical"
     ],
-    "correctAnswer": "86",
+    "correctAnswer": "It's based only on personal preference",
     "subject": "Thinking Skills",
     "grade": 7,
     "difficulty": "medium",
-    "explanation": "Starting with 2: 2 → 2×4-2=6 → 6×4-2=22 → 22×4-2=86.",
-    "topic": "Recursive Sequences"
+    "explanation": "Jake's argument is weak because it's based only on his personal feelings, not logical reasons.",
+    "_cacheBreaker": "1755265388226_19"
   }
 ]

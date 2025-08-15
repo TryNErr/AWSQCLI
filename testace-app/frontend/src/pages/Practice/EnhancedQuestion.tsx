@@ -24,6 +24,7 @@ import { markQuestionAnswered, getAnsweredQuestionIds } from '../../services/use
 import { recordQuestionAttempt } from '../../services/questionHistoryService';
 import { getUserGrade } from '../../services/userContextService';
 import { generateEnhancedQuestion } from '../../utils/enhancedQuestionSystem';
+import StaticQuestionLoader from '../../utils/staticQuestionLoader';
 
 const EnhancedQuestion: React.FC = () => {
   const { id } = useParams();
@@ -46,13 +47,32 @@ const EnhancedQuestion: React.FC = () => {
   const [isPaused, setIsPaused] = useState(false);
   const [timerInterval, setTimerInterval] = useState<NodeJS.Timeout | null>(null);
 
-  const loadQuestion = (questionId: string) => {
+  const loadQuestion = async (questionId: string) => {
     setLoading(true);
     
     try {
       // Find question in both standard and generated questions
       const allQuestions = [...questionData, ...getGeneratedQuestions()];
       let foundQuestion = allQuestions.find(q => q._id === questionId);
+      
+      // If not found, try loading from static JSON files
+      if (!foundQuestion && (contextGrade || contextDifficulty || contextSubject)) {
+        console.log(`Trying to load question ${questionId} from static files...`);
+        try {
+          const staticQuestions = await StaticQuestionLoader.getQuestions(
+            contextGrade || '9',
+            contextDifficulty as any || 'medium',
+            contextSubject || 'Mathematical Reasoning',
+            20
+          );
+          foundQuestion = staticQuestions.find(q => q._id === questionId);
+          if (foundQuestion) {
+            console.log(`✅ Found question ${questionId} in static files`);
+          }
+        } catch (staticError) {
+          console.log('Could not load from static files:', staticError);
+        }
+      }
       
       // If question not found, try to generate a new one with context
       if (!foundQuestion && (contextGrade || contextDifficulty || contextSubject)) {
@@ -410,6 +430,42 @@ const EnhancedQuestion: React.FC = () => {
                 <Chip label="Filtered Mode" color="warning" size="small" />
               )}
             </Stack>
+            {/* Reading Passage - Show for reading questions */}
+            {question.subject === 'Reading' && (question as any).passage && (
+              <Box sx={{ mb: 3, p: 3, backgroundColor: '#f5f5f5', borderRadius: 2 }}>
+                <Typography variant="h6" gutterBottom color="primary">
+                  📖 Reading Passage:
+                </Typography>
+                <Typography variant="body1" sx={{ lineHeight: 1.8, fontFamily: 'serif' }}>
+                  {(question as any).passage}
+                </Typography>
+              </Box>
+            )}
+
+            
+
+            {/* Thinking Skills Scenario - Show for thinking skills questions */}
+
+            {question.subject === 'Thinking Skills' && (question as any).scenario && (
+
+              <Box sx={{ mb: 3, p: 3, backgroundColor: '#e8f5e8', borderRadius: 2, border: '1px solid #4caf50' }}>
+
+                <Typography variant="h6" gutterBottom color="success.main">
+
+                  🧠 Scenario:
+
+                </Typography>
+
+                <Typography variant="body1" sx={{ lineHeight: 1.8, fontStyle: 'italic' }}>
+
+                  {(question as any).scenario}
+
+                </Typography>
+
+              </Box>
+
+            )}
+            
             <Typography variant="h5" gutterBottom>
               {question.content}
             </Typography>

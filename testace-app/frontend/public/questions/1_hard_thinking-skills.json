@@ -1,342 +1,362 @@
 [
   {
-    "_id": "grade1_hard_thinking-skills_001",
-    "content": "A snail climbs up a 9-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_1_hard_1755262176982_001",
+    "scenario": "Look at these animals: 🐶 🐱 🐶 🐶. Three are the same and one is different.",
+    "content": "Which animal is different from the others?",
     "type": "multiple_choice",
     "options": [
-      "Day 8",
-      "Day 9",
-      "Day 7",
-      "Day 4"
+      "First dog",
+      "Cat",
+      "Third dog",
+      "Last dog"
     ],
-    "correctAnswer": "Day 8",
+    "correctAnswer": "Cat",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "hard",
-    "explanation": "After 7 days: net progress is 1m/day = 7m. On day 8, it climbs 2m more to reach 9m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "The cat is different because all the others are dogs.",
+    "_cacheBreaker": "1755265388161_0"
   },
   {
-    "_id": "grade1_hard_thinking-skills_002",
-    "content": "A snail climbs up a 9-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_1_hard_1755262176982_002",
+    "scenario": "Sarah sees this pattern of colors: Red, Blue, Red, Blue, Red, Blue. She needs to continue the pattern.",
+    "content": "What color should come next?",
     "type": "multiple_choice",
     "options": [
-      "Day 8",
-      "Day 9",
-      "Day 7",
-      "Day 4"
+      "Green",
+      "Red",
+      "Yellow",
+      "Purple"
     ],
-    "correctAnswer": "Day 8",
+    "correctAnswer": "Red",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "hard",
-    "explanation": "After 7 days: net progress is 1m/day = 7m. On day 8, it climbs 2m more to reach 9m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "The pattern alternates Red, Blue, so after Blue comes Red.",
+    "_cacheBreaker": "1755265388161_1"
   },
   {
-    "_id": "grade1_hard_thinking-skills_003",
-    "content": "A snail climbs up a 8-meter wall. Each day it climbs 3 meters up, but each night it slides 2 meter down. On which day will it reach the top?",
+    "_id": "thinking_1_hard_1755262176982_003",
+    "scenario": "Mom says: 'All birds can fly. A robin is a bird.' Tommy is trying to figure out what this means about robins.",
+    "content": "What can Tommy conclude about robins?",
     "type": "multiple_choice",
     "options": [
-      "Day 6",
-      "Day 7",
-      "Day 5",
-      "Day 2"
+      "Robins are red",
+      "Robins can fly",
+      "Robins are big",
+      "Robins sing loudly"
     ],
-    "correctAnswer": "Day 6",
+    "correctAnswer": "Robins can fly",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "hard",
-    "explanation": "After 5 days: net progress is 1m/day = 5m. On day 6, it climbs 3m more to reach 8m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "If all birds can fly and robins are birds, then robins can fly.",
+    "_cacheBreaker": "1755265388161_2"
   },
   {
-    "_id": "grade1_hard_thinking-skills_004",
-    "content": "A snail climbs up a 11-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_1_hard_1755262176982_004",
+    "scenario": "Look at these animals: 🐶 🐱 🐶 🐶. Three are the same and one is different.",
+    "content": "Which animal is different from the others? (Question 4)",
     "type": "multiple_choice",
     "options": [
-      "Day 10",
-      "Day 11",
-      "Day 9",
-      "Day 5"
+      "First dog",
+      "Cat",
+      "Third dog",
+      "Last dog"
     ],
-    "correctAnswer": "Day 10",
+    "correctAnswer": "Cat",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "hard",
-    "explanation": "After 9 days: net progress is 1m/day = 9m. On day 10, it climbs 2m more to reach 11m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "The cat is different because all the others are dogs.",
+    "_cacheBreaker": "1755265388161_3"
   },
   {
-    "_id": "grade1_hard_thinking-skills_005",
-    "content": "A snail climbs up a 10-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_1_hard_1755262176982_005",
+    "scenario": "Sarah sees this pattern of colors: Red, Blue, Red, Blue, Red, Blue. She needs to continue the pattern.",
+    "content": "What color should come next? (Question 5)",
     "type": "multiple_choice",
     "options": [
-      "Day 9",
-      "Day 10",
-      "Day 8",
-      "Day 5"
+      "Green",
+      "Red",
+      "Yellow",
+      "Purple"
     ],
-    "correctAnswer": "Day 9",
+    "correctAnswer": "Red",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "hard",
-    "explanation": "After 8 days: net progress is 1m/day = 8m. On day 9, it climbs 2m more to reach 10m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "The pattern alternates Red, Blue, so after Blue comes Red.",
+    "_cacheBreaker": "1755265388161_4"
   },
   {
-    "_id": "grade1_hard_thinking-skills_006",
-    "content": "A snail climbs up a 8-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_1_hard_1755262176982_006",
+    "scenario": "Mom says: 'All birds can fly. A robin is a bird.' Tommy is trying to figure out what this means about robins.",
+    "content": "What can Tommy conclude about robins? (Question 6)",
     "type": "multiple_choice",
     "options": [
-      "Day 7",
-      "Day 8",
-      "Day 6",
-      "Day 4"
+      "Robins are red",
+      "Robins can fly",
+      "Robins are big",
+      "Robins sing loudly"
     ],
-    "correctAnswer": "Day 7",
+    "correctAnswer": "Robins can fly",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "hard",
-    "explanation": "After 6 days: net progress is 1m/day = 6m. On day 7, it climbs 2m more to reach 8m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "If all birds can fly and robins are birds, then robins can fly.",
+    "_cacheBreaker": "1755265388161_5"
   },
   {
-    "_id": "grade1_hard_thinking-skills_007",
-    "content": "A snail climbs up a 8-meter wall. Each day it climbs 3 meters up, but each night it slides 2 meter down. On which day will it reach the top?",
+    "_id": "thinking_1_hard_1755262176982_007",
+    "scenario": "Look at these animals: 🐶 🐱 🐶 🐶. Three are the same and one is different.",
+    "content": "Which animal is different from the others? (Question 7)",
     "type": "multiple_choice",
     "options": [
-      "Day 6",
-      "Day 7",
-      "Day 5",
-      "Day 2"
+      "First dog",
+      "Cat",
+      "Third dog",
+      "Last dog"
     ],
-    "correctAnswer": "Day 6",
+    "correctAnswer": "Cat",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "hard",
-    "explanation": "After 5 days: net progress is 1m/day = 5m. On day 6, it climbs 3m more to reach 8m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "The cat is different because all the others are dogs.",
+    "_cacheBreaker": "1755265388161_6"
   },
   {
-    "_id": "grade1_hard_thinking-skills_008",
-    "content": "A snail climbs up a 8-meter wall. Each day it climbs 3 meters up, but each night it slides 2 meter down. On which day will it reach the top?",
+    "_id": "thinking_1_hard_1755262176982_008",
+    "scenario": "Sarah sees this pattern of colors: Red, Blue, Red, Blue, Red, Blue. She needs to continue the pattern.",
+    "content": "What color should come next? (Question 8)",
     "type": "multiple_choice",
     "options": [
-      "Day 6",
-      "Day 7",
-      "Day 5",
-      "Day 2"
+      "Green",
+      "Red",
+      "Yellow",
+      "Purple"
     ],
-    "correctAnswer": "Day 6",
+    "correctAnswer": "Red",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "hard",
-    "explanation": "After 5 days: net progress is 1m/day = 5m. On day 6, it climbs 3m more to reach 8m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "The pattern alternates Red, Blue, so after Blue comes Red.",
+    "_cacheBreaker": "1755265388161_7"
   },
   {
-    "_id": "grade1_hard_thinking-skills_009",
-    "content": "A snail climbs up a 10-meter wall. Each day it climbs 3 meters up, but each night it slides 2 meter down. On which day will it reach the top?",
+    "_id": "thinking_1_hard_1755262176982_009",
+    "scenario": "Mom says: 'All birds can fly. A robin is a bird.' Tommy is trying to figure out what this means about robins.",
+    "content": "What can Tommy conclude about robins? (Question 9)",
     "type": "multiple_choice",
     "options": [
-      "Day 8",
-      "Day 9",
-      "Day 7",
-      "Day 3"
+      "Robins are red",
+      "Robins can fly",
+      "Robins are big",
+      "Robins sing loudly"
     ],
-    "correctAnswer": "Day 8",
+    "correctAnswer": "Robins can fly",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "hard",
-    "explanation": "After 7 days: net progress is 1m/day = 7m. On day 8, it climbs 3m more to reach 10m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "If all birds can fly and robins are birds, then robins can fly.",
+    "_cacheBreaker": "1755265388161_8"
   },
   {
-    "_id": "grade1_hard_thinking-skills_010",
-    "content": "A snail climbs up a 8-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_1_hard_1755262176982_010",
+    "scenario": "Look at these animals: 🐶 🐱 🐶 🐶. Three are the same and one is different.",
+    "content": "Which animal is different from the others? (Question 10)",
     "type": "multiple_choice",
     "options": [
-      "Day 7",
-      "Day 8",
-      "Day 6",
-      "Day 4"
+      "First dog",
+      "Cat",
+      "Third dog",
+      "Last dog"
     ],
-    "correctAnswer": "Day 7",
+    "correctAnswer": "Cat",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "hard",
-    "explanation": "After 6 days: net progress is 1m/day = 6m. On day 7, it climbs 2m more to reach 8m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "The cat is different because all the others are dogs.",
+    "_cacheBreaker": "1755265388161_9"
   },
   {
-    "_id": "grade1_hard_thinking-skills_011",
-    "content": "A snail climbs up a 10-meter wall. Each day it climbs 3 meters up, but each night it slides 2 meter down. On which day will it reach the top?",
+    "_id": "thinking_1_hard_1755262176982_011",
+    "scenario": "Sarah sees this pattern of colors: Red, Blue, Red, Blue, Red, Blue. She needs to continue the pattern.",
+    "content": "What color should come next? (Question 11)",
     "type": "multiple_choice",
     "options": [
-      "Day 8",
-      "Day 9",
-      "Day 7",
-      "Day 3"
+      "Green",
+      "Red",
+      "Yellow",
+      "Purple"
     ],
-    "correctAnswer": "Day 8",
+    "correctAnswer": "Red",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "hard",
-    "explanation": "After 7 days: net progress is 1m/day = 7m. On day 8, it climbs 3m more to reach 10m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "The pattern alternates Red, Blue, so after Blue comes Red.",
+    "_cacheBreaker": "1755265388161_10"
   },
   {
-    "_id": "grade1_hard_thinking-skills_012",
-    "content": "A snail climbs up a 11-meter wall. Each day it climbs 3 meters up, but each night it slides 2 meter down. On which day will it reach the top?",
+    "_id": "thinking_1_hard_1755262176982_012",
+    "scenario": "Mom says: 'All birds can fly. A robin is a bird.' Tommy is trying to figure out what this means about robins.",
+    "content": "What can Tommy conclude about robins? (Question 12)",
     "type": "multiple_choice",
     "options": [
-      "Day 9",
-      "Day 10",
-      "Day 8",
-      "Day 3"
+      "Robins are red",
+      "Robins can fly",
+      "Robins are big",
+      "Robins sing loudly"
     ],
-    "correctAnswer": "Day 9",
+    "correctAnswer": "Robins can fly",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "hard",
-    "explanation": "After 8 days: net progress is 1m/day = 8m. On day 9, it climbs 3m more to reach 11m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "If all birds can fly and robins are birds, then robins can fly.",
+    "_cacheBreaker": "1755265388161_11"
   },
   {
-    "_id": "grade1_hard_thinking-skills_013",
-    "content": "A snail climbs up a 12-meter wall. Each day it climbs 3 meters up, but each night it slides 2 meter down. On which day will it reach the top?",
+    "_id": "thinking_1_hard_1755262176982_013",
+    "scenario": "Look at these animals: 🐶 🐱 🐶 🐶. Three are the same and one is different.",
+    "content": "Which animal is different from the others? (Question 13)",
     "type": "multiple_choice",
     "options": [
-      "Day 10",
-      "Day 11",
-      "Day 9",
-      "Day 4"
+      "First dog",
+      "Cat",
+      "Third dog",
+      "Last dog"
     ],
-    "correctAnswer": "Day 10",
+    "correctAnswer": "Cat",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "hard",
-    "explanation": "After 9 days: net progress is 1m/day = 9m. On day 10, it climbs 3m more to reach 12m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "The cat is different because all the others are dogs.",
+    "_cacheBreaker": "1755265388161_12"
   },
   {
-    "_id": "grade1_hard_thinking-skills_014",
-    "content": "A snail climbs up a 12-meter wall. Each day it climbs 3 meters up, but each night it slides 2 meter down. On which day will it reach the top?",
+    "_id": "thinking_1_hard_1755262176982_014",
+    "scenario": "Sarah sees this pattern of colors: Red, Blue, Red, Blue, Red, Blue. She needs to continue the pattern.",
+    "content": "What color should come next? (Question 14)",
     "type": "multiple_choice",
     "options": [
-      "Day 10",
-      "Day 11",
-      "Day 9",
-      "Day 4"
+      "Green",
+      "Red",
+      "Yellow",
+      "Purple"
     ],
-    "correctAnswer": "Day 10",
+    "correctAnswer": "Red",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "hard",
-    "explanation": "After 9 days: net progress is 1m/day = 9m. On day 10, it climbs 3m more to reach 12m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "The pattern alternates Red, Blue, so after Blue comes Red.",
+    "_cacheBreaker": "1755265388161_13"
   },
   {
-    "_id": "grade1_hard_thinking-skills_015",
-    "content": "A snail climbs up a 12-meter wall. Each day it climbs 3 meters up, but each night it slides 2 meter down. On which day will it reach the top?",
+    "_id": "thinking_1_hard_1755262176982_015",
+    "scenario": "Mom says: 'All birds can fly. A robin is a bird.' Tommy is trying to figure out what this means about robins.",
+    "content": "What can Tommy conclude about robins? (Question 15)",
     "type": "multiple_choice",
     "options": [
-      "Day 10",
-      "Day 11",
-      "Day 9",
-      "Day 4"
+      "Robins are red",
+      "Robins can fly",
+      "Robins are big",
+      "Robins sing loudly"
     ],
-    "correctAnswer": "Day 10",
+    "correctAnswer": "Robins can fly",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "hard",
-    "explanation": "After 9 days: net progress is 1m/day = 9m. On day 10, it climbs 3m more to reach 12m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "If all birds can fly and robins are birds, then robins can fly.",
+    "_cacheBreaker": "1755265388161_14"
   },
   {
-    "_id": "grade1_hard_thinking-skills_016",
-    "content": "A snail climbs up a 12-meter wall. Each day it climbs 3 meters up, but each night it slides 2 meter down. On which day will it reach the top?",
+    "_id": "thinking_1_hard_1755262176982_016",
+    "scenario": "Look at these animals: 🐶 🐱 🐶 🐶. Three are the same and one is different.",
+    "content": "Which animal is different from the others? (Question 16)",
     "type": "multiple_choice",
     "options": [
-      "Day 10",
-      "Day 11",
-      "Day 9",
-      "Day 4"
+      "First dog",
+      "Cat",
+      "Third dog",
+      "Last dog"
     ],
-    "correctAnswer": "Day 10",
+    "correctAnswer": "Cat",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "hard",
-    "explanation": "After 9 days: net progress is 1m/day = 9m. On day 10, it climbs 3m more to reach 12m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "The cat is different because all the others are dogs.",
+    "_cacheBreaker": "1755265388161_15"
   },
   {
-    "_id": "grade1_hard_thinking-skills_017",
-    "content": "A snail climbs up a 8-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_1_hard_1755262176982_017",
+    "scenario": "Sarah sees this pattern of colors: Red, Blue, Red, Blue, Red, Blue. She needs to continue the pattern.",
+    "content": "What color should come next? (Question 17)",
     "type": "multiple_choice",
     "options": [
-      "Day 7",
-      "Day 8",
-      "Day 6",
-      "Day 4"
+      "Green",
+      "Red",
+      "Yellow",
+      "Purple"
     ],
-    "correctAnswer": "Day 7",
+    "correctAnswer": "Red",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "hard",
-    "explanation": "After 6 days: net progress is 1m/day = 6m. On day 7, it climbs 2m more to reach 8m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "The pattern alternates Red, Blue, so after Blue comes Red.",
+    "_cacheBreaker": "1755265388161_16"
   },
   {
-    "_id": "grade1_hard_thinking-skills_018",
-    "content": "A snail climbs up a 11-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_1_hard_1755262176982_018",
+    "scenario": "Mom says: 'All birds can fly. A robin is a bird.' Tommy is trying to figure out what this means about robins.",
+    "content": "What can Tommy conclude about robins? (Question 18)",
     "type": "multiple_choice",
     "options": [
-      "Day 10",
-      "Day 11",
-      "Day 9",
-      "Day 5"
+      "Robins are red",
+      "Robins can fly",
+      "Robins are big",
+      "Robins sing loudly"
     ],
-    "correctAnswer": "Day 10",
+    "correctAnswer": "Robins can fly",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "hard",
-    "explanation": "After 9 days: net progress is 1m/day = 9m. On day 10, it climbs 2m more to reach 11m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "If all birds can fly and robins are birds, then robins can fly.",
+    "_cacheBreaker": "1755265388161_17"
   },
   {
-    "_id": "grade1_hard_thinking-skills_019",
-    "content": "A snail climbs up a 10-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_1_hard_1755262176982_019",
+    "scenario": "Look at these animals: 🐶 🐱 🐶 🐶. Three are the same and one is different.",
+    "content": "Which animal is different from the others? (Question 19)",
     "type": "multiple_choice",
     "options": [
-      "Day 9",
-      "Day 10",
-      "Day 8",
-      "Day 5"
+      "First dog",
+      "Cat",
+      "Third dog",
+      "Last dog"
     ],
-    "correctAnswer": "Day 9",
+    "correctAnswer": "Cat",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "hard",
-    "explanation": "After 8 days: net progress is 1m/day = 8m. On day 9, it climbs 2m more to reach 10m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "The cat is different because all the others are dogs.",
+    "_cacheBreaker": "1755265388161_18"
   },
   {
-    "_id": "grade1_hard_thinking-skills_020",
-    "content": "A snail climbs up a 8-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_1_hard_1755262176982_020",
+    "scenario": "Sarah sees this pattern of colors: Red, Blue, Red, Blue, Red, Blue. She needs to continue the pattern.",
+    "content": "What color should come next? (Question 20)",
     "type": "multiple_choice",
     "options": [
-      "Day 7",
-      "Day 8",
-      "Day 6",
-      "Day 4"
+      "Green",
+      "Red",
+      "Yellow",
+      "Purple"
     ],
-    "correctAnswer": "Day 7",
+    "correctAnswer": "Red",
     "subject": "Thinking Skills",
     "grade": 1,
     "difficulty": "hard",
-    "explanation": "After 6 days: net progress is 1m/day = 6m. On day 7, it climbs 2m more to reach 8m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "The pattern alternates Red, Blue, so after Blue comes Red.",
+    "_cacheBreaker": "1755265388161_19"
   }
 ]

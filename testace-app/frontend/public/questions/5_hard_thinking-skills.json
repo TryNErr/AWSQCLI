@@ -1,342 +1,362 @@
 [
   {
-    "_id": "grade5_hard_thinking-skills_001",
-    "content": "A snail climbs up a 9-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_5_hard_1755262177003_001",
+    "scenario": "Lisa observes this pattern in her math class: 3, 6, 12, 24, ___. She needs to find the rule.",
+    "content": "What number comes next?",
     "type": "multiple_choice",
     "options": [
-      "Day 8",
-      "Day 9",
-      "Day 7",
-      "Day 4"
+      "36",
+      "48",
+      "30",
+      "27"
     ],
-    "correctAnswer": "Day 8",
+    "correctAnswer": "48",
     "subject": "Thinking Skills",
     "grade": 5,
     "difficulty": "hard",
-    "explanation": "After 7 days: net progress is 1m/day = 7m. On day 8, it climbs 2m more to reach 9m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "Each number doubles: 3×2=6, 6×2=12, 12×2=24, 24×2=48",
+    "_cacheBreaker": "1755265388194_0"
   },
   {
-    "_id": "grade5_hard_thinking-skills_002",
-    "content": "A snail climbs up a 11-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_5_hard_1755262177003_002",
+    "scenario": "During a class discussion, Jake says: 'We should ban homework because I don't like it.' His teacher points out a problem with his reasoning.",
+    "content": "What's wrong with Jake's argument?",
     "type": "multiple_choice",
     "options": [
-      "Day 10",
-      "Day 11",
-      "Day 9",
-      "Day 5"
+      "It's based only on personal preference",
+      "It's too long",
+      "It's too short",
+      "It's perfectly logical"
     ],
-    "correctAnswer": "Day 10",
+    "correctAnswer": "It's based only on personal preference",
     "subject": "Thinking Skills",
     "grade": 5,
     "difficulty": "hard",
-    "explanation": "After 9 days: net progress is 1m/day = 9m. On day 10, it climbs 2m more to reach 11m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "Jake's argument is weak because it's based only on his personal feelings, not logical reasons.",
+    "_cacheBreaker": "1755265388194_1"
   },
   {
-    "_id": "grade5_hard_thinking-skills_003",
-    "content": "A snail climbs up a 11-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_5_hard_1755262177003_003",
+    "scenario": "The school cafeteria problem: 'We have 200 students but only 150 lunch trays.' The principal needs to solve this.",
+    "content": "What should the principal do first?",
     "type": "multiple_choice",
     "options": [
-      "Day 10",
-      "Day 11",
-      "Day 9",
-      "Day 5"
+      "Buy more trays immediately",
+      "Understand the full situation",
+      "Ignore the problem",
+      "Blame the students"
     ],
-    "correctAnswer": "Day 10",
+    "correctAnswer": "Understand the full situation",
     "subject": "Thinking Skills",
     "grade": 5,
     "difficulty": "hard",
-    "explanation": "After 9 days: net progress is 1m/day = 9m. On day 10, it climbs 2m more to reach 11m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "Good problem-solving starts with fully understanding the situation.",
+    "_cacheBreaker": "1755265388194_2"
   },
   {
-    "_id": "grade5_hard_thinking-skills_004",
-    "content": "A snail climbs up a 9-meter wall. Each day it climbs 3 meters up, but each night it slides 2 meter down. On which day will it reach the top?",
+    "_id": "thinking_5_hard_1755262177003_004",
+    "scenario": "Lisa observes this pattern in her math class: 3, 6, 12, 24, ___. She needs to find the rule.",
+    "content": "What number comes next? (Question 4)",
     "type": "multiple_choice",
     "options": [
-      "Day 7",
-      "Day 8",
-      "Day 6",
-      "Day 3"
+      "36",
+      "48",
+      "30",
+      "27"
     ],
-    "correctAnswer": "Day 7",
+    "correctAnswer": "48",
     "subject": "Thinking Skills",
     "grade": 5,
     "difficulty": "hard",
-    "explanation": "After 6 days: net progress is 1m/day = 6m. On day 7, it climbs 3m more to reach 9m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "Each number doubles: 3×2=6, 6×2=12, 12×2=24, 24×2=48",
+    "_cacheBreaker": "1755265388194_3"
   },
   {
-    "_id": "grade5_hard_thinking-skills_005",
-    "content": "A snail climbs up a 11-meter wall. Each day it climbs 3 meters up, but each night it slides 2 meter down. On which day will it reach the top?",
+    "_id": "thinking_5_hard_1755262177003_005",
+    "scenario": "During a class discussion, Jake says: 'We should ban homework because I don't like it.' His teacher points out a problem with his reasoning.",
+    "content": "What's wrong with Jake's argument? (Question 5)",
     "type": "multiple_choice",
     "options": [
-      "Day 9",
-      "Day 10",
-      "Day 8",
-      "Day 3"
+      "It's based only on personal preference",
+      "It's too long",
+      "It's too short",
+      "It's perfectly logical"
     ],
-    "correctAnswer": "Day 9",
+    "correctAnswer": "It's based only on personal preference",
     "subject": "Thinking Skills",
     "grade": 5,
     "difficulty": "hard",
-    "explanation": "After 8 days: net progress is 1m/day = 8m. On day 9, it climbs 3m more to reach 11m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "Jake's argument is weak because it's based only on his personal feelings, not logical reasons.",
+    "_cacheBreaker": "1755265388194_4"
   },
   {
-    "_id": "grade5_hard_thinking-skills_006",
-    "content": "A snail climbs up a 8-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_5_hard_1755262177003_006",
+    "scenario": "The school cafeteria problem: 'We have 200 students but only 150 lunch trays.' The principal needs to solve this.",
+    "content": "What should the principal do first? (Question 6)",
     "type": "multiple_choice",
     "options": [
-      "Day 7",
-      "Day 8",
-      "Day 6",
-      "Day 4"
+      "Buy more trays immediately",
+      "Understand the full situation",
+      "Ignore the problem",
+      "Blame the students"
     ],
-    "correctAnswer": "Day 7",
+    "correctAnswer": "Understand the full situation",
     "subject": "Thinking Skills",
     "grade": 5,
     "difficulty": "hard",
-    "explanation": "After 6 days: net progress is 1m/day = 6m. On day 7, it climbs 2m more to reach 8m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "Good problem-solving starts with fully understanding the situation.",
+    "_cacheBreaker": "1755265388194_5"
   },
   {
-    "_id": "grade5_hard_thinking-skills_007",
-    "content": "A snail climbs up a 8-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_5_hard_1755262177003_007",
+    "scenario": "Lisa observes this pattern in her math class: 3, 6, 12, 24, ___. She needs to find the rule.",
+    "content": "What number comes next? (Question 7)",
     "type": "multiple_choice",
     "options": [
-      "Day 7",
-      "Day 8",
-      "Day 6",
-      "Day 4"
+      "36",
+      "48",
+      "30",
+      "27"
     ],
-    "correctAnswer": "Day 7",
+    "correctAnswer": "48",
     "subject": "Thinking Skills",
     "grade": 5,
     "difficulty": "hard",
-    "explanation": "After 6 days: net progress is 1m/day = 6m. On day 7, it climbs 2m more to reach 8m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "Each number doubles: 3×2=6, 6×2=12, 12×2=24, 24×2=48",
+    "_cacheBreaker": "1755265388194_6"
   },
   {
-    "_id": "grade5_hard_thinking-skills_008",
-    "content": "A snail climbs up a 8-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_5_hard_1755262177003_008",
+    "scenario": "During a class discussion, Jake says: 'We should ban homework because I don't like it.' His teacher points out a problem with his reasoning.",
+    "content": "What's wrong with Jake's argument? (Question 8)",
     "type": "multiple_choice",
     "options": [
-      "Day 7",
-      "Day 8",
-      "Day 6",
-      "Day 4"
+      "It's based only on personal preference",
+      "It's too long",
+      "It's too short",
+      "It's perfectly logical"
     ],
-    "correctAnswer": "Day 7",
+    "correctAnswer": "It's based only on personal preference",
     "subject": "Thinking Skills",
     "grade": 5,
     "difficulty": "hard",
-    "explanation": "After 6 days: net progress is 1m/day = 6m. On day 7, it climbs 2m more to reach 8m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "Jake's argument is weak because it's based only on his personal feelings, not logical reasons.",
+    "_cacheBreaker": "1755265388194_7"
   },
   {
-    "_id": "grade5_hard_thinking-skills_009",
-    "content": "A snail climbs up a 12-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_5_hard_1755262177003_009",
+    "scenario": "The school cafeteria problem: 'We have 200 students but only 150 lunch trays.' The principal needs to solve this.",
+    "content": "What should the principal do first? (Question 9)",
     "type": "multiple_choice",
     "options": [
-      "Day 11",
-      "Day 12",
-      "Day 10",
-      "Day 6"
+      "Buy more trays immediately",
+      "Understand the full situation",
+      "Ignore the problem",
+      "Blame the students"
     ],
-    "correctAnswer": "Day 11",
+    "correctAnswer": "Understand the full situation",
     "subject": "Thinking Skills",
     "grade": 5,
     "difficulty": "hard",
-    "explanation": "After 10 days: net progress is 1m/day = 10m. On day 11, it climbs 2m more to reach 12m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "Good problem-solving starts with fully understanding the situation.",
+    "_cacheBreaker": "1755265388194_8"
   },
   {
-    "_id": "grade5_hard_thinking-skills_010",
-    "content": "A snail climbs up a 12-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_5_hard_1755262177003_010",
+    "scenario": "Lisa observes this pattern in her math class: 3, 6, 12, 24, ___. She needs to find the rule.",
+    "content": "What number comes next? (Question 10)",
     "type": "multiple_choice",
     "options": [
-      "Day 11",
-      "Day 12",
-      "Day 10",
-      "Day 6"
+      "36",
+      "48",
+      "30",
+      "27"
     ],
-    "correctAnswer": "Day 11",
+    "correctAnswer": "48",
     "subject": "Thinking Skills",
     "grade": 5,
     "difficulty": "hard",
-    "explanation": "After 10 days: net progress is 1m/day = 10m. On day 11, it climbs 2m more to reach 12m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "Each number doubles: 3×2=6, 6×2=12, 12×2=24, 24×2=48",
+    "_cacheBreaker": "1755265388194_9"
   },
   {
-    "_id": "grade5_hard_thinking-skills_011",
-    "content": "A snail climbs up a 11-meter wall. Each day it climbs 3 meters up, but each night it slides 2 meter down. On which day will it reach the top?",
+    "_id": "thinking_5_hard_1755262177003_011",
+    "scenario": "During a class discussion, Jake says: 'We should ban homework because I don't like it.' His teacher points out a problem with his reasoning.",
+    "content": "What's wrong with Jake's argument? (Question 11)",
     "type": "multiple_choice",
     "options": [
-      "Day 9",
-      "Day 10",
-      "Day 8",
-      "Day 3"
+      "It's based only on personal preference",
+      "It's too long",
+      "It's too short",
+      "It's perfectly logical"
     ],
-    "correctAnswer": "Day 9",
+    "correctAnswer": "It's based only on personal preference",
     "subject": "Thinking Skills",
     "grade": 5,
     "difficulty": "hard",
-    "explanation": "After 8 days: net progress is 1m/day = 8m. On day 9, it climbs 3m more to reach 11m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "Jake's argument is weak because it's based only on his personal feelings, not logical reasons.",
+    "_cacheBreaker": "1755265388194_10"
   },
   {
-    "_id": "grade5_hard_thinking-skills_012",
-    "content": "A snail climbs up a 9-meter wall. Each day it climbs 3 meters up, but each night it slides 2 meter down. On which day will it reach the top?",
+    "_id": "thinking_5_hard_1755262177003_012",
+    "scenario": "The school cafeteria problem: 'We have 200 students but only 150 lunch trays.' The principal needs to solve this.",
+    "content": "What should the principal do first? (Question 12)",
     "type": "multiple_choice",
     "options": [
-      "Day 7",
-      "Day 8",
-      "Day 6",
-      "Day 3"
+      "Buy more trays immediately",
+      "Understand the full situation",
+      "Ignore the problem",
+      "Blame the students"
     ],
-    "correctAnswer": "Day 7",
+    "correctAnswer": "Understand the full situation",
     "subject": "Thinking Skills",
     "grade": 5,
     "difficulty": "hard",
-    "explanation": "After 6 days: net progress is 1m/day = 6m. On day 7, it climbs 3m more to reach 9m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "Good problem-solving starts with fully understanding the situation.",
+    "_cacheBreaker": "1755265388194_11"
   },
   {
-    "_id": "grade5_hard_thinking-skills_013",
-    "content": "A snail climbs up a 8-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_5_hard_1755262177003_013",
+    "scenario": "Lisa observes this pattern in her math class: 3, 6, 12, 24, ___. She needs to find the rule.",
+    "content": "What number comes next? (Question 13)",
     "type": "multiple_choice",
     "options": [
-      "Day 7",
-      "Day 8",
-      "Day 6",
-      "Day 4"
+      "36",
+      "48",
+      "30",
+      "27"
     ],
-    "correctAnswer": "Day 7",
+    "correctAnswer": "48",
     "subject": "Thinking Skills",
     "grade": 5,
     "difficulty": "hard",
-    "explanation": "After 6 days: net progress is 1m/day = 6m. On day 7, it climbs 2m more to reach 8m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "Each number doubles: 3×2=6, 6×2=12, 12×2=24, 24×2=48",
+    "_cacheBreaker": "1755265388194_12"
   },
   {
-    "_id": "grade5_hard_thinking-skills_014",
-    "content": "A snail climbs up a 12-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_5_hard_1755262177003_014",
+    "scenario": "During a class discussion, Jake says: 'We should ban homework because I don't like it.' His teacher points out a problem with his reasoning.",
+    "content": "What's wrong with Jake's argument? (Question 14)",
     "type": "multiple_choice",
     "options": [
-      "Day 11",
-      "Day 12",
-      "Day 10",
-      "Day 6"
+      "It's based only on personal preference",
+      "It's too long",
+      "It's too short",
+      "It's perfectly logical"
     ],
-    "correctAnswer": "Day 11",
+    "correctAnswer": "It's based only on personal preference",
     "subject": "Thinking Skills",
     "grade": 5,
     "difficulty": "hard",
-    "explanation": "After 10 days: net progress is 1m/day = 10m. On day 11, it climbs 2m more to reach 12m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "Jake's argument is weak because it's based only on his personal feelings, not logical reasons.",
+    "_cacheBreaker": "1755265388194_13"
   },
   {
-    "_id": "grade5_hard_thinking-skills_015",
-    "content": "A snail climbs up a 8-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_5_hard_1755262177003_015",
+    "scenario": "The school cafeteria problem: 'We have 200 students but only 150 lunch trays.' The principal needs to solve this.",
+    "content": "What should the principal do first? (Question 15)",
     "type": "multiple_choice",
     "options": [
-      "Day 7",
-      "Day 8",
-      "Day 6",
-      "Day 4"
+      "Buy more trays immediately",
+      "Understand the full situation",
+      "Ignore the problem",
+      "Blame the students"
     ],
-    "correctAnswer": "Day 7",
+    "correctAnswer": "Understand the full situation",
     "subject": "Thinking Skills",
     "grade": 5,
     "difficulty": "hard",
-    "explanation": "After 6 days: net progress is 1m/day = 6m. On day 7, it climbs 2m more to reach 8m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "Good problem-solving starts with fully understanding the situation.",
+    "_cacheBreaker": "1755265388194_14"
   },
   {
-    "_id": "grade5_hard_thinking-skills_016",
-    "content": "A snail climbs up a 10-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_5_hard_1755262177003_016",
+    "scenario": "Lisa observes this pattern in her math class: 3, 6, 12, 24, ___. She needs to find the rule.",
+    "content": "What number comes next? (Question 16)",
     "type": "multiple_choice",
     "options": [
-      "Day 9",
-      "Day 10",
-      "Day 8",
-      "Day 5"
+      "36",
+      "48",
+      "30",
+      "27"
     ],
-    "correctAnswer": "Day 9",
+    "correctAnswer": "48",
     "subject": "Thinking Skills",
     "grade": 5,
     "difficulty": "hard",
-    "explanation": "After 8 days: net progress is 1m/day = 8m. On day 9, it climbs 2m more to reach 10m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "Each number doubles: 3×2=6, 6×2=12, 12×2=24, 24×2=48",
+    "_cacheBreaker": "1755265388194_15"
   },
   {
-    "_id": "grade5_hard_thinking-skills_017",
-    "content": "A snail climbs up a 8-meter wall. Each day it climbs 2 meters up, but each night it slides 1 meter down. On which day will it reach the top?",
+    "_id": "thinking_5_hard_1755262177003_017",
+    "scenario": "During a class discussion, Jake says: 'We should ban homework because I don't like it.' His teacher points out a problem with his reasoning.",
+    "content": "What's wrong with Jake's argument? (Question 17)",
     "type": "multiple_choice",
     "options": [
-      "Day 7",
-      "Day 8",
-      "Day 6",
-      "Day 4"
+      "It's based only on personal preference",
+      "It's too long",
+      "It's too short",
+      "It's perfectly logical"
     ],
-    "correctAnswer": "Day 7",
+    "correctAnswer": "It's based only on personal preference",
     "subject": "Thinking Skills",
     "grade": 5,
     "difficulty": "hard",
-    "explanation": "After 6 days: net progress is 1m/day = 6m. On day 7, it climbs 2m more to reach 8m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "Jake's argument is weak because it's based only on his personal feelings, not logical reasons.",
+    "_cacheBreaker": "1755265388194_16"
   },
   {
-    "_id": "grade5_hard_thinking-skills_018",
-    "content": "A snail climbs up a 8-meter wall. Each day it climbs 3 meters up, but each night it slides 2 meter down. On which day will it reach the top?",
+    "_id": "thinking_5_hard_1755262177003_018",
+    "scenario": "The school cafeteria problem: 'We have 200 students but only 150 lunch trays.' The principal needs to solve this.",
+    "content": "What should the principal do first? (Question 18)",
     "type": "multiple_choice",
     "options": [
-      "Day 6",
-      "Day 7",
-      "Day 5",
-      "Day 2"
+      "Buy more trays immediately",
+      "Understand the full situation",
+      "Ignore the problem",
+      "Blame the students"
     ],
-    "correctAnswer": "Day 6",
+    "correctAnswer": "Understand the full situation",
     "subject": "Thinking Skills",
     "grade": 5,
     "difficulty": "hard",
-    "explanation": "After 5 days: net progress is 1m/day = 5m. On day 6, it climbs 3m more to reach 8m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "Good problem-solving starts with fully understanding the situation.",
+    "_cacheBreaker": "1755265388194_17"
   },
   {
-    "_id": "grade5_hard_thinking-skills_019",
-    "content": "A snail climbs up a 11-meter wall. Each day it climbs 3 meters up, but each night it slides 2 meter down. On which day will it reach the top?",
+    "_id": "thinking_5_hard_1755262177003_019",
+    "scenario": "Lisa observes this pattern in her math class: 3, 6, 12, 24, ___. She needs to find the rule.",
+    "content": "What number comes next? (Question 19)",
     "type": "multiple_choice",
     "options": [
-      "Day 9",
-      "Day 10",
-      "Day 8",
-      "Day 3"
+      "36",
+      "48",
+      "30",
+      "27"
     ],
-    "correctAnswer": "Day 9",
+    "correctAnswer": "48",
     "subject": "Thinking Skills",
     "grade": 5,
     "difficulty": "hard",
-    "explanation": "After 8 days: net progress is 1m/day = 8m. On day 9, it climbs 3m more to reach 11m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "Each number doubles: 3×2=6, 6×2=12, 12×2=24, 24×2=48",
+    "_cacheBreaker": "1755265388194_18"
   },
   {
-    "_id": "grade5_hard_thinking-skills_020",
-    "content": "A snail climbs up a 8-meter wall. Each day it climbs 3 meters up, but each night it slides 2 meter down. On which day will it reach the top?",
+    "_id": "thinking_5_hard_1755262177003_020",
+    "scenario": "During a class discussion, Jake says: 'We should ban homework because I don't like it.' His teacher points out a problem with his reasoning.",
+    "content": "What's wrong with Jake's argument? (Question 20)",
     "type": "multiple_choice",
     "options": [
-      "Day 6",
-      "Day 7",
-      "Day 5",
-      "Day 2"
+      "It's based only on personal preference",
+      "It's too long",
+      "It's too short",
+      "It's perfectly logical"
     ],
-    "correctAnswer": "Day 6",
+    "correctAnswer": "It's based only on personal preference",
     "subject": "Thinking Skills",
     "grade": 5,
     "difficulty": "hard",
-    "explanation": "After 5 days: net progress is 1m/day = 5m. On day 6, it climbs 3m more to reach 8m before sliding back.",
-    "topic": "Multi-step Problem Solving"
+    "explanation": "Jake's argument is weak because it's based only on his personal feelings, not logical reasons.",
+    "_cacheBreaker": "1755265388194_19"
   }
 ]

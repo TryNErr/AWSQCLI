@@ -1,322 +1,342 @@
 [
   {
-    "_id": "grade9_easy_math_001",
-    "content": "Solve for x: 3x + 5 = 20",
+    "_id": "easy9_1755260948241_001",
+    "content": "Factor: x² - 1",
     "type": "multiple_choice",
     "options": [
-      "x = 3",
+      "(x - 1)²",
+      "(x + 1)²",
+      "(x - 1)(x + 1)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x - 1)(x + 1)",
+    "subject": "Mathematics",
+    "grade": 9,
+    "difficulty": "easy",
+    "explanation": "This is a difference of squares: a² - b² = (a - b)(a + b)",
+    "_cacheBreaker": "1755265388239_0"
+  },
+  {
+    "_id": "easy9_1755260948241_002",
+    "content": "Solve: x² = 25",
+    "type": "multiple_choice",
+    "options": [
       "x = 5",
-      "x = 8",
-      "x = 25"
+      "x = ±5",
+      "x = 25",
+      "x = ±25"
     ],
-    "correctAnswer": "x = 5",
+    "correctAnswer": "x = ±5",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "easy",
-    "explanation": "3x + 5 = 20. Subtract 5: 3x = 15. Divide by 3: x = 5"
+    "explanation": "Take square root of both sides: x = ±√25 = ±5",
+    "_cacheBreaker": "1755265388239_1"
   },
   {
-    "_id": "grade9_easy_math_002",
-    "content": "Factorize: x² - 16",
+    "_id": "easy9_1755260948241_003",
+    "content": "Find the vertex of y = x² - 4x + 3",
     "type": "multiple_choice",
     "options": [
-      "(x - 4)²",
-      "(x + 4)²",
-      "(x - 4)(x + 4)",
-      "x(x - 16)"
+      "(2, -1)",
+      "(-2, 1)",
+      "(4, 3)",
+      "(-4, -3)"
     ],
-    "correctAnswer": "(x - 4)(x + 4)",
+    "correctAnswer": "(2, -1)",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "easy",
-    "explanation": "x² - 16 = x² - 4² = (x - 4)(x + 4)"
+    "explanation": "x = -b/2a = 4/2 = 2, then y = (2)² - 4(2) + 3 = -1",
+    "_cacheBreaker": "1755265388239_2"
   },
   {
-    "_id": "grade9_easy_math_003",
-    "content": "What is the y-intercept of y = 2x - 7?",
+    "_id": "easy9_1755260948246_004",
+    "content": "Factor: x² - 1 (Question 4)",
     "type": "multiple_choice",
     "options": [
-      "-7",
-      "2",
-      "7",
-      "-2"
+      "(x - 1)²",
+      "(x + 1)²",
+      "(x - 1)(x + 1)",
+      "Cannot be factored"
     ],
-    "correctAnswer": "-7",
+    "correctAnswer": "(x - 1)(x + 1)",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "easy",
-    "explanation": "In y = mx + c form, the y-intercept is c = -7"
+    "explanation": "This is a difference of squares: a² - b² = (a - b)(a + b)",
+    "_cacheBreaker": "1755265388239_3"
   },
   {
-    "_id": "grade9_easy_math_004",
-    "content": "Expand: (x + 2)(x + 3)",
+    "_id": "easy9_1755260948246_005",
+    "content": "Solve: x² = 25 (Question 5)",
     "type": "multiple_choice",
     "options": [
-      "x² + 5x + 6",
-      "x² + 6x + 5",
-      "x² + 5x + 5",
-      "x² + 6x + 6"
-    ],
-    "correctAnswer": "x² + 5x + 6",
-    "subject": "Mathematics",
-    "grade": 9,
-    "difficulty": "easy",
-    "explanation": "(x + 2)(x + 3) = x² + 3x + 2x + 6 = x² + 5x + 6"
-  },
-  {
-    "_id": "grade9_easy_math_005",
-    "content": "Solve for x: 3x + 5 = 20",
-    "type": "multiple_choice",
-    "options": [
-      "x = 3",
       "x = 5",
-      "x = 8",
-      "x = 25"
+      "x = ±5",
+      "x = 25",
+      "x = ±25"
     ],
-    "correctAnswer": "x = 5",
+    "correctAnswer": "x = ±5",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "easy",
-    "explanation": "3x + 5 = 20. Subtract 5: 3x = 15. Divide by 3: x = 5"
+    "explanation": "Take square root of both sides: x = ±√25 = ±5",
+    "_cacheBreaker": "1755265388239_4"
   },
   {
-    "_id": "grade9_easy_math_006",
-    "content": "Factorize: x² - 16",
+    "_id": "easy9_1755260948246_006",
+    "content": "Find the vertex of y = x² - 4x + 3 (Question 6)",
     "type": "multiple_choice",
     "options": [
-      "(x - 4)²",
-      "(x + 4)²",
-      "(x - 4)(x + 4)",
-      "x(x - 16)"
+      "(2, -1)",
+      "(-2, 1)",
+      "(4, 3)",
+      "(-4, -3)"
     ],
-    "correctAnswer": "(x - 4)(x + 4)",
+    "correctAnswer": "(2, -1)",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "easy",
-    "explanation": "x² - 16 = x² - 4² = (x - 4)(x + 4)"
+    "explanation": "x = -b/2a = 4/2 = 2, then y = (2)² - 4(2) + 3 = -1",
+    "_cacheBreaker": "1755265388239_5"
   },
   {
-    "_id": "grade9_easy_math_007",
-    "content": "What is the y-intercept of y = 2x - 7?",
+    "_id": "easy9_1755260948246_007",
+    "content": "Factor: x² - 1 (Question 7)",
     "type": "multiple_choice",
     "options": [
-      "-7",
-      "2",
-      "7",
-      "-2"
+      "(x - 1)²",
+      "(x + 1)²",
+      "(x - 1)(x + 1)",
+      "Cannot be factored"
     ],
-    "correctAnswer": "-7",
+    "correctAnswer": "(x - 1)(x + 1)",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "easy",
-    "explanation": "In y = mx + c form, the y-intercept is c = -7"
+    "explanation": "This is a difference of squares: a² - b² = (a - b)(a + b)",
+    "_cacheBreaker": "1755265388239_6"
   },
   {
-    "_id": "grade9_easy_math_008",
-    "content": "Expand: (x + 2)(x + 3)",
+    "_id": "easy9_1755260948246_008",
+    "content": "Solve: x² = 25 (Question 8)",
     "type": "multiple_choice",
     "options": [
-      "x² + 5x + 6",
-      "x² + 6x + 5",
-      "x² + 5x + 5",
-      "x² + 6x + 6"
-    ],
-    "correctAnswer": "x² + 5x + 6",
-    "subject": "Mathematics",
-    "grade": 9,
-    "difficulty": "easy",
-    "explanation": "(x + 2)(x + 3) = x² + 3x + 2x + 6 = x² + 5x + 6"
-  },
-  {
-    "_id": "grade9_easy_math_009",
-    "content": "Solve for x: 3x + 5 = 20",
-    "type": "multiple_choice",
-    "options": [
-      "x = 3",
       "x = 5",
-      "x = 8",
-      "x = 25"
+      "x = ±5",
+      "x = 25",
+      "x = ±25"
     ],
-    "correctAnswer": "x = 5",
+    "correctAnswer": "x = ±5",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "easy",
-    "explanation": "3x + 5 = 20. Subtract 5: 3x = 15. Divide by 3: x = 5"
+    "explanation": "Take square root of both sides: x = ±√25 = ±5",
+    "_cacheBreaker": "1755265388239_7"
   },
   {
-    "_id": "grade9_easy_math_010",
-    "content": "Factorize: x² - 16",
+    "_id": "easy9_1755260948246_009",
+    "content": "Find the vertex of y = x² - 4x + 3 (Question 9)",
     "type": "multiple_choice",
     "options": [
-      "(x - 4)²",
-      "(x + 4)²",
-      "(x - 4)(x + 4)",
-      "x(x - 16)"
+      "(2, -1)",
+      "(-2, 1)",
+      "(4, 3)",
+      "(-4, -3)"
     ],
-    "correctAnswer": "(x - 4)(x + 4)",
+    "correctAnswer": "(2, -1)",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "easy",
-    "explanation": "x² - 16 = x² - 4² = (x - 4)(x + 4)"
+    "explanation": "x = -b/2a = 4/2 = 2, then y = (2)² - 4(2) + 3 = -1",
+    "_cacheBreaker": "1755265388239_8"
   },
   {
-    "_id": "grade9_easy_math_011",
-    "content": "What is the y-intercept of y = 2x - 7?",
+    "_id": "easy9_1755260948246_010",
+    "content": "Factor: x² - 1 (Question 10)",
     "type": "multiple_choice",
     "options": [
-      "-7",
-      "2",
-      "7",
-      "-2"
+      "(x - 1)²",
+      "(x + 1)²",
+      "(x - 1)(x + 1)",
+      "Cannot be factored"
     ],
-    "correctAnswer": "-7",
+    "correctAnswer": "(x - 1)(x + 1)",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "easy",
-    "explanation": "In y = mx + c form, the y-intercept is c = -7"
+    "explanation": "This is a difference of squares: a² - b² = (a - b)(a + b)",
+    "_cacheBreaker": "1755265388239_9"
   },
   {
-    "_id": "grade9_easy_math_012",
-    "content": "Expand: (x + 2)(x + 3)",
+    "_id": "easy9_1755260948246_011",
+    "content": "Solve: x² = 25 (Question 11)",
     "type": "multiple_choice",
     "options": [
-      "x² + 5x + 6",
-      "x² + 6x + 5",
-      "x² + 5x + 5",
-      "x² + 6x + 6"
-    ],
-    "correctAnswer": "x² + 5x + 6",
-    "subject": "Mathematics",
-    "grade": 9,
-    "difficulty": "easy",
-    "explanation": "(x + 2)(x + 3) = x² + 3x + 2x + 6 = x² + 5x + 6"
-  },
-  {
-    "_id": "grade9_easy_math_013",
-    "content": "Solve for x: 3x + 5 = 20",
-    "type": "multiple_choice",
-    "options": [
-      "x = 3",
       "x = 5",
-      "x = 8",
-      "x = 25"
+      "x = ±5",
+      "x = 25",
+      "x = ±25"
     ],
-    "correctAnswer": "x = 5",
+    "correctAnswer": "x = ±5",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "easy",
-    "explanation": "3x + 5 = 20. Subtract 5: 3x = 15. Divide by 3: x = 5"
+    "explanation": "Take square root of both sides: x = ±√25 = ±5",
+    "_cacheBreaker": "1755265388239_10"
   },
   {
-    "_id": "grade9_easy_math_014",
-    "content": "Factorize: x² - 16",
+    "_id": "easy9_1755260948246_012",
+    "content": "Find the vertex of y = x² - 4x + 3 (Question 12)",
     "type": "multiple_choice",
     "options": [
-      "(x - 4)²",
-      "(x + 4)²",
-      "(x - 4)(x + 4)",
-      "x(x - 16)"
+      "(2, -1)",
+      "(-2, 1)",
+      "(4, 3)",
+      "(-4, -3)"
     ],
-    "correctAnswer": "(x - 4)(x + 4)",
+    "correctAnswer": "(2, -1)",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "easy",
-    "explanation": "x² - 16 = x² - 4² = (x - 4)(x + 4)"
+    "explanation": "x = -b/2a = 4/2 = 2, then y = (2)² - 4(2) + 3 = -1",
+    "_cacheBreaker": "1755265388239_11"
   },
   {
-    "_id": "grade9_easy_math_015",
-    "content": "What is the y-intercept of y = 2x - 7?",
+    "_id": "easy9_1755260948246_013",
+    "content": "Factor: x² - 1 (Question 13)",
     "type": "multiple_choice",
     "options": [
-      "-7",
-      "2",
-      "7",
-      "-2"
+      "(x - 1)²",
+      "(x + 1)²",
+      "(x - 1)(x + 1)",
+      "Cannot be factored"
     ],
-    "correctAnswer": "-7",
+    "correctAnswer": "(x - 1)(x + 1)",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "easy",
-    "explanation": "In y = mx + c form, the y-intercept is c = -7"
+    "explanation": "This is a difference of squares: a² - b² = (a - b)(a + b)",
+    "_cacheBreaker": "1755265388239_12"
   },
   {
-    "_id": "grade9_easy_math_016",
-    "content": "Expand: (x + 2)(x + 3)",
+    "_id": "easy9_1755260948246_014",
+    "content": "Solve: x² = 25 (Question 14)",
     "type": "multiple_choice",
     "options": [
-      "x² + 5x + 6",
-      "x² + 6x + 5",
-      "x² + 5x + 5",
-      "x² + 6x + 6"
-    ],
-    "correctAnswer": "x² + 5x + 6",
-    "subject": "Mathematics",
-    "grade": 9,
-    "difficulty": "easy",
-    "explanation": "(x + 2)(x + 3) = x² + 3x + 2x + 6 = x² + 5x + 6"
-  },
-  {
-    "_id": "grade9_easy_math_017",
-    "content": "Solve for x: 3x + 5 = 20",
-    "type": "multiple_choice",
-    "options": [
-      "x = 3",
       "x = 5",
-      "x = 8",
-      "x = 25"
+      "x = ±5",
+      "x = 25",
+      "x = ±25"
     ],
-    "correctAnswer": "x = 5",
+    "correctAnswer": "x = ±5",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "easy",
-    "explanation": "3x + 5 = 20. Subtract 5: 3x = 15. Divide by 3: x = 5"
+    "explanation": "Take square root of both sides: x = ±√25 = ±5",
+    "_cacheBreaker": "1755265388239_13"
   },
   {
-    "_id": "grade9_easy_math_018",
-    "content": "Factorize: x² - 16",
+    "_id": "easy9_1755260948246_015",
+    "content": "Find the vertex of y = x² - 4x + 3 (Question 15)",
     "type": "multiple_choice",
     "options": [
-      "(x - 4)²",
-      "(x + 4)²",
-      "(x - 4)(x + 4)",
-      "x(x - 16)"
+      "(2, -1)",
+      "(-2, 1)",
+      "(4, 3)",
+      "(-4, -3)"
     ],
-    "correctAnswer": "(x - 4)(x + 4)",
+    "correctAnswer": "(2, -1)",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "easy",
-    "explanation": "x² - 16 = x² - 4² = (x - 4)(x + 4)"
+    "explanation": "x = -b/2a = 4/2 = 2, then y = (2)² - 4(2) + 3 = -1",
+    "_cacheBreaker": "1755265388239_14"
   },
   {
-    "_id": "grade9_easy_math_019",
-    "content": "What is the y-intercept of y = 2x - 7?",
+    "_id": "easy9_1755260948246_016",
+    "content": "Factor: x² - 1 (Question 16)",
     "type": "multiple_choice",
     "options": [
-      "-7",
-      "2",
-      "7",
-      "-2"
+      "(x - 1)²",
+      "(x + 1)²",
+      "(x - 1)(x + 1)",
+      "Cannot be factored"
     ],
-    "correctAnswer": "-7",
+    "correctAnswer": "(x - 1)(x + 1)",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "easy",
-    "explanation": "In y = mx + c form, the y-intercept is c = -7"
+    "explanation": "This is a difference of squares: a² - b² = (a - b)(a + b)",
+    "_cacheBreaker": "1755265388239_15"
   },
   {
-    "_id": "grade9_easy_math_020",
-    "content": "Expand: (x + 2)(x + 3)",
+    "_id": "easy9_1755260948246_017",
+    "content": "Solve: x² = 25 (Question 17)",
     "type": "multiple_choice",
     "options": [
-      "x² + 5x + 6",
-      "x² + 6x + 5",
-      "x² + 5x + 5",
-      "x² + 6x + 6"
+      "x = 5",
+      "x = ±5",
+      "x = 25",
+      "x = ±25"
     ],
-    "correctAnswer": "x² + 5x + 6",
+    "correctAnswer": "x = ±5",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "easy",
-    "explanation": "(x + 2)(x + 3) = x² + 3x + 2x + 6 = x² + 5x + 6"
+    "explanation": "Take square root of both sides: x = ±√25 = ±5",
+    "_cacheBreaker": "1755265388239_16"
+  },
+  {
+    "_id": "easy9_1755260948246_018",
+    "content": "Find the vertex of y = x² - 4x + 3 (Question 18)",
+    "type": "multiple_choice",
+    "options": [
+      "(2, -1)",
+      "(-2, 1)",
+      "(4, 3)",
+      "(-4, -3)"
+    ],
+    "correctAnswer": "(2, -1)",
+    "subject": "Mathematics",
+    "grade": 9,
+    "difficulty": "easy",
+    "explanation": "x = -b/2a = 4/2 = 2, then y = (2)² - 4(2) + 3 = -1",
+    "_cacheBreaker": "1755265388239_17"
+  },
+  {
+    "_id": "easy9_1755260948246_019",
+    "content": "Factor: x² - 1 (Question 19)",
+    "type": "multiple_choice",
+    "options": [
+      "(x - 1)²",
+      "(x + 1)²",
+      "(x - 1)(x + 1)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x - 1)(x + 1)",
+    "subject": "Mathematics",
+    "grade": 9,
+    "difficulty": "easy",
+    "explanation": "This is a difference of squares: a² - b² = (a - b)(a + b)",
+    "_cacheBreaker": "1755265388239_18"
+  },
+  {
+    "_id": "easy9_1755260948246_020",
+    "content": "Solve: x² = 25 (Question 20)",
+    "type": "multiple_choice",
+    "options": [
+      "x = 5",
+      "x = ±5",
+      "x = 25",
+      "x = ±25"
+    ],
+    "correctAnswer": "x = ±5",
+    "subject": "Mathematics",
+    "grade": 9,
+    "difficulty": "easy",
+    "explanation": "Take square root of both sides: x = ±√25 = ±5",
+    "_cacheBreaker": "1755265388239_19"
   }
 ]

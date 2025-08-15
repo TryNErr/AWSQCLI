@@ -50,36 +50,125 @@ const getDifficultyLevel = (difficulty: string): DifficultyLevel => {
   }
 };
 
-// Component to properly format reading passages with paragraph breaks
+// Enhanced component for reading passages with beautiful UI
 const FormattedText: React.FC<{ text: string }> = ({ text }) => {
-  const paragraphs = text.split('\n\n').filter(p => p.trim().length > 0);
+  // Check if this is a reading passage (starts with "Read this passage:")
+  const isReadingPassage = text.startsWith('Read this passage:');
   
-  return (
-    <Box>
-      {paragraphs.map((paragraph, index) => {
-        const parts = paragraph.split('**');
-        const formattedParagraph = parts.map((part, partIndex) => 
-          partIndex % 2 === 1 ? <strong key={partIndex}>{part}</strong> : part
-        );
+  if (isReadingPassage) {
+    // Split into instruction, passage, and question
+    const parts = text.split('\n\n');
+    const instruction = parts[0]; // "Read this passage:"
+    const passage = parts.slice(1, -1).join('\n\n'); // The actual passage content
+    const question = parts[parts.length - 1]; // The question at the end
+    
+    return (
+      <Box>
+        {/* Reading Instruction */}
+        <Typography 
+          variant="h6" 
+          sx={{ 
+            mb: 2, 
+            color: 'primary.main',
+            fontWeight: 'bold',
+            display: 'flex',
+            alignItems: 'center',
+            gap: 1
+          }}
+        >
+          📖 {instruction}
+        </Typography>
         
-        return (
+        {/* Passage Container with Enhanced Styling */}
+        <Paper 
+          elevation={2}
+          sx={{ 
+            p: 3, 
+            mb: 3, 
+            backgroundColor: 'grey.50',
+            border: '1px solid',
+            borderColor: 'primary.light',
+            borderRadius: 2,
+            position: 'relative'
+          }}
+        >
+          {/* Passage Content */}
           <Typography 
-            key={index} 
             variant="body1" 
-            paragraph 
             sx={{ 
-              mb: 2,
-              lineHeight: 1.6,
-              textAlign: 'left',
+              lineHeight: 1.8,
+              fontSize: '1.1rem',
+              color: 'text.primary',
+              fontFamily: 'Georgia, serif',
+              textAlign: 'justify',
               whiteSpace: 'pre-line'
             }}
           >
-            {formattedParagraph}
+            {passage}
           </Typography>
-        );
-      })}
-    </Box>
-  );
+          
+          {/* Decorative Quote Mark */}
+          <Box
+            sx={{
+              position: 'absolute',
+              top: 8,
+              right: 12,
+              fontSize: '2rem',
+              color: 'primary.light',
+              opacity: 0.3
+            }}
+          >
+            "
+          </Box>
+        </Paper>
+        
+        {/* Question */}
+        <Typography 
+          variant="h6" 
+          sx={{ 
+            mt: 2,
+            mb: 2,
+            fontWeight: 'bold',
+            color: 'text.primary',
+            fontSize: '1.2rem'
+          }}
+        >
+          {question}
+        </Typography>
+      </Box>
+    );
+  } else {
+    // Regular text formatting for non-reading questions
+    const paragraphs = text.split('\n\n').filter(p => p.trim().length > 0);
+    
+    return (
+      <Box>
+        {paragraphs.map((paragraph, index) => {
+          const parts = paragraph.split('**');
+          const formattedParagraph = parts.map((part, partIndex) => 
+            partIndex % 2 === 1 ? <strong key={partIndex}>{part}</strong> : part
+          );
+          
+          return (
+            <Typography 
+              key={index} 
+              variant="body1" 
+              paragraph 
+              sx={{ 
+                mb: 2,
+                lineHeight: 1.6,
+                textAlign: 'left',
+                whiteSpace: 'pre-line',
+                fontSize: '1.1rem'
+              }}
+            >
+              {formattedParagraph}
+            </Typography>
+          );
+        })}
+      </Box>
+    );
+  }
 };
 
 const Question: React.FC = () => {
@@ -161,10 +250,10 @@ const Question: React.FC = () => {
           difficulty = parts[1];
           subject = parts[2];
         } else {
-          // Default parsing (assume grade_difficulty_subject)
-          grade = parts[0].replace('grade', '');
-          difficulty = parts[1];
-          subject = parts[2];
+          // Use URL parameters instead of parsing question ID
+          grade = sessionGrade || parts[1] || '9';
+          difficulty = sessionDifficulty || parts[2] || 'medium';
+          subject = sessionSubject || 'Mathematical Reasoning';
         }
         
         console.log(`📊 Parsed: Grade ${grade}, ${difficulty}, ${subject}`);

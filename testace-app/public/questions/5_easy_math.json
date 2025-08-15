@@ -1,322 +1,322 @@
 [
   {
-    "_id": "grade5_easy_math_001",
-    "content": "What is 2/3 + 1/6?",
+    "_id": "easy5_1755260948241_001",
+    "content": "What is 0.25 + 0.75?",
     "type": "multiple_choice",
     "options": [
-      "3/9",
-      "5/6",
-      "3/6",
-      "1/2"
+      "0.90",
+      "1.00",
+      "1.10",
+      "0.50"
     ],
-    "correctAnswer": "5/6",
+    "correct_answer": "1.00",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "Convert to common denominator: 2/3 = 4/6. So 4/6 + 1/6 = 5/6"
+    "explanation": "When adding decimals, align the decimal points: 0.25 + 0.75 = 1.00"
   },
   {
-    "_id": "grade5_easy_math_002",
-    "content": "What is 3.4 + 1.7?",
+    "_id": "easy5_1755260948241_002",
+    "content": "What is 3/4 as a decimal?",
     "type": "multiple_choice",
     "options": [
-      "4.1",
-      "5.1",
-      "4.11",
-      "5.11"
+      "0.34",
+      "0.75",
+      "0.43",
+      "0.25"
     ],
-    "correctAnswer": "5.1",
+    "correct_answer": "0.75",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "3.4 + 1.7 = 5.1"
+    "explanation": "To convert 3/4 to decimal, divide 3 ÷ 4 = 0.75"
   },
   {
-    "_id": "grade5_easy_math_003",
-    "content": "What is 10% of 50?",
+    "_id": "easy5_1755260948241_003",
+    "content": "A rectangle has length 8 cm and width 5 cm. What is its area?",
     "type": "multiple_choice",
     "options": [
-      "5",
-      "10",
+      "13 cm²",
+      "26 cm²",
+      "40 cm²",
+      "30 cm²"
+    ],
+    "correct_answer": "40 cm²",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "Area of rectangle = length × width = 8 × 5 = 40 cm²"
+  },
+  {
+    "_id": "easy5_1755260948241_004",
+    "content": "What is 25% of 80?",
+    "type": "multiple_choice",
+    "options": [
       "15",
-      "500"
+      "20",
+      "25",
+      "30"
     ],
-    "correctAnswer": "5",
+    "correct_answer": "20",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "10% of 50 = 10/100 × 50 = 5"
+    "explanation": "25% of 80 = 0.25 × 80 = 20"
   },
   {
-    "_id": "grade5_easy_math_004",
-    "content": "A rectangle has length 8m and width 5m. What is its area?",
+    "_id": "easy5_1755260948241_005",
+    "content": "Round 47.68 to the nearest whole number.",
     "type": "multiple_choice",
     "options": [
-      "13 m²",
-      "26 m²",
-      "40 m²",
-      "80 m²"
+      "47",
+      "48",
+      "50",
+      "47.7"
     ],
-    "correctAnswer": "40 m²",
+    "correct_answer": "48",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "Area = length × width = 8 × 5 = 40 m²"
+    "explanation": "Since the decimal part is 0.68 (greater than 0.5), round up to 48"
   },
   {
-    "_id": "grade5_easy_math_005",
-    "content": "What is 2/3 + 1/6?",
+    "_id": "easy5_1755260948241_006",
+    "content": "What is 16 × 7?",
     "type": "multiple_choice",
     "options": [
-      "3/9",
-      "5/6",
-      "3/6",
-      "1/2"
+      "112",
+      "113",
+      "111",
+      "114"
     ],
-    "correctAnswer": "5/6",
+    "correct_answer": "112",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "Convert to common denominator: 2/3 = 4/6. So 4/6 + 1/6 = 5/6"
+    "explanation": "16 × 7 = 112"
   },
   {
-    "_id": "grade5_easy_math_006",
-    "content": "What is 3.4 + 1.7?",
+    "_id": "easy5_1755260948241_007",
+    "content": "Convert 7/10 to a decimal.",
     "type": "multiple_choice",
     "options": [
-      "4.1",
-      "5.1",
-      "4.11",
-      "5.11"
+      "0.7",
+      "1.7",
+      "-0.30000000000000004",
+      "2.7"
     ],
-    "correctAnswer": "5.1",
+    "correct_answer": "0.7",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "3.4 + 1.7 = 5.1"
+    "explanation": "7/10 = 0.7"
   },
   {
-    "_id": "grade5_easy_math_007",
-    "content": "What is 10% of 50?",
+    "_id": "easy5_1755260948241_008",
+    "content": "What is the perimeter of a square with side 8 cm?",
     "type": "multiple_choice",
     "options": [
-      "5",
-      "10",
-      "15",
-      "500"
+      "32 cm",
+      "33",
+      "31",
+      "34"
     ],
-    "correctAnswer": "5",
+    "correct_answer": "32 cm",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "10% of 50 = 10/100 × 50 = 5"
+    "explanation": "Perimeter = 4 × side = 4 × 8 = 32 cm"
   },
   {
-    "_id": "grade5_easy_math_008",
-    "content": "A rectangle has length 8m and width 5m. What is its area?",
+    "_id": "easy5_1755260948241_009",
+    "content": "What is 19 × 7?",
     "type": "multiple_choice",
     "options": [
-      "13 m²",
-      "26 m²",
-      "40 m²",
-      "80 m²"
+      "133",
+      "134",
+      "132",
+      "135"
     ],
-    "correctAnswer": "40 m²",
+    "correct_answer": "133",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "Area = length × width = 8 × 5 = 40 m²"
+    "explanation": "19 × 7 = 133"
   },
   {
-    "_id": "grade5_easy_math_009",
-    "content": "What is 2/3 + 1/6?",
+    "_id": "easy5_1755260948241_010",
+    "content": "Convert 10/10 to a decimal.",
     "type": "multiple_choice",
     "options": [
-      "3/9",
-      "5/6",
-      "3/6",
-      "1/2"
+      "0.10",
+      "1.1",
+      "-0.9",
+      "2.1"
     ],
-    "correctAnswer": "5/6",
+    "correct_answer": "0.10",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "Convert to common denominator: 2/3 = 4/6. So 4/6 + 1/6 = 5/6"
+    "explanation": "10/10 = 0.10"
   },
   {
-    "_id": "grade5_easy_math_010",
-    "content": "What is 3.4 + 1.7?",
+    "_id": "easy5_1755260948241_011",
+    "content": "What is the perimeter of a square with side 11 cm?",
     "type": "multiple_choice",
     "options": [
-      "4.1",
-      "5.1",
-      "4.11",
-      "5.11"
+      "44 cm",
+      "45",
+      "43",
+      "46"
     ],
-    "correctAnswer": "5.1",
+    "correct_answer": "44 cm",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "3.4 + 1.7 = 5.1"
+    "explanation": "Perimeter = 4 × side = 4 × 11 = 44 cm"
   },
   {
-    "_id": "grade5_easy_math_011",
-    "content": "What is 10% of 50?",
+    "_id": "easy5_1755260948241_012",
+    "content": "What is 22 × 7?",
     "type": "multiple_choice",
     "options": [
-      "5",
-      "10",
-      "15",
-      "500"
+      "154",
+      "155",
+      "153",
+      "156"
     ],
-    "correctAnswer": "5",
+    "correct_answer": "154",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "10% of 50 = 10/100 × 50 = 5"
+    "explanation": "22 × 7 = 154"
   },
   {
-    "_id": "grade5_easy_math_012",
-    "content": "A rectangle has length 8m and width 5m. What is its area?",
+    "_id": "easy5_1755260948241_013",
+    "content": "Convert 13/10 to a decimal.",
     "type": "multiple_choice",
     "options": [
-      "13 m²",
-      "26 m²",
-      "40 m²",
-      "80 m²"
+      "0.13",
+      "1.13",
+      "-0.87",
+      "2.13"
     ],
-    "correctAnswer": "40 m²",
+    "correct_answer": "0.13",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "Area = length × width = 8 × 5 = 40 m²"
+    "explanation": "13/10 = 0.13"
   },
   {
-    "_id": "grade5_easy_math_013",
-    "content": "What is 2/3 + 1/6?",
+    "_id": "easy5_1755260948241_014",
+    "content": "What is the perimeter of a square with side 14 cm?",
     "type": "multiple_choice",
     "options": [
-      "3/9",
-      "5/6",
-      "3/6",
-      "1/2"
+      "56 cm",
+      "57",
+      "55",
+      "58"
     ],
-    "correctAnswer": "5/6",
+    "correct_answer": "56 cm",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "Convert to common denominator: 2/3 = 4/6. So 4/6 + 1/6 = 5/6"
+    "explanation": "Perimeter = 4 × side = 4 × 14 = 56 cm"
   },
   {
-    "_id": "grade5_easy_math_014",
-    "content": "What is 3.4 + 1.7?",
+    "_id": "easy5_1755260948241_015",
+    "content": "What is 25 × 7?",
     "type": "multiple_choice",
     "options": [
-      "4.1",
-      "5.1",
-      "4.11",
-      "5.11"
+      "175",
+      "176",
+      "174",
+      "177"
     ],
-    "correctAnswer": "5.1",
+    "correct_answer": "175",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "3.4 + 1.7 = 5.1"
+    "explanation": "25 × 7 = 175"
   },
   {
-    "_id": "grade5_easy_math_015",
-    "content": "What is 10% of 50?",
+    "_id": "easy5_1755260948241_016",
+    "content": "Convert 16/10 to a decimal.",
     "type": "multiple_choice",
     "options": [
-      "5",
-      "10",
-      "15",
-      "500"
+      "0.16",
+      "1.16",
+      "-0.84",
+      "2.16"
     ],
-    "correctAnswer": "5",
+    "correct_answer": "0.16",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "10% of 50 = 10/100 × 50 = 5"
+    "explanation": "16/10 = 0.16"
   },
   {
-    "_id": "grade5_easy_math_016",
-    "content": "A rectangle has length 8m and width 5m. What is its area?",
+    "_id": "easy5_1755260948241_017",
+    "content": "What is the perimeter of a square with side 17 cm?",
     "type": "multiple_choice",
     "options": [
-      "13 m²",
-      "26 m²",
-      "40 m²",
-      "80 m²"
+      "68 cm",
+      "69",
+      "67",
+      "70"
     ],
-    "correctAnswer": "40 m²",
+    "correct_answer": "68 cm",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "Area = length × width = 8 × 5 = 40 m²"
+    "explanation": "Perimeter = 4 × side = 4 × 17 = 68 cm"
   },
   {
-    "_id": "grade5_easy_math_017",
-    "content": "What is 2/3 + 1/6?",
+    "_id": "easy5_1755260948241_018",
+    "content": "What is 28 × 7?",
     "type": "multiple_choice",
     "options": [
-      "3/9",
-      "5/6",
-      "3/6",
-      "1/2"
+      "196",
+      "197",
+      "195",
+      "198"
     ],
-    "correctAnswer": "5/6",
+    "correct_answer": "196",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "Convert to common denominator: 2/3 = 4/6. So 4/6 + 1/6 = 5/6"
+    "explanation": "28 × 7 = 196"
   },
   {
-    "_id": "grade5_easy_math_018",
-    "content": "What is 3.4 + 1.7?",
+    "_id": "easy5_1755260948241_019",
+    "content": "Convert 19/10 to a decimal.",
     "type": "multiple_choice",
     "options": [
-      "4.1",
-      "5.1",
-      "4.11",
-      "5.11"
+      "0.19",
+      "1.19",
+      "-0.81",
+      "2.19"
     ],
-    "correctAnswer": "5.1",
+    "correct_answer": "0.19",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "3.4 + 1.7 = 5.1"
+    "explanation": "19/10 = 0.19"
   },
   {
-    "_id": "grade5_easy_math_019",
-    "content": "What is 10% of 50?",
+    "_id": "easy5_1755260948241_020",
+    "content": "What is the perimeter of a square with side 20 cm?",
     "type": "multiple_choice",
     "options": [
-      "5",
-      "10",
-      "15",
-      "500"
+      "80 cm",
+      "81",
+      "79",
+      "82"
     ],
-    "correctAnswer": "5",
+    "correct_answer": "80 cm",
     "subject": "Mathematics",
     "grade": 5,
     "difficulty": "easy",
-    "explanation": "10% of 50 = 10/100 × 50 = 5"
-  },
-  {
-    "_id": "grade5_easy_math_020",
-    "content": "A rectangle has length 8m and width 5m. What is its area?",
-    "type": "multiple_choice",
-    "options": [
-      "13 m²",
-      "26 m²",
-      "40 m²",
-      "80 m²"
-    ],
-    "correctAnswer": "40 m²",
-    "subject": "Mathematics",
-    "grade": 5,
-    "difficulty": "easy",
-    "explanation": "Area = length × width = 8 × 5 = 40 m²"
+    "explanation": "Perimeter = 4 × side = 4 × 20 = 80 cm"
   }
 ]

@@ -1,5 +1,5 @@
 import { Question, DifficultyLevel } from '../types';
-import DiverseMathGenerator from './diverseMathGenerator';
+// import DiverseMathGenerator from './diverseMathGenerator'; // DISABLED - using static JSON files only
 import BulletproofMathGenerator from './bulletproofMathGenerator';
 import { generateRobustThinkingSkillsQuestions } from './robustThinkingSkillsGenerator';
 import { comprehensiveReadingDatabase } from './comprehensiveReadingDatabase';
@@ -171,13 +171,14 @@ export class QuestionPrePopulationSystem {
         // Generate diverse math questions
         for (let i = 0; i < count; i++) {
           try {
-            const question = DiverseMathGenerator.generateQuestion(grade, difficulty);
-            questions.push(question);
+            // Using static JSON files only - no dynamic generation
+            const question = null as any; // Disabled dynamic generation
+            if (question) questions.push(question); // Skip null questions from disabled generator
           } catch (error) {
             // Fallback to bulletproof generator
             try {
               const question = BulletproofMathGenerator.generateQuestion(grade, difficulty);
-              questions.push(question);
+              if (question) questions.push(question); // Skip null questions from disabled generator
             } catch (fallbackError) {
               console.warn(`Failed to generate math question ${i} for ${grade}-${difficulty}:`, fallbackError);
             }
@@ -228,7 +229,7 @@ export class QuestionPrePopulationSystem {
                 updatedAt: new Date()
               };
               
-              questions.push(question);
+              if (question) questions.push(question); // Skip null questions from disabled generator
             } catch (error) {
               console.warn(`Failed to generate reading question ${i} for ${grade}-${difficulty}:`, error);
             }
@@ -249,7 +250,7 @@ export class QuestionPrePopulationSystem {
           const question = BulletproofMathGenerator.generateQuestion(grade, difficulty);
           question.subject = subject; // Keep original subject for filtering
           question.tags = [...(question.tags || []), 'emergency', 'pre-populated'];
-          questions.push(question);
+          if (question) questions.push(question); // Skip null questions from disabled generator
         } catch (error) {
           console.error(`Emergency question generation failed:`, error);
           break;
