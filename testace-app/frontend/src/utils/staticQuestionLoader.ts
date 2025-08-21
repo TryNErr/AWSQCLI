@@ -97,24 +97,41 @@ export class StaticQuestionLoader {
       
       const questions: Question[] = await response.json();
       
+      // Validate questions have required fields
+      const validQuestions = questions.filter(q => 
+        q._id && 
+        q.content && 
+        q.options && 
+        q.correctAnswer &&
+        q.subject &&
+        q.grade &&
+        q.difficulty
+      );
+      
       // Apply subject filtering to ensure only correct subjects are returned
       const keyParts = key.split('_');
       const expectedSubject = keyParts[keyParts.length - 1];
-      const subjectMapping: { [key: string]: string } = {
-        'math': 'Mathematics',
-        'english': 'English',
-        'reading': 'Reading',
-        'thinking-skills': 'Thinking Skills'
+      
+      // Handle both old format (Mathematics, English) and new format (math, english)
+      const subjectMapping: { [key: string]: string[] } = {
+        'math': ['Mathematics', 'math'],
+        'english': ['English', 'english'],
+        'reading': ['Reading', 'reading'],
+        'thinking-skills': ['Thinking Skills', 'thinking-skills'],
+        'mathematical-reasoning': ['Mathematical Reasoning', 'mathematical-reasoning']
       };
       
-      const expectedQuestionSubject = subjectMapping[expectedSubject];
-      if (expectedQuestionSubject) {
-        const filtered = questions.filter(q => q.subject === expectedQuestionSubject);
-        console.log(`🔍 Subject filter: ${filtered.length}/${questions.length} questions match "${expectedQuestionSubject}"`);
+      const expectedQuestionSubjects = subjectMapping[expectedSubject];
+      if (expectedQuestionSubjects) {
+        const filtered = validQuestions.filter(q => 
+          expectedQuestionSubjects.includes(q.subject) ||
+          expectedQuestionSubjects.some(s => s.toLowerCase().replace(/\s+/g, '-') === q.subject.toLowerCase().replace(/\s+/g, '-'))
+        );
+        console.log(`🔍 Subject filter: ${filtered.length}/${validQuestions.length} questions match subjects ${expectedQuestionSubjects.join(' or ')}`);
         return filtered;
       }
       
-      return questions;
+      return validQuestions;
       
     } catch (error) {
       // Silently handle missing files - this is expected behavior

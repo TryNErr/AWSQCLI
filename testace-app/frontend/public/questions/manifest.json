@@ -1,656 +1,1094 @@
 {
-  "generated": "2025-08-12T03:44:58.473Z",
-  "totalCombinations": 108,
-  "totalQuestions": 2160,
-  "type": "curated-database",
+  "generated": "2025-08-21T11:42:22.609Z",
+  "totalCombinations": 181,
+  "totalQuestions": 3620,
+  "type": "comprehensive-database",
   "combinations": {
-    "1_easy_math": {
-      "filename": "1_easy_math.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.374Z",
-      "type": "curated"
-    },
-    "1_easy_thinking-skills": {
-      "filename": "1_easy_thinking-skills.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.375Z",
-      "type": "curated"
-    },
-    "1_easy_reading": {
-      "filename": "1_easy_reading.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.376Z",
-      "type": "curated"
-    },
-    "1_medium_math": {
-      "filename": "1_medium_math.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.377Z",
-      "type": "curated"
-    },
-    "1_medium_thinking-skills": {
-      "filename": "1_medium_thinking-skills.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.378Z",
-      "type": "curated"
-    },
-    "1_medium_reading": {
-      "filename": "1_medium_reading.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.379Z",
-      "type": "curated"
-    },
-    "1_hard_math": {
-      "filename": "1_hard_math.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.380Z",
-      "type": "curated"
-    },
-    "1_hard_thinking-skills": {
-      "filename": "1_hard_thinking-skills.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.381Z",
-      "type": "curated"
-    },
-    "1_hard_reading": {
-      "filename": "1_hard_reading.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.381Z",
-      "type": "curated"
-    },
-    "2_easy_math": {
-      "filename": "2_easy_math.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.382Z",
-      "type": "curated"
-    },
-    "2_easy_thinking-skills": {
-      "filename": "2_easy_thinking-skills.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.383Z",
-      "type": "curated"
-    },
-    "2_easy_reading": {
-      "filename": "2_easy_reading.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.384Z",
-      "type": "curated"
-    },
-    "2_medium_math": {
-      "filename": "2_medium_math.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.385Z",
-      "type": "curated"
-    },
-    "2_medium_thinking-skills": {
-      "filename": "2_medium_thinking-skills.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.385Z",
-      "type": "curated"
-    },
-    "2_medium_reading": {
-      "filename": "2_medium_reading.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.386Z",
-      "type": "curated"
-    },
-    "2_hard_math": {
-      "filename": "2_hard_math.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.387Z",
-      "type": "curated"
-    },
-    "2_hard_thinking-skills": {
-      "filename": "2_hard_thinking-skills.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.389Z",
-      "type": "curated"
-    },
-    "2_hard_reading": {
-      "filename": "2_hard_reading.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.391Z",
-      "type": "curated"
-    },
-    "3_easy_math": {
-      "filename": "3_easy_math.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.392Z",
-      "type": "curated"
-    },
-    "3_easy_thinking-skills": {
-      "filename": "3_easy_thinking-skills.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.392Z",
-      "type": "curated"
-    },
-    "3_easy_reading": {
-      "filename": "3_easy_reading.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.394Z",
-      "type": "curated"
-    },
-    "3_medium_math": {
-      "filename": "3_medium_math.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.395Z",
-      "type": "curated"
-    },
-    "3_medium_thinking-skills": {
-      "filename": "3_medium_thinking-skills.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.396Z",
-      "type": "curated"
-    },
-    "3_medium_reading": {
-      "filename": "3_medium_reading.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.396Z",
-      "type": "curated"
-    },
-    "3_hard_math": {
-      "filename": "3_hard_math.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.397Z",
-      "type": "curated"
-    },
-    "3_hard_thinking-skills": {
-      "filename": "3_hard_thinking-skills.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.398Z",
-      "type": "curated"
-    },
-    "3_hard_reading": {
-      "filename": "3_hard_reading.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.399Z",
-      "type": "curated"
-    },
-    "4_easy_math": {
-      "filename": "4_easy_math.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.401Z",
-      "type": "curated"
-    },
-    "4_easy_thinking-skills": {
-      "filename": "4_easy_thinking-skills.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.401Z",
-      "type": "curated"
-    },
-    "4_easy_reading": {
-      "filename": "4_easy_reading.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.402Z",
-      "type": "curated"
-    },
-    "4_medium_math": {
-      "filename": "4_medium_math.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.402Z",
-      "type": "curated"
-    },
-    "4_medium_thinking-skills": {
-      "filename": "4_medium_thinking-skills.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.403Z",
-      "type": "curated"
-    },
-    "4_medium_reading": {
-      "filename": "4_medium_reading.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.404Z",
-      "type": "curated"
-    },
-    "4_hard_math": {
-      "filename": "4_hard_math.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.404Z",
-      "type": "curated"
-    },
-    "4_hard_thinking-skills": {
-      "filename": "4_hard_thinking-skills.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.405Z",
-      "type": "curated"
-    },
-    "4_hard_reading": {
-      "filename": "4_hard_reading.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.405Z",
-      "type": "curated"
-    },
-    "5_easy_math": {
-      "filename": "5_easy_math.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.406Z",
-      "type": "curated"
-    },
-    "5_easy_thinking-skills": {
-      "filename": "5_easy_thinking-skills.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.407Z",
-      "type": "curated"
-    },
-    "5_easy_reading": {
-      "filename": "5_easy_reading.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.407Z",
-      "type": "curated"
-    },
-    "5_medium_math": {
-      "filename": "5_medium_math.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.408Z",
-      "type": "curated"
-    },
-    "5_medium_thinking-skills": {
-      "filename": "5_medium_thinking-skills.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.408Z",
-      "type": "curated"
-    },
-    "5_medium_reading": {
-      "filename": "5_medium_reading.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.410Z",
-      "type": "curated"
-    },
-    "5_hard_math": {
-      "filename": "5_hard_math.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.411Z",
-      "type": "curated"
-    },
-    "5_hard_thinking-skills": {
-      "filename": "5_hard_thinking-skills.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.411Z",
-      "type": "curated"
-    },
-    "5_hard_reading": {
-      "filename": "5_hard_reading.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.412Z",
-      "type": "curated"
-    },
-    "6_easy_math": {
-      "filename": "6_easy_math.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.412Z",
-      "type": "curated"
-    },
-    "6_easy_thinking-skills": {
-      "filename": "6_easy_thinking-skills.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.413Z",
-      "type": "curated"
-    },
-    "6_easy_reading": {
-      "filename": "6_easy_reading.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.413Z",
-      "type": "curated"
-    },
-    "6_medium_math": {
-      "filename": "6_medium_math.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.414Z",
-      "type": "curated"
-    },
-    "6_medium_thinking-skills": {
-      "filename": "6_medium_thinking-skills.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.414Z",
-      "type": "curated"
-    },
-    "6_medium_reading": {
-      "filename": "6_medium_reading.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.415Z",
-      "type": "curated"
-    },
-    "6_hard_math": {
-      "filename": "6_hard_math.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.416Z",
-      "type": "curated"
-    },
-    "6_hard_thinking-skills": {
-      "filename": "6_hard_thinking-skills.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.416Z",
-      "type": "curated"
-    },
-    "6_hard_reading": {
-      "filename": "6_hard_reading.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.417Z",
-      "type": "curated"
-    },
-    "7_easy_math": {
-      "filename": "7_easy_math.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.417Z",
-      "type": "curated"
-    },
-    "7_easy_thinking-skills": {
-      "filename": "7_easy_thinking-skills.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.418Z",
-      "type": "curated"
-    },
-    "7_easy_reading": {
-      "filename": "7_easy_reading.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.419Z",
-      "type": "curated"
-    },
-    "7_medium_math": {
-      "filename": "7_medium_math.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.419Z",
-      "type": "curated"
-    },
-    "7_medium_thinking-skills": {
-      "filename": "7_medium_thinking-skills.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.420Z",
-      "type": "curated"
-    },
-    "7_medium_reading": {
-      "filename": "7_medium_reading.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.420Z",
-      "type": "curated"
-    },
-    "7_hard_math": {
-      "filename": "7_hard_math.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.421Z",
-      "type": "curated"
-    },
-    "7_hard_thinking-skills": {
-      "filename": "7_hard_thinking-skills.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.421Z",
-      "type": "curated"
-    },
-    "7_hard_reading": {
-      "filename": "7_hard_reading.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.422Z",
-      "type": "curated"
-    },
-    "8_easy_math": {
-      "filename": "8_easy_math.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.423Z",
-      "type": "curated"
-    },
-    "8_easy_thinking-skills": {
-      "filename": "8_easy_thinking-skills.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.423Z",
-      "type": "curated"
-    },
-    "8_easy_reading": {
-      "filename": "8_easy_reading.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.424Z",
-      "type": "curated"
-    },
-    "8_medium_math": {
-      "filename": "8_medium_math.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.424Z",
-      "type": "curated"
-    },
-    "8_medium_thinking-skills": {
-      "filename": "8_medium_thinking-skills.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.425Z",
-      "type": "curated"
-    },
-    "8_medium_reading": {
-      "filename": "8_medium_reading.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.426Z",
-      "type": "curated"
-    },
-    "8_hard_math": {
-      "filename": "8_hard_math.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.426Z",
-      "type": "curated"
-    },
-    "8_hard_thinking-skills": {
-      "filename": "8_hard_thinking-skills.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.427Z",
-      "type": "curated"
-    },
-    "8_hard_reading": {
-      "filename": "8_hard_reading.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.428Z",
-      "type": "curated"
-    },
-    "9_easy_math": {
-      "filename": "9_easy_math.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.428Z",
-      "type": "curated"
-    },
-    "9_easy_thinking-skills": {
-      "filename": "9_easy_thinking-skills.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.429Z",
-      "type": "curated"
-    },
-    "9_easy_reading": {
-      "filename": "9_easy_reading.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.430Z",
-      "type": "curated"
-    },
-    "9_medium_math": {
-      "filename": "9_medium_math.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.430Z",
-      "type": "curated"
-    },
-    "9_medium_thinking-skills": {
-      "filename": "9_medium_thinking-skills.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.431Z",
-      "type": "curated"
-    },
-    "9_medium_reading": {
-      "filename": "9_medium_reading.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.431Z",
-      "type": "curated"
-    },
-    "9_hard_math": {
-      "filename": "9_hard_math.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.432Z",
-      "type": "curated"
-    },
-    "9_hard_thinking-skills": {
-      "filename": "9_hard_thinking-skills.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.433Z",
-      "type": "curated"
-    },
-    "9_hard_reading": {
-      "filename": "9_hard_reading.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.433Z",
-      "type": "curated"
+    "10_easy_english": {
+      "filename": "10_easy_english.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.610Z",
+      "type": "authentic"
     },
     "10_easy_math": {
       "filename": "10_easy_math.json",
       "count": 20,
-      "generated": "2025-08-12T03:44:58.434Z",
-      "type": "curated"
+      "generated": "2025-08-21T11:42:22.610Z",
+      "type": "authentic"
     },
-    "10_easy_thinking-skills": {
-      "filename": "10_easy_thinking-skills.json",
+    "10_easy_mathematical-reasoning": {
+      "filename": "10_easy_mathematical-reasoning.json",
       "count": 20,
-      "generated": "2025-08-12T03:44:58.434Z",
-      "type": "curated"
+      "generated": "2025-08-21T11:42:22.610Z",
+      "type": "authentic"
     },
     "10_easy_reading": {
       "filename": "10_easy_reading.json",
       "count": 20,
-      "generated": "2025-08-12T03:44:58.435Z",
-      "type": "curated"
+      "generated": "2025-08-21T11:42:22.610Z",
+      "type": "authentic"
     },
-    "10_medium_math": {
-      "filename": "10_medium_math.json",
+    "10_easy_thinking-skills": {
+      "filename": "10_easy_thinking-skills.json",
       "count": 20,
-      "generated": "2025-08-12T03:44:58.436Z",
-      "type": "curated"
+      "generated": "2025-08-21T11:42:22.611Z",
+      "type": "authentic"
     },
-    "10_medium_thinking-skills": {
-      "filename": "10_medium_thinking-skills.json",
+    "10_hard_english": {
+      "filename": "10_hard_english.json",
       "count": 20,
-      "generated": "2025-08-12T03:44:58.436Z",
-      "type": "curated"
-    },
-    "10_medium_reading": {
-      "filename": "10_medium_reading.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.437Z",
-      "type": "curated"
+      "generated": "2025-08-21T11:42:22.611Z",
+      "type": "authentic"
     },
     "10_hard_math": {
       "filename": "10_hard_math.json",
       "count": 20,
-      "generated": "2025-08-12T03:44:58.438Z",
-      "type": "curated"
+      "generated": "2025-08-21T11:42:22.611Z",
+      "type": "authentic"
     },
-    "10_hard_thinking-skills": {
-      "filename": "10_hard_thinking-skills.json",
+    "10_hard_mathematical-reasoning": {
+      "filename": "10_hard_mathematical-reasoning.json",
       "count": 20,
-      "generated": "2025-08-12T03:44:58.438Z",
-      "type": "curated"
+      "generated": "2025-08-21T11:42:22.611Z",
+      "type": "authentic"
     },
     "10_hard_reading": {
       "filename": "10_hard_reading.json",
       "count": 20,
-      "generated": "2025-08-12T03:44:58.439Z",
-      "type": "curated"
+      "generated": "2025-08-21T11:42:22.612Z",
+      "type": "authentic"
+    },
+    "10_hard_thinking-skills": {
+      "filename": "10_hard_thinking-skills.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.612Z",
+      "type": "authentic"
+    },
+    "10_medium_english": {
+      "filename": "10_medium_english.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.612Z",
+      "type": "authentic"
+    },
+    "10_medium_math": {
+      "filename": "10_medium_math.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.613Z",
+      "type": "authentic"
+    },
+    "10_medium_mathematical-reasoning": {
+      "filename": "10_medium_mathematical-reasoning.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.613Z",
+      "type": "authentic"
+    },
+    "10_medium_reading": {
+      "filename": "10_medium_reading.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.613Z",
+      "type": "authentic"
+    },
+    "10_medium_thinking-skills": {
+      "filename": "10_medium_thinking-skills.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.613Z",
+      "type": "authentic"
+    },
+    "11_easy_english": {
+      "filename": "11_easy_english.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.614Z",
+      "type": "authentic"
     },
     "11_easy_math": {
       "filename": "11_easy_math.json",
       "count": 20,
-      "generated": "2025-08-12T03:44:58.440Z",
-      "type": "curated"
+      "generated": "2025-08-21T11:42:22.614Z",
+      "type": "authentic"
     },
-    "11_easy_thinking-skills": {
-      "filename": "11_easy_thinking-skills.json",
+    "11_easy_mathematical-reasoning": {
+      "filename": "11_easy_mathematical-reasoning.json",
       "count": 20,
-      "generated": "2025-08-12T03:44:58.441Z",
-      "type": "curated"
+      "generated": "2025-08-21T11:42:22.615Z",
+      "type": "authentic"
     },
     "11_easy_reading": {
       "filename": "11_easy_reading.json",
       "count": 20,
-      "generated": "2025-08-12T03:44:58.442Z",
-      "type": "curated"
+      "generated": "2025-08-21T11:42:22.615Z",
+      "type": "authentic"
     },
-    "11_medium_math": {
-      "filename": "11_medium_math.json",
+    "11_easy_thinking-skills": {
+      "filename": "11_easy_thinking-skills.json",
       "count": 20,
-      "generated": "2025-08-12T03:44:58.446Z",
-      "type": "curated"
+      "generated": "2025-08-21T11:42:22.615Z",
+      "type": "authentic"
     },
-    "11_medium_thinking-skills": {
-      "filename": "11_medium_thinking-skills.json",
+    "11_hard_english": {
+      "filename": "11_hard_english.json",
       "count": 20,
-      "generated": "2025-08-12T03:44:58.449Z",
-      "type": "curated"
-    },
-    "11_medium_reading": {
-      "filename": "11_medium_reading.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.451Z",
-      "type": "curated"
+      "generated": "2025-08-21T11:42:22.615Z",
+      "type": "authentic"
     },
     "11_hard_math": {
       "filename": "11_hard_math.json",
       "count": 20,
-      "generated": "2025-08-12T03:44:58.452Z",
-      "type": "curated"
+      "generated": "2025-08-21T11:42:22.616Z",
+      "type": "authentic"
     },
-    "11_hard_thinking-skills": {
-      "filename": "11_hard_thinking-skills.json",
+    "11_hard_mathematical-reasoning": {
+      "filename": "11_hard_mathematical-reasoning.json",
       "count": 20,
-      "generated": "2025-08-12T03:44:58.454Z",
-      "type": "curated"
+      "generated": "2025-08-21T11:42:22.616Z",
+      "type": "authentic"
     },
     "11_hard_reading": {
       "filename": "11_hard_reading.json",
       "count": 20,
-      "generated": "2025-08-12T03:44:58.457Z",
-      "type": "curated"
+      "generated": "2025-08-21T11:42:22.616Z",
+      "type": "authentic"
+    },
+    "11_hard_thinking-skills": {
+      "filename": "11_hard_thinking-skills.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.616Z",
+      "type": "authentic"
+    },
+    "11_medium_english": {
+      "filename": "11_medium_english.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.616Z",
+      "type": "authentic"
+    },
+    "11_medium_math": {
+      "filename": "11_medium_math.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.617Z",
+      "type": "authentic"
+    },
+    "11_medium_mathematical-reasoning": {
+      "filename": "11_medium_mathematical-reasoning.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.617Z",
+      "type": "authentic"
+    },
+    "11_medium_reading": {
+      "filename": "11_medium_reading.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.617Z",
+      "type": "authentic"
+    },
+    "11_medium_thinking-skills": {
+      "filename": "11_medium_thinking-skills.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.617Z",
+      "type": "authentic"
+    },
+    "12_easy_english": {
+      "filename": "12_easy_english.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.618Z",
+      "type": "authentic"
     },
     "12_easy_math": {
       "filename": "12_easy_math.json",
       "count": 20,
-      "generated": "2025-08-12T03:44:58.462Z",
-      "type": "curated"
+      "generated": "2025-08-21T11:42:22.618Z",
+      "type": "authentic"
     },
-    "12_easy_thinking-skills": {
-      "filename": "12_easy_thinking-skills.json",
+    "12_easy_mathematical-reasoning": {
+      "filename": "12_easy_mathematical-reasoning.json",
       "count": 20,
-      "generated": "2025-08-12T03:44:58.463Z",
-      "type": "curated"
+      "generated": "2025-08-21T11:42:22.618Z",
+      "type": "authentic"
     },
     "12_easy_reading": {
       "filename": "12_easy_reading.json",
       "count": 20,
-      "generated": "2025-08-12T03:44:58.469Z",
-      "type": "curated"
+      "generated": "2025-08-21T11:42:22.618Z",
+      "type": "authentic"
     },
-    "12_medium_math": {
-      "filename": "12_medium_math.json",
+    "12_easy_thinking-skills": {
+      "filename": "12_easy_thinking-skills.json",
       "count": 20,
-      "generated": "2025-08-12T03:44:58.470Z",
-      "type": "curated"
+      "generated": "2025-08-21T11:42:22.619Z",
+      "type": "authentic"
     },
-    "12_medium_thinking-skills": {
-      "filename": "12_medium_thinking-skills.json",
+    "12_hard_english": {
+      "filename": "12_hard_english.json",
       "count": 20,
-      "generated": "2025-08-12T03:44:58.471Z",
-      "type": "curated"
-    },
-    "12_medium_reading": {
-      "filename": "12_medium_reading.json",
-      "count": 20,
-      "generated": "2025-08-12T03:44:58.471Z",
-      "type": "curated"
+      "generated": "2025-08-21T11:42:22.619Z",
+      "type": "authentic"
     },
     "12_hard_math": {
       "filename": "12_hard_math.json",
       "count": 20,
-      "generated": "2025-08-12T03:44:58.472Z",
-      "type": "curated"
+      "generated": "2025-08-21T11:42:22.619Z",
+      "type": "authentic"
     },
-    "12_hard_thinking-skills": {
-      "filename": "12_hard_thinking-skills.json",
+    "12_hard_mathematical-reasoning": {
+      "filename": "12_hard_mathematical-reasoning.json",
       "count": 20,
-      "generated": "2025-08-12T03:44:58.472Z",
-      "type": "curated"
+      "generated": "2025-08-21T11:42:22.619Z",
+      "type": "authentic"
     },
     "12_hard_reading": {
       "filename": "12_hard_reading.json",
       "count": 20,
-      "generated": "2025-08-12T03:44:58.473Z",
-      "type": "curated"
+      "generated": "2025-08-21T11:42:22.620Z",
+      "type": "authentic"
+    },
+    "12_hard_thinking-skills": {
+      "filename": "12_hard_thinking-skills.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.621Z",
+      "type": "authentic"
+    },
+    "12_medium_english": {
+      "filename": "12_medium_english.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.621Z",
+      "type": "authentic"
+    },
+    "12_medium_math": {
+      "filename": "12_medium_math.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.621Z",
+      "type": "authentic"
+    },
+    "12_medium_mathematical-reasoning": {
+      "filename": "12_medium_mathematical-reasoning.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.621Z",
+      "type": "authentic"
+    },
+    "12_medium_reading": {
+      "filename": "12_medium_reading.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.621Z",
+      "type": "authentic"
+    },
+    "12_medium_thinking-skills": {
+      "filename": "12_medium_thinking-skills.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.622Z",
+      "type": "authentic"
+    },
+    "1_easy_english": {
+      "filename": "1_easy_english.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.622Z",
+      "type": "authentic"
+    },
+    "1_easy_math": {
+      "filename": "1_easy_math.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.622Z",
+      "type": "authentic"
+    },
+    "1_easy_mathematical-reasoning": {
+      "filename": "1_easy_mathematical-reasoning.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.622Z",
+      "type": "authentic"
+    },
+    "1_easy_reading": {
+      "filename": "1_easy_reading.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.622Z",
+      "type": "authentic"
+    },
+    "1_easy_thinking-skills": {
+      "filename": "1_easy_thinking-skills.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.623Z",
+      "type": "authentic"
+    },
+    "1_hard_english": {
+      "filename": "1_hard_english.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.623Z",
+      "type": "authentic"
+    },
+    "1_hard_math": {
+      "filename": "1_hard_math.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.623Z",
+      "type": "authentic"
+    },
+    "1_hard_mathematical-reasoning": {
+      "filename": "1_hard_mathematical-reasoning.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.623Z",
+      "type": "authentic"
+    },
+    "1_hard_reading": {
+      "filename": "1_hard_reading.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.623Z",
+      "type": "authentic"
+    },
+    "1_hard_thinking-skills": {
+      "filename": "1_hard_thinking-skills.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.624Z",
+      "type": "authentic"
+    },
+    "1_medium_english": {
+      "filename": "1_medium_english.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.624Z",
+      "type": "authentic"
+    },
+    "1_medium_math": {
+      "filename": "1_medium_math.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.624Z",
+      "type": "authentic"
+    },
+    "1_medium_mathematical-reasoning": {
+      "filename": "1_medium_mathematical-reasoning.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.624Z",
+      "type": "authentic"
+    },
+    "1_medium_reading": {
+      "filename": "1_medium_reading.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.624Z",
+      "type": "authentic"
+    },
+    "1_medium_thinking-skills": {
+      "filename": "1_medium_thinking-skills.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.625Z",
+      "type": "authentic"
+    },
+    "2_easy_english": {
+      "filename": "2_easy_english.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.625Z",
+      "type": "authentic"
+    },
+    "2_easy_math": {
+      "filename": "2_easy_math.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.625Z",
+      "type": "authentic"
+    },
+    "2_easy_mathematical-reasoning": {
+      "filename": "2_easy_mathematical-reasoning.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.625Z",
+      "type": "authentic"
+    },
+    "2_easy_reading": {
+      "filename": "2_easy_reading.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.625Z",
+      "type": "authentic"
+    },
+    "2_easy_thinking-skills": {
+      "filename": "2_easy_thinking-skills.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.625Z",
+      "type": "authentic"
+    },
+    "2_hard_english": {
+      "filename": "2_hard_english.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.626Z",
+      "type": "authentic"
+    },
+    "2_hard_math": {
+      "filename": "2_hard_math.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.626Z",
+      "type": "authentic"
+    },
+    "2_hard_mathematical-reasoning": {
+      "filename": "2_hard_mathematical-reasoning.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.626Z",
+      "type": "authentic"
+    },
+    "2_hard_reading": {
+      "filename": "2_hard_reading.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.626Z",
+      "type": "authentic"
+    },
+    "2_hard_thinking-skills": {
+      "filename": "2_hard_thinking-skills.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.628Z",
+      "type": "authentic"
+    },
+    "2_medium_english": {
+      "filename": "2_medium_english.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.628Z",
+      "type": "authentic"
+    },
+    "2_medium_math": {
+      "filename": "2_medium_math.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.628Z",
+      "type": "authentic"
+    },
+    "2_medium_mathematical-reasoning": {
+      "filename": "2_medium_mathematical-reasoning.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.628Z",
+      "type": "authentic"
+    },
+    "2_medium_reading": {
+      "filename": "2_medium_reading.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.628Z",
+      "type": "authentic"
+    },
+    "2_medium_thinking-skills": {
+      "filename": "2_medium_thinking-skills.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.628Z",
+      "type": "authentic"
+    },
+    "3_easy_english": {
+      "filename": "3_easy_english.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.629Z",
+      "type": "authentic"
+    },
+    "3_easy_math": {
+      "filename": "3_easy_math.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.629Z",
+      "type": "authentic"
+    },
+    "3_easy_mathematical-reasoning": {
+      "filename": "3_easy_mathematical-reasoning.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.629Z",
+      "type": "authentic"
+    },
+    "3_easy_reading": {
+      "filename": "3_easy_reading.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.629Z",
+      "type": "authentic"
+    },
+    "3_easy_thinking-skills": {
+      "filename": "3_easy_thinking-skills.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.629Z",
+      "type": "authentic"
+    },
+    "3_hard_english": {
+      "filename": "3_hard_english.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.629Z",
+      "type": "authentic"
+    },
+    "3_hard_math": {
+      "filename": "3_hard_math.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.630Z",
+      "type": "authentic"
+    },
+    "3_hard_mathematical-reasoning": {
+      "filename": "3_hard_mathematical-reasoning.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.630Z",
+      "type": "authentic"
+    },
+    "3_hard_reading": {
+      "filename": "3_hard_reading.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.630Z",
+      "type": "authentic"
+    },
+    "3_hard_thinking-skills": {
+      "filename": "3_hard_thinking-skills.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.630Z",
+      "type": "authentic"
+    },
+    "3_medium_english": {
+      "filename": "3_medium_english.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.630Z",
+      "type": "authentic"
+    },
+    "3_medium_math": {
+      "filename": "3_medium_math.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.630Z",
+      "type": "authentic"
+    },
+    "3_medium_mathematical-reasoning": {
+      "filename": "3_medium_mathematical-reasoning.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.631Z",
+      "type": "authentic"
+    },
+    "3_medium_reading": {
+      "filename": "3_medium_reading.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.631Z",
+      "type": "authentic"
+    },
+    "3_medium_thinking-skills": {
+      "filename": "3_medium_thinking-skills.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.631Z",
+      "type": "authentic"
+    },
+    "4_easy_english": {
+      "filename": "4_easy_english.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.631Z",
+      "type": "authentic"
+    },
+    "4_easy_math": {
+      "filename": "4_easy_math.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.631Z",
+      "type": "authentic"
+    },
+    "4_easy_mathematical-reasoning": {
+      "filename": "4_easy_mathematical-reasoning.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.632Z",
+      "type": "authentic"
+    },
+    "4_easy_reading": {
+      "filename": "4_easy_reading.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.632Z",
+      "type": "authentic"
+    },
+    "4_easy_thinking-skills": {
+      "filename": "4_easy_thinking-skills.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.632Z",
+      "type": "authentic"
+    },
+    "4_hard_english": {
+      "filename": "4_hard_english.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.632Z",
+      "type": "authentic"
+    },
+    "4_hard_math": {
+      "filename": "4_hard_math.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.632Z",
+      "type": "authentic"
+    },
+    "4_hard_mathematical-reasoning": {
+      "filename": "4_hard_mathematical-reasoning.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.632Z",
+      "type": "authentic"
+    },
+    "4_hard_reading": {
+      "filename": "4_hard_reading.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.633Z",
+      "type": "authentic"
+    },
+    "4_hard_thinking-skills": {
+      "filename": "4_hard_thinking-skills.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.633Z",
+      "type": "authentic"
+    },
+    "4_medium_english": {
+      "filename": "4_medium_english.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.633Z",
+      "type": "authentic"
+    },
+    "4_medium_math": {
+      "filename": "4_medium_math.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.633Z",
+      "type": "authentic"
+    },
+    "4_medium_mathematical-reasoning": {
+      "filename": "4_medium_mathematical-reasoning.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.633Z",
+      "type": "authentic"
+    },
+    "4_medium_reading": {
+      "filename": "4_medium_reading.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.634Z",
+      "type": "authentic"
+    },
+    "4_medium_thinking-skills": {
+      "filename": "4_medium_thinking-skills.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.634Z",
+      "type": "authentic"
+    },
+    "5_easy_english": {
+      "filename": "5_easy_english.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.634Z",
+      "type": "authentic"
+    },
+    "5_easy_math": {
+      "filename": "5_easy_math.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.634Z",
+      "type": "authentic"
+    },
+    "5_easy_mathematical-reasoning": {
+      "filename": "5_easy_mathematical-reasoning.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.634Z",
+      "type": "authentic"
+    },
+    "5_easy_reading": {
+      "filename": "5_easy_reading.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.635Z",
+      "type": "authentic"
+    },
+    "5_easy_thinking-skills": {
+      "filename": "5_easy_thinking-skills.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.635Z",
+      "type": "authentic"
+    },
+    "5_hard_english": {
+      "filename": "5_hard_english.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.635Z",
+      "type": "authentic"
+    },
+    "5_hard_math": {
+      "filename": "5_hard_math.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.635Z",
+      "type": "authentic"
+    },
+    "5_hard_mathematical-reasoning": {
+      "filename": "5_hard_mathematical-reasoning.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.635Z",
+      "type": "authentic"
+    },
+    "5_hard_reading": {
+      "filename": "5_hard_reading.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.635Z",
+      "type": "authentic"
+    },
+    "5_hard_thinking-skills": {
+      "filename": "5_hard_thinking-skills.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.636Z",
+      "type": "authentic"
+    },
+    "5_medium_english": {
+      "filename": "5_medium_english.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.636Z",
+      "type": "authentic"
+    },
+    "5_medium_math": {
+      "filename": "5_medium_math.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.636Z",
+      "type": "authentic"
+    },
+    "5_medium_mathematical-reasoning": {
+      "filename": "5_medium_mathematical-reasoning.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.636Z",
+      "type": "authentic"
+    },
+    "5_medium_reading": {
+      "filename": "5_medium_reading.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.636Z",
+      "type": "authentic"
+    },
+    "5_medium_thinking-skills": {
+      "filename": "5_medium_thinking-skills.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.636Z",
+      "type": "authentic"
+    },
+    "6_easy_english": {
+      "filename": "6_easy_english.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.637Z",
+      "type": "authentic"
+    },
+    "6_easy_math": {
+      "filename": "6_easy_math.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.637Z",
+      "type": "authentic"
+    },
+    "6_easy_mathematical-reasoning": {
+      "filename": "6_easy_mathematical-reasoning.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.637Z",
+      "type": "authentic"
+    },
+    "6_easy_reading": {
+      "filename": "6_easy_reading.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.637Z",
+      "type": "authentic"
+    },
+    "6_easy_thinking-skills": {
+      "filename": "6_easy_thinking-skills.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.637Z",
+      "type": "authentic"
+    },
+    "6_hard_english": {
+      "filename": "6_hard_english.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.637Z",
+      "type": "authentic"
+    },
+    "6_hard_math": {
+      "filename": "6_hard_math.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.638Z",
+      "type": "authentic"
+    },
+    "6_hard_mathematical-reasoning": {
+      "filename": "6_hard_mathematical-reasoning.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.638Z",
+      "type": "authentic"
+    },
+    "6_hard_reading": {
+      "filename": "6_hard_reading.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.638Z",
+      "type": "authentic"
+    },
+    "6_hard_thinking-skills": {
+      "filename": "6_hard_thinking-skills.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.638Z",
+      "type": "authentic"
+    },
+    "6_medium_english": {
+      "filename": "6_medium_english.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.639Z",
+      "type": "authentic"
+    },
+    "6_medium_math": {
+      "filename": "6_medium_math.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.639Z",
+      "type": "authentic"
+    },
+    "6_medium_mathematical-reasoning": {
+      "filename": "6_medium_mathematical-reasoning.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.639Z",
+      "type": "authentic"
+    },
+    "6_medium_reading": {
+      "filename": "6_medium_reading.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.639Z",
+      "type": "authentic"
+    },
+    "6_medium_thinking-skills": {
+      "filename": "6_medium_thinking-skills.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.639Z",
+      "type": "authentic"
+    },
+    "7_easy_english": {
+      "filename": "7_easy_english.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.639Z",
+      "type": "authentic"
+    },
+    "7_easy_math": {
+      "filename": "7_easy_math.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.639Z",
+      "type": "authentic"
+    },
+    "7_easy_mathematical-reasoning": {
+      "filename": "7_easy_mathematical-reasoning.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.640Z",
+      "type": "authentic"
+    },
+    "7_easy_reading": {
+      "filename": "7_easy_reading.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.640Z",
+      "type": "authentic"
+    },
+    "7_easy_thinking-skills": {
+      "filename": "7_easy_thinking-skills.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.640Z",
+      "type": "authentic"
+    },
+    "7_hard_english": {
+      "filename": "7_hard_english.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.640Z",
+      "type": "authentic"
+    },
+    "7_hard_math": {
+      "filename": "7_hard_math.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.640Z",
+      "type": "authentic"
+    },
+    "7_hard_mathematical-reasoning": {
+      "filename": "7_hard_mathematical-reasoning.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.640Z",
+      "type": "authentic"
+    },
+    "7_hard_reading": {
+      "filename": "7_hard_reading.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.641Z",
+      "type": "authentic"
+    },
+    "7_hard_thinking-skills": {
+      "filename": "7_hard_thinking-skills.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.641Z",
+      "type": "authentic"
+    },
+    "7_medium_english": {
+      "filename": "7_medium_english.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.641Z",
+      "type": "authentic"
+    },
+    "7_medium_math": {
+      "filename": "7_medium_math.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.641Z",
+      "type": "authentic"
+    },
+    "7_medium_mathematical-reasoning": {
+      "filename": "7_medium_mathematical-reasoning.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.641Z",
+      "type": "authentic"
+    },
+    "7_medium_reading": {
+      "filename": "7_medium_reading.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.641Z",
+      "type": "authentic"
+    },
+    "7_medium_thinking-skills": {
+      "filename": "7_medium_thinking-skills.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.641Z",
+      "type": "authentic"
+    },
+    "8_easy_english": {
+      "filename": "8_easy_english.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.642Z",
+      "type": "authentic"
+    },
+    "8_easy_math": {
+      "filename": "8_easy_math.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.642Z",
+      "type": "authentic"
+    },
+    "8_easy_mathematical-reasoning": {
+      "filename": "8_easy_mathematical-reasoning.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.642Z",
+      "type": "authentic"
+    },
+    "8_easy_reading": {
+      "filename": "8_easy_reading.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.642Z",
+      "type": "authentic"
+    },
+    "8_easy_thinking-skills": {
+      "filename": "8_easy_thinking-skills.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.642Z",
+      "type": "authentic"
+    },
+    "8_hard_english": {
+      "filename": "8_hard_english.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.642Z",
+      "type": "authentic"
+    },
+    "8_hard_math": {
+      "filename": "8_hard_math.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.643Z",
+      "type": "authentic"
+    },
+    "8_hard_mathematical-reasoning": {
+      "filename": "8_hard_mathematical-reasoning.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.643Z",
+      "type": "authentic"
+    },
+    "8_hard_reading": {
+      "filename": "8_hard_reading.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.643Z",
+      "type": "authentic"
+    },
+    "8_hard_thinking-skills": {
+      "filename": "8_hard_thinking-skills.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.643Z",
+      "type": "authentic"
+    },
+    "8_medium_english": {
+      "filename": "8_medium_english.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.644Z",
+      "type": "authentic"
+    },
+    "8_medium_math": {
+      "filename": "8_medium_math.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.644Z",
+      "type": "authentic"
+    },
+    "8_medium_mathematical-reasoning": {
+      "filename": "8_medium_mathematical-reasoning.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.644Z",
+      "type": "authentic"
+    },
+    "8_medium_reading": {
+      "filename": "8_medium_reading.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.644Z",
+      "type": "authentic"
+    },
+    "8_medium_thinking-skills": {
+      "filename": "8_medium_thinking-skills.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.644Z",
+      "type": "authentic"
+    },
+    "9_easy_english": {
+      "filename": "9_easy_english.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.645Z",
+      "type": "authentic"
+    },
+    "9_easy_math": {
+      "filename": "9_easy_math.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.645Z",
+      "type": "authentic"
+    },
+    "9_easy_mathematical-reasoning": {
+      "filename": "9_easy_mathematical-reasoning.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.645Z",
+      "type": "authentic"
+    },
+    "9_easy_reading": {
+      "filename": "9_easy_reading.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.645Z",
+      "type": "authentic"
+    },
+    "9_easy_thinking-skills": {
+      "filename": "9_easy_thinking-skills.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.646Z",
+      "type": "authentic"
+    },
+    "9_hard_english": {
+      "filename": "9_hard_english.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.646Z",
+      "type": "authentic"
+    },
+    "9_hard_math": {
+      "filename": "9_hard_math.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.646Z",
+      "type": "authentic"
+    },
+    "9_hard_math_proper": {
+      "filename": "9_hard_math_proper.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.647Z",
+      "type": "authentic"
+    },
+    "9_hard_mathematical-reasoning": {
+      "filename": "9_hard_mathematical-reasoning.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.647Z",
+      "type": "authentic"
+    },
+    "9_hard_reading": {
+      "filename": "9_hard_reading.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.647Z",
+      "type": "authentic"
+    },
+    "9_hard_thinking-skills": {
+      "filename": "9_hard_thinking-skills.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.647Z",
+      "type": "authentic"
+    },
+    "9_medium_english": {
+      "filename": "9_medium_english.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.648Z",
+      "type": "authentic"
+    },
+    "9_medium_math": {
+      "filename": "9_medium_math.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.648Z",
+      "type": "authentic"
+    },
+    "9_medium_mathematical-reasoning": {
+      "filename": "9_medium_mathematical-reasoning.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.648Z",
+      "type": "authentic"
+    },
+    "9_medium_reading": {
+      "filename": "9_medium_reading.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.649Z",
+      "type": "authentic"
+    },
+    "9_medium_thinking-skills": {
+      "filename": "9_medium_thinking-skills.json",
+      "count": 20,
+      "generated": "2025-08-21T11:42:22.649Z",
+      "type": "authentic"
     }
   }
 }

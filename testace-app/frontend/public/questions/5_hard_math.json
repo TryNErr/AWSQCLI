@@ -1,342 +1,342 @@
 [
   {
     "_id": "math_5_hard_001",
-    "content": "Sarah has 3.75 meters of ribbon. She uses 1.28 meters to wrap a gift and 0.97 meters to make a bow. How much ribbon does she have left?",
+    "content": "Calculate: 3.75 + 2.48 - 1.96",
     "type": "multiple_choice",
     "options": [
-      "1.50 meters",
-      "1.60 meters",
-      "1.45 meters",
-      "2.25 meters"
+      "4.27",
+      "4.37",
+      "4.17",
+      "4.47"
     ],
-    "correctAnswer": "1.50 meters",
+    "correctAnswer": "4.27",
     "subject": "math",
-    "grade": 5,
+    "grade": "5",
     "difficulty": "hard",
-    "explanation": "Start with 3.75m. Subtract what she used: 3.75 - 1.28 - 0.97 = 3.75 - 2.25 = 1.50 meters",
+    "explanation": "3.75 + 2.48 = 6.23, then 6.23 - 1.96 = 4.27",
     "_cacheBreaker": "1755265388192_0"
   },
   {
     "_id": "math_5_hard_002",
-    "content": "A rectangular garden is 12.5 meters long and 8.4 meters wide. What is the area of the garden?",
+    "content": "What is 7/8 ÷ 1/4?",
     "type": "multiple_choice",
     "options": [
-      "105 square meters",
-      "104.5 square meters",
-      "105.5 square meters",
-      "104 square meters"
+      "7/32",
+      "7/2",
+      "28/8",
+      "3 1/2"
     ],
-    "correctAnswer": "105 square meters",
+    "correctAnswer": "7/2",
     "subject": "math",
-    "grade": 5,
+    "grade": "5",
     "difficulty": "hard",
-    "explanation": "Area = length × width = 12.5 × 8.4 = 105 square meters",
+    "explanation": "7/8 ÷ 1/4 = 7/8 × 4/1 = 28/8 = 7/2 = 3 1/2",
     "_cacheBreaker": "1755265388192_1"
   },
   {
     "_id": "math_5_hard_003",
-    "content": "Tom bought 4 books for $12.75 each and 3 notebooks for $3.25 each. How much did he spend in total?",
+    "content": "Calculate: 4.8 × 0.75",
     "type": "multiple_choice",
     "options": [
-      "$60.75",
-      "$61.25",
-      "$60.25",
-      "$62.00"
+      "3.6",
+      "3.8",
+      "3.4",
+      "4.2"
     ],
-    "correctAnswer": "$60.75",
+    "correctAnswer": "3.6",
     "subject": "math",
-    "grade": 5,
+    "grade": "5",
     "difficulty": "hard",
-    "explanation": "Books: 4 × $12.75 = $51.00. Notebooks: 3 × $3.25 = $9.75. Total: $51.00 + $9.75 = $60.75",
+    "explanation": "4.8 × 0.75 = 4.8 × 3/4 = 14.4/4 = 3.6",
     "_cacheBreaker": "1755265388192_2"
   },
   {
     "_id": "math_5_hard_004",
-    "content": "What is 7/8 - 3/5 expressed as a decimal?",
+    "content": "What is 2 3/5 + 1 7/10?",
     "type": "multiple_choice",
     "options": [
-      "0.275",
-      "0.285",
-      "0.265",
-      "0.295"
+      "4 3/10",
+      "3 13/10",
+      "4 1/3",
+      "3 10/15"
     ],
-    "correctAnswer": "0.275",
+    "correctAnswer": "4 3/10",
     "subject": "math",
-    "grade": 5,
+    "grade": "5",
     "difficulty": "hard",
-    "explanation": "First find common denominator: 7/8 = 35/40, 3/5 = 24/40. So 35/40 - 24/40 = 11/40 = 0.275",
+    "explanation": "2 3/5 = 2 6/10, so 2 6/10 + 1 7/10 = 3 13/10 = 4 3/10",
     "_cacheBreaker": "1755265388192_3"
   },
   {
     "_id": "math_5_hard_005",
-    "content": "A train travels 285 kilometers in 3 hours. At this rate, how far will it travel in 5 hours?",
+    "content": "Calculate: 156 ÷ 12",
     "type": "multiple_choice",
     "options": [
-      "475 kilometers",
-      "485 kilometers",
-      "465 kilometers",
-      "455 kilometers"
+      "13",
+      "12",
+      "14",
+      "15"
     ],
-    "correctAnswer": "475 kilometers",
+    "correctAnswer": "13",
     "subject": "math",
-    "grade": 5,
+    "grade": "5",
     "difficulty": "hard",
-    "explanation": "Speed = 285 ÷ 3 = 95 km/hour. In 5 hours: 95 × 5 = 475 kilometers",
+    "explanation": "156 ÷ 12 = 13 (12 × 13 = 156)",
     "_cacheBreaker": "1755265388192_4"
   },
   {
     "_id": "math_5_hard_006",
-    "content": "Lisa has 2 3/4 cups of flour. She uses 1 5/8 cups for cookies. How much flour does she have left?",
+    "content": "What is 5/6 - 2/9?",
     "type": "multiple_choice",
     "options": [
-      "1 1/8 cups",
-      "1 1/4 cups",
-      "1 3/8 cups",
-      "1 1/2 cups"
+      "11/18",
+      "3/3",
+      "7/15",
+      "1/3"
     ],
-    "correctAnswer": "1 1/8 cups",
+    "correctAnswer": "11/18",
     "subject": "math",
-    "grade": 5,
+    "grade": "5",
     "difficulty": "hard",
-    "explanation": "Convert to improper fractions: 2 3/4 = 11/4, 1 5/8 = 13/8. Convert to common denominator: 11/4 = 22/8. So 22/8 - 13/8 = 9/8 = 1 1/8 cups",
+    "explanation": "5/6 = 15/18 and 2/9 = 4/18, so 15/18 - 4/18 = 11/18",
     "_cacheBreaker": "1755265388192_5"
   },
   {
     "_id": "math_5_hard_007",
-    "content": "A box contains 144 marbles. If 3/8 of them are red and 1/4 of them are blue, how many marbles are neither red nor blue?",
+    "content": "Calculate: 8.4 ÷ 0.7",
     "type": "multiple_choice",
     "options": [
-      "54 marbles",
-      "48 marbles",
-      "52 marbles",
-      "56 marbles"
+      "12",
+      "11",
+      "13",
+      "10"
     ],
-    "correctAnswer": "54 marbles",
+    "correctAnswer": "12",
     "subject": "math",
-    "grade": 5,
+    "grade": "5",
     "difficulty": "hard",
-    "explanation": "Red: 3/8 × 144 = 54. Blue: 1/4 × 144 = 36. Red + Blue = 90. Neither: 144 - 90 = 54 marbles",
+    "explanation": "8.4 ÷ 0.7 = 84 ÷ 7 = 12",
     "_cacheBreaker": "1755265388192_6"
   },
   {
     "_id": "math_5_hard_008",
-    "content": "The perimeter of a square is 36.8 cm. What is the area of the square?",
+    "content": "What is 3 1/4 × 2 2/5?",
     "type": "multiple_choice",
     "options": [
-      "84.64 cm²",
-      "85.44 cm²",
-      "83.84 cm²",
-      "86.24 cm²"
+      "7 4/5",
+      "6 3/5",
+      "7 1/2",
+      "8 1/10"
     ],
-    "correctAnswer": "84.64 cm²",
+    "correctAnswer": "7 4/5",
     "subject": "math",
-    "grade": 5,
+    "grade": "5",
     "difficulty": "hard",
-    "explanation": "Each side = 36.8 ÷ 4 = 9.2 cm. Area = 9.2 × 9.2 = 84.64 cm²",
+    "explanation": "3 1/4 = 13/4 and 2 2/5 = 12/5, so 13/4 × 12/5 = 156/20 = 39/5 = 7 4/5",
     "_cacheBreaker": "1755265388192_7"
   },
   {
     "_id": "math_5_hard_009",
-    "content": "Emma saves $15.50 each week. After 8 weeks, she spends $89.75 on a bicycle. How much money does she have left?",
+    "content": "Calculate: 0.625 + 0.375 - 0.25",
     "type": "multiple_choice",
     "options": [
-      "$34.25",
-      "$35.75",
-      "$34.75",
-      "$33.25"
+      "0.75",
+      "0.85",
+      "0.65",
+      "0.55"
     ],
-    "correctAnswer": "$34.25",
+    "correctAnswer": "0.75",
     "subject": "math",
-    "grade": 5,
+    "grade": "5",
     "difficulty": "hard",
-    "explanation": "Total saved: $15.50 × 8 = $124.00. After buying bicycle: $124.00 - $89.75 = $34.25",
+    "explanation": "0.625 + 0.375 = 1.000, then 1.000 - 0.25 = 0.75",
     "_cacheBreaker": "1755265388192_8"
   },
   {
     "_id": "math_5_hard_010",
-    "content": "A recipe calls for 2 2/3 cups of sugar. If you want to make 1 1/2 times the recipe, how much sugar do you need?",
+    "content": "What is 144 ÷ 16?",
     "type": "multiple_choice",
     "options": [
-      "4 cups",
-      "3 2/3 cups",
-      "4 1/3 cups",
-      "3 1/2 cups"
+      "8",
+      "9",
+      "7",
+      "10"
     ],
-    "correctAnswer": "4 cups",
+    "correctAnswer": "9",
     "subject": "math",
-    "grade": 5,
+    "grade": "5",
     "difficulty": "hard",
-    "explanation": "Convert to improper fractions: 2 2/3 = 8/3, 1 1/2 = 3/2. Multiply: 8/3 × 3/2 = 24/6 = 4 cups",
+    "explanation": "144 ÷ 16 = 9 (16 × 9 = 144)",
     "_cacheBreaker": "1755265388192_9"
   },
   {
     "_id": "math_5_hard_011",
-    "content": "A water tank holds 450 liters when full. It currently contains 3/5 of its capacity. How many more liters are needed to fill it completely?",
+    "content": "Calculate: 2.5 × 3.6",
     "type": "multiple_choice",
     "options": [
-      "180 liters",
-      "170 liters",
-      "190 liters",
-      "160 liters"
+      "9.0",
+      "8.5",
+      "9.5",
+      "8.0"
     ],
-    "correctAnswer": "180 liters",
+    "correctAnswer": "9.0",
     "subject": "math",
-    "grade": 5,
+    "grade": "5",
     "difficulty": "hard",
-    "explanation": "Current amount: 3/5 × 450 = 270 liters. Needed: 450 - 270 = 180 liters",
+    "explanation": "2.5 × 3.6 = 25 × 36 ÷ 100 = 900 ÷ 100 = 9.0",
     "_cacheBreaker": "1755265388192_10"
   },
   {
     "_id": "math_5_hard_012",
-    "content": "What is the value of 4.8 × 0.25?",
+    "content": "What is 4/5 + 3/8?",
     "type": "multiple_choice",
     "options": [
-      "1.2",
-      "1.3",
-      "1.1",
-      "1.4"
+      "47/40",
+      "7/13",
+      "1 7/40",
+      "1 1/5"
     ],
-    "correctAnswer": "1.2",
+    "correctAnswer": "1 7/40",
     "subject": "math",
-    "grade": 5,
+    "grade": "5",
     "difficulty": "hard",
-    "explanation": "4.8 × 0.25 = 4.8 × 1/4 = 4.8 ÷ 4 = 1.2",
+    "explanation": "4/5 = 32/40 and 3/8 = 15/40, so 32/40 + 15/40 = 47/40 = 1 7/40",
     "_cacheBreaker": "1755265388192_11"
   },
   {
     "_id": "math_5_hard_013",
-    "content": "A rectangular pool is 15 meters long, 8 meters wide, and 2 meters deep. How many cubic meters of water can it hold?",
+    "content": "Calculate: 7.2 ÷ 1.8",
     "type": "multiple_choice",
     "options": [
-      "240 cubic meters",
-      "250 cubic meters",
-      "230 cubic meters",
-      "260 cubic meters"
+      "4",
+      "3.5",
+      "4.5",
+      "3"
     ],
-    "correctAnswer": "240 cubic meters",
+    "correctAnswer": "4",
     "subject": "math",
-    "grade": 5,
+    "grade": "5",
     "difficulty": "hard",
-    "explanation": "Volume = length × width × depth = 15 × 8 × 2 = 240 cubic meters",
+    "explanation": "7.2 ÷ 1.8 = 72 ÷ 18 = 4",
     "_cacheBreaker": "1755265388192_12"
   },
   {
     "_id": "math_5_hard_014",
-    "content": "Jake runs 2.4 kilometers each day for 5 days, then 3.2 kilometers each day for 3 days. What is his total distance?",
+    "content": "What is 5 2/3 - 2 5/6?",
     "type": "multiple_choice",
     "options": [
-      "21.6 kilometers",
-      "22.2 kilometers",
-      "21.2 kilometers",
-      "20.8 kilometers"
+      "2 5/6",
+      "3 1/6",
+      "2 5/6",
+      "2 1/2"
     ],
-    "correctAnswer": "21.6 kilometers",
+    "correctAnswer": "2 5/6",
     "subject": "math",
-    "grade": 5,
+    "grade": "5",
     "difficulty": "hard",
-    "explanation": "First 5 days: 2.4 × 5 = 12 km. Next 3 days: 3.2 × 3 = 9.6 km. Total: 12 + 9.6 = 21.6 km",
+    "explanation": "5 2/3 = 5 4/6 and 2 5/6, so 5 4/6 - 2 5/6 = 4 10/6 - 2 5/6 = 2 5/6",
     "_cacheBreaker": "1755265388192_13"
   },
   {
     "_id": "math_5_hard_015",
-    "content": "What is 5/6 ÷ 2/3?",
+    "content": "Calculate: 0.8 × 0.45",
     "type": "multiple_choice",
     "options": [
-      "1 1/4",
-      "1 1/3",
-      "1 1/2",
-      "1 1/6"
+      "0.36",
+      "0.32",
+      "0.40",
+      "0.35"
     ],
-    "correctAnswer": "1 1/4",
+    "correctAnswer": "0.36",
     "subject": "math",
-    "grade": 5,
+    "grade": "5",
     "difficulty": "hard",
-    "explanation": "To divide fractions, multiply by the reciprocal: 5/6 ÷ 2/3 = 5/6 × 3/2 = 15/12 = 5/4 = 1 1/4",
+    "explanation": "0.8 × 0.45 = 8 × 45 ÷ 1000 = 360 ÷ 1000 = 0.36",
     "_cacheBreaker": "1755265388192_14"
   },
   {
     "_id": "math_5_hard_016",
-    "content": "A store sells apples for $2.40 per kilogram. If you buy 3.5 kilograms, how much will you pay?",
+    "content": "What is 3/4 ÷ 3/8?",
     "type": "multiple_choice",
     "options": [
-      "$8.40",
-      "$8.60",
-      "$8.20",
-      "$8.80"
+      "9/32",
+      "2",
+      "1/2",
+      "6/8"
     ],
-    "correctAnswer": "$8.40",
+    "correctAnswer": "2",
     "subject": "math",
-    "grade": 5,
+    "grade": "5",
     "difficulty": "hard",
-    "explanation": "Cost = price per kg × weight = $2.40 × 3.5 = $8.40",
+    "explanation": "3/4 ÷ 3/8 = 3/4 × 8/3 = 24/12 = 2",
     "_cacheBreaker": "1755265388192_15"
   },
   {
     "_id": "math_5_hard_017",
-    "content": "The temperature was 18.5°C in the morning. It rose by 6.8°C by noon, then dropped by 4.3°C in the evening. What was the evening temperature?",
+    "content": "Calculate: 15.6 - 8.75",
     "type": "multiple_choice",
     "options": [
-      "21.0°C",
-      "20.5°C",
-      "21.5°C",
-      "20.0°C"
+      "6.85",
+      "7.15",
+      "6.75",
+      "7.25"
     ],
-    "correctAnswer": "21.0°C",
+    "correctAnswer": "6.85",
     "subject": "math",
-    "grade": 5,
+    "grade": "5",
     "difficulty": "hard",
-    "explanation": "Morning: 18.5°C. Noon: 18.5 + 6.8 = 25.3°C. Evening: 25.3 - 4.3 = 21.0°C",
+    "explanation": "15.6 - 8.75 = 15.60 - 8.75 = 6.85",
     "_cacheBreaker": "1755265388192_16"
   },
   {
     "_id": "math_5_hard_018",
-    "content": "A pizza is cut into 12 equal slices. If 5/6 of the pizza is eaten, how many slices remain?",
+    "content": "What is 2 1/6 + 3 5/12?",
     "type": "multiple_choice",
     "options": [
-      "2 slices",
-      "3 slices",
-      "1 slice",
-      "4 slices"
+      "5 7/12",
+      "5 1/2",
+      "6 1/12",
+      "5 3/4"
     ],
-    "correctAnswer": "2 slices",
+    "correctAnswer": "5 7/12",
     "subject": "math",
-    "grade": 5,
+    "grade": "5",
     "difficulty": "hard",
-    "explanation": "Eaten: 5/6 × 12 = 10 slices. Remaining: 12 - 10 = 2 slices",
+    "explanation": "2 1/6 = 2 2/12 and 3 5/12, so 2 2/12 + 3 5/12 = 5 7/12",
     "_cacheBreaker": "1755265388192_17"
   },
   {
     "_id": "math_5_hard_019",
-    "content": "A car travels 168 kilometers using 12 liters of fuel. How many kilometers can it travel with 20 liters of fuel?",
+    "content": "Calculate: 168 ÷ 14",
     "type": "multiple_choice",
     "options": [
-      "280 kilometers",
-      "290 kilometers",
-      "270 kilometers",
-      "300 kilometers"
+      "11",
+      "12",
+      "13",
+      "10"
     ],
-    "correctAnswer": "280 kilometers",
+    "correctAnswer": "12",
     "subject": "math",
-    "grade": 5,
+    "grade": "5",
     "difficulty": "hard",
-    "explanation": "Rate: 168 ÷ 12 = 14 km per liter. With 20 liters: 14 × 20 = 280 kilometers",
+    "explanation": "168 ÷ 14 = 12 (14 × 12 = 168)",
     "_cacheBreaker": "1755265388192_18"
   },
   {
     "_id": "math_5_hard_020",
-    "content": "What is the decimal equivalent of 7/16?",
+    "content": "What is 6.25 × 0.8?",
     "type": "multiple_choice",
     "options": [
-      "0.4375",
-      "0.4275",
-      "0.4475",
-      "0.4175"
+      "5.0",
+      "4.8",
+      "5.2",
+      "4.5"
     ],
-    "correctAnswer": "0.4375",
+    "correctAnswer": "5.0",
     "subject": "math",
-    "grade": 5,
+    "grade": "5",
     "difficulty": "hard",
-    "explanation": "Divide 7 by 16: 7 ÷ 16 = 0.4375",
+    "explanation": "6.25 × 0.8 = 6.25 × 4/5 = 25/4 × 4/5 = 25/5 = 5.0",
     "_cacheBreaker": "1755265388192_19"
   }
 ]

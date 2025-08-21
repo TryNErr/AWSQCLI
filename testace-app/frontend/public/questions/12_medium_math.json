@@ -10,8 +10,8 @@
       "6x - 1"
     ],
     "correctAnswer": "6x + 2",
-    "subject": "Mathematics",
-    "grade": 12,
+    "subject": "math",
+    "grade": "12",
     "difficulty": "medium",
     "explanation": "Use power rule: d/dx[3x²] = 6x, d/dx[2x] = 2, d/dx[-1] = 0",
     "_cacheBreaker": "1755265388154_0"
@@ -27,8 +27,8 @@
       "2x + 3x + C"
     ],
     "correctAnswer": "x² + 3x + C",
-    "subject": "Mathematics",
-    "grade": 12,
+    "subject": "math",
+    "grade": "12",
     "difficulty": "medium",
     "explanation": "∫2x dx = x², ∫3 dx = 3x, don't forget constant C",
     "_cacheBreaker": "1755265388154_1"
@@ -44,8 +44,8 @@
       "Does not exist"
     ],
     "correctAnswer": "4",
-    "subject": "Mathematics",
-    "grade": 12,
+    "subject": "math",
+    "grade": "12",
     "difficulty": "medium",
     "explanation": "Factor: (x - 2)(x + 2)/(x - 2) = x + 2, then substitute x = 2",
     "_cacheBreaker": "1755265388154_2"
@@ -61,8 +61,8 @@
       "x·e^x"
     ],
     "correctAnswer": "e^x",
-    "subject": "Mathematics",
-    "grade": 12,
+    "subject": "math",
+    "grade": "12",
     "difficulty": "medium",
     "explanation": "The derivative of e^x is e^x",
     "_cacheBreaker": "1755265388154_3"
@@ -78,8 +78,8 @@
       "3"
     ],
     "correctAnswer": "4.5",
-    "subject": "Mathematics",
-    "grade": 12,
+    "subject": "math",
+    "grade": "12",
     "difficulty": "medium",
     "explanation": "∫₀³ x dx = [x²/2]₀³ = 9/2 - 0 = 4.5",
     "_cacheBreaker": "1755265388154_4"
@@ -95,8 +95,8 @@
       "x^7"
     ],
     "correctAnswer": "6x^5",
-    "subject": "Mathematics",
-    "grade": 12,
+    "subject": "math",
+    "grade": "12",
     "difficulty": "medium",
     "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)",
     "_cacheBreaker": "1755265388154_5"
@@ -112,8 +112,8 @@
       "x^8"
     ],
     "correctAnswer": "7x^6",
-    "subject": "Mathematics",
-    "grade": 12,
+    "subject": "math",
+    "grade": "12",
     "difficulty": "medium",
     "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)",
     "_cacheBreaker": "1755265388154_6"
@@ -129,8 +129,8 @@
       "x^9"
     ],
     "correctAnswer": "8x^7",
-    "subject": "Mathematics",
-    "grade": 12,
+    "subject": "math",
+    "grade": "12",
     "difficulty": "medium",
     "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)",
     "_cacheBreaker": "1755265388154_7"
@@ -146,8 +146,8 @@
       "x^10"
     ],
     "correctAnswer": "9x^8",
-    "subject": "Mathematics",
-    "grade": 12,
+    "subject": "math",
+    "grade": "12",
     "difficulty": "medium",
     "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)",
     "_cacheBreaker": "1755265388154_8"
@@ -163,8 +163,8 @@
       "x^11"
     ],
     "correctAnswer": "10x^9",
-    "subject": "Mathematics",
-    "grade": 12,
+    "subject": "math",
+    "grade": "12",
     "difficulty": "medium",
     "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)",
     "_cacheBreaker": "1755265388154_9"
@@ -180,8 +180,8 @@
       "x^12"
     ],
     "correctAnswer": "11x^10",
-    "subject": "Mathematics",
-    "grade": 12,
+    "subject": "math",
+    "grade": "12",
     "difficulty": "medium",
     "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)",
     "_cacheBreaker": "1755265388154_10"
@@ -197,8 +197,8 @@
       "x^13"
     ],
     "correctAnswer": "12x^11",
-    "subject": "Mathematics",
-    "grade": 12,
+    "subject": "math",
+    "grade": "12",
     "difficulty": "medium",
     "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)",
     "_cacheBreaker": "1755265388154_11"
@@ -214,8 +214,8 @@
       "x^14"
     ],
     "correctAnswer": "13x^12",
-    "subject": "Mathematics",
-    "grade": 12,
+    "subject": "math",
+    "grade": "12",
     "difficulty": "medium",
     "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)",
     "_cacheBreaker": "1755265388154_12"
@@ -231,8 +231,8 @@
       "x^15"
     ],
     "correctAnswer": "14x^13",
-    "subject": "Mathematics",
-    "grade": 12,
+    "subject": "math",
+    "grade": "12",
     "difficulty": "medium",
     "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)",
     "_cacheBreaker": "1755265388154_13"
@@ -248,8 +248,8 @@
       "x^16"
     ],
     "correctAnswer": "15x^14",
-    "subject": "Mathematics",
-    "grade": 12,
+    "subject": "math",
+    "grade": "12",
     "difficulty": "medium",
     "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)",
     "_cacheBreaker": "1755265388154_14"
@@ -265,8 +265,8 @@
       "x^17"
     ],
     "correctAnswer": "16x^15",
-    "subject": "Mathematics",
-    "grade": 12,
+    "subject": "math",
+    "grade": "12",
     "difficulty": "medium",
     "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)",
     "_cacheBreaker": "1755265388154_15"
@@ -282,8 +282,8 @@
       "x^18"
     ],
     "correctAnswer": "17x^16",
-    "subject": "Mathematics",
-    "grade": 12,
+    "subject": "math",
+    "grade": "12",
     "difficulty": "medium",
     "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)",
     "_cacheBreaker": "1755265388154_16"
@@ -299,8 +299,8 @@
       "x^19"
     ],
     "correctAnswer": "18x^17",
-    "subject": "Mathematics",
-    "grade": 12,
+    "subject": "math",
+    "grade": "12",
     "difficulty": "medium",
     "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)",
     "_cacheBreaker": "1755265388154_17"
@@ -316,8 +316,8 @@
       "x^20"
     ],
     "correctAnswer": "19x^18",
-    "subject": "Mathematics",
-    "grade": 12,
+    "subject": "math",
+    "grade": "12",
     "difficulty": "medium",
     "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)",
     "_cacheBreaker": "1755265388154_18"
@@ -333,8 +333,8 @@
       "x^21"
     ],
     "correctAnswer": "20x^19",
-    "subject": "Mathematics",
-    "grade": 12,
+    "subject": "math",
+    "grade": "12",
     "difficulty": "medium",
     "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)",
     "_cacheBreaker": "1755265388154_19"

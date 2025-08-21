@@ -1,4 +1,5 @@
 import DynamoDbService from './dynamoDbService';
+import StaticQuestionLoader from './staticQuestionLoader';
 import { Question, DifficultyLevel } from '../types';
 
 // Environment check
@@ -61,18 +62,36 @@ export class PersistentQuestionService {
     if (USE_DYNAMODB) {
       return await DynamoDbService.getQuestions(subject, grade, difficulty);
     } else {
-      // Fallback to local data
+      // Use static question loader for local development
       try {
-        const { questionData } = await import('../pages/Practice/questionData');
-        return questionData.filter((q: Question) => {
-          if (subject && q.subject !== subject) return false;
-          if (grade && q.grade !== grade) return false;
-          if (difficulty && q.difficulty !== difficulty) return false;
-          return true;
-        });
+        console.log(`🔍 Loading questions: Grade ${grade}, Difficulty ${difficulty}, Subject ${subject}`);
+        
+        const filters: any = {};
+        if (grade) filters.grade = parseInt(grade);
+        if (difficulty) filters.difficulty = difficulty;
+        if (subject) filters.subject = subject;
+        
+        const questions = await StaticQuestionLoader.getQuestions(filters);
+        
+        console.log(`✅ Found ${questions.length} questions matching criteria`);
+        return questions;
+        
       } catch (error) {
-        console.error('Error loading local questions:', error);
-        return [];
+        console.error('Error loading static questions:', error);
+        
+        // Fallback to old questionData if static loader fails
+        try {
+          const { questionData } = await import('../pages/Practice/questionData');
+          return questionData.filter((q: Question) => {
+            if (subject && q.subject !== subject) return false;
+            if (grade && q.grade.toString() !== grade) return false;
+            if (difficulty && q.difficulty !== difficulty) return false;
+            return true;
+          });
+        } catch (fallbackError) {
+          console.error('Error loading fallback questions:', fallbackError);
+          return [];
+        }
       }
     }
   }

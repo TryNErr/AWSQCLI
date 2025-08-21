@@ -9,12 +9,12 @@
       "3x² - 4x + 5",
       "3x² - 8x - 2"
     ],
-    "correct_answer": "3x² - 8x + 5",
-    "subject": "Mathematics",
-    "grade": 12,
+    "subject": "math",
+    "grade": "12",
     "difficulty": "hard",
     "explanation": "Using the power rule: d/dx(x³) = 3x², d/dx(-4x²) = -8x, d/dx(5x) = 5, d/dx(-2) = 0",
-    "_cacheBreaker": "1755265388149_0"
+    "_cacheBreaker": "1755265388149_0",
+    "correctAnswer": "3x² - 8x + 5"
   },
   {
     "_id": "hard12_1755260548824_002",
@@ -26,12 +26,12 @@
       "x² + 3x",
       "2x + 3x + C"
     ],
-    "correct_answer": "x² + 3x + C",
-    "subject": "Mathematics",
-    "grade": 12,
+    "subject": "math",
+    "grade": "12",
     "difficulty": "hard",
     "explanation": "∫2x dx = x² and ∫3 dx = 3x, so the result is x² + 3x + C",
-    "_cacheBreaker": "1755265388149_1"
+    "_cacheBreaker": "1755265388149_1",
+    "correctAnswer": "x² + 3x + C"
   },
   {
     "_id": "hard12_1755260548824_003",
@@ -43,12 +43,12 @@
       "0",
       "undefined"
     ],
-    "correct_answer": "4",
-    "subject": "Mathematics",
-    "grade": 12,
+    "subject": "math",
+    "grade": "12",
     "difficulty": "hard",
     "explanation": "Factor: (x² - 4)/(x - 2) = (x + 2)(x - 2)/(x - 2) = x + 2. As x→2, this approaches 4.",
-    "_cacheBreaker": "1755265388149_2"
+    "_cacheBreaker": "1755265388149_2",
+    "correctAnswer": "4"
   },
   {
     "_id": "hard12_1755260548824_004",
@@ -60,12 +60,12 @@
       "Alternative 2",
       "Alternative 3"
     ],
-    "correct_answer": "4x^3",
-    "subject": "Mathematics",
-    "grade": 12,
+    "subject": "math",
+    "grade": "12",
     "difficulty": "hard",
     "explanation": "This requires advanced calculus knowledge.",
-    "_cacheBreaker": "1755265388149_3"
+    "_cacheBreaker": "1755265388149_3",
+    "correctAnswer": "4x^3"
   },
   {
     "_id": "hard12_1755260548824_005",
@@ -77,12 +77,12 @@
       "Alternative 2",
       "Alternative 3"
     ],
-    "correct_answer": "x^6/6 + C",
-    "subject": "Mathematics",
-    "grade": 12,
+    "subject": "math",
+    "grade": "12",
     "difficulty": "hard",
     "explanation": "This requires advanced calculus knowledge.",
-    "_cacheBreaker": "1755265388149_4"
+    "_cacheBreaker": "1755265388149_4",
+    "correctAnswer": "x^6/6 + C"
   },
   {
     "_id": "hard12_1755260548824_006",
@@ -94,12 +94,12 @@
       "Alternative 2",
       "Alternative 3"
     ],
-    "correct_answer": "x = ±√6",
-    "subject": "Mathematics",
-    "grade": 12,
+    "subject": "math",
+    "grade": "12",
     "difficulty": "hard",
     "explanation": "This requires advanced calculus knowledge.",
-    "_cacheBreaker": "1755265388149_5"
+    "_cacheBreaker": "1755265388149_5",
+    "correctAnswer": "x = ±√6"
   },
   {
     "_id": "hard12_1755260548824_007",
@@ -111,12 +111,12 @@
       "Alternative 2",
       "Alternative 3"
     ],
-    "correct_answer": "7x^6",
-    "subject": "Mathematics",
-    "grade": 12,
+    "subject": "math",
+    "grade": "12",
     "difficulty": "hard",
     "explanation": "This requires advanced calculus knowledge.",
-    "_cacheBreaker": "1755265388149_6"
+    "_cacheBreaker": "1755265388149_6",
+    "correctAnswer": "7x^6"
   },
   {
     "_id": "hard12_1755260548824_008",
@@ -128,12 +128,12 @@
       "Alternative 2",
       "Alternative 3"
     ],
-    "correct_answer": "x^9/9 + C",
-    "subject": "Mathematics",
-    "grade": 12,
+    "subject": "math",
+    "grade": "12",
     "difficulty": "hard",
     "explanation": "This requires advanced calculus knowledge.",
-    "_cacheBreaker": "1755265388149_7"
+    "_cacheBreaker": "1755265388149_7",
+    "correctAnswer": "x^9/9 + C"
   },
   {
     "_id": "hard12_1755260548824_009",
@@ -145,12 +145,12 @@
       "Alternative 2",
       "Alternative 3"
     ],
-    "correct_answer": "x = ±√9",
-    "subject": "Mathematics",
-    "grade": 12,
+    "subject": "math",
+    "grade": "12",
     "difficulty": "hard",
     "explanation": "This requires advanced calculus knowledge.",
-    "_cacheBreaker": "1755265388149_8"
+    "_cacheBreaker": "1755265388149_8",
+    "correctAnswer": "x = ±√9"
   },
   {
     "_id": "hard12_1755260548824_010",
@@ -162,12 +162,12 @@
       "Alternative 2",
       "Alternative 3"
     ],
-    "correct_answer": "10x^9",
-    "subject": "Mathematics",
-    "grade": 12,
+    "subject": "math",
+    "grade": "12",
     "difficulty": "hard",
     "explanation": "This requires advanced calculus knowledge.",
-    "_cacheBreaker": "1755265388149_9"
+    "_cacheBreaker": "1755265388149_9",
+    "correctAnswer": "10x^9"
   },
   {
     "_id": "hard12_1755260548824_011",
@@ -179,12 +179,12 @@
       "Alternative 2",
       "Alternative 3"
     ],
-    "correct_answer": "x^12/12 + C",
-    "subject": "Mathematics",
-    "grade": 12,
+    "subject": "math",
+    "grade": "12",
     "difficulty": "hard",
     "explanation": "This requires advanced calculus knowledge.",
-    "_cacheBreaker": "1755265388149_10"
+    "_cacheBreaker": "1755265388149_10",
+    "correctAnswer": "x^12/12 + C"
   },
   {
     "_id": "hard12_1755260548824_012",
@@ -196,12 +196,12 @@
       "Alternative 2",
       "Alternative 3"
     ],
-    "correct_answer": "x = ±√12",
-    "subject": "Mathematics",
-    "grade": 12,
+    "subject": "math",
+    "grade": "12",
     "difficulty": "hard",
     "explanation": "This requires advanced calculus knowledge.",
-    "_cacheBreaker": "1755265388149_11"
+    "_cacheBreaker": "1755265388149_11",
+    "correctAnswer": "x = ±√12"
   },
   {
     "_id": "hard12_1755260548824_013",
@@ -213,12 +213,12 @@
       "Alternative 2",
       "Alternative 3"
     ],
-    "correct_answer": "13x^12",
-    "subject": "Mathematics",
-    "grade": 12,
+    "subject": "math",
+    "grade": "12",
     "difficulty": "hard",
     "explanation": "This requires advanced calculus knowledge.",
-    "_cacheBreaker": "1755265388149_12"
+    "_cacheBreaker": "1755265388149_12",
+    "correctAnswer": "13x^12"
   },
   {
     "_id": "hard12_1755260548824_014",
@@ -230,12 +230,12 @@
       "Alternative 2",
       "Alternative 3"
     ],
-    "correct_answer": "x^15/15 + C",
-    "subject": "Mathematics",
-    "grade": 12,
+    "subject": "math",
+    "grade": "12",
     "difficulty": "hard",
     "explanation": "This requires advanced calculus knowledge.",
-    "_cacheBreaker": "1755265388149_13"
+    "_cacheBreaker": "1755265388149_13",
+    "correctAnswer": "x^15/15 + C"
   },
   {
     "_id": "hard12_1755260548824_015",
@@ -247,12 +247,12 @@
       "Alternative 2",
       "Alternative 3"
     ],
-    "correct_answer": "x = ±√15",
-    "subject": "Mathematics",
-    "grade": 12,
+    "subject": "math",
+    "grade": "12",
     "difficulty": "hard",
     "explanation": "This requires advanced calculus knowledge.",
-    "_cacheBreaker": "1755265388149_14"
+    "_cacheBreaker": "1755265388149_14",
+    "correctAnswer": "x = ±√15"
   },
   {
     "_id": "hard12_1755260548824_016",
@@ -264,12 +264,12 @@
       "Alternative 2",
       "Alternative 3"
     ],
-    "correct_answer": "16x^15",
-    "subject": "Mathematics",
-    "grade": 12,
+    "subject": "math",
+    "grade": "12",
     "difficulty": "hard",
     "explanation": "This requires advanced calculus knowledge.",
-    "_cacheBreaker": "1755265388149_15"
+    "_cacheBreaker": "1755265388149_15",
+    "correctAnswer": "16x^15"
   },
   {
     "_id": "hard12_1755260548824_017",
@@ -281,12 +281,12 @@
       "Alternative 2",
       "Alternative 3"
     ],
-    "correct_answer": "x^18/18 + C",
-    "subject": "Mathematics",
-    "grade": 12,
+    "subject": "math",
+    "grade": "12",
     "difficulty": "hard",
     "explanation": "This requires advanced calculus knowledge.",
-    "_cacheBreaker": "1755265388149_16"
+    "_cacheBreaker": "1755265388149_16",
+    "correctAnswer": "x^18/18 + C"
   },
   {
     "_id": "hard12_1755260548824_018",
@@ -298,12 +298,12 @@
       "Alternative 2",
       "Alternative 3"
     ],
-    "correct_answer": "x = ±√18",
-    "subject": "Mathematics",
-    "grade": 12,
+    "subject": "math",
+    "grade": "12",
     "difficulty": "hard",
     "explanation": "This requires advanced calculus knowledge.",
-    "_cacheBreaker": "1755265388149_17"
+    "_cacheBreaker": "1755265388149_17",
+    "correctAnswer": "x = ±√18"
   },
   {
     "_id": "hard12_1755260548824_019",
@@ -315,12 +315,12 @@
       "Alternative 2",
       "Alternative 3"
     ],
-    "correct_answer": "19x^18",
-    "subject": "Mathematics",
-    "grade": 12,
+    "subject": "math",
+    "grade": "12",
     "difficulty": "hard",
     "explanation": "This requires advanced calculus knowledge.",
-    "_cacheBreaker": "1755265388149_18"
+    "_cacheBreaker": "1755265388149_18",
+    "correctAnswer": "19x^18"
   },
   {
     "_id": "hard12_1755260548824_020",
@@ -332,11 +332,11 @@
       "Alternative 2",
       "Alternative 3"
     ],
-    "correct_answer": "x^21/21 + C",
-    "subject": "Mathematics",
-    "grade": 12,
+    "subject": "math",
+    "grade": "12",
     "difficulty": "hard",
     "explanation": "This requires advanced calculus knowledge.",
-    "_cacheBreaker": "1755265388149_19"
+    "_cacheBreaker": "1755265388149_19",
+    "correctAnswer": "x^21/21 + C"
   }
 ]
