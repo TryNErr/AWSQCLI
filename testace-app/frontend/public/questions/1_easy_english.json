@@ -1,6 +1,6 @@
 [
   {
-    "_id": "english_1_easy_1755261255147_001",
+    "_id": "english_1_easy_1755775767507_1",
     "content": "Which letter comes after 'B'?",
     "type": "multiple_choice",
     "options": [
@@ -10,14 +10,14 @@
       "E"
     ],
     "correctAnswer": "C",
-    "subject": "English",
+    "subject": "english",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "The alphabet goes A, B, C, D...",
-    "_cacheBreaker": "1755265388156_0"
+    "explanation": "The alphabet goes A, B, C, D, E...",
+    "_cacheBreaker": "1755775767507_0"
   },
   {
-    "_id": "english_1_easy_1755261255147_002",
+    "_id": "english_1_easy_1755775767507_2",
     "content": "What sound does the letter 'M' make?",
     "type": "multiple_choice",
     "options": [
@@ -27,14 +27,14 @@
       "zzz"
     ],
     "correctAnswer": "mmm",
-    "subject": "English",
+    "subject": "english",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "The letter M makes the 'mmm' sound",
-    "_cacheBreaker": "1755265388156_1"
+    "explanation": "The letter 'M' makes the 'mmm' sound.",
+    "_cacheBreaker": "1755775767507_1"
   },
   {
-    "_id": "english_1_easy_1755261255147_003",
+    "_id": "english_1_easy_1755775767507_3",
     "content": "Which word rhymes with 'cat'?",
     "type": "multiple_choice",
     "options": [
@@ -44,15 +44,134 @@
       "big"
     ],
     "correctAnswer": "hat",
-    "subject": "English",
+    "subject": "english",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "Cat and hat both end with the 'at' sound",
-    "_cacheBreaker": "1755265388156_2"
+    "explanation": "Cat and hat both end with the 'at' sound.",
+    "_cacheBreaker": "1755775767507_2"
   },
   {
-    "_id": "english_1_easy_1755261255147_004",
-    "content": "Which letter comes after 'B'? (Question 4)",
+    "_id": "english_1_easy_1755775767507_4",
+    "content": "How many letters are in the word 'dog'?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswer": "3",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The word 'dog' has 3 letters: d-o-g.",
+    "_cacheBreaker": "1755775767507_3"
+  },
+  {
+    "_id": "english_1_easy_1755775767507_5",
+    "content": "Which letter comes first in the alphabet?",
+    "type": "multiple_choice",
+    "options": [
+      "B",
+      "A",
+      "C",
+      "D"
+    ],
+    "correctAnswer": "A",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "A is the first letter of the alphabet.",
+    "_cacheBreaker": "1755775767507_4"
+  },
+  {
+    "_id": "english_1_easy_1755775767507_6",
+    "content": "What is the first sound in the word 'sun'?",
+    "type": "multiple_choice",
+    "options": [
+      "s",
+      "u",
+      "n",
+      "t"
+    ],
+    "correctAnswer": "s",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The word 'sun' starts with the 's' sound.",
+    "_cacheBreaker": "1755775767507_5"
+  },
+  {
+    "_id": "english_1_easy_1755775767507_7",
+    "content": "Which word starts with the letter 'B'?",
+    "type": "multiple_choice",
+    "options": [
+      "apple",
+      "ball",
+      "cat",
+      "dog"
+    ],
+    "correctAnswer": "ball",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "Ball starts with the letter 'B'.",
+    "_cacheBreaker": "1755775767507_6"
+  },
+  {
+    "_id": "english_1_easy_1755775767507_8",
+    "content": "How many words are in this sentence: 'I like cats'?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswer": "3",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The sentence has 3 words: I, like, cats.",
+    "_cacheBreaker": "1755775767507_7"
+  },
+  {
+    "_id": "english_1_easy_1755775767507_9",
+    "content": "Which letter makes the 'ssss' sound?",
+    "type": "multiple_choice",
+    "options": [
+      "M",
+      "S",
+      "T",
+      "P"
+    ],
+    "correctAnswer": "S",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The letter 'S' makes the 'ssss' sound.",
+    "_cacheBreaker": "1755775767507_8"
+  },
+  {
+    "_id": "english_1_easy_1755775767507_10",
+    "content": "What comes at the end of a sentence?",
+    "type": "multiple_choice",
+    "options": [
+      "comma",
+      "period",
+      "question",
+      "letter"
+    ],
+    "correctAnswer": "period",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "A period (.) comes at the end of a sentence.",
+    "_cacheBreaker": "1755775767507_9"
+  },
+  {
+    "_id": "english_1_easy_1755775767507_11",
+    "content": "Which letter comes after 'B'?",
     "type": "multiple_choice",
     "options": [
       "A",
@@ -61,15 +180,15 @@
       "E"
     ],
     "correctAnswer": "C",
-    "subject": "English",
+    "subject": "english",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "The alphabet goes A, B, C, D...",
-    "_cacheBreaker": "1755265388156_3"
+    "explanation": "The alphabet goes A, B, C, D, E...",
+    "_cacheBreaker": "1755775767507_10"
   },
   {
-    "_id": "english_1_easy_1755261255147_005",
-    "content": "What sound does the letter 'M' make? (Question 5)",
+    "_id": "english_1_easy_1755775767507_12",
+    "content": "What sound does the letter 'M' make?",
     "type": "multiple_choice",
     "options": [
       "mmm",
@@ -78,15 +197,15 @@
       "zzz"
     ],
     "correctAnswer": "mmm",
-    "subject": "English",
+    "subject": "english",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "The letter M makes the 'mmm' sound",
-    "_cacheBreaker": "1755265388156_4"
+    "explanation": "The letter 'M' makes the 'mmm' sound.",
+    "_cacheBreaker": "1755775767507_11"
   },
   {
-    "_id": "english_1_easy_1755261255147_006",
-    "content": "Which word rhymes with 'cat'? (Question 6)",
+    "_id": "english_1_easy_1755775767507_13",
+    "content": "Which word rhymes with 'cat'?",
     "type": "multiple_choice",
     "options": [
       "dog",
@@ -95,248 +214,129 @@
       "big"
     ],
     "correctAnswer": "hat",
-    "subject": "English",
+    "subject": "english",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "Cat and hat both end with the 'at' sound",
-    "_cacheBreaker": "1755265388156_5"
+    "explanation": "Cat and hat both end with the 'at' sound.",
+    "_cacheBreaker": "1755775767507_12"
   },
   {
-    "_id": "english_1_easy_1755261255147_007",
-    "content": "Which letter comes after 'B'? (Question 7)",
+    "_id": "english_1_easy_1755775767507_14",
+    "content": "How many letters are in the word 'dog'?",
     "type": "multiple_choice",
     "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswer": "3",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The word 'dog' has 3 letters: d-o-g.",
+    "_cacheBreaker": "1755775767507_13"
+  },
+  {
+    "_id": "english_1_easy_1755775767507_15",
+    "content": "Which letter comes first in the alphabet?",
+    "type": "multiple_choice",
+    "options": [
+      "B",
       "A",
       "C",
-      "D",
-      "E"
+      "D"
     ],
-    "correctAnswer": "C",
-    "subject": "English",
+    "correctAnswer": "A",
+    "subject": "english",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "The alphabet goes A, B, C, D...",
-    "_cacheBreaker": "1755265388156_6"
+    "explanation": "A is the first letter of the alphabet.",
+    "_cacheBreaker": "1755775767507_14"
   },
   {
-    "_id": "english_1_easy_1755261255147_008",
-    "content": "What sound does the letter 'M' make? (Question 8)",
+    "_id": "english_1_easy_1755775767507_16",
+    "content": "What is the first sound in the word 'sun'?",
     "type": "multiple_choice",
     "options": [
-      "mmm",
-      "nnn",
-      "sss",
-      "zzz"
+      "s",
+      "u",
+      "n",
+      "t"
     ],
-    "correctAnswer": "mmm",
-    "subject": "English",
+    "correctAnswer": "s",
+    "subject": "english",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "The letter M makes the 'mmm' sound",
-    "_cacheBreaker": "1755265388156_7"
+    "explanation": "The word 'sun' starts with the 's' sound.",
+    "_cacheBreaker": "1755775767507_15"
   },
   {
-    "_id": "english_1_easy_1755261255147_009",
-    "content": "Which word rhymes with 'cat'? (Question 9)",
+    "_id": "english_1_easy_1755775767507_17",
+    "content": "Which word starts with the letter 'B'?",
     "type": "multiple_choice",
     "options": [
-      "dog",
-      "hat",
-      "car",
-      "big"
+      "apple",
+      "ball",
+      "cat",
+      "dog"
     ],
-    "correctAnswer": "hat",
-    "subject": "English",
+    "correctAnswer": "ball",
+    "subject": "english",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "Cat and hat both end with the 'at' sound",
-    "_cacheBreaker": "1755265388156_8"
+    "explanation": "Ball starts with the letter 'B'.",
+    "_cacheBreaker": "1755775767508_16"
   },
   {
-    "_id": "english_1_easy_1755261255147_010",
-    "content": "Which letter comes after 'B'? (Question 10)",
+    "_id": "english_1_easy_1755775767508_18",
+    "content": "How many words are in this sentence: 'I like cats'?",
     "type": "multiple_choice",
     "options": [
-      "A",
-      "C",
-      "D",
-      "E"
+      "2",
+      "3",
+      "4",
+      "5"
     ],
-    "correctAnswer": "C",
-    "subject": "English",
+    "correctAnswer": "3",
+    "subject": "english",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "The alphabet goes A, B, C, D...",
-    "_cacheBreaker": "1755265388156_9"
+    "explanation": "The sentence has 3 words: I, like, cats.",
+    "_cacheBreaker": "1755775767508_17"
   },
   {
-    "_id": "english_1_easy_1755261255147_011",
-    "content": "What sound does the letter 'M' make? (Question 11)",
+    "_id": "english_1_easy_1755775767508_19",
+    "content": "Which letter makes the 'ssss' sound?",
     "type": "multiple_choice",
     "options": [
-      "mmm",
-      "nnn",
-      "sss",
-      "zzz"
+      "M",
+      "S",
+      "T",
+      "P"
     ],
-    "correctAnswer": "mmm",
-    "subject": "English",
+    "correctAnswer": "S",
+    "subject": "english",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "The letter M makes the 'mmm' sound",
-    "_cacheBreaker": "1755265388156_10"
+    "explanation": "The letter 'S' makes the 'ssss' sound.",
+    "_cacheBreaker": "1755775767508_18"
   },
   {
-    "_id": "english_1_easy_1755261255147_012",
-    "content": "Which word rhymes with 'cat'? (Question 12)",
+    "_id": "english_1_easy_1755775767508_20",
+    "content": "What comes at the end of a sentence?",
     "type": "multiple_choice",
     "options": [
-      "dog",
-      "hat",
-      "car",
-      "big"
+      "comma",
+      "period",
+      "question",
+      "letter"
     ],
-    "correctAnswer": "hat",
-    "subject": "English",
+    "correctAnswer": "period",
+    "subject": "english",
     "grade": 1,
     "difficulty": "easy",
-    "explanation": "Cat and hat both end with the 'at' sound",
-    "_cacheBreaker": "1755265388156_11"
-  },
-  {
-    "_id": "english_1_easy_1755261255147_013",
-    "content": "Which letter comes after 'B'? (Question 13)",
-    "type": "multiple_choice",
-    "options": [
-      "A",
-      "C",
-      "D",
-      "E"
-    ],
-    "correctAnswer": "C",
-    "subject": "English",
-    "grade": 1,
-    "difficulty": "easy",
-    "explanation": "The alphabet goes A, B, C, D...",
-    "_cacheBreaker": "1755265388156_12"
-  },
-  {
-    "_id": "english_1_easy_1755261255147_014",
-    "content": "What sound does the letter 'M' make? (Question 14)",
-    "type": "multiple_choice",
-    "options": [
-      "mmm",
-      "nnn",
-      "sss",
-      "zzz"
-    ],
-    "correctAnswer": "mmm",
-    "subject": "English",
-    "grade": 1,
-    "difficulty": "easy",
-    "explanation": "The letter M makes the 'mmm' sound",
-    "_cacheBreaker": "1755265388156_13"
-  },
-  {
-    "_id": "english_1_easy_1755261255147_015",
-    "content": "Which word rhymes with 'cat'? (Question 15)",
-    "type": "multiple_choice",
-    "options": [
-      "dog",
-      "hat",
-      "car",
-      "big"
-    ],
-    "correctAnswer": "hat",
-    "subject": "English",
-    "grade": 1,
-    "difficulty": "easy",
-    "explanation": "Cat and hat both end with the 'at' sound",
-    "_cacheBreaker": "1755265388156_14"
-  },
-  {
-    "_id": "english_1_easy_1755261255147_016",
-    "content": "Which letter comes after 'B'? (Question 16)",
-    "type": "multiple_choice",
-    "options": [
-      "A",
-      "C",
-      "D",
-      "E"
-    ],
-    "correctAnswer": "C",
-    "subject": "English",
-    "grade": 1,
-    "difficulty": "easy",
-    "explanation": "The alphabet goes A, B, C, D...",
-    "_cacheBreaker": "1755265388156_15"
-  },
-  {
-    "_id": "english_1_easy_1755261255147_017",
-    "content": "What sound does the letter 'M' make? (Question 17)",
-    "type": "multiple_choice",
-    "options": [
-      "mmm",
-      "nnn",
-      "sss",
-      "zzz"
-    ],
-    "correctAnswer": "mmm",
-    "subject": "English",
-    "grade": 1,
-    "difficulty": "easy",
-    "explanation": "The letter M makes the 'mmm' sound",
-    "_cacheBreaker": "1755265388156_16"
-  },
-  {
-    "_id": "english_1_easy_1755261255147_018",
-    "content": "Which word rhymes with 'cat'? (Question 18)",
-    "type": "multiple_choice",
-    "options": [
-      "dog",
-      "hat",
-      "car",
-      "big"
-    ],
-    "correctAnswer": "hat",
-    "subject": "English",
-    "grade": 1,
-    "difficulty": "easy",
-    "explanation": "Cat and hat both end with the 'at' sound",
-    "_cacheBreaker": "1755265388156_17"
-  },
-  {
-    "_id": "english_1_easy_1755261255147_019",
-    "content": "Which letter comes after 'B'? (Question 19)",
-    "type": "multiple_choice",
-    "options": [
-      "A",
-      "C",
-      "D",
-      "E"
-    ],
-    "correctAnswer": "C",
-    "subject": "English",
-    "grade": 1,
-    "difficulty": "easy",
-    "explanation": "The alphabet goes A, B, C, D...",
-    "_cacheBreaker": "1755265388156_18"
-  },
-  {
-    "_id": "english_1_easy_1755261255147_020",
-    "content": "What sound does the letter 'M' make? (Question 20)",
-    "type": "multiple_choice",
-    "options": [
-      "mmm",
-      "nnn",
-      "sss",
-      "zzz"
-    ],
-    "correctAnswer": "mmm",
-    "subject": "English",
-    "grade": 1,
-    "difficulty": "easy",
-    "explanation": "The letter M makes the 'mmm' sound",
-    "_cacheBreaker": "1755265388156_19"
+    "explanation": "A period (.) comes at the end of a sentence.",
+    "_cacheBreaker": "1755775767508_19"
   }
 ]

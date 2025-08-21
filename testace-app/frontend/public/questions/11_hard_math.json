@@ -1,342 +1,342 @@
 [
   {
-    "_id": "math_11_hard_1755259604968_1",
-    "content": "Challenging math question for Grade 11 (hard level) - Question 1",
+    "_id": "math_11_hard_1755775410764_1",
+    "content": "Find the derivative of f(x) = 3x² + 2x - 1",
     "type": "multiple_choice",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "f'(x) = 6x + 2",
+      "f'(x) = 6x - 1",
+      "f'(x) = 3x + 2",
+      "f'(x) = 6x² + 2x"
     ],
-    "correctAnswer": "Option A",
+    "correctAnswer": "f'(x) = 6x + 2",
     "subject": "math",
     "grade": 11,
     "difficulty": "hard",
-    "explanation": "This is a properly challenging hard level math question for Grade 11",
-    "_cacheBreaker": "1755265388137_0"
+    "explanation": "Using power rule: d/dx(3x²) = 6x, d/dx(2x) = 2, d/dx(-1) = 0",
+    "_cacheBreaker": "1755775410764_0"
   },
   {
-    "_id": "math_11_hard_1755259604968_2",
-    "content": "Challenging math question for Grade 11 (hard level) - Question 2",
+    "_id": "math_11_hard_1755775410764_2",
+    "content": "Evaluate: lim(x→2) (x² - 4)/(x - 2)",
     "type": "multiple_choice",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4",
+      "2",
+      "0",
+      "undefined"
     ],
-    "correctAnswer": "Option A",
+    "correctAnswer": "4",
     "subject": "math",
     "grade": 11,
     "difficulty": "hard",
-    "explanation": "This is a properly challenging hard level math question for Grade 11",
-    "_cacheBreaker": "1755265388137_1"
+    "explanation": "Factor numerator: (x² - 4) = (x + 2)(x - 2). Cancel (x - 2): lim(x→2) (x + 2) = 4",
+    "_cacheBreaker": "1755775410764_1"
   },
   {
-    "_id": "math_11_hard_1755259604968_3",
-    "content": "Challenging math question for Grade 11 (hard level) - Question 3",
+    "_id": "math_11_hard_1755775410764_3",
+    "content": "If cos(θ) = 3/5 and θ is in the first quadrant, find sin(θ)",
     "type": "multiple_choice",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4/5",
+      "3/4",
+      "5/4",
+      "4/3"
     ],
-    "correctAnswer": "Option A",
+    "correctAnswer": "4/5",
     "subject": "math",
     "grade": 11,
     "difficulty": "hard",
-    "explanation": "This is a properly challenging hard level math question for Grade 11",
-    "_cacheBreaker": "1755265388137_2"
+    "explanation": "Using Pythagorean identity: sin²(θ) + cos²(θ) = 1. So sin²(θ) = 1 - (3/5)² = 16/25. Therefore sin(θ) = 4/5",
+    "_cacheBreaker": "1755775410764_2"
   },
   {
-    "_id": "math_11_hard_1755259604968_4",
-    "content": "Challenging math question for Grade 11 (hard level) - Question 4",
+    "_id": "math_11_hard_1755775410764_4",
+    "content": "Find the derivative of f(x) = 3x² + 2x - 1",
     "type": "multiple_choice",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "f'(x) = 6x + 2",
+      "f'(x) = 6x - 1",
+      "f'(x) = 3x + 2",
+      "f'(x) = 6x² + 2x"
     ],
-    "correctAnswer": "Option A",
+    "correctAnswer": "f'(x) = 6x + 2",
     "subject": "math",
     "grade": 11,
     "difficulty": "hard",
-    "explanation": "This is a properly challenging hard level math question for Grade 11",
-    "_cacheBreaker": "1755265388137_3"
+    "explanation": "Using power rule: d/dx(3x²) = 6x, d/dx(2x) = 2, d/dx(-1) = 0",
+    "_cacheBreaker": "1755775410764_3"
   },
   {
-    "_id": "math_11_hard_1755259604968_5",
-    "content": "Challenging math question for Grade 11 (hard level) - Question 5",
+    "_id": "math_11_hard_1755775410764_5",
+    "content": "Evaluate: lim(x→2) (x² - 4)/(x - 2)",
     "type": "multiple_choice",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4",
+      "2",
+      "0",
+      "undefined"
     ],
-    "correctAnswer": "Option A",
+    "correctAnswer": "4",
     "subject": "math",
     "grade": 11,
     "difficulty": "hard",
-    "explanation": "This is a properly challenging hard level math question for Grade 11",
-    "_cacheBreaker": "1755265388137_4"
+    "explanation": "Factor numerator: (x² - 4) = (x + 2)(x - 2). Cancel (x - 2): lim(x→2) (x + 2) = 4",
+    "_cacheBreaker": "1755775410764_4"
   },
   {
-    "_id": "math_11_hard_1755259604968_6",
-    "content": "Challenging math question for Grade 11 (hard level) - Question 6",
+    "_id": "math_11_hard_1755775410764_6",
+    "content": "If cos(θ) = 3/5 and θ is in the first quadrant, find sin(θ)",
     "type": "multiple_choice",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4/5",
+      "3/4",
+      "5/4",
+      "4/3"
     ],
-    "correctAnswer": "Option A",
+    "correctAnswer": "4/5",
     "subject": "math",
     "grade": 11,
     "difficulty": "hard",
-    "explanation": "This is a properly challenging hard level math question for Grade 11",
-    "_cacheBreaker": "1755265388137_5"
+    "explanation": "Using Pythagorean identity: sin²(θ) + cos²(θ) = 1. So sin²(θ) = 1 - (3/5)² = 16/25. Therefore sin(θ) = 4/5",
+    "_cacheBreaker": "1755775410764_5"
   },
   {
-    "_id": "math_11_hard_1755259604968_7",
-    "content": "Challenging math question for Grade 11 (hard level) - Question 7",
+    "_id": "math_11_hard_1755775410764_7",
+    "content": "Find the derivative of f(x) = 3x² + 2x - 1",
     "type": "multiple_choice",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "f'(x) = 6x + 2",
+      "f'(x) = 6x - 1",
+      "f'(x) = 3x + 2",
+      "f'(x) = 6x² + 2x"
     ],
-    "correctAnswer": "Option A",
+    "correctAnswer": "f'(x) = 6x + 2",
     "subject": "math",
     "grade": 11,
     "difficulty": "hard",
-    "explanation": "This is a properly challenging hard level math question for Grade 11",
-    "_cacheBreaker": "1755265388137_6"
+    "explanation": "Using power rule: d/dx(3x²) = 6x, d/dx(2x) = 2, d/dx(-1) = 0",
+    "_cacheBreaker": "1755775410764_6"
   },
   {
-    "_id": "math_11_hard_1755259604968_8",
-    "content": "Challenging math question for Grade 11 (hard level) - Question 8",
+    "_id": "math_11_hard_1755775410764_8",
+    "content": "Evaluate: lim(x→2) (x² - 4)/(x - 2)",
     "type": "multiple_choice",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4",
+      "2",
+      "0",
+      "undefined"
     ],
-    "correctAnswer": "Option A",
+    "correctAnswer": "4",
     "subject": "math",
     "grade": 11,
     "difficulty": "hard",
-    "explanation": "This is a properly challenging hard level math question for Grade 11",
-    "_cacheBreaker": "1755265388137_7"
+    "explanation": "Factor numerator: (x² - 4) = (x + 2)(x - 2). Cancel (x - 2): lim(x→2) (x + 2) = 4",
+    "_cacheBreaker": "1755775410764_7"
   },
   {
-    "_id": "math_11_hard_1755259604968_9",
-    "content": "Challenging math question for Grade 11 (hard level) - Question 9",
+    "_id": "math_11_hard_1755775410764_9",
+    "content": "If cos(θ) = 3/5 and θ is in the first quadrant, find sin(θ)",
     "type": "multiple_choice",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4/5",
+      "3/4",
+      "5/4",
+      "4/3"
     ],
-    "correctAnswer": "Option A",
+    "correctAnswer": "4/5",
     "subject": "math",
     "grade": 11,
     "difficulty": "hard",
-    "explanation": "This is a properly challenging hard level math question for Grade 11",
-    "_cacheBreaker": "1755265388137_8"
+    "explanation": "Using Pythagorean identity: sin²(θ) + cos²(θ) = 1. So sin²(θ) = 1 - (3/5)² = 16/25. Therefore sin(θ) = 4/5",
+    "_cacheBreaker": "1755775410764_8"
   },
   {
-    "_id": "math_11_hard_1755259604968_10",
-    "content": "Challenging math question for Grade 11 (hard level) - Question 10",
+    "_id": "math_11_hard_1755775410764_10",
+    "content": "Find the derivative of f(x) = 3x² + 2x - 1",
     "type": "multiple_choice",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "f'(x) = 6x + 2",
+      "f'(x) = 6x - 1",
+      "f'(x) = 3x + 2",
+      "f'(x) = 6x² + 2x"
     ],
-    "correctAnswer": "Option A",
+    "correctAnswer": "f'(x) = 6x + 2",
     "subject": "math",
     "grade": 11,
     "difficulty": "hard",
-    "explanation": "This is a properly challenging hard level math question for Grade 11",
-    "_cacheBreaker": "1755265388137_9"
+    "explanation": "Using power rule: d/dx(3x²) = 6x, d/dx(2x) = 2, d/dx(-1) = 0",
+    "_cacheBreaker": "1755775410764_9"
   },
   {
-    "_id": "math_11_hard_1755259604968_11",
-    "content": "Challenging math question for Grade 11 (hard level) - Question 11",
+    "_id": "math_11_hard_1755775410764_11",
+    "content": "Evaluate: lim(x→2) (x² - 4)/(x - 2)",
     "type": "multiple_choice",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4",
+      "2",
+      "0",
+      "undefined"
     ],
-    "correctAnswer": "Option A",
+    "correctAnswer": "4",
     "subject": "math",
     "grade": 11,
     "difficulty": "hard",
-    "explanation": "This is a properly challenging hard level math question for Grade 11",
-    "_cacheBreaker": "1755265388137_10"
+    "explanation": "Factor numerator: (x² - 4) = (x + 2)(x - 2). Cancel (x - 2): lim(x→2) (x + 2) = 4",
+    "_cacheBreaker": "1755775410764_10"
   },
   {
-    "_id": "math_11_hard_1755259604968_12",
-    "content": "Challenging math question for Grade 11 (hard level) - Question 12",
+    "_id": "math_11_hard_1755775410764_12",
+    "content": "If cos(θ) = 3/5 and θ is in the first quadrant, find sin(θ)",
     "type": "multiple_choice",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4/5",
+      "3/4",
+      "5/4",
+      "4/3"
     ],
-    "correctAnswer": "Option A",
+    "correctAnswer": "4/5",
     "subject": "math",
     "grade": 11,
     "difficulty": "hard",
-    "explanation": "This is a properly challenging hard level math question for Grade 11",
-    "_cacheBreaker": "1755265388137_11"
+    "explanation": "Using Pythagorean identity: sin²(θ) + cos²(θ) = 1. So sin²(θ) = 1 - (3/5)² = 16/25. Therefore sin(θ) = 4/5",
+    "_cacheBreaker": "1755775410764_11"
   },
   {
-    "_id": "math_11_hard_1755259604968_13",
-    "content": "Challenging math question for Grade 11 (hard level) - Question 13",
+    "_id": "math_11_hard_1755775410764_13",
+    "content": "Find the derivative of f(x) = 3x² + 2x - 1",
     "type": "multiple_choice",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "f'(x) = 6x + 2",
+      "f'(x) = 6x - 1",
+      "f'(x) = 3x + 2",
+      "f'(x) = 6x² + 2x"
     ],
-    "correctAnswer": "Option A",
+    "correctAnswer": "f'(x) = 6x + 2",
     "subject": "math",
     "grade": 11,
     "difficulty": "hard",
-    "explanation": "This is a properly challenging hard level math question for Grade 11",
-    "_cacheBreaker": "1755265388137_12"
+    "explanation": "Using power rule: d/dx(3x²) = 6x, d/dx(2x) = 2, d/dx(-1) = 0",
+    "_cacheBreaker": "1755775410764_12"
   },
   {
-    "_id": "math_11_hard_1755259604968_14",
-    "content": "Challenging math question for Grade 11 (hard level) - Question 14",
+    "_id": "math_11_hard_1755775410764_14",
+    "content": "Evaluate: lim(x→2) (x² - 4)/(x - 2)",
     "type": "multiple_choice",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4",
+      "2",
+      "0",
+      "undefined"
     ],
-    "correctAnswer": "Option A",
+    "correctAnswer": "4",
     "subject": "math",
     "grade": 11,
     "difficulty": "hard",
-    "explanation": "This is a properly challenging hard level math question for Grade 11",
-    "_cacheBreaker": "1755265388137_13"
+    "explanation": "Factor numerator: (x² - 4) = (x + 2)(x - 2). Cancel (x - 2): lim(x→2) (x + 2) = 4",
+    "_cacheBreaker": "1755775410764_13"
   },
   {
-    "_id": "math_11_hard_1755259604968_15",
-    "content": "Challenging math question for Grade 11 (hard level) - Question 15",
+    "_id": "math_11_hard_1755775410764_15",
+    "content": "If cos(θ) = 3/5 and θ is in the first quadrant, find sin(θ)",
     "type": "multiple_choice",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4/5",
+      "3/4",
+      "5/4",
+      "4/3"
     ],
-    "correctAnswer": "Option A",
+    "correctAnswer": "4/5",
     "subject": "math",
     "grade": 11,
     "difficulty": "hard",
-    "explanation": "This is a properly challenging hard level math question for Grade 11",
-    "_cacheBreaker": "1755265388137_14"
+    "explanation": "Using Pythagorean identity: sin²(θ) + cos²(θ) = 1. So sin²(θ) = 1 - (3/5)² = 16/25. Therefore sin(θ) = 4/5",
+    "_cacheBreaker": "1755775410764_14"
   },
   {
-    "_id": "math_11_hard_1755259604968_16",
-    "content": "Challenging math question for Grade 11 (hard level) - Question 16",
+    "_id": "math_11_hard_1755775410764_16",
+    "content": "Find the derivative of f(x) = 3x² + 2x - 1",
     "type": "multiple_choice",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "f'(x) = 6x + 2",
+      "f'(x) = 6x - 1",
+      "f'(x) = 3x + 2",
+      "f'(x) = 6x² + 2x"
     ],
-    "correctAnswer": "Option A",
+    "correctAnswer": "f'(x) = 6x + 2",
     "subject": "math",
     "grade": 11,
     "difficulty": "hard",
-    "explanation": "This is a properly challenging hard level math question for Grade 11",
-    "_cacheBreaker": "1755265388137_15"
+    "explanation": "Using power rule: d/dx(3x²) = 6x, d/dx(2x) = 2, d/dx(-1) = 0",
+    "_cacheBreaker": "1755775410764_15"
   },
   {
-    "_id": "math_11_hard_1755259604968_17",
-    "content": "Challenging math question for Grade 11 (hard level) - Question 17",
+    "_id": "math_11_hard_1755775410764_17",
+    "content": "Evaluate: lim(x→2) (x² - 4)/(x - 2)",
     "type": "multiple_choice",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4",
+      "2",
+      "0",
+      "undefined"
     ],
-    "correctAnswer": "Option A",
+    "correctAnswer": "4",
     "subject": "math",
     "grade": 11,
     "difficulty": "hard",
-    "explanation": "This is a properly challenging hard level math question for Grade 11",
-    "_cacheBreaker": "1755265388137_16"
+    "explanation": "Factor numerator: (x² - 4) = (x + 2)(x - 2). Cancel (x - 2): lim(x→2) (x + 2) = 4",
+    "_cacheBreaker": "1755775410764_16"
   },
   {
-    "_id": "math_11_hard_1755259604968_18",
-    "content": "Challenging math question for Grade 11 (hard level) - Question 18",
+    "_id": "math_11_hard_1755775410764_18",
+    "content": "If cos(θ) = 3/5 and θ is in the first quadrant, find sin(θ)",
     "type": "multiple_choice",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4/5",
+      "3/4",
+      "5/4",
+      "4/3"
     ],
-    "correctAnswer": "Option A",
+    "correctAnswer": "4/5",
     "subject": "math",
     "grade": 11,
     "difficulty": "hard",
-    "explanation": "This is a properly challenging hard level math question for Grade 11",
-    "_cacheBreaker": "1755265388137_17"
+    "explanation": "Using Pythagorean identity: sin²(θ) + cos²(θ) = 1. So sin²(θ) = 1 - (3/5)² = 16/25. Therefore sin(θ) = 4/5",
+    "_cacheBreaker": "1755775410764_17"
   },
   {
-    "_id": "math_11_hard_1755259604968_19",
-    "content": "Challenging math question for Grade 11 (hard level) - Question 19",
+    "_id": "math_11_hard_1755775410764_19",
+    "content": "Find the derivative of f(x) = 3x² + 2x - 1",
     "type": "multiple_choice",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "f'(x) = 6x + 2",
+      "f'(x) = 6x - 1",
+      "f'(x) = 3x + 2",
+      "f'(x) = 6x² + 2x"
     ],
-    "correctAnswer": "Option A",
+    "correctAnswer": "f'(x) = 6x + 2",
     "subject": "math",
     "grade": 11,
     "difficulty": "hard",
-    "explanation": "This is a properly challenging hard level math question for Grade 11",
-    "_cacheBreaker": "1755265388137_18"
+    "explanation": "Using power rule: d/dx(3x²) = 6x, d/dx(2x) = 2, d/dx(-1) = 0",
+    "_cacheBreaker": "1755775410764_18"
   },
   {
-    "_id": "math_11_hard_1755259604968_20",
-    "content": "Challenging math question for Grade 11 (hard level) - Question 20",
+    "_id": "math_11_hard_1755775410764_20",
+    "content": "Evaluate: lim(x→2) (x² - 4)/(x - 2)",
     "type": "multiple_choice",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4",
+      "2",
+      "0",
+      "undefined"
     ],
-    "correctAnswer": "Option A",
+    "correctAnswer": "4",
     "subject": "math",
     "grade": 11,
     "difficulty": "hard",
-    "explanation": "This is a properly challenging hard level math question for Grade 11",
-    "_cacheBreaker": "1755265388137_19"
+    "explanation": "Factor numerator: (x² - 4) = (x + 2)(x - 2). Cancel (x - 2): lim(x→2) (x + 2) = 4",
+    "_cacheBreaker": "1755775410764_19"
   }
 ]

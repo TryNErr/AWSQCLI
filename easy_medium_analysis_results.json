@@ -1,0 +1,33 @@
+{
+  "needsFix": [
+    {
+      "filename": "1_easy_english.json",
+      "fakeQuestions": 4,
+      "totalQuestions": 20,
+      "sampleContent": [
+        {
+          "index": 1,
+          "content": "Which letter comes after 'B'?...",
+          "issues": [
+            "Generic template options"
+          ]
+        },
+        {
+          "index": 5,
+          "content": "Which letter comes first in the alphabet?...",
+          "issues": [
+            "Generic template options"
+          ]
+        },
+        {
+          "index": 11,
+          "content": "Which letter comes after 'B'?...",
+          "issues": [
+            "Generic template options"
+          ]
+        }
+      ]
+    }
+  ],
+  "timestamp": "2025-08-21T11:29:31.769Z"
+}

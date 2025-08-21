@@ -1,342 +1,342 @@
 [
   {
-    "_id": "english_1_medium_1755261255148_001",
-    "content": "Which letter comes after 'B'?",
+    "_id": "english_1_medium_1755775767508_1",
+    "content": "Which word has the long 'a' sound?",
     "type": "multiple_choice",
     "options": [
-      "A",
-      "C",
-      "D",
-      "E"
+      "cat",
+      "cake",
+      "cap",
+      "can"
     ],
-    "correctAnswer": "C",
-    "subject": "English",
+    "correctAnswer": "cake",
+    "subject": "english",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "The alphabet goes A, B, C, D...",
-    "_cacheBreaker": "1755265388161_0"
+    "explanation": "Cake has the long 'a' sound (ay), while the others have short 'a'.",
+    "_cacheBreaker": "1755775767508_0"
   },
   {
-    "_id": "english_1_medium_1755261255148_002",
-    "content": "What sound does the letter 'M' make?",
+    "_id": "english_1_medium_1755775767508_2",
+    "content": "What type of letter is 'A'?",
     "type": "multiple_choice",
     "options": [
-      "mmm",
-      "nnn",
-      "sss",
-      "zzz"
+      "consonant",
+      "vowel",
+      "number",
+      "symbol"
     ],
-    "correctAnswer": "mmm",
-    "subject": "English",
+    "correctAnswer": "vowel",
+    "subject": "english",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "The letter M makes the 'mmm' sound",
-    "_cacheBreaker": "1755265388161_1"
+    "explanation": "A, E, I, O, U are vowels. All other letters are consonants.",
+    "_cacheBreaker": "1755775767508_1"
   },
   {
-    "_id": "english_1_medium_1755261255148_003",
-    "content": "Which word rhymes with 'cat'?",
+    "_id": "english_1_medium_1755775767508_3",
+    "content": "Which word is a noun?",
     "type": "multiple_choice",
     "options": [
+      "run",
+      "jump",
+      "book",
+      "happy"
+    ],
+    "correctAnswer": "book",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "A noun is a person, place, or thing. Book is a thing.",
+    "_cacheBreaker": "1755775767508_2"
+  },
+  {
+    "_id": "english_1_medium_1755775767508_4",
+    "content": "What do we call words that sound the same?",
+    "type": "multiple_choice",
+    "options": [
+      "rhyming words",
+      "big words",
+      "small words",
+      "funny words"
+    ],
+    "correctAnswer": "rhyming words",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "Words that sound the same, like 'cat' and 'hat', are rhyming words.",
+    "_cacheBreaker": "1755775767508_3"
+  },
+  {
+    "_id": "english_1_medium_1755775767508_5",
+    "content": "Which sentence starts with a capital letter?",
+    "type": "multiple_choice",
+    "options": [
+      "the dog runs.",
+      "The dog runs.",
+      "THE DOG RUNS.",
+      "the Dog runs."
+    ],
+    "correctAnswer": "The dog runs.",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "Sentences should start with a capital letter.",
+    "_cacheBreaker": "1755775767508_4"
+  },
+  {
+    "_id": "english_1_medium_1755775767508_6",
+    "content": "What sound do the letters 'th' make together?",
+    "type": "multiple_choice",
+    "options": [
+      "t-h",
+      "th",
+      "s",
+      "f"
+    ],
+    "correctAnswer": "th",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "The letters 't' and 'h' together make the 'th' sound.",
+    "_cacheBreaker": "1755775767508_5"
+  },
+  {
+    "_id": "english_1_medium_1755775767508_7",
+    "content": "Which word has two syllables?",
+    "type": "multiple_choice",
+    "options": [
+      "cat",
       "dog",
-      "hat",
-      "car",
-      "big"
+      "happy",
+      "run"
     ],
-    "correctAnswer": "hat",
-    "subject": "English",
+    "correctAnswer": "happy",
+    "subject": "english",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "Cat and hat both end with the 'at' sound",
-    "_cacheBreaker": "1755265388161_2"
+    "explanation": "Happy has two parts: hap-py. That means it has two syllables.",
+    "_cacheBreaker": "1755775767508_6"
   },
   {
-    "_id": "english_1_medium_1755261255148_004",
-    "content": "Which letter comes after 'B'? (Question 4)",
+    "_id": "english_1_medium_1755775767508_8",
+    "content": "What do we call the small letters?",
     "type": "multiple_choice",
     "options": [
-      "A",
-      "C",
-      "D",
-      "E"
+      "big letters",
+      "lowercase letters",
+      "uppercase letters",
+      "number letters"
     ],
-    "correctAnswer": "C",
-    "subject": "English",
+    "correctAnswer": "lowercase letters",
+    "subject": "english",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "The alphabet goes A, B, C, D...",
-    "_cacheBreaker": "1755265388161_3"
+    "explanation": "Small letters like 'a', 'b', 'c' are called lowercase letters.",
+    "_cacheBreaker": "1755775767508_7"
   },
   {
-    "_id": "english_1_medium_1755261255148_005",
-    "content": "What sound does the letter 'M' make? (Question 5)",
+    "_id": "english_1_medium_1755775767508_9",
+    "content": "Which word means the opposite of 'big'?",
     "type": "multiple_choice",
     "options": [
-      "mmm",
-      "nnn",
-      "sss",
-      "zzz"
+      "huge",
+      "large",
+      "small",
+      "tall"
     ],
-    "correctAnswer": "mmm",
-    "subject": "English",
+    "correctAnswer": "small",
+    "subject": "english",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "The letter M makes the 'mmm' sound",
-    "_cacheBreaker": "1755265388161_4"
+    "explanation": "Small is the opposite of big.",
+    "_cacheBreaker": "1755775767508_8"
   },
   {
-    "_id": "english_1_medium_1755261255148_006",
-    "content": "Which word rhymes with 'cat'? (Question 6)",
+    "_id": "english_1_medium_1755775767508_10",
+    "content": "What comes at the end of a question?",
     "type": "multiple_choice",
     "options": [
+      "period",
+      "question mark",
+      "comma",
+      "exclamation mark"
+    ],
+    "correctAnswer": "question mark",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "Questions end with a question mark (?).",
+    "_cacheBreaker": "1755775767508_9"
+  },
+  {
+    "_id": "english_1_medium_1755775767508_11",
+    "content": "Which word has the long 'a' sound?",
+    "type": "multiple_choice",
+    "options": [
+      "cat",
+      "cake",
+      "cap",
+      "can"
+    ],
+    "correctAnswer": "cake",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "Cake has the long 'a' sound (ay), while the others have short 'a'.",
+    "_cacheBreaker": "1755775767508_10"
+  },
+  {
+    "_id": "english_1_medium_1755775767508_12",
+    "content": "What type of letter is 'A'?",
+    "type": "multiple_choice",
+    "options": [
+      "consonant",
+      "vowel",
+      "number",
+      "symbol"
+    ],
+    "correctAnswer": "vowel",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "A, E, I, O, U are vowels. All other letters are consonants.",
+    "_cacheBreaker": "1755775767508_11"
+  },
+  {
+    "_id": "english_1_medium_1755775767508_13",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
+      "run",
+      "jump",
+      "book",
+      "happy"
+    ],
+    "correctAnswer": "book",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "A noun is a person, place, or thing. Book is a thing.",
+    "_cacheBreaker": "1755775767508_12"
+  },
+  {
+    "_id": "english_1_medium_1755775767508_14",
+    "content": "What do we call words that sound the same?",
+    "type": "multiple_choice",
+    "options": [
+      "rhyming words",
+      "big words",
+      "small words",
+      "funny words"
+    ],
+    "correctAnswer": "rhyming words",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "Words that sound the same, like 'cat' and 'hat', are rhyming words.",
+    "_cacheBreaker": "1755775767508_13"
+  },
+  {
+    "_id": "english_1_medium_1755775767508_15",
+    "content": "Which sentence starts with a capital letter?",
+    "type": "multiple_choice",
+    "options": [
+      "the dog runs.",
+      "The dog runs.",
+      "THE DOG RUNS.",
+      "the Dog runs."
+    ],
+    "correctAnswer": "The dog runs.",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "Sentences should start with a capital letter.",
+    "_cacheBreaker": "1755775767508_14"
+  },
+  {
+    "_id": "english_1_medium_1755775767508_16",
+    "content": "What sound do the letters 'th' make together?",
+    "type": "multiple_choice",
+    "options": [
+      "t-h",
+      "th",
+      "s",
+      "f"
+    ],
+    "correctAnswer": "th",
+    "subject": "english",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "The letters 't' and 'h' together make the 'th' sound.",
+    "_cacheBreaker": "1755775767508_15"
+  },
+  {
+    "_id": "english_1_medium_1755775767508_17",
+    "content": "Which word has two syllables?",
+    "type": "multiple_choice",
+    "options": [
+      "cat",
       "dog",
-      "hat",
-      "car",
-      "big"
+      "happy",
+      "run"
     ],
-    "correctAnswer": "hat",
-    "subject": "English",
+    "correctAnswer": "happy",
+    "subject": "english",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "Cat and hat both end with the 'at' sound",
-    "_cacheBreaker": "1755265388161_5"
+    "explanation": "Happy has two parts: hap-py. That means it has two syllables.",
+    "_cacheBreaker": "1755775767508_16"
   },
   {
-    "_id": "english_1_medium_1755261255148_007",
-    "content": "Which letter comes after 'B'? (Question 7)",
+    "_id": "english_1_medium_1755775767508_18",
+    "content": "What do we call the small letters?",
     "type": "multiple_choice",
     "options": [
-      "A",
-      "C",
-      "D",
-      "E"
+      "big letters",
+      "lowercase letters",
+      "uppercase letters",
+      "number letters"
     ],
-    "correctAnswer": "C",
-    "subject": "English",
+    "correctAnswer": "lowercase letters",
+    "subject": "english",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "The alphabet goes A, B, C, D...",
-    "_cacheBreaker": "1755265388161_6"
+    "explanation": "Small letters like 'a', 'b', 'c' are called lowercase letters.",
+    "_cacheBreaker": "1755775767508_17"
   },
   {
-    "_id": "english_1_medium_1755261255148_008",
-    "content": "What sound does the letter 'M' make? (Question 8)",
+    "_id": "english_1_medium_1755775767508_19",
+    "content": "Which word means the opposite of 'big'?",
     "type": "multiple_choice",
     "options": [
-      "mmm",
-      "nnn",
-      "sss",
-      "zzz"
+      "huge",
+      "large",
+      "small",
+      "tall"
     ],
-    "correctAnswer": "mmm",
-    "subject": "English",
+    "correctAnswer": "small",
+    "subject": "english",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "The letter M makes the 'mmm' sound",
-    "_cacheBreaker": "1755265388161_7"
+    "explanation": "Small is the opposite of big.",
+    "_cacheBreaker": "1755775767508_18"
   },
   {
-    "_id": "english_1_medium_1755261255148_009",
-    "content": "Which word rhymes with 'cat'? (Question 9)",
+    "_id": "english_1_medium_1755775767508_20",
+    "content": "What comes at the end of a question?",
     "type": "multiple_choice",
     "options": [
-      "dog",
-      "hat",
-      "car",
-      "big"
+      "period",
+      "question mark",
+      "comma",
+      "exclamation mark"
     ],
-    "correctAnswer": "hat",
-    "subject": "English",
+    "correctAnswer": "question mark",
+    "subject": "english",
     "grade": 1,
     "difficulty": "medium",
-    "explanation": "Cat and hat both end with the 'at' sound",
-    "_cacheBreaker": "1755265388161_8"
-  },
-  {
-    "_id": "english_1_medium_1755261255148_010",
-    "content": "Which letter comes after 'B'? (Question 10)",
-    "type": "multiple_choice",
-    "options": [
-      "A",
-      "C",
-      "D",
-      "E"
-    ],
-    "correctAnswer": "C",
-    "subject": "English",
-    "grade": 1,
-    "difficulty": "medium",
-    "explanation": "The alphabet goes A, B, C, D...",
-    "_cacheBreaker": "1755265388161_9"
-  },
-  {
-    "_id": "english_1_medium_1755261255148_011",
-    "content": "What sound does the letter 'M' make? (Question 11)",
-    "type": "multiple_choice",
-    "options": [
-      "mmm",
-      "nnn",
-      "sss",
-      "zzz"
-    ],
-    "correctAnswer": "mmm",
-    "subject": "English",
-    "grade": 1,
-    "difficulty": "medium",
-    "explanation": "The letter M makes the 'mmm' sound",
-    "_cacheBreaker": "1755265388161_10"
-  },
-  {
-    "_id": "english_1_medium_1755261255148_012",
-    "content": "Which word rhymes with 'cat'? (Question 12)",
-    "type": "multiple_choice",
-    "options": [
-      "dog",
-      "hat",
-      "car",
-      "big"
-    ],
-    "correctAnswer": "hat",
-    "subject": "English",
-    "grade": 1,
-    "difficulty": "medium",
-    "explanation": "Cat and hat both end with the 'at' sound",
-    "_cacheBreaker": "1755265388161_11"
-  },
-  {
-    "_id": "english_1_medium_1755261255148_013",
-    "content": "Which letter comes after 'B'? (Question 13)",
-    "type": "multiple_choice",
-    "options": [
-      "A",
-      "C",
-      "D",
-      "E"
-    ],
-    "correctAnswer": "C",
-    "subject": "English",
-    "grade": 1,
-    "difficulty": "medium",
-    "explanation": "The alphabet goes A, B, C, D...",
-    "_cacheBreaker": "1755265388161_12"
-  },
-  {
-    "_id": "english_1_medium_1755261255148_014",
-    "content": "What sound does the letter 'M' make? (Question 14)",
-    "type": "multiple_choice",
-    "options": [
-      "mmm",
-      "nnn",
-      "sss",
-      "zzz"
-    ],
-    "correctAnswer": "mmm",
-    "subject": "English",
-    "grade": 1,
-    "difficulty": "medium",
-    "explanation": "The letter M makes the 'mmm' sound",
-    "_cacheBreaker": "1755265388161_13"
-  },
-  {
-    "_id": "english_1_medium_1755261255148_015",
-    "content": "Which word rhymes with 'cat'? (Question 15)",
-    "type": "multiple_choice",
-    "options": [
-      "dog",
-      "hat",
-      "car",
-      "big"
-    ],
-    "correctAnswer": "hat",
-    "subject": "English",
-    "grade": 1,
-    "difficulty": "medium",
-    "explanation": "Cat and hat both end with the 'at' sound",
-    "_cacheBreaker": "1755265388161_14"
-  },
-  {
-    "_id": "english_1_medium_1755261255148_016",
-    "content": "Which letter comes after 'B'? (Question 16)",
-    "type": "multiple_choice",
-    "options": [
-      "A",
-      "C",
-      "D",
-      "E"
-    ],
-    "correctAnswer": "C",
-    "subject": "English",
-    "grade": 1,
-    "difficulty": "medium",
-    "explanation": "The alphabet goes A, B, C, D...",
-    "_cacheBreaker": "1755265388161_15"
-  },
-  {
-    "_id": "english_1_medium_1755261255148_017",
-    "content": "What sound does the letter 'M' make? (Question 17)",
-    "type": "multiple_choice",
-    "options": [
-      "mmm",
-      "nnn",
-      "sss",
-      "zzz"
-    ],
-    "correctAnswer": "mmm",
-    "subject": "English",
-    "grade": 1,
-    "difficulty": "medium",
-    "explanation": "The letter M makes the 'mmm' sound",
-    "_cacheBreaker": "1755265388161_16"
-  },
-  {
-    "_id": "english_1_medium_1755261255148_018",
-    "content": "Which word rhymes with 'cat'? (Question 18)",
-    "type": "multiple_choice",
-    "options": [
-      "dog",
-      "hat",
-      "car",
-      "big"
-    ],
-    "correctAnswer": "hat",
-    "subject": "English",
-    "grade": 1,
-    "difficulty": "medium",
-    "explanation": "Cat and hat both end with the 'at' sound",
-    "_cacheBreaker": "1755265388161_17"
-  },
-  {
-    "_id": "english_1_medium_1755261255148_019",
-    "content": "Which letter comes after 'B'? (Question 19)",
-    "type": "multiple_choice",
-    "options": [
-      "A",
-      "C",
-      "D",
-      "E"
-    ],
-    "correctAnswer": "C",
-    "subject": "English",
-    "grade": 1,
-    "difficulty": "medium",
-    "explanation": "The alphabet goes A, B, C, D...",
-    "_cacheBreaker": "1755265388161_18"
-  },
-  {
-    "_id": "english_1_medium_1755261255148_020",
-    "content": "What sound does the letter 'M' make? (Question 20)",
-    "type": "multiple_choice",
-    "options": [
-      "mmm",
-      "nnn",
-      "sss",
-      "zzz"
-    ],
-    "correctAnswer": "mmm",
-    "subject": "English",
-    "grade": 1,
-    "difficulty": "medium",
-    "explanation": "The letter M makes the 'mmm' sound",
-    "_cacheBreaker": "1755265388161_19"
+    "explanation": "Questions end with a question mark (?).",
+    "_cacheBreaker": "1755775767508_19"
   }
 ]
