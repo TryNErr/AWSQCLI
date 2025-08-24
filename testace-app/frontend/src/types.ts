@@ -32,6 +32,8 @@ export interface Question {
   isGenerated?: boolean;
   generatedAt?: Date;
   generationMethod?: string;
+  passage?: string; // For reading comprehension questions
+  _cacheBreaker?: string; // For cache invalidation
 }
 
 export interface User {

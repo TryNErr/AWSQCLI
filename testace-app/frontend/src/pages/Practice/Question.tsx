@@ -682,7 +682,77 @@ const Question: React.FC = () => {
               <Chip label={question.difficulty} color="secondary" />
               <Chip label={question.topic} variant="outlined" />
             </Stack>
-            <FormattedText text={question.content} />
+            
+            {/* Display reading passage if it exists */}
+            {question.passage && (
+              <Box sx={{ mb: 3 }}>
+                <Typography 
+                  variant="h6" 
+                  sx={{ 
+                    mb: 2, 
+                    color: 'primary.main',
+                    fontWeight: 'bold',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: 1
+                  }}
+                >
+                  📖 Read this passage:
+                </Typography>
+                
+                <Paper 
+                  elevation={2}
+                  sx={{ 
+                    p: 3, 
+                    mb: 3, 
+                    backgroundColor: 'grey.50',
+                    border: '1px solid',
+                    borderColor: 'primary.light',
+                    borderRadius: 2,
+                    position: 'relative'
+                  }}
+                >
+                  <Typography 
+                    variant="body1" 
+                    sx={{ 
+                      lineHeight: 1.8,
+                      fontSize: '1.1rem',
+                      color: 'text.primary',
+                      fontFamily: 'Georgia, serif',
+                      textAlign: 'justify',
+                      whiteSpace: 'pre-line'
+                    }}
+                  >
+                    {question.passage}
+                  </Typography>
+                  
+                  <Box
+                    sx={{
+                      position: 'absolute',
+                      top: 8,
+                      right: 12,
+                      fontSize: '2rem',
+                      color: 'primary.light',
+                      opacity: 0.3
+                    }}
+                  >
+                    "
+                  </Box>
+                </Paper>
+              </Box>
+            )}
+            
+            {/* Question Content */}
+            <Typography 
+              variant="h6" 
+              sx={{ 
+                mb: 2,
+                color: 'text.primary',
+                fontWeight: 'bold'
+              }}
+            >
+              {question.content}
+            </Typography>
           </Box>
 
           <Divider sx={{ my: 3 }} />

@@ -1,94 +1,122 @@
+#!/usr/bin/env node
+
 const fs = require('fs');
+const path = require('path');
 
-console.log('🔧 FIXING READING PASSAGE DISPLAY IN FRONTEND...');
+// Read the current Question.tsx file
+const questionFilePath = path.join(__dirname, 'testace-app/frontend/src/pages/Practice/Question.tsx');
+let questionContent = fs.readFileSync(questionFilePath, 'utf8');
 
-const enhancedQuestionPath = '/workspaces/AWSQCLI/testace-app/frontend/src/pages/Practice/EnhancedQuestion.tsx';
+// Find the section where the question content is displayed and modify it to handle the passage field
+const oldQuestionDisplay = `          {/* Question Header */}
+          <Box sx={{ mb: 3 }}>
+            <Stack direction="row" spacing={1} sx={{ mb: 2 }}>
+              <Chip label={question.subject} color="primary" />
+              <Chip label={\`Grade \${question.grade}\`} color="info" />
+              <Chip label={question.difficulty} color="secondary" />
+              <Chip label={question.topic} variant="outlined" />
+            </Stack>
+            <FormattedText text={question.content} />
+          </Box>`;
 
-if (fs.existsSync(enhancedQuestionPath)) {
-  let content = fs.readFileSync(enhancedQuestionPath, 'utf8');
-  
-  // Find the section where question content is displayed and add passage display
-  const oldQuestionDisplay = `            <Typography variant="h5" gutterBottom>
-              {question.content}
-            </Typography>`;
-  
-  const newQuestionDisplay = `            {/* Reading Passage - Show for reading questions */}
-            {question.subject === 'Reading' && (question as any).passage && (
-              <Box sx={{ mb: 3, p: 3, backgroundColor: '#f5f5f5', borderRadius: 2 }}>
-                <Typography variant="h6" gutterBottom color="primary">
-                  📖 Reading Passage:
+const newQuestionDisplay = `          {/* Question Header */}
+          <Box sx={{ mb: 3 }}>
+            <Stack direction="row" spacing={1} sx={{ mb: 2 }}>
+              <Chip label={question.subject} color="primary" />
+              <Chip label={\`Grade \${question.grade}\`} color="info" />
+              <Chip label={question.difficulty} color="secondary" />
+              <Chip label={question.topic} variant="outlined" />
+            </Stack>
+            
+            {/* Display reading passage if it exists */}
+            {question.passage && (
+              <Box sx={{ mb: 3 }}>
+                <Typography 
+                  variant="h6" 
+                  sx={{ 
+                    mb: 2, 
+                    color: 'primary.main',
+                    fontWeight: 'bold',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: 1
+                  }}
+                >
+                  📖 Read this passage:
                 </Typography>
-                <Typography variant="body1" sx={{ lineHeight: 1.8, fontFamily: 'serif' }}>
-                  {(question as any).passage}
-                </Typography>
+                
+                <Paper 
+                  elevation={2}
+                  sx={{ 
+                    p: 3, 
+                    mb: 3, 
+                    backgroundColor: 'grey.50',
+                    border: '1px solid',
+                    borderColor: 'primary.light',
+                    borderRadius: 2,
+                    position: 'relative'
+                  }}
+                >
+                  <Typography 
+                    variant="body1" 
+                    sx={{ 
+                      lineHeight: 1.8,
+                      fontSize: '1.1rem',
+                      color: 'text.primary',
+                      fontFamily: 'Georgia, serif',
+                      textAlign: 'justify',
+                      whiteSpace: 'pre-line'
+                    }}
+                  >
+                    {question.passage}
+                  </Typography>
+                  
+                  <Box
+                    sx={{
+                      position: 'absolute',
+                      top: 8,
+                      right: 12,
+                      fontSize: '2rem',
+                      color: 'primary.light',
+                      opacity: 0.3
+                    }}
+                  >
+                    "
+                  </Box>
+                </Paper>
               </Box>
             )}
             
-            <Typography variant="h5" gutterBottom>
+            {/* Question Content */}
+            <Typography 
+              variant="h6" 
+              sx={{ 
+                mb: 2,
+                color: 'text.primary',
+                fontWeight: 'bold'
+              }}
+            >
               {question.content}
-            </Typography>`;
+            </Typography>
+          </Box>`;
+
+// Replace the old display with the new one
+if (questionContent.includes(oldQuestionDisplay)) {
+  questionContent = questionContent.replace(oldQuestionDisplay, newQuestionDisplay);
   
-  // Replace the old display with the new one
-  if (content.includes(oldQuestionDisplay)) {
-    content = content.replace(oldQuestionDisplay, newQuestionDisplay);
-    
-    fs.writeFileSync(enhancedQuestionPath, content);
-    console.log('✅ Updated EnhancedQuestion.tsx to display reading passages');
-  } else {
-    console.log('❌ Could not find the exact pattern to replace in EnhancedQuestion.tsx');
-    console.log('The component structure may have changed. Manual update needed.');
-  }
+  // Write the updated content back to the file
+  fs.writeFileSync(questionFilePath, questionContent);
+  console.log('✅ Successfully updated Question.tsx to display reading passages!');
+  console.log('📖 Reading questions will now show the passage text above the question.');
 } else {
-  console.log('❌ EnhancedQuestion.tsx not found');
+  console.log('❌ Could not find the exact section to replace. The file structure may have changed.');
+  console.log('🔍 Please manually add passage display logic to the Question component.');
 }
 
-// Also check if there are other question display components
-const practiceDir = '/workspaces/AWSQCLI/testace-app/frontend/src/pages/Practice';
-if (fs.existsSync(practiceDir)) {
-  const files = fs.readdirSync(practiceDir);
-  console.log('\n📁 Files in Practice directory:');
-  files.forEach(file => {
-    if (file.endsWith('.tsx') || file.endsWith('.jsx')) {
-      console.log(`  - ${file}`);
-    }
-  });
-}
-
-// Check TimedTest component as well
-const timedTestPath = '/workspaces/AWSQCLI/testace-app/frontend/src/pages/TimedTest/TimedTest.tsx';
-if (fs.existsSync(timedTestPath)) {
-  let content = fs.readFileSync(timedTestPath, 'utf8');
-  
-  // Look for question content display in TimedTest
-  if (content.includes('question.content') && !content.includes('question.passage')) {
-    console.log('\n⚠️  TimedTest.tsx also needs updating for reading passages');
-    
-    // Try to find and update the question display in TimedTest
-    const questionContentPattern = /(\s+)(<Typography[^>]*>\s*\{question\.content\}\s*<\/Typography>)/g;
-    
-    const replacement = `$1{/* Reading Passage for TimedTest */}
-$1{question.subject === 'Reading' && (question as any).passage && (
-$1  <Box sx={{ mb: 2, p: 2, backgroundColor: '#f5f5f5', borderRadius: 1 }}>
-$1    <Typography variant="subtitle1" gutterBottom color="primary">
-$1      📖 Reading Passage:
-$1    </Typography>
-$1    <Typography variant="body2" sx={{ lineHeight: 1.6 }}>
-$1      {(question as any).passage}
-$1    </Typography>
-$1  </Box>
-$1)}
-$1$2`;
-    
-    content = content.replace(questionContentPattern, replacement);
-    fs.writeFileSync(timedTestPath, content);
-    console.log('✅ Updated TimedTest.tsx to display reading passages');
-  }
-}
-
-console.log('\n🎯 READING PASSAGE DISPLAY FIX COMPLETE!');
-console.log('✅ Reading questions will now show the passage before the question');
-console.log('✅ Passages are displayed in a highlighted box with proper formatting');
-console.log('\n📝 Next steps:');
-console.log('1. Restart your development server');
-console.log('2. Hard refresh your browser');
-console.log('3. Reading questions should now show passages!');
+console.log('\n🎯 WHAT WAS FIXED:');
+console.log('• Added check for question.passage field');
+console.log('• Display passage in a styled container when it exists');
+console.log('• Show "Read this passage:" instruction');
+console.log('• Format passage text with proper typography');
+console.log('• Question content displays below the passage');
+console.log('\n✅ Reading comprehension questions will now show passages!');

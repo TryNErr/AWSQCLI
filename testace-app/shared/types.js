@@ -8,30 +8,30 @@ var QuestionType;
     QuestionType["FILL_BLANK"] = "fill_blank";
     QuestionType["ESSAY"] = "essay";
     QuestionType["MATH"] = "math";
-})(QuestionType || (exports.QuestionType = QuestionType = {}));
+})(QuestionType = exports.QuestionType || (exports.QuestionType = {}));
 var DifficultyLevel;
 (function (DifficultyLevel) {
     DifficultyLevel["EASY"] = "easy";
     DifficultyLevel["MEDIUM"] = "medium";
     DifficultyLevel["HARD"] = "hard";
-})(DifficultyLevel || (exports.DifficultyLevel = DifficultyLevel = {}));
+})(DifficultyLevel = exports.DifficultyLevel || (exports.DifficultyLevel = {}));
 var TestMode;
 (function (TestMode) {
     TestMode["PRACTICE"] = "practice";
     TestMode["TIMED"] = "timed";
     TestMode["DAILY_CHALLENGE"] = "daily_challenge";
-})(TestMode || (exports.TestMode = TestMode = {}));
+})(TestMode = exports.TestMode || (exports.TestMode = {}));
 var WritingType;
 (function (WritingType) {
     WritingType["ESSAY"] = "essay";
     WritingType["PARAGRAPH"] = "paragraph";
     WritingType["CREATIVE"] = "creative";
     WritingType["ARGUMENTATIVE"] = "argumentative";
-})(WritingType || (exports.WritingType = WritingType = {}));
+})(WritingType = exports.WritingType || (exports.WritingType = {}));
 var CritiqueStatus;
 (function (CritiqueStatus) {
     CritiqueStatus["PENDING"] = "pending";
     CritiqueStatus["PROCESSING"] = "processing";
     CritiqueStatus["COMPLETED"] = "completed";
     CritiqueStatus["FAILED"] = "failed";
-})(CritiqueStatus || (exports.CritiqueStatus = CritiqueStatus = {}));
+})(CritiqueStatus = exports.CritiqueStatus || (exports.CritiqueStatus = {}));

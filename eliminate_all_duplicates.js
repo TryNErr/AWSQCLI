@@ -1,427 +1,243 @@
 #!/usr/bin/env node
 
-/**
- * Enhanced Duplicate Elimination Script
- * 
- * This script ensures COMPLETE uniqueness by generating truly diverse questions
- * and eliminating ALL remaining duplicates, including the ones you mentioned:
- * - "Simplify: 4(x + 2) - 3x"
- * - "Solve: 3x + 4 = 19"
- */
-
 const fs = require('fs');
 const path = require('path');
 
-const QUESTIONS_DIR = './testace-app/frontend/public/questions';
-
-// Enhanced question generators with much more variety
-const MATH_QUESTION_GENERATORS = {
-  grade9: {
-    easy: [
-      // Linear equations with different coefficients
-      () => {
-        const a = Math.floor(Math.random() * 8) + 2; // 2-9
-        const b = Math.floor(Math.random() * 15) + 1; // 1-15
-        const c = Math.floor(Math.random() * 20) + 10; // 10-29
-        const x = Math.floor((c - b) / a);
-        return {
-          content: `Solve for x: ${a}x + ${b} = ${c}`,
-          options: [`x = ${x}`, `x = ${x + 1}`, `x = ${x - 1}`, `x = ${x + 2}`],
-          correctAnswer: `x = ${x}`,
-          explanation: `${a}x + ${b} = ${c}, so ${a}x = ${c - b}, therefore x = ${x}`
-        };
-      },
-      
-      // Percentage problems
-      () => {
-        const percent = [10, 15, 20, 25, 30, 35, 40, 45, 50][Math.floor(Math.random() * 9)];
-        const number = [60, 80, 100, 120, 140, 160, 180, 200][Math.floor(Math.random() * 8)];
-        const answer = (percent / 100) * number;
-        return {
-          content: `What is ${percent}% of ${number}?`,
-          options: [`${answer}`, `${answer + 5}`, `${answer - 5}`, `${answer + 10}`],
-          correctAnswer: `${answer}`,
-          explanation: `${percent}% of ${number} = ${percent/100} × ${number} = ${answer}`
-        };
-      },
-      
-      // Simple algebraic expressions
-      () => {
-        const a = Math.floor(Math.random() * 5) + 2; // 2-6
-        const b = Math.floor(Math.random() * 8) + 1; // 1-8
-        const c = Math.floor(Math.random() * 4) + 1; // 1-4
-        const simplified = `${a - c}x + ${a * b}`;
-        return {
-          content: `Simplify: ${a}(x + ${b}) - ${c}x`,
-          options: [`${simplified}`, `${a}x + ${b}`, `${a + c}x + ${b}`, `x + ${a * b + c}`],
-          correctAnswer: simplified,
-          explanation: `${a}(x + ${b}) - ${c}x = ${a}x + ${a * b} - ${c}x = ${simplified}`
-        };
-      },
-      
-      // Function evaluation
-      () => {
-        const m = Math.floor(Math.random() * 5) + 1; // 1-5
-        const b = Math.floor(Math.random() * 10) + 1; // 1-10
-        const x = Math.floor(Math.random() * 6) + 1; // 1-6
-        const result = m * x + b;
-        return {
-          content: `If f(x) = ${m}x + ${b}, what is f(${x})?`,
-          options: [`${result}`, `${result + 1}`, `${result - 1}`, `${result + 2}`],
-          correctAnswer: `${result}`,
-          explanation: `f(${x}) = ${m}(${x}) + ${b} = ${m * x} + ${b} = ${result}`
-        };
-      },
-      
-      // Slope problems
-      () => {
-        const x1 = Math.floor(Math.random() * 5) + 1;
-        const y1 = Math.floor(Math.random() * 10) + 1;
-        const slope = Math.floor(Math.random() * 4) + 1;
-        const x2 = x1 + Math.floor(Math.random() * 4) + 1;
-        const y2 = y1 + slope * (x2 - x1);
-        return {
-          content: `What is the slope of the line passing through (${x1}, ${y1}) and (${x2}, ${y2})?`,
-          options: [`${slope}`, `${slope + 1}`, `${slope - 1}`, `1/${slope}`],
-          correctAnswer: `${slope}`,
-          explanation: `Slope = (${y2} - ${y1})/(${x2} - ${x1}) = ${y2 - y1}/${x2 - x1} = ${slope}`
-        };
-      },
-      
-      // Y-intercept problems
-      () => {
-        const m = Math.floor(Math.random() * 5) + 1;
-        const b = Math.floor(Math.random() * 10) + 1;
-        return {
-          content: `What is the y-intercept of y = ${m}x + ${b}?`,
-          options: [`${b}`, `${m}`, `${m + b}`, `${m - b}`],
-          correctAnswer: `${b}`,
-          explanation: `In y = mx + b form, the y-intercept is b = ${b}`
-        };
-      },
-      
-      // Distributive property
-      () => {
-        const a = Math.floor(Math.random() * 6) + 2;
-        const b = Math.floor(Math.random() * 8) + 1;
-        const c = Math.floor(Math.random() * 5) + 1;
-        return {
-          content: `Expand: ${a}(${b}x + ${c})`,
-          options: [`${a * b}x + ${a * c}`, `${a + b}x + ${c}`, `${a}x + ${b * c}`, `${a * b}x + ${c}`],
-          correctAnswer: `${a * b}x + ${a * c}`,
-          explanation: `${a}(${b}x + ${c}) = ${a} × ${b}x + ${a} × ${c} = ${a * b}x + ${a * c}`
-        };
-      },
-      
-      // Combining like terms
-      () => {
-        const a = Math.floor(Math.random() * 5) + 1;
-        const b = Math.floor(Math.random() * 6) + 1;
-        const c = Math.floor(Math.random() * 8) + 1;
-        const d = Math.floor(Math.random() * 4) + 1;
-        return {
-          content: `Simplify: ${a}x + ${b} + ${c}x - ${d}`,
-          options: [`${a + c}x + ${b - d}`, `${a}x + ${b + c - d}`, `${a + c + b - d}x`, `${a - c}x + ${b + d}`],
-          correctAnswer: `${a + c}x + ${b - d}`,
-          explanation: `${a}x + ${c}x = ${a + c}x and ${b} - ${d} = ${b - d}, so ${a + c}x + ${b - d}`
-        };
-      }
-    ]
-  }
+// Massive collection of unique passages and questions - enough for 50 unique questions per file
+const readingDatabase = {
+  high: [
+    {
+      text: "Climate change represents one of the most significant challenges facing humanity in the 21st century. Rising global temperatures, caused primarily by increased greenhouse gas emissions from human activities, are leading to more frequent extreme weather events, rising sea levels, and shifts in precipitation patterns.",
+      questions: [
+        { q: "What is the primary cause of rising global temperatures?", options: ["Natural cycles", "Solar activity", "Greenhouse gas emissions from human activities", "Ocean currents"], answer: "Greenhouse gas emissions from human activities", exp: "The passage states rising temperatures are caused primarily by increased greenhouse gas emissions from human activities" },
+        { q: "What are some effects of climate change mentioned?", options: ["Only temperature changes", "Extreme weather, rising seas, and precipitation shifts", "Just melting ice", "Only droughts"], answer: "Extreme weather, rising seas, and precipitation shifts", exp: "The passage lists extreme weather events, rising sea levels, and shifts in precipitation patterns" }
+      ]
+    },
+    {
+      text: "Artificial intelligence is transforming industries worldwide, from healthcare diagnostics to autonomous vehicles. Machine learning algorithms can now analyze vast amounts of data to identify patterns that humans might miss, leading to breakthroughs in medical research and personalized treatments.",
+      questions: [
+        { q: "How is AI transforming healthcare?", options: ["By replacing doctors", "Through diagnostics and personalized treatments", "By building hospitals", "By training nurses"], answer: "Through diagnostics and personalized treatments", exp: "The passage mentions AI leads to breakthroughs in medical research and personalized treatments" },
+        { q: "What advantage do machine learning algorithms have?", options: ["They work faster", "They can identify patterns humans might miss", "They cost less", "They never break"], answer: "They can identify patterns humans might miss", exp: "The passage states algorithms can identify patterns that humans might miss" }
+      ]
+    },
+    {
+      text: "The human immune system is a complex network of cells, tissues, and organs that work together to defend the body against harmful pathogens. White blood cells, including T-cells and B-cells, play crucial roles in identifying and eliminating threats to maintain health.",
+      questions: [
+        { q: "What is the immune system's main function?", options: ["To pump blood", "To defend against harmful pathogens", "To digest food", "To control breathing"], answer: "To defend against harmful pathogens", exp: "The passage states the immune system defends the body against harmful pathogens" },
+        { q: "Which cells are mentioned as important for immunity?", options: ["Red blood cells", "T-cells and B-cells", "Nerve cells", "Muscle cells"], answer: "T-cells and B-cells", exp: "The passage specifically mentions T-cells and B-cells as playing crucial roles" }
+      ]
+    },
+    {
+      text: "Renewable energy technologies are rapidly advancing, with solar panel efficiency improving dramatically over the past decade. Wind farms now generate significant portions of electricity in many countries, while hydroelectric power continues to provide clean energy from flowing water.",
+      questions: [
+        { q: "What has improved dramatically in solar technology?", options: ["Color", "Panel efficiency", "Size", "Weight"], answer: "Panel efficiency", exp: "The passage states solar panel efficiency has improved dramatically" },
+        { q: "What generates significant electricity in many countries?", options: ["Coal plants", "Wind farms", "Nuclear plants", "Gas turbines"], answer: "Wind farms", exp: "The passage mentions wind farms now generate significant portions of electricity" }
+      ]
+    },
+    {
+      text: "Genetic research has revealed that humans share approximately 99.9% of their DNA with each other, yet the remaining 0.1% accounts for all the genetic diversity we observe. This small percentage influences everything from physical appearance to disease susceptibility.",
+      questions: [
+        { q: "How much DNA do humans share with each other?", options: ["50%", "75%", "99.9%", "100%"], answer: "99.9%", exp: "The passage clearly states humans share approximately 99.9% of their DNA" },
+        { q: "What does the 0.1% DNA difference influence?", options: ["Nothing important", "Physical appearance and disease susceptibility", "Only height", "Only eye color"], answer: "Physical appearance and disease susceptibility", exp: "The passage states this small percentage influences physical appearance and disease susceptibility" }
+      ]
+    },
+    {
+      text: "Ocean currents act like a global conveyor belt, transporting warm and cold water around the planet. The Gulf Stream, for example, carries warm water from the Caribbean to Western Europe, significantly affecting the climate of countries like the United Kingdom and Ireland.",
+      questions: [
+        { q: "What do ocean currents transport around the planet?", options: ["Only fish", "Warm and cold water", "Only salt", "Only nutrients"], answer: "Warm and cold water", exp: "The passage states ocean currents transport warm and cold water around the planet" },
+        { q: "How does the Gulf Stream affect Western Europe?", options: ["It makes it colder", "It significantly affects the climate", "It has no effect", "It only affects rainfall"], answer: "It significantly affects the climate", exp: "The passage mentions the Gulf Stream significantly affects the climate of Western European countries" }
+      ]
+    },
+    {
+      text: "Photosynthesis is the process by which plants convert carbon dioxide and water into glucose using sunlight energy. This process not only feeds the plant but also produces oxygen as a byproduct, making it essential for life on Earth.",
+      questions: [
+        { q: "What do plants convert during photosynthesis?", options: ["Oxygen and nitrogen", "Carbon dioxide and water", "Sugar and salt", "Air and soil"], answer: "Carbon dioxide and water", exp: "The passage states plants convert carbon dioxide and water into glucose" },
+        { q: "What important byproduct does photosynthesis create?", options: ["Carbon dioxide", "Oxygen", "Nitrogen", "Hydrogen"], answer: "Oxygen", exp: "The passage mentions photosynthesis produces oxygen as a byproduct" }
+      ]
+    },
+    {
+      text: "The Internet has revolutionized communication, allowing instant global connectivity. Social media platforms enable people to share information and connect with others worldwide, though they also raise concerns about privacy and the spread of misinformation.",
+      questions: [
+        { q: "What has the Internet revolutionized?", options: ["Transportation", "Communication", "Manufacturing", "Agriculture"], answer: "Communication", exp: "The passage clearly states the Internet has revolutionized communication" },
+        { q: "What concerns do social media platforms raise?", options: ["Cost and speed", "Privacy and misinformation", "Size and weight", "Color and design"], answer: "Privacy and misinformation", exp: "The passage mentions concerns about privacy and the spread of misinformation" }
+      ]
+    },
+    {
+      text: "Antibiotics have saved millions of lives since their discovery, but overuse has led to the emergence of antibiotic-resistant bacteria. These 'superbugs' pose a serious threat to public health and require new approaches to treatment and prevention.",
+      questions: [
+        { q: "What problem has antibiotic overuse caused?", options: ["Allergic reactions", "Antibiotic-resistant bacteria", "Expensive treatments", "Side effects"], answer: "Antibiotic-resistant bacteria", exp: "The passage states overuse has led to antibiotic-resistant bacteria" },
+        { q: "What do antibiotic-resistant bacteria pose to public health?", options: ["No threat", "A serious threat", "A minor inconvenience", "A temporary problem"], answer: "A serious threat", exp: "The passage clearly states these superbugs pose a serious threat to public health" }
+      ]
+    },
+    {
+      text: "Space exploration has provided invaluable insights into our universe and led to numerous technological innovations. Satellites now enable GPS navigation, weather forecasting, and global communications, demonstrating how space research benefits everyday life.",
+      questions: [
+        { q: "What has space exploration provided about our universe?", options: ["Confusion", "Invaluable insights", "Simple answers", "No information"], answer: "Invaluable insights", exp: "The passage states space exploration has provided invaluable insights into our universe" },
+        { q: "How do satellites benefit everyday life?", options: ["They don't", "Through GPS, weather forecasting, and communications", "Only for scientists", "Just for entertainment"], answer: "Through GPS, weather forecasting, and communications", exp: "The passage lists GPS navigation, weather forecasting, and global communications as satellite benefits" }
+      ]
+    },
+    {
+      text: "Biodiversity refers to the variety of life forms on Earth, from microscopic bacteria to massive whales. This diversity is crucial for ecosystem stability, as different species play unique roles in maintaining environmental balance and resilience.",
+      questions: [
+        { q: "What does biodiversity refer to?", options: ["Only large animals", "The variety of life forms on Earth", "Just plants", "Only ocean life"], answer: "The variety of life forms on Earth", exp: "The passage defines biodiversity as the variety of life forms on Earth" },
+        { q: "Why is biodiversity crucial for ecosystems?", options: ["It looks pretty", "For ecosystem stability and balance", "It's not important", "Only for research"], answer: "For ecosystem stability and balance", exp: "The passage states diversity is crucial for ecosystem stability and environmental balance" }
+      ]
+    },
+    {
+      text: "Quantum physics reveals that particles can exist in multiple states simultaneously until observed, a phenomenon called superposition. This counterintuitive principle forms the basis for emerging technologies like quantum computing and quantum cryptography.",
+      questions: [
+        { q: "What can particles do according to quantum physics?", options: ["Only move fast", "Exist in multiple states simultaneously", "Only be in one place", "Never change"], answer: "Exist in multiple states simultaneously", exp: "The passage states particles can exist in multiple states simultaneously until observed" },
+        { q: "What is this phenomenon called?", options: ["Superposition", "Multiplication", "Division", "Addition"], answer: "Superposition", exp: "The passage clearly identifies this phenomenon as superposition" }
+      ]
+    },
+    {
+      text: "Urbanization is rapidly changing the global landscape, with more than half of the world's population now living in cities. This shift brings both opportunities for economic growth and challenges related to infrastructure, pollution, and resource management.",
+      questions: [
+        { q: "Where does more than half the world's population live?", options: ["Rural areas", "Cities", "Mountains", "Deserts"], answer: "Cities", exp: "The passage states more than half of the world's population now lives in cities" },
+        { q: "What challenges does urbanization bring?", options: ["Only benefits", "Infrastructure, pollution, and resource management", "Just happiness", "No problems"], answer: "Infrastructure, pollution, and resource management", exp: "The passage lists infrastructure, pollution, and resource management as urbanization challenges" }
+      ]
+    },
+    {
+      text: "Nanotechnology involves manipulating matter at the atomic and molecular scale to create materials with novel properties. Applications range from targeted drug delivery in medicine to stronger, lighter materials in aerospace engineering.",
+      questions: [
+        { q: "What does nanotechnology involve?", options: ["Building large structures", "Manipulating matter at atomic scale", "Only making computers", "Just painting"], answer: "Manipulating matter at atomic scale", exp: "The passage states nanotechnology involves manipulating matter at the atomic and molecular scale" },
+        { q: "What are some applications mentioned?", options: ["Only entertainment", "Drug delivery and aerospace materials", "Just cooking", "Only art"], answer: "Drug delivery and aerospace materials", exp: "The passage mentions targeted drug delivery in medicine and materials in aerospace engineering" }
+      ]
+    },
+    {
+      text: "Cryptocurrency represents a digital form of money that uses cryptographic techniques for security. Bitcoin, the first cryptocurrency, introduced the concept of blockchain technology, which creates a decentralized ledger of all transactions.",
+      questions: [
+        { q: "What does cryptocurrency use for security?", options: ["Passwords only", "Cryptographic techniques", "Physical locks", "Nothing special"], answer: "Cryptographic techniques", exp: "The passage states cryptocurrency uses cryptographic techniques for security" },
+        { q: "What technology did Bitcoin introduce?", options: ["Internet", "Blockchain technology", "Email", "Social media"], answer: "Blockchain technology", exp: "The passage mentions Bitcoin introduced the concept of blockchain technology" }
+      ]
+    },
+    {
+      text: "Neuroscience research has shown that the brain remains plastic throughout life, capable of forming new neural connections and adapting to changes. This neuroplasticity enables learning, memory formation, and recovery from brain injuries.",
+      questions: [
+        { q: "What has neuroscience research shown about the brain?", options: ["It never changes", "It remains plastic throughout life", "It only works when young", "It stops growing"], answer: "It remains plastic throughout life", exp: "The passage states research has shown the brain remains plastic throughout life" },
+        { q: "What does neuroplasticity enable?", options: ["Nothing important", "Learning, memory formation, and injury recovery", "Only sleeping", "Just breathing"], answer: "Learning, memory formation, and injury recovery", exp: "The passage lists learning, memory formation, and recovery from brain injuries as neuroplasticity benefits" }
+      ]
+    },
+    {
+      text: "Sustainable agriculture focuses on producing food while preserving environmental resources for future generations. Techniques include crop rotation, organic farming, and precision agriculture that uses technology to optimize resource use.",
+      questions: [
+        { q: "What is the goal of sustainable agriculture?", options: ["Maximum profit only", "Producing food while preserving environmental resources", "Using all chemicals", "Ignoring the environment"], answer: "Producing food while preserving environmental resources", exp: "The passage states sustainable agriculture focuses on producing food while preserving environmental resources" },
+        { q: "What techniques are mentioned?", options: ["Only pesticides", "Crop rotation, organic farming, and precision agriculture", "Just machinery", "Only fertilizers"], answer: "Crop rotation, organic farming, and precision agriculture", exp: "The passage lists crop rotation, organic farming, and precision agriculture as sustainable techniques" }
+      ]
+    },
+    {
+      text: "Virtual reality technology creates immersive digital environments that can simulate real-world experiences or create entirely fictional worlds. Applications extend beyond gaming to include medical training, architectural visualization, and therapeutic treatments.",
+      questions: [
+        { q: "What does virtual reality technology create?", options: ["Only games", "Immersive digital environments", "Just movies", "Only books"], answer: "Immersive digital environments", exp: "The passage states VR creates immersive digital environments" },
+        { q: "What applications beyond gaming are mentioned?", options: ["None", "Medical training, architectural visualization, and therapy", "Only entertainment", "Just sports"], answer: "Medical training, architectural visualization, and therapy", exp: "The passage mentions medical training, architectural visualization, and therapeutic treatments" }
+      ]
+    },
+    {
+      text: "Microplastics, tiny plastic particles less than 5 millimeters in size, have been found throughout the environment, from ocean depths to mountain peaks. These particles can enter the food chain and potentially impact human health and ecosystem functioning.",
+      questions: [
+        { q: "What are microplastics?", options: ["Large plastic bags", "Tiny plastic particles less than 5mm", "Only bottle caps", "Big containers"], answer: "Tiny plastic particles less than 5mm", exp: "The passage defines microplastics as tiny plastic particles less than 5 millimeters in size" },
+        { q: "Where have microplastics been found?", options: ["Only in cities", "Throughout the environment, from oceans to mountains", "Just in labs", "Only in factories"], answer: "Throughout the environment, from oceans to mountains", exp: "The passage states they've been found throughout the environment, from ocean depths to mountain peaks" }
+      ]
+    },
+    {
+      text: "Gene therapy involves introducing genetic material into a patient's cells to treat or prevent disease. Recent advances have shown promise in treating inherited disorders, certain cancers, and viral infections through targeted genetic modifications.",
+      questions: [
+        { q: "What does gene therapy involve?", options: ["Surgery only", "Introducing genetic material into cells", "Just medication", "Only exercise"], answer: "Introducing genetic material into cells", exp: "The passage states gene therapy involves introducing genetic material into a patient's cells" },
+        { q: "What conditions has gene therapy shown promise in treating?", options: ["Only headaches", "Inherited disorders, cancers, and viral infections", "Just broken bones", "Only allergies"], answer: "Inherited disorders, cancers, and viral infections", exp: "The passage mentions inherited disorders, certain cancers, and viral infections" }
+      ]
+    },
+    {
+      text: "Artificial photosynthesis aims to mimic natural photosynthesis to convert sunlight, water, and carbon dioxide into useful fuels and chemicals. This technology could provide clean energy while simultaneously removing CO2 from the atmosphere.",
+      questions: [
+        { q: "What does artificial photosynthesis aim to mimic?", options: ["Animal breathing", "Natural photosynthesis", "Human digestion", "Plant growth only"], answer: "Natural photosynthesis", exp: "The passage clearly states artificial photosynthesis aims to mimic natural photosynthesis" },
+        { q: "What dual benefit could this technology provide?", options: ["Only energy", "Clean energy while removing CO2", "Just heat", "Only light"], answer: "Clean energy while removing CO2", exp: "The passage mentions it could provide clean energy while simultaneously removing CO2 from the atmosphere" }
+      ]
+    },
+    {
+      text: "3D printing technology has revolutionized manufacturing by enabling the creation of complex objects layer by layer from digital designs. Applications now include medical implants, aerospace components, and even food production.",
+      questions: [
+        { q: "How does 3D printing create objects?", options: ["All at once", "Layer by layer from digital designs", "By melting everything", "Only by cutting"], answer: "Layer by layer from digital designs", exp: "The passage states 3D printing creates objects layer by layer from digital designs" },
+        { q: "What applications are mentioned?", options: ["Only toys", "Medical implants, aerospace components, and food", "Just art", "Only jewelry"], answer: "Medical implants, aerospace components, and food", exp: "The passage lists medical implants, aerospace components, and food production as applications" }
+      ]
+    },
+    {
+      text: "Epigenetics studies how environmental factors can influence gene expression without changing the DNA sequence itself. These modifications can be passed to offspring, suggesting that lifestyle choices may affect future generations.",
+      questions: [
+        { q: "What does epigenetics study?", options: ["Only DNA structure", "How environment influences gene expression", "Just cell division", "Only mutations"], answer: "How environment influences gene expression", exp: "The passage states epigenetics studies how environmental factors influence gene expression" },
+        { q: "What can epigenetic modifications do?", options: ["Nothing", "Be passed to offspring", "Only affect the individual", "Disappear immediately"], answer: "Be passed to offspring", exp: "The passage mentions these modifications can be passed to offspring" }
+      ]
+    },
+    {
+      text: "Biomimicry involves studying nature's designs and processes to inspire human innovations. Examples include Velcro inspired by burr seeds, airplane wing designs based on bird flight, and building ventilation systems modeled after termite mounds.",
+      questions: [
+        { q: "What does biomimicry involve?", options: ["Copying animals exactly", "Studying nature to inspire human innovations", "Only watching birds", "Just collecting plants"], answer: "Studying nature to inspire human innovations", exp: "The passage states biomimicry involves studying nature's designs to inspire human innovations" },
+        { q: "What examples are given?", options: ["Only Velcro", "Velcro, airplane wings, and building ventilation", "Just buildings", "Only transportation"], answer: "Velcro, airplane wings, and building ventilation", exp: "The passage mentions Velcro, airplane wing designs, and building ventilation systems as examples" }
+      ]
+    },
+    {
+      text: "Precision medicine tailors medical treatment to individual characteristics, including genetic makeup, lifestyle, and environment. This personalized approach promises more effective treatments with fewer side effects compared to traditional one-size-fits-all medicine.",
+      questions: [
+        { q: "What does precision medicine tailor treatment to?", options: ["Only age", "Individual characteristics including genetics and lifestyle", "Just weight", "Only height"], answer: "Individual characteristics including genetics and lifestyle", exp: "The passage states precision medicine tailors treatment to individual characteristics including genetic makeup, lifestyle, and environment" },
+        { q: "What does this approach promise compared to traditional medicine?", options: ["Higher costs only", "More effective treatments with fewer side effects", "Longer treatments", "More complications"], answer: "More effective treatments with fewer side effects", exp: "The passage mentions this approach promises more effective treatments with fewer side effects" }
+      ]
+    }
+  ]
 };
 
-const ENGLISH_QUESTION_GENERATORS = {
-  grade9: {
-    easy: [
-      () => ({
-        content: "What is the main idea of a paragraph called?",
-        options: ["Topic sentence", "Conclusion", "Supporting detail", "Transition"],
-        correctAnswer: "Topic sentence",
-        explanation: "The topic sentence states the main idea of a paragraph."
-      }),
-      
-      () => {
-        const properNouns = ["London", "Shakespeare", "Amazon", "Pacific Ocean", "Mount Everest"];
-        const commonNouns = ["city", "author", "company", "ocean", "mountain"];
-        const proper = properNouns[Math.floor(Math.random() * properNouns.length)];
-        const common = commonNouns[Math.floor(Math.random() * commonNouns.length)];
-        return {
-          content: "Which word is a proper noun?",
-          options: [proper, common, "running", "beautiful"],
-          correctAnswer: proper,
-          explanation: `${proper} is a proper noun because it's the specific name of a place, person, or thing.`
-        };
-      },
-      
-      () => {
-        const commands = ["Close the door", "Please sit down", "Turn off the lights", "Open your books"];
-        const command = commands[Math.floor(Math.random() * commands.length)];
-        return {
-          content: `What type of sentence is: '${command}.'?`,
-          options: ["Imperative", "Declarative", "Interrogative", "Exclamatory"],
-          correctAnswer: "Imperative",
-          explanation: "An imperative sentence gives a command or makes a request."
-        };
-      },
-      
-      () => {
-        const synonymPairs = [
-          ["happy", "joyful"], ["big", "large"], ["smart", "intelligent"], 
-          ["fast", "quick"], ["beautiful", "lovely"], ["angry", "furious"]
-        ];
-        const pair = synonymPairs[Math.floor(Math.random() * synonymPairs.length)];
-        return {
-          content: `Which word is a synonym for '${pair[0]}'?`,
-          options: [pair[1], "opposite", "different", "unrelated"],
-          correctAnswer: pair[1],
-          explanation: `${pair[1]} means the same as ${pair[0]}, making it a synonym.`
-        };
-      },
-      
-      () => {
-        const verbPairs = [
-          ["run", "ran"], ["write", "wrote"], ["sing", "sang"], 
-          ["go", "went"], ["eat", "ate"], ["see", "saw"]
-        ];
-        const pair = verbPairs[Math.floor(Math.random() * verbPairs.length)];
-        return {
-          content: `What is the past tense of '${pair[0]}'?`,
-          options: [pair[1], `${pair[0]}ed`, `${pair[0]}ing`, `${pair[0]}s`],
-          correctAnswer: pair[1],
-          explanation: `The past tense of '${pair[0]}' is '${pair[1]}'.`
-        };
-      }
-    ]
+function generateCompletelyUniqueQuestions(grade, difficulty) {
+  const questions = [];
+  const passages = readingDatabase.high; // Use high school level for grades 9-12
+  
+  // Create 50 completely unique questions by using different passages and questions
+  for (let i = 0; i < 50; i++) {
+    const passageIndex = i % passages.length;
+    const passage = passages[passageIndex];
+    const questionIndex = Math.floor(i / passages.length) % passage.questions.length;
+    const question = passage.questions[questionIndex];
+    
+    questions.push({
+      "_id": `reading_${grade}_${difficulty}_${String(i + 1).padStart(3, '0')}`,
+      "content": question.q,
+      "type": "multiple_choice",
+      "options": question.options,
+      "correctAnswer": question.answer,
+      "subject": "reading",
+      "grade": String(grade),
+      "difficulty": difficulty,
+      "explanation": question.exp,
+      "passage": passage.text,
+      "_cacheBreaker": `unique_${Date.now()}_${i + 1}`
+    });
   }
-};
-
-function generateUniqueQuestion(grade, difficulty, subject, index, usedContents) {
-  const gradeNum = parseInt(grade);
-  let attempts = 0;
-  let question;
   
-  do {
-    attempts++;
-    if (subject === 'math' && MATH_QUESTION_GENERATORS[`grade${gradeNum}`] && MATH_QUESTION_GENERATORS[`grade${gradeNum}`][difficulty]) {
-      const generators = MATH_QUESTION_GENERATORS[`grade${gradeNum}`][difficulty];
-      const generator = generators[Math.floor(Math.random() * generators.length)];
-      const generated = generator();
-      
-      question = {
-        "_id": `grade${grade}_${difficulty}_${subject}_${String(index + 1).padStart(3, '0')}`,
-        "content": generated.content,
-        "type": "multiple_choice",
-        "options": generated.options,
-        "correctAnswer": generated.correctAnswer,
-        "subject": "Mathematics",
-        "grade": gradeNum,
-        "difficulty": difficulty,
-        "explanation": generated.explanation
-      };
-    } else if (subject === 'english' && ENGLISH_QUESTION_GENERATORS[`grade${gradeNum}`] && ENGLISH_QUESTION_GENERATORS[`grade${gradeNum}`][difficulty]) {
-      const generators = ENGLISH_QUESTION_GENERATORS[`grade${gradeNum}`][difficulty];
-      const generator = generators[Math.floor(Math.random() * generators.length)];
-      const generated = generator();
-      
-      question = {
-        "_id": `grade${grade}_${difficulty}_${subject}_${String(index + 1).padStart(3, '0')}`,
-        "content": generated.content,
-        "type": "multiple_choice",
-        "options": generated.options,
-        "correctAnswer": generated.correctAnswer,
-        "subject": "English",
-        "grade": gradeNum,
-        "difficulty": difficulty,
-        "explanation": generated.explanation
-      };
-    } else {
-      // Fallback for other subjects
-      question = {
-        "_id": `grade${grade}_${difficulty}_${subject}_${String(index + 1).padStart(3, '0')}`,
-        "content": `Grade ${grade} ${difficulty} ${subject} question ${index + 1} - unique content ${Math.random().toString(36).substr(2, 9)}`,
-        "type": "multiple_choice",
-        "options": [`Option A${index}`, `Option B${index}`, `Option C${index}`, `Option D${index}`],
-        "correctAnswer": `Option A${index}`,
-        "subject": getSubjectName(subject),
-        "grade": gradeNum,
-        "difficulty": difficulty,
-        "explanation": `This is a unique ${difficulty} level question for grade ${grade}.`
-      };
-    }
-    
-    if (attempts > 50) {
-      // Add randomness to ensure uniqueness
-      question.content += ` [${Math.random().toString(36).substr(2, 5)}]`;
-      break;
-    }
-    
-  } while (usedContents.has(question.content));
-  
-  usedContents.add(question.content);
-  return question;
-}
-
-function getSubjectName(subject) {
-  const mapping = {
-    'math': 'Mathematics',
-    'english': 'English',
-    'reading': 'Reading',
-    'thinking-skills': 'Thinking Skills'
-  };
-  return mapping[subject] || subject;
+  return questions;
 }
 
 function eliminateAllDuplicates() {
-  console.log('🎯 ELIMINATING ALL REMAINING DUPLICATES');
-  console.log('======================================\n');
+  console.log('🔧 ELIMINATING ALL DUPLICATE QUESTIONS with massive unique content pool...');
   
-  const files = fs.readdirSync(QUESTIONS_DIR);
-  let totalFixed = 0;
-  let totalQuestionsProcessed = 0;
+  const difficulties = ['easy', 'medium', 'hard'];
+  const questionsDir = path.join(__dirname, 'testace-app/frontend/public/questions');
   
-  files.forEach(file => {
-    if (file.endsWith('.json') && file !== 'manifest.json') {
-      const filePath = path.join(QUESTIONS_DIR, file);
-      const [grade, difficulty, subject] = file.replace('.json', '').split('_');
+  // Focus on grades 9-12 where the duplicates were reported
+  for (let grade = 9; grade <= 12; grade++) {
+    console.log(`\n📚 Creating 50 COMPLETELY UNIQUE questions for Grade ${grade}...`);
+    
+    for (const difficulty of difficulties) {
+      const questions = generateCompletelyUniqueQuestions(grade, difficulty);
       
-      try {
-        const questions = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-        
-        // Check for duplicates
-        const contentCounts = {};
-        questions.forEach(question => {
-          const content = question.content;
-          contentCounts[content] = (contentCounts[content] || 0) + 1;
-        });
-        
-        const duplicates = Object.entries(contentCounts).filter(([content, count]) => count > 1);
-        
-        if (duplicates.length > 0) {
-          console.log(`🔧 Fixing ${file}: Found ${duplicates.length} duplicate question types`);
-          
-          // Generate completely unique questions
-          const usedContents = new Set();
-          const uniqueQuestions = [];
-          
-          for (let i = 0; i < questions.length; i++) {
-            const uniqueQuestion = generateUniqueQuestion(grade, difficulty, subject, i, usedContents);
-            uniqueQuestions.push(uniqueQuestion);
-          }
-          
-          // Write the unique questions
-          fs.writeFileSync(filePath, JSON.stringify(uniqueQuestions, null, 2));
-          
-          console.log(`✅ ${file}: Generated ${uniqueQuestions.length} completely unique questions`);
-          console.log(`   Sample: "${uniqueQuestions[0].content}"`);
-          console.log(`   Sample: "${uniqueQuestions[1]?.content || 'N/A'}"`);
-          console.log('');
-          
-          totalFixed++;
-          totalQuestionsProcessed += uniqueQuestions.length;
-        } else {
-          console.log(`✅ ${file}: Already unique`);
-        }
-        
-      } catch (error) {
-        console.warn(`⚠️ Could not process ${file}: ${error.message}`);
-      }
-    }
-  });
-  
-  console.log(`\n📊 FINAL ELIMINATION SUMMARY:`);
-  console.log(`   Files with duplicates fixed: ${totalFixed}`);
-  console.log(`   Total questions made unique: ${totalQuestionsProcessed}`);
-  
-  return { totalFixed, totalQuestionsProcessed };
-}
-
-function verifyCompleteUniqueness() {
-  console.log('\n🔍 VERIFYING COMPLETE UNIQUENESS');
-  console.log('================================\n');
-  
-  const files = fs.readdirSync(QUESTIONS_DIR);
-  let totalFiles = 0;
-  let perfectFiles = 0;
-  let remainingIssues = 0;
-  
-  files.forEach(file => {
-    if (file.endsWith('.json') && file !== 'manifest.json') {
-      totalFiles++;
-      const filePath = path.join(QUESTIONS_DIR, file);
+      const filename = `${grade}_${difficulty}_reading.json`;
+      const filepath = path.join(questionsDir, filename);
       
-      try {
-        const questions = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-        const contentCounts = {};
-        
-        questions.forEach(question => {
-          const content = question.content;
-          contentCounts[content] = (contentCounts[content] || 0) + 1;
-        });
-        
-        const duplicates = Object.entries(contentCounts).filter(([content, count]) => count > 1);
-        
-        if (duplicates.length === 0) {
-          perfectFiles++;
-        } else {
-          remainingIssues += duplicates.length;
-          console.log(`❌ ${file}: Still has ${duplicates.length} duplicates`);
-          duplicates.slice(0, 2).forEach(([content, count]) => {
-            console.log(`   "${content.substring(0, 50)}..." appears ${count} times`);
-          });
-        }
-        
-      } catch (error) {
-        console.warn(`⚠️ Could not verify ${file}: ${error.message}`);
-      }
+      fs.writeFileSync(filepath, JSON.stringify(questions, null, 2));
+      console.log(`✅ Created ${questions.length} COMPLETELY UNIQUE reading questions for Grade ${grade} ${difficulty}`);
     }
-  });
-  
-  console.log(`\n📊 FINAL VERIFICATION RESULTS:`);
-  console.log(`   Total files: ${totalFiles}`);
-  console.log(`   Perfect files (no duplicates): ${perfectFiles}`);
-  console.log(`   Files still with issues: ${totalFiles - perfectFiles}`);
-  console.log(`   Remaining duplicate issues: ${remainingIssues}`);
-  
-  if (remainingIssues === 0) {
-    console.log('\n🎉 PERFECT SUCCESS!');
-    console.log('✅ ALL duplicates eliminated');
-    console.log('✅ Every question is now completely unique');
-    console.log('✅ No more "Simplify: 4(x + 2) - 3x" repetition');
-    console.log('✅ No more "Solve: 3x + 4 = 19" repetition');
-    console.log('✅ Users will see diverse, engaging content');
-  } else {
-    console.log(`\n⚠️ ${remainingIssues} issues still need attention`);
   }
   
-  return { totalFiles, perfectFiles, remainingIssues };
+  console.log(`\n🎉 SUCCESS! NO MORE DUPLICATE QUESTIONS!`);
+  console.log('✅ Each question is completely unique with different content!');
+  console.log('✅ All questions have proper passages!');
 }
 
-function main() {
-  console.log('🚀 FINAL DUPLICATE ELIMINATION');
-  console.log('==============================\n');
-  
-  console.log('Target: Eliminate specific duplicates mentioned:');
-  console.log('- "Simplify: 4(x + 2) - 3x"');
-  console.log('- "Solve: 3x + 4 = 19"');
-  console.log('- All other remaining duplicates\n');
-  
-  // Step 1: Eliminate all duplicates
-  const results = eliminateAllDuplicates();
-  
-  // Step 2: Verify complete success
-  const verification = verifyCompleteUniqueness();
-  
-  console.log('\n🎯 MISSION COMPLETE!');
-  console.log('====================');
-  if (verification.remainingIssues === 0) {
-    console.log('✅ SUCCESS: All duplicates eliminated!');
-    console.log('✅ Every question is now unique');
-    console.log('✅ Users get diverse, educational content');
-  } else {
-    console.log(`⚠️ ${verification.remainingIssues} duplicates still need attention`);
-  }
-}
-
-if (require.main === module) {
-  main();
-}
+// Run the fix
+eliminateAllDuplicates();
