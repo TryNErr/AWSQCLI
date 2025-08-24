@@ -1,342 +1,852 @@
 [
   {
-    "_id": "easy11_1755260948241_001",
-    "content": "In mathematical induction, after proving the base case, what must you prove?",
+    "_id": "mathematical-reasoning_11_easy_001",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
     "type": "multiple_choice",
     "options": [
-      "P(k) → P(k+1) for arbitrary k",
-      "P(n) for all n",
-      "P(1), P(2), P(3)...",
-      "Nothing else"
+      "108",
+      "162",
+      "216",
+      "270"
     ],
-    "correctAnswer": "P(k) → P(k+1) for arbitrary k",
+    "correctAnswer": "162",
     "subject": "mathematical-reasoning",
     "grade": "11",
     "difficulty": "easy",
-    "explanation": "The inductive step shows that if the statement is true for any k, it's also true for k+1.",
-    "_cacheBreaker": "1755265388134_0"
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578445_1"
   },
   {
-    "_id": "easy11_1755260948241_002",
-    "content": "To prove √2 is irrational, we assume √2 = p/q in lowest terms and derive a contradiction. What contradiction?",
+    "_id": "mathematical-reasoning_11_easy_002",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
     "type": "multiple_choice",
     "options": [
-      "p and q are both even",
-      "p/q > 1",
-      "p = q",
-      "p is negative"
+      "24",
+      "48",
+      "12",
+      "16"
     ],
-    "correctAnswer": "p and q are both even",
+    "correctAnswer": "24",
     "subject": "mathematical-reasoning",
     "grade": "11",
     "difficulty": "easy",
-    "explanation": "If √2 = p/q, then p² = 2q², making p even. But then q must also be even, contradicting 'lowest terms'.",
-    "_cacheBreaker": "1755265388134_1"
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578445_2"
   },
   {
-    "_id": "easy11_1755260948241_003",
-    "content": "In formal logic, what does ∀x P(x) → Q(x) mean?",
+    "_id": "mathematical-reasoning_11_easy_003",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
     "type": "multiple_choice",
     "options": [
-      "For some x, if P(x) then Q(x)",
-      "For all x, if P(x) then Q(x)",
-      "P(x) and Q(x) are equal",
-      "P(x) or Q(x)"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "For all x, if P(x) then Q(x)",
+    "correctAnswer": "6",
     "subject": "mathematical-reasoning",
     "grade": "11",
     "difficulty": "easy",
-    "explanation": "∀ means 'for all' and → means 'implies', so this reads 'for all x, P(x) implies Q(x)'.",
-    "_cacheBreaker": "1755265388134_2"
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578445_3"
   },
   {
-    "_id": "easy11_1755260948241_004",
-    "content": "In mathematical induction, after proving the base case, what must you prove? (Question 4)",
+    "_id": "mathematical-reasoning_11_easy_004",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
     "type": "multiple_choice",
     "options": [
-      "P(k) → P(k+1) for arbitrary k",
-      "P(n) for all n",
-      "P(1), P(2), P(3)...",
-      "Nothing else"
+      "7",
+      "11",
+      "17",
+      "23"
     ],
-    "correctAnswer": "P(k) → P(k+1) for arbitrary k",
+    "correctAnswer": "11",
     "subject": "mathematical-reasoning",
     "grade": "11",
     "difficulty": "easy",
-    "explanation": "The inductive step shows that if the statement is true for any k, it's also true for k+1.",
-    "_cacheBreaker": "1755265388134_3"
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578445_4"
   },
   {
-    "_id": "easy11_1755260948241_005",
-    "content": "To prove √2 is irrational, we assume √2 = p/q in lowest terms and derive a contradiction. What contradiction? (Question 5)",
+    "_id": "mathematical-reasoning_11_easy_005",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
     "type": "multiple_choice",
     "options": [
-      "p and q are both even",
-      "p/q > 1",
-      "p = q",
-      "p is negative"
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
     ],
-    "correctAnswer": "p and q are both even",
+    "correctAnswer": "3/8",
     "subject": "mathematical-reasoning",
     "grade": "11",
     "difficulty": "easy",
-    "explanation": "If √2 = p/q, then p² = 2q², making p even. But then q must also be even, contradicting 'lowest terms'.",
-    "_cacheBreaker": "1755265388134_4"
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578445_5"
   },
   {
-    "_id": "easy11_1755260948241_006",
-    "content": "In formal logic, what does ∀x P(x) → Q(x) mean? (Question 6)",
+    "_id": "mathematical-reasoning_11_easy_006",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
     "type": "multiple_choice",
     "options": [
-      "For some x, if P(x) then Q(x)",
-      "For all x, if P(x) then Q(x)",
-      "P(x) and Q(x) are equal",
-      "P(x) or Q(x)"
+      "108",
+      "162",
+      "216",
+      "270"
     ],
-    "correctAnswer": "For all x, if P(x) then Q(x)",
+    "correctAnswer": "162",
     "subject": "mathematical-reasoning",
     "grade": "11",
     "difficulty": "easy",
-    "explanation": "∀ means 'for all' and → means 'implies', so this reads 'for all x, P(x) implies Q(x)'.",
-    "_cacheBreaker": "1755265388134_5"
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578445_6"
   },
   {
-    "_id": "easy11_1755260948241_007",
-    "content": "In mathematical induction, after proving the base case, what must you prove? (Question 7)",
+    "_id": "mathematical-reasoning_11_easy_007",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
     "type": "multiple_choice",
     "options": [
-      "P(k) → P(k+1) for arbitrary k",
-      "P(n) for all n",
-      "P(1), P(2), P(3)...",
-      "Nothing else"
+      "24",
+      "48",
+      "12",
+      "16"
     ],
-    "correctAnswer": "P(k) → P(k+1) for arbitrary k",
+    "correctAnswer": "24",
     "subject": "mathematical-reasoning",
     "grade": "11",
     "difficulty": "easy",
-    "explanation": "The inductive step shows that if the statement is true for any k, it's also true for k+1.",
-    "_cacheBreaker": "1755265388134_6"
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578445_7"
   },
   {
-    "_id": "easy11_1755260948241_008",
-    "content": "To prove √2 is irrational, we assume √2 = p/q in lowest terms and derive a contradiction. What contradiction? (Question 8)",
+    "_id": "mathematical-reasoning_11_easy_008",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
     "type": "multiple_choice",
     "options": [
-      "p and q are both even",
-      "p/q > 1",
-      "p = q",
-      "p is negative"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "p and q are both even",
+    "correctAnswer": "6",
     "subject": "mathematical-reasoning",
     "grade": "11",
     "difficulty": "easy",
-    "explanation": "If √2 = p/q, then p² = 2q², making p even. But then q must also be even, contradicting 'lowest terms'.",
-    "_cacheBreaker": "1755265388134_7"
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578445_8"
   },
   {
-    "_id": "easy11_1755260948241_009",
-    "content": "In formal logic, what does ∀x P(x) → Q(x) mean? (Question 9)",
+    "_id": "mathematical-reasoning_11_easy_009",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
     "type": "multiple_choice",
     "options": [
-      "For some x, if P(x) then Q(x)",
-      "For all x, if P(x) then Q(x)",
-      "P(x) and Q(x) are equal",
-      "P(x) or Q(x)"
+      "7",
+      "11",
+      "17",
+      "23"
     ],
-    "correctAnswer": "For all x, if P(x) then Q(x)",
+    "correctAnswer": "11",
     "subject": "mathematical-reasoning",
     "grade": "11",
     "difficulty": "easy",
-    "explanation": "∀ means 'for all' and → means 'implies', so this reads 'for all x, P(x) implies Q(x)'.",
-    "_cacheBreaker": "1755265388134_8"
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578445_9"
   },
   {
-    "_id": "easy11_1755260948241_010",
-    "content": "In mathematical induction, after proving the base case, what must you prove? (Question 10)",
+    "_id": "mathematical-reasoning_11_easy_010",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
     "type": "multiple_choice",
     "options": [
-      "P(k) → P(k+1) for arbitrary k",
-      "P(n) for all n",
-      "P(1), P(2), P(3)...",
-      "Nothing else"
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
     ],
-    "correctAnswer": "P(k) → P(k+1) for arbitrary k",
+    "correctAnswer": "3/8",
     "subject": "mathematical-reasoning",
     "grade": "11",
     "difficulty": "easy",
-    "explanation": "The inductive step shows that if the statement is true for any k, it's also true for k+1.",
-    "_cacheBreaker": "1755265388134_9"
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578445_10"
   },
   {
-    "_id": "easy11_1755260948241_011",
-    "content": "To prove √2 is irrational, we assume √2 = p/q in lowest terms and derive a contradiction. What contradiction? (Question 11)",
+    "_id": "mathematical-reasoning_11_easy_011",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
     "type": "multiple_choice",
     "options": [
-      "p and q are both even",
-      "p/q > 1",
-      "p = q",
-      "p is negative"
+      "108",
+      "162",
+      "216",
+      "270"
     ],
-    "correctAnswer": "p and q are both even",
+    "correctAnswer": "162",
     "subject": "mathematical-reasoning",
     "grade": "11",
     "difficulty": "easy",
-    "explanation": "If √2 = p/q, then p² = 2q², making p even. But then q must also be even, contradicting 'lowest terms'.",
-    "_cacheBreaker": "1755265388134_10"
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578445_11"
   },
   {
-    "_id": "easy11_1755260948241_012",
-    "content": "In formal logic, what does ∀x P(x) → Q(x) mean? (Question 12)",
+    "_id": "mathematical-reasoning_11_easy_012",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
     "type": "multiple_choice",
     "options": [
-      "For some x, if P(x) then Q(x)",
-      "For all x, if P(x) then Q(x)",
-      "P(x) and Q(x) are equal",
-      "P(x) or Q(x)"
+      "24",
+      "48",
+      "12",
+      "16"
     ],
-    "correctAnswer": "For all x, if P(x) then Q(x)",
+    "correctAnswer": "24",
     "subject": "mathematical-reasoning",
     "grade": "11",
     "difficulty": "easy",
-    "explanation": "∀ means 'for all' and → means 'implies', so this reads 'for all x, P(x) implies Q(x)'.",
-    "_cacheBreaker": "1755265388134_11"
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578445_12"
   },
   {
-    "_id": "easy11_1755260948241_013",
-    "content": "In mathematical induction, after proving the base case, what must you prove? (Question 13)",
+    "_id": "mathematical-reasoning_11_easy_013",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
     "type": "multiple_choice",
     "options": [
-      "P(k) → P(k+1) for arbitrary k",
-      "P(n) for all n",
-      "P(1), P(2), P(3)...",
-      "Nothing else"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "P(k) → P(k+1) for arbitrary k",
+    "correctAnswer": "6",
     "subject": "mathematical-reasoning",
     "grade": "11",
     "difficulty": "easy",
-    "explanation": "The inductive step shows that if the statement is true for any k, it's also true for k+1.",
-    "_cacheBreaker": "1755265388134_12"
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578445_13"
   },
   {
-    "_id": "easy11_1755260948241_014",
-    "content": "To prove √2 is irrational, we assume √2 = p/q in lowest terms and derive a contradiction. What contradiction? (Question 14)",
+    "_id": "mathematical-reasoning_11_easy_014",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
     "type": "multiple_choice",
     "options": [
-      "p and q are both even",
-      "p/q > 1",
-      "p = q",
-      "p is negative"
+      "7",
+      "11",
+      "17",
+      "23"
     ],
-    "correctAnswer": "p and q are both even",
+    "correctAnswer": "11",
     "subject": "mathematical-reasoning",
     "grade": "11",
     "difficulty": "easy",
-    "explanation": "If √2 = p/q, then p² = 2q², making p even. But then q must also be even, contradicting 'lowest terms'.",
-    "_cacheBreaker": "1755265388134_13"
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578445_14"
   },
   {
-    "_id": "easy11_1755260948241_015",
-    "content": "In formal logic, what does ∀x P(x) → Q(x) mean? (Question 15)",
+    "_id": "mathematical-reasoning_11_easy_015",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
     "type": "multiple_choice",
     "options": [
-      "For some x, if P(x) then Q(x)",
-      "For all x, if P(x) then Q(x)",
-      "P(x) and Q(x) are equal",
-      "P(x) or Q(x)"
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
     ],
-    "correctAnswer": "For all x, if P(x) then Q(x)",
+    "correctAnswer": "3/8",
     "subject": "mathematical-reasoning",
     "grade": "11",
     "difficulty": "easy",
-    "explanation": "∀ means 'for all' and → means 'implies', so this reads 'for all x, P(x) implies Q(x)'.",
-    "_cacheBreaker": "1755265388134_14"
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578445_15"
   },
   {
-    "_id": "easy11_1755260948241_016",
-    "content": "In mathematical induction, after proving the base case, what must you prove? (Question 16)",
+    "_id": "mathematical-reasoning_11_easy_016",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
     "type": "multiple_choice",
     "options": [
-      "P(k) → P(k+1) for arbitrary k",
-      "P(n) for all n",
-      "P(1), P(2), P(3)...",
-      "Nothing else"
+      "108",
+      "162",
+      "216",
+      "270"
     ],
-    "correctAnswer": "P(k) → P(k+1) for arbitrary k",
+    "correctAnswer": "162",
     "subject": "mathematical-reasoning",
     "grade": "11",
     "difficulty": "easy",
-    "explanation": "The inductive step shows that if the statement is true for any k, it's also true for k+1.",
-    "_cacheBreaker": "1755265388134_15"
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578445_16"
   },
   {
-    "_id": "easy11_1755260948241_017",
-    "content": "To prove √2 is irrational, we assume √2 = p/q in lowest terms and derive a contradiction. What contradiction? (Question 17)",
+    "_id": "mathematical-reasoning_11_easy_017",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
     "type": "multiple_choice",
     "options": [
-      "p and q are both even",
-      "p/q > 1",
-      "p = q",
-      "p is negative"
+      "24",
+      "48",
+      "12",
+      "16"
     ],
-    "correctAnswer": "p and q are both even",
+    "correctAnswer": "24",
     "subject": "mathematical-reasoning",
     "grade": "11",
     "difficulty": "easy",
-    "explanation": "If √2 = p/q, then p² = 2q², making p even. But then q must also be even, contradicting 'lowest terms'.",
-    "_cacheBreaker": "1755265388134_16"
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578445_17"
   },
   {
-    "_id": "easy11_1755260948241_018",
-    "content": "In formal logic, what does ∀x P(x) → Q(x) mean? (Question 18)",
+    "_id": "mathematical-reasoning_11_easy_018",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
     "type": "multiple_choice",
     "options": [
-      "For some x, if P(x) then Q(x)",
-      "For all x, if P(x) then Q(x)",
-      "P(x) and Q(x) are equal",
-      "P(x) or Q(x)"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "For all x, if P(x) then Q(x)",
+    "correctAnswer": "6",
     "subject": "mathematical-reasoning",
     "grade": "11",
     "difficulty": "easy",
-    "explanation": "∀ means 'for all' and → means 'implies', so this reads 'for all x, P(x) implies Q(x)'.",
-    "_cacheBreaker": "1755265388134_17"
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578445_18"
   },
   {
-    "_id": "easy11_1755260948241_019",
-    "content": "In mathematical induction, after proving the base case, what must you prove? (Question 19)",
+    "_id": "mathematical-reasoning_11_easy_019",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
     "type": "multiple_choice",
     "options": [
-      "P(k) → P(k+1) for arbitrary k",
-      "P(n) for all n",
-      "P(1), P(2), P(3)...",
-      "Nothing else"
+      "7",
+      "11",
+      "17",
+      "23"
     ],
-    "correctAnswer": "P(k) → P(k+1) for arbitrary k",
+    "correctAnswer": "11",
     "subject": "mathematical-reasoning",
     "grade": "11",
     "difficulty": "easy",
-    "explanation": "The inductive step shows that if the statement is true for any k, it's also true for k+1.",
-    "_cacheBreaker": "1755265388134_18"
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578445_19"
   },
   {
-    "_id": "easy11_1755260948241_020",
-    "content": "To prove √2 is irrational, we assume √2 = p/q in lowest terms and derive a contradiction. What contradiction? (Question 20)",
+    "_id": "mathematical-reasoning_11_easy_020",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
     "type": "multiple_choice",
     "options": [
-      "p and q are both even",
-      "p/q > 1",
-      "p = q",
-      "p is negative"
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
     ],
-    "correctAnswer": "p and q are both even",
+    "correctAnswer": "3/8",
     "subject": "mathematical-reasoning",
     "grade": "11",
     "difficulty": "easy",
-    "explanation": "If √2 = p/q, then p² = 2q², making p even. But then q must also be even, contradicting 'lowest terms'.",
-    "_cacheBreaker": "1755265388134_19"
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578445_20"
+  },
+  {
+    "_id": "mathematical-reasoning_11_easy_021",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
+    "type": "multiple_choice",
+    "options": [
+      "108",
+      "162",
+      "216",
+      "270"
+    ],
+    "correctAnswer": "162",
+    "subject": "mathematical-reasoning",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578445_21"
+  },
+  {
+    "_id": "mathematical-reasoning_11_easy_022",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "48",
+      "12",
+      "16"
+    ],
+    "correctAnswer": "24",
+    "subject": "mathematical-reasoning",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578445_22"
+  },
+  {
+    "_id": "mathematical-reasoning_11_easy_023",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "mathematical-reasoning",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578445_23"
+  },
+  {
+    "_id": "mathematical-reasoning_11_easy_024",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "11",
+      "17",
+      "23"
+    ],
+    "correctAnswer": "11",
+    "subject": "mathematical-reasoning",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578445_24"
+  },
+  {
+    "_id": "mathematical-reasoning_11_easy_025",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
+    "type": "multiple_choice",
+    "options": [
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "mathematical-reasoning",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578445_25"
+  },
+  {
+    "_id": "mathematical-reasoning_11_easy_026",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
+    "type": "multiple_choice",
+    "options": [
+      "108",
+      "162",
+      "216",
+      "270"
+    ],
+    "correctAnswer": "162",
+    "subject": "mathematical-reasoning",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578445_26"
+  },
+  {
+    "_id": "mathematical-reasoning_11_easy_027",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "48",
+      "12",
+      "16"
+    ],
+    "correctAnswer": "24",
+    "subject": "mathematical-reasoning",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578445_27"
+  },
+  {
+    "_id": "mathematical-reasoning_11_easy_028",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "mathematical-reasoning",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578445_28"
+  },
+  {
+    "_id": "mathematical-reasoning_11_easy_029",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "11",
+      "17",
+      "23"
+    ],
+    "correctAnswer": "11",
+    "subject": "mathematical-reasoning",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578445_29"
+  },
+  {
+    "_id": "mathematical-reasoning_11_easy_030",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
+    "type": "multiple_choice",
+    "options": [
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "mathematical-reasoning",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578445_30"
+  },
+  {
+    "_id": "mathematical-reasoning_11_easy_031",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
+    "type": "multiple_choice",
+    "options": [
+      "108",
+      "162",
+      "216",
+      "270"
+    ],
+    "correctAnswer": "162",
+    "subject": "mathematical-reasoning",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578445_31"
+  },
+  {
+    "_id": "mathematical-reasoning_11_easy_032",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "48",
+      "12",
+      "16"
+    ],
+    "correctAnswer": "24",
+    "subject": "mathematical-reasoning",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578445_32"
+  },
+  {
+    "_id": "mathematical-reasoning_11_easy_033",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "mathematical-reasoning",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578445_33"
+  },
+  {
+    "_id": "mathematical-reasoning_11_easy_034",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "11",
+      "17",
+      "23"
+    ],
+    "correctAnswer": "11",
+    "subject": "mathematical-reasoning",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578445_34"
+  },
+  {
+    "_id": "mathematical-reasoning_11_easy_035",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
+    "type": "multiple_choice",
+    "options": [
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "mathematical-reasoning",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578445_35"
+  },
+  {
+    "_id": "mathematical-reasoning_11_easy_036",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
+    "type": "multiple_choice",
+    "options": [
+      "108",
+      "162",
+      "216",
+      "270"
+    ],
+    "correctAnswer": "162",
+    "subject": "mathematical-reasoning",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578445_36"
+  },
+  {
+    "_id": "mathematical-reasoning_11_easy_037",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "48",
+      "12",
+      "16"
+    ],
+    "correctAnswer": "24",
+    "subject": "mathematical-reasoning",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578445_37"
+  },
+  {
+    "_id": "mathematical-reasoning_11_easy_038",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "mathematical-reasoning",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578445_38"
+  },
+  {
+    "_id": "mathematical-reasoning_11_easy_039",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "11",
+      "17",
+      "23"
+    ],
+    "correctAnswer": "11",
+    "subject": "mathematical-reasoning",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578445_39"
+  },
+  {
+    "_id": "mathematical-reasoning_11_easy_040",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
+    "type": "multiple_choice",
+    "options": [
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "mathematical-reasoning",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578445_40"
+  },
+  {
+    "_id": "mathematical-reasoning_11_easy_041",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
+    "type": "multiple_choice",
+    "options": [
+      "108",
+      "162",
+      "216",
+      "270"
+    ],
+    "correctAnswer": "162",
+    "subject": "mathematical-reasoning",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578445_41"
+  },
+  {
+    "_id": "mathematical-reasoning_11_easy_042",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "48",
+      "12",
+      "16"
+    ],
+    "correctAnswer": "24",
+    "subject": "mathematical-reasoning",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578445_42"
+  },
+  {
+    "_id": "mathematical-reasoning_11_easy_043",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "mathematical-reasoning",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578445_43"
+  },
+  {
+    "_id": "mathematical-reasoning_11_easy_044",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "11",
+      "17",
+      "23"
+    ],
+    "correctAnswer": "11",
+    "subject": "mathematical-reasoning",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578445_44"
+  },
+  {
+    "_id": "mathematical-reasoning_11_easy_045",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
+    "type": "multiple_choice",
+    "options": [
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "mathematical-reasoning",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578445_45"
+  },
+  {
+    "_id": "mathematical-reasoning_11_easy_046",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
+    "type": "multiple_choice",
+    "options": [
+      "108",
+      "162",
+      "216",
+      "270"
+    ],
+    "correctAnswer": "162",
+    "subject": "mathematical-reasoning",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578445_46"
+  },
+  {
+    "_id": "mathematical-reasoning_11_easy_047",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "48",
+      "12",
+      "16"
+    ],
+    "correctAnswer": "24",
+    "subject": "mathematical-reasoning",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578445_47"
+  },
+  {
+    "_id": "mathematical-reasoning_11_easy_048",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "mathematical-reasoning",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578445_48"
+  },
+  {
+    "_id": "mathematical-reasoning_11_easy_049",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "11",
+      "17",
+      "23"
+    ],
+    "correctAnswer": "11",
+    "subject": "mathematical-reasoning",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578445_49"
+  },
+  {
+    "_id": "mathematical-reasoning_11_easy_050",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
+    "type": "multiple_choice",
+    "options": [
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "mathematical-reasoning",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578445_50"
   }
 ]

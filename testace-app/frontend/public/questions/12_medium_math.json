@@ -1,342 +1,852 @@
 [
   {
-    "_id": "med12_1755260816494_001",
-    "content": "Find the derivative of f(x) = 3x² + 2x - 1",
+    "_id": "math_12_medium_001",
+    "content": "Solve: 12x + 24 = 96",
     "type": "multiple_choice",
     "options": [
-      "6x + 2",
-      "3x + 2",
-      "6x² + 2x",
-      "6x - 1"
+      "x = 24",
+      "x = 36",
+      "x = 48",
+      "x = 6"
     ],
-    "correctAnswer": "6x + 2",
+    "correctAnswer": "x = 6",
     "subject": "math",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "Use power rule: d/dx[3x²] = 6x, d/dx[2x] = 2, d/dx[-1] = 0",
-    "_cacheBreaker": "1755265388154_0"
+    "explanation": "12x = 96 - 24 = 72, so x = 6",
+    "_cacheBreaker": "1756033578449_1"
   },
   {
-    "_id": "med12_1755260816494_002",
-    "content": "Evaluate: ∫(2x + 3)dx",
+    "_id": "math_12_medium_002",
+    "content": "What is 180% of 240?",
     "type": "multiple_choice",
     "options": [
-      "x² + 3x + C",
-      "2x² + 3x + C",
-      "x² + 3x",
-      "2x + 3x + C"
+      "36",
+      "48",
+      "60",
+      "72"
     ],
-    "correctAnswer": "x² + 3x + C",
+    "correctAnswer": "36",
     "subject": "math",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "∫2x dx = x², ∫3 dx = 3x, don't forget constant C",
-    "_cacheBreaker": "1755265388154_1"
+    "explanation": "180% of 240 = 0.15 × 240 = 36",
+    "_cacheBreaker": "1756033578449_2"
   },
   {
-    "_id": "med12_1755260816494_003",
-    "content": "Find lim(x→2) (x² - 4)/(x - 2)",
+    "_id": "math_12_medium_003",
+    "content": "Find the circumference of a circle with radius 13 cm (use π ≈ 3.14)",
     "type": "multiple_choice",
     "options": [
-      "0",
-      "2",
-      "4",
-      "Does not exist"
+      "81.6 cm",
+      "530.7 cm²",
+      "26 cm",
+      "40.82 cm"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "81.6 cm",
     "subject": "math",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "Factor: (x - 2)(x + 2)/(x - 2) = x + 2, then substitute x = 2",
-    "_cacheBreaker": "1755265388154_2"
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 13 = 81.6 cm",
+    "_cacheBreaker": "1756033578449_3"
   },
   {
-    "_id": "med12_1755260816494_004",
-    "content": "If f(x) = e^x, find f'(x)",
+    "_id": "math_12_medium_004",
+    "content": "What is 12³?",
     "type": "multiple_choice",
     "options": [
-      "e^x",
-      "xe^(x-1)",
-      "e",
-      "x·e^x"
+      "144",
+      "1728",
+      "36",
+      "15"
     ],
-    "correctAnswer": "e^x",
+    "correctAnswer": "1728",
     "subject": "math",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "The derivative of e^x is e^x",
-    "_cacheBreaker": "1755265388154_3"
+    "explanation": "12³ = 12 × 12 × 12 = 1728",
+    "_cacheBreaker": "1756033578449_4"
   },
   {
-    "_id": "med12_1755260816494_005",
-    "content": "Find the area under y = x from x = 0 to x = 3",
+    "_id": "math_12_medium_005",
+    "content": "Simplify: 48/72",
     "type": "multiple_choice",
     "options": [
-      "4.5",
-      "6",
-      "9",
-      "3"
+      "12/3",
+      "2/3",
+      "4/6",
+      "1/2"
     ],
-    "correctAnswer": "4.5",
+    "correctAnswer": "2/3",
     "subject": "math",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "∫₀³ x dx = [x²/2]₀³ = 9/2 - 0 = 4.5",
-    "_cacheBreaker": "1755265388154_4"
+    "explanation": "48/72 = 4/6 = 2/3",
+    "_cacheBreaker": "1756033578449_5"
   },
   {
-    "_id": "med12_1755260816494_006",
-    "content": "Find the derivative of f(x) = x^6",
+    "_id": "math_12_medium_006",
+    "content": "Solve: 12x + 24 = 96",
     "type": "multiple_choice",
     "options": [
-      "6x^5",
-      "x^5",
-      "6x^6",
-      "x^7"
+      "x = 24",
+      "x = 36",
+      "x = 48",
+      "x = 6"
     ],
-    "correctAnswer": "6x^5",
+    "correctAnswer": "x = 6",
     "subject": "math",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)",
-    "_cacheBreaker": "1755265388154_5"
+    "explanation": "12x = 96 - 24 = 72, so x = 6",
+    "_cacheBreaker": "1756033578449_6"
   },
   {
-    "_id": "med12_1755260816494_007",
-    "content": "Find the derivative of f(x) = x^7",
+    "_id": "math_12_medium_007",
+    "content": "What is 180% of 240?",
     "type": "multiple_choice",
     "options": [
-      "7x^6",
-      "x^6",
-      "7x^7",
-      "x^8"
+      "36",
+      "48",
+      "60",
+      "72"
     ],
-    "correctAnswer": "7x^6",
+    "correctAnswer": "36",
     "subject": "math",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)",
-    "_cacheBreaker": "1755265388154_6"
+    "explanation": "180% of 240 = 0.15 × 240 = 36",
+    "_cacheBreaker": "1756033578449_7"
   },
   {
-    "_id": "med12_1755260816494_008",
-    "content": "Find the derivative of f(x) = x^8",
+    "_id": "math_12_medium_008",
+    "content": "Find the circumference of a circle with radius 13 cm (use π ≈ 3.14)",
     "type": "multiple_choice",
     "options": [
-      "8x^7",
-      "x^7",
-      "8x^8",
-      "x^9"
+      "81.6 cm",
+      "530.7 cm²",
+      "26 cm",
+      "40.82 cm"
     ],
-    "correctAnswer": "8x^7",
+    "correctAnswer": "81.6 cm",
     "subject": "math",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)",
-    "_cacheBreaker": "1755265388154_7"
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 13 = 81.6 cm",
+    "_cacheBreaker": "1756033578449_8"
   },
   {
-    "_id": "med12_1755260816494_009",
-    "content": "Find the derivative of f(x) = x^9",
+    "_id": "math_12_medium_009",
+    "content": "What is 12³?",
     "type": "multiple_choice",
     "options": [
-      "9x^8",
-      "x^8",
-      "9x^9",
-      "x^10"
+      "144",
+      "1728",
+      "36",
+      "15"
     ],
-    "correctAnswer": "9x^8",
+    "correctAnswer": "1728",
     "subject": "math",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)",
-    "_cacheBreaker": "1755265388154_8"
+    "explanation": "12³ = 12 × 12 × 12 = 1728",
+    "_cacheBreaker": "1756033578449_9"
   },
   {
-    "_id": "med12_1755260816494_010",
-    "content": "Find the derivative of f(x) = x^10",
+    "_id": "math_12_medium_010",
+    "content": "Simplify: 48/72",
     "type": "multiple_choice",
     "options": [
-      "10x^9",
-      "x^9",
-      "10x^10",
-      "x^11"
+      "12/3",
+      "2/3",
+      "4/6",
+      "1/2"
     ],
-    "correctAnswer": "10x^9",
+    "correctAnswer": "2/3",
     "subject": "math",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)",
-    "_cacheBreaker": "1755265388154_9"
+    "explanation": "48/72 = 4/6 = 2/3",
+    "_cacheBreaker": "1756033578449_10"
   },
   {
-    "_id": "med12_1755260816494_011",
-    "content": "Find the derivative of f(x) = x^11",
+    "_id": "math_12_medium_011",
+    "content": "Solve: 12x + 24 = 96",
     "type": "multiple_choice",
     "options": [
-      "11x^10",
-      "x^10",
-      "11x^11",
-      "x^12"
+      "x = 24",
+      "x = 36",
+      "x = 48",
+      "x = 6"
     ],
-    "correctAnswer": "11x^10",
+    "correctAnswer": "x = 6",
     "subject": "math",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)",
-    "_cacheBreaker": "1755265388154_10"
+    "explanation": "12x = 96 - 24 = 72, so x = 6",
+    "_cacheBreaker": "1756033578449_11"
   },
   {
-    "_id": "med12_1755260816494_012",
-    "content": "Find the derivative of f(x) = x^12",
+    "_id": "math_12_medium_012",
+    "content": "What is 180% of 240?",
     "type": "multiple_choice",
     "options": [
-      "12x^11",
-      "x^11",
-      "12x^12",
-      "x^13"
+      "36",
+      "48",
+      "60",
+      "72"
     ],
-    "correctAnswer": "12x^11",
+    "correctAnswer": "36",
     "subject": "math",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)",
-    "_cacheBreaker": "1755265388154_11"
+    "explanation": "180% of 240 = 0.15 × 240 = 36",
+    "_cacheBreaker": "1756033578449_12"
   },
   {
-    "_id": "med12_1755260816494_013",
-    "content": "Find the derivative of f(x) = x^13",
+    "_id": "math_12_medium_013",
+    "content": "Find the circumference of a circle with radius 13 cm (use π ≈ 3.14)",
     "type": "multiple_choice",
     "options": [
-      "13x^12",
-      "x^12",
-      "13x^13",
-      "x^14"
+      "81.6 cm",
+      "530.7 cm²",
+      "26 cm",
+      "40.82 cm"
     ],
-    "correctAnswer": "13x^12",
+    "correctAnswer": "81.6 cm",
     "subject": "math",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)",
-    "_cacheBreaker": "1755265388154_12"
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 13 = 81.6 cm",
+    "_cacheBreaker": "1756033578449_13"
   },
   {
-    "_id": "med12_1755260816494_014",
-    "content": "Find the derivative of f(x) = x^14",
+    "_id": "math_12_medium_014",
+    "content": "What is 12³?",
     "type": "multiple_choice",
     "options": [
-      "14x^13",
-      "x^13",
-      "14x^14",
-      "x^15"
+      "144",
+      "1728",
+      "36",
+      "15"
     ],
-    "correctAnswer": "14x^13",
+    "correctAnswer": "1728",
     "subject": "math",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)",
-    "_cacheBreaker": "1755265388154_13"
+    "explanation": "12³ = 12 × 12 × 12 = 1728",
+    "_cacheBreaker": "1756033578449_14"
   },
   {
-    "_id": "med12_1755260816494_015",
-    "content": "Find the derivative of f(x) = x^15",
+    "_id": "math_12_medium_015",
+    "content": "Simplify: 48/72",
     "type": "multiple_choice",
     "options": [
-      "15x^14",
-      "x^14",
-      "15x^15",
-      "x^16"
+      "12/3",
+      "2/3",
+      "4/6",
+      "1/2"
     ],
-    "correctAnswer": "15x^14",
+    "correctAnswer": "2/3",
     "subject": "math",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)",
-    "_cacheBreaker": "1755265388154_14"
+    "explanation": "48/72 = 4/6 = 2/3",
+    "_cacheBreaker": "1756033578449_15"
   },
   {
-    "_id": "med12_1755260816494_016",
-    "content": "Find the derivative of f(x) = x^16",
+    "_id": "math_12_medium_016",
+    "content": "Solve: 12x + 24 = 96",
     "type": "multiple_choice",
     "options": [
-      "16x^15",
-      "x^15",
-      "16x^16",
-      "x^17"
+      "x = 24",
+      "x = 36",
+      "x = 48",
+      "x = 6"
     ],
-    "correctAnswer": "16x^15",
+    "correctAnswer": "x = 6",
     "subject": "math",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)",
-    "_cacheBreaker": "1755265388154_15"
+    "explanation": "12x = 96 - 24 = 72, so x = 6",
+    "_cacheBreaker": "1756033578449_16"
   },
   {
-    "_id": "med12_1755260816494_017",
-    "content": "Find the derivative of f(x) = x^17",
+    "_id": "math_12_medium_017",
+    "content": "What is 180% of 240?",
     "type": "multiple_choice",
     "options": [
-      "17x^16",
-      "x^16",
-      "17x^17",
-      "x^18"
+      "36",
+      "48",
+      "60",
+      "72"
     ],
-    "correctAnswer": "17x^16",
+    "correctAnswer": "36",
     "subject": "math",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)",
-    "_cacheBreaker": "1755265388154_16"
+    "explanation": "180% of 240 = 0.15 × 240 = 36",
+    "_cacheBreaker": "1756033578449_17"
   },
   {
-    "_id": "med12_1755260816494_018",
-    "content": "Find the derivative of f(x) = x^18",
+    "_id": "math_12_medium_018",
+    "content": "Find the circumference of a circle with radius 13 cm (use π ≈ 3.14)",
     "type": "multiple_choice",
     "options": [
-      "18x^17",
-      "x^17",
-      "18x^18",
-      "x^19"
+      "81.6 cm",
+      "530.7 cm²",
+      "26 cm",
+      "40.82 cm"
     ],
-    "correctAnswer": "18x^17",
+    "correctAnswer": "81.6 cm",
     "subject": "math",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)",
-    "_cacheBreaker": "1755265388154_17"
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 13 = 81.6 cm",
+    "_cacheBreaker": "1756033578449_18"
   },
   {
-    "_id": "med12_1755260816494_019",
-    "content": "Find the derivative of f(x) = x^19",
+    "_id": "math_12_medium_019",
+    "content": "What is 12³?",
     "type": "multiple_choice",
     "options": [
-      "19x^18",
-      "x^18",
-      "19x^19",
-      "x^20"
+      "144",
+      "1728",
+      "36",
+      "15"
     ],
-    "correctAnswer": "19x^18",
+    "correctAnswer": "1728",
     "subject": "math",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)",
-    "_cacheBreaker": "1755265388154_18"
+    "explanation": "12³ = 12 × 12 × 12 = 1728",
+    "_cacheBreaker": "1756033578449_19"
   },
   {
-    "_id": "med12_1755260816494_020",
-    "content": "Find the derivative of f(x) = x^20",
+    "_id": "math_12_medium_020",
+    "content": "Simplify: 48/72",
     "type": "multiple_choice",
     "options": [
-      "20x^19",
-      "x^19",
-      "20x^20",
-      "x^21"
+      "12/3",
+      "2/3",
+      "4/6",
+      "1/2"
     ],
-    "correctAnswer": "20x^19",
+    "correctAnswer": "2/3",
     "subject": "math",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "Using power rule: d/dx[x^n] = nx^(n-1)",
-    "_cacheBreaker": "1755265388154_19"
+    "explanation": "48/72 = 4/6 = 2/3",
+    "_cacheBreaker": "1756033578449_20"
+  },
+  {
+    "_id": "math_12_medium_021",
+    "content": "Solve: 12x + 24 = 96",
+    "type": "multiple_choice",
+    "options": [
+      "x = 24",
+      "x = 36",
+      "x = 48",
+      "x = 6"
+    ],
+    "correctAnswer": "x = 6",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "12x = 96 - 24 = 72, so x = 6",
+    "_cacheBreaker": "1756033578449_21"
+  },
+  {
+    "_id": "math_12_medium_022",
+    "content": "What is 180% of 240?",
+    "type": "multiple_choice",
+    "options": [
+      "36",
+      "48",
+      "60",
+      "72"
+    ],
+    "correctAnswer": "36",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "180% of 240 = 0.15 × 240 = 36",
+    "_cacheBreaker": "1756033578449_22"
+  },
+  {
+    "_id": "math_12_medium_023",
+    "content": "Find the circumference of a circle with radius 13 cm (use π ≈ 3.14)",
+    "type": "multiple_choice",
+    "options": [
+      "81.6 cm",
+      "530.7 cm²",
+      "26 cm",
+      "40.82 cm"
+    ],
+    "correctAnswer": "81.6 cm",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 13 = 81.6 cm",
+    "_cacheBreaker": "1756033578449_23"
+  },
+  {
+    "_id": "math_12_medium_024",
+    "content": "What is 12³?",
+    "type": "multiple_choice",
+    "options": [
+      "144",
+      "1728",
+      "36",
+      "15"
+    ],
+    "correctAnswer": "1728",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "12³ = 12 × 12 × 12 = 1728",
+    "_cacheBreaker": "1756033578449_24"
+  },
+  {
+    "_id": "math_12_medium_025",
+    "content": "Simplify: 48/72",
+    "type": "multiple_choice",
+    "options": [
+      "12/3",
+      "2/3",
+      "4/6",
+      "1/2"
+    ],
+    "correctAnswer": "2/3",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "48/72 = 4/6 = 2/3",
+    "_cacheBreaker": "1756033578449_25"
+  },
+  {
+    "_id": "math_12_medium_026",
+    "content": "Solve: 12x + 24 = 96",
+    "type": "multiple_choice",
+    "options": [
+      "x = 24",
+      "x = 36",
+      "x = 48",
+      "x = 6"
+    ],
+    "correctAnswer": "x = 6",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "12x = 96 - 24 = 72, so x = 6",
+    "_cacheBreaker": "1756033578449_26"
+  },
+  {
+    "_id": "math_12_medium_027",
+    "content": "What is 180% of 240?",
+    "type": "multiple_choice",
+    "options": [
+      "36",
+      "48",
+      "60",
+      "72"
+    ],
+    "correctAnswer": "36",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "180% of 240 = 0.15 × 240 = 36",
+    "_cacheBreaker": "1756033578449_27"
+  },
+  {
+    "_id": "math_12_medium_028",
+    "content": "Find the circumference of a circle with radius 13 cm (use π ≈ 3.14)",
+    "type": "multiple_choice",
+    "options": [
+      "81.6 cm",
+      "530.7 cm²",
+      "26 cm",
+      "40.82 cm"
+    ],
+    "correctAnswer": "81.6 cm",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 13 = 81.6 cm",
+    "_cacheBreaker": "1756033578449_28"
+  },
+  {
+    "_id": "math_12_medium_029",
+    "content": "What is 12³?",
+    "type": "multiple_choice",
+    "options": [
+      "144",
+      "1728",
+      "36",
+      "15"
+    ],
+    "correctAnswer": "1728",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "12³ = 12 × 12 × 12 = 1728",
+    "_cacheBreaker": "1756033578449_29"
+  },
+  {
+    "_id": "math_12_medium_030",
+    "content": "Simplify: 48/72",
+    "type": "multiple_choice",
+    "options": [
+      "12/3",
+      "2/3",
+      "4/6",
+      "1/2"
+    ],
+    "correctAnswer": "2/3",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "48/72 = 4/6 = 2/3",
+    "_cacheBreaker": "1756033578449_30"
+  },
+  {
+    "_id": "math_12_medium_031",
+    "content": "Solve: 12x + 24 = 96",
+    "type": "multiple_choice",
+    "options": [
+      "x = 24",
+      "x = 36",
+      "x = 48",
+      "x = 6"
+    ],
+    "correctAnswer": "x = 6",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "12x = 96 - 24 = 72, so x = 6",
+    "_cacheBreaker": "1756033578449_31"
+  },
+  {
+    "_id": "math_12_medium_032",
+    "content": "What is 180% of 240?",
+    "type": "multiple_choice",
+    "options": [
+      "36",
+      "48",
+      "60",
+      "72"
+    ],
+    "correctAnswer": "36",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "180% of 240 = 0.15 × 240 = 36",
+    "_cacheBreaker": "1756033578449_32"
+  },
+  {
+    "_id": "math_12_medium_033",
+    "content": "Find the circumference of a circle with radius 13 cm (use π ≈ 3.14)",
+    "type": "multiple_choice",
+    "options": [
+      "81.6 cm",
+      "530.7 cm²",
+      "26 cm",
+      "40.82 cm"
+    ],
+    "correctAnswer": "81.6 cm",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 13 = 81.6 cm",
+    "_cacheBreaker": "1756033578449_33"
+  },
+  {
+    "_id": "math_12_medium_034",
+    "content": "What is 12³?",
+    "type": "multiple_choice",
+    "options": [
+      "144",
+      "1728",
+      "36",
+      "15"
+    ],
+    "correctAnswer": "1728",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "12³ = 12 × 12 × 12 = 1728",
+    "_cacheBreaker": "1756033578449_34"
+  },
+  {
+    "_id": "math_12_medium_035",
+    "content": "Simplify: 48/72",
+    "type": "multiple_choice",
+    "options": [
+      "12/3",
+      "2/3",
+      "4/6",
+      "1/2"
+    ],
+    "correctAnswer": "2/3",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "48/72 = 4/6 = 2/3",
+    "_cacheBreaker": "1756033578449_35"
+  },
+  {
+    "_id": "math_12_medium_036",
+    "content": "Solve: 12x + 24 = 96",
+    "type": "multiple_choice",
+    "options": [
+      "x = 24",
+      "x = 36",
+      "x = 48",
+      "x = 6"
+    ],
+    "correctAnswer": "x = 6",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "12x = 96 - 24 = 72, so x = 6",
+    "_cacheBreaker": "1756033578449_36"
+  },
+  {
+    "_id": "math_12_medium_037",
+    "content": "What is 180% of 240?",
+    "type": "multiple_choice",
+    "options": [
+      "36",
+      "48",
+      "60",
+      "72"
+    ],
+    "correctAnswer": "36",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "180% of 240 = 0.15 × 240 = 36",
+    "_cacheBreaker": "1756033578449_37"
+  },
+  {
+    "_id": "math_12_medium_038",
+    "content": "Find the circumference of a circle with radius 13 cm (use π ≈ 3.14)",
+    "type": "multiple_choice",
+    "options": [
+      "81.6 cm",
+      "530.7 cm²",
+      "26 cm",
+      "40.82 cm"
+    ],
+    "correctAnswer": "81.6 cm",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 13 = 81.6 cm",
+    "_cacheBreaker": "1756033578449_38"
+  },
+  {
+    "_id": "math_12_medium_039",
+    "content": "What is 12³?",
+    "type": "multiple_choice",
+    "options": [
+      "144",
+      "1728",
+      "36",
+      "15"
+    ],
+    "correctAnswer": "1728",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "12³ = 12 × 12 × 12 = 1728",
+    "_cacheBreaker": "1756033578449_39"
+  },
+  {
+    "_id": "math_12_medium_040",
+    "content": "Simplify: 48/72",
+    "type": "multiple_choice",
+    "options": [
+      "12/3",
+      "2/3",
+      "4/6",
+      "1/2"
+    ],
+    "correctAnswer": "2/3",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "48/72 = 4/6 = 2/3",
+    "_cacheBreaker": "1756033578449_40"
+  },
+  {
+    "_id": "math_12_medium_041",
+    "content": "Solve: 12x + 24 = 96",
+    "type": "multiple_choice",
+    "options": [
+      "x = 24",
+      "x = 36",
+      "x = 48",
+      "x = 6"
+    ],
+    "correctAnswer": "x = 6",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "12x = 96 - 24 = 72, so x = 6",
+    "_cacheBreaker": "1756033578449_41"
+  },
+  {
+    "_id": "math_12_medium_042",
+    "content": "What is 180% of 240?",
+    "type": "multiple_choice",
+    "options": [
+      "36",
+      "48",
+      "60",
+      "72"
+    ],
+    "correctAnswer": "36",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "180% of 240 = 0.15 × 240 = 36",
+    "_cacheBreaker": "1756033578449_42"
+  },
+  {
+    "_id": "math_12_medium_043",
+    "content": "Find the circumference of a circle with radius 13 cm (use π ≈ 3.14)",
+    "type": "multiple_choice",
+    "options": [
+      "81.6 cm",
+      "530.7 cm²",
+      "26 cm",
+      "40.82 cm"
+    ],
+    "correctAnswer": "81.6 cm",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 13 = 81.6 cm",
+    "_cacheBreaker": "1756033578449_43"
+  },
+  {
+    "_id": "math_12_medium_044",
+    "content": "What is 12³?",
+    "type": "multiple_choice",
+    "options": [
+      "144",
+      "1728",
+      "36",
+      "15"
+    ],
+    "correctAnswer": "1728",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "12³ = 12 × 12 × 12 = 1728",
+    "_cacheBreaker": "1756033578449_44"
+  },
+  {
+    "_id": "math_12_medium_045",
+    "content": "Simplify: 48/72",
+    "type": "multiple_choice",
+    "options": [
+      "12/3",
+      "2/3",
+      "4/6",
+      "1/2"
+    ],
+    "correctAnswer": "2/3",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "48/72 = 4/6 = 2/3",
+    "_cacheBreaker": "1756033578449_45"
+  },
+  {
+    "_id": "math_12_medium_046",
+    "content": "Solve: 12x + 24 = 96",
+    "type": "multiple_choice",
+    "options": [
+      "x = 24",
+      "x = 36",
+      "x = 48",
+      "x = 6"
+    ],
+    "correctAnswer": "x = 6",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "12x = 96 - 24 = 72, so x = 6",
+    "_cacheBreaker": "1756033578449_46"
+  },
+  {
+    "_id": "math_12_medium_047",
+    "content": "What is 180% of 240?",
+    "type": "multiple_choice",
+    "options": [
+      "36",
+      "48",
+      "60",
+      "72"
+    ],
+    "correctAnswer": "36",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "180% of 240 = 0.15 × 240 = 36",
+    "_cacheBreaker": "1756033578449_47"
+  },
+  {
+    "_id": "math_12_medium_048",
+    "content": "Find the circumference of a circle with radius 13 cm (use π ≈ 3.14)",
+    "type": "multiple_choice",
+    "options": [
+      "81.6 cm",
+      "530.7 cm²",
+      "26 cm",
+      "40.82 cm"
+    ],
+    "correctAnswer": "81.6 cm",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 13 = 81.6 cm",
+    "_cacheBreaker": "1756033578449_48"
+  },
+  {
+    "_id": "math_12_medium_049",
+    "content": "What is 12³?",
+    "type": "multiple_choice",
+    "options": [
+      "144",
+      "1728",
+      "36",
+      "15"
+    ],
+    "correctAnswer": "1728",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "12³ = 12 × 12 × 12 = 1728",
+    "_cacheBreaker": "1756033578449_49"
+  },
+  {
+    "_id": "math_12_medium_050",
+    "content": "Simplify: 48/72",
+    "type": "multiple_choice",
+    "options": [
+      "12/3",
+      "2/3",
+      "4/6",
+      "1/2"
+    ],
+    "correctAnswer": "2/3",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "48/72 = 4/6 = 2/3",
+    "_cacheBreaker": "1756033578449_50"
   }
 ]

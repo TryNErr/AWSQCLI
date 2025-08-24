@@ -1,342 +1,902 @@
 [
   {
-    "_id": "reading_1_easy_1755777739632_1",
-    "content": "Read this passage:\n\nThe sun is bright and warm. It helps plants grow. Animals need the sun too. The sun gives us light during the day.\n\nWhat does the sun help plants do?",
+    "_id": "reading_1_easy_001",
+    "content": "What color is Tom's ball?",
     "type": "multiple_choice",
     "options": [
-      "Sleep",
-      "Grow",
-      "Hide",
-      "Swim"
+      "blue",
+      "red",
+      "green",
+      "yellow"
     ],
-    "correctAnswer": "Grow",
+    "correctAnswer": "red",
     "subject": "reading",
     "grade": "1",
     "difficulty": "easy",
-    "explanation": "The passage says 'It helps plants grow.'",
-    "_cacheBreaker": "1755777739632_0"
+    "explanation": "The passage says Tom has a red ball.",
+    "_cacheBreaker": "1756033253385_1",
+    "passage": "Tom has a red ball. He likes to play with his ball in the park. The ball bounces high when Tom throws it."
   },
   {
-    "_id": "reading_1_easy_1755777739632_2",
-    "content": "Read this passage:\n\nDogs are good pets. They like to play and run. Dogs can learn tricks. They are loyal to their families.\n\nWhat do dogs like to do?",
+    "_id": "reading_1_easy_002",
+    "content": "How often does Sara go to the library?",
     "type": "multiple_choice",
     "options": [
-      "Sleep all day",
-      "Play and run",
-      "Hide from people",
-      "Eat only vegetables"
+      "every day",
+      "every week",
+      "every month",
+      "every year"
     ],
-    "correctAnswer": "Play and run",
+    "correctAnswer": "every week",
     "subject": "reading",
     "grade": "1",
     "difficulty": "easy",
-    "explanation": "The passage says 'They like to play and run.'",
-    "_cacheBreaker": "1755777739632_1"
+    "explanation": "The passage says Sara goes to the library every week.",
+    "_cacheBreaker": "1756033253385_2",
+    "passage": "Sara loves to read books. She goes to the library every week. Her favorite books are about animals."
   },
   {
-    "_id": "reading_1_easy_1755777739632_3",
-    "content": "Read this passage:\n\nRain comes from clouds in the sky. Plants need rain to grow. Rain fills up rivers and lakes. We use umbrellas when it rains.\n\nWhere does rain come from?",
+    "_id": "reading_1_easy_003",
+    "content": "What are the birds doing?",
     "type": "multiple_choice",
     "options": [
-      "Trees",
-      "Clouds",
-      "Rivers",
-      "Houses"
+      "flying",
+      "singing",
+      "sleeping",
+      "eating"
     ],
-    "correctAnswer": "Clouds",
+    "correctAnswer": "singing",
     "subject": "reading",
     "grade": "1",
     "difficulty": "easy",
-    "explanation": "The passage says 'Rain comes from clouds in the sky.'",
-    "_cacheBreaker": "1755777739632_2"
+    "explanation": "The passage says birds are singing in the trees.",
+    "_cacheBreaker": "1756033253385_3",
+    "passage": "The sun is bright today. Birds are singing in the trees. Children are playing outside."
   },
   {
-    "_id": "reading_1_easy_1755777739632_4",
-    "content": "Read this passage:\n\nCats are soft and furry. They like to sleep in warm places. Cats can climb trees very well. They use their claws to climb.\n\nWhat do cats use to climb trees?",
+    "_id": "reading_1_easy_004",
+    "content": "What kinds of cookies did Mom make?",
     "type": "multiple_choice",
     "options": [
-      "Their teeth",
-      "Their claws",
-      "Their tails",
-      "Their ears"
+      "only chocolate chip",
+      "only sugar",
+      "chocolate chip and sugar",
+      "oatmeal and sugar"
     ],
-    "correctAnswer": "Their claws",
+    "correctAnswer": "chocolate chip and sugar",
     "subject": "reading",
     "grade": "1",
     "difficulty": "easy",
-    "explanation": "The passage says 'They use their claws to climb.'",
-    "_cacheBreaker": "1755777739632_3"
+    "explanation": "The passage mentions both chocolate chip and sugar cookies.",
+    "_cacheBreaker": "1756033253385_4",
+    "passage": "Mom made cookies for the class party. She made chocolate chip and sugar cookies. Everyone loved them."
   },
   {
-    "_id": "reading_1_easy_1755777739632_5",
-    "content": "Read this passage:\n\nThe sun is bright and warm. It helps plants grow. Animals need the sun too. The sun gives us light during the day.\n\nBased on the passage, what does the sun help plants do?",
+    "_id": "reading_1_easy_005",
+    "content": "Where was the cat sitting?",
     "type": "multiple_choice",
     "options": [
-      "Sleep",
-      "Grow",
-      "Hide",
-      "Swim"
+      "on a chair",
+      "on the mat",
+      "on the bed",
+      "on the floor"
     ],
-    "correctAnswer": "Grow",
+    "correctAnswer": "on the mat",
     "subject": "reading",
     "grade": "1",
     "difficulty": "easy",
-    "explanation": "The passage says 'It helps plants grow.'",
-    "_cacheBreaker": "1755777739632_4"
+    "explanation": "The passage says the cat sat on the mat.",
+    "_cacheBreaker": "1756033253385_5",
+    "passage": "The cat sat on the mat. It was a fluffy orange cat. The cat was taking a nap in the warm sun."
   },
   {
-    "_id": "reading_1_easy_1755777739632_6",
-    "content": "Read this passage:\n\nDogs are good pets. They like to play and run. Dogs can learn tricks. They are loyal to their families.\n\nBased on the passage, what do dogs like to do?",
+    "_id": "reading_1_easy_006",
+    "content": "What color is Tom's ball?",
     "type": "multiple_choice",
     "options": [
-      "Sleep all day",
-      "Play and run",
-      "Hide from people",
-      "Eat only vegetables"
+      "blue",
+      "red",
+      "green",
+      "yellow"
     ],
-    "correctAnswer": "Play and run",
+    "correctAnswer": "red",
     "subject": "reading",
     "grade": "1",
     "difficulty": "easy",
-    "explanation": "The passage says 'They like to play and run.'",
-    "_cacheBreaker": "1755777739632_5"
+    "explanation": "The passage says Tom has a red ball.",
+    "_cacheBreaker": "1756033253385_6",
+    "passage": "Tom has a red ball. He likes to play with his ball in the park. The ball bounces high when Tom throws it."
   },
   {
-    "_id": "reading_1_easy_1755777739632_7",
-    "content": "Read this passage:\n\nRain comes from clouds in the sky. Plants need rain to grow. Rain fills up rivers and lakes. We use umbrellas when it rains.\n\nBased on the passage, where does rain come from?",
+    "_id": "reading_1_easy_007",
+    "content": "How often does Sara go to the library?",
     "type": "multiple_choice",
     "options": [
-      "Trees",
-      "Clouds",
-      "Rivers",
-      "Houses"
+      "every day",
+      "every week",
+      "every month",
+      "every year"
     ],
-    "correctAnswer": "Clouds",
+    "correctAnswer": "every week",
     "subject": "reading",
     "grade": "1",
     "difficulty": "easy",
-    "explanation": "The passage says 'Rain comes from clouds in the sky.'",
-    "_cacheBreaker": "1755777739632_6"
+    "explanation": "The passage says Sara goes to the library every week.",
+    "_cacheBreaker": "1756033253385_7",
+    "passage": "Sara loves to read books. She goes to the library every week. Her favorite books are about animals."
   },
   {
-    "_id": "reading_1_easy_1755777739632_8",
-    "content": "Read this passage:\n\nCats are soft and furry. They like to sleep in warm places. Cats can climb trees very well. They use their claws to climb.\n\nBased on the passage, what do cats use to climb trees?",
+    "_id": "reading_1_easy_008",
+    "content": "What are the birds doing?",
     "type": "multiple_choice",
     "options": [
-      "Their teeth",
-      "Their claws",
-      "Their tails",
-      "Their ears"
+      "flying",
+      "singing",
+      "sleeping",
+      "eating"
     ],
-    "correctAnswer": "Their claws",
+    "correctAnswer": "singing",
     "subject": "reading",
     "grade": "1",
     "difficulty": "easy",
-    "explanation": "The passage says 'They use their claws to climb.'",
-    "_cacheBreaker": "1755777739632_7"
+    "explanation": "The passage says birds are singing in the trees.",
+    "_cacheBreaker": "1756033253385_8",
+    "passage": "The sun is bright today. Birds are singing in the trees. Children are playing outside."
   },
   {
-    "_id": "reading_1_easy_1755777739632_9",
-    "content": "Read this passage:\n\nThe sun is bright and warm. It helps plants grow. Animals need the sun too. The sun gives us light during the day.\n\nAccording to the text, what does the sun help plants do?",
+    "_id": "reading_1_easy_009",
+    "content": "What kinds of cookies did Mom make?",
     "type": "multiple_choice",
     "options": [
-      "Sleep",
-      "Grow",
-      "Hide",
-      "Swim"
+      "only chocolate chip",
+      "only sugar",
+      "chocolate chip and sugar",
+      "oatmeal and sugar"
     ],
-    "correctAnswer": "Grow",
+    "correctAnswer": "chocolate chip and sugar",
     "subject": "reading",
     "grade": "1",
     "difficulty": "easy",
-    "explanation": "The passage says 'It helps plants grow.'",
-    "_cacheBreaker": "1755777739632_8"
+    "explanation": "The passage mentions both chocolate chip and sugar cookies.",
+    "_cacheBreaker": "1756033253385_9",
+    "passage": "Mom made cookies for the class party. She made chocolate chip and sugar cookies. Everyone loved them."
   },
   {
-    "_id": "reading_1_easy_1755777739632_10",
-    "content": "Read this passage:\n\nDogs are good pets. They like to play and run. Dogs can learn tricks. They are loyal to their families.\n\nAccording to the text, what do dogs like to do?",
+    "_id": "reading_1_easy_010",
+    "content": "Where was the cat sitting?",
     "type": "multiple_choice",
     "options": [
-      "Sleep all day",
-      "Play and run",
-      "Hide from people",
-      "Eat only vegetables"
+      "on a chair",
+      "on the mat",
+      "on the bed",
+      "on the floor"
     ],
-    "correctAnswer": "Play and run",
+    "correctAnswer": "on the mat",
     "subject": "reading",
     "grade": "1",
     "difficulty": "easy",
-    "explanation": "The passage says 'They like to play and run.'",
-    "_cacheBreaker": "1755777739632_9"
+    "explanation": "The passage says the cat sat on the mat.",
+    "_cacheBreaker": "1756033253385_10",
+    "passage": "The cat sat on the mat. It was a fluffy orange cat. The cat was taking a nap in the warm sun."
   },
   {
-    "_id": "reading_1_easy_1755777739632_11",
-    "content": "Read this passage:\n\nRain comes from clouds in the sky. Plants need rain to grow. Rain fills up rivers and lakes. We use umbrellas when it rains.\n\nAccording to the text, where does rain come from?",
+    "_id": "reading_1_easy_011",
+    "content": "What color is Tom's ball?",
     "type": "multiple_choice",
     "options": [
-      "Trees",
-      "Clouds",
-      "Rivers",
-      "Houses"
+      "blue",
+      "red",
+      "green",
+      "yellow"
     ],
-    "correctAnswer": "Clouds",
+    "correctAnswer": "red",
     "subject": "reading",
     "grade": "1",
     "difficulty": "easy",
-    "explanation": "The passage says 'Rain comes from clouds in the sky.'",
-    "_cacheBreaker": "1755777739632_10"
+    "explanation": "The passage says Tom has a red ball.",
+    "_cacheBreaker": "1756033253385_11",
+    "passage": "Tom has a red ball. He likes to play with his ball in the park. The ball bounces high when Tom throws it."
   },
   {
-    "_id": "reading_1_easy_1755777739632_12",
-    "content": "Read this passage:\n\nCats are soft and furry. They like to sleep in warm places. Cats can climb trees very well. They use their claws to climb.\n\nAccording to the text, what do cats use to climb trees?",
+    "_id": "reading_1_easy_012",
+    "content": "How often does Sara go to the library?",
     "type": "multiple_choice",
     "options": [
-      "Their teeth",
-      "Their claws",
-      "Their tails",
-      "Their ears"
+      "every day",
+      "every week",
+      "every month",
+      "every year"
     ],
-    "correctAnswer": "Their claws",
+    "correctAnswer": "every week",
     "subject": "reading",
     "grade": "1",
     "difficulty": "easy",
-    "explanation": "The passage says 'They use their claws to climb.'",
-    "_cacheBreaker": "1755777739632_11"
+    "explanation": "The passage says Sara goes to the library every week.",
+    "_cacheBreaker": "1756033253385_12",
+    "passage": "Sara loves to read books. She goes to the library every week. Her favorite books are about animals."
   },
   {
-    "_id": "reading_1_easy_1755777739632_13",
-    "content": "Read this passage:\n\nThe sun is bright and warm. It helps plants grow. Animals need the sun too. The sun gives us light during the day.\n\nFrom the reading, what does the sun help plants do?",
+    "_id": "reading_1_easy_013",
+    "content": "What are the birds doing?",
     "type": "multiple_choice",
     "options": [
-      "Sleep",
-      "Grow",
-      "Hide",
-      "Swim"
+      "flying",
+      "singing",
+      "sleeping",
+      "eating"
     ],
-    "correctAnswer": "Grow",
+    "correctAnswer": "singing",
     "subject": "reading",
     "grade": "1",
     "difficulty": "easy",
-    "explanation": "The passage says 'It helps plants grow.'",
-    "_cacheBreaker": "1755777739632_12"
+    "explanation": "The passage says birds are singing in the trees.",
+    "_cacheBreaker": "1756033253385_13",
+    "passage": "The sun is bright today. Birds are singing in the trees. Children are playing outside."
   },
   {
-    "_id": "reading_1_easy_1755777739632_14",
-    "content": "Read this passage:\n\nDogs are good pets. They like to play and run. Dogs can learn tricks. They are loyal to their families.\n\nFrom the reading, what do dogs like to do?",
+    "_id": "reading_1_easy_014",
+    "content": "What kinds of cookies did Mom make?",
     "type": "multiple_choice",
     "options": [
-      "Sleep all day",
-      "Play and run",
-      "Hide from people",
-      "Eat only vegetables"
+      "only chocolate chip",
+      "only sugar",
+      "chocolate chip and sugar",
+      "oatmeal and sugar"
     ],
-    "correctAnswer": "Play and run",
+    "correctAnswer": "chocolate chip and sugar",
     "subject": "reading",
     "grade": "1",
     "difficulty": "easy",
-    "explanation": "The passage says 'They like to play and run.'",
-    "_cacheBreaker": "1755777739632_13"
+    "explanation": "The passage mentions both chocolate chip and sugar cookies.",
+    "_cacheBreaker": "1756033253385_14",
+    "passage": "Mom made cookies for the class party. She made chocolate chip and sugar cookies. Everyone loved them."
   },
   {
-    "_id": "reading_1_easy_1755777739632_15",
-    "content": "Read this passage:\n\nRain comes from clouds in the sky. Plants need rain to grow. Rain fills up rivers and lakes. We use umbrellas when it rains.\n\nFrom the reading, where does rain come from?",
+    "_id": "reading_1_easy_015",
+    "content": "Where was the cat sitting?",
     "type": "multiple_choice",
     "options": [
-      "Trees",
-      "Clouds",
-      "Rivers",
-      "Houses"
+      "on a chair",
+      "on the mat",
+      "on the bed",
+      "on the floor"
     ],
-    "correctAnswer": "Clouds",
+    "correctAnswer": "on the mat",
     "subject": "reading",
     "grade": "1",
     "difficulty": "easy",
-    "explanation": "The passage says 'Rain comes from clouds in the sky.'",
-    "_cacheBreaker": "1755777739632_14"
+    "explanation": "The passage says the cat sat on the mat.",
+    "_cacheBreaker": "1756033253385_15",
+    "passage": "The cat sat on the mat. It was a fluffy orange cat. The cat was taking a nap in the warm sun."
   },
   {
-    "_id": "reading_1_easy_1755777739632_16",
-    "content": "Read this passage:\n\nCats are soft and furry. They like to sleep in warm places. Cats can climb trees very well. They use their claws to climb.\n\nFrom the reading, what do cats use to climb trees?",
+    "_id": "reading_1_easy_016",
+    "content": "What color is Tom's ball?",
     "type": "multiple_choice",
     "options": [
-      "Their teeth",
-      "Their claws",
-      "Their tails",
-      "Their ears"
+      "blue",
+      "red",
+      "green",
+      "yellow"
     ],
-    "correctAnswer": "Their claws",
+    "correctAnswer": "red",
     "subject": "reading",
     "grade": "1",
     "difficulty": "easy",
-    "explanation": "The passage says 'They use their claws to climb.'",
-    "_cacheBreaker": "1755777739632_15"
+    "explanation": "The passage says Tom has a red ball.",
+    "_cacheBreaker": "1756033253385_16",
+    "passage": "Tom has a red ball. He likes to play with his ball in the park. The ball bounces high when Tom throws it."
   },
   {
-    "_id": "reading_1_easy_1755777739632_17",
-    "content": "Read this passage:\n\nThe sun is bright and warm. It helps plants grow. Animals need the sun too. The sun gives us light during the day.\n\nWhat does the sun help plants do?",
+    "_id": "reading_1_easy_017",
+    "content": "How often does Sara go to the library?",
     "type": "multiple_choice",
     "options": [
-      "Sleep",
-      "Grow",
-      "Hide",
-      "Swim"
+      "every day",
+      "every week",
+      "every month",
+      "every year"
     ],
-    "correctAnswer": "Grow",
+    "correctAnswer": "every week",
     "subject": "reading",
     "grade": "1",
     "difficulty": "easy",
-    "explanation": "The passage says 'It helps plants grow.'",
-    "_cacheBreaker": "1755777739632_16"
+    "explanation": "The passage says Sara goes to the library every week.",
+    "_cacheBreaker": "1756033253385_17",
+    "passage": "Sara loves to read books. She goes to the library every week. Her favorite books are about animals."
   },
   {
-    "_id": "reading_1_easy_1755777739632_18",
-    "content": "Read this passage:\n\nDogs are good pets. They like to play and run. Dogs can learn tricks. They are loyal to their families.\n\nWhat do dogs like to do?",
+    "_id": "reading_1_easy_018",
+    "content": "What are the birds doing?",
     "type": "multiple_choice",
     "options": [
-      "Sleep all day",
-      "Play and run",
-      "Hide from people",
-      "Eat only vegetables"
+      "flying",
+      "singing",
+      "sleeping",
+      "eating"
     ],
-    "correctAnswer": "Play and run",
+    "correctAnswer": "singing",
     "subject": "reading",
     "grade": "1",
     "difficulty": "easy",
-    "explanation": "The passage says 'They like to play and run.'",
-    "_cacheBreaker": "1755777739632_17"
+    "explanation": "The passage says birds are singing in the trees.",
+    "_cacheBreaker": "1756033253385_18",
+    "passage": "The sun is bright today. Birds are singing in the trees. Children are playing outside."
   },
   {
-    "_id": "reading_1_easy_1755777739632_19",
-    "content": "Read this passage:\n\nRain comes from clouds in the sky. Plants need rain to grow. Rain fills up rivers and lakes. We use umbrellas when it rains.\n\nWhere does rain come from?",
+    "_id": "reading_1_easy_019",
+    "content": "What kinds of cookies did Mom make?",
     "type": "multiple_choice",
     "options": [
-      "Trees",
-      "Clouds",
-      "Rivers",
-      "Houses"
+      "only chocolate chip",
+      "only sugar",
+      "chocolate chip and sugar",
+      "oatmeal and sugar"
     ],
-    "correctAnswer": "Clouds",
+    "correctAnswer": "chocolate chip and sugar",
     "subject": "reading",
     "grade": "1",
     "difficulty": "easy",
-    "explanation": "The passage says 'Rain comes from clouds in the sky.'",
-    "_cacheBreaker": "1755777739632_18"
+    "explanation": "The passage mentions both chocolate chip and sugar cookies.",
+    "_cacheBreaker": "1756033253385_19",
+    "passage": "Mom made cookies for the class party. She made chocolate chip and sugar cookies. Everyone loved them."
   },
   {
-    "_id": "reading_1_easy_1755777739632_20",
-    "content": "Read this passage:\n\nCats are soft and furry. They like to sleep in warm places. Cats can climb trees very well. They use their claws to climb.\n\nWhat do cats use to climb trees?",
+    "_id": "reading_1_easy_020",
+    "content": "Where was the cat sitting?",
     "type": "multiple_choice",
     "options": [
-      "Their teeth",
-      "Their claws",
-      "Their tails",
-      "Their ears"
+      "on a chair",
+      "on the mat",
+      "on the bed",
+      "on the floor"
     ],
-    "correctAnswer": "Their claws",
+    "correctAnswer": "on the mat",
     "subject": "reading",
     "grade": "1",
     "difficulty": "easy",
-    "explanation": "The passage says 'They use their claws to climb.'",
-    "_cacheBreaker": "1755777739632_19"
+    "explanation": "The passage says the cat sat on the mat.",
+    "_cacheBreaker": "1756033253385_20",
+    "passage": "The cat sat on the mat. It was a fluffy orange cat. The cat was taking a nap in the warm sun."
+  },
+  {
+    "_id": "reading_1_easy_021",
+    "content": "What color is Tom's ball?",
+    "type": "multiple_choice",
+    "options": [
+      "blue",
+      "red",
+      "green",
+      "yellow"
+    ],
+    "correctAnswer": "red",
+    "subject": "reading",
+    "grade": "1",
+    "difficulty": "easy",
+    "explanation": "The passage says Tom has a red ball.",
+    "_cacheBreaker": "1756033253385_21",
+    "passage": "Tom has a red ball. He likes to play with his ball in the park. The ball bounces high when Tom throws it."
+  },
+  {
+    "_id": "reading_1_easy_022",
+    "content": "How often does Sara go to the library?",
+    "type": "multiple_choice",
+    "options": [
+      "every day",
+      "every week",
+      "every month",
+      "every year"
+    ],
+    "correctAnswer": "every week",
+    "subject": "reading",
+    "grade": "1",
+    "difficulty": "easy",
+    "explanation": "The passage says Sara goes to the library every week.",
+    "_cacheBreaker": "1756033253385_22",
+    "passage": "Sara loves to read books. She goes to the library every week. Her favorite books are about animals."
+  },
+  {
+    "_id": "reading_1_easy_023",
+    "content": "What are the birds doing?",
+    "type": "multiple_choice",
+    "options": [
+      "flying",
+      "singing",
+      "sleeping",
+      "eating"
+    ],
+    "correctAnswer": "singing",
+    "subject": "reading",
+    "grade": "1",
+    "difficulty": "easy",
+    "explanation": "The passage says birds are singing in the trees.",
+    "_cacheBreaker": "1756033253385_23",
+    "passage": "The sun is bright today. Birds are singing in the trees. Children are playing outside."
+  },
+  {
+    "_id": "reading_1_easy_024",
+    "content": "What kinds of cookies did Mom make?",
+    "type": "multiple_choice",
+    "options": [
+      "only chocolate chip",
+      "only sugar",
+      "chocolate chip and sugar",
+      "oatmeal and sugar"
+    ],
+    "correctAnswer": "chocolate chip and sugar",
+    "subject": "reading",
+    "grade": "1",
+    "difficulty": "easy",
+    "explanation": "The passage mentions both chocolate chip and sugar cookies.",
+    "_cacheBreaker": "1756033253385_24",
+    "passage": "Mom made cookies for the class party. She made chocolate chip and sugar cookies. Everyone loved them."
+  },
+  {
+    "_id": "reading_1_easy_025",
+    "content": "Where was the cat sitting?",
+    "type": "multiple_choice",
+    "options": [
+      "on a chair",
+      "on the mat",
+      "on the bed",
+      "on the floor"
+    ],
+    "correctAnswer": "on the mat",
+    "subject": "reading",
+    "grade": "1",
+    "difficulty": "easy",
+    "explanation": "The passage says the cat sat on the mat.",
+    "_cacheBreaker": "1756033253385_25",
+    "passage": "The cat sat on the mat. It was a fluffy orange cat. The cat was taking a nap in the warm sun."
+  },
+  {
+    "_id": "reading_1_easy_026",
+    "content": "What color is Tom's ball?",
+    "type": "multiple_choice",
+    "options": [
+      "blue",
+      "red",
+      "green",
+      "yellow"
+    ],
+    "correctAnswer": "red",
+    "subject": "reading",
+    "grade": "1",
+    "difficulty": "easy",
+    "explanation": "The passage says Tom has a red ball.",
+    "_cacheBreaker": "1756033253385_26",
+    "passage": "Tom has a red ball. He likes to play with his ball in the park. The ball bounces high when Tom throws it."
+  },
+  {
+    "_id": "reading_1_easy_027",
+    "content": "How often does Sara go to the library?",
+    "type": "multiple_choice",
+    "options": [
+      "every day",
+      "every week",
+      "every month",
+      "every year"
+    ],
+    "correctAnswer": "every week",
+    "subject": "reading",
+    "grade": "1",
+    "difficulty": "easy",
+    "explanation": "The passage says Sara goes to the library every week.",
+    "_cacheBreaker": "1756033253385_27",
+    "passage": "Sara loves to read books. She goes to the library every week. Her favorite books are about animals."
+  },
+  {
+    "_id": "reading_1_easy_028",
+    "content": "What are the birds doing?",
+    "type": "multiple_choice",
+    "options": [
+      "flying",
+      "singing",
+      "sleeping",
+      "eating"
+    ],
+    "correctAnswer": "singing",
+    "subject": "reading",
+    "grade": "1",
+    "difficulty": "easy",
+    "explanation": "The passage says birds are singing in the trees.",
+    "_cacheBreaker": "1756033253385_28",
+    "passage": "The sun is bright today. Birds are singing in the trees. Children are playing outside."
+  },
+  {
+    "_id": "reading_1_easy_029",
+    "content": "What kinds of cookies did Mom make?",
+    "type": "multiple_choice",
+    "options": [
+      "only chocolate chip",
+      "only sugar",
+      "chocolate chip and sugar",
+      "oatmeal and sugar"
+    ],
+    "correctAnswer": "chocolate chip and sugar",
+    "subject": "reading",
+    "grade": "1",
+    "difficulty": "easy",
+    "explanation": "The passage mentions both chocolate chip and sugar cookies.",
+    "_cacheBreaker": "1756033253385_29",
+    "passage": "Mom made cookies for the class party. She made chocolate chip and sugar cookies. Everyone loved them."
+  },
+  {
+    "_id": "reading_1_easy_030",
+    "content": "Where was the cat sitting?",
+    "type": "multiple_choice",
+    "options": [
+      "on a chair",
+      "on the mat",
+      "on the bed",
+      "on the floor"
+    ],
+    "correctAnswer": "on the mat",
+    "subject": "reading",
+    "grade": "1",
+    "difficulty": "easy",
+    "explanation": "The passage says the cat sat on the mat.",
+    "_cacheBreaker": "1756033253385_30",
+    "passage": "The cat sat on the mat. It was a fluffy orange cat. The cat was taking a nap in the warm sun."
+  },
+  {
+    "_id": "reading_1_easy_031",
+    "content": "What color is Tom's ball?",
+    "type": "multiple_choice",
+    "options": [
+      "blue",
+      "red",
+      "green",
+      "yellow"
+    ],
+    "correctAnswer": "red",
+    "subject": "reading",
+    "grade": "1",
+    "difficulty": "easy",
+    "explanation": "The passage says Tom has a red ball.",
+    "_cacheBreaker": "1756033253385_31",
+    "passage": "Tom has a red ball. He likes to play with his ball in the park. The ball bounces high when Tom throws it."
+  },
+  {
+    "_id": "reading_1_easy_032",
+    "content": "How often does Sara go to the library?",
+    "type": "multiple_choice",
+    "options": [
+      "every day",
+      "every week",
+      "every month",
+      "every year"
+    ],
+    "correctAnswer": "every week",
+    "subject": "reading",
+    "grade": "1",
+    "difficulty": "easy",
+    "explanation": "The passage says Sara goes to the library every week.",
+    "_cacheBreaker": "1756033253385_32",
+    "passage": "Sara loves to read books. She goes to the library every week. Her favorite books are about animals."
+  },
+  {
+    "_id": "reading_1_easy_033",
+    "content": "What are the birds doing?",
+    "type": "multiple_choice",
+    "options": [
+      "flying",
+      "singing",
+      "sleeping",
+      "eating"
+    ],
+    "correctAnswer": "singing",
+    "subject": "reading",
+    "grade": "1",
+    "difficulty": "easy",
+    "explanation": "The passage says birds are singing in the trees.",
+    "_cacheBreaker": "1756033253385_33",
+    "passage": "The sun is bright today. Birds are singing in the trees. Children are playing outside."
+  },
+  {
+    "_id": "reading_1_easy_034",
+    "content": "What kinds of cookies did Mom make?",
+    "type": "multiple_choice",
+    "options": [
+      "only chocolate chip",
+      "only sugar",
+      "chocolate chip and sugar",
+      "oatmeal and sugar"
+    ],
+    "correctAnswer": "chocolate chip and sugar",
+    "subject": "reading",
+    "grade": "1",
+    "difficulty": "easy",
+    "explanation": "The passage mentions both chocolate chip and sugar cookies.",
+    "_cacheBreaker": "1756033253385_34",
+    "passage": "Mom made cookies for the class party. She made chocolate chip and sugar cookies. Everyone loved them."
+  },
+  {
+    "_id": "reading_1_easy_035",
+    "content": "Where was the cat sitting?",
+    "type": "multiple_choice",
+    "options": [
+      "on a chair",
+      "on the mat",
+      "on the bed",
+      "on the floor"
+    ],
+    "correctAnswer": "on the mat",
+    "subject": "reading",
+    "grade": "1",
+    "difficulty": "easy",
+    "explanation": "The passage says the cat sat on the mat.",
+    "_cacheBreaker": "1756033253385_35",
+    "passage": "The cat sat on the mat. It was a fluffy orange cat. The cat was taking a nap in the warm sun."
+  },
+  {
+    "_id": "reading_1_easy_036",
+    "content": "What color is Tom's ball?",
+    "type": "multiple_choice",
+    "options": [
+      "blue",
+      "red",
+      "green",
+      "yellow"
+    ],
+    "correctAnswer": "red",
+    "subject": "reading",
+    "grade": "1",
+    "difficulty": "easy",
+    "explanation": "The passage says Tom has a red ball.",
+    "_cacheBreaker": "1756033253385_36",
+    "passage": "Tom has a red ball. He likes to play with his ball in the park. The ball bounces high when Tom throws it."
+  },
+  {
+    "_id": "reading_1_easy_037",
+    "content": "How often does Sara go to the library?",
+    "type": "multiple_choice",
+    "options": [
+      "every day",
+      "every week",
+      "every month",
+      "every year"
+    ],
+    "correctAnswer": "every week",
+    "subject": "reading",
+    "grade": "1",
+    "difficulty": "easy",
+    "explanation": "The passage says Sara goes to the library every week.",
+    "_cacheBreaker": "1756033253385_37",
+    "passage": "Sara loves to read books. She goes to the library every week. Her favorite books are about animals."
+  },
+  {
+    "_id": "reading_1_easy_038",
+    "content": "What are the birds doing?",
+    "type": "multiple_choice",
+    "options": [
+      "flying",
+      "singing",
+      "sleeping",
+      "eating"
+    ],
+    "correctAnswer": "singing",
+    "subject": "reading",
+    "grade": "1",
+    "difficulty": "easy",
+    "explanation": "The passage says birds are singing in the trees.",
+    "_cacheBreaker": "1756033253385_38",
+    "passage": "The sun is bright today. Birds are singing in the trees. Children are playing outside."
+  },
+  {
+    "_id": "reading_1_easy_039",
+    "content": "What kinds of cookies did Mom make?",
+    "type": "multiple_choice",
+    "options": [
+      "only chocolate chip",
+      "only sugar",
+      "chocolate chip and sugar",
+      "oatmeal and sugar"
+    ],
+    "correctAnswer": "chocolate chip and sugar",
+    "subject": "reading",
+    "grade": "1",
+    "difficulty": "easy",
+    "explanation": "The passage mentions both chocolate chip and sugar cookies.",
+    "_cacheBreaker": "1756033253385_39",
+    "passage": "Mom made cookies for the class party. She made chocolate chip and sugar cookies. Everyone loved them."
+  },
+  {
+    "_id": "reading_1_easy_040",
+    "content": "Where was the cat sitting?",
+    "type": "multiple_choice",
+    "options": [
+      "on a chair",
+      "on the mat",
+      "on the bed",
+      "on the floor"
+    ],
+    "correctAnswer": "on the mat",
+    "subject": "reading",
+    "grade": "1",
+    "difficulty": "easy",
+    "explanation": "The passage says the cat sat on the mat.",
+    "_cacheBreaker": "1756033253385_40",
+    "passage": "The cat sat on the mat. It was a fluffy orange cat. The cat was taking a nap in the warm sun."
+  },
+  {
+    "_id": "reading_1_easy_041",
+    "content": "What color is Tom's ball?",
+    "type": "multiple_choice",
+    "options": [
+      "blue",
+      "red",
+      "green",
+      "yellow"
+    ],
+    "correctAnswer": "red",
+    "subject": "reading",
+    "grade": "1",
+    "difficulty": "easy",
+    "explanation": "The passage says Tom has a red ball.",
+    "_cacheBreaker": "1756033253385_41",
+    "passage": "Tom has a red ball. He likes to play with his ball in the park. The ball bounces high when Tom throws it."
+  },
+  {
+    "_id": "reading_1_easy_042",
+    "content": "How often does Sara go to the library?",
+    "type": "multiple_choice",
+    "options": [
+      "every day",
+      "every week",
+      "every month",
+      "every year"
+    ],
+    "correctAnswer": "every week",
+    "subject": "reading",
+    "grade": "1",
+    "difficulty": "easy",
+    "explanation": "The passage says Sara goes to the library every week.",
+    "_cacheBreaker": "1756033253385_42",
+    "passage": "Sara loves to read books. She goes to the library every week. Her favorite books are about animals."
+  },
+  {
+    "_id": "reading_1_easy_043",
+    "content": "What are the birds doing?",
+    "type": "multiple_choice",
+    "options": [
+      "flying",
+      "singing",
+      "sleeping",
+      "eating"
+    ],
+    "correctAnswer": "singing",
+    "subject": "reading",
+    "grade": "1",
+    "difficulty": "easy",
+    "explanation": "The passage says birds are singing in the trees.",
+    "_cacheBreaker": "1756033253385_43",
+    "passage": "The sun is bright today. Birds are singing in the trees. Children are playing outside."
+  },
+  {
+    "_id": "reading_1_easy_044",
+    "content": "What kinds of cookies did Mom make?",
+    "type": "multiple_choice",
+    "options": [
+      "only chocolate chip",
+      "only sugar",
+      "chocolate chip and sugar",
+      "oatmeal and sugar"
+    ],
+    "correctAnswer": "chocolate chip and sugar",
+    "subject": "reading",
+    "grade": "1",
+    "difficulty": "easy",
+    "explanation": "The passage mentions both chocolate chip and sugar cookies.",
+    "_cacheBreaker": "1756033253385_44",
+    "passage": "Mom made cookies for the class party. She made chocolate chip and sugar cookies. Everyone loved them."
+  },
+  {
+    "_id": "reading_1_easy_045",
+    "content": "Where was the cat sitting?",
+    "type": "multiple_choice",
+    "options": [
+      "on a chair",
+      "on the mat",
+      "on the bed",
+      "on the floor"
+    ],
+    "correctAnswer": "on the mat",
+    "subject": "reading",
+    "grade": "1",
+    "difficulty": "easy",
+    "explanation": "The passage says the cat sat on the mat.",
+    "_cacheBreaker": "1756033253385_45",
+    "passage": "The cat sat on the mat. It was a fluffy orange cat. The cat was taking a nap in the warm sun."
+  },
+  {
+    "_id": "reading_1_easy_046",
+    "content": "What color is Tom's ball?",
+    "type": "multiple_choice",
+    "options": [
+      "blue",
+      "red",
+      "green",
+      "yellow"
+    ],
+    "correctAnswer": "red",
+    "subject": "reading",
+    "grade": "1",
+    "difficulty": "easy",
+    "explanation": "The passage says Tom has a red ball.",
+    "_cacheBreaker": "1756033253385_46",
+    "passage": "Tom has a red ball. He likes to play with his ball in the park. The ball bounces high when Tom throws it."
+  },
+  {
+    "_id": "reading_1_easy_047",
+    "content": "How often does Sara go to the library?",
+    "type": "multiple_choice",
+    "options": [
+      "every day",
+      "every week",
+      "every month",
+      "every year"
+    ],
+    "correctAnswer": "every week",
+    "subject": "reading",
+    "grade": "1",
+    "difficulty": "easy",
+    "explanation": "The passage says Sara goes to the library every week.",
+    "_cacheBreaker": "1756033253385_47",
+    "passage": "Sara loves to read books. She goes to the library every week. Her favorite books are about animals."
+  },
+  {
+    "_id": "reading_1_easy_048",
+    "content": "What are the birds doing?",
+    "type": "multiple_choice",
+    "options": [
+      "flying",
+      "singing",
+      "sleeping",
+      "eating"
+    ],
+    "correctAnswer": "singing",
+    "subject": "reading",
+    "grade": "1",
+    "difficulty": "easy",
+    "explanation": "The passage says birds are singing in the trees.",
+    "_cacheBreaker": "1756033253385_48",
+    "passage": "The sun is bright today. Birds are singing in the trees. Children are playing outside."
+  },
+  {
+    "_id": "reading_1_easy_049",
+    "content": "What kinds of cookies did Mom make?",
+    "type": "multiple_choice",
+    "options": [
+      "only chocolate chip",
+      "only sugar",
+      "chocolate chip and sugar",
+      "oatmeal and sugar"
+    ],
+    "correctAnswer": "chocolate chip and sugar",
+    "subject": "reading",
+    "grade": "1",
+    "difficulty": "easy",
+    "explanation": "The passage mentions both chocolate chip and sugar cookies.",
+    "_cacheBreaker": "1756033253385_49",
+    "passage": "Mom made cookies for the class party. She made chocolate chip and sugar cookies. Everyone loved them."
+  },
+  {
+    "_id": "reading_1_easy_050",
+    "content": "Where was the cat sitting?",
+    "type": "multiple_choice",
+    "options": [
+      "on a chair",
+      "on the mat",
+      "on the bed",
+      "on the floor"
+    ],
+    "correctAnswer": "on the mat",
+    "subject": "reading",
+    "grade": "1",
+    "difficulty": "easy",
+    "explanation": "The passage says the cat sat on the mat.",
+    "_cacheBreaker": "1756033253385_50",
+    "passage": "The cat sat on the mat. It was a fluffy orange cat. The cat was taking a nap in the warm sun."
   }
 ]

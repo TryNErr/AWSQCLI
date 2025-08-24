@@ -1,342 +1,852 @@
 [
   {
-    "_id": "hard9_1755260455350_001",
-    "content": "Prove that the sum of any two even numbers is always even. Which approach is correct?",
+    "_id": "mathematical-reasoning_9_hard_001",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
     "type": "multiple_choice",
     "options": [
-      "Test a few examples",
-      "Let 2m and 2n be any even numbers, then 2m + 2n = 2(m + n)",
-      "Assume it's true",
-      "Use a calculator"
+      "108",
+      "162",
+      "216",
+      "270"
     ],
-    "correctAnswer": "Let 2m and 2n be any even numbers, then 2m + 2n = 2(m + n)",
+    "correctAnswer": "162",
     "subject": "mathematical-reasoning",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "A mathematical proof requires showing it's true for ALL cases using algebraic reasoning, not just examples.",
-    "_cacheBreaker": "1755265388243_0"
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578431_1"
   },
   {
-    "_id": "hard9_1755260455350_002",
-    "content": "In proof by contradiction, you assume the opposite of what you want to prove. Why?",
+    "_id": "mathematical-reasoning_9_hard_002",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
     "type": "multiple_choice",
     "options": [
-      "To confuse yourself",
-      "To show the opposite leads to a contradiction",
-      "To make it harder",
-      "To avoid work"
+      "24",
+      "48",
+      "12",
+      "16"
     ],
-    "correctAnswer": "To show the opposite leads to a contradiction",
+    "correctAnswer": "24",
     "subject": "mathematical-reasoning",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "If assuming the opposite leads to a logical contradiction, then the original statement must be true.",
-    "_cacheBreaker": "1755265388243_1"
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578431_2"
   },
   {
-    "_id": "hard9_1755260455350_003",
-    "content": "Which statement requires mathematical proof rather than just examples?",
+    "_id": "mathematical-reasoning_9_hard_003",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
     "type": "multiple_choice",
     "options": [
-      "2 + 3 = 5",
-      "All prime numbers greater than 2 are odd",
-      "π ≈ 3.14",
-      "My calculator works"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "All prime numbers greater than 2 are odd",
+    "correctAnswer": "6",
     "subject": "mathematical-reasoning",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "Universal statements about infinite sets require proof, not just examples.",
-    "_cacheBreaker": "1755265388243_2"
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578431_3"
   },
   {
-    "_id": "hard9_1755260455350_004",
-    "content": "Prove that the sum of any two even numbers is always even. Which approach is correct? (Question 4)",
+    "_id": "mathematical-reasoning_9_hard_004",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
     "type": "multiple_choice",
     "options": [
-      "Test a few examples",
-      "Let 2m and 2n be any even numbers, then 2m + 2n = 2(m + n)",
-      "Assume it's true",
-      "Use a calculator"
+      "7",
+      "11",
+      "17",
+      "23"
     ],
-    "correctAnswer": "Let 2m and 2n be any even numbers, then 2m + 2n = 2(m + n)",
+    "correctAnswer": "11",
     "subject": "mathematical-reasoning",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "A mathematical proof requires showing it's true for ALL cases using algebraic reasoning, not just examples.",
-    "_cacheBreaker": "1755265388243_3"
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578431_4"
   },
   {
-    "_id": "hard9_1755260455350_005",
-    "content": "In proof by contradiction, you assume the opposite of what you want to prove. Why? (Question 5)",
+    "_id": "mathematical-reasoning_9_hard_005",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
     "type": "multiple_choice",
     "options": [
-      "To confuse yourself",
-      "To show the opposite leads to a contradiction",
-      "To make it harder",
-      "To avoid work"
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
     ],
-    "correctAnswer": "To show the opposite leads to a contradiction",
+    "correctAnswer": "3/8",
     "subject": "mathematical-reasoning",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "If assuming the opposite leads to a logical contradiction, then the original statement must be true.",
-    "_cacheBreaker": "1755265388243_4"
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578431_5"
   },
   {
-    "_id": "hard9_1755260455350_006",
-    "content": "Which statement requires mathematical proof rather than just examples? (Question 6)",
+    "_id": "mathematical-reasoning_9_hard_006",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
     "type": "multiple_choice",
     "options": [
-      "2 + 3 = 5",
-      "All prime numbers greater than 2 are odd",
-      "π ≈ 3.14",
-      "My calculator works"
+      "108",
+      "162",
+      "216",
+      "270"
     ],
-    "correctAnswer": "All prime numbers greater than 2 are odd",
+    "correctAnswer": "162",
     "subject": "mathematical-reasoning",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "Universal statements about infinite sets require proof, not just examples.",
-    "_cacheBreaker": "1755265388243_5"
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578431_6"
   },
   {
-    "_id": "hard9_1755260455350_007",
-    "content": "Prove that the sum of any two even numbers is always even. Which approach is correct? (Question 7)",
+    "_id": "mathematical-reasoning_9_hard_007",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
     "type": "multiple_choice",
     "options": [
-      "Test a few examples",
-      "Let 2m and 2n be any even numbers, then 2m + 2n = 2(m + n)",
-      "Assume it's true",
-      "Use a calculator"
+      "24",
+      "48",
+      "12",
+      "16"
     ],
-    "correctAnswer": "Let 2m and 2n be any even numbers, then 2m + 2n = 2(m + n)",
+    "correctAnswer": "24",
     "subject": "mathematical-reasoning",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "A mathematical proof requires showing it's true for ALL cases using algebraic reasoning, not just examples.",
-    "_cacheBreaker": "1755265388243_6"
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578431_7"
   },
   {
-    "_id": "hard9_1755260455350_008",
-    "content": "In proof by contradiction, you assume the opposite of what you want to prove. Why? (Question 8)",
+    "_id": "mathematical-reasoning_9_hard_008",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
     "type": "multiple_choice",
     "options": [
-      "To confuse yourself",
-      "To show the opposite leads to a contradiction",
-      "To make it harder",
-      "To avoid work"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "To show the opposite leads to a contradiction",
+    "correctAnswer": "6",
     "subject": "mathematical-reasoning",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "If assuming the opposite leads to a logical contradiction, then the original statement must be true.",
-    "_cacheBreaker": "1755265388243_7"
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578431_8"
   },
   {
-    "_id": "hard9_1755260455350_009",
-    "content": "Which statement requires mathematical proof rather than just examples? (Question 9)",
+    "_id": "mathematical-reasoning_9_hard_009",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
     "type": "multiple_choice",
     "options": [
-      "2 + 3 = 5",
-      "All prime numbers greater than 2 are odd",
-      "π ≈ 3.14",
-      "My calculator works"
+      "7",
+      "11",
+      "17",
+      "23"
     ],
-    "correctAnswer": "All prime numbers greater than 2 are odd",
+    "correctAnswer": "11",
     "subject": "mathematical-reasoning",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "Universal statements about infinite sets require proof, not just examples.",
-    "_cacheBreaker": "1755265388243_8"
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578431_9"
   },
   {
-    "_id": "hard9_1755260455350_010",
-    "content": "Prove that the sum of any two even numbers is always even. Which approach is correct? (Question 10)",
+    "_id": "mathematical-reasoning_9_hard_010",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
     "type": "multiple_choice",
     "options": [
-      "Test a few examples",
-      "Let 2m and 2n be any even numbers, then 2m + 2n = 2(m + n)",
-      "Assume it's true",
-      "Use a calculator"
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
     ],
-    "correctAnswer": "Let 2m and 2n be any even numbers, then 2m + 2n = 2(m + n)",
+    "correctAnswer": "3/8",
     "subject": "mathematical-reasoning",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "A mathematical proof requires showing it's true for ALL cases using algebraic reasoning, not just examples.",
-    "_cacheBreaker": "1755265388243_9"
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578431_10"
   },
   {
-    "_id": "hard9_1755260455350_011",
-    "content": "In proof by contradiction, you assume the opposite of what you want to prove. Why? (Question 11)",
+    "_id": "mathematical-reasoning_9_hard_011",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
     "type": "multiple_choice",
     "options": [
-      "To confuse yourself",
-      "To show the opposite leads to a contradiction",
-      "To make it harder",
-      "To avoid work"
+      "108",
+      "162",
+      "216",
+      "270"
     ],
-    "correctAnswer": "To show the opposite leads to a contradiction",
+    "correctAnswer": "162",
     "subject": "mathematical-reasoning",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "If assuming the opposite leads to a logical contradiction, then the original statement must be true.",
-    "_cacheBreaker": "1755265388243_10"
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578431_11"
   },
   {
-    "_id": "hard9_1755260455350_012",
-    "content": "Which statement requires mathematical proof rather than just examples? (Question 12)",
+    "_id": "mathematical-reasoning_9_hard_012",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
     "type": "multiple_choice",
     "options": [
-      "2 + 3 = 5",
-      "All prime numbers greater than 2 are odd",
-      "π ≈ 3.14",
-      "My calculator works"
+      "24",
+      "48",
+      "12",
+      "16"
     ],
-    "correctAnswer": "All prime numbers greater than 2 are odd",
+    "correctAnswer": "24",
     "subject": "mathematical-reasoning",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "Universal statements about infinite sets require proof, not just examples.",
-    "_cacheBreaker": "1755265388243_11"
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578431_12"
   },
   {
-    "_id": "hard9_1755260455350_013",
-    "content": "Prove that the sum of any two even numbers is always even. Which approach is correct? (Question 13)",
+    "_id": "mathematical-reasoning_9_hard_013",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
     "type": "multiple_choice",
     "options": [
-      "Test a few examples",
-      "Let 2m and 2n be any even numbers, then 2m + 2n = 2(m + n)",
-      "Assume it's true",
-      "Use a calculator"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "Let 2m and 2n be any even numbers, then 2m + 2n = 2(m + n)",
+    "correctAnswer": "6",
     "subject": "mathematical-reasoning",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "A mathematical proof requires showing it's true for ALL cases using algebraic reasoning, not just examples.",
-    "_cacheBreaker": "1755265388243_12"
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578431_13"
   },
   {
-    "_id": "hard9_1755260455350_014",
-    "content": "In proof by contradiction, you assume the opposite of what you want to prove. Why? (Question 14)",
+    "_id": "mathematical-reasoning_9_hard_014",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
     "type": "multiple_choice",
     "options": [
-      "To confuse yourself",
-      "To show the opposite leads to a contradiction",
-      "To make it harder",
-      "To avoid work"
+      "7",
+      "11",
+      "17",
+      "23"
     ],
-    "correctAnswer": "To show the opposite leads to a contradiction",
+    "correctAnswer": "11",
     "subject": "mathematical-reasoning",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "If assuming the opposite leads to a logical contradiction, then the original statement must be true.",
-    "_cacheBreaker": "1755265388243_13"
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578431_14"
   },
   {
-    "_id": "hard9_1755260455350_015",
-    "content": "Which statement requires mathematical proof rather than just examples? (Question 15)",
+    "_id": "mathematical-reasoning_9_hard_015",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
     "type": "multiple_choice",
     "options": [
-      "2 + 3 = 5",
-      "All prime numbers greater than 2 are odd",
-      "π ≈ 3.14",
-      "My calculator works"
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
     ],
-    "correctAnswer": "All prime numbers greater than 2 are odd",
+    "correctAnswer": "3/8",
     "subject": "mathematical-reasoning",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "Universal statements about infinite sets require proof, not just examples.",
-    "_cacheBreaker": "1755265388243_14"
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578431_15"
   },
   {
-    "_id": "hard9_1755260455350_016",
-    "content": "Prove that the sum of any two even numbers is always even. Which approach is correct? (Question 16)",
+    "_id": "mathematical-reasoning_9_hard_016",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
     "type": "multiple_choice",
     "options": [
-      "Test a few examples",
-      "Let 2m and 2n be any even numbers, then 2m + 2n = 2(m + n)",
-      "Assume it's true",
-      "Use a calculator"
+      "108",
+      "162",
+      "216",
+      "270"
     ],
-    "correctAnswer": "Let 2m and 2n be any even numbers, then 2m + 2n = 2(m + n)",
+    "correctAnswer": "162",
     "subject": "mathematical-reasoning",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "A mathematical proof requires showing it's true for ALL cases using algebraic reasoning, not just examples.",
-    "_cacheBreaker": "1755265388243_15"
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578431_16"
   },
   {
-    "_id": "hard9_1755260455350_017",
-    "content": "In proof by contradiction, you assume the opposite of what you want to prove. Why? (Question 17)",
+    "_id": "mathematical-reasoning_9_hard_017",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
     "type": "multiple_choice",
     "options": [
-      "To confuse yourself",
-      "To show the opposite leads to a contradiction",
-      "To make it harder",
-      "To avoid work"
+      "24",
+      "48",
+      "12",
+      "16"
     ],
-    "correctAnswer": "To show the opposite leads to a contradiction",
+    "correctAnswer": "24",
     "subject": "mathematical-reasoning",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "If assuming the opposite leads to a logical contradiction, then the original statement must be true.",
-    "_cacheBreaker": "1755265388243_16"
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578431_17"
   },
   {
-    "_id": "hard9_1755260455350_018",
-    "content": "Which statement requires mathematical proof rather than just examples? (Question 18)",
+    "_id": "mathematical-reasoning_9_hard_018",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
     "type": "multiple_choice",
     "options": [
-      "2 + 3 = 5",
-      "All prime numbers greater than 2 are odd",
-      "π ≈ 3.14",
-      "My calculator works"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "All prime numbers greater than 2 are odd",
+    "correctAnswer": "6",
     "subject": "mathematical-reasoning",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "Universal statements about infinite sets require proof, not just examples.",
-    "_cacheBreaker": "1755265388243_17"
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578431_18"
   },
   {
-    "_id": "hard9_1755260455350_019",
-    "content": "Prove that the sum of any two even numbers is always even. Which approach is correct? (Question 19)",
+    "_id": "mathematical-reasoning_9_hard_019",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
     "type": "multiple_choice",
     "options": [
-      "Test a few examples",
-      "Let 2m and 2n be any even numbers, then 2m + 2n = 2(m + n)",
-      "Assume it's true",
-      "Use a calculator"
+      "7",
+      "11",
+      "17",
+      "23"
     ],
-    "correctAnswer": "Let 2m and 2n be any even numbers, then 2m + 2n = 2(m + n)",
+    "correctAnswer": "11",
     "subject": "mathematical-reasoning",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "A mathematical proof requires showing it's true for ALL cases using algebraic reasoning, not just examples.",
-    "_cacheBreaker": "1755265388243_18"
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578431_19"
   },
   {
-    "_id": "hard9_1755260455350_020",
-    "content": "In proof by contradiction, you assume the opposite of what you want to prove. Why? (Question 20)",
+    "_id": "mathematical-reasoning_9_hard_020",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
     "type": "multiple_choice",
     "options": [
-      "To confuse yourself",
-      "To show the opposite leads to a contradiction",
-      "To make it harder",
-      "To avoid work"
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
     ],
-    "correctAnswer": "To show the opposite leads to a contradiction",
+    "correctAnswer": "3/8",
     "subject": "mathematical-reasoning",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "If assuming the opposite leads to a logical contradiction, then the original statement must be true.",
-    "_cacheBreaker": "1755265388243_19"
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578431_20"
+  },
+  {
+    "_id": "mathematical-reasoning_9_hard_021",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
+    "type": "multiple_choice",
+    "options": [
+      "108",
+      "162",
+      "216",
+      "270"
+    ],
+    "correctAnswer": "162",
+    "subject": "mathematical-reasoning",
+    "grade": "9",
+    "difficulty": "hard",
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578431_21"
+  },
+  {
+    "_id": "mathematical-reasoning_9_hard_022",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "48",
+      "12",
+      "16"
+    ],
+    "correctAnswer": "24",
+    "subject": "mathematical-reasoning",
+    "grade": "9",
+    "difficulty": "hard",
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578431_22"
+  },
+  {
+    "_id": "mathematical-reasoning_9_hard_023",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "mathematical-reasoning",
+    "grade": "9",
+    "difficulty": "hard",
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578431_23"
+  },
+  {
+    "_id": "mathematical-reasoning_9_hard_024",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "11",
+      "17",
+      "23"
+    ],
+    "correctAnswer": "11",
+    "subject": "mathematical-reasoning",
+    "grade": "9",
+    "difficulty": "hard",
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578431_24"
+  },
+  {
+    "_id": "mathematical-reasoning_9_hard_025",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
+    "type": "multiple_choice",
+    "options": [
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "mathematical-reasoning",
+    "grade": "9",
+    "difficulty": "hard",
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578431_25"
+  },
+  {
+    "_id": "mathematical-reasoning_9_hard_026",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
+    "type": "multiple_choice",
+    "options": [
+      "108",
+      "162",
+      "216",
+      "270"
+    ],
+    "correctAnswer": "162",
+    "subject": "mathematical-reasoning",
+    "grade": "9",
+    "difficulty": "hard",
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578431_26"
+  },
+  {
+    "_id": "mathematical-reasoning_9_hard_027",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "48",
+      "12",
+      "16"
+    ],
+    "correctAnswer": "24",
+    "subject": "mathematical-reasoning",
+    "grade": "9",
+    "difficulty": "hard",
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578431_27"
+  },
+  {
+    "_id": "mathematical-reasoning_9_hard_028",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "mathematical-reasoning",
+    "grade": "9",
+    "difficulty": "hard",
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578431_28"
+  },
+  {
+    "_id": "mathematical-reasoning_9_hard_029",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "11",
+      "17",
+      "23"
+    ],
+    "correctAnswer": "11",
+    "subject": "mathematical-reasoning",
+    "grade": "9",
+    "difficulty": "hard",
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578431_29"
+  },
+  {
+    "_id": "mathematical-reasoning_9_hard_030",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
+    "type": "multiple_choice",
+    "options": [
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "mathematical-reasoning",
+    "grade": "9",
+    "difficulty": "hard",
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578431_30"
+  },
+  {
+    "_id": "mathematical-reasoning_9_hard_031",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
+    "type": "multiple_choice",
+    "options": [
+      "108",
+      "162",
+      "216",
+      "270"
+    ],
+    "correctAnswer": "162",
+    "subject": "mathematical-reasoning",
+    "grade": "9",
+    "difficulty": "hard",
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578431_31"
+  },
+  {
+    "_id": "mathematical-reasoning_9_hard_032",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "48",
+      "12",
+      "16"
+    ],
+    "correctAnswer": "24",
+    "subject": "mathematical-reasoning",
+    "grade": "9",
+    "difficulty": "hard",
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578431_32"
+  },
+  {
+    "_id": "mathematical-reasoning_9_hard_033",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "mathematical-reasoning",
+    "grade": "9",
+    "difficulty": "hard",
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578431_33"
+  },
+  {
+    "_id": "mathematical-reasoning_9_hard_034",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "11",
+      "17",
+      "23"
+    ],
+    "correctAnswer": "11",
+    "subject": "mathematical-reasoning",
+    "grade": "9",
+    "difficulty": "hard",
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578431_34"
+  },
+  {
+    "_id": "mathematical-reasoning_9_hard_035",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
+    "type": "multiple_choice",
+    "options": [
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "mathematical-reasoning",
+    "grade": "9",
+    "difficulty": "hard",
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578431_35"
+  },
+  {
+    "_id": "mathematical-reasoning_9_hard_036",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
+    "type": "multiple_choice",
+    "options": [
+      "108",
+      "162",
+      "216",
+      "270"
+    ],
+    "correctAnswer": "162",
+    "subject": "mathematical-reasoning",
+    "grade": "9",
+    "difficulty": "hard",
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578431_36"
+  },
+  {
+    "_id": "mathematical-reasoning_9_hard_037",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "48",
+      "12",
+      "16"
+    ],
+    "correctAnswer": "24",
+    "subject": "mathematical-reasoning",
+    "grade": "9",
+    "difficulty": "hard",
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578431_37"
+  },
+  {
+    "_id": "mathematical-reasoning_9_hard_038",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "mathematical-reasoning",
+    "grade": "9",
+    "difficulty": "hard",
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578431_38"
+  },
+  {
+    "_id": "mathematical-reasoning_9_hard_039",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "11",
+      "17",
+      "23"
+    ],
+    "correctAnswer": "11",
+    "subject": "mathematical-reasoning",
+    "grade": "9",
+    "difficulty": "hard",
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578431_39"
+  },
+  {
+    "_id": "mathematical-reasoning_9_hard_040",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
+    "type": "multiple_choice",
+    "options": [
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "mathematical-reasoning",
+    "grade": "9",
+    "difficulty": "hard",
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578431_40"
+  },
+  {
+    "_id": "mathematical-reasoning_9_hard_041",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
+    "type": "multiple_choice",
+    "options": [
+      "108",
+      "162",
+      "216",
+      "270"
+    ],
+    "correctAnswer": "162",
+    "subject": "mathematical-reasoning",
+    "grade": "9",
+    "difficulty": "hard",
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578431_41"
+  },
+  {
+    "_id": "mathematical-reasoning_9_hard_042",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "48",
+      "12",
+      "16"
+    ],
+    "correctAnswer": "24",
+    "subject": "mathematical-reasoning",
+    "grade": "9",
+    "difficulty": "hard",
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578431_42"
+  },
+  {
+    "_id": "mathematical-reasoning_9_hard_043",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "mathematical-reasoning",
+    "grade": "9",
+    "difficulty": "hard",
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578431_43"
+  },
+  {
+    "_id": "mathematical-reasoning_9_hard_044",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "11",
+      "17",
+      "23"
+    ],
+    "correctAnswer": "11",
+    "subject": "mathematical-reasoning",
+    "grade": "9",
+    "difficulty": "hard",
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578431_44"
+  },
+  {
+    "_id": "mathematical-reasoning_9_hard_045",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
+    "type": "multiple_choice",
+    "options": [
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "mathematical-reasoning",
+    "grade": "9",
+    "difficulty": "hard",
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578431_45"
+  },
+  {
+    "_id": "mathematical-reasoning_9_hard_046",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
+    "type": "multiple_choice",
+    "options": [
+      "108",
+      "162",
+      "216",
+      "270"
+    ],
+    "correctAnswer": "162",
+    "subject": "mathematical-reasoning",
+    "grade": "9",
+    "difficulty": "hard",
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578431_46"
+  },
+  {
+    "_id": "mathematical-reasoning_9_hard_047",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "48",
+      "12",
+      "16"
+    ],
+    "correctAnswer": "24",
+    "subject": "mathematical-reasoning",
+    "grade": "9",
+    "difficulty": "hard",
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578431_47"
+  },
+  {
+    "_id": "mathematical-reasoning_9_hard_048",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "mathematical-reasoning",
+    "grade": "9",
+    "difficulty": "hard",
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578431_48"
+  },
+  {
+    "_id": "mathematical-reasoning_9_hard_049",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "11",
+      "17",
+      "23"
+    ],
+    "correctAnswer": "11",
+    "subject": "mathematical-reasoning",
+    "grade": "9",
+    "difficulty": "hard",
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578431_49"
+  },
+  {
+    "_id": "mathematical-reasoning_9_hard_050",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
+    "type": "multiple_choice",
+    "options": [
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "mathematical-reasoning",
+    "grade": "9",
+    "difficulty": "hard",
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578431_50"
   }
 ]

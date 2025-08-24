@@ -1,58 +1,41 @@
 [
   {
-    "_id": "easy2_1755260948241_001",
-    "content": "What is 5 + 3?",
+    "_id": "math_2_easy_001",
+    "content": "What is 6 + 3?",
     "type": "multiple_choice",
     "options": [
-      "6",
-      "7",
-      "8",
-      "9"
-    ],
-    "correctAnswer": "8",
-    "subject": "math",
-    "grade": "2",
-    "difficulty": "easy",
-    "explanation": "5 + 3 = 8",
-    "_cacheBreaker": "1755265388165_0"
-  },
-  {
-    "_id": "easy2_1755260948241_002",
-    "content": "Count by 2s: 2, 4, 6, ___",
-    "type": "multiple_choice",
-    "options": [
-      "7",
       "8",
       "9",
-      "10"
+      "10",
+      "11"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "9",
     "subject": "math",
     "grade": "2",
     "difficulty": "easy",
-    "explanation": "Counting by 2s: 2, 4, 6, 8",
-    "_cacheBreaker": "1755265388165_1"
+    "explanation": "6 + 3 = 9",
+    "_cacheBreaker": "1756033253395_1"
   },
   {
-    "_id": "easy2_1755260948241_003",
-    "content": "What is 10 - 4?",
+    "_id": "math_2_easy_002",
+    "content": "What is 8 - 2?",
     "type": "multiple_choice",
     "options": [
       "5",
       "6",
       "7",
-      "14"
+      "8"
     ],
     "correctAnswer": "6",
     "subject": "math",
     "grade": "2",
     "difficulty": "easy",
-    "explanation": "10 - 4 = 6",
-    "_cacheBreaker": "1755265388165_2"
+    "explanation": "8 - 2 = 6",
+    "_cacheBreaker": "1756033253395_2"
   },
   {
-    "_id": "easy2_1755260948241_004",
-    "content": "What is 5 + 3? (Question 4)",
+    "_id": "math_2_easy_003",
+    "content": "How many days are in a week?",
     "type": "multiple_choice",
     "options": [
       "6",
@@ -60,101 +43,84 @@
       "8",
       "9"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "7",
     "subject": "math",
     "grade": "2",
     "difficulty": "easy",
-    "explanation": "5 + 3 = 8",
-    "_cacheBreaker": "1755265388165_3"
+    "explanation": "A week has 7 days",
+    "_cacheBreaker": "1756033253395_3"
   },
   {
-    "_id": "easy2_1755260948241_005",
-    "content": "Count by 2s: 2, 4, 6, ___ (Question 5)",
-    "type": "multiple_choice",
-    "options": [
-      "7",
-      "8",
-      "9",
-      "10"
-    ],
-    "correctAnswer": "8",
-    "subject": "math",
-    "grade": "2",
-    "difficulty": "easy",
-    "explanation": "Counting by 2s: 2, 4, 6, 8",
-    "_cacheBreaker": "1755265388165_4"
-  },
-  {
-    "_id": "easy2_1755260948241_006",
-    "content": "What is 10 - 4? (Question 6)",
+    "_id": "math_2_easy_004",
+    "content": "What is 2 × 3?",
     "type": "multiple_choice",
     "options": [
       "5",
       "6",
       "7",
-      "14"
+      "8"
     ],
     "correctAnswer": "6",
     "subject": "math",
     "grade": "2",
     "difficulty": "easy",
-    "explanation": "10 - 4 = 6",
-    "_cacheBreaker": "1755265388165_5"
+    "explanation": "2 × 3 = 6",
+    "_cacheBreaker": "1756033253395_4"
   },
   {
-    "_id": "easy2_1755260948241_007",
-    "content": "What is 5 + 3? (Question 7)",
+    "_id": "math_2_easy_005",
+    "content": "Which is an even number?",
     "type": "multiple_choice",
     "options": [
-      "6",
+      "3",
+      "5",
       "7",
-      "8",
-      "9"
+      "8"
     ],
     "correctAnswer": "8",
     "subject": "math",
     "grade": "2",
     "difficulty": "easy",
-    "explanation": "5 + 3 = 8",
-    "_cacheBreaker": "1755265388165_6"
+    "explanation": "8 is even because it can be divided by 2",
+    "_cacheBreaker": "1756033253395_5"
   },
   {
-    "_id": "easy2_1755260948241_008",
-    "content": "Count by 2s: 2, 4, 6, ___ (Question 8)",
+    "_id": "math_2_easy_006",
+    "content": "What is 6 + 3?",
     "type": "multiple_choice",
     "options": [
-      "7",
       "8",
       "9",
-      "10"
+      "10",
+      "11"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "9",
     "subject": "math",
     "grade": "2",
     "difficulty": "easy",
-    "explanation": "Counting by 2s: 2, 4, 6, 8",
-    "_cacheBreaker": "1755265388165_7"
+    "explanation": "6 + 3 = 9",
+    "_cacheBreaker": "1756033253395_6"
   },
   {
-    "_id": "easy2_1755260948241_009",
-    "content": "What is 10 - 4? (Question 9)",
+    "_id": "math_2_easy_007",
+    "content": "What is 8 - 2?",
     "type": "multiple_choice",
     "options": [
       "5",
       "6",
       "7",
-      "14"
+      "8"
     ],
     "correctAnswer": "6",
     "subject": "math",
     "grade": "2",
     "difficulty": "easy",
-    "explanation": "10 - 4 = 6",
-    "_cacheBreaker": "1755265388165_8"
+    "explanation": "8 - 2 = 6",
+    "_cacheBreaker": "1756033253395_7"
   },
   {
-    "_id": "easy2_1755260948241_010",
-    "content": "What is 5 + 3? (Question 10)",
+    "_id": "math_2_easy_008",
+    "content": "How many days are in a week?",
     "type": "multiple_choice",
     "options": [
       "6",
@@ -162,101 +128,84 @@
       "8",
       "9"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "7",
     "subject": "math",
     "grade": "2",
     "difficulty": "easy",
-    "explanation": "5 + 3 = 8",
-    "_cacheBreaker": "1755265388165_9"
+    "explanation": "A week has 7 days",
+    "_cacheBreaker": "1756033253395_8"
   },
   {
-    "_id": "easy2_1755260948241_011",
-    "content": "Count by 2s: 2, 4, 6, ___ (Question 11)",
-    "type": "multiple_choice",
-    "options": [
-      "7",
-      "8",
-      "9",
-      "10"
-    ],
-    "correctAnswer": "8",
-    "subject": "math",
-    "grade": "2",
-    "difficulty": "easy",
-    "explanation": "Counting by 2s: 2, 4, 6, 8",
-    "_cacheBreaker": "1755265388165_10"
-  },
-  {
-    "_id": "easy2_1755260948241_012",
-    "content": "What is 10 - 4? (Question 12)",
+    "_id": "math_2_easy_009",
+    "content": "What is 2 × 3?",
     "type": "multiple_choice",
     "options": [
       "5",
       "6",
       "7",
-      "14"
+      "8"
     ],
     "correctAnswer": "6",
     "subject": "math",
     "grade": "2",
     "difficulty": "easy",
-    "explanation": "10 - 4 = 6",
-    "_cacheBreaker": "1755265388165_11"
+    "explanation": "2 × 3 = 6",
+    "_cacheBreaker": "1756033253395_9"
   },
   {
-    "_id": "easy2_1755260948241_013",
-    "content": "What is 5 + 3? (Question 13)",
+    "_id": "math_2_easy_010",
+    "content": "Which is an even number?",
     "type": "multiple_choice",
     "options": [
-      "6",
+      "3",
+      "5",
       "7",
-      "8",
-      "9"
+      "8"
     ],
     "correctAnswer": "8",
     "subject": "math",
     "grade": "2",
     "difficulty": "easy",
-    "explanation": "5 + 3 = 8",
-    "_cacheBreaker": "1755265388165_12"
+    "explanation": "8 is even because it can be divided by 2",
+    "_cacheBreaker": "1756033253395_10"
   },
   {
-    "_id": "easy2_1755260948241_014",
-    "content": "Count by 2s: 2, 4, 6, ___ (Question 14)",
+    "_id": "math_2_easy_011",
+    "content": "What is 6 + 3?",
     "type": "multiple_choice",
     "options": [
-      "7",
       "8",
       "9",
-      "10"
+      "10",
+      "11"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "9",
     "subject": "math",
     "grade": "2",
     "difficulty": "easy",
-    "explanation": "Counting by 2s: 2, 4, 6, 8",
-    "_cacheBreaker": "1755265388165_13"
+    "explanation": "6 + 3 = 9",
+    "_cacheBreaker": "1756033253395_11"
   },
   {
-    "_id": "easy2_1755260948241_015",
-    "content": "What is 10 - 4? (Question 15)",
+    "_id": "math_2_easy_012",
+    "content": "What is 8 - 2?",
     "type": "multiple_choice",
     "options": [
       "5",
       "6",
       "7",
-      "14"
+      "8"
     ],
     "correctAnswer": "6",
     "subject": "math",
     "grade": "2",
     "difficulty": "easy",
-    "explanation": "10 - 4 = 6",
-    "_cacheBreaker": "1755265388165_14"
+    "explanation": "8 - 2 = 6",
+    "_cacheBreaker": "1756033253395_12"
   },
   {
-    "_id": "easy2_1755260948241_016",
-    "content": "What is 5 + 3? (Question 16)",
+    "_id": "math_2_easy_013",
+    "content": "How many days are in a week?",
     "type": "multiple_choice",
     "options": [
       "6",
@@ -264,50 +213,84 @@
       "8",
       "9"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "7",
     "subject": "math",
     "grade": "2",
     "difficulty": "easy",
-    "explanation": "5 + 3 = 8",
-    "_cacheBreaker": "1755265388165_15"
+    "explanation": "A week has 7 days",
+    "_cacheBreaker": "1756033253395_13"
   },
   {
-    "_id": "easy2_1755260948241_017",
-    "content": "Count by 2s: 2, 4, 6, ___ (Question 17)",
-    "type": "multiple_choice",
-    "options": [
-      "7",
-      "8",
-      "9",
-      "10"
-    ],
-    "correctAnswer": "8",
-    "subject": "math",
-    "grade": "2",
-    "difficulty": "easy",
-    "explanation": "Counting by 2s: 2, 4, 6, 8",
-    "_cacheBreaker": "1755265388165_16"
-  },
-  {
-    "_id": "easy2_1755260948241_018",
-    "content": "What is 10 - 4? (Question 18)",
+    "_id": "math_2_easy_014",
+    "content": "What is 2 × 3?",
     "type": "multiple_choice",
     "options": [
       "5",
       "6",
       "7",
-      "14"
+      "8"
     ],
     "correctAnswer": "6",
     "subject": "math",
     "grade": "2",
     "difficulty": "easy",
-    "explanation": "10 - 4 = 6",
-    "_cacheBreaker": "1755265388165_17"
+    "explanation": "2 × 3 = 6",
+    "_cacheBreaker": "1756033253395_14"
   },
   {
-    "_id": "easy2_1755260948241_019",
-    "content": "What is 5 + 3? (Question 19)",
+    "_id": "math_2_easy_015",
+    "content": "Which is an even number?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "8"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "easy",
+    "explanation": "8 is even because it can be divided by 2",
+    "_cacheBreaker": "1756033253395_15"
+  },
+  {
+    "_id": "math_2_easy_016",
+    "content": "What is 6 + 3?",
+    "type": "multiple_choice",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "correctAnswer": "9",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "easy",
+    "explanation": "6 + 3 = 9",
+    "_cacheBreaker": "1756033253395_16"
+  },
+  {
+    "_id": "math_2_easy_017",
+    "content": "What is 8 - 2?",
+    "type": "multiple_choice",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctAnswer": "6",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "easy",
+    "explanation": "8 - 2 = 6",
+    "_cacheBreaker": "1756033253395_17"
+  },
+  {
+    "_id": "math_2_easy_018",
+    "content": "How many days are in a week?",
     "type": "multiple_choice",
     "options": [
       "6",
@@ -315,28 +298,555 @@
       "8",
       "9"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "7",
     "subject": "math",
     "grade": "2",
     "difficulty": "easy",
-    "explanation": "5 + 3 = 8",
-    "_cacheBreaker": "1755265388165_18"
+    "explanation": "A week has 7 days",
+    "_cacheBreaker": "1756033253395_18"
   },
   {
-    "_id": "easy2_1755260948241_020",
-    "content": "Count by 2s: 2, 4, 6, ___ (Question 20)",
+    "_id": "math_2_easy_019",
+    "content": "What is 2 × 3?",
     "type": "multiple_choice",
     "options": [
+      "5",
+      "6",
       "7",
-      "8",
-      "9",
-      "10"
+      "8"
+    ],
+    "correctAnswer": "6",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "easy",
+    "explanation": "2 × 3 = 6",
+    "_cacheBreaker": "1756033253395_19"
+  },
+  {
+    "_id": "math_2_easy_020",
+    "content": "Which is an even number?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "8"
     ],
     "correctAnswer": "8",
     "subject": "math",
     "grade": "2",
     "difficulty": "easy",
-    "explanation": "Counting by 2s: 2, 4, 6, 8",
-    "_cacheBreaker": "1755265388165_19"
+    "explanation": "8 is even because it can be divided by 2",
+    "_cacheBreaker": "1756033253395_20"
+  },
+  {
+    "_id": "math_2_easy_021",
+    "content": "What is 6 + 3?",
+    "type": "multiple_choice",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "correctAnswer": "9",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "easy",
+    "explanation": "6 + 3 = 9",
+    "_cacheBreaker": "1756033253395_21"
+  },
+  {
+    "_id": "math_2_easy_022",
+    "content": "What is 8 - 2?",
+    "type": "multiple_choice",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctAnswer": "6",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "easy",
+    "explanation": "8 - 2 = 6",
+    "_cacheBreaker": "1756033253395_22"
+  },
+  {
+    "_id": "math_2_easy_023",
+    "content": "How many days are in a week?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "7",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "easy",
+    "explanation": "A week has 7 days",
+    "_cacheBreaker": "1756033253395_23"
+  },
+  {
+    "_id": "math_2_easy_024",
+    "content": "What is 2 × 3?",
+    "type": "multiple_choice",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctAnswer": "6",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "easy",
+    "explanation": "2 × 3 = 6",
+    "_cacheBreaker": "1756033253395_24"
+  },
+  {
+    "_id": "math_2_easy_025",
+    "content": "Which is an even number?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "8"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "easy",
+    "explanation": "8 is even because it can be divided by 2",
+    "_cacheBreaker": "1756033253395_25"
+  },
+  {
+    "_id": "math_2_easy_026",
+    "content": "What is 6 + 3?",
+    "type": "multiple_choice",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "correctAnswer": "9",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "easy",
+    "explanation": "6 + 3 = 9",
+    "_cacheBreaker": "1756033253395_26"
+  },
+  {
+    "_id": "math_2_easy_027",
+    "content": "What is 8 - 2?",
+    "type": "multiple_choice",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctAnswer": "6",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "easy",
+    "explanation": "8 - 2 = 6",
+    "_cacheBreaker": "1756033253395_27"
+  },
+  {
+    "_id": "math_2_easy_028",
+    "content": "How many days are in a week?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "7",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "easy",
+    "explanation": "A week has 7 days",
+    "_cacheBreaker": "1756033253395_28"
+  },
+  {
+    "_id": "math_2_easy_029",
+    "content": "What is 2 × 3?",
+    "type": "multiple_choice",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctAnswer": "6",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "easy",
+    "explanation": "2 × 3 = 6",
+    "_cacheBreaker": "1756033253395_29"
+  },
+  {
+    "_id": "math_2_easy_030",
+    "content": "Which is an even number?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "8"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "easy",
+    "explanation": "8 is even because it can be divided by 2",
+    "_cacheBreaker": "1756033253395_30"
+  },
+  {
+    "_id": "math_2_easy_031",
+    "content": "What is 6 + 3?",
+    "type": "multiple_choice",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "correctAnswer": "9",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "easy",
+    "explanation": "6 + 3 = 9",
+    "_cacheBreaker": "1756033253395_31"
+  },
+  {
+    "_id": "math_2_easy_032",
+    "content": "What is 8 - 2?",
+    "type": "multiple_choice",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctAnswer": "6",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "easy",
+    "explanation": "8 - 2 = 6",
+    "_cacheBreaker": "1756033253395_32"
+  },
+  {
+    "_id": "math_2_easy_033",
+    "content": "How many days are in a week?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "7",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "easy",
+    "explanation": "A week has 7 days",
+    "_cacheBreaker": "1756033253395_33"
+  },
+  {
+    "_id": "math_2_easy_034",
+    "content": "What is 2 × 3?",
+    "type": "multiple_choice",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctAnswer": "6",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "easy",
+    "explanation": "2 × 3 = 6",
+    "_cacheBreaker": "1756033253395_34"
+  },
+  {
+    "_id": "math_2_easy_035",
+    "content": "Which is an even number?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "8"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "easy",
+    "explanation": "8 is even because it can be divided by 2",
+    "_cacheBreaker": "1756033253395_35"
+  },
+  {
+    "_id": "math_2_easy_036",
+    "content": "What is 6 + 3?",
+    "type": "multiple_choice",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "correctAnswer": "9",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "easy",
+    "explanation": "6 + 3 = 9",
+    "_cacheBreaker": "1756033253395_36"
+  },
+  {
+    "_id": "math_2_easy_037",
+    "content": "What is 8 - 2?",
+    "type": "multiple_choice",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctAnswer": "6",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "easy",
+    "explanation": "8 - 2 = 6",
+    "_cacheBreaker": "1756033253395_37"
+  },
+  {
+    "_id": "math_2_easy_038",
+    "content": "How many days are in a week?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "7",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "easy",
+    "explanation": "A week has 7 days",
+    "_cacheBreaker": "1756033253395_38"
+  },
+  {
+    "_id": "math_2_easy_039",
+    "content": "What is 2 × 3?",
+    "type": "multiple_choice",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctAnswer": "6",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "easy",
+    "explanation": "2 × 3 = 6",
+    "_cacheBreaker": "1756033253395_39"
+  },
+  {
+    "_id": "math_2_easy_040",
+    "content": "Which is an even number?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "8"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "easy",
+    "explanation": "8 is even because it can be divided by 2",
+    "_cacheBreaker": "1756033253395_40"
+  },
+  {
+    "_id": "math_2_easy_041",
+    "content": "What is 6 + 3?",
+    "type": "multiple_choice",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "correctAnswer": "9",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "easy",
+    "explanation": "6 + 3 = 9",
+    "_cacheBreaker": "1756033253395_41"
+  },
+  {
+    "_id": "math_2_easy_042",
+    "content": "What is 8 - 2?",
+    "type": "multiple_choice",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctAnswer": "6",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "easy",
+    "explanation": "8 - 2 = 6",
+    "_cacheBreaker": "1756033253395_42"
+  },
+  {
+    "_id": "math_2_easy_043",
+    "content": "How many days are in a week?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "7",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "easy",
+    "explanation": "A week has 7 days",
+    "_cacheBreaker": "1756033253395_43"
+  },
+  {
+    "_id": "math_2_easy_044",
+    "content": "What is 2 × 3?",
+    "type": "multiple_choice",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctAnswer": "6",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "easy",
+    "explanation": "2 × 3 = 6",
+    "_cacheBreaker": "1756033253395_44"
+  },
+  {
+    "_id": "math_2_easy_045",
+    "content": "Which is an even number?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "8"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "easy",
+    "explanation": "8 is even because it can be divided by 2",
+    "_cacheBreaker": "1756033253395_45"
+  },
+  {
+    "_id": "math_2_easy_046",
+    "content": "What is 6 + 3?",
+    "type": "multiple_choice",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "correctAnswer": "9",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "easy",
+    "explanation": "6 + 3 = 9",
+    "_cacheBreaker": "1756033253395_46"
+  },
+  {
+    "_id": "math_2_easy_047",
+    "content": "What is 8 - 2?",
+    "type": "multiple_choice",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctAnswer": "6",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "easy",
+    "explanation": "8 - 2 = 6",
+    "_cacheBreaker": "1756033253395_47"
+  },
+  {
+    "_id": "math_2_easy_048",
+    "content": "How many days are in a week?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "7",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "easy",
+    "explanation": "A week has 7 days",
+    "_cacheBreaker": "1756033253395_48"
+  },
+  {
+    "_id": "math_2_easy_049",
+    "content": "What is 2 × 3?",
+    "type": "multiple_choice",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctAnswer": "6",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "easy",
+    "explanation": "2 × 3 = 6",
+    "_cacheBreaker": "1756033253395_49"
+  },
+  {
+    "_id": "math_2_easy_050",
+    "content": "Which is an even number?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "8"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "easy",
+    "explanation": "8 is even because it can be divided by 2",
+    "_cacheBreaker": "1756033253395_50"
   }
 ]

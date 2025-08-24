@@ -1,342 +1,852 @@
 [
   {
-    "_id": "hard12_1755260548824_001",
-    "content": "Find the derivative of f(x) = x³ - 4x² + 5x - 2",
+    "_id": "math_12_hard_001",
+    "content": "Solve: 12x - 24 = 11x + 36",
     "type": "multiple_choice",
     "options": [
-      "3x² - 8x + 5",
-      "x² - 4x + 5",
-      "3x² - 4x + 5",
-      "3x² - 8x - 2"
+      "x = 60",
+      "x = 48",
+      "x = 72",
+      "x = 36"
     ],
+    "correctAnswer": "x = 60",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "Using the power rule: d/dx(x³) = 3x², d/dx(-4x²) = -8x, d/dx(5x) = 5, d/dx(-2) = 0",
-    "_cacheBreaker": "1755265388149_0",
-    "correctAnswer": "3x² - 8x + 5"
+    "explanation": "12x - 11x = 36 + 24, so x = 60",
+    "_cacheBreaker": "1756033578449_1"
   },
   {
-    "_id": "hard12_1755260548824_002",
-    "content": "Evaluate the integral: ∫(2x + 3)dx",
+    "_id": "math_12_hard_002",
+    "content": "If f(x) = 12x² + 24x, what is f(12)?",
     "type": "multiple_choice",
     "options": [
-      "x² + 3x + C",
-      "2x² + 3x + C",
-      "x² + 3x",
-      "2x + 3x + C"
+      "2016",
+      "168",
+      "36",
+      "144"
     ],
+    "correctAnswer": "2016",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "∫2x dx = x² and ∫3 dx = 3x, so the result is x² + 3x + C",
-    "_cacheBreaker": "1755265388149_1",
-    "correctAnswer": "x² + 3x + C"
+    "explanation": "f(12) = 12(12)² + 24(12) = 1728 + 288 = 2016",
+    "_cacheBreaker": "1756033578449_2"
   },
   {
-    "_id": "hard12_1755260548824_003",
-    "content": "Find lim(x→2) (x² - 4)/(x - 2)",
+    "_id": "math_12_hard_003",
+    "content": "What is the vertex of the parabola y = x² - 24x + 12?",
     "type": "multiple_choice",
     "options": [
-      "4",
-      "2",
-      "0",
-      "undefined"
+      "(12, -12)",
+      "(12, 0)",
+      "(0, 12)",
+      "(12, 12)"
     ],
+    "correctAnswer": "(12, -12)",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "Factor: (x² - 4)/(x - 2) = (x + 2)(x - 2)/(x - 2) = x + 2. As x→2, this approaches 4.",
-    "_cacheBreaker": "1755265388149_2",
-    "correctAnswer": "4"
+    "explanation": "Vertex x-coordinate = -b/2a = 24/2 = 12. y = 12² - 24(12) + 12 = -12",
+    "_cacheBreaker": "1756033578449_3"
   },
   {
-    "_id": "hard12_1755260548824_004",
-    "content": "Find d/dx(x^4)",
+    "_id": "math_12_hard_004",
+    "content": "Factor completely: x² - 144",
     "type": "multiple_choice",
     "options": [
-      "4x^3",
-      "Alternative 1",
-      "Alternative 2",
-      "Alternative 3"
+      "(x - 12)(x + 12)",
+      "(x - 12)²",
+      "x(x - 12)",
+      "Cannot be factored"
     ],
+    "correctAnswer": "(x - 12)(x + 12)",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "This requires advanced calculus knowledge.",
-    "_cacheBreaker": "1755265388149_3",
-    "correctAnswer": "4x^3"
+    "explanation": "x² - 144 is a difference of squares: (x - 12)(x + 12)",
+    "_cacheBreaker": "1756033578449_4"
   },
   {
-    "_id": "hard12_1755260548824_005",
-    "content": "Evaluate ∫x^5 dx",
+    "_id": "math_12_hard_005",
+    "content": "What is the range of f(x) = -x² + 24?",
     "type": "multiple_choice",
     "options": [
-      "x^6/6 + C",
-      "Alternative 1",
-      "Alternative 2",
-      "Alternative 3"
+      "All real numbers",
+      "y ≤ 24",
+      "y ≥ 24",
+      "y > 0"
     ],
+    "correctAnswer": "y ≤ 24",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "This requires advanced calculus knowledge.",
-    "_cacheBreaker": "1755265388149_4",
-    "correctAnswer": "x^6/6 + C"
+    "explanation": "Since the parabola opens downward, the maximum value is 24",
+    "_cacheBreaker": "1756033578449_5"
   },
   {
-    "_id": "hard12_1755260548824_006",
-    "content": "Find the critical points of f(x) = x^3 - 18x",
+    "_id": "math_12_hard_006",
+    "content": "Solve: 12x - 24 = 11x + 36",
     "type": "multiple_choice",
     "options": [
-      "x = ±√6",
-      "Alternative 1",
-      "Alternative 2",
-      "Alternative 3"
+      "x = 60",
+      "x = 48",
+      "x = 72",
+      "x = 36"
     ],
+    "correctAnswer": "x = 60",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "This requires advanced calculus knowledge.",
-    "_cacheBreaker": "1755265388149_5",
-    "correctAnswer": "x = ±√6"
+    "explanation": "12x - 11x = 36 + 24, so x = 60",
+    "_cacheBreaker": "1756033578449_6"
   },
   {
-    "_id": "hard12_1755260548824_007",
-    "content": "Find d/dx(x^7)",
+    "_id": "math_12_hard_007",
+    "content": "If f(x) = 12x² + 24x, what is f(12)?",
     "type": "multiple_choice",
     "options": [
-      "7x^6",
-      "Alternative 1",
-      "Alternative 2",
-      "Alternative 3"
+      "2016",
+      "168",
+      "36",
+      "144"
     ],
+    "correctAnswer": "2016",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "This requires advanced calculus knowledge.",
-    "_cacheBreaker": "1755265388149_6",
-    "correctAnswer": "7x^6"
+    "explanation": "f(12) = 12(12)² + 24(12) = 1728 + 288 = 2016",
+    "_cacheBreaker": "1756033578449_7"
   },
   {
-    "_id": "hard12_1755260548824_008",
-    "content": "Evaluate ∫x^8 dx",
+    "_id": "math_12_hard_008",
+    "content": "What is the vertex of the parabola y = x² - 24x + 12?",
     "type": "multiple_choice",
     "options": [
-      "x^9/9 + C",
-      "Alternative 1",
-      "Alternative 2",
-      "Alternative 3"
+      "(12, -12)",
+      "(12, 0)",
+      "(0, 12)",
+      "(12, 12)"
     ],
+    "correctAnswer": "(12, -12)",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "This requires advanced calculus knowledge.",
-    "_cacheBreaker": "1755265388149_7",
-    "correctAnswer": "x^9/9 + C"
+    "explanation": "Vertex x-coordinate = -b/2a = 24/2 = 12. y = 12² - 24(12) + 12 = -12",
+    "_cacheBreaker": "1756033578449_8"
   },
   {
-    "_id": "hard12_1755260548824_009",
-    "content": "Find the critical points of f(x) = x^3 - 27x",
+    "_id": "math_12_hard_009",
+    "content": "Factor completely: x² - 144",
     "type": "multiple_choice",
     "options": [
-      "x = ±√9",
-      "Alternative 1",
-      "Alternative 2",
-      "Alternative 3"
+      "(x - 12)(x + 12)",
+      "(x - 12)²",
+      "x(x - 12)",
+      "Cannot be factored"
     ],
+    "correctAnswer": "(x - 12)(x + 12)",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "This requires advanced calculus knowledge.",
-    "_cacheBreaker": "1755265388149_8",
-    "correctAnswer": "x = ±√9"
+    "explanation": "x² - 144 is a difference of squares: (x - 12)(x + 12)",
+    "_cacheBreaker": "1756033578449_9"
   },
   {
-    "_id": "hard12_1755260548824_010",
-    "content": "Find d/dx(x^10)",
+    "_id": "math_12_hard_010",
+    "content": "What is the range of f(x) = -x² + 24?",
     "type": "multiple_choice",
     "options": [
-      "10x^9",
-      "Alternative 1",
-      "Alternative 2",
-      "Alternative 3"
+      "All real numbers",
+      "y ≤ 24",
+      "y ≥ 24",
+      "y > 0"
     ],
+    "correctAnswer": "y ≤ 24",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "This requires advanced calculus knowledge.",
-    "_cacheBreaker": "1755265388149_9",
-    "correctAnswer": "10x^9"
+    "explanation": "Since the parabola opens downward, the maximum value is 24",
+    "_cacheBreaker": "1756033578449_10"
   },
   {
-    "_id": "hard12_1755260548824_011",
-    "content": "Evaluate ∫x^11 dx",
+    "_id": "math_12_hard_011",
+    "content": "Solve: 12x - 24 = 11x + 36",
     "type": "multiple_choice",
     "options": [
-      "x^12/12 + C",
-      "Alternative 1",
-      "Alternative 2",
-      "Alternative 3"
+      "x = 60",
+      "x = 48",
+      "x = 72",
+      "x = 36"
     ],
+    "correctAnswer": "x = 60",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "This requires advanced calculus knowledge.",
-    "_cacheBreaker": "1755265388149_10",
-    "correctAnswer": "x^12/12 + C"
+    "explanation": "12x - 11x = 36 + 24, so x = 60",
+    "_cacheBreaker": "1756033578449_11"
   },
   {
-    "_id": "hard12_1755260548824_012",
-    "content": "Find the critical points of f(x) = x^3 - 36x",
+    "_id": "math_12_hard_012",
+    "content": "If f(x) = 12x² + 24x, what is f(12)?",
     "type": "multiple_choice",
     "options": [
-      "x = ±√12",
-      "Alternative 1",
-      "Alternative 2",
-      "Alternative 3"
+      "2016",
+      "168",
+      "36",
+      "144"
     ],
+    "correctAnswer": "2016",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "This requires advanced calculus knowledge.",
-    "_cacheBreaker": "1755265388149_11",
-    "correctAnswer": "x = ±√12"
+    "explanation": "f(12) = 12(12)² + 24(12) = 1728 + 288 = 2016",
+    "_cacheBreaker": "1756033578449_12"
   },
   {
-    "_id": "hard12_1755260548824_013",
-    "content": "Find d/dx(x^13)",
+    "_id": "math_12_hard_013",
+    "content": "What is the vertex of the parabola y = x² - 24x + 12?",
     "type": "multiple_choice",
     "options": [
-      "13x^12",
-      "Alternative 1",
-      "Alternative 2",
-      "Alternative 3"
+      "(12, -12)",
+      "(12, 0)",
+      "(0, 12)",
+      "(12, 12)"
     ],
+    "correctAnswer": "(12, -12)",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "This requires advanced calculus knowledge.",
-    "_cacheBreaker": "1755265388149_12",
-    "correctAnswer": "13x^12"
+    "explanation": "Vertex x-coordinate = -b/2a = 24/2 = 12. y = 12² - 24(12) + 12 = -12",
+    "_cacheBreaker": "1756033578449_13"
   },
   {
-    "_id": "hard12_1755260548824_014",
-    "content": "Evaluate ∫x^14 dx",
+    "_id": "math_12_hard_014",
+    "content": "Factor completely: x² - 144",
     "type": "multiple_choice",
     "options": [
-      "x^15/15 + C",
-      "Alternative 1",
-      "Alternative 2",
-      "Alternative 3"
+      "(x - 12)(x + 12)",
+      "(x - 12)²",
+      "x(x - 12)",
+      "Cannot be factored"
     ],
+    "correctAnswer": "(x - 12)(x + 12)",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "This requires advanced calculus knowledge.",
-    "_cacheBreaker": "1755265388149_13",
-    "correctAnswer": "x^15/15 + C"
+    "explanation": "x² - 144 is a difference of squares: (x - 12)(x + 12)",
+    "_cacheBreaker": "1756033578449_14"
   },
   {
-    "_id": "hard12_1755260548824_015",
-    "content": "Find the critical points of f(x) = x^3 - 45x",
+    "_id": "math_12_hard_015",
+    "content": "What is the range of f(x) = -x² + 24?",
     "type": "multiple_choice",
     "options": [
-      "x = ±√15",
-      "Alternative 1",
-      "Alternative 2",
-      "Alternative 3"
+      "All real numbers",
+      "y ≤ 24",
+      "y ≥ 24",
+      "y > 0"
     ],
+    "correctAnswer": "y ≤ 24",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "This requires advanced calculus knowledge.",
-    "_cacheBreaker": "1755265388149_14",
-    "correctAnswer": "x = ±√15"
+    "explanation": "Since the parabola opens downward, the maximum value is 24",
+    "_cacheBreaker": "1756033578449_15"
   },
   {
-    "_id": "hard12_1755260548824_016",
-    "content": "Find d/dx(x^16)",
+    "_id": "math_12_hard_016",
+    "content": "Solve: 12x - 24 = 11x + 36",
     "type": "multiple_choice",
     "options": [
-      "16x^15",
-      "Alternative 1",
-      "Alternative 2",
-      "Alternative 3"
+      "x = 60",
+      "x = 48",
+      "x = 72",
+      "x = 36"
     ],
+    "correctAnswer": "x = 60",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "This requires advanced calculus knowledge.",
-    "_cacheBreaker": "1755265388149_15",
-    "correctAnswer": "16x^15"
+    "explanation": "12x - 11x = 36 + 24, so x = 60",
+    "_cacheBreaker": "1756033578449_16"
   },
   {
-    "_id": "hard12_1755260548824_017",
-    "content": "Evaluate ∫x^17 dx",
+    "_id": "math_12_hard_017",
+    "content": "If f(x) = 12x² + 24x, what is f(12)?",
     "type": "multiple_choice",
     "options": [
-      "x^18/18 + C",
-      "Alternative 1",
-      "Alternative 2",
-      "Alternative 3"
+      "2016",
+      "168",
+      "36",
+      "144"
     ],
+    "correctAnswer": "2016",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "This requires advanced calculus knowledge.",
-    "_cacheBreaker": "1755265388149_16",
-    "correctAnswer": "x^18/18 + C"
+    "explanation": "f(12) = 12(12)² + 24(12) = 1728 + 288 = 2016",
+    "_cacheBreaker": "1756033578449_17"
   },
   {
-    "_id": "hard12_1755260548824_018",
-    "content": "Find the critical points of f(x) = x^3 - 54x",
+    "_id": "math_12_hard_018",
+    "content": "What is the vertex of the parabola y = x² - 24x + 12?",
     "type": "multiple_choice",
     "options": [
-      "x = ±√18",
-      "Alternative 1",
-      "Alternative 2",
-      "Alternative 3"
+      "(12, -12)",
+      "(12, 0)",
+      "(0, 12)",
+      "(12, 12)"
     ],
+    "correctAnswer": "(12, -12)",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "This requires advanced calculus knowledge.",
-    "_cacheBreaker": "1755265388149_17",
-    "correctAnswer": "x = ±√18"
+    "explanation": "Vertex x-coordinate = -b/2a = 24/2 = 12. y = 12² - 24(12) + 12 = -12",
+    "_cacheBreaker": "1756033578449_18"
   },
   {
-    "_id": "hard12_1755260548824_019",
-    "content": "Find d/dx(x^19)",
+    "_id": "math_12_hard_019",
+    "content": "Factor completely: x² - 144",
     "type": "multiple_choice",
     "options": [
-      "19x^18",
-      "Alternative 1",
-      "Alternative 2",
-      "Alternative 3"
+      "(x - 12)(x + 12)",
+      "(x - 12)²",
+      "x(x - 12)",
+      "Cannot be factored"
     ],
+    "correctAnswer": "(x - 12)(x + 12)",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "This requires advanced calculus knowledge.",
-    "_cacheBreaker": "1755265388149_18",
-    "correctAnswer": "19x^18"
+    "explanation": "x² - 144 is a difference of squares: (x - 12)(x + 12)",
+    "_cacheBreaker": "1756033578449_19"
   },
   {
-    "_id": "hard12_1755260548824_020",
-    "content": "Evaluate ∫x^20 dx",
+    "_id": "math_12_hard_020",
+    "content": "What is the range of f(x) = -x² + 24?",
     "type": "multiple_choice",
     "options": [
-      "x^21/21 + C",
-      "Alternative 1",
-      "Alternative 2",
-      "Alternative 3"
+      "All real numbers",
+      "y ≤ 24",
+      "y ≥ 24",
+      "y > 0"
     ],
+    "correctAnswer": "y ≤ 24",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "This requires advanced calculus knowledge.",
-    "_cacheBreaker": "1755265388149_19",
-    "correctAnswer": "x^21/21 + C"
+    "explanation": "Since the parabola opens downward, the maximum value is 24",
+    "_cacheBreaker": "1756033578449_20"
+  },
+  {
+    "_id": "math_12_hard_021",
+    "content": "Solve: 12x - 24 = 11x + 36",
+    "type": "multiple_choice",
+    "options": [
+      "x = 60",
+      "x = 48",
+      "x = 72",
+      "x = 36"
+    ],
+    "correctAnswer": "x = 60",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "hard",
+    "explanation": "12x - 11x = 36 + 24, so x = 60",
+    "_cacheBreaker": "1756033578449_21"
+  },
+  {
+    "_id": "math_12_hard_022",
+    "content": "If f(x) = 12x² + 24x, what is f(12)?",
+    "type": "multiple_choice",
+    "options": [
+      "2016",
+      "168",
+      "36",
+      "144"
+    ],
+    "correctAnswer": "2016",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "hard",
+    "explanation": "f(12) = 12(12)² + 24(12) = 1728 + 288 = 2016",
+    "_cacheBreaker": "1756033578449_22"
+  },
+  {
+    "_id": "math_12_hard_023",
+    "content": "What is the vertex of the parabola y = x² - 24x + 12?",
+    "type": "multiple_choice",
+    "options": [
+      "(12, -12)",
+      "(12, 0)",
+      "(0, 12)",
+      "(12, 12)"
+    ],
+    "correctAnswer": "(12, -12)",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "hard",
+    "explanation": "Vertex x-coordinate = -b/2a = 24/2 = 12. y = 12² - 24(12) + 12 = -12",
+    "_cacheBreaker": "1756033578449_23"
+  },
+  {
+    "_id": "math_12_hard_024",
+    "content": "Factor completely: x² - 144",
+    "type": "multiple_choice",
+    "options": [
+      "(x - 12)(x + 12)",
+      "(x - 12)²",
+      "x(x - 12)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x - 12)(x + 12)",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "hard",
+    "explanation": "x² - 144 is a difference of squares: (x - 12)(x + 12)",
+    "_cacheBreaker": "1756033578449_24"
+  },
+  {
+    "_id": "math_12_hard_025",
+    "content": "What is the range of f(x) = -x² + 24?",
+    "type": "multiple_choice",
+    "options": [
+      "All real numbers",
+      "y ≤ 24",
+      "y ≥ 24",
+      "y > 0"
+    ],
+    "correctAnswer": "y ≤ 24",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "hard",
+    "explanation": "Since the parabola opens downward, the maximum value is 24",
+    "_cacheBreaker": "1756033578449_25"
+  },
+  {
+    "_id": "math_12_hard_026",
+    "content": "Solve: 12x - 24 = 11x + 36",
+    "type": "multiple_choice",
+    "options": [
+      "x = 60",
+      "x = 48",
+      "x = 72",
+      "x = 36"
+    ],
+    "correctAnswer": "x = 60",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "hard",
+    "explanation": "12x - 11x = 36 + 24, so x = 60",
+    "_cacheBreaker": "1756033578449_26"
+  },
+  {
+    "_id": "math_12_hard_027",
+    "content": "If f(x) = 12x² + 24x, what is f(12)?",
+    "type": "multiple_choice",
+    "options": [
+      "2016",
+      "168",
+      "36",
+      "144"
+    ],
+    "correctAnswer": "2016",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "hard",
+    "explanation": "f(12) = 12(12)² + 24(12) = 1728 + 288 = 2016",
+    "_cacheBreaker": "1756033578449_27"
+  },
+  {
+    "_id": "math_12_hard_028",
+    "content": "What is the vertex of the parabola y = x² - 24x + 12?",
+    "type": "multiple_choice",
+    "options": [
+      "(12, -12)",
+      "(12, 0)",
+      "(0, 12)",
+      "(12, 12)"
+    ],
+    "correctAnswer": "(12, -12)",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "hard",
+    "explanation": "Vertex x-coordinate = -b/2a = 24/2 = 12. y = 12² - 24(12) + 12 = -12",
+    "_cacheBreaker": "1756033578449_28"
+  },
+  {
+    "_id": "math_12_hard_029",
+    "content": "Factor completely: x² - 144",
+    "type": "multiple_choice",
+    "options": [
+      "(x - 12)(x + 12)",
+      "(x - 12)²",
+      "x(x - 12)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x - 12)(x + 12)",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "hard",
+    "explanation": "x² - 144 is a difference of squares: (x - 12)(x + 12)",
+    "_cacheBreaker": "1756033578449_29"
+  },
+  {
+    "_id": "math_12_hard_030",
+    "content": "What is the range of f(x) = -x² + 24?",
+    "type": "multiple_choice",
+    "options": [
+      "All real numbers",
+      "y ≤ 24",
+      "y ≥ 24",
+      "y > 0"
+    ],
+    "correctAnswer": "y ≤ 24",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "hard",
+    "explanation": "Since the parabola opens downward, the maximum value is 24",
+    "_cacheBreaker": "1756033578449_30"
+  },
+  {
+    "_id": "math_12_hard_031",
+    "content": "Solve: 12x - 24 = 11x + 36",
+    "type": "multiple_choice",
+    "options": [
+      "x = 60",
+      "x = 48",
+      "x = 72",
+      "x = 36"
+    ],
+    "correctAnswer": "x = 60",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "hard",
+    "explanation": "12x - 11x = 36 + 24, so x = 60",
+    "_cacheBreaker": "1756033578449_31"
+  },
+  {
+    "_id": "math_12_hard_032",
+    "content": "If f(x) = 12x² + 24x, what is f(12)?",
+    "type": "multiple_choice",
+    "options": [
+      "2016",
+      "168",
+      "36",
+      "144"
+    ],
+    "correctAnswer": "2016",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "hard",
+    "explanation": "f(12) = 12(12)² + 24(12) = 1728 + 288 = 2016",
+    "_cacheBreaker": "1756033578449_32"
+  },
+  {
+    "_id": "math_12_hard_033",
+    "content": "What is the vertex of the parabola y = x² - 24x + 12?",
+    "type": "multiple_choice",
+    "options": [
+      "(12, -12)",
+      "(12, 0)",
+      "(0, 12)",
+      "(12, 12)"
+    ],
+    "correctAnswer": "(12, -12)",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "hard",
+    "explanation": "Vertex x-coordinate = -b/2a = 24/2 = 12. y = 12² - 24(12) + 12 = -12",
+    "_cacheBreaker": "1756033578449_33"
+  },
+  {
+    "_id": "math_12_hard_034",
+    "content": "Factor completely: x² - 144",
+    "type": "multiple_choice",
+    "options": [
+      "(x - 12)(x + 12)",
+      "(x - 12)²",
+      "x(x - 12)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x - 12)(x + 12)",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "hard",
+    "explanation": "x² - 144 is a difference of squares: (x - 12)(x + 12)",
+    "_cacheBreaker": "1756033578449_34"
+  },
+  {
+    "_id": "math_12_hard_035",
+    "content": "What is the range of f(x) = -x² + 24?",
+    "type": "multiple_choice",
+    "options": [
+      "All real numbers",
+      "y ≤ 24",
+      "y ≥ 24",
+      "y > 0"
+    ],
+    "correctAnswer": "y ≤ 24",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "hard",
+    "explanation": "Since the parabola opens downward, the maximum value is 24",
+    "_cacheBreaker": "1756033578449_35"
+  },
+  {
+    "_id": "math_12_hard_036",
+    "content": "Solve: 12x - 24 = 11x + 36",
+    "type": "multiple_choice",
+    "options": [
+      "x = 60",
+      "x = 48",
+      "x = 72",
+      "x = 36"
+    ],
+    "correctAnswer": "x = 60",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "hard",
+    "explanation": "12x - 11x = 36 + 24, so x = 60",
+    "_cacheBreaker": "1756033578449_36"
+  },
+  {
+    "_id": "math_12_hard_037",
+    "content": "If f(x) = 12x² + 24x, what is f(12)?",
+    "type": "multiple_choice",
+    "options": [
+      "2016",
+      "168",
+      "36",
+      "144"
+    ],
+    "correctAnswer": "2016",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "hard",
+    "explanation": "f(12) = 12(12)² + 24(12) = 1728 + 288 = 2016",
+    "_cacheBreaker": "1756033578449_37"
+  },
+  {
+    "_id": "math_12_hard_038",
+    "content": "What is the vertex of the parabola y = x² - 24x + 12?",
+    "type": "multiple_choice",
+    "options": [
+      "(12, -12)",
+      "(12, 0)",
+      "(0, 12)",
+      "(12, 12)"
+    ],
+    "correctAnswer": "(12, -12)",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "hard",
+    "explanation": "Vertex x-coordinate = -b/2a = 24/2 = 12. y = 12² - 24(12) + 12 = -12",
+    "_cacheBreaker": "1756033578449_38"
+  },
+  {
+    "_id": "math_12_hard_039",
+    "content": "Factor completely: x² - 144",
+    "type": "multiple_choice",
+    "options": [
+      "(x - 12)(x + 12)",
+      "(x - 12)²",
+      "x(x - 12)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x - 12)(x + 12)",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "hard",
+    "explanation": "x² - 144 is a difference of squares: (x - 12)(x + 12)",
+    "_cacheBreaker": "1756033578449_39"
+  },
+  {
+    "_id": "math_12_hard_040",
+    "content": "What is the range of f(x) = -x² + 24?",
+    "type": "multiple_choice",
+    "options": [
+      "All real numbers",
+      "y ≤ 24",
+      "y ≥ 24",
+      "y > 0"
+    ],
+    "correctAnswer": "y ≤ 24",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "hard",
+    "explanation": "Since the parabola opens downward, the maximum value is 24",
+    "_cacheBreaker": "1756033578449_40"
+  },
+  {
+    "_id": "math_12_hard_041",
+    "content": "Solve: 12x - 24 = 11x + 36",
+    "type": "multiple_choice",
+    "options": [
+      "x = 60",
+      "x = 48",
+      "x = 72",
+      "x = 36"
+    ],
+    "correctAnswer": "x = 60",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "hard",
+    "explanation": "12x - 11x = 36 + 24, so x = 60",
+    "_cacheBreaker": "1756033578449_41"
+  },
+  {
+    "_id": "math_12_hard_042",
+    "content": "If f(x) = 12x² + 24x, what is f(12)?",
+    "type": "multiple_choice",
+    "options": [
+      "2016",
+      "168",
+      "36",
+      "144"
+    ],
+    "correctAnswer": "2016",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "hard",
+    "explanation": "f(12) = 12(12)² + 24(12) = 1728 + 288 = 2016",
+    "_cacheBreaker": "1756033578449_42"
+  },
+  {
+    "_id": "math_12_hard_043",
+    "content": "What is the vertex of the parabola y = x² - 24x + 12?",
+    "type": "multiple_choice",
+    "options": [
+      "(12, -12)",
+      "(12, 0)",
+      "(0, 12)",
+      "(12, 12)"
+    ],
+    "correctAnswer": "(12, -12)",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "hard",
+    "explanation": "Vertex x-coordinate = -b/2a = 24/2 = 12. y = 12² - 24(12) + 12 = -12",
+    "_cacheBreaker": "1756033578449_43"
+  },
+  {
+    "_id": "math_12_hard_044",
+    "content": "Factor completely: x² - 144",
+    "type": "multiple_choice",
+    "options": [
+      "(x - 12)(x + 12)",
+      "(x - 12)²",
+      "x(x - 12)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x - 12)(x + 12)",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "hard",
+    "explanation": "x² - 144 is a difference of squares: (x - 12)(x + 12)",
+    "_cacheBreaker": "1756033578449_44"
+  },
+  {
+    "_id": "math_12_hard_045",
+    "content": "What is the range of f(x) = -x² + 24?",
+    "type": "multiple_choice",
+    "options": [
+      "All real numbers",
+      "y ≤ 24",
+      "y ≥ 24",
+      "y > 0"
+    ],
+    "correctAnswer": "y ≤ 24",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "hard",
+    "explanation": "Since the parabola opens downward, the maximum value is 24",
+    "_cacheBreaker": "1756033578449_45"
+  },
+  {
+    "_id": "math_12_hard_046",
+    "content": "Solve: 12x - 24 = 11x + 36",
+    "type": "multiple_choice",
+    "options": [
+      "x = 60",
+      "x = 48",
+      "x = 72",
+      "x = 36"
+    ],
+    "correctAnswer": "x = 60",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "hard",
+    "explanation": "12x - 11x = 36 + 24, so x = 60",
+    "_cacheBreaker": "1756033578449_46"
+  },
+  {
+    "_id": "math_12_hard_047",
+    "content": "If f(x) = 12x² + 24x, what is f(12)?",
+    "type": "multiple_choice",
+    "options": [
+      "2016",
+      "168",
+      "36",
+      "144"
+    ],
+    "correctAnswer": "2016",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "hard",
+    "explanation": "f(12) = 12(12)² + 24(12) = 1728 + 288 = 2016",
+    "_cacheBreaker": "1756033578449_47"
+  },
+  {
+    "_id": "math_12_hard_048",
+    "content": "What is the vertex of the parabola y = x² - 24x + 12?",
+    "type": "multiple_choice",
+    "options": [
+      "(12, -12)",
+      "(12, 0)",
+      "(0, 12)",
+      "(12, 12)"
+    ],
+    "correctAnswer": "(12, -12)",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "hard",
+    "explanation": "Vertex x-coordinate = -b/2a = 24/2 = 12. y = 12² - 24(12) + 12 = -12",
+    "_cacheBreaker": "1756033578449_48"
+  },
+  {
+    "_id": "math_12_hard_049",
+    "content": "Factor completely: x² - 144",
+    "type": "multiple_choice",
+    "options": [
+      "(x - 12)(x + 12)",
+      "(x - 12)²",
+      "x(x - 12)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x - 12)(x + 12)",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "hard",
+    "explanation": "x² - 144 is a difference of squares: (x - 12)(x + 12)",
+    "_cacheBreaker": "1756033578449_49"
+  },
+  {
+    "_id": "math_12_hard_050",
+    "content": "What is the range of f(x) = -x² + 24?",
+    "type": "multiple_choice",
+    "options": [
+      "All real numbers",
+      "y ≤ 24",
+      "y ≥ 24",
+      "y > 0"
+    ],
+    "correctAnswer": "y ≤ 24",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "hard",
+    "explanation": "Since the parabola opens downward, the maximum value is 24",
+    "_cacheBreaker": "1756033578449_50"
   }
 ]

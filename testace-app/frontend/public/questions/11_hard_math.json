@@ -1,342 +1,852 @@
 [
   {
-    "_id": "math_11_hard_1755775410764_1",
-    "content": "Find the derivative of f(x) = 3x² + 2x - 1",
+    "_id": "math_11_hard_001",
+    "content": "Solve: 11x - 22 = 10x + 33",
     "type": "multiple_choice",
     "options": [
-      "f'(x) = 6x + 2",
-      "f'(x) = 6x - 1",
-      "f'(x) = 3x + 2",
-      "f'(x) = 6x² + 2x"
+      "x = 55",
+      "x = 44",
+      "x = 66",
+      "x = 33"
     ],
-    "correctAnswer": "f'(x) = 6x + 2",
+    "correctAnswer": "x = 55",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "Using power rule: d/dx(3x²) = 6x, d/dx(2x) = 2, d/dx(-1) = 0",
-    "_cacheBreaker": "1755775410764_0"
+    "explanation": "11x - 10x = 33 + 22, so x = 55",
+    "_cacheBreaker": "1756033578441_1"
   },
   {
-    "_id": "math_11_hard_1755775410764_2",
-    "content": "Evaluate: lim(x→2) (x² - 4)/(x - 2)",
+    "_id": "math_11_hard_002",
+    "content": "If f(x) = 11x² + 22x, what is f(11)?",
     "type": "multiple_choice",
     "options": [
-      "4",
-      "2",
-      "0",
-      "undefined"
+      "1573",
+      "143",
+      "33",
+      "121"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "1573",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "Factor numerator: (x² - 4) = (x + 2)(x - 2). Cancel (x - 2): lim(x→2) (x + 2) = 4",
-    "_cacheBreaker": "1755775410764_1"
+    "explanation": "f(11) = 11(11)² + 22(11) = 1331 + 242 = 1573",
+    "_cacheBreaker": "1756033578441_2"
   },
   {
-    "_id": "math_11_hard_1755775410764_3",
-    "content": "If cos(θ) = 3/5 and θ is in the first quadrant, find sin(θ)",
+    "_id": "math_11_hard_003",
+    "content": "What is the vertex of the parabola y = x² - 22x + 11?",
     "type": "multiple_choice",
     "options": [
-      "4/5",
-      "3/4",
-      "5/4",
-      "4/3"
+      "(11, -11)",
+      "(11, 0)",
+      "(0, 11)",
+      "(11, 11)"
     ],
-    "correctAnswer": "4/5",
+    "correctAnswer": "(11, -11)",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "Using Pythagorean identity: sin²(θ) + cos²(θ) = 1. So sin²(θ) = 1 - (3/5)² = 16/25. Therefore sin(θ) = 4/5",
-    "_cacheBreaker": "1755775410764_2"
+    "explanation": "Vertex x-coordinate = -b/2a = 22/2 = 11. y = 11² - 22(11) + 11 = -11",
+    "_cacheBreaker": "1756033578441_3"
   },
   {
-    "_id": "math_11_hard_1755775410764_4",
-    "content": "Find the derivative of f(x) = 3x² + 2x - 1",
+    "_id": "math_11_hard_004",
+    "content": "Factor completely: x² - 121",
     "type": "multiple_choice",
     "options": [
-      "f'(x) = 6x + 2",
-      "f'(x) = 6x - 1",
-      "f'(x) = 3x + 2",
-      "f'(x) = 6x² + 2x"
+      "(x - 11)(x + 11)",
+      "(x - 11)²",
+      "x(x - 11)",
+      "Cannot be factored"
     ],
-    "correctAnswer": "f'(x) = 6x + 2",
+    "correctAnswer": "(x - 11)(x + 11)",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "Using power rule: d/dx(3x²) = 6x, d/dx(2x) = 2, d/dx(-1) = 0",
-    "_cacheBreaker": "1755775410764_3"
+    "explanation": "x² - 121 is a difference of squares: (x - 11)(x + 11)",
+    "_cacheBreaker": "1756033578441_4"
   },
   {
-    "_id": "math_11_hard_1755775410764_5",
-    "content": "Evaluate: lim(x→2) (x² - 4)/(x - 2)",
+    "_id": "math_11_hard_005",
+    "content": "What is the range of f(x) = -x² + 22?",
     "type": "multiple_choice",
     "options": [
-      "4",
-      "2",
-      "0",
-      "undefined"
+      "All real numbers",
+      "y ≤ 22",
+      "y ≥ 22",
+      "y > 0"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "y ≤ 22",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "Factor numerator: (x² - 4) = (x + 2)(x - 2). Cancel (x - 2): lim(x→2) (x + 2) = 4",
-    "_cacheBreaker": "1755775410764_4"
+    "explanation": "Since the parabola opens downward, the maximum value is 22",
+    "_cacheBreaker": "1756033578441_5"
   },
   {
-    "_id": "math_11_hard_1755775410764_6",
-    "content": "If cos(θ) = 3/5 and θ is in the first quadrant, find sin(θ)",
+    "_id": "math_11_hard_006",
+    "content": "Solve: 11x - 22 = 10x + 33",
     "type": "multiple_choice",
     "options": [
-      "4/5",
-      "3/4",
-      "5/4",
-      "4/3"
+      "x = 55",
+      "x = 44",
+      "x = 66",
+      "x = 33"
     ],
-    "correctAnswer": "4/5",
+    "correctAnswer": "x = 55",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "Using Pythagorean identity: sin²(θ) + cos²(θ) = 1. So sin²(θ) = 1 - (3/5)² = 16/25. Therefore sin(θ) = 4/5",
-    "_cacheBreaker": "1755775410764_5"
+    "explanation": "11x - 10x = 33 + 22, so x = 55",
+    "_cacheBreaker": "1756033578441_6"
   },
   {
-    "_id": "math_11_hard_1755775410764_7",
-    "content": "Find the derivative of f(x) = 3x² + 2x - 1",
+    "_id": "math_11_hard_007",
+    "content": "If f(x) = 11x² + 22x, what is f(11)?",
     "type": "multiple_choice",
     "options": [
-      "f'(x) = 6x + 2",
-      "f'(x) = 6x - 1",
-      "f'(x) = 3x + 2",
-      "f'(x) = 6x² + 2x"
+      "1573",
+      "143",
+      "33",
+      "121"
     ],
-    "correctAnswer": "f'(x) = 6x + 2",
+    "correctAnswer": "1573",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "Using power rule: d/dx(3x²) = 6x, d/dx(2x) = 2, d/dx(-1) = 0",
-    "_cacheBreaker": "1755775410764_6"
+    "explanation": "f(11) = 11(11)² + 22(11) = 1331 + 242 = 1573",
+    "_cacheBreaker": "1756033578441_7"
   },
   {
-    "_id": "math_11_hard_1755775410764_8",
-    "content": "Evaluate: lim(x→2) (x² - 4)/(x - 2)",
+    "_id": "math_11_hard_008",
+    "content": "What is the vertex of the parabola y = x² - 22x + 11?",
     "type": "multiple_choice",
     "options": [
-      "4",
-      "2",
-      "0",
-      "undefined"
+      "(11, -11)",
+      "(11, 0)",
+      "(0, 11)",
+      "(11, 11)"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "(11, -11)",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "Factor numerator: (x² - 4) = (x + 2)(x - 2). Cancel (x - 2): lim(x→2) (x + 2) = 4",
-    "_cacheBreaker": "1755775410764_7"
+    "explanation": "Vertex x-coordinate = -b/2a = 22/2 = 11. y = 11² - 22(11) + 11 = -11",
+    "_cacheBreaker": "1756033578441_8"
   },
   {
-    "_id": "math_11_hard_1755775410764_9",
-    "content": "If cos(θ) = 3/5 and θ is in the first quadrant, find sin(θ)",
+    "_id": "math_11_hard_009",
+    "content": "Factor completely: x² - 121",
     "type": "multiple_choice",
     "options": [
-      "4/5",
-      "3/4",
-      "5/4",
-      "4/3"
+      "(x - 11)(x + 11)",
+      "(x - 11)²",
+      "x(x - 11)",
+      "Cannot be factored"
     ],
-    "correctAnswer": "4/5",
+    "correctAnswer": "(x - 11)(x + 11)",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "Using Pythagorean identity: sin²(θ) + cos²(θ) = 1. So sin²(θ) = 1 - (3/5)² = 16/25. Therefore sin(θ) = 4/5",
-    "_cacheBreaker": "1755775410764_8"
+    "explanation": "x² - 121 is a difference of squares: (x - 11)(x + 11)",
+    "_cacheBreaker": "1756033578441_9"
   },
   {
-    "_id": "math_11_hard_1755775410764_10",
-    "content": "Find the derivative of f(x) = 3x² + 2x - 1",
+    "_id": "math_11_hard_010",
+    "content": "What is the range of f(x) = -x² + 22?",
     "type": "multiple_choice",
     "options": [
-      "f'(x) = 6x + 2",
-      "f'(x) = 6x - 1",
-      "f'(x) = 3x + 2",
-      "f'(x) = 6x² + 2x"
+      "All real numbers",
+      "y ≤ 22",
+      "y ≥ 22",
+      "y > 0"
     ],
-    "correctAnswer": "f'(x) = 6x + 2",
+    "correctAnswer": "y ≤ 22",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "Using power rule: d/dx(3x²) = 6x, d/dx(2x) = 2, d/dx(-1) = 0",
-    "_cacheBreaker": "1755775410764_9"
+    "explanation": "Since the parabola opens downward, the maximum value is 22",
+    "_cacheBreaker": "1756033578441_10"
   },
   {
-    "_id": "math_11_hard_1755775410764_11",
-    "content": "Evaluate: lim(x→2) (x² - 4)/(x - 2)",
+    "_id": "math_11_hard_011",
+    "content": "Solve: 11x - 22 = 10x + 33",
     "type": "multiple_choice",
     "options": [
-      "4",
-      "2",
-      "0",
-      "undefined"
+      "x = 55",
+      "x = 44",
+      "x = 66",
+      "x = 33"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "x = 55",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "Factor numerator: (x² - 4) = (x + 2)(x - 2). Cancel (x - 2): lim(x→2) (x + 2) = 4",
-    "_cacheBreaker": "1755775410764_10"
+    "explanation": "11x - 10x = 33 + 22, so x = 55",
+    "_cacheBreaker": "1756033578441_11"
   },
   {
-    "_id": "math_11_hard_1755775410764_12",
-    "content": "If cos(θ) = 3/5 and θ is in the first quadrant, find sin(θ)",
+    "_id": "math_11_hard_012",
+    "content": "If f(x) = 11x² + 22x, what is f(11)?",
     "type": "multiple_choice",
     "options": [
-      "4/5",
-      "3/4",
-      "5/4",
-      "4/3"
+      "1573",
+      "143",
+      "33",
+      "121"
     ],
-    "correctAnswer": "4/5",
+    "correctAnswer": "1573",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "Using Pythagorean identity: sin²(θ) + cos²(θ) = 1. So sin²(θ) = 1 - (3/5)² = 16/25. Therefore sin(θ) = 4/5",
-    "_cacheBreaker": "1755775410764_11"
+    "explanation": "f(11) = 11(11)² + 22(11) = 1331 + 242 = 1573",
+    "_cacheBreaker": "1756033578441_12"
   },
   {
-    "_id": "math_11_hard_1755775410764_13",
-    "content": "Find the derivative of f(x) = 3x² + 2x - 1",
+    "_id": "math_11_hard_013",
+    "content": "What is the vertex of the parabola y = x² - 22x + 11?",
     "type": "multiple_choice",
     "options": [
-      "f'(x) = 6x + 2",
-      "f'(x) = 6x - 1",
-      "f'(x) = 3x + 2",
-      "f'(x) = 6x² + 2x"
+      "(11, -11)",
+      "(11, 0)",
+      "(0, 11)",
+      "(11, 11)"
     ],
-    "correctAnswer": "f'(x) = 6x + 2",
+    "correctAnswer": "(11, -11)",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "Using power rule: d/dx(3x²) = 6x, d/dx(2x) = 2, d/dx(-1) = 0",
-    "_cacheBreaker": "1755775410764_12"
+    "explanation": "Vertex x-coordinate = -b/2a = 22/2 = 11. y = 11² - 22(11) + 11 = -11",
+    "_cacheBreaker": "1756033578441_13"
   },
   {
-    "_id": "math_11_hard_1755775410764_14",
-    "content": "Evaluate: lim(x→2) (x² - 4)/(x - 2)",
+    "_id": "math_11_hard_014",
+    "content": "Factor completely: x² - 121",
     "type": "multiple_choice",
     "options": [
-      "4",
-      "2",
-      "0",
-      "undefined"
+      "(x - 11)(x + 11)",
+      "(x - 11)²",
+      "x(x - 11)",
+      "Cannot be factored"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "(x - 11)(x + 11)",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "Factor numerator: (x² - 4) = (x + 2)(x - 2). Cancel (x - 2): lim(x→2) (x + 2) = 4",
-    "_cacheBreaker": "1755775410764_13"
+    "explanation": "x² - 121 is a difference of squares: (x - 11)(x + 11)",
+    "_cacheBreaker": "1756033578441_14"
   },
   {
-    "_id": "math_11_hard_1755775410764_15",
-    "content": "If cos(θ) = 3/5 and θ is in the first quadrant, find sin(θ)",
+    "_id": "math_11_hard_015",
+    "content": "What is the range of f(x) = -x² + 22?",
     "type": "multiple_choice",
     "options": [
-      "4/5",
-      "3/4",
-      "5/4",
-      "4/3"
+      "All real numbers",
+      "y ≤ 22",
+      "y ≥ 22",
+      "y > 0"
     ],
-    "correctAnswer": "4/5",
+    "correctAnswer": "y ≤ 22",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "Using Pythagorean identity: sin²(θ) + cos²(θ) = 1. So sin²(θ) = 1 - (3/5)² = 16/25. Therefore sin(θ) = 4/5",
-    "_cacheBreaker": "1755775410764_14"
+    "explanation": "Since the parabola opens downward, the maximum value is 22",
+    "_cacheBreaker": "1756033578441_15"
   },
   {
-    "_id": "math_11_hard_1755775410764_16",
-    "content": "Find the derivative of f(x) = 3x² + 2x - 1",
+    "_id": "math_11_hard_016",
+    "content": "Solve: 11x - 22 = 10x + 33",
     "type": "multiple_choice",
     "options": [
-      "f'(x) = 6x + 2",
-      "f'(x) = 6x - 1",
-      "f'(x) = 3x + 2",
-      "f'(x) = 6x² + 2x"
+      "x = 55",
+      "x = 44",
+      "x = 66",
+      "x = 33"
     ],
-    "correctAnswer": "f'(x) = 6x + 2",
+    "correctAnswer": "x = 55",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "Using power rule: d/dx(3x²) = 6x, d/dx(2x) = 2, d/dx(-1) = 0",
-    "_cacheBreaker": "1755775410764_15"
+    "explanation": "11x - 10x = 33 + 22, so x = 55",
+    "_cacheBreaker": "1756033578441_16"
   },
   {
-    "_id": "math_11_hard_1755775410764_17",
-    "content": "Evaluate: lim(x→2) (x² - 4)/(x - 2)",
+    "_id": "math_11_hard_017",
+    "content": "If f(x) = 11x² + 22x, what is f(11)?",
     "type": "multiple_choice",
     "options": [
-      "4",
-      "2",
-      "0",
-      "undefined"
+      "1573",
+      "143",
+      "33",
+      "121"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "1573",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "Factor numerator: (x² - 4) = (x + 2)(x - 2). Cancel (x - 2): lim(x→2) (x + 2) = 4",
-    "_cacheBreaker": "1755775410764_16"
+    "explanation": "f(11) = 11(11)² + 22(11) = 1331 + 242 = 1573",
+    "_cacheBreaker": "1756033578441_17"
   },
   {
-    "_id": "math_11_hard_1755775410764_18",
-    "content": "If cos(θ) = 3/5 and θ is in the first quadrant, find sin(θ)",
+    "_id": "math_11_hard_018",
+    "content": "What is the vertex of the parabola y = x² - 22x + 11?",
     "type": "multiple_choice",
     "options": [
-      "4/5",
-      "3/4",
-      "5/4",
-      "4/3"
+      "(11, -11)",
+      "(11, 0)",
+      "(0, 11)",
+      "(11, 11)"
     ],
-    "correctAnswer": "4/5",
+    "correctAnswer": "(11, -11)",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "Using Pythagorean identity: sin²(θ) + cos²(θ) = 1. So sin²(θ) = 1 - (3/5)² = 16/25. Therefore sin(θ) = 4/5",
-    "_cacheBreaker": "1755775410764_17"
+    "explanation": "Vertex x-coordinate = -b/2a = 22/2 = 11. y = 11² - 22(11) + 11 = -11",
+    "_cacheBreaker": "1756033578441_18"
   },
   {
-    "_id": "math_11_hard_1755775410764_19",
-    "content": "Find the derivative of f(x) = 3x² + 2x - 1",
+    "_id": "math_11_hard_019",
+    "content": "Factor completely: x² - 121",
     "type": "multiple_choice",
     "options": [
-      "f'(x) = 6x + 2",
-      "f'(x) = 6x - 1",
-      "f'(x) = 3x + 2",
-      "f'(x) = 6x² + 2x"
+      "(x - 11)(x + 11)",
+      "(x - 11)²",
+      "x(x - 11)",
+      "Cannot be factored"
     ],
-    "correctAnswer": "f'(x) = 6x + 2",
+    "correctAnswer": "(x - 11)(x + 11)",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "Using power rule: d/dx(3x²) = 6x, d/dx(2x) = 2, d/dx(-1) = 0",
-    "_cacheBreaker": "1755775410764_18"
+    "explanation": "x² - 121 is a difference of squares: (x - 11)(x + 11)",
+    "_cacheBreaker": "1756033578441_19"
   },
   {
-    "_id": "math_11_hard_1755775410764_20",
-    "content": "Evaluate: lim(x→2) (x² - 4)/(x - 2)",
+    "_id": "math_11_hard_020",
+    "content": "What is the range of f(x) = -x² + 22?",
     "type": "multiple_choice",
     "options": [
-      "4",
-      "2",
-      "0",
-      "undefined"
+      "All real numbers",
+      "y ≤ 22",
+      "y ≥ 22",
+      "y > 0"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "y ≤ 22",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "Factor numerator: (x² - 4) = (x + 2)(x - 2). Cancel (x - 2): lim(x→2) (x + 2) = 4",
-    "_cacheBreaker": "1755775410764_19"
+    "explanation": "Since the parabola opens downward, the maximum value is 22",
+    "_cacheBreaker": "1756033578441_20"
+  },
+  {
+    "_id": "math_11_hard_021",
+    "content": "Solve: 11x - 22 = 10x + 33",
+    "type": "multiple_choice",
+    "options": [
+      "x = 55",
+      "x = 44",
+      "x = 66",
+      "x = 33"
+    ],
+    "correctAnswer": "x = 55",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "hard",
+    "explanation": "11x - 10x = 33 + 22, so x = 55",
+    "_cacheBreaker": "1756033578441_21"
+  },
+  {
+    "_id": "math_11_hard_022",
+    "content": "If f(x) = 11x² + 22x, what is f(11)?",
+    "type": "multiple_choice",
+    "options": [
+      "1573",
+      "143",
+      "33",
+      "121"
+    ],
+    "correctAnswer": "1573",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "hard",
+    "explanation": "f(11) = 11(11)² + 22(11) = 1331 + 242 = 1573",
+    "_cacheBreaker": "1756033578441_22"
+  },
+  {
+    "_id": "math_11_hard_023",
+    "content": "What is the vertex of the parabola y = x² - 22x + 11?",
+    "type": "multiple_choice",
+    "options": [
+      "(11, -11)",
+      "(11, 0)",
+      "(0, 11)",
+      "(11, 11)"
+    ],
+    "correctAnswer": "(11, -11)",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "hard",
+    "explanation": "Vertex x-coordinate = -b/2a = 22/2 = 11. y = 11² - 22(11) + 11 = -11",
+    "_cacheBreaker": "1756033578441_23"
+  },
+  {
+    "_id": "math_11_hard_024",
+    "content": "Factor completely: x² - 121",
+    "type": "multiple_choice",
+    "options": [
+      "(x - 11)(x + 11)",
+      "(x - 11)²",
+      "x(x - 11)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x - 11)(x + 11)",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "hard",
+    "explanation": "x² - 121 is a difference of squares: (x - 11)(x + 11)",
+    "_cacheBreaker": "1756033578441_24"
+  },
+  {
+    "_id": "math_11_hard_025",
+    "content": "What is the range of f(x) = -x² + 22?",
+    "type": "multiple_choice",
+    "options": [
+      "All real numbers",
+      "y ≤ 22",
+      "y ≥ 22",
+      "y > 0"
+    ],
+    "correctAnswer": "y ≤ 22",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "hard",
+    "explanation": "Since the parabola opens downward, the maximum value is 22",
+    "_cacheBreaker": "1756033578441_25"
+  },
+  {
+    "_id": "math_11_hard_026",
+    "content": "Solve: 11x - 22 = 10x + 33",
+    "type": "multiple_choice",
+    "options": [
+      "x = 55",
+      "x = 44",
+      "x = 66",
+      "x = 33"
+    ],
+    "correctAnswer": "x = 55",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "hard",
+    "explanation": "11x - 10x = 33 + 22, so x = 55",
+    "_cacheBreaker": "1756033578441_26"
+  },
+  {
+    "_id": "math_11_hard_027",
+    "content": "If f(x) = 11x² + 22x, what is f(11)?",
+    "type": "multiple_choice",
+    "options": [
+      "1573",
+      "143",
+      "33",
+      "121"
+    ],
+    "correctAnswer": "1573",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "hard",
+    "explanation": "f(11) = 11(11)² + 22(11) = 1331 + 242 = 1573",
+    "_cacheBreaker": "1756033578441_27"
+  },
+  {
+    "_id": "math_11_hard_028",
+    "content": "What is the vertex of the parabola y = x² - 22x + 11?",
+    "type": "multiple_choice",
+    "options": [
+      "(11, -11)",
+      "(11, 0)",
+      "(0, 11)",
+      "(11, 11)"
+    ],
+    "correctAnswer": "(11, -11)",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "hard",
+    "explanation": "Vertex x-coordinate = -b/2a = 22/2 = 11. y = 11² - 22(11) + 11 = -11",
+    "_cacheBreaker": "1756033578441_28"
+  },
+  {
+    "_id": "math_11_hard_029",
+    "content": "Factor completely: x² - 121",
+    "type": "multiple_choice",
+    "options": [
+      "(x - 11)(x + 11)",
+      "(x - 11)²",
+      "x(x - 11)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x - 11)(x + 11)",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "hard",
+    "explanation": "x² - 121 is a difference of squares: (x - 11)(x + 11)",
+    "_cacheBreaker": "1756033578441_29"
+  },
+  {
+    "_id": "math_11_hard_030",
+    "content": "What is the range of f(x) = -x² + 22?",
+    "type": "multiple_choice",
+    "options": [
+      "All real numbers",
+      "y ≤ 22",
+      "y ≥ 22",
+      "y > 0"
+    ],
+    "correctAnswer": "y ≤ 22",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "hard",
+    "explanation": "Since the parabola opens downward, the maximum value is 22",
+    "_cacheBreaker": "1756033578441_30"
+  },
+  {
+    "_id": "math_11_hard_031",
+    "content": "Solve: 11x - 22 = 10x + 33",
+    "type": "multiple_choice",
+    "options": [
+      "x = 55",
+      "x = 44",
+      "x = 66",
+      "x = 33"
+    ],
+    "correctAnswer": "x = 55",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "hard",
+    "explanation": "11x - 10x = 33 + 22, so x = 55",
+    "_cacheBreaker": "1756033578441_31"
+  },
+  {
+    "_id": "math_11_hard_032",
+    "content": "If f(x) = 11x² + 22x, what is f(11)?",
+    "type": "multiple_choice",
+    "options": [
+      "1573",
+      "143",
+      "33",
+      "121"
+    ],
+    "correctAnswer": "1573",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "hard",
+    "explanation": "f(11) = 11(11)² + 22(11) = 1331 + 242 = 1573",
+    "_cacheBreaker": "1756033578441_32"
+  },
+  {
+    "_id": "math_11_hard_033",
+    "content": "What is the vertex of the parabola y = x² - 22x + 11?",
+    "type": "multiple_choice",
+    "options": [
+      "(11, -11)",
+      "(11, 0)",
+      "(0, 11)",
+      "(11, 11)"
+    ],
+    "correctAnswer": "(11, -11)",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "hard",
+    "explanation": "Vertex x-coordinate = -b/2a = 22/2 = 11. y = 11² - 22(11) + 11 = -11",
+    "_cacheBreaker": "1756033578441_33"
+  },
+  {
+    "_id": "math_11_hard_034",
+    "content": "Factor completely: x² - 121",
+    "type": "multiple_choice",
+    "options": [
+      "(x - 11)(x + 11)",
+      "(x - 11)²",
+      "x(x - 11)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x - 11)(x + 11)",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "hard",
+    "explanation": "x² - 121 is a difference of squares: (x - 11)(x + 11)",
+    "_cacheBreaker": "1756033578441_34"
+  },
+  {
+    "_id": "math_11_hard_035",
+    "content": "What is the range of f(x) = -x² + 22?",
+    "type": "multiple_choice",
+    "options": [
+      "All real numbers",
+      "y ≤ 22",
+      "y ≥ 22",
+      "y > 0"
+    ],
+    "correctAnswer": "y ≤ 22",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "hard",
+    "explanation": "Since the parabola opens downward, the maximum value is 22",
+    "_cacheBreaker": "1756033578441_35"
+  },
+  {
+    "_id": "math_11_hard_036",
+    "content": "Solve: 11x - 22 = 10x + 33",
+    "type": "multiple_choice",
+    "options": [
+      "x = 55",
+      "x = 44",
+      "x = 66",
+      "x = 33"
+    ],
+    "correctAnswer": "x = 55",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "hard",
+    "explanation": "11x - 10x = 33 + 22, so x = 55",
+    "_cacheBreaker": "1756033578441_36"
+  },
+  {
+    "_id": "math_11_hard_037",
+    "content": "If f(x) = 11x² + 22x, what is f(11)?",
+    "type": "multiple_choice",
+    "options": [
+      "1573",
+      "143",
+      "33",
+      "121"
+    ],
+    "correctAnswer": "1573",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "hard",
+    "explanation": "f(11) = 11(11)² + 22(11) = 1331 + 242 = 1573",
+    "_cacheBreaker": "1756033578441_37"
+  },
+  {
+    "_id": "math_11_hard_038",
+    "content": "What is the vertex of the parabola y = x² - 22x + 11?",
+    "type": "multiple_choice",
+    "options": [
+      "(11, -11)",
+      "(11, 0)",
+      "(0, 11)",
+      "(11, 11)"
+    ],
+    "correctAnswer": "(11, -11)",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "hard",
+    "explanation": "Vertex x-coordinate = -b/2a = 22/2 = 11. y = 11² - 22(11) + 11 = -11",
+    "_cacheBreaker": "1756033578441_38"
+  },
+  {
+    "_id": "math_11_hard_039",
+    "content": "Factor completely: x² - 121",
+    "type": "multiple_choice",
+    "options": [
+      "(x - 11)(x + 11)",
+      "(x - 11)²",
+      "x(x - 11)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x - 11)(x + 11)",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "hard",
+    "explanation": "x² - 121 is a difference of squares: (x - 11)(x + 11)",
+    "_cacheBreaker": "1756033578441_39"
+  },
+  {
+    "_id": "math_11_hard_040",
+    "content": "What is the range of f(x) = -x² + 22?",
+    "type": "multiple_choice",
+    "options": [
+      "All real numbers",
+      "y ≤ 22",
+      "y ≥ 22",
+      "y > 0"
+    ],
+    "correctAnswer": "y ≤ 22",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "hard",
+    "explanation": "Since the parabola opens downward, the maximum value is 22",
+    "_cacheBreaker": "1756033578441_40"
+  },
+  {
+    "_id": "math_11_hard_041",
+    "content": "Solve: 11x - 22 = 10x + 33",
+    "type": "multiple_choice",
+    "options": [
+      "x = 55",
+      "x = 44",
+      "x = 66",
+      "x = 33"
+    ],
+    "correctAnswer": "x = 55",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "hard",
+    "explanation": "11x - 10x = 33 + 22, so x = 55",
+    "_cacheBreaker": "1756033578441_41"
+  },
+  {
+    "_id": "math_11_hard_042",
+    "content": "If f(x) = 11x² + 22x, what is f(11)?",
+    "type": "multiple_choice",
+    "options": [
+      "1573",
+      "143",
+      "33",
+      "121"
+    ],
+    "correctAnswer": "1573",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "hard",
+    "explanation": "f(11) = 11(11)² + 22(11) = 1331 + 242 = 1573",
+    "_cacheBreaker": "1756033578441_42"
+  },
+  {
+    "_id": "math_11_hard_043",
+    "content": "What is the vertex of the parabola y = x² - 22x + 11?",
+    "type": "multiple_choice",
+    "options": [
+      "(11, -11)",
+      "(11, 0)",
+      "(0, 11)",
+      "(11, 11)"
+    ],
+    "correctAnswer": "(11, -11)",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "hard",
+    "explanation": "Vertex x-coordinate = -b/2a = 22/2 = 11. y = 11² - 22(11) + 11 = -11",
+    "_cacheBreaker": "1756033578441_43"
+  },
+  {
+    "_id": "math_11_hard_044",
+    "content": "Factor completely: x² - 121",
+    "type": "multiple_choice",
+    "options": [
+      "(x - 11)(x + 11)",
+      "(x - 11)²",
+      "x(x - 11)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x - 11)(x + 11)",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "hard",
+    "explanation": "x² - 121 is a difference of squares: (x - 11)(x + 11)",
+    "_cacheBreaker": "1756033578441_44"
+  },
+  {
+    "_id": "math_11_hard_045",
+    "content": "What is the range of f(x) = -x² + 22?",
+    "type": "multiple_choice",
+    "options": [
+      "All real numbers",
+      "y ≤ 22",
+      "y ≥ 22",
+      "y > 0"
+    ],
+    "correctAnswer": "y ≤ 22",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "hard",
+    "explanation": "Since the parabola opens downward, the maximum value is 22",
+    "_cacheBreaker": "1756033578441_45"
+  },
+  {
+    "_id": "math_11_hard_046",
+    "content": "Solve: 11x - 22 = 10x + 33",
+    "type": "multiple_choice",
+    "options": [
+      "x = 55",
+      "x = 44",
+      "x = 66",
+      "x = 33"
+    ],
+    "correctAnswer": "x = 55",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "hard",
+    "explanation": "11x - 10x = 33 + 22, so x = 55",
+    "_cacheBreaker": "1756033578441_46"
+  },
+  {
+    "_id": "math_11_hard_047",
+    "content": "If f(x) = 11x² + 22x, what is f(11)?",
+    "type": "multiple_choice",
+    "options": [
+      "1573",
+      "143",
+      "33",
+      "121"
+    ],
+    "correctAnswer": "1573",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "hard",
+    "explanation": "f(11) = 11(11)² + 22(11) = 1331 + 242 = 1573",
+    "_cacheBreaker": "1756033578441_47"
+  },
+  {
+    "_id": "math_11_hard_048",
+    "content": "What is the vertex of the parabola y = x² - 22x + 11?",
+    "type": "multiple_choice",
+    "options": [
+      "(11, -11)",
+      "(11, 0)",
+      "(0, 11)",
+      "(11, 11)"
+    ],
+    "correctAnswer": "(11, -11)",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "hard",
+    "explanation": "Vertex x-coordinate = -b/2a = 22/2 = 11. y = 11² - 22(11) + 11 = -11",
+    "_cacheBreaker": "1756033578441_48"
+  },
+  {
+    "_id": "math_11_hard_049",
+    "content": "Factor completely: x² - 121",
+    "type": "multiple_choice",
+    "options": [
+      "(x - 11)(x + 11)",
+      "(x - 11)²",
+      "x(x - 11)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x - 11)(x + 11)",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "hard",
+    "explanation": "x² - 121 is a difference of squares: (x - 11)(x + 11)",
+    "_cacheBreaker": "1756033578441_49"
+  },
+  {
+    "_id": "math_11_hard_050",
+    "content": "What is the range of f(x) = -x² + 22?",
+    "type": "multiple_choice",
+    "options": [
+      "All real numbers",
+      "y ≤ 22",
+      "y ≥ 22",
+      "y > 0"
+    ],
+    "correctAnswer": "y ≤ 22",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "hard",
+    "explanation": "Since the parabola opens downward, the maximum value is 22",
+    "_cacheBreaker": "1756033578441_50"
   }
 ]

@@ -1,342 +1,852 @@
 [
   {
-    "_id": "med2_1755261000212_001",
-    "content": "What is 12 + 15?",
-    "type": "multiple_choice",
-    "options": [
-      "25",
-      "26",
-      "27",
-      "28"
-    ],
-    "correctAnswer": "27",
-    "subject": "math",
-    "grade": "2",
-    "difficulty": "medium",
-    "explanation": "12 + 15 = 27",
-    "_cacheBreaker": "1755265388169_0"
-  },
-  {
-    "_id": "med2_1755261000212_002",
-    "content": "What is 20 - 8?",
-    "type": "multiple_choice",
-    "options": [
-      "11",
-      "12",
-      "13",
-      "28"
-    ],
-    "correctAnswer": "12",
-    "subject": "math",
-    "grade": "2",
-    "difficulty": "medium",
-    "explanation": "20 - 8 = 12",
-    "_cacheBreaker": "1755265388169_1"
-  },
-  {
-    "_id": "med2_1755261000212_003",
-    "content": "Count by 5s: 5, 10, 15, ___",
+    "_id": "math_2_medium_001",
+    "content": "What is 12 + 5?",
     "type": "multiple_choice",
     "options": [
       "16",
+      "17",
       "18",
+      "19"
+    ],
+    "correctAnswer": "17",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "12 + 5 = 17",
+    "_cacheBreaker": "1756033253395_1"
+  },
+  {
+    "_id": "math_2_medium_002",
+    "content": "What is 15 - 7?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "15 - 7 = 8",
+    "_cacheBreaker": "1756033253395_2"
+  },
+  {
+    "_id": "math_2_medium_003",
+    "content": "How many cents are in a quarter?",
+    "type": "multiple_choice",
+    "options": [
       "20",
-      "25"
-    ],
-    "correctAnswer": "20",
-    "subject": "math",
-    "grade": "2",
-    "difficulty": "medium",
-    "explanation": "Counting by 5s: next is 20",
-    "_cacheBreaker": "1755265388169_2"
-  },
-  {
-    "_id": "med2_1755261000212_004",
-    "content": "What is 12 + 15?",
-    "type": "multiple_choice",
-    "options": [
       "25",
-      "26",
-      "27",
-      "28"
+      "30",
+      "35"
     ],
-    "correctAnswer": "27",
+    "correctAnswer": "25",
     "subject": "math",
     "grade": "2",
     "difficulty": "medium",
-    "explanation": "12 + 15 = 27",
-    "_cacheBreaker": "1755265388169_3"
+    "explanation": "A quarter is worth 25 cents",
+    "_cacheBreaker": "1756033253395_3"
   },
   {
-    "_id": "med2_1755261000212_005",
-    "content": "What is 20 - 8?",
+    "_id": "math_2_medium_004",
+    "content": "What is 4 × 2?",
     "type": "multiple_choice",
     "options": [
-      "11",
-      "12",
-      "13",
-      "28"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "12",
+    "correctAnswer": "8",
     "subject": "math",
     "grade": "2",
     "difficulty": "medium",
-    "explanation": "20 - 8 = 12",
-    "_cacheBreaker": "1755265388169_4"
+    "explanation": "4 × 2 = 8",
+    "_cacheBreaker": "1756033253395_4"
   },
   {
-    "_id": "med2_1755261000212_006",
-    "content": "Count by 5s: 5, 10, 15, ___",
+    "_id": "math_2_medium_005",
+    "content": "What time is shown: 3:00?",
+    "type": "multiple_choice",
+    "options": [
+      "2 o'clock",
+      "3 o'clock",
+      "4 o'clock",
+      "5 o'clock"
+    ],
+    "correctAnswer": "3 o'clock",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "3:00 means 3 o'clock",
+    "_cacheBreaker": "1756033253395_5"
+  },
+  {
+    "_id": "math_2_medium_006",
+    "content": "What is 12 + 5?",
     "type": "multiple_choice",
     "options": [
       "16",
+      "17",
       "18",
+      "19"
+    ],
+    "correctAnswer": "17",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "12 + 5 = 17",
+    "_cacheBreaker": "1756033253395_6"
+  },
+  {
+    "_id": "math_2_medium_007",
+    "content": "What is 15 - 7?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "15 - 7 = 8",
+    "_cacheBreaker": "1756033253395_7"
+  },
+  {
+    "_id": "math_2_medium_008",
+    "content": "How many cents are in a quarter?",
+    "type": "multiple_choice",
+    "options": [
       "20",
-      "25"
-    ],
-    "correctAnswer": "20",
-    "subject": "math",
-    "grade": "2",
-    "difficulty": "medium",
-    "explanation": "Counting by 5s: next is 20",
-    "_cacheBreaker": "1755265388169_5"
-  },
-  {
-    "_id": "med2_1755261000212_007",
-    "content": "What is 12 + 15?",
-    "type": "multiple_choice",
-    "options": [
       "25",
-      "26",
-      "27",
-      "28"
+      "30",
+      "35"
     ],
-    "correctAnswer": "27",
+    "correctAnswer": "25",
     "subject": "math",
     "grade": "2",
     "difficulty": "medium",
-    "explanation": "12 + 15 = 27",
-    "_cacheBreaker": "1755265388169_6"
+    "explanation": "A quarter is worth 25 cents",
+    "_cacheBreaker": "1756033253395_8"
   },
   {
-    "_id": "med2_1755261000212_008",
-    "content": "What is 20 - 8?",
+    "_id": "math_2_medium_009",
+    "content": "What is 4 × 2?",
     "type": "multiple_choice",
     "options": [
-      "11",
-      "12",
-      "13",
-      "28"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "12",
+    "correctAnswer": "8",
     "subject": "math",
     "grade": "2",
     "difficulty": "medium",
-    "explanation": "20 - 8 = 12",
-    "_cacheBreaker": "1755265388169_7"
+    "explanation": "4 × 2 = 8",
+    "_cacheBreaker": "1756033253395_9"
   },
   {
-    "_id": "med2_1755261000212_009",
-    "content": "Count by 5s: 5, 10, 15, ___",
+    "_id": "math_2_medium_010",
+    "content": "What time is shown: 3:00?",
+    "type": "multiple_choice",
+    "options": [
+      "2 o'clock",
+      "3 o'clock",
+      "4 o'clock",
+      "5 o'clock"
+    ],
+    "correctAnswer": "3 o'clock",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "3:00 means 3 o'clock",
+    "_cacheBreaker": "1756033253395_10"
+  },
+  {
+    "_id": "math_2_medium_011",
+    "content": "What is 12 + 5?",
     "type": "multiple_choice",
     "options": [
       "16",
+      "17",
       "18",
+      "19"
+    ],
+    "correctAnswer": "17",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "12 + 5 = 17",
+    "_cacheBreaker": "1756033253395_11"
+  },
+  {
+    "_id": "math_2_medium_012",
+    "content": "What is 15 - 7?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "15 - 7 = 8",
+    "_cacheBreaker": "1756033253395_12"
+  },
+  {
+    "_id": "math_2_medium_013",
+    "content": "How many cents are in a quarter?",
+    "type": "multiple_choice",
+    "options": [
       "20",
-      "25"
-    ],
-    "correctAnswer": "20",
-    "subject": "math",
-    "grade": "2",
-    "difficulty": "medium",
-    "explanation": "Counting by 5s: next is 20",
-    "_cacheBreaker": "1755265388169_8"
-  },
-  {
-    "_id": "med2_1755261000212_010",
-    "content": "What is 12 + 15?",
-    "type": "multiple_choice",
-    "options": [
       "25",
-      "26",
-      "27",
-      "28"
+      "30",
+      "35"
     ],
-    "correctAnswer": "27",
+    "correctAnswer": "25",
     "subject": "math",
     "grade": "2",
     "difficulty": "medium",
-    "explanation": "12 + 15 = 27",
-    "_cacheBreaker": "1755265388169_9"
+    "explanation": "A quarter is worth 25 cents",
+    "_cacheBreaker": "1756033253395_13"
   },
   {
-    "_id": "med2_1755261000212_011",
-    "content": "What is 20 - 8?",
+    "_id": "math_2_medium_014",
+    "content": "What is 4 × 2?",
     "type": "multiple_choice",
     "options": [
-      "11",
-      "12",
-      "13",
-      "28"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "12",
+    "correctAnswer": "8",
     "subject": "math",
     "grade": "2",
     "difficulty": "medium",
-    "explanation": "20 - 8 = 12",
-    "_cacheBreaker": "1755265388169_10"
+    "explanation": "4 × 2 = 8",
+    "_cacheBreaker": "1756033253395_14"
   },
   {
-    "_id": "med2_1755261000212_012",
-    "content": "Count by 5s: 5, 10, 15, ___",
+    "_id": "math_2_medium_015",
+    "content": "What time is shown: 3:00?",
+    "type": "multiple_choice",
+    "options": [
+      "2 o'clock",
+      "3 o'clock",
+      "4 o'clock",
+      "5 o'clock"
+    ],
+    "correctAnswer": "3 o'clock",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "3:00 means 3 o'clock",
+    "_cacheBreaker": "1756033253395_15"
+  },
+  {
+    "_id": "math_2_medium_016",
+    "content": "What is 12 + 5?",
     "type": "multiple_choice",
     "options": [
       "16",
+      "17",
       "18",
+      "19"
+    ],
+    "correctAnswer": "17",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "12 + 5 = 17",
+    "_cacheBreaker": "1756033253395_16"
+  },
+  {
+    "_id": "math_2_medium_017",
+    "content": "What is 15 - 7?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "15 - 7 = 8",
+    "_cacheBreaker": "1756033253395_17"
+  },
+  {
+    "_id": "math_2_medium_018",
+    "content": "How many cents are in a quarter?",
+    "type": "multiple_choice",
+    "options": [
       "20",
-      "25"
-    ],
-    "correctAnswer": "20",
-    "subject": "math",
-    "grade": "2",
-    "difficulty": "medium",
-    "explanation": "Counting by 5s: next is 20",
-    "_cacheBreaker": "1755265388169_11"
-  },
-  {
-    "_id": "med2_1755261000212_013",
-    "content": "What is 12 + 15?",
-    "type": "multiple_choice",
-    "options": [
       "25",
-      "26",
-      "27",
-      "28"
+      "30",
+      "35"
     ],
-    "correctAnswer": "27",
+    "correctAnswer": "25",
     "subject": "math",
     "grade": "2",
     "difficulty": "medium",
-    "explanation": "12 + 15 = 27",
-    "_cacheBreaker": "1755265388169_12"
+    "explanation": "A quarter is worth 25 cents",
+    "_cacheBreaker": "1756033253395_18"
   },
   {
-    "_id": "med2_1755261000212_014",
-    "content": "What is 20 - 8?",
+    "_id": "math_2_medium_019",
+    "content": "What is 4 × 2?",
     "type": "multiple_choice",
     "options": [
-      "11",
-      "12",
-      "13",
-      "28"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "12",
+    "correctAnswer": "8",
     "subject": "math",
     "grade": "2",
     "difficulty": "medium",
-    "explanation": "20 - 8 = 12",
-    "_cacheBreaker": "1755265388169_13"
+    "explanation": "4 × 2 = 8",
+    "_cacheBreaker": "1756033253395_19"
   },
   {
-    "_id": "med2_1755261000212_015",
-    "content": "Count by 5s: 5, 10, 15, ___",
+    "_id": "math_2_medium_020",
+    "content": "What time is shown: 3:00?",
+    "type": "multiple_choice",
+    "options": [
+      "2 o'clock",
+      "3 o'clock",
+      "4 o'clock",
+      "5 o'clock"
+    ],
+    "correctAnswer": "3 o'clock",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "3:00 means 3 o'clock",
+    "_cacheBreaker": "1756033253395_20"
+  },
+  {
+    "_id": "math_2_medium_021",
+    "content": "What is 12 + 5?",
     "type": "multiple_choice",
     "options": [
       "16",
+      "17",
       "18",
+      "19"
+    ],
+    "correctAnswer": "17",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "12 + 5 = 17",
+    "_cacheBreaker": "1756033253395_21"
+  },
+  {
+    "_id": "math_2_medium_022",
+    "content": "What is 15 - 7?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "15 - 7 = 8",
+    "_cacheBreaker": "1756033253395_22"
+  },
+  {
+    "_id": "math_2_medium_023",
+    "content": "How many cents are in a quarter?",
+    "type": "multiple_choice",
+    "options": [
       "20",
-      "25"
-    ],
-    "correctAnswer": "20",
-    "subject": "math",
-    "grade": "2",
-    "difficulty": "medium",
-    "explanation": "Counting by 5s: next is 20",
-    "_cacheBreaker": "1755265388169_14"
-  },
-  {
-    "_id": "med2_1755261000212_016",
-    "content": "What is 12 + 15?",
-    "type": "multiple_choice",
-    "options": [
       "25",
-      "26",
-      "27",
-      "28"
+      "30",
+      "35"
     ],
-    "correctAnswer": "27",
+    "correctAnswer": "25",
     "subject": "math",
     "grade": "2",
     "difficulty": "medium",
-    "explanation": "12 + 15 = 27",
-    "_cacheBreaker": "1755265388169_15"
+    "explanation": "A quarter is worth 25 cents",
+    "_cacheBreaker": "1756033253395_23"
   },
   {
-    "_id": "med2_1755261000212_017",
-    "content": "What is 20 - 8?",
+    "_id": "math_2_medium_024",
+    "content": "What is 4 × 2?",
     "type": "multiple_choice",
     "options": [
-      "11",
-      "12",
-      "13",
-      "28"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "12",
+    "correctAnswer": "8",
     "subject": "math",
     "grade": "2",
     "difficulty": "medium",
-    "explanation": "20 - 8 = 12",
-    "_cacheBreaker": "1755265388169_16"
+    "explanation": "4 × 2 = 8",
+    "_cacheBreaker": "1756033253395_24"
   },
   {
-    "_id": "med2_1755261000212_018",
-    "content": "Count by 5s: 5, 10, 15, ___",
+    "_id": "math_2_medium_025",
+    "content": "What time is shown: 3:00?",
+    "type": "multiple_choice",
+    "options": [
+      "2 o'clock",
+      "3 o'clock",
+      "4 o'clock",
+      "5 o'clock"
+    ],
+    "correctAnswer": "3 o'clock",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "3:00 means 3 o'clock",
+    "_cacheBreaker": "1756033253395_25"
+  },
+  {
+    "_id": "math_2_medium_026",
+    "content": "What is 12 + 5?",
     "type": "multiple_choice",
     "options": [
       "16",
+      "17",
       "18",
+      "19"
+    ],
+    "correctAnswer": "17",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "12 + 5 = 17",
+    "_cacheBreaker": "1756033253395_26"
+  },
+  {
+    "_id": "math_2_medium_027",
+    "content": "What is 15 - 7?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "15 - 7 = 8",
+    "_cacheBreaker": "1756033253395_27"
+  },
+  {
+    "_id": "math_2_medium_028",
+    "content": "How many cents are in a quarter?",
+    "type": "multiple_choice",
+    "options": [
       "20",
-      "25"
-    ],
-    "correctAnswer": "20",
-    "subject": "math",
-    "grade": "2",
-    "difficulty": "medium",
-    "explanation": "Counting by 5s: next is 20",
-    "_cacheBreaker": "1755265388169_17"
-  },
-  {
-    "_id": "med2_1755261000212_019",
-    "content": "What is 12 + 15?",
-    "type": "multiple_choice",
-    "options": [
       "25",
-      "26",
-      "27",
-      "28"
+      "30",
+      "35"
     ],
-    "correctAnswer": "27",
+    "correctAnswer": "25",
     "subject": "math",
     "grade": "2",
     "difficulty": "medium",
-    "explanation": "12 + 15 = 27",
-    "_cacheBreaker": "1755265388169_18"
+    "explanation": "A quarter is worth 25 cents",
+    "_cacheBreaker": "1756033253395_28"
   },
   {
-    "_id": "med2_1755261000212_020",
-    "content": "What is 20 - 8?",
+    "_id": "math_2_medium_029",
+    "content": "What is 4 × 2?",
     "type": "multiple_choice",
     "options": [
-      "11",
-      "12",
-      "13",
-      "28"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "12",
+    "correctAnswer": "8",
     "subject": "math",
     "grade": "2",
     "difficulty": "medium",
-    "explanation": "20 - 8 = 12",
-    "_cacheBreaker": "1755265388169_19"
+    "explanation": "4 × 2 = 8",
+    "_cacheBreaker": "1756033253395_29"
+  },
+  {
+    "_id": "math_2_medium_030",
+    "content": "What time is shown: 3:00?",
+    "type": "multiple_choice",
+    "options": [
+      "2 o'clock",
+      "3 o'clock",
+      "4 o'clock",
+      "5 o'clock"
+    ],
+    "correctAnswer": "3 o'clock",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "3:00 means 3 o'clock",
+    "_cacheBreaker": "1756033253395_30"
+  },
+  {
+    "_id": "math_2_medium_031",
+    "content": "What is 12 + 5?",
+    "type": "multiple_choice",
+    "options": [
+      "16",
+      "17",
+      "18",
+      "19"
+    ],
+    "correctAnswer": "17",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "12 + 5 = 17",
+    "_cacheBreaker": "1756033253395_31"
+  },
+  {
+    "_id": "math_2_medium_032",
+    "content": "What is 15 - 7?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "15 - 7 = 8",
+    "_cacheBreaker": "1756033253395_32"
+  },
+  {
+    "_id": "math_2_medium_033",
+    "content": "How many cents are in a quarter?",
+    "type": "multiple_choice",
+    "options": [
+      "20",
+      "25",
+      "30",
+      "35"
+    ],
+    "correctAnswer": "25",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "A quarter is worth 25 cents",
+    "_cacheBreaker": "1756033253395_33"
+  },
+  {
+    "_id": "math_2_medium_034",
+    "content": "What is 4 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "4 × 2 = 8",
+    "_cacheBreaker": "1756033253395_34"
+  },
+  {
+    "_id": "math_2_medium_035",
+    "content": "What time is shown: 3:00?",
+    "type": "multiple_choice",
+    "options": [
+      "2 o'clock",
+      "3 o'clock",
+      "4 o'clock",
+      "5 o'clock"
+    ],
+    "correctAnswer": "3 o'clock",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "3:00 means 3 o'clock",
+    "_cacheBreaker": "1756033253395_35"
+  },
+  {
+    "_id": "math_2_medium_036",
+    "content": "What is 12 + 5?",
+    "type": "multiple_choice",
+    "options": [
+      "16",
+      "17",
+      "18",
+      "19"
+    ],
+    "correctAnswer": "17",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "12 + 5 = 17",
+    "_cacheBreaker": "1756033253395_36"
+  },
+  {
+    "_id": "math_2_medium_037",
+    "content": "What is 15 - 7?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "15 - 7 = 8",
+    "_cacheBreaker": "1756033253395_37"
+  },
+  {
+    "_id": "math_2_medium_038",
+    "content": "How many cents are in a quarter?",
+    "type": "multiple_choice",
+    "options": [
+      "20",
+      "25",
+      "30",
+      "35"
+    ],
+    "correctAnswer": "25",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "A quarter is worth 25 cents",
+    "_cacheBreaker": "1756033253395_38"
+  },
+  {
+    "_id": "math_2_medium_039",
+    "content": "What is 4 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "4 × 2 = 8",
+    "_cacheBreaker": "1756033253395_39"
+  },
+  {
+    "_id": "math_2_medium_040",
+    "content": "What time is shown: 3:00?",
+    "type": "multiple_choice",
+    "options": [
+      "2 o'clock",
+      "3 o'clock",
+      "4 o'clock",
+      "5 o'clock"
+    ],
+    "correctAnswer": "3 o'clock",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "3:00 means 3 o'clock",
+    "_cacheBreaker": "1756033253395_40"
+  },
+  {
+    "_id": "math_2_medium_041",
+    "content": "What is 12 + 5?",
+    "type": "multiple_choice",
+    "options": [
+      "16",
+      "17",
+      "18",
+      "19"
+    ],
+    "correctAnswer": "17",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "12 + 5 = 17",
+    "_cacheBreaker": "1756033253395_41"
+  },
+  {
+    "_id": "math_2_medium_042",
+    "content": "What is 15 - 7?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "15 - 7 = 8",
+    "_cacheBreaker": "1756033253395_42"
+  },
+  {
+    "_id": "math_2_medium_043",
+    "content": "How many cents are in a quarter?",
+    "type": "multiple_choice",
+    "options": [
+      "20",
+      "25",
+      "30",
+      "35"
+    ],
+    "correctAnswer": "25",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "A quarter is worth 25 cents",
+    "_cacheBreaker": "1756033253395_43"
+  },
+  {
+    "_id": "math_2_medium_044",
+    "content": "What is 4 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "4 × 2 = 8",
+    "_cacheBreaker": "1756033253395_44"
+  },
+  {
+    "_id": "math_2_medium_045",
+    "content": "What time is shown: 3:00?",
+    "type": "multiple_choice",
+    "options": [
+      "2 o'clock",
+      "3 o'clock",
+      "4 o'clock",
+      "5 o'clock"
+    ],
+    "correctAnswer": "3 o'clock",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "3:00 means 3 o'clock",
+    "_cacheBreaker": "1756033253395_45"
+  },
+  {
+    "_id": "math_2_medium_046",
+    "content": "What is 12 + 5?",
+    "type": "multiple_choice",
+    "options": [
+      "16",
+      "17",
+      "18",
+      "19"
+    ],
+    "correctAnswer": "17",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "12 + 5 = 17",
+    "_cacheBreaker": "1756033253395_46"
+  },
+  {
+    "_id": "math_2_medium_047",
+    "content": "What is 15 - 7?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "15 - 7 = 8",
+    "_cacheBreaker": "1756033253395_47"
+  },
+  {
+    "_id": "math_2_medium_048",
+    "content": "How many cents are in a quarter?",
+    "type": "multiple_choice",
+    "options": [
+      "20",
+      "25",
+      "30",
+      "35"
+    ],
+    "correctAnswer": "25",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "A quarter is worth 25 cents",
+    "_cacheBreaker": "1756033253395_48"
+  },
+  {
+    "_id": "math_2_medium_049",
+    "content": "What is 4 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "4 × 2 = 8",
+    "_cacheBreaker": "1756033253395_49"
+  },
+  {
+    "_id": "math_2_medium_050",
+    "content": "What time is shown: 3:00?",
+    "type": "multiple_choice",
+    "options": [
+      "2 o'clock",
+      "3 o'clock",
+      "4 o'clock",
+      "5 o'clock"
+    ],
+    "correctAnswer": "3 o'clock",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "3:00 means 3 o'clock",
+    "_cacheBreaker": "1756033253395_50"
   }
 ]

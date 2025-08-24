@@ -1,342 +1,852 @@
 [
   {
-    "_id": "easy11_1755260948241_001",
-    "content": "Find the derivative of f(x) = x²",
+    "_id": "math_11_easy_001",
+    "content": "What is 55 + 33?",
     "type": "multiple_choice",
     "options": [
-      "x",
-      "2x",
-      "x²",
-      "2"
+      "77",
+      "88",
+      "99",
+      "110"
     ],
-    "correctAnswer": "2x",
+    "correctAnswer": "88",
     "subject": "math",
     "grade": "11",
     "difficulty": "easy",
-    "explanation": "Using power rule: d/dx[x²] = 2x",
-    "_cacheBreaker": "1755265388134_0"
+    "explanation": "55 + 33 = 88",
+    "_cacheBreaker": "1756033578440_1"
   },
   {
-    "_id": "easy11_1755260948241_002",
-    "content": "What is ∫2x dx?",
+    "_id": "math_11_easy_002",
+    "content": "Solve: 11x = 132",
     "type": "multiple_choice",
     "options": [
-      "x²",
-      "x² + C",
-      "2x²",
-      "2x² + C"
+      "x = 110",
+      "x = 12",
+      "x = 11",
+      "x = 66"
     ],
-    "correctAnswer": "x² + C",
+    "correctAnswer": "x = 12",
     "subject": "math",
     "grade": "11",
     "difficulty": "easy",
-    "explanation": "∫2x dx = x² + C",
-    "_cacheBreaker": "1755265388134_1"
+    "explanation": "x = 132 ÷ 11 = 12",
+    "_cacheBreaker": "1756033578440_2"
   },
   {
-    "_id": "easy11_1755260948241_003",
-    "content": "Find lim(x→3) (x + 1)",
+    "_id": "math_11_easy_003",
+    "content": "What is 110% of 100?",
     "type": "multiple_choice",
     "options": [
-      "3",
-      "4",
-      "1",
-      "∞"
+      "55",
+      "110",
+      "165",
+      "220"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "110",
     "subject": "math",
     "grade": "11",
     "difficulty": "easy",
-    "explanation": "Direct substitution: 3 + 1 = 4",
-    "_cacheBreaker": "1755265388134_2"
+    "explanation": "110% of 100 = 110",
+    "_cacheBreaker": "1756033578440_3"
   },
   {
-    "_id": "easy11_1755260948247_004",
-    "content": "Find the derivative of f(x) = x² (Question 4)",
+    "_id": "math_11_easy_004",
+    "content": "Convert 11/10 to a decimal.",
     "type": "multiple_choice",
     "options": [
-      "x",
-      "2x",
-      "x²",
-      "2"
+      "0.11",
+      "11.0",
+      "11/100",
+      "10.11"
     ],
-    "correctAnswer": "2x",
+    "correctAnswer": "0.11",
     "subject": "math",
     "grade": "11",
     "difficulty": "easy",
-    "explanation": "Using power rule: d/dx[x²] = 2x",
-    "_cacheBreaker": "1755265388134_3"
+    "explanation": "11/10 = 0.11",
+    "_cacheBreaker": "1756033578440_4"
   },
   {
-    "_id": "easy11_1755260948247_005",
-    "content": "What is ∫2x dx? (Question 5)",
+    "_id": "math_11_easy_005",
+    "content": "What is the area of a square with side length 13 cm?",
     "type": "multiple_choice",
     "options": [
-      "x²",
-      "x² + C",
-      "2x²",
-      "2x² + C"
+      "52 cm²",
+      "169 cm²",
+      "13 cm²",
+      "26 cm²"
     ],
-    "correctAnswer": "x² + C",
+    "correctAnswer": "169 cm²",
     "subject": "math",
     "grade": "11",
     "difficulty": "easy",
-    "explanation": "∫2x dx = x² + C",
-    "_cacheBreaker": "1755265388134_4"
+    "explanation": "Area of square = side² = 13² = 169 cm²",
+    "_cacheBreaker": "1756033578440_5"
   },
   {
-    "_id": "easy11_1755260948247_006",
-    "content": "Find lim(x→3) (x + 1) (Question 6)",
+    "_id": "math_11_easy_006",
+    "content": "What is 55 + 33?",
     "type": "multiple_choice",
     "options": [
-      "3",
-      "4",
-      "1",
-      "∞"
+      "77",
+      "88",
+      "99",
+      "110"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "88",
     "subject": "math",
     "grade": "11",
     "difficulty": "easy",
-    "explanation": "Direct substitution: 3 + 1 = 4",
-    "_cacheBreaker": "1755265388134_5"
+    "explanation": "55 + 33 = 88",
+    "_cacheBreaker": "1756033578440_6"
   },
   {
-    "_id": "easy11_1755260948247_007",
-    "content": "Find the derivative of f(x) = x² (Question 7)",
+    "_id": "math_11_easy_007",
+    "content": "Solve: 11x = 132",
     "type": "multiple_choice",
     "options": [
-      "x",
-      "2x",
-      "x²",
-      "2"
+      "x = 110",
+      "x = 12",
+      "x = 11",
+      "x = 66"
     ],
-    "correctAnswer": "2x",
+    "correctAnswer": "x = 12",
     "subject": "math",
     "grade": "11",
     "difficulty": "easy",
-    "explanation": "Using power rule: d/dx[x²] = 2x",
-    "_cacheBreaker": "1755265388134_6"
+    "explanation": "x = 132 ÷ 11 = 12",
+    "_cacheBreaker": "1756033578440_7"
   },
   {
-    "_id": "easy11_1755260948247_008",
-    "content": "What is ∫2x dx? (Question 8)",
+    "_id": "math_11_easy_008",
+    "content": "What is 110% of 100?",
     "type": "multiple_choice",
     "options": [
-      "x²",
-      "x² + C",
-      "2x²",
-      "2x² + C"
+      "55",
+      "110",
+      "165",
+      "220"
     ],
-    "correctAnswer": "x² + C",
+    "correctAnswer": "110",
     "subject": "math",
     "grade": "11",
     "difficulty": "easy",
-    "explanation": "∫2x dx = x² + C",
-    "_cacheBreaker": "1755265388134_7"
+    "explanation": "110% of 100 = 110",
+    "_cacheBreaker": "1756033578440_8"
   },
   {
-    "_id": "easy11_1755260948247_009",
-    "content": "Find lim(x→3) (x + 1) (Question 9)",
+    "_id": "math_11_easy_009",
+    "content": "Convert 11/10 to a decimal.",
     "type": "multiple_choice",
     "options": [
-      "3",
-      "4",
-      "1",
-      "∞"
+      "0.11",
+      "11.0",
+      "11/100",
+      "10.11"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "0.11",
     "subject": "math",
     "grade": "11",
     "difficulty": "easy",
-    "explanation": "Direct substitution: 3 + 1 = 4",
-    "_cacheBreaker": "1755265388134_8"
+    "explanation": "11/10 = 0.11",
+    "_cacheBreaker": "1756033578440_9"
   },
   {
-    "_id": "easy11_1755260948247_010",
-    "content": "Find the derivative of f(x) = x² (Question 10)",
+    "_id": "math_11_easy_010",
+    "content": "What is the area of a square with side length 13 cm?",
     "type": "multiple_choice",
     "options": [
-      "x",
-      "2x",
-      "x²",
-      "2"
+      "52 cm²",
+      "169 cm²",
+      "13 cm²",
+      "26 cm²"
     ],
-    "correctAnswer": "2x",
+    "correctAnswer": "169 cm²",
     "subject": "math",
     "grade": "11",
     "difficulty": "easy",
-    "explanation": "Using power rule: d/dx[x²] = 2x",
-    "_cacheBreaker": "1755265388134_9"
+    "explanation": "Area of square = side² = 13² = 169 cm²",
+    "_cacheBreaker": "1756033578440_10"
   },
   {
-    "_id": "easy11_1755260948247_011",
-    "content": "What is ∫2x dx? (Question 11)",
+    "_id": "math_11_easy_011",
+    "content": "What is 55 + 33?",
     "type": "multiple_choice",
     "options": [
-      "x²",
-      "x² + C",
-      "2x²",
-      "2x² + C"
+      "77",
+      "88",
+      "99",
+      "110"
     ],
-    "correctAnswer": "x² + C",
+    "correctAnswer": "88",
     "subject": "math",
     "grade": "11",
     "difficulty": "easy",
-    "explanation": "∫2x dx = x² + C",
-    "_cacheBreaker": "1755265388134_10"
+    "explanation": "55 + 33 = 88",
+    "_cacheBreaker": "1756033578440_11"
   },
   {
-    "_id": "easy11_1755260948247_012",
-    "content": "Find lim(x→3) (x + 1) (Question 12)",
+    "_id": "math_11_easy_012",
+    "content": "Solve: 11x = 132",
     "type": "multiple_choice",
     "options": [
-      "3",
-      "4",
-      "1",
-      "∞"
+      "x = 110",
+      "x = 12",
+      "x = 11",
+      "x = 66"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "x = 12",
     "subject": "math",
     "grade": "11",
     "difficulty": "easy",
-    "explanation": "Direct substitution: 3 + 1 = 4",
-    "_cacheBreaker": "1755265388134_11"
+    "explanation": "x = 132 ÷ 11 = 12",
+    "_cacheBreaker": "1756033578440_12"
   },
   {
-    "_id": "easy11_1755260948247_013",
-    "content": "Find the derivative of f(x) = x² (Question 13)",
+    "_id": "math_11_easy_013",
+    "content": "What is 110% of 100?",
     "type": "multiple_choice",
     "options": [
-      "x",
-      "2x",
-      "x²",
-      "2"
+      "55",
+      "110",
+      "165",
+      "220"
     ],
-    "correctAnswer": "2x",
+    "correctAnswer": "110",
     "subject": "math",
     "grade": "11",
     "difficulty": "easy",
-    "explanation": "Using power rule: d/dx[x²] = 2x",
-    "_cacheBreaker": "1755265388134_12"
+    "explanation": "110% of 100 = 110",
+    "_cacheBreaker": "1756033578440_13"
   },
   {
-    "_id": "easy11_1755260948247_014",
-    "content": "What is ∫2x dx? (Question 14)",
+    "_id": "math_11_easy_014",
+    "content": "Convert 11/10 to a decimal.",
     "type": "multiple_choice",
     "options": [
-      "x²",
-      "x² + C",
-      "2x²",
-      "2x² + C"
+      "0.11",
+      "11.0",
+      "11/100",
+      "10.11"
     ],
-    "correctAnswer": "x² + C",
+    "correctAnswer": "0.11",
     "subject": "math",
     "grade": "11",
     "difficulty": "easy",
-    "explanation": "∫2x dx = x² + C",
-    "_cacheBreaker": "1755265388134_13"
+    "explanation": "11/10 = 0.11",
+    "_cacheBreaker": "1756033578440_14"
   },
   {
-    "_id": "easy11_1755260948247_015",
-    "content": "Find lim(x→3) (x + 1) (Question 15)",
+    "_id": "math_11_easy_015",
+    "content": "What is the area of a square with side length 13 cm?",
     "type": "multiple_choice",
     "options": [
-      "3",
-      "4",
-      "1",
-      "∞"
+      "52 cm²",
+      "169 cm²",
+      "13 cm²",
+      "26 cm²"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "169 cm²",
     "subject": "math",
     "grade": "11",
     "difficulty": "easy",
-    "explanation": "Direct substitution: 3 + 1 = 4",
-    "_cacheBreaker": "1755265388134_14"
+    "explanation": "Area of square = side² = 13² = 169 cm²",
+    "_cacheBreaker": "1756033578440_15"
   },
   {
-    "_id": "easy11_1755260948247_016",
-    "content": "Find the derivative of f(x) = x² (Question 16)",
+    "_id": "math_11_easy_016",
+    "content": "What is 55 + 33?",
     "type": "multiple_choice",
     "options": [
-      "x",
-      "2x",
-      "x²",
-      "2"
+      "77",
+      "88",
+      "99",
+      "110"
     ],
-    "correctAnswer": "2x",
+    "correctAnswer": "88",
     "subject": "math",
     "grade": "11",
     "difficulty": "easy",
-    "explanation": "Using power rule: d/dx[x²] = 2x",
-    "_cacheBreaker": "1755265388134_15"
+    "explanation": "55 + 33 = 88",
+    "_cacheBreaker": "1756033578440_16"
   },
   {
-    "_id": "easy11_1755260948247_017",
-    "content": "What is ∫2x dx? (Question 17)",
+    "_id": "math_11_easy_017",
+    "content": "Solve: 11x = 132",
     "type": "multiple_choice",
     "options": [
-      "x²",
-      "x² + C",
-      "2x²",
-      "2x² + C"
+      "x = 110",
+      "x = 12",
+      "x = 11",
+      "x = 66"
     ],
-    "correctAnswer": "x² + C",
+    "correctAnswer": "x = 12",
     "subject": "math",
     "grade": "11",
     "difficulty": "easy",
-    "explanation": "∫2x dx = x² + C",
-    "_cacheBreaker": "1755265388134_16"
+    "explanation": "x = 132 ÷ 11 = 12",
+    "_cacheBreaker": "1756033578440_17"
   },
   {
-    "_id": "easy11_1755260948247_018",
-    "content": "Find lim(x→3) (x + 1) (Question 18)",
+    "_id": "math_11_easy_018",
+    "content": "What is 110% of 100?",
     "type": "multiple_choice",
     "options": [
-      "3",
-      "4",
-      "1",
-      "∞"
+      "55",
+      "110",
+      "165",
+      "220"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "110",
     "subject": "math",
     "grade": "11",
     "difficulty": "easy",
-    "explanation": "Direct substitution: 3 + 1 = 4",
-    "_cacheBreaker": "1755265388134_17"
+    "explanation": "110% of 100 = 110",
+    "_cacheBreaker": "1756033578440_18"
   },
   {
-    "_id": "easy11_1755260948247_019",
-    "content": "Find the derivative of f(x) = x² (Question 19)",
+    "_id": "math_11_easy_019",
+    "content": "Convert 11/10 to a decimal.",
     "type": "multiple_choice",
     "options": [
-      "x",
-      "2x",
-      "x²",
-      "2"
+      "0.11",
+      "11.0",
+      "11/100",
+      "10.11"
     ],
-    "correctAnswer": "2x",
+    "correctAnswer": "0.11",
     "subject": "math",
     "grade": "11",
     "difficulty": "easy",
-    "explanation": "Using power rule: d/dx[x²] = 2x",
-    "_cacheBreaker": "1755265388134_18"
+    "explanation": "11/10 = 0.11",
+    "_cacheBreaker": "1756033578440_19"
   },
   {
-    "_id": "easy11_1755260948247_020",
-    "content": "What is ∫2x dx? (Question 20)",
+    "_id": "math_11_easy_020",
+    "content": "What is the area of a square with side length 13 cm?",
     "type": "multiple_choice",
     "options": [
-      "x²",
-      "x² + C",
-      "2x²",
-      "2x² + C"
+      "52 cm²",
+      "169 cm²",
+      "13 cm²",
+      "26 cm²"
     ],
-    "correctAnswer": "x² + C",
+    "correctAnswer": "169 cm²",
     "subject": "math",
     "grade": "11",
     "difficulty": "easy",
-    "explanation": "∫2x dx = x² + C",
-    "_cacheBreaker": "1755265388134_19"
+    "explanation": "Area of square = side² = 13² = 169 cm²",
+    "_cacheBreaker": "1756033578440_20"
+  },
+  {
+    "_id": "math_11_easy_021",
+    "content": "What is 55 + 33?",
+    "type": "multiple_choice",
+    "options": [
+      "77",
+      "88",
+      "99",
+      "110"
+    ],
+    "correctAnswer": "88",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "55 + 33 = 88",
+    "_cacheBreaker": "1756033578440_21"
+  },
+  {
+    "_id": "math_11_easy_022",
+    "content": "Solve: 11x = 132",
+    "type": "multiple_choice",
+    "options": [
+      "x = 110",
+      "x = 12",
+      "x = 11",
+      "x = 66"
+    ],
+    "correctAnswer": "x = 12",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "x = 132 ÷ 11 = 12",
+    "_cacheBreaker": "1756033578440_22"
+  },
+  {
+    "_id": "math_11_easy_023",
+    "content": "What is 110% of 100?",
+    "type": "multiple_choice",
+    "options": [
+      "55",
+      "110",
+      "165",
+      "220"
+    ],
+    "correctAnswer": "110",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "110% of 100 = 110",
+    "_cacheBreaker": "1756033578440_23"
+  },
+  {
+    "_id": "math_11_easy_024",
+    "content": "Convert 11/10 to a decimal.",
+    "type": "multiple_choice",
+    "options": [
+      "0.11",
+      "11.0",
+      "11/100",
+      "10.11"
+    ],
+    "correctAnswer": "0.11",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "11/10 = 0.11",
+    "_cacheBreaker": "1756033578440_24"
+  },
+  {
+    "_id": "math_11_easy_025",
+    "content": "What is the area of a square with side length 13 cm?",
+    "type": "multiple_choice",
+    "options": [
+      "52 cm²",
+      "169 cm²",
+      "13 cm²",
+      "26 cm²"
+    ],
+    "correctAnswer": "169 cm²",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "Area of square = side² = 13² = 169 cm²",
+    "_cacheBreaker": "1756033578440_25"
+  },
+  {
+    "_id": "math_11_easy_026",
+    "content": "What is 55 + 33?",
+    "type": "multiple_choice",
+    "options": [
+      "77",
+      "88",
+      "99",
+      "110"
+    ],
+    "correctAnswer": "88",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "55 + 33 = 88",
+    "_cacheBreaker": "1756033578440_26"
+  },
+  {
+    "_id": "math_11_easy_027",
+    "content": "Solve: 11x = 132",
+    "type": "multiple_choice",
+    "options": [
+      "x = 110",
+      "x = 12",
+      "x = 11",
+      "x = 66"
+    ],
+    "correctAnswer": "x = 12",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "x = 132 ÷ 11 = 12",
+    "_cacheBreaker": "1756033578440_27"
+  },
+  {
+    "_id": "math_11_easy_028",
+    "content": "What is 110% of 100?",
+    "type": "multiple_choice",
+    "options": [
+      "55",
+      "110",
+      "165",
+      "220"
+    ],
+    "correctAnswer": "110",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "110% of 100 = 110",
+    "_cacheBreaker": "1756033578440_28"
+  },
+  {
+    "_id": "math_11_easy_029",
+    "content": "Convert 11/10 to a decimal.",
+    "type": "multiple_choice",
+    "options": [
+      "0.11",
+      "11.0",
+      "11/100",
+      "10.11"
+    ],
+    "correctAnswer": "0.11",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "11/10 = 0.11",
+    "_cacheBreaker": "1756033578440_29"
+  },
+  {
+    "_id": "math_11_easy_030",
+    "content": "What is the area of a square with side length 13 cm?",
+    "type": "multiple_choice",
+    "options": [
+      "52 cm²",
+      "169 cm²",
+      "13 cm²",
+      "26 cm²"
+    ],
+    "correctAnswer": "169 cm²",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "Area of square = side² = 13² = 169 cm²",
+    "_cacheBreaker": "1756033578440_30"
+  },
+  {
+    "_id": "math_11_easy_031",
+    "content": "What is 55 + 33?",
+    "type": "multiple_choice",
+    "options": [
+      "77",
+      "88",
+      "99",
+      "110"
+    ],
+    "correctAnswer": "88",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "55 + 33 = 88",
+    "_cacheBreaker": "1756033578440_31"
+  },
+  {
+    "_id": "math_11_easy_032",
+    "content": "Solve: 11x = 132",
+    "type": "multiple_choice",
+    "options": [
+      "x = 110",
+      "x = 12",
+      "x = 11",
+      "x = 66"
+    ],
+    "correctAnswer": "x = 12",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "x = 132 ÷ 11 = 12",
+    "_cacheBreaker": "1756033578440_32"
+  },
+  {
+    "_id": "math_11_easy_033",
+    "content": "What is 110% of 100?",
+    "type": "multiple_choice",
+    "options": [
+      "55",
+      "110",
+      "165",
+      "220"
+    ],
+    "correctAnswer": "110",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "110% of 100 = 110",
+    "_cacheBreaker": "1756033578440_33"
+  },
+  {
+    "_id": "math_11_easy_034",
+    "content": "Convert 11/10 to a decimal.",
+    "type": "multiple_choice",
+    "options": [
+      "0.11",
+      "11.0",
+      "11/100",
+      "10.11"
+    ],
+    "correctAnswer": "0.11",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "11/10 = 0.11",
+    "_cacheBreaker": "1756033578440_34"
+  },
+  {
+    "_id": "math_11_easy_035",
+    "content": "What is the area of a square with side length 13 cm?",
+    "type": "multiple_choice",
+    "options": [
+      "52 cm²",
+      "169 cm²",
+      "13 cm²",
+      "26 cm²"
+    ],
+    "correctAnswer": "169 cm²",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "Area of square = side² = 13² = 169 cm²",
+    "_cacheBreaker": "1756033578440_35"
+  },
+  {
+    "_id": "math_11_easy_036",
+    "content": "What is 55 + 33?",
+    "type": "multiple_choice",
+    "options": [
+      "77",
+      "88",
+      "99",
+      "110"
+    ],
+    "correctAnswer": "88",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "55 + 33 = 88",
+    "_cacheBreaker": "1756033578440_36"
+  },
+  {
+    "_id": "math_11_easy_037",
+    "content": "Solve: 11x = 132",
+    "type": "multiple_choice",
+    "options": [
+      "x = 110",
+      "x = 12",
+      "x = 11",
+      "x = 66"
+    ],
+    "correctAnswer": "x = 12",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "x = 132 ÷ 11 = 12",
+    "_cacheBreaker": "1756033578440_37"
+  },
+  {
+    "_id": "math_11_easy_038",
+    "content": "What is 110% of 100?",
+    "type": "multiple_choice",
+    "options": [
+      "55",
+      "110",
+      "165",
+      "220"
+    ],
+    "correctAnswer": "110",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "110% of 100 = 110",
+    "_cacheBreaker": "1756033578440_38"
+  },
+  {
+    "_id": "math_11_easy_039",
+    "content": "Convert 11/10 to a decimal.",
+    "type": "multiple_choice",
+    "options": [
+      "0.11",
+      "11.0",
+      "11/100",
+      "10.11"
+    ],
+    "correctAnswer": "0.11",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "11/10 = 0.11",
+    "_cacheBreaker": "1756033578440_39"
+  },
+  {
+    "_id": "math_11_easy_040",
+    "content": "What is the area of a square with side length 13 cm?",
+    "type": "multiple_choice",
+    "options": [
+      "52 cm²",
+      "169 cm²",
+      "13 cm²",
+      "26 cm²"
+    ],
+    "correctAnswer": "169 cm²",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "Area of square = side² = 13² = 169 cm²",
+    "_cacheBreaker": "1756033578440_40"
+  },
+  {
+    "_id": "math_11_easy_041",
+    "content": "What is 55 + 33?",
+    "type": "multiple_choice",
+    "options": [
+      "77",
+      "88",
+      "99",
+      "110"
+    ],
+    "correctAnswer": "88",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "55 + 33 = 88",
+    "_cacheBreaker": "1756033578440_41"
+  },
+  {
+    "_id": "math_11_easy_042",
+    "content": "Solve: 11x = 132",
+    "type": "multiple_choice",
+    "options": [
+      "x = 110",
+      "x = 12",
+      "x = 11",
+      "x = 66"
+    ],
+    "correctAnswer": "x = 12",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "x = 132 ÷ 11 = 12",
+    "_cacheBreaker": "1756033578440_42"
+  },
+  {
+    "_id": "math_11_easy_043",
+    "content": "What is 110% of 100?",
+    "type": "multiple_choice",
+    "options": [
+      "55",
+      "110",
+      "165",
+      "220"
+    ],
+    "correctAnswer": "110",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "110% of 100 = 110",
+    "_cacheBreaker": "1756033578440_43"
+  },
+  {
+    "_id": "math_11_easy_044",
+    "content": "Convert 11/10 to a decimal.",
+    "type": "multiple_choice",
+    "options": [
+      "0.11",
+      "11.0",
+      "11/100",
+      "10.11"
+    ],
+    "correctAnswer": "0.11",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "11/10 = 0.11",
+    "_cacheBreaker": "1756033578440_44"
+  },
+  {
+    "_id": "math_11_easy_045",
+    "content": "What is the area of a square with side length 13 cm?",
+    "type": "multiple_choice",
+    "options": [
+      "52 cm²",
+      "169 cm²",
+      "13 cm²",
+      "26 cm²"
+    ],
+    "correctAnswer": "169 cm²",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "Area of square = side² = 13² = 169 cm²",
+    "_cacheBreaker": "1756033578440_45"
+  },
+  {
+    "_id": "math_11_easy_046",
+    "content": "What is 55 + 33?",
+    "type": "multiple_choice",
+    "options": [
+      "77",
+      "88",
+      "99",
+      "110"
+    ],
+    "correctAnswer": "88",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "55 + 33 = 88",
+    "_cacheBreaker": "1756033578440_46"
+  },
+  {
+    "_id": "math_11_easy_047",
+    "content": "Solve: 11x = 132",
+    "type": "multiple_choice",
+    "options": [
+      "x = 110",
+      "x = 12",
+      "x = 11",
+      "x = 66"
+    ],
+    "correctAnswer": "x = 12",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "x = 132 ÷ 11 = 12",
+    "_cacheBreaker": "1756033578440_47"
+  },
+  {
+    "_id": "math_11_easy_048",
+    "content": "What is 110% of 100?",
+    "type": "multiple_choice",
+    "options": [
+      "55",
+      "110",
+      "165",
+      "220"
+    ],
+    "correctAnswer": "110",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "110% of 100 = 110",
+    "_cacheBreaker": "1756033578440_48"
+  },
+  {
+    "_id": "math_11_easy_049",
+    "content": "Convert 11/10 to a decimal.",
+    "type": "multiple_choice",
+    "options": [
+      "0.11",
+      "11.0",
+      "11/100",
+      "10.11"
+    ],
+    "correctAnswer": "0.11",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "11/10 = 0.11",
+    "_cacheBreaker": "1756033578440_49"
+  },
+  {
+    "_id": "math_11_easy_050",
+    "content": "What is the area of a square with side length 13 cm?",
+    "type": "multiple_choice",
+    "options": [
+      "52 cm²",
+      "169 cm²",
+      "13 cm²",
+      "26 cm²"
+    ],
+    "correctAnswer": "169 cm²",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "easy",
+    "explanation": "Area of square = side² = 13² = 169 cm²",
+    "_cacheBreaker": "1756033578440_50"
   }
 ]

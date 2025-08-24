@@ -1,342 +1,852 @@
 [
   {
-    "_id": "math_4_hard_1755775410767_1",
-    "content": "A school has 1,248 students. If they are divided equally into 8 grades, how many students are in each grade?",
+    "_id": "math_4_hard_001",
+    "content": "What is 5 + 4?",
     "type": "multiple_choice",
     "options": [
-      "156 students",
-      "146 students",
-      "166 students",
-      "136 students"
+      "4",
+      "5",
+      "9",
+      "10"
     ],
-    "correctAnswer": "156 students",
+    "correctAnswer": "9",
     "subject": "math",
     "grade": "4",
     "difficulty": "hard",
-    "explanation": "1,248 ÷ 8 = 156. We can check: 156 × 8 = 1,248",
-    "_cacheBreaker": "1755775410767_0"
+    "explanation": "5 + 4 = 9",
+    "_cacheBreaker": "1756033253422_1"
   },
   {
-    "_id": "math_4_hard_1755775410767_2",
-    "content": "What is 3/4 + 1/8?",
+    "_id": "math_4_hard_002",
+    "content": "What is 9 - 4?",
     "type": "multiple_choice",
     "options": [
-      "7/8",
-      "4/12",
-      "5/8",
-      "1/2"
+      "3",
+      "5",
+      "5",
+      "10"
     ],
-    "correctAnswer": "7/8",
+    "correctAnswer": "5",
     "subject": "math",
     "grade": "4",
     "difficulty": "hard",
-    "explanation": "Convert to common denominator: 3/4 = 6/8. So 6/8 + 1/8 = 7/8",
-    "_cacheBreaker": "1755775410767_1"
+    "explanation": "9 - 4 = 5",
+    "_cacheBreaker": "1756033253422_2"
   },
   {
-    "_id": "math_4_hard_1755775410767_3",
-    "content": "A rectangular garden is 15 meters long and 8 meters wide. What is its area?",
+    "_id": "math_4_hard_003",
+    "content": "How many sides does a rectangle have?",
     "type": "multiple_choice",
     "options": [
-      "120 square meters",
-      "23 square meters",
-      "46 square meters",
-      "115 square meters"
+      "3",
+      "4",
+      "5",
+      "6"
     ],
-    "correctAnswer": "120 square meters",
+    "correctAnswer": "4",
     "subject": "math",
     "grade": "4",
     "difficulty": "hard",
-    "explanation": "Area = length × width = 15 × 8 = 120 square meters",
-    "_cacheBreaker": "1755775410767_2"
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253422_3"
   },
   {
-    "_id": "math_4_hard_1755775410767_4",
-    "content": "A school has 1,248 students. If they are divided equally into 8 grades, how many students are in each grade?",
+    "_id": "math_4_hard_004",
+    "content": "What is 4 × 2?",
     "type": "multiple_choice",
     "options": [
-      "156 students",
-      "146 students",
-      "166 students",
-      "136 students"
+      "4",
+      "8",
+      "9",
+      "12"
     ],
-    "correctAnswer": "156 students",
+    "correctAnswer": "8",
     "subject": "math",
     "grade": "4",
     "difficulty": "hard",
-    "explanation": "1,248 ÷ 8 = 156. We can check: 156 × 8 = 1,248",
-    "_cacheBreaker": "1755775410767_3"
+    "explanation": "4 × 2 = 8",
+    "_cacheBreaker": "1756033253422_4"
   },
   {
-    "_id": "math_4_hard_1755775410767_5",
-    "content": "What is 3/4 + 1/8?",
+    "_id": "math_4_hard_005",
+    "content": "Which number comes after 14?",
     "type": "multiple_choice",
     "options": [
-      "7/8",
-      "4/12",
-      "5/8",
-      "1/2"
+      "13",
+      "14",
+      "15",
+      "16"
     ],
-    "correctAnswer": "7/8",
+    "correctAnswer": "15",
     "subject": "math",
     "grade": "4",
     "difficulty": "hard",
-    "explanation": "Convert to common denominator: 3/4 = 6/8. So 6/8 + 1/8 = 7/8",
-    "_cacheBreaker": "1755775410767_4"
+    "explanation": "After 14 comes 15",
+    "_cacheBreaker": "1756033253422_5"
   },
   {
-    "_id": "math_4_hard_1755775410767_6",
-    "content": "A rectangular garden is 15 meters long and 8 meters wide. What is its area?",
+    "_id": "math_4_hard_006",
+    "content": "What is 5 + 4?",
     "type": "multiple_choice",
     "options": [
-      "120 square meters",
-      "23 square meters",
-      "46 square meters",
-      "115 square meters"
+      "4",
+      "5",
+      "9",
+      "10"
     ],
-    "correctAnswer": "120 square meters",
+    "correctAnswer": "9",
     "subject": "math",
     "grade": "4",
     "difficulty": "hard",
-    "explanation": "Area = length × width = 15 × 8 = 120 square meters",
-    "_cacheBreaker": "1755775410767_5"
+    "explanation": "5 + 4 = 9",
+    "_cacheBreaker": "1756033253422_6"
   },
   {
-    "_id": "math_4_hard_1755775410767_7",
-    "content": "A school has 1,248 students. If they are divided equally into 8 grades, how many students are in each grade?",
+    "_id": "math_4_hard_007",
+    "content": "What is 9 - 4?",
     "type": "multiple_choice",
     "options": [
-      "156 students",
-      "146 students",
-      "166 students",
-      "136 students"
+      "3",
+      "5",
+      "5",
+      "10"
     ],
-    "correctAnswer": "156 students",
+    "correctAnswer": "5",
     "subject": "math",
     "grade": "4",
     "difficulty": "hard",
-    "explanation": "1,248 ÷ 8 = 156. We can check: 156 × 8 = 1,248",
-    "_cacheBreaker": "1755775410767_6"
+    "explanation": "9 - 4 = 5",
+    "_cacheBreaker": "1756033253422_7"
   },
   {
-    "_id": "math_4_hard_1755775410767_8",
-    "content": "What is 3/4 + 1/8?",
+    "_id": "math_4_hard_008",
+    "content": "How many sides does a rectangle have?",
     "type": "multiple_choice",
     "options": [
-      "7/8",
-      "4/12",
-      "5/8",
-      "1/2"
+      "3",
+      "4",
+      "5",
+      "6"
     ],
-    "correctAnswer": "7/8",
+    "correctAnswer": "4",
     "subject": "math",
     "grade": "4",
     "difficulty": "hard",
-    "explanation": "Convert to common denominator: 3/4 = 6/8. So 6/8 + 1/8 = 7/8",
-    "_cacheBreaker": "1755775410767_7"
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253422_8"
   },
   {
-    "_id": "math_4_hard_1755775410767_9",
-    "content": "A rectangular garden is 15 meters long and 8 meters wide. What is its area?",
+    "_id": "math_4_hard_009",
+    "content": "What is 4 × 2?",
     "type": "multiple_choice",
     "options": [
-      "120 square meters",
-      "23 square meters",
-      "46 square meters",
-      "115 square meters"
+      "4",
+      "8",
+      "9",
+      "12"
     ],
-    "correctAnswer": "120 square meters",
+    "correctAnswer": "8",
     "subject": "math",
     "grade": "4",
     "difficulty": "hard",
-    "explanation": "Area = length × width = 15 × 8 = 120 square meters",
-    "_cacheBreaker": "1755775410767_8"
+    "explanation": "4 × 2 = 8",
+    "_cacheBreaker": "1756033253422_9"
   },
   {
-    "_id": "math_4_hard_1755775410767_10",
-    "content": "A school has 1,248 students. If they are divided equally into 8 grades, how many students are in each grade?",
+    "_id": "math_4_hard_010",
+    "content": "Which number comes after 14?",
     "type": "multiple_choice",
     "options": [
-      "156 students",
-      "146 students",
-      "166 students",
-      "136 students"
+      "13",
+      "14",
+      "15",
+      "16"
     ],
-    "correctAnswer": "156 students",
+    "correctAnswer": "15",
     "subject": "math",
     "grade": "4",
     "difficulty": "hard",
-    "explanation": "1,248 ÷ 8 = 156. We can check: 156 × 8 = 1,248",
-    "_cacheBreaker": "1755775410767_9"
+    "explanation": "After 14 comes 15",
+    "_cacheBreaker": "1756033253422_10"
   },
   {
-    "_id": "math_4_hard_1755775410767_11",
-    "content": "What is 3/4 + 1/8?",
+    "_id": "math_4_hard_011",
+    "content": "What is 5 + 4?",
     "type": "multiple_choice",
     "options": [
-      "7/8",
-      "4/12",
-      "5/8",
-      "1/2"
+      "4",
+      "5",
+      "9",
+      "10"
     ],
-    "correctAnswer": "7/8",
+    "correctAnswer": "9",
     "subject": "math",
     "grade": "4",
     "difficulty": "hard",
-    "explanation": "Convert to common denominator: 3/4 = 6/8. So 6/8 + 1/8 = 7/8",
-    "_cacheBreaker": "1755775410767_10"
+    "explanation": "5 + 4 = 9",
+    "_cacheBreaker": "1756033253422_11"
   },
   {
-    "_id": "math_4_hard_1755775410767_12",
-    "content": "A rectangular garden is 15 meters long and 8 meters wide. What is its area?",
+    "_id": "math_4_hard_012",
+    "content": "What is 9 - 4?",
     "type": "multiple_choice",
     "options": [
-      "120 square meters",
-      "23 square meters",
-      "46 square meters",
-      "115 square meters"
+      "3",
+      "5",
+      "5",
+      "10"
     ],
-    "correctAnswer": "120 square meters",
+    "correctAnswer": "5",
     "subject": "math",
     "grade": "4",
     "difficulty": "hard",
-    "explanation": "Area = length × width = 15 × 8 = 120 square meters",
-    "_cacheBreaker": "1755775410767_11"
+    "explanation": "9 - 4 = 5",
+    "_cacheBreaker": "1756033253422_12"
   },
   {
-    "_id": "math_4_hard_1755775410767_13",
-    "content": "A school has 1,248 students. If they are divided equally into 8 grades, how many students are in each grade?",
+    "_id": "math_4_hard_013",
+    "content": "How many sides does a rectangle have?",
     "type": "multiple_choice",
     "options": [
-      "156 students",
-      "146 students",
-      "166 students",
-      "136 students"
+      "3",
+      "4",
+      "5",
+      "6"
     ],
-    "correctAnswer": "156 students",
+    "correctAnswer": "4",
     "subject": "math",
     "grade": "4",
     "difficulty": "hard",
-    "explanation": "1,248 ÷ 8 = 156. We can check: 156 × 8 = 1,248",
-    "_cacheBreaker": "1755775410767_12"
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253422_13"
   },
   {
-    "_id": "math_4_hard_1755775410767_14",
-    "content": "What is 3/4 + 1/8?",
+    "_id": "math_4_hard_014",
+    "content": "What is 4 × 2?",
     "type": "multiple_choice",
     "options": [
-      "7/8",
-      "4/12",
-      "5/8",
-      "1/2"
+      "4",
+      "8",
+      "9",
+      "12"
     ],
-    "correctAnswer": "7/8",
+    "correctAnswer": "8",
     "subject": "math",
     "grade": "4",
     "difficulty": "hard",
-    "explanation": "Convert to common denominator: 3/4 = 6/8. So 6/8 + 1/8 = 7/8",
-    "_cacheBreaker": "1755775410767_13"
+    "explanation": "4 × 2 = 8",
+    "_cacheBreaker": "1756033253422_14"
   },
   {
-    "_id": "math_4_hard_1755775410767_15",
-    "content": "A rectangular garden is 15 meters long and 8 meters wide. What is its area?",
+    "_id": "math_4_hard_015",
+    "content": "Which number comes after 14?",
     "type": "multiple_choice",
     "options": [
-      "120 square meters",
-      "23 square meters",
-      "46 square meters",
-      "115 square meters"
+      "13",
+      "14",
+      "15",
+      "16"
     ],
-    "correctAnswer": "120 square meters",
+    "correctAnswer": "15",
     "subject": "math",
     "grade": "4",
     "difficulty": "hard",
-    "explanation": "Area = length × width = 15 × 8 = 120 square meters",
-    "_cacheBreaker": "1755775410767_14"
+    "explanation": "After 14 comes 15",
+    "_cacheBreaker": "1756033253422_15"
   },
   {
-    "_id": "math_4_hard_1755775410767_16",
-    "content": "A school has 1,248 students. If they are divided equally into 8 grades, how many students are in each grade?",
+    "_id": "math_4_hard_016",
+    "content": "What is 5 + 4?",
     "type": "multiple_choice",
     "options": [
-      "156 students",
-      "146 students",
-      "166 students",
-      "136 students"
+      "4",
+      "5",
+      "9",
+      "10"
     ],
-    "correctAnswer": "156 students",
+    "correctAnswer": "9",
     "subject": "math",
     "grade": "4",
     "difficulty": "hard",
-    "explanation": "1,248 ÷ 8 = 156. We can check: 156 × 8 = 1,248",
-    "_cacheBreaker": "1755775410767_15"
+    "explanation": "5 + 4 = 9",
+    "_cacheBreaker": "1756033253422_16"
   },
   {
-    "_id": "math_4_hard_1755775410767_17",
-    "content": "What is 3/4 + 1/8?",
+    "_id": "math_4_hard_017",
+    "content": "What is 9 - 4?",
     "type": "multiple_choice",
     "options": [
-      "7/8",
-      "4/12",
-      "5/8",
-      "1/2"
+      "3",
+      "5",
+      "5",
+      "10"
     ],
-    "correctAnswer": "7/8",
+    "correctAnswer": "5",
     "subject": "math",
     "grade": "4",
     "difficulty": "hard",
-    "explanation": "Convert to common denominator: 3/4 = 6/8. So 6/8 + 1/8 = 7/8",
-    "_cacheBreaker": "1755775410767_16"
+    "explanation": "9 - 4 = 5",
+    "_cacheBreaker": "1756033253422_17"
   },
   {
-    "_id": "math_4_hard_1755775410767_18",
-    "content": "A rectangular garden is 15 meters long and 8 meters wide. What is its area?",
+    "_id": "math_4_hard_018",
+    "content": "How many sides does a rectangle have?",
     "type": "multiple_choice",
     "options": [
-      "120 square meters",
-      "23 square meters",
-      "46 square meters",
-      "115 square meters"
+      "3",
+      "4",
+      "5",
+      "6"
     ],
-    "correctAnswer": "120 square meters",
+    "correctAnswer": "4",
     "subject": "math",
     "grade": "4",
     "difficulty": "hard",
-    "explanation": "Area = length × width = 15 × 8 = 120 square meters",
-    "_cacheBreaker": "1755775410767_17"
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253422_18"
   },
   {
-    "_id": "math_4_hard_1755775410767_19",
-    "content": "A school has 1,248 students. If they are divided equally into 8 grades, how many students are in each grade?",
+    "_id": "math_4_hard_019",
+    "content": "What is 4 × 2?",
     "type": "multiple_choice",
     "options": [
-      "156 students",
-      "146 students",
-      "166 students",
-      "136 students"
+      "4",
+      "8",
+      "9",
+      "12"
     ],
-    "correctAnswer": "156 students",
+    "correctAnswer": "8",
     "subject": "math",
     "grade": "4",
     "difficulty": "hard",
-    "explanation": "1,248 ÷ 8 = 156. We can check: 156 × 8 = 1,248",
-    "_cacheBreaker": "1755775410767_18"
+    "explanation": "4 × 2 = 8",
+    "_cacheBreaker": "1756033253422_19"
   },
   {
-    "_id": "math_4_hard_1755775410767_20",
-    "content": "What is 3/4 + 1/8?",
+    "_id": "math_4_hard_020",
+    "content": "Which number comes after 14?",
     "type": "multiple_choice",
     "options": [
-      "7/8",
-      "4/12",
-      "5/8",
-      "1/2"
+      "13",
+      "14",
+      "15",
+      "16"
     ],
-    "correctAnswer": "7/8",
+    "correctAnswer": "15",
     "subject": "math",
     "grade": "4",
     "difficulty": "hard",
-    "explanation": "Convert to common denominator: 3/4 = 6/8. So 6/8 + 1/8 = 7/8",
-    "_cacheBreaker": "1755775410767_19"
+    "explanation": "After 14 comes 15",
+    "_cacheBreaker": "1756033253422_20"
+  },
+  {
+    "_id": "math_4_hard_021",
+    "content": "What is 5 + 4?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "5",
+      "9",
+      "10"
+    ],
+    "correctAnswer": "9",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "hard",
+    "explanation": "5 + 4 = 9",
+    "_cacheBreaker": "1756033253422_21"
+  },
+  {
+    "_id": "math_4_hard_022",
+    "content": "What is 9 - 4?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "5",
+      "5",
+      "10"
+    ],
+    "correctAnswer": "5",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "hard",
+    "explanation": "9 - 4 = 5",
+    "_cacheBreaker": "1756033253422_22"
+  },
+  {
+    "_id": "math_4_hard_023",
+    "content": "How many sides does a rectangle have?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "hard",
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253422_23"
+  },
+  {
+    "_id": "math_4_hard_024",
+    "content": "What is 4 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "8",
+      "9",
+      "12"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "hard",
+    "explanation": "4 × 2 = 8",
+    "_cacheBreaker": "1756033253422_24"
+  },
+  {
+    "_id": "math_4_hard_025",
+    "content": "Which number comes after 14?",
+    "type": "multiple_choice",
+    "options": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "correctAnswer": "15",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "hard",
+    "explanation": "After 14 comes 15",
+    "_cacheBreaker": "1756033253422_25"
+  },
+  {
+    "_id": "math_4_hard_026",
+    "content": "What is 5 + 4?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "5",
+      "9",
+      "10"
+    ],
+    "correctAnswer": "9",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "hard",
+    "explanation": "5 + 4 = 9",
+    "_cacheBreaker": "1756033253422_26"
+  },
+  {
+    "_id": "math_4_hard_027",
+    "content": "What is 9 - 4?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "5",
+      "5",
+      "10"
+    ],
+    "correctAnswer": "5",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "hard",
+    "explanation": "9 - 4 = 5",
+    "_cacheBreaker": "1756033253422_27"
+  },
+  {
+    "_id": "math_4_hard_028",
+    "content": "How many sides does a rectangle have?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "hard",
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253422_28"
+  },
+  {
+    "_id": "math_4_hard_029",
+    "content": "What is 4 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "8",
+      "9",
+      "12"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "hard",
+    "explanation": "4 × 2 = 8",
+    "_cacheBreaker": "1756033253422_29"
+  },
+  {
+    "_id": "math_4_hard_030",
+    "content": "Which number comes after 14?",
+    "type": "multiple_choice",
+    "options": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "correctAnswer": "15",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "hard",
+    "explanation": "After 14 comes 15",
+    "_cacheBreaker": "1756033253422_30"
+  },
+  {
+    "_id": "math_4_hard_031",
+    "content": "What is 5 + 4?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "5",
+      "9",
+      "10"
+    ],
+    "correctAnswer": "9",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "hard",
+    "explanation": "5 + 4 = 9",
+    "_cacheBreaker": "1756033253422_31"
+  },
+  {
+    "_id": "math_4_hard_032",
+    "content": "What is 9 - 4?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "5",
+      "5",
+      "10"
+    ],
+    "correctAnswer": "5",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "hard",
+    "explanation": "9 - 4 = 5",
+    "_cacheBreaker": "1756033253422_32"
+  },
+  {
+    "_id": "math_4_hard_033",
+    "content": "How many sides does a rectangle have?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "hard",
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253422_33"
+  },
+  {
+    "_id": "math_4_hard_034",
+    "content": "What is 4 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "8",
+      "9",
+      "12"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "hard",
+    "explanation": "4 × 2 = 8",
+    "_cacheBreaker": "1756033253422_34"
+  },
+  {
+    "_id": "math_4_hard_035",
+    "content": "Which number comes after 14?",
+    "type": "multiple_choice",
+    "options": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "correctAnswer": "15",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "hard",
+    "explanation": "After 14 comes 15",
+    "_cacheBreaker": "1756033253422_35"
+  },
+  {
+    "_id": "math_4_hard_036",
+    "content": "What is 5 + 4?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "5",
+      "9",
+      "10"
+    ],
+    "correctAnswer": "9",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "hard",
+    "explanation": "5 + 4 = 9",
+    "_cacheBreaker": "1756033253422_36"
+  },
+  {
+    "_id": "math_4_hard_037",
+    "content": "What is 9 - 4?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "5",
+      "5",
+      "10"
+    ],
+    "correctAnswer": "5",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "hard",
+    "explanation": "9 - 4 = 5",
+    "_cacheBreaker": "1756033253422_37"
+  },
+  {
+    "_id": "math_4_hard_038",
+    "content": "How many sides does a rectangle have?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "hard",
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253422_38"
+  },
+  {
+    "_id": "math_4_hard_039",
+    "content": "What is 4 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "8",
+      "9",
+      "12"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "hard",
+    "explanation": "4 × 2 = 8",
+    "_cacheBreaker": "1756033253422_39"
+  },
+  {
+    "_id": "math_4_hard_040",
+    "content": "Which number comes after 14?",
+    "type": "multiple_choice",
+    "options": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "correctAnswer": "15",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "hard",
+    "explanation": "After 14 comes 15",
+    "_cacheBreaker": "1756033253422_40"
+  },
+  {
+    "_id": "math_4_hard_041",
+    "content": "What is 5 + 4?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "5",
+      "9",
+      "10"
+    ],
+    "correctAnswer": "9",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "hard",
+    "explanation": "5 + 4 = 9",
+    "_cacheBreaker": "1756033253422_41"
+  },
+  {
+    "_id": "math_4_hard_042",
+    "content": "What is 9 - 4?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "5",
+      "5",
+      "10"
+    ],
+    "correctAnswer": "5",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "hard",
+    "explanation": "9 - 4 = 5",
+    "_cacheBreaker": "1756033253422_42"
+  },
+  {
+    "_id": "math_4_hard_043",
+    "content": "How many sides does a rectangle have?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "hard",
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253422_43"
+  },
+  {
+    "_id": "math_4_hard_044",
+    "content": "What is 4 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "8",
+      "9",
+      "12"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "hard",
+    "explanation": "4 × 2 = 8",
+    "_cacheBreaker": "1756033253422_44"
+  },
+  {
+    "_id": "math_4_hard_045",
+    "content": "Which number comes after 14?",
+    "type": "multiple_choice",
+    "options": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "correctAnswer": "15",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "hard",
+    "explanation": "After 14 comes 15",
+    "_cacheBreaker": "1756033253422_45"
+  },
+  {
+    "_id": "math_4_hard_046",
+    "content": "What is 5 + 4?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "5",
+      "9",
+      "10"
+    ],
+    "correctAnswer": "9",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "hard",
+    "explanation": "5 + 4 = 9",
+    "_cacheBreaker": "1756033253422_46"
+  },
+  {
+    "_id": "math_4_hard_047",
+    "content": "What is 9 - 4?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "5",
+      "5",
+      "10"
+    ],
+    "correctAnswer": "5",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "hard",
+    "explanation": "9 - 4 = 5",
+    "_cacheBreaker": "1756033253422_47"
+  },
+  {
+    "_id": "math_4_hard_048",
+    "content": "How many sides does a rectangle have?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "hard",
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253422_48"
+  },
+  {
+    "_id": "math_4_hard_049",
+    "content": "What is 4 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "8",
+      "9",
+      "12"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "hard",
+    "explanation": "4 × 2 = 8",
+    "_cacheBreaker": "1756033253422_49"
+  },
+  {
+    "_id": "math_4_hard_050",
+    "content": "Which number comes after 14?",
+    "type": "multiple_choice",
+    "options": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "correctAnswer": "15",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "hard",
+    "explanation": "After 14 comes 15",
+    "_cacheBreaker": "1756033253422_50"
   }
 ]

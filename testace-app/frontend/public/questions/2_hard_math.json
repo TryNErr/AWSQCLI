@@ -1,342 +1,852 @@
 [
   {
-    "_id": "math_2_hard_1755775410765_1",
-    "content": "Sarah has 47 marbles. She buys 28 more marbles. How many marbles does she have in total?",
+    "_id": "math_2_hard_001",
+    "content": "What is 18 + 14?",
     "type": "multiple_choice",
     "options": [
-      "75 marbles",
-      "65 marbles",
-      "74 marbles",
-      "76 marbles"
+      "30",
+      "31",
+      "32",
+      "33"
     ],
-    "correctAnswer": "75 marbles",
+    "correctAnswer": "32",
     "subject": "math",
     "grade": "2",
     "difficulty": "hard",
-    "explanation": "47 + 28 = 75. Add the ones: 7+8=15 (write 5, carry 1). Add the tens: 4+2+1=7",
-    "_cacheBreaker": "1755775410765_0"
+    "explanation": "18 + 14 = 32",
+    "_cacheBreaker": "1756033253396_1"
   },
   {
-    "_id": "math_2_hard_1755775410765_2",
-    "content": "What is 3 × 4?",
+    "_id": "math_2_hard_002",
+    "content": "What is 25 - 9?",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "12",
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "correctAnswer": "16",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "hard",
+    "explanation": "25 - 9 = 16",
+    "_cacheBreaker": "1756033253396_2"
+  },
+  {
+    "_id": "math_2_hard_003",
+    "content": "How many inches are in a foot?",
+    "type": "multiple_choice",
+    "options": [
       "10",
-      "14"
+      "11",
+      "12",
+      "13"
     ],
     "correctAnswer": "12",
     "subject": "math",
     "grade": "2",
     "difficulty": "hard",
-    "explanation": "3 × 4 means 3 groups of 4: 4 + 4 + 4 = 12",
-    "_cacheBreaker": "1755775410765_1"
+    "explanation": "There are 12 inches in 1 foot",
+    "_cacheBreaker": "1756033253396_3"
   },
   {
-    "_id": "math_2_hard_1755775410765_3",
-    "content": "A rectangle has 4 sides. How many sides do 3 rectangles have altogether?",
+    "_id": "math_2_hard_004",
+    "content": "What is 6 × 3?",
     "type": "multiple_choice",
     "options": [
-      "7 sides",
-      "12 sides",
-      "10 sides",
-      "8 sides"
+      "17",
+      "18",
+      "19",
+      "20"
     ],
-    "correctAnswer": "12 sides",
+    "correctAnswer": "18",
     "subject": "math",
     "grade": "2",
     "difficulty": "hard",
-    "explanation": "Each rectangle has 4 sides. 3 rectangles: 4 × 3 = 12 sides",
-    "_cacheBreaker": "1755775410765_2"
+    "explanation": "6 × 3 = 18",
+    "_cacheBreaker": "1756033253396_4"
   },
   {
-    "_id": "math_2_hard_1755775410765_4",
-    "content": "Sarah has 47 marbles. She buys 28 more marbles. How many marbles does she have in total?",
+    "_id": "math_2_hard_005",
+    "content": "What is 20 ÷ 4?",
     "type": "multiple_choice",
     "options": [
-      "75 marbles",
-      "65 marbles",
-      "74 marbles",
-      "76 marbles"
+      "4",
+      "5",
+      "6",
+      "7"
     ],
-    "correctAnswer": "75 marbles",
+    "correctAnswer": "5",
     "subject": "math",
     "grade": "2",
     "difficulty": "hard",
-    "explanation": "47 + 28 = 75. Add the ones: 7+8=15 (write 5, carry 1). Add the tens: 4+2+1=7",
-    "_cacheBreaker": "1755775410765_3"
+    "explanation": "20 ÷ 4 = 5",
+    "_cacheBreaker": "1756033253396_5"
   },
   {
-    "_id": "math_2_hard_1755775410765_5",
-    "content": "What is 3 × 4?",
+    "_id": "math_2_hard_006",
+    "content": "What is 18 + 14?",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "12",
+      "30",
+      "31",
+      "32",
+      "33"
+    ],
+    "correctAnswer": "32",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "hard",
+    "explanation": "18 + 14 = 32",
+    "_cacheBreaker": "1756033253396_6"
+  },
+  {
+    "_id": "math_2_hard_007",
+    "content": "What is 25 - 9?",
+    "type": "multiple_choice",
+    "options": [
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "correctAnswer": "16",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "hard",
+    "explanation": "25 - 9 = 16",
+    "_cacheBreaker": "1756033253396_7"
+  },
+  {
+    "_id": "math_2_hard_008",
+    "content": "How many inches are in a foot?",
+    "type": "multiple_choice",
+    "options": [
       "10",
-      "14"
+      "11",
+      "12",
+      "13"
     ],
     "correctAnswer": "12",
     "subject": "math",
     "grade": "2",
     "difficulty": "hard",
-    "explanation": "3 × 4 means 3 groups of 4: 4 + 4 + 4 = 12",
-    "_cacheBreaker": "1755775410765_4"
+    "explanation": "There are 12 inches in 1 foot",
+    "_cacheBreaker": "1756033253396_8"
   },
   {
-    "_id": "math_2_hard_1755775410765_6",
-    "content": "A rectangle has 4 sides. How many sides do 3 rectangles have altogether?",
+    "_id": "math_2_hard_009",
+    "content": "What is 6 × 3?",
     "type": "multiple_choice",
     "options": [
-      "7 sides",
-      "12 sides",
-      "10 sides",
-      "8 sides"
+      "17",
+      "18",
+      "19",
+      "20"
     ],
-    "correctAnswer": "12 sides",
+    "correctAnswer": "18",
     "subject": "math",
     "grade": "2",
     "difficulty": "hard",
-    "explanation": "Each rectangle has 4 sides. 3 rectangles: 4 × 3 = 12 sides",
-    "_cacheBreaker": "1755775410765_5"
+    "explanation": "6 × 3 = 18",
+    "_cacheBreaker": "1756033253396_9"
   },
   {
-    "_id": "math_2_hard_1755775410765_7",
-    "content": "Sarah has 47 marbles. She buys 28 more marbles. How many marbles does she have in total?",
+    "_id": "math_2_hard_010",
+    "content": "What is 20 ÷ 4?",
     "type": "multiple_choice",
     "options": [
-      "75 marbles",
-      "65 marbles",
-      "74 marbles",
-      "76 marbles"
+      "4",
+      "5",
+      "6",
+      "7"
     ],
-    "correctAnswer": "75 marbles",
+    "correctAnswer": "5",
     "subject": "math",
     "grade": "2",
     "difficulty": "hard",
-    "explanation": "47 + 28 = 75. Add the ones: 7+8=15 (write 5, carry 1). Add the tens: 4+2+1=7",
-    "_cacheBreaker": "1755775410765_6"
+    "explanation": "20 ÷ 4 = 5",
+    "_cacheBreaker": "1756033253396_10"
   },
   {
-    "_id": "math_2_hard_1755775410765_8",
-    "content": "What is 3 × 4?",
+    "_id": "math_2_hard_011",
+    "content": "What is 18 + 14?",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "12",
+      "30",
+      "31",
+      "32",
+      "33"
+    ],
+    "correctAnswer": "32",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "hard",
+    "explanation": "18 + 14 = 32",
+    "_cacheBreaker": "1756033253396_11"
+  },
+  {
+    "_id": "math_2_hard_012",
+    "content": "What is 25 - 9?",
+    "type": "multiple_choice",
+    "options": [
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "correctAnswer": "16",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "hard",
+    "explanation": "25 - 9 = 16",
+    "_cacheBreaker": "1756033253396_12"
+  },
+  {
+    "_id": "math_2_hard_013",
+    "content": "How many inches are in a foot?",
+    "type": "multiple_choice",
+    "options": [
       "10",
-      "14"
+      "11",
+      "12",
+      "13"
     ],
     "correctAnswer": "12",
     "subject": "math",
     "grade": "2",
     "difficulty": "hard",
-    "explanation": "3 × 4 means 3 groups of 4: 4 + 4 + 4 = 12",
-    "_cacheBreaker": "1755775410765_7"
+    "explanation": "There are 12 inches in 1 foot",
+    "_cacheBreaker": "1756033253396_13"
   },
   {
-    "_id": "math_2_hard_1755775410765_9",
-    "content": "A rectangle has 4 sides. How many sides do 3 rectangles have altogether?",
+    "_id": "math_2_hard_014",
+    "content": "What is 6 × 3?",
     "type": "multiple_choice",
     "options": [
-      "7 sides",
-      "12 sides",
-      "10 sides",
-      "8 sides"
+      "17",
+      "18",
+      "19",
+      "20"
     ],
-    "correctAnswer": "12 sides",
+    "correctAnswer": "18",
     "subject": "math",
     "grade": "2",
     "difficulty": "hard",
-    "explanation": "Each rectangle has 4 sides. 3 rectangles: 4 × 3 = 12 sides",
-    "_cacheBreaker": "1755775410765_8"
+    "explanation": "6 × 3 = 18",
+    "_cacheBreaker": "1756033253396_14"
   },
   {
-    "_id": "math_2_hard_1755775410765_10",
-    "content": "Sarah has 47 marbles. She buys 28 more marbles. How many marbles does she have in total?",
+    "_id": "math_2_hard_015",
+    "content": "What is 20 ÷ 4?",
     "type": "multiple_choice",
     "options": [
-      "75 marbles",
-      "65 marbles",
-      "74 marbles",
-      "76 marbles"
+      "4",
+      "5",
+      "6",
+      "7"
     ],
-    "correctAnswer": "75 marbles",
+    "correctAnswer": "5",
     "subject": "math",
     "grade": "2",
     "difficulty": "hard",
-    "explanation": "47 + 28 = 75. Add the ones: 7+8=15 (write 5, carry 1). Add the tens: 4+2+1=7",
-    "_cacheBreaker": "1755775410765_9"
+    "explanation": "20 ÷ 4 = 5",
+    "_cacheBreaker": "1756033253396_15"
   },
   {
-    "_id": "math_2_hard_1755775410765_11",
-    "content": "What is 3 × 4?",
+    "_id": "math_2_hard_016",
+    "content": "What is 18 + 14?",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "12",
+      "30",
+      "31",
+      "32",
+      "33"
+    ],
+    "correctAnswer": "32",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "hard",
+    "explanation": "18 + 14 = 32",
+    "_cacheBreaker": "1756033253396_16"
+  },
+  {
+    "_id": "math_2_hard_017",
+    "content": "What is 25 - 9?",
+    "type": "multiple_choice",
+    "options": [
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "correctAnswer": "16",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "hard",
+    "explanation": "25 - 9 = 16",
+    "_cacheBreaker": "1756033253396_17"
+  },
+  {
+    "_id": "math_2_hard_018",
+    "content": "How many inches are in a foot?",
+    "type": "multiple_choice",
+    "options": [
       "10",
-      "14"
+      "11",
+      "12",
+      "13"
     ],
     "correctAnswer": "12",
     "subject": "math",
     "grade": "2",
     "difficulty": "hard",
-    "explanation": "3 × 4 means 3 groups of 4: 4 + 4 + 4 = 12",
-    "_cacheBreaker": "1755775410765_10"
+    "explanation": "There are 12 inches in 1 foot",
+    "_cacheBreaker": "1756033253396_18"
   },
   {
-    "_id": "math_2_hard_1755775410765_12",
-    "content": "A rectangle has 4 sides. How many sides do 3 rectangles have altogether?",
+    "_id": "math_2_hard_019",
+    "content": "What is 6 × 3?",
     "type": "multiple_choice",
     "options": [
-      "7 sides",
-      "12 sides",
-      "10 sides",
-      "8 sides"
+      "17",
+      "18",
+      "19",
+      "20"
     ],
-    "correctAnswer": "12 sides",
+    "correctAnswer": "18",
     "subject": "math",
     "grade": "2",
     "difficulty": "hard",
-    "explanation": "Each rectangle has 4 sides. 3 rectangles: 4 × 3 = 12 sides",
-    "_cacheBreaker": "1755775410765_11"
+    "explanation": "6 × 3 = 18",
+    "_cacheBreaker": "1756033253396_19"
   },
   {
-    "_id": "math_2_hard_1755775410765_13",
-    "content": "Sarah has 47 marbles. She buys 28 more marbles. How many marbles does she have in total?",
+    "_id": "math_2_hard_020",
+    "content": "What is 20 ÷ 4?",
     "type": "multiple_choice",
     "options": [
-      "75 marbles",
-      "65 marbles",
-      "74 marbles",
-      "76 marbles"
+      "4",
+      "5",
+      "6",
+      "7"
     ],
-    "correctAnswer": "75 marbles",
+    "correctAnswer": "5",
     "subject": "math",
     "grade": "2",
     "difficulty": "hard",
-    "explanation": "47 + 28 = 75. Add the ones: 7+8=15 (write 5, carry 1). Add the tens: 4+2+1=7",
-    "_cacheBreaker": "1755775410765_12"
+    "explanation": "20 ÷ 4 = 5",
+    "_cacheBreaker": "1756033253396_20"
   },
   {
-    "_id": "math_2_hard_1755775410765_14",
-    "content": "What is 3 × 4?",
+    "_id": "math_2_hard_021",
+    "content": "What is 18 + 14?",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "12",
+      "30",
+      "31",
+      "32",
+      "33"
+    ],
+    "correctAnswer": "32",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "hard",
+    "explanation": "18 + 14 = 32",
+    "_cacheBreaker": "1756033253396_21"
+  },
+  {
+    "_id": "math_2_hard_022",
+    "content": "What is 25 - 9?",
+    "type": "multiple_choice",
+    "options": [
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "correctAnswer": "16",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "hard",
+    "explanation": "25 - 9 = 16",
+    "_cacheBreaker": "1756033253396_22"
+  },
+  {
+    "_id": "math_2_hard_023",
+    "content": "How many inches are in a foot?",
+    "type": "multiple_choice",
+    "options": [
       "10",
-      "14"
+      "11",
+      "12",
+      "13"
     ],
     "correctAnswer": "12",
     "subject": "math",
     "grade": "2",
     "difficulty": "hard",
-    "explanation": "3 × 4 means 3 groups of 4: 4 + 4 + 4 = 12",
-    "_cacheBreaker": "1755775410765_13"
+    "explanation": "There are 12 inches in 1 foot",
+    "_cacheBreaker": "1756033253396_23"
   },
   {
-    "_id": "math_2_hard_1755775410765_15",
-    "content": "A rectangle has 4 sides. How many sides do 3 rectangles have altogether?",
+    "_id": "math_2_hard_024",
+    "content": "What is 6 × 3?",
     "type": "multiple_choice",
     "options": [
-      "7 sides",
-      "12 sides",
-      "10 sides",
-      "8 sides"
+      "17",
+      "18",
+      "19",
+      "20"
     ],
-    "correctAnswer": "12 sides",
+    "correctAnswer": "18",
     "subject": "math",
     "grade": "2",
     "difficulty": "hard",
-    "explanation": "Each rectangle has 4 sides. 3 rectangles: 4 × 3 = 12 sides",
-    "_cacheBreaker": "1755775410765_14"
+    "explanation": "6 × 3 = 18",
+    "_cacheBreaker": "1756033253396_24"
   },
   {
-    "_id": "math_2_hard_1755775410765_16",
-    "content": "Sarah has 47 marbles. She buys 28 more marbles. How many marbles does she have in total?",
+    "_id": "math_2_hard_025",
+    "content": "What is 20 ÷ 4?",
     "type": "multiple_choice",
     "options": [
-      "75 marbles",
-      "65 marbles",
-      "74 marbles",
-      "76 marbles"
+      "4",
+      "5",
+      "6",
+      "7"
     ],
-    "correctAnswer": "75 marbles",
+    "correctAnswer": "5",
     "subject": "math",
     "grade": "2",
     "difficulty": "hard",
-    "explanation": "47 + 28 = 75. Add the ones: 7+8=15 (write 5, carry 1). Add the tens: 4+2+1=7",
-    "_cacheBreaker": "1755775410765_15"
+    "explanation": "20 ÷ 4 = 5",
+    "_cacheBreaker": "1756033253396_25"
   },
   {
-    "_id": "math_2_hard_1755775410765_17",
-    "content": "What is 3 × 4?",
+    "_id": "math_2_hard_026",
+    "content": "What is 18 + 14?",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "12",
+      "30",
+      "31",
+      "32",
+      "33"
+    ],
+    "correctAnswer": "32",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "hard",
+    "explanation": "18 + 14 = 32",
+    "_cacheBreaker": "1756033253396_26"
+  },
+  {
+    "_id": "math_2_hard_027",
+    "content": "What is 25 - 9?",
+    "type": "multiple_choice",
+    "options": [
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "correctAnswer": "16",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "hard",
+    "explanation": "25 - 9 = 16",
+    "_cacheBreaker": "1756033253396_27"
+  },
+  {
+    "_id": "math_2_hard_028",
+    "content": "How many inches are in a foot?",
+    "type": "multiple_choice",
+    "options": [
       "10",
-      "14"
+      "11",
+      "12",
+      "13"
     ],
     "correctAnswer": "12",
     "subject": "math",
     "grade": "2",
     "difficulty": "hard",
-    "explanation": "3 × 4 means 3 groups of 4: 4 + 4 + 4 = 12",
-    "_cacheBreaker": "1755775410765_16"
+    "explanation": "There are 12 inches in 1 foot",
+    "_cacheBreaker": "1756033253396_28"
   },
   {
-    "_id": "math_2_hard_1755775410765_18",
-    "content": "A rectangle has 4 sides. How many sides do 3 rectangles have altogether?",
+    "_id": "math_2_hard_029",
+    "content": "What is 6 × 3?",
     "type": "multiple_choice",
     "options": [
-      "7 sides",
-      "12 sides",
-      "10 sides",
-      "8 sides"
+      "17",
+      "18",
+      "19",
+      "20"
     ],
-    "correctAnswer": "12 sides",
+    "correctAnswer": "18",
     "subject": "math",
     "grade": "2",
     "difficulty": "hard",
-    "explanation": "Each rectangle has 4 sides. 3 rectangles: 4 × 3 = 12 sides",
-    "_cacheBreaker": "1755775410765_17"
+    "explanation": "6 × 3 = 18",
+    "_cacheBreaker": "1756033253396_29"
   },
   {
-    "_id": "math_2_hard_1755775410765_19",
-    "content": "Sarah has 47 marbles. She buys 28 more marbles. How many marbles does she have in total?",
+    "_id": "math_2_hard_030",
+    "content": "What is 20 ÷ 4?",
     "type": "multiple_choice",
     "options": [
-      "75 marbles",
-      "65 marbles",
-      "74 marbles",
-      "76 marbles"
+      "4",
+      "5",
+      "6",
+      "7"
     ],
-    "correctAnswer": "75 marbles",
+    "correctAnswer": "5",
     "subject": "math",
     "grade": "2",
     "difficulty": "hard",
-    "explanation": "47 + 28 = 75. Add the ones: 7+8=15 (write 5, carry 1). Add the tens: 4+2+1=7",
-    "_cacheBreaker": "1755775410765_18"
+    "explanation": "20 ÷ 4 = 5",
+    "_cacheBreaker": "1756033253396_30"
   },
   {
-    "_id": "math_2_hard_1755775410765_20",
-    "content": "What is 3 × 4?",
+    "_id": "math_2_hard_031",
+    "content": "What is 18 + 14?",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "12",
+      "30",
+      "31",
+      "32",
+      "33"
+    ],
+    "correctAnswer": "32",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "hard",
+    "explanation": "18 + 14 = 32",
+    "_cacheBreaker": "1756033253396_31"
+  },
+  {
+    "_id": "math_2_hard_032",
+    "content": "What is 25 - 9?",
+    "type": "multiple_choice",
+    "options": [
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "correctAnswer": "16",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "hard",
+    "explanation": "25 - 9 = 16",
+    "_cacheBreaker": "1756033253396_32"
+  },
+  {
+    "_id": "math_2_hard_033",
+    "content": "How many inches are in a foot?",
+    "type": "multiple_choice",
+    "options": [
       "10",
-      "14"
+      "11",
+      "12",
+      "13"
     ],
     "correctAnswer": "12",
     "subject": "math",
     "grade": "2",
     "difficulty": "hard",
-    "explanation": "3 × 4 means 3 groups of 4: 4 + 4 + 4 = 12",
-    "_cacheBreaker": "1755775410765_19"
+    "explanation": "There are 12 inches in 1 foot",
+    "_cacheBreaker": "1756033253396_33"
+  },
+  {
+    "_id": "math_2_hard_034",
+    "content": "What is 6 × 3?",
+    "type": "multiple_choice",
+    "options": [
+      "17",
+      "18",
+      "19",
+      "20"
+    ],
+    "correctAnswer": "18",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "hard",
+    "explanation": "6 × 3 = 18",
+    "_cacheBreaker": "1756033253396_34"
+  },
+  {
+    "_id": "math_2_hard_035",
+    "content": "What is 20 ÷ 4?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "5",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "hard",
+    "explanation": "20 ÷ 4 = 5",
+    "_cacheBreaker": "1756033253396_35"
+  },
+  {
+    "_id": "math_2_hard_036",
+    "content": "What is 18 + 14?",
+    "type": "multiple_choice",
+    "options": [
+      "30",
+      "31",
+      "32",
+      "33"
+    ],
+    "correctAnswer": "32",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "hard",
+    "explanation": "18 + 14 = 32",
+    "_cacheBreaker": "1756033253396_36"
+  },
+  {
+    "_id": "math_2_hard_037",
+    "content": "What is 25 - 9?",
+    "type": "multiple_choice",
+    "options": [
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "correctAnswer": "16",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "hard",
+    "explanation": "25 - 9 = 16",
+    "_cacheBreaker": "1756033253396_37"
+  },
+  {
+    "_id": "math_2_hard_038",
+    "content": "How many inches are in a foot?",
+    "type": "multiple_choice",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "correctAnswer": "12",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "hard",
+    "explanation": "There are 12 inches in 1 foot",
+    "_cacheBreaker": "1756033253396_38"
+  },
+  {
+    "_id": "math_2_hard_039",
+    "content": "What is 6 × 3?",
+    "type": "multiple_choice",
+    "options": [
+      "17",
+      "18",
+      "19",
+      "20"
+    ],
+    "correctAnswer": "18",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "hard",
+    "explanation": "6 × 3 = 18",
+    "_cacheBreaker": "1756033253396_39"
+  },
+  {
+    "_id": "math_2_hard_040",
+    "content": "What is 20 ÷ 4?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "5",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "hard",
+    "explanation": "20 ÷ 4 = 5",
+    "_cacheBreaker": "1756033253396_40"
+  },
+  {
+    "_id": "math_2_hard_041",
+    "content": "What is 18 + 14?",
+    "type": "multiple_choice",
+    "options": [
+      "30",
+      "31",
+      "32",
+      "33"
+    ],
+    "correctAnswer": "32",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "hard",
+    "explanation": "18 + 14 = 32",
+    "_cacheBreaker": "1756033253396_41"
+  },
+  {
+    "_id": "math_2_hard_042",
+    "content": "What is 25 - 9?",
+    "type": "multiple_choice",
+    "options": [
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "correctAnswer": "16",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "hard",
+    "explanation": "25 - 9 = 16",
+    "_cacheBreaker": "1756033253396_42"
+  },
+  {
+    "_id": "math_2_hard_043",
+    "content": "How many inches are in a foot?",
+    "type": "multiple_choice",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "correctAnswer": "12",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "hard",
+    "explanation": "There are 12 inches in 1 foot",
+    "_cacheBreaker": "1756033253396_43"
+  },
+  {
+    "_id": "math_2_hard_044",
+    "content": "What is 6 × 3?",
+    "type": "multiple_choice",
+    "options": [
+      "17",
+      "18",
+      "19",
+      "20"
+    ],
+    "correctAnswer": "18",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "hard",
+    "explanation": "6 × 3 = 18",
+    "_cacheBreaker": "1756033253396_44"
+  },
+  {
+    "_id": "math_2_hard_045",
+    "content": "What is 20 ÷ 4?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "5",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "hard",
+    "explanation": "20 ÷ 4 = 5",
+    "_cacheBreaker": "1756033253396_45"
+  },
+  {
+    "_id": "math_2_hard_046",
+    "content": "What is 18 + 14?",
+    "type": "multiple_choice",
+    "options": [
+      "30",
+      "31",
+      "32",
+      "33"
+    ],
+    "correctAnswer": "32",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "hard",
+    "explanation": "18 + 14 = 32",
+    "_cacheBreaker": "1756033253396_46"
+  },
+  {
+    "_id": "math_2_hard_047",
+    "content": "What is 25 - 9?",
+    "type": "multiple_choice",
+    "options": [
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "correctAnswer": "16",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "hard",
+    "explanation": "25 - 9 = 16",
+    "_cacheBreaker": "1756033253396_47"
+  },
+  {
+    "_id": "math_2_hard_048",
+    "content": "How many inches are in a foot?",
+    "type": "multiple_choice",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "correctAnswer": "12",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "hard",
+    "explanation": "There are 12 inches in 1 foot",
+    "_cacheBreaker": "1756033253396_48"
+  },
+  {
+    "_id": "math_2_hard_049",
+    "content": "What is 6 × 3?",
+    "type": "multiple_choice",
+    "options": [
+      "17",
+      "18",
+      "19",
+      "20"
+    ],
+    "correctAnswer": "18",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "hard",
+    "explanation": "6 × 3 = 18",
+    "_cacheBreaker": "1756033253396_49"
+  },
+  {
+    "_id": "math_2_hard_050",
+    "content": "What is 20 ÷ 4?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "5",
+    "subject": "math",
+    "grade": "2",
+    "difficulty": "hard",
+    "explanation": "20 ÷ 4 = 5",
+    "_cacheBreaker": "1756033253396_50"
   }
 ]

@@ -1,342 +1,852 @@
 [
   {
-    "_id": "med11_1755261000216_001",
-    "content": "Find the derivative of f(x) = x³ + 2x",
+    "_id": "math_11_medium_001",
+    "content": "Solve: 11x + 22 = 88",
     "type": "multiple_choice",
     "options": [
-      "3x² + 2",
-      "x² + 2",
-      "3x³ + 2x",
-      "3x² + 2x"
+      "x = 22",
+      "x = 33",
+      "x = 44",
+      "x = 6"
     ],
-    "correctAnswer": "3x² + 2",
+    "correctAnswer": "x = 6",
     "subject": "math",
     "grade": "11",
     "difficulty": "medium",
-    "explanation": "d/dx[x³] = 3x², d/dx[2x] = 2",
-    "_cacheBreaker": "1755265388141_0"
+    "explanation": "11x = 88 - 22 = 66, so x = 6",
+    "_cacheBreaker": "1756033578440_1"
   },
   {
-    "_id": "med11_1755261000216_002",
-    "content": "Evaluate ∫(3x² + 1)dx",
+    "_id": "math_11_medium_002",
+    "content": "What is 165% of 220?",
     "type": "multiple_choice",
     "options": [
-      "x³ + x + C",
-      "6x + C",
-      "3x³ + x + C",
-      "x³ + C"
+      "33",
+      "44",
+      "55",
+      "66"
     ],
-    "correctAnswer": "x³ + x + C",
+    "correctAnswer": "33",
     "subject": "math",
     "grade": "11",
     "difficulty": "medium",
-    "explanation": "∫3x² dx = x³, ∫1 dx = x",
-    "_cacheBreaker": "1755265388141_1"
+    "explanation": "165% of 220 = 0.15 × 220 = 33",
+    "_cacheBreaker": "1756033578440_2"
   },
   {
-    "_id": "med11_1755261000216_003",
-    "content": "Find lim(x→1) (x² - 1)/(x - 1)",
+    "_id": "math_11_medium_003",
+    "content": "Find the circumference of a circle with radius 12 cm (use π ≈ 3.14)",
     "type": "multiple_choice",
     "options": [
-      "0",
-      "1",
-      "2",
-      "Does not exist"
+      "75.4 cm",
+      "452.2 cm²",
+      "24 cm",
+      "37.68 cm"
     ],
-    "correctAnswer": "2",
+    "correctAnswer": "75.4 cm",
     "subject": "math",
     "grade": "11",
     "difficulty": "medium",
-    "explanation": "Factor: (x-1)(x+1)/(x-1) = x+1, substitute x=1",
-    "_cacheBreaker": "1755265388141_2"
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 12 = 75.4 cm",
+    "_cacheBreaker": "1756033578440_3"
   },
   {
-    "_id": "med11_1755261000216_004",
-    "content": "Find the derivative of f(x) = x³ + 2x",
+    "_id": "math_11_medium_004",
+    "content": "What is 11³?",
     "type": "multiple_choice",
     "options": [
-      "3x² + 2",
-      "x² + 2",
-      "3x³ + 2x",
-      "3x² + 2x"
+      "121",
+      "1331",
+      "33",
+      "14"
     ],
-    "correctAnswer": "3x² + 2",
+    "correctAnswer": "1331",
     "subject": "math",
     "grade": "11",
     "difficulty": "medium",
-    "explanation": "d/dx[x³] = 3x², d/dx[2x] = 2",
-    "_cacheBreaker": "1755265388141_3"
+    "explanation": "11³ = 11 × 11 × 11 = 1331",
+    "_cacheBreaker": "1756033578440_4"
   },
   {
-    "_id": "med11_1755261000216_005",
-    "content": "Evaluate ∫(3x² + 1)dx",
+    "_id": "math_11_medium_005",
+    "content": "Simplify: 44/66",
     "type": "multiple_choice",
     "options": [
-      "x³ + x + C",
-      "6x + C",
-      "3x³ + x + C",
-      "x³ + C"
+      "11/3",
+      "2/3",
+      "4/6",
+      "1/2"
     ],
-    "correctAnswer": "x³ + x + C",
+    "correctAnswer": "2/3",
     "subject": "math",
     "grade": "11",
     "difficulty": "medium",
-    "explanation": "∫3x² dx = x³, ∫1 dx = x",
-    "_cacheBreaker": "1755265388141_4"
+    "explanation": "44/66 = 4/6 = 2/3",
+    "_cacheBreaker": "1756033578440_5"
   },
   {
-    "_id": "med11_1755261000216_006",
-    "content": "Find lim(x→1) (x² - 1)/(x - 1)",
+    "_id": "math_11_medium_006",
+    "content": "Solve: 11x + 22 = 88",
     "type": "multiple_choice",
     "options": [
-      "0",
-      "1",
-      "2",
-      "Does not exist"
+      "x = 22",
+      "x = 33",
+      "x = 44",
+      "x = 6"
     ],
-    "correctAnswer": "2",
+    "correctAnswer": "x = 6",
     "subject": "math",
     "grade": "11",
     "difficulty": "medium",
-    "explanation": "Factor: (x-1)(x+1)/(x-1) = x+1, substitute x=1",
-    "_cacheBreaker": "1755265388141_5"
+    "explanation": "11x = 88 - 22 = 66, so x = 6",
+    "_cacheBreaker": "1756033578440_6"
   },
   {
-    "_id": "med11_1755261000216_007",
-    "content": "Find the derivative of f(x) = x³ + 2x",
+    "_id": "math_11_medium_007",
+    "content": "What is 165% of 220?",
     "type": "multiple_choice",
     "options": [
-      "3x² + 2",
-      "x² + 2",
-      "3x³ + 2x",
-      "3x² + 2x"
+      "33",
+      "44",
+      "55",
+      "66"
     ],
-    "correctAnswer": "3x² + 2",
+    "correctAnswer": "33",
     "subject": "math",
     "grade": "11",
     "difficulty": "medium",
-    "explanation": "d/dx[x³] = 3x², d/dx[2x] = 2",
-    "_cacheBreaker": "1755265388141_6"
+    "explanation": "165% of 220 = 0.15 × 220 = 33",
+    "_cacheBreaker": "1756033578440_7"
   },
   {
-    "_id": "med11_1755261000216_008",
-    "content": "Evaluate ∫(3x² + 1)dx",
+    "_id": "math_11_medium_008",
+    "content": "Find the circumference of a circle with radius 12 cm (use π ≈ 3.14)",
     "type": "multiple_choice",
     "options": [
-      "x³ + x + C",
-      "6x + C",
-      "3x³ + x + C",
-      "x³ + C"
+      "75.4 cm",
+      "452.2 cm²",
+      "24 cm",
+      "37.68 cm"
     ],
-    "correctAnswer": "x³ + x + C",
+    "correctAnswer": "75.4 cm",
     "subject": "math",
     "grade": "11",
     "difficulty": "medium",
-    "explanation": "∫3x² dx = x³, ∫1 dx = x",
-    "_cacheBreaker": "1755265388141_7"
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 12 = 75.4 cm",
+    "_cacheBreaker": "1756033578440_8"
   },
   {
-    "_id": "med11_1755261000216_009",
-    "content": "Find lim(x→1) (x² - 1)/(x - 1)",
+    "_id": "math_11_medium_009",
+    "content": "What is 11³?",
     "type": "multiple_choice",
     "options": [
-      "0",
-      "1",
-      "2",
-      "Does not exist"
+      "121",
+      "1331",
+      "33",
+      "14"
     ],
-    "correctAnswer": "2",
+    "correctAnswer": "1331",
     "subject": "math",
     "grade": "11",
     "difficulty": "medium",
-    "explanation": "Factor: (x-1)(x+1)/(x-1) = x+1, substitute x=1",
-    "_cacheBreaker": "1755265388141_8"
+    "explanation": "11³ = 11 × 11 × 11 = 1331",
+    "_cacheBreaker": "1756033578440_9"
   },
   {
-    "_id": "med11_1755261000216_010",
-    "content": "Find the derivative of f(x) = x³ + 2x",
+    "_id": "math_11_medium_010",
+    "content": "Simplify: 44/66",
     "type": "multiple_choice",
     "options": [
-      "3x² + 2",
-      "x² + 2",
-      "3x³ + 2x",
-      "3x² + 2x"
+      "11/3",
+      "2/3",
+      "4/6",
+      "1/2"
     ],
-    "correctAnswer": "3x² + 2",
+    "correctAnswer": "2/3",
     "subject": "math",
     "grade": "11",
     "difficulty": "medium",
-    "explanation": "d/dx[x³] = 3x², d/dx[2x] = 2",
-    "_cacheBreaker": "1755265388141_9"
+    "explanation": "44/66 = 4/6 = 2/3",
+    "_cacheBreaker": "1756033578440_10"
   },
   {
-    "_id": "med11_1755261000216_011",
-    "content": "Evaluate ∫(3x² + 1)dx",
+    "_id": "math_11_medium_011",
+    "content": "Solve: 11x + 22 = 88",
     "type": "multiple_choice",
     "options": [
-      "x³ + x + C",
-      "6x + C",
-      "3x³ + x + C",
-      "x³ + C"
+      "x = 22",
+      "x = 33",
+      "x = 44",
+      "x = 6"
     ],
-    "correctAnswer": "x³ + x + C",
+    "correctAnswer": "x = 6",
     "subject": "math",
     "grade": "11",
     "difficulty": "medium",
-    "explanation": "∫3x² dx = x³, ∫1 dx = x",
-    "_cacheBreaker": "1755265388141_10"
+    "explanation": "11x = 88 - 22 = 66, so x = 6",
+    "_cacheBreaker": "1756033578440_11"
   },
   {
-    "_id": "med11_1755261000216_012",
-    "content": "Find lim(x→1) (x² - 1)/(x - 1)",
+    "_id": "math_11_medium_012",
+    "content": "What is 165% of 220?",
     "type": "multiple_choice",
     "options": [
-      "0",
-      "1",
-      "2",
-      "Does not exist"
+      "33",
+      "44",
+      "55",
+      "66"
     ],
-    "correctAnswer": "2",
+    "correctAnswer": "33",
     "subject": "math",
     "grade": "11",
     "difficulty": "medium",
-    "explanation": "Factor: (x-1)(x+1)/(x-1) = x+1, substitute x=1",
-    "_cacheBreaker": "1755265388141_11"
+    "explanation": "165% of 220 = 0.15 × 220 = 33",
+    "_cacheBreaker": "1756033578440_12"
   },
   {
-    "_id": "med11_1755261000216_013",
-    "content": "Find the derivative of f(x) = x³ + 2x",
+    "_id": "math_11_medium_013",
+    "content": "Find the circumference of a circle with radius 12 cm (use π ≈ 3.14)",
     "type": "multiple_choice",
     "options": [
-      "3x² + 2",
-      "x² + 2",
-      "3x³ + 2x",
-      "3x² + 2x"
+      "75.4 cm",
+      "452.2 cm²",
+      "24 cm",
+      "37.68 cm"
     ],
-    "correctAnswer": "3x² + 2",
+    "correctAnswer": "75.4 cm",
     "subject": "math",
     "grade": "11",
     "difficulty": "medium",
-    "explanation": "d/dx[x³] = 3x², d/dx[2x] = 2",
-    "_cacheBreaker": "1755265388141_12"
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 12 = 75.4 cm",
+    "_cacheBreaker": "1756033578440_13"
   },
   {
-    "_id": "med11_1755261000216_014",
-    "content": "Evaluate ∫(3x² + 1)dx",
+    "_id": "math_11_medium_014",
+    "content": "What is 11³?",
     "type": "multiple_choice",
     "options": [
-      "x³ + x + C",
-      "6x + C",
-      "3x³ + x + C",
-      "x³ + C"
+      "121",
+      "1331",
+      "33",
+      "14"
     ],
-    "correctAnswer": "x³ + x + C",
+    "correctAnswer": "1331",
     "subject": "math",
     "grade": "11",
     "difficulty": "medium",
-    "explanation": "∫3x² dx = x³, ∫1 dx = x",
-    "_cacheBreaker": "1755265388141_13"
+    "explanation": "11³ = 11 × 11 × 11 = 1331",
+    "_cacheBreaker": "1756033578440_14"
   },
   {
-    "_id": "med11_1755261000216_015",
-    "content": "Find lim(x→1) (x² - 1)/(x - 1)",
+    "_id": "math_11_medium_015",
+    "content": "Simplify: 44/66",
     "type": "multiple_choice",
     "options": [
-      "0",
-      "1",
-      "2",
-      "Does not exist"
+      "11/3",
+      "2/3",
+      "4/6",
+      "1/2"
     ],
-    "correctAnswer": "2",
+    "correctAnswer": "2/3",
     "subject": "math",
     "grade": "11",
     "difficulty": "medium",
-    "explanation": "Factor: (x-1)(x+1)/(x-1) = x+1, substitute x=1",
-    "_cacheBreaker": "1755265388141_14"
+    "explanation": "44/66 = 4/6 = 2/3",
+    "_cacheBreaker": "1756033578440_15"
   },
   {
-    "_id": "med11_1755261000216_016",
-    "content": "Find the derivative of f(x) = x³ + 2x",
+    "_id": "math_11_medium_016",
+    "content": "Solve: 11x + 22 = 88",
     "type": "multiple_choice",
     "options": [
-      "3x² + 2",
-      "x² + 2",
-      "3x³ + 2x",
-      "3x² + 2x"
+      "x = 22",
+      "x = 33",
+      "x = 44",
+      "x = 6"
     ],
-    "correctAnswer": "3x² + 2",
+    "correctAnswer": "x = 6",
     "subject": "math",
     "grade": "11",
     "difficulty": "medium",
-    "explanation": "d/dx[x³] = 3x², d/dx[2x] = 2",
-    "_cacheBreaker": "1755265388141_15"
+    "explanation": "11x = 88 - 22 = 66, so x = 6",
+    "_cacheBreaker": "1756033578440_16"
   },
   {
-    "_id": "med11_1755261000216_017",
-    "content": "Evaluate ∫(3x² + 1)dx",
+    "_id": "math_11_medium_017",
+    "content": "What is 165% of 220?",
     "type": "multiple_choice",
     "options": [
-      "x³ + x + C",
-      "6x + C",
-      "3x³ + x + C",
-      "x³ + C"
+      "33",
+      "44",
+      "55",
+      "66"
     ],
-    "correctAnswer": "x³ + x + C",
+    "correctAnswer": "33",
     "subject": "math",
     "grade": "11",
     "difficulty": "medium",
-    "explanation": "∫3x² dx = x³, ∫1 dx = x",
-    "_cacheBreaker": "1755265388141_16"
+    "explanation": "165% of 220 = 0.15 × 220 = 33",
+    "_cacheBreaker": "1756033578440_17"
   },
   {
-    "_id": "med11_1755261000216_018",
-    "content": "Find lim(x→1) (x² - 1)/(x - 1)",
+    "_id": "math_11_medium_018",
+    "content": "Find the circumference of a circle with radius 12 cm (use π ≈ 3.14)",
     "type": "multiple_choice",
     "options": [
-      "0",
-      "1",
-      "2",
-      "Does not exist"
+      "75.4 cm",
+      "452.2 cm²",
+      "24 cm",
+      "37.68 cm"
     ],
-    "correctAnswer": "2",
+    "correctAnswer": "75.4 cm",
     "subject": "math",
     "grade": "11",
     "difficulty": "medium",
-    "explanation": "Factor: (x-1)(x+1)/(x-1) = x+1, substitute x=1",
-    "_cacheBreaker": "1755265388141_17"
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 12 = 75.4 cm",
+    "_cacheBreaker": "1756033578440_18"
   },
   {
-    "_id": "med11_1755261000216_019",
-    "content": "Find the derivative of f(x) = x³ + 2x",
+    "_id": "math_11_medium_019",
+    "content": "What is 11³?",
     "type": "multiple_choice",
     "options": [
-      "3x² + 2",
-      "x² + 2",
-      "3x³ + 2x",
-      "3x² + 2x"
+      "121",
+      "1331",
+      "33",
+      "14"
     ],
-    "correctAnswer": "3x² + 2",
+    "correctAnswer": "1331",
     "subject": "math",
     "grade": "11",
     "difficulty": "medium",
-    "explanation": "d/dx[x³] = 3x², d/dx[2x] = 2",
-    "_cacheBreaker": "1755265388141_18"
+    "explanation": "11³ = 11 × 11 × 11 = 1331",
+    "_cacheBreaker": "1756033578440_19"
   },
   {
-    "_id": "med11_1755261000216_020",
-    "content": "Evaluate ∫(3x² + 1)dx",
+    "_id": "math_11_medium_020",
+    "content": "Simplify: 44/66",
     "type": "multiple_choice",
     "options": [
-      "x³ + x + C",
-      "6x + C",
-      "3x³ + x + C",
-      "x³ + C"
+      "11/3",
+      "2/3",
+      "4/6",
+      "1/2"
     ],
-    "correctAnswer": "x³ + x + C",
+    "correctAnswer": "2/3",
     "subject": "math",
     "grade": "11",
     "difficulty": "medium",
-    "explanation": "∫3x² dx = x³, ∫1 dx = x",
-    "_cacheBreaker": "1755265388141_19"
+    "explanation": "44/66 = 4/6 = 2/3",
+    "_cacheBreaker": "1756033578440_20"
+  },
+  {
+    "_id": "math_11_medium_021",
+    "content": "Solve: 11x + 22 = 88",
+    "type": "multiple_choice",
+    "options": [
+      "x = 22",
+      "x = 33",
+      "x = 44",
+      "x = 6"
+    ],
+    "correctAnswer": "x = 6",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "medium",
+    "explanation": "11x = 88 - 22 = 66, so x = 6",
+    "_cacheBreaker": "1756033578440_21"
+  },
+  {
+    "_id": "math_11_medium_022",
+    "content": "What is 165% of 220?",
+    "type": "multiple_choice",
+    "options": [
+      "33",
+      "44",
+      "55",
+      "66"
+    ],
+    "correctAnswer": "33",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "medium",
+    "explanation": "165% of 220 = 0.15 × 220 = 33",
+    "_cacheBreaker": "1756033578440_22"
+  },
+  {
+    "_id": "math_11_medium_023",
+    "content": "Find the circumference of a circle with radius 12 cm (use π ≈ 3.14)",
+    "type": "multiple_choice",
+    "options": [
+      "75.4 cm",
+      "452.2 cm²",
+      "24 cm",
+      "37.68 cm"
+    ],
+    "correctAnswer": "75.4 cm",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "medium",
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 12 = 75.4 cm",
+    "_cacheBreaker": "1756033578440_23"
+  },
+  {
+    "_id": "math_11_medium_024",
+    "content": "What is 11³?",
+    "type": "multiple_choice",
+    "options": [
+      "121",
+      "1331",
+      "33",
+      "14"
+    ],
+    "correctAnswer": "1331",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "medium",
+    "explanation": "11³ = 11 × 11 × 11 = 1331",
+    "_cacheBreaker": "1756033578440_24"
+  },
+  {
+    "_id": "math_11_medium_025",
+    "content": "Simplify: 44/66",
+    "type": "multiple_choice",
+    "options": [
+      "11/3",
+      "2/3",
+      "4/6",
+      "1/2"
+    ],
+    "correctAnswer": "2/3",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "medium",
+    "explanation": "44/66 = 4/6 = 2/3",
+    "_cacheBreaker": "1756033578440_25"
+  },
+  {
+    "_id": "math_11_medium_026",
+    "content": "Solve: 11x + 22 = 88",
+    "type": "multiple_choice",
+    "options": [
+      "x = 22",
+      "x = 33",
+      "x = 44",
+      "x = 6"
+    ],
+    "correctAnswer": "x = 6",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "medium",
+    "explanation": "11x = 88 - 22 = 66, so x = 6",
+    "_cacheBreaker": "1756033578440_26"
+  },
+  {
+    "_id": "math_11_medium_027",
+    "content": "What is 165% of 220?",
+    "type": "multiple_choice",
+    "options": [
+      "33",
+      "44",
+      "55",
+      "66"
+    ],
+    "correctAnswer": "33",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "medium",
+    "explanation": "165% of 220 = 0.15 × 220 = 33",
+    "_cacheBreaker": "1756033578440_27"
+  },
+  {
+    "_id": "math_11_medium_028",
+    "content": "Find the circumference of a circle with radius 12 cm (use π ≈ 3.14)",
+    "type": "multiple_choice",
+    "options": [
+      "75.4 cm",
+      "452.2 cm²",
+      "24 cm",
+      "37.68 cm"
+    ],
+    "correctAnswer": "75.4 cm",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "medium",
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 12 = 75.4 cm",
+    "_cacheBreaker": "1756033578440_28"
+  },
+  {
+    "_id": "math_11_medium_029",
+    "content": "What is 11³?",
+    "type": "multiple_choice",
+    "options": [
+      "121",
+      "1331",
+      "33",
+      "14"
+    ],
+    "correctAnswer": "1331",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "medium",
+    "explanation": "11³ = 11 × 11 × 11 = 1331",
+    "_cacheBreaker": "1756033578440_29"
+  },
+  {
+    "_id": "math_11_medium_030",
+    "content": "Simplify: 44/66",
+    "type": "multiple_choice",
+    "options": [
+      "11/3",
+      "2/3",
+      "4/6",
+      "1/2"
+    ],
+    "correctAnswer": "2/3",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "medium",
+    "explanation": "44/66 = 4/6 = 2/3",
+    "_cacheBreaker": "1756033578440_30"
+  },
+  {
+    "_id": "math_11_medium_031",
+    "content": "Solve: 11x + 22 = 88",
+    "type": "multiple_choice",
+    "options": [
+      "x = 22",
+      "x = 33",
+      "x = 44",
+      "x = 6"
+    ],
+    "correctAnswer": "x = 6",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "medium",
+    "explanation": "11x = 88 - 22 = 66, so x = 6",
+    "_cacheBreaker": "1756033578440_31"
+  },
+  {
+    "_id": "math_11_medium_032",
+    "content": "What is 165% of 220?",
+    "type": "multiple_choice",
+    "options": [
+      "33",
+      "44",
+      "55",
+      "66"
+    ],
+    "correctAnswer": "33",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "medium",
+    "explanation": "165% of 220 = 0.15 × 220 = 33",
+    "_cacheBreaker": "1756033578440_32"
+  },
+  {
+    "_id": "math_11_medium_033",
+    "content": "Find the circumference of a circle with radius 12 cm (use π ≈ 3.14)",
+    "type": "multiple_choice",
+    "options": [
+      "75.4 cm",
+      "452.2 cm²",
+      "24 cm",
+      "37.68 cm"
+    ],
+    "correctAnswer": "75.4 cm",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "medium",
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 12 = 75.4 cm",
+    "_cacheBreaker": "1756033578440_33"
+  },
+  {
+    "_id": "math_11_medium_034",
+    "content": "What is 11³?",
+    "type": "multiple_choice",
+    "options": [
+      "121",
+      "1331",
+      "33",
+      "14"
+    ],
+    "correctAnswer": "1331",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "medium",
+    "explanation": "11³ = 11 × 11 × 11 = 1331",
+    "_cacheBreaker": "1756033578440_34"
+  },
+  {
+    "_id": "math_11_medium_035",
+    "content": "Simplify: 44/66",
+    "type": "multiple_choice",
+    "options": [
+      "11/3",
+      "2/3",
+      "4/6",
+      "1/2"
+    ],
+    "correctAnswer": "2/3",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "medium",
+    "explanation": "44/66 = 4/6 = 2/3",
+    "_cacheBreaker": "1756033578440_35"
+  },
+  {
+    "_id": "math_11_medium_036",
+    "content": "Solve: 11x + 22 = 88",
+    "type": "multiple_choice",
+    "options": [
+      "x = 22",
+      "x = 33",
+      "x = 44",
+      "x = 6"
+    ],
+    "correctAnswer": "x = 6",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "medium",
+    "explanation": "11x = 88 - 22 = 66, so x = 6",
+    "_cacheBreaker": "1756033578440_36"
+  },
+  {
+    "_id": "math_11_medium_037",
+    "content": "What is 165% of 220?",
+    "type": "multiple_choice",
+    "options": [
+      "33",
+      "44",
+      "55",
+      "66"
+    ],
+    "correctAnswer": "33",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "medium",
+    "explanation": "165% of 220 = 0.15 × 220 = 33",
+    "_cacheBreaker": "1756033578440_37"
+  },
+  {
+    "_id": "math_11_medium_038",
+    "content": "Find the circumference of a circle with radius 12 cm (use π ≈ 3.14)",
+    "type": "multiple_choice",
+    "options": [
+      "75.4 cm",
+      "452.2 cm²",
+      "24 cm",
+      "37.68 cm"
+    ],
+    "correctAnswer": "75.4 cm",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "medium",
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 12 = 75.4 cm",
+    "_cacheBreaker": "1756033578440_38"
+  },
+  {
+    "_id": "math_11_medium_039",
+    "content": "What is 11³?",
+    "type": "multiple_choice",
+    "options": [
+      "121",
+      "1331",
+      "33",
+      "14"
+    ],
+    "correctAnswer": "1331",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "medium",
+    "explanation": "11³ = 11 × 11 × 11 = 1331",
+    "_cacheBreaker": "1756033578440_39"
+  },
+  {
+    "_id": "math_11_medium_040",
+    "content": "Simplify: 44/66",
+    "type": "multiple_choice",
+    "options": [
+      "11/3",
+      "2/3",
+      "4/6",
+      "1/2"
+    ],
+    "correctAnswer": "2/3",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "medium",
+    "explanation": "44/66 = 4/6 = 2/3",
+    "_cacheBreaker": "1756033578440_40"
+  },
+  {
+    "_id": "math_11_medium_041",
+    "content": "Solve: 11x + 22 = 88",
+    "type": "multiple_choice",
+    "options": [
+      "x = 22",
+      "x = 33",
+      "x = 44",
+      "x = 6"
+    ],
+    "correctAnswer": "x = 6",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "medium",
+    "explanation": "11x = 88 - 22 = 66, so x = 6",
+    "_cacheBreaker": "1756033578440_41"
+  },
+  {
+    "_id": "math_11_medium_042",
+    "content": "What is 165% of 220?",
+    "type": "multiple_choice",
+    "options": [
+      "33",
+      "44",
+      "55",
+      "66"
+    ],
+    "correctAnswer": "33",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "medium",
+    "explanation": "165% of 220 = 0.15 × 220 = 33",
+    "_cacheBreaker": "1756033578440_42"
+  },
+  {
+    "_id": "math_11_medium_043",
+    "content": "Find the circumference of a circle with radius 12 cm (use π ≈ 3.14)",
+    "type": "multiple_choice",
+    "options": [
+      "75.4 cm",
+      "452.2 cm²",
+      "24 cm",
+      "37.68 cm"
+    ],
+    "correctAnswer": "75.4 cm",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "medium",
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 12 = 75.4 cm",
+    "_cacheBreaker": "1756033578440_43"
+  },
+  {
+    "_id": "math_11_medium_044",
+    "content": "What is 11³?",
+    "type": "multiple_choice",
+    "options": [
+      "121",
+      "1331",
+      "33",
+      "14"
+    ],
+    "correctAnswer": "1331",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "medium",
+    "explanation": "11³ = 11 × 11 × 11 = 1331",
+    "_cacheBreaker": "1756033578440_44"
+  },
+  {
+    "_id": "math_11_medium_045",
+    "content": "Simplify: 44/66",
+    "type": "multiple_choice",
+    "options": [
+      "11/3",
+      "2/3",
+      "4/6",
+      "1/2"
+    ],
+    "correctAnswer": "2/3",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "medium",
+    "explanation": "44/66 = 4/6 = 2/3",
+    "_cacheBreaker": "1756033578440_45"
+  },
+  {
+    "_id": "math_11_medium_046",
+    "content": "Solve: 11x + 22 = 88",
+    "type": "multiple_choice",
+    "options": [
+      "x = 22",
+      "x = 33",
+      "x = 44",
+      "x = 6"
+    ],
+    "correctAnswer": "x = 6",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "medium",
+    "explanation": "11x = 88 - 22 = 66, so x = 6",
+    "_cacheBreaker": "1756033578440_46"
+  },
+  {
+    "_id": "math_11_medium_047",
+    "content": "What is 165% of 220?",
+    "type": "multiple_choice",
+    "options": [
+      "33",
+      "44",
+      "55",
+      "66"
+    ],
+    "correctAnswer": "33",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "medium",
+    "explanation": "165% of 220 = 0.15 × 220 = 33",
+    "_cacheBreaker": "1756033578440_47"
+  },
+  {
+    "_id": "math_11_medium_048",
+    "content": "Find the circumference of a circle with radius 12 cm (use π ≈ 3.14)",
+    "type": "multiple_choice",
+    "options": [
+      "75.4 cm",
+      "452.2 cm²",
+      "24 cm",
+      "37.68 cm"
+    ],
+    "correctAnswer": "75.4 cm",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "medium",
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 12 = 75.4 cm",
+    "_cacheBreaker": "1756033578440_48"
+  },
+  {
+    "_id": "math_11_medium_049",
+    "content": "What is 11³?",
+    "type": "multiple_choice",
+    "options": [
+      "121",
+      "1331",
+      "33",
+      "14"
+    ],
+    "correctAnswer": "1331",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "medium",
+    "explanation": "11³ = 11 × 11 × 11 = 1331",
+    "_cacheBreaker": "1756033578440_49"
+  },
+  {
+    "_id": "math_11_medium_050",
+    "content": "Simplify: 44/66",
+    "type": "multiple_choice",
+    "options": [
+      "11/3",
+      "2/3",
+      "4/6",
+      "1/2"
+    ],
+    "correctAnswer": "2/3",
+    "subject": "math",
+    "grade": "11",
+    "difficulty": "medium",
+    "explanation": "44/66 = 4/6 = 2/3",
+    "_cacheBreaker": "1756033578440_50"
   }
 ]

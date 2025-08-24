@@ -1,342 +1,852 @@
 [
   {
-    "_id": "math_7_hard_1755775410768_1",
-    "content": "Solve for x: 3x + 7 = 22",
+    "_id": "math_7_hard_001",
+    "content": "Solve: 7x - 14 = 6x + 21",
     "type": "multiple_choice",
     "options": [
-      "x = 5",
-      "x = 4",
-      "x = 6",
-      "x = 3"
+      "x = 35",
+      "x = 28",
+      "x = 42",
+      "x = 21"
     ],
-    "correctAnswer": "x = 5",
+    "correctAnswer": "x = 35",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "3x + 7 = 22. Subtract 7: 3x = 15. Divide by 3: x = 5",
-    "_cacheBreaker": "1755775410768_0"
+    "explanation": "7x - 6x = 21 + 14, so x = 35",
+    "_cacheBreaker": "1756033578398_1"
   },
   {
-    "_id": "math_7_hard_1755775410768_2",
-    "content": "The area of a circle is 78.5 square cm. What is its radius? (Use π = 3.14)",
+    "_id": "math_7_hard_002",
+    "content": "If f(x) = 7x² + 14x, what is f(7)?",
     "type": "multiple_choice",
     "options": [
-      "5 cm",
-      "4 cm",
-      "6 cm",
-      "7 cm"
+      "441",
+      "63",
+      "21",
+      "49"
     ],
-    "correctAnswer": "5 cm",
+    "correctAnswer": "441",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Area = πr². So 78.5 = 3.14 × r². Therefore r² = 25, so r = 5 cm",
-    "_cacheBreaker": "1755775410768_1"
+    "explanation": "f(7) = 7(7)² + 14(7) = 343 + 98 = 441",
+    "_cacheBreaker": "1756033578398_2"
   },
   {
-    "_id": "math_7_hard_1755775410768_3",
-    "content": "If y = 2x + 3, what is y when x = 4?",
+    "_id": "math_7_hard_003",
+    "content": "What is the vertex of the parabola y = x² - 14x + 7?",
     "type": "multiple_choice",
     "options": [
-      "11",
-      "10",
-      "12",
-      "9"
+      "(7, -7)",
+      "(7, 0)",
+      "(0, 7)",
+      "(7, 7)"
     ],
-    "correctAnswer": "11",
+    "correctAnswer": "(7, -7)",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Substitute x = 4: y = 2(4) + 3 = 8 + 3 = 11",
-    "_cacheBreaker": "1755775410768_2"
+    "explanation": "Vertex x-coordinate = -b/2a = 14/2 = 7. y = 7² - 14(7) + 7 = -7",
+    "_cacheBreaker": "1756033578398_3"
   },
   {
-    "_id": "math_7_hard_1755775410768_4",
-    "content": "Solve for x: 3x + 7 = 22",
+    "_id": "math_7_hard_004",
+    "content": "Factor completely: x² - 49",
     "type": "multiple_choice",
     "options": [
-      "x = 5",
-      "x = 4",
-      "x = 6",
-      "x = 3"
+      "(x - 7)(x + 7)",
+      "(x - 7)²",
+      "x(x - 7)",
+      "Cannot be factored"
     ],
-    "correctAnswer": "x = 5",
+    "correctAnswer": "(x - 7)(x + 7)",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "3x + 7 = 22. Subtract 7: 3x = 15. Divide by 3: x = 5",
-    "_cacheBreaker": "1755775410768_3"
+    "explanation": "x² - 49 is a difference of squares: (x - 7)(x + 7)",
+    "_cacheBreaker": "1756033578398_4"
   },
   {
-    "_id": "math_7_hard_1755775410768_5",
-    "content": "The area of a circle is 78.5 square cm. What is its radius? (Use π = 3.14)",
+    "_id": "math_7_hard_005",
+    "content": "What is the range of f(x) = -x² + 14?",
     "type": "multiple_choice",
     "options": [
-      "5 cm",
-      "4 cm",
-      "6 cm",
-      "7 cm"
+      "All real numbers",
+      "y ≤ 14",
+      "y ≥ 14",
+      "y > 0"
     ],
-    "correctAnswer": "5 cm",
+    "correctAnswer": "y ≤ 14",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Area = πr². So 78.5 = 3.14 × r². Therefore r² = 25, so r = 5 cm",
-    "_cacheBreaker": "1755775410768_4"
+    "explanation": "Since the parabola opens downward, the maximum value is 14",
+    "_cacheBreaker": "1756033578398_5"
   },
   {
-    "_id": "math_7_hard_1755775410768_6",
-    "content": "If y = 2x + 3, what is y when x = 4?",
+    "_id": "math_7_hard_006",
+    "content": "Solve: 7x - 14 = 6x + 21",
     "type": "multiple_choice",
     "options": [
-      "11",
-      "10",
-      "12",
-      "9"
+      "x = 35",
+      "x = 28",
+      "x = 42",
+      "x = 21"
     ],
-    "correctAnswer": "11",
+    "correctAnswer": "x = 35",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Substitute x = 4: y = 2(4) + 3 = 8 + 3 = 11",
-    "_cacheBreaker": "1755775410768_5"
+    "explanation": "7x - 6x = 21 + 14, so x = 35",
+    "_cacheBreaker": "1756033578398_6"
   },
   {
-    "_id": "math_7_hard_1755775410768_7",
-    "content": "Solve for x: 3x + 7 = 22",
+    "_id": "math_7_hard_007",
+    "content": "If f(x) = 7x² + 14x, what is f(7)?",
     "type": "multiple_choice",
     "options": [
-      "x = 5",
-      "x = 4",
-      "x = 6",
-      "x = 3"
+      "441",
+      "63",
+      "21",
+      "49"
     ],
-    "correctAnswer": "x = 5",
+    "correctAnswer": "441",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "3x + 7 = 22. Subtract 7: 3x = 15. Divide by 3: x = 5",
-    "_cacheBreaker": "1755775410768_6"
+    "explanation": "f(7) = 7(7)² + 14(7) = 343 + 98 = 441",
+    "_cacheBreaker": "1756033578398_7"
   },
   {
-    "_id": "math_7_hard_1755775410768_8",
-    "content": "The area of a circle is 78.5 square cm. What is its radius? (Use π = 3.14)",
+    "_id": "math_7_hard_008",
+    "content": "What is the vertex of the parabola y = x² - 14x + 7?",
     "type": "multiple_choice",
     "options": [
-      "5 cm",
-      "4 cm",
-      "6 cm",
-      "7 cm"
+      "(7, -7)",
+      "(7, 0)",
+      "(0, 7)",
+      "(7, 7)"
     ],
-    "correctAnswer": "5 cm",
+    "correctAnswer": "(7, -7)",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Area = πr². So 78.5 = 3.14 × r². Therefore r² = 25, so r = 5 cm",
-    "_cacheBreaker": "1755775410768_7"
+    "explanation": "Vertex x-coordinate = -b/2a = 14/2 = 7. y = 7² - 14(7) + 7 = -7",
+    "_cacheBreaker": "1756033578398_8"
   },
   {
-    "_id": "math_7_hard_1755775410768_9",
-    "content": "If y = 2x + 3, what is y when x = 4?",
+    "_id": "math_7_hard_009",
+    "content": "Factor completely: x² - 49",
     "type": "multiple_choice",
     "options": [
-      "11",
-      "10",
-      "12",
-      "9"
+      "(x - 7)(x + 7)",
+      "(x - 7)²",
+      "x(x - 7)",
+      "Cannot be factored"
     ],
-    "correctAnswer": "11",
+    "correctAnswer": "(x - 7)(x + 7)",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Substitute x = 4: y = 2(4) + 3 = 8 + 3 = 11",
-    "_cacheBreaker": "1755775410768_8"
+    "explanation": "x² - 49 is a difference of squares: (x - 7)(x + 7)",
+    "_cacheBreaker": "1756033578398_9"
   },
   {
-    "_id": "math_7_hard_1755775410768_10",
-    "content": "Solve for x: 3x + 7 = 22",
+    "_id": "math_7_hard_010",
+    "content": "What is the range of f(x) = -x² + 14?",
     "type": "multiple_choice",
     "options": [
-      "x = 5",
-      "x = 4",
-      "x = 6",
-      "x = 3"
+      "All real numbers",
+      "y ≤ 14",
+      "y ≥ 14",
+      "y > 0"
     ],
-    "correctAnswer": "x = 5",
+    "correctAnswer": "y ≤ 14",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "3x + 7 = 22. Subtract 7: 3x = 15. Divide by 3: x = 5",
-    "_cacheBreaker": "1755775410768_9"
+    "explanation": "Since the parabola opens downward, the maximum value is 14",
+    "_cacheBreaker": "1756033578398_10"
   },
   {
-    "_id": "math_7_hard_1755775410768_11",
-    "content": "The area of a circle is 78.5 square cm. What is its radius? (Use π = 3.14)",
+    "_id": "math_7_hard_011",
+    "content": "Solve: 7x - 14 = 6x + 21",
     "type": "multiple_choice",
     "options": [
-      "5 cm",
-      "4 cm",
-      "6 cm",
-      "7 cm"
+      "x = 35",
+      "x = 28",
+      "x = 42",
+      "x = 21"
     ],
-    "correctAnswer": "5 cm",
+    "correctAnswer": "x = 35",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Area = πr². So 78.5 = 3.14 × r². Therefore r² = 25, so r = 5 cm",
-    "_cacheBreaker": "1755775410768_10"
+    "explanation": "7x - 6x = 21 + 14, so x = 35",
+    "_cacheBreaker": "1756033578398_11"
   },
   {
-    "_id": "math_7_hard_1755775410768_12",
-    "content": "If y = 2x + 3, what is y when x = 4?",
+    "_id": "math_7_hard_012",
+    "content": "If f(x) = 7x² + 14x, what is f(7)?",
     "type": "multiple_choice",
     "options": [
-      "11",
-      "10",
-      "12",
-      "9"
+      "441",
+      "63",
+      "21",
+      "49"
     ],
-    "correctAnswer": "11",
+    "correctAnswer": "441",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Substitute x = 4: y = 2(4) + 3 = 8 + 3 = 11",
-    "_cacheBreaker": "1755775410768_11"
+    "explanation": "f(7) = 7(7)² + 14(7) = 343 + 98 = 441",
+    "_cacheBreaker": "1756033578398_12"
   },
   {
-    "_id": "math_7_hard_1755775410768_13",
-    "content": "Solve for x: 3x + 7 = 22",
+    "_id": "math_7_hard_013",
+    "content": "What is the vertex of the parabola y = x² - 14x + 7?",
     "type": "multiple_choice",
     "options": [
-      "x = 5",
-      "x = 4",
-      "x = 6",
-      "x = 3"
+      "(7, -7)",
+      "(7, 0)",
+      "(0, 7)",
+      "(7, 7)"
     ],
-    "correctAnswer": "x = 5",
+    "correctAnswer": "(7, -7)",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "3x + 7 = 22. Subtract 7: 3x = 15. Divide by 3: x = 5",
-    "_cacheBreaker": "1755775410768_12"
+    "explanation": "Vertex x-coordinate = -b/2a = 14/2 = 7. y = 7² - 14(7) + 7 = -7",
+    "_cacheBreaker": "1756033578398_13"
   },
   {
-    "_id": "math_7_hard_1755775410768_14",
-    "content": "The area of a circle is 78.5 square cm. What is its radius? (Use π = 3.14)",
+    "_id": "math_7_hard_014",
+    "content": "Factor completely: x² - 49",
     "type": "multiple_choice",
     "options": [
-      "5 cm",
-      "4 cm",
-      "6 cm",
-      "7 cm"
+      "(x - 7)(x + 7)",
+      "(x - 7)²",
+      "x(x - 7)",
+      "Cannot be factored"
     ],
-    "correctAnswer": "5 cm",
+    "correctAnswer": "(x - 7)(x + 7)",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Area = πr². So 78.5 = 3.14 × r². Therefore r² = 25, so r = 5 cm",
-    "_cacheBreaker": "1755775410768_13"
+    "explanation": "x² - 49 is a difference of squares: (x - 7)(x + 7)",
+    "_cacheBreaker": "1756033578398_14"
   },
   {
-    "_id": "math_7_hard_1755775410768_15",
-    "content": "If y = 2x + 3, what is y when x = 4?",
+    "_id": "math_7_hard_015",
+    "content": "What is the range of f(x) = -x² + 14?",
     "type": "multiple_choice",
     "options": [
-      "11",
-      "10",
-      "12",
-      "9"
+      "All real numbers",
+      "y ≤ 14",
+      "y ≥ 14",
+      "y > 0"
     ],
-    "correctAnswer": "11",
+    "correctAnswer": "y ≤ 14",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Substitute x = 4: y = 2(4) + 3 = 8 + 3 = 11",
-    "_cacheBreaker": "1755775410768_14"
+    "explanation": "Since the parabola opens downward, the maximum value is 14",
+    "_cacheBreaker": "1756033578398_15"
   },
   {
-    "_id": "math_7_hard_1755775410768_16",
-    "content": "Solve for x: 3x + 7 = 22",
+    "_id": "math_7_hard_016",
+    "content": "Solve: 7x - 14 = 6x + 21",
     "type": "multiple_choice",
     "options": [
-      "x = 5",
-      "x = 4",
-      "x = 6",
-      "x = 3"
+      "x = 35",
+      "x = 28",
+      "x = 42",
+      "x = 21"
     ],
-    "correctAnswer": "x = 5",
+    "correctAnswer": "x = 35",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "3x + 7 = 22. Subtract 7: 3x = 15. Divide by 3: x = 5",
-    "_cacheBreaker": "1755775410768_15"
+    "explanation": "7x - 6x = 21 + 14, so x = 35",
+    "_cacheBreaker": "1756033578398_16"
   },
   {
-    "_id": "math_7_hard_1755775410768_17",
-    "content": "The area of a circle is 78.5 square cm. What is its radius? (Use π = 3.14)",
+    "_id": "math_7_hard_017",
+    "content": "If f(x) = 7x² + 14x, what is f(7)?",
     "type": "multiple_choice",
     "options": [
-      "5 cm",
-      "4 cm",
-      "6 cm",
-      "7 cm"
+      "441",
+      "63",
+      "21",
+      "49"
     ],
-    "correctAnswer": "5 cm",
+    "correctAnswer": "441",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Area = πr². So 78.5 = 3.14 × r². Therefore r² = 25, so r = 5 cm",
-    "_cacheBreaker": "1755775410768_16"
+    "explanation": "f(7) = 7(7)² + 14(7) = 343 + 98 = 441",
+    "_cacheBreaker": "1756033578398_17"
   },
   {
-    "_id": "math_7_hard_1755775410768_18",
-    "content": "If y = 2x + 3, what is y when x = 4?",
+    "_id": "math_7_hard_018",
+    "content": "What is the vertex of the parabola y = x² - 14x + 7?",
     "type": "multiple_choice",
     "options": [
-      "11",
-      "10",
-      "12",
-      "9"
+      "(7, -7)",
+      "(7, 0)",
+      "(0, 7)",
+      "(7, 7)"
     ],
-    "correctAnswer": "11",
+    "correctAnswer": "(7, -7)",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Substitute x = 4: y = 2(4) + 3 = 8 + 3 = 11",
-    "_cacheBreaker": "1755775410768_17"
+    "explanation": "Vertex x-coordinate = -b/2a = 14/2 = 7. y = 7² - 14(7) + 7 = -7",
+    "_cacheBreaker": "1756033578398_18"
   },
   {
-    "_id": "math_7_hard_1755775410768_19",
-    "content": "Solve for x: 3x + 7 = 22",
+    "_id": "math_7_hard_019",
+    "content": "Factor completely: x² - 49",
     "type": "multiple_choice",
     "options": [
-      "x = 5",
-      "x = 4",
-      "x = 6",
-      "x = 3"
+      "(x - 7)(x + 7)",
+      "(x - 7)²",
+      "x(x - 7)",
+      "Cannot be factored"
     ],
-    "correctAnswer": "x = 5",
+    "correctAnswer": "(x - 7)(x + 7)",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "3x + 7 = 22. Subtract 7: 3x = 15. Divide by 3: x = 5",
-    "_cacheBreaker": "1755775410768_18"
+    "explanation": "x² - 49 is a difference of squares: (x - 7)(x + 7)",
+    "_cacheBreaker": "1756033578398_19"
   },
   {
-    "_id": "math_7_hard_1755775410768_20",
-    "content": "The area of a circle is 78.5 square cm. What is its radius? (Use π = 3.14)",
+    "_id": "math_7_hard_020",
+    "content": "What is the range of f(x) = -x² + 14?",
     "type": "multiple_choice",
     "options": [
-      "5 cm",
-      "4 cm",
-      "6 cm",
-      "7 cm"
+      "All real numbers",
+      "y ≤ 14",
+      "y ≥ 14",
+      "y > 0"
     ],
-    "correctAnswer": "5 cm",
+    "correctAnswer": "y ≤ 14",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Area = πr². So 78.5 = 3.14 × r². Therefore r² = 25, so r = 5 cm",
-    "_cacheBreaker": "1755775410768_19"
+    "explanation": "Since the parabola opens downward, the maximum value is 14",
+    "_cacheBreaker": "1756033578398_20"
+  },
+  {
+    "_id": "math_7_hard_021",
+    "content": "Solve: 7x - 14 = 6x + 21",
+    "type": "multiple_choice",
+    "options": [
+      "x = 35",
+      "x = 28",
+      "x = 42",
+      "x = 21"
+    ],
+    "correctAnswer": "x = 35",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "hard",
+    "explanation": "7x - 6x = 21 + 14, so x = 35",
+    "_cacheBreaker": "1756033578398_21"
+  },
+  {
+    "_id": "math_7_hard_022",
+    "content": "If f(x) = 7x² + 14x, what is f(7)?",
+    "type": "multiple_choice",
+    "options": [
+      "441",
+      "63",
+      "21",
+      "49"
+    ],
+    "correctAnswer": "441",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "hard",
+    "explanation": "f(7) = 7(7)² + 14(7) = 343 + 98 = 441",
+    "_cacheBreaker": "1756033578398_22"
+  },
+  {
+    "_id": "math_7_hard_023",
+    "content": "What is the vertex of the parabola y = x² - 14x + 7?",
+    "type": "multiple_choice",
+    "options": [
+      "(7, -7)",
+      "(7, 0)",
+      "(0, 7)",
+      "(7, 7)"
+    ],
+    "correctAnswer": "(7, -7)",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "hard",
+    "explanation": "Vertex x-coordinate = -b/2a = 14/2 = 7. y = 7² - 14(7) + 7 = -7",
+    "_cacheBreaker": "1756033578398_23"
+  },
+  {
+    "_id": "math_7_hard_024",
+    "content": "Factor completely: x² - 49",
+    "type": "multiple_choice",
+    "options": [
+      "(x - 7)(x + 7)",
+      "(x - 7)²",
+      "x(x - 7)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x - 7)(x + 7)",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "hard",
+    "explanation": "x² - 49 is a difference of squares: (x - 7)(x + 7)",
+    "_cacheBreaker": "1756033578398_24"
+  },
+  {
+    "_id": "math_7_hard_025",
+    "content": "What is the range of f(x) = -x² + 14?",
+    "type": "multiple_choice",
+    "options": [
+      "All real numbers",
+      "y ≤ 14",
+      "y ≥ 14",
+      "y > 0"
+    ],
+    "correctAnswer": "y ≤ 14",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "hard",
+    "explanation": "Since the parabola opens downward, the maximum value is 14",
+    "_cacheBreaker": "1756033578398_25"
+  },
+  {
+    "_id": "math_7_hard_026",
+    "content": "Solve: 7x - 14 = 6x + 21",
+    "type": "multiple_choice",
+    "options": [
+      "x = 35",
+      "x = 28",
+      "x = 42",
+      "x = 21"
+    ],
+    "correctAnswer": "x = 35",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "hard",
+    "explanation": "7x - 6x = 21 + 14, so x = 35",
+    "_cacheBreaker": "1756033578398_26"
+  },
+  {
+    "_id": "math_7_hard_027",
+    "content": "If f(x) = 7x² + 14x, what is f(7)?",
+    "type": "multiple_choice",
+    "options": [
+      "441",
+      "63",
+      "21",
+      "49"
+    ],
+    "correctAnswer": "441",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "hard",
+    "explanation": "f(7) = 7(7)² + 14(7) = 343 + 98 = 441",
+    "_cacheBreaker": "1756033578398_27"
+  },
+  {
+    "_id": "math_7_hard_028",
+    "content": "What is the vertex of the parabola y = x² - 14x + 7?",
+    "type": "multiple_choice",
+    "options": [
+      "(7, -7)",
+      "(7, 0)",
+      "(0, 7)",
+      "(7, 7)"
+    ],
+    "correctAnswer": "(7, -7)",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "hard",
+    "explanation": "Vertex x-coordinate = -b/2a = 14/2 = 7. y = 7² - 14(7) + 7 = -7",
+    "_cacheBreaker": "1756033578398_28"
+  },
+  {
+    "_id": "math_7_hard_029",
+    "content": "Factor completely: x² - 49",
+    "type": "multiple_choice",
+    "options": [
+      "(x - 7)(x + 7)",
+      "(x - 7)²",
+      "x(x - 7)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x - 7)(x + 7)",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "hard",
+    "explanation": "x² - 49 is a difference of squares: (x - 7)(x + 7)",
+    "_cacheBreaker": "1756033578398_29"
+  },
+  {
+    "_id": "math_7_hard_030",
+    "content": "What is the range of f(x) = -x² + 14?",
+    "type": "multiple_choice",
+    "options": [
+      "All real numbers",
+      "y ≤ 14",
+      "y ≥ 14",
+      "y > 0"
+    ],
+    "correctAnswer": "y ≤ 14",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "hard",
+    "explanation": "Since the parabola opens downward, the maximum value is 14",
+    "_cacheBreaker": "1756033578398_30"
+  },
+  {
+    "_id": "math_7_hard_031",
+    "content": "Solve: 7x - 14 = 6x + 21",
+    "type": "multiple_choice",
+    "options": [
+      "x = 35",
+      "x = 28",
+      "x = 42",
+      "x = 21"
+    ],
+    "correctAnswer": "x = 35",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "hard",
+    "explanation": "7x - 6x = 21 + 14, so x = 35",
+    "_cacheBreaker": "1756033578398_31"
+  },
+  {
+    "_id": "math_7_hard_032",
+    "content": "If f(x) = 7x² + 14x, what is f(7)?",
+    "type": "multiple_choice",
+    "options": [
+      "441",
+      "63",
+      "21",
+      "49"
+    ],
+    "correctAnswer": "441",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "hard",
+    "explanation": "f(7) = 7(7)² + 14(7) = 343 + 98 = 441",
+    "_cacheBreaker": "1756033578398_32"
+  },
+  {
+    "_id": "math_7_hard_033",
+    "content": "What is the vertex of the parabola y = x² - 14x + 7?",
+    "type": "multiple_choice",
+    "options": [
+      "(7, -7)",
+      "(7, 0)",
+      "(0, 7)",
+      "(7, 7)"
+    ],
+    "correctAnswer": "(7, -7)",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "hard",
+    "explanation": "Vertex x-coordinate = -b/2a = 14/2 = 7. y = 7² - 14(7) + 7 = -7",
+    "_cacheBreaker": "1756033578398_33"
+  },
+  {
+    "_id": "math_7_hard_034",
+    "content": "Factor completely: x² - 49",
+    "type": "multiple_choice",
+    "options": [
+      "(x - 7)(x + 7)",
+      "(x - 7)²",
+      "x(x - 7)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x - 7)(x + 7)",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "hard",
+    "explanation": "x² - 49 is a difference of squares: (x - 7)(x + 7)",
+    "_cacheBreaker": "1756033578398_34"
+  },
+  {
+    "_id": "math_7_hard_035",
+    "content": "What is the range of f(x) = -x² + 14?",
+    "type": "multiple_choice",
+    "options": [
+      "All real numbers",
+      "y ≤ 14",
+      "y ≥ 14",
+      "y > 0"
+    ],
+    "correctAnswer": "y ≤ 14",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "hard",
+    "explanation": "Since the parabola opens downward, the maximum value is 14",
+    "_cacheBreaker": "1756033578398_35"
+  },
+  {
+    "_id": "math_7_hard_036",
+    "content": "Solve: 7x - 14 = 6x + 21",
+    "type": "multiple_choice",
+    "options": [
+      "x = 35",
+      "x = 28",
+      "x = 42",
+      "x = 21"
+    ],
+    "correctAnswer": "x = 35",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "hard",
+    "explanation": "7x - 6x = 21 + 14, so x = 35",
+    "_cacheBreaker": "1756033578398_36"
+  },
+  {
+    "_id": "math_7_hard_037",
+    "content": "If f(x) = 7x² + 14x, what is f(7)?",
+    "type": "multiple_choice",
+    "options": [
+      "441",
+      "63",
+      "21",
+      "49"
+    ],
+    "correctAnswer": "441",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "hard",
+    "explanation": "f(7) = 7(7)² + 14(7) = 343 + 98 = 441",
+    "_cacheBreaker": "1756033578398_37"
+  },
+  {
+    "_id": "math_7_hard_038",
+    "content": "What is the vertex of the parabola y = x² - 14x + 7?",
+    "type": "multiple_choice",
+    "options": [
+      "(7, -7)",
+      "(7, 0)",
+      "(0, 7)",
+      "(7, 7)"
+    ],
+    "correctAnswer": "(7, -7)",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "hard",
+    "explanation": "Vertex x-coordinate = -b/2a = 14/2 = 7. y = 7² - 14(7) + 7 = -7",
+    "_cacheBreaker": "1756033578398_38"
+  },
+  {
+    "_id": "math_7_hard_039",
+    "content": "Factor completely: x² - 49",
+    "type": "multiple_choice",
+    "options": [
+      "(x - 7)(x + 7)",
+      "(x - 7)²",
+      "x(x - 7)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x - 7)(x + 7)",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "hard",
+    "explanation": "x² - 49 is a difference of squares: (x - 7)(x + 7)",
+    "_cacheBreaker": "1756033578398_39"
+  },
+  {
+    "_id": "math_7_hard_040",
+    "content": "What is the range of f(x) = -x² + 14?",
+    "type": "multiple_choice",
+    "options": [
+      "All real numbers",
+      "y ≤ 14",
+      "y ≥ 14",
+      "y > 0"
+    ],
+    "correctAnswer": "y ≤ 14",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "hard",
+    "explanation": "Since the parabola opens downward, the maximum value is 14",
+    "_cacheBreaker": "1756033578398_40"
+  },
+  {
+    "_id": "math_7_hard_041",
+    "content": "Solve: 7x - 14 = 6x + 21",
+    "type": "multiple_choice",
+    "options": [
+      "x = 35",
+      "x = 28",
+      "x = 42",
+      "x = 21"
+    ],
+    "correctAnswer": "x = 35",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "hard",
+    "explanation": "7x - 6x = 21 + 14, so x = 35",
+    "_cacheBreaker": "1756033578398_41"
+  },
+  {
+    "_id": "math_7_hard_042",
+    "content": "If f(x) = 7x² + 14x, what is f(7)?",
+    "type": "multiple_choice",
+    "options": [
+      "441",
+      "63",
+      "21",
+      "49"
+    ],
+    "correctAnswer": "441",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "hard",
+    "explanation": "f(7) = 7(7)² + 14(7) = 343 + 98 = 441",
+    "_cacheBreaker": "1756033578398_42"
+  },
+  {
+    "_id": "math_7_hard_043",
+    "content": "What is the vertex of the parabola y = x² - 14x + 7?",
+    "type": "multiple_choice",
+    "options": [
+      "(7, -7)",
+      "(7, 0)",
+      "(0, 7)",
+      "(7, 7)"
+    ],
+    "correctAnswer": "(7, -7)",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "hard",
+    "explanation": "Vertex x-coordinate = -b/2a = 14/2 = 7. y = 7² - 14(7) + 7 = -7",
+    "_cacheBreaker": "1756033578398_43"
+  },
+  {
+    "_id": "math_7_hard_044",
+    "content": "Factor completely: x² - 49",
+    "type": "multiple_choice",
+    "options": [
+      "(x - 7)(x + 7)",
+      "(x - 7)²",
+      "x(x - 7)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x - 7)(x + 7)",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "hard",
+    "explanation": "x² - 49 is a difference of squares: (x - 7)(x + 7)",
+    "_cacheBreaker": "1756033578398_44"
+  },
+  {
+    "_id": "math_7_hard_045",
+    "content": "What is the range of f(x) = -x² + 14?",
+    "type": "multiple_choice",
+    "options": [
+      "All real numbers",
+      "y ≤ 14",
+      "y ≥ 14",
+      "y > 0"
+    ],
+    "correctAnswer": "y ≤ 14",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "hard",
+    "explanation": "Since the parabola opens downward, the maximum value is 14",
+    "_cacheBreaker": "1756033578398_45"
+  },
+  {
+    "_id": "math_7_hard_046",
+    "content": "Solve: 7x - 14 = 6x + 21",
+    "type": "multiple_choice",
+    "options": [
+      "x = 35",
+      "x = 28",
+      "x = 42",
+      "x = 21"
+    ],
+    "correctAnswer": "x = 35",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "hard",
+    "explanation": "7x - 6x = 21 + 14, so x = 35",
+    "_cacheBreaker": "1756033578398_46"
+  },
+  {
+    "_id": "math_7_hard_047",
+    "content": "If f(x) = 7x² + 14x, what is f(7)?",
+    "type": "multiple_choice",
+    "options": [
+      "441",
+      "63",
+      "21",
+      "49"
+    ],
+    "correctAnswer": "441",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "hard",
+    "explanation": "f(7) = 7(7)² + 14(7) = 343 + 98 = 441",
+    "_cacheBreaker": "1756033578398_47"
+  },
+  {
+    "_id": "math_7_hard_048",
+    "content": "What is the vertex of the parabola y = x² - 14x + 7?",
+    "type": "multiple_choice",
+    "options": [
+      "(7, -7)",
+      "(7, 0)",
+      "(0, 7)",
+      "(7, 7)"
+    ],
+    "correctAnswer": "(7, -7)",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "hard",
+    "explanation": "Vertex x-coordinate = -b/2a = 14/2 = 7. y = 7² - 14(7) + 7 = -7",
+    "_cacheBreaker": "1756033578398_48"
+  },
+  {
+    "_id": "math_7_hard_049",
+    "content": "Factor completely: x² - 49",
+    "type": "multiple_choice",
+    "options": [
+      "(x - 7)(x + 7)",
+      "(x - 7)²",
+      "x(x - 7)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x - 7)(x + 7)",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "hard",
+    "explanation": "x² - 49 is a difference of squares: (x - 7)(x + 7)",
+    "_cacheBreaker": "1756033578398_49"
+  },
+  {
+    "_id": "math_7_hard_050",
+    "content": "What is the range of f(x) = -x² + 14?",
+    "type": "multiple_choice",
+    "options": [
+      "All real numbers",
+      "y ≤ 14",
+      "y ≥ 14",
+      "y > 0"
+    ],
+    "correctAnswer": "y ≤ 14",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "hard",
+    "explanation": "Since the parabola opens downward, the maximum value is 14",
+    "_cacheBreaker": "1756033578398_50"
   }
 ]

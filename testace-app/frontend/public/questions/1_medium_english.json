@@ -1,342 +1,852 @@
 [
   {
-    "_id": "english_1_medium_1755775767508_1",
-    "content": "Which word has the long 'a' sound?",
-    "type": "multiple_choice",
-    "options": [
-      "cat",
-      "cake",
-      "cap",
-      "can"
-    ],
-    "correctAnswer": "cake",
-    "subject": "english",
-    "grade": "1",
-    "difficulty": "medium",
-    "explanation": "Cake has the long 'a' sound (ay), while the others have short 'a'.",
-    "_cacheBreaker": "1755775767508_0"
-  },
-  {
-    "_id": "english_1_medium_1755775767508_2",
-    "content": "What type of letter is 'A'?",
-    "type": "multiple_choice",
-    "options": [
-      "consonant",
-      "vowel",
-      "number",
-      "symbol"
-    ],
-    "correctAnswer": "vowel",
-    "subject": "english",
-    "grade": "1",
-    "difficulty": "medium",
-    "explanation": "A, E, I, O, U are vowels. All other letters are consonants.",
-    "_cacheBreaker": "1755775767508_1"
-  },
-  {
-    "_id": "english_1_medium_1755775767508_3",
+    "_id": "english_1_medium_001",
     "content": "Which word is a noun?",
     "type": "multiple_choice",
     "options": [
       "run",
-      "jump",
-      "book",
-      "happy"
-    ],
-    "correctAnswer": "book",
-    "subject": "english",
-    "grade": "1",
-    "difficulty": "medium",
-    "explanation": "A noun is a person, place, or thing. Book is a thing.",
-    "_cacheBreaker": "1755775767508_2"
-  },
-  {
-    "_id": "english_1_medium_1755775767508_4",
-    "content": "What do we call words that sound the same?",
-    "type": "multiple_choice",
-    "options": [
-      "rhyming words",
-      "big words",
-      "small words",
-      "funny words"
-    ],
-    "correctAnswer": "rhyming words",
-    "subject": "english",
-    "grade": "1",
-    "difficulty": "medium",
-    "explanation": "Words that sound the same, like 'cat' and 'hat', are rhyming words.",
-    "_cacheBreaker": "1755775767508_3"
-  },
-  {
-    "_id": "english_1_medium_1755775767508_5",
-    "content": "Which sentence starts with a capital letter?",
-    "type": "multiple_choice",
-    "options": [
-      "the dog runs.",
-      "The dog runs.",
-      "THE DOG RUNS.",
-      "the Dog runs."
-    ],
-    "correctAnswer": "The dog runs.",
-    "subject": "english",
-    "grade": "1",
-    "difficulty": "medium",
-    "explanation": "Sentences should start with a capital letter.",
-    "_cacheBreaker": "1755775767508_4"
-  },
-  {
-    "_id": "english_1_medium_1755775767508_6",
-    "content": "What sound do the letters 'th' make together?",
-    "type": "multiple_choice",
-    "options": [
-      "t-h",
-      "th",
-      "s",
-      "f"
-    ],
-    "correctAnswer": "th",
-    "subject": "english",
-    "grade": "1",
-    "difficulty": "medium",
-    "explanation": "The letters 't' and 'h' together make the 'th' sound.",
-    "_cacheBreaker": "1755775767508_5"
-  },
-  {
-    "_id": "english_1_medium_1755775767508_7",
-    "content": "Which word has two syllables?",
-    "type": "multiple_choice",
-    "options": [
-      "cat",
-      "dog",
       "happy",
-      "run"
+      "table",
+      "quickly"
     ],
-    "correctAnswer": "happy",
+    "correctAnswer": "table",
     "subject": "english",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "Happy has two parts: hap-py. That means it has two syllables.",
-    "_cacheBreaker": "1755775767508_6"
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253384_1"
   },
   {
-    "_id": "english_1_medium_1755775767508_8",
-    "content": "What do we call the small letters?",
+    "_id": "english_1_medium_002",
+    "content": "What is the opposite of 'hot'?",
     "type": "multiple_choice",
     "options": [
-      "big letters",
-      "lowercase letters",
-      "uppercase letters",
-      "number letters"
+      "warm",
+      "cold",
+      "cool",
+      "freezing"
     ],
-    "correctAnswer": "lowercase letters",
+    "correctAnswer": "cold",
     "subject": "english",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "Small letters like 'a', 'b', 'c' are called lowercase letters.",
-    "_cacheBreaker": "1755775767508_7"
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253384_2"
   },
   {
-    "_id": "english_1_medium_1755775767508_9",
-    "content": "Which word means the opposite of 'big'?",
+    "_id": "english_1_medium_003",
+    "content": "Which sentence is correct?",
     "type": "multiple_choice",
     "options": [
-      "huge",
-      "large",
-      "small",
-      "tall"
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
     ],
-    "correctAnswer": "small",
+    "correctAnswer": "I like dogs.",
     "subject": "english",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "Small is the opposite of big.",
-    "_cacheBreaker": "1755775767508_8"
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253384_3"
   },
   {
-    "_id": "english_1_medium_1755775767508_10",
-    "content": "What comes at the end of a question?",
+    "_id": "english_1_medium_004",
+    "content": "How many vowels are in 'apple'?",
     "type": "multiple_choice",
     "options": [
-      "period",
-      "question mark",
-      "comma",
-      "exclamation mark"
+      "1",
+      "2",
+      "3",
+      "4"
     ],
-    "correctAnswer": "question mark",
+    "correctAnswer": "2",
     "subject": "english",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "Questions end with a question mark (?).",
-    "_cacheBreaker": "1755775767508_9"
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253384_4"
   },
   {
-    "_id": "english_1_medium_1755775767508_11",
-    "content": "Which word has the long 'a' sound?",
+    "_id": "english_1_medium_005",
+    "content": "Which word rhymes with 'tree'?",
     "type": "multiple_choice",
     "options": [
-      "cat",
-      "cake",
-      "cap",
-      "can"
+      "car",
+      "bee",
+      "dog",
+      "sun"
     ],
-    "correctAnswer": "cake",
+    "correctAnswer": "bee",
     "subject": "english",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "Cake has the long 'a' sound (ay), while the others have short 'a'.",
-    "_cacheBreaker": "1755775767508_10"
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253384_5"
   },
   {
-    "_id": "english_1_medium_1755775767508_12",
-    "content": "What type of letter is 'A'?",
-    "type": "multiple_choice",
-    "options": [
-      "consonant",
-      "vowel",
-      "number",
-      "symbol"
-    ],
-    "correctAnswer": "vowel",
-    "subject": "english",
-    "grade": "1",
-    "difficulty": "medium",
-    "explanation": "A, E, I, O, U are vowels. All other letters are consonants.",
-    "_cacheBreaker": "1755775767508_11"
-  },
-  {
-    "_id": "english_1_medium_1755775767508_13",
+    "_id": "english_1_medium_006",
     "content": "Which word is a noun?",
     "type": "multiple_choice",
     "options": [
       "run",
-      "jump",
-      "book",
-      "happy"
-    ],
-    "correctAnswer": "book",
-    "subject": "english",
-    "grade": "1",
-    "difficulty": "medium",
-    "explanation": "A noun is a person, place, or thing. Book is a thing.",
-    "_cacheBreaker": "1755775767508_12"
-  },
-  {
-    "_id": "english_1_medium_1755775767508_14",
-    "content": "What do we call words that sound the same?",
-    "type": "multiple_choice",
-    "options": [
-      "rhyming words",
-      "big words",
-      "small words",
-      "funny words"
-    ],
-    "correctAnswer": "rhyming words",
-    "subject": "english",
-    "grade": "1",
-    "difficulty": "medium",
-    "explanation": "Words that sound the same, like 'cat' and 'hat', are rhyming words.",
-    "_cacheBreaker": "1755775767508_13"
-  },
-  {
-    "_id": "english_1_medium_1755775767508_15",
-    "content": "Which sentence starts with a capital letter?",
-    "type": "multiple_choice",
-    "options": [
-      "the dog runs.",
-      "The dog runs.",
-      "THE DOG RUNS.",
-      "the Dog runs."
-    ],
-    "correctAnswer": "The dog runs.",
-    "subject": "english",
-    "grade": "1",
-    "difficulty": "medium",
-    "explanation": "Sentences should start with a capital letter.",
-    "_cacheBreaker": "1755775767508_14"
-  },
-  {
-    "_id": "english_1_medium_1755775767508_16",
-    "content": "What sound do the letters 'th' make together?",
-    "type": "multiple_choice",
-    "options": [
-      "t-h",
-      "th",
-      "s",
-      "f"
-    ],
-    "correctAnswer": "th",
-    "subject": "english",
-    "grade": "1",
-    "difficulty": "medium",
-    "explanation": "The letters 't' and 'h' together make the 'th' sound.",
-    "_cacheBreaker": "1755775767508_15"
-  },
-  {
-    "_id": "english_1_medium_1755775767508_17",
-    "content": "Which word has two syllables?",
-    "type": "multiple_choice",
-    "options": [
-      "cat",
-      "dog",
       "happy",
-      "run"
+      "table",
+      "quickly"
     ],
-    "correctAnswer": "happy",
+    "correctAnswer": "table",
     "subject": "english",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "Happy has two parts: hap-py. That means it has two syllables.",
-    "_cacheBreaker": "1755775767508_16"
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253384_6"
   },
   {
-    "_id": "english_1_medium_1755775767508_18",
-    "content": "What do we call the small letters?",
+    "_id": "english_1_medium_007",
+    "content": "What is the opposite of 'hot'?",
     "type": "multiple_choice",
     "options": [
-      "big letters",
-      "lowercase letters",
-      "uppercase letters",
-      "number letters"
+      "warm",
+      "cold",
+      "cool",
+      "freezing"
     ],
-    "correctAnswer": "lowercase letters",
+    "correctAnswer": "cold",
     "subject": "english",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "Small letters like 'a', 'b', 'c' are called lowercase letters.",
-    "_cacheBreaker": "1755775767508_17"
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253384_7"
   },
   {
-    "_id": "english_1_medium_1755775767508_19",
-    "content": "Which word means the opposite of 'big'?",
+    "_id": "english_1_medium_008",
+    "content": "Which sentence is correct?",
     "type": "multiple_choice",
     "options": [
-      "huge",
-      "large",
-      "small",
-      "tall"
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
     ],
-    "correctAnswer": "small",
+    "correctAnswer": "I like dogs.",
     "subject": "english",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "Small is the opposite of big.",
-    "_cacheBreaker": "1755775767508_18"
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253384_8"
   },
   {
-    "_id": "english_1_medium_1755775767508_20",
-    "content": "What comes at the end of a question?",
+    "_id": "english_1_medium_009",
+    "content": "How many vowels are in 'apple'?",
     "type": "multiple_choice",
     "options": [
-      "period",
-      "question mark",
-      "comma",
-      "exclamation mark"
+      "1",
+      "2",
+      "3",
+      "4"
     ],
-    "correctAnswer": "question mark",
+    "correctAnswer": "2",
     "subject": "english",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "Questions end with a question mark (?).",
-    "_cacheBreaker": "1755775767508_19"
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253384_9"
+  },
+  {
+    "_id": "english_1_medium_010",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253384_10"
+  },
+  {
+    "_id": "english_1_medium_011",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
+      "run",
+      "happy",
+      "table",
+      "quickly"
+    ],
+    "correctAnswer": "table",
+    "subject": "english",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253384_11"
+  },
+  {
+    "_id": "english_1_medium_012",
+    "content": "What is the opposite of 'hot'?",
+    "type": "multiple_choice",
+    "options": [
+      "warm",
+      "cold",
+      "cool",
+      "freezing"
+    ],
+    "correctAnswer": "cold",
+    "subject": "english",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253384_12"
+  },
+  {
+    "_id": "english_1_medium_013",
+    "content": "Which sentence is correct?",
+    "type": "multiple_choice",
+    "options": [
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
+    ],
+    "correctAnswer": "I like dogs.",
+    "subject": "english",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253384_13"
+  },
+  {
+    "_id": "english_1_medium_014",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253384_14"
+  },
+  {
+    "_id": "english_1_medium_015",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253384_15"
+  },
+  {
+    "_id": "english_1_medium_016",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
+      "run",
+      "happy",
+      "table",
+      "quickly"
+    ],
+    "correctAnswer": "table",
+    "subject": "english",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253384_16"
+  },
+  {
+    "_id": "english_1_medium_017",
+    "content": "What is the opposite of 'hot'?",
+    "type": "multiple_choice",
+    "options": [
+      "warm",
+      "cold",
+      "cool",
+      "freezing"
+    ],
+    "correctAnswer": "cold",
+    "subject": "english",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253384_17"
+  },
+  {
+    "_id": "english_1_medium_018",
+    "content": "Which sentence is correct?",
+    "type": "multiple_choice",
+    "options": [
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
+    ],
+    "correctAnswer": "I like dogs.",
+    "subject": "english",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253384_18"
+  },
+  {
+    "_id": "english_1_medium_019",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253384_19"
+  },
+  {
+    "_id": "english_1_medium_020",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253384_20"
+  },
+  {
+    "_id": "english_1_medium_021",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
+      "run",
+      "happy",
+      "table",
+      "quickly"
+    ],
+    "correctAnswer": "table",
+    "subject": "english",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253384_21"
+  },
+  {
+    "_id": "english_1_medium_022",
+    "content": "What is the opposite of 'hot'?",
+    "type": "multiple_choice",
+    "options": [
+      "warm",
+      "cold",
+      "cool",
+      "freezing"
+    ],
+    "correctAnswer": "cold",
+    "subject": "english",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253384_22"
+  },
+  {
+    "_id": "english_1_medium_023",
+    "content": "Which sentence is correct?",
+    "type": "multiple_choice",
+    "options": [
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
+    ],
+    "correctAnswer": "I like dogs.",
+    "subject": "english",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253384_23"
+  },
+  {
+    "_id": "english_1_medium_024",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253384_24"
+  },
+  {
+    "_id": "english_1_medium_025",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253384_25"
+  },
+  {
+    "_id": "english_1_medium_026",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
+      "run",
+      "happy",
+      "table",
+      "quickly"
+    ],
+    "correctAnswer": "table",
+    "subject": "english",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253384_26"
+  },
+  {
+    "_id": "english_1_medium_027",
+    "content": "What is the opposite of 'hot'?",
+    "type": "multiple_choice",
+    "options": [
+      "warm",
+      "cold",
+      "cool",
+      "freezing"
+    ],
+    "correctAnswer": "cold",
+    "subject": "english",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253384_27"
+  },
+  {
+    "_id": "english_1_medium_028",
+    "content": "Which sentence is correct?",
+    "type": "multiple_choice",
+    "options": [
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
+    ],
+    "correctAnswer": "I like dogs.",
+    "subject": "english",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253384_28"
+  },
+  {
+    "_id": "english_1_medium_029",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253384_29"
+  },
+  {
+    "_id": "english_1_medium_030",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253384_30"
+  },
+  {
+    "_id": "english_1_medium_031",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
+      "run",
+      "happy",
+      "table",
+      "quickly"
+    ],
+    "correctAnswer": "table",
+    "subject": "english",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253384_31"
+  },
+  {
+    "_id": "english_1_medium_032",
+    "content": "What is the opposite of 'hot'?",
+    "type": "multiple_choice",
+    "options": [
+      "warm",
+      "cold",
+      "cool",
+      "freezing"
+    ],
+    "correctAnswer": "cold",
+    "subject": "english",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253384_32"
+  },
+  {
+    "_id": "english_1_medium_033",
+    "content": "Which sentence is correct?",
+    "type": "multiple_choice",
+    "options": [
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
+    ],
+    "correctAnswer": "I like dogs.",
+    "subject": "english",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253384_33"
+  },
+  {
+    "_id": "english_1_medium_034",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253384_34"
+  },
+  {
+    "_id": "english_1_medium_035",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253384_35"
+  },
+  {
+    "_id": "english_1_medium_036",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
+      "run",
+      "happy",
+      "table",
+      "quickly"
+    ],
+    "correctAnswer": "table",
+    "subject": "english",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253384_36"
+  },
+  {
+    "_id": "english_1_medium_037",
+    "content": "What is the opposite of 'hot'?",
+    "type": "multiple_choice",
+    "options": [
+      "warm",
+      "cold",
+      "cool",
+      "freezing"
+    ],
+    "correctAnswer": "cold",
+    "subject": "english",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253384_37"
+  },
+  {
+    "_id": "english_1_medium_038",
+    "content": "Which sentence is correct?",
+    "type": "multiple_choice",
+    "options": [
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
+    ],
+    "correctAnswer": "I like dogs.",
+    "subject": "english",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253384_38"
+  },
+  {
+    "_id": "english_1_medium_039",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253384_39"
+  },
+  {
+    "_id": "english_1_medium_040",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253384_40"
+  },
+  {
+    "_id": "english_1_medium_041",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
+      "run",
+      "happy",
+      "table",
+      "quickly"
+    ],
+    "correctAnswer": "table",
+    "subject": "english",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253384_41"
+  },
+  {
+    "_id": "english_1_medium_042",
+    "content": "What is the opposite of 'hot'?",
+    "type": "multiple_choice",
+    "options": [
+      "warm",
+      "cold",
+      "cool",
+      "freezing"
+    ],
+    "correctAnswer": "cold",
+    "subject": "english",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253384_42"
+  },
+  {
+    "_id": "english_1_medium_043",
+    "content": "Which sentence is correct?",
+    "type": "multiple_choice",
+    "options": [
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
+    ],
+    "correctAnswer": "I like dogs.",
+    "subject": "english",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253384_43"
+  },
+  {
+    "_id": "english_1_medium_044",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253384_44"
+  },
+  {
+    "_id": "english_1_medium_045",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253384_45"
+  },
+  {
+    "_id": "english_1_medium_046",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
+      "run",
+      "happy",
+      "table",
+      "quickly"
+    ],
+    "correctAnswer": "table",
+    "subject": "english",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253384_46"
+  },
+  {
+    "_id": "english_1_medium_047",
+    "content": "What is the opposite of 'hot'?",
+    "type": "multiple_choice",
+    "options": [
+      "warm",
+      "cold",
+      "cool",
+      "freezing"
+    ],
+    "correctAnswer": "cold",
+    "subject": "english",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253384_47"
+  },
+  {
+    "_id": "english_1_medium_048",
+    "content": "Which sentence is correct?",
+    "type": "multiple_choice",
+    "options": [
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
+    ],
+    "correctAnswer": "I like dogs.",
+    "subject": "english",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253384_48"
+  },
+  {
+    "_id": "english_1_medium_049",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253384_49"
+  },
+  {
+    "_id": "english_1_medium_050",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253384_50"
   }
 ]

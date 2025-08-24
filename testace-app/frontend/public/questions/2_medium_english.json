@@ -1,342 +1,852 @@
 [
   {
-    "_id": "english_2_medium_1755775531182_1",
-    "content": "Which word is a compound word?",
+    "_id": "english_2_medium_001",
+    "content": "Which word is a noun?",
     "type": "multiple_choice",
     "options": [
-      "running",
-      "sunshine",
-      "happy",
-      "quickly"
-    ],
-    "correctAnswer": "sunshine",
-    "subject": "english",
-    "grade": "2",
-    "difficulty": "medium",
-    "explanation": "'Sunshine' is made of two words: 'sun' + 'shine'.",
-    "_cacheBreaker": "1755775531182_0"
-  },
-  {
-    "_id": "english_2_medium_1755775531182_2",
-    "content": "What is the contraction for 'do not'?",
-    "type": "multiple_choice",
-    "options": [
-      "don't",
-      "doesn't",
-      "didn't",
-      "won't"
-    ],
-    "correctAnswer": "don't",
-    "subject": "english",
-    "grade": "2",
-    "difficulty": "medium",
-    "explanation": "'Don't' is the contraction for 'do not'.",
-    "_cacheBreaker": "1755775531182_1"
-  },
-  {
-    "_id": "english_2_medium_1755775531182_3",
-    "content": "Which word describes how something is done?",
-    "type": "multiple_choice",
-    "options": [
-      "cat",
       "run",
-      "slowly",
-      "red"
-    ],
-    "correctAnswer": "slowly",
-    "subject": "english",
-    "grade": "2",
-    "difficulty": "medium",
-    "explanation": "'Slowly' is an adverb that describes how an action is done.",
-    "_cacheBreaker": "1755775531182_2"
-  },
-  {
-    "_id": "english_2_medium_1755775531182_4",
-    "content": "Which word is a compound word?",
-    "type": "multiple_choice",
-    "options": [
-      "running",
-      "sunshine",
       "happy",
+      "table",
       "quickly"
     ],
-    "correctAnswer": "sunshine",
+    "correctAnswer": "table",
     "subject": "english",
     "grade": "2",
     "difficulty": "medium",
-    "explanation": "'Sunshine' is made of two words: 'sun' + 'shine'.",
-    "_cacheBreaker": "1755775531182_3"
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253397_1"
   },
   {
-    "_id": "english_2_medium_1755775531182_5",
-    "content": "What is the contraction for 'do not'?",
+    "_id": "english_2_medium_002",
+    "content": "What is the opposite of 'hot'?",
     "type": "multiple_choice",
     "options": [
-      "don't",
-      "doesn't",
-      "didn't",
-      "won't"
+      "warm",
+      "cold",
+      "cool",
+      "freezing"
     ],
-    "correctAnswer": "don't",
+    "correctAnswer": "cold",
     "subject": "english",
     "grade": "2",
     "difficulty": "medium",
-    "explanation": "'Don't' is the contraction for 'do not'.",
-    "_cacheBreaker": "1755775531182_4"
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253397_2"
   },
   {
-    "_id": "english_2_medium_1755775531182_6",
-    "content": "Which word describes how something is done?",
+    "_id": "english_2_medium_003",
+    "content": "Which sentence is correct?",
     "type": "multiple_choice",
     "options": [
-      "cat",
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
+    ],
+    "correctAnswer": "I like dogs.",
+    "subject": "english",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253397_3"
+  },
+  {
+    "_id": "english_2_medium_004",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253397_4"
+  },
+  {
+    "_id": "english_2_medium_005",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253397_5"
+  },
+  {
+    "_id": "english_2_medium_006",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
       "run",
-      "slowly",
-      "red"
-    ],
-    "correctAnswer": "slowly",
-    "subject": "english",
-    "grade": "2",
-    "difficulty": "medium",
-    "explanation": "'Slowly' is an adverb that describes how an action is done.",
-    "_cacheBreaker": "1755775531182_5"
-  },
-  {
-    "_id": "english_2_medium_1755775531182_7",
-    "content": "Which word is a compound word?",
-    "type": "multiple_choice",
-    "options": [
-      "running",
-      "sunshine",
       "happy",
+      "table",
       "quickly"
     ],
-    "correctAnswer": "sunshine",
+    "correctAnswer": "table",
     "subject": "english",
     "grade": "2",
     "difficulty": "medium",
-    "explanation": "'Sunshine' is made of two words: 'sun' + 'shine'.",
-    "_cacheBreaker": "1755775531182_6"
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253397_6"
   },
   {
-    "_id": "english_2_medium_1755775531182_8",
-    "content": "What is the contraction for 'do not'?",
+    "_id": "english_2_medium_007",
+    "content": "What is the opposite of 'hot'?",
     "type": "multiple_choice",
     "options": [
-      "don't",
-      "doesn't",
-      "didn't",
-      "won't"
+      "warm",
+      "cold",
+      "cool",
+      "freezing"
     ],
-    "correctAnswer": "don't",
+    "correctAnswer": "cold",
     "subject": "english",
     "grade": "2",
     "difficulty": "medium",
-    "explanation": "'Don't' is the contraction for 'do not'.",
-    "_cacheBreaker": "1755775531182_7"
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253397_7"
   },
   {
-    "_id": "english_2_medium_1755775531182_9",
-    "content": "Which word describes how something is done?",
+    "_id": "english_2_medium_008",
+    "content": "Which sentence is correct?",
     "type": "multiple_choice",
     "options": [
-      "cat",
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
+    ],
+    "correctAnswer": "I like dogs.",
+    "subject": "english",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253397_8"
+  },
+  {
+    "_id": "english_2_medium_009",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253397_9"
+  },
+  {
+    "_id": "english_2_medium_010",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253397_10"
+  },
+  {
+    "_id": "english_2_medium_011",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
       "run",
-      "slowly",
-      "red"
-    ],
-    "correctAnswer": "slowly",
-    "subject": "english",
-    "grade": "2",
-    "difficulty": "medium",
-    "explanation": "'Slowly' is an adverb that describes how an action is done.",
-    "_cacheBreaker": "1755775531182_8"
-  },
-  {
-    "_id": "english_2_medium_1755775531182_10",
-    "content": "Which word is a compound word?",
-    "type": "multiple_choice",
-    "options": [
-      "running",
-      "sunshine",
       "happy",
+      "table",
       "quickly"
     ],
-    "correctAnswer": "sunshine",
+    "correctAnswer": "table",
     "subject": "english",
     "grade": "2",
     "difficulty": "medium",
-    "explanation": "'Sunshine' is made of two words: 'sun' + 'shine'.",
-    "_cacheBreaker": "1755775531182_9"
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253397_11"
   },
   {
-    "_id": "english_2_medium_1755775531182_11",
-    "content": "What is the contraction for 'do not'?",
+    "_id": "english_2_medium_012",
+    "content": "What is the opposite of 'hot'?",
     "type": "multiple_choice",
     "options": [
-      "don't",
-      "doesn't",
-      "didn't",
-      "won't"
+      "warm",
+      "cold",
+      "cool",
+      "freezing"
     ],
-    "correctAnswer": "don't",
+    "correctAnswer": "cold",
     "subject": "english",
     "grade": "2",
     "difficulty": "medium",
-    "explanation": "'Don't' is the contraction for 'do not'.",
-    "_cacheBreaker": "1755775531182_10"
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253397_12"
   },
   {
-    "_id": "english_2_medium_1755775531182_12",
-    "content": "Which word describes how something is done?",
+    "_id": "english_2_medium_013",
+    "content": "Which sentence is correct?",
     "type": "multiple_choice",
     "options": [
-      "cat",
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
+    ],
+    "correctAnswer": "I like dogs.",
+    "subject": "english",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253397_13"
+  },
+  {
+    "_id": "english_2_medium_014",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253397_14"
+  },
+  {
+    "_id": "english_2_medium_015",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253397_15"
+  },
+  {
+    "_id": "english_2_medium_016",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
       "run",
-      "slowly",
-      "red"
-    ],
-    "correctAnswer": "slowly",
-    "subject": "english",
-    "grade": "2",
-    "difficulty": "medium",
-    "explanation": "'Slowly' is an adverb that describes how an action is done.",
-    "_cacheBreaker": "1755775531182_11"
-  },
-  {
-    "_id": "english_2_medium_1755775531182_13",
-    "content": "Which word is a compound word?",
-    "type": "multiple_choice",
-    "options": [
-      "running",
-      "sunshine",
       "happy",
+      "table",
       "quickly"
     ],
-    "correctAnswer": "sunshine",
+    "correctAnswer": "table",
     "subject": "english",
     "grade": "2",
     "difficulty": "medium",
-    "explanation": "'Sunshine' is made of two words: 'sun' + 'shine'.",
-    "_cacheBreaker": "1755775531182_12"
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253397_16"
   },
   {
-    "_id": "english_2_medium_1755775531182_14",
-    "content": "What is the contraction for 'do not'?",
+    "_id": "english_2_medium_017",
+    "content": "What is the opposite of 'hot'?",
     "type": "multiple_choice",
     "options": [
-      "don't",
-      "doesn't",
-      "didn't",
-      "won't"
+      "warm",
+      "cold",
+      "cool",
+      "freezing"
     ],
-    "correctAnswer": "don't",
+    "correctAnswer": "cold",
     "subject": "english",
     "grade": "2",
     "difficulty": "medium",
-    "explanation": "'Don't' is the contraction for 'do not'.",
-    "_cacheBreaker": "1755775531182_13"
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253397_17"
   },
   {
-    "_id": "english_2_medium_1755775531182_15",
-    "content": "Which word describes how something is done?",
+    "_id": "english_2_medium_018",
+    "content": "Which sentence is correct?",
     "type": "multiple_choice",
     "options": [
-      "cat",
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
+    ],
+    "correctAnswer": "I like dogs.",
+    "subject": "english",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253397_18"
+  },
+  {
+    "_id": "english_2_medium_019",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253397_19"
+  },
+  {
+    "_id": "english_2_medium_020",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253397_20"
+  },
+  {
+    "_id": "english_2_medium_021",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
       "run",
-      "slowly",
-      "red"
-    ],
-    "correctAnswer": "slowly",
-    "subject": "english",
-    "grade": "2",
-    "difficulty": "medium",
-    "explanation": "'Slowly' is an adverb that describes how an action is done.",
-    "_cacheBreaker": "1755775531182_14"
-  },
-  {
-    "_id": "english_2_medium_1755775531182_16",
-    "content": "Which word is a compound word?",
-    "type": "multiple_choice",
-    "options": [
-      "running",
-      "sunshine",
       "happy",
+      "table",
       "quickly"
     ],
-    "correctAnswer": "sunshine",
+    "correctAnswer": "table",
     "subject": "english",
     "grade": "2",
     "difficulty": "medium",
-    "explanation": "'Sunshine' is made of two words: 'sun' + 'shine'.",
-    "_cacheBreaker": "1755775531182_15"
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253397_21"
   },
   {
-    "_id": "english_2_medium_1755775531182_17",
-    "content": "What is the contraction for 'do not'?",
+    "_id": "english_2_medium_022",
+    "content": "What is the opposite of 'hot'?",
     "type": "multiple_choice",
     "options": [
-      "don't",
-      "doesn't",
-      "didn't",
-      "won't"
+      "warm",
+      "cold",
+      "cool",
+      "freezing"
     ],
-    "correctAnswer": "don't",
+    "correctAnswer": "cold",
     "subject": "english",
     "grade": "2",
     "difficulty": "medium",
-    "explanation": "'Don't' is the contraction for 'do not'.",
-    "_cacheBreaker": "1755775531182_16"
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253397_22"
   },
   {
-    "_id": "english_2_medium_1755775531182_18",
-    "content": "Which word describes how something is done?",
+    "_id": "english_2_medium_023",
+    "content": "Which sentence is correct?",
     "type": "multiple_choice",
     "options": [
-      "cat",
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
+    ],
+    "correctAnswer": "I like dogs.",
+    "subject": "english",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253397_23"
+  },
+  {
+    "_id": "english_2_medium_024",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253397_24"
+  },
+  {
+    "_id": "english_2_medium_025",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253397_25"
+  },
+  {
+    "_id": "english_2_medium_026",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
       "run",
-      "slowly",
-      "red"
-    ],
-    "correctAnswer": "slowly",
-    "subject": "english",
-    "grade": "2",
-    "difficulty": "medium",
-    "explanation": "'Slowly' is an adverb that describes how an action is done.",
-    "_cacheBreaker": "1755775531182_17"
-  },
-  {
-    "_id": "english_2_medium_1755775531182_19",
-    "content": "Which word is a compound word?",
-    "type": "multiple_choice",
-    "options": [
-      "running",
-      "sunshine",
       "happy",
+      "table",
       "quickly"
     ],
-    "correctAnswer": "sunshine",
+    "correctAnswer": "table",
     "subject": "english",
     "grade": "2",
     "difficulty": "medium",
-    "explanation": "'Sunshine' is made of two words: 'sun' + 'shine'.",
-    "_cacheBreaker": "1755775531182_18"
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253397_26"
   },
   {
-    "_id": "english_2_medium_1755775531182_20",
-    "content": "What is the contraction for 'do not'?",
+    "_id": "english_2_medium_027",
+    "content": "What is the opposite of 'hot'?",
     "type": "multiple_choice",
     "options": [
-      "don't",
-      "doesn't",
-      "didn't",
-      "won't"
+      "warm",
+      "cold",
+      "cool",
+      "freezing"
     ],
-    "correctAnswer": "don't",
+    "correctAnswer": "cold",
     "subject": "english",
     "grade": "2",
     "difficulty": "medium",
-    "explanation": "'Don't' is the contraction for 'do not'.",
-    "_cacheBreaker": "1755775531182_19"
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253397_27"
+  },
+  {
+    "_id": "english_2_medium_028",
+    "content": "Which sentence is correct?",
+    "type": "multiple_choice",
+    "options": [
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
+    ],
+    "correctAnswer": "I like dogs.",
+    "subject": "english",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253397_28"
+  },
+  {
+    "_id": "english_2_medium_029",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253397_29"
+  },
+  {
+    "_id": "english_2_medium_030",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253397_30"
+  },
+  {
+    "_id": "english_2_medium_031",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
+      "run",
+      "happy",
+      "table",
+      "quickly"
+    ],
+    "correctAnswer": "table",
+    "subject": "english",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253397_31"
+  },
+  {
+    "_id": "english_2_medium_032",
+    "content": "What is the opposite of 'hot'?",
+    "type": "multiple_choice",
+    "options": [
+      "warm",
+      "cold",
+      "cool",
+      "freezing"
+    ],
+    "correctAnswer": "cold",
+    "subject": "english",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253397_32"
+  },
+  {
+    "_id": "english_2_medium_033",
+    "content": "Which sentence is correct?",
+    "type": "multiple_choice",
+    "options": [
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
+    ],
+    "correctAnswer": "I like dogs.",
+    "subject": "english",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253397_33"
+  },
+  {
+    "_id": "english_2_medium_034",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253397_34"
+  },
+  {
+    "_id": "english_2_medium_035",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253397_35"
+  },
+  {
+    "_id": "english_2_medium_036",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
+      "run",
+      "happy",
+      "table",
+      "quickly"
+    ],
+    "correctAnswer": "table",
+    "subject": "english",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253397_36"
+  },
+  {
+    "_id": "english_2_medium_037",
+    "content": "What is the opposite of 'hot'?",
+    "type": "multiple_choice",
+    "options": [
+      "warm",
+      "cold",
+      "cool",
+      "freezing"
+    ],
+    "correctAnswer": "cold",
+    "subject": "english",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253397_37"
+  },
+  {
+    "_id": "english_2_medium_038",
+    "content": "Which sentence is correct?",
+    "type": "multiple_choice",
+    "options": [
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
+    ],
+    "correctAnswer": "I like dogs.",
+    "subject": "english",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253397_38"
+  },
+  {
+    "_id": "english_2_medium_039",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253397_39"
+  },
+  {
+    "_id": "english_2_medium_040",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253397_40"
+  },
+  {
+    "_id": "english_2_medium_041",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
+      "run",
+      "happy",
+      "table",
+      "quickly"
+    ],
+    "correctAnswer": "table",
+    "subject": "english",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253397_41"
+  },
+  {
+    "_id": "english_2_medium_042",
+    "content": "What is the opposite of 'hot'?",
+    "type": "multiple_choice",
+    "options": [
+      "warm",
+      "cold",
+      "cool",
+      "freezing"
+    ],
+    "correctAnswer": "cold",
+    "subject": "english",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253397_42"
+  },
+  {
+    "_id": "english_2_medium_043",
+    "content": "Which sentence is correct?",
+    "type": "multiple_choice",
+    "options": [
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
+    ],
+    "correctAnswer": "I like dogs.",
+    "subject": "english",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253397_43"
+  },
+  {
+    "_id": "english_2_medium_044",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253397_44"
+  },
+  {
+    "_id": "english_2_medium_045",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253397_45"
+  },
+  {
+    "_id": "english_2_medium_046",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
+      "run",
+      "happy",
+      "table",
+      "quickly"
+    ],
+    "correctAnswer": "table",
+    "subject": "english",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253397_46"
+  },
+  {
+    "_id": "english_2_medium_047",
+    "content": "What is the opposite of 'hot'?",
+    "type": "multiple_choice",
+    "options": [
+      "warm",
+      "cold",
+      "cool",
+      "freezing"
+    ],
+    "correctAnswer": "cold",
+    "subject": "english",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253397_47"
+  },
+  {
+    "_id": "english_2_medium_048",
+    "content": "Which sentence is correct?",
+    "type": "multiple_choice",
+    "options": [
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
+    ],
+    "correctAnswer": "I like dogs.",
+    "subject": "english",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253397_48"
+  },
+  {
+    "_id": "english_2_medium_049",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253397_49"
+  },
+  {
+    "_id": "english_2_medium_050",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "2",
+    "difficulty": "medium",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253397_50"
   }
 ]

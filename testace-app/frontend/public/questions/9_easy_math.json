@@ -1,342 +1,852 @@
 [
   {
-    "_id": "easy9_1755260948241_001",
-    "content": "Factor: x² - 1",
-    "type": "multiple_choice",
-    "options": [
-      "(x - 1)²",
-      "(x + 1)²",
-      "(x - 1)(x + 1)",
-      "Cannot be factored"
-    ],
-    "correctAnswer": "(x - 1)(x + 1)",
-    "subject": "math",
-    "grade": "9",
-    "difficulty": "easy",
-    "explanation": "This is a difference of squares: a² - b² = (a - b)(a + b)",
-    "_cacheBreaker": "1755265388239_0"
-  },
-  {
-    "_id": "easy9_1755260948241_002",
+    "_id": "math_9_easy_001",
     "content": "Solve: x² = 25",
     "type": "multiple_choice",
     "options": [
       "x = 5",
       "x = ±5",
       "x = 25",
-      "x = ±25"
+      "x = 10"
     ],
     "correctAnswer": "x = ±5",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "Take square root of both sides: x = ±√25 = ±5",
-    "_cacheBreaker": "1755265388239_1"
+    "explanation": "x² = 25 means x = 5 or x = -5",
+    "_cacheBreaker": "1756033578425_1"
   },
   {
-    "_id": "easy9_1755260948241_003",
-    "content": "Find the vertex of y = x² - 4x + 3",
+    "_id": "math_9_easy_002",
+    "content": "What is the slope of the line y = 3x + 2?",
     "type": "multiple_choice",
     "options": [
-      "(2, -1)",
-      "(-2, 1)",
-      "(4, 3)",
-      "(-4, -3)"
+      "2",
+      "3",
+      "5",
+      "1"
     ],
-    "correctAnswer": "(2, -1)",
+    "correctAnswer": "3",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "x = -b/2a = 4/2 = 2, then y = (2)² - 4(2) + 3 = -1",
-    "_cacheBreaker": "1755265388239_2"
+    "explanation": "In y = mx + b form, m is the slope. Here m = 3",
+    "_cacheBreaker": "1756033578425_2"
   },
   {
-    "_id": "easy9_1755260948246_004",
-    "content": "Factor: x² - 1 (Question 4)",
+    "_id": "math_9_easy_003",
+    "content": "Factor: x² - 9",
     "type": "multiple_choice",
     "options": [
-      "(x - 1)²",
-      "(x + 1)²",
-      "(x - 1)(x + 1)",
-      "Cannot be factored"
+      "(x-3)(x-3)",
+      "(x+3)(x+3)",
+      "(x-3)(x+3)",
+      "x(x-9)"
     ],
-    "correctAnswer": "(x - 1)(x + 1)",
+    "correctAnswer": "(x-3)(x+3)",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "This is a difference of squares: a² - b² = (a - b)(a + b)",
-    "_cacheBreaker": "1755265388239_3"
+    "explanation": "x² - 9 is a difference of squares: (x-3)(x+3)",
+    "_cacheBreaker": "1756033578425_3"
   },
   {
-    "_id": "easy9_1755260948246_005",
-    "content": "Solve: x² = 25 (Question 5)",
+    "_id": "math_9_easy_004",
+    "content": "What is sin(30°)?",
+    "type": "multiple_choice",
+    "options": [
+      "1/2",
+      "√3/2",
+      "1",
+      "0"
+    ],
+    "correctAnswer": "1/2",
+    "subject": "math",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "sin(30°) = 1/2",
+    "_cacheBreaker": "1756033578425_4"
+  },
+  {
+    "_id": "math_9_easy_005",
+    "content": "Solve: 2x + 3 = 11",
+    "type": "multiple_choice",
+    "options": [
+      "x = 3",
+      "x = 4",
+      "x = 5",
+      "x = 6"
+    ],
+    "correctAnswer": "x = 4",
+    "subject": "math",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "2x = 11 - 3 = 8, so x = 4",
+    "_cacheBreaker": "1756033578425_5"
+  },
+  {
+    "_id": "math_9_easy_006",
+    "content": "Solve: x² = 25",
     "type": "multiple_choice",
     "options": [
       "x = 5",
       "x = ±5",
       "x = 25",
-      "x = ±25"
+      "x = 10"
     ],
     "correctAnswer": "x = ±5",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "Take square root of both sides: x = ±√25 = ±5",
-    "_cacheBreaker": "1755265388239_4"
+    "explanation": "x² = 25 means x = 5 or x = -5",
+    "_cacheBreaker": "1756033578425_6"
   },
   {
-    "_id": "easy9_1755260948246_006",
-    "content": "Find the vertex of y = x² - 4x + 3 (Question 6)",
+    "_id": "math_9_easy_007",
+    "content": "What is the slope of the line y = 3x + 2?",
     "type": "multiple_choice",
     "options": [
-      "(2, -1)",
-      "(-2, 1)",
-      "(4, 3)",
-      "(-4, -3)"
+      "2",
+      "3",
+      "5",
+      "1"
     ],
-    "correctAnswer": "(2, -1)",
+    "correctAnswer": "3",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "x = -b/2a = 4/2 = 2, then y = (2)² - 4(2) + 3 = -1",
-    "_cacheBreaker": "1755265388239_5"
+    "explanation": "In y = mx + b form, m is the slope. Here m = 3",
+    "_cacheBreaker": "1756033578425_7"
   },
   {
-    "_id": "easy9_1755260948246_007",
-    "content": "Factor: x² - 1 (Question 7)",
+    "_id": "math_9_easy_008",
+    "content": "Factor: x² - 9",
     "type": "multiple_choice",
     "options": [
-      "(x - 1)²",
-      "(x + 1)²",
-      "(x - 1)(x + 1)",
-      "Cannot be factored"
+      "(x-3)(x-3)",
+      "(x+3)(x+3)",
+      "(x-3)(x+3)",
+      "x(x-9)"
     ],
-    "correctAnswer": "(x - 1)(x + 1)",
+    "correctAnswer": "(x-3)(x+3)",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "This is a difference of squares: a² - b² = (a - b)(a + b)",
-    "_cacheBreaker": "1755265388239_6"
+    "explanation": "x² - 9 is a difference of squares: (x-3)(x+3)",
+    "_cacheBreaker": "1756033578425_8"
   },
   {
-    "_id": "easy9_1755260948246_008",
-    "content": "Solve: x² = 25 (Question 8)",
+    "_id": "math_9_easy_009",
+    "content": "What is sin(30°)?",
+    "type": "multiple_choice",
+    "options": [
+      "1/2",
+      "√3/2",
+      "1",
+      "0"
+    ],
+    "correctAnswer": "1/2",
+    "subject": "math",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "sin(30°) = 1/2",
+    "_cacheBreaker": "1756033578425_9"
+  },
+  {
+    "_id": "math_9_easy_010",
+    "content": "Solve: 2x + 3 = 11",
+    "type": "multiple_choice",
+    "options": [
+      "x = 3",
+      "x = 4",
+      "x = 5",
+      "x = 6"
+    ],
+    "correctAnswer": "x = 4",
+    "subject": "math",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "2x = 11 - 3 = 8, so x = 4",
+    "_cacheBreaker": "1756033578425_10"
+  },
+  {
+    "_id": "math_9_easy_011",
+    "content": "Solve: x² = 25",
     "type": "multiple_choice",
     "options": [
       "x = 5",
       "x = ±5",
       "x = 25",
-      "x = ±25"
+      "x = 10"
     ],
     "correctAnswer": "x = ±5",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "Take square root of both sides: x = ±√25 = ±5",
-    "_cacheBreaker": "1755265388239_7"
+    "explanation": "x² = 25 means x = 5 or x = -5",
+    "_cacheBreaker": "1756033578425_11"
   },
   {
-    "_id": "easy9_1755260948246_009",
-    "content": "Find the vertex of y = x² - 4x + 3 (Question 9)",
+    "_id": "math_9_easy_012",
+    "content": "What is the slope of the line y = 3x + 2?",
     "type": "multiple_choice",
     "options": [
-      "(2, -1)",
-      "(-2, 1)",
-      "(4, 3)",
-      "(-4, -3)"
+      "2",
+      "3",
+      "5",
+      "1"
     ],
-    "correctAnswer": "(2, -1)",
+    "correctAnswer": "3",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "x = -b/2a = 4/2 = 2, then y = (2)² - 4(2) + 3 = -1",
-    "_cacheBreaker": "1755265388239_8"
+    "explanation": "In y = mx + b form, m is the slope. Here m = 3",
+    "_cacheBreaker": "1756033578425_12"
   },
   {
-    "_id": "easy9_1755260948246_010",
-    "content": "Factor: x² - 1 (Question 10)",
+    "_id": "math_9_easy_013",
+    "content": "Factor: x² - 9",
     "type": "multiple_choice",
     "options": [
-      "(x - 1)²",
-      "(x + 1)²",
-      "(x - 1)(x + 1)",
-      "Cannot be factored"
+      "(x-3)(x-3)",
+      "(x+3)(x+3)",
+      "(x-3)(x+3)",
+      "x(x-9)"
     ],
-    "correctAnswer": "(x - 1)(x + 1)",
+    "correctAnswer": "(x-3)(x+3)",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "This is a difference of squares: a² - b² = (a - b)(a + b)",
-    "_cacheBreaker": "1755265388239_9"
+    "explanation": "x² - 9 is a difference of squares: (x-3)(x+3)",
+    "_cacheBreaker": "1756033578425_13"
   },
   {
-    "_id": "easy9_1755260948246_011",
-    "content": "Solve: x² = 25 (Question 11)",
+    "_id": "math_9_easy_014",
+    "content": "What is sin(30°)?",
+    "type": "multiple_choice",
+    "options": [
+      "1/2",
+      "√3/2",
+      "1",
+      "0"
+    ],
+    "correctAnswer": "1/2",
+    "subject": "math",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "sin(30°) = 1/2",
+    "_cacheBreaker": "1756033578425_14"
+  },
+  {
+    "_id": "math_9_easy_015",
+    "content": "Solve: 2x + 3 = 11",
+    "type": "multiple_choice",
+    "options": [
+      "x = 3",
+      "x = 4",
+      "x = 5",
+      "x = 6"
+    ],
+    "correctAnswer": "x = 4",
+    "subject": "math",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "2x = 11 - 3 = 8, so x = 4",
+    "_cacheBreaker": "1756033578425_15"
+  },
+  {
+    "_id": "math_9_easy_016",
+    "content": "Solve: x² = 25",
     "type": "multiple_choice",
     "options": [
       "x = 5",
       "x = ±5",
       "x = 25",
-      "x = ±25"
+      "x = 10"
     ],
     "correctAnswer": "x = ±5",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "Take square root of both sides: x = ±√25 = ±5",
-    "_cacheBreaker": "1755265388239_10"
+    "explanation": "x² = 25 means x = 5 or x = -5",
+    "_cacheBreaker": "1756033578425_16"
   },
   {
-    "_id": "easy9_1755260948246_012",
-    "content": "Find the vertex of y = x² - 4x + 3 (Question 12)",
+    "_id": "math_9_easy_017",
+    "content": "What is the slope of the line y = 3x + 2?",
     "type": "multiple_choice",
     "options": [
-      "(2, -1)",
-      "(-2, 1)",
-      "(4, 3)",
-      "(-4, -3)"
+      "2",
+      "3",
+      "5",
+      "1"
     ],
-    "correctAnswer": "(2, -1)",
+    "correctAnswer": "3",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "x = -b/2a = 4/2 = 2, then y = (2)² - 4(2) + 3 = -1",
-    "_cacheBreaker": "1755265388239_11"
+    "explanation": "In y = mx + b form, m is the slope. Here m = 3",
+    "_cacheBreaker": "1756033578425_17"
   },
   {
-    "_id": "easy9_1755260948246_013",
-    "content": "Factor: x² - 1 (Question 13)",
+    "_id": "math_9_easy_018",
+    "content": "Factor: x² - 9",
     "type": "multiple_choice",
     "options": [
-      "(x - 1)²",
-      "(x + 1)²",
-      "(x - 1)(x + 1)",
-      "Cannot be factored"
+      "(x-3)(x-3)",
+      "(x+3)(x+3)",
+      "(x-3)(x+3)",
+      "x(x-9)"
     ],
-    "correctAnswer": "(x - 1)(x + 1)",
+    "correctAnswer": "(x-3)(x+3)",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "This is a difference of squares: a² - b² = (a - b)(a + b)",
-    "_cacheBreaker": "1755265388239_12"
+    "explanation": "x² - 9 is a difference of squares: (x-3)(x+3)",
+    "_cacheBreaker": "1756033578425_18"
   },
   {
-    "_id": "easy9_1755260948246_014",
-    "content": "Solve: x² = 25 (Question 14)",
+    "_id": "math_9_easy_019",
+    "content": "What is sin(30°)?",
+    "type": "multiple_choice",
+    "options": [
+      "1/2",
+      "√3/2",
+      "1",
+      "0"
+    ],
+    "correctAnswer": "1/2",
+    "subject": "math",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "sin(30°) = 1/2",
+    "_cacheBreaker": "1756033578425_19"
+  },
+  {
+    "_id": "math_9_easy_020",
+    "content": "Solve: 2x + 3 = 11",
+    "type": "multiple_choice",
+    "options": [
+      "x = 3",
+      "x = 4",
+      "x = 5",
+      "x = 6"
+    ],
+    "correctAnswer": "x = 4",
+    "subject": "math",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "2x = 11 - 3 = 8, so x = 4",
+    "_cacheBreaker": "1756033578425_20"
+  },
+  {
+    "_id": "math_9_easy_021",
+    "content": "Solve: x² = 25",
     "type": "multiple_choice",
     "options": [
       "x = 5",
       "x = ±5",
       "x = 25",
-      "x = ±25"
+      "x = 10"
     ],
     "correctAnswer": "x = ±5",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "Take square root of both sides: x = ±√25 = ±5",
-    "_cacheBreaker": "1755265388239_13"
+    "explanation": "x² = 25 means x = 5 or x = -5",
+    "_cacheBreaker": "1756033578425_21"
   },
   {
-    "_id": "easy9_1755260948246_015",
-    "content": "Find the vertex of y = x² - 4x + 3 (Question 15)",
+    "_id": "math_9_easy_022",
+    "content": "What is the slope of the line y = 3x + 2?",
     "type": "multiple_choice",
     "options": [
-      "(2, -1)",
-      "(-2, 1)",
-      "(4, 3)",
-      "(-4, -3)"
+      "2",
+      "3",
+      "5",
+      "1"
     ],
-    "correctAnswer": "(2, -1)",
+    "correctAnswer": "3",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "x = -b/2a = 4/2 = 2, then y = (2)² - 4(2) + 3 = -1",
-    "_cacheBreaker": "1755265388239_14"
+    "explanation": "In y = mx + b form, m is the slope. Here m = 3",
+    "_cacheBreaker": "1756033578425_22"
   },
   {
-    "_id": "easy9_1755260948246_016",
-    "content": "Factor: x² - 1 (Question 16)",
+    "_id": "math_9_easy_023",
+    "content": "Factor: x² - 9",
     "type": "multiple_choice",
     "options": [
-      "(x - 1)²",
-      "(x + 1)²",
-      "(x - 1)(x + 1)",
-      "Cannot be factored"
+      "(x-3)(x-3)",
+      "(x+3)(x+3)",
+      "(x-3)(x+3)",
+      "x(x-9)"
     ],
-    "correctAnswer": "(x - 1)(x + 1)",
+    "correctAnswer": "(x-3)(x+3)",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "This is a difference of squares: a² - b² = (a - b)(a + b)",
-    "_cacheBreaker": "1755265388239_15"
+    "explanation": "x² - 9 is a difference of squares: (x-3)(x+3)",
+    "_cacheBreaker": "1756033578425_23"
   },
   {
-    "_id": "easy9_1755260948246_017",
-    "content": "Solve: x² = 25 (Question 17)",
+    "_id": "math_9_easy_024",
+    "content": "What is sin(30°)?",
+    "type": "multiple_choice",
+    "options": [
+      "1/2",
+      "√3/2",
+      "1",
+      "0"
+    ],
+    "correctAnswer": "1/2",
+    "subject": "math",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "sin(30°) = 1/2",
+    "_cacheBreaker": "1756033578425_24"
+  },
+  {
+    "_id": "math_9_easy_025",
+    "content": "Solve: 2x + 3 = 11",
+    "type": "multiple_choice",
+    "options": [
+      "x = 3",
+      "x = 4",
+      "x = 5",
+      "x = 6"
+    ],
+    "correctAnswer": "x = 4",
+    "subject": "math",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "2x = 11 - 3 = 8, so x = 4",
+    "_cacheBreaker": "1756033578425_25"
+  },
+  {
+    "_id": "math_9_easy_026",
+    "content": "Solve: x² = 25",
     "type": "multiple_choice",
     "options": [
       "x = 5",
       "x = ±5",
       "x = 25",
-      "x = ±25"
+      "x = 10"
     ],
     "correctAnswer": "x = ±5",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "Take square root of both sides: x = ±√25 = ±5",
-    "_cacheBreaker": "1755265388239_16"
+    "explanation": "x² = 25 means x = 5 or x = -5",
+    "_cacheBreaker": "1756033578425_26"
   },
   {
-    "_id": "easy9_1755260948246_018",
-    "content": "Find the vertex of y = x² - 4x + 3 (Question 18)",
+    "_id": "math_9_easy_027",
+    "content": "What is the slope of the line y = 3x + 2?",
     "type": "multiple_choice",
     "options": [
-      "(2, -1)",
-      "(-2, 1)",
-      "(4, 3)",
-      "(-4, -3)"
+      "2",
+      "3",
+      "5",
+      "1"
     ],
-    "correctAnswer": "(2, -1)",
+    "correctAnswer": "3",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "x = -b/2a = 4/2 = 2, then y = (2)² - 4(2) + 3 = -1",
-    "_cacheBreaker": "1755265388239_17"
+    "explanation": "In y = mx + b form, m is the slope. Here m = 3",
+    "_cacheBreaker": "1756033578425_27"
   },
   {
-    "_id": "easy9_1755260948246_019",
-    "content": "Factor: x² - 1 (Question 19)",
+    "_id": "math_9_easy_028",
+    "content": "Factor: x² - 9",
     "type": "multiple_choice",
     "options": [
-      "(x - 1)²",
-      "(x + 1)²",
-      "(x - 1)(x + 1)",
-      "Cannot be factored"
+      "(x-3)(x-3)",
+      "(x+3)(x+3)",
+      "(x-3)(x+3)",
+      "x(x-9)"
     ],
-    "correctAnswer": "(x - 1)(x + 1)",
+    "correctAnswer": "(x-3)(x+3)",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "This is a difference of squares: a² - b² = (a - b)(a + b)",
-    "_cacheBreaker": "1755265388239_18"
+    "explanation": "x² - 9 is a difference of squares: (x-3)(x+3)",
+    "_cacheBreaker": "1756033578425_28"
   },
   {
-    "_id": "easy9_1755260948246_020",
-    "content": "Solve: x² = 25 (Question 20)",
+    "_id": "math_9_easy_029",
+    "content": "What is sin(30°)?",
+    "type": "multiple_choice",
+    "options": [
+      "1/2",
+      "√3/2",
+      "1",
+      "0"
+    ],
+    "correctAnswer": "1/2",
+    "subject": "math",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "sin(30°) = 1/2",
+    "_cacheBreaker": "1756033578425_29"
+  },
+  {
+    "_id": "math_9_easy_030",
+    "content": "Solve: 2x + 3 = 11",
+    "type": "multiple_choice",
+    "options": [
+      "x = 3",
+      "x = 4",
+      "x = 5",
+      "x = 6"
+    ],
+    "correctAnswer": "x = 4",
+    "subject": "math",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "2x = 11 - 3 = 8, so x = 4",
+    "_cacheBreaker": "1756033578425_30"
+  },
+  {
+    "_id": "math_9_easy_031",
+    "content": "Solve: x² = 25",
     "type": "multiple_choice",
     "options": [
       "x = 5",
       "x = ±5",
       "x = 25",
-      "x = ±25"
+      "x = 10"
     ],
     "correctAnswer": "x = ±5",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "Take square root of both sides: x = ±√25 = ±5",
-    "_cacheBreaker": "1755265388239_19"
+    "explanation": "x² = 25 means x = 5 or x = -5",
+    "_cacheBreaker": "1756033578425_31"
+  },
+  {
+    "_id": "math_9_easy_032",
+    "content": "What is the slope of the line y = 3x + 2?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "3",
+      "5",
+      "1"
+    ],
+    "correctAnswer": "3",
+    "subject": "math",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "In y = mx + b form, m is the slope. Here m = 3",
+    "_cacheBreaker": "1756033578425_32"
+  },
+  {
+    "_id": "math_9_easy_033",
+    "content": "Factor: x² - 9",
+    "type": "multiple_choice",
+    "options": [
+      "(x-3)(x-3)",
+      "(x+3)(x+3)",
+      "(x-3)(x+3)",
+      "x(x-9)"
+    ],
+    "correctAnswer": "(x-3)(x+3)",
+    "subject": "math",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "x² - 9 is a difference of squares: (x-3)(x+3)",
+    "_cacheBreaker": "1756033578425_33"
+  },
+  {
+    "_id": "math_9_easy_034",
+    "content": "What is sin(30°)?",
+    "type": "multiple_choice",
+    "options": [
+      "1/2",
+      "√3/2",
+      "1",
+      "0"
+    ],
+    "correctAnswer": "1/2",
+    "subject": "math",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "sin(30°) = 1/2",
+    "_cacheBreaker": "1756033578425_34"
+  },
+  {
+    "_id": "math_9_easy_035",
+    "content": "Solve: 2x + 3 = 11",
+    "type": "multiple_choice",
+    "options": [
+      "x = 3",
+      "x = 4",
+      "x = 5",
+      "x = 6"
+    ],
+    "correctAnswer": "x = 4",
+    "subject": "math",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "2x = 11 - 3 = 8, so x = 4",
+    "_cacheBreaker": "1756033578425_35"
+  },
+  {
+    "_id": "math_9_easy_036",
+    "content": "Solve: x² = 25",
+    "type": "multiple_choice",
+    "options": [
+      "x = 5",
+      "x = ±5",
+      "x = 25",
+      "x = 10"
+    ],
+    "correctAnswer": "x = ±5",
+    "subject": "math",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "x² = 25 means x = 5 or x = -5",
+    "_cacheBreaker": "1756033578425_36"
+  },
+  {
+    "_id": "math_9_easy_037",
+    "content": "What is the slope of the line y = 3x + 2?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "3",
+      "5",
+      "1"
+    ],
+    "correctAnswer": "3",
+    "subject": "math",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "In y = mx + b form, m is the slope. Here m = 3",
+    "_cacheBreaker": "1756033578425_37"
+  },
+  {
+    "_id": "math_9_easy_038",
+    "content": "Factor: x² - 9",
+    "type": "multiple_choice",
+    "options": [
+      "(x-3)(x-3)",
+      "(x+3)(x+3)",
+      "(x-3)(x+3)",
+      "x(x-9)"
+    ],
+    "correctAnswer": "(x-3)(x+3)",
+    "subject": "math",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "x² - 9 is a difference of squares: (x-3)(x+3)",
+    "_cacheBreaker": "1756033578425_38"
+  },
+  {
+    "_id": "math_9_easy_039",
+    "content": "What is sin(30°)?",
+    "type": "multiple_choice",
+    "options": [
+      "1/2",
+      "√3/2",
+      "1",
+      "0"
+    ],
+    "correctAnswer": "1/2",
+    "subject": "math",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "sin(30°) = 1/2",
+    "_cacheBreaker": "1756033578425_39"
+  },
+  {
+    "_id": "math_9_easy_040",
+    "content": "Solve: 2x + 3 = 11",
+    "type": "multiple_choice",
+    "options": [
+      "x = 3",
+      "x = 4",
+      "x = 5",
+      "x = 6"
+    ],
+    "correctAnswer": "x = 4",
+    "subject": "math",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "2x = 11 - 3 = 8, so x = 4",
+    "_cacheBreaker": "1756033578425_40"
+  },
+  {
+    "_id": "math_9_easy_041",
+    "content": "Solve: x² = 25",
+    "type": "multiple_choice",
+    "options": [
+      "x = 5",
+      "x = ±5",
+      "x = 25",
+      "x = 10"
+    ],
+    "correctAnswer": "x = ±5",
+    "subject": "math",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "x² = 25 means x = 5 or x = -5",
+    "_cacheBreaker": "1756033578425_41"
+  },
+  {
+    "_id": "math_9_easy_042",
+    "content": "What is the slope of the line y = 3x + 2?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "3",
+      "5",
+      "1"
+    ],
+    "correctAnswer": "3",
+    "subject": "math",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "In y = mx + b form, m is the slope. Here m = 3",
+    "_cacheBreaker": "1756033578425_42"
+  },
+  {
+    "_id": "math_9_easy_043",
+    "content": "Factor: x² - 9",
+    "type": "multiple_choice",
+    "options": [
+      "(x-3)(x-3)",
+      "(x+3)(x+3)",
+      "(x-3)(x+3)",
+      "x(x-9)"
+    ],
+    "correctAnswer": "(x-3)(x+3)",
+    "subject": "math",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "x² - 9 is a difference of squares: (x-3)(x+3)",
+    "_cacheBreaker": "1756033578425_43"
+  },
+  {
+    "_id": "math_9_easy_044",
+    "content": "What is sin(30°)?",
+    "type": "multiple_choice",
+    "options": [
+      "1/2",
+      "√3/2",
+      "1",
+      "0"
+    ],
+    "correctAnswer": "1/2",
+    "subject": "math",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "sin(30°) = 1/2",
+    "_cacheBreaker": "1756033578425_44"
+  },
+  {
+    "_id": "math_9_easy_045",
+    "content": "Solve: 2x + 3 = 11",
+    "type": "multiple_choice",
+    "options": [
+      "x = 3",
+      "x = 4",
+      "x = 5",
+      "x = 6"
+    ],
+    "correctAnswer": "x = 4",
+    "subject": "math",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "2x = 11 - 3 = 8, so x = 4",
+    "_cacheBreaker": "1756033578425_45"
+  },
+  {
+    "_id": "math_9_easy_046",
+    "content": "Solve: x² = 25",
+    "type": "multiple_choice",
+    "options": [
+      "x = 5",
+      "x = ±5",
+      "x = 25",
+      "x = 10"
+    ],
+    "correctAnswer": "x = ±5",
+    "subject": "math",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "x² = 25 means x = 5 or x = -5",
+    "_cacheBreaker": "1756033578425_46"
+  },
+  {
+    "_id": "math_9_easy_047",
+    "content": "What is the slope of the line y = 3x + 2?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "3",
+      "5",
+      "1"
+    ],
+    "correctAnswer": "3",
+    "subject": "math",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "In y = mx + b form, m is the slope. Here m = 3",
+    "_cacheBreaker": "1756033578425_47"
+  },
+  {
+    "_id": "math_9_easy_048",
+    "content": "Factor: x² - 9",
+    "type": "multiple_choice",
+    "options": [
+      "(x-3)(x-3)",
+      "(x+3)(x+3)",
+      "(x-3)(x+3)",
+      "x(x-9)"
+    ],
+    "correctAnswer": "(x-3)(x+3)",
+    "subject": "math",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "x² - 9 is a difference of squares: (x-3)(x+3)",
+    "_cacheBreaker": "1756033578425_48"
+  },
+  {
+    "_id": "math_9_easy_049",
+    "content": "What is sin(30°)?",
+    "type": "multiple_choice",
+    "options": [
+      "1/2",
+      "√3/2",
+      "1",
+      "0"
+    ],
+    "correctAnswer": "1/2",
+    "subject": "math",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "sin(30°) = 1/2",
+    "_cacheBreaker": "1756033578425_49"
+  },
+  {
+    "_id": "math_9_easy_050",
+    "content": "Solve: 2x + 3 = 11",
+    "type": "multiple_choice",
+    "options": [
+      "x = 3",
+      "x = 4",
+      "x = 5",
+      "x = 6"
+    ],
+    "correctAnswer": "x = 4",
+    "subject": "math",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "2x = 11 - 3 = 8, so x = 4",
+    "_cacheBreaker": "1756033578425_50"
   }
 ]

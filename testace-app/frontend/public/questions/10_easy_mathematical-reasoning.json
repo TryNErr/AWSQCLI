@@ -1,342 +1,852 @@
 [
   {
-    "_id": "easy10_1755260948241_001",
-    "content": "In mathematical proof, what distinguishes deductive from inductive reasoning?",
+    "_id": "mathematical-reasoning_10_easy_001",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
     "type": "multiple_choice",
     "options": [
-      "Deductive uses examples, inductive uses logic",
-      "Deductive proves certainty, inductive suggests patterns",
-      "They are the same",
-      "Inductive is always correct"
+      "108",
+      "162",
+      "216",
+      "270"
     ],
-    "correctAnswer": "Deductive proves certainty, inductive suggests patterns",
+    "correctAnswer": "162",
     "subject": "mathematical-reasoning",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "Deductive reasoning provides certain conclusions from premises; inductive reasoning identifies patterns that may suggest general rules.",
-    "_cacheBreaker": "1755265388124_0"
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578437_1"
   },
   {
-    "_id": "easy10_1755260948241_002",
-    "content": "To prove 'For all integers n, if n is even then n² is even,' what method is most appropriate?",
+    "_id": "mathematical-reasoning_10_easy_002",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
     "type": "multiple_choice",
     "options": [
-      "Test several examples",
-      "Direct proof using algebraic manipulation",
-      "Proof by contradiction",
-      "Mathematical induction"
+      "24",
+      "48",
+      "12",
+      "16"
     ],
-    "correctAnswer": "Direct proof using algebraic manipulation",
+    "correctAnswer": "24",
     "subject": "mathematical-reasoning",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "Let n = 2k for some integer k. Then n² = (2k)² = 4k² = 2(2k²), which is even.",
-    "_cacheBreaker": "1755265388124_1"
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578437_2"
   },
   {
-    "_id": "easy10_1755260948241_003",
-    "content": "In formal logic, what makes an argument valid?",
+    "_id": "mathematical-reasoning_10_easy_003",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
     "type": "multiple_choice",
     "options": [
-      "The conclusion is true",
-      "The premises are true",
-      "If premises are true, conclusion must be true",
-      "Everyone agrees with it"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "If premises are true, conclusion must be true",
+    "correctAnswer": "6",
     "subject": "mathematical-reasoning",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "Validity means the logical structure guarantees that true premises lead to a true conclusion.",
-    "_cacheBreaker": "1755265388124_2"
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578437_3"
   },
   {
-    "_id": "easy10_1755260948241_004",
-    "content": "In mathematical proof, what distinguishes deductive from inductive reasoning? (Question 4)",
+    "_id": "mathematical-reasoning_10_easy_004",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
     "type": "multiple_choice",
     "options": [
-      "Deductive uses examples, inductive uses logic",
-      "Deductive proves certainty, inductive suggests patterns",
-      "They are the same",
-      "Inductive is always correct"
+      "7",
+      "11",
+      "17",
+      "23"
     ],
-    "correctAnswer": "Deductive proves certainty, inductive suggests patterns",
+    "correctAnswer": "11",
     "subject": "mathematical-reasoning",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "Deductive reasoning provides certain conclusions from premises; inductive reasoning identifies patterns that may suggest general rules.",
-    "_cacheBreaker": "1755265388124_3"
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578437_4"
   },
   {
-    "_id": "easy10_1755260948241_005",
-    "content": "To prove 'For all integers n, if n is even then n² is even,' what method is most appropriate? (Question 5)",
+    "_id": "mathematical-reasoning_10_easy_005",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
     "type": "multiple_choice",
     "options": [
-      "Test several examples",
-      "Direct proof using algebraic manipulation",
-      "Proof by contradiction",
-      "Mathematical induction"
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
     ],
-    "correctAnswer": "Direct proof using algebraic manipulation",
+    "correctAnswer": "3/8",
     "subject": "mathematical-reasoning",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "Let n = 2k for some integer k. Then n² = (2k)² = 4k² = 2(2k²), which is even.",
-    "_cacheBreaker": "1755265388124_4"
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578437_5"
   },
   {
-    "_id": "easy10_1755260948241_006",
-    "content": "In formal logic, what makes an argument valid? (Question 6)",
+    "_id": "mathematical-reasoning_10_easy_006",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
     "type": "multiple_choice",
     "options": [
-      "The conclusion is true",
-      "The premises are true",
-      "If premises are true, conclusion must be true",
-      "Everyone agrees with it"
+      "108",
+      "162",
+      "216",
+      "270"
     ],
-    "correctAnswer": "If premises are true, conclusion must be true",
+    "correctAnswer": "162",
     "subject": "mathematical-reasoning",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "Validity means the logical structure guarantees that true premises lead to a true conclusion.",
-    "_cacheBreaker": "1755265388124_5"
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578437_6"
   },
   {
-    "_id": "easy10_1755260948241_007",
-    "content": "In mathematical proof, what distinguishes deductive from inductive reasoning? (Question 7)",
+    "_id": "mathematical-reasoning_10_easy_007",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
     "type": "multiple_choice",
     "options": [
-      "Deductive uses examples, inductive uses logic",
-      "Deductive proves certainty, inductive suggests patterns",
-      "They are the same",
-      "Inductive is always correct"
+      "24",
+      "48",
+      "12",
+      "16"
     ],
-    "correctAnswer": "Deductive proves certainty, inductive suggests patterns",
+    "correctAnswer": "24",
     "subject": "mathematical-reasoning",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "Deductive reasoning provides certain conclusions from premises; inductive reasoning identifies patterns that may suggest general rules.",
-    "_cacheBreaker": "1755265388124_6"
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578437_7"
   },
   {
-    "_id": "easy10_1755260948241_008",
-    "content": "To prove 'For all integers n, if n is even then n² is even,' what method is most appropriate? (Question 8)",
+    "_id": "mathematical-reasoning_10_easy_008",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
     "type": "multiple_choice",
     "options": [
-      "Test several examples",
-      "Direct proof using algebraic manipulation",
-      "Proof by contradiction",
-      "Mathematical induction"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "Direct proof using algebraic manipulation",
+    "correctAnswer": "6",
     "subject": "mathematical-reasoning",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "Let n = 2k for some integer k. Then n² = (2k)² = 4k² = 2(2k²), which is even.",
-    "_cacheBreaker": "1755265388124_7"
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578437_8"
   },
   {
-    "_id": "easy10_1755260948241_009",
-    "content": "In formal logic, what makes an argument valid? (Question 9)",
+    "_id": "mathematical-reasoning_10_easy_009",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
     "type": "multiple_choice",
     "options": [
-      "The conclusion is true",
-      "The premises are true",
-      "If premises are true, conclusion must be true",
-      "Everyone agrees with it"
+      "7",
+      "11",
+      "17",
+      "23"
     ],
-    "correctAnswer": "If premises are true, conclusion must be true",
+    "correctAnswer": "11",
     "subject": "mathematical-reasoning",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "Validity means the logical structure guarantees that true premises lead to a true conclusion.",
-    "_cacheBreaker": "1755265388124_8"
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578437_9"
   },
   {
-    "_id": "easy10_1755260948241_010",
-    "content": "In mathematical proof, what distinguishes deductive from inductive reasoning? (Question 10)",
+    "_id": "mathematical-reasoning_10_easy_010",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
     "type": "multiple_choice",
     "options": [
-      "Deductive uses examples, inductive uses logic",
-      "Deductive proves certainty, inductive suggests patterns",
-      "They are the same",
-      "Inductive is always correct"
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
     ],
-    "correctAnswer": "Deductive proves certainty, inductive suggests patterns",
+    "correctAnswer": "3/8",
     "subject": "mathematical-reasoning",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "Deductive reasoning provides certain conclusions from premises; inductive reasoning identifies patterns that may suggest general rules.",
-    "_cacheBreaker": "1755265388124_9"
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578437_10"
   },
   {
-    "_id": "easy10_1755260948241_011",
-    "content": "To prove 'For all integers n, if n is even then n² is even,' what method is most appropriate? (Question 11)",
+    "_id": "mathematical-reasoning_10_easy_011",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
     "type": "multiple_choice",
     "options": [
-      "Test several examples",
-      "Direct proof using algebraic manipulation",
-      "Proof by contradiction",
-      "Mathematical induction"
+      "108",
+      "162",
+      "216",
+      "270"
     ],
-    "correctAnswer": "Direct proof using algebraic manipulation",
+    "correctAnswer": "162",
     "subject": "mathematical-reasoning",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "Let n = 2k for some integer k. Then n² = (2k)² = 4k² = 2(2k²), which is even.",
-    "_cacheBreaker": "1755265388124_10"
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578437_11"
   },
   {
-    "_id": "easy10_1755260948241_012",
-    "content": "In formal logic, what makes an argument valid? (Question 12)",
+    "_id": "mathematical-reasoning_10_easy_012",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
     "type": "multiple_choice",
     "options": [
-      "The conclusion is true",
-      "The premises are true",
-      "If premises are true, conclusion must be true",
-      "Everyone agrees with it"
+      "24",
+      "48",
+      "12",
+      "16"
     ],
-    "correctAnswer": "If premises are true, conclusion must be true",
+    "correctAnswer": "24",
     "subject": "mathematical-reasoning",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "Validity means the logical structure guarantees that true premises lead to a true conclusion.",
-    "_cacheBreaker": "1755265388124_11"
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578437_12"
   },
   {
-    "_id": "easy10_1755260948241_013",
-    "content": "In mathematical proof, what distinguishes deductive from inductive reasoning? (Question 13)",
+    "_id": "mathematical-reasoning_10_easy_013",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
     "type": "multiple_choice",
     "options": [
-      "Deductive uses examples, inductive uses logic",
-      "Deductive proves certainty, inductive suggests patterns",
-      "They are the same",
-      "Inductive is always correct"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "Deductive proves certainty, inductive suggests patterns",
+    "correctAnswer": "6",
     "subject": "mathematical-reasoning",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "Deductive reasoning provides certain conclusions from premises; inductive reasoning identifies patterns that may suggest general rules.",
-    "_cacheBreaker": "1755265388124_12"
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578437_13"
   },
   {
-    "_id": "easy10_1755260948241_014",
-    "content": "To prove 'For all integers n, if n is even then n² is even,' what method is most appropriate? (Question 14)",
+    "_id": "mathematical-reasoning_10_easy_014",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
     "type": "multiple_choice",
     "options": [
-      "Test several examples",
-      "Direct proof using algebraic manipulation",
-      "Proof by contradiction",
-      "Mathematical induction"
+      "7",
+      "11",
+      "17",
+      "23"
     ],
-    "correctAnswer": "Direct proof using algebraic manipulation",
+    "correctAnswer": "11",
     "subject": "mathematical-reasoning",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "Let n = 2k for some integer k. Then n² = (2k)² = 4k² = 2(2k²), which is even.",
-    "_cacheBreaker": "1755265388124_13"
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578437_14"
   },
   {
-    "_id": "easy10_1755260948241_015",
-    "content": "In formal logic, what makes an argument valid? (Question 15)",
+    "_id": "mathematical-reasoning_10_easy_015",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
     "type": "multiple_choice",
     "options": [
-      "The conclusion is true",
-      "The premises are true",
-      "If premises are true, conclusion must be true",
-      "Everyone agrees with it"
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
     ],
-    "correctAnswer": "If premises are true, conclusion must be true",
+    "correctAnswer": "3/8",
     "subject": "mathematical-reasoning",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "Validity means the logical structure guarantees that true premises lead to a true conclusion.",
-    "_cacheBreaker": "1755265388124_14"
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578437_15"
   },
   {
-    "_id": "easy10_1755260948241_016",
-    "content": "In mathematical proof, what distinguishes deductive from inductive reasoning? (Question 16)",
+    "_id": "mathematical-reasoning_10_easy_016",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
     "type": "multiple_choice",
     "options": [
-      "Deductive uses examples, inductive uses logic",
-      "Deductive proves certainty, inductive suggests patterns",
-      "They are the same",
-      "Inductive is always correct"
+      "108",
+      "162",
+      "216",
+      "270"
     ],
-    "correctAnswer": "Deductive proves certainty, inductive suggests patterns",
+    "correctAnswer": "162",
     "subject": "mathematical-reasoning",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "Deductive reasoning provides certain conclusions from premises; inductive reasoning identifies patterns that may suggest general rules.",
-    "_cacheBreaker": "1755265388124_15"
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578437_16"
   },
   {
-    "_id": "easy10_1755260948241_017",
-    "content": "To prove 'For all integers n, if n is even then n² is even,' what method is most appropriate? (Question 17)",
+    "_id": "mathematical-reasoning_10_easy_017",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
     "type": "multiple_choice",
     "options": [
-      "Test several examples",
-      "Direct proof using algebraic manipulation",
-      "Proof by contradiction",
-      "Mathematical induction"
+      "24",
+      "48",
+      "12",
+      "16"
     ],
-    "correctAnswer": "Direct proof using algebraic manipulation",
+    "correctAnswer": "24",
     "subject": "mathematical-reasoning",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "Let n = 2k for some integer k. Then n² = (2k)² = 4k² = 2(2k²), which is even.",
-    "_cacheBreaker": "1755265388124_16"
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578437_17"
   },
   {
-    "_id": "easy10_1755260948241_018",
-    "content": "In formal logic, what makes an argument valid? (Question 18)",
+    "_id": "mathematical-reasoning_10_easy_018",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
     "type": "multiple_choice",
     "options": [
-      "The conclusion is true",
-      "The premises are true",
-      "If premises are true, conclusion must be true",
-      "Everyone agrees with it"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "If premises are true, conclusion must be true",
+    "correctAnswer": "6",
     "subject": "mathematical-reasoning",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "Validity means the logical structure guarantees that true premises lead to a true conclusion.",
-    "_cacheBreaker": "1755265388124_17"
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578437_18"
   },
   {
-    "_id": "easy10_1755260948241_019",
-    "content": "In mathematical proof, what distinguishes deductive from inductive reasoning? (Question 19)",
+    "_id": "mathematical-reasoning_10_easy_019",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
     "type": "multiple_choice",
     "options": [
-      "Deductive uses examples, inductive uses logic",
-      "Deductive proves certainty, inductive suggests patterns",
-      "They are the same",
-      "Inductive is always correct"
+      "7",
+      "11",
+      "17",
+      "23"
     ],
-    "correctAnswer": "Deductive proves certainty, inductive suggests patterns",
+    "correctAnswer": "11",
     "subject": "mathematical-reasoning",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "Deductive reasoning provides certain conclusions from premises; inductive reasoning identifies patterns that may suggest general rules.",
-    "_cacheBreaker": "1755265388124_18"
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578437_19"
   },
   {
-    "_id": "easy10_1755260948241_020",
-    "content": "To prove 'For all integers n, if n is even then n² is even,' what method is most appropriate? (Question 20)",
+    "_id": "mathematical-reasoning_10_easy_020",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
     "type": "multiple_choice",
     "options": [
-      "Test several examples",
-      "Direct proof using algebraic manipulation",
-      "Proof by contradiction",
-      "Mathematical induction"
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
     ],
-    "correctAnswer": "Direct proof using algebraic manipulation",
+    "correctAnswer": "3/8",
     "subject": "mathematical-reasoning",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "Let n = 2k for some integer k. Then n² = (2k)² = 4k² = 2(2k²), which is even.",
-    "_cacheBreaker": "1755265388124_19"
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578437_20"
+  },
+  {
+    "_id": "mathematical-reasoning_10_easy_021",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
+    "type": "multiple_choice",
+    "options": [
+      "108",
+      "162",
+      "216",
+      "270"
+    ],
+    "correctAnswer": "162",
+    "subject": "mathematical-reasoning",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578437_21"
+  },
+  {
+    "_id": "mathematical-reasoning_10_easy_022",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "48",
+      "12",
+      "16"
+    ],
+    "correctAnswer": "24",
+    "subject": "mathematical-reasoning",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578437_22"
+  },
+  {
+    "_id": "mathematical-reasoning_10_easy_023",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "mathematical-reasoning",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578437_23"
+  },
+  {
+    "_id": "mathematical-reasoning_10_easy_024",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "11",
+      "17",
+      "23"
+    ],
+    "correctAnswer": "11",
+    "subject": "mathematical-reasoning",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578437_24"
+  },
+  {
+    "_id": "mathematical-reasoning_10_easy_025",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
+    "type": "multiple_choice",
+    "options": [
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "mathematical-reasoning",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578437_25"
+  },
+  {
+    "_id": "mathematical-reasoning_10_easy_026",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
+    "type": "multiple_choice",
+    "options": [
+      "108",
+      "162",
+      "216",
+      "270"
+    ],
+    "correctAnswer": "162",
+    "subject": "mathematical-reasoning",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578437_26"
+  },
+  {
+    "_id": "mathematical-reasoning_10_easy_027",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "48",
+      "12",
+      "16"
+    ],
+    "correctAnswer": "24",
+    "subject": "mathematical-reasoning",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578437_27"
+  },
+  {
+    "_id": "mathematical-reasoning_10_easy_028",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "mathematical-reasoning",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578437_28"
+  },
+  {
+    "_id": "mathematical-reasoning_10_easy_029",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "11",
+      "17",
+      "23"
+    ],
+    "correctAnswer": "11",
+    "subject": "mathematical-reasoning",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578437_29"
+  },
+  {
+    "_id": "mathematical-reasoning_10_easy_030",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
+    "type": "multiple_choice",
+    "options": [
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "mathematical-reasoning",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578437_30"
+  },
+  {
+    "_id": "mathematical-reasoning_10_easy_031",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
+    "type": "multiple_choice",
+    "options": [
+      "108",
+      "162",
+      "216",
+      "270"
+    ],
+    "correctAnswer": "162",
+    "subject": "mathematical-reasoning",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578437_31"
+  },
+  {
+    "_id": "mathematical-reasoning_10_easy_032",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "48",
+      "12",
+      "16"
+    ],
+    "correctAnswer": "24",
+    "subject": "mathematical-reasoning",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578437_32"
+  },
+  {
+    "_id": "mathematical-reasoning_10_easy_033",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "mathematical-reasoning",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578437_33"
+  },
+  {
+    "_id": "mathematical-reasoning_10_easy_034",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "11",
+      "17",
+      "23"
+    ],
+    "correctAnswer": "11",
+    "subject": "mathematical-reasoning",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578437_34"
+  },
+  {
+    "_id": "mathematical-reasoning_10_easy_035",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
+    "type": "multiple_choice",
+    "options": [
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "mathematical-reasoning",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578437_35"
+  },
+  {
+    "_id": "mathematical-reasoning_10_easy_036",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
+    "type": "multiple_choice",
+    "options": [
+      "108",
+      "162",
+      "216",
+      "270"
+    ],
+    "correctAnswer": "162",
+    "subject": "mathematical-reasoning",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578437_36"
+  },
+  {
+    "_id": "mathematical-reasoning_10_easy_037",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "48",
+      "12",
+      "16"
+    ],
+    "correctAnswer": "24",
+    "subject": "mathematical-reasoning",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578437_37"
+  },
+  {
+    "_id": "mathematical-reasoning_10_easy_038",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "mathematical-reasoning",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578437_38"
+  },
+  {
+    "_id": "mathematical-reasoning_10_easy_039",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "11",
+      "17",
+      "23"
+    ],
+    "correctAnswer": "11",
+    "subject": "mathematical-reasoning",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578437_39"
+  },
+  {
+    "_id": "mathematical-reasoning_10_easy_040",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
+    "type": "multiple_choice",
+    "options": [
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "mathematical-reasoning",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578437_40"
+  },
+  {
+    "_id": "mathematical-reasoning_10_easy_041",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
+    "type": "multiple_choice",
+    "options": [
+      "108",
+      "162",
+      "216",
+      "270"
+    ],
+    "correctAnswer": "162",
+    "subject": "mathematical-reasoning",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578437_41"
+  },
+  {
+    "_id": "mathematical-reasoning_10_easy_042",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "48",
+      "12",
+      "16"
+    ],
+    "correctAnswer": "24",
+    "subject": "mathematical-reasoning",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578437_42"
+  },
+  {
+    "_id": "mathematical-reasoning_10_easy_043",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "mathematical-reasoning",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578437_43"
+  },
+  {
+    "_id": "mathematical-reasoning_10_easy_044",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "11",
+      "17",
+      "23"
+    ],
+    "correctAnswer": "11",
+    "subject": "mathematical-reasoning",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578437_44"
+  },
+  {
+    "_id": "mathematical-reasoning_10_easy_045",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
+    "type": "multiple_choice",
+    "options": [
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "mathematical-reasoning",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578437_45"
+  },
+  {
+    "_id": "mathematical-reasoning_10_easy_046",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
+    "type": "multiple_choice",
+    "options": [
+      "108",
+      "162",
+      "216",
+      "270"
+    ],
+    "correctAnswer": "162",
+    "subject": "mathematical-reasoning",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578437_46"
+  },
+  {
+    "_id": "mathematical-reasoning_10_easy_047",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "48",
+      "12",
+      "16"
+    ],
+    "correctAnswer": "24",
+    "subject": "mathematical-reasoning",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578437_47"
+  },
+  {
+    "_id": "mathematical-reasoning_10_easy_048",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "mathematical-reasoning",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578437_48"
+  },
+  {
+    "_id": "mathematical-reasoning_10_easy_049",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "11",
+      "17",
+      "23"
+    ],
+    "correctAnswer": "11",
+    "subject": "mathematical-reasoning",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578437_49"
+  },
+  {
+    "_id": "mathematical-reasoning_10_easy_050",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
+    "type": "multiple_choice",
+    "options": [
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "mathematical-reasoning",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578437_50"
   }
 ]

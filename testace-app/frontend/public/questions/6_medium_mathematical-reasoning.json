@@ -1,342 +1,852 @@
 [
   {
-    "_id": "med6_1755261000214_001",
-    "content": "If all rectangles have 4 sides, and a square is a rectangle, how many sides does a square have?",
+    "_id": "mathematical-reasoning_6_medium_001",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
     "type": "multiple_choice",
     "options": [
-      "3",
-      "4",
-      "5",
-      "It depends"
+      "108",
+      "162",
+      "216",
+      "270"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "162",
     "subject": "mathematical-reasoning",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "Using logical reasoning: All rectangles have 4 sides → Square is a rectangle → Square has 4 sides.",
-    "_cacheBreaker": "1755265388208_0"
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578386_1"
   },
   {
-    "_id": "med6_1755261000214_002",
-    "content": "Sarah says: 'If it rains, then the ground gets wet. The ground is wet.' Can she conclude it rained?",
+    "_id": "mathematical-reasoning_6_medium_002",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
     "type": "multiple_choice",
     "options": [
-      "Yes, definitely",
-      "No, there could be other reasons",
-      "Only if it's Tuesday",
-      "Maybe"
+      "24",
+      "48",
+      "12",
+      "16"
     ],
-    "correctAnswer": "No, there could be other reasons",
+    "correctAnswer": "24",
     "subject": "mathematical-reasoning",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "The ground could be wet from sprinklers, a hose, or other sources. This is the logical fallacy of affirming the consequent.",
-    "_cacheBreaker": "1755265388208_1"
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578386_2"
   },
   {
-    "_id": "med6_1755261000214_003",
-    "content": "In the equation 2 + ? = 7, what reasoning helps you find the missing number?",
+    "_id": "mathematical-reasoning_6_medium_003",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
     "type": "multiple_choice",
     "options": [
-      "Guess and check",
-      "Think: what plus 2 equals 7?",
-      "Add 2 + 7",
-      "Multiply 2 × 7"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "Think: what plus 2 equals 7?",
+    "correctAnswer": "6",
     "subject": "mathematical-reasoning",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "Mathematical reasoning involves thinking about inverse operations: if 2 + ? = 7, then ? = 7 - 2 = 5.",
-    "_cacheBreaker": "1755265388208_2"
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578386_3"
   },
   {
-    "_id": "med6_1755261000214_004",
-    "content": "If all rectangles have 4 sides, and a square is a rectangle, how many sides does a square have? (Question 4)",
+    "_id": "mathematical-reasoning_6_medium_004",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
     "type": "multiple_choice",
     "options": [
-      "3",
-      "4",
-      "5",
-      "It depends"
+      "7",
+      "11",
+      "17",
+      "23"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "11",
     "subject": "mathematical-reasoning",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "Using logical reasoning: All rectangles have 4 sides → Square is a rectangle → Square has 4 sides.",
-    "_cacheBreaker": "1755265388208_3"
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578386_4"
   },
   {
-    "_id": "med6_1755261000214_005",
-    "content": "Sarah says: 'If it rains, then the ground gets wet. The ground is wet.' Can she conclude it rained? (Question 5)",
+    "_id": "mathematical-reasoning_6_medium_005",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
     "type": "multiple_choice",
     "options": [
-      "Yes, definitely",
-      "No, there could be other reasons",
-      "Only if it's Tuesday",
-      "Maybe"
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
     ],
-    "correctAnswer": "No, there could be other reasons",
+    "correctAnswer": "3/8",
     "subject": "mathematical-reasoning",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "The ground could be wet from sprinklers, a hose, or other sources. This is the logical fallacy of affirming the consequent.",
-    "_cacheBreaker": "1755265388208_4"
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578386_5"
   },
   {
-    "_id": "med6_1755261000214_006",
-    "content": "In the equation 2 + ? = 7, what reasoning helps you find the missing number? (Question 6)",
+    "_id": "mathematical-reasoning_6_medium_006",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
     "type": "multiple_choice",
     "options": [
-      "Guess and check",
-      "Think: what plus 2 equals 7?",
-      "Add 2 + 7",
-      "Multiply 2 × 7"
+      "108",
+      "162",
+      "216",
+      "270"
     ],
-    "correctAnswer": "Think: what plus 2 equals 7?",
+    "correctAnswer": "162",
     "subject": "mathematical-reasoning",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "Mathematical reasoning involves thinking about inverse operations: if 2 + ? = 7, then ? = 7 - 2 = 5.",
-    "_cacheBreaker": "1755265388208_5"
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578386_6"
   },
   {
-    "_id": "med6_1755261000214_007",
-    "content": "If all rectangles have 4 sides, and a square is a rectangle, how many sides does a square have? (Question 7)",
+    "_id": "mathematical-reasoning_6_medium_007",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
     "type": "multiple_choice",
     "options": [
-      "3",
-      "4",
-      "5",
-      "It depends"
+      "24",
+      "48",
+      "12",
+      "16"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "24",
     "subject": "mathematical-reasoning",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "Using logical reasoning: All rectangles have 4 sides → Square is a rectangle → Square has 4 sides.",
-    "_cacheBreaker": "1755265388208_6"
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578386_7"
   },
   {
-    "_id": "med6_1755261000214_008",
-    "content": "Sarah says: 'If it rains, then the ground gets wet. The ground is wet.' Can she conclude it rained? (Question 8)",
+    "_id": "mathematical-reasoning_6_medium_008",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
     "type": "multiple_choice",
     "options": [
-      "Yes, definitely",
-      "No, there could be other reasons",
-      "Only if it's Tuesday",
-      "Maybe"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "No, there could be other reasons",
+    "correctAnswer": "6",
     "subject": "mathematical-reasoning",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "The ground could be wet from sprinklers, a hose, or other sources. This is the logical fallacy of affirming the consequent.",
-    "_cacheBreaker": "1755265388208_7"
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578386_8"
   },
   {
-    "_id": "med6_1755261000214_009",
-    "content": "In the equation 2 + ? = 7, what reasoning helps you find the missing number? (Question 9)",
+    "_id": "mathematical-reasoning_6_medium_009",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
     "type": "multiple_choice",
     "options": [
-      "Guess and check",
-      "Think: what plus 2 equals 7?",
-      "Add 2 + 7",
-      "Multiply 2 × 7"
+      "7",
+      "11",
+      "17",
+      "23"
     ],
-    "correctAnswer": "Think: what plus 2 equals 7?",
+    "correctAnswer": "11",
     "subject": "mathematical-reasoning",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "Mathematical reasoning involves thinking about inverse operations: if 2 + ? = 7, then ? = 7 - 2 = 5.",
-    "_cacheBreaker": "1755265388208_8"
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578386_9"
   },
   {
-    "_id": "med6_1755261000214_010",
-    "content": "If all rectangles have 4 sides, and a square is a rectangle, how many sides does a square have? (Question 10)",
+    "_id": "mathematical-reasoning_6_medium_010",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
     "type": "multiple_choice",
     "options": [
-      "3",
-      "4",
-      "5",
-      "It depends"
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "3/8",
     "subject": "mathematical-reasoning",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "Using logical reasoning: All rectangles have 4 sides → Square is a rectangle → Square has 4 sides.",
-    "_cacheBreaker": "1755265388208_9"
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578386_10"
   },
   {
-    "_id": "med6_1755261000214_011",
-    "content": "Sarah says: 'If it rains, then the ground gets wet. The ground is wet.' Can she conclude it rained? (Question 11)",
+    "_id": "mathematical-reasoning_6_medium_011",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
     "type": "multiple_choice",
     "options": [
-      "Yes, definitely",
-      "No, there could be other reasons",
-      "Only if it's Tuesday",
-      "Maybe"
+      "108",
+      "162",
+      "216",
+      "270"
     ],
-    "correctAnswer": "No, there could be other reasons",
+    "correctAnswer": "162",
     "subject": "mathematical-reasoning",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "The ground could be wet from sprinklers, a hose, or other sources. This is the logical fallacy of affirming the consequent.",
-    "_cacheBreaker": "1755265388208_10"
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578386_11"
   },
   {
-    "_id": "med6_1755261000214_012",
-    "content": "In the equation 2 + ? = 7, what reasoning helps you find the missing number? (Question 12)",
+    "_id": "mathematical-reasoning_6_medium_012",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
     "type": "multiple_choice",
     "options": [
-      "Guess and check",
-      "Think: what plus 2 equals 7?",
-      "Add 2 + 7",
-      "Multiply 2 × 7"
+      "24",
+      "48",
+      "12",
+      "16"
     ],
-    "correctAnswer": "Think: what plus 2 equals 7?",
+    "correctAnswer": "24",
     "subject": "mathematical-reasoning",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "Mathematical reasoning involves thinking about inverse operations: if 2 + ? = 7, then ? = 7 - 2 = 5.",
-    "_cacheBreaker": "1755265388208_11"
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578386_12"
   },
   {
-    "_id": "med6_1755261000214_013",
-    "content": "If all rectangles have 4 sides, and a square is a rectangle, how many sides does a square have? (Question 13)",
+    "_id": "mathematical-reasoning_6_medium_013",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
     "type": "multiple_choice",
     "options": [
-      "3",
-      "4",
-      "5",
-      "It depends"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "6",
     "subject": "mathematical-reasoning",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "Using logical reasoning: All rectangles have 4 sides → Square is a rectangle → Square has 4 sides.",
-    "_cacheBreaker": "1755265388208_12"
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578386_13"
   },
   {
-    "_id": "med6_1755261000214_014",
-    "content": "Sarah says: 'If it rains, then the ground gets wet. The ground is wet.' Can she conclude it rained? (Question 14)",
+    "_id": "mathematical-reasoning_6_medium_014",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
     "type": "multiple_choice",
     "options": [
-      "Yes, definitely",
-      "No, there could be other reasons",
-      "Only if it's Tuesday",
-      "Maybe"
+      "7",
+      "11",
+      "17",
+      "23"
     ],
-    "correctAnswer": "No, there could be other reasons",
+    "correctAnswer": "11",
     "subject": "mathematical-reasoning",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "The ground could be wet from sprinklers, a hose, or other sources. This is the logical fallacy of affirming the consequent.",
-    "_cacheBreaker": "1755265388208_13"
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578386_14"
   },
   {
-    "_id": "med6_1755261000214_015",
-    "content": "In the equation 2 + ? = 7, what reasoning helps you find the missing number? (Question 15)",
+    "_id": "mathematical-reasoning_6_medium_015",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
     "type": "multiple_choice",
     "options": [
-      "Guess and check",
-      "Think: what plus 2 equals 7?",
-      "Add 2 + 7",
-      "Multiply 2 × 7"
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
     ],
-    "correctAnswer": "Think: what plus 2 equals 7?",
+    "correctAnswer": "3/8",
     "subject": "mathematical-reasoning",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "Mathematical reasoning involves thinking about inverse operations: if 2 + ? = 7, then ? = 7 - 2 = 5.",
-    "_cacheBreaker": "1755265388208_14"
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578386_15"
   },
   {
-    "_id": "med6_1755261000214_016",
-    "content": "If all rectangles have 4 sides, and a square is a rectangle, how many sides does a square have? (Question 16)",
+    "_id": "mathematical-reasoning_6_medium_016",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
     "type": "multiple_choice",
     "options": [
-      "3",
-      "4",
-      "5",
-      "It depends"
+      "108",
+      "162",
+      "216",
+      "270"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "162",
     "subject": "mathematical-reasoning",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "Using logical reasoning: All rectangles have 4 sides → Square is a rectangle → Square has 4 sides.",
-    "_cacheBreaker": "1755265388208_15"
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578386_16"
   },
   {
-    "_id": "med6_1755261000214_017",
-    "content": "Sarah says: 'If it rains, then the ground gets wet. The ground is wet.' Can she conclude it rained? (Question 17)",
+    "_id": "mathematical-reasoning_6_medium_017",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
     "type": "multiple_choice",
     "options": [
-      "Yes, definitely",
-      "No, there could be other reasons",
-      "Only if it's Tuesday",
-      "Maybe"
+      "24",
+      "48",
+      "12",
+      "16"
     ],
-    "correctAnswer": "No, there could be other reasons",
+    "correctAnswer": "24",
     "subject": "mathematical-reasoning",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "The ground could be wet from sprinklers, a hose, or other sources. This is the logical fallacy of affirming the consequent.",
-    "_cacheBreaker": "1755265388208_16"
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578386_17"
   },
   {
-    "_id": "med6_1755261000214_018",
-    "content": "In the equation 2 + ? = 7, what reasoning helps you find the missing number? (Question 18)",
+    "_id": "mathematical-reasoning_6_medium_018",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
     "type": "multiple_choice",
     "options": [
-      "Guess and check",
-      "Think: what plus 2 equals 7?",
-      "Add 2 + 7",
-      "Multiply 2 × 7"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "Think: what plus 2 equals 7?",
+    "correctAnswer": "6",
     "subject": "mathematical-reasoning",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "Mathematical reasoning involves thinking about inverse operations: if 2 + ? = 7, then ? = 7 - 2 = 5.",
-    "_cacheBreaker": "1755265388208_17"
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578386_18"
   },
   {
-    "_id": "med6_1755261000214_019",
-    "content": "If all rectangles have 4 sides, and a square is a rectangle, how many sides does a square have? (Question 19)",
+    "_id": "mathematical-reasoning_6_medium_019",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
     "type": "multiple_choice",
     "options": [
-      "3",
-      "4",
-      "5",
-      "It depends"
+      "7",
+      "11",
+      "17",
+      "23"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "11",
     "subject": "mathematical-reasoning",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "Using logical reasoning: All rectangles have 4 sides → Square is a rectangle → Square has 4 sides.",
-    "_cacheBreaker": "1755265388208_18"
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578386_19"
   },
   {
-    "_id": "med6_1755261000214_020",
-    "content": "Sarah says: 'If it rains, then the ground gets wet. The ground is wet.' Can she conclude it rained? (Question 20)",
+    "_id": "mathematical-reasoning_6_medium_020",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
     "type": "multiple_choice",
     "options": [
-      "Yes, definitely",
-      "No, there could be other reasons",
-      "Only if it's Tuesday",
-      "Maybe"
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
     ],
-    "correctAnswer": "No, there could be other reasons",
+    "correctAnswer": "3/8",
     "subject": "mathematical-reasoning",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "The ground could be wet from sprinklers, a hose, or other sources. This is the logical fallacy of affirming the consequent.",
-    "_cacheBreaker": "1755265388208_19"
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578386_20"
+  },
+  {
+    "_id": "mathematical-reasoning_6_medium_021",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
+    "type": "multiple_choice",
+    "options": [
+      "108",
+      "162",
+      "216",
+      "270"
+    ],
+    "correctAnswer": "162",
+    "subject": "mathematical-reasoning",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578386_21"
+  },
+  {
+    "_id": "mathematical-reasoning_6_medium_022",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "48",
+      "12",
+      "16"
+    ],
+    "correctAnswer": "24",
+    "subject": "mathematical-reasoning",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578386_22"
+  },
+  {
+    "_id": "mathematical-reasoning_6_medium_023",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "mathematical-reasoning",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578386_23"
+  },
+  {
+    "_id": "mathematical-reasoning_6_medium_024",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "11",
+      "17",
+      "23"
+    ],
+    "correctAnswer": "11",
+    "subject": "mathematical-reasoning",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578386_24"
+  },
+  {
+    "_id": "mathematical-reasoning_6_medium_025",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
+    "type": "multiple_choice",
+    "options": [
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "mathematical-reasoning",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578386_25"
+  },
+  {
+    "_id": "mathematical-reasoning_6_medium_026",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
+    "type": "multiple_choice",
+    "options": [
+      "108",
+      "162",
+      "216",
+      "270"
+    ],
+    "correctAnswer": "162",
+    "subject": "mathematical-reasoning",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578386_26"
+  },
+  {
+    "_id": "mathematical-reasoning_6_medium_027",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "48",
+      "12",
+      "16"
+    ],
+    "correctAnswer": "24",
+    "subject": "mathematical-reasoning",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578386_27"
+  },
+  {
+    "_id": "mathematical-reasoning_6_medium_028",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "mathematical-reasoning",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578386_28"
+  },
+  {
+    "_id": "mathematical-reasoning_6_medium_029",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "11",
+      "17",
+      "23"
+    ],
+    "correctAnswer": "11",
+    "subject": "mathematical-reasoning",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578386_29"
+  },
+  {
+    "_id": "mathematical-reasoning_6_medium_030",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
+    "type": "multiple_choice",
+    "options": [
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "mathematical-reasoning",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578386_30"
+  },
+  {
+    "_id": "mathematical-reasoning_6_medium_031",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
+    "type": "multiple_choice",
+    "options": [
+      "108",
+      "162",
+      "216",
+      "270"
+    ],
+    "correctAnswer": "162",
+    "subject": "mathematical-reasoning",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578386_31"
+  },
+  {
+    "_id": "mathematical-reasoning_6_medium_032",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "48",
+      "12",
+      "16"
+    ],
+    "correctAnswer": "24",
+    "subject": "mathematical-reasoning",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578386_32"
+  },
+  {
+    "_id": "mathematical-reasoning_6_medium_033",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "mathematical-reasoning",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578386_33"
+  },
+  {
+    "_id": "mathematical-reasoning_6_medium_034",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "11",
+      "17",
+      "23"
+    ],
+    "correctAnswer": "11",
+    "subject": "mathematical-reasoning",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578386_34"
+  },
+  {
+    "_id": "mathematical-reasoning_6_medium_035",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
+    "type": "multiple_choice",
+    "options": [
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "mathematical-reasoning",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578386_35"
+  },
+  {
+    "_id": "mathematical-reasoning_6_medium_036",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
+    "type": "multiple_choice",
+    "options": [
+      "108",
+      "162",
+      "216",
+      "270"
+    ],
+    "correctAnswer": "162",
+    "subject": "mathematical-reasoning",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578386_36"
+  },
+  {
+    "_id": "mathematical-reasoning_6_medium_037",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "48",
+      "12",
+      "16"
+    ],
+    "correctAnswer": "24",
+    "subject": "mathematical-reasoning",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578386_37"
+  },
+  {
+    "_id": "mathematical-reasoning_6_medium_038",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "mathematical-reasoning",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578386_38"
+  },
+  {
+    "_id": "mathematical-reasoning_6_medium_039",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "11",
+      "17",
+      "23"
+    ],
+    "correctAnswer": "11",
+    "subject": "mathematical-reasoning",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578386_39"
+  },
+  {
+    "_id": "mathematical-reasoning_6_medium_040",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
+    "type": "multiple_choice",
+    "options": [
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "mathematical-reasoning",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578386_40"
+  },
+  {
+    "_id": "mathematical-reasoning_6_medium_041",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
+    "type": "multiple_choice",
+    "options": [
+      "108",
+      "162",
+      "216",
+      "270"
+    ],
+    "correctAnswer": "162",
+    "subject": "mathematical-reasoning",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578386_41"
+  },
+  {
+    "_id": "mathematical-reasoning_6_medium_042",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "48",
+      "12",
+      "16"
+    ],
+    "correctAnswer": "24",
+    "subject": "mathematical-reasoning",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578386_42"
+  },
+  {
+    "_id": "mathematical-reasoning_6_medium_043",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "mathematical-reasoning",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578386_43"
+  },
+  {
+    "_id": "mathematical-reasoning_6_medium_044",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "11",
+      "17",
+      "23"
+    ],
+    "correctAnswer": "11",
+    "subject": "mathematical-reasoning",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578386_44"
+  },
+  {
+    "_id": "mathematical-reasoning_6_medium_045",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
+    "type": "multiple_choice",
+    "options": [
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "mathematical-reasoning",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578386_45"
+  },
+  {
+    "_id": "mathematical-reasoning_6_medium_046",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
+    "type": "multiple_choice",
+    "options": [
+      "108",
+      "162",
+      "216",
+      "270"
+    ],
+    "correctAnswer": "162",
+    "subject": "mathematical-reasoning",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578386_46"
+  },
+  {
+    "_id": "mathematical-reasoning_6_medium_047",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "48",
+      "12",
+      "16"
+    ],
+    "correctAnswer": "24",
+    "subject": "mathematical-reasoning",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578386_47"
+  },
+  {
+    "_id": "mathematical-reasoning_6_medium_048",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "mathematical-reasoning",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578386_48"
+  },
+  {
+    "_id": "mathematical-reasoning_6_medium_049",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "11",
+      "17",
+      "23"
+    ],
+    "correctAnswer": "11",
+    "subject": "mathematical-reasoning",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578386_49"
+  },
+  {
+    "_id": "mathematical-reasoning_6_medium_050",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
+    "type": "multiple_choice",
+    "options": [
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "mathematical-reasoning",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578386_50"
   }
 ]

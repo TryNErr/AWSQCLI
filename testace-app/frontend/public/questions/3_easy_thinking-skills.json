@@ -1,362 +1,852 @@
 [
   {
-    "_id": "thinking_3_easy_1755262176987_001",
-    "scenario": "Look at these shapes: ⭐ ⭐ 🔵 ⭐. Most shapes are the same, but one is different.",
-    "content": "Which shape is different?",
+    "_id": "thinking-skills_3_easy_001",
+    "content": "Which one doesn't belong: cat, dog, bird, car?",
     "type": "multiple_choice",
     "options": [
-      "First star",
-      "Second star",
-      "Blue circle",
-      "Last star"
+      "cat",
+      "dog",
+      "bird",
+      "car"
     ],
-    "correctAnswer": "Blue circle",
+    "correctAnswer": "car",
     "subject": "thinking-skills",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "The blue circle is different from the stars.",
-    "_cacheBreaker": "1755265388174_0"
+    "explanation": "Cat, dog, and bird are animals. Car is not an animal.",
+    "_cacheBreaker": "1756033253420_1"
   },
   {
-    "_id": "thinking_3_easy_1755262176987_002",
-    "scenario": "Tommy has this pattern: Big, Small, Big, Small, Big. He wants to continue it.",
-    "content": "What should come next?",
+    "_id": "thinking-skills_3_easy_002",
+    "content": "If all flowers are pretty and roses are flowers, then roses are:",
     "type": "multiple_choice",
     "options": [
-      "Big",
-      "Small",
-      "Medium",
-      "Tiny"
+      "red",
+      "pretty",
+      "big",
+      "small"
     ],
-    "correctAnswer": "Small",
+    "correctAnswer": "pretty",
     "subject": "thinking-skills",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "The pattern alternates Big, Small, so Small comes next.",
-    "_cacheBreaker": "1755265388174_1"
+    "explanation": "Since all flowers are pretty and roses are flowers, roses must be pretty.",
+    "_cacheBreaker": "1756033253420_2"
   },
   {
-    "_id": "thinking_3_easy_1755262176987_003",
-    "scenario": "All dogs have four legs. Spot is a dog.",
-    "content": "How many legs does Spot have?",
+    "_id": "thinking-skills_3_easy_003",
+    "content": "What comes next: A, B, C, ?",
     "type": "multiple_choice",
     "options": [
-      "Two",
-      "Three",
-      "Four",
-      "Five"
+      "B",
+      "C",
+      "D",
+      "E"
     ],
-    "correctAnswer": "Four",
+    "correctAnswer": "D",
     "subject": "thinking-skills",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "Since all dogs have four legs and Spot is a dog, Spot has four legs.",
-    "_cacheBreaker": "1755265388174_2"
+    "explanation": "The alphabet continues: A, B, C, D",
+    "_cacheBreaker": "1756033253420_3"
   },
   {
-    "_id": "thinking_3_easy_1755262176987_004",
-    "scenario": "Look at these shapes: ⭐ ⭐ 🔵 ⭐. Most shapes are the same, but one is different.",
-    "content": "Which shape is different? (Question 4)",
+    "_id": "thinking-skills_3_easy_004",
+    "content": "Which is the odd one out: 2, 4, 6, 7?",
     "type": "multiple_choice",
     "options": [
-      "First star",
-      "Second star",
-      "Blue circle",
-      "Last star"
+      "2",
+      "4",
+      "6",
+      "7"
     ],
-    "correctAnswer": "Blue circle",
+    "correctAnswer": "7",
     "subject": "thinking-skills",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "The blue circle is different from the stars.",
-    "_cacheBreaker": "1755265388174_3"
+    "explanation": "2, 4, and 6 are even numbers. 7 is odd.",
+    "_cacheBreaker": "1756033253420_4"
   },
   {
-    "_id": "thinking_3_easy_1755262176987_005",
-    "scenario": "Tommy has this pattern: Big, Small, Big, Small, Big. He wants to continue it.",
-    "content": "What should come next? (Question 5)",
+    "_id": "thinking-skills_3_easy_005",
+    "content": "If you turn a square 90 degrees, what shape do you get?",
     "type": "multiple_choice",
     "options": [
-      "Big",
-      "Small",
-      "Medium",
-      "Tiny"
+      "triangle",
+      "circle",
+      "square",
+      "rectangle"
     ],
-    "correctAnswer": "Small",
+    "correctAnswer": "square",
     "subject": "thinking-skills",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "The pattern alternates Big, Small, so Small comes next.",
-    "_cacheBreaker": "1755265388174_4"
+    "explanation": "A square looks the same when rotated 90 degrees.",
+    "_cacheBreaker": "1756033253420_5"
   },
   {
-    "_id": "thinking_3_easy_1755262176987_006",
-    "scenario": "All dogs have four legs. Spot is a dog.",
-    "content": "How many legs does Spot have? (Question 6)",
+    "_id": "thinking-skills_3_easy_006",
+    "content": "Which one doesn't belong: cat, dog, bird, car?",
     "type": "multiple_choice",
     "options": [
-      "Two",
-      "Three",
-      "Four",
-      "Five"
+      "cat",
+      "dog",
+      "bird",
+      "car"
     ],
-    "correctAnswer": "Four",
+    "correctAnswer": "car",
     "subject": "thinking-skills",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "Since all dogs have four legs and Spot is a dog, Spot has four legs.",
-    "_cacheBreaker": "1755265388174_5"
+    "explanation": "Cat, dog, and bird are animals. Car is not an animal.",
+    "_cacheBreaker": "1756033253420_6"
   },
   {
-    "_id": "thinking_3_easy_1755262176987_007",
-    "scenario": "Look at these shapes: ⭐ ⭐ 🔵 ⭐. Most shapes are the same, but one is different.",
-    "content": "Which shape is different? (Question 7)",
+    "_id": "thinking-skills_3_easy_007",
+    "content": "If all flowers are pretty and roses are flowers, then roses are:",
     "type": "multiple_choice",
     "options": [
-      "First star",
-      "Second star",
-      "Blue circle",
-      "Last star"
+      "red",
+      "pretty",
+      "big",
+      "small"
     ],
-    "correctAnswer": "Blue circle",
+    "correctAnswer": "pretty",
     "subject": "thinking-skills",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "The blue circle is different from the stars.",
-    "_cacheBreaker": "1755265388174_6"
+    "explanation": "Since all flowers are pretty and roses are flowers, roses must be pretty.",
+    "_cacheBreaker": "1756033253420_7"
   },
   {
-    "_id": "thinking_3_easy_1755262176987_008",
-    "scenario": "Tommy has this pattern: Big, Small, Big, Small, Big. He wants to continue it.",
-    "content": "What should come next? (Question 8)",
+    "_id": "thinking-skills_3_easy_008",
+    "content": "What comes next: A, B, C, ?",
     "type": "multiple_choice",
     "options": [
-      "Big",
-      "Small",
-      "Medium",
-      "Tiny"
+      "B",
+      "C",
+      "D",
+      "E"
     ],
-    "correctAnswer": "Small",
+    "correctAnswer": "D",
     "subject": "thinking-skills",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "The pattern alternates Big, Small, so Small comes next.",
-    "_cacheBreaker": "1755265388174_7"
+    "explanation": "The alphabet continues: A, B, C, D",
+    "_cacheBreaker": "1756033253420_8"
   },
   {
-    "_id": "thinking_3_easy_1755262176987_009",
-    "scenario": "All dogs have four legs. Spot is a dog.",
-    "content": "How many legs does Spot have? (Question 9)",
+    "_id": "thinking-skills_3_easy_009",
+    "content": "Which is the odd one out: 2, 4, 6, 7?",
     "type": "multiple_choice",
     "options": [
-      "Two",
-      "Three",
-      "Four",
-      "Five"
+      "2",
+      "4",
+      "6",
+      "7"
     ],
-    "correctAnswer": "Four",
+    "correctAnswer": "7",
     "subject": "thinking-skills",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "Since all dogs have four legs and Spot is a dog, Spot has four legs.",
-    "_cacheBreaker": "1755265388174_8"
+    "explanation": "2, 4, and 6 are even numbers. 7 is odd.",
+    "_cacheBreaker": "1756033253420_9"
   },
   {
-    "_id": "thinking_3_easy_1755262176987_010",
-    "scenario": "Look at these shapes: ⭐ ⭐ 🔵 ⭐. Most shapes are the same, but one is different.",
-    "content": "Which shape is different? (Question 10)",
+    "_id": "thinking-skills_3_easy_010",
+    "content": "If you turn a square 90 degrees, what shape do you get?",
     "type": "multiple_choice",
     "options": [
-      "First star",
-      "Second star",
-      "Blue circle",
-      "Last star"
+      "triangle",
+      "circle",
+      "square",
+      "rectangle"
     ],
-    "correctAnswer": "Blue circle",
+    "correctAnswer": "square",
     "subject": "thinking-skills",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "The blue circle is different from the stars.",
-    "_cacheBreaker": "1755265388174_9"
+    "explanation": "A square looks the same when rotated 90 degrees.",
+    "_cacheBreaker": "1756033253420_10"
   },
   {
-    "_id": "thinking_3_easy_1755262176987_011",
-    "scenario": "Tommy has this pattern: Big, Small, Big, Small, Big. He wants to continue it.",
-    "content": "What should come next? (Question 11)",
+    "_id": "thinking-skills_3_easy_011",
+    "content": "Which one doesn't belong: cat, dog, bird, car?",
     "type": "multiple_choice",
     "options": [
-      "Big",
-      "Small",
-      "Medium",
-      "Tiny"
+      "cat",
+      "dog",
+      "bird",
+      "car"
     ],
-    "correctAnswer": "Small",
+    "correctAnswer": "car",
     "subject": "thinking-skills",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "The pattern alternates Big, Small, so Small comes next.",
-    "_cacheBreaker": "1755265388174_10"
+    "explanation": "Cat, dog, and bird are animals. Car is not an animal.",
+    "_cacheBreaker": "1756033253420_11"
   },
   {
-    "_id": "thinking_3_easy_1755262176987_012",
-    "scenario": "All dogs have four legs. Spot is a dog.",
-    "content": "How many legs does Spot have? (Question 12)",
+    "_id": "thinking-skills_3_easy_012",
+    "content": "If all flowers are pretty and roses are flowers, then roses are:",
     "type": "multiple_choice",
     "options": [
-      "Two",
-      "Three",
-      "Four",
-      "Five"
+      "red",
+      "pretty",
+      "big",
+      "small"
     ],
-    "correctAnswer": "Four",
+    "correctAnswer": "pretty",
     "subject": "thinking-skills",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "Since all dogs have four legs and Spot is a dog, Spot has four legs.",
-    "_cacheBreaker": "1755265388174_11"
+    "explanation": "Since all flowers are pretty and roses are flowers, roses must be pretty.",
+    "_cacheBreaker": "1756033253420_12"
   },
   {
-    "_id": "thinking_3_easy_1755262176987_013",
-    "scenario": "Look at these shapes: ⭐ ⭐ 🔵 ⭐. Most shapes are the same, but one is different.",
-    "content": "Which shape is different? (Question 13)",
+    "_id": "thinking-skills_3_easy_013",
+    "content": "What comes next: A, B, C, ?",
     "type": "multiple_choice",
     "options": [
-      "First star",
-      "Second star",
-      "Blue circle",
-      "Last star"
+      "B",
+      "C",
+      "D",
+      "E"
     ],
-    "correctAnswer": "Blue circle",
+    "correctAnswer": "D",
     "subject": "thinking-skills",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "The blue circle is different from the stars.",
-    "_cacheBreaker": "1755265388174_12"
+    "explanation": "The alphabet continues: A, B, C, D",
+    "_cacheBreaker": "1756033253420_13"
   },
   {
-    "_id": "thinking_3_easy_1755262176987_014",
-    "scenario": "Tommy has this pattern: Big, Small, Big, Small, Big. He wants to continue it.",
-    "content": "What should come next? (Question 14)",
+    "_id": "thinking-skills_3_easy_014",
+    "content": "Which is the odd one out: 2, 4, 6, 7?",
     "type": "multiple_choice",
     "options": [
-      "Big",
-      "Small",
-      "Medium",
-      "Tiny"
+      "2",
+      "4",
+      "6",
+      "7"
     ],
-    "correctAnswer": "Small",
+    "correctAnswer": "7",
     "subject": "thinking-skills",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "The pattern alternates Big, Small, so Small comes next.",
-    "_cacheBreaker": "1755265388174_13"
+    "explanation": "2, 4, and 6 are even numbers. 7 is odd.",
+    "_cacheBreaker": "1756033253420_14"
   },
   {
-    "_id": "thinking_3_easy_1755262176987_015",
-    "scenario": "All dogs have four legs. Spot is a dog.",
-    "content": "How many legs does Spot have? (Question 15)",
+    "_id": "thinking-skills_3_easy_015",
+    "content": "If you turn a square 90 degrees, what shape do you get?",
     "type": "multiple_choice",
     "options": [
-      "Two",
-      "Three",
-      "Four",
-      "Five"
+      "triangle",
+      "circle",
+      "square",
+      "rectangle"
     ],
-    "correctAnswer": "Four",
+    "correctAnswer": "square",
     "subject": "thinking-skills",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "Since all dogs have four legs and Spot is a dog, Spot has four legs.",
-    "_cacheBreaker": "1755265388174_14"
+    "explanation": "A square looks the same when rotated 90 degrees.",
+    "_cacheBreaker": "1756033253420_15"
   },
   {
-    "_id": "thinking_3_easy_1755262176987_016",
-    "scenario": "Look at these shapes: ⭐ ⭐ 🔵 ⭐. Most shapes are the same, but one is different.",
-    "content": "Which shape is different? (Question 16)",
+    "_id": "thinking-skills_3_easy_016",
+    "content": "Which one doesn't belong: cat, dog, bird, car?",
     "type": "multiple_choice",
     "options": [
-      "First star",
-      "Second star",
-      "Blue circle",
-      "Last star"
+      "cat",
+      "dog",
+      "bird",
+      "car"
     ],
-    "correctAnswer": "Blue circle",
+    "correctAnswer": "car",
     "subject": "thinking-skills",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "The blue circle is different from the stars.",
-    "_cacheBreaker": "1755265388174_15"
+    "explanation": "Cat, dog, and bird are animals. Car is not an animal.",
+    "_cacheBreaker": "1756033253420_16"
   },
   {
-    "_id": "thinking_3_easy_1755262176987_017",
-    "scenario": "Tommy has this pattern: Big, Small, Big, Small, Big. He wants to continue it.",
-    "content": "What should come next? (Question 17)",
+    "_id": "thinking-skills_3_easy_017",
+    "content": "If all flowers are pretty and roses are flowers, then roses are:",
     "type": "multiple_choice",
     "options": [
-      "Big",
-      "Small",
-      "Medium",
-      "Tiny"
+      "red",
+      "pretty",
+      "big",
+      "small"
     ],
-    "correctAnswer": "Small",
+    "correctAnswer": "pretty",
     "subject": "thinking-skills",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "The pattern alternates Big, Small, so Small comes next.",
-    "_cacheBreaker": "1755265388174_16"
+    "explanation": "Since all flowers are pretty and roses are flowers, roses must be pretty.",
+    "_cacheBreaker": "1756033253420_17"
   },
   {
-    "_id": "thinking_3_easy_1755262176987_018",
-    "scenario": "All dogs have four legs. Spot is a dog.",
-    "content": "How many legs does Spot have? (Question 18)",
+    "_id": "thinking-skills_3_easy_018",
+    "content": "What comes next: A, B, C, ?",
     "type": "multiple_choice",
     "options": [
-      "Two",
-      "Three",
-      "Four",
-      "Five"
+      "B",
+      "C",
+      "D",
+      "E"
     ],
-    "correctAnswer": "Four",
+    "correctAnswer": "D",
     "subject": "thinking-skills",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "Since all dogs have four legs and Spot is a dog, Spot has four legs.",
-    "_cacheBreaker": "1755265388174_17"
+    "explanation": "The alphabet continues: A, B, C, D",
+    "_cacheBreaker": "1756033253420_18"
   },
   {
-    "_id": "thinking_3_easy_1755262176987_019",
-    "scenario": "Look at these shapes: ⭐ ⭐ 🔵 ⭐. Most shapes are the same, but one is different.",
-    "content": "Which shape is different? (Question 19)",
+    "_id": "thinking-skills_3_easy_019",
+    "content": "Which is the odd one out: 2, 4, 6, 7?",
     "type": "multiple_choice",
     "options": [
-      "First star",
-      "Second star",
-      "Blue circle",
-      "Last star"
+      "2",
+      "4",
+      "6",
+      "7"
     ],
-    "correctAnswer": "Blue circle",
+    "correctAnswer": "7",
     "subject": "thinking-skills",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "The blue circle is different from the stars.",
-    "_cacheBreaker": "1755265388174_18"
+    "explanation": "2, 4, and 6 are even numbers. 7 is odd.",
+    "_cacheBreaker": "1756033253420_19"
   },
   {
-    "_id": "thinking_3_easy_1755262176987_020",
-    "scenario": "Tommy has this pattern: Big, Small, Big, Small, Big. He wants to continue it.",
-    "content": "What should come next? (Question 20)",
+    "_id": "thinking-skills_3_easy_020",
+    "content": "If you turn a square 90 degrees, what shape do you get?",
     "type": "multiple_choice",
     "options": [
-      "Big",
-      "Small",
-      "Medium",
-      "Tiny"
+      "triangle",
+      "circle",
+      "square",
+      "rectangle"
     ],
-    "correctAnswer": "Small",
+    "correctAnswer": "square",
     "subject": "thinking-skills",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "The pattern alternates Big, Small, so Small comes next.",
-    "_cacheBreaker": "1755265388174_19"
+    "explanation": "A square looks the same when rotated 90 degrees.",
+    "_cacheBreaker": "1756033253420_20"
+  },
+  {
+    "_id": "thinking-skills_3_easy_021",
+    "content": "Which one doesn't belong: cat, dog, bird, car?",
+    "type": "multiple_choice",
+    "options": [
+      "cat",
+      "dog",
+      "bird",
+      "car"
+    ],
+    "correctAnswer": "car",
+    "subject": "thinking-skills",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Cat, dog, and bird are animals. Car is not an animal.",
+    "_cacheBreaker": "1756033253420_21"
+  },
+  {
+    "_id": "thinking-skills_3_easy_022",
+    "content": "If all flowers are pretty and roses are flowers, then roses are:",
+    "type": "multiple_choice",
+    "options": [
+      "red",
+      "pretty",
+      "big",
+      "small"
+    ],
+    "correctAnswer": "pretty",
+    "subject": "thinking-skills",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Since all flowers are pretty and roses are flowers, roses must be pretty.",
+    "_cacheBreaker": "1756033253420_22"
+  },
+  {
+    "_id": "thinking-skills_3_easy_023",
+    "content": "What comes next: A, B, C, ?",
+    "type": "multiple_choice",
+    "options": [
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "correctAnswer": "D",
+    "subject": "thinking-skills",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "The alphabet continues: A, B, C, D",
+    "_cacheBreaker": "1756033253420_23"
+  },
+  {
+    "_id": "thinking-skills_3_easy_024",
+    "content": "Which is the odd one out: 2, 4, 6, 7?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "7",
+    "subject": "thinking-skills",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "2, 4, and 6 are even numbers. 7 is odd.",
+    "_cacheBreaker": "1756033253420_24"
+  },
+  {
+    "_id": "thinking-skills_3_easy_025",
+    "content": "If you turn a square 90 degrees, what shape do you get?",
+    "type": "multiple_choice",
+    "options": [
+      "triangle",
+      "circle",
+      "square",
+      "rectangle"
+    ],
+    "correctAnswer": "square",
+    "subject": "thinking-skills",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "A square looks the same when rotated 90 degrees.",
+    "_cacheBreaker": "1756033253420_25"
+  },
+  {
+    "_id": "thinking-skills_3_easy_026",
+    "content": "Which one doesn't belong: cat, dog, bird, car?",
+    "type": "multiple_choice",
+    "options": [
+      "cat",
+      "dog",
+      "bird",
+      "car"
+    ],
+    "correctAnswer": "car",
+    "subject": "thinking-skills",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Cat, dog, and bird are animals. Car is not an animal.",
+    "_cacheBreaker": "1756033253420_26"
+  },
+  {
+    "_id": "thinking-skills_3_easy_027",
+    "content": "If all flowers are pretty and roses are flowers, then roses are:",
+    "type": "multiple_choice",
+    "options": [
+      "red",
+      "pretty",
+      "big",
+      "small"
+    ],
+    "correctAnswer": "pretty",
+    "subject": "thinking-skills",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Since all flowers are pretty and roses are flowers, roses must be pretty.",
+    "_cacheBreaker": "1756033253420_27"
+  },
+  {
+    "_id": "thinking-skills_3_easy_028",
+    "content": "What comes next: A, B, C, ?",
+    "type": "multiple_choice",
+    "options": [
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "correctAnswer": "D",
+    "subject": "thinking-skills",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "The alphabet continues: A, B, C, D",
+    "_cacheBreaker": "1756033253420_28"
+  },
+  {
+    "_id": "thinking-skills_3_easy_029",
+    "content": "Which is the odd one out: 2, 4, 6, 7?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "7",
+    "subject": "thinking-skills",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "2, 4, and 6 are even numbers. 7 is odd.",
+    "_cacheBreaker": "1756033253420_29"
+  },
+  {
+    "_id": "thinking-skills_3_easy_030",
+    "content": "If you turn a square 90 degrees, what shape do you get?",
+    "type": "multiple_choice",
+    "options": [
+      "triangle",
+      "circle",
+      "square",
+      "rectangle"
+    ],
+    "correctAnswer": "square",
+    "subject": "thinking-skills",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "A square looks the same when rotated 90 degrees.",
+    "_cacheBreaker": "1756033253420_30"
+  },
+  {
+    "_id": "thinking-skills_3_easy_031",
+    "content": "Which one doesn't belong: cat, dog, bird, car?",
+    "type": "multiple_choice",
+    "options": [
+      "cat",
+      "dog",
+      "bird",
+      "car"
+    ],
+    "correctAnswer": "car",
+    "subject": "thinking-skills",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Cat, dog, and bird are animals. Car is not an animal.",
+    "_cacheBreaker": "1756033253420_31"
+  },
+  {
+    "_id": "thinking-skills_3_easy_032",
+    "content": "If all flowers are pretty and roses are flowers, then roses are:",
+    "type": "multiple_choice",
+    "options": [
+      "red",
+      "pretty",
+      "big",
+      "small"
+    ],
+    "correctAnswer": "pretty",
+    "subject": "thinking-skills",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Since all flowers are pretty and roses are flowers, roses must be pretty.",
+    "_cacheBreaker": "1756033253420_32"
+  },
+  {
+    "_id": "thinking-skills_3_easy_033",
+    "content": "What comes next: A, B, C, ?",
+    "type": "multiple_choice",
+    "options": [
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "correctAnswer": "D",
+    "subject": "thinking-skills",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "The alphabet continues: A, B, C, D",
+    "_cacheBreaker": "1756033253420_33"
+  },
+  {
+    "_id": "thinking-skills_3_easy_034",
+    "content": "Which is the odd one out: 2, 4, 6, 7?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "7",
+    "subject": "thinking-skills",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "2, 4, and 6 are even numbers. 7 is odd.",
+    "_cacheBreaker": "1756033253420_34"
+  },
+  {
+    "_id": "thinking-skills_3_easy_035",
+    "content": "If you turn a square 90 degrees, what shape do you get?",
+    "type": "multiple_choice",
+    "options": [
+      "triangle",
+      "circle",
+      "square",
+      "rectangle"
+    ],
+    "correctAnswer": "square",
+    "subject": "thinking-skills",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "A square looks the same when rotated 90 degrees.",
+    "_cacheBreaker": "1756033253420_35"
+  },
+  {
+    "_id": "thinking-skills_3_easy_036",
+    "content": "Which one doesn't belong: cat, dog, bird, car?",
+    "type": "multiple_choice",
+    "options": [
+      "cat",
+      "dog",
+      "bird",
+      "car"
+    ],
+    "correctAnswer": "car",
+    "subject": "thinking-skills",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Cat, dog, and bird are animals. Car is not an animal.",
+    "_cacheBreaker": "1756033253420_36"
+  },
+  {
+    "_id": "thinking-skills_3_easy_037",
+    "content": "If all flowers are pretty and roses are flowers, then roses are:",
+    "type": "multiple_choice",
+    "options": [
+      "red",
+      "pretty",
+      "big",
+      "small"
+    ],
+    "correctAnswer": "pretty",
+    "subject": "thinking-skills",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Since all flowers are pretty and roses are flowers, roses must be pretty.",
+    "_cacheBreaker": "1756033253420_37"
+  },
+  {
+    "_id": "thinking-skills_3_easy_038",
+    "content": "What comes next: A, B, C, ?",
+    "type": "multiple_choice",
+    "options": [
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "correctAnswer": "D",
+    "subject": "thinking-skills",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "The alphabet continues: A, B, C, D",
+    "_cacheBreaker": "1756033253420_38"
+  },
+  {
+    "_id": "thinking-skills_3_easy_039",
+    "content": "Which is the odd one out: 2, 4, 6, 7?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "7",
+    "subject": "thinking-skills",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "2, 4, and 6 are even numbers. 7 is odd.",
+    "_cacheBreaker": "1756033253420_39"
+  },
+  {
+    "_id": "thinking-skills_3_easy_040",
+    "content": "If you turn a square 90 degrees, what shape do you get?",
+    "type": "multiple_choice",
+    "options": [
+      "triangle",
+      "circle",
+      "square",
+      "rectangle"
+    ],
+    "correctAnswer": "square",
+    "subject": "thinking-skills",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "A square looks the same when rotated 90 degrees.",
+    "_cacheBreaker": "1756033253420_40"
+  },
+  {
+    "_id": "thinking-skills_3_easy_041",
+    "content": "Which one doesn't belong: cat, dog, bird, car?",
+    "type": "multiple_choice",
+    "options": [
+      "cat",
+      "dog",
+      "bird",
+      "car"
+    ],
+    "correctAnswer": "car",
+    "subject": "thinking-skills",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Cat, dog, and bird are animals. Car is not an animal.",
+    "_cacheBreaker": "1756033253420_41"
+  },
+  {
+    "_id": "thinking-skills_3_easy_042",
+    "content": "If all flowers are pretty and roses are flowers, then roses are:",
+    "type": "multiple_choice",
+    "options": [
+      "red",
+      "pretty",
+      "big",
+      "small"
+    ],
+    "correctAnswer": "pretty",
+    "subject": "thinking-skills",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Since all flowers are pretty and roses are flowers, roses must be pretty.",
+    "_cacheBreaker": "1756033253420_42"
+  },
+  {
+    "_id": "thinking-skills_3_easy_043",
+    "content": "What comes next: A, B, C, ?",
+    "type": "multiple_choice",
+    "options": [
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "correctAnswer": "D",
+    "subject": "thinking-skills",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "The alphabet continues: A, B, C, D",
+    "_cacheBreaker": "1756033253420_43"
+  },
+  {
+    "_id": "thinking-skills_3_easy_044",
+    "content": "Which is the odd one out: 2, 4, 6, 7?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "7",
+    "subject": "thinking-skills",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "2, 4, and 6 are even numbers. 7 is odd.",
+    "_cacheBreaker": "1756033253420_44"
+  },
+  {
+    "_id": "thinking-skills_3_easy_045",
+    "content": "If you turn a square 90 degrees, what shape do you get?",
+    "type": "multiple_choice",
+    "options": [
+      "triangle",
+      "circle",
+      "square",
+      "rectangle"
+    ],
+    "correctAnswer": "square",
+    "subject": "thinking-skills",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "A square looks the same when rotated 90 degrees.",
+    "_cacheBreaker": "1756033253420_45"
+  },
+  {
+    "_id": "thinking-skills_3_easy_046",
+    "content": "Which one doesn't belong: cat, dog, bird, car?",
+    "type": "multiple_choice",
+    "options": [
+      "cat",
+      "dog",
+      "bird",
+      "car"
+    ],
+    "correctAnswer": "car",
+    "subject": "thinking-skills",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Cat, dog, and bird are animals. Car is not an animal.",
+    "_cacheBreaker": "1756033253420_46"
+  },
+  {
+    "_id": "thinking-skills_3_easy_047",
+    "content": "If all flowers are pretty and roses are flowers, then roses are:",
+    "type": "multiple_choice",
+    "options": [
+      "red",
+      "pretty",
+      "big",
+      "small"
+    ],
+    "correctAnswer": "pretty",
+    "subject": "thinking-skills",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Since all flowers are pretty and roses are flowers, roses must be pretty.",
+    "_cacheBreaker": "1756033253420_47"
+  },
+  {
+    "_id": "thinking-skills_3_easy_048",
+    "content": "What comes next: A, B, C, ?",
+    "type": "multiple_choice",
+    "options": [
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "correctAnswer": "D",
+    "subject": "thinking-skills",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "The alphabet continues: A, B, C, D",
+    "_cacheBreaker": "1756033253420_48"
+  },
+  {
+    "_id": "thinking-skills_3_easy_049",
+    "content": "Which is the odd one out: 2, 4, 6, 7?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "7",
+    "subject": "thinking-skills",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "2, 4, and 6 are even numbers. 7 is odd.",
+    "_cacheBreaker": "1756033253420_49"
+  },
+  {
+    "_id": "thinking-skills_3_easy_050",
+    "content": "If you turn a square 90 degrees, what shape do you get?",
+    "type": "multiple_choice",
+    "options": [
+      "triangle",
+      "circle",
+      "square",
+      "rectangle"
+    ],
+    "correctAnswer": "square",
+    "subject": "thinking-skills",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "A square looks the same when rotated 90 degrees.",
+    "_cacheBreaker": "1756033253420_50"
   }
 ]

@@ -1,362 +1,852 @@
 [
   {
-    "_id": "thinking_1_hard_1755262176982_001",
-    "scenario": "Look at these animals: 🐶 🐱 🐶 🐶. Three are the same and one is different.",
-    "content": "Which animal is different from the others?",
+    "_id": "thinking-skills_1_hard_001",
+    "content": "Which one doesn't belong: cat, dog, bird, car?",
     "type": "multiple_choice",
     "options": [
-      "First dog",
-      "Cat",
-      "Third dog",
-      "Last dog"
+      "cat",
+      "dog",
+      "bird",
+      "car"
     ],
-    "correctAnswer": "Cat",
+    "correctAnswer": "car",
     "subject": "thinking-skills",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "The cat is different because all the others are dogs.",
-    "_cacheBreaker": "1755265388161_0"
+    "explanation": "Cat, dog, and bird are animals. Car is not an animal.",
+    "_cacheBreaker": "1756033253394_1"
   },
   {
-    "_id": "thinking_1_hard_1755262176982_002",
-    "scenario": "Sarah sees this pattern of colors: Red, Blue, Red, Blue, Red, Blue. She needs to continue the pattern.",
-    "content": "What color should come next?",
+    "_id": "thinking-skills_1_hard_002",
+    "content": "If all flowers are pretty and roses are flowers, then roses are:",
     "type": "multiple_choice",
     "options": [
-      "Green",
-      "Red",
-      "Yellow",
-      "Purple"
+      "red",
+      "pretty",
+      "big",
+      "small"
     ],
-    "correctAnswer": "Red",
+    "correctAnswer": "pretty",
     "subject": "thinking-skills",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "The pattern alternates Red, Blue, so after Blue comes Red.",
-    "_cacheBreaker": "1755265388161_1"
+    "explanation": "Since all flowers are pretty and roses are flowers, roses must be pretty.",
+    "_cacheBreaker": "1756033253394_2"
   },
   {
-    "_id": "thinking_1_hard_1755262176982_003",
-    "scenario": "Mom says: 'All birds can fly. A robin is a bird.' Tommy is trying to figure out what this means about robins.",
-    "content": "What can Tommy conclude about robins?",
+    "_id": "thinking-skills_1_hard_003",
+    "content": "What comes next: A, B, C, ?",
     "type": "multiple_choice",
     "options": [
-      "Robins are red",
-      "Robins can fly",
-      "Robins are big",
-      "Robins sing loudly"
+      "B",
+      "C",
+      "D",
+      "E"
     ],
-    "correctAnswer": "Robins can fly",
+    "correctAnswer": "D",
     "subject": "thinking-skills",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "If all birds can fly and robins are birds, then robins can fly.",
-    "_cacheBreaker": "1755265388161_2"
+    "explanation": "The alphabet continues: A, B, C, D",
+    "_cacheBreaker": "1756033253394_3"
   },
   {
-    "_id": "thinking_1_hard_1755262176982_004",
-    "scenario": "Look at these animals: 🐶 🐱 🐶 🐶. Three are the same and one is different.",
-    "content": "Which animal is different from the others? (Question 4)",
+    "_id": "thinking-skills_1_hard_004",
+    "content": "Which is the odd one out: 2, 4, 6, 7?",
     "type": "multiple_choice",
     "options": [
-      "First dog",
-      "Cat",
-      "Third dog",
-      "Last dog"
+      "2",
+      "4",
+      "6",
+      "7"
     ],
-    "correctAnswer": "Cat",
+    "correctAnswer": "7",
     "subject": "thinking-skills",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "The cat is different because all the others are dogs.",
-    "_cacheBreaker": "1755265388161_3"
+    "explanation": "2, 4, and 6 are even numbers. 7 is odd.",
+    "_cacheBreaker": "1756033253394_4"
   },
   {
-    "_id": "thinking_1_hard_1755262176982_005",
-    "scenario": "Sarah sees this pattern of colors: Red, Blue, Red, Blue, Red, Blue. She needs to continue the pattern.",
-    "content": "What color should come next? (Question 5)",
+    "_id": "thinking-skills_1_hard_005",
+    "content": "If you turn a square 90 degrees, what shape do you get?",
     "type": "multiple_choice",
     "options": [
-      "Green",
-      "Red",
-      "Yellow",
-      "Purple"
+      "triangle",
+      "circle",
+      "square",
+      "rectangle"
     ],
-    "correctAnswer": "Red",
+    "correctAnswer": "square",
     "subject": "thinking-skills",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "The pattern alternates Red, Blue, so after Blue comes Red.",
-    "_cacheBreaker": "1755265388161_4"
+    "explanation": "A square looks the same when rotated 90 degrees.",
+    "_cacheBreaker": "1756033253394_5"
   },
   {
-    "_id": "thinking_1_hard_1755262176982_006",
-    "scenario": "Mom says: 'All birds can fly. A robin is a bird.' Tommy is trying to figure out what this means about robins.",
-    "content": "What can Tommy conclude about robins? (Question 6)",
+    "_id": "thinking-skills_1_hard_006",
+    "content": "Which one doesn't belong: cat, dog, bird, car?",
     "type": "multiple_choice",
     "options": [
-      "Robins are red",
-      "Robins can fly",
-      "Robins are big",
-      "Robins sing loudly"
+      "cat",
+      "dog",
+      "bird",
+      "car"
     ],
-    "correctAnswer": "Robins can fly",
+    "correctAnswer": "car",
     "subject": "thinking-skills",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "If all birds can fly and robins are birds, then robins can fly.",
-    "_cacheBreaker": "1755265388161_5"
+    "explanation": "Cat, dog, and bird are animals. Car is not an animal.",
+    "_cacheBreaker": "1756033253394_6"
   },
   {
-    "_id": "thinking_1_hard_1755262176982_007",
-    "scenario": "Look at these animals: 🐶 🐱 🐶 🐶. Three are the same and one is different.",
-    "content": "Which animal is different from the others? (Question 7)",
+    "_id": "thinking-skills_1_hard_007",
+    "content": "If all flowers are pretty and roses are flowers, then roses are:",
     "type": "multiple_choice",
     "options": [
-      "First dog",
-      "Cat",
-      "Third dog",
-      "Last dog"
+      "red",
+      "pretty",
+      "big",
+      "small"
     ],
-    "correctAnswer": "Cat",
+    "correctAnswer": "pretty",
     "subject": "thinking-skills",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "The cat is different because all the others are dogs.",
-    "_cacheBreaker": "1755265388161_6"
+    "explanation": "Since all flowers are pretty and roses are flowers, roses must be pretty.",
+    "_cacheBreaker": "1756033253394_7"
   },
   {
-    "_id": "thinking_1_hard_1755262176982_008",
-    "scenario": "Sarah sees this pattern of colors: Red, Blue, Red, Blue, Red, Blue. She needs to continue the pattern.",
-    "content": "What color should come next? (Question 8)",
+    "_id": "thinking-skills_1_hard_008",
+    "content": "What comes next: A, B, C, ?",
     "type": "multiple_choice",
     "options": [
-      "Green",
-      "Red",
-      "Yellow",
-      "Purple"
+      "B",
+      "C",
+      "D",
+      "E"
     ],
-    "correctAnswer": "Red",
+    "correctAnswer": "D",
     "subject": "thinking-skills",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "The pattern alternates Red, Blue, so after Blue comes Red.",
-    "_cacheBreaker": "1755265388161_7"
+    "explanation": "The alphabet continues: A, B, C, D",
+    "_cacheBreaker": "1756033253394_8"
   },
   {
-    "_id": "thinking_1_hard_1755262176982_009",
-    "scenario": "Mom says: 'All birds can fly. A robin is a bird.' Tommy is trying to figure out what this means about robins.",
-    "content": "What can Tommy conclude about robins? (Question 9)",
+    "_id": "thinking-skills_1_hard_009",
+    "content": "Which is the odd one out: 2, 4, 6, 7?",
     "type": "multiple_choice",
     "options": [
-      "Robins are red",
-      "Robins can fly",
-      "Robins are big",
-      "Robins sing loudly"
+      "2",
+      "4",
+      "6",
+      "7"
     ],
-    "correctAnswer": "Robins can fly",
+    "correctAnswer": "7",
     "subject": "thinking-skills",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "If all birds can fly and robins are birds, then robins can fly.",
-    "_cacheBreaker": "1755265388161_8"
+    "explanation": "2, 4, and 6 are even numbers. 7 is odd.",
+    "_cacheBreaker": "1756033253394_9"
   },
   {
-    "_id": "thinking_1_hard_1755262176982_010",
-    "scenario": "Look at these animals: 🐶 🐱 🐶 🐶. Three are the same and one is different.",
-    "content": "Which animal is different from the others? (Question 10)",
+    "_id": "thinking-skills_1_hard_010",
+    "content": "If you turn a square 90 degrees, what shape do you get?",
     "type": "multiple_choice",
     "options": [
-      "First dog",
-      "Cat",
-      "Third dog",
-      "Last dog"
+      "triangle",
+      "circle",
+      "square",
+      "rectangle"
     ],
-    "correctAnswer": "Cat",
+    "correctAnswer": "square",
     "subject": "thinking-skills",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "The cat is different because all the others are dogs.",
-    "_cacheBreaker": "1755265388161_9"
+    "explanation": "A square looks the same when rotated 90 degrees.",
+    "_cacheBreaker": "1756033253394_10"
   },
   {
-    "_id": "thinking_1_hard_1755262176982_011",
-    "scenario": "Sarah sees this pattern of colors: Red, Blue, Red, Blue, Red, Blue. She needs to continue the pattern.",
-    "content": "What color should come next? (Question 11)",
+    "_id": "thinking-skills_1_hard_011",
+    "content": "Which one doesn't belong: cat, dog, bird, car?",
     "type": "multiple_choice",
     "options": [
-      "Green",
-      "Red",
-      "Yellow",
-      "Purple"
+      "cat",
+      "dog",
+      "bird",
+      "car"
     ],
-    "correctAnswer": "Red",
+    "correctAnswer": "car",
     "subject": "thinking-skills",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "The pattern alternates Red, Blue, so after Blue comes Red.",
-    "_cacheBreaker": "1755265388161_10"
+    "explanation": "Cat, dog, and bird are animals. Car is not an animal.",
+    "_cacheBreaker": "1756033253394_11"
   },
   {
-    "_id": "thinking_1_hard_1755262176982_012",
-    "scenario": "Mom says: 'All birds can fly. A robin is a bird.' Tommy is trying to figure out what this means about robins.",
-    "content": "What can Tommy conclude about robins? (Question 12)",
+    "_id": "thinking-skills_1_hard_012",
+    "content": "If all flowers are pretty and roses are flowers, then roses are:",
     "type": "multiple_choice",
     "options": [
-      "Robins are red",
-      "Robins can fly",
-      "Robins are big",
-      "Robins sing loudly"
+      "red",
+      "pretty",
+      "big",
+      "small"
     ],
-    "correctAnswer": "Robins can fly",
+    "correctAnswer": "pretty",
     "subject": "thinking-skills",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "If all birds can fly and robins are birds, then robins can fly.",
-    "_cacheBreaker": "1755265388161_11"
+    "explanation": "Since all flowers are pretty and roses are flowers, roses must be pretty.",
+    "_cacheBreaker": "1756033253394_12"
   },
   {
-    "_id": "thinking_1_hard_1755262176982_013",
-    "scenario": "Look at these animals: 🐶 🐱 🐶 🐶. Three are the same and one is different.",
-    "content": "Which animal is different from the others? (Question 13)",
+    "_id": "thinking-skills_1_hard_013",
+    "content": "What comes next: A, B, C, ?",
     "type": "multiple_choice",
     "options": [
-      "First dog",
-      "Cat",
-      "Third dog",
-      "Last dog"
+      "B",
+      "C",
+      "D",
+      "E"
     ],
-    "correctAnswer": "Cat",
+    "correctAnswer": "D",
     "subject": "thinking-skills",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "The cat is different because all the others are dogs.",
-    "_cacheBreaker": "1755265388161_12"
+    "explanation": "The alphabet continues: A, B, C, D",
+    "_cacheBreaker": "1756033253394_13"
   },
   {
-    "_id": "thinking_1_hard_1755262176982_014",
-    "scenario": "Sarah sees this pattern of colors: Red, Blue, Red, Blue, Red, Blue. She needs to continue the pattern.",
-    "content": "What color should come next? (Question 14)",
+    "_id": "thinking-skills_1_hard_014",
+    "content": "Which is the odd one out: 2, 4, 6, 7?",
     "type": "multiple_choice",
     "options": [
-      "Green",
-      "Red",
-      "Yellow",
-      "Purple"
+      "2",
+      "4",
+      "6",
+      "7"
     ],
-    "correctAnswer": "Red",
+    "correctAnswer": "7",
     "subject": "thinking-skills",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "The pattern alternates Red, Blue, so after Blue comes Red.",
-    "_cacheBreaker": "1755265388161_13"
+    "explanation": "2, 4, and 6 are even numbers. 7 is odd.",
+    "_cacheBreaker": "1756033253394_14"
   },
   {
-    "_id": "thinking_1_hard_1755262176982_015",
-    "scenario": "Mom says: 'All birds can fly. A robin is a bird.' Tommy is trying to figure out what this means about robins.",
-    "content": "What can Tommy conclude about robins? (Question 15)",
+    "_id": "thinking-skills_1_hard_015",
+    "content": "If you turn a square 90 degrees, what shape do you get?",
     "type": "multiple_choice",
     "options": [
-      "Robins are red",
-      "Robins can fly",
-      "Robins are big",
-      "Robins sing loudly"
+      "triangle",
+      "circle",
+      "square",
+      "rectangle"
     ],
-    "correctAnswer": "Robins can fly",
+    "correctAnswer": "square",
     "subject": "thinking-skills",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "If all birds can fly and robins are birds, then robins can fly.",
-    "_cacheBreaker": "1755265388161_14"
+    "explanation": "A square looks the same when rotated 90 degrees.",
+    "_cacheBreaker": "1756033253394_15"
   },
   {
-    "_id": "thinking_1_hard_1755262176982_016",
-    "scenario": "Look at these animals: 🐶 🐱 🐶 🐶. Three are the same and one is different.",
-    "content": "Which animal is different from the others? (Question 16)",
+    "_id": "thinking-skills_1_hard_016",
+    "content": "Which one doesn't belong: cat, dog, bird, car?",
     "type": "multiple_choice",
     "options": [
-      "First dog",
-      "Cat",
-      "Third dog",
-      "Last dog"
+      "cat",
+      "dog",
+      "bird",
+      "car"
     ],
-    "correctAnswer": "Cat",
+    "correctAnswer": "car",
     "subject": "thinking-skills",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "The cat is different because all the others are dogs.",
-    "_cacheBreaker": "1755265388161_15"
+    "explanation": "Cat, dog, and bird are animals. Car is not an animal.",
+    "_cacheBreaker": "1756033253394_16"
   },
   {
-    "_id": "thinking_1_hard_1755262176982_017",
-    "scenario": "Sarah sees this pattern of colors: Red, Blue, Red, Blue, Red, Blue. She needs to continue the pattern.",
-    "content": "What color should come next? (Question 17)",
+    "_id": "thinking-skills_1_hard_017",
+    "content": "If all flowers are pretty and roses are flowers, then roses are:",
     "type": "multiple_choice",
     "options": [
-      "Green",
-      "Red",
-      "Yellow",
-      "Purple"
+      "red",
+      "pretty",
+      "big",
+      "small"
     ],
-    "correctAnswer": "Red",
+    "correctAnswer": "pretty",
     "subject": "thinking-skills",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "The pattern alternates Red, Blue, so after Blue comes Red.",
-    "_cacheBreaker": "1755265388161_16"
+    "explanation": "Since all flowers are pretty and roses are flowers, roses must be pretty.",
+    "_cacheBreaker": "1756033253394_17"
   },
   {
-    "_id": "thinking_1_hard_1755262176982_018",
-    "scenario": "Mom says: 'All birds can fly. A robin is a bird.' Tommy is trying to figure out what this means about robins.",
-    "content": "What can Tommy conclude about robins? (Question 18)",
+    "_id": "thinking-skills_1_hard_018",
+    "content": "What comes next: A, B, C, ?",
     "type": "multiple_choice",
     "options": [
-      "Robins are red",
-      "Robins can fly",
-      "Robins are big",
-      "Robins sing loudly"
+      "B",
+      "C",
+      "D",
+      "E"
     ],
-    "correctAnswer": "Robins can fly",
+    "correctAnswer": "D",
     "subject": "thinking-skills",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "If all birds can fly and robins are birds, then robins can fly.",
-    "_cacheBreaker": "1755265388161_17"
+    "explanation": "The alphabet continues: A, B, C, D",
+    "_cacheBreaker": "1756033253394_18"
   },
   {
-    "_id": "thinking_1_hard_1755262176982_019",
-    "scenario": "Look at these animals: 🐶 🐱 🐶 🐶. Three are the same and one is different.",
-    "content": "Which animal is different from the others? (Question 19)",
+    "_id": "thinking-skills_1_hard_019",
+    "content": "Which is the odd one out: 2, 4, 6, 7?",
     "type": "multiple_choice",
     "options": [
-      "First dog",
-      "Cat",
-      "Third dog",
-      "Last dog"
+      "2",
+      "4",
+      "6",
+      "7"
     ],
-    "correctAnswer": "Cat",
+    "correctAnswer": "7",
     "subject": "thinking-skills",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "The cat is different because all the others are dogs.",
-    "_cacheBreaker": "1755265388161_18"
+    "explanation": "2, 4, and 6 are even numbers. 7 is odd.",
+    "_cacheBreaker": "1756033253394_19"
   },
   {
-    "_id": "thinking_1_hard_1755262176982_020",
-    "scenario": "Sarah sees this pattern of colors: Red, Blue, Red, Blue, Red, Blue. She needs to continue the pattern.",
-    "content": "What color should come next? (Question 20)",
+    "_id": "thinking-skills_1_hard_020",
+    "content": "If you turn a square 90 degrees, what shape do you get?",
     "type": "multiple_choice",
     "options": [
-      "Green",
-      "Red",
-      "Yellow",
-      "Purple"
+      "triangle",
+      "circle",
+      "square",
+      "rectangle"
     ],
-    "correctAnswer": "Red",
+    "correctAnswer": "square",
     "subject": "thinking-skills",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "The pattern alternates Red, Blue, so after Blue comes Red.",
-    "_cacheBreaker": "1755265388161_19"
+    "explanation": "A square looks the same when rotated 90 degrees.",
+    "_cacheBreaker": "1756033253394_20"
+  },
+  {
+    "_id": "thinking-skills_1_hard_021",
+    "content": "Which one doesn't belong: cat, dog, bird, car?",
+    "type": "multiple_choice",
+    "options": [
+      "cat",
+      "dog",
+      "bird",
+      "car"
+    ],
+    "correctAnswer": "car",
+    "subject": "thinking-skills",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "Cat, dog, and bird are animals. Car is not an animal.",
+    "_cacheBreaker": "1756033253394_21"
+  },
+  {
+    "_id": "thinking-skills_1_hard_022",
+    "content": "If all flowers are pretty and roses are flowers, then roses are:",
+    "type": "multiple_choice",
+    "options": [
+      "red",
+      "pretty",
+      "big",
+      "small"
+    ],
+    "correctAnswer": "pretty",
+    "subject": "thinking-skills",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "Since all flowers are pretty and roses are flowers, roses must be pretty.",
+    "_cacheBreaker": "1756033253394_22"
+  },
+  {
+    "_id": "thinking-skills_1_hard_023",
+    "content": "What comes next: A, B, C, ?",
+    "type": "multiple_choice",
+    "options": [
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "correctAnswer": "D",
+    "subject": "thinking-skills",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "The alphabet continues: A, B, C, D",
+    "_cacheBreaker": "1756033253394_23"
+  },
+  {
+    "_id": "thinking-skills_1_hard_024",
+    "content": "Which is the odd one out: 2, 4, 6, 7?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "7",
+    "subject": "thinking-skills",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "2, 4, and 6 are even numbers. 7 is odd.",
+    "_cacheBreaker": "1756033253394_24"
+  },
+  {
+    "_id": "thinking-skills_1_hard_025",
+    "content": "If you turn a square 90 degrees, what shape do you get?",
+    "type": "multiple_choice",
+    "options": [
+      "triangle",
+      "circle",
+      "square",
+      "rectangle"
+    ],
+    "correctAnswer": "square",
+    "subject": "thinking-skills",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "A square looks the same when rotated 90 degrees.",
+    "_cacheBreaker": "1756033253394_25"
+  },
+  {
+    "_id": "thinking-skills_1_hard_026",
+    "content": "Which one doesn't belong: cat, dog, bird, car?",
+    "type": "multiple_choice",
+    "options": [
+      "cat",
+      "dog",
+      "bird",
+      "car"
+    ],
+    "correctAnswer": "car",
+    "subject": "thinking-skills",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "Cat, dog, and bird are animals. Car is not an animal.",
+    "_cacheBreaker": "1756033253394_26"
+  },
+  {
+    "_id": "thinking-skills_1_hard_027",
+    "content": "If all flowers are pretty and roses are flowers, then roses are:",
+    "type": "multiple_choice",
+    "options": [
+      "red",
+      "pretty",
+      "big",
+      "small"
+    ],
+    "correctAnswer": "pretty",
+    "subject": "thinking-skills",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "Since all flowers are pretty and roses are flowers, roses must be pretty.",
+    "_cacheBreaker": "1756033253394_27"
+  },
+  {
+    "_id": "thinking-skills_1_hard_028",
+    "content": "What comes next: A, B, C, ?",
+    "type": "multiple_choice",
+    "options": [
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "correctAnswer": "D",
+    "subject": "thinking-skills",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "The alphabet continues: A, B, C, D",
+    "_cacheBreaker": "1756033253394_28"
+  },
+  {
+    "_id": "thinking-skills_1_hard_029",
+    "content": "Which is the odd one out: 2, 4, 6, 7?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "7",
+    "subject": "thinking-skills",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "2, 4, and 6 are even numbers. 7 is odd.",
+    "_cacheBreaker": "1756033253394_29"
+  },
+  {
+    "_id": "thinking-skills_1_hard_030",
+    "content": "If you turn a square 90 degrees, what shape do you get?",
+    "type": "multiple_choice",
+    "options": [
+      "triangle",
+      "circle",
+      "square",
+      "rectangle"
+    ],
+    "correctAnswer": "square",
+    "subject": "thinking-skills",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "A square looks the same when rotated 90 degrees.",
+    "_cacheBreaker": "1756033253394_30"
+  },
+  {
+    "_id": "thinking-skills_1_hard_031",
+    "content": "Which one doesn't belong: cat, dog, bird, car?",
+    "type": "multiple_choice",
+    "options": [
+      "cat",
+      "dog",
+      "bird",
+      "car"
+    ],
+    "correctAnswer": "car",
+    "subject": "thinking-skills",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "Cat, dog, and bird are animals. Car is not an animal.",
+    "_cacheBreaker": "1756033253394_31"
+  },
+  {
+    "_id": "thinking-skills_1_hard_032",
+    "content": "If all flowers are pretty and roses are flowers, then roses are:",
+    "type": "multiple_choice",
+    "options": [
+      "red",
+      "pretty",
+      "big",
+      "small"
+    ],
+    "correctAnswer": "pretty",
+    "subject": "thinking-skills",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "Since all flowers are pretty and roses are flowers, roses must be pretty.",
+    "_cacheBreaker": "1756033253394_32"
+  },
+  {
+    "_id": "thinking-skills_1_hard_033",
+    "content": "What comes next: A, B, C, ?",
+    "type": "multiple_choice",
+    "options": [
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "correctAnswer": "D",
+    "subject": "thinking-skills",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "The alphabet continues: A, B, C, D",
+    "_cacheBreaker": "1756033253394_33"
+  },
+  {
+    "_id": "thinking-skills_1_hard_034",
+    "content": "Which is the odd one out: 2, 4, 6, 7?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "7",
+    "subject": "thinking-skills",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "2, 4, and 6 are even numbers. 7 is odd.",
+    "_cacheBreaker": "1756033253394_34"
+  },
+  {
+    "_id": "thinking-skills_1_hard_035",
+    "content": "If you turn a square 90 degrees, what shape do you get?",
+    "type": "multiple_choice",
+    "options": [
+      "triangle",
+      "circle",
+      "square",
+      "rectangle"
+    ],
+    "correctAnswer": "square",
+    "subject": "thinking-skills",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "A square looks the same when rotated 90 degrees.",
+    "_cacheBreaker": "1756033253394_35"
+  },
+  {
+    "_id": "thinking-skills_1_hard_036",
+    "content": "Which one doesn't belong: cat, dog, bird, car?",
+    "type": "multiple_choice",
+    "options": [
+      "cat",
+      "dog",
+      "bird",
+      "car"
+    ],
+    "correctAnswer": "car",
+    "subject": "thinking-skills",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "Cat, dog, and bird are animals. Car is not an animal.",
+    "_cacheBreaker": "1756033253394_36"
+  },
+  {
+    "_id": "thinking-skills_1_hard_037",
+    "content": "If all flowers are pretty and roses are flowers, then roses are:",
+    "type": "multiple_choice",
+    "options": [
+      "red",
+      "pretty",
+      "big",
+      "small"
+    ],
+    "correctAnswer": "pretty",
+    "subject": "thinking-skills",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "Since all flowers are pretty and roses are flowers, roses must be pretty.",
+    "_cacheBreaker": "1756033253394_37"
+  },
+  {
+    "_id": "thinking-skills_1_hard_038",
+    "content": "What comes next: A, B, C, ?",
+    "type": "multiple_choice",
+    "options": [
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "correctAnswer": "D",
+    "subject": "thinking-skills",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "The alphabet continues: A, B, C, D",
+    "_cacheBreaker": "1756033253394_38"
+  },
+  {
+    "_id": "thinking-skills_1_hard_039",
+    "content": "Which is the odd one out: 2, 4, 6, 7?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "7",
+    "subject": "thinking-skills",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "2, 4, and 6 are even numbers. 7 is odd.",
+    "_cacheBreaker": "1756033253394_39"
+  },
+  {
+    "_id": "thinking-skills_1_hard_040",
+    "content": "If you turn a square 90 degrees, what shape do you get?",
+    "type": "multiple_choice",
+    "options": [
+      "triangle",
+      "circle",
+      "square",
+      "rectangle"
+    ],
+    "correctAnswer": "square",
+    "subject": "thinking-skills",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "A square looks the same when rotated 90 degrees.",
+    "_cacheBreaker": "1756033253394_40"
+  },
+  {
+    "_id": "thinking-skills_1_hard_041",
+    "content": "Which one doesn't belong: cat, dog, bird, car?",
+    "type": "multiple_choice",
+    "options": [
+      "cat",
+      "dog",
+      "bird",
+      "car"
+    ],
+    "correctAnswer": "car",
+    "subject": "thinking-skills",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "Cat, dog, and bird are animals. Car is not an animal.",
+    "_cacheBreaker": "1756033253394_41"
+  },
+  {
+    "_id": "thinking-skills_1_hard_042",
+    "content": "If all flowers are pretty and roses are flowers, then roses are:",
+    "type": "multiple_choice",
+    "options": [
+      "red",
+      "pretty",
+      "big",
+      "small"
+    ],
+    "correctAnswer": "pretty",
+    "subject": "thinking-skills",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "Since all flowers are pretty and roses are flowers, roses must be pretty.",
+    "_cacheBreaker": "1756033253394_42"
+  },
+  {
+    "_id": "thinking-skills_1_hard_043",
+    "content": "What comes next: A, B, C, ?",
+    "type": "multiple_choice",
+    "options": [
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "correctAnswer": "D",
+    "subject": "thinking-skills",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "The alphabet continues: A, B, C, D",
+    "_cacheBreaker": "1756033253394_43"
+  },
+  {
+    "_id": "thinking-skills_1_hard_044",
+    "content": "Which is the odd one out: 2, 4, 6, 7?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "7",
+    "subject": "thinking-skills",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "2, 4, and 6 are even numbers. 7 is odd.",
+    "_cacheBreaker": "1756033253394_44"
+  },
+  {
+    "_id": "thinking-skills_1_hard_045",
+    "content": "If you turn a square 90 degrees, what shape do you get?",
+    "type": "multiple_choice",
+    "options": [
+      "triangle",
+      "circle",
+      "square",
+      "rectangle"
+    ],
+    "correctAnswer": "square",
+    "subject": "thinking-skills",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "A square looks the same when rotated 90 degrees.",
+    "_cacheBreaker": "1756033253394_45"
+  },
+  {
+    "_id": "thinking-skills_1_hard_046",
+    "content": "Which one doesn't belong: cat, dog, bird, car?",
+    "type": "multiple_choice",
+    "options": [
+      "cat",
+      "dog",
+      "bird",
+      "car"
+    ],
+    "correctAnswer": "car",
+    "subject": "thinking-skills",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "Cat, dog, and bird are animals. Car is not an animal.",
+    "_cacheBreaker": "1756033253394_46"
+  },
+  {
+    "_id": "thinking-skills_1_hard_047",
+    "content": "If all flowers are pretty and roses are flowers, then roses are:",
+    "type": "multiple_choice",
+    "options": [
+      "red",
+      "pretty",
+      "big",
+      "small"
+    ],
+    "correctAnswer": "pretty",
+    "subject": "thinking-skills",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "Since all flowers are pretty and roses are flowers, roses must be pretty.",
+    "_cacheBreaker": "1756033253394_47"
+  },
+  {
+    "_id": "thinking-skills_1_hard_048",
+    "content": "What comes next: A, B, C, ?",
+    "type": "multiple_choice",
+    "options": [
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "correctAnswer": "D",
+    "subject": "thinking-skills",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "The alphabet continues: A, B, C, D",
+    "_cacheBreaker": "1756033253394_48"
+  },
+  {
+    "_id": "thinking-skills_1_hard_049",
+    "content": "Which is the odd one out: 2, 4, 6, 7?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "7",
+    "subject": "thinking-skills",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "2, 4, and 6 are even numbers. 7 is odd.",
+    "_cacheBreaker": "1756033253394_49"
+  },
+  {
+    "_id": "thinking-skills_1_hard_050",
+    "content": "If you turn a square 90 degrees, what shape do you get?",
+    "type": "multiple_choice",
+    "options": [
+      "triangle",
+      "circle",
+      "square",
+      "rectangle"
+    ],
+    "correctAnswer": "square",
+    "subject": "thinking-skills",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "A square looks the same when rotated 90 degrees.",
+    "_cacheBreaker": "1756033253394_50"
   }
 ]

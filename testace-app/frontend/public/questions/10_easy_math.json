@@ -1,342 +1,852 @@
 [
   {
-    "_id": "easy10_1755260948241_001",
-    "content": "What is cos(0°)?",
+    "_id": "math_10_easy_001",
+    "content": "What is 50 + 30?",
     "type": "multiple_choice",
     "options": [
-      "0",
-      "1",
-      "-1",
-      "1/2"
-    ],
-    "correctAnswer": "1",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "easy",
-    "explanation": "cos(0°) = 1",
-    "_cacheBreaker": "1755265388123_0"
-  },
-  {
-    "_id": "easy10_1755260948241_002",
-    "content": "Simplify: log₁₀(100)",
-    "type": "multiple_choice",
-    "options": [
-      "1",
-      "2",
-      "10",
+      "70",
+      "80",
+      "90",
       "100"
     ],
-    "correctAnswer": "2",
+    "correctAnswer": "80",
     "subject": "math",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "log₁₀(100) = 2 because 10² = 100",
-    "_cacheBreaker": "1755265388123_1"
+    "explanation": "50 + 30 = 80",
+    "_cacheBreaker": "1756033578432_1"
   },
   {
-    "_id": "easy10_1755260948241_003",
-    "content": "Find the domain of f(x) = 1/x",
+    "_id": "math_10_easy_002",
+    "content": "Solve: 10x = 120",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "x ≠ 0",
-      "x > 0",
-      "x ≥ 0"
+      "x = 100",
+      "x = 12",
+      "x = 10",
+      "x = 60"
     ],
-    "correctAnswer": "x ≠ 0",
+    "correctAnswer": "x = 12",
     "subject": "math",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "Cannot divide by zero, so x ≠ 0",
-    "_cacheBreaker": "1755265388123_2"
+    "explanation": "x = 120 ÷ 10 = 12",
+    "_cacheBreaker": "1756033578432_2"
   },
   {
-    "_id": "easy10_1755260948246_004",
-    "content": "What is cos(0°)? (Question 4)",
+    "_id": "math_10_easy_003",
+    "content": "What is 100% of 100?",
     "type": "multiple_choice",
     "options": [
-      "0",
-      "1",
-      "-1",
-      "1/2"
+      "50",
+      "100",
+      "150",
+      "200"
     ],
-    "correctAnswer": "1",
+    "correctAnswer": "100",
     "subject": "math",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "cos(0°) = 1",
-    "_cacheBreaker": "1755265388123_3"
+    "explanation": "100% of 100 = 100",
+    "_cacheBreaker": "1756033578432_3"
   },
   {
-    "_id": "easy10_1755260948246_005",
-    "content": "Simplify: log₁₀(100) (Question 5)",
+    "_id": "math_10_easy_004",
+    "content": "Convert 10/10 to a decimal.",
     "type": "multiple_choice",
     "options": [
-      "1",
-      "2",
-      "10",
+      "0.10",
+      "10.0",
+      "10/100",
+      "10.10"
+    ],
+    "correctAnswer": "0.10",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "10/10 = 0.10",
+    "_cacheBreaker": "1756033578432_4"
+  },
+  {
+    "_id": "math_10_easy_005",
+    "content": "What is the area of a square with side length 12 cm?",
+    "type": "multiple_choice",
+    "options": [
+      "48 cm²",
+      "144 cm²",
+      "12 cm²",
+      "24 cm²"
+    ],
+    "correctAnswer": "144 cm²",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "Area of square = side² = 12² = 144 cm²",
+    "_cacheBreaker": "1756033578432_5"
+  },
+  {
+    "_id": "math_10_easy_006",
+    "content": "What is 50 + 30?",
+    "type": "multiple_choice",
+    "options": [
+      "70",
+      "80",
+      "90",
       "100"
     ],
-    "correctAnswer": "2",
+    "correctAnswer": "80",
     "subject": "math",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "log₁₀(100) = 2 because 10² = 100",
-    "_cacheBreaker": "1755265388123_4"
+    "explanation": "50 + 30 = 80",
+    "_cacheBreaker": "1756033578432_6"
   },
   {
-    "_id": "easy10_1755260948246_006",
-    "content": "Find the domain of f(x) = 1/x (Question 6)",
+    "_id": "math_10_easy_007",
+    "content": "Solve: 10x = 120",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "x ≠ 0",
-      "x > 0",
-      "x ≥ 0"
+      "x = 100",
+      "x = 12",
+      "x = 10",
+      "x = 60"
     ],
-    "correctAnswer": "x ≠ 0",
+    "correctAnswer": "x = 12",
     "subject": "math",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "Cannot divide by zero, so x ≠ 0",
-    "_cacheBreaker": "1755265388123_5"
+    "explanation": "x = 120 ÷ 10 = 12",
+    "_cacheBreaker": "1756033578432_7"
   },
   {
-    "_id": "easy10_1755260948246_007",
-    "content": "What is cos(0°)? (Question 7)",
+    "_id": "math_10_easy_008",
+    "content": "What is 100% of 100?",
     "type": "multiple_choice",
     "options": [
-      "0",
-      "1",
-      "-1",
-      "1/2"
+      "50",
+      "100",
+      "150",
+      "200"
     ],
-    "correctAnswer": "1",
+    "correctAnswer": "100",
     "subject": "math",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "cos(0°) = 1",
-    "_cacheBreaker": "1755265388123_6"
+    "explanation": "100% of 100 = 100",
+    "_cacheBreaker": "1756033578432_8"
   },
   {
-    "_id": "easy10_1755260948246_008",
-    "content": "Simplify: log₁₀(100) (Question 8)",
+    "_id": "math_10_easy_009",
+    "content": "Convert 10/10 to a decimal.",
     "type": "multiple_choice",
     "options": [
-      "1",
-      "2",
-      "10",
+      "0.10",
+      "10.0",
+      "10/100",
+      "10.10"
+    ],
+    "correctAnswer": "0.10",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "10/10 = 0.10",
+    "_cacheBreaker": "1756033578432_9"
+  },
+  {
+    "_id": "math_10_easy_010",
+    "content": "What is the area of a square with side length 12 cm?",
+    "type": "multiple_choice",
+    "options": [
+      "48 cm²",
+      "144 cm²",
+      "12 cm²",
+      "24 cm²"
+    ],
+    "correctAnswer": "144 cm²",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "Area of square = side² = 12² = 144 cm²",
+    "_cacheBreaker": "1756033578432_10"
+  },
+  {
+    "_id": "math_10_easy_011",
+    "content": "What is 50 + 30?",
+    "type": "multiple_choice",
+    "options": [
+      "70",
+      "80",
+      "90",
       "100"
     ],
-    "correctAnswer": "2",
+    "correctAnswer": "80",
     "subject": "math",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "log₁₀(100) = 2 because 10² = 100",
-    "_cacheBreaker": "1755265388123_7"
+    "explanation": "50 + 30 = 80",
+    "_cacheBreaker": "1756033578432_11"
   },
   {
-    "_id": "easy10_1755260948246_009",
-    "content": "Find the domain of f(x) = 1/x (Question 9)",
+    "_id": "math_10_easy_012",
+    "content": "Solve: 10x = 120",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "x ≠ 0",
-      "x > 0",
-      "x ≥ 0"
+      "x = 100",
+      "x = 12",
+      "x = 10",
+      "x = 60"
     ],
-    "correctAnswer": "x ≠ 0",
+    "correctAnswer": "x = 12",
     "subject": "math",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "Cannot divide by zero, so x ≠ 0",
-    "_cacheBreaker": "1755265388123_8"
+    "explanation": "x = 120 ÷ 10 = 12",
+    "_cacheBreaker": "1756033578432_12"
   },
   {
-    "_id": "easy10_1755260948246_010",
-    "content": "What is cos(0°)? (Question 10)",
+    "_id": "math_10_easy_013",
+    "content": "What is 100% of 100?",
     "type": "multiple_choice",
     "options": [
-      "0",
-      "1",
-      "-1",
-      "1/2"
+      "50",
+      "100",
+      "150",
+      "200"
     ],
-    "correctAnswer": "1",
+    "correctAnswer": "100",
     "subject": "math",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "cos(0°) = 1",
-    "_cacheBreaker": "1755265388123_9"
+    "explanation": "100% of 100 = 100",
+    "_cacheBreaker": "1756033578432_13"
   },
   {
-    "_id": "easy10_1755260948246_011",
-    "content": "Simplify: log₁₀(100) (Question 11)",
+    "_id": "math_10_easy_014",
+    "content": "Convert 10/10 to a decimal.",
     "type": "multiple_choice",
     "options": [
-      "1",
-      "2",
-      "10",
+      "0.10",
+      "10.0",
+      "10/100",
+      "10.10"
+    ],
+    "correctAnswer": "0.10",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "10/10 = 0.10",
+    "_cacheBreaker": "1756033578432_14"
+  },
+  {
+    "_id": "math_10_easy_015",
+    "content": "What is the area of a square with side length 12 cm?",
+    "type": "multiple_choice",
+    "options": [
+      "48 cm²",
+      "144 cm²",
+      "12 cm²",
+      "24 cm²"
+    ],
+    "correctAnswer": "144 cm²",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "Area of square = side² = 12² = 144 cm²",
+    "_cacheBreaker": "1756033578432_15"
+  },
+  {
+    "_id": "math_10_easy_016",
+    "content": "What is 50 + 30?",
+    "type": "multiple_choice",
+    "options": [
+      "70",
+      "80",
+      "90",
       "100"
     ],
-    "correctAnswer": "2",
+    "correctAnswer": "80",
     "subject": "math",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "log₁₀(100) = 2 because 10² = 100",
-    "_cacheBreaker": "1755265388123_10"
+    "explanation": "50 + 30 = 80",
+    "_cacheBreaker": "1756033578432_16"
   },
   {
-    "_id": "easy10_1755260948246_012",
-    "content": "Find the domain of f(x) = 1/x (Question 12)",
+    "_id": "math_10_easy_017",
+    "content": "Solve: 10x = 120",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "x ≠ 0",
-      "x > 0",
-      "x ≥ 0"
+      "x = 100",
+      "x = 12",
+      "x = 10",
+      "x = 60"
     ],
-    "correctAnswer": "x ≠ 0",
+    "correctAnswer": "x = 12",
     "subject": "math",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "Cannot divide by zero, so x ≠ 0",
-    "_cacheBreaker": "1755265388123_11"
+    "explanation": "x = 120 ÷ 10 = 12",
+    "_cacheBreaker": "1756033578432_17"
   },
   {
-    "_id": "easy10_1755260948246_013",
-    "content": "What is cos(0°)? (Question 13)",
+    "_id": "math_10_easy_018",
+    "content": "What is 100% of 100?",
     "type": "multiple_choice",
     "options": [
-      "0",
-      "1",
-      "-1",
-      "1/2"
+      "50",
+      "100",
+      "150",
+      "200"
     ],
-    "correctAnswer": "1",
+    "correctAnswer": "100",
     "subject": "math",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "cos(0°) = 1",
-    "_cacheBreaker": "1755265388123_12"
+    "explanation": "100% of 100 = 100",
+    "_cacheBreaker": "1756033578432_18"
   },
   {
-    "_id": "easy10_1755260948246_014",
-    "content": "Simplify: log₁₀(100) (Question 14)",
+    "_id": "math_10_easy_019",
+    "content": "Convert 10/10 to a decimal.",
     "type": "multiple_choice",
     "options": [
-      "1",
-      "2",
-      "10",
+      "0.10",
+      "10.0",
+      "10/100",
+      "10.10"
+    ],
+    "correctAnswer": "0.10",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "10/10 = 0.10",
+    "_cacheBreaker": "1756033578432_19"
+  },
+  {
+    "_id": "math_10_easy_020",
+    "content": "What is the area of a square with side length 12 cm?",
+    "type": "multiple_choice",
+    "options": [
+      "48 cm²",
+      "144 cm²",
+      "12 cm²",
+      "24 cm²"
+    ],
+    "correctAnswer": "144 cm²",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "Area of square = side² = 12² = 144 cm²",
+    "_cacheBreaker": "1756033578432_20"
+  },
+  {
+    "_id": "math_10_easy_021",
+    "content": "What is 50 + 30?",
+    "type": "multiple_choice",
+    "options": [
+      "70",
+      "80",
+      "90",
       "100"
     ],
-    "correctAnswer": "2",
+    "correctAnswer": "80",
     "subject": "math",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "log₁₀(100) = 2 because 10² = 100",
-    "_cacheBreaker": "1755265388123_13"
+    "explanation": "50 + 30 = 80",
+    "_cacheBreaker": "1756033578432_21"
   },
   {
-    "_id": "easy10_1755260948246_015",
-    "content": "Find the domain of f(x) = 1/x (Question 15)",
+    "_id": "math_10_easy_022",
+    "content": "Solve: 10x = 120",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "x ≠ 0",
-      "x > 0",
-      "x ≥ 0"
+      "x = 100",
+      "x = 12",
+      "x = 10",
+      "x = 60"
     ],
-    "correctAnswer": "x ≠ 0",
+    "correctAnswer": "x = 12",
     "subject": "math",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "Cannot divide by zero, so x ≠ 0",
-    "_cacheBreaker": "1755265388123_14"
+    "explanation": "x = 120 ÷ 10 = 12",
+    "_cacheBreaker": "1756033578432_22"
   },
   {
-    "_id": "easy10_1755260948246_016",
-    "content": "What is cos(0°)? (Question 16)",
+    "_id": "math_10_easy_023",
+    "content": "What is 100% of 100?",
     "type": "multiple_choice",
     "options": [
-      "0",
-      "1",
-      "-1",
-      "1/2"
+      "50",
+      "100",
+      "150",
+      "200"
     ],
-    "correctAnswer": "1",
+    "correctAnswer": "100",
     "subject": "math",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "cos(0°) = 1",
-    "_cacheBreaker": "1755265388123_15"
+    "explanation": "100% of 100 = 100",
+    "_cacheBreaker": "1756033578432_23"
   },
   {
-    "_id": "easy10_1755260948246_017",
-    "content": "Simplify: log₁₀(100) (Question 17)",
+    "_id": "math_10_easy_024",
+    "content": "Convert 10/10 to a decimal.",
     "type": "multiple_choice",
     "options": [
-      "1",
-      "2",
-      "10",
+      "0.10",
+      "10.0",
+      "10/100",
+      "10.10"
+    ],
+    "correctAnswer": "0.10",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "10/10 = 0.10",
+    "_cacheBreaker": "1756033578432_24"
+  },
+  {
+    "_id": "math_10_easy_025",
+    "content": "What is the area of a square with side length 12 cm?",
+    "type": "multiple_choice",
+    "options": [
+      "48 cm²",
+      "144 cm²",
+      "12 cm²",
+      "24 cm²"
+    ],
+    "correctAnswer": "144 cm²",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "Area of square = side² = 12² = 144 cm²",
+    "_cacheBreaker": "1756033578432_25"
+  },
+  {
+    "_id": "math_10_easy_026",
+    "content": "What is 50 + 30?",
+    "type": "multiple_choice",
+    "options": [
+      "70",
+      "80",
+      "90",
       "100"
     ],
-    "correctAnswer": "2",
+    "correctAnswer": "80",
     "subject": "math",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "log₁₀(100) = 2 because 10² = 100",
-    "_cacheBreaker": "1755265388123_16"
+    "explanation": "50 + 30 = 80",
+    "_cacheBreaker": "1756033578432_26"
   },
   {
-    "_id": "easy10_1755260948246_018",
-    "content": "Find the domain of f(x) = 1/x (Question 18)",
+    "_id": "math_10_easy_027",
+    "content": "Solve: 10x = 120",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "x ≠ 0",
-      "x > 0",
-      "x ≥ 0"
+      "x = 100",
+      "x = 12",
+      "x = 10",
+      "x = 60"
     ],
-    "correctAnswer": "x ≠ 0",
+    "correctAnswer": "x = 12",
     "subject": "math",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "Cannot divide by zero, so x ≠ 0",
-    "_cacheBreaker": "1755265388123_17"
+    "explanation": "x = 120 ÷ 10 = 12",
+    "_cacheBreaker": "1756033578432_27"
   },
   {
-    "_id": "easy10_1755260948246_019",
-    "content": "What is cos(0°)? (Question 19)",
+    "_id": "math_10_easy_028",
+    "content": "What is 100% of 100?",
     "type": "multiple_choice",
     "options": [
-      "0",
-      "1",
-      "-1",
-      "1/2"
+      "50",
+      "100",
+      "150",
+      "200"
     ],
-    "correctAnswer": "1",
+    "correctAnswer": "100",
     "subject": "math",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "cos(0°) = 1",
-    "_cacheBreaker": "1755265388123_18"
+    "explanation": "100% of 100 = 100",
+    "_cacheBreaker": "1756033578432_28"
   },
   {
-    "_id": "easy10_1755260948246_020",
-    "content": "Simplify: log₁₀(100) (Question 20)",
+    "_id": "math_10_easy_029",
+    "content": "Convert 10/10 to a decimal.",
     "type": "multiple_choice",
     "options": [
-      "1",
-      "2",
-      "10",
+      "0.10",
+      "10.0",
+      "10/100",
+      "10.10"
+    ],
+    "correctAnswer": "0.10",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "10/10 = 0.10",
+    "_cacheBreaker": "1756033578432_29"
+  },
+  {
+    "_id": "math_10_easy_030",
+    "content": "What is the area of a square with side length 12 cm?",
+    "type": "multiple_choice",
+    "options": [
+      "48 cm²",
+      "144 cm²",
+      "12 cm²",
+      "24 cm²"
+    ],
+    "correctAnswer": "144 cm²",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "Area of square = side² = 12² = 144 cm²",
+    "_cacheBreaker": "1756033578432_30"
+  },
+  {
+    "_id": "math_10_easy_031",
+    "content": "What is 50 + 30?",
+    "type": "multiple_choice",
+    "options": [
+      "70",
+      "80",
+      "90",
       "100"
     ],
-    "correctAnswer": "2",
+    "correctAnswer": "80",
     "subject": "math",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "log₁₀(100) = 2 because 10² = 100",
-    "_cacheBreaker": "1755265388123_19"
+    "explanation": "50 + 30 = 80",
+    "_cacheBreaker": "1756033578432_31"
+  },
+  {
+    "_id": "math_10_easy_032",
+    "content": "Solve: 10x = 120",
+    "type": "multiple_choice",
+    "options": [
+      "x = 100",
+      "x = 12",
+      "x = 10",
+      "x = 60"
+    ],
+    "correctAnswer": "x = 12",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "x = 120 ÷ 10 = 12",
+    "_cacheBreaker": "1756033578432_32"
+  },
+  {
+    "_id": "math_10_easy_033",
+    "content": "What is 100% of 100?",
+    "type": "multiple_choice",
+    "options": [
+      "50",
+      "100",
+      "150",
+      "200"
+    ],
+    "correctAnswer": "100",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "100% of 100 = 100",
+    "_cacheBreaker": "1756033578432_33"
+  },
+  {
+    "_id": "math_10_easy_034",
+    "content": "Convert 10/10 to a decimal.",
+    "type": "multiple_choice",
+    "options": [
+      "0.10",
+      "10.0",
+      "10/100",
+      "10.10"
+    ],
+    "correctAnswer": "0.10",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "10/10 = 0.10",
+    "_cacheBreaker": "1756033578432_34"
+  },
+  {
+    "_id": "math_10_easy_035",
+    "content": "What is the area of a square with side length 12 cm?",
+    "type": "multiple_choice",
+    "options": [
+      "48 cm²",
+      "144 cm²",
+      "12 cm²",
+      "24 cm²"
+    ],
+    "correctAnswer": "144 cm²",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "Area of square = side² = 12² = 144 cm²",
+    "_cacheBreaker": "1756033578432_35"
+  },
+  {
+    "_id": "math_10_easy_036",
+    "content": "What is 50 + 30?",
+    "type": "multiple_choice",
+    "options": [
+      "70",
+      "80",
+      "90",
+      "100"
+    ],
+    "correctAnswer": "80",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "50 + 30 = 80",
+    "_cacheBreaker": "1756033578432_36"
+  },
+  {
+    "_id": "math_10_easy_037",
+    "content": "Solve: 10x = 120",
+    "type": "multiple_choice",
+    "options": [
+      "x = 100",
+      "x = 12",
+      "x = 10",
+      "x = 60"
+    ],
+    "correctAnswer": "x = 12",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "x = 120 ÷ 10 = 12",
+    "_cacheBreaker": "1756033578432_37"
+  },
+  {
+    "_id": "math_10_easy_038",
+    "content": "What is 100% of 100?",
+    "type": "multiple_choice",
+    "options": [
+      "50",
+      "100",
+      "150",
+      "200"
+    ],
+    "correctAnswer": "100",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "100% of 100 = 100",
+    "_cacheBreaker": "1756033578432_38"
+  },
+  {
+    "_id": "math_10_easy_039",
+    "content": "Convert 10/10 to a decimal.",
+    "type": "multiple_choice",
+    "options": [
+      "0.10",
+      "10.0",
+      "10/100",
+      "10.10"
+    ],
+    "correctAnswer": "0.10",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "10/10 = 0.10",
+    "_cacheBreaker": "1756033578432_39"
+  },
+  {
+    "_id": "math_10_easy_040",
+    "content": "What is the area of a square with side length 12 cm?",
+    "type": "multiple_choice",
+    "options": [
+      "48 cm²",
+      "144 cm²",
+      "12 cm²",
+      "24 cm²"
+    ],
+    "correctAnswer": "144 cm²",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "Area of square = side² = 12² = 144 cm²",
+    "_cacheBreaker": "1756033578432_40"
+  },
+  {
+    "_id": "math_10_easy_041",
+    "content": "What is 50 + 30?",
+    "type": "multiple_choice",
+    "options": [
+      "70",
+      "80",
+      "90",
+      "100"
+    ],
+    "correctAnswer": "80",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "50 + 30 = 80",
+    "_cacheBreaker": "1756033578432_41"
+  },
+  {
+    "_id": "math_10_easy_042",
+    "content": "Solve: 10x = 120",
+    "type": "multiple_choice",
+    "options": [
+      "x = 100",
+      "x = 12",
+      "x = 10",
+      "x = 60"
+    ],
+    "correctAnswer": "x = 12",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "x = 120 ÷ 10 = 12",
+    "_cacheBreaker": "1756033578432_42"
+  },
+  {
+    "_id": "math_10_easy_043",
+    "content": "What is 100% of 100?",
+    "type": "multiple_choice",
+    "options": [
+      "50",
+      "100",
+      "150",
+      "200"
+    ],
+    "correctAnswer": "100",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "100% of 100 = 100",
+    "_cacheBreaker": "1756033578432_43"
+  },
+  {
+    "_id": "math_10_easy_044",
+    "content": "Convert 10/10 to a decimal.",
+    "type": "multiple_choice",
+    "options": [
+      "0.10",
+      "10.0",
+      "10/100",
+      "10.10"
+    ],
+    "correctAnswer": "0.10",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "10/10 = 0.10",
+    "_cacheBreaker": "1756033578432_44"
+  },
+  {
+    "_id": "math_10_easy_045",
+    "content": "What is the area of a square with side length 12 cm?",
+    "type": "multiple_choice",
+    "options": [
+      "48 cm²",
+      "144 cm²",
+      "12 cm²",
+      "24 cm²"
+    ],
+    "correctAnswer": "144 cm²",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "Area of square = side² = 12² = 144 cm²",
+    "_cacheBreaker": "1756033578432_45"
+  },
+  {
+    "_id": "math_10_easy_046",
+    "content": "What is 50 + 30?",
+    "type": "multiple_choice",
+    "options": [
+      "70",
+      "80",
+      "90",
+      "100"
+    ],
+    "correctAnswer": "80",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "50 + 30 = 80",
+    "_cacheBreaker": "1756033578432_46"
+  },
+  {
+    "_id": "math_10_easy_047",
+    "content": "Solve: 10x = 120",
+    "type": "multiple_choice",
+    "options": [
+      "x = 100",
+      "x = 12",
+      "x = 10",
+      "x = 60"
+    ],
+    "correctAnswer": "x = 12",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "x = 120 ÷ 10 = 12",
+    "_cacheBreaker": "1756033578432_47"
+  },
+  {
+    "_id": "math_10_easy_048",
+    "content": "What is 100% of 100?",
+    "type": "multiple_choice",
+    "options": [
+      "50",
+      "100",
+      "150",
+      "200"
+    ],
+    "correctAnswer": "100",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "100% of 100 = 100",
+    "_cacheBreaker": "1756033578432_48"
+  },
+  {
+    "_id": "math_10_easy_049",
+    "content": "Convert 10/10 to a decimal.",
+    "type": "multiple_choice",
+    "options": [
+      "0.10",
+      "10.0",
+      "10/100",
+      "10.10"
+    ],
+    "correctAnswer": "0.10",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "10/10 = 0.10",
+    "_cacheBreaker": "1756033578432_49"
+  },
+  {
+    "_id": "math_10_easy_050",
+    "content": "What is the area of a square with side length 12 cm?",
+    "type": "multiple_choice",
+    "options": [
+      "48 cm²",
+      "144 cm²",
+      "12 cm²",
+      "24 cm²"
+    ],
+    "correctAnswer": "144 cm²",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "easy",
+    "explanation": "Area of square = side² = 12² = 144 cm²",
+    "_cacheBreaker": "1756033578432_50"
   }
 ]

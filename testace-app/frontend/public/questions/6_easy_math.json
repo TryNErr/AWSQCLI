@@ -1,342 +1,852 @@
 [
   {
-    "_id": "easy6_1755260948241_001",
-    "content": "Solve: x + 5 = 12",
+    "_id": "math_6_easy_001",
+    "content": "What is 15% of 200?",
     "type": "multiple_choice",
     "options": [
-      "x = 5",
+      "25",
+      "30",
+      "35",
+      "40"
+    ],
+    "correctAnswer": "30",
+    "subject": "math",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "15% of 200 = 0.15 × 200 = 30",
+    "_cacheBreaker": "1756033578379_1"
+  },
+  {
+    "_id": "math_6_easy_002",
+    "content": "Solve: 3x = 21",
+    "type": "multiple_choice",
+    "options": [
+      "x = 6",
       "x = 7",
-      "x = 12",
-      "x = 17"
+      "x = 8",
+      "x = 9"
     ],
     "correctAnswer": "x = 7",
     "subject": "math",
     "grade": "6",
     "difficulty": "easy",
-    "explanation": "Subtract 5 from both sides: x = 12 - 5 = 7",
-    "_cacheBreaker": "1755265388198_0"
+    "explanation": "Divide both sides by 3: x = 21 ÷ 3 = 7",
+    "_cacheBreaker": "1756033578379_2"
   },
   {
-    "_id": "easy6_1755260948241_002",
-    "content": "What is |-8|?",
+    "_id": "math_6_easy_003",
+    "content": "What is the area of a rectangle with length 8 cm and width 5 cm?",
     "type": "multiple_choice",
     "options": [
-      "-8",
-      "8",
-      "0",
-      "16"
+      "13 cm²",
+      "26 cm²",
+      "40 cm²",
+      "45 cm²"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "40 cm²",
     "subject": "math",
     "grade": "6",
     "difficulty": "easy",
-    "explanation": "Absolute value of -8 is 8",
-    "_cacheBreaker": "1755265388198_1"
+    "explanation": "Area = length × width = 8 × 5 = 40 cm²",
+    "_cacheBreaker": "1756033578379_3"
   },
   {
-    "_id": "easy6_1755260948241_003",
-    "content": "Express 3/5 as a decimal",
+    "_id": "math_6_easy_004",
+    "content": "Convert 3/5 to a decimal.",
     "type": "multiple_choice",
     "options": [
-      "0.35",
-      "0.53",
+      "0.3",
+      "0.5",
       "0.6",
-      "0.65"
+      "0.8"
     ],
     "correctAnswer": "0.6",
     "subject": "math",
     "grade": "6",
     "difficulty": "easy",
     "explanation": "3 ÷ 5 = 0.6",
-    "_cacheBreaker": "1755265388198_2"
+    "_cacheBreaker": "1756033578379_4"
   },
   {
-    "_id": "easy6_1755260948244_004",
-    "content": "Solve: x + 5 = 12 (Question 4)",
+    "_id": "math_6_easy_005",
+    "content": "What is the mean of 4, 6, 8, 10?",
     "type": "multiple_choice",
     "options": [
-      "x = 5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "7",
+    "subject": "math",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "Mean = (4 + 6 + 8 + 10) ÷ 4 = 28 ÷ 4 = 7",
+    "_cacheBreaker": "1756033578379_5"
+  },
+  {
+    "_id": "math_6_easy_006",
+    "content": "What is 15% of 200?",
+    "type": "multiple_choice",
+    "options": [
+      "25",
+      "30",
+      "35",
+      "40"
+    ],
+    "correctAnswer": "30",
+    "subject": "math",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "15% of 200 = 0.15 × 200 = 30",
+    "_cacheBreaker": "1756033578379_6"
+  },
+  {
+    "_id": "math_6_easy_007",
+    "content": "Solve: 3x = 21",
+    "type": "multiple_choice",
+    "options": [
+      "x = 6",
       "x = 7",
-      "x = 12",
-      "x = 17"
+      "x = 8",
+      "x = 9"
     ],
     "correctAnswer": "x = 7",
     "subject": "math",
     "grade": "6",
     "difficulty": "easy",
-    "explanation": "Subtract 5 from both sides: x = 12 - 5 = 7",
-    "_cacheBreaker": "1755265388198_3"
+    "explanation": "Divide both sides by 3: x = 21 ÷ 3 = 7",
+    "_cacheBreaker": "1756033578379_7"
   },
   {
-    "_id": "easy6_1755260948244_005",
-    "content": "What is |-8|? (Question 5)",
+    "_id": "math_6_easy_008",
+    "content": "What is the area of a rectangle with length 8 cm and width 5 cm?",
     "type": "multiple_choice",
     "options": [
-      "-8",
-      "8",
-      "0",
-      "16"
+      "13 cm²",
+      "26 cm²",
+      "40 cm²",
+      "45 cm²"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "40 cm²",
     "subject": "math",
     "grade": "6",
     "difficulty": "easy",
-    "explanation": "Absolute value of -8 is 8",
-    "_cacheBreaker": "1755265388198_4"
+    "explanation": "Area = length × width = 8 × 5 = 40 cm²",
+    "_cacheBreaker": "1756033578379_8"
   },
   {
-    "_id": "easy6_1755260948244_006",
-    "content": "Express 3/5 as a decimal (Question 6)",
+    "_id": "math_6_easy_009",
+    "content": "Convert 3/5 to a decimal.",
     "type": "multiple_choice",
     "options": [
-      "0.35",
-      "0.53",
+      "0.3",
+      "0.5",
       "0.6",
-      "0.65"
+      "0.8"
     ],
     "correctAnswer": "0.6",
     "subject": "math",
     "grade": "6",
     "difficulty": "easy",
     "explanation": "3 ÷ 5 = 0.6",
-    "_cacheBreaker": "1755265388198_5"
+    "_cacheBreaker": "1756033578379_9"
   },
   {
-    "_id": "easy6_1755260948244_007",
-    "content": "Solve: x + 5 = 12 (Question 7)",
+    "_id": "math_6_easy_010",
+    "content": "What is the mean of 4, 6, 8, 10?",
     "type": "multiple_choice",
     "options": [
-      "x = 5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "7",
+    "subject": "math",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "Mean = (4 + 6 + 8 + 10) ÷ 4 = 28 ÷ 4 = 7",
+    "_cacheBreaker": "1756033578379_10"
+  },
+  {
+    "_id": "math_6_easy_011",
+    "content": "What is 15% of 200?",
+    "type": "multiple_choice",
+    "options": [
+      "25",
+      "30",
+      "35",
+      "40"
+    ],
+    "correctAnswer": "30",
+    "subject": "math",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "15% of 200 = 0.15 × 200 = 30",
+    "_cacheBreaker": "1756033578379_11"
+  },
+  {
+    "_id": "math_6_easy_012",
+    "content": "Solve: 3x = 21",
+    "type": "multiple_choice",
+    "options": [
+      "x = 6",
       "x = 7",
-      "x = 12",
-      "x = 17"
+      "x = 8",
+      "x = 9"
     ],
     "correctAnswer": "x = 7",
     "subject": "math",
     "grade": "6",
     "difficulty": "easy",
-    "explanation": "Subtract 5 from both sides: x = 12 - 5 = 7",
-    "_cacheBreaker": "1755265388198_6"
+    "explanation": "Divide both sides by 3: x = 21 ÷ 3 = 7",
+    "_cacheBreaker": "1756033578379_12"
   },
   {
-    "_id": "easy6_1755260948244_008",
-    "content": "What is |-8|? (Question 8)",
+    "_id": "math_6_easy_013",
+    "content": "What is the area of a rectangle with length 8 cm and width 5 cm?",
     "type": "multiple_choice",
     "options": [
-      "-8",
-      "8",
-      "0",
-      "16"
+      "13 cm²",
+      "26 cm²",
+      "40 cm²",
+      "45 cm²"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "40 cm²",
     "subject": "math",
     "grade": "6",
     "difficulty": "easy",
-    "explanation": "Absolute value of -8 is 8",
-    "_cacheBreaker": "1755265388198_7"
+    "explanation": "Area = length × width = 8 × 5 = 40 cm²",
+    "_cacheBreaker": "1756033578379_13"
   },
   {
-    "_id": "easy6_1755260948244_009",
-    "content": "Express 3/5 as a decimal (Question 9)",
+    "_id": "math_6_easy_014",
+    "content": "Convert 3/5 to a decimal.",
     "type": "multiple_choice",
     "options": [
-      "0.35",
-      "0.53",
+      "0.3",
+      "0.5",
       "0.6",
-      "0.65"
+      "0.8"
     ],
     "correctAnswer": "0.6",
     "subject": "math",
     "grade": "6",
     "difficulty": "easy",
     "explanation": "3 ÷ 5 = 0.6",
-    "_cacheBreaker": "1755265388198_8"
+    "_cacheBreaker": "1756033578379_14"
   },
   {
-    "_id": "easy6_1755260948244_010",
-    "content": "Solve: x + 5 = 12 (Question 10)",
+    "_id": "math_6_easy_015",
+    "content": "What is the mean of 4, 6, 8, 10?",
     "type": "multiple_choice",
     "options": [
-      "x = 5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "7",
+    "subject": "math",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "Mean = (4 + 6 + 8 + 10) ÷ 4 = 28 ÷ 4 = 7",
+    "_cacheBreaker": "1756033578379_15"
+  },
+  {
+    "_id": "math_6_easy_016",
+    "content": "What is 15% of 200?",
+    "type": "multiple_choice",
+    "options": [
+      "25",
+      "30",
+      "35",
+      "40"
+    ],
+    "correctAnswer": "30",
+    "subject": "math",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "15% of 200 = 0.15 × 200 = 30",
+    "_cacheBreaker": "1756033578379_16"
+  },
+  {
+    "_id": "math_6_easy_017",
+    "content": "Solve: 3x = 21",
+    "type": "multiple_choice",
+    "options": [
+      "x = 6",
       "x = 7",
-      "x = 12",
-      "x = 17"
+      "x = 8",
+      "x = 9"
     ],
     "correctAnswer": "x = 7",
     "subject": "math",
     "grade": "6",
     "difficulty": "easy",
-    "explanation": "Subtract 5 from both sides: x = 12 - 5 = 7",
-    "_cacheBreaker": "1755265388198_9"
+    "explanation": "Divide both sides by 3: x = 21 ÷ 3 = 7",
+    "_cacheBreaker": "1756033578379_17"
   },
   {
-    "_id": "easy6_1755260948244_011",
-    "content": "What is |-8|? (Question 11)",
+    "_id": "math_6_easy_018",
+    "content": "What is the area of a rectangle with length 8 cm and width 5 cm?",
     "type": "multiple_choice",
     "options": [
-      "-8",
-      "8",
-      "0",
-      "16"
+      "13 cm²",
+      "26 cm²",
+      "40 cm²",
+      "45 cm²"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "40 cm²",
     "subject": "math",
     "grade": "6",
     "difficulty": "easy",
-    "explanation": "Absolute value of -8 is 8",
-    "_cacheBreaker": "1755265388198_10"
+    "explanation": "Area = length × width = 8 × 5 = 40 cm²",
+    "_cacheBreaker": "1756033578379_18"
   },
   {
-    "_id": "easy6_1755260948244_012",
-    "content": "Express 3/5 as a decimal (Question 12)",
+    "_id": "math_6_easy_019",
+    "content": "Convert 3/5 to a decimal.",
     "type": "multiple_choice",
     "options": [
-      "0.35",
-      "0.53",
+      "0.3",
+      "0.5",
       "0.6",
-      "0.65"
+      "0.8"
     ],
     "correctAnswer": "0.6",
     "subject": "math",
     "grade": "6",
     "difficulty": "easy",
     "explanation": "3 ÷ 5 = 0.6",
-    "_cacheBreaker": "1755265388198_11"
+    "_cacheBreaker": "1756033578379_19"
   },
   {
-    "_id": "easy6_1755260948244_013",
-    "content": "Solve: x + 5 = 12 (Question 13)",
+    "_id": "math_6_easy_020",
+    "content": "What is the mean of 4, 6, 8, 10?",
     "type": "multiple_choice",
     "options": [
-      "x = 5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "7",
+    "subject": "math",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "Mean = (4 + 6 + 8 + 10) ÷ 4 = 28 ÷ 4 = 7",
+    "_cacheBreaker": "1756033578379_20"
+  },
+  {
+    "_id": "math_6_easy_021",
+    "content": "What is 15% of 200?",
+    "type": "multiple_choice",
+    "options": [
+      "25",
+      "30",
+      "35",
+      "40"
+    ],
+    "correctAnswer": "30",
+    "subject": "math",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "15% of 200 = 0.15 × 200 = 30",
+    "_cacheBreaker": "1756033578379_21"
+  },
+  {
+    "_id": "math_6_easy_022",
+    "content": "Solve: 3x = 21",
+    "type": "multiple_choice",
+    "options": [
+      "x = 6",
       "x = 7",
-      "x = 12",
-      "x = 17"
+      "x = 8",
+      "x = 9"
     ],
     "correctAnswer": "x = 7",
     "subject": "math",
     "grade": "6",
     "difficulty": "easy",
-    "explanation": "Subtract 5 from both sides: x = 12 - 5 = 7",
-    "_cacheBreaker": "1755265388198_12"
+    "explanation": "Divide both sides by 3: x = 21 ÷ 3 = 7",
+    "_cacheBreaker": "1756033578379_22"
   },
   {
-    "_id": "easy6_1755260948244_014",
-    "content": "What is |-8|? (Question 14)",
+    "_id": "math_6_easy_023",
+    "content": "What is the area of a rectangle with length 8 cm and width 5 cm?",
     "type": "multiple_choice",
     "options": [
-      "-8",
-      "8",
-      "0",
-      "16"
+      "13 cm²",
+      "26 cm²",
+      "40 cm²",
+      "45 cm²"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "40 cm²",
     "subject": "math",
     "grade": "6",
     "difficulty": "easy",
-    "explanation": "Absolute value of -8 is 8",
-    "_cacheBreaker": "1755265388198_13"
+    "explanation": "Area = length × width = 8 × 5 = 40 cm²",
+    "_cacheBreaker": "1756033578379_23"
   },
   {
-    "_id": "easy6_1755260948244_015",
-    "content": "Express 3/5 as a decimal (Question 15)",
+    "_id": "math_6_easy_024",
+    "content": "Convert 3/5 to a decimal.",
     "type": "multiple_choice",
     "options": [
-      "0.35",
-      "0.53",
+      "0.3",
+      "0.5",
       "0.6",
-      "0.65"
+      "0.8"
     ],
     "correctAnswer": "0.6",
     "subject": "math",
     "grade": "6",
     "difficulty": "easy",
     "explanation": "3 ÷ 5 = 0.6",
-    "_cacheBreaker": "1755265388198_14"
+    "_cacheBreaker": "1756033578379_24"
   },
   {
-    "_id": "easy6_1755260948244_016",
-    "content": "Solve: x + 5 = 12 (Question 16)",
+    "_id": "math_6_easy_025",
+    "content": "What is the mean of 4, 6, 8, 10?",
     "type": "multiple_choice",
     "options": [
-      "x = 5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "7",
+    "subject": "math",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "Mean = (4 + 6 + 8 + 10) ÷ 4 = 28 ÷ 4 = 7",
+    "_cacheBreaker": "1756033578379_25"
+  },
+  {
+    "_id": "math_6_easy_026",
+    "content": "What is 15% of 200?",
+    "type": "multiple_choice",
+    "options": [
+      "25",
+      "30",
+      "35",
+      "40"
+    ],
+    "correctAnswer": "30",
+    "subject": "math",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "15% of 200 = 0.15 × 200 = 30",
+    "_cacheBreaker": "1756033578379_26"
+  },
+  {
+    "_id": "math_6_easy_027",
+    "content": "Solve: 3x = 21",
+    "type": "multiple_choice",
+    "options": [
+      "x = 6",
       "x = 7",
-      "x = 12",
-      "x = 17"
+      "x = 8",
+      "x = 9"
     ],
     "correctAnswer": "x = 7",
     "subject": "math",
     "grade": "6",
     "difficulty": "easy",
-    "explanation": "Subtract 5 from both sides: x = 12 - 5 = 7",
-    "_cacheBreaker": "1755265388198_15"
+    "explanation": "Divide both sides by 3: x = 21 ÷ 3 = 7",
+    "_cacheBreaker": "1756033578379_27"
   },
   {
-    "_id": "easy6_1755260948244_017",
-    "content": "What is |-8|? (Question 17)",
+    "_id": "math_6_easy_028",
+    "content": "What is the area of a rectangle with length 8 cm and width 5 cm?",
     "type": "multiple_choice",
     "options": [
-      "-8",
-      "8",
-      "0",
-      "16"
+      "13 cm²",
+      "26 cm²",
+      "40 cm²",
+      "45 cm²"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "40 cm²",
     "subject": "math",
     "grade": "6",
     "difficulty": "easy",
-    "explanation": "Absolute value of -8 is 8",
-    "_cacheBreaker": "1755265388198_16"
+    "explanation": "Area = length × width = 8 × 5 = 40 cm²",
+    "_cacheBreaker": "1756033578379_28"
   },
   {
-    "_id": "easy6_1755260948244_018",
-    "content": "Express 3/5 as a decimal (Question 18)",
+    "_id": "math_6_easy_029",
+    "content": "Convert 3/5 to a decimal.",
     "type": "multiple_choice",
     "options": [
-      "0.35",
-      "0.53",
+      "0.3",
+      "0.5",
       "0.6",
-      "0.65"
+      "0.8"
     ],
     "correctAnswer": "0.6",
     "subject": "math",
     "grade": "6",
     "difficulty": "easy",
     "explanation": "3 ÷ 5 = 0.6",
-    "_cacheBreaker": "1755265388198_17"
+    "_cacheBreaker": "1756033578379_29"
   },
   {
-    "_id": "easy6_1755260948244_019",
-    "content": "Solve: x + 5 = 12 (Question 19)",
+    "_id": "math_6_easy_030",
+    "content": "What is the mean of 4, 6, 8, 10?",
     "type": "multiple_choice",
     "options": [
-      "x = 5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "7",
+    "subject": "math",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "Mean = (4 + 6 + 8 + 10) ÷ 4 = 28 ÷ 4 = 7",
+    "_cacheBreaker": "1756033578380_30"
+  },
+  {
+    "_id": "math_6_easy_031",
+    "content": "What is 15% of 200?",
+    "type": "multiple_choice",
+    "options": [
+      "25",
+      "30",
+      "35",
+      "40"
+    ],
+    "correctAnswer": "30",
+    "subject": "math",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "15% of 200 = 0.15 × 200 = 30",
+    "_cacheBreaker": "1756033578380_31"
+  },
+  {
+    "_id": "math_6_easy_032",
+    "content": "Solve: 3x = 21",
+    "type": "multiple_choice",
+    "options": [
+      "x = 6",
       "x = 7",
-      "x = 12",
-      "x = 17"
+      "x = 8",
+      "x = 9"
     ],
     "correctAnswer": "x = 7",
     "subject": "math",
     "grade": "6",
     "difficulty": "easy",
-    "explanation": "Subtract 5 from both sides: x = 12 - 5 = 7",
-    "_cacheBreaker": "1755265388198_18"
+    "explanation": "Divide both sides by 3: x = 21 ÷ 3 = 7",
+    "_cacheBreaker": "1756033578380_32"
   },
   {
-    "_id": "easy6_1755260948244_020",
-    "content": "What is |-8|? (Question 20)",
+    "_id": "math_6_easy_033",
+    "content": "What is the area of a rectangle with length 8 cm and width 5 cm?",
     "type": "multiple_choice",
     "options": [
-      "-8",
-      "8",
-      "0",
-      "16"
+      "13 cm²",
+      "26 cm²",
+      "40 cm²",
+      "45 cm²"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "40 cm²",
     "subject": "math",
     "grade": "6",
     "difficulty": "easy",
-    "explanation": "Absolute value of -8 is 8",
-    "_cacheBreaker": "1755265388198_19"
+    "explanation": "Area = length × width = 8 × 5 = 40 cm²",
+    "_cacheBreaker": "1756033578380_33"
+  },
+  {
+    "_id": "math_6_easy_034",
+    "content": "Convert 3/5 to a decimal.",
+    "type": "multiple_choice",
+    "options": [
+      "0.3",
+      "0.5",
+      "0.6",
+      "0.8"
+    ],
+    "correctAnswer": "0.6",
+    "subject": "math",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "3 ÷ 5 = 0.6",
+    "_cacheBreaker": "1756033578380_34"
+  },
+  {
+    "_id": "math_6_easy_035",
+    "content": "What is the mean of 4, 6, 8, 10?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "7",
+    "subject": "math",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "Mean = (4 + 6 + 8 + 10) ÷ 4 = 28 ÷ 4 = 7",
+    "_cacheBreaker": "1756033578380_35"
+  },
+  {
+    "_id": "math_6_easy_036",
+    "content": "What is 15% of 200?",
+    "type": "multiple_choice",
+    "options": [
+      "25",
+      "30",
+      "35",
+      "40"
+    ],
+    "correctAnswer": "30",
+    "subject": "math",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "15% of 200 = 0.15 × 200 = 30",
+    "_cacheBreaker": "1756033578380_36"
+  },
+  {
+    "_id": "math_6_easy_037",
+    "content": "Solve: 3x = 21",
+    "type": "multiple_choice",
+    "options": [
+      "x = 6",
+      "x = 7",
+      "x = 8",
+      "x = 9"
+    ],
+    "correctAnswer": "x = 7",
+    "subject": "math",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "Divide both sides by 3: x = 21 ÷ 3 = 7",
+    "_cacheBreaker": "1756033578380_37"
+  },
+  {
+    "_id": "math_6_easy_038",
+    "content": "What is the area of a rectangle with length 8 cm and width 5 cm?",
+    "type": "multiple_choice",
+    "options": [
+      "13 cm²",
+      "26 cm²",
+      "40 cm²",
+      "45 cm²"
+    ],
+    "correctAnswer": "40 cm²",
+    "subject": "math",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "Area = length × width = 8 × 5 = 40 cm²",
+    "_cacheBreaker": "1756033578380_38"
+  },
+  {
+    "_id": "math_6_easy_039",
+    "content": "Convert 3/5 to a decimal.",
+    "type": "multiple_choice",
+    "options": [
+      "0.3",
+      "0.5",
+      "0.6",
+      "0.8"
+    ],
+    "correctAnswer": "0.6",
+    "subject": "math",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "3 ÷ 5 = 0.6",
+    "_cacheBreaker": "1756033578380_39"
+  },
+  {
+    "_id": "math_6_easy_040",
+    "content": "What is the mean of 4, 6, 8, 10?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "7",
+    "subject": "math",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "Mean = (4 + 6 + 8 + 10) ÷ 4 = 28 ÷ 4 = 7",
+    "_cacheBreaker": "1756033578380_40"
+  },
+  {
+    "_id": "math_6_easy_041",
+    "content": "What is 15% of 200?",
+    "type": "multiple_choice",
+    "options": [
+      "25",
+      "30",
+      "35",
+      "40"
+    ],
+    "correctAnswer": "30",
+    "subject": "math",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "15% of 200 = 0.15 × 200 = 30",
+    "_cacheBreaker": "1756033578380_41"
+  },
+  {
+    "_id": "math_6_easy_042",
+    "content": "Solve: 3x = 21",
+    "type": "multiple_choice",
+    "options": [
+      "x = 6",
+      "x = 7",
+      "x = 8",
+      "x = 9"
+    ],
+    "correctAnswer": "x = 7",
+    "subject": "math",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "Divide both sides by 3: x = 21 ÷ 3 = 7",
+    "_cacheBreaker": "1756033578380_42"
+  },
+  {
+    "_id": "math_6_easy_043",
+    "content": "What is the area of a rectangle with length 8 cm and width 5 cm?",
+    "type": "multiple_choice",
+    "options": [
+      "13 cm²",
+      "26 cm²",
+      "40 cm²",
+      "45 cm²"
+    ],
+    "correctAnswer": "40 cm²",
+    "subject": "math",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "Area = length × width = 8 × 5 = 40 cm²",
+    "_cacheBreaker": "1756033578380_43"
+  },
+  {
+    "_id": "math_6_easy_044",
+    "content": "Convert 3/5 to a decimal.",
+    "type": "multiple_choice",
+    "options": [
+      "0.3",
+      "0.5",
+      "0.6",
+      "0.8"
+    ],
+    "correctAnswer": "0.6",
+    "subject": "math",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "3 ÷ 5 = 0.6",
+    "_cacheBreaker": "1756033578380_44"
+  },
+  {
+    "_id": "math_6_easy_045",
+    "content": "What is the mean of 4, 6, 8, 10?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "7",
+    "subject": "math",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "Mean = (4 + 6 + 8 + 10) ÷ 4 = 28 ÷ 4 = 7",
+    "_cacheBreaker": "1756033578380_45"
+  },
+  {
+    "_id": "math_6_easy_046",
+    "content": "What is 15% of 200?",
+    "type": "multiple_choice",
+    "options": [
+      "25",
+      "30",
+      "35",
+      "40"
+    ],
+    "correctAnswer": "30",
+    "subject": "math",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "15% of 200 = 0.15 × 200 = 30",
+    "_cacheBreaker": "1756033578380_46"
+  },
+  {
+    "_id": "math_6_easy_047",
+    "content": "Solve: 3x = 21",
+    "type": "multiple_choice",
+    "options": [
+      "x = 6",
+      "x = 7",
+      "x = 8",
+      "x = 9"
+    ],
+    "correctAnswer": "x = 7",
+    "subject": "math",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "Divide both sides by 3: x = 21 ÷ 3 = 7",
+    "_cacheBreaker": "1756033578380_47"
+  },
+  {
+    "_id": "math_6_easy_048",
+    "content": "What is the area of a rectangle with length 8 cm and width 5 cm?",
+    "type": "multiple_choice",
+    "options": [
+      "13 cm²",
+      "26 cm²",
+      "40 cm²",
+      "45 cm²"
+    ],
+    "correctAnswer": "40 cm²",
+    "subject": "math",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "Area = length × width = 8 × 5 = 40 cm²",
+    "_cacheBreaker": "1756033578380_48"
+  },
+  {
+    "_id": "math_6_easy_049",
+    "content": "Convert 3/5 to a decimal.",
+    "type": "multiple_choice",
+    "options": [
+      "0.3",
+      "0.5",
+      "0.6",
+      "0.8"
+    ],
+    "correctAnswer": "0.6",
+    "subject": "math",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "3 ÷ 5 = 0.6",
+    "_cacheBreaker": "1756033578380_49"
+  },
+  {
+    "_id": "math_6_easy_050",
+    "content": "What is the mean of 4, 6, 8, 10?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "7",
+    "subject": "math",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "Mean = (4 + 6 + 8 + 10) ÷ 4 = 28 ÷ 4 = 7",
+    "_cacheBreaker": "1756033578380_50"
   }
 ]

@@ -1,342 +1,852 @@
 [
   {
-    "_id": "math_8_hard_1755775410768_1",
-    "content": "A right triangle has legs of 9 cm and 12 cm. What is the length of the hypotenuse?",
+    "_id": "math_8_hard_001",
+    "content": "Solve: 8x - 16 = 7x + 24",
     "type": "multiple_choice",
     "options": [
-      "15 cm",
-      "14 cm",
-      "16 cm",
-      "13 cm"
+      "x = 40",
+      "x = 32",
+      "x = 48",
+      "x = 24"
     ],
-    "correctAnswer": "15 cm",
+    "correctAnswer": "x = 40",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Using Pythagorean theorem: c² = a² + b² = 9² + 12² = 81 + 144 = 225. So c = 15 cm",
-    "_cacheBreaker": "1755775410768_0"
+    "explanation": "8x - 7x = 24 + 16, so x = 40",
+    "_cacheBreaker": "1756033578418_1"
   },
   {
-    "_id": "math_8_hard_1755775410768_2",
-    "content": "Simplify: 2³ × 2⁵",
+    "_id": "math_8_hard_002",
+    "content": "If f(x) = 8x² + 16x, what is f(8)?",
     "type": "multiple_choice",
     "options": [
-      "2⁸",
-      "2¹⁵",
-      "4⁸",
-      "2¹⁰"
+      "640",
+      "80",
+      "24",
+      "64"
     ],
-    "correctAnswer": "2⁸",
+    "correctAnswer": "640",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "When multiplying powers with same base, add exponents: 2³ × 2⁵ = 2³⁺⁵ = 2⁸",
-    "_cacheBreaker": "1755775410768_1"
+    "explanation": "f(8) = 8(8)² + 16(8) = 512 + 128 = 640",
+    "_cacheBreaker": "1756033578418_2"
   },
   {
-    "_id": "math_8_hard_1755775410768_3",
-    "content": "The volume of a cylinder is 628 cubic cm. If the radius is 5 cm, what is the height? (Use π = 3.14)",
+    "_id": "math_8_hard_003",
+    "content": "What is the vertex of the parabola y = x² - 16x + 8?",
     "type": "multiple_choice",
     "options": [
-      "8 cm",
-      "7 cm",
-      "9 cm",
-      "6 cm"
+      "(8, -8)",
+      "(8, 0)",
+      "(0, 8)",
+      "(8, 8)"
     ],
-    "correctAnswer": "8 cm",
+    "correctAnswer": "(8, -8)",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Volume = πr²h. So 628 = 3.14 × 5² × h = 78.5h. Therefore h = 628 ÷ 78.5 = 8 cm",
-    "_cacheBreaker": "1755775410768_2"
+    "explanation": "Vertex x-coordinate = -b/2a = 16/2 = 8. y = 8² - 16(8) + 8 = -8",
+    "_cacheBreaker": "1756033578418_3"
   },
   {
-    "_id": "math_8_hard_1755775410768_4",
-    "content": "A right triangle has legs of 9 cm and 12 cm. What is the length of the hypotenuse?",
+    "_id": "math_8_hard_004",
+    "content": "Factor completely: x² - 64",
     "type": "multiple_choice",
     "options": [
-      "15 cm",
-      "14 cm",
-      "16 cm",
-      "13 cm"
+      "(x - 8)(x + 8)",
+      "(x - 8)²",
+      "x(x - 8)",
+      "Cannot be factored"
     ],
-    "correctAnswer": "15 cm",
+    "correctAnswer": "(x - 8)(x + 8)",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Using Pythagorean theorem: c² = a² + b² = 9² + 12² = 81 + 144 = 225. So c = 15 cm",
-    "_cacheBreaker": "1755775410768_3"
+    "explanation": "x² - 64 is a difference of squares: (x - 8)(x + 8)",
+    "_cacheBreaker": "1756033578418_4"
   },
   {
-    "_id": "math_8_hard_1755775410768_5",
-    "content": "Simplify: 2³ × 2⁵",
+    "_id": "math_8_hard_005",
+    "content": "What is the range of f(x) = -x² + 16?",
     "type": "multiple_choice",
     "options": [
-      "2⁸",
-      "2¹⁵",
-      "4⁸",
-      "2¹⁰"
+      "All real numbers",
+      "y ≤ 16",
+      "y ≥ 16",
+      "y > 0"
     ],
-    "correctAnswer": "2⁸",
+    "correctAnswer": "y ≤ 16",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "When multiplying powers with same base, add exponents: 2³ × 2⁵ = 2³⁺⁵ = 2⁸",
-    "_cacheBreaker": "1755775410768_4"
+    "explanation": "Since the parabola opens downward, the maximum value is 16",
+    "_cacheBreaker": "1756033578418_5"
   },
   {
-    "_id": "math_8_hard_1755775410768_6",
-    "content": "The volume of a cylinder is 628 cubic cm. If the radius is 5 cm, what is the height? (Use π = 3.14)",
+    "_id": "math_8_hard_006",
+    "content": "Solve: 8x - 16 = 7x + 24",
     "type": "multiple_choice",
     "options": [
-      "8 cm",
-      "7 cm",
-      "9 cm",
-      "6 cm"
+      "x = 40",
+      "x = 32",
+      "x = 48",
+      "x = 24"
     ],
-    "correctAnswer": "8 cm",
+    "correctAnswer": "x = 40",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Volume = πr²h. So 628 = 3.14 × 5² × h = 78.5h. Therefore h = 628 ÷ 78.5 = 8 cm",
-    "_cacheBreaker": "1755775410768_5"
+    "explanation": "8x - 7x = 24 + 16, so x = 40",
+    "_cacheBreaker": "1756033578418_6"
   },
   {
-    "_id": "math_8_hard_1755775410768_7",
-    "content": "A right triangle has legs of 9 cm and 12 cm. What is the length of the hypotenuse?",
+    "_id": "math_8_hard_007",
+    "content": "If f(x) = 8x² + 16x, what is f(8)?",
     "type": "multiple_choice",
     "options": [
-      "15 cm",
-      "14 cm",
-      "16 cm",
-      "13 cm"
+      "640",
+      "80",
+      "24",
+      "64"
     ],
-    "correctAnswer": "15 cm",
+    "correctAnswer": "640",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Using Pythagorean theorem: c² = a² + b² = 9² + 12² = 81 + 144 = 225. So c = 15 cm",
-    "_cacheBreaker": "1755775410768_6"
+    "explanation": "f(8) = 8(8)² + 16(8) = 512 + 128 = 640",
+    "_cacheBreaker": "1756033578418_7"
   },
   {
-    "_id": "math_8_hard_1755775410768_8",
-    "content": "Simplify: 2³ × 2⁵",
+    "_id": "math_8_hard_008",
+    "content": "What is the vertex of the parabola y = x² - 16x + 8?",
     "type": "multiple_choice",
     "options": [
-      "2⁸",
-      "2¹⁵",
-      "4⁸",
-      "2¹⁰"
+      "(8, -8)",
+      "(8, 0)",
+      "(0, 8)",
+      "(8, 8)"
     ],
-    "correctAnswer": "2⁸",
+    "correctAnswer": "(8, -8)",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "When multiplying powers with same base, add exponents: 2³ × 2⁵ = 2³⁺⁵ = 2⁸",
-    "_cacheBreaker": "1755775410768_7"
+    "explanation": "Vertex x-coordinate = -b/2a = 16/2 = 8. y = 8² - 16(8) + 8 = -8",
+    "_cacheBreaker": "1756033578418_8"
   },
   {
-    "_id": "math_8_hard_1755775410768_9",
-    "content": "The volume of a cylinder is 628 cubic cm. If the radius is 5 cm, what is the height? (Use π = 3.14)",
+    "_id": "math_8_hard_009",
+    "content": "Factor completely: x² - 64",
     "type": "multiple_choice",
     "options": [
-      "8 cm",
-      "7 cm",
-      "9 cm",
-      "6 cm"
+      "(x - 8)(x + 8)",
+      "(x - 8)²",
+      "x(x - 8)",
+      "Cannot be factored"
     ],
-    "correctAnswer": "8 cm",
+    "correctAnswer": "(x - 8)(x + 8)",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Volume = πr²h. So 628 = 3.14 × 5² × h = 78.5h. Therefore h = 628 ÷ 78.5 = 8 cm",
-    "_cacheBreaker": "1755775410768_8"
+    "explanation": "x² - 64 is a difference of squares: (x - 8)(x + 8)",
+    "_cacheBreaker": "1756033578418_9"
   },
   {
-    "_id": "math_8_hard_1755775410768_10",
-    "content": "A right triangle has legs of 9 cm and 12 cm. What is the length of the hypotenuse?",
+    "_id": "math_8_hard_010",
+    "content": "What is the range of f(x) = -x² + 16?",
     "type": "multiple_choice",
     "options": [
-      "15 cm",
-      "14 cm",
-      "16 cm",
-      "13 cm"
+      "All real numbers",
+      "y ≤ 16",
+      "y ≥ 16",
+      "y > 0"
     ],
-    "correctAnswer": "15 cm",
+    "correctAnswer": "y ≤ 16",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Using Pythagorean theorem: c² = a² + b² = 9² + 12² = 81 + 144 = 225. So c = 15 cm",
-    "_cacheBreaker": "1755775410768_9"
+    "explanation": "Since the parabola opens downward, the maximum value is 16",
+    "_cacheBreaker": "1756033578418_10"
   },
   {
-    "_id": "math_8_hard_1755775410768_11",
-    "content": "Simplify: 2³ × 2⁵",
+    "_id": "math_8_hard_011",
+    "content": "Solve: 8x - 16 = 7x + 24",
     "type": "multiple_choice",
     "options": [
-      "2⁸",
-      "2¹⁵",
-      "4⁸",
-      "2¹⁰"
+      "x = 40",
+      "x = 32",
+      "x = 48",
+      "x = 24"
     ],
-    "correctAnswer": "2⁸",
+    "correctAnswer": "x = 40",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "When multiplying powers with same base, add exponents: 2³ × 2⁵ = 2³⁺⁵ = 2⁸",
-    "_cacheBreaker": "1755775410768_10"
+    "explanation": "8x - 7x = 24 + 16, so x = 40",
+    "_cacheBreaker": "1756033578418_11"
   },
   {
-    "_id": "math_8_hard_1755775410768_12",
-    "content": "The volume of a cylinder is 628 cubic cm. If the radius is 5 cm, what is the height? (Use π = 3.14)",
+    "_id": "math_8_hard_012",
+    "content": "If f(x) = 8x² + 16x, what is f(8)?",
     "type": "multiple_choice",
     "options": [
-      "8 cm",
-      "7 cm",
-      "9 cm",
-      "6 cm"
+      "640",
+      "80",
+      "24",
+      "64"
     ],
-    "correctAnswer": "8 cm",
+    "correctAnswer": "640",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Volume = πr²h. So 628 = 3.14 × 5² × h = 78.5h. Therefore h = 628 ÷ 78.5 = 8 cm",
-    "_cacheBreaker": "1755775410768_11"
+    "explanation": "f(8) = 8(8)² + 16(8) = 512 + 128 = 640",
+    "_cacheBreaker": "1756033578418_12"
   },
   {
-    "_id": "math_8_hard_1755775410768_13",
-    "content": "A right triangle has legs of 9 cm and 12 cm. What is the length of the hypotenuse?",
+    "_id": "math_8_hard_013",
+    "content": "What is the vertex of the parabola y = x² - 16x + 8?",
     "type": "multiple_choice",
     "options": [
-      "15 cm",
-      "14 cm",
-      "16 cm",
-      "13 cm"
+      "(8, -8)",
+      "(8, 0)",
+      "(0, 8)",
+      "(8, 8)"
     ],
-    "correctAnswer": "15 cm",
+    "correctAnswer": "(8, -8)",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Using Pythagorean theorem: c² = a² + b² = 9² + 12² = 81 + 144 = 225. So c = 15 cm",
-    "_cacheBreaker": "1755775410768_12"
+    "explanation": "Vertex x-coordinate = -b/2a = 16/2 = 8. y = 8² - 16(8) + 8 = -8",
+    "_cacheBreaker": "1756033578418_13"
   },
   {
-    "_id": "math_8_hard_1755775410768_14",
-    "content": "Simplify: 2³ × 2⁵",
+    "_id": "math_8_hard_014",
+    "content": "Factor completely: x² - 64",
     "type": "multiple_choice",
     "options": [
-      "2⁸",
-      "2¹⁵",
-      "4⁸",
-      "2¹⁰"
+      "(x - 8)(x + 8)",
+      "(x - 8)²",
+      "x(x - 8)",
+      "Cannot be factored"
     ],
-    "correctAnswer": "2⁸",
+    "correctAnswer": "(x - 8)(x + 8)",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "When multiplying powers with same base, add exponents: 2³ × 2⁵ = 2³⁺⁵ = 2⁸",
-    "_cacheBreaker": "1755775410768_13"
+    "explanation": "x² - 64 is a difference of squares: (x - 8)(x + 8)",
+    "_cacheBreaker": "1756033578418_14"
   },
   {
-    "_id": "math_8_hard_1755775410768_15",
-    "content": "The volume of a cylinder is 628 cubic cm. If the radius is 5 cm, what is the height? (Use π = 3.14)",
+    "_id": "math_8_hard_015",
+    "content": "What is the range of f(x) = -x² + 16?",
     "type": "multiple_choice",
     "options": [
-      "8 cm",
-      "7 cm",
-      "9 cm",
-      "6 cm"
+      "All real numbers",
+      "y ≤ 16",
+      "y ≥ 16",
+      "y > 0"
     ],
-    "correctAnswer": "8 cm",
+    "correctAnswer": "y ≤ 16",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Volume = πr²h. So 628 = 3.14 × 5² × h = 78.5h. Therefore h = 628 ÷ 78.5 = 8 cm",
-    "_cacheBreaker": "1755775410768_14"
+    "explanation": "Since the parabola opens downward, the maximum value is 16",
+    "_cacheBreaker": "1756033578418_15"
   },
   {
-    "_id": "math_8_hard_1755775410768_16",
-    "content": "A right triangle has legs of 9 cm and 12 cm. What is the length of the hypotenuse?",
+    "_id": "math_8_hard_016",
+    "content": "Solve: 8x - 16 = 7x + 24",
     "type": "multiple_choice",
     "options": [
-      "15 cm",
-      "14 cm",
-      "16 cm",
-      "13 cm"
+      "x = 40",
+      "x = 32",
+      "x = 48",
+      "x = 24"
     ],
-    "correctAnswer": "15 cm",
+    "correctAnswer": "x = 40",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Using Pythagorean theorem: c² = a² + b² = 9² + 12² = 81 + 144 = 225. So c = 15 cm",
-    "_cacheBreaker": "1755775410768_15"
+    "explanation": "8x - 7x = 24 + 16, so x = 40",
+    "_cacheBreaker": "1756033578418_16"
   },
   {
-    "_id": "math_8_hard_1755775410768_17",
-    "content": "Simplify: 2³ × 2⁵",
+    "_id": "math_8_hard_017",
+    "content": "If f(x) = 8x² + 16x, what is f(8)?",
     "type": "multiple_choice",
     "options": [
-      "2⁸",
-      "2¹⁵",
-      "4⁸",
-      "2¹⁰"
+      "640",
+      "80",
+      "24",
+      "64"
     ],
-    "correctAnswer": "2⁸",
+    "correctAnswer": "640",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "When multiplying powers with same base, add exponents: 2³ × 2⁵ = 2³⁺⁵ = 2⁸",
-    "_cacheBreaker": "1755775410768_16"
+    "explanation": "f(8) = 8(8)² + 16(8) = 512 + 128 = 640",
+    "_cacheBreaker": "1756033578418_17"
   },
   {
-    "_id": "math_8_hard_1755775410768_18",
-    "content": "The volume of a cylinder is 628 cubic cm. If the radius is 5 cm, what is the height? (Use π = 3.14)",
+    "_id": "math_8_hard_018",
+    "content": "What is the vertex of the parabola y = x² - 16x + 8?",
     "type": "multiple_choice",
     "options": [
-      "8 cm",
-      "7 cm",
-      "9 cm",
-      "6 cm"
+      "(8, -8)",
+      "(8, 0)",
+      "(0, 8)",
+      "(8, 8)"
     ],
-    "correctAnswer": "8 cm",
+    "correctAnswer": "(8, -8)",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Volume = πr²h. So 628 = 3.14 × 5² × h = 78.5h. Therefore h = 628 ÷ 78.5 = 8 cm",
-    "_cacheBreaker": "1755775410768_17"
+    "explanation": "Vertex x-coordinate = -b/2a = 16/2 = 8. y = 8² - 16(8) + 8 = -8",
+    "_cacheBreaker": "1756033578418_18"
   },
   {
-    "_id": "math_8_hard_1755775410768_19",
-    "content": "A right triangle has legs of 9 cm and 12 cm. What is the length of the hypotenuse?",
+    "_id": "math_8_hard_019",
+    "content": "Factor completely: x² - 64",
     "type": "multiple_choice",
     "options": [
-      "15 cm",
-      "14 cm",
-      "16 cm",
-      "13 cm"
+      "(x - 8)(x + 8)",
+      "(x - 8)²",
+      "x(x - 8)",
+      "Cannot be factored"
     ],
-    "correctAnswer": "15 cm",
+    "correctAnswer": "(x - 8)(x + 8)",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Using Pythagorean theorem: c² = a² + b² = 9² + 12² = 81 + 144 = 225. So c = 15 cm",
-    "_cacheBreaker": "1755775410768_18"
+    "explanation": "x² - 64 is a difference of squares: (x - 8)(x + 8)",
+    "_cacheBreaker": "1756033578418_19"
   },
   {
-    "_id": "math_8_hard_1755775410768_20",
-    "content": "Simplify: 2³ × 2⁵",
+    "_id": "math_8_hard_020",
+    "content": "What is the range of f(x) = -x² + 16?",
     "type": "multiple_choice",
     "options": [
-      "2⁸",
-      "2¹⁵",
-      "4⁸",
-      "2¹⁰"
+      "All real numbers",
+      "y ≤ 16",
+      "y ≥ 16",
+      "y > 0"
     ],
-    "correctAnswer": "2⁸",
+    "correctAnswer": "y ≤ 16",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "When multiplying powers with same base, add exponents: 2³ × 2⁵ = 2³⁺⁵ = 2⁸",
-    "_cacheBreaker": "1755775410768_19"
+    "explanation": "Since the parabola opens downward, the maximum value is 16",
+    "_cacheBreaker": "1756033578418_20"
+  },
+  {
+    "_id": "math_8_hard_021",
+    "content": "Solve: 8x - 16 = 7x + 24",
+    "type": "multiple_choice",
+    "options": [
+      "x = 40",
+      "x = 32",
+      "x = 48",
+      "x = 24"
+    ],
+    "correctAnswer": "x = 40",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "hard",
+    "explanation": "8x - 7x = 24 + 16, so x = 40",
+    "_cacheBreaker": "1756033578419_21"
+  },
+  {
+    "_id": "math_8_hard_022",
+    "content": "If f(x) = 8x² + 16x, what is f(8)?",
+    "type": "multiple_choice",
+    "options": [
+      "640",
+      "80",
+      "24",
+      "64"
+    ],
+    "correctAnswer": "640",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "hard",
+    "explanation": "f(8) = 8(8)² + 16(8) = 512 + 128 = 640",
+    "_cacheBreaker": "1756033578419_22"
+  },
+  {
+    "_id": "math_8_hard_023",
+    "content": "What is the vertex of the parabola y = x² - 16x + 8?",
+    "type": "multiple_choice",
+    "options": [
+      "(8, -8)",
+      "(8, 0)",
+      "(0, 8)",
+      "(8, 8)"
+    ],
+    "correctAnswer": "(8, -8)",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "hard",
+    "explanation": "Vertex x-coordinate = -b/2a = 16/2 = 8. y = 8² - 16(8) + 8 = -8",
+    "_cacheBreaker": "1756033578419_23"
+  },
+  {
+    "_id": "math_8_hard_024",
+    "content": "Factor completely: x² - 64",
+    "type": "multiple_choice",
+    "options": [
+      "(x - 8)(x + 8)",
+      "(x - 8)²",
+      "x(x - 8)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x - 8)(x + 8)",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "hard",
+    "explanation": "x² - 64 is a difference of squares: (x - 8)(x + 8)",
+    "_cacheBreaker": "1756033578419_24"
+  },
+  {
+    "_id": "math_8_hard_025",
+    "content": "What is the range of f(x) = -x² + 16?",
+    "type": "multiple_choice",
+    "options": [
+      "All real numbers",
+      "y ≤ 16",
+      "y ≥ 16",
+      "y > 0"
+    ],
+    "correctAnswer": "y ≤ 16",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "hard",
+    "explanation": "Since the parabola opens downward, the maximum value is 16",
+    "_cacheBreaker": "1756033578419_25"
+  },
+  {
+    "_id": "math_8_hard_026",
+    "content": "Solve: 8x - 16 = 7x + 24",
+    "type": "multiple_choice",
+    "options": [
+      "x = 40",
+      "x = 32",
+      "x = 48",
+      "x = 24"
+    ],
+    "correctAnswer": "x = 40",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "hard",
+    "explanation": "8x - 7x = 24 + 16, so x = 40",
+    "_cacheBreaker": "1756033578419_26"
+  },
+  {
+    "_id": "math_8_hard_027",
+    "content": "If f(x) = 8x² + 16x, what is f(8)?",
+    "type": "multiple_choice",
+    "options": [
+      "640",
+      "80",
+      "24",
+      "64"
+    ],
+    "correctAnswer": "640",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "hard",
+    "explanation": "f(8) = 8(8)² + 16(8) = 512 + 128 = 640",
+    "_cacheBreaker": "1756033578419_27"
+  },
+  {
+    "_id": "math_8_hard_028",
+    "content": "What is the vertex of the parabola y = x² - 16x + 8?",
+    "type": "multiple_choice",
+    "options": [
+      "(8, -8)",
+      "(8, 0)",
+      "(0, 8)",
+      "(8, 8)"
+    ],
+    "correctAnswer": "(8, -8)",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "hard",
+    "explanation": "Vertex x-coordinate = -b/2a = 16/2 = 8. y = 8² - 16(8) + 8 = -8",
+    "_cacheBreaker": "1756033578419_28"
+  },
+  {
+    "_id": "math_8_hard_029",
+    "content": "Factor completely: x² - 64",
+    "type": "multiple_choice",
+    "options": [
+      "(x - 8)(x + 8)",
+      "(x - 8)²",
+      "x(x - 8)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x - 8)(x + 8)",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "hard",
+    "explanation": "x² - 64 is a difference of squares: (x - 8)(x + 8)",
+    "_cacheBreaker": "1756033578419_29"
+  },
+  {
+    "_id": "math_8_hard_030",
+    "content": "What is the range of f(x) = -x² + 16?",
+    "type": "multiple_choice",
+    "options": [
+      "All real numbers",
+      "y ≤ 16",
+      "y ≥ 16",
+      "y > 0"
+    ],
+    "correctAnswer": "y ≤ 16",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "hard",
+    "explanation": "Since the parabola opens downward, the maximum value is 16",
+    "_cacheBreaker": "1756033578419_30"
+  },
+  {
+    "_id": "math_8_hard_031",
+    "content": "Solve: 8x - 16 = 7x + 24",
+    "type": "multiple_choice",
+    "options": [
+      "x = 40",
+      "x = 32",
+      "x = 48",
+      "x = 24"
+    ],
+    "correctAnswer": "x = 40",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "hard",
+    "explanation": "8x - 7x = 24 + 16, so x = 40",
+    "_cacheBreaker": "1756033578419_31"
+  },
+  {
+    "_id": "math_8_hard_032",
+    "content": "If f(x) = 8x² + 16x, what is f(8)?",
+    "type": "multiple_choice",
+    "options": [
+      "640",
+      "80",
+      "24",
+      "64"
+    ],
+    "correctAnswer": "640",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "hard",
+    "explanation": "f(8) = 8(8)² + 16(8) = 512 + 128 = 640",
+    "_cacheBreaker": "1756033578419_32"
+  },
+  {
+    "_id": "math_8_hard_033",
+    "content": "What is the vertex of the parabola y = x² - 16x + 8?",
+    "type": "multiple_choice",
+    "options": [
+      "(8, -8)",
+      "(8, 0)",
+      "(0, 8)",
+      "(8, 8)"
+    ],
+    "correctAnswer": "(8, -8)",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "hard",
+    "explanation": "Vertex x-coordinate = -b/2a = 16/2 = 8. y = 8² - 16(8) + 8 = -8",
+    "_cacheBreaker": "1756033578419_33"
+  },
+  {
+    "_id": "math_8_hard_034",
+    "content": "Factor completely: x² - 64",
+    "type": "multiple_choice",
+    "options": [
+      "(x - 8)(x + 8)",
+      "(x - 8)²",
+      "x(x - 8)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x - 8)(x + 8)",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "hard",
+    "explanation": "x² - 64 is a difference of squares: (x - 8)(x + 8)",
+    "_cacheBreaker": "1756033578419_34"
+  },
+  {
+    "_id": "math_8_hard_035",
+    "content": "What is the range of f(x) = -x² + 16?",
+    "type": "multiple_choice",
+    "options": [
+      "All real numbers",
+      "y ≤ 16",
+      "y ≥ 16",
+      "y > 0"
+    ],
+    "correctAnswer": "y ≤ 16",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "hard",
+    "explanation": "Since the parabola opens downward, the maximum value is 16",
+    "_cacheBreaker": "1756033578419_35"
+  },
+  {
+    "_id": "math_8_hard_036",
+    "content": "Solve: 8x - 16 = 7x + 24",
+    "type": "multiple_choice",
+    "options": [
+      "x = 40",
+      "x = 32",
+      "x = 48",
+      "x = 24"
+    ],
+    "correctAnswer": "x = 40",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "hard",
+    "explanation": "8x - 7x = 24 + 16, so x = 40",
+    "_cacheBreaker": "1756033578419_36"
+  },
+  {
+    "_id": "math_8_hard_037",
+    "content": "If f(x) = 8x² + 16x, what is f(8)?",
+    "type": "multiple_choice",
+    "options": [
+      "640",
+      "80",
+      "24",
+      "64"
+    ],
+    "correctAnswer": "640",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "hard",
+    "explanation": "f(8) = 8(8)² + 16(8) = 512 + 128 = 640",
+    "_cacheBreaker": "1756033578419_37"
+  },
+  {
+    "_id": "math_8_hard_038",
+    "content": "What is the vertex of the parabola y = x² - 16x + 8?",
+    "type": "multiple_choice",
+    "options": [
+      "(8, -8)",
+      "(8, 0)",
+      "(0, 8)",
+      "(8, 8)"
+    ],
+    "correctAnswer": "(8, -8)",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "hard",
+    "explanation": "Vertex x-coordinate = -b/2a = 16/2 = 8. y = 8² - 16(8) + 8 = -8",
+    "_cacheBreaker": "1756033578419_38"
+  },
+  {
+    "_id": "math_8_hard_039",
+    "content": "Factor completely: x² - 64",
+    "type": "multiple_choice",
+    "options": [
+      "(x - 8)(x + 8)",
+      "(x - 8)²",
+      "x(x - 8)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x - 8)(x + 8)",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "hard",
+    "explanation": "x² - 64 is a difference of squares: (x - 8)(x + 8)",
+    "_cacheBreaker": "1756033578419_39"
+  },
+  {
+    "_id": "math_8_hard_040",
+    "content": "What is the range of f(x) = -x² + 16?",
+    "type": "multiple_choice",
+    "options": [
+      "All real numbers",
+      "y ≤ 16",
+      "y ≥ 16",
+      "y > 0"
+    ],
+    "correctAnswer": "y ≤ 16",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "hard",
+    "explanation": "Since the parabola opens downward, the maximum value is 16",
+    "_cacheBreaker": "1756033578419_40"
+  },
+  {
+    "_id": "math_8_hard_041",
+    "content": "Solve: 8x - 16 = 7x + 24",
+    "type": "multiple_choice",
+    "options": [
+      "x = 40",
+      "x = 32",
+      "x = 48",
+      "x = 24"
+    ],
+    "correctAnswer": "x = 40",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "hard",
+    "explanation": "8x - 7x = 24 + 16, so x = 40",
+    "_cacheBreaker": "1756033578419_41"
+  },
+  {
+    "_id": "math_8_hard_042",
+    "content": "If f(x) = 8x² + 16x, what is f(8)?",
+    "type": "multiple_choice",
+    "options": [
+      "640",
+      "80",
+      "24",
+      "64"
+    ],
+    "correctAnswer": "640",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "hard",
+    "explanation": "f(8) = 8(8)² + 16(8) = 512 + 128 = 640",
+    "_cacheBreaker": "1756033578419_42"
+  },
+  {
+    "_id": "math_8_hard_043",
+    "content": "What is the vertex of the parabola y = x² - 16x + 8?",
+    "type": "multiple_choice",
+    "options": [
+      "(8, -8)",
+      "(8, 0)",
+      "(0, 8)",
+      "(8, 8)"
+    ],
+    "correctAnswer": "(8, -8)",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "hard",
+    "explanation": "Vertex x-coordinate = -b/2a = 16/2 = 8. y = 8² - 16(8) + 8 = -8",
+    "_cacheBreaker": "1756033578419_43"
+  },
+  {
+    "_id": "math_8_hard_044",
+    "content": "Factor completely: x² - 64",
+    "type": "multiple_choice",
+    "options": [
+      "(x - 8)(x + 8)",
+      "(x - 8)²",
+      "x(x - 8)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x - 8)(x + 8)",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "hard",
+    "explanation": "x² - 64 is a difference of squares: (x - 8)(x + 8)",
+    "_cacheBreaker": "1756033578419_44"
+  },
+  {
+    "_id": "math_8_hard_045",
+    "content": "What is the range of f(x) = -x² + 16?",
+    "type": "multiple_choice",
+    "options": [
+      "All real numbers",
+      "y ≤ 16",
+      "y ≥ 16",
+      "y > 0"
+    ],
+    "correctAnswer": "y ≤ 16",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "hard",
+    "explanation": "Since the parabola opens downward, the maximum value is 16",
+    "_cacheBreaker": "1756033578419_45"
+  },
+  {
+    "_id": "math_8_hard_046",
+    "content": "Solve: 8x - 16 = 7x + 24",
+    "type": "multiple_choice",
+    "options": [
+      "x = 40",
+      "x = 32",
+      "x = 48",
+      "x = 24"
+    ],
+    "correctAnswer": "x = 40",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "hard",
+    "explanation": "8x - 7x = 24 + 16, so x = 40",
+    "_cacheBreaker": "1756033578419_46"
+  },
+  {
+    "_id": "math_8_hard_047",
+    "content": "If f(x) = 8x² + 16x, what is f(8)?",
+    "type": "multiple_choice",
+    "options": [
+      "640",
+      "80",
+      "24",
+      "64"
+    ],
+    "correctAnswer": "640",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "hard",
+    "explanation": "f(8) = 8(8)² + 16(8) = 512 + 128 = 640",
+    "_cacheBreaker": "1756033578419_47"
+  },
+  {
+    "_id": "math_8_hard_048",
+    "content": "What is the vertex of the parabola y = x² - 16x + 8?",
+    "type": "multiple_choice",
+    "options": [
+      "(8, -8)",
+      "(8, 0)",
+      "(0, 8)",
+      "(8, 8)"
+    ],
+    "correctAnswer": "(8, -8)",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "hard",
+    "explanation": "Vertex x-coordinate = -b/2a = 16/2 = 8. y = 8² - 16(8) + 8 = -8",
+    "_cacheBreaker": "1756033578419_48"
+  },
+  {
+    "_id": "math_8_hard_049",
+    "content": "Factor completely: x² - 64",
+    "type": "multiple_choice",
+    "options": [
+      "(x - 8)(x + 8)",
+      "(x - 8)²",
+      "x(x - 8)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x - 8)(x + 8)",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "hard",
+    "explanation": "x² - 64 is a difference of squares: (x - 8)(x + 8)",
+    "_cacheBreaker": "1756033578419_49"
+  },
+  {
+    "_id": "math_8_hard_050",
+    "content": "What is the range of f(x) = -x² + 16?",
+    "type": "multiple_choice",
+    "options": [
+      "All real numbers",
+      "y ≤ 16",
+      "y ≥ 16",
+      "y > 0"
+    ],
+    "correctAnswer": "y ≤ 16",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "hard",
+    "explanation": "Since the parabola opens downward, the maximum value is 16",
+    "_cacheBreaker": "1756033578419_50"
   }
 ]

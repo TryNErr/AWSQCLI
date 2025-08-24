@@ -1,342 +1,852 @@
 [
   {
-    "_id": "med7_1755261000215_001",
-    "content": "Simplify: 3(x + 4) - 2x",
+    "_id": "math_7_medium_001",
+    "content": "Solve: 7x + 14 = 56",
     "type": "multiple_choice",
     "options": [
-      "x + 12",
-      "5x + 4",
-      "x + 4",
-      "5x + 12"
+      "x = 14",
+      "x = 21",
+      "x = 28",
+      "x = 6"
     ],
-    "correctAnswer": "x + 12",
+    "correctAnswer": "x = 6",
     "subject": "math",
     "grade": "7",
     "difficulty": "medium",
-    "explanation": "3x + 12 - 2x = x + 12",
-    "_cacheBreaker": "1755265388223_0"
+    "explanation": "7x = 56 - 14 = 42, so x = 6",
+    "_cacheBreaker": "1756033578396_1"
   },
   {
-    "_id": "med7_1755261000215_002",
-    "content": "What is (-2)⁴?",
+    "_id": "math_7_medium_002",
+    "content": "What is 105% of 140?",
     "type": "multiple_choice",
     "options": [
-      "-16",
-      "16",
-      "-8",
-      "8"
+      "21",
+      "28",
+      "35",
+      "42"
     ],
-    "correctAnswer": "16",
+    "correctAnswer": "21",
     "subject": "math",
     "grade": "7",
     "difficulty": "medium",
-    "explanation": "(-2)⁴ = (-2) × (-2) × (-2) × (-2) = 16",
-    "_cacheBreaker": "1755265388223_1"
+    "explanation": "105% of 140 = 0.15 × 140 = 21",
+    "_cacheBreaker": "1756033578396_2"
   },
   {
-    "_id": "med7_1755261000215_003",
-    "content": "Solve: 3x + 5 = 20",
+    "_id": "math_7_medium_003",
+    "content": "Find the circumference of a circle with radius 8 cm (use π ≈ 3.14)",
     "type": "multiple_choice",
     "options": [
-      "x = 3",
-      "x = 5",
-      "x = 15",
-      "x = 25"
+      "50.2 cm",
+      "201 cm²",
+      "16 cm",
+      "25.12 cm"
     ],
-    "correctAnswer": "x = 5",
+    "correctAnswer": "50.2 cm",
     "subject": "math",
     "grade": "7",
     "difficulty": "medium",
-    "explanation": "Subtract 5: 3x = 15, divide by 3: x = 5",
-    "_cacheBreaker": "1755265388223_2"
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 8 = 50.2 cm",
+    "_cacheBreaker": "1756033578396_3"
   },
   {
-    "_id": "med7_1755261000215_004",
-    "content": "Simplify: 3(x + 4) - 2x",
+    "_id": "math_7_medium_004",
+    "content": "What is 7³?",
     "type": "multiple_choice",
     "options": [
-      "x + 12",
-      "5x + 4",
-      "x + 4",
-      "5x + 12"
+      "49",
+      "343",
+      "21",
+      "10"
     ],
-    "correctAnswer": "x + 12",
+    "correctAnswer": "343",
     "subject": "math",
     "grade": "7",
     "difficulty": "medium",
-    "explanation": "3x + 12 - 2x = x + 12",
-    "_cacheBreaker": "1755265388223_3"
+    "explanation": "7³ = 7 × 7 × 7 = 343",
+    "_cacheBreaker": "1756033578396_4"
   },
   {
-    "_id": "med7_1755261000215_005",
-    "content": "What is (-2)⁴?",
+    "_id": "math_7_medium_005",
+    "content": "Simplify: 28/42",
     "type": "multiple_choice",
     "options": [
-      "-16",
-      "16",
-      "-8",
-      "8"
+      "7/3",
+      "2/3",
+      "4/6",
+      "1/2"
     ],
-    "correctAnswer": "16",
+    "correctAnswer": "2/3",
     "subject": "math",
     "grade": "7",
     "difficulty": "medium",
-    "explanation": "(-2)⁴ = (-2) × (-2) × (-2) × (-2) = 16",
-    "_cacheBreaker": "1755265388223_4"
+    "explanation": "28/42 = 4/6 = 2/3",
+    "_cacheBreaker": "1756033578396_5"
   },
   {
-    "_id": "med7_1755261000215_006",
-    "content": "Solve: 3x + 5 = 20",
+    "_id": "math_7_medium_006",
+    "content": "Solve: 7x + 14 = 56",
     "type": "multiple_choice",
     "options": [
-      "x = 3",
-      "x = 5",
-      "x = 15",
-      "x = 25"
+      "x = 14",
+      "x = 21",
+      "x = 28",
+      "x = 6"
     ],
-    "correctAnswer": "x = 5",
+    "correctAnswer": "x = 6",
     "subject": "math",
     "grade": "7",
     "difficulty": "medium",
-    "explanation": "Subtract 5: 3x = 15, divide by 3: x = 5",
-    "_cacheBreaker": "1755265388223_5"
+    "explanation": "7x = 56 - 14 = 42, so x = 6",
+    "_cacheBreaker": "1756033578396_6"
   },
   {
-    "_id": "med7_1755261000215_007",
-    "content": "Simplify: 3(x + 4) - 2x",
+    "_id": "math_7_medium_007",
+    "content": "What is 105% of 140?",
     "type": "multiple_choice",
     "options": [
-      "x + 12",
-      "5x + 4",
-      "x + 4",
-      "5x + 12"
+      "21",
+      "28",
+      "35",
+      "42"
     ],
-    "correctAnswer": "x + 12",
+    "correctAnswer": "21",
     "subject": "math",
     "grade": "7",
     "difficulty": "medium",
-    "explanation": "3x + 12 - 2x = x + 12",
-    "_cacheBreaker": "1755265388223_6"
+    "explanation": "105% of 140 = 0.15 × 140 = 21",
+    "_cacheBreaker": "1756033578396_7"
   },
   {
-    "_id": "med7_1755261000215_008",
-    "content": "What is (-2)⁴?",
+    "_id": "math_7_medium_008",
+    "content": "Find the circumference of a circle with radius 8 cm (use π ≈ 3.14)",
     "type": "multiple_choice",
     "options": [
-      "-16",
-      "16",
-      "-8",
-      "8"
+      "50.2 cm",
+      "201 cm²",
+      "16 cm",
+      "25.12 cm"
     ],
-    "correctAnswer": "16",
+    "correctAnswer": "50.2 cm",
     "subject": "math",
     "grade": "7",
     "difficulty": "medium",
-    "explanation": "(-2)⁴ = (-2) × (-2) × (-2) × (-2) = 16",
-    "_cacheBreaker": "1755265388223_7"
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 8 = 50.2 cm",
+    "_cacheBreaker": "1756033578396_8"
   },
   {
-    "_id": "med7_1755261000215_009",
-    "content": "Solve: 3x + 5 = 20",
+    "_id": "math_7_medium_009",
+    "content": "What is 7³?",
     "type": "multiple_choice",
     "options": [
-      "x = 3",
-      "x = 5",
-      "x = 15",
-      "x = 25"
+      "49",
+      "343",
+      "21",
+      "10"
     ],
-    "correctAnswer": "x = 5",
+    "correctAnswer": "343",
     "subject": "math",
     "grade": "7",
     "difficulty": "medium",
-    "explanation": "Subtract 5: 3x = 15, divide by 3: x = 5",
-    "_cacheBreaker": "1755265388223_8"
+    "explanation": "7³ = 7 × 7 × 7 = 343",
+    "_cacheBreaker": "1756033578396_9"
   },
   {
-    "_id": "med7_1755261000215_010",
-    "content": "Simplify: 3(x + 4) - 2x",
+    "_id": "math_7_medium_010",
+    "content": "Simplify: 28/42",
     "type": "multiple_choice",
     "options": [
-      "x + 12",
-      "5x + 4",
-      "x + 4",
-      "5x + 12"
+      "7/3",
+      "2/3",
+      "4/6",
+      "1/2"
     ],
-    "correctAnswer": "x + 12",
+    "correctAnswer": "2/3",
     "subject": "math",
     "grade": "7",
     "difficulty": "medium",
-    "explanation": "3x + 12 - 2x = x + 12",
-    "_cacheBreaker": "1755265388223_9"
+    "explanation": "28/42 = 4/6 = 2/3",
+    "_cacheBreaker": "1756033578396_10"
   },
   {
-    "_id": "med7_1755261000215_011",
-    "content": "What is (-2)⁴?",
+    "_id": "math_7_medium_011",
+    "content": "Solve: 7x + 14 = 56",
     "type": "multiple_choice",
     "options": [
-      "-16",
-      "16",
-      "-8",
-      "8"
+      "x = 14",
+      "x = 21",
+      "x = 28",
+      "x = 6"
     ],
-    "correctAnswer": "16",
+    "correctAnswer": "x = 6",
     "subject": "math",
     "grade": "7",
     "difficulty": "medium",
-    "explanation": "(-2)⁴ = (-2) × (-2) × (-2) × (-2) = 16",
-    "_cacheBreaker": "1755265388223_10"
+    "explanation": "7x = 56 - 14 = 42, so x = 6",
+    "_cacheBreaker": "1756033578396_11"
   },
   {
-    "_id": "med7_1755261000215_012",
-    "content": "Solve: 3x + 5 = 20",
+    "_id": "math_7_medium_012",
+    "content": "What is 105% of 140?",
     "type": "multiple_choice",
     "options": [
-      "x = 3",
-      "x = 5",
-      "x = 15",
-      "x = 25"
+      "21",
+      "28",
+      "35",
+      "42"
     ],
-    "correctAnswer": "x = 5",
+    "correctAnswer": "21",
     "subject": "math",
     "grade": "7",
     "difficulty": "medium",
-    "explanation": "Subtract 5: 3x = 15, divide by 3: x = 5",
-    "_cacheBreaker": "1755265388223_11"
+    "explanation": "105% of 140 = 0.15 × 140 = 21",
+    "_cacheBreaker": "1756033578396_12"
   },
   {
-    "_id": "med7_1755261000215_013",
-    "content": "Simplify: 3(x + 4) - 2x",
+    "_id": "math_7_medium_013",
+    "content": "Find the circumference of a circle with radius 8 cm (use π ≈ 3.14)",
     "type": "multiple_choice",
     "options": [
-      "x + 12",
-      "5x + 4",
-      "x + 4",
-      "5x + 12"
+      "50.2 cm",
+      "201 cm²",
+      "16 cm",
+      "25.12 cm"
     ],
-    "correctAnswer": "x + 12",
+    "correctAnswer": "50.2 cm",
     "subject": "math",
     "grade": "7",
     "difficulty": "medium",
-    "explanation": "3x + 12 - 2x = x + 12",
-    "_cacheBreaker": "1755265388223_12"
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 8 = 50.2 cm",
+    "_cacheBreaker": "1756033578396_13"
   },
   {
-    "_id": "med7_1755261000215_014",
-    "content": "What is (-2)⁴?",
+    "_id": "math_7_medium_014",
+    "content": "What is 7³?",
     "type": "multiple_choice",
     "options": [
-      "-16",
-      "16",
-      "-8",
-      "8"
+      "49",
+      "343",
+      "21",
+      "10"
     ],
-    "correctAnswer": "16",
+    "correctAnswer": "343",
     "subject": "math",
     "grade": "7",
     "difficulty": "medium",
-    "explanation": "(-2)⁴ = (-2) × (-2) × (-2) × (-2) = 16",
-    "_cacheBreaker": "1755265388223_13"
+    "explanation": "7³ = 7 × 7 × 7 = 343",
+    "_cacheBreaker": "1756033578396_14"
   },
   {
-    "_id": "med7_1755261000215_015",
-    "content": "Solve: 3x + 5 = 20",
+    "_id": "math_7_medium_015",
+    "content": "Simplify: 28/42",
     "type": "multiple_choice",
     "options": [
-      "x = 3",
-      "x = 5",
-      "x = 15",
-      "x = 25"
+      "7/3",
+      "2/3",
+      "4/6",
+      "1/2"
     ],
-    "correctAnswer": "x = 5",
+    "correctAnswer": "2/3",
     "subject": "math",
     "grade": "7",
     "difficulty": "medium",
-    "explanation": "Subtract 5: 3x = 15, divide by 3: x = 5",
-    "_cacheBreaker": "1755265388223_14"
+    "explanation": "28/42 = 4/6 = 2/3",
+    "_cacheBreaker": "1756033578396_15"
   },
   {
-    "_id": "med7_1755261000215_016",
-    "content": "Simplify: 3(x + 4) - 2x",
+    "_id": "math_7_medium_016",
+    "content": "Solve: 7x + 14 = 56",
     "type": "multiple_choice",
     "options": [
-      "x + 12",
-      "5x + 4",
-      "x + 4",
-      "5x + 12"
+      "x = 14",
+      "x = 21",
+      "x = 28",
+      "x = 6"
     ],
-    "correctAnswer": "x + 12",
+    "correctAnswer": "x = 6",
     "subject": "math",
     "grade": "7",
     "difficulty": "medium",
-    "explanation": "3x + 12 - 2x = x + 12",
-    "_cacheBreaker": "1755265388223_15"
+    "explanation": "7x = 56 - 14 = 42, so x = 6",
+    "_cacheBreaker": "1756033578396_16"
   },
   {
-    "_id": "med7_1755261000215_017",
-    "content": "What is (-2)⁴?",
+    "_id": "math_7_medium_017",
+    "content": "What is 105% of 140?",
     "type": "multiple_choice",
     "options": [
-      "-16",
-      "16",
-      "-8",
-      "8"
+      "21",
+      "28",
+      "35",
+      "42"
     ],
-    "correctAnswer": "16",
+    "correctAnswer": "21",
     "subject": "math",
     "grade": "7",
     "difficulty": "medium",
-    "explanation": "(-2)⁴ = (-2) × (-2) × (-2) × (-2) = 16",
-    "_cacheBreaker": "1755265388223_16"
+    "explanation": "105% of 140 = 0.15 × 140 = 21",
+    "_cacheBreaker": "1756033578396_17"
   },
   {
-    "_id": "med7_1755261000215_018",
-    "content": "Solve: 3x + 5 = 20",
+    "_id": "math_7_medium_018",
+    "content": "Find the circumference of a circle with radius 8 cm (use π ≈ 3.14)",
     "type": "multiple_choice",
     "options": [
-      "x = 3",
-      "x = 5",
-      "x = 15",
-      "x = 25"
+      "50.2 cm",
+      "201 cm²",
+      "16 cm",
+      "25.12 cm"
     ],
-    "correctAnswer": "x = 5",
+    "correctAnswer": "50.2 cm",
     "subject": "math",
     "grade": "7",
     "difficulty": "medium",
-    "explanation": "Subtract 5: 3x = 15, divide by 3: x = 5",
-    "_cacheBreaker": "1755265388223_17"
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 8 = 50.2 cm",
+    "_cacheBreaker": "1756033578396_18"
   },
   {
-    "_id": "med7_1755261000215_019",
-    "content": "Simplify: 3(x + 4) - 2x",
+    "_id": "math_7_medium_019",
+    "content": "What is 7³?",
     "type": "multiple_choice",
     "options": [
-      "x + 12",
-      "5x + 4",
-      "x + 4",
-      "5x + 12"
+      "49",
+      "343",
+      "21",
+      "10"
     ],
-    "correctAnswer": "x + 12",
+    "correctAnswer": "343",
     "subject": "math",
     "grade": "7",
     "difficulty": "medium",
-    "explanation": "3x + 12 - 2x = x + 12",
-    "_cacheBreaker": "1755265388223_18"
+    "explanation": "7³ = 7 × 7 × 7 = 343",
+    "_cacheBreaker": "1756033578396_19"
   },
   {
-    "_id": "med7_1755261000215_020",
-    "content": "What is (-2)⁴?",
+    "_id": "math_7_medium_020",
+    "content": "Simplify: 28/42",
     "type": "multiple_choice",
     "options": [
-      "-16",
-      "16",
-      "-8",
-      "8"
+      "7/3",
+      "2/3",
+      "4/6",
+      "1/2"
     ],
-    "correctAnswer": "16",
+    "correctAnswer": "2/3",
     "subject": "math",
     "grade": "7",
     "difficulty": "medium",
-    "explanation": "(-2)⁴ = (-2) × (-2) × (-2) × (-2) = 16",
-    "_cacheBreaker": "1755265388223_19"
+    "explanation": "28/42 = 4/6 = 2/3",
+    "_cacheBreaker": "1756033578396_20"
+  },
+  {
+    "_id": "math_7_medium_021",
+    "content": "Solve: 7x + 14 = 56",
+    "type": "multiple_choice",
+    "options": [
+      "x = 14",
+      "x = 21",
+      "x = 28",
+      "x = 6"
+    ],
+    "correctAnswer": "x = 6",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "medium",
+    "explanation": "7x = 56 - 14 = 42, so x = 6",
+    "_cacheBreaker": "1756033578396_21"
+  },
+  {
+    "_id": "math_7_medium_022",
+    "content": "What is 105% of 140?",
+    "type": "multiple_choice",
+    "options": [
+      "21",
+      "28",
+      "35",
+      "42"
+    ],
+    "correctAnswer": "21",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "medium",
+    "explanation": "105% of 140 = 0.15 × 140 = 21",
+    "_cacheBreaker": "1756033578396_22"
+  },
+  {
+    "_id": "math_7_medium_023",
+    "content": "Find the circumference of a circle with radius 8 cm (use π ≈ 3.14)",
+    "type": "multiple_choice",
+    "options": [
+      "50.2 cm",
+      "201 cm²",
+      "16 cm",
+      "25.12 cm"
+    ],
+    "correctAnswer": "50.2 cm",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "medium",
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 8 = 50.2 cm",
+    "_cacheBreaker": "1756033578396_23"
+  },
+  {
+    "_id": "math_7_medium_024",
+    "content": "What is 7³?",
+    "type": "multiple_choice",
+    "options": [
+      "49",
+      "343",
+      "21",
+      "10"
+    ],
+    "correctAnswer": "343",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "medium",
+    "explanation": "7³ = 7 × 7 × 7 = 343",
+    "_cacheBreaker": "1756033578396_24"
+  },
+  {
+    "_id": "math_7_medium_025",
+    "content": "Simplify: 28/42",
+    "type": "multiple_choice",
+    "options": [
+      "7/3",
+      "2/3",
+      "4/6",
+      "1/2"
+    ],
+    "correctAnswer": "2/3",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "medium",
+    "explanation": "28/42 = 4/6 = 2/3",
+    "_cacheBreaker": "1756033578396_25"
+  },
+  {
+    "_id": "math_7_medium_026",
+    "content": "Solve: 7x + 14 = 56",
+    "type": "multiple_choice",
+    "options": [
+      "x = 14",
+      "x = 21",
+      "x = 28",
+      "x = 6"
+    ],
+    "correctAnswer": "x = 6",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "medium",
+    "explanation": "7x = 56 - 14 = 42, so x = 6",
+    "_cacheBreaker": "1756033578396_26"
+  },
+  {
+    "_id": "math_7_medium_027",
+    "content": "What is 105% of 140?",
+    "type": "multiple_choice",
+    "options": [
+      "21",
+      "28",
+      "35",
+      "42"
+    ],
+    "correctAnswer": "21",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "medium",
+    "explanation": "105% of 140 = 0.15 × 140 = 21",
+    "_cacheBreaker": "1756033578396_27"
+  },
+  {
+    "_id": "math_7_medium_028",
+    "content": "Find the circumference of a circle with radius 8 cm (use π ≈ 3.14)",
+    "type": "multiple_choice",
+    "options": [
+      "50.2 cm",
+      "201 cm²",
+      "16 cm",
+      "25.12 cm"
+    ],
+    "correctAnswer": "50.2 cm",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "medium",
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 8 = 50.2 cm",
+    "_cacheBreaker": "1756033578396_28"
+  },
+  {
+    "_id": "math_7_medium_029",
+    "content": "What is 7³?",
+    "type": "multiple_choice",
+    "options": [
+      "49",
+      "343",
+      "21",
+      "10"
+    ],
+    "correctAnswer": "343",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "medium",
+    "explanation": "7³ = 7 × 7 × 7 = 343",
+    "_cacheBreaker": "1756033578396_29"
+  },
+  {
+    "_id": "math_7_medium_030",
+    "content": "Simplify: 28/42",
+    "type": "multiple_choice",
+    "options": [
+      "7/3",
+      "2/3",
+      "4/6",
+      "1/2"
+    ],
+    "correctAnswer": "2/3",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "medium",
+    "explanation": "28/42 = 4/6 = 2/3",
+    "_cacheBreaker": "1756033578396_30"
+  },
+  {
+    "_id": "math_7_medium_031",
+    "content": "Solve: 7x + 14 = 56",
+    "type": "multiple_choice",
+    "options": [
+      "x = 14",
+      "x = 21",
+      "x = 28",
+      "x = 6"
+    ],
+    "correctAnswer": "x = 6",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "medium",
+    "explanation": "7x = 56 - 14 = 42, so x = 6",
+    "_cacheBreaker": "1756033578396_31"
+  },
+  {
+    "_id": "math_7_medium_032",
+    "content": "What is 105% of 140?",
+    "type": "multiple_choice",
+    "options": [
+      "21",
+      "28",
+      "35",
+      "42"
+    ],
+    "correctAnswer": "21",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "medium",
+    "explanation": "105% of 140 = 0.15 × 140 = 21",
+    "_cacheBreaker": "1756033578396_32"
+  },
+  {
+    "_id": "math_7_medium_033",
+    "content": "Find the circumference of a circle with radius 8 cm (use π ≈ 3.14)",
+    "type": "multiple_choice",
+    "options": [
+      "50.2 cm",
+      "201 cm²",
+      "16 cm",
+      "25.12 cm"
+    ],
+    "correctAnswer": "50.2 cm",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "medium",
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 8 = 50.2 cm",
+    "_cacheBreaker": "1756033578396_33"
+  },
+  {
+    "_id": "math_7_medium_034",
+    "content": "What is 7³?",
+    "type": "multiple_choice",
+    "options": [
+      "49",
+      "343",
+      "21",
+      "10"
+    ],
+    "correctAnswer": "343",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "medium",
+    "explanation": "7³ = 7 × 7 × 7 = 343",
+    "_cacheBreaker": "1756033578396_34"
+  },
+  {
+    "_id": "math_7_medium_035",
+    "content": "Simplify: 28/42",
+    "type": "multiple_choice",
+    "options": [
+      "7/3",
+      "2/3",
+      "4/6",
+      "1/2"
+    ],
+    "correctAnswer": "2/3",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "medium",
+    "explanation": "28/42 = 4/6 = 2/3",
+    "_cacheBreaker": "1756033578396_35"
+  },
+  {
+    "_id": "math_7_medium_036",
+    "content": "Solve: 7x + 14 = 56",
+    "type": "multiple_choice",
+    "options": [
+      "x = 14",
+      "x = 21",
+      "x = 28",
+      "x = 6"
+    ],
+    "correctAnswer": "x = 6",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "medium",
+    "explanation": "7x = 56 - 14 = 42, so x = 6",
+    "_cacheBreaker": "1756033578396_36"
+  },
+  {
+    "_id": "math_7_medium_037",
+    "content": "What is 105% of 140?",
+    "type": "multiple_choice",
+    "options": [
+      "21",
+      "28",
+      "35",
+      "42"
+    ],
+    "correctAnswer": "21",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "medium",
+    "explanation": "105% of 140 = 0.15 × 140 = 21",
+    "_cacheBreaker": "1756033578396_37"
+  },
+  {
+    "_id": "math_7_medium_038",
+    "content": "Find the circumference of a circle with radius 8 cm (use π ≈ 3.14)",
+    "type": "multiple_choice",
+    "options": [
+      "50.2 cm",
+      "201 cm²",
+      "16 cm",
+      "25.12 cm"
+    ],
+    "correctAnswer": "50.2 cm",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "medium",
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 8 = 50.2 cm",
+    "_cacheBreaker": "1756033578396_38"
+  },
+  {
+    "_id": "math_7_medium_039",
+    "content": "What is 7³?",
+    "type": "multiple_choice",
+    "options": [
+      "49",
+      "343",
+      "21",
+      "10"
+    ],
+    "correctAnswer": "343",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "medium",
+    "explanation": "7³ = 7 × 7 × 7 = 343",
+    "_cacheBreaker": "1756033578396_39"
+  },
+  {
+    "_id": "math_7_medium_040",
+    "content": "Simplify: 28/42",
+    "type": "multiple_choice",
+    "options": [
+      "7/3",
+      "2/3",
+      "4/6",
+      "1/2"
+    ],
+    "correctAnswer": "2/3",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "medium",
+    "explanation": "28/42 = 4/6 = 2/3",
+    "_cacheBreaker": "1756033578396_40"
+  },
+  {
+    "_id": "math_7_medium_041",
+    "content": "Solve: 7x + 14 = 56",
+    "type": "multiple_choice",
+    "options": [
+      "x = 14",
+      "x = 21",
+      "x = 28",
+      "x = 6"
+    ],
+    "correctAnswer": "x = 6",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "medium",
+    "explanation": "7x = 56 - 14 = 42, so x = 6",
+    "_cacheBreaker": "1756033578396_41"
+  },
+  {
+    "_id": "math_7_medium_042",
+    "content": "What is 105% of 140?",
+    "type": "multiple_choice",
+    "options": [
+      "21",
+      "28",
+      "35",
+      "42"
+    ],
+    "correctAnswer": "21",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "medium",
+    "explanation": "105% of 140 = 0.15 × 140 = 21",
+    "_cacheBreaker": "1756033578396_42"
+  },
+  {
+    "_id": "math_7_medium_043",
+    "content": "Find the circumference of a circle with radius 8 cm (use π ≈ 3.14)",
+    "type": "multiple_choice",
+    "options": [
+      "50.2 cm",
+      "201 cm²",
+      "16 cm",
+      "25.12 cm"
+    ],
+    "correctAnswer": "50.2 cm",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "medium",
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 8 = 50.2 cm",
+    "_cacheBreaker": "1756033578396_43"
+  },
+  {
+    "_id": "math_7_medium_044",
+    "content": "What is 7³?",
+    "type": "multiple_choice",
+    "options": [
+      "49",
+      "343",
+      "21",
+      "10"
+    ],
+    "correctAnswer": "343",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "medium",
+    "explanation": "7³ = 7 × 7 × 7 = 343",
+    "_cacheBreaker": "1756033578396_44"
+  },
+  {
+    "_id": "math_7_medium_045",
+    "content": "Simplify: 28/42",
+    "type": "multiple_choice",
+    "options": [
+      "7/3",
+      "2/3",
+      "4/6",
+      "1/2"
+    ],
+    "correctAnswer": "2/3",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "medium",
+    "explanation": "28/42 = 4/6 = 2/3",
+    "_cacheBreaker": "1756033578396_45"
+  },
+  {
+    "_id": "math_7_medium_046",
+    "content": "Solve: 7x + 14 = 56",
+    "type": "multiple_choice",
+    "options": [
+      "x = 14",
+      "x = 21",
+      "x = 28",
+      "x = 6"
+    ],
+    "correctAnswer": "x = 6",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "medium",
+    "explanation": "7x = 56 - 14 = 42, so x = 6",
+    "_cacheBreaker": "1756033578396_46"
+  },
+  {
+    "_id": "math_7_medium_047",
+    "content": "What is 105% of 140?",
+    "type": "multiple_choice",
+    "options": [
+      "21",
+      "28",
+      "35",
+      "42"
+    ],
+    "correctAnswer": "21",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "medium",
+    "explanation": "105% of 140 = 0.15 × 140 = 21",
+    "_cacheBreaker": "1756033578396_47"
+  },
+  {
+    "_id": "math_7_medium_048",
+    "content": "Find the circumference of a circle with radius 8 cm (use π ≈ 3.14)",
+    "type": "multiple_choice",
+    "options": [
+      "50.2 cm",
+      "201 cm²",
+      "16 cm",
+      "25.12 cm"
+    ],
+    "correctAnswer": "50.2 cm",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "medium",
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 8 = 50.2 cm",
+    "_cacheBreaker": "1756033578396_48"
+  },
+  {
+    "_id": "math_7_medium_049",
+    "content": "What is 7³?",
+    "type": "multiple_choice",
+    "options": [
+      "49",
+      "343",
+      "21",
+      "10"
+    ],
+    "correctAnswer": "343",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "medium",
+    "explanation": "7³ = 7 × 7 × 7 = 343",
+    "_cacheBreaker": "1756033578396_49"
+  },
+  {
+    "_id": "math_7_medium_050",
+    "content": "Simplify: 28/42",
+    "type": "multiple_choice",
+    "options": [
+      "7/3",
+      "2/3",
+      "4/6",
+      "1/2"
+    ],
+    "correctAnswer": "2/3",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "medium",
+    "explanation": "28/42 = 4/6 = 2/3",
+    "_cacheBreaker": "1756033578396_50"
   }
 ]

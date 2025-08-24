@@ -1,342 +1,852 @@
 [
   {
-    "_id": "english_4_easy_1755775531184_1",
-    "content": "Which sentence is a question?",
+    "_id": "english_4_easy_001",
+    "content": "Which word is a noun?",
     "type": "multiple_choice",
     "options": [
-      "I like pizza.",
-      "Do you like pizza?",
-      "Pizza is good.",
-      "We ate pizza."
+      "run",
+      "happy",
+      "table",
+      "quickly"
     ],
-    "correctAnswer": "Do you like pizza?",
+    "correctAnswer": "table",
     "subject": "english",
     "grade": "4",
     "difficulty": "easy",
-    "explanation": "Questions ask something and end with a question mark.",
-    "_cacheBreaker": "1755775531184_0"
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253422_1"
   },
   {
-    "_id": "english_4_easy_1755775531184_2",
-    "content": "What type of word is 'beautiful'?",
+    "_id": "english_4_easy_002",
+    "content": "What is the opposite of 'hot'?",
     "type": "multiple_choice",
     "options": [
-      "noun",
-      "verb",
-      "adjective",
-      "adverb"
+      "warm",
+      "cold",
+      "cool",
+      "freezing"
     ],
-    "correctAnswer": "adjective",
+    "correctAnswer": "cold",
     "subject": "english",
     "grade": "4",
     "difficulty": "easy",
-    "explanation": "'Beautiful' describes something, making it an adjective.",
-    "_cacheBreaker": "1755775531184_1"
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253422_2"
   },
   {
-    "_id": "english_4_easy_1755775531184_3",
-    "content": "Which sentence is a question?",
+    "_id": "english_4_easy_003",
+    "content": "Which sentence is correct?",
     "type": "multiple_choice",
     "options": [
-      "I like pizza.",
-      "Do you like pizza?",
-      "Pizza is good.",
-      "We ate pizza."
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
     ],
-    "correctAnswer": "Do you like pizza?",
+    "correctAnswer": "I like dogs.",
     "subject": "english",
     "grade": "4",
     "difficulty": "easy",
-    "explanation": "Questions ask something and end with a question mark.",
-    "_cacheBreaker": "1755775531184_2"
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253422_3"
   },
   {
-    "_id": "english_4_easy_1755775531184_4",
-    "content": "What type of word is 'beautiful'?",
+    "_id": "english_4_easy_004",
+    "content": "How many vowels are in 'apple'?",
     "type": "multiple_choice",
     "options": [
-      "noun",
-      "verb",
-      "adjective",
-      "adverb"
+      "1",
+      "2",
+      "3",
+      "4"
     ],
-    "correctAnswer": "adjective",
+    "correctAnswer": "2",
     "subject": "english",
     "grade": "4",
     "difficulty": "easy",
-    "explanation": "'Beautiful' describes something, making it an adjective.",
-    "_cacheBreaker": "1755775531184_3"
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253422_4"
   },
   {
-    "_id": "english_4_easy_1755775531184_5",
-    "content": "Which sentence is a question?",
+    "_id": "english_4_easy_005",
+    "content": "Which word rhymes with 'tree'?",
     "type": "multiple_choice",
     "options": [
-      "I like pizza.",
-      "Do you like pizza?",
-      "Pizza is good.",
-      "We ate pizza."
+      "car",
+      "bee",
+      "dog",
+      "sun"
     ],
-    "correctAnswer": "Do you like pizza?",
+    "correctAnswer": "bee",
     "subject": "english",
     "grade": "4",
     "difficulty": "easy",
-    "explanation": "Questions ask something and end with a question mark.",
-    "_cacheBreaker": "1755775531184_4"
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253423_5"
   },
   {
-    "_id": "english_4_easy_1755775531184_6",
-    "content": "What type of word is 'beautiful'?",
+    "_id": "english_4_easy_006",
+    "content": "Which word is a noun?",
     "type": "multiple_choice",
     "options": [
-      "noun",
-      "verb",
-      "adjective",
-      "adverb"
+      "run",
+      "happy",
+      "table",
+      "quickly"
     ],
-    "correctAnswer": "adjective",
+    "correctAnswer": "table",
     "subject": "english",
     "grade": "4",
     "difficulty": "easy",
-    "explanation": "'Beautiful' describes something, making it an adjective.",
-    "_cacheBreaker": "1755775531184_5"
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253423_6"
   },
   {
-    "_id": "english_4_easy_1755775531184_7",
-    "content": "Which sentence is a question?",
+    "_id": "english_4_easy_007",
+    "content": "What is the opposite of 'hot'?",
     "type": "multiple_choice",
     "options": [
-      "I like pizza.",
-      "Do you like pizza?",
-      "Pizza is good.",
-      "We ate pizza."
+      "warm",
+      "cold",
+      "cool",
+      "freezing"
     ],
-    "correctAnswer": "Do you like pizza?",
+    "correctAnswer": "cold",
     "subject": "english",
     "grade": "4",
     "difficulty": "easy",
-    "explanation": "Questions ask something and end with a question mark.",
-    "_cacheBreaker": "1755775531184_6"
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253423_7"
   },
   {
-    "_id": "english_4_easy_1755775531184_8",
-    "content": "What type of word is 'beautiful'?",
+    "_id": "english_4_easy_008",
+    "content": "Which sentence is correct?",
     "type": "multiple_choice",
     "options": [
-      "noun",
-      "verb",
-      "adjective",
-      "adverb"
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
     ],
-    "correctAnswer": "adjective",
+    "correctAnswer": "I like dogs.",
     "subject": "english",
     "grade": "4",
     "difficulty": "easy",
-    "explanation": "'Beautiful' describes something, making it an adjective.",
-    "_cacheBreaker": "1755775531184_7"
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253423_8"
   },
   {
-    "_id": "english_4_easy_1755775531184_9",
-    "content": "Which sentence is a question?",
+    "_id": "english_4_easy_009",
+    "content": "How many vowels are in 'apple'?",
     "type": "multiple_choice",
     "options": [
-      "I like pizza.",
-      "Do you like pizza?",
-      "Pizza is good.",
-      "We ate pizza."
+      "1",
+      "2",
+      "3",
+      "4"
     ],
-    "correctAnswer": "Do you like pizza?",
+    "correctAnswer": "2",
     "subject": "english",
     "grade": "4",
     "difficulty": "easy",
-    "explanation": "Questions ask something and end with a question mark.",
-    "_cacheBreaker": "1755775531184_8"
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253423_9"
   },
   {
-    "_id": "english_4_easy_1755775531184_10",
-    "content": "What type of word is 'beautiful'?",
+    "_id": "english_4_easy_010",
+    "content": "Which word rhymes with 'tree'?",
     "type": "multiple_choice",
     "options": [
-      "noun",
-      "verb",
-      "adjective",
-      "adverb"
+      "car",
+      "bee",
+      "dog",
+      "sun"
     ],
-    "correctAnswer": "adjective",
+    "correctAnswer": "bee",
     "subject": "english",
     "grade": "4",
     "difficulty": "easy",
-    "explanation": "'Beautiful' describes something, making it an adjective.",
-    "_cacheBreaker": "1755775531184_9"
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253423_10"
   },
   {
-    "_id": "english_4_easy_1755775531184_11",
-    "content": "Which sentence is a question?",
+    "_id": "english_4_easy_011",
+    "content": "Which word is a noun?",
     "type": "multiple_choice",
     "options": [
-      "I like pizza.",
-      "Do you like pizza?",
-      "Pizza is good.",
-      "We ate pizza."
+      "run",
+      "happy",
+      "table",
+      "quickly"
     ],
-    "correctAnswer": "Do you like pizza?",
+    "correctAnswer": "table",
     "subject": "english",
     "grade": "4",
     "difficulty": "easy",
-    "explanation": "Questions ask something and end with a question mark.",
-    "_cacheBreaker": "1755775531184_10"
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253423_11"
   },
   {
-    "_id": "english_4_easy_1755775531184_12",
-    "content": "What type of word is 'beautiful'?",
+    "_id": "english_4_easy_012",
+    "content": "What is the opposite of 'hot'?",
     "type": "multiple_choice",
     "options": [
-      "noun",
-      "verb",
-      "adjective",
-      "adverb"
+      "warm",
+      "cold",
+      "cool",
+      "freezing"
     ],
-    "correctAnswer": "adjective",
+    "correctAnswer": "cold",
     "subject": "english",
     "grade": "4",
     "difficulty": "easy",
-    "explanation": "'Beautiful' describes something, making it an adjective.",
-    "_cacheBreaker": "1755775531184_11"
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253423_12"
   },
   {
-    "_id": "english_4_easy_1755775531184_13",
-    "content": "Which sentence is a question?",
+    "_id": "english_4_easy_013",
+    "content": "Which sentence is correct?",
     "type": "multiple_choice",
     "options": [
-      "I like pizza.",
-      "Do you like pizza?",
-      "Pizza is good.",
-      "We ate pizza."
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
     ],
-    "correctAnswer": "Do you like pizza?",
+    "correctAnswer": "I like dogs.",
     "subject": "english",
     "grade": "4",
     "difficulty": "easy",
-    "explanation": "Questions ask something and end with a question mark.",
-    "_cacheBreaker": "1755775531184_12"
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253423_13"
   },
   {
-    "_id": "english_4_easy_1755775531184_14",
-    "content": "What type of word is 'beautiful'?",
+    "_id": "english_4_easy_014",
+    "content": "How many vowels are in 'apple'?",
     "type": "multiple_choice",
     "options": [
-      "noun",
-      "verb",
-      "adjective",
-      "adverb"
+      "1",
+      "2",
+      "3",
+      "4"
     ],
-    "correctAnswer": "adjective",
+    "correctAnswer": "2",
     "subject": "english",
     "grade": "4",
     "difficulty": "easy",
-    "explanation": "'Beautiful' describes something, making it an adjective.",
-    "_cacheBreaker": "1755775531184_13"
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253423_14"
   },
   {
-    "_id": "english_4_easy_1755775531184_15",
-    "content": "Which sentence is a question?",
+    "_id": "english_4_easy_015",
+    "content": "Which word rhymes with 'tree'?",
     "type": "multiple_choice",
     "options": [
-      "I like pizza.",
-      "Do you like pizza?",
-      "Pizza is good.",
-      "We ate pizza."
+      "car",
+      "bee",
+      "dog",
+      "sun"
     ],
-    "correctAnswer": "Do you like pizza?",
+    "correctAnswer": "bee",
     "subject": "english",
     "grade": "4",
     "difficulty": "easy",
-    "explanation": "Questions ask something and end with a question mark.",
-    "_cacheBreaker": "1755775531184_14"
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253423_15"
   },
   {
-    "_id": "english_4_easy_1755775531184_16",
-    "content": "What type of word is 'beautiful'?",
+    "_id": "english_4_easy_016",
+    "content": "Which word is a noun?",
     "type": "multiple_choice",
     "options": [
-      "noun",
-      "verb",
-      "adjective",
-      "adverb"
+      "run",
+      "happy",
+      "table",
+      "quickly"
     ],
-    "correctAnswer": "adjective",
+    "correctAnswer": "table",
     "subject": "english",
     "grade": "4",
     "difficulty": "easy",
-    "explanation": "'Beautiful' describes something, making it an adjective.",
-    "_cacheBreaker": "1755775531184_15"
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253423_16"
   },
   {
-    "_id": "english_4_easy_1755775531184_17",
-    "content": "Which sentence is a question?",
+    "_id": "english_4_easy_017",
+    "content": "What is the opposite of 'hot'?",
     "type": "multiple_choice",
     "options": [
-      "I like pizza.",
-      "Do you like pizza?",
-      "Pizza is good.",
-      "We ate pizza."
+      "warm",
+      "cold",
+      "cool",
+      "freezing"
     ],
-    "correctAnswer": "Do you like pizza?",
+    "correctAnswer": "cold",
     "subject": "english",
     "grade": "4",
     "difficulty": "easy",
-    "explanation": "Questions ask something and end with a question mark.",
-    "_cacheBreaker": "1755775531184_16"
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253423_17"
   },
   {
-    "_id": "english_4_easy_1755775531184_18",
-    "content": "What type of word is 'beautiful'?",
+    "_id": "english_4_easy_018",
+    "content": "Which sentence is correct?",
     "type": "multiple_choice",
     "options": [
-      "noun",
-      "verb",
-      "adjective",
-      "adverb"
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
     ],
-    "correctAnswer": "adjective",
+    "correctAnswer": "I like dogs.",
     "subject": "english",
     "grade": "4",
     "difficulty": "easy",
-    "explanation": "'Beautiful' describes something, making it an adjective.",
-    "_cacheBreaker": "1755775531184_17"
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253423_18"
   },
   {
-    "_id": "english_4_easy_1755775531184_19",
-    "content": "Which sentence is a question?",
+    "_id": "english_4_easy_019",
+    "content": "How many vowels are in 'apple'?",
     "type": "multiple_choice",
     "options": [
-      "I like pizza.",
-      "Do you like pizza?",
-      "Pizza is good.",
-      "We ate pizza."
+      "1",
+      "2",
+      "3",
+      "4"
     ],
-    "correctAnswer": "Do you like pizza?",
+    "correctAnswer": "2",
     "subject": "english",
     "grade": "4",
     "difficulty": "easy",
-    "explanation": "Questions ask something and end with a question mark.",
-    "_cacheBreaker": "1755775531184_18"
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253423_19"
   },
   {
-    "_id": "english_4_easy_1755775531184_20",
-    "content": "What type of word is 'beautiful'?",
+    "_id": "english_4_easy_020",
+    "content": "Which word rhymes with 'tree'?",
     "type": "multiple_choice",
     "options": [
-      "noun",
-      "verb",
-      "adjective",
-      "adverb"
+      "car",
+      "bee",
+      "dog",
+      "sun"
     ],
-    "correctAnswer": "adjective",
+    "correctAnswer": "bee",
     "subject": "english",
     "grade": "4",
     "difficulty": "easy",
-    "explanation": "'Beautiful' describes something, making it an adjective.",
-    "_cacheBreaker": "1755775531184_19"
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253423_20"
+  },
+  {
+    "_id": "english_4_easy_021",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
+      "run",
+      "happy",
+      "table",
+      "quickly"
+    ],
+    "correctAnswer": "table",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253423_21"
+  },
+  {
+    "_id": "english_4_easy_022",
+    "content": "What is the opposite of 'hot'?",
+    "type": "multiple_choice",
+    "options": [
+      "warm",
+      "cold",
+      "cool",
+      "freezing"
+    ],
+    "correctAnswer": "cold",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253423_22"
+  },
+  {
+    "_id": "english_4_easy_023",
+    "content": "Which sentence is correct?",
+    "type": "multiple_choice",
+    "options": [
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
+    ],
+    "correctAnswer": "I like dogs.",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253423_23"
+  },
+  {
+    "_id": "english_4_easy_024",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253423_24"
+  },
+  {
+    "_id": "english_4_easy_025",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253423_25"
+  },
+  {
+    "_id": "english_4_easy_026",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
+      "run",
+      "happy",
+      "table",
+      "quickly"
+    ],
+    "correctAnswer": "table",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253423_26"
+  },
+  {
+    "_id": "english_4_easy_027",
+    "content": "What is the opposite of 'hot'?",
+    "type": "multiple_choice",
+    "options": [
+      "warm",
+      "cold",
+      "cool",
+      "freezing"
+    ],
+    "correctAnswer": "cold",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253423_27"
+  },
+  {
+    "_id": "english_4_easy_028",
+    "content": "Which sentence is correct?",
+    "type": "multiple_choice",
+    "options": [
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
+    ],
+    "correctAnswer": "I like dogs.",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253423_28"
+  },
+  {
+    "_id": "english_4_easy_029",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253423_29"
+  },
+  {
+    "_id": "english_4_easy_030",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253423_30"
+  },
+  {
+    "_id": "english_4_easy_031",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
+      "run",
+      "happy",
+      "table",
+      "quickly"
+    ],
+    "correctAnswer": "table",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253423_31"
+  },
+  {
+    "_id": "english_4_easy_032",
+    "content": "What is the opposite of 'hot'?",
+    "type": "multiple_choice",
+    "options": [
+      "warm",
+      "cold",
+      "cool",
+      "freezing"
+    ],
+    "correctAnswer": "cold",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253423_32"
+  },
+  {
+    "_id": "english_4_easy_033",
+    "content": "Which sentence is correct?",
+    "type": "multiple_choice",
+    "options": [
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
+    ],
+    "correctAnswer": "I like dogs.",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253423_33"
+  },
+  {
+    "_id": "english_4_easy_034",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253423_34"
+  },
+  {
+    "_id": "english_4_easy_035",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253423_35"
+  },
+  {
+    "_id": "english_4_easy_036",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
+      "run",
+      "happy",
+      "table",
+      "quickly"
+    ],
+    "correctAnswer": "table",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253423_36"
+  },
+  {
+    "_id": "english_4_easy_037",
+    "content": "What is the opposite of 'hot'?",
+    "type": "multiple_choice",
+    "options": [
+      "warm",
+      "cold",
+      "cool",
+      "freezing"
+    ],
+    "correctAnswer": "cold",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253423_37"
+  },
+  {
+    "_id": "english_4_easy_038",
+    "content": "Which sentence is correct?",
+    "type": "multiple_choice",
+    "options": [
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
+    ],
+    "correctAnswer": "I like dogs.",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253423_38"
+  },
+  {
+    "_id": "english_4_easy_039",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253423_39"
+  },
+  {
+    "_id": "english_4_easy_040",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253423_40"
+  },
+  {
+    "_id": "english_4_easy_041",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
+      "run",
+      "happy",
+      "table",
+      "quickly"
+    ],
+    "correctAnswer": "table",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253423_41"
+  },
+  {
+    "_id": "english_4_easy_042",
+    "content": "What is the opposite of 'hot'?",
+    "type": "multiple_choice",
+    "options": [
+      "warm",
+      "cold",
+      "cool",
+      "freezing"
+    ],
+    "correctAnswer": "cold",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253423_42"
+  },
+  {
+    "_id": "english_4_easy_043",
+    "content": "Which sentence is correct?",
+    "type": "multiple_choice",
+    "options": [
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
+    ],
+    "correctAnswer": "I like dogs.",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253423_43"
+  },
+  {
+    "_id": "english_4_easy_044",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253423_44"
+  },
+  {
+    "_id": "english_4_easy_045",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253423_45"
+  },
+  {
+    "_id": "english_4_easy_046",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
+      "run",
+      "happy",
+      "table",
+      "quickly"
+    ],
+    "correctAnswer": "table",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253423_46"
+  },
+  {
+    "_id": "english_4_easy_047",
+    "content": "What is the opposite of 'hot'?",
+    "type": "multiple_choice",
+    "options": [
+      "warm",
+      "cold",
+      "cool",
+      "freezing"
+    ],
+    "correctAnswer": "cold",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253423_47"
+  },
+  {
+    "_id": "english_4_easy_048",
+    "content": "Which sentence is correct?",
+    "type": "multiple_choice",
+    "options": [
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
+    ],
+    "correctAnswer": "I like dogs.",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253423_48"
+  },
+  {
+    "_id": "english_4_easy_049",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253423_49"
+  },
+  {
+    "_id": "english_4_easy_050",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253423_50"
   }
 ]

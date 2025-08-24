@@ -1,342 +1,852 @@
 [
   {
-    "_id": "easy12_1755260948241_001",
-    "content": "Find the derivative of f(x) = 3x + 5",
+    "_id": "math_12_easy_001",
+    "content": "What is 60 + 36?",
     "type": "multiple_choice",
     "options": [
-      "3",
-      "5",
-      "3x",
-      "8x"
+      "84",
+      "96",
+      "108",
+      "120"
     ],
-    "correctAnswer": "3",
+    "correctAnswer": "96",
     "subject": "math",
     "grade": "12",
     "difficulty": "easy",
-    "explanation": "Derivative of 3x + 5 is 3",
-    "_cacheBreaker": "1755265388145_0"
+    "explanation": "60 + 36 = 96",
+    "_cacheBreaker": "1756033578448_1"
   },
   {
-    "_id": "easy12_1755260948241_002",
-    "content": "Evaluate ∫3 dx",
+    "_id": "math_12_easy_002",
+    "content": "Solve: 12x = 144",
     "type": "multiple_choice",
     "options": [
-      "3",
-      "3x",
-      "3x + C",
-      "0"
+      "x = 120",
+      "x = 12",
+      "x = 12",
+      "x = 72"
     ],
-    "correctAnswer": "3x + C",
+    "correctAnswer": "x = 12",
     "subject": "math",
     "grade": "12",
     "difficulty": "easy",
-    "explanation": "∫3 dx = 3x + C",
-    "_cacheBreaker": "1755265388145_1"
+    "explanation": "x = 144 ÷ 12 = 12",
+    "_cacheBreaker": "1756033578448_2"
   },
   {
-    "_id": "easy12_1755260948241_003",
-    "content": "Find lim(x→2) x²",
+    "_id": "math_12_easy_003",
+    "content": "What is 120% of 100?",
     "type": "multiple_choice",
     "options": [
-      "2",
-      "4",
-      "8",
-      "∞"
+      "60",
+      "120",
+      "180",
+      "240"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "120",
     "subject": "math",
     "grade": "12",
     "difficulty": "easy",
-    "explanation": "Direct substitution: 2² = 4",
-    "_cacheBreaker": "1755265388145_2"
+    "explanation": "120% of 100 = 120",
+    "_cacheBreaker": "1756033578448_3"
   },
   {
-    "_id": "easy12_1755260948247_004",
-    "content": "Find the derivative of f(x) = 3x + 5 (Question 4)",
+    "_id": "math_12_easy_004",
+    "content": "Convert 12/10 to a decimal.",
     "type": "multiple_choice",
     "options": [
-      "3",
-      "5",
-      "3x",
-      "8x"
+      "0.12",
+      "12.0",
+      "12/100",
+      "10.12"
     ],
-    "correctAnswer": "3",
+    "correctAnswer": "0.12",
     "subject": "math",
     "grade": "12",
     "difficulty": "easy",
-    "explanation": "Derivative of 3x + 5 is 3",
-    "_cacheBreaker": "1755265388145_3"
+    "explanation": "12/10 = 0.12",
+    "_cacheBreaker": "1756033578448_4"
   },
   {
-    "_id": "easy12_1755260948247_005",
-    "content": "Evaluate ∫3 dx (Question 5)",
+    "_id": "math_12_easy_005",
+    "content": "What is the area of a square with side length 14 cm?",
     "type": "multiple_choice",
     "options": [
-      "3",
-      "3x",
-      "3x + C",
-      "0"
+      "56 cm²",
+      "196 cm²",
+      "14 cm²",
+      "28 cm²"
     ],
-    "correctAnswer": "3x + C",
+    "correctAnswer": "196 cm²",
     "subject": "math",
     "grade": "12",
     "difficulty": "easy",
-    "explanation": "∫3 dx = 3x + C",
-    "_cacheBreaker": "1755265388145_4"
+    "explanation": "Area of square = side² = 14² = 196 cm²",
+    "_cacheBreaker": "1756033578448_5"
   },
   {
-    "_id": "easy12_1755260948247_006",
-    "content": "Find lim(x→2) x² (Question 6)",
+    "_id": "math_12_easy_006",
+    "content": "What is 60 + 36?",
     "type": "multiple_choice",
     "options": [
-      "2",
-      "4",
-      "8",
-      "∞"
+      "84",
+      "96",
+      "108",
+      "120"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "96",
     "subject": "math",
     "grade": "12",
     "difficulty": "easy",
-    "explanation": "Direct substitution: 2² = 4",
-    "_cacheBreaker": "1755265388145_5"
+    "explanation": "60 + 36 = 96",
+    "_cacheBreaker": "1756033578448_6"
   },
   {
-    "_id": "easy12_1755260948247_007",
-    "content": "Find the derivative of f(x) = 3x + 5 (Question 7)",
+    "_id": "math_12_easy_007",
+    "content": "Solve: 12x = 144",
     "type": "multiple_choice",
     "options": [
-      "3",
-      "5",
-      "3x",
-      "8x"
+      "x = 120",
+      "x = 12",
+      "x = 12",
+      "x = 72"
     ],
-    "correctAnswer": "3",
+    "correctAnswer": "x = 12",
     "subject": "math",
     "grade": "12",
     "difficulty": "easy",
-    "explanation": "Derivative of 3x + 5 is 3",
-    "_cacheBreaker": "1755265388145_6"
+    "explanation": "x = 144 ÷ 12 = 12",
+    "_cacheBreaker": "1756033578448_7"
   },
   {
-    "_id": "easy12_1755260948247_008",
-    "content": "Evaluate ∫3 dx (Question 8)",
+    "_id": "math_12_easy_008",
+    "content": "What is 120% of 100?",
     "type": "multiple_choice",
     "options": [
-      "3",
-      "3x",
-      "3x + C",
-      "0"
+      "60",
+      "120",
+      "180",
+      "240"
     ],
-    "correctAnswer": "3x + C",
+    "correctAnswer": "120",
     "subject": "math",
     "grade": "12",
     "difficulty": "easy",
-    "explanation": "∫3 dx = 3x + C",
-    "_cacheBreaker": "1755265388145_7"
+    "explanation": "120% of 100 = 120",
+    "_cacheBreaker": "1756033578448_8"
   },
   {
-    "_id": "easy12_1755260948247_009",
-    "content": "Find lim(x→2) x² (Question 9)",
+    "_id": "math_12_easy_009",
+    "content": "Convert 12/10 to a decimal.",
     "type": "multiple_choice",
     "options": [
-      "2",
-      "4",
-      "8",
-      "∞"
+      "0.12",
+      "12.0",
+      "12/100",
+      "10.12"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "0.12",
     "subject": "math",
     "grade": "12",
     "difficulty": "easy",
-    "explanation": "Direct substitution: 2² = 4",
-    "_cacheBreaker": "1755265388145_8"
+    "explanation": "12/10 = 0.12",
+    "_cacheBreaker": "1756033578448_9"
   },
   {
-    "_id": "easy12_1755260948247_010",
-    "content": "Find the derivative of f(x) = 3x + 5 (Question 10)",
+    "_id": "math_12_easy_010",
+    "content": "What is the area of a square with side length 14 cm?",
     "type": "multiple_choice",
     "options": [
-      "3",
-      "5",
-      "3x",
-      "8x"
+      "56 cm²",
+      "196 cm²",
+      "14 cm²",
+      "28 cm²"
     ],
-    "correctAnswer": "3",
+    "correctAnswer": "196 cm²",
     "subject": "math",
     "grade": "12",
     "difficulty": "easy",
-    "explanation": "Derivative of 3x + 5 is 3",
-    "_cacheBreaker": "1755265388145_9"
+    "explanation": "Area of square = side² = 14² = 196 cm²",
+    "_cacheBreaker": "1756033578448_10"
   },
   {
-    "_id": "easy12_1755260948247_011",
-    "content": "Evaluate ∫3 dx (Question 11)",
+    "_id": "math_12_easy_011",
+    "content": "What is 60 + 36?",
     "type": "multiple_choice",
     "options": [
-      "3",
-      "3x",
-      "3x + C",
-      "0"
+      "84",
+      "96",
+      "108",
+      "120"
     ],
-    "correctAnswer": "3x + C",
+    "correctAnswer": "96",
     "subject": "math",
     "grade": "12",
     "difficulty": "easy",
-    "explanation": "∫3 dx = 3x + C",
-    "_cacheBreaker": "1755265388145_10"
+    "explanation": "60 + 36 = 96",
+    "_cacheBreaker": "1756033578448_11"
   },
   {
-    "_id": "easy12_1755260948247_012",
-    "content": "Find lim(x→2) x² (Question 12)",
+    "_id": "math_12_easy_012",
+    "content": "Solve: 12x = 144",
     "type": "multiple_choice",
     "options": [
-      "2",
-      "4",
-      "8",
-      "∞"
+      "x = 120",
+      "x = 12",
+      "x = 12",
+      "x = 72"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "x = 12",
     "subject": "math",
     "grade": "12",
     "difficulty": "easy",
-    "explanation": "Direct substitution: 2² = 4",
-    "_cacheBreaker": "1755265388145_11"
+    "explanation": "x = 144 ÷ 12 = 12",
+    "_cacheBreaker": "1756033578448_12"
   },
   {
-    "_id": "easy12_1755260948247_013",
-    "content": "Find the derivative of f(x) = 3x + 5 (Question 13)",
+    "_id": "math_12_easy_013",
+    "content": "What is 120% of 100?",
     "type": "multiple_choice",
     "options": [
-      "3",
-      "5",
-      "3x",
-      "8x"
+      "60",
+      "120",
+      "180",
+      "240"
     ],
-    "correctAnswer": "3",
+    "correctAnswer": "120",
     "subject": "math",
     "grade": "12",
     "difficulty": "easy",
-    "explanation": "Derivative of 3x + 5 is 3",
-    "_cacheBreaker": "1755265388145_12"
+    "explanation": "120% of 100 = 120",
+    "_cacheBreaker": "1756033578448_13"
   },
   {
-    "_id": "easy12_1755260948247_014",
-    "content": "Evaluate ∫3 dx (Question 14)",
+    "_id": "math_12_easy_014",
+    "content": "Convert 12/10 to a decimal.",
     "type": "multiple_choice",
     "options": [
-      "3",
-      "3x",
-      "3x + C",
-      "0"
+      "0.12",
+      "12.0",
+      "12/100",
+      "10.12"
     ],
-    "correctAnswer": "3x + C",
+    "correctAnswer": "0.12",
     "subject": "math",
     "grade": "12",
     "difficulty": "easy",
-    "explanation": "∫3 dx = 3x + C",
-    "_cacheBreaker": "1755265388145_13"
+    "explanation": "12/10 = 0.12",
+    "_cacheBreaker": "1756033578448_14"
   },
   {
-    "_id": "easy12_1755260948247_015",
-    "content": "Find lim(x→2) x² (Question 15)",
+    "_id": "math_12_easy_015",
+    "content": "What is the area of a square with side length 14 cm?",
     "type": "multiple_choice",
     "options": [
-      "2",
-      "4",
-      "8",
-      "∞"
+      "56 cm²",
+      "196 cm²",
+      "14 cm²",
+      "28 cm²"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "196 cm²",
     "subject": "math",
     "grade": "12",
     "difficulty": "easy",
-    "explanation": "Direct substitution: 2² = 4",
-    "_cacheBreaker": "1755265388145_14"
+    "explanation": "Area of square = side² = 14² = 196 cm²",
+    "_cacheBreaker": "1756033578448_15"
   },
   {
-    "_id": "easy12_1755260948247_016",
-    "content": "Find the derivative of f(x) = 3x + 5 (Question 16)",
+    "_id": "math_12_easy_016",
+    "content": "What is 60 + 36?",
     "type": "multiple_choice",
     "options": [
-      "3",
-      "5",
-      "3x",
-      "8x"
+      "84",
+      "96",
+      "108",
+      "120"
     ],
-    "correctAnswer": "3",
+    "correctAnswer": "96",
     "subject": "math",
     "grade": "12",
     "difficulty": "easy",
-    "explanation": "Derivative of 3x + 5 is 3",
-    "_cacheBreaker": "1755265388145_15"
+    "explanation": "60 + 36 = 96",
+    "_cacheBreaker": "1756033578448_16"
   },
   {
-    "_id": "easy12_1755260948247_017",
-    "content": "Evaluate ∫3 dx (Question 17)",
+    "_id": "math_12_easy_017",
+    "content": "Solve: 12x = 144",
     "type": "multiple_choice",
     "options": [
-      "3",
-      "3x",
-      "3x + C",
-      "0"
+      "x = 120",
+      "x = 12",
+      "x = 12",
+      "x = 72"
     ],
-    "correctAnswer": "3x + C",
+    "correctAnswer": "x = 12",
     "subject": "math",
     "grade": "12",
     "difficulty": "easy",
-    "explanation": "∫3 dx = 3x + C",
-    "_cacheBreaker": "1755265388145_16"
+    "explanation": "x = 144 ÷ 12 = 12",
+    "_cacheBreaker": "1756033578448_17"
   },
   {
-    "_id": "easy12_1755260948247_018",
-    "content": "Find lim(x→2) x² (Question 18)",
+    "_id": "math_12_easy_018",
+    "content": "What is 120% of 100?",
     "type": "multiple_choice",
     "options": [
-      "2",
-      "4",
-      "8",
-      "∞"
+      "60",
+      "120",
+      "180",
+      "240"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "120",
     "subject": "math",
     "grade": "12",
     "difficulty": "easy",
-    "explanation": "Direct substitution: 2² = 4",
-    "_cacheBreaker": "1755265388145_17"
+    "explanation": "120% of 100 = 120",
+    "_cacheBreaker": "1756033578448_18"
   },
   {
-    "_id": "easy12_1755260948247_019",
-    "content": "Find the derivative of f(x) = 3x + 5 (Question 19)",
+    "_id": "math_12_easy_019",
+    "content": "Convert 12/10 to a decimal.",
     "type": "multiple_choice",
     "options": [
-      "3",
-      "5",
-      "3x",
-      "8x"
+      "0.12",
+      "12.0",
+      "12/100",
+      "10.12"
     ],
-    "correctAnswer": "3",
+    "correctAnswer": "0.12",
     "subject": "math",
     "grade": "12",
     "difficulty": "easy",
-    "explanation": "Derivative of 3x + 5 is 3",
-    "_cacheBreaker": "1755265388145_18"
+    "explanation": "12/10 = 0.12",
+    "_cacheBreaker": "1756033578448_19"
   },
   {
-    "_id": "easy12_1755260948247_020",
-    "content": "Evaluate ∫3 dx (Question 20)",
+    "_id": "math_12_easy_020",
+    "content": "What is the area of a square with side length 14 cm?",
     "type": "multiple_choice",
     "options": [
-      "3",
-      "3x",
-      "3x + C",
-      "0"
+      "56 cm²",
+      "196 cm²",
+      "14 cm²",
+      "28 cm²"
     ],
-    "correctAnswer": "3x + C",
+    "correctAnswer": "196 cm²",
     "subject": "math",
     "grade": "12",
     "difficulty": "easy",
-    "explanation": "∫3 dx = 3x + C",
-    "_cacheBreaker": "1755265388145_19"
+    "explanation": "Area of square = side² = 14² = 196 cm²",
+    "_cacheBreaker": "1756033578448_20"
+  },
+  {
+    "_id": "math_12_easy_021",
+    "content": "What is 60 + 36?",
+    "type": "multiple_choice",
+    "options": [
+      "84",
+      "96",
+      "108",
+      "120"
+    ],
+    "correctAnswer": "96",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "easy",
+    "explanation": "60 + 36 = 96",
+    "_cacheBreaker": "1756033578448_21"
+  },
+  {
+    "_id": "math_12_easy_022",
+    "content": "Solve: 12x = 144",
+    "type": "multiple_choice",
+    "options": [
+      "x = 120",
+      "x = 12",
+      "x = 12",
+      "x = 72"
+    ],
+    "correctAnswer": "x = 12",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "easy",
+    "explanation": "x = 144 ÷ 12 = 12",
+    "_cacheBreaker": "1756033578448_22"
+  },
+  {
+    "_id": "math_12_easy_023",
+    "content": "What is 120% of 100?",
+    "type": "multiple_choice",
+    "options": [
+      "60",
+      "120",
+      "180",
+      "240"
+    ],
+    "correctAnswer": "120",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "easy",
+    "explanation": "120% of 100 = 120",
+    "_cacheBreaker": "1756033578448_23"
+  },
+  {
+    "_id": "math_12_easy_024",
+    "content": "Convert 12/10 to a decimal.",
+    "type": "multiple_choice",
+    "options": [
+      "0.12",
+      "12.0",
+      "12/100",
+      "10.12"
+    ],
+    "correctAnswer": "0.12",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "easy",
+    "explanation": "12/10 = 0.12",
+    "_cacheBreaker": "1756033578448_24"
+  },
+  {
+    "_id": "math_12_easy_025",
+    "content": "What is the area of a square with side length 14 cm?",
+    "type": "multiple_choice",
+    "options": [
+      "56 cm²",
+      "196 cm²",
+      "14 cm²",
+      "28 cm²"
+    ],
+    "correctAnswer": "196 cm²",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "easy",
+    "explanation": "Area of square = side² = 14² = 196 cm²",
+    "_cacheBreaker": "1756033578448_25"
+  },
+  {
+    "_id": "math_12_easy_026",
+    "content": "What is 60 + 36?",
+    "type": "multiple_choice",
+    "options": [
+      "84",
+      "96",
+      "108",
+      "120"
+    ],
+    "correctAnswer": "96",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "easy",
+    "explanation": "60 + 36 = 96",
+    "_cacheBreaker": "1756033578448_26"
+  },
+  {
+    "_id": "math_12_easy_027",
+    "content": "Solve: 12x = 144",
+    "type": "multiple_choice",
+    "options": [
+      "x = 120",
+      "x = 12",
+      "x = 12",
+      "x = 72"
+    ],
+    "correctAnswer": "x = 12",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "easy",
+    "explanation": "x = 144 ÷ 12 = 12",
+    "_cacheBreaker": "1756033578448_27"
+  },
+  {
+    "_id": "math_12_easy_028",
+    "content": "What is 120% of 100?",
+    "type": "multiple_choice",
+    "options": [
+      "60",
+      "120",
+      "180",
+      "240"
+    ],
+    "correctAnswer": "120",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "easy",
+    "explanation": "120% of 100 = 120",
+    "_cacheBreaker": "1756033578448_28"
+  },
+  {
+    "_id": "math_12_easy_029",
+    "content": "Convert 12/10 to a decimal.",
+    "type": "multiple_choice",
+    "options": [
+      "0.12",
+      "12.0",
+      "12/100",
+      "10.12"
+    ],
+    "correctAnswer": "0.12",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "easy",
+    "explanation": "12/10 = 0.12",
+    "_cacheBreaker": "1756033578448_29"
+  },
+  {
+    "_id": "math_12_easy_030",
+    "content": "What is the area of a square with side length 14 cm?",
+    "type": "multiple_choice",
+    "options": [
+      "56 cm²",
+      "196 cm²",
+      "14 cm²",
+      "28 cm²"
+    ],
+    "correctAnswer": "196 cm²",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "easy",
+    "explanation": "Area of square = side² = 14² = 196 cm²",
+    "_cacheBreaker": "1756033578448_30"
+  },
+  {
+    "_id": "math_12_easy_031",
+    "content": "What is 60 + 36?",
+    "type": "multiple_choice",
+    "options": [
+      "84",
+      "96",
+      "108",
+      "120"
+    ],
+    "correctAnswer": "96",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "easy",
+    "explanation": "60 + 36 = 96",
+    "_cacheBreaker": "1756033578448_31"
+  },
+  {
+    "_id": "math_12_easy_032",
+    "content": "Solve: 12x = 144",
+    "type": "multiple_choice",
+    "options": [
+      "x = 120",
+      "x = 12",
+      "x = 12",
+      "x = 72"
+    ],
+    "correctAnswer": "x = 12",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "easy",
+    "explanation": "x = 144 ÷ 12 = 12",
+    "_cacheBreaker": "1756033578448_32"
+  },
+  {
+    "_id": "math_12_easy_033",
+    "content": "What is 120% of 100?",
+    "type": "multiple_choice",
+    "options": [
+      "60",
+      "120",
+      "180",
+      "240"
+    ],
+    "correctAnswer": "120",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "easy",
+    "explanation": "120% of 100 = 120",
+    "_cacheBreaker": "1756033578448_33"
+  },
+  {
+    "_id": "math_12_easy_034",
+    "content": "Convert 12/10 to a decimal.",
+    "type": "multiple_choice",
+    "options": [
+      "0.12",
+      "12.0",
+      "12/100",
+      "10.12"
+    ],
+    "correctAnswer": "0.12",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "easy",
+    "explanation": "12/10 = 0.12",
+    "_cacheBreaker": "1756033578448_34"
+  },
+  {
+    "_id": "math_12_easy_035",
+    "content": "What is the area of a square with side length 14 cm?",
+    "type": "multiple_choice",
+    "options": [
+      "56 cm²",
+      "196 cm²",
+      "14 cm²",
+      "28 cm²"
+    ],
+    "correctAnswer": "196 cm²",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "easy",
+    "explanation": "Area of square = side² = 14² = 196 cm²",
+    "_cacheBreaker": "1756033578448_35"
+  },
+  {
+    "_id": "math_12_easy_036",
+    "content": "What is 60 + 36?",
+    "type": "multiple_choice",
+    "options": [
+      "84",
+      "96",
+      "108",
+      "120"
+    ],
+    "correctAnswer": "96",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "easy",
+    "explanation": "60 + 36 = 96",
+    "_cacheBreaker": "1756033578448_36"
+  },
+  {
+    "_id": "math_12_easy_037",
+    "content": "Solve: 12x = 144",
+    "type": "multiple_choice",
+    "options": [
+      "x = 120",
+      "x = 12",
+      "x = 12",
+      "x = 72"
+    ],
+    "correctAnswer": "x = 12",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "easy",
+    "explanation": "x = 144 ÷ 12 = 12",
+    "_cacheBreaker": "1756033578448_37"
+  },
+  {
+    "_id": "math_12_easy_038",
+    "content": "What is 120% of 100?",
+    "type": "multiple_choice",
+    "options": [
+      "60",
+      "120",
+      "180",
+      "240"
+    ],
+    "correctAnswer": "120",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "easy",
+    "explanation": "120% of 100 = 120",
+    "_cacheBreaker": "1756033578448_38"
+  },
+  {
+    "_id": "math_12_easy_039",
+    "content": "Convert 12/10 to a decimal.",
+    "type": "multiple_choice",
+    "options": [
+      "0.12",
+      "12.0",
+      "12/100",
+      "10.12"
+    ],
+    "correctAnswer": "0.12",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "easy",
+    "explanation": "12/10 = 0.12",
+    "_cacheBreaker": "1756033578448_39"
+  },
+  {
+    "_id": "math_12_easy_040",
+    "content": "What is the area of a square with side length 14 cm?",
+    "type": "multiple_choice",
+    "options": [
+      "56 cm²",
+      "196 cm²",
+      "14 cm²",
+      "28 cm²"
+    ],
+    "correctAnswer": "196 cm²",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "easy",
+    "explanation": "Area of square = side² = 14² = 196 cm²",
+    "_cacheBreaker": "1756033578448_40"
+  },
+  {
+    "_id": "math_12_easy_041",
+    "content": "What is 60 + 36?",
+    "type": "multiple_choice",
+    "options": [
+      "84",
+      "96",
+      "108",
+      "120"
+    ],
+    "correctAnswer": "96",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "easy",
+    "explanation": "60 + 36 = 96",
+    "_cacheBreaker": "1756033578448_41"
+  },
+  {
+    "_id": "math_12_easy_042",
+    "content": "Solve: 12x = 144",
+    "type": "multiple_choice",
+    "options": [
+      "x = 120",
+      "x = 12",
+      "x = 12",
+      "x = 72"
+    ],
+    "correctAnswer": "x = 12",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "easy",
+    "explanation": "x = 144 ÷ 12 = 12",
+    "_cacheBreaker": "1756033578448_42"
+  },
+  {
+    "_id": "math_12_easy_043",
+    "content": "What is 120% of 100?",
+    "type": "multiple_choice",
+    "options": [
+      "60",
+      "120",
+      "180",
+      "240"
+    ],
+    "correctAnswer": "120",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "easy",
+    "explanation": "120% of 100 = 120",
+    "_cacheBreaker": "1756033578448_43"
+  },
+  {
+    "_id": "math_12_easy_044",
+    "content": "Convert 12/10 to a decimal.",
+    "type": "multiple_choice",
+    "options": [
+      "0.12",
+      "12.0",
+      "12/100",
+      "10.12"
+    ],
+    "correctAnswer": "0.12",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "easy",
+    "explanation": "12/10 = 0.12",
+    "_cacheBreaker": "1756033578448_44"
+  },
+  {
+    "_id": "math_12_easy_045",
+    "content": "What is the area of a square with side length 14 cm?",
+    "type": "multiple_choice",
+    "options": [
+      "56 cm²",
+      "196 cm²",
+      "14 cm²",
+      "28 cm²"
+    ],
+    "correctAnswer": "196 cm²",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "easy",
+    "explanation": "Area of square = side² = 14² = 196 cm²",
+    "_cacheBreaker": "1756033578448_45"
+  },
+  {
+    "_id": "math_12_easy_046",
+    "content": "What is 60 + 36?",
+    "type": "multiple_choice",
+    "options": [
+      "84",
+      "96",
+      "108",
+      "120"
+    ],
+    "correctAnswer": "96",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "easy",
+    "explanation": "60 + 36 = 96",
+    "_cacheBreaker": "1756033578448_46"
+  },
+  {
+    "_id": "math_12_easy_047",
+    "content": "Solve: 12x = 144",
+    "type": "multiple_choice",
+    "options": [
+      "x = 120",
+      "x = 12",
+      "x = 12",
+      "x = 72"
+    ],
+    "correctAnswer": "x = 12",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "easy",
+    "explanation": "x = 144 ÷ 12 = 12",
+    "_cacheBreaker": "1756033578448_47"
+  },
+  {
+    "_id": "math_12_easy_048",
+    "content": "What is 120% of 100?",
+    "type": "multiple_choice",
+    "options": [
+      "60",
+      "120",
+      "180",
+      "240"
+    ],
+    "correctAnswer": "120",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "easy",
+    "explanation": "120% of 100 = 120",
+    "_cacheBreaker": "1756033578448_48"
+  },
+  {
+    "_id": "math_12_easy_049",
+    "content": "Convert 12/10 to a decimal.",
+    "type": "multiple_choice",
+    "options": [
+      "0.12",
+      "12.0",
+      "12/100",
+      "10.12"
+    ],
+    "correctAnswer": "0.12",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "easy",
+    "explanation": "12/10 = 0.12",
+    "_cacheBreaker": "1756033578448_49"
+  },
+  {
+    "_id": "math_12_easy_050",
+    "content": "What is the area of a square with side length 14 cm?",
+    "type": "multiple_choice",
+    "options": [
+      "56 cm²",
+      "196 cm²",
+      "14 cm²",
+      "28 cm²"
+    ],
+    "correctAnswer": "196 cm²",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "easy",
+    "explanation": "Area of square = side² = 14² = 196 cm²",
+    "_cacheBreaker": "1756033578448_50"
   }
 ]

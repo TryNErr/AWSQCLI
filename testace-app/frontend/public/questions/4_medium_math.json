@@ -1,342 +1,852 @@
 [
   {
-    "_id": "med4_1755261000213_001",
-    "content": "What is 2/3 + 1/6?",
+    "_id": "math_4_medium_001",
+    "content": "What is 5 + 4?",
     "type": "multiple_choice",
     "options": [
-      "3/9",
-      "5/6",
-      "3/6",
-      "1/2"
+      "4",
+      "5",
+      "9",
+      "10"
     ],
-    "correctAnswer": "5/6",
+    "correctAnswer": "9",
     "subject": "math",
     "grade": "4",
     "difficulty": "medium",
-    "explanation": "2/3 = 4/6, so 4/6 + 1/6 = 5/6",
-    "_cacheBreaker": "1755265388187_0"
+    "explanation": "5 + 4 = 9",
+    "_cacheBreaker": "1756033253422_1"
   },
   {
-    "_id": "med4_1755261000213_002",
-    "content": "Find the perimeter of a rectangle: length = 8, width = 5",
+    "_id": "math_4_medium_002",
+    "content": "What is 9 - 4?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "5",
+      "5",
+      "10"
+    ],
+    "correctAnswer": "5",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "9 - 4 = 5",
+    "_cacheBreaker": "1756033253422_2"
+  },
+  {
+    "_id": "math_4_medium_003",
+    "content": "How many sides does a rectangle have?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253422_3"
+  },
+  {
+    "_id": "math_4_medium_004",
+    "content": "What is 4 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "8",
+      "9",
+      "12"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "4 × 2 = 8",
+    "_cacheBreaker": "1756033253422_4"
+  },
+  {
+    "_id": "math_4_medium_005",
+    "content": "Which number comes after 14?",
     "type": "multiple_choice",
     "options": [
       "13",
-      "26",
-      "40",
-      "80"
+      "14",
+      "15",
+      "16"
     ],
-    "correctAnswer": "26",
+    "correctAnswer": "15",
     "subject": "math",
     "grade": "4",
     "difficulty": "medium",
-    "explanation": "Perimeter = 2(length + width) = 2(8 + 5) = 26",
-    "_cacheBreaker": "1755265388187_1"
+    "explanation": "After 14 comes 15",
+    "_cacheBreaker": "1756033253422_5"
   },
   {
-    "_id": "med4_1755261000213_003",
-    "content": "Convert 2.5 hours to minutes",
+    "_id": "math_4_medium_006",
+    "content": "What is 5 + 4?",
     "type": "multiple_choice",
     "options": [
-      "120",
-      "130",
-      "140",
-      "150"
+      "4",
+      "5",
+      "9",
+      "10"
     ],
-    "correctAnswer": "150",
+    "correctAnswer": "9",
     "subject": "math",
     "grade": "4",
     "difficulty": "medium",
-    "explanation": "2.5 × 60 = 150 minutes",
-    "_cacheBreaker": "1755265388187_2"
+    "explanation": "5 + 4 = 9",
+    "_cacheBreaker": "1756033253422_6"
   },
   {
-    "_id": "med4_1755261000213_004",
-    "content": "What is 2/3 + 1/6?",
+    "_id": "math_4_medium_007",
+    "content": "What is 9 - 4?",
     "type": "multiple_choice",
     "options": [
-      "3/9",
-      "5/6",
-      "3/6",
-      "1/2"
+      "3",
+      "5",
+      "5",
+      "10"
     ],
-    "correctAnswer": "5/6",
+    "correctAnswer": "5",
     "subject": "math",
     "grade": "4",
     "difficulty": "medium",
-    "explanation": "2/3 = 4/6, so 4/6 + 1/6 = 5/6",
-    "_cacheBreaker": "1755265388187_3"
+    "explanation": "9 - 4 = 5",
+    "_cacheBreaker": "1756033253422_7"
   },
   {
-    "_id": "med4_1755261000213_005",
-    "content": "Find the perimeter of a rectangle: length = 8, width = 5",
+    "_id": "math_4_medium_008",
+    "content": "How many sides does a rectangle have?",
     "type": "multiple_choice",
     "options": [
-      "13",
-      "26",
-      "40",
-      "80"
+      "3",
+      "4",
+      "5",
+      "6"
     ],
-    "correctAnswer": "26",
+    "correctAnswer": "4",
     "subject": "math",
     "grade": "4",
     "difficulty": "medium",
-    "explanation": "Perimeter = 2(length + width) = 2(8 + 5) = 26",
-    "_cacheBreaker": "1755265388187_4"
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253422_8"
   },
   {
-    "_id": "med4_1755261000213_006",
-    "content": "Convert 2.5 hours to minutes",
+    "_id": "math_4_medium_009",
+    "content": "What is 4 × 2?",
     "type": "multiple_choice",
     "options": [
-      "120",
-      "130",
-      "140",
-      "150"
+      "4",
+      "8",
+      "9",
+      "12"
     ],
-    "correctAnswer": "150",
+    "correctAnswer": "8",
     "subject": "math",
     "grade": "4",
     "difficulty": "medium",
-    "explanation": "2.5 × 60 = 150 minutes",
-    "_cacheBreaker": "1755265388187_5"
+    "explanation": "4 × 2 = 8",
+    "_cacheBreaker": "1756033253422_9"
   },
   {
-    "_id": "med4_1755261000213_007",
-    "content": "What is 2/3 + 1/6?",
-    "type": "multiple_choice",
-    "options": [
-      "3/9",
-      "5/6",
-      "3/6",
-      "1/2"
-    ],
-    "correctAnswer": "5/6",
-    "subject": "math",
-    "grade": "4",
-    "difficulty": "medium",
-    "explanation": "2/3 = 4/6, so 4/6 + 1/6 = 5/6",
-    "_cacheBreaker": "1755265388187_6"
-  },
-  {
-    "_id": "med4_1755261000213_008",
-    "content": "Find the perimeter of a rectangle: length = 8, width = 5",
+    "_id": "math_4_medium_010",
+    "content": "Which number comes after 14?",
     "type": "multiple_choice",
     "options": [
       "13",
-      "26",
-      "40",
-      "80"
+      "14",
+      "15",
+      "16"
     ],
-    "correctAnswer": "26",
+    "correctAnswer": "15",
     "subject": "math",
     "grade": "4",
     "difficulty": "medium",
-    "explanation": "Perimeter = 2(length + width) = 2(8 + 5) = 26",
-    "_cacheBreaker": "1755265388187_7"
+    "explanation": "After 14 comes 15",
+    "_cacheBreaker": "1756033253422_10"
   },
   {
-    "_id": "med4_1755261000213_009",
-    "content": "Convert 2.5 hours to minutes",
+    "_id": "math_4_medium_011",
+    "content": "What is 5 + 4?",
     "type": "multiple_choice",
     "options": [
-      "120",
-      "130",
-      "140",
-      "150"
+      "4",
+      "5",
+      "9",
+      "10"
     ],
-    "correctAnswer": "150",
+    "correctAnswer": "9",
     "subject": "math",
     "grade": "4",
     "difficulty": "medium",
-    "explanation": "2.5 × 60 = 150 minutes",
-    "_cacheBreaker": "1755265388187_8"
+    "explanation": "5 + 4 = 9",
+    "_cacheBreaker": "1756033253422_11"
   },
   {
-    "_id": "med4_1755261000213_010",
-    "content": "What is 2/3 + 1/6?",
+    "_id": "math_4_medium_012",
+    "content": "What is 9 - 4?",
     "type": "multiple_choice",
     "options": [
-      "3/9",
-      "5/6",
-      "3/6",
-      "1/2"
+      "3",
+      "5",
+      "5",
+      "10"
     ],
-    "correctAnswer": "5/6",
+    "correctAnswer": "5",
     "subject": "math",
     "grade": "4",
     "difficulty": "medium",
-    "explanation": "2/3 = 4/6, so 4/6 + 1/6 = 5/6",
-    "_cacheBreaker": "1755265388187_9"
+    "explanation": "9 - 4 = 5",
+    "_cacheBreaker": "1756033253422_12"
   },
   {
-    "_id": "med4_1755261000213_011",
-    "content": "Find the perimeter of a rectangle: length = 8, width = 5",
+    "_id": "math_4_medium_013",
+    "content": "How many sides does a rectangle have?",
     "type": "multiple_choice",
     "options": [
-      "13",
-      "26",
-      "40",
-      "80"
+      "3",
+      "4",
+      "5",
+      "6"
     ],
-    "correctAnswer": "26",
+    "correctAnswer": "4",
     "subject": "math",
     "grade": "4",
     "difficulty": "medium",
-    "explanation": "Perimeter = 2(length + width) = 2(8 + 5) = 26",
-    "_cacheBreaker": "1755265388187_10"
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253422_13"
   },
   {
-    "_id": "med4_1755261000213_012",
-    "content": "Convert 2.5 hours to minutes",
+    "_id": "math_4_medium_014",
+    "content": "What is 4 × 2?",
     "type": "multiple_choice",
     "options": [
-      "120",
-      "130",
-      "140",
-      "150"
+      "4",
+      "8",
+      "9",
+      "12"
     ],
-    "correctAnswer": "150",
+    "correctAnswer": "8",
     "subject": "math",
     "grade": "4",
     "difficulty": "medium",
-    "explanation": "2.5 × 60 = 150 minutes",
-    "_cacheBreaker": "1755265388187_11"
+    "explanation": "4 × 2 = 8",
+    "_cacheBreaker": "1756033253422_14"
   },
   {
-    "_id": "med4_1755261000213_013",
-    "content": "What is 2/3 + 1/6?",
-    "type": "multiple_choice",
-    "options": [
-      "3/9",
-      "5/6",
-      "3/6",
-      "1/2"
-    ],
-    "correctAnswer": "5/6",
-    "subject": "math",
-    "grade": "4",
-    "difficulty": "medium",
-    "explanation": "2/3 = 4/6, so 4/6 + 1/6 = 5/6",
-    "_cacheBreaker": "1755265388187_12"
-  },
-  {
-    "_id": "med4_1755261000213_014",
-    "content": "Find the perimeter of a rectangle: length = 8, width = 5",
+    "_id": "math_4_medium_015",
+    "content": "Which number comes after 14?",
     "type": "multiple_choice",
     "options": [
       "13",
-      "26",
-      "40",
-      "80"
+      "14",
+      "15",
+      "16"
     ],
-    "correctAnswer": "26",
+    "correctAnswer": "15",
     "subject": "math",
     "grade": "4",
     "difficulty": "medium",
-    "explanation": "Perimeter = 2(length + width) = 2(8 + 5) = 26",
-    "_cacheBreaker": "1755265388187_13"
+    "explanation": "After 14 comes 15",
+    "_cacheBreaker": "1756033253422_15"
   },
   {
-    "_id": "med4_1755261000213_015",
-    "content": "Convert 2.5 hours to minutes",
+    "_id": "math_4_medium_016",
+    "content": "What is 5 + 4?",
     "type": "multiple_choice",
     "options": [
-      "120",
-      "130",
-      "140",
-      "150"
+      "4",
+      "5",
+      "9",
+      "10"
     ],
-    "correctAnswer": "150",
+    "correctAnswer": "9",
     "subject": "math",
     "grade": "4",
     "difficulty": "medium",
-    "explanation": "2.5 × 60 = 150 minutes",
-    "_cacheBreaker": "1755265388187_14"
+    "explanation": "5 + 4 = 9",
+    "_cacheBreaker": "1756033253422_16"
   },
   {
-    "_id": "med4_1755261000213_016",
-    "content": "What is 2/3 + 1/6?",
+    "_id": "math_4_medium_017",
+    "content": "What is 9 - 4?",
     "type": "multiple_choice",
     "options": [
-      "3/9",
-      "5/6",
-      "3/6",
-      "1/2"
+      "3",
+      "5",
+      "5",
+      "10"
     ],
-    "correctAnswer": "5/6",
+    "correctAnswer": "5",
     "subject": "math",
     "grade": "4",
     "difficulty": "medium",
-    "explanation": "2/3 = 4/6, so 4/6 + 1/6 = 5/6",
-    "_cacheBreaker": "1755265388187_15"
+    "explanation": "9 - 4 = 5",
+    "_cacheBreaker": "1756033253422_17"
   },
   {
-    "_id": "med4_1755261000213_017",
-    "content": "Find the perimeter of a rectangle: length = 8, width = 5",
+    "_id": "math_4_medium_018",
+    "content": "How many sides does a rectangle have?",
     "type": "multiple_choice",
     "options": [
-      "13",
-      "26",
-      "40",
-      "80"
+      "3",
+      "4",
+      "5",
+      "6"
     ],
-    "correctAnswer": "26",
+    "correctAnswer": "4",
     "subject": "math",
     "grade": "4",
     "difficulty": "medium",
-    "explanation": "Perimeter = 2(length + width) = 2(8 + 5) = 26",
-    "_cacheBreaker": "1755265388187_16"
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253422_18"
   },
   {
-    "_id": "med4_1755261000213_018",
-    "content": "Convert 2.5 hours to minutes",
+    "_id": "math_4_medium_019",
+    "content": "What is 4 × 2?",
     "type": "multiple_choice",
     "options": [
-      "120",
-      "130",
-      "140",
-      "150"
+      "4",
+      "8",
+      "9",
+      "12"
     ],
-    "correctAnswer": "150",
+    "correctAnswer": "8",
     "subject": "math",
     "grade": "4",
     "difficulty": "medium",
-    "explanation": "2.5 × 60 = 150 minutes",
-    "_cacheBreaker": "1755265388187_17"
+    "explanation": "4 × 2 = 8",
+    "_cacheBreaker": "1756033253422_19"
   },
   {
-    "_id": "med4_1755261000213_019",
-    "content": "What is 2/3 + 1/6?",
-    "type": "multiple_choice",
-    "options": [
-      "3/9",
-      "5/6",
-      "3/6",
-      "1/2"
-    ],
-    "correctAnswer": "5/6",
-    "subject": "math",
-    "grade": "4",
-    "difficulty": "medium",
-    "explanation": "2/3 = 4/6, so 4/6 + 1/6 = 5/6",
-    "_cacheBreaker": "1755265388187_18"
-  },
-  {
-    "_id": "med4_1755261000213_020",
-    "content": "Find the perimeter of a rectangle: length = 8, width = 5",
+    "_id": "math_4_medium_020",
+    "content": "Which number comes after 14?",
     "type": "multiple_choice",
     "options": [
       "13",
-      "26",
-      "40",
-      "80"
+      "14",
+      "15",
+      "16"
     ],
-    "correctAnswer": "26",
+    "correctAnswer": "15",
     "subject": "math",
     "grade": "4",
     "difficulty": "medium",
-    "explanation": "Perimeter = 2(length + width) = 2(8 + 5) = 26",
-    "_cacheBreaker": "1755265388187_19"
+    "explanation": "After 14 comes 15",
+    "_cacheBreaker": "1756033253422_20"
+  },
+  {
+    "_id": "math_4_medium_021",
+    "content": "What is 5 + 4?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "5",
+      "9",
+      "10"
+    ],
+    "correctAnswer": "9",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "5 + 4 = 9",
+    "_cacheBreaker": "1756033253422_21"
+  },
+  {
+    "_id": "math_4_medium_022",
+    "content": "What is 9 - 4?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "5",
+      "5",
+      "10"
+    ],
+    "correctAnswer": "5",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "9 - 4 = 5",
+    "_cacheBreaker": "1756033253422_22"
+  },
+  {
+    "_id": "math_4_medium_023",
+    "content": "How many sides does a rectangle have?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253422_23"
+  },
+  {
+    "_id": "math_4_medium_024",
+    "content": "What is 4 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "8",
+      "9",
+      "12"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "4 × 2 = 8",
+    "_cacheBreaker": "1756033253422_24"
+  },
+  {
+    "_id": "math_4_medium_025",
+    "content": "Which number comes after 14?",
+    "type": "multiple_choice",
+    "options": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "correctAnswer": "15",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "After 14 comes 15",
+    "_cacheBreaker": "1756033253422_25"
+  },
+  {
+    "_id": "math_4_medium_026",
+    "content": "What is 5 + 4?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "5",
+      "9",
+      "10"
+    ],
+    "correctAnswer": "9",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "5 + 4 = 9",
+    "_cacheBreaker": "1756033253422_26"
+  },
+  {
+    "_id": "math_4_medium_027",
+    "content": "What is 9 - 4?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "5",
+      "5",
+      "10"
+    ],
+    "correctAnswer": "5",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "9 - 4 = 5",
+    "_cacheBreaker": "1756033253422_27"
+  },
+  {
+    "_id": "math_4_medium_028",
+    "content": "How many sides does a rectangle have?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253422_28"
+  },
+  {
+    "_id": "math_4_medium_029",
+    "content": "What is 4 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "8",
+      "9",
+      "12"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "4 × 2 = 8",
+    "_cacheBreaker": "1756033253422_29"
+  },
+  {
+    "_id": "math_4_medium_030",
+    "content": "Which number comes after 14?",
+    "type": "multiple_choice",
+    "options": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "correctAnswer": "15",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "After 14 comes 15",
+    "_cacheBreaker": "1756033253422_30"
+  },
+  {
+    "_id": "math_4_medium_031",
+    "content": "What is 5 + 4?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "5",
+      "9",
+      "10"
+    ],
+    "correctAnswer": "9",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "5 + 4 = 9",
+    "_cacheBreaker": "1756033253422_31"
+  },
+  {
+    "_id": "math_4_medium_032",
+    "content": "What is 9 - 4?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "5",
+      "5",
+      "10"
+    ],
+    "correctAnswer": "5",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "9 - 4 = 5",
+    "_cacheBreaker": "1756033253422_32"
+  },
+  {
+    "_id": "math_4_medium_033",
+    "content": "How many sides does a rectangle have?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253422_33"
+  },
+  {
+    "_id": "math_4_medium_034",
+    "content": "What is 4 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "8",
+      "9",
+      "12"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "4 × 2 = 8",
+    "_cacheBreaker": "1756033253422_34"
+  },
+  {
+    "_id": "math_4_medium_035",
+    "content": "Which number comes after 14?",
+    "type": "multiple_choice",
+    "options": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "correctAnswer": "15",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "After 14 comes 15",
+    "_cacheBreaker": "1756033253422_35"
+  },
+  {
+    "_id": "math_4_medium_036",
+    "content": "What is 5 + 4?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "5",
+      "9",
+      "10"
+    ],
+    "correctAnswer": "9",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "5 + 4 = 9",
+    "_cacheBreaker": "1756033253422_36"
+  },
+  {
+    "_id": "math_4_medium_037",
+    "content": "What is 9 - 4?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "5",
+      "5",
+      "10"
+    ],
+    "correctAnswer": "5",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "9 - 4 = 5",
+    "_cacheBreaker": "1756033253422_37"
+  },
+  {
+    "_id": "math_4_medium_038",
+    "content": "How many sides does a rectangle have?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253422_38"
+  },
+  {
+    "_id": "math_4_medium_039",
+    "content": "What is 4 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "8",
+      "9",
+      "12"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "4 × 2 = 8",
+    "_cacheBreaker": "1756033253422_39"
+  },
+  {
+    "_id": "math_4_medium_040",
+    "content": "Which number comes after 14?",
+    "type": "multiple_choice",
+    "options": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "correctAnswer": "15",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "After 14 comes 15",
+    "_cacheBreaker": "1756033253422_40"
+  },
+  {
+    "_id": "math_4_medium_041",
+    "content": "What is 5 + 4?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "5",
+      "9",
+      "10"
+    ],
+    "correctAnswer": "9",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "5 + 4 = 9",
+    "_cacheBreaker": "1756033253422_41"
+  },
+  {
+    "_id": "math_4_medium_042",
+    "content": "What is 9 - 4?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "5",
+      "5",
+      "10"
+    ],
+    "correctAnswer": "5",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "9 - 4 = 5",
+    "_cacheBreaker": "1756033253422_42"
+  },
+  {
+    "_id": "math_4_medium_043",
+    "content": "How many sides does a rectangle have?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253422_43"
+  },
+  {
+    "_id": "math_4_medium_044",
+    "content": "What is 4 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "8",
+      "9",
+      "12"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "4 × 2 = 8",
+    "_cacheBreaker": "1756033253422_44"
+  },
+  {
+    "_id": "math_4_medium_045",
+    "content": "Which number comes after 14?",
+    "type": "multiple_choice",
+    "options": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "correctAnswer": "15",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "After 14 comes 15",
+    "_cacheBreaker": "1756033253422_45"
+  },
+  {
+    "_id": "math_4_medium_046",
+    "content": "What is 5 + 4?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "5",
+      "9",
+      "10"
+    ],
+    "correctAnswer": "9",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "5 + 4 = 9",
+    "_cacheBreaker": "1756033253422_46"
+  },
+  {
+    "_id": "math_4_medium_047",
+    "content": "What is 9 - 4?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "5",
+      "5",
+      "10"
+    ],
+    "correctAnswer": "5",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "9 - 4 = 5",
+    "_cacheBreaker": "1756033253422_47"
+  },
+  {
+    "_id": "math_4_medium_048",
+    "content": "How many sides does a rectangle have?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253422_48"
+  },
+  {
+    "_id": "math_4_medium_049",
+    "content": "What is 4 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "8",
+      "9",
+      "12"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "4 × 2 = 8",
+    "_cacheBreaker": "1756033253422_49"
+  },
+  {
+    "_id": "math_4_medium_050",
+    "content": "Which number comes after 14?",
+    "type": "multiple_choice",
+    "options": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "correctAnswer": "15",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "After 14 comes 15",
+    "_cacheBreaker": "1756033253422_50"
   }
 ]

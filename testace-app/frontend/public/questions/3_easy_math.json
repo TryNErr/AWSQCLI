@@ -1,41 +1,41 @@
 [
   {
-    "_id": "easy3_1755260948241_001",
-    "content": "What is 6 × 2?",
+    "_id": "math_3_easy_001",
+    "content": "What is 4 + 3?",
     "type": "multiple_choice",
     "options": [
-      "8",
-      "10",
-      "12",
-      "14"
+      "3",
+      "4",
+      "7",
+      "8"
     ],
-    "correctAnswer": "12",
+    "correctAnswer": "7",
     "subject": "math",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "6 × 2 = 12",
-    "_cacheBreaker": "1755265388172_0"
+    "explanation": "4 + 3 = 7",
+    "_cacheBreaker": "1756033253408_1"
   },
   {
-    "_id": "easy3_1755260948241_002",
-    "content": "Round 47 to the nearest 10",
+    "_id": "math_3_easy_002",
+    "content": "What is 8 - 3?",
     "type": "multiple_choice",
     "options": [
-      "40",
-      "45",
-      "50",
-      "60"
+      "2",
+      "5",
+      "4",
+      "10"
     ],
-    "correctAnswer": "50",
+    "correctAnswer": "5",
     "subject": "math",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "47 is closer to 50 than to 40",
-    "_cacheBreaker": "1755265388172_1"
+    "explanation": "8 - 3 = 5",
+    "_cacheBreaker": "1756033253408_2"
   },
   {
-    "_id": "easy3_1755260948241_003",
-    "content": "What is 15 ÷ 3?",
+    "_id": "math_3_easy_003",
+    "content": "How many sides does a rectangle have?",
     "type": "multiple_choice",
     "options": [
       "3",
@@ -43,50 +43,84 @@
       "5",
       "6"
     ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253408_3"
+  },
+  {
+    "_id": "math_3_easy_004",
+    "content": "What is 3 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "6",
+      "7",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "3 × 2 = 6",
+    "_cacheBreaker": "1756033253408_4"
+  },
+  {
+    "_id": "math_3_easy_005",
+    "content": "Which number comes after 13?",
+    "type": "multiple_choice",
+    "options": [
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "correctAnswer": "14",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "After 13 comes 14",
+    "_cacheBreaker": "1756033253408_5"
+  },
+  {
+    "_id": "math_3_easy_006",
+    "content": "What is 4 + 3?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "7",
+      "8"
+    ],
+    "correctAnswer": "7",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "4 + 3 = 7",
+    "_cacheBreaker": "1756033253408_6"
+  },
+  {
+    "_id": "math_3_easy_007",
+    "content": "What is 8 - 3?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "5",
+      "4",
+      "10"
+    ],
     "correctAnswer": "5",
     "subject": "math",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "15 ÷ 3 = 5",
-    "_cacheBreaker": "1755265388172_2"
+    "explanation": "8 - 3 = 5",
+    "_cacheBreaker": "1756033253408_7"
   },
   {
-    "_id": "easy3_1755260948242_004",
-    "content": "What is 6 × 2? (Question 4)",
-    "type": "multiple_choice",
-    "options": [
-      "8",
-      "10",
-      "12",
-      "14"
-    ],
-    "correctAnswer": "12",
-    "subject": "math",
-    "grade": "3",
-    "difficulty": "easy",
-    "explanation": "6 × 2 = 12",
-    "_cacheBreaker": "1755265388172_3"
-  },
-  {
-    "_id": "easy3_1755260948242_005",
-    "content": "Round 47 to the nearest 10 (Question 5)",
-    "type": "multiple_choice",
-    "options": [
-      "40",
-      "45",
-      "50",
-      "60"
-    ],
-    "correctAnswer": "50",
-    "subject": "math",
-    "grade": "3",
-    "difficulty": "easy",
-    "explanation": "47 is closer to 50 than to 40",
-    "_cacheBreaker": "1755265388172_4"
-  },
-  {
-    "_id": "easy3_1755260948242_006",
-    "content": "What is 15 ÷ 3? (Question 6)",
+    "_id": "math_3_easy_008",
+    "content": "How many sides does a rectangle have?",
     "type": "multiple_choice",
     "options": [
       "3",
@@ -94,50 +128,84 @@
       "5",
       "6"
     ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253408_8"
+  },
+  {
+    "_id": "math_3_easy_009",
+    "content": "What is 3 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "6",
+      "7",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "3 × 2 = 6",
+    "_cacheBreaker": "1756033253408_9"
+  },
+  {
+    "_id": "math_3_easy_010",
+    "content": "Which number comes after 13?",
+    "type": "multiple_choice",
+    "options": [
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "correctAnswer": "14",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "After 13 comes 14",
+    "_cacheBreaker": "1756033253408_10"
+  },
+  {
+    "_id": "math_3_easy_011",
+    "content": "What is 4 + 3?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "7",
+      "8"
+    ],
+    "correctAnswer": "7",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "4 + 3 = 7",
+    "_cacheBreaker": "1756033253408_11"
+  },
+  {
+    "_id": "math_3_easy_012",
+    "content": "What is 8 - 3?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "5",
+      "4",
+      "10"
+    ],
     "correctAnswer": "5",
     "subject": "math",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "15 ÷ 3 = 5",
-    "_cacheBreaker": "1755265388172_5"
+    "explanation": "8 - 3 = 5",
+    "_cacheBreaker": "1756033253408_12"
   },
   {
-    "_id": "easy3_1755260948242_007",
-    "content": "What is 6 × 2? (Question 7)",
-    "type": "multiple_choice",
-    "options": [
-      "8",
-      "10",
-      "12",
-      "14"
-    ],
-    "correctAnswer": "12",
-    "subject": "math",
-    "grade": "3",
-    "difficulty": "easy",
-    "explanation": "6 × 2 = 12",
-    "_cacheBreaker": "1755265388172_6"
-  },
-  {
-    "_id": "easy3_1755260948242_008",
-    "content": "Round 47 to the nearest 10 (Question 8)",
-    "type": "multiple_choice",
-    "options": [
-      "40",
-      "45",
-      "50",
-      "60"
-    ],
-    "correctAnswer": "50",
-    "subject": "math",
-    "grade": "3",
-    "difficulty": "easy",
-    "explanation": "47 is closer to 50 than to 40",
-    "_cacheBreaker": "1755265388172_7"
-  },
-  {
-    "_id": "easy3_1755260948242_009",
-    "content": "What is 15 ÷ 3? (Question 9)",
+    "_id": "math_3_easy_013",
+    "content": "How many sides does a rectangle have?",
     "type": "multiple_choice",
     "options": [
       "3",
@@ -145,50 +213,84 @@
       "5",
       "6"
     ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253408_13"
+  },
+  {
+    "_id": "math_3_easy_014",
+    "content": "What is 3 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "6",
+      "7",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "3 × 2 = 6",
+    "_cacheBreaker": "1756033253408_14"
+  },
+  {
+    "_id": "math_3_easy_015",
+    "content": "Which number comes after 13?",
+    "type": "multiple_choice",
+    "options": [
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "correctAnswer": "14",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "After 13 comes 14",
+    "_cacheBreaker": "1756033253408_15"
+  },
+  {
+    "_id": "math_3_easy_016",
+    "content": "What is 4 + 3?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "7",
+      "8"
+    ],
+    "correctAnswer": "7",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "4 + 3 = 7",
+    "_cacheBreaker": "1756033253408_16"
+  },
+  {
+    "_id": "math_3_easy_017",
+    "content": "What is 8 - 3?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "5",
+      "4",
+      "10"
+    ],
     "correctAnswer": "5",
     "subject": "math",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "15 ÷ 3 = 5",
-    "_cacheBreaker": "1755265388172_8"
+    "explanation": "8 - 3 = 5",
+    "_cacheBreaker": "1756033253408_17"
   },
   {
-    "_id": "easy3_1755260948242_010",
-    "content": "What is 6 × 2? (Question 10)",
-    "type": "multiple_choice",
-    "options": [
-      "8",
-      "10",
-      "12",
-      "14"
-    ],
-    "correctAnswer": "12",
-    "subject": "math",
-    "grade": "3",
-    "difficulty": "easy",
-    "explanation": "6 × 2 = 12",
-    "_cacheBreaker": "1755265388172_9"
-  },
-  {
-    "_id": "easy3_1755260948242_011",
-    "content": "Round 47 to the nearest 10 (Question 11)",
-    "type": "multiple_choice",
-    "options": [
-      "40",
-      "45",
-      "50",
-      "60"
-    ],
-    "correctAnswer": "50",
-    "subject": "math",
-    "grade": "3",
-    "difficulty": "easy",
-    "explanation": "47 is closer to 50 than to 40",
-    "_cacheBreaker": "1755265388172_10"
-  },
-  {
-    "_id": "easy3_1755260948242_012",
-    "content": "What is 15 ÷ 3? (Question 12)",
+    "_id": "math_3_easy_018",
+    "content": "How many sides does a rectangle have?",
     "type": "multiple_choice",
     "options": [
       "3",
@@ -196,50 +298,84 @@
       "5",
       "6"
     ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253408_18"
+  },
+  {
+    "_id": "math_3_easy_019",
+    "content": "What is 3 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "6",
+      "7",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "3 × 2 = 6",
+    "_cacheBreaker": "1756033253408_19"
+  },
+  {
+    "_id": "math_3_easy_020",
+    "content": "Which number comes after 13?",
+    "type": "multiple_choice",
+    "options": [
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "correctAnswer": "14",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "After 13 comes 14",
+    "_cacheBreaker": "1756033253408_20"
+  },
+  {
+    "_id": "math_3_easy_021",
+    "content": "What is 4 + 3?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "7",
+      "8"
+    ],
+    "correctAnswer": "7",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "4 + 3 = 7",
+    "_cacheBreaker": "1756033253408_21"
+  },
+  {
+    "_id": "math_3_easy_022",
+    "content": "What is 8 - 3?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "5",
+      "4",
+      "10"
+    ],
     "correctAnswer": "5",
     "subject": "math",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "15 ÷ 3 = 5",
-    "_cacheBreaker": "1755265388172_11"
+    "explanation": "8 - 3 = 5",
+    "_cacheBreaker": "1756033253408_22"
   },
   {
-    "_id": "easy3_1755260948242_013",
-    "content": "What is 6 × 2? (Question 13)",
-    "type": "multiple_choice",
-    "options": [
-      "8",
-      "10",
-      "12",
-      "14"
-    ],
-    "correctAnswer": "12",
-    "subject": "math",
-    "grade": "3",
-    "difficulty": "easy",
-    "explanation": "6 × 2 = 12",
-    "_cacheBreaker": "1755265388172_12"
-  },
-  {
-    "_id": "easy3_1755260948242_014",
-    "content": "Round 47 to the nearest 10 (Question 14)",
-    "type": "multiple_choice",
-    "options": [
-      "40",
-      "45",
-      "50",
-      "60"
-    ],
-    "correctAnswer": "50",
-    "subject": "math",
-    "grade": "3",
-    "difficulty": "easy",
-    "explanation": "47 is closer to 50 than to 40",
-    "_cacheBreaker": "1755265388172_13"
-  },
-  {
-    "_id": "easy3_1755260948242_015",
-    "content": "What is 15 ÷ 3? (Question 15)",
+    "_id": "math_3_easy_023",
+    "content": "How many sides does a rectangle have?",
     "type": "multiple_choice",
     "options": [
       "3",
@@ -247,50 +383,84 @@
       "5",
       "6"
     ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253408_23"
+  },
+  {
+    "_id": "math_3_easy_024",
+    "content": "What is 3 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "6",
+      "7",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "3 × 2 = 6",
+    "_cacheBreaker": "1756033253408_24"
+  },
+  {
+    "_id": "math_3_easy_025",
+    "content": "Which number comes after 13?",
+    "type": "multiple_choice",
+    "options": [
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "correctAnswer": "14",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "After 13 comes 14",
+    "_cacheBreaker": "1756033253408_25"
+  },
+  {
+    "_id": "math_3_easy_026",
+    "content": "What is 4 + 3?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "7",
+      "8"
+    ],
+    "correctAnswer": "7",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "4 + 3 = 7",
+    "_cacheBreaker": "1756033253408_26"
+  },
+  {
+    "_id": "math_3_easy_027",
+    "content": "What is 8 - 3?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "5",
+      "4",
+      "10"
+    ],
     "correctAnswer": "5",
     "subject": "math",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "15 ÷ 3 = 5",
-    "_cacheBreaker": "1755265388172_14"
+    "explanation": "8 - 3 = 5",
+    "_cacheBreaker": "1756033253408_27"
   },
   {
-    "_id": "easy3_1755260948242_016",
-    "content": "What is 6 × 2? (Question 16)",
-    "type": "multiple_choice",
-    "options": [
-      "8",
-      "10",
-      "12",
-      "14"
-    ],
-    "correctAnswer": "12",
-    "subject": "math",
-    "grade": "3",
-    "difficulty": "easy",
-    "explanation": "6 × 2 = 12",
-    "_cacheBreaker": "1755265388172_15"
-  },
-  {
-    "_id": "easy3_1755260948242_017",
-    "content": "Round 47 to the nearest 10 (Question 17)",
-    "type": "multiple_choice",
-    "options": [
-      "40",
-      "45",
-      "50",
-      "60"
-    ],
-    "correctAnswer": "50",
-    "subject": "math",
-    "grade": "3",
-    "difficulty": "easy",
-    "explanation": "47 is closer to 50 than to 40",
-    "_cacheBreaker": "1755265388172_16"
-  },
-  {
-    "_id": "easy3_1755260948242_018",
-    "content": "What is 15 ÷ 3? (Question 18)",
+    "_id": "math_3_easy_028",
+    "content": "How many sides does a rectangle have?",
     "type": "multiple_choice",
     "options": [
       "3",
@@ -298,45 +468,385 @@
       "5",
       "6"
     ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253408_28"
+  },
+  {
+    "_id": "math_3_easy_029",
+    "content": "What is 3 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "6",
+      "7",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "3 × 2 = 6",
+    "_cacheBreaker": "1756033253408_29"
+  },
+  {
+    "_id": "math_3_easy_030",
+    "content": "Which number comes after 13?",
+    "type": "multiple_choice",
+    "options": [
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "correctAnswer": "14",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "After 13 comes 14",
+    "_cacheBreaker": "1756033253408_30"
+  },
+  {
+    "_id": "math_3_easy_031",
+    "content": "What is 4 + 3?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "7",
+      "8"
+    ],
+    "correctAnswer": "7",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "4 + 3 = 7",
+    "_cacheBreaker": "1756033253408_31"
+  },
+  {
+    "_id": "math_3_easy_032",
+    "content": "What is 8 - 3?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "5",
+      "4",
+      "10"
+    ],
     "correctAnswer": "5",
     "subject": "math",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "15 ÷ 3 = 5",
-    "_cacheBreaker": "1755265388172_17"
+    "explanation": "8 - 3 = 5",
+    "_cacheBreaker": "1756033253408_32"
   },
   {
-    "_id": "easy3_1755260948242_019",
-    "content": "What is 6 × 2? (Question 19)",
+    "_id": "math_3_easy_033",
+    "content": "How many sides does a rectangle have?",
     "type": "multiple_choice",
     "options": [
-      "8",
-      "10",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253408_33"
+  },
+  {
+    "_id": "math_3_easy_034",
+    "content": "What is 3 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "6",
+      "7",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "3 × 2 = 6",
+    "_cacheBreaker": "1756033253408_34"
+  },
+  {
+    "_id": "math_3_easy_035",
+    "content": "Which number comes after 13?",
+    "type": "multiple_choice",
+    "options": [
       "12",
-      "14"
+      "13",
+      "14",
+      "15"
     ],
-    "correctAnswer": "12",
+    "correctAnswer": "14",
     "subject": "math",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "6 × 2 = 12",
-    "_cacheBreaker": "1755265388172_18"
+    "explanation": "After 13 comes 14",
+    "_cacheBreaker": "1756033253408_35"
   },
   {
-    "_id": "easy3_1755260948242_020",
-    "content": "Round 47 to the nearest 10 (Question 20)",
+    "_id": "math_3_easy_036",
+    "content": "What is 4 + 3?",
     "type": "multiple_choice",
     "options": [
-      "40",
-      "45",
-      "50",
-      "60"
+      "3",
+      "4",
+      "7",
+      "8"
     ],
-    "correctAnswer": "50",
+    "correctAnswer": "7",
     "subject": "math",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "47 is closer to 50 than to 40",
-    "_cacheBreaker": "1755265388172_19"
+    "explanation": "4 + 3 = 7",
+    "_cacheBreaker": "1756033253408_36"
+  },
+  {
+    "_id": "math_3_easy_037",
+    "content": "What is 8 - 3?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "5",
+      "4",
+      "10"
+    ],
+    "correctAnswer": "5",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "8 - 3 = 5",
+    "_cacheBreaker": "1756033253408_37"
+  },
+  {
+    "_id": "math_3_easy_038",
+    "content": "How many sides does a rectangle have?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253408_38"
+  },
+  {
+    "_id": "math_3_easy_039",
+    "content": "What is 3 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "6",
+      "7",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "3 × 2 = 6",
+    "_cacheBreaker": "1756033253408_39"
+  },
+  {
+    "_id": "math_3_easy_040",
+    "content": "Which number comes after 13?",
+    "type": "multiple_choice",
+    "options": [
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "correctAnswer": "14",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "After 13 comes 14",
+    "_cacheBreaker": "1756033253408_40"
+  },
+  {
+    "_id": "math_3_easy_041",
+    "content": "What is 4 + 3?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "7",
+      "8"
+    ],
+    "correctAnswer": "7",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "4 + 3 = 7",
+    "_cacheBreaker": "1756033253408_41"
+  },
+  {
+    "_id": "math_3_easy_042",
+    "content": "What is 8 - 3?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "5",
+      "4",
+      "10"
+    ],
+    "correctAnswer": "5",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "8 - 3 = 5",
+    "_cacheBreaker": "1756033253408_42"
+  },
+  {
+    "_id": "math_3_easy_043",
+    "content": "How many sides does a rectangle have?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253408_43"
+  },
+  {
+    "_id": "math_3_easy_044",
+    "content": "What is 3 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "6",
+      "7",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "3 × 2 = 6",
+    "_cacheBreaker": "1756033253408_44"
+  },
+  {
+    "_id": "math_3_easy_045",
+    "content": "Which number comes after 13?",
+    "type": "multiple_choice",
+    "options": [
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "correctAnswer": "14",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "After 13 comes 14",
+    "_cacheBreaker": "1756033253408_45"
+  },
+  {
+    "_id": "math_3_easy_046",
+    "content": "What is 4 + 3?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "7",
+      "8"
+    ],
+    "correctAnswer": "7",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "4 + 3 = 7",
+    "_cacheBreaker": "1756033253408_46"
+  },
+  {
+    "_id": "math_3_easy_047",
+    "content": "What is 8 - 3?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "5",
+      "4",
+      "10"
+    ],
+    "correctAnswer": "5",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "8 - 3 = 5",
+    "_cacheBreaker": "1756033253408_47"
+  },
+  {
+    "_id": "math_3_easy_048",
+    "content": "How many sides does a rectangle have?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253408_48"
+  },
+  {
+    "_id": "math_3_easy_049",
+    "content": "What is 3 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "6",
+      "7",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "3 × 2 = 6",
+    "_cacheBreaker": "1756033253408_49"
+  },
+  {
+    "_id": "math_3_easy_050",
+    "content": "Which number comes after 13?",
+    "type": "multiple_choice",
+    "options": [
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "correctAnswer": "14",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "After 13 comes 14",
+    "_cacheBreaker": "1756033253408_50"
   }
 ]

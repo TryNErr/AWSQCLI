@@ -1,342 +1,852 @@
 [
   {
-    "_id": "easy4_1755260948241_001",
-    "content": "What is 1/2 + 1/4?",
+    "_id": "math_4_easy_001",
+    "content": "What is 5 + 4?",
     "type": "multiple_choice",
     "options": [
-      "2/6",
-      "3/4",
-      "1/6",
-      "2/4"
+      "4",
+      "5",
+      "9",
+      "10"
     ],
-    "correctAnswer": "3/4",
+    "correctAnswer": "9",
     "subject": "math",
     "grade": "4",
     "difficulty": "easy",
-    "explanation": "1/2 = 2/4, so 2/4 + 1/4 = 3/4",
-    "_cacheBreaker": "1755265388181_0"
+    "explanation": "5 + 4 = 9",
+    "_cacheBreaker": "1756033253421_1"
   },
   {
-    "_id": "easy4_1755260948241_002",
-    "content": "What is the area of a rectangle with length 6 and width 4?",
+    "_id": "math_4_easy_002",
+    "content": "What is 9 - 4?",
     "type": "multiple_choice",
     "options": [
-      "10",
-      "20",
-      "24",
-      "26"
+      "3",
+      "5",
+      "5",
+      "10"
     ],
-    "correctAnswer": "24",
+    "correctAnswer": "5",
     "subject": "math",
     "grade": "4",
     "difficulty": "easy",
-    "explanation": "Area = length × width = 6 × 4 = 24",
-    "_cacheBreaker": "1755265388181_1"
+    "explanation": "9 - 4 = 5",
+    "_cacheBreaker": "1756033253421_2"
   },
   {
-    "_id": "easy4_1755260948241_003",
-    "content": "Convert 3 hours to minutes",
+    "_id": "math_4_easy_003",
+    "content": "How many sides does a rectangle have?",
     "type": "multiple_choice",
     "options": [
-      "30",
-      "60",
-      "120",
-      "180"
+      "3",
+      "4",
+      "5",
+      "6"
     ],
-    "correctAnswer": "180",
+    "correctAnswer": "4",
     "subject": "math",
     "grade": "4",
     "difficulty": "easy",
-    "explanation": "3 hours × 60 minutes/hour = 180 minutes",
-    "_cacheBreaker": "1755265388181_2"
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253421_3"
   },
   {
-    "_id": "easy4_1755260948242_004",
-    "content": "What is 1/2 + 1/4? (Question 4)",
+    "_id": "math_4_easy_004",
+    "content": "What is 4 × 2?",
     "type": "multiple_choice",
     "options": [
-      "2/6",
-      "3/4",
-      "1/6",
-      "2/4"
+      "4",
+      "8",
+      "9",
+      "12"
     ],
-    "correctAnswer": "3/4",
+    "correctAnswer": "8",
     "subject": "math",
     "grade": "4",
     "difficulty": "easy",
-    "explanation": "1/2 = 2/4, so 2/4 + 1/4 = 3/4",
-    "_cacheBreaker": "1755265388181_3"
+    "explanation": "4 × 2 = 8",
+    "_cacheBreaker": "1756033253421_4"
   },
   {
-    "_id": "easy4_1755260948242_005",
-    "content": "What is the area of a rectangle with length 6 and width 4? (Question 5)",
+    "_id": "math_4_easy_005",
+    "content": "Which number comes after 14?",
     "type": "multiple_choice",
     "options": [
-      "10",
-      "20",
-      "24",
-      "26"
+      "13",
+      "14",
+      "15",
+      "16"
     ],
-    "correctAnswer": "24",
+    "correctAnswer": "15",
     "subject": "math",
     "grade": "4",
     "difficulty": "easy",
-    "explanation": "Area = length × width = 6 × 4 = 24",
-    "_cacheBreaker": "1755265388181_4"
+    "explanation": "After 14 comes 15",
+    "_cacheBreaker": "1756033253421_5"
   },
   {
-    "_id": "easy4_1755260948242_006",
-    "content": "Convert 3 hours to minutes (Question 6)",
+    "_id": "math_4_easy_006",
+    "content": "What is 5 + 4?",
     "type": "multiple_choice",
     "options": [
-      "30",
-      "60",
-      "120",
-      "180"
+      "4",
+      "5",
+      "9",
+      "10"
     ],
-    "correctAnswer": "180",
+    "correctAnswer": "9",
     "subject": "math",
     "grade": "4",
     "difficulty": "easy",
-    "explanation": "3 hours × 60 minutes/hour = 180 minutes",
-    "_cacheBreaker": "1755265388181_5"
+    "explanation": "5 + 4 = 9",
+    "_cacheBreaker": "1756033253421_6"
   },
   {
-    "_id": "easy4_1755260948242_007",
-    "content": "What is 1/2 + 1/4? (Question 7)",
+    "_id": "math_4_easy_007",
+    "content": "What is 9 - 4?",
     "type": "multiple_choice",
     "options": [
-      "2/6",
-      "3/4",
-      "1/6",
-      "2/4"
+      "3",
+      "5",
+      "5",
+      "10"
     ],
-    "correctAnswer": "3/4",
+    "correctAnswer": "5",
     "subject": "math",
     "grade": "4",
     "difficulty": "easy",
-    "explanation": "1/2 = 2/4, so 2/4 + 1/4 = 3/4",
-    "_cacheBreaker": "1755265388181_6"
+    "explanation": "9 - 4 = 5",
+    "_cacheBreaker": "1756033253421_7"
   },
   {
-    "_id": "easy4_1755260948242_008",
-    "content": "What is the area of a rectangle with length 6 and width 4? (Question 8)",
+    "_id": "math_4_easy_008",
+    "content": "How many sides does a rectangle have?",
     "type": "multiple_choice",
     "options": [
-      "10",
-      "20",
-      "24",
-      "26"
+      "3",
+      "4",
+      "5",
+      "6"
     ],
-    "correctAnswer": "24",
+    "correctAnswer": "4",
     "subject": "math",
     "grade": "4",
     "difficulty": "easy",
-    "explanation": "Area = length × width = 6 × 4 = 24",
-    "_cacheBreaker": "1755265388181_7"
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253421_8"
   },
   {
-    "_id": "easy4_1755260948242_009",
-    "content": "Convert 3 hours to minutes (Question 9)",
+    "_id": "math_4_easy_009",
+    "content": "What is 4 × 2?",
     "type": "multiple_choice",
     "options": [
-      "30",
-      "60",
-      "120",
-      "180"
+      "4",
+      "8",
+      "9",
+      "12"
     ],
-    "correctAnswer": "180",
+    "correctAnswer": "8",
     "subject": "math",
     "grade": "4",
     "difficulty": "easy",
-    "explanation": "3 hours × 60 minutes/hour = 180 minutes",
-    "_cacheBreaker": "1755265388181_8"
+    "explanation": "4 × 2 = 8",
+    "_cacheBreaker": "1756033253421_9"
   },
   {
-    "_id": "easy4_1755260948242_010",
-    "content": "What is 1/2 + 1/4? (Question 10)",
+    "_id": "math_4_easy_010",
+    "content": "Which number comes after 14?",
     "type": "multiple_choice",
     "options": [
-      "2/6",
-      "3/4",
-      "1/6",
-      "2/4"
+      "13",
+      "14",
+      "15",
+      "16"
     ],
-    "correctAnswer": "3/4",
+    "correctAnswer": "15",
     "subject": "math",
     "grade": "4",
     "difficulty": "easy",
-    "explanation": "1/2 = 2/4, so 2/4 + 1/4 = 3/4",
-    "_cacheBreaker": "1755265388181_9"
+    "explanation": "After 14 comes 15",
+    "_cacheBreaker": "1756033253421_10"
   },
   {
-    "_id": "easy4_1755260948242_011",
-    "content": "What is the area of a rectangle with length 6 and width 4? (Question 11)",
+    "_id": "math_4_easy_011",
+    "content": "What is 5 + 4?",
     "type": "multiple_choice",
     "options": [
-      "10",
-      "20",
-      "24",
-      "26"
+      "4",
+      "5",
+      "9",
+      "10"
     ],
-    "correctAnswer": "24",
+    "correctAnswer": "9",
     "subject": "math",
     "grade": "4",
     "difficulty": "easy",
-    "explanation": "Area = length × width = 6 × 4 = 24",
-    "_cacheBreaker": "1755265388181_10"
+    "explanation": "5 + 4 = 9",
+    "_cacheBreaker": "1756033253421_11"
   },
   {
-    "_id": "easy4_1755260948242_012",
-    "content": "Convert 3 hours to minutes (Question 12)",
+    "_id": "math_4_easy_012",
+    "content": "What is 9 - 4?",
     "type": "multiple_choice",
     "options": [
-      "30",
-      "60",
-      "120",
-      "180"
+      "3",
+      "5",
+      "5",
+      "10"
     ],
-    "correctAnswer": "180",
+    "correctAnswer": "5",
     "subject": "math",
     "grade": "4",
     "difficulty": "easy",
-    "explanation": "3 hours × 60 minutes/hour = 180 minutes",
-    "_cacheBreaker": "1755265388181_11"
+    "explanation": "9 - 4 = 5",
+    "_cacheBreaker": "1756033253421_12"
   },
   {
-    "_id": "easy4_1755260948242_013",
-    "content": "What is 1/2 + 1/4? (Question 13)",
+    "_id": "math_4_easy_013",
+    "content": "How many sides does a rectangle have?",
     "type": "multiple_choice",
     "options": [
-      "2/6",
-      "3/4",
-      "1/6",
-      "2/4"
+      "3",
+      "4",
+      "5",
+      "6"
     ],
-    "correctAnswer": "3/4",
+    "correctAnswer": "4",
     "subject": "math",
     "grade": "4",
     "difficulty": "easy",
-    "explanation": "1/2 = 2/4, so 2/4 + 1/4 = 3/4",
-    "_cacheBreaker": "1755265388181_12"
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253421_13"
   },
   {
-    "_id": "easy4_1755260948242_014",
-    "content": "What is the area of a rectangle with length 6 and width 4? (Question 14)",
+    "_id": "math_4_easy_014",
+    "content": "What is 4 × 2?",
     "type": "multiple_choice",
     "options": [
-      "10",
-      "20",
-      "24",
-      "26"
+      "4",
+      "8",
+      "9",
+      "12"
     ],
-    "correctAnswer": "24",
+    "correctAnswer": "8",
     "subject": "math",
     "grade": "4",
     "difficulty": "easy",
-    "explanation": "Area = length × width = 6 × 4 = 24",
-    "_cacheBreaker": "1755265388181_13"
+    "explanation": "4 × 2 = 8",
+    "_cacheBreaker": "1756033253421_14"
   },
   {
-    "_id": "easy4_1755260948242_015",
-    "content": "Convert 3 hours to minutes (Question 15)",
+    "_id": "math_4_easy_015",
+    "content": "Which number comes after 14?",
     "type": "multiple_choice",
     "options": [
-      "30",
-      "60",
-      "120",
-      "180"
+      "13",
+      "14",
+      "15",
+      "16"
     ],
-    "correctAnswer": "180",
+    "correctAnswer": "15",
     "subject": "math",
     "grade": "4",
     "difficulty": "easy",
-    "explanation": "3 hours × 60 minutes/hour = 180 minutes",
-    "_cacheBreaker": "1755265388181_14"
+    "explanation": "After 14 comes 15",
+    "_cacheBreaker": "1756033253421_15"
   },
   {
-    "_id": "easy4_1755260948243_016",
-    "content": "What is 1/2 + 1/4? (Question 16)",
+    "_id": "math_4_easy_016",
+    "content": "What is 5 + 4?",
     "type": "multiple_choice",
     "options": [
-      "2/6",
-      "3/4",
-      "1/6",
-      "2/4"
+      "4",
+      "5",
+      "9",
+      "10"
     ],
-    "correctAnswer": "3/4",
+    "correctAnswer": "9",
     "subject": "math",
     "grade": "4",
     "difficulty": "easy",
-    "explanation": "1/2 = 2/4, so 2/4 + 1/4 = 3/4",
-    "_cacheBreaker": "1755265388181_15"
+    "explanation": "5 + 4 = 9",
+    "_cacheBreaker": "1756033253421_16"
   },
   {
-    "_id": "easy4_1755260948243_017",
-    "content": "What is the area of a rectangle with length 6 and width 4? (Question 17)",
+    "_id": "math_4_easy_017",
+    "content": "What is 9 - 4?",
     "type": "multiple_choice",
     "options": [
-      "10",
-      "20",
-      "24",
-      "26"
+      "3",
+      "5",
+      "5",
+      "10"
     ],
-    "correctAnswer": "24",
+    "correctAnswer": "5",
     "subject": "math",
     "grade": "4",
     "difficulty": "easy",
-    "explanation": "Area = length × width = 6 × 4 = 24",
-    "_cacheBreaker": "1755265388181_16"
+    "explanation": "9 - 4 = 5",
+    "_cacheBreaker": "1756033253421_17"
   },
   {
-    "_id": "easy4_1755260948243_018",
-    "content": "Convert 3 hours to minutes (Question 18)",
+    "_id": "math_4_easy_018",
+    "content": "How many sides does a rectangle have?",
     "type": "multiple_choice",
     "options": [
-      "30",
-      "60",
-      "120",
-      "180"
+      "3",
+      "4",
+      "5",
+      "6"
     ],
-    "correctAnswer": "180",
+    "correctAnswer": "4",
     "subject": "math",
     "grade": "4",
     "difficulty": "easy",
-    "explanation": "3 hours × 60 minutes/hour = 180 minutes",
-    "_cacheBreaker": "1755265388181_17"
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253421_18"
   },
   {
-    "_id": "easy4_1755260948243_019",
-    "content": "What is 1/2 + 1/4? (Question 19)",
+    "_id": "math_4_easy_019",
+    "content": "What is 4 × 2?",
     "type": "multiple_choice",
     "options": [
-      "2/6",
-      "3/4",
-      "1/6",
-      "2/4"
+      "4",
+      "8",
+      "9",
+      "12"
     ],
-    "correctAnswer": "3/4",
+    "correctAnswer": "8",
     "subject": "math",
     "grade": "4",
     "difficulty": "easy",
-    "explanation": "1/2 = 2/4, so 2/4 + 1/4 = 3/4",
-    "_cacheBreaker": "1755265388181_18"
+    "explanation": "4 × 2 = 8",
+    "_cacheBreaker": "1756033253421_19"
   },
   {
-    "_id": "easy4_1755260948243_020",
-    "content": "What is the area of a rectangle with length 6 and width 4? (Question 20)",
+    "_id": "math_4_easy_020",
+    "content": "Which number comes after 14?",
     "type": "multiple_choice",
     "options": [
-      "10",
-      "20",
-      "24",
-      "26"
+      "13",
+      "14",
+      "15",
+      "16"
     ],
-    "correctAnswer": "24",
+    "correctAnswer": "15",
     "subject": "math",
     "grade": "4",
     "difficulty": "easy",
-    "explanation": "Area = length × width = 6 × 4 = 24",
-    "_cacheBreaker": "1755265388181_19"
+    "explanation": "After 14 comes 15",
+    "_cacheBreaker": "1756033253421_20"
+  },
+  {
+    "_id": "math_4_easy_021",
+    "content": "What is 5 + 4?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "5",
+      "9",
+      "10"
+    ],
+    "correctAnswer": "9",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "5 + 4 = 9",
+    "_cacheBreaker": "1756033253421_21"
+  },
+  {
+    "_id": "math_4_easy_022",
+    "content": "What is 9 - 4?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "5",
+      "5",
+      "10"
+    ],
+    "correctAnswer": "5",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "9 - 4 = 5",
+    "_cacheBreaker": "1756033253421_22"
+  },
+  {
+    "_id": "math_4_easy_023",
+    "content": "How many sides does a rectangle have?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253421_23"
+  },
+  {
+    "_id": "math_4_easy_024",
+    "content": "What is 4 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "8",
+      "9",
+      "12"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "4 × 2 = 8",
+    "_cacheBreaker": "1756033253421_24"
+  },
+  {
+    "_id": "math_4_easy_025",
+    "content": "Which number comes after 14?",
+    "type": "multiple_choice",
+    "options": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "correctAnswer": "15",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "After 14 comes 15",
+    "_cacheBreaker": "1756033253421_25"
+  },
+  {
+    "_id": "math_4_easy_026",
+    "content": "What is 5 + 4?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "5",
+      "9",
+      "10"
+    ],
+    "correctAnswer": "9",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "5 + 4 = 9",
+    "_cacheBreaker": "1756033253421_26"
+  },
+  {
+    "_id": "math_4_easy_027",
+    "content": "What is 9 - 4?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "5",
+      "5",
+      "10"
+    ],
+    "correctAnswer": "5",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "9 - 4 = 5",
+    "_cacheBreaker": "1756033253421_27"
+  },
+  {
+    "_id": "math_4_easy_028",
+    "content": "How many sides does a rectangle have?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253421_28"
+  },
+  {
+    "_id": "math_4_easy_029",
+    "content": "What is 4 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "8",
+      "9",
+      "12"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "4 × 2 = 8",
+    "_cacheBreaker": "1756033253421_29"
+  },
+  {
+    "_id": "math_4_easy_030",
+    "content": "Which number comes after 14?",
+    "type": "multiple_choice",
+    "options": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "correctAnswer": "15",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "After 14 comes 15",
+    "_cacheBreaker": "1756033253421_30"
+  },
+  {
+    "_id": "math_4_easy_031",
+    "content": "What is 5 + 4?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "5",
+      "9",
+      "10"
+    ],
+    "correctAnswer": "9",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "5 + 4 = 9",
+    "_cacheBreaker": "1756033253421_31"
+  },
+  {
+    "_id": "math_4_easy_032",
+    "content": "What is 9 - 4?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "5",
+      "5",
+      "10"
+    ],
+    "correctAnswer": "5",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "9 - 4 = 5",
+    "_cacheBreaker": "1756033253421_32"
+  },
+  {
+    "_id": "math_4_easy_033",
+    "content": "How many sides does a rectangle have?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253421_33"
+  },
+  {
+    "_id": "math_4_easy_034",
+    "content": "What is 4 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "8",
+      "9",
+      "12"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "4 × 2 = 8",
+    "_cacheBreaker": "1756033253421_34"
+  },
+  {
+    "_id": "math_4_easy_035",
+    "content": "Which number comes after 14?",
+    "type": "multiple_choice",
+    "options": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "correctAnswer": "15",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "After 14 comes 15",
+    "_cacheBreaker": "1756033253421_35"
+  },
+  {
+    "_id": "math_4_easy_036",
+    "content": "What is 5 + 4?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "5",
+      "9",
+      "10"
+    ],
+    "correctAnswer": "9",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "5 + 4 = 9",
+    "_cacheBreaker": "1756033253421_36"
+  },
+  {
+    "_id": "math_4_easy_037",
+    "content": "What is 9 - 4?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "5",
+      "5",
+      "10"
+    ],
+    "correctAnswer": "5",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "9 - 4 = 5",
+    "_cacheBreaker": "1756033253421_37"
+  },
+  {
+    "_id": "math_4_easy_038",
+    "content": "How many sides does a rectangle have?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253421_38"
+  },
+  {
+    "_id": "math_4_easy_039",
+    "content": "What is 4 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "8",
+      "9",
+      "12"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "4 × 2 = 8",
+    "_cacheBreaker": "1756033253421_39"
+  },
+  {
+    "_id": "math_4_easy_040",
+    "content": "Which number comes after 14?",
+    "type": "multiple_choice",
+    "options": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "correctAnswer": "15",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "After 14 comes 15",
+    "_cacheBreaker": "1756033253421_40"
+  },
+  {
+    "_id": "math_4_easy_041",
+    "content": "What is 5 + 4?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "5",
+      "9",
+      "10"
+    ],
+    "correctAnswer": "9",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "5 + 4 = 9",
+    "_cacheBreaker": "1756033253421_41"
+  },
+  {
+    "_id": "math_4_easy_042",
+    "content": "What is 9 - 4?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "5",
+      "5",
+      "10"
+    ],
+    "correctAnswer": "5",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "9 - 4 = 5",
+    "_cacheBreaker": "1756033253421_42"
+  },
+  {
+    "_id": "math_4_easy_043",
+    "content": "How many sides does a rectangle have?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253421_43"
+  },
+  {
+    "_id": "math_4_easy_044",
+    "content": "What is 4 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "8",
+      "9",
+      "12"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "4 × 2 = 8",
+    "_cacheBreaker": "1756033253421_44"
+  },
+  {
+    "_id": "math_4_easy_045",
+    "content": "Which number comes after 14?",
+    "type": "multiple_choice",
+    "options": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "correctAnswer": "15",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "After 14 comes 15",
+    "_cacheBreaker": "1756033253421_45"
+  },
+  {
+    "_id": "math_4_easy_046",
+    "content": "What is 5 + 4?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "5",
+      "9",
+      "10"
+    ],
+    "correctAnswer": "9",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "5 + 4 = 9",
+    "_cacheBreaker": "1756033253421_46"
+  },
+  {
+    "_id": "math_4_easy_047",
+    "content": "What is 9 - 4?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "5",
+      "5",
+      "10"
+    ],
+    "correctAnswer": "5",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "9 - 4 = 5",
+    "_cacheBreaker": "1756033253421_47"
+  },
+  {
+    "_id": "math_4_easy_048",
+    "content": "How many sides does a rectangle have?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253421_48"
+  },
+  {
+    "_id": "math_4_easy_049",
+    "content": "What is 4 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "8",
+      "9",
+      "12"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "4 × 2 = 8",
+    "_cacheBreaker": "1756033253421_49"
+  },
+  {
+    "_id": "math_4_easy_050",
+    "content": "Which number comes after 14?",
+    "type": "multiple_choice",
+    "options": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "correctAnswer": "15",
+    "subject": "math",
+    "grade": "4",
+    "difficulty": "easy",
+    "explanation": "After 14 comes 15",
+    "_cacheBreaker": "1756033253421_50"
   }
 ]

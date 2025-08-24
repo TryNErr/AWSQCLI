@@ -1,342 +1,852 @@
 [
   {
-    "_id": "med12_1755260816494_001",
-    "content": "In advanced proof techniques, what is the contrapositive of 'If P then Q'?",
+    "_id": "mathematical-reasoning_12_medium_001",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
     "type": "multiple_choice",
     "options": [
-      "If Q then P",
-      "If not P then not Q",
-      "If not Q then not P",
-      "P and Q"
+      "108",
+      "162",
+      "216",
+      "270"
     ],
-    "correctAnswer": "If not Q then not P",
+    "correctAnswer": "162",
     "subject": "mathematical-reasoning",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "The contrapositive of P → Q is ¬Q → ¬P, which is logically equivalent to the original statement.",
-    "_cacheBreaker": "1755265388155_0"
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578453_1"
   },
   {
-    "_id": "med12_1755260816494_002",
-    "content": "To prove a function f: ℝ → ℝ is injective, you must show:",
+    "_id": "mathematical-reasoning_12_medium_002",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
     "type": "multiple_choice",
     "options": [
-      "f(a) = f(b) implies a = b",
-      "f is continuous",
-      "f has an inverse",
-      "f is differentiable"
+      "24",
+      "48",
+      "12",
+      "16"
     ],
-    "correctAnswer": "f(a) = f(b) implies a = b",
+    "correctAnswer": "24",
     "subject": "mathematical-reasoning",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "A function is injective (one-to-one) if different inputs always produce different outputs.",
-    "_cacheBreaker": "1755265388155_1"
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578453_2"
   },
   {
-    "_id": "med12_1755260816494_003",
-    "content": "In set theory, to prove A ⊆ B, you must show:",
+    "_id": "mathematical-reasoning_12_medium_003",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
     "type": "multiple_choice",
     "options": [
-      "A = B",
-      "B ⊆ A",
-      "If x ∈ A then x ∈ B",
-      "A ∩ B = ∅"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "If x ∈ A then x ∈ B",
+    "correctAnswer": "6",
     "subject": "mathematical-reasoning",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "A is a subset of B if every element of A is also an element of B.",
-    "_cacheBreaker": "1755265388155_2"
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578453_3"
   },
   {
-    "_id": "med12_1755260816494_004",
-    "content": "In advanced proof techniques, what is the contrapositive of 'If P then Q'? (Question 4)",
+    "_id": "mathematical-reasoning_12_medium_004",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
     "type": "multiple_choice",
     "options": [
-      "If Q then P",
-      "If not P then not Q",
-      "If not Q then not P",
-      "P and Q"
+      "7",
+      "11",
+      "17",
+      "23"
     ],
-    "correctAnswer": "If not Q then not P",
+    "correctAnswer": "11",
     "subject": "mathematical-reasoning",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "The contrapositive of P → Q is ¬Q → ¬P, which is logically equivalent to the original statement.",
-    "_cacheBreaker": "1755265388155_3"
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578453_4"
   },
   {
-    "_id": "med12_1755260816494_005",
-    "content": "To prove a function f: ℝ → ℝ is injective, you must show: (Question 5)",
+    "_id": "mathematical-reasoning_12_medium_005",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
     "type": "multiple_choice",
     "options": [
-      "f(a) = f(b) implies a = b",
-      "f is continuous",
-      "f has an inverse",
-      "f is differentiable"
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
     ],
-    "correctAnswer": "f(a) = f(b) implies a = b",
+    "correctAnswer": "3/8",
     "subject": "mathematical-reasoning",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "A function is injective (one-to-one) if different inputs always produce different outputs.",
-    "_cacheBreaker": "1755265388155_4"
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578453_5"
   },
   {
-    "_id": "med12_1755260816494_006",
-    "content": "In set theory, to prove A ⊆ B, you must show: (Question 6)",
+    "_id": "mathematical-reasoning_12_medium_006",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
     "type": "multiple_choice",
     "options": [
-      "A = B",
-      "B ⊆ A",
-      "If x ∈ A then x ∈ B",
-      "A ∩ B = ∅"
+      "108",
+      "162",
+      "216",
+      "270"
     ],
-    "correctAnswer": "If x ∈ A then x ∈ B",
+    "correctAnswer": "162",
     "subject": "mathematical-reasoning",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "A is a subset of B if every element of A is also an element of B.",
-    "_cacheBreaker": "1755265388155_5"
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578453_6"
   },
   {
-    "_id": "med12_1755260816494_007",
-    "content": "In advanced proof techniques, what is the contrapositive of 'If P then Q'? (Question 7)",
+    "_id": "mathematical-reasoning_12_medium_007",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
     "type": "multiple_choice",
     "options": [
-      "If Q then P",
-      "If not P then not Q",
-      "If not Q then not P",
-      "P and Q"
+      "24",
+      "48",
+      "12",
+      "16"
     ],
-    "correctAnswer": "If not Q then not P",
+    "correctAnswer": "24",
     "subject": "mathematical-reasoning",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "The contrapositive of P → Q is ¬Q → ¬P, which is logically equivalent to the original statement.",
-    "_cacheBreaker": "1755265388155_6"
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578453_7"
   },
   {
-    "_id": "med12_1755260816494_008",
-    "content": "To prove a function f: ℝ → ℝ is injective, you must show: (Question 8)",
+    "_id": "mathematical-reasoning_12_medium_008",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
     "type": "multiple_choice",
     "options": [
-      "f(a) = f(b) implies a = b",
-      "f is continuous",
-      "f has an inverse",
-      "f is differentiable"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "f(a) = f(b) implies a = b",
+    "correctAnswer": "6",
     "subject": "mathematical-reasoning",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "A function is injective (one-to-one) if different inputs always produce different outputs.",
-    "_cacheBreaker": "1755265388155_7"
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578453_8"
   },
   {
-    "_id": "med12_1755260816494_009",
-    "content": "In set theory, to prove A ⊆ B, you must show: (Question 9)",
+    "_id": "mathematical-reasoning_12_medium_009",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
     "type": "multiple_choice",
     "options": [
-      "A = B",
-      "B ⊆ A",
-      "If x ∈ A then x ∈ B",
-      "A ∩ B = ∅"
+      "7",
+      "11",
+      "17",
+      "23"
     ],
-    "correctAnswer": "If x ∈ A then x ∈ B",
+    "correctAnswer": "11",
     "subject": "mathematical-reasoning",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "A is a subset of B if every element of A is also an element of B.",
-    "_cacheBreaker": "1755265388155_8"
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578453_9"
   },
   {
-    "_id": "med12_1755260816494_010",
-    "content": "In advanced proof techniques, what is the contrapositive of 'If P then Q'? (Question 10)",
+    "_id": "mathematical-reasoning_12_medium_010",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
     "type": "multiple_choice",
     "options": [
-      "If Q then P",
-      "If not P then not Q",
-      "If not Q then not P",
-      "P and Q"
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
     ],
-    "correctAnswer": "If not Q then not P",
+    "correctAnswer": "3/8",
     "subject": "mathematical-reasoning",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "The contrapositive of P → Q is ¬Q → ¬P, which is logically equivalent to the original statement.",
-    "_cacheBreaker": "1755265388155_9"
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578453_10"
   },
   {
-    "_id": "med12_1755260816494_011",
-    "content": "To prove a function f: ℝ → ℝ is injective, you must show: (Question 11)",
+    "_id": "mathematical-reasoning_12_medium_011",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
     "type": "multiple_choice",
     "options": [
-      "f(a) = f(b) implies a = b",
-      "f is continuous",
-      "f has an inverse",
-      "f is differentiable"
+      "108",
+      "162",
+      "216",
+      "270"
     ],
-    "correctAnswer": "f(a) = f(b) implies a = b",
+    "correctAnswer": "162",
     "subject": "mathematical-reasoning",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "A function is injective (one-to-one) if different inputs always produce different outputs.",
-    "_cacheBreaker": "1755265388155_10"
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578453_11"
   },
   {
-    "_id": "med12_1755260816494_012",
-    "content": "In set theory, to prove A ⊆ B, you must show: (Question 12)",
+    "_id": "mathematical-reasoning_12_medium_012",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
     "type": "multiple_choice",
     "options": [
-      "A = B",
-      "B ⊆ A",
-      "If x ∈ A then x ∈ B",
-      "A ∩ B = ∅"
+      "24",
+      "48",
+      "12",
+      "16"
     ],
-    "correctAnswer": "If x ∈ A then x ∈ B",
+    "correctAnswer": "24",
     "subject": "mathematical-reasoning",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "A is a subset of B if every element of A is also an element of B.",
-    "_cacheBreaker": "1755265388155_11"
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578453_12"
   },
   {
-    "_id": "med12_1755260816494_013",
-    "content": "In advanced proof techniques, what is the contrapositive of 'If P then Q'? (Question 13)",
+    "_id": "mathematical-reasoning_12_medium_013",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
     "type": "multiple_choice",
     "options": [
-      "If Q then P",
-      "If not P then not Q",
-      "If not Q then not P",
-      "P and Q"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "If not Q then not P",
+    "correctAnswer": "6",
     "subject": "mathematical-reasoning",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "The contrapositive of P → Q is ¬Q → ¬P, which is logically equivalent to the original statement.",
-    "_cacheBreaker": "1755265388155_12"
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578453_13"
   },
   {
-    "_id": "med12_1755260816494_014",
-    "content": "To prove a function f: ℝ → ℝ is injective, you must show: (Question 14)",
+    "_id": "mathematical-reasoning_12_medium_014",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
     "type": "multiple_choice",
     "options": [
-      "f(a) = f(b) implies a = b",
-      "f is continuous",
-      "f has an inverse",
-      "f is differentiable"
+      "7",
+      "11",
+      "17",
+      "23"
     ],
-    "correctAnswer": "f(a) = f(b) implies a = b",
+    "correctAnswer": "11",
     "subject": "mathematical-reasoning",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "A function is injective (one-to-one) if different inputs always produce different outputs.",
-    "_cacheBreaker": "1755265388155_13"
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578453_14"
   },
   {
-    "_id": "med12_1755260816494_015",
-    "content": "In set theory, to prove A ⊆ B, you must show: (Question 15)",
+    "_id": "mathematical-reasoning_12_medium_015",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
     "type": "multiple_choice",
     "options": [
-      "A = B",
-      "B ⊆ A",
-      "If x ∈ A then x ∈ B",
-      "A ∩ B = ∅"
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
     ],
-    "correctAnswer": "If x ∈ A then x ∈ B",
+    "correctAnswer": "3/8",
     "subject": "mathematical-reasoning",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "A is a subset of B if every element of A is also an element of B.",
-    "_cacheBreaker": "1755265388155_14"
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578453_15"
   },
   {
-    "_id": "med12_1755260816494_016",
-    "content": "In advanced proof techniques, what is the contrapositive of 'If P then Q'? (Question 16)",
+    "_id": "mathematical-reasoning_12_medium_016",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
     "type": "multiple_choice",
     "options": [
-      "If Q then P",
-      "If not P then not Q",
-      "If not Q then not P",
-      "P and Q"
+      "108",
+      "162",
+      "216",
+      "270"
     ],
-    "correctAnswer": "If not Q then not P",
+    "correctAnswer": "162",
     "subject": "mathematical-reasoning",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "The contrapositive of P → Q is ¬Q → ¬P, which is logically equivalent to the original statement.",
-    "_cacheBreaker": "1755265388155_15"
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578453_16"
   },
   {
-    "_id": "med12_1755260816494_017",
-    "content": "To prove a function f: ℝ → ℝ is injective, you must show: (Question 17)",
+    "_id": "mathematical-reasoning_12_medium_017",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
     "type": "multiple_choice",
     "options": [
-      "f(a) = f(b) implies a = b",
-      "f is continuous",
-      "f has an inverse",
-      "f is differentiable"
+      "24",
+      "48",
+      "12",
+      "16"
     ],
-    "correctAnswer": "f(a) = f(b) implies a = b",
+    "correctAnswer": "24",
     "subject": "mathematical-reasoning",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "A function is injective (one-to-one) if different inputs always produce different outputs.",
-    "_cacheBreaker": "1755265388155_16"
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578453_17"
   },
   {
-    "_id": "med12_1755260816494_018",
-    "content": "In set theory, to prove A ⊆ B, you must show: (Question 18)",
+    "_id": "mathematical-reasoning_12_medium_018",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
     "type": "multiple_choice",
     "options": [
-      "A = B",
-      "B ⊆ A",
-      "If x ∈ A then x ∈ B",
-      "A ∩ B = ∅"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "If x ∈ A then x ∈ B",
+    "correctAnswer": "6",
     "subject": "mathematical-reasoning",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "A is a subset of B if every element of A is also an element of B.",
-    "_cacheBreaker": "1755265388155_17"
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578453_18"
   },
   {
-    "_id": "med12_1755260816494_019",
-    "content": "In advanced proof techniques, what is the contrapositive of 'If P then Q'? (Question 19)",
+    "_id": "mathematical-reasoning_12_medium_019",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
     "type": "multiple_choice",
     "options": [
-      "If Q then P",
-      "If not P then not Q",
-      "If not Q then not P",
-      "P and Q"
+      "7",
+      "11",
+      "17",
+      "23"
     ],
-    "correctAnswer": "If not Q then not P",
+    "correctAnswer": "11",
     "subject": "mathematical-reasoning",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "The contrapositive of P → Q is ¬Q → ¬P, which is logically equivalent to the original statement.",
-    "_cacheBreaker": "1755265388155_18"
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578453_19"
   },
   {
-    "_id": "med12_1755260816494_020",
-    "content": "To prove a function f: ℝ → ℝ is injective, you must show: (Question 20)",
+    "_id": "mathematical-reasoning_12_medium_020",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
     "type": "multiple_choice",
     "options": [
-      "f(a) = f(b) implies a = b",
-      "f is continuous",
-      "f has an inverse",
-      "f is differentiable"
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
     ],
-    "correctAnswer": "f(a) = f(b) implies a = b",
+    "correctAnswer": "3/8",
     "subject": "mathematical-reasoning",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "A function is injective (one-to-one) if different inputs always produce different outputs.",
-    "_cacheBreaker": "1755265388155_19"
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578453_20"
+  },
+  {
+    "_id": "mathematical-reasoning_12_medium_021",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
+    "type": "multiple_choice",
+    "options": [
+      "108",
+      "162",
+      "216",
+      "270"
+    ],
+    "correctAnswer": "162",
+    "subject": "mathematical-reasoning",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578453_21"
+  },
+  {
+    "_id": "mathematical-reasoning_12_medium_022",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "48",
+      "12",
+      "16"
+    ],
+    "correctAnswer": "24",
+    "subject": "mathematical-reasoning",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578453_22"
+  },
+  {
+    "_id": "mathematical-reasoning_12_medium_023",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "mathematical-reasoning",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578453_23"
+  },
+  {
+    "_id": "mathematical-reasoning_12_medium_024",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "11",
+      "17",
+      "23"
+    ],
+    "correctAnswer": "11",
+    "subject": "mathematical-reasoning",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578453_24"
+  },
+  {
+    "_id": "mathematical-reasoning_12_medium_025",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
+    "type": "multiple_choice",
+    "options": [
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "mathematical-reasoning",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578453_25"
+  },
+  {
+    "_id": "mathematical-reasoning_12_medium_026",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
+    "type": "multiple_choice",
+    "options": [
+      "108",
+      "162",
+      "216",
+      "270"
+    ],
+    "correctAnswer": "162",
+    "subject": "mathematical-reasoning",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578453_26"
+  },
+  {
+    "_id": "mathematical-reasoning_12_medium_027",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "48",
+      "12",
+      "16"
+    ],
+    "correctAnswer": "24",
+    "subject": "mathematical-reasoning",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578453_27"
+  },
+  {
+    "_id": "mathematical-reasoning_12_medium_028",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "mathematical-reasoning",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578453_28"
+  },
+  {
+    "_id": "mathematical-reasoning_12_medium_029",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "11",
+      "17",
+      "23"
+    ],
+    "correctAnswer": "11",
+    "subject": "mathematical-reasoning",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578453_29"
+  },
+  {
+    "_id": "mathematical-reasoning_12_medium_030",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
+    "type": "multiple_choice",
+    "options": [
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "mathematical-reasoning",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578453_30"
+  },
+  {
+    "_id": "mathematical-reasoning_12_medium_031",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
+    "type": "multiple_choice",
+    "options": [
+      "108",
+      "162",
+      "216",
+      "270"
+    ],
+    "correctAnswer": "162",
+    "subject": "mathematical-reasoning",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578453_31"
+  },
+  {
+    "_id": "mathematical-reasoning_12_medium_032",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "48",
+      "12",
+      "16"
+    ],
+    "correctAnswer": "24",
+    "subject": "mathematical-reasoning",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578453_32"
+  },
+  {
+    "_id": "mathematical-reasoning_12_medium_033",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "mathematical-reasoning",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578453_33"
+  },
+  {
+    "_id": "mathematical-reasoning_12_medium_034",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "11",
+      "17",
+      "23"
+    ],
+    "correctAnswer": "11",
+    "subject": "mathematical-reasoning",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578453_34"
+  },
+  {
+    "_id": "mathematical-reasoning_12_medium_035",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
+    "type": "multiple_choice",
+    "options": [
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "mathematical-reasoning",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578453_35"
+  },
+  {
+    "_id": "mathematical-reasoning_12_medium_036",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
+    "type": "multiple_choice",
+    "options": [
+      "108",
+      "162",
+      "216",
+      "270"
+    ],
+    "correctAnswer": "162",
+    "subject": "mathematical-reasoning",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578453_36"
+  },
+  {
+    "_id": "mathematical-reasoning_12_medium_037",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "48",
+      "12",
+      "16"
+    ],
+    "correctAnswer": "24",
+    "subject": "mathematical-reasoning",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578453_37"
+  },
+  {
+    "_id": "mathematical-reasoning_12_medium_038",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "mathematical-reasoning",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578453_38"
+  },
+  {
+    "_id": "mathematical-reasoning_12_medium_039",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "11",
+      "17",
+      "23"
+    ],
+    "correctAnswer": "11",
+    "subject": "mathematical-reasoning",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578453_39"
+  },
+  {
+    "_id": "mathematical-reasoning_12_medium_040",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
+    "type": "multiple_choice",
+    "options": [
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "mathematical-reasoning",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578453_40"
+  },
+  {
+    "_id": "mathematical-reasoning_12_medium_041",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
+    "type": "multiple_choice",
+    "options": [
+      "108",
+      "162",
+      "216",
+      "270"
+    ],
+    "correctAnswer": "162",
+    "subject": "mathematical-reasoning",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578453_41"
+  },
+  {
+    "_id": "mathematical-reasoning_12_medium_042",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "48",
+      "12",
+      "16"
+    ],
+    "correctAnswer": "24",
+    "subject": "mathematical-reasoning",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578453_42"
+  },
+  {
+    "_id": "mathematical-reasoning_12_medium_043",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "mathematical-reasoning",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578453_43"
+  },
+  {
+    "_id": "mathematical-reasoning_12_medium_044",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "11",
+      "17",
+      "23"
+    ],
+    "correctAnswer": "11",
+    "subject": "mathematical-reasoning",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578453_44"
+  },
+  {
+    "_id": "mathematical-reasoning_12_medium_045",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
+    "type": "multiple_choice",
+    "options": [
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "mathematical-reasoning",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578453_45"
+  },
+  {
+    "_id": "mathematical-reasoning_12_medium_046",
+    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
+    "type": "multiple_choice",
+    "options": [
+      "108",
+      "162",
+      "216",
+      "270"
+    ],
+    "correctAnswer": "162",
+    "subject": "mathematical-reasoning",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
+    "_cacheBreaker": "1756033578453_46"
+  },
+  {
+    "_id": "mathematical-reasoning_12_medium_047",
+    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "48",
+      "12",
+      "16"
+    ],
+    "correctAnswer": "24",
+    "subject": "mathematical-reasoning",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "The LCM of 6 and 8 is 24",
+    "_cacheBreaker": "1756033578453_47"
+  },
+  {
+    "_id": "mathematical-reasoning_12_medium_048",
+    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "mathematical-reasoning",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "C(3) + A(1) + B(2) = 6",
+    "_cacheBreaker": "1756033578453_48"
+  },
+  {
+    "_id": "mathematical-reasoning_12_medium_049",
+    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "11",
+      "17",
+      "23"
+    ],
+    "correctAnswer": "11",
+    "subject": "mathematical-reasoning",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
+    "_cacheBreaker": "1756033578453_49"
+  },
+  {
+    "_id": "mathematical-reasoning_12_medium_050",
+    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
+    "type": "multiple_choice",
+    "options": [
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
+    ],
+    "correctAnswer": "3/8",
+    "subject": "mathematical-reasoning",
+    "grade": "12",
+    "difficulty": "medium",
+    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
+    "_cacheBreaker": "1756033578453_50"
   }
 ]

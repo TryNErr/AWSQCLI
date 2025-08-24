@@ -1,342 +1,852 @@
 [
   {
-    "_id": "med8_1755261000216_001",
-    "content": "Find the equation of line through (0, 3) with slope 2",
+    "_id": "math_8_medium_001",
+    "content": "Solve: 8x + 16 = 64",
     "type": "multiple_choice",
     "options": [
-      "y = 2x + 3",
-      "y = 3x + 2",
-      "y = 2x - 3",
-      "y = x + 5"
+      "x = 16",
+      "x = 24",
+      "x = 32",
+      "x = 6"
     ],
-    "correctAnswer": "y = 2x + 3",
+    "correctAnswer": "x = 6",
     "subject": "math",
     "grade": "8",
     "difficulty": "medium",
-    "explanation": "y = mx + b, where m = 2 and b = 3",
-    "_cacheBreaker": "1755265388235_0"
+    "explanation": "8x = 64 - 16 = 48, so x = 6",
+    "_cacheBreaker": "1756033578418_1"
   },
   {
-    "_id": "med8_1755261000216_002",
-    "content": "Simplify: √25 + √9",
+    "_id": "math_8_medium_002",
+    "content": "What is 120% of 160?",
     "type": "multiple_choice",
     "options": [
-      "8",
-      "√34",
-      "34",
-      "17"
+      "24",
+      "32",
+      "40",
+      "48"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "24",
     "subject": "math",
     "grade": "8",
     "difficulty": "medium",
-    "explanation": "√25 + √9 = 5 + 3 = 8",
-    "_cacheBreaker": "1755265388235_1"
+    "explanation": "120% of 160 = 0.15 × 160 = 24",
+    "_cacheBreaker": "1756033578418_2"
   },
   {
-    "_id": "med8_1755261000216_003",
-    "content": "Solve: x² = 36",
+    "_id": "math_8_medium_003",
+    "content": "Find the circumference of a circle with radius 9 cm (use π ≈ 3.14)",
     "type": "multiple_choice",
     "options": [
-      "x = 6",
-      "x = ±6",
-      "x = 18",
-      "x = 36"
+      "56.5 cm",
+      "254.3 cm²",
+      "18 cm",
+      "28.26 cm"
     ],
-    "correctAnswer": "x = ±6",
+    "correctAnswer": "56.5 cm",
     "subject": "math",
     "grade": "8",
     "difficulty": "medium",
-    "explanation": "x = ±√36 = ±6",
-    "_cacheBreaker": "1755265388235_2"
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 9 = 56.5 cm",
+    "_cacheBreaker": "1756033578418_3"
   },
   {
-    "_id": "med8_1755261000216_004",
-    "content": "Find the equation of line through (0, 3) with slope 2",
+    "_id": "math_8_medium_004",
+    "content": "What is 8³?",
     "type": "multiple_choice",
     "options": [
-      "y = 2x + 3",
-      "y = 3x + 2",
-      "y = 2x - 3",
-      "y = x + 5"
+      "64",
+      "512",
+      "24",
+      "11"
     ],
-    "correctAnswer": "y = 2x + 3",
+    "correctAnswer": "512",
     "subject": "math",
     "grade": "8",
     "difficulty": "medium",
-    "explanation": "y = mx + b, where m = 2 and b = 3",
-    "_cacheBreaker": "1755265388235_3"
+    "explanation": "8³ = 8 × 8 × 8 = 512",
+    "_cacheBreaker": "1756033578418_4"
   },
   {
-    "_id": "med8_1755261000216_005",
-    "content": "Simplify: √25 + √9",
+    "_id": "math_8_medium_005",
+    "content": "Simplify: 32/48",
     "type": "multiple_choice",
     "options": [
-      "8",
-      "√34",
-      "34",
-      "17"
+      "8/3",
+      "2/3",
+      "4/6",
+      "1/2"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "2/3",
     "subject": "math",
     "grade": "8",
     "difficulty": "medium",
-    "explanation": "√25 + √9 = 5 + 3 = 8",
-    "_cacheBreaker": "1755265388235_4"
+    "explanation": "32/48 = 4/6 = 2/3",
+    "_cacheBreaker": "1756033578418_5"
   },
   {
-    "_id": "med8_1755261000216_006",
-    "content": "Solve: x² = 36",
+    "_id": "math_8_medium_006",
+    "content": "Solve: 8x + 16 = 64",
     "type": "multiple_choice",
     "options": [
-      "x = 6",
-      "x = ±6",
-      "x = 18",
-      "x = 36"
+      "x = 16",
+      "x = 24",
+      "x = 32",
+      "x = 6"
     ],
-    "correctAnswer": "x = ±6",
+    "correctAnswer": "x = 6",
     "subject": "math",
     "grade": "8",
     "difficulty": "medium",
-    "explanation": "x = ±√36 = ±6",
-    "_cacheBreaker": "1755265388235_5"
+    "explanation": "8x = 64 - 16 = 48, so x = 6",
+    "_cacheBreaker": "1756033578418_6"
   },
   {
-    "_id": "med8_1755261000216_007",
-    "content": "Find the equation of line through (0, 3) with slope 2",
+    "_id": "math_8_medium_007",
+    "content": "What is 120% of 160?",
     "type": "multiple_choice",
     "options": [
-      "y = 2x + 3",
-      "y = 3x + 2",
-      "y = 2x - 3",
-      "y = x + 5"
+      "24",
+      "32",
+      "40",
+      "48"
     ],
-    "correctAnswer": "y = 2x + 3",
+    "correctAnswer": "24",
     "subject": "math",
     "grade": "8",
     "difficulty": "medium",
-    "explanation": "y = mx + b, where m = 2 and b = 3",
-    "_cacheBreaker": "1755265388235_6"
+    "explanation": "120% of 160 = 0.15 × 160 = 24",
+    "_cacheBreaker": "1756033578418_7"
   },
   {
-    "_id": "med8_1755261000216_008",
-    "content": "Simplify: √25 + √9",
+    "_id": "math_8_medium_008",
+    "content": "Find the circumference of a circle with radius 9 cm (use π ≈ 3.14)",
     "type": "multiple_choice",
     "options": [
-      "8",
-      "√34",
-      "34",
-      "17"
+      "56.5 cm",
+      "254.3 cm²",
+      "18 cm",
+      "28.26 cm"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "56.5 cm",
     "subject": "math",
     "grade": "8",
     "difficulty": "medium",
-    "explanation": "√25 + √9 = 5 + 3 = 8",
-    "_cacheBreaker": "1755265388235_7"
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 9 = 56.5 cm",
+    "_cacheBreaker": "1756033578418_8"
   },
   {
-    "_id": "med8_1755261000216_009",
-    "content": "Solve: x² = 36",
+    "_id": "math_8_medium_009",
+    "content": "What is 8³?",
     "type": "multiple_choice",
     "options": [
-      "x = 6",
-      "x = ±6",
-      "x = 18",
-      "x = 36"
+      "64",
+      "512",
+      "24",
+      "11"
     ],
-    "correctAnswer": "x = ±6",
+    "correctAnswer": "512",
     "subject": "math",
     "grade": "8",
     "difficulty": "medium",
-    "explanation": "x = ±√36 = ±6",
-    "_cacheBreaker": "1755265388235_8"
+    "explanation": "8³ = 8 × 8 × 8 = 512",
+    "_cacheBreaker": "1756033578418_9"
   },
   {
-    "_id": "med8_1755261000216_010",
-    "content": "Find the equation of line through (0, 3) with slope 2",
+    "_id": "math_8_medium_010",
+    "content": "Simplify: 32/48",
     "type": "multiple_choice",
     "options": [
-      "y = 2x + 3",
-      "y = 3x + 2",
-      "y = 2x - 3",
-      "y = x + 5"
+      "8/3",
+      "2/3",
+      "4/6",
+      "1/2"
     ],
-    "correctAnswer": "y = 2x + 3",
+    "correctAnswer": "2/3",
     "subject": "math",
     "grade": "8",
     "difficulty": "medium",
-    "explanation": "y = mx + b, where m = 2 and b = 3",
-    "_cacheBreaker": "1755265388235_9"
+    "explanation": "32/48 = 4/6 = 2/3",
+    "_cacheBreaker": "1756033578418_10"
   },
   {
-    "_id": "med8_1755261000216_011",
-    "content": "Simplify: √25 + √9",
+    "_id": "math_8_medium_011",
+    "content": "Solve: 8x + 16 = 64",
     "type": "multiple_choice",
     "options": [
-      "8",
-      "√34",
-      "34",
-      "17"
+      "x = 16",
+      "x = 24",
+      "x = 32",
+      "x = 6"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "x = 6",
     "subject": "math",
     "grade": "8",
     "difficulty": "medium",
-    "explanation": "√25 + √9 = 5 + 3 = 8",
-    "_cacheBreaker": "1755265388235_10"
+    "explanation": "8x = 64 - 16 = 48, so x = 6",
+    "_cacheBreaker": "1756033578418_11"
   },
   {
-    "_id": "med8_1755261000216_012",
-    "content": "Solve: x² = 36",
+    "_id": "math_8_medium_012",
+    "content": "What is 120% of 160?",
     "type": "multiple_choice",
     "options": [
-      "x = 6",
-      "x = ±6",
-      "x = 18",
-      "x = 36"
+      "24",
+      "32",
+      "40",
+      "48"
     ],
-    "correctAnswer": "x = ±6",
+    "correctAnswer": "24",
     "subject": "math",
     "grade": "8",
     "difficulty": "medium",
-    "explanation": "x = ±√36 = ±6",
-    "_cacheBreaker": "1755265388235_11"
+    "explanation": "120% of 160 = 0.15 × 160 = 24",
+    "_cacheBreaker": "1756033578418_12"
   },
   {
-    "_id": "med8_1755261000216_013",
-    "content": "Find the equation of line through (0, 3) with slope 2",
+    "_id": "math_8_medium_013",
+    "content": "Find the circumference of a circle with radius 9 cm (use π ≈ 3.14)",
     "type": "multiple_choice",
     "options": [
-      "y = 2x + 3",
-      "y = 3x + 2",
-      "y = 2x - 3",
-      "y = x + 5"
+      "56.5 cm",
+      "254.3 cm²",
+      "18 cm",
+      "28.26 cm"
     ],
-    "correctAnswer": "y = 2x + 3",
+    "correctAnswer": "56.5 cm",
     "subject": "math",
     "grade": "8",
     "difficulty": "medium",
-    "explanation": "y = mx + b, where m = 2 and b = 3",
-    "_cacheBreaker": "1755265388235_12"
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 9 = 56.5 cm",
+    "_cacheBreaker": "1756033578418_13"
   },
   {
-    "_id": "med8_1755261000216_014",
-    "content": "Simplify: √25 + √9",
+    "_id": "math_8_medium_014",
+    "content": "What is 8³?",
     "type": "multiple_choice",
     "options": [
-      "8",
-      "√34",
-      "34",
-      "17"
+      "64",
+      "512",
+      "24",
+      "11"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "512",
     "subject": "math",
     "grade": "8",
     "difficulty": "medium",
-    "explanation": "√25 + √9 = 5 + 3 = 8",
-    "_cacheBreaker": "1755265388235_13"
+    "explanation": "8³ = 8 × 8 × 8 = 512",
+    "_cacheBreaker": "1756033578418_14"
   },
   {
-    "_id": "med8_1755261000216_015",
-    "content": "Solve: x² = 36",
+    "_id": "math_8_medium_015",
+    "content": "Simplify: 32/48",
     "type": "multiple_choice",
     "options": [
-      "x = 6",
-      "x = ±6",
-      "x = 18",
-      "x = 36"
+      "8/3",
+      "2/3",
+      "4/6",
+      "1/2"
     ],
-    "correctAnswer": "x = ±6",
+    "correctAnswer": "2/3",
     "subject": "math",
     "grade": "8",
     "difficulty": "medium",
-    "explanation": "x = ±√36 = ±6",
-    "_cacheBreaker": "1755265388235_14"
+    "explanation": "32/48 = 4/6 = 2/3",
+    "_cacheBreaker": "1756033578418_15"
   },
   {
-    "_id": "med8_1755261000216_016",
-    "content": "Find the equation of line through (0, 3) with slope 2",
+    "_id": "math_8_medium_016",
+    "content": "Solve: 8x + 16 = 64",
     "type": "multiple_choice",
     "options": [
-      "y = 2x + 3",
-      "y = 3x + 2",
-      "y = 2x - 3",
-      "y = x + 5"
+      "x = 16",
+      "x = 24",
+      "x = 32",
+      "x = 6"
     ],
-    "correctAnswer": "y = 2x + 3",
+    "correctAnswer": "x = 6",
     "subject": "math",
     "grade": "8",
     "difficulty": "medium",
-    "explanation": "y = mx + b, where m = 2 and b = 3",
-    "_cacheBreaker": "1755265388235_15"
+    "explanation": "8x = 64 - 16 = 48, so x = 6",
+    "_cacheBreaker": "1756033578418_16"
   },
   {
-    "_id": "med8_1755261000216_017",
-    "content": "Simplify: √25 + √9",
+    "_id": "math_8_medium_017",
+    "content": "What is 120% of 160?",
     "type": "multiple_choice",
     "options": [
-      "8",
-      "√34",
-      "34",
-      "17"
+      "24",
+      "32",
+      "40",
+      "48"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "24",
     "subject": "math",
     "grade": "8",
     "difficulty": "medium",
-    "explanation": "√25 + √9 = 5 + 3 = 8",
-    "_cacheBreaker": "1755265388235_16"
+    "explanation": "120% of 160 = 0.15 × 160 = 24",
+    "_cacheBreaker": "1756033578418_17"
   },
   {
-    "_id": "med8_1755261000216_018",
-    "content": "Solve: x² = 36",
+    "_id": "math_8_medium_018",
+    "content": "Find the circumference of a circle with radius 9 cm (use π ≈ 3.14)",
     "type": "multiple_choice",
     "options": [
-      "x = 6",
-      "x = ±6",
-      "x = 18",
-      "x = 36"
+      "56.5 cm",
+      "254.3 cm²",
+      "18 cm",
+      "28.26 cm"
     ],
-    "correctAnswer": "x = ±6",
+    "correctAnswer": "56.5 cm",
     "subject": "math",
     "grade": "8",
     "difficulty": "medium",
-    "explanation": "x = ±√36 = ±6",
-    "_cacheBreaker": "1755265388235_17"
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 9 = 56.5 cm",
+    "_cacheBreaker": "1756033578418_18"
   },
   {
-    "_id": "med8_1755261000216_019",
-    "content": "Find the equation of line through (0, 3) with slope 2",
+    "_id": "math_8_medium_019",
+    "content": "What is 8³?",
     "type": "multiple_choice",
     "options": [
-      "y = 2x + 3",
-      "y = 3x + 2",
-      "y = 2x - 3",
-      "y = x + 5"
+      "64",
+      "512",
+      "24",
+      "11"
     ],
-    "correctAnswer": "y = 2x + 3",
+    "correctAnswer": "512",
     "subject": "math",
     "grade": "8",
     "difficulty": "medium",
-    "explanation": "y = mx + b, where m = 2 and b = 3",
-    "_cacheBreaker": "1755265388235_18"
+    "explanation": "8³ = 8 × 8 × 8 = 512",
+    "_cacheBreaker": "1756033578418_19"
   },
   {
-    "_id": "med8_1755261000216_020",
-    "content": "Simplify: √25 + √9",
+    "_id": "math_8_medium_020",
+    "content": "Simplify: 32/48",
     "type": "multiple_choice",
     "options": [
-      "8",
-      "√34",
-      "34",
-      "17"
+      "8/3",
+      "2/3",
+      "4/6",
+      "1/2"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "2/3",
     "subject": "math",
     "grade": "8",
     "difficulty": "medium",
-    "explanation": "√25 + √9 = 5 + 3 = 8",
-    "_cacheBreaker": "1755265388235_19"
+    "explanation": "32/48 = 4/6 = 2/3",
+    "_cacheBreaker": "1756033578418_20"
+  },
+  {
+    "_id": "math_8_medium_021",
+    "content": "Solve: 8x + 16 = 64",
+    "type": "multiple_choice",
+    "options": [
+      "x = 16",
+      "x = 24",
+      "x = 32",
+      "x = 6"
+    ],
+    "correctAnswer": "x = 6",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "medium",
+    "explanation": "8x = 64 - 16 = 48, so x = 6",
+    "_cacheBreaker": "1756033578418_21"
+  },
+  {
+    "_id": "math_8_medium_022",
+    "content": "What is 120% of 160?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "32",
+      "40",
+      "48"
+    ],
+    "correctAnswer": "24",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "medium",
+    "explanation": "120% of 160 = 0.15 × 160 = 24",
+    "_cacheBreaker": "1756033578418_22"
+  },
+  {
+    "_id": "math_8_medium_023",
+    "content": "Find the circumference of a circle with radius 9 cm (use π ≈ 3.14)",
+    "type": "multiple_choice",
+    "options": [
+      "56.5 cm",
+      "254.3 cm²",
+      "18 cm",
+      "28.26 cm"
+    ],
+    "correctAnswer": "56.5 cm",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "medium",
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 9 = 56.5 cm",
+    "_cacheBreaker": "1756033578418_23"
+  },
+  {
+    "_id": "math_8_medium_024",
+    "content": "What is 8³?",
+    "type": "multiple_choice",
+    "options": [
+      "64",
+      "512",
+      "24",
+      "11"
+    ],
+    "correctAnswer": "512",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "medium",
+    "explanation": "8³ = 8 × 8 × 8 = 512",
+    "_cacheBreaker": "1756033578418_24"
+  },
+  {
+    "_id": "math_8_medium_025",
+    "content": "Simplify: 32/48",
+    "type": "multiple_choice",
+    "options": [
+      "8/3",
+      "2/3",
+      "4/6",
+      "1/2"
+    ],
+    "correctAnswer": "2/3",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "medium",
+    "explanation": "32/48 = 4/6 = 2/3",
+    "_cacheBreaker": "1756033578418_25"
+  },
+  {
+    "_id": "math_8_medium_026",
+    "content": "Solve: 8x + 16 = 64",
+    "type": "multiple_choice",
+    "options": [
+      "x = 16",
+      "x = 24",
+      "x = 32",
+      "x = 6"
+    ],
+    "correctAnswer": "x = 6",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "medium",
+    "explanation": "8x = 64 - 16 = 48, so x = 6",
+    "_cacheBreaker": "1756033578418_26"
+  },
+  {
+    "_id": "math_8_medium_027",
+    "content": "What is 120% of 160?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "32",
+      "40",
+      "48"
+    ],
+    "correctAnswer": "24",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "medium",
+    "explanation": "120% of 160 = 0.15 × 160 = 24",
+    "_cacheBreaker": "1756033578418_27"
+  },
+  {
+    "_id": "math_8_medium_028",
+    "content": "Find the circumference of a circle with radius 9 cm (use π ≈ 3.14)",
+    "type": "multiple_choice",
+    "options": [
+      "56.5 cm",
+      "254.3 cm²",
+      "18 cm",
+      "28.26 cm"
+    ],
+    "correctAnswer": "56.5 cm",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "medium",
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 9 = 56.5 cm",
+    "_cacheBreaker": "1756033578418_28"
+  },
+  {
+    "_id": "math_8_medium_029",
+    "content": "What is 8³?",
+    "type": "multiple_choice",
+    "options": [
+      "64",
+      "512",
+      "24",
+      "11"
+    ],
+    "correctAnswer": "512",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "medium",
+    "explanation": "8³ = 8 × 8 × 8 = 512",
+    "_cacheBreaker": "1756033578418_29"
+  },
+  {
+    "_id": "math_8_medium_030",
+    "content": "Simplify: 32/48",
+    "type": "multiple_choice",
+    "options": [
+      "8/3",
+      "2/3",
+      "4/6",
+      "1/2"
+    ],
+    "correctAnswer": "2/3",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "medium",
+    "explanation": "32/48 = 4/6 = 2/3",
+    "_cacheBreaker": "1756033578418_30"
+  },
+  {
+    "_id": "math_8_medium_031",
+    "content": "Solve: 8x + 16 = 64",
+    "type": "multiple_choice",
+    "options": [
+      "x = 16",
+      "x = 24",
+      "x = 32",
+      "x = 6"
+    ],
+    "correctAnswer": "x = 6",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "medium",
+    "explanation": "8x = 64 - 16 = 48, so x = 6",
+    "_cacheBreaker": "1756033578418_31"
+  },
+  {
+    "_id": "math_8_medium_032",
+    "content": "What is 120% of 160?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "32",
+      "40",
+      "48"
+    ],
+    "correctAnswer": "24",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "medium",
+    "explanation": "120% of 160 = 0.15 × 160 = 24",
+    "_cacheBreaker": "1756033578418_32"
+  },
+  {
+    "_id": "math_8_medium_033",
+    "content": "Find the circumference of a circle with radius 9 cm (use π ≈ 3.14)",
+    "type": "multiple_choice",
+    "options": [
+      "56.5 cm",
+      "254.3 cm²",
+      "18 cm",
+      "28.26 cm"
+    ],
+    "correctAnswer": "56.5 cm",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "medium",
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 9 = 56.5 cm",
+    "_cacheBreaker": "1756033578418_33"
+  },
+  {
+    "_id": "math_8_medium_034",
+    "content": "What is 8³?",
+    "type": "multiple_choice",
+    "options": [
+      "64",
+      "512",
+      "24",
+      "11"
+    ],
+    "correctAnswer": "512",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "medium",
+    "explanation": "8³ = 8 × 8 × 8 = 512",
+    "_cacheBreaker": "1756033578418_34"
+  },
+  {
+    "_id": "math_8_medium_035",
+    "content": "Simplify: 32/48",
+    "type": "multiple_choice",
+    "options": [
+      "8/3",
+      "2/3",
+      "4/6",
+      "1/2"
+    ],
+    "correctAnswer": "2/3",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "medium",
+    "explanation": "32/48 = 4/6 = 2/3",
+    "_cacheBreaker": "1756033578418_35"
+  },
+  {
+    "_id": "math_8_medium_036",
+    "content": "Solve: 8x + 16 = 64",
+    "type": "multiple_choice",
+    "options": [
+      "x = 16",
+      "x = 24",
+      "x = 32",
+      "x = 6"
+    ],
+    "correctAnswer": "x = 6",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "medium",
+    "explanation": "8x = 64 - 16 = 48, so x = 6",
+    "_cacheBreaker": "1756033578418_36"
+  },
+  {
+    "_id": "math_8_medium_037",
+    "content": "What is 120% of 160?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "32",
+      "40",
+      "48"
+    ],
+    "correctAnswer": "24",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "medium",
+    "explanation": "120% of 160 = 0.15 × 160 = 24",
+    "_cacheBreaker": "1756033578418_37"
+  },
+  {
+    "_id": "math_8_medium_038",
+    "content": "Find the circumference of a circle with radius 9 cm (use π ≈ 3.14)",
+    "type": "multiple_choice",
+    "options": [
+      "56.5 cm",
+      "254.3 cm²",
+      "18 cm",
+      "28.26 cm"
+    ],
+    "correctAnswer": "56.5 cm",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "medium",
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 9 = 56.5 cm",
+    "_cacheBreaker": "1756033578418_38"
+  },
+  {
+    "_id": "math_8_medium_039",
+    "content": "What is 8³?",
+    "type": "multiple_choice",
+    "options": [
+      "64",
+      "512",
+      "24",
+      "11"
+    ],
+    "correctAnswer": "512",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "medium",
+    "explanation": "8³ = 8 × 8 × 8 = 512",
+    "_cacheBreaker": "1756033578418_39"
+  },
+  {
+    "_id": "math_8_medium_040",
+    "content": "Simplify: 32/48",
+    "type": "multiple_choice",
+    "options": [
+      "8/3",
+      "2/3",
+      "4/6",
+      "1/2"
+    ],
+    "correctAnswer": "2/3",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "medium",
+    "explanation": "32/48 = 4/6 = 2/3",
+    "_cacheBreaker": "1756033578418_40"
+  },
+  {
+    "_id": "math_8_medium_041",
+    "content": "Solve: 8x + 16 = 64",
+    "type": "multiple_choice",
+    "options": [
+      "x = 16",
+      "x = 24",
+      "x = 32",
+      "x = 6"
+    ],
+    "correctAnswer": "x = 6",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "medium",
+    "explanation": "8x = 64 - 16 = 48, so x = 6",
+    "_cacheBreaker": "1756033578418_41"
+  },
+  {
+    "_id": "math_8_medium_042",
+    "content": "What is 120% of 160?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "32",
+      "40",
+      "48"
+    ],
+    "correctAnswer": "24",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "medium",
+    "explanation": "120% of 160 = 0.15 × 160 = 24",
+    "_cacheBreaker": "1756033578418_42"
+  },
+  {
+    "_id": "math_8_medium_043",
+    "content": "Find the circumference of a circle with radius 9 cm (use π ≈ 3.14)",
+    "type": "multiple_choice",
+    "options": [
+      "56.5 cm",
+      "254.3 cm²",
+      "18 cm",
+      "28.26 cm"
+    ],
+    "correctAnswer": "56.5 cm",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "medium",
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 9 = 56.5 cm",
+    "_cacheBreaker": "1756033578418_43"
+  },
+  {
+    "_id": "math_8_medium_044",
+    "content": "What is 8³?",
+    "type": "multiple_choice",
+    "options": [
+      "64",
+      "512",
+      "24",
+      "11"
+    ],
+    "correctAnswer": "512",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "medium",
+    "explanation": "8³ = 8 × 8 × 8 = 512",
+    "_cacheBreaker": "1756033578418_44"
+  },
+  {
+    "_id": "math_8_medium_045",
+    "content": "Simplify: 32/48",
+    "type": "multiple_choice",
+    "options": [
+      "8/3",
+      "2/3",
+      "4/6",
+      "1/2"
+    ],
+    "correctAnswer": "2/3",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "medium",
+    "explanation": "32/48 = 4/6 = 2/3",
+    "_cacheBreaker": "1756033578418_45"
+  },
+  {
+    "_id": "math_8_medium_046",
+    "content": "Solve: 8x + 16 = 64",
+    "type": "multiple_choice",
+    "options": [
+      "x = 16",
+      "x = 24",
+      "x = 32",
+      "x = 6"
+    ],
+    "correctAnswer": "x = 6",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "medium",
+    "explanation": "8x = 64 - 16 = 48, so x = 6",
+    "_cacheBreaker": "1756033578418_46"
+  },
+  {
+    "_id": "math_8_medium_047",
+    "content": "What is 120% of 160?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "32",
+      "40",
+      "48"
+    ],
+    "correctAnswer": "24",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "medium",
+    "explanation": "120% of 160 = 0.15 × 160 = 24",
+    "_cacheBreaker": "1756033578418_47"
+  },
+  {
+    "_id": "math_8_medium_048",
+    "content": "Find the circumference of a circle with radius 9 cm (use π ≈ 3.14)",
+    "type": "multiple_choice",
+    "options": [
+      "56.5 cm",
+      "254.3 cm²",
+      "18 cm",
+      "28.26 cm"
+    ],
+    "correctAnswer": "56.5 cm",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "medium",
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 9 = 56.5 cm",
+    "_cacheBreaker": "1756033578418_48"
+  },
+  {
+    "_id": "math_8_medium_049",
+    "content": "What is 8³?",
+    "type": "multiple_choice",
+    "options": [
+      "64",
+      "512",
+      "24",
+      "11"
+    ],
+    "correctAnswer": "512",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "medium",
+    "explanation": "8³ = 8 × 8 × 8 = 512",
+    "_cacheBreaker": "1756033578418_49"
+  },
+  {
+    "_id": "math_8_medium_050",
+    "content": "Simplify: 32/48",
+    "type": "multiple_choice",
+    "options": [
+      "8/3",
+      "2/3",
+      "4/6",
+      "1/2"
+    ],
+    "correctAnswer": "2/3",
+    "subject": "math",
+    "grade": "8",
+    "difficulty": "medium",
+    "explanation": "32/48 = 4/6 = 2/3",
+    "_cacheBreaker": "1756033578418_50"
   }
 ]

@@ -1,342 +1,852 @@
 [
   {
-    "_id": "easy7_1755260948241_001",
-    "content": "Simplify: 2x + 3x",
+    "_id": "math_7_easy_001",
+    "content": "What is 35 + 21?",
     "type": "multiple_choice",
     "options": [
-      "5x",
-      "6x",
-      "2x + 3x",
-      "5x²"
+      "49",
+      "56",
+      "63",
+      "70"
     ],
-    "correctAnswer": "5x",
+    "correctAnswer": "56",
     "subject": "math",
     "grade": "7",
     "difficulty": "easy",
-    "explanation": "Combine like terms: 2x + 3x = 5x",
-    "_cacheBreaker": "1755265388211_0"
+    "explanation": "35 + 21 = 56",
+    "_cacheBreaker": "1756033578388_1"
   },
   {
-    "_id": "easy7_1755260948241_002",
-    "content": "What is 2³?",
+    "_id": "math_7_easy_002",
+    "content": "Solve: 7x = 84",
     "type": "multiple_choice",
     "options": [
-      "6",
-      "8",
-      "9",
-      "23"
+      "x = 70",
+      "x = 12",
+      "x = 7",
+      "x = 42"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "x = 12",
     "subject": "math",
     "grade": "7",
     "difficulty": "easy",
-    "explanation": "2³ = 2 × 2 × 2 = 8",
-    "_cacheBreaker": "1755265388211_1"
+    "explanation": "x = 84 ÷ 7 = 12",
+    "_cacheBreaker": "1756033578388_2"
   },
   {
-    "_id": "easy7_1755260948241_003",
-    "content": "Solve: 2x = 10",
+    "_id": "math_7_easy_003",
+    "content": "What is 70% of 100?",
     "type": "multiple_choice",
     "options": [
-      "x = 2",
-      "x = 5",
-      "x = 8",
-      "x = 20"
+      "35",
+      "70",
+      "105",
+      "140"
     ],
-    "correctAnswer": "x = 5",
+    "correctAnswer": "70",
     "subject": "math",
     "grade": "7",
     "difficulty": "easy",
-    "explanation": "Divide both sides by 2: x = 10 ÷ 2 = 5",
-    "_cacheBreaker": "1755265388211_2"
+    "explanation": "70% of 100 = 70",
+    "_cacheBreaker": "1756033578388_3"
   },
   {
-    "_id": "easy7_1755260948245_004",
-    "content": "Simplify: 2x + 3x (Question 4)",
+    "_id": "math_7_easy_004",
+    "content": "Convert 7/10 to a decimal.",
     "type": "multiple_choice",
     "options": [
-      "5x",
-      "6x",
-      "2x + 3x",
-      "5x²"
+      "0.7",
+      "7.0",
+      "7/100",
+      "10.7"
     ],
-    "correctAnswer": "5x",
+    "correctAnswer": "0.7",
     "subject": "math",
     "grade": "7",
     "difficulty": "easy",
-    "explanation": "Combine like terms: 2x + 3x = 5x",
-    "_cacheBreaker": "1755265388211_3"
+    "explanation": "7/10 = 0.7",
+    "_cacheBreaker": "1756033578388_4"
   },
   {
-    "_id": "easy7_1755260948245_005",
-    "content": "What is 2³? (Question 5)",
+    "_id": "math_7_easy_005",
+    "content": "What is the area of a square with side length 9 cm?",
     "type": "multiple_choice",
     "options": [
-      "6",
-      "8",
-      "9",
-      "23"
+      "36 cm²",
+      "81 cm²",
+      "9 cm²",
+      "18 cm²"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "81 cm²",
     "subject": "math",
     "grade": "7",
     "difficulty": "easy",
-    "explanation": "2³ = 2 × 2 × 2 = 8",
-    "_cacheBreaker": "1755265388211_4"
+    "explanation": "Area of square = side² = 9² = 81 cm²",
+    "_cacheBreaker": "1756033578388_5"
   },
   {
-    "_id": "easy7_1755260948245_006",
-    "content": "Solve: 2x = 10 (Question 6)",
+    "_id": "math_7_easy_006",
+    "content": "What is 35 + 21?",
     "type": "multiple_choice",
     "options": [
-      "x = 2",
-      "x = 5",
-      "x = 8",
-      "x = 20"
+      "49",
+      "56",
+      "63",
+      "70"
     ],
-    "correctAnswer": "x = 5",
+    "correctAnswer": "56",
     "subject": "math",
     "grade": "7",
     "difficulty": "easy",
-    "explanation": "Divide both sides by 2: x = 10 ÷ 2 = 5",
-    "_cacheBreaker": "1755265388211_5"
+    "explanation": "35 + 21 = 56",
+    "_cacheBreaker": "1756033578388_6"
   },
   {
-    "_id": "easy7_1755260948245_007",
-    "content": "Simplify: 2x + 3x (Question 7)",
+    "_id": "math_7_easy_007",
+    "content": "Solve: 7x = 84",
     "type": "multiple_choice",
     "options": [
-      "5x",
-      "6x",
-      "2x + 3x",
-      "5x²"
+      "x = 70",
+      "x = 12",
+      "x = 7",
+      "x = 42"
     ],
-    "correctAnswer": "5x",
+    "correctAnswer": "x = 12",
     "subject": "math",
     "grade": "7",
     "difficulty": "easy",
-    "explanation": "Combine like terms: 2x + 3x = 5x",
-    "_cacheBreaker": "1755265388211_6"
+    "explanation": "x = 84 ÷ 7 = 12",
+    "_cacheBreaker": "1756033578388_7"
   },
   {
-    "_id": "easy7_1755260948245_008",
-    "content": "What is 2³? (Question 8)",
+    "_id": "math_7_easy_008",
+    "content": "What is 70% of 100?",
     "type": "multiple_choice",
     "options": [
-      "6",
-      "8",
-      "9",
-      "23"
+      "35",
+      "70",
+      "105",
+      "140"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "70",
     "subject": "math",
     "grade": "7",
     "difficulty": "easy",
-    "explanation": "2³ = 2 × 2 × 2 = 8",
-    "_cacheBreaker": "1755265388211_7"
+    "explanation": "70% of 100 = 70",
+    "_cacheBreaker": "1756033578388_8"
   },
   {
-    "_id": "easy7_1755260948245_009",
-    "content": "Solve: 2x = 10 (Question 9)",
+    "_id": "math_7_easy_009",
+    "content": "Convert 7/10 to a decimal.",
     "type": "multiple_choice",
     "options": [
-      "x = 2",
-      "x = 5",
-      "x = 8",
-      "x = 20"
+      "0.7",
+      "7.0",
+      "7/100",
+      "10.7"
     ],
-    "correctAnswer": "x = 5",
+    "correctAnswer": "0.7",
     "subject": "math",
     "grade": "7",
     "difficulty": "easy",
-    "explanation": "Divide both sides by 2: x = 10 ÷ 2 = 5",
-    "_cacheBreaker": "1755265388211_8"
+    "explanation": "7/10 = 0.7",
+    "_cacheBreaker": "1756033578388_9"
   },
   {
-    "_id": "easy7_1755260948245_010",
-    "content": "Simplify: 2x + 3x (Question 10)",
+    "_id": "math_7_easy_010",
+    "content": "What is the area of a square with side length 9 cm?",
     "type": "multiple_choice",
     "options": [
-      "5x",
-      "6x",
-      "2x + 3x",
-      "5x²"
+      "36 cm²",
+      "81 cm²",
+      "9 cm²",
+      "18 cm²"
     ],
-    "correctAnswer": "5x",
+    "correctAnswer": "81 cm²",
     "subject": "math",
     "grade": "7",
     "difficulty": "easy",
-    "explanation": "Combine like terms: 2x + 3x = 5x",
-    "_cacheBreaker": "1755265388211_9"
+    "explanation": "Area of square = side² = 9² = 81 cm²",
+    "_cacheBreaker": "1756033578388_10"
   },
   {
-    "_id": "easy7_1755260948245_011",
-    "content": "What is 2³? (Question 11)",
+    "_id": "math_7_easy_011",
+    "content": "What is 35 + 21?",
     "type": "multiple_choice",
     "options": [
-      "6",
-      "8",
-      "9",
-      "23"
+      "49",
+      "56",
+      "63",
+      "70"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "56",
     "subject": "math",
     "grade": "7",
     "difficulty": "easy",
-    "explanation": "2³ = 2 × 2 × 2 = 8",
-    "_cacheBreaker": "1755265388211_10"
+    "explanation": "35 + 21 = 56",
+    "_cacheBreaker": "1756033578388_11"
   },
   {
-    "_id": "easy7_1755260948245_012",
-    "content": "Solve: 2x = 10 (Question 12)",
+    "_id": "math_7_easy_012",
+    "content": "Solve: 7x = 84",
     "type": "multiple_choice",
     "options": [
-      "x = 2",
-      "x = 5",
-      "x = 8",
-      "x = 20"
+      "x = 70",
+      "x = 12",
+      "x = 7",
+      "x = 42"
     ],
-    "correctAnswer": "x = 5",
+    "correctAnswer": "x = 12",
     "subject": "math",
     "grade": "7",
     "difficulty": "easy",
-    "explanation": "Divide both sides by 2: x = 10 ÷ 2 = 5",
-    "_cacheBreaker": "1755265388211_11"
+    "explanation": "x = 84 ÷ 7 = 12",
+    "_cacheBreaker": "1756033578388_12"
   },
   {
-    "_id": "easy7_1755260948245_013",
-    "content": "Simplify: 2x + 3x (Question 13)",
+    "_id": "math_7_easy_013",
+    "content": "What is 70% of 100?",
     "type": "multiple_choice",
     "options": [
-      "5x",
-      "6x",
-      "2x + 3x",
-      "5x²"
+      "35",
+      "70",
+      "105",
+      "140"
     ],
-    "correctAnswer": "5x",
+    "correctAnswer": "70",
     "subject": "math",
     "grade": "7",
     "difficulty": "easy",
-    "explanation": "Combine like terms: 2x + 3x = 5x",
-    "_cacheBreaker": "1755265388211_12"
+    "explanation": "70% of 100 = 70",
+    "_cacheBreaker": "1756033578388_13"
   },
   {
-    "_id": "easy7_1755260948245_014",
-    "content": "What is 2³? (Question 14)",
+    "_id": "math_7_easy_014",
+    "content": "Convert 7/10 to a decimal.",
     "type": "multiple_choice",
     "options": [
-      "6",
-      "8",
-      "9",
-      "23"
+      "0.7",
+      "7.0",
+      "7/100",
+      "10.7"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "0.7",
     "subject": "math",
     "grade": "7",
     "difficulty": "easy",
-    "explanation": "2³ = 2 × 2 × 2 = 8",
-    "_cacheBreaker": "1755265388211_13"
+    "explanation": "7/10 = 0.7",
+    "_cacheBreaker": "1756033578388_14"
   },
   {
-    "_id": "easy7_1755260948245_015",
-    "content": "Solve: 2x = 10 (Question 15)",
+    "_id": "math_7_easy_015",
+    "content": "What is the area of a square with side length 9 cm?",
     "type": "multiple_choice",
     "options": [
-      "x = 2",
-      "x = 5",
-      "x = 8",
-      "x = 20"
+      "36 cm²",
+      "81 cm²",
+      "9 cm²",
+      "18 cm²"
     ],
-    "correctAnswer": "x = 5",
+    "correctAnswer": "81 cm²",
     "subject": "math",
     "grade": "7",
     "difficulty": "easy",
-    "explanation": "Divide both sides by 2: x = 10 ÷ 2 = 5",
-    "_cacheBreaker": "1755265388211_14"
+    "explanation": "Area of square = side² = 9² = 81 cm²",
+    "_cacheBreaker": "1756033578388_15"
   },
   {
-    "_id": "easy7_1755260948245_016",
-    "content": "Simplify: 2x + 3x (Question 16)",
+    "_id": "math_7_easy_016",
+    "content": "What is 35 + 21?",
     "type": "multiple_choice",
     "options": [
-      "5x",
-      "6x",
-      "2x + 3x",
-      "5x²"
+      "49",
+      "56",
+      "63",
+      "70"
     ],
-    "correctAnswer": "5x",
+    "correctAnswer": "56",
     "subject": "math",
     "grade": "7",
     "difficulty": "easy",
-    "explanation": "Combine like terms: 2x + 3x = 5x",
-    "_cacheBreaker": "1755265388211_15"
+    "explanation": "35 + 21 = 56",
+    "_cacheBreaker": "1756033578388_16"
   },
   {
-    "_id": "easy7_1755260948245_017",
-    "content": "What is 2³? (Question 17)",
+    "_id": "math_7_easy_017",
+    "content": "Solve: 7x = 84",
     "type": "multiple_choice",
     "options": [
-      "6",
-      "8",
-      "9",
-      "23"
+      "x = 70",
+      "x = 12",
+      "x = 7",
+      "x = 42"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "x = 12",
     "subject": "math",
     "grade": "7",
     "difficulty": "easy",
-    "explanation": "2³ = 2 × 2 × 2 = 8",
-    "_cacheBreaker": "1755265388211_16"
+    "explanation": "x = 84 ÷ 7 = 12",
+    "_cacheBreaker": "1756033578388_17"
   },
   {
-    "_id": "easy7_1755260948245_018",
-    "content": "Solve: 2x = 10 (Question 18)",
+    "_id": "math_7_easy_018",
+    "content": "What is 70% of 100?",
     "type": "multiple_choice",
     "options": [
-      "x = 2",
-      "x = 5",
-      "x = 8",
-      "x = 20"
+      "35",
+      "70",
+      "105",
+      "140"
     ],
-    "correctAnswer": "x = 5",
+    "correctAnswer": "70",
     "subject": "math",
     "grade": "7",
     "difficulty": "easy",
-    "explanation": "Divide both sides by 2: x = 10 ÷ 2 = 5",
-    "_cacheBreaker": "1755265388211_17"
+    "explanation": "70% of 100 = 70",
+    "_cacheBreaker": "1756033578388_18"
   },
   {
-    "_id": "easy7_1755260948245_019",
-    "content": "Simplify: 2x + 3x (Question 19)",
+    "_id": "math_7_easy_019",
+    "content": "Convert 7/10 to a decimal.",
     "type": "multiple_choice",
     "options": [
-      "5x",
-      "6x",
-      "2x + 3x",
-      "5x²"
+      "0.7",
+      "7.0",
+      "7/100",
+      "10.7"
     ],
-    "correctAnswer": "5x",
+    "correctAnswer": "0.7",
     "subject": "math",
     "grade": "7",
     "difficulty": "easy",
-    "explanation": "Combine like terms: 2x + 3x = 5x",
-    "_cacheBreaker": "1755265388211_18"
+    "explanation": "7/10 = 0.7",
+    "_cacheBreaker": "1756033578388_19"
   },
   {
-    "_id": "easy7_1755260948245_020",
-    "content": "What is 2³? (Question 20)",
+    "_id": "math_7_easy_020",
+    "content": "What is the area of a square with side length 9 cm?",
     "type": "multiple_choice",
     "options": [
-      "6",
-      "8",
-      "9",
-      "23"
+      "36 cm²",
+      "81 cm²",
+      "9 cm²",
+      "18 cm²"
     ],
-    "correctAnswer": "8",
+    "correctAnswer": "81 cm²",
     "subject": "math",
     "grade": "7",
     "difficulty": "easy",
-    "explanation": "2³ = 2 × 2 × 2 = 8",
-    "_cacheBreaker": "1755265388211_19"
+    "explanation": "Area of square = side² = 9² = 81 cm²",
+    "_cacheBreaker": "1756033578388_20"
+  },
+  {
+    "_id": "math_7_easy_021",
+    "content": "What is 35 + 21?",
+    "type": "multiple_choice",
+    "options": [
+      "49",
+      "56",
+      "63",
+      "70"
+    ],
+    "correctAnswer": "56",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "easy",
+    "explanation": "35 + 21 = 56",
+    "_cacheBreaker": "1756033578388_21"
+  },
+  {
+    "_id": "math_7_easy_022",
+    "content": "Solve: 7x = 84",
+    "type": "multiple_choice",
+    "options": [
+      "x = 70",
+      "x = 12",
+      "x = 7",
+      "x = 42"
+    ],
+    "correctAnswer": "x = 12",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "easy",
+    "explanation": "x = 84 ÷ 7 = 12",
+    "_cacheBreaker": "1756033578388_22"
+  },
+  {
+    "_id": "math_7_easy_023",
+    "content": "What is 70% of 100?",
+    "type": "multiple_choice",
+    "options": [
+      "35",
+      "70",
+      "105",
+      "140"
+    ],
+    "correctAnswer": "70",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "easy",
+    "explanation": "70% of 100 = 70",
+    "_cacheBreaker": "1756033578388_23"
+  },
+  {
+    "_id": "math_7_easy_024",
+    "content": "Convert 7/10 to a decimal.",
+    "type": "multiple_choice",
+    "options": [
+      "0.7",
+      "7.0",
+      "7/100",
+      "10.7"
+    ],
+    "correctAnswer": "0.7",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "easy",
+    "explanation": "7/10 = 0.7",
+    "_cacheBreaker": "1756033578388_24"
+  },
+  {
+    "_id": "math_7_easy_025",
+    "content": "What is the area of a square with side length 9 cm?",
+    "type": "multiple_choice",
+    "options": [
+      "36 cm²",
+      "81 cm²",
+      "9 cm²",
+      "18 cm²"
+    ],
+    "correctAnswer": "81 cm²",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "easy",
+    "explanation": "Area of square = side² = 9² = 81 cm²",
+    "_cacheBreaker": "1756033578388_25"
+  },
+  {
+    "_id": "math_7_easy_026",
+    "content": "What is 35 + 21?",
+    "type": "multiple_choice",
+    "options": [
+      "49",
+      "56",
+      "63",
+      "70"
+    ],
+    "correctAnswer": "56",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "easy",
+    "explanation": "35 + 21 = 56",
+    "_cacheBreaker": "1756033578388_26"
+  },
+  {
+    "_id": "math_7_easy_027",
+    "content": "Solve: 7x = 84",
+    "type": "multiple_choice",
+    "options": [
+      "x = 70",
+      "x = 12",
+      "x = 7",
+      "x = 42"
+    ],
+    "correctAnswer": "x = 12",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "easy",
+    "explanation": "x = 84 ÷ 7 = 12",
+    "_cacheBreaker": "1756033578388_27"
+  },
+  {
+    "_id": "math_7_easy_028",
+    "content": "What is 70% of 100?",
+    "type": "multiple_choice",
+    "options": [
+      "35",
+      "70",
+      "105",
+      "140"
+    ],
+    "correctAnswer": "70",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "easy",
+    "explanation": "70% of 100 = 70",
+    "_cacheBreaker": "1756033578388_28"
+  },
+  {
+    "_id": "math_7_easy_029",
+    "content": "Convert 7/10 to a decimal.",
+    "type": "multiple_choice",
+    "options": [
+      "0.7",
+      "7.0",
+      "7/100",
+      "10.7"
+    ],
+    "correctAnswer": "0.7",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "easy",
+    "explanation": "7/10 = 0.7",
+    "_cacheBreaker": "1756033578388_29"
+  },
+  {
+    "_id": "math_7_easy_030",
+    "content": "What is the area of a square with side length 9 cm?",
+    "type": "multiple_choice",
+    "options": [
+      "36 cm²",
+      "81 cm²",
+      "9 cm²",
+      "18 cm²"
+    ],
+    "correctAnswer": "81 cm²",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "easy",
+    "explanation": "Area of square = side² = 9² = 81 cm²",
+    "_cacheBreaker": "1756033578388_30"
+  },
+  {
+    "_id": "math_7_easy_031",
+    "content": "What is 35 + 21?",
+    "type": "multiple_choice",
+    "options": [
+      "49",
+      "56",
+      "63",
+      "70"
+    ],
+    "correctAnswer": "56",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "easy",
+    "explanation": "35 + 21 = 56",
+    "_cacheBreaker": "1756033578388_31"
+  },
+  {
+    "_id": "math_7_easy_032",
+    "content": "Solve: 7x = 84",
+    "type": "multiple_choice",
+    "options": [
+      "x = 70",
+      "x = 12",
+      "x = 7",
+      "x = 42"
+    ],
+    "correctAnswer": "x = 12",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "easy",
+    "explanation": "x = 84 ÷ 7 = 12",
+    "_cacheBreaker": "1756033578388_32"
+  },
+  {
+    "_id": "math_7_easy_033",
+    "content": "What is 70% of 100?",
+    "type": "multiple_choice",
+    "options": [
+      "35",
+      "70",
+      "105",
+      "140"
+    ],
+    "correctAnswer": "70",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "easy",
+    "explanation": "70% of 100 = 70",
+    "_cacheBreaker": "1756033578388_33"
+  },
+  {
+    "_id": "math_7_easy_034",
+    "content": "Convert 7/10 to a decimal.",
+    "type": "multiple_choice",
+    "options": [
+      "0.7",
+      "7.0",
+      "7/100",
+      "10.7"
+    ],
+    "correctAnswer": "0.7",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "easy",
+    "explanation": "7/10 = 0.7",
+    "_cacheBreaker": "1756033578388_34"
+  },
+  {
+    "_id": "math_7_easy_035",
+    "content": "What is the area of a square with side length 9 cm?",
+    "type": "multiple_choice",
+    "options": [
+      "36 cm²",
+      "81 cm²",
+      "9 cm²",
+      "18 cm²"
+    ],
+    "correctAnswer": "81 cm²",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "easy",
+    "explanation": "Area of square = side² = 9² = 81 cm²",
+    "_cacheBreaker": "1756033578388_35"
+  },
+  {
+    "_id": "math_7_easy_036",
+    "content": "What is 35 + 21?",
+    "type": "multiple_choice",
+    "options": [
+      "49",
+      "56",
+      "63",
+      "70"
+    ],
+    "correctAnswer": "56",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "easy",
+    "explanation": "35 + 21 = 56",
+    "_cacheBreaker": "1756033578388_36"
+  },
+  {
+    "_id": "math_7_easy_037",
+    "content": "Solve: 7x = 84",
+    "type": "multiple_choice",
+    "options": [
+      "x = 70",
+      "x = 12",
+      "x = 7",
+      "x = 42"
+    ],
+    "correctAnswer": "x = 12",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "easy",
+    "explanation": "x = 84 ÷ 7 = 12",
+    "_cacheBreaker": "1756033578388_37"
+  },
+  {
+    "_id": "math_7_easy_038",
+    "content": "What is 70% of 100?",
+    "type": "multiple_choice",
+    "options": [
+      "35",
+      "70",
+      "105",
+      "140"
+    ],
+    "correctAnswer": "70",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "easy",
+    "explanation": "70% of 100 = 70",
+    "_cacheBreaker": "1756033578388_38"
+  },
+  {
+    "_id": "math_7_easy_039",
+    "content": "Convert 7/10 to a decimal.",
+    "type": "multiple_choice",
+    "options": [
+      "0.7",
+      "7.0",
+      "7/100",
+      "10.7"
+    ],
+    "correctAnswer": "0.7",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "easy",
+    "explanation": "7/10 = 0.7",
+    "_cacheBreaker": "1756033578388_39"
+  },
+  {
+    "_id": "math_7_easy_040",
+    "content": "What is the area of a square with side length 9 cm?",
+    "type": "multiple_choice",
+    "options": [
+      "36 cm²",
+      "81 cm²",
+      "9 cm²",
+      "18 cm²"
+    ],
+    "correctAnswer": "81 cm²",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "easy",
+    "explanation": "Area of square = side² = 9² = 81 cm²",
+    "_cacheBreaker": "1756033578388_40"
+  },
+  {
+    "_id": "math_7_easy_041",
+    "content": "What is 35 + 21?",
+    "type": "multiple_choice",
+    "options": [
+      "49",
+      "56",
+      "63",
+      "70"
+    ],
+    "correctAnswer": "56",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "easy",
+    "explanation": "35 + 21 = 56",
+    "_cacheBreaker": "1756033578388_41"
+  },
+  {
+    "_id": "math_7_easy_042",
+    "content": "Solve: 7x = 84",
+    "type": "multiple_choice",
+    "options": [
+      "x = 70",
+      "x = 12",
+      "x = 7",
+      "x = 42"
+    ],
+    "correctAnswer": "x = 12",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "easy",
+    "explanation": "x = 84 ÷ 7 = 12",
+    "_cacheBreaker": "1756033578388_42"
+  },
+  {
+    "_id": "math_7_easy_043",
+    "content": "What is 70% of 100?",
+    "type": "multiple_choice",
+    "options": [
+      "35",
+      "70",
+      "105",
+      "140"
+    ],
+    "correctAnswer": "70",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "easy",
+    "explanation": "70% of 100 = 70",
+    "_cacheBreaker": "1756033578388_43"
+  },
+  {
+    "_id": "math_7_easy_044",
+    "content": "Convert 7/10 to a decimal.",
+    "type": "multiple_choice",
+    "options": [
+      "0.7",
+      "7.0",
+      "7/100",
+      "10.7"
+    ],
+    "correctAnswer": "0.7",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "easy",
+    "explanation": "7/10 = 0.7",
+    "_cacheBreaker": "1756033578388_44"
+  },
+  {
+    "_id": "math_7_easy_045",
+    "content": "What is the area of a square with side length 9 cm?",
+    "type": "multiple_choice",
+    "options": [
+      "36 cm²",
+      "81 cm²",
+      "9 cm²",
+      "18 cm²"
+    ],
+    "correctAnswer": "81 cm²",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "easy",
+    "explanation": "Area of square = side² = 9² = 81 cm²",
+    "_cacheBreaker": "1756033578388_45"
+  },
+  {
+    "_id": "math_7_easy_046",
+    "content": "What is 35 + 21?",
+    "type": "multiple_choice",
+    "options": [
+      "49",
+      "56",
+      "63",
+      "70"
+    ],
+    "correctAnswer": "56",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "easy",
+    "explanation": "35 + 21 = 56",
+    "_cacheBreaker": "1756033578388_46"
+  },
+  {
+    "_id": "math_7_easy_047",
+    "content": "Solve: 7x = 84",
+    "type": "multiple_choice",
+    "options": [
+      "x = 70",
+      "x = 12",
+      "x = 7",
+      "x = 42"
+    ],
+    "correctAnswer": "x = 12",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "easy",
+    "explanation": "x = 84 ÷ 7 = 12",
+    "_cacheBreaker": "1756033578388_47"
+  },
+  {
+    "_id": "math_7_easy_048",
+    "content": "What is 70% of 100?",
+    "type": "multiple_choice",
+    "options": [
+      "35",
+      "70",
+      "105",
+      "140"
+    ],
+    "correctAnswer": "70",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "easy",
+    "explanation": "70% of 100 = 70",
+    "_cacheBreaker": "1756033578388_48"
+  },
+  {
+    "_id": "math_7_easy_049",
+    "content": "Convert 7/10 to a decimal.",
+    "type": "multiple_choice",
+    "options": [
+      "0.7",
+      "7.0",
+      "7/100",
+      "10.7"
+    ],
+    "correctAnswer": "0.7",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "easy",
+    "explanation": "7/10 = 0.7",
+    "_cacheBreaker": "1756033578388_49"
+  },
+  {
+    "_id": "math_7_easy_050",
+    "content": "What is the area of a square with side length 9 cm?",
+    "type": "multiple_choice",
+    "options": [
+      "36 cm²",
+      "81 cm²",
+      "9 cm²",
+      "18 cm²"
+    ],
+    "correctAnswer": "81 cm²",
+    "subject": "math",
+    "grade": "7",
+    "difficulty": "easy",
+    "explanation": "Area of square = side² = 9² = 81 cm²",
+    "_cacheBreaker": "1756033578388_50"
   }
 ]

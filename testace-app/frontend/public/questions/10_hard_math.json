@@ -1,342 +1,852 @@
 [
   {
-    "_id": "math_10_hard_1755775410762_1",
-    "content": "Solve the quadratic equation: x² - 5x + 6 = 0",
+    "_id": "math_10_hard_001",
+    "content": "Solve: 10x - 20 = 9x + 30",
     "type": "multiple_choice",
     "options": [
-      "x = 2, 3",
-      "x = 1, 6",
-      "x = -2, -3",
-      "x = 2, -3"
+      "x = 50",
+      "x = 40",
+      "x = 60",
+      "x = 30"
     ],
-    "correctAnswer": "x = 2, 3",
+    "correctAnswer": "x = 50",
     "subject": "math",
     "grade": "10",
     "difficulty": "hard",
-    "explanation": "Factor: (x - 2)(x - 3) = 0. So x = 2 or x = 3",
-    "_cacheBreaker": "1755775410762_0"
+    "explanation": "10x - 9x = 30 + 20, so x = 50",
+    "_cacheBreaker": "1756033578433_1"
   },
   {
-    "_id": "math_10_hard_1755775410762_2",
-    "content": "If log₂(x) = 4, what is x?",
+    "_id": "math_10_hard_002",
+    "content": "If f(x) = 10x² + 20x, what is f(10)?",
     "type": "multiple_choice",
     "options": [
-      "16",
-      "8",
-      "12",
-      "6"
+      "1200",
+      "120",
+      "30",
+      "100"
     ],
-    "correctAnswer": "16",
+    "correctAnswer": "1200",
     "subject": "math",
     "grade": "10",
     "difficulty": "hard",
-    "explanation": "log₂(x) = 4 means 2⁴ = x. So x = 16",
-    "_cacheBreaker": "1755775410762_1"
+    "explanation": "f(10) = 10(10)² + 20(10) = 1000 + 200 = 1200",
+    "_cacheBreaker": "1756033578434_2"
   },
   {
-    "_id": "math_10_hard_1755775410762_3",
-    "content": "Find sin(30°)",
+    "_id": "math_10_hard_003",
+    "content": "What is the vertex of the parabola y = x² - 20x + 10?",
     "type": "multiple_choice",
     "options": [
-      "1/2",
-      "√3/2",
-      "√2/2",
-      "1"
+      "(10, -10)",
+      "(10, 0)",
+      "(0, 10)",
+      "(10, 10)"
     ],
-    "correctAnswer": "1/2",
+    "correctAnswer": "(10, -10)",
     "subject": "math",
     "grade": "10",
     "difficulty": "hard",
-    "explanation": "sin(30°) = 1/2 is a standard trigonometric value",
-    "_cacheBreaker": "1755775410762_2"
+    "explanation": "Vertex x-coordinate = -b/2a = 20/2 = 10. y = 10² - 20(10) + 10 = -10",
+    "_cacheBreaker": "1756033578434_3"
   },
   {
-    "_id": "math_10_hard_1755775410762_4",
-    "content": "Solve the quadratic equation: x² - 5x + 6 = 0",
+    "_id": "math_10_hard_004",
+    "content": "Factor completely: x² - 100",
     "type": "multiple_choice",
     "options": [
-      "x = 2, 3",
-      "x = 1, 6",
-      "x = -2, -3",
-      "x = 2, -3"
+      "(x - 10)(x + 10)",
+      "(x - 10)²",
+      "x(x - 10)",
+      "Cannot be factored"
     ],
-    "correctAnswer": "x = 2, 3",
+    "correctAnswer": "(x - 10)(x + 10)",
     "subject": "math",
     "grade": "10",
     "difficulty": "hard",
-    "explanation": "Factor: (x - 2)(x - 3) = 0. So x = 2 or x = 3",
-    "_cacheBreaker": "1755775410762_3"
+    "explanation": "x² - 100 is a difference of squares: (x - 10)(x + 10)",
+    "_cacheBreaker": "1756033578434_4"
   },
   {
-    "_id": "math_10_hard_1755775410762_5",
-    "content": "If log₂(x) = 4, what is x?",
+    "_id": "math_10_hard_005",
+    "content": "What is the range of f(x) = -x² + 20?",
     "type": "multiple_choice",
     "options": [
-      "16",
-      "8",
-      "12",
-      "6"
+      "All real numbers",
+      "y ≤ 20",
+      "y ≥ 20",
+      "y > 0"
     ],
-    "correctAnswer": "16",
+    "correctAnswer": "y ≤ 20",
     "subject": "math",
     "grade": "10",
     "difficulty": "hard",
-    "explanation": "log₂(x) = 4 means 2⁴ = x. So x = 16",
-    "_cacheBreaker": "1755775410762_4"
+    "explanation": "Since the parabola opens downward, the maximum value is 20",
+    "_cacheBreaker": "1756033578434_5"
   },
   {
-    "_id": "math_10_hard_1755775410763_6",
-    "content": "Find sin(30°)",
+    "_id": "math_10_hard_006",
+    "content": "Solve: 10x - 20 = 9x + 30",
     "type": "multiple_choice",
     "options": [
-      "1/2",
-      "√3/2",
-      "√2/2",
-      "1"
+      "x = 50",
+      "x = 40",
+      "x = 60",
+      "x = 30"
     ],
-    "correctAnswer": "1/2",
+    "correctAnswer": "x = 50",
     "subject": "math",
     "grade": "10",
     "difficulty": "hard",
-    "explanation": "sin(30°) = 1/2 is a standard trigonometric value",
-    "_cacheBreaker": "1755775410763_5"
+    "explanation": "10x - 9x = 30 + 20, so x = 50",
+    "_cacheBreaker": "1756033578434_6"
   },
   {
-    "_id": "math_10_hard_1755775410763_7",
-    "content": "Solve the quadratic equation: x² - 5x + 6 = 0",
+    "_id": "math_10_hard_007",
+    "content": "If f(x) = 10x² + 20x, what is f(10)?",
     "type": "multiple_choice",
     "options": [
-      "x = 2, 3",
-      "x = 1, 6",
-      "x = -2, -3",
-      "x = 2, -3"
+      "1200",
+      "120",
+      "30",
+      "100"
     ],
-    "correctAnswer": "x = 2, 3",
+    "correctAnswer": "1200",
     "subject": "math",
     "grade": "10",
     "difficulty": "hard",
-    "explanation": "Factor: (x - 2)(x - 3) = 0. So x = 2 or x = 3",
-    "_cacheBreaker": "1755775410763_6"
+    "explanation": "f(10) = 10(10)² + 20(10) = 1000 + 200 = 1200",
+    "_cacheBreaker": "1756033578434_7"
   },
   {
-    "_id": "math_10_hard_1755775410763_8",
-    "content": "If log₂(x) = 4, what is x?",
+    "_id": "math_10_hard_008",
+    "content": "What is the vertex of the parabola y = x² - 20x + 10?",
     "type": "multiple_choice",
     "options": [
-      "16",
-      "8",
-      "12",
-      "6"
+      "(10, -10)",
+      "(10, 0)",
+      "(0, 10)",
+      "(10, 10)"
     ],
-    "correctAnswer": "16",
+    "correctAnswer": "(10, -10)",
     "subject": "math",
     "grade": "10",
     "difficulty": "hard",
-    "explanation": "log₂(x) = 4 means 2⁴ = x. So x = 16",
-    "_cacheBreaker": "1755775410763_7"
+    "explanation": "Vertex x-coordinate = -b/2a = 20/2 = 10. y = 10² - 20(10) + 10 = -10",
+    "_cacheBreaker": "1756033578434_8"
   },
   {
-    "_id": "math_10_hard_1755775410763_9",
-    "content": "Find sin(30°)",
+    "_id": "math_10_hard_009",
+    "content": "Factor completely: x² - 100",
     "type": "multiple_choice",
     "options": [
-      "1/2",
-      "√3/2",
-      "√2/2",
-      "1"
+      "(x - 10)(x + 10)",
+      "(x - 10)²",
+      "x(x - 10)",
+      "Cannot be factored"
     ],
-    "correctAnswer": "1/2",
+    "correctAnswer": "(x - 10)(x + 10)",
     "subject": "math",
     "grade": "10",
     "difficulty": "hard",
-    "explanation": "sin(30°) = 1/2 is a standard trigonometric value",
-    "_cacheBreaker": "1755775410763_8"
+    "explanation": "x² - 100 is a difference of squares: (x - 10)(x + 10)",
+    "_cacheBreaker": "1756033578434_9"
   },
   {
-    "_id": "math_10_hard_1755775410763_10",
-    "content": "Solve the quadratic equation: x² - 5x + 6 = 0",
+    "_id": "math_10_hard_010",
+    "content": "What is the range of f(x) = -x² + 20?",
     "type": "multiple_choice",
     "options": [
-      "x = 2, 3",
-      "x = 1, 6",
-      "x = -2, -3",
-      "x = 2, -3"
+      "All real numbers",
+      "y ≤ 20",
+      "y ≥ 20",
+      "y > 0"
     ],
-    "correctAnswer": "x = 2, 3",
+    "correctAnswer": "y ≤ 20",
     "subject": "math",
     "grade": "10",
     "difficulty": "hard",
-    "explanation": "Factor: (x - 2)(x - 3) = 0. So x = 2 or x = 3",
-    "_cacheBreaker": "1755775410763_9"
+    "explanation": "Since the parabola opens downward, the maximum value is 20",
+    "_cacheBreaker": "1756033578434_10"
   },
   {
-    "_id": "math_10_hard_1755775410763_11",
-    "content": "If log₂(x) = 4, what is x?",
+    "_id": "math_10_hard_011",
+    "content": "Solve: 10x - 20 = 9x + 30",
     "type": "multiple_choice",
     "options": [
-      "16",
-      "8",
-      "12",
-      "6"
+      "x = 50",
+      "x = 40",
+      "x = 60",
+      "x = 30"
     ],
-    "correctAnswer": "16",
+    "correctAnswer": "x = 50",
     "subject": "math",
     "grade": "10",
     "difficulty": "hard",
-    "explanation": "log₂(x) = 4 means 2⁴ = x. So x = 16",
-    "_cacheBreaker": "1755775410763_10"
+    "explanation": "10x - 9x = 30 + 20, so x = 50",
+    "_cacheBreaker": "1756033578434_11"
   },
   {
-    "_id": "math_10_hard_1755775410763_12",
-    "content": "Find sin(30°)",
+    "_id": "math_10_hard_012",
+    "content": "If f(x) = 10x² + 20x, what is f(10)?",
     "type": "multiple_choice",
     "options": [
-      "1/2",
-      "√3/2",
-      "√2/2",
-      "1"
+      "1200",
+      "120",
+      "30",
+      "100"
     ],
-    "correctAnswer": "1/2",
+    "correctAnswer": "1200",
     "subject": "math",
     "grade": "10",
     "difficulty": "hard",
-    "explanation": "sin(30°) = 1/2 is a standard trigonometric value",
-    "_cacheBreaker": "1755775410763_11"
+    "explanation": "f(10) = 10(10)² + 20(10) = 1000 + 200 = 1200",
+    "_cacheBreaker": "1756033578434_12"
   },
   {
-    "_id": "math_10_hard_1755775410763_13",
-    "content": "Solve the quadratic equation: x² - 5x + 6 = 0",
+    "_id": "math_10_hard_013",
+    "content": "What is the vertex of the parabola y = x² - 20x + 10?",
     "type": "multiple_choice",
     "options": [
-      "x = 2, 3",
-      "x = 1, 6",
-      "x = -2, -3",
-      "x = 2, -3"
+      "(10, -10)",
+      "(10, 0)",
+      "(0, 10)",
+      "(10, 10)"
     ],
-    "correctAnswer": "x = 2, 3",
+    "correctAnswer": "(10, -10)",
     "subject": "math",
     "grade": "10",
     "difficulty": "hard",
-    "explanation": "Factor: (x - 2)(x - 3) = 0. So x = 2 or x = 3",
-    "_cacheBreaker": "1755775410763_12"
+    "explanation": "Vertex x-coordinate = -b/2a = 20/2 = 10. y = 10² - 20(10) + 10 = -10",
+    "_cacheBreaker": "1756033578434_13"
   },
   {
-    "_id": "math_10_hard_1755775410763_14",
-    "content": "If log₂(x) = 4, what is x?",
+    "_id": "math_10_hard_014",
+    "content": "Factor completely: x² - 100",
     "type": "multiple_choice",
     "options": [
-      "16",
-      "8",
-      "12",
-      "6"
+      "(x - 10)(x + 10)",
+      "(x - 10)²",
+      "x(x - 10)",
+      "Cannot be factored"
     ],
-    "correctAnswer": "16",
+    "correctAnswer": "(x - 10)(x + 10)",
     "subject": "math",
     "grade": "10",
     "difficulty": "hard",
-    "explanation": "log₂(x) = 4 means 2⁴ = x. So x = 16",
-    "_cacheBreaker": "1755775410763_13"
+    "explanation": "x² - 100 is a difference of squares: (x - 10)(x + 10)",
+    "_cacheBreaker": "1756033578434_14"
   },
   {
-    "_id": "math_10_hard_1755775410763_15",
-    "content": "Find sin(30°)",
+    "_id": "math_10_hard_015",
+    "content": "What is the range of f(x) = -x² + 20?",
     "type": "multiple_choice",
     "options": [
-      "1/2",
-      "√3/2",
-      "√2/2",
-      "1"
+      "All real numbers",
+      "y ≤ 20",
+      "y ≥ 20",
+      "y > 0"
     ],
-    "correctAnswer": "1/2",
+    "correctAnswer": "y ≤ 20",
     "subject": "math",
     "grade": "10",
     "difficulty": "hard",
-    "explanation": "sin(30°) = 1/2 is a standard trigonometric value",
-    "_cacheBreaker": "1755775410763_14"
+    "explanation": "Since the parabola opens downward, the maximum value is 20",
+    "_cacheBreaker": "1756033578434_15"
   },
   {
-    "_id": "math_10_hard_1755775410763_16",
-    "content": "Solve the quadratic equation: x² - 5x + 6 = 0",
+    "_id": "math_10_hard_016",
+    "content": "Solve: 10x - 20 = 9x + 30",
     "type": "multiple_choice",
     "options": [
-      "x = 2, 3",
-      "x = 1, 6",
-      "x = -2, -3",
-      "x = 2, -3"
+      "x = 50",
+      "x = 40",
+      "x = 60",
+      "x = 30"
     ],
-    "correctAnswer": "x = 2, 3",
+    "correctAnswer": "x = 50",
     "subject": "math",
     "grade": "10",
     "difficulty": "hard",
-    "explanation": "Factor: (x - 2)(x - 3) = 0. So x = 2 or x = 3",
-    "_cacheBreaker": "1755775410763_15"
+    "explanation": "10x - 9x = 30 + 20, so x = 50",
+    "_cacheBreaker": "1756033578434_16"
   },
   {
-    "_id": "math_10_hard_1755775410763_17",
-    "content": "If log₂(x) = 4, what is x?",
+    "_id": "math_10_hard_017",
+    "content": "If f(x) = 10x² + 20x, what is f(10)?",
     "type": "multiple_choice",
     "options": [
-      "16",
-      "8",
-      "12",
-      "6"
+      "1200",
+      "120",
+      "30",
+      "100"
     ],
-    "correctAnswer": "16",
+    "correctAnswer": "1200",
     "subject": "math",
     "grade": "10",
     "difficulty": "hard",
-    "explanation": "log₂(x) = 4 means 2⁴ = x. So x = 16",
-    "_cacheBreaker": "1755775410763_16"
+    "explanation": "f(10) = 10(10)² + 20(10) = 1000 + 200 = 1200",
+    "_cacheBreaker": "1756033578434_17"
   },
   {
-    "_id": "math_10_hard_1755775410763_18",
-    "content": "Find sin(30°)",
+    "_id": "math_10_hard_018",
+    "content": "What is the vertex of the parabola y = x² - 20x + 10?",
     "type": "multiple_choice",
     "options": [
-      "1/2",
-      "√3/2",
-      "√2/2",
-      "1"
+      "(10, -10)",
+      "(10, 0)",
+      "(0, 10)",
+      "(10, 10)"
     ],
-    "correctAnswer": "1/2",
+    "correctAnswer": "(10, -10)",
     "subject": "math",
     "grade": "10",
     "difficulty": "hard",
-    "explanation": "sin(30°) = 1/2 is a standard trigonometric value",
-    "_cacheBreaker": "1755775410763_17"
+    "explanation": "Vertex x-coordinate = -b/2a = 20/2 = 10. y = 10² - 20(10) + 10 = -10",
+    "_cacheBreaker": "1756033578434_18"
   },
   {
-    "_id": "math_10_hard_1755775410763_19",
-    "content": "Solve the quadratic equation: x² - 5x + 6 = 0",
+    "_id": "math_10_hard_019",
+    "content": "Factor completely: x² - 100",
     "type": "multiple_choice",
     "options": [
-      "x = 2, 3",
-      "x = 1, 6",
-      "x = -2, -3",
-      "x = 2, -3"
+      "(x - 10)(x + 10)",
+      "(x - 10)²",
+      "x(x - 10)",
+      "Cannot be factored"
     ],
-    "correctAnswer": "x = 2, 3",
+    "correctAnswer": "(x - 10)(x + 10)",
     "subject": "math",
     "grade": "10",
     "difficulty": "hard",
-    "explanation": "Factor: (x - 2)(x - 3) = 0. So x = 2 or x = 3",
-    "_cacheBreaker": "1755775410763_18"
+    "explanation": "x² - 100 is a difference of squares: (x - 10)(x + 10)",
+    "_cacheBreaker": "1756033578434_19"
   },
   {
-    "_id": "math_10_hard_1755775410763_20",
-    "content": "If log₂(x) = 4, what is x?",
+    "_id": "math_10_hard_020",
+    "content": "What is the range of f(x) = -x² + 20?",
     "type": "multiple_choice",
     "options": [
-      "16",
-      "8",
-      "12",
-      "6"
+      "All real numbers",
+      "y ≤ 20",
+      "y ≥ 20",
+      "y > 0"
     ],
-    "correctAnswer": "16",
+    "correctAnswer": "y ≤ 20",
     "subject": "math",
     "grade": "10",
     "difficulty": "hard",
-    "explanation": "log₂(x) = 4 means 2⁴ = x. So x = 16",
-    "_cacheBreaker": "1755775410763_19"
+    "explanation": "Since the parabola opens downward, the maximum value is 20",
+    "_cacheBreaker": "1756033578434_20"
+  },
+  {
+    "_id": "math_10_hard_021",
+    "content": "Solve: 10x - 20 = 9x + 30",
+    "type": "multiple_choice",
+    "options": [
+      "x = 50",
+      "x = 40",
+      "x = 60",
+      "x = 30"
+    ],
+    "correctAnswer": "x = 50",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "hard",
+    "explanation": "10x - 9x = 30 + 20, so x = 50",
+    "_cacheBreaker": "1756033578434_21"
+  },
+  {
+    "_id": "math_10_hard_022",
+    "content": "If f(x) = 10x² + 20x, what is f(10)?",
+    "type": "multiple_choice",
+    "options": [
+      "1200",
+      "120",
+      "30",
+      "100"
+    ],
+    "correctAnswer": "1200",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "hard",
+    "explanation": "f(10) = 10(10)² + 20(10) = 1000 + 200 = 1200",
+    "_cacheBreaker": "1756033578434_22"
+  },
+  {
+    "_id": "math_10_hard_023",
+    "content": "What is the vertex of the parabola y = x² - 20x + 10?",
+    "type": "multiple_choice",
+    "options": [
+      "(10, -10)",
+      "(10, 0)",
+      "(0, 10)",
+      "(10, 10)"
+    ],
+    "correctAnswer": "(10, -10)",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "hard",
+    "explanation": "Vertex x-coordinate = -b/2a = 20/2 = 10. y = 10² - 20(10) + 10 = -10",
+    "_cacheBreaker": "1756033578434_23"
+  },
+  {
+    "_id": "math_10_hard_024",
+    "content": "Factor completely: x² - 100",
+    "type": "multiple_choice",
+    "options": [
+      "(x - 10)(x + 10)",
+      "(x - 10)²",
+      "x(x - 10)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x - 10)(x + 10)",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "hard",
+    "explanation": "x² - 100 is a difference of squares: (x - 10)(x + 10)",
+    "_cacheBreaker": "1756033578434_24"
+  },
+  {
+    "_id": "math_10_hard_025",
+    "content": "What is the range of f(x) = -x² + 20?",
+    "type": "multiple_choice",
+    "options": [
+      "All real numbers",
+      "y ≤ 20",
+      "y ≥ 20",
+      "y > 0"
+    ],
+    "correctAnswer": "y ≤ 20",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "hard",
+    "explanation": "Since the parabola opens downward, the maximum value is 20",
+    "_cacheBreaker": "1756033578434_25"
+  },
+  {
+    "_id": "math_10_hard_026",
+    "content": "Solve: 10x - 20 = 9x + 30",
+    "type": "multiple_choice",
+    "options": [
+      "x = 50",
+      "x = 40",
+      "x = 60",
+      "x = 30"
+    ],
+    "correctAnswer": "x = 50",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "hard",
+    "explanation": "10x - 9x = 30 + 20, so x = 50",
+    "_cacheBreaker": "1756033578434_26"
+  },
+  {
+    "_id": "math_10_hard_027",
+    "content": "If f(x) = 10x² + 20x, what is f(10)?",
+    "type": "multiple_choice",
+    "options": [
+      "1200",
+      "120",
+      "30",
+      "100"
+    ],
+    "correctAnswer": "1200",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "hard",
+    "explanation": "f(10) = 10(10)² + 20(10) = 1000 + 200 = 1200",
+    "_cacheBreaker": "1756033578434_27"
+  },
+  {
+    "_id": "math_10_hard_028",
+    "content": "What is the vertex of the parabola y = x² - 20x + 10?",
+    "type": "multiple_choice",
+    "options": [
+      "(10, -10)",
+      "(10, 0)",
+      "(0, 10)",
+      "(10, 10)"
+    ],
+    "correctAnswer": "(10, -10)",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "hard",
+    "explanation": "Vertex x-coordinate = -b/2a = 20/2 = 10. y = 10² - 20(10) + 10 = -10",
+    "_cacheBreaker": "1756033578434_28"
+  },
+  {
+    "_id": "math_10_hard_029",
+    "content": "Factor completely: x² - 100",
+    "type": "multiple_choice",
+    "options": [
+      "(x - 10)(x + 10)",
+      "(x - 10)²",
+      "x(x - 10)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x - 10)(x + 10)",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "hard",
+    "explanation": "x² - 100 is a difference of squares: (x - 10)(x + 10)",
+    "_cacheBreaker": "1756033578434_29"
+  },
+  {
+    "_id": "math_10_hard_030",
+    "content": "What is the range of f(x) = -x² + 20?",
+    "type": "multiple_choice",
+    "options": [
+      "All real numbers",
+      "y ≤ 20",
+      "y ≥ 20",
+      "y > 0"
+    ],
+    "correctAnswer": "y ≤ 20",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "hard",
+    "explanation": "Since the parabola opens downward, the maximum value is 20",
+    "_cacheBreaker": "1756033578434_30"
+  },
+  {
+    "_id": "math_10_hard_031",
+    "content": "Solve: 10x - 20 = 9x + 30",
+    "type": "multiple_choice",
+    "options": [
+      "x = 50",
+      "x = 40",
+      "x = 60",
+      "x = 30"
+    ],
+    "correctAnswer": "x = 50",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "hard",
+    "explanation": "10x - 9x = 30 + 20, so x = 50",
+    "_cacheBreaker": "1756033578434_31"
+  },
+  {
+    "_id": "math_10_hard_032",
+    "content": "If f(x) = 10x² + 20x, what is f(10)?",
+    "type": "multiple_choice",
+    "options": [
+      "1200",
+      "120",
+      "30",
+      "100"
+    ],
+    "correctAnswer": "1200",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "hard",
+    "explanation": "f(10) = 10(10)² + 20(10) = 1000 + 200 = 1200",
+    "_cacheBreaker": "1756033578434_32"
+  },
+  {
+    "_id": "math_10_hard_033",
+    "content": "What is the vertex of the parabola y = x² - 20x + 10?",
+    "type": "multiple_choice",
+    "options": [
+      "(10, -10)",
+      "(10, 0)",
+      "(0, 10)",
+      "(10, 10)"
+    ],
+    "correctAnswer": "(10, -10)",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "hard",
+    "explanation": "Vertex x-coordinate = -b/2a = 20/2 = 10. y = 10² - 20(10) + 10 = -10",
+    "_cacheBreaker": "1756033578434_33"
+  },
+  {
+    "_id": "math_10_hard_034",
+    "content": "Factor completely: x² - 100",
+    "type": "multiple_choice",
+    "options": [
+      "(x - 10)(x + 10)",
+      "(x - 10)²",
+      "x(x - 10)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x - 10)(x + 10)",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "hard",
+    "explanation": "x² - 100 is a difference of squares: (x - 10)(x + 10)",
+    "_cacheBreaker": "1756033578434_34"
+  },
+  {
+    "_id": "math_10_hard_035",
+    "content": "What is the range of f(x) = -x² + 20?",
+    "type": "multiple_choice",
+    "options": [
+      "All real numbers",
+      "y ≤ 20",
+      "y ≥ 20",
+      "y > 0"
+    ],
+    "correctAnswer": "y ≤ 20",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "hard",
+    "explanation": "Since the parabola opens downward, the maximum value is 20",
+    "_cacheBreaker": "1756033578434_35"
+  },
+  {
+    "_id": "math_10_hard_036",
+    "content": "Solve: 10x - 20 = 9x + 30",
+    "type": "multiple_choice",
+    "options": [
+      "x = 50",
+      "x = 40",
+      "x = 60",
+      "x = 30"
+    ],
+    "correctAnswer": "x = 50",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "hard",
+    "explanation": "10x - 9x = 30 + 20, so x = 50",
+    "_cacheBreaker": "1756033578434_36"
+  },
+  {
+    "_id": "math_10_hard_037",
+    "content": "If f(x) = 10x² + 20x, what is f(10)?",
+    "type": "multiple_choice",
+    "options": [
+      "1200",
+      "120",
+      "30",
+      "100"
+    ],
+    "correctAnswer": "1200",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "hard",
+    "explanation": "f(10) = 10(10)² + 20(10) = 1000 + 200 = 1200",
+    "_cacheBreaker": "1756033578434_37"
+  },
+  {
+    "_id": "math_10_hard_038",
+    "content": "What is the vertex of the parabola y = x² - 20x + 10?",
+    "type": "multiple_choice",
+    "options": [
+      "(10, -10)",
+      "(10, 0)",
+      "(0, 10)",
+      "(10, 10)"
+    ],
+    "correctAnswer": "(10, -10)",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "hard",
+    "explanation": "Vertex x-coordinate = -b/2a = 20/2 = 10. y = 10² - 20(10) + 10 = -10",
+    "_cacheBreaker": "1756033578434_38"
+  },
+  {
+    "_id": "math_10_hard_039",
+    "content": "Factor completely: x² - 100",
+    "type": "multiple_choice",
+    "options": [
+      "(x - 10)(x + 10)",
+      "(x - 10)²",
+      "x(x - 10)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x - 10)(x + 10)",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "hard",
+    "explanation": "x² - 100 is a difference of squares: (x - 10)(x + 10)",
+    "_cacheBreaker": "1756033578434_39"
+  },
+  {
+    "_id": "math_10_hard_040",
+    "content": "What is the range of f(x) = -x² + 20?",
+    "type": "multiple_choice",
+    "options": [
+      "All real numbers",
+      "y ≤ 20",
+      "y ≥ 20",
+      "y > 0"
+    ],
+    "correctAnswer": "y ≤ 20",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "hard",
+    "explanation": "Since the parabola opens downward, the maximum value is 20",
+    "_cacheBreaker": "1756033578434_40"
+  },
+  {
+    "_id": "math_10_hard_041",
+    "content": "Solve: 10x - 20 = 9x + 30",
+    "type": "multiple_choice",
+    "options": [
+      "x = 50",
+      "x = 40",
+      "x = 60",
+      "x = 30"
+    ],
+    "correctAnswer": "x = 50",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "hard",
+    "explanation": "10x - 9x = 30 + 20, so x = 50",
+    "_cacheBreaker": "1756033578434_41"
+  },
+  {
+    "_id": "math_10_hard_042",
+    "content": "If f(x) = 10x² + 20x, what is f(10)?",
+    "type": "multiple_choice",
+    "options": [
+      "1200",
+      "120",
+      "30",
+      "100"
+    ],
+    "correctAnswer": "1200",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "hard",
+    "explanation": "f(10) = 10(10)² + 20(10) = 1000 + 200 = 1200",
+    "_cacheBreaker": "1756033578434_42"
+  },
+  {
+    "_id": "math_10_hard_043",
+    "content": "What is the vertex of the parabola y = x² - 20x + 10?",
+    "type": "multiple_choice",
+    "options": [
+      "(10, -10)",
+      "(10, 0)",
+      "(0, 10)",
+      "(10, 10)"
+    ],
+    "correctAnswer": "(10, -10)",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "hard",
+    "explanation": "Vertex x-coordinate = -b/2a = 20/2 = 10. y = 10² - 20(10) + 10 = -10",
+    "_cacheBreaker": "1756033578434_43"
+  },
+  {
+    "_id": "math_10_hard_044",
+    "content": "Factor completely: x² - 100",
+    "type": "multiple_choice",
+    "options": [
+      "(x - 10)(x + 10)",
+      "(x - 10)²",
+      "x(x - 10)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x - 10)(x + 10)",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "hard",
+    "explanation": "x² - 100 is a difference of squares: (x - 10)(x + 10)",
+    "_cacheBreaker": "1756033578434_44"
+  },
+  {
+    "_id": "math_10_hard_045",
+    "content": "What is the range of f(x) = -x² + 20?",
+    "type": "multiple_choice",
+    "options": [
+      "All real numbers",
+      "y ≤ 20",
+      "y ≥ 20",
+      "y > 0"
+    ],
+    "correctAnswer": "y ≤ 20",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "hard",
+    "explanation": "Since the parabola opens downward, the maximum value is 20",
+    "_cacheBreaker": "1756033578434_45"
+  },
+  {
+    "_id": "math_10_hard_046",
+    "content": "Solve: 10x - 20 = 9x + 30",
+    "type": "multiple_choice",
+    "options": [
+      "x = 50",
+      "x = 40",
+      "x = 60",
+      "x = 30"
+    ],
+    "correctAnswer": "x = 50",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "hard",
+    "explanation": "10x - 9x = 30 + 20, so x = 50",
+    "_cacheBreaker": "1756033578434_46"
+  },
+  {
+    "_id": "math_10_hard_047",
+    "content": "If f(x) = 10x² + 20x, what is f(10)?",
+    "type": "multiple_choice",
+    "options": [
+      "1200",
+      "120",
+      "30",
+      "100"
+    ],
+    "correctAnswer": "1200",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "hard",
+    "explanation": "f(10) = 10(10)² + 20(10) = 1000 + 200 = 1200",
+    "_cacheBreaker": "1756033578434_47"
+  },
+  {
+    "_id": "math_10_hard_048",
+    "content": "What is the vertex of the parabola y = x² - 20x + 10?",
+    "type": "multiple_choice",
+    "options": [
+      "(10, -10)",
+      "(10, 0)",
+      "(0, 10)",
+      "(10, 10)"
+    ],
+    "correctAnswer": "(10, -10)",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "hard",
+    "explanation": "Vertex x-coordinate = -b/2a = 20/2 = 10. y = 10² - 20(10) + 10 = -10",
+    "_cacheBreaker": "1756033578434_48"
+  },
+  {
+    "_id": "math_10_hard_049",
+    "content": "Factor completely: x² - 100",
+    "type": "multiple_choice",
+    "options": [
+      "(x - 10)(x + 10)",
+      "(x - 10)²",
+      "x(x - 10)",
+      "Cannot be factored"
+    ],
+    "correctAnswer": "(x - 10)(x + 10)",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "hard",
+    "explanation": "x² - 100 is a difference of squares: (x - 10)(x + 10)",
+    "_cacheBreaker": "1756033578434_49"
+  },
+  {
+    "_id": "math_10_hard_050",
+    "content": "What is the range of f(x) = -x² + 20?",
+    "type": "multiple_choice",
+    "options": [
+      "All real numbers",
+      "y ≤ 20",
+      "y ≥ 20",
+      "y > 0"
+    ],
+    "correctAnswer": "y ≤ 20",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "hard",
+    "explanation": "Since the parabola opens downward, the maximum value is 20",
+    "_cacheBreaker": "1756033578434_50"
   }
 ]

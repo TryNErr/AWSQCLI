@@ -1,342 +1,852 @@
 [
   {
-    "_id": "math_3_hard_1755775410766_1",
-    "content": "A bakery makes 144 cookies. They pack them into boxes of 12. How many boxes do they need?",
+    "_id": "math_3_hard_001",
+    "content": "What is 4 + 3?",
     "type": "multiple_choice",
     "options": [
-      "12 boxes",
-      "11 boxes",
-      "13 boxes",
-      "10 boxes"
+      "3",
+      "4",
+      "7",
+      "8"
     ],
-    "correctAnswer": "12 boxes",
+    "correctAnswer": "7",
     "subject": "math",
     "grade": "3",
     "difficulty": "hard",
-    "explanation": "144 ÷ 12 = 12. We can check: 12 × 12 = 144",
-    "_cacheBreaker": "1755775410766_0"
+    "explanation": "4 + 3 = 7",
+    "_cacheBreaker": "1756033253409_1"
   },
   {
-    "_id": "math_3_hard_1755775410766_2",
-    "content": "What is 2/3 of 18?",
+    "_id": "math_3_hard_002",
+    "content": "What is 8 - 3?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "5",
+      "4",
+      "10"
+    ],
+    "correctAnswer": "5",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "hard",
+    "explanation": "8 - 3 = 5",
+    "_cacheBreaker": "1756033253409_2"
+  },
+  {
+    "_id": "math_3_hard_003",
+    "content": "How many sides does a rectangle have?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "hard",
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253409_3"
+  },
+  {
+    "_id": "math_3_hard_004",
+    "content": "What is 3 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "6",
+      "7",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "hard",
+    "explanation": "3 × 2 = 6",
+    "_cacheBreaker": "1756033253409_4"
+  },
+  {
+    "_id": "math_3_hard_005",
+    "content": "Which number comes after 13?",
     "type": "multiple_choice",
     "options": [
       "12",
-      "6",
-      "9",
+      "13",
+      "14",
       "15"
     ],
-    "correctAnswer": "12",
+    "correctAnswer": "14",
     "subject": "math",
     "grade": "3",
     "difficulty": "hard",
-    "explanation": "2/3 of 18 = (2 × 18) ÷ 3 = 36 ÷ 3 = 12",
-    "_cacheBreaker": "1755775410766_1"
+    "explanation": "After 13 comes 14",
+    "_cacheBreaker": "1756033253409_5"
   },
   {
-    "_id": "math_3_hard_1755775410766_3",
-    "content": "The perimeter of a square is 24 cm. What is the length of each side?",
+    "_id": "math_3_hard_006",
+    "content": "What is 4 + 3?",
     "type": "multiple_choice",
     "options": [
-      "6 cm",
-      "8 cm",
-      "4 cm",
-      "12 cm"
+      "3",
+      "4",
+      "7",
+      "8"
     ],
-    "correctAnswer": "6 cm",
+    "correctAnswer": "7",
     "subject": "math",
     "grade": "3",
     "difficulty": "hard",
-    "explanation": "A square has 4 equal sides. Perimeter = 4 × side length. So 24 ÷ 4 = 6 cm",
-    "_cacheBreaker": "1755775410766_2"
+    "explanation": "4 + 3 = 7",
+    "_cacheBreaker": "1756033253409_6"
   },
   {
-    "_id": "math_3_hard_1755775410766_4",
-    "content": "A bakery makes 144 cookies. They pack them into boxes of 12. How many boxes do they need?",
+    "_id": "math_3_hard_007",
+    "content": "What is 8 - 3?",
     "type": "multiple_choice",
     "options": [
-      "12 boxes",
-      "11 boxes",
-      "13 boxes",
-      "10 boxes"
+      "2",
+      "5",
+      "4",
+      "10"
     ],
-    "correctAnswer": "12 boxes",
+    "correctAnswer": "5",
     "subject": "math",
     "grade": "3",
     "difficulty": "hard",
-    "explanation": "144 ÷ 12 = 12. We can check: 12 × 12 = 144",
-    "_cacheBreaker": "1755775410766_3"
+    "explanation": "8 - 3 = 5",
+    "_cacheBreaker": "1756033253409_7"
   },
   {
-    "_id": "math_3_hard_1755775410766_5",
-    "content": "What is 2/3 of 18?",
+    "_id": "math_3_hard_008",
+    "content": "How many sides does a rectangle have?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "hard",
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253409_8"
+  },
+  {
+    "_id": "math_3_hard_009",
+    "content": "What is 3 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "6",
+      "7",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "hard",
+    "explanation": "3 × 2 = 6",
+    "_cacheBreaker": "1756033253409_9"
+  },
+  {
+    "_id": "math_3_hard_010",
+    "content": "Which number comes after 13?",
     "type": "multiple_choice",
     "options": [
       "12",
-      "6",
-      "9",
+      "13",
+      "14",
       "15"
     ],
-    "correctAnswer": "12",
+    "correctAnswer": "14",
     "subject": "math",
     "grade": "3",
     "difficulty": "hard",
-    "explanation": "2/3 of 18 = (2 × 18) ÷ 3 = 36 ÷ 3 = 12",
-    "_cacheBreaker": "1755775410766_4"
+    "explanation": "After 13 comes 14",
+    "_cacheBreaker": "1756033253409_10"
   },
   {
-    "_id": "math_3_hard_1755775410766_6",
-    "content": "The perimeter of a square is 24 cm. What is the length of each side?",
+    "_id": "math_3_hard_011",
+    "content": "What is 4 + 3?",
     "type": "multiple_choice",
     "options": [
-      "6 cm",
-      "8 cm",
-      "4 cm",
-      "12 cm"
+      "3",
+      "4",
+      "7",
+      "8"
     ],
-    "correctAnswer": "6 cm",
+    "correctAnswer": "7",
     "subject": "math",
     "grade": "3",
     "difficulty": "hard",
-    "explanation": "A square has 4 equal sides. Perimeter = 4 × side length. So 24 ÷ 4 = 6 cm",
-    "_cacheBreaker": "1755775410766_5"
+    "explanation": "4 + 3 = 7",
+    "_cacheBreaker": "1756033253409_11"
   },
   {
-    "_id": "math_3_hard_1755775410766_7",
-    "content": "A bakery makes 144 cookies. They pack them into boxes of 12. How many boxes do they need?",
+    "_id": "math_3_hard_012",
+    "content": "What is 8 - 3?",
     "type": "multiple_choice",
     "options": [
-      "12 boxes",
-      "11 boxes",
-      "13 boxes",
-      "10 boxes"
+      "2",
+      "5",
+      "4",
+      "10"
     ],
-    "correctAnswer": "12 boxes",
+    "correctAnswer": "5",
     "subject": "math",
     "grade": "3",
     "difficulty": "hard",
-    "explanation": "144 ÷ 12 = 12. We can check: 12 × 12 = 144",
-    "_cacheBreaker": "1755775410766_6"
+    "explanation": "8 - 3 = 5",
+    "_cacheBreaker": "1756033253409_12"
   },
   {
-    "_id": "math_3_hard_1755775410766_8",
-    "content": "What is 2/3 of 18?",
+    "_id": "math_3_hard_013",
+    "content": "How many sides does a rectangle have?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "hard",
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253409_13"
+  },
+  {
+    "_id": "math_3_hard_014",
+    "content": "What is 3 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "6",
+      "7",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "hard",
+    "explanation": "3 × 2 = 6",
+    "_cacheBreaker": "1756033253409_14"
+  },
+  {
+    "_id": "math_3_hard_015",
+    "content": "Which number comes after 13?",
     "type": "multiple_choice",
     "options": [
       "12",
-      "6",
-      "9",
+      "13",
+      "14",
       "15"
     ],
-    "correctAnswer": "12",
+    "correctAnswer": "14",
     "subject": "math",
     "grade": "3",
     "difficulty": "hard",
-    "explanation": "2/3 of 18 = (2 × 18) ÷ 3 = 36 ÷ 3 = 12",
-    "_cacheBreaker": "1755775410766_7"
+    "explanation": "After 13 comes 14",
+    "_cacheBreaker": "1756033253409_15"
   },
   {
-    "_id": "math_3_hard_1755775410766_9",
-    "content": "The perimeter of a square is 24 cm. What is the length of each side?",
+    "_id": "math_3_hard_016",
+    "content": "What is 4 + 3?",
     "type": "multiple_choice",
     "options": [
-      "6 cm",
-      "8 cm",
-      "4 cm",
-      "12 cm"
+      "3",
+      "4",
+      "7",
+      "8"
     ],
-    "correctAnswer": "6 cm",
+    "correctAnswer": "7",
     "subject": "math",
     "grade": "3",
     "difficulty": "hard",
-    "explanation": "A square has 4 equal sides. Perimeter = 4 × side length. So 24 ÷ 4 = 6 cm",
-    "_cacheBreaker": "1755775410766_8"
+    "explanation": "4 + 3 = 7",
+    "_cacheBreaker": "1756033253409_16"
   },
   {
-    "_id": "math_3_hard_1755775410766_10",
-    "content": "A bakery makes 144 cookies. They pack them into boxes of 12. How many boxes do they need?",
+    "_id": "math_3_hard_017",
+    "content": "What is 8 - 3?",
     "type": "multiple_choice",
     "options": [
-      "12 boxes",
-      "11 boxes",
-      "13 boxes",
-      "10 boxes"
+      "2",
+      "5",
+      "4",
+      "10"
     ],
-    "correctAnswer": "12 boxes",
+    "correctAnswer": "5",
     "subject": "math",
     "grade": "3",
     "difficulty": "hard",
-    "explanation": "144 ÷ 12 = 12. We can check: 12 × 12 = 144",
-    "_cacheBreaker": "1755775410766_9"
+    "explanation": "8 - 3 = 5",
+    "_cacheBreaker": "1756033253409_17"
   },
   {
-    "_id": "math_3_hard_1755775410766_11",
-    "content": "What is 2/3 of 18?",
+    "_id": "math_3_hard_018",
+    "content": "How many sides does a rectangle have?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "hard",
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253409_18"
+  },
+  {
+    "_id": "math_3_hard_019",
+    "content": "What is 3 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "6",
+      "7",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "hard",
+    "explanation": "3 × 2 = 6",
+    "_cacheBreaker": "1756033253409_19"
+  },
+  {
+    "_id": "math_3_hard_020",
+    "content": "Which number comes after 13?",
     "type": "multiple_choice",
     "options": [
       "12",
-      "6",
-      "9",
+      "13",
+      "14",
       "15"
     ],
-    "correctAnswer": "12",
+    "correctAnswer": "14",
     "subject": "math",
     "grade": "3",
     "difficulty": "hard",
-    "explanation": "2/3 of 18 = (2 × 18) ÷ 3 = 36 ÷ 3 = 12",
-    "_cacheBreaker": "1755775410766_10"
+    "explanation": "After 13 comes 14",
+    "_cacheBreaker": "1756033253409_20"
   },
   {
-    "_id": "math_3_hard_1755775410766_12",
-    "content": "The perimeter of a square is 24 cm. What is the length of each side?",
+    "_id": "math_3_hard_021",
+    "content": "What is 4 + 3?",
     "type": "multiple_choice",
     "options": [
-      "6 cm",
-      "8 cm",
-      "4 cm",
-      "12 cm"
+      "3",
+      "4",
+      "7",
+      "8"
     ],
-    "correctAnswer": "6 cm",
+    "correctAnswer": "7",
     "subject": "math",
     "grade": "3",
     "difficulty": "hard",
-    "explanation": "A square has 4 equal sides. Perimeter = 4 × side length. So 24 ÷ 4 = 6 cm",
-    "_cacheBreaker": "1755775410766_11"
+    "explanation": "4 + 3 = 7",
+    "_cacheBreaker": "1756033253409_21"
   },
   {
-    "_id": "math_3_hard_1755775410766_13",
-    "content": "A bakery makes 144 cookies. They pack them into boxes of 12. How many boxes do they need?",
+    "_id": "math_3_hard_022",
+    "content": "What is 8 - 3?",
     "type": "multiple_choice",
     "options": [
-      "12 boxes",
-      "11 boxes",
-      "13 boxes",
-      "10 boxes"
+      "2",
+      "5",
+      "4",
+      "10"
     ],
-    "correctAnswer": "12 boxes",
+    "correctAnswer": "5",
     "subject": "math",
     "grade": "3",
     "difficulty": "hard",
-    "explanation": "144 ÷ 12 = 12. We can check: 12 × 12 = 144",
-    "_cacheBreaker": "1755775410766_12"
+    "explanation": "8 - 3 = 5",
+    "_cacheBreaker": "1756033253409_22"
   },
   {
-    "_id": "math_3_hard_1755775410766_14",
-    "content": "What is 2/3 of 18?",
+    "_id": "math_3_hard_023",
+    "content": "How many sides does a rectangle have?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "hard",
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253409_23"
+  },
+  {
+    "_id": "math_3_hard_024",
+    "content": "What is 3 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "6",
+      "7",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "hard",
+    "explanation": "3 × 2 = 6",
+    "_cacheBreaker": "1756033253409_24"
+  },
+  {
+    "_id": "math_3_hard_025",
+    "content": "Which number comes after 13?",
     "type": "multiple_choice",
     "options": [
       "12",
-      "6",
-      "9",
+      "13",
+      "14",
       "15"
     ],
-    "correctAnswer": "12",
+    "correctAnswer": "14",
     "subject": "math",
     "grade": "3",
     "difficulty": "hard",
-    "explanation": "2/3 of 18 = (2 × 18) ÷ 3 = 36 ÷ 3 = 12",
-    "_cacheBreaker": "1755775410766_13"
+    "explanation": "After 13 comes 14",
+    "_cacheBreaker": "1756033253409_25"
   },
   {
-    "_id": "math_3_hard_1755775410766_15",
-    "content": "The perimeter of a square is 24 cm. What is the length of each side?",
+    "_id": "math_3_hard_026",
+    "content": "What is 4 + 3?",
     "type": "multiple_choice",
     "options": [
-      "6 cm",
-      "8 cm",
-      "4 cm",
-      "12 cm"
+      "3",
+      "4",
+      "7",
+      "8"
     ],
-    "correctAnswer": "6 cm",
+    "correctAnswer": "7",
     "subject": "math",
     "grade": "3",
     "difficulty": "hard",
-    "explanation": "A square has 4 equal sides. Perimeter = 4 × side length. So 24 ÷ 4 = 6 cm",
-    "_cacheBreaker": "1755775410766_14"
+    "explanation": "4 + 3 = 7",
+    "_cacheBreaker": "1756033253409_26"
   },
   {
-    "_id": "math_3_hard_1755775410766_16",
-    "content": "A bakery makes 144 cookies. They pack them into boxes of 12. How many boxes do they need?",
+    "_id": "math_3_hard_027",
+    "content": "What is 8 - 3?",
     "type": "multiple_choice",
     "options": [
-      "12 boxes",
-      "11 boxes",
-      "13 boxes",
-      "10 boxes"
+      "2",
+      "5",
+      "4",
+      "10"
     ],
-    "correctAnswer": "12 boxes",
+    "correctAnswer": "5",
     "subject": "math",
     "grade": "3",
     "difficulty": "hard",
-    "explanation": "144 ÷ 12 = 12. We can check: 12 × 12 = 144",
-    "_cacheBreaker": "1755775410766_15"
+    "explanation": "8 - 3 = 5",
+    "_cacheBreaker": "1756033253409_27"
   },
   {
-    "_id": "math_3_hard_1755775410766_17",
-    "content": "What is 2/3 of 18?",
+    "_id": "math_3_hard_028",
+    "content": "How many sides does a rectangle have?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "hard",
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253409_28"
+  },
+  {
+    "_id": "math_3_hard_029",
+    "content": "What is 3 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "6",
+      "7",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "hard",
+    "explanation": "3 × 2 = 6",
+    "_cacheBreaker": "1756033253409_29"
+  },
+  {
+    "_id": "math_3_hard_030",
+    "content": "Which number comes after 13?",
     "type": "multiple_choice",
     "options": [
       "12",
-      "6",
-      "9",
+      "13",
+      "14",
       "15"
     ],
-    "correctAnswer": "12",
+    "correctAnswer": "14",
     "subject": "math",
     "grade": "3",
     "difficulty": "hard",
-    "explanation": "2/3 of 18 = (2 × 18) ÷ 3 = 36 ÷ 3 = 12",
-    "_cacheBreaker": "1755775410766_16"
+    "explanation": "After 13 comes 14",
+    "_cacheBreaker": "1756033253409_30"
   },
   {
-    "_id": "math_3_hard_1755775410766_18",
-    "content": "The perimeter of a square is 24 cm. What is the length of each side?",
+    "_id": "math_3_hard_031",
+    "content": "What is 4 + 3?",
     "type": "multiple_choice",
     "options": [
-      "6 cm",
-      "8 cm",
-      "4 cm",
-      "12 cm"
+      "3",
+      "4",
+      "7",
+      "8"
     ],
-    "correctAnswer": "6 cm",
+    "correctAnswer": "7",
     "subject": "math",
     "grade": "3",
     "difficulty": "hard",
-    "explanation": "A square has 4 equal sides. Perimeter = 4 × side length. So 24 ÷ 4 = 6 cm",
-    "_cacheBreaker": "1755775410766_17"
+    "explanation": "4 + 3 = 7",
+    "_cacheBreaker": "1756033253409_31"
   },
   {
-    "_id": "math_3_hard_1755775410766_19",
-    "content": "A bakery makes 144 cookies. They pack them into boxes of 12. How many boxes do they need?",
+    "_id": "math_3_hard_032",
+    "content": "What is 8 - 3?",
     "type": "multiple_choice",
     "options": [
-      "12 boxes",
-      "11 boxes",
-      "13 boxes",
-      "10 boxes"
+      "2",
+      "5",
+      "4",
+      "10"
     ],
-    "correctAnswer": "12 boxes",
+    "correctAnswer": "5",
     "subject": "math",
     "grade": "3",
     "difficulty": "hard",
-    "explanation": "144 ÷ 12 = 12. We can check: 12 × 12 = 144",
-    "_cacheBreaker": "1755775410766_18"
+    "explanation": "8 - 3 = 5",
+    "_cacheBreaker": "1756033253409_32"
   },
   {
-    "_id": "math_3_hard_1755775410766_20",
-    "content": "What is 2/3 of 18?",
+    "_id": "math_3_hard_033",
+    "content": "How many sides does a rectangle have?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "hard",
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253409_33"
+  },
+  {
+    "_id": "math_3_hard_034",
+    "content": "What is 3 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "6",
+      "7",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "hard",
+    "explanation": "3 × 2 = 6",
+    "_cacheBreaker": "1756033253409_34"
+  },
+  {
+    "_id": "math_3_hard_035",
+    "content": "Which number comes after 13?",
     "type": "multiple_choice",
     "options": [
       "12",
-      "6",
-      "9",
+      "13",
+      "14",
       "15"
     ],
-    "correctAnswer": "12",
+    "correctAnswer": "14",
     "subject": "math",
     "grade": "3",
     "difficulty": "hard",
-    "explanation": "2/3 of 18 = (2 × 18) ÷ 3 = 36 ÷ 3 = 12",
-    "_cacheBreaker": "1755775410766_19"
+    "explanation": "After 13 comes 14",
+    "_cacheBreaker": "1756033253409_35"
+  },
+  {
+    "_id": "math_3_hard_036",
+    "content": "What is 4 + 3?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "7",
+      "8"
+    ],
+    "correctAnswer": "7",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "hard",
+    "explanation": "4 + 3 = 7",
+    "_cacheBreaker": "1756033253409_36"
+  },
+  {
+    "_id": "math_3_hard_037",
+    "content": "What is 8 - 3?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "5",
+      "4",
+      "10"
+    ],
+    "correctAnswer": "5",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "hard",
+    "explanation": "8 - 3 = 5",
+    "_cacheBreaker": "1756033253409_37"
+  },
+  {
+    "_id": "math_3_hard_038",
+    "content": "How many sides does a rectangle have?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "hard",
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253409_38"
+  },
+  {
+    "_id": "math_3_hard_039",
+    "content": "What is 3 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "6",
+      "7",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "hard",
+    "explanation": "3 × 2 = 6",
+    "_cacheBreaker": "1756033253409_39"
+  },
+  {
+    "_id": "math_3_hard_040",
+    "content": "Which number comes after 13?",
+    "type": "multiple_choice",
+    "options": [
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "correctAnswer": "14",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "hard",
+    "explanation": "After 13 comes 14",
+    "_cacheBreaker": "1756033253409_40"
+  },
+  {
+    "_id": "math_3_hard_041",
+    "content": "What is 4 + 3?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "7",
+      "8"
+    ],
+    "correctAnswer": "7",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "hard",
+    "explanation": "4 + 3 = 7",
+    "_cacheBreaker": "1756033253409_41"
+  },
+  {
+    "_id": "math_3_hard_042",
+    "content": "What is 8 - 3?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "5",
+      "4",
+      "10"
+    ],
+    "correctAnswer": "5",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "hard",
+    "explanation": "8 - 3 = 5",
+    "_cacheBreaker": "1756033253409_42"
+  },
+  {
+    "_id": "math_3_hard_043",
+    "content": "How many sides does a rectangle have?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "hard",
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253409_43"
+  },
+  {
+    "_id": "math_3_hard_044",
+    "content": "What is 3 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "6",
+      "7",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "hard",
+    "explanation": "3 × 2 = 6",
+    "_cacheBreaker": "1756033253409_44"
+  },
+  {
+    "_id": "math_3_hard_045",
+    "content": "Which number comes after 13?",
+    "type": "multiple_choice",
+    "options": [
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "correctAnswer": "14",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "hard",
+    "explanation": "After 13 comes 14",
+    "_cacheBreaker": "1756033253409_45"
+  },
+  {
+    "_id": "math_3_hard_046",
+    "content": "What is 4 + 3?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "7",
+      "8"
+    ],
+    "correctAnswer": "7",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "hard",
+    "explanation": "4 + 3 = 7",
+    "_cacheBreaker": "1756033253409_46"
+  },
+  {
+    "_id": "math_3_hard_047",
+    "content": "What is 8 - 3?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "5",
+      "4",
+      "10"
+    ],
+    "correctAnswer": "5",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "hard",
+    "explanation": "8 - 3 = 5",
+    "_cacheBreaker": "1756033253409_47"
+  },
+  {
+    "_id": "math_3_hard_048",
+    "content": "How many sides does a rectangle have?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "hard",
+    "explanation": "A rectangle has 4 sides",
+    "_cacheBreaker": "1756033253409_48"
+  },
+  {
+    "_id": "math_3_hard_049",
+    "content": "What is 3 × 2?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "6",
+      "7",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "hard",
+    "explanation": "3 × 2 = 6",
+    "_cacheBreaker": "1756033253409_49"
+  },
+  {
+    "_id": "math_3_hard_050",
+    "content": "Which number comes after 13?",
+    "type": "multiple_choice",
+    "options": [
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "correctAnswer": "14",
+    "subject": "math",
+    "grade": "3",
+    "difficulty": "hard",
+    "explanation": "After 13 comes 14",
+    "_cacheBreaker": "1756033253409_50"
   }
 ]

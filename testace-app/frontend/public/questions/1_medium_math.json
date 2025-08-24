@@ -1,58 +1,58 @@
 [
   {
-    "_id": "med1_1755261000211_001",
-    "content": "What is 5 + 4?",
+    "_id": "math_1_medium_001",
+    "content": "What is 4 + 3?",
     "type": "multiple_choice",
     "options": [
+      "6",
       "7",
       "8",
-      "9",
-      "10"
+      "9"
     ],
-    "correctAnswer": "9",
+    "correctAnswer": "7",
     "subject": "math",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "5 + 4 = 9",
-    "_cacheBreaker": "1755265388162_0"
+    "explanation": "4 + 3 = 7",
+    "_cacheBreaker": "1756033253382_1"
   },
   {
-    "_id": "med1_1755261000211_002",
-    "content": "Count by 2s: 2, 4, 6, 8, ___",
+    "_id": "math_1_medium_002",
+    "content": "What is 6 - 2?",
     "type": "multiple_choice",
     "options": [
-      "9",
-      "10",
-      "11",
-      "12"
-    ],
-    "correctAnswer": "10",
-    "subject": "math",
-    "grade": "1",
-    "difficulty": "medium",
-    "explanation": "Counting by 2s: next is 10",
-    "_cacheBreaker": "1755265388162_1"
-  },
-  {
-    "_id": "med1_1755261000211_003",
-    "content": "What is 8 - 3?",
-    "type": "multiple_choice",
-    "options": [
+      "3",
       "4",
       "5",
-      "6",
-      "11"
+      "6"
     ],
-    "correctAnswer": "5",
+    "correctAnswer": "4",
     "subject": "math",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "8 - 3 = 5",
-    "_cacheBreaker": "1755265388162_2"
+    "explanation": "6 - 2 = 4",
+    "_cacheBreaker": "1756033253382_2"
   },
   {
-    "_id": "med1_1755261000211_004",
-    "content": "What is 5 + 4?",
+    "_id": "math_1_medium_003",
+    "content": "How many sides does a circle have?",
+    "type": "multiple_choice",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctAnswer": "0",
+    "subject": "math",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "A circle has no straight sides",
+    "_cacheBreaker": "1756033253382_3"
+  },
+  {
+    "_id": "math_1_medium_004",
+    "content": "What comes next: 2, 4, 6, ?",
     "type": "multiple_choice",
     "options": [
       "7",
@@ -60,50 +60,84 @@
       "9",
       "10"
     ],
-    "correctAnswer": "9",
+    "correctAnswer": "8",
     "subject": "math",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "5 + 4 = 9",
-    "_cacheBreaker": "1755265388162_3"
+    "explanation": "The pattern adds 2 each time",
+    "_cacheBreaker": "1756033253382_4"
   },
   {
-    "_id": "med1_1755261000211_005",
-    "content": "Count by 2s: 2, 4, 6, 8, ___",
+    "_id": "math_1_medium_005",
+    "content": "How many legs does a dog have?",
     "type": "multiple_choice",
     "options": [
-      "9",
-      "10",
-      "11",
-      "12"
+      "2",
+      "3",
+      "4",
+      "5"
     ],
-    "correctAnswer": "10",
+    "correctAnswer": "4",
     "subject": "math",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "Counting by 2s: next is 10",
-    "_cacheBreaker": "1755265388162_4"
+    "explanation": "Dogs have 4 legs",
+    "_cacheBreaker": "1756033253382_5"
   },
   {
-    "_id": "med1_1755261000211_006",
-    "content": "What is 8 - 3?",
+    "_id": "math_1_medium_006",
+    "content": "What is 4 + 3?",
     "type": "multiple_choice",
     "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "7",
+    "subject": "math",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "4 + 3 = 7",
+    "_cacheBreaker": "1756033253382_6"
+  },
+  {
+    "_id": "math_1_medium_007",
+    "content": "What is 6 - 2?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
       "4",
       "5",
-      "6",
-      "11"
+      "6"
     ],
-    "correctAnswer": "5",
+    "correctAnswer": "4",
     "subject": "math",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "8 - 3 = 5",
-    "_cacheBreaker": "1755265388162_5"
+    "explanation": "6 - 2 = 4",
+    "_cacheBreaker": "1756033253382_7"
   },
   {
-    "_id": "med1_1755261000211_007",
-    "content": "What is 5 + 4?",
+    "_id": "math_1_medium_008",
+    "content": "How many sides does a circle have?",
+    "type": "multiple_choice",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctAnswer": "0",
+    "subject": "math",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "A circle has no straight sides",
+    "_cacheBreaker": "1756033253382_8"
+  },
+  {
+    "_id": "math_1_medium_009",
+    "content": "What comes next: 2, 4, 6, ?",
     "type": "multiple_choice",
     "options": [
       "7",
@@ -111,50 +145,84 @@
       "9",
       "10"
     ],
-    "correctAnswer": "9",
+    "correctAnswer": "8",
     "subject": "math",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "5 + 4 = 9",
-    "_cacheBreaker": "1755265388162_6"
+    "explanation": "The pattern adds 2 each time",
+    "_cacheBreaker": "1756033253382_9"
   },
   {
-    "_id": "med1_1755261000211_008",
-    "content": "Count by 2s: 2, 4, 6, 8, ___",
+    "_id": "math_1_medium_010",
+    "content": "How many legs does a dog have?",
     "type": "multiple_choice",
     "options": [
-      "9",
-      "10",
-      "11",
-      "12"
+      "2",
+      "3",
+      "4",
+      "5"
     ],
-    "correctAnswer": "10",
+    "correctAnswer": "4",
     "subject": "math",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "Counting by 2s: next is 10",
-    "_cacheBreaker": "1755265388162_7"
+    "explanation": "Dogs have 4 legs",
+    "_cacheBreaker": "1756033253382_10"
   },
   {
-    "_id": "med1_1755261000211_009",
-    "content": "What is 8 - 3?",
+    "_id": "math_1_medium_011",
+    "content": "What is 4 + 3?",
     "type": "multiple_choice",
     "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "7",
+    "subject": "math",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "4 + 3 = 7",
+    "_cacheBreaker": "1756033253382_11"
+  },
+  {
+    "_id": "math_1_medium_012",
+    "content": "What is 6 - 2?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
       "4",
       "5",
-      "6",
-      "11"
+      "6"
     ],
-    "correctAnswer": "5",
+    "correctAnswer": "4",
     "subject": "math",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "8 - 3 = 5",
-    "_cacheBreaker": "1755265388162_8"
+    "explanation": "6 - 2 = 4",
+    "_cacheBreaker": "1756033253382_12"
   },
   {
-    "_id": "med1_1755261000211_010",
-    "content": "What is 5 + 4?",
+    "_id": "math_1_medium_013",
+    "content": "How many sides does a circle have?",
+    "type": "multiple_choice",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctAnswer": "0",
+    "subject": "math",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "A circle has no straight sides",
+    "_cacheBreaker": "1756033253382_13"
+  },
+  {
+    "_id": "math_1_medium_014",
+    "content": "What comes next: 2, 4, 6, ?",
     "type": "multiple_choice",
     "options": [
       "7",
@@ -162,50 +230,84 @@
       "9",
       "10"
     ],
-    "correctAnswer": "9",
+    "correctAnswer": "8",
     "subject": "math",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "5 + 4 = 9",
-    "_cacheBreaker": "1755265388162_9"
+    "explanation": "The pattern adds 2 each time",
+    "_cacheBreaker": "1756033253382_14"
   },
   {
-    "_id": "med1_1755261000211_011",
-    "content": "Count by 2s: 2, 4, 6, 8, ___",
+    "_id": "math_1_medium_015",
+    "content": "How many legs does a dog have?",
     "type": "multiple_choice",
     "options": [
-      "9",
-      "10",
-      "11",
-      "12"
+      "2",
+      "3",
+      "4",
+      "5"
     ],
-    "correctAnswer": "10",
+    "correctAnswer": "4",
     "subject": "math",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "Counting by 2s: next is 10",
-    "_cacheBreaker": "1755265388162_10"
+    "explanation": "Dogs have 4 legs",
+    "_cacheBreaker": "1756033253382_15"
   },
   {
-    "_id": "med1_1755261000211_012",
-    "content": "What is 8 - 3?",
+    "_id": "math_1_medium_016",
+    "content": "What is 4 + 3?",
     "type": "multiple_choice",
     "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "7",
+    "subject": "math",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "4 + 3 = 7",
+    "_cacheBreaker": "1756033253382_16"
+  },
+  {
+    "_id": "math_1_medium_017",
+    "content": "What is 6 - 2?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
       "4",
       "5",
-      "6",
-      "11"
+      "6"
     ],
-    "correctAnswer": "5",
+    "correctAnswer": "4",
     "subject": "math",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "8 - 3 = 5",
-    "_cacheBreaker": "1755265388162_11"
+    "explanation": "6 - 2 = 4",
+    "_cacheBreaker": "1756033253382_17"
   },
   {
-    "_id": "med1_1755261000211_013",
-    "content": "What is 5 + 4?",
+    "_id": "math_1_medium_018",
+    "content": "How many sides does a circle have?",
+    "type": "multiple_choice",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctAnswer": "0",
+    "subject": "math",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "A circle has no straight sides",
+    "_cacheBreaker": "1756033253382_18"
+  },
+  {
+    "_id": "math_1_medium_019",
+    "content": "What comes next: 2, 4, 6, ?",
     "type": "multiple_choice",
     "options": [
       "7",
@@ -213,50 +315,84 @@
       "9",
       "10"
     ],
-    "correctAnswer": "9",
+    "correctAnswer": "8",
     "subject": "math",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "5 + 4 = 9",
-    "_cacheBreaker": "1755265388162_12"
+    "explanation": "The pattern adds 2 each time",
+    "_cacheBreaker": "1756033253382_19"
   },
   {
-    "_id": "med1_1755261000211_014",
-    "content": "Count by 2s: 2, 4, 6, 8, ___",
+    "_id": "math_1_medium_020",
+    "content": "How many legs does a dog have?",
     "type": "multiple_choice",
     "options": [
-      "9",
-      "10",
-      "11",
-      "12"
+      "2",
+      "3",
+      "4",
+      "5"
     ],
-    "correctAnswer": "10",
+    "correctAnswer": "4",
     "subject": "math",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "Counting by 2s: next is 10",
-    "_cacheBreaker": "1755265388162_13"
+    "explanation": "Dogs have 4 legs",
+    "_cacheBreaker": "1756033253382_20"
   },
   {
-    "_id": "med1_1755261000211_015",
-    "content": "What is 8 - 3?",
+    "_id": "math_1_medium_021",
+    "content": "What is 4 + 3?",
     "type": "multiple_choice",
     "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "7",
+    "subject": "math",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "4 + 3 = 7",
+    "_cacheBreaker": "1756033253382_21"
+  },
+  {
+    "_id": "math_1_medium_022",
+    "content": "What is 6 - 2?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
       "4",
       "5",
-      "6",
-      "11"
+      "6"
     ],
-    "correctAnswer": "5",
+    "correctAnswer": "4",
     "subject": "math",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "8 - 3 = 5",
-    "_cacheBreaker": "1755265388162_14"
+    "explanation": "6 - 2 = 4",
+    "_cacheBreaker": "1756033253382_22"
   },
   {
-    "_id": "med1_1755261000211_016",
-    "content": "What is 5 + 4?",
+    "_id": "math_1_medium_023",
+    "content": "How many sides does a circle have?",
+    "type": "multiple_choice",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctAnswer": "0",
+    "subject": "math",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "A circle has no straight sides",
+    "_cacheBreaker": "1756033253382_23"
+  },
+  {
+    "_id": "math_1_medium_024",
+    "content": "What comes next: 2, 4, 6, ?",
     "type": "multiple_choice",
     "options": [
       "7",
@@ -264,50 +400,84 @@
       "9",
       "10"
     ],
-    "correctAnswer": "9",
+    "correctAnswer": "8",
     "subject": "math",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "5 + 4 = 9",
-    "_cacheBreaker": "1755265388162_15"
+    "explanation": "The pattern adds 2 each time",
+    "_cacheBreaker": "1756033253382_24"
   },
   {
-    "_id": "med1_1755261000211_017",
-    "content": "Count by 2s: 2, 4, 6, 8, ___",
+    "_id": "math_1_medium_025",
+    "content": "How many legs does a dog have?",
     "type": "multiple_choice",
     "options": [
-      "9",
-      "10",
-      "11",
-      "12"
+      "2",
+      "3",
+      "4",
+      "5"
     ],
-    "correctAnswer": "10",
+    "correctAnswer": "4",
     "subject": "math",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "Counting by 2s: next is 10",
-    "_cacheBreaker": "1755265388162_16"
+    "explanation": "Dogs have 4 legs",
+    "_cacheBreaker": "1756033253382_25"
   },
   {
-    "_id": "med1_1755261000211_018",
-    "content": "What is 8 - 3?",
+    "_id": "math_1_medium_026",
+    "content": "What is 4 + 3?",
     "type": "multiple_choice",
     "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "7",
+    "subject": "math",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "4 + 3 = 7",
+    "_cacheBreaker": "1756033253382_26"
+  },
+  {
+    "_id": "math_1_medium_027",
+    "content": "What is 6 - 2?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
       "4",
       "5",
-      "6",
-      "11"
+      "6"
     ],
-    "correctAnswer": "5",
+    "correctAnswer": "4",
     "subject": "math",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "8 - 3 = 5",
-    "_cacheBreaker": "1755265388162_17"
+    "explanation": "6 - 2 = 4",
+    "_cacheBreaker": "1756033253382_27"
   },
   {
-    "_id": "med1_1755261000211_019",
-    "content": "What is 5 + 4?",
+    "_id": "math_1_medium_028",
+    "content": "How many sides does a circle have?",
+    "type": "multiple_choice",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctAnswer": "0",
+    "subject": "math",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "A circle has no straight sides",
+    "_cacheBreaker": "1756033253382_28"
+  },
+  {
+    "_id": "math_1_medium_029",
+    "content": "What comes next: 2, 4, 6, ?",
     "type": "multiple_choice",
     "options": [
       "7",
@@ -315,28 +485,368 @@
       "9",
       "10"
     ],
-    "correctAnswer": "9",
+    "correctAnswer": "8",
     "subject": "math",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "5 + 4 = 9",
-    "_cacheBreaker": "1755265388162_18"
+    "explanation": "The pattern adds 2 each time",
+    "_cacheBreaker": "1756033253382_29"
   },
   {
-    "_id": "med1_1755261000211_020",
-    "content": "Count by 2s: 2, 4, 6, 8, ___",
+    "_id": "math_1_medium_030",
+    "content": "How many legs does a dog have?",
     "type": "multiple_choice",
     "options": [
-      "9",
-      "10",
-      "11",
-      "12"
+      "2",
+      "3",
+      "4",
+      "5"
     ],
-    "correctAnswer": "10",
+    "correctAnswer": "4",
     "subject": "math",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "Counting by 2s: next is 10",
-    "_cacheBreaker": "1755265388162_19"
+    "explanation": "Dogs have 4 legs",
+    "_cacheBreaker": "1756033253382_30"
+  },
+  {
+    "_id": "math_1_medium_031",
+    "content": "What is 4 + 3?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "7",
+    "subject": "math",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "4 + 3 = 7",
+    "_cacheBreaker": "1756033253382_31"
+  },
+  {
+    "_id": "math_1_medium_032",
+    "content": "What is 6 - 2?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "6 - 2 = 4",
+    "_cacheBreaker": "1756033253382_32"
+  },
+  {
+    "_id": "math_1_medium_033",
+    "content": "How many sides does a circle have?",
+    "type": "multiple_choice",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctAnswer": "0",
+    "subject": "math",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "A circle has no straight sides",
+    "_cacheBreaker": "1756033253382_33"
+  },
+  {
+    "_id": "math_1_medium_034",
+    "content": "What comes next: 2, 4, 6, ?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "The pattern adds 2 each time",
+    "_cacheBreaker": "1756033253382_34"
+  },
+  {
+    "_id": "math_1_medium_035",
+    "content": "How many legs does a dog have?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "Dogs have 4 legs",
+    "_cacheBreaker": "1756033253382_35"
+  },
+  {
+    "_id": "math_1_medium_036",
+    "content": "What is 4 + 3?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "7",
+    "subject": "math",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "4 + 3 = 7",
+    "_cacheBreaker": "1756033253382_36"
+  },
+  {
+    "_id": "math_1_medium_037",
+    "content": "What is 6 - 2?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "6 - 2 = 4",
+    "_cacheBreaker": "1756033253382_37"
+  },
+  {
+    "_id": "math_1_medium_038",
+    "content": "How many sides does a circle have?",
+    "type": "multiple_choice",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctAnswer": "0",
+    "subject": "math",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "A circle has no straight sides",
+    "_cacheBreaker": "1756033253382_38"
+  },
+  {
+    "_id": "math_1_medium_039",
+    "content": "What comes next: 2, 4, 6, ?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "The pattern adds 2 each time",
+    "_cacheBreaker": "1756033253382_39"
+  },
+  {
+    "_id": "math_1_medium_040",
+    "content": "How many legs does a dog have?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "Dogs have 4 legs",
+    "_cacheBreaker": "1756033253382_40"
+  },
+  {
+    "_id": "math_1_medium_041",
+    "content": "What is 4 + 3?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "7",
+    "subject": "math",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "4 + 3 = 7",
+    "_cacheBreaker": "1756033253382_41"
+  },
+  {
+    "_id": "math_1_medium_042",
+    "content": "What is 6 - 2?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "6 - 2 = 4",
+    "_cacheBreaker": "1756033253382_42"
+  },
+  {
+    "_id": "math_1_medium_043",
+    "content": "How many sides does a circle have?",
+    "type": "multiple_choice",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctAnswer": "0",
+    "subject": "math",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "A circle has no straight sides",
+    "_cacheBreaker": "1756033253382_43"
+  },
+  {
+    "_id": "math_1_medium_044",
+    "content": "What comes next: 2, 4, 6, ?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "The pattern adds 2 each time",
+    "_cacheBreaker": "1756033253382_44"
+  },
+  {
+    "_id": "math_1_medium_045",
+    "content": "How many legs does a dog have?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "Dogs have 4 legs",
+    "_cacheBreaker": "1756033253382_45"
+  },
+  {
+    "_id": "math_1_medium_046",
+    "content": "What is 4 + 3?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "7",
+    "subject": "math",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "4 + 3 = 7",
+    "_cacheBreaker": "1756033253382_46"
+  },
+  {
+    "_id": "math_1_medium_047",
+    "content": "What is 6 - 2?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "6 - 2 = 4",
+    "_cacheBreaker": "1756033253382_47"
+  },
+  {
+    "_id": "math_1_medium_048",
+    "content": "How many sides does a circle have?",
+    "type": "multiple_choice",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctAnswer": "0",
+    "subject": "math",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "A circle has no straight sides",
+    "_cacheBreaker": "1756033253382_48"
+  },
+  {
+    "_id": "math_1_medium_049",
+    "content": "What comes next: 2, 4, 6, ?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correctAnswer": "8",
+    "subject": "math",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "The pattern adds 2 each time",
+    "_cacheBreaker": "1756033253382_49"
+  },
+  {
+    "_id": "math_1_medium_050",
+    "content": "How many legs does a dog have?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswer": "4",
+    "subject": "math",
+    "grade": "1",
+    "difficulty": "medium",
+    "explanation": "Dogs have 4 legs",
+    "_cacheBreaker": "1756033253382_50"
   }
 ]

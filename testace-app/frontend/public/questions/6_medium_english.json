@@ -1,342 +1,852 @@
 [
   {
-    "_id": "english_6_medium_1755261255160_001",
+    "_id": "english_6_medium_001",
+    "content": "Identify the subject in: 'The tall boy ran quickly.'",
+    "type": "multiple_choice",
+    "options": [
+      "tall",
+      "boy",
+      "ran",
+      "quickly"
+    ],
+    "correctAnswer": "boy",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "The subject is who or what the sentence is about. 'Boy' is the subject",
+    "_cacheBreaker": "1756033578381_1"
+  },
+  {
+    "_id": "english_6_medium_002",
+    "content": "Which sentence is in passive voice?",
+    "type": "multiple_choice",
+    "options": [
+      "John threw the ball",
+      "The ball was thrown by John",
+      "John is throwing",
+      "John will throw"
+    ],
+    "correctAnswer": "The ball was thrown by John",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "Passive voice focuses on what was done to the subject",
+    "_cacheBreaker": "1756033578381_2"
+  },
+  {
+    "_id": "english_6_medium_003",
     "content": "What is the plural of 'child'?",
     "type": "multiple_choice",
     "options": [
       "childs",
-      "children",
       "childes",
-      "child"
+      "children",
+      "child's"
     ],
     "correctAnswer": "children",
     "subject": "english",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "Child has an irregular plural form: children",
-    "_cacheBreaker": "1755265388207_0"
+    "explanation": "Children is the irregular plural of child",
+    "_cacheBreaker": "1756033578381_3"
   },
   {
-    "_id": "english_6_medium_1755261255160_002",
-    "content": "Which is a proper noun?",
+    "_id": "english_6_medium_004",
+    "content": "Which word needs a capital letter?",
     "type": "multiple_choice",
     "options": [
-      "city",
-      "London",
-      "building",
-      "street"
+      "dog",
+      "tuesday",
+      "happy",
+      "running"
     ],
-    "correctAnswer": "London",
+    "correctAnswer": "tuesday",
     "subject": "english",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "London is a specific place name, so it's a proper noun",
-    "_cacheBreaker": "1755265388207_1"
+    "explanation": "Days of the week are proper nouns and need capital letters",
+    "_cacheBreaker": "1756033578381_4"
   },
   {
-    "_id": "english_6_medium_1755261255160_003",
-    "content": "What type of sentence is this: 'Close the door.'",
+    "_id": "english_6_medium_005",
+    "content": "What type of sentence is: 'Stop running!'?",
     "type": "multiple_choice",
     "options": [
-      "Statement",
-      "Question",
-      "Command",
-      "Exclamation"
+      "declarative",
+      "interrogative",
+      "imperative",
+      "exclamatory"
     ],
-    "correctAnswer": "Command",
+    "correctAnswer": "imperative",
     "subject": "english",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "This sentence gives an instruction or command",
-    "_cacheBreaker": "1755265388207_2"
+    "explanation": "Imperative sentences give commands or instructions",
+    "_cacheBreaker": "1756033578381_5"
   },
   {
-    "_id": "english_6_medium_1755261255160_004",
-    "content": "What is the plural of 'child'? (Question 4)",
+    "_id": "english_6_medium_006",
+    "content": "Identify the subject in: 'The tall boy ran quickly.'",
+    "type": "multiple_choice",
+    "options": [
+      "tall",
+      "boy",
+      "ran",
+      "quickly"
+    ],
+    "correctAnswer": "boy",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "The subject is who or what the sentence is about. 'Boy' is the subject",
+    "_cacheBreaker": "1756033578381_6"
+  },
+  {
+    "_id": "english_6_medium_007",
+    "content": "Which sentence is in passive voice?",
+    "type": "multiple_choice",
+    "options": [
+      "John threw the ball",
+      "The ball was thrown by John",
+      "John is throwing",
+      "John will throw"
+    ],
+    "correctAnswer": "The ball was thrown by John",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "Passive voice focuses on what was done to the subject",
+    "_cacheBreaker": "1756033578381_7"
+  },
+  {
+    "_id": "english_6_medium_008",
+    "content": "What is the plural of 'child'?",
     "type": "multiple_choice",
     "options": [
       "childs",
-      "children",
       "childes",
-      "child"
+      "children",
+      "child's"
     ],
     "correctAnswer": "children",
     "subject": "english",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "Child has an irregular plural form: children",
-    "_cacheBreaker": "1755265388207_3"
+    "explanation": "Children is the irregular plural of child",
+    "_cacheBreaker": "1756033578381_8"
   },
   {
-    "_id": "english_6_medium_1755261255160_005",
-    "content": "Which is a proper noun? (Question 5)",
+    "_id": "english_6_medium_009",
+    "content": "Which word needs a capital letter?",
     "type": "multiple_choice",
     "options": [
-      "city",
-      "London",
-      "building",
-      "street"
+      "dog",
+      "tuesday",
+      "happy",
+      "running"
     ],
-    "correctAnswer": "London",
+    "correctAnswer": "tuesday",
     "subject": "english",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "London is a specific place name, so it's a proper noun",
-    "_cacheBreaker": "1755265388207_4"
+    "explanation": "Days of the week are proper nouns and need capital letters",
+    "_cacheBreaker": "1756033578381_9"
   },
   {
-    "_id": "english_6_medium_1755261255160_006",
-    "content": "What type of sentence is this: 'Close the door.' (Question 6)",
+    "_id": "english_6_medium_010",
+    "content": "What type of sentence is: 'Stop running!'?",
     "type": "multiple_choice",
     "options": [
-      "Statement",
-      "Question",
-      "Command",
-      "Exclamation"
+      "declarative",
+      "interrogative",
+      "imperative",
+      "exclamatory"
     ],
-    "correctAnswer": "Command",
+    "correctAnswer": "imperative",
     "subject": "english",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "This sentence gives an instruction or command",
-    "_cacheBreaker": "1755265388207_5"
+    "explanation": "Imperative sentences give commands or instructions",
+    "_cacheBreaker": "1756033578381_10"
   },
   {
-    "_id": "english_6_medium_1755261255160_007",
-    "content": "What is the plural of 'child'? (Question 7)",
+    "_id": "english_6_medium_011",
+    "content": "Identify the subject in: 'The tall boy ran quickly.'",
+    "type": "multiple_choice",
+    "options": [
+      "tall",
+      "boy",
+      "ran",
+      "quickly"
+    ],
+    "correctAnswer": "boy",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "The subject is who or what the sentence is about. 'Boy' is the subject",
+    "_cacheBreaker": "1756033578381_11"
+  },
+  {
+    "_id": "english_6_medium_012",
+    "content": "Which sentence is in passive voice?",
+    "type": "multiple_choice",
+    "options": [
+      "John threw the ball",
+      "The ball was thrown by John",
+      "John is throwing",
+      "John will throw"
+    ],
+    "correctAnswer": "The ball was thrown by John",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "Passive voice focuses on what was done to the subject",
+    "_cacheBreaker": "1756033578381_12"
+  },
+  {
+    "_id": "english_6_medium_013",
+    "content": "What is the plural of 'child'?",
     "type": "multiple_choice",
     "options": [
       "childs",
-      "children",
       "childes",
-      "child"
+      "children",
+      "child's"
     ],
     "correctAnswer": "children",
     "subject": "english",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "Child has an irregular plural form: children",
-    "_cacheBreaker": "1755265388207_6"
+    "explanation": "Children is the irregular plural of child",
+    "_cacheBreaker": "1756033578381_13"
   },
   {
-    "_id": "english_6_medium_1755261255160_008",
-    "content": "Which is a proper noun? (Question 8)",
+    "_id": "english_6_medium_014",
+    "content": "Which word needs a capital letter?",
     "type": "multiple_choice",
     "options": [
-      "city",
-      "London",
-      "building",
-      "street"
+      "dog",
+      "tuesday",
+      "happy",
+      "running"
     ],
-    "correctAnswer": "London",
+    "correctAnswer": "tuesday",
     "subject": "english",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "London is a specific place name, so it's a proper noun",
-    "_cacheBreaker": "1755265388207_7"
+    "explanation": "Days of the week are proper nouns and need capital letters",
+    "_cacheBreaker": "1756033578381_14"
   },
   {
-    "_id": "english_6_medium_1755261255160_009",
-    "content": "What type of sentence is this: 'Close the door.' (Question 9)",
+    "_id": "english_6_medium_015",
+    "content": "What type of sentence is: 'Stop running!'?",
     "type": "multiple_choice",
     "options": [
-      "Statement",
-      "Question",
-      "Command",
-      "Exclamation"
+      "declarative",
+      "interrogative",
+      "imperative",
+      "exclamatory"
     ],
-    "correctAnswer": "Command",
+    "correctAnswer": "imperative",
     "subject": "english",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "This sentence gives an instruction or command",
-    "_cacheBreaker": "1755265388207_8"
+    "explanation": "Imperative sentences give commands or instructions",
+    "_cacheBreaker": "1756033578381_15"
   },
   {
-    "_id": "english_6_medium_1755261255160_010",
-    "content": "What is the plural of 'child'? (Question 10)",
+    "_id": "english_6_medium_016",
+    "content": "Identify the subject in: 'The tall boy ran quickly.'",
+    "type": "multiple_choice",
+    "options": [
+      "tall",
+      "boy",
+      "ran",
+      "quickly"
+    ],
+    "correctAnswer": "boy",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "The subject is who or what the sentence is about. 'Boy' is the subject",
+    "_cacheBreaker": "1756033578381_16"
+  },
+  {
+    "_id": "english_6_medium_017",
+    "content": "Which sentence is in passive voice?",
+    "type": "multiple_choice",
+    "options": [
+      "John threw the ball",
+      "The ball was thrown by John",
+      "John is throwing",
+      "John will throw"
+    ],
+    "correctAnswer": "The ball was thrown by John",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "Passive voice focuses on what was done to the subject",
+    "_cacheBreaker": "1756033578381_17"
+  },
+  {
+    "_id": "english_6_medium_018",
+    "content": "What is the plural of 'child'?",
     "type": "multiple_choice",
     "options": [
       "childs",
-      "children",
       "childes",
-      "child"
+      "children",
+      "child's"
     ],
     "correctAnswer": "children",
     "subject": "english",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "Child has an irregular plural form: children",
-    "_cacheBreaker": "1755265388207_9"
+    "explanation": "Children is the irregular plural of child",
+    "_cacheBreaker": "1756033578381_18"
   },
   {
-    "_id": "english_6_medium_1755261255160_011",
-    "content": "Which is a proper noun? (Question 11)",
+    "_id": "english_6_medium_019",
+    "content": "Which word needs a capital letter?",
     "type": "multiple_choice",
     "options": [
-      "city",
-      "London",
-      "building",
-      "street"
+      "dog",
+      "tuesday",
+      "happy",
+      "running"
     ],
-    "correctAnswer": "London",
+    "correctAnswer": "tuesday",
     "subject": "english",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "London is a specific place name, so it's a proper noun",
-    "_cacheBreaker": "1755265388207_10"
+    "explanation": "Days of the week are proper nouns and need capital letters",
+    "_cacheBreaker": "1756033578381_19"
   },
   {
-    "_id": "english_6_medium_1755261255160_012",
-    "content": "What type of sentence is this: 'Close the door.' (Question 12)",
+    "_id": "english_6_medium_020",
+    "content": "What type of sentence is: 'Stop running!'?",
     "type": "multiple_choice",
     "options": [
-      "Statement",
-      "Question",
-      "Command",
-      "Exclamation"
+      "declarative",
+      "interrogative",
+      "imperative",
+      "exclamatory"
     ],
-    "correctAnswer": "Command",
+    "correctAnswer": "imperative",
     "subject": "english",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "This sentence gives an instruction or command",
-    "_cacheBreaker": "1755265388207_11"
+    "explanation": "Imperative sentences give commands or instructions",
+    "_cacheBreaker": "1756033578381_20"
   },
   {
-    "_id": "english_6_medium_1755261255160_013",
-    "content": "What is the plural of 'child'? (Question 13)",
+    "_id": "english_6_medium_021",
+    "content": "Identify the subject in: 'The tall boy ran quickly.'",
+    "type": "multiple_choice",
+    "options": [
+      "tall",
+      "boy",
+      "ran",
+      "quickly"
+    ],
+    "correctAnswer": "boy",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "The subject is who or what the sentence is about. 'Boy' is the subject",
+    "_cacheBreaker": "1756033578381_21"
+  },
+  {
+    "_id": "english_6_medium_022",
+    "content": "Which sentence is in passive voice?",
+    "type": "multiple_choice",
+    "options": [
+      "John threw the ball",
+      "The ball was thrown by John",
+      "John is throwing",
+      "John will throw"
+    ],
+    "correctAnswer": "The ball was thrown by John",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "Passive voice focuses on what was done to the subject",
+    "_cacheBreaker": "1756033578381_22"
+  },
+  {
+    "_id": "english_6_medium_023",
+    "content": "What is the plural of 'child'?",
     "type": "multiple_choice",
     "options": [
       "childs",
-      "children",
       "childes",
-      "child"
+      "children",
+      "child's"
     ],
     "correctAnswer": "children",
     "subject": "english",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "Child has an irregular plural form: children",
-    "_cacheBreaker": "1755265388207_12"
+    "explanation": "Children is the irregular plural of child",
+    "_cacheBreaker": "1756033578381_23"
   },
   {
-    "_id": "english_6_medium_1755261255160_014",
-    "content": "Which is a proper noun? (Question 14)",
+    "_id": "english_6_medium_024",
+    "content": "Which word needs a capital letter?",
     "type": "multiple_choice",
     "options": [
-      "city",
-      "London",
-      "building",
-      "street"
+      "dog",
+      "tuesday",
+      "happy",
+      "running"
     ],
-    "correctAnswer": "London",
+    "correctAnswer": "tuesday",
     "subject": "english",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "London is a specific place name, so it's a proper noun",
-    "_cacheBreaker": "1755265388207_13"
+    "explanation": "Days of the week are proper nouns and need capital letters",
+    "_cacheBreaker": "1756033578381_24"
   },
   {
-    "_id": "english_6_medium_1755261255160_015",
-    "content": "What type of sentence is this: 'Close the door.' (Question 15)",
+    "_id": "english_6_medium_025",
+    "content": "What type of sentence is: 'Stop running!'?",
     "type": "multiple_choice",
     "options": [
-      "Statement",
-      "Question",
-      "Command",
-      "Exclamation"
+      "declarative",
+      "interrogative",
+      "imperative",
+      "exclamatory"
     ],
-    "correctAnswer": "Command",
+    "correctAnswer": "imperative",
     "subject": "english",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "This sentence gives an instruction or command",
-    "_cacheBreaker": "1755265388207_14"
+    "explanation": "Imperative sentences give commands or instructions",
+    "_cacheBreaker": "1756033578381_25"
   },
   {
-    "_id": "english_6_medium_1755261255160_016",
-    "content": "What is the plural of 'child'? (Question 16)",
+    "_id": "english_6_medium_026",
+    "content": "Identify the subject in: 'The tall boy ran quickly.'",
+    "type": "multiple_choice",
+    "options": [
+      "tall",
+      "boy",
+      "ran",
+      "quickly"
+    ],
+    "correctAnswer": "boy",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "The subject is who or what the sentence is about. 'Boy' is the subject",
+    "_cacheBreaker": "1756033578381_26"
+  },
+  {
+    "_id": "english_6_medium_027",
+    "content": "Which sentence is in passive voice?",
+    "type": "multiple_choice",
+    "options": [
+      "John threw the ball",
+      "The ball was thrown by John",
+      "John is throwing",
+      "John will throw"
+    ],
+    "correctAnswer": "The ball was thrown by John",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "Passive voice focuses on what was done to the subject",
+    "_cacheBreaker": "1756033578381_27"
+  },
+  {
+    "_id": "english_6_medium_028",
+    "content": "What is the plural of 'child'?",
     "type": "multiple_choice",
     "options": [
       "childs",
-      "children",
       "childes",
-      "child"
+      "children",
+      "child's"
     ],
     "correctAnswer": "children",
     "subject": "english",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "Child has an irregular plural form: children",
-    "_cacheBreaker": "1755265388207_15"
+    "explanation": "Children is the irregular plural of child",
+    "_cacheBreaker": "1756033578381_28"
   },
   {
-    "_id": "english_6_medium_1755261255160_017",
-    "content": "Which is a proper noun? (Question 17)",
+    "_id": "english_6_medium_029",
+    "content": "Which word needs a capital letter?",
     "type": "multiple_choice",
     "options": [
-      "city",
-      "London",
-      "building",
-      "street"
+      "dog",
+      "tuesday",
+      "happy",
+      "running"
     ],
-    "correctAnswer": "London",
+    "correctAnswer": "tuesday",
     "subject": "english",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "London is a specific place name, so it's a proper noun",
-    "_cacheBreaker": "1755265388207_16"
+    "explanation": "Days of the week are proper nouns and need capital letters",
+    "_cacheBreaker": "1756033578381_29"
   },
   {
-    "_id": "english_6_medium_1755261255160_018",
-    "content": "What type of sentence is this: 'Close the door.' (Question 18)",
+    "_id": "english_6_medium_030",
+    "content": "What type of sentence is: 'Stop running!'?",
     "type": "multiple_choice",
     "options": [
-      "Statement",
-      "Question",
-      "Command",
-      "Exclamation"
+      "declarative",
+      "interrogative",
+      "imperative",
+      "exclamatory"
     ],
-    "correctAnswer": "Command",
+    "correctAnswer": "imperative",
     "subject": "english",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "This sentence gives an instruction or command",
-    "_cacheBreaker": "1755265388207_17"
+    "explanation": "Imperative sentences give commands or instructions",
+    "_cacheBreaker": "1756033578381_30"
   },
   {
-    "_id": "english_6_medium_1755261255160_019",
-    "content": "What is the plural of 'child'? (Question 19)",
+    "_id": "english_6_medium_031",
+    "content": "Identify the subject in: 'The tall boy ran quickly.'",
+    "type": "multiple_choice",
+    "options": [
+      "tall",
+      "boy",
+      "ran",
+      "quickly"
+    ],
+    "correctAnswer": "boy",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "The subject is who or what the sentence is about. 'Boy' is the subject",
+    "_cacheBreaker": "1756033578381_31"
+  },
+  {
+    "_id": "english_6_medium_032",
+    "content": "Which sentence is in passive voice?",
+    "type": "multiple_choice",
+    "options": [
+      "John threw the ball",
+      "The ball was thrown by John",
+      "John is throwing",
+      "John will throw"
+    ],
+    "correctAnswer": "The ball was thrown by John",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "Passive voice focuses on what was done to the subject",
+    "_cacheBreaker": "1756033578381_32"
+  },
+  {
+    "_id": "english_6_medium_033",
+    "content": "What is the plural of 'child'?",
     "type": "multiple_choice",
     "options": [
       "childs",
-      "children",
       "childes",
-      "child"
+      "children",
+      "child's"
     ],
     "correctAnswer": "children",
     "subject": "english",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "Child has an irregular plural form: children",
-    "_cacheBreaker": "1755265388207_18"
+    "explanation": "Children is the irregular plural of child",
+    "_cacheBreaker": "1756033578381_33"
   },
   {
-    "_id": "english_6_medium_1755261255160_020",
-    "content": "Which is a proper noun? (Question 20)",
+    "_id": "english_6_medium_034",
+    "content": "Which word needs a capital letter?",
     "type": "multiple_choice",
     "options": [
-      "city",
-      "London",
-      "building",
-      "street"
+      "dog",
+      "tuesday",
+      "happy",
+      "running"
     ],
-    "correctAnswer": "London",
+    "correctAnswer": "tuesday",
     "subject": "english",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "London is a specific place name, so it's a proper noun",
-    "_cacheBreaker": "1755265388207_19"
+    "explanation": "Days of the week are proper nouns and need capital letters",
+    "_cacheBreaker": "1756033578381_34"
+  },
+  {
+    "_id": "english_6_medium_035",
+    "content": "What type of sentence is: 'Stop running!'?",
+    "type": "multiple_choice",
+    "options": [
+      "declarative",
+      "interrogative",
+      "imperative",
+      "exclamatory"
+    ],
+    "correctAnswer": "imperative",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "Imperative sentences give commands or instructions",
+    "_cacheBreaker": "1756033578381_35"
+  },
+  {
+    "_id": "english_6_medium_036",
+    "content": "Identify the subject in: 'The tall boy ran quickly.'",
+    "type": "multiple_choice",
+    "options": [
+      "tall",
+      "boy",
+      "ran",
+      "quickly"
+    ],
+    "correctAnswer": "boy",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "The subject is who or what the sentence is about. 'Boy' is the subject",
+    "_cacheBreaker": "1756033578381_36"
+  },
+  {
+    "_id": "english_6_medium_037",
+    "content": "Which sentence is in passive voice?",
+    "type": "multiple_choice",
+    "options": [
+      "John threw the ball",
+      "The ball was thrown by John",
+      "John is throwing",
+      "John will throw"
+    ],
+    "correctAnswer": "The ball was thrown by John",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "Passive voice focuses on what was done to the subject",
+    "_cacheBreaker": "1756033578381_37"
+  },
+  {
+    "_id": "english_6_medium_038",
+    "content": "What is the plural of 'child'?",
+    "type": "multiple_choice",
+    "options": [
+      "childs",
+      "childes",
+      "children",
+      "child's"
+    ],
+    "correctAnswer": "children",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "Children is the irregular plural of child",
+    "_cacheBreaker": "1756033578381_38"
+  },
+  {
+    "_id": "english_6_medium_039",
+    "content": "Which word needs a capital letter?",
+    "type": "multiple_choice",
+    "options": [
+      "dog",
+      "tuesday",
+      "happy",
+      "running"
+    ],
+    "correctAnswer": "tuesday",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "Days of the week are proper nouns and need capital letters",
+    "_cacheBreaker": "1756033578381_39"
+  },
+  {
+    "_id": "english_6_medium_040",
+    "content": "What type of sentence is: 'Stop running!'?",
+    "type": "multiple_choice",
+    "options": [
+      "declarative",
+      "interrogative",
+      "imperative",
+      "exclamatory"
+    ],
+    "correctAnswer": "imperative",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "Imperative sentences give commands or instructions",
+    "_cacheBreaker": "1756033578381_40"
+  },
+  {
+    "_id": "english_6_medium_041",
+    "content": "Identify the subject in: 'The tall boy ran quickly.'",
+    "type": "multiple_choice",
+    "options": [
+      "tall",
+      "boy",
+      "ran",
+      "quickly"
+    ],
+    "correctAnswer": "boy",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "The subject is who or what the sentence is about. 'Boy' is the subject",
+    "_cacheBreaker": "1756033578381_41"
+  },
+  {
+    "_id": "english_6_medium_042",
+    "content": "Which sentence is in passive voice?",
+    "type": "multiple_choice",
+    "options": [
+      "John threw the ball",
+      "The ball was thrown by John",
+      "John is throwing",
+      "John will throw"
+    ],
+    "correctAnswer": "The ball was thrown by John",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "Passive voice focuses on what was done to the subject",
+    "_cacheBreaker": "1756033578381_42"
+  },
+  {
+    "_id": "english_6_medium_043",
+    "content": "What is the plural of 'child'?",
+    "type": "multiple_choice",
+    "options": [
+      "childs",
+      "childes",
+      "children",
+      "child's"
+    ],
+    "correctAnswer": "children",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "Children is the irregular plural of child",
+    "_cacheBreaker": "1756033578381_43"
+  },
+  {
+    "_id": "english_6_medium_044",
+    "content": "Which word needs a capital letter?",
+    "type": "multiple_choice",
+    "options": [
+      "dog",
+      "tuesday",
+      "happy",
+      "running"
+    ],
+    "correctAnswer": "tuesday",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "Days of the week are proper nouns and need capital letters",
+    "_cacheBreaker": "1756033578381_44"
+  },
+  {
+    "_id": "english_6_medium_045",
+    "content": "What type of sentence is: 'Stop running!'?",
+    "type": "multiple_choice",
+    "options": [
+      "declarative",
+      "interrogative",
+      "imperative",
+      "exclamatory"
+    ],
+    "correctAnswer": "imperative",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "Imperative sentences give commands or instructions",
+    "_cacheBreaker": "1756033578381_45"
+  },
+  {
+    "_id": "english_6_medium_046",
+    "content": "Identify the subject in: 'The tall boy ran quickly.'",
+    "type": "multiple_choice",
+    "options": [
+      "tall",
+      "boy",
+      "ran",
+      "quickly"
+    ],
+    "correctAnswer": "boy",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "The subject is who or what the sentence is about. 'Boy' is the subject",
+    "_cacheBreaker": "1756033578381_46"
+  },
+  {
+    "_id": "english_6_medium_047",
+    "content": "Which sentence is in passive voice?",
+    "type": "multiple_choice",
+    "options": [
+      "John threw the ball",
+      "The ball was thrown by John",
+      "John is throwing",
+      "John will throw"
+    ],
+    "correctAnswer": "The ball was thrown by John",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "Passive voice focuses on what was done to the subject",
+    "_cacheBreaker": "1756033578381_47"
+  },
+  {
+    "_id": "english_6_medium_048",
+    "content": "What is the plural of 'child'?",
+    "type": "multiple_choice",
+    "options": [
+      "childs",
+      "childes",
+      "children",
+      "child's"
+    ],
+    "correctAnswer": "children",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "Children is the irregular plural of child",
+    "_cacheBreaker": "1756033578381_48"
+  },
+  {
+    "_id": "english_6_medium_049",
+    "content": "Which word needs a capital letter?",
+    "type": "multiple_choice",
+    "options": [
+      "dog",
+      "tuesday",
+      "happy",
+      "running"
+    ],
+    "correctAnswer": "tuesday",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "Days of the week are proper nouns and need capital letters",
+    "_cacheBreaker": "1756033578381_49"
+  },
+  {
+    "_id": "english_6_medium_050",
+    "content": "What type of sentence is: 'Stop running!'?",
+    "type": "multiple_choice",
+    "options": [
+      "declarative",
+      "interrogative",
+      "imperative",
+      "exclamatory"
+    ],
+    "correctAnswer": "imperative",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "Imperative sentences give commands or instructions",
+    "_cacheBreaker": "1756033578381_50"
   }
 ]

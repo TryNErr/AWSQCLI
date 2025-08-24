@@ -1,342 +1,852 @@
 [
   {
-    "_id": "english_6_easy_1755261255159_001",
-    "content": "What is the plural of 'child'?",
-    "type": "multiple_choice",
-    "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
-    ],
-    "correctAnswer": "children",
-    "subject": "english",
-    "grade": "6",
-    "difficulty": "easy",
-    "explanation": "Child has an irregular plural form: children",
-    "_cacheBreaker": "1755265388198_0"
-  },
-  {
-    "_id": "english_6_easy_1755261255159_002",
-    "content": "Which is a proper noun?",
+    "_id": "english_6_easy_001",
+    "content": "Which word is a proper noun?",
     "type": "multiple_choice",
     "options": [
       "city",
       "London",
       "building",
-      "street"
+      "person"
     ],
     "correctAnswer": "London",
     "subject": "english",
     "grade": "6",
     "difficulty": "easy",
-    "explanation": "London is a specific place name, so it's a proper noun",
-    "_cacheBreaker": "1755265388198_1"
+    "explanation": "London is a proper noun because it names a specific place",
+    "_cacheBreaker": "1756033578381_1"
   },
   {
-    "_id": "english_6_easy_1755261255159_003",
-    "content": "What type of sentence is this: 'Close the door.'",
+    "_id": "english_6_easy_002",
+    "content": "What is the past tense of 'run'?",
     "type": "multiple_choice",
     "options": [
-      "Statement",
-      "Question",
-      "Command",
-      "Exclamation"
+      "runned",
+      "ran",
+      "running",
+      "runs"
     ],
-    "correctAnswer": "Command",
+    "correctAnswer": "ran",
     "subject": "english",
     "grade": "6",
     "difficulty": "easy",
-    "explanation": "This sentence gives an instruction or command",
-    "_cacheBreaker": "1755265388198_2"
+    "explanation": "The past tense of 'run' is 'ran'",
+    "_cacheBreaker": "1756033578381_2"
   },
   {
-    "_id": "english_6_easy_1755261255159_004",
-    "content": "What is the plural of 'child'? (Question 4)",
+    "_id": "english_6_easy_003",
+    "content": "Which sentence uses correct punctuation?",
     "type": "multiple_choice",
     "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
+      "Hello, how are you",
+      "Hello how are you?",
+      "Hello, how are you?",
+      "hello, how are you?"
     ],
-    "correctAnswer": "children",
+    "correctAnswer": "Hello, how are you?",
     "subject": "english",
     "grade": "6",
     "difficulty": "easy",
-    "explanation": "Child has an irregular plural form: children",
-    "_cacheBreaker": "1755265388198_3"
+    "explanation": "Questions need question marks and proper capitalization",
+    "_cacheBreaker": "1756033578381_3"
   },
   {
-    "_id": "english_6_easy_1755261255159_005",
-    "content": "Which is a proper noun? (Question 5)",
+    "_id": "english_6_easy_004",
+    "content": "What type of word is 'quickly'?",
+    "type": "multiple_choice",
+    "options": [
+      "noun",
+      "verb",
+      "adjective",
+      "adverb"
+    ],
+    "correctAnswer": "adverb",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "Adverbs describe how actions are done. 'Quickly' describes how something is done",
+    "_cacheBreaker": "1756033578381_4"
+  },
+  {
+    "_id": "english_6_easy_005",
+    "content": "Which word is a synonym for 'big'?",
+    "type": "multiple_choice",
+    "options": [
+      "small",
+      "large",
+      "tiny",
+      "little"
+    ],
+    "correctAnswer": "large",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "Large means the same as big",
+    "_cacheBreaker": "1756033578381_5"
+  },
+  {
+    "_id": "english_6_easy_006",
+    "content": "Which word is a proper noun?",
     "type": "multiple_choice",
     "options": [
       "city",
       "London",
       "building",
-      "street"
+      "person"
     ],
     "correctAnswer": "London",
     "subject": "english",
     "grade": "6",
     "difficulty": "easy",
-    "explanation": "London is a specific place name, so it's a proper noun",
-    "_cacheBreaker": "1755265388198_4"
+    "explanation": "London is a proper noun because it names a specific place",
+    "_cacheBreaker": "1756033578381_6"
   },
   {
-    "_id": "english_6_easy_1755261255159_006",
-    "content": "What type of sentence is this: 'Close the door.' (Question 6)",
+    "_id": "english_6_easy_007",
+    "content": "What is the past tense of 'run'?",
     "type": "multiple_choice",
     "options": [
-      "Statement",
-      "Question",
-      "Command",
-      "Exclamation"
+      "runned",
+      "ran",
+      "running",
+      "runs"
     ],
-    "correctAnswer": "Command",
+    "correctAnswer": "ran",
     "subject": "english",
     "grade": "6",
     "difficulty": "easy",
-    "explanation": "This sentence gives an instruction or command",
-    "_cacheBreaker": "1755265388198_5"
+    "explanation": "The past tense of 'run' is 'ran'",
+    "_cacheBreaker": "1756033578381_7"
   },
   {
-    "_id": "english_6_easy_1755261255159_007",
-    "content": "What is the plural of 'child'? (Question 7)",
+    "_id": "english_6_easy_008",
+    "content": "Which sentence uses correct punctuation?",
     "type": "multiple_choice",
     "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
+      "Hello, how are you",
+      "Hello how are you?",
+      "Hello, how are you?",
+      "hello, how are you?"
     ],
-    "correctAnswer": "children",
+    "correctAnswer": "Hello, how are you?",
     "subject": "english",
     "grade": "6",
     "difficulty": "easy",
-    "explanation": "Child has an irregular plural form: children",
-    "_cacheBreaker": "1755265388198_6"
+    "explanation": "Questions need question marks and proper capitalization",
+    "_cacheBreaker": "1756033578381_8"
   },
   {
-    "_id": "english_6_easy_1755261255159_008",
-    "content": "Which is a proper noun? (Question 8)",
+    "_id": "english_6_easy_009",
+    "content": "What type of word is 'quickly'?",
+    "type": "multiple_choice",
+    "options": [
+      "noun",
+      "verb",
+      "adjective",
+      "adverb"
+    ],
+    "correctAnswer": "adverb",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "Adverbs describe how actions are done. 'Quickly' describes how something is done",
+    "_cacheBreaker": "1756033578381_9"
+  },
+  {
+    "_id": "english_6_easy_010",
+    "content": "Which word is a synonym for 'big'?",
+    "type": "multiple_choice",
+    "options": [
+      "small",
+      "large",
+      "tiny",
+      "little"
+    ],
+    "correctAnswer": "large",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "Large means the same as big",
+    "_cacheBreaker": "1756033578381_10"
+  },
+  {
+    "_id": "english_6_easy_011",
+    "content": "Which word is a proper noun?",
     "type": "multiple_choice",
     "options": [
       "city",
       "London",
       "building",
-      "street"
+      "person"
     ],
     "correctAnswer": "London",
     "subject": "english",
     "grade": "6",
     "difficulty": "easy",
-    "explanation": "London is a specific place name, so it's a proper noun",
-    "_cacheBreaker": "1755265388198_7"
+    "explanation": "London is a proper noun because it names a specific place",
+    "_cacheBreaker": "1756033578381_11"
   },
   {
-    "_id": "english_6_easy_1755261255159_009",
-    "content": "What type of sentence is this: 'Close the door.' (Question 9)",
+    "_id": "english_6_easy_012",
+    "content": "What is the past tense of 'run'?",
     "type": "multiple_choice",
     "options": [
-      "Statement",
-      "Question",
-      "Command",
-      "Exclamation"
+      "runned",
+      "ran",
+      "running",
+      "runs"
     ],
-    "correctAnswer": "Command",
+    "correctAnswer": "ran",
     "subject": "english",
     "grade": "6",
     "difficulty": "easy",
-    "explanation": "This sentence gives an instruction or command",
-    "_cacheBreaker": "1755265388198_8"
+    "explanation": "The past tense of 'run' is 'ran'",
+    "_cacheBreaker": "1756033578381_12"
   },
   {
-    "_id": "english_6_easy_1755261255159_010",
-    "content": "What is the plural of 'child'? (Question 10)",
+    "_id": "english_6_easy_013",
+    "content": "Which sentence uses correct punctuation?",
     "type": "multiple_choice",
     "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
+      "Hello, how are you",
+      "Hello how are you?",
+      "Hello, how are you?",
+      "hello, how are you?"
     ],
-    "correctAnswer": "children",
+    "correctAnswer": "Hello, how are you?",
     "subject": "english",
     "grade": "6",
     "difficulty": "easy",
-    "explanation": "Child has an irregular plural form: children",
-    "_cacheBreaker": "1755265388198_9"
+    "explanation": "Questions need question marks and proper capitalization",
+    "_cacheBreaker": "1756033578381_13"
   },
   {
-    "_id": "english_6_easy_1755261255159_011",
-    "content": "Which is a proper noun? (Question 11)",
+    "_id": "english_6_easy_014",
+    "content": "What type of word is 'quickly'?",
+    "type": "multiple_choice",
+    "options": [
+      "noun",
+      "verb",
+      "adjective",
+      "adverb"
+    ],
+    "correctAnswer": "adverb",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "Adverbs describe how actions are done. 'Quickly' describes how something is done",
+    "_cacheBreaker": "1756033578381_14"
+  },
+  {
+    "_id": "english_6_easy_015",
+    "content": "Which word is a synonym for 'big'?",
+    "type": "multiple_choice",
+    "options": [
+      "small",
+      "large",
+      "tiny",
+      "little"
+    ],
+    "correctAnswer": "large",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "Large means the same as big",
+    "_cacheBreaker": "1756033578381_15"
+  },
+  {
+    "_id": "english_6_easy_016",
+    "content": "Which word is a proper noun?",
     "type": "multiple_choice",
     "options": [
       "city",
       "London",
       "building",
-      "street"
+      "person"
     ],
     "correctAnswer": "London",
     "subject": "english",
     "grade": "6",
     "difficulty": "easy",
-    "explanation": "London is a specific place name, so it's a proper noun",
-    "_cacheBreaker": "1755265388198_10"
+    "explanation": "London is a proper noun because it names a specific place",
+    "_cacheBreaker": "1756033578381_16"
   },
   {
-    "_id": "english_6_easy_1755261255159_012",
-    "content": "What type of sentence is this: 'Close the door.' (Question 12)",
+    "_id": "english_6_easy_017",
+    "content": "What is the past tense of 'run'?",
     "type": "multiple_choice",
     "options": [
-      "Statement",
-      "Question",
-      "Command",
-      "Exclamation"
+      "runned",
+      "ran",
+      "running",
+      "runs"
     ],
-    "correctAnswer": "Command",
+    "correctAnswer": "ran",
     "subject": "english",
     "grade": "6",
     "difficulty": "easy",
-    "explanation": "This sentence gives an instruction or command",
-    "_cacheBreaker": "1755265388198_11"
+    "explanation": "The past tense of 'run' is 'ran'",
+    "_cacheBreaker": "1756033578381_17"
   },
   {
-    "_id": "english_6_easy_1755261255159_013",
-    "content": "What is the plural of 'child'? (Question 13)",
+    "_id": "english_6_easy_018",
+    "content": "Which sentence uses correct punctuation?",
     "type": "multiple_choice",
     "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
+      "Hello, how are you",
+      "Hello how are you?",
+      "Hello, how are you?",
+      "hello, how are you?"
     ],
-    "correctAnswer": "children",
+    "correctAnswer": "Hello, how are you?",
     "subject": "english",
     "grade": "6",
     "difficulty": "easy",
-    "explanation": "Child has an irregular plural form: children",
-    "_cacheBreaker": "1755265388198_12"
+    "explanation": "Questions need question marks and proper capitalization",
+    "_cacheBreaker": "1756033578381_18"
   },
   {
-    "_id": "english_6_easy_1755261255159_014",
-    "content": "Which is a proper noun? (Question 14)",
+    "_id": "english_6_easy_019",
+    "content": "What type of word is 'quickly'?",
+    "type": "multiple_choice",
+    "options": [
+      "noun",
+      "verb",
+      "adjective",
+      "adverb"
+    ],
+    "correctAnswer": "adverb",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "Adverbs describe how actions are done. 'Quickly' describes how something is done",
+    "_cacheBreaker": "1756033578381_19"
+  },
+  {
+    "_id": "english_6_easy_020",
+    "content": "Which word is a synonym for 'big'?",
+    "type": "multiple_choice",
+    "options": [
+      "small",
+      "large",
+      "tiny",
+      "little"
+    ],
+    "correctAnswer": "large",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "Large means the same as big",
+    "_cacheBreaker": "1756033578381_20"
+  },
+  {
+    "_id": "english_6_easy_021",
+    "content": "Which word is a proper noun?",
     "type": "multiple_choice",
     "options": [
       "city",
       "London",
       "building",
-      "street"
+      "person"
     ],
     "correctAnswer": "London",
     "subject": "english",
     "grade": "6",
     "difficulty": "easy",
-    "explanation": "London is a specific place name, so it's a proper noun",
-    "_cacheBreaker": "1755265388198_13"
+    "explanation": "London is a proper noun because it names a specific place",
+    "_cacheBreaker": "1756033578381_21"
   },
   {
-    "_id": "english_6_easy_1755261255159_015",
-    "content": "What type of sentence is this: 'Close the door.' (Question 15)",
+    "_id": "english_6_easy_022",
+    "content": "What is the past tense of 'run'?",
     "type": "multiple_choice",
     "options": [
-      "Statement",
-      "Question",
-      "Command",
-      "Exclamation"
+      "runned",
+      "ran",
+      "running",
+      "runs"
     ],
-    "correctAnswer": "Command",
+    "correctAnswer": "ran",
     "subject": "english",
     "grade": "6",
     "difficulty": "easy",
-    "explanation": "This sentence gives an instruction or command",
-    "_cacheBreaker": "1755265388198_14"
+    "explanation": "The past tense of 'run' is 'ran'",
+    "_cacheBreaker": "1756033578381_22"
   },
   {
-    "_id": "english_6_easy_1755261255159_016",
-    "content": "What is the plural of 'child'? (Question 16)",
+    "_id": "english_6_easy_023",
+    "content": "Which sentence uses correct punctuation?",
     "type": "multiple_choice",
     "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
+      "Hello, how are you",
+      "Hello how are you?",
+      "Hello, how are you?",
+      "hello, how are you?"
     ],
-    "correctAnswer": "children",
+    "correctAnswer": "Hello, how are you?",
     "subject": "english",
     "grade": "6",
     "difficulty": "easy",
-    "explanation": "Child has an irregular plural form: children",
-    "_cacheBreaker": "1755265388198_15"
+    "explanation": "Questions need question marks and proper capitalization",
+    "_cacheBreaker": "1756033578381_23"
   },
   {
-    "_id": "english_6_easy_1755261255159_017",
-    "content": "Which is a proper noun? (Question 17)",
+    "_id": "english_6_easy_024",
+    "content": "What type of word is 'quickly'?",
+    "type": "multiple_choice",
+    "options": [
+      "noun",
+      "verb",
+      "adjective",
+      "adverb"
+    ],
+    "correctAnswer": "adverb",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "Adverbs describe how actions are done. 'Quickly' describes how something is done",
+    "_cacheBreaker": "1756033578381_24"
+  },
+  {
+    "_id": "english_6_easy_025",
+    "content": "Which word is a synonym for 'big'?",
+    "type": "multiple_choice",
+    "options": [
+      "small",
+      "large",
+      "tiny",
+      "little"
+    ],
+    "correctAnswer": "large",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "Large means the same as big",
+    "_cacheBreaker": "1756033578381_25"
+  },
+  {
+    "_id": "english_6_easy_026",
+    "content": "Which word is a proper noun?",
     "type": "multiple_choice",
     "options": [
       "city",
       "London",
       "building",
-      "street"
+      "person"
     ],
     "correctAnswer": "London",
     "subject": "english",
     "grade": "6",
     "difficulty": "easy",
-    "explanation": "London is a specific place name, so it's a proper noun",
-    "_cacheBreaker": "1755265388198_16"
+    "explanation": "London is a proper noun because it names a specific place",
+    "_cacheBreaker": "1756033578381_26"
   },
   {
-    "_id": "english_6_easy_1755261255159_018",
-    "content": "What type of sentence is this: 'Close the door.' (Question 18)",
+    "_id": "english_6_easy_027",
+    "content": "What is the past tense of 'run'?",
     "type": "multiple_choice",
     "options": [
-      "Statement",
-      "Question",
-      "Command",
-      "Exclamation"
+      "runned",
+      "ran",
+      "running",
+      "runs"
     ],
-    "correctAnswer": "Command",
+    "correctAnswer": "ran",
     "subject": "english",
     "grade": "6",
     "difficulty": "easy",
-    "explanation": "This sentence gives an instruction or command",
-    "_cacheBreaker": "1755265388198_17"
+    "explanation": "The past tense of 'run' is 'ran'",
+    "_cacheBreaker": "1756033578381_27"
   },
   {
-    "_id": "english_6_easy_1755261255159_019",
-    "content": "What is the plural of 'child'? (Question 19)",
+    "_id": "english_6_easy_028",
+    "content": "Which sentence uses correct punctuation?",
     "type": "multiple_choice",
     "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
+      "Hello, how are you",
+      "Hello how are you?",
+      "Hello, how are you?",
+      "hello, how are you?"
     ],
-    "correctAnswer": "children",
+    "correctAnswer": "Hello, how are you?",
     "subject": "english",
     "grade": "6",
     "difficulty": "easy",
-    "explanation": "Child has an irregular plural form: children",
-    "_cacheBreaker": "1755265388198_18"
+    "explanation": "Questions need question marks and proper capitalization",
+    "_cacheBreaker": "1756033578381_28"
   },
   {
-    "_id": "english_6_easy_1755261255159_020",
-    "content": "Which is a proper noun? (Question 20)",
+    "_id": "english_6_easy_029",
+    "content": "What type of word is 'quickly'?",
+    "type": "multiple_choice",
+    "options": [
+      "noun",
+      "verb",
+      "adjective",
+      "adverb"
+    ],
+    "correctAnswer": "adverb",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "Adverbs describe how actions are done. 'Quickly' describes how something is done",
+    "_cacheBreaker": "1756033578381_29"
+  },
+  {
+    "_id": "english_6_easy_030",
+    "content": "Which word is a synonym for 'big'?",
+    "type": "multiple_choice",
+    "options": [
+      "small",
+      "large",
+      "tiny",
+      "little"
+    ],
+    "correctAnswer": "large",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "Large means the same as big",
+    "_cacheBreaker": "1756033578381_30"
+  },
+  {
+    "_id": "english_6_easy_031",
+    "content": "Which word is a proper noun?",
     "type": "multiple_choice",
     "options": [
       "city",
       "London",
       "building",
-      "street"
+      "person"
     ],
     "correctAnswer": "London",
     "subject": "english",
     "grade": "6",
     "difficulty": "easy",
-    "explanation": "London is a specific place name, so it's a proper noun",
-    "_cacheBreaker": "1755265388198_19"
+    "explanation": "London is a proper noun because it names a specific place",
+    "_cacheBreaker": "1756033578381_31"
+  },
+  {
+    "_id": "english_6_easy_032",
+    "content": "What is the past tense of 'run'?",
+    "type": "multiple_choice",
+    "options": [
+      "runned",
+      "ran",
+      "running",
+      "runs"
+    ],
+    "correctAnswer": "ran",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "The past tense of 'run' is 'ran'",
+    "_cacheBreaker": "1756033578381_32"
+  },
+  {
+    "_id": "english_6_easy_033",
+    "content": "Which sentence uses correct punctuation?",
+    "type": "multiple_choice",
+    "options": [
+      "Hello, how are you",
+      "Hello how are you?",
+      "Hello, how are you?",
+      "hello, how are you?"
+    ],
+    "correctAnswer": "Hello, how are you?",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "Questions need question marks and proper capitalization",
+    "_cacheBreaker": "1756033578381_33"
+  },
+  {
+    "_id": "english_6_easy_034",
+    "content": "What type of word is 'quickly'?",
+    "type": "multiple_choice",
+    "options": [
+      "noun",
+      "verb",
+      "adjective",
+      "adverb"
+    ],
+    "correctAnswer": "adverb",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "Adverbs describe how actions are done. 'Quickly' describes how something is done",
+    "_cacheBreaker": "1756033578381_34"
+  },
+  {
+    "_id": "english_6_easy_035",
+    "content": "Which word is a synonym for 'big'?",
+    "type": "multiple_choice",
+    "options": [
+      "small",
+      "large",
+      "tiny",
+      "little"
+    ],
+    "correctAnswer": "large",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "Large means the same as big",
+    "_cacheBreaker": "1756033578381_35"
+  },
+  {
+    "_id": "english_6_easy_036",
+    "content": "Which word is a proper noun?",
+    "type": "multiple_choice",
+    "options": [
+      "city",
+      "London",
+      "building",
+      "person"
+    ],
+    "correctAnswer": "London",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "London is a proper noun because it names a specific place",
+    "_cacheBreaker": "1756033578381_36"
+  },
+  {
+    "_id": "english_6_easy_037",
+    "content": "What is the past tense of 'run'?",
+    "type": "multiple_choice",
+    "options": [
+      "runned",
+      "ran",
+      "running",
+      "runs"
+    ],
+    "correctAnswer": "ran",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "The past tense of 'run' is 'ran'",
+    "_cacheBreaker": "1756033578381_37"
+  },
+  {
+    "_id": "english_6_easy_038",
+    "content": "Which sentence uses correct punctuation?",
+    "type": "multiple_choice",
+    "options": [
+      "Hello, how are you",
+      "Hello how are you?",
+      "Hello, how are you?",
+      "hello, how are you?"
+    ],
+    "correctAnswer": "Hello, how are you?",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "Questions need question marks and proper capitalization",
+    "_cacheBreaker": "1756033578381_38"
+  },
+  {
+    "_id": "english_6_easy_039",
+    "content": "What type of word is 'quickly'?",
+    "type": "multiple_choice",
+    "options": [
+      "noun",
+      "verb",
+      "adjective",
+      "adverb"
+    ],
+    "correctAnswer": "adverb",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "Adverbs describe how actions are done. 'Quickly' describes how something is done",
+    "_cacheBreaker": "1756033578381_39"
+  },
+  {
+    "_id": "english_6_easy_040",
+    "content": "Which word is a synonym for 'big'?",
+    "type": "multiple_choice",
+    "options": [
+      "small",
+      "large",
+      "tiny",
+      "little"
+    ],
+    "correctAnswer": "large",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "Large means the same as big",
+    "_cacheBreaker": "1756033578381_40"
+  },
+  {
+    "_id": "english_6_easy_041",
+    "content": "Which word is a proper noun?",
+    "type": "multiple_choice",
+    "options": [
+      "city",
+      "London",
+      "building",
+      "person"
+    ],
+    "correctAnswer": "London",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "London is a proper noun because it names a specific place",
+    "_cacheBreaker": "1756033578381_41"
+  },
+  {
+    "_id": "english_6_easy_042",
+    "content": "What is the past tense of 'run'?",
+    "type": "multiple_choice",
+    "options": [
+      "runned",
+      "ran",
+      "running",
+      "runs"
+    ],
+    "correctAnswer": "ran",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "The past tense of 'run' is 'ran'",
+    "_cacheBreaker": "1756033578381_42"
+  },
+  {
+    "_id": "english_6_easy_043",
+    "content": "Which sentence uses correct punctuation?",
+    "type": "multiple_choice",
+    "options": [
+      "Hello, how are you",
+      "Hello how are you?",
+      "Hello, how are you?",
+      "hello, how are you?"
+    ],
+    "correctAnswer": "Hello, how are you?",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "Questions need question marks and proper capitalization",
+    "_cacheBreaker": "1756033578381_43"
+  },
+  {
+    "_id": "english_6_easy_044",
+    "content": "What type of word is 'quickly'?",
+    "type": "multiple_choice",
+    "options": [
+      "noun",
+      "verb",
+      "adjective",
+      "adverb"
+    ],
+    "correctAnswer": "adverb",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "Adverbs describe how actions are done. 'Quickly' describes how something is done",
+    "_cacheBreaker": "1756033578381_44"
+  },
+  {
+    "_id": "english_6_easy_045",
+    "content": "Which word is a synonym for 'big'?",
+    "type": "multiple_choice",
+    "options": [
+      "small",
+      "large",
+      "tiny",
+      "little"
+    ],
+    "correctAnswer": "large",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "Large means the same as big",
+    "_cacheBreaker": "1756033578381_45"
+  },
+  {
+    "_id": "english_6_easy_046",
+    "content": "Which word is a proper noun?",
+    "type": "multiple_choice",
+    "options": [
+      "city",
+      "London",
+      "building",
+      "person"
+    ],
+    "correctAnswer": "London",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "London is a proper noun because it names a specific place",
+    "_cacheBreaker": "1756033578381_46"
+  },
+  {
+    "_id": "english_6_easy_047",
+    "content": "What is the past tense of 'run'?",
+    "type": "multiple_choice",
+    "options": [
+      "runned",
+      "ran",
+      "running",
+      "runs"
+    ],
+    "correctAnswer": "ran",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "The past tense of 'run' is 'ran'",
+    "_cacheBreaker": "1756033578381_47"
+  },
+  {
+    "_id": "english_6_easy_048",
+    "content": "Which sentence uses correct punctuation?",
+    "type": "multiple_choice",
+    "options": [
+      "Hello, how are you",
+      "Hello how are you?",
+      "Hello, how are you?",
+      "hello, how are you?"
+    ],
+    "correctAnswer": "Hello, how are you?",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "Questions need question marks and proper capitalization",
+    "_cacheBreaker": "1756033578381_48"
+  },
+  {
+    "_id": "english_6_easy_049",
+    "content": "What type of word is 'quickly'?",
+    "type": "multiple_choice",
+    "options": [
+      "noun",
+      "verb",
+      "adjective",
+      "adverb"
+    ],
+    "correctAnswer": "adverb",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "Adverbs describe how actions are done. 'Quickly' describes how something is done",
+    "_cacheBreaker": "1756033578381_49"
+  },
+  {
+    "_id": "english_6_easy_050",
+    "content": "Which word is a synonym for 'big'?",
+    "type": "multiple_choice",
+    "options": [
+      "small",
+      "large",
+      "tiny",
+      "little"
+    ],
+    "correctAnswer": "large",
+    "subject": "english",
+    "grade": "6",
+    "difficulty": "easy",
+    "explanation": "Large means the same as big",
+    "_cacheBreaker": "1756033578381_50"
   }
 ]

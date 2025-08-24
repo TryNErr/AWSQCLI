@@ -1,362 +1,852 @@
 [
   {
-    "_id": "thinking_9_easy_1755262177015_001",
-    "scenario": "In a logic class, the teacher explains: 'All mammals are warm-blooded. Whales are mammals.' She asks students to use deductive reasoning.",
-    "content": "If the premises are true, what must be true about the conclusion 'Whales are warm-blooded'?",
+    "_id": "thinking-skills_9_easy_001",
+    "content": "Which statement must be true if 'All cats are mammals' and 'Some mammals are pets'?",
     "type": "multiple_choice",
     "options": [
-      "It might be true",
-      "It must be true",
-      "It's probably false",
-      "It cannot be determined"
+      "All cats are pets",
+      "Some cats are pets",
+      "All pets are cats",
+      "Some cats might be pets"
     ],
-    "correctAnswer": "It must be true",
+    "correctAnswer": "Some cats might be pets",
     "subject": "thinking-skills",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "In valid deductive reasoning, true premises guarantee a true conclusion.",
-    "_cacheBreaker": "1755265388241_0"
+    "explanation": "We can't be certain, but it's possible some cats are pets",
+    "_cacheBreaker": "1756033578431_1"
   },
   {
-    "_id": "thinking_9_easy_1755262177015_002",
-    "scenario": "During a school debate, Alex argues: 'We should have longer lunch breaks because everyone in our class wants them.' The opposing team identifies a logical error.",
-    "content": "What type of fallacy is Alex using?",
+    "_id": "thinking-skills_9_easy_002",
+    "content": "What comes next in the sequence: 1, 4, 9, 16, ?",
     "type": "multiple_choice",
     "options": [
-      "Ad hominem",
-      "Bandwagon fallacy",
-      "Straw man",
-      "False dilemma"
+      "20",
+      "25",
+      "24",
+      "32"
     ],
-    "correctAnswer": "Bandwagon fallacy",
+    "correctAnswer": "25",
     "subject": "thinking-skills",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "Alex assumes something is right just because many people want it (appeal to popularity).",
-    "_cacheBreaker": "1755265388241_1"
+    "explanation": "These are perfect squares: 1², 2², 3², 4², 5² = 25",
+    "_cacheBreaker": "1756033578431_2"
   },
   {
-    "_id": "thinking_9_easy_1755262177015_003",
-    "scenario": "Emma faces this problem: 'The school's computer lab has 20 computers, but 25 students need to use them during the same period.' She needs to find a solution.",
-    "content": "What should Emma do first in problem-solving?",
+    "_id": "thinking-skills_9_easy_003",
+    "content": "If it takes 4 people 4 hours to dig 4 holes, how long does it take 8 people to dig 8 holes?",
     "type": "multiple_choice",
     "options": [
-      "Try random solutions",
-      "Clearly define the problem",
-      "Give up immediately",
-      "Ask the principal to buy more computers"
+      "8 hours",
+      "4 hours",
+      "2 hours",
+      "16 hours"
     ],
-    "correctAnswer": "Clearly define the problem",
+    "correctAnswer": "4 hours",
     "subject": "thinking-skills",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "The first step in effective problem-solving is to clearly understand and define the problem.",
-    "_cacheBreaker": "1755265388241_2"
+    "explanation": "Each person digs 1 hole in 4 hours, so 8 people can dig 8 holes in 4 hours",
+    "_cacheBreaker": "1756033578431_3"
   },
   {
-    "_id": "thinking_9_easy_1755262177015_004",
-    "scenario": "In a logic class, the teacher explains: 'All mammals are warm-blooded. Whales are mammals.' She asks students to use deductive reasoning.",
-    "content": "If the premises are true, what must be true about the conclusion 'Whales are warm-blooded'? (Question 4)",
+    "_id": "thinking-skills_9_easy_004",
+    "content": "Which number doesn't belong: 2, 3, 5, 7, 9, 11?",
     "type": "multiple_choice",
     "options": [
-      "It might be true",
-      "It must be true",
-      "It's probably false",
-      "It cannot be determined"
+      "2",
+      "3",
+      "9",
+      "11"
     ],
-    "correctAnswer": "It must be true",
+    "correctAnswer": "9",
     "subject": "thinking-skills",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "In valid deductive reasoning, true premises guarantee a true conclusion.",
-    "_cacheBreaker": "1755265388241_3"
+    "explanation": "All others are prime numbers. 9 = 3 × 3, so it's not prime",
+    "_cacheBreaker": "1756033578431_4"
   },
   {
-    "_id": "thinking_9_easy_1755262177015_005",
-    "scenario": "During a school debate, Alex argues: 'We should have longer lunch breaks because everyone in our class wants them.' The opposing team identifies a logical error.",
-    "content": "What type of fallacy is Alex using? (Question 5)",
+    "_id": "thinking-skills_9_easy_005",
+    "content": "If you rearrange EARTH, which word can you make?",
     "type": "multiple_choice",
     "options": [
-      "Ad hominem",
-      "Bandwagon fallacy",
-      "Straw man",
-      "False dilemma"
+      "HEART",
+      "THREAD",
+      "BREATH",
+      "DEATH"
     ],
-    "correctAnswer": "Bandwagon fallacy",
+    "correctAnswer": "HEART",
     "subject": "thinking-skills",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "Alex assumes something is right just because many people want it (appeal to popularity).",
-    "_cacheBreaker": "1755265388241_4"
+    "explanation": "EARTH and HEART contain the same letters",
+    "_cacheBreaker": "1756033578431_5"
   },
   {
-    "_id": "thinking_9_easy_1755262177015_006",
-    "scenario": "Emma faces this problem: 'The school's computer lab has 20 computers, but 25 students need to use them during the same period.' She needs to find a solution.",
-    "content": "What should Emma do first in problem-solving? (Question 6)",
+    "_id": "thinking-skills_9_easy_006",
+    "content": "Which statement must be true if 'All cats are mammals' and 'Some mammals are pets'?",
     "type": "multiple_choice",
     "options": [
-      "Try random solutions",
-      "Clearly define the problem",
-      "Give up immediately",
-      "Ask the principal to buy more computers"
+      "All cats are pets",
+      "Some cats are pets",
+      "All pets are cats",
+      "Some cats might be pets"
     ],
-    "correctAnswer": "Clearly define the problem",
+    "correctAnswer": "Some cats might be pets",
     "subject": "thinking-skills",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "The first step in effective problem-solving is to clearly understand and define the problem.",
-    "_cacheBreaker": "1755265388241_5"
+    "explanation": "We can't be certain, but it's possible some cats are pets",
+    "_cacheBreaker": "1756033578431_6"
   },
   {
-    "_id": "thinking_9_easy_1755262177015_007",
-    "scenario": "In a logic class, the teacher explains: 'All mammals are warm-blooded. Whales are mammals.' She asks students to use deductive reasoning.",
-    "content": "If the premises are true, what must be true about the conclusion 'Whales are warm-blooded'? (Question 7)",
+    "_id": "thinking-skills_9_easy_007",
+    "content": "What comes next in the sequence: 1, 4, 9, 16, ?",
     "type": "multiple_choice",
     "options": [
-      "It might be true",
-      "It must be true",
-      "It's probably false",
-      "It cannot be determined"
+      "20",
+      "25",
+      "24",
+      "32"
     ],
-    "correctAnswer": "It must be true",
+    "correctAnswer": "25",
     "subject": "thinking-skills",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "In valid deductive reasoning, true premises guarantee a true conclusion.",
-    "_cacheBreaker": "1755265388241_6"
+    "explanation": "These are perfect squares: 1², 2², 3², 4², 5² = 25",
+    "_cacheBreaker": "1756033578431_7"
   },
   {
-    "_id": "thinking_9_easy_1755262177015_008",
-    "scenario": "During a school debate, Alex argues: 'We should have longer lunch breaks because everyone in our class wants them.' The opposing team identifies a logical error.",
-    "content": "What type of fallacy is Alex using? (Question 8)",
+    "_id": "thinking-skills_9_easy_008",
+    "content": "If it takes 4 people 4 hours to dig 4 holes, how long does it take 8 people to dig 8 holes?",
     "type": "multiple_choice",
     "options": [
-      "Ad hominem",
-      "Bandwagon fallacy",
-      "Straw man",
-      "False dilemma"
+      "8 hours",
+      "4 hours",
+      "2 hours",
+      "16 hours"
     ],
-    "correctAnswer": "Bandwagon fallacy",
+    "correctAnswer": "4 hours",
     "subject": "thinking-skills",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "Alex assumes something is right just because many people want it (appeal to popularity).",
-    "_cacheBreaker": "1755265388241_7"
+    "explanation": "Each person digs 1 hole in 4 hours, so 8 people can dig 8 holes in 4 hours",
+    "_cacheBreaker": "1756033578431_8"
   },
   {
-    "_id": "thinking_9_easy_1755262177015_009",
-    "scenario": "Emma faces this problem: 'The school's computer lab has 20 computers, but 25 students need to use them during the same period.' She needs to find a solution.",
-    "content": "What should Emma do first in problem-solving? (Question 9)",
+    "_id": "thinking-skills_9_easy_009",
+    "content": "Which number doesn't belong: 2, 3, 5, 7, 9, 11?",
     "type": "multiple_choice",
     "options": [
-      "Try random solutions",
-      "Clearly define the problem",
-      "Give up immediately",
-      "Ask the principal to buy more computers"
+      "2",
+      "3",
+      "9",
+      "11"
     ],
-    "correctAnswer": "Clearly define the problem",
+    "correctAnswer": "9",
     "subject": "thinking-skills",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "The first step in effective problem-solving is to clearly understand and define the problem.",
-    "_cacheBreaker": "1755265388241_8"
+    "explanation": "All others are prime numbers. 9 = 3 × 3, so it's not prime",
+    "_cacheBreaker": "1756033578431_9"
   },
   {
-    "_id": "thinking_9_easy_1755262177015_010",
-    "scenario": "In a logic class, the teacher explains: 'All mammals are warm-blooded. Whales are mammals.' She asks students to use deductive reasoning.",
-    "content": "If the premises are true, what must be true about the conclusion 'Whales are warm-blooded'? (Question 10)",
+    "_id": "thinking-skills_9_easy_010",
+    "content": "If you rearrange EARTH, which word can you make?",
     "type": "multiple_choice",
     "options": [
-      "It might be true",
-      "It must be true",
-      "It's probably false",
-      "It cannot be determined"
+      "HEART",
+      "THREAD",
+      "BREATH",
+      "DEATH"
     ],
-    "correctAnswer": "It must be true",
+    "correctAnswer": "HEART",
     "subject": "thinking-skills",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "In valid deductive reasoning, true premises guarantee a true conclusion.",
-    "_cacheBreaker": "1755265388241_9"
+    "explanation": "EARTH and HEART contain the same letters",
+    "_cacheBreaker": "1756033578431_10"
   },
   {
-    "_id": "thinking_9_easy_1755262177015_011",
-    "scenario": "During a school debate, Alex argues: 'We should have longer lunch breaks because everyone in our class wants them.' The opposing team identifies a logical error.",
-    "content": "What type of fallacy is Alex using? (Question 11)",
+    "_id": "thinking-skills_9_easy_011",
+    "content": "Which statement must be true if 'All cats are mammals' and 'Some mammals are pets'?",
     "type": "multiple_choice",
     "options": [
-      "Ad hominem",
-      "Bandwagon fallacy",
-      "Straw man",
-      "False dilemma"
+      "All cats are pets",
+      "Some cats are pets",
+      "All pets are cats",
+      "Some cats might be pets"
     ],
-    "correctAnswer": "Bandwagon fallacy",
+    "correctAnswer": "Some cats might be pets",
     "subject": "thinking-skills",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "Alex assumes something is right just because many people want it (appeal to popularity).",
-    "_cacheBreaker": "1755265388241_10"
+    "explanation": "We can't be certain, but it's possible some cats are pets",
+    "_cacheBreaker": "1756033578431_11"
   },
   {
-    "_id": "thinking_9_easy_1755262177015_012",
-    "scenario": "Emma faces this problem: 'The school's computer lab has 20 computers, but 25 students need to use them during the same period.' She needs to find a solution.",
-    "content": "What should Emma do first in problem-solving? (Question 12)",
+    "_id": "thinking-skills_9_easy_012",
+    "content": "What comes next in the sequence: 1, 4, 9, 16, ?",
     "type": "multiple_choice",
     "options": [
-      "Try random solutions",
-      "Clearly define the problem",
-      "Give up immediately",
-      "Ask the principal to buy more computers"
+      "20",
+      "25",
+      "24",
+      "32"
     ],
-    "correctAnswer": "Clearly define the problem",
+    "correctAnswer": "25",
     "subject": "thinking-skills",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "The first step in effective problem-solving is to clearly understand and define the problem.",
-    "_cacheBreaker": "1755265388241_11"
+    "explanation": "These are perfect squares: 1², 2², 3², 4², 5² = 25",
+    "_cacheBreaker": "1756033578431_12"
   },
   {
-    "_id": "thinking_9_easy_1755262177015_013",
-    "scenario": "In a logic class, the teacher explains: 'All mammals are warm-blooded. Whales are mammals.' She asks students to use deductive reasoning.",
-    "content": "If the premises are true, what must be true about the conclusion 'Whales are warm-blooded'? (Question 13)",
+    "_id": "thinking-skills_9_easy_013",
+    "content": "If it takes 4 people 4 hours to dig 4 holes, how long does it take 8 people to dig 8 holes?",
     "type": "multiple_choice",
     "options": [
-      "It might be true",
-      "It must be true",
-      "It's probably false",
-      "It cannot be determined"
+      "8 hours",
+      "4 hours",
+      "2 hours",
+      "16 hours"
     ],
-    "correctAnswer": "It must be true",
+    "correctAnswer": "4 hours",
     "subject": "thinking-skills",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "In valid deductive reasoning, true premises guarantee a true conclusion.",
-    "_cacheBreaker": "1755265388241_12"
+    "explanation": "Each person digs 1 hole in 4 hours, so 8 people can dig 8 holes in 4 hours",
+    "_cacheBreaker": "1756033578431_13"
   },
   {
-    "_id": "thinking_9_easy_1755262177015_014",
-    "scenario": "During a school debate, Alex argues: 'We should have longer lunch breaks because everyone in our class wants them.' The opposing team identifies a logical error.",
-    "content": "What type of fallacy is Alex using? (Question 14)",
+    "_id": "thinking-skills_9_easy_014",
+    "content": "Which number doesn't belong: 2, 3, 5, 7, 9, 11?",
     "type": "multiple_choice",
     "options": [
-      "Ad hominem",
-      "Bandwagon fallacy",
-      "Straw man",
-      "False dilemma"
+      "2",
+      "3",
+      "9",
+      "11"
     ],
-    "correctAnswer": "Bandwagon fallacy",
+    "correctAnswer": "9",
     "subject": "thinking-skills",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "Alex assumes something is right just because many people want it (appeal to popularity).",
-    "_cacheBreaker": "1755265388241_13"
+    "explanation": "All others are prime numbers. 9 = 3 × 3, so it's not prime",
+    "_cacheBreaker": "1756033578431_14"
   },
   {
-    "_id": "thinking_9_easy_1755262177015_015",
-    "scenario": "Emma faces this problem: 'The school's computer lab has 20 computers, but 25 students need to use them during the same period.' She needs to find a solution.",
-    "content": "What should Emma do first in problem-solving? (Question 15)",
+    "_id": "thinking-skills_9_easy_015",
+    "content": "If you rearrange EARTH, which word can you make?",
     "type": "multiple_choice",
     "options": [
-      "Try random solutions",
-      "Clearly define the problem",
-      "Give up immediately",
-      "Ask the principal to buy more computers"
+      "HEART",
+      "THREAD",
+      "BREATH",
+      "DEATH"
     ],
-    "correctAnswer": "Clearly define the problem",
+    "correctAnswer": "HEART",
     "subject": "thinking-skills",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "The first step in effective problem-solving is to clearly understand and define the problem.",
-    "_cacheBreaker": "1755265388241_14"
+    "explanation": "EARTH and HEART contain the same letters",
+    "_cacheBreaker": "1756033578431_15"
   },
   {
-    "_id": "thinking_9_easy_1755262177015_016",
-    "scenario": "In a logic class, the teacher explains: 'All mammals are warm-blooded. Whales are mammals.' She asks students to use deductive reasoning.",
-    "content": "If the premises are true, what must be true about the conclusion 'Whales are warm-blooded'? (Question 16)",
+    "_id": "thinking-skills_9_easy_016",
+    "content": "Which statement must be true if 'All cats are mammals' and 'Some mammals are pets'?",
     "type": "multiple_choice",
     "options": [
-      "It might be true",
-      "It must be true",
-      "It's probably false",
-      "It cannot be determined"
+      "All cats are pets",
+      "Some cats are pets",
+      "All pets are cats",
+      "Some cats might be pets"
     ],
-    "correctAnswer": "It must be true",
+    "correctAnswer": "Some cats might be pets",
     "subject": "thinking-skills",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "In valid deductive reasoning, true premises guarantee a true conclusion.",
-    "_cacheBreaker": "1755265388241_15"
+    "explanation": "We can't be certain, but it's possible some cats are pets",
+    "_cacheBreaker": "1756033578431_16"
   },
   {
-    "_id": "thinking_9_easy_1755262177015_017",
-    "scenario": "During a school debate, Alex argues: 'We should have longer lunch breaks because everyone in our class wants them.' The opposing team identifies a logical error.",
-    "content": "What type of fallacy is Alex using? (Question 17)",
+    "_id": "thinking-skills_9_easy_017",
+    "content": "What comes next in the sequence: 1, 4, 9, 16, ?",
     "type": "multiple_choice",
     "options": [
-      "Ad hominem",
-      "Bandwagon fallacy",
-      "Straw man",
-      "False dilemma"
+      "20",
+      "25",
+      "24",
+      "32"
     ],
-    "correctAnswer": "Bandwagon fallacy",
+    "correctAnswer": "25",
     "subject": "thinking-skills",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "Alex assumes something is right just because many people want it (appeal to popularity).",
-    "_cacheBreaker": "1755265388241_16"
+    "explanation": "These are perfect squares: 1², 2², 3², 4², 5² = 25",
+    "_cacheBreaker": "1756033578431_17"
   },
   {
-    "_id": "thinking_9_easy_1755262177015_018",
-    "scenario": "Emma faces this problem: 'The school's computer lab has 20 computers, but 25 students need to use them during the same period.' She needs to find a solution.",
-    "content": "What should Emma do first in problem-solving? (Question 18)",
+    "_id": "thinking-skills_9_easy_018",
+    "content": "If it takes 4 people 4 hours to dig 4 holes, how long does it take 8 people to dig 8 holes?",
     "type": "multiple_choice",
     "options": [
-      "Try random solutions",
-      "Clearly define the problem",
-      "Give up immediately",
-      "Ask the principal to buy more computers"
+      "8 hours",
+      "4 hours",
+      "2 hours",
+      "16 hours"
     ],
-    "correctAnswer": "Clearly define the problem",
+    "correctAnswer": "4 hours",
     "subject": "thinking-skills",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "The first step in effective problem-solving is to clearly understand and define the problem.",
-    "_cacheBreaker": "1755265388241_17"
+    "explanation": "Each person digs 1 hole in 4 hours, so 8 people can dig 8 holes in 4 hours",
+    "_cacheBreaker": "1756033578431_18"
   },
   {
-    "_id": "thinking_9_easy_1755262177015_019",
-    "scenario": "In a logic class, the teacher explains: 'All mammals are warm-blooded. Whales are mammals.' She asks students to use deductive reasoning.",
-    "content": "If the premises are true, what must be true about the conclusion 'Whales are warm-blooded'? (Question 19)",
+    "_id": "thinking-skills_9_easy_019",
+    "content": "Which number doesn't belong: 2, 3, 5, 7, 9, 11?",
     "type": "multiple_choice",
     "options": [
-      "It might be true",
-      "It must be true",
-      "It's probably false",
-      "It cannot be determined"
+      "2",
+      "3",
+      "9",
+      "11"
     ],
-    "correctAnswer": "It must be true",
+    "correctAnswer": "9",
     "subject": "thinking-skills",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "In valid deductive reasoning, true premises guarantee a true conclusion.",
-    "_cacheBreaker": "1755265388241_18"
+    "explanation": "All others are prime numbers. 9 = 3 × 3, so it's not prime",
+    "_cacheBreaker": "1756033578431_19"
   },
   {
-    "_id": "thinking_9_easy_1755262177015_020",
-    "scenario": "During a school debate, Alex argues: 'We should have longer lunch breaks because everyone in our class wants them.' The opposing team identifies a logical error.",
-    "content": "What type of fallacy is Alex using? (Question 20)",
+    "_id": "thinking-skills_9_easy_020",
+    "content": "If you rearrange EARTH, which word can you make?",
     "type": "multiple_choice",
     "options": [
-      "Ad hominem",
-      "Bandwagon fallacy",
-      "Straw man",
-      "False dilemma"
+      "HEART",
+      "THREAD",
+      "BREATH",
+      "DEATH"
     ],
-    "correctAnswer": "Bandwagon fallacy",
+    "correctAnswer": "HEART",
     "subject": "thinking-skills",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "Alex assumes something is right just because many people want it (appeal to popularity).",
-    "_cacheBreaker": "1755265388241_19"
+    "explanation": "EARTH and HEART contain the same letters",
+    "_cacheBreaker": "1756033578431_20"
+  },
+  {
+    "_id": "thinking-skills_9_easy_021",
+    "content": "Which statement must be true if 'All cats are mammals' and 'Some mammals are pets'?",
+    "type": "multiple_choice",
+    "options": [
+      "All cats are pets",
+      "Some cats are pets",
+      "All pets are cats",
+      "Some cats might be pets"
+    ],
+    "correctAnswer": "Some cats might be pets",
+    "subject": "thinking-skills",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "We can't be certain, but it's possible some cats are pets",
+    "_cacheBreaker": "1756033578431_21"
+  },
+  {
+    "_id": "thinking-skills_9_easy_022",
+    "content": "What comes next in the sequence: 1, 4, 9, 16, ?",
+    "type": "multiple_choice",
+    "options": [
+      "20",
+      "25",
+      "24",
+      "32"
+    ],
+    "correctAnswer": "25",
+    "subject": "thinking-skills",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "These are perfect squares: 1², 2², 3², 4², 5² = 25",
+    "_cacheBreaker": "1756033578431_22"
+  },
+  {
+    "_id": "thinking-skills_9_easy_023",
+    "content": "If it takes 4 people 4 hours to dig 4 holes, how long does it take 8 people to dig 8 holes?",
+    "type": "multiple_choice",
+    "options": [
+      "8 hours",
+      "4 hours",
+      "2 hours",
+      "16 hours"
+    ],
+    "correctAnswer": "4 hours",
+    "subject": "thinking-skills",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "Each person digs 1 hole in 4 hours, so 8 people can dig 8 holes in 4 hours",
+    "_cacheBreaker": "1756033578431_23"
+  },
+  {
+    "_id": "thinking-skills_9_easy_024",
+    "content": "Which number doesn't belong: 2, 3, 5, 7, 9, 11?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "3",
+      "9",
+      "11"
+    ],
+    "correctAnswer": "9",
+    "subject": "thinking-skills",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "All others are prime numbers. 9 = 3 × 3, so it's not prime",
+    "_cacheBreaker": "1756033578431_24"
+  },
+  {
+    "_id": "thinking-skills_9_easy_025",
+    "content": "If you rearrange EARTH, which word can you make?",
+    "type": "multiple_choice",
+    "options": [
+      "HEART",
+      "THREAD",
+      "BREATH",
+      "DEATH"
+    ],
+    "correctAnswer": "HEART",
+    "subject": "thinking-skills",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "EARTH and HEART contain the same letters",
+    "_cacheBreaker": "1756033578431_25"
+  },
+  {
+    "_id": "thinking-skills_9_easy_026",
+    "content": "Which statement must be true if 'All cats are mammals' and 'Some mammals are pets'?",
+    "type": "multiple_choice",
+    "options": [
+      "All cats are pets",
+      "Some cats are pets",
+      "All pets are cats",
+      "Some cats might be pets"
+    ],
+    "correctAnswer": "Some cats might be pets",
+    "subject": "thinking-skills",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "We can't be certain, but it's possible some cats are pets",
+    "_cacheBreaker": "1756033578431_26"
+  },
+  {
+    "_id": "thinking-skills_9_easy_027",
+    "content": "What comes next in the sequence: 1, 4, 9, 16, ?",
+    "type": "multiple_choice",
+    "options": [
+      "20",
+      "25",
+      "24",
+      "32"
+    ],
+    "correctAnswer": "25",
+    "subject": "thinking-skills",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "These are perfect squares: 1², 2², 3², 4², 5² = 25",
+    "_cacheBreaker": "1756033578431_27"
+  },
+  {
+    "_id": "thinking-skills_9_easy_028",
+    "content": "If it takes 4 people 4 hours to dig 4 holes, how long does it take 8 people to dig 8 holes?",
+    "type": "multiple_choice",
+    "options": [
+      "8 hours",
+      "4 hours",
+      "2 hours",
+      "16 hours"
+    ],
+    "correctAnswer": "4 hours",
+    "subject": "thinking-skills",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "Each person digs 1 hole in 4 hours, so 8 people can dig 8 holes in 4 hours",
+    "_cacheBreaker": "1756033578431_28"
+  },
+  {
+    "_id": "thinking-skills_9_easy_029",
+    "content": "Which number doesn't belong: 2, 3, 5, 7, 9, 11?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "3",
+      "9",
+      "11"
+    ],
+    "correctAnswer": "9",
+    "subject": "thinking-skills",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "All others are prime numbers. 9 = 3 × 3, so it's not prime",
+    "_cacheBreaker": "1756033578431_29"
+  },
+  {
+    "_id": "thinking-skills_9_easy_030",
+    "content": "If you rearrange EARTH, which word can you make?",
+    "type": "multiple_choice",
+    "options": [
+      "HEART",
+      "THREAD",
+      "BREATH",
+      "DEATH"
+    ],
+    "correctAnswer": "HEART",
+    "subject": "thinking-skills",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "EARTH and HEART contain the same letters",
+    "_cacheBreaker": "1756033578431_30"
+  },
+  {
+    "_id": "thinking-skills_9_easy_031",
+    "content": "Which statement must be true if 'All cats are mammals' and 'Some mammals are pets'?",
+    "type": "multiple_choice",
+    "options": [
+      "All cats are pets",
+      "Some cats are pets",
+      "All pets are cats",
+      "Some cats might be pets"
+    ],
+    "correctAnswer": "Some cats might be pets",
+    "subject": "thinking-skills",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "We can't be certain, but it's possible some cats are pets",
+    "_cacheBreaker": "1756033578431_31"
+  },
+  {
+    "_id": "thinking-skills_9_easy_032",
+    "content": "What comes next in the sequence: 1, 4, 9, 16, ?",
+    "type": "multiple_choice",
+    "options": [
+      "20",
+      "25",
+      "24",
+      "32"
+    ],
+    "correctAnswer": "25",
+    "subject": "thinking-skills",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "These are perfect squares: 1², 2², 3², 4², 5² = 25",
+    "_cacheBreaker": "1756033578431_32"
+  },
+  {
+    "_id": "thinking-skills_9_easy_033",
+    "content": "If it takes 4 people 4 hours to dig 4 holes, how long does it take 8 people to dig 8 holes?",
+    "type": "multiple_choice",
+    "options": [
+      "8 hours",
+      "4 hours",
+      "2 hours",
+      "16 hours"
+    ],
+    "correctAnswer": "4 hours",
+    "subject": "thinking-skills",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "Each person digs 1 hole in 4 hours, so 8 people can dig 8 holes in 4 hours",
+    "_cacheBreaker": "1756033578431_33"
+  },
+  {
+    "_id": "thinking-skills_9_easy_034",
+    "content": "Which number doesn't belong: 2, 3, 5, 7, 9, 11?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "3",
+      "9",
+      "11"
+    ],
+    "correctAnswer": "9",
+    "subject": "thinking-skills",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "All others are prime numbers. 9 = 3 × 3, so it's not prime",
+    "_cacheBreaker": "1756033578431_34"
+  },
+  {
+    "_id": "thinking-skills_9_easy_035",
+    "content": "If you rearrange EARTH, which word can you make?",
+    "type": "multiple_choice",
+    "options": [
+      "HEART",
+      "THREAD",
+      "BREATH",
+      "DEATH"
+    ],
+    "correctAnswer": "HEART",
+    "subject": "thinking-skills",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "EARTH and HEART contain the same letters",
+    "_cacheBreaker": "1756033578431_35"
+  },
+  {
+    "_id": "thinking-skills_9_easy_036",
+    "content": "Which statement must be true if 'All cats are mammals' and 'Some mammals are pets'?",
+    "type": "multiple_choice",
+    "options": [
+      "All cats are pets",
+      "Some cats are pets",
+      "All pets are cats",
+      "Some cats might be pets"
+    ],
+    "correctAnswer": "Some cats might be pets",
+    "subject": "thinking-skills",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "We can't be certain, but it's possible some cats are pets",
+    "_cacheBreaker": "1756033578431_36"
+  },
+  {
+    "_id": "thinking-skills_9_easy_037",
+    "content": "What comes next in the sequence: 1, 4, 9, 16, ?",
+    "type": "multiple_choice",
+    "options": [
+      "20",
+      "25",
+      "24",
+      "32"
+    ],
+    "correctAnswer": "25",
+    "subject": "thinking-skills",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "These are perfect squares: 1², 2², 3², 4², 5² = 25",
+    "_cacheBreaker": "1756033578431_37"
+  },
+  {
+    "_id": "thinking-skills_9_easy_038",
+    "content": "If it takes 4 people 4 hours to dig 4 holes, how long does it take 8 people to dig 8 holes?",
+    "type": "multiple_choice",
+    "options": [
+      "8 hours",
+      "4 hours",
+      "2 hours",
+      "16 hours"
+    ],
+    "correctAnswer": "4 hours",
+    "subject": "thinking-skills",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "Each person digs 1 hole in 4 hours, so 8 people can dig 8 holes in 4 hours",
+    "_cacheBreaker": "1756033578431_38"
+  },
+  {
+    "_id": "thinking-skills_9_easy_039",
+    "content": "Which number doesn't belong: 2, 3, 5, 7, 9, 11?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "3",
+      "9",
+      "11"
+    ],
+    "correctAnswer": "9",
+    "subject": "thinking-skills",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "All others are prime numbers. 9 = 3 × 3, so it's not prime",
+    "_cacheBreaker": "1756033578431_39"
+  },
+  {
+    "_id": "thinking-skills_9_easy_040",
+    "content": "If you rearrange EARTH, which word can you make?",
+    "type": "multiple_choice",
+    "options": [
+      "HEART",
+      "THREAD",
+      "BREATH",
+      "DEATH"
+    ],
+    "correctAnswer": "HEART",
+    "subject": "thinking-skills",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "EARTH and HEART contain the same letters",
+    "_cacheBreaker": "1756033578431_40"
+  },
+  {
+    "_id": "thinking-skills_9_easy_041",
+    "content": "Which statement must be true if 'All cats are mammals' and 'Some mammals are pets'?",
+    "type": "multiple_choice",
+    "options": [
+      "All cats are pets",
+      "Some cats are pets",
+      "All pets are cats",
+      "Some cats might be pets"
+    ],
+    "correctAnswer": "Some cats might be pets",
+    "subject": "thinking-skills",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "We can't be certain, but it's possible some cats are pets",
+    "_cacheBreaker": "1756033578431_41"
+  },
+  {
+    "_id": "thinking-skills_9_easy_042",
+    "content": "What comes next in the sequence: 1, 4, 9, 16, ?",
+    "type": "multiple_choice",
+    "options": [
+      "20",
+      "25",
+      "24",
+      "32"
+    ],
+    "correctAnswer": "25",
+    "subject": "thinking-skills",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "These are perfect squares: 1², 2², 3², 4², 5² = 25",
+    "_cacheBreaker": "1756033578431_42"
+  },
+  {
+    "_id": "thinking-skills_9_easy_043",
+    "content": "If it takes 4 people 4 hours to dig 4 holes, how long does it take 8 people to dig 8 holes?",
+    "type": "multiple_choice",
+    "options": [
+      "8 hours",
+      "4 hours",
+      "2 hours",
+      "16 hours"
+    ],
+    "correctAnswer": "4 hours",
+    "subject": "thinking-skills",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "Each person digs 1 hole in 4 hours, so 8 people can dig 8 holes in 4 hours",
+    "_cacheBreaker": "1756033578431_43"
+  },
+  {
+    "_id": "thinking-skills_9_easy_044",
+    "content": "Which number doesn't belong: 2, 3, 5, 7, 9, 11?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "3",
+      "9",
+      "11"
+    ],
+    "correctAnswer": "9",
+    "subject": "thinking-skills",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "All others are prime numbers. 9 = 3 × 3, so it's not prime",
+    "_cacheBreaker": "1756033578431_44"
+  },
+  {
+    "_id": "thinking-skills_9_easy_045",
+    "content": "If you rearrange EARTH, which word can you make?",
+    "type": "multiple_choice",
+    "options": [
+      "HEART",
+      "THREAD",
+      "BREATH",
+      "DEATH"
+    ],
+    "correctAnswer": "HEART",
+    "subject": "thinking-skills",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "EARTH and HEART contain the same letters",
+    "_cacheBreaker": "1756033578431_45"
+  },
+  {
+    "_id": "thinking-skills_9_easy_046",
+    "content": "Which statement must be true if 'All cats are mammals' and 'Some mammals are pets'?",
+    "type": "multiple_choice",
+    "options": [
+      "All cats are pets",
+      "Some cats are pets",
+      "All pets are cats",
+      "Some cats might be pets"
+    ],
+    "correctAnswer": "Some cats might be pets",
+    "subject": "thinking-skills",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "We can't be certain, but it's possible some cats are pets",
+    "_cacheBreaker": "1756033578431_46"
+  },
+  {
+    "_id": "thinking-skills_9_easy_047",
+    "content": "What comes next in the sequence: 1, 4, 9, 16, ?",
+    "type": "multiple_choice",
+    "options": [
+      "20",
+      "25",
+      "24",
+      "32"
+    ],
+    "correctAnswer": "25",
+    "subject": "thinking-skills",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "These are perfect squares: 1², 2², 3², 4², 5² = 25",
+    "_cacheBreaker": "1756033578431_47"
+  },
+  {
+    "_id": "thinking-skills_9_easy_048",
+    "content": "If it takes 4 people 4 hours to dig 4 holes, how long does it take 8 people to dig 8 holes?",
+    "type": "multiple_choice",
+    "options": [
+      "8 hours",
+      "4 hours",
+      "2 hours",
+      "16 hours"
+    ],
+    "correctAnswer": "4 hours",
+    "subject": "thinking-skills",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "Each person digs 1 hole in 4 hours, so 8 people can dig 8 holes in 4 hours",
+    "_cacheBreaker": "1756033578431_48"
+  },
+  {
+    "_id": "thinking-skills_9_easy_049",
+    "content": "Which number doesn't belong: 2, 3, 5, 7, 9, 11?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "3",
+      "9",
+      "11"
+    ],
+    "correctAnswer": "9",
+    "subject": "thinking-skills",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "All others are prime numbers. 9 = 3 × 3, so it's not prime",
+    "_cacheBreaker": "1756033578431_49"
+  },
+  {
+    "_id": "thinking-skills_9_easy_050",
+    "content": "If you rearrange EARTH, which word can you make?",
+    "type": "multiple_choice",
+    "options": [
+      "HEART",
+      "THREAD",
+      "BREATH",
+      "DEATH"
+    ],
+    "correctAnswer": "HEART",
+    "subject": "thinking-skills",
+    "grade": "9",
+    "difficulty": "easy",
+    "explanation": "EARTH and HEART contain the same letters",
+    "_cacheBreaker": "1756033578431_50"
   }
 ]

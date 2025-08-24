@@ -1,342 +1,852 @@
 [
   {
-    "_id": "english_3_easy_1755775531183_1",
-    "content": "Which word is a verb?",
+    "_id": "english_3_easy_001",
+    "content": "Which word is a noun?",
     "type": "multiple_choice",
     "options": [
-      "book",
+      "run",
       "happy",
-      "jump",
-      "red"
+      "table",
+      "quickly"
     ],
-    "correctAnswer": "jump",
+    "correctAnswer": "table",
     "subject": "english",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "A verb is an action word. 'Jump' shows action.",
-    "_cacheBreaker": "1755775531183_0"
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253409_1"
   },
   {
-    "_id": "english_3_easy_1755775531183_2",
-    "content": "Which sentence starts with a capital letter?",
+    "_id": "english_3_easy_002",
+    "content": "What is the opposite of 'hot'?",
     "type": "multiple_choice",
     "options": [
-      "the dog is brown.",
-      "The dog is brown.",
-      "THE DOG IS BROWN.",
-      "the Dog is brown."
+      "warm",
+      "cold",
+      "cool",
+      "freezing"
     ],
-    "correctAnswer": "The dog is brown.",
+    "correctAnswer": "cold",
     "subject": "english",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "Sentences should start with a capital letter.",
-    "_cacheBreaker": "1755775531183_1"
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253409_2"
   },
   {
-    "_id": "english_3_easy_1755775531183_3",
-    "content": "Which word is a verb?",
+    "_id": "english_3_easy_003",
+    "content": "Which sentence is correct?",
     "type": "multiple_choice",
     "options": [
-      "book",
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
+    ],
+    "correctAnswer": "I like dogs.",
+    "subject": "english",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253409_3"
+  },
+  {
+    "_id": "english_3_easy_004",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253409_4"
+  },
+  {
+    "_id": "english_3_easy_005",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253409_5"
+  },
+  {
+    "_id": "english_3_easy_006",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
+      "run",
       "happy",
-      "jump",
-      "red"
+      "table",
+      "quickly"
     ],
-    "correctAnswer": "jump",
+    "correctAnswer": "table",
     "subject": "english",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "A verb is an action word. 'Jump' shows action.",
-    "_cacheBreaker": "1755775531183_2"
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253409_6"
   },
   {
-    "_id": "english_3_easy_1755775531183_4",
-    "content": "Which sentence starts with a capital letter?",
+    "_id": "english_3_easy_007",
+    "content": "What is the opposite of 'hot'?",
     "type": "multiple_choice",
     "options": [
-      "the dog is brown.",
-      "The dog is brown.",
-      "THE DOG IS BROWN.",
-      "the Dog is brown."
+      "warm",
+      "cold",
+      "cool",
+      "freezing"
     ],
-    "correctAnswer": "The dog is brown.",
+    "correctAnswer": "cold",
     "subject": "english",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "Sentences should start with a capital letter.",
-    "_cacheBreaker": "1755775531183_3"
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253409_7"
   },
   {
-    "_id": "english_3_easy_1755775531183_5",
-    "content": "Which word is a verb?",
+    "_id": "english_3_easy_008",
+    "content": "Which sentence is correct?",
     "type": "multiple_choice",
     "options": [
-      "book",
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
+    ],
+    "correctAnswer": "I like dogs.",
+    "subject": "english",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253409_8"
+  },
+  {
+    "_id": "english_3_easy_009",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253409_9"
+  },
+  {
+    "_id": "english_3_easy_010",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253409_10"
+  },
+  {
+    "_id": "english_3_easy_011",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
+      "run",
       "happy",
-      "jump",
-      "red"
+      "table",
+      "quickly"
     ],
-    "correctAnswer": "jump",
+    "correctAnswer": "table",
     "subject": "english",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "A verb is an action word. 'Jump' shows action.",
-    "_cacheBreaker": "1755775531183_4"
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253409_11"
   },
   {
-    "_id": "english_3_easy_1755775531183_6",
-    "content": "Which sentence starts with a capital letter?",
+    "_id": "english_3_easy_012",
+    "content": "What is the opposite of 'hot'?",
     "type": "multiple_choice",
     "options": [
-      "the dog is brown.",
-      "The dog is brown.",
-      "THE DOG IS BROWN.",
-      "the Dog is brown."
+      "warm",
+      "cold",
+      "cool",
+      "freezing"
     ],
-    "correctAnswer": "The dog is brown.",
+    "correctAnswer": "cold",
     "subject": "english",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "Sentences should start with a capital letter.",
-    "_cacheBreaker": "1755775531183_5"
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253409_12"
   },
   {
-    "_id": "english_3_easy_1755775531183_7",
-    "content": "Which word is a verb?",
+    "_id": "english_3_easy_013",
+    "content": "Which sentence is correct?",
     "type": "multiple_choice",
     "options": [
-      "book",
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
+    ],
+    "correctAnswer": "I like dogs.",
+    "subject": "english",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253409_13"
+  },
+  {
+    "_id": "english_3_easy_014",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253409_14"
+  },
+  {
+    "_id": "english_3_easy_015",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253409_15"
+  },
+  {
+    "_id": "english_3_easy_016",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
+      "run",
       "happy",
-      "jump",
-      "red"
+      "table",
+      "quickly"
     ],
-    "correctAnswer": "jump",
+    "correctAnswer": "table",
     "subject": "english",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "A verb is an action word. 'Jump' shows action.",
-    "_cacheBreaker": "1755775531183_6"
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253409_16"
   },
   {
-    "_id": "english_3_easy_1755775531183_8",
-    "content": "Which sentence starts with a capital letter?",
+    "_id": "english_3_easy_017",
+    "content": "What is the opposite of 'hot'?",
     "type": "multiple_choice",
     "options": [
-      "the dog is brown.",
-      "The dog is brown.",
-      "THE DOG IS BROWN.",
-      "the Dog is brown."
+      "warm",
+      "cold",
+      "cool",
+      "freezing"
     ],
-    "correctAnswer": "The dog is brown.",
+    "correctAnswer": "cold",
     "subject": "english",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "Sentences should start with a capital letter.",
-    "_cacheBreaker": "1755775531183_7"
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253409_17"
   },
   {
-    "_id": "english_3_easy_1755775531183_9",
-    "content": "Which word is a verb?",
+    "_id": "english_3_easy_018",
+    "content": "Which sentence is correct?",
     "type": "multiple_choice",
     "options": [
-      "book",
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
+    ],
+    "correctAnswer": "I like dogs.",
+    "subject": "english",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253409_18"
+  },
+  {
+    "_id": "english_3_easy_019",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253409_19"
+  },
+  {
+    "_id": "english_3_easy_020",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253409_20"
+  },
+  {
+    "_id": "english_3_easy_021",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
+      "run",
       "happy",
-      "jump",
-      "red"
+      "table",
+      "quickly"
     ],
-    "correctAnswer": "jump",
+    "correctAnswer": "table",
     "subject": "english",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "A verb is an action word. 'Jump' shows action.",
-    "_cacheBreaker": "1755775531183_8"
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253409_21"
   },
   {
-    "_id": "english_3_easy_1755775531183_10",
-    "content": "Which sentence starts with a capital letter?",
+    "_id": "english_3_easy_022",
+    "content": "What is the opposite of 'hot'?",
     "type": "multiple_choice",
     "options": [
-      "the dog is brown.",
-      "The dog is brown.",
-      "THE DOG IS BROWN.",
-      "the Dog is brown."
+      "warm",
+      "cold",
+      "cool",
+      "freezing"
     ],
-    "correctAnswer": "The dog is brown.",
+    "correctAnswer": "cold",
     "subject": "english",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "Sentences should start with a capital letter.",
-    "_cacheBreaker": "1755775531183_9"
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253409_22"
   },
   {
-    "_id": "english_3_easy_1755775531183_11",
-    "content": "Which word is a verb?",
+    "_id": "english_3_easy_023",
+    "content": "Which sentence is correct?",
     "type": "multiple_choice",
     "options": [
-      "book",
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
+    ],
+    "correctAnswer": "I like dogs.",
+    "subject": "english",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253409_23"
+  },
+  {
+    "_id": "english_3_easy_024",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253409_24"
+  },
+  {
+    "_id": "english_3_easy_025",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253409_25"
+  },
+  {
+    "_id": "english_3_easy_026",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
+      "run",
       "happy",
-      "jump",
-      "red"
+      "table",
+      "quickly"
     ],
-    "correctAnswer": "jump",
+    "correctAnswer": "table",
     "subject": "english",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "A verb is an action word. 'Jump' shows action.",
-    "_cacheBreaker": "1755775531183_10"
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253409_26"
   },
   {
-    "_id": "english_3_easy_1755775531183_12",
-    "content": "Which sentence starts with a capital letter?",
+    "_id": "english_3_easy_027",
+    "content": "What is the opposite of 'hot'?",
     "type": "multiple_choice",
     "options": [
-      "the dog is brown.",
-      "The dog is brown.",
-      "THE DOG IS BROWN.",
-      "the Dog is brown."
+      "warm",
+      "cold",
+      "cool",
+      "freezing"
     ],
-    "correctAnswer": "The dog is brown.",
+    "correctAnswer": "cold",
     "subject": "english",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "Sentences should start with a capital letter.",
-    "_cacheBreaker": "1755775531183_11"
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253409_27"
   },
   {
-    "_id": "english_3_easy_1755775531183_13",
-    "content": "Which word is a verb?",
+    "_id": "english_3_easy_028",
+    "content": "Which sentence is correct?",
     "type": "multiple_choice",
     "options": [
-      "book",
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
+    ],
+    "correctAnswer": "I like dogs.",
+    "subject": "english",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253409_28"
+  },
+  {
+    "_id": "english_3_easy_029",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253409_29"
+  },
+  {
+    "_id": "english_3_easy_030",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253409_30"
+  },
+  {
+    "_id": "english_3_easy_031",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
+      "run",
       "happy",
-      "jump",
-      "red"
+      "table",
+      "quickly"
     ],
-    "correctAnswer": "jump",
+    "correctAnswer": "table",
     "subject": "english",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "A verb is an action word. 'Jump' shows action.",
-    "_cacheBreaker": "1755775531183_12"
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253409_31"
   },
   {
-    "_id": "english_3_easy_1755775531183_14",
-    "content": "Which sentence starts with a capital letter?",
+    "_id": "english_3_easy_032",
+    "content": "What is the opposite of 'hot'?",
     "type": "multiple_choice",
     "options": [
-      "the dog is brown.",
-      "The dog is brown.",
-      "THE DOG IS BROWN.",
-      "the Dog is brown."
+      "warm",
+      "cold",
+      "cool",
+      "freezing"
     ],
-    "correctAnswer": "The dog is brown.",
+    "correctAnswer": "cold",
     "subject": "english",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "Sentences should start with a capital letter.",
-    "_cacheBreaker": "1755775531183_13"
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253409_32"
   },
   {
-    "_id": "english_3_easy_1755775531183_15",
-    "content": "Which word is a verb?",
+    "_id": "english_3_easy_033",
+    "content": "Which sentence is correct?",
     "type": "multiple_choice",
     "options": [
-      "book",
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
+    ],
+    "correctAnswer": "I like dogs.",
+    "subject": "english",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253409_33"
+  },
+  {
+    "_id": "english_3_easy_034",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253409_34"
+  },
+  {
+    "_id": "english_3_easy_035",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253409_35"
+  },
+  {
+    "_id": "english_3_easy_036",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
+      "run",
       "happy",
-      "jump",
-      "red"
+      "table",
+      "quickly"
     ],
-    "correctAnswer": "jump",
+    "correctAnswer": "table",
     "subject": "english",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "A verb is an action word. 'Jump' shows action.",
-    "_cacheBreaker": "1755775531183_14"
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253409_36"
   },
   {
-    "_id": "english_3_easy_1755775531183_16",
-    "content": "Which sentence starts with a capital letter?",
+    "_id": "english_3_easy_037",
+    "content": "What is the opposite of 'hot'?",
     "type": "multiple_choice",
     "options": [
-      "the dog is brown.",
-      "The dog is brown.",
-      "THE DOG IS BROWN.",
-      "the Dog is brown."
+      "warm",
+      "cold",
+      "cool",
+      "freezing"
     ],
-    "correctAnswer": "The dog is brown.",
+    "correctAnswer": "cold",
     "subject": "english",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "Sentences should start with a capital letter.",
-    "_cacheBreaker": "1755775531183_15"
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253409_37"
   },
   {
-    "_id": "english_3_easy_1755775531183_17",
-    "content": "Which word is a verb?",
+    "_id": "english_3_easy_038",
+    "content": "Which sentence is correct?",
     "type": "multiple_choice",
     "options": [
-      "book",
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
+    ],
+    "correctAnswer": "I like dogs.",
+    "subject": "english",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253409_38"
+  },
+  {
+    "_id": "english_3_easy_039",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253409_39"
+  },
+  {
+    "_id": "english_3_easy_040",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253409_40"
+  },
+  {
+    "_id": "english_3_easy_041",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
+      "run",
       "happy",
-      "jump",
-      "red"
+      "table",
+      "quickly"
     ],
-    "correctAnswer": "jump",
+    "correctAnswer": "table",
     "subject": "english",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "A verb is an action word. 'Jump' shows action.",
-    "_cacheBreaker": "1755775531183_16"
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253409_41"
   },
   {
-    "_id": "english_3_easy_1755775531183_18",
-    "content": "Which sentence starts with a capital letter?",
+    "_id": "english_3_easy_042",
+    "content": "What is the opposite of 'hot'?",
     "type": "multiple_choice",
     "options": [
-      "the dog is brown.",
-      "The dog is brown.",
-      "THE DOG IS BROWN.",
-      "the Dog is brown."
+      "warm",
+      "cold",
+      "cool",
+      "freezing"
     ],
-    "correctAnswer": "The dog is brown.",
+    "correctAnswer": "cold",
     "subject": "english",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "Sentences should start with a capital letter.",
-    "_cacheBreaker": "1755775531183_17"
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253409_42"
   },
   {
-    "_id": "english_3_easy_1755775531183_19",
-    "content": "Which word is a verb?",
+    "_id": "english_3_easy_043",
+    "content": "Which sentence is correct?",
     "type": "multiple_choice",
     "options": [
-      "book",
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
+    ],
+    "correctAnswer": "I like dogs.",
+    "subject": "english",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253409_43"
+  },
+  {
+    "_id": "english_3_easy_044",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253409_44"
+  },
+  {
+    "_id": "english_3_easy_045",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253409_45"
+  },
+  {
+    "_id": "english_3_easy_046",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
+      "run",
       "happy",
-      "jump",
-      "red"
+      "table",
+      "quickly"
     ],
-    "correctAnswer": "jump",
+    "correctAnswer": "table",
     "subject": "english",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "A verb is an action word. 'Jump' shows action.",
-    "_cacheBreaker": "1755775531183_18"
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253409_46"
   },
   {
-    "_id": "english_3_easy_1755775531183_20",
-    "content": "Which sentence starts with a capital letter?",
+    "_id": "english_3_easy_047",
+    "content": "What is the opposite of 'hot'?",
     "type": "multiple_choice",
     "options": [
-      "the dog is brown.",
-      "The dog is brown.",
-      "THE DOG IS BROWN.",
-      "the Dog is brown."
+      "warm",
+      "cold",
+      "cool",
+      "freezing"
     ],
-    "correctAnswer": "The dog is brown.",
+    "correctAnswer": "cold",
     "subject": "english",
     "grade": "3",
     "difficulty": "easy",
-    "explanation": "Sentences should start with a capital letter.",
-    "_cacheBreaker": "1755775531183_19"
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253409_47"
+  },
+  {
+    "_id": "english_3_easy_048",
+    "content": "Which sentence is correct?",
+    "type": "multiple_choice",
+    "options": [
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
+    ],
+    "correctAnswer": "I like dogs.",
+    "subject": "english",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253409_48"
+  },
+  {
+    "_id": "english_3_easy_049",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253409_49"
+  },
+  {
+    "_id": "english_3_easy_050",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "3",
+    "difficulty": "easy",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253409_50"
   }
 ]

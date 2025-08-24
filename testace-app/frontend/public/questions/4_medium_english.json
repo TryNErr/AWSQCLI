@@ -1,342 +1,852 @@
 [
   {
-    "_id": "english_4_medium_1755775531185_1",
-    "content": "Which sentence has correct subject-verb agreement?",
+    "_id": "english_4_medium_001",
+    "content": "Which word is a noun?",
     "type": "multiple_choice",
     "options": [
-      "The dogs runs fast.",
-      "The dogs run fast.",
-      "The dog run fast.",
-      "The dogs running fast."
+      "run",
+      "happy",
+      "table",
+      "quickly"
     ],
-    "correctAnswer": "The dogs run fast.",
+    "correctAnswer": "table",
     "subject": "english",
     "grade": "4",
     "difficulty": "medium",
-    "explanation": "Plural subjects (dogs) need plural verbs (run).",
-    "_cacheBreaker": "1755775531185_0"
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253423_1"
   },
   {
-    "_id": "english_4_medium_1755775531185_2",
-    "content": "What is an antonym for 'hot'?",
+    "_id": "english_4_medium_002",
+    "content": "What is the opposite of 'hot'?",
     "type": "multiple_choice",
     "options": [
       "warm",
       "cold",
-      "fire",
-      "sun"
+      "cool",
+      "freezing"
     ],
     "correctAnswer": "cold",
     "subject": "english",
     "grade": "4",
     "difficulty": "medium",
-    "explanation": "Antonyms are opposite words. 'Cold' is the opposite of 'hot'.",
-    "_cacheBreaker": "1755775531185_1"
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253423_2"
   },
   {
-    "_id": "english_4_medium_1755775531185_3",
-    "content": "Which sentence has correct subject-verb agreement?",
+    "_id": "english_4_medium_003",
+    "content": "Which sentence is correct?",
     "type": "multiple_choice",
     "options": [
-      "The dogs runs fast.",
-      "The dogs run fast.",
-      "The dog run fast.",
-      "The dogs running fast."
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
     ],
-    "correctAnswer": "The dogs run fast.",
+    "correctAnswer": "I like dogs.",
     "subject": "english",
     "grade": "4",
     "difficulty": "medium",
-    "explanation": "Plural subjects (dogs) need plural verbs (run).",
-    "_cacheBreaker": "1755775531185_2"
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253423_3"
   },
   {
-    "_id": "english_4_medium_1755775531185_4",
-    "content": "What is an antonym for 'hot'?",
+    "_id": "english_4_medium_004",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253423_4"
+  },
+  {
+    "_id": "english_4_medium_005",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253423_5"
+  },
+  {
+    "_id": "english_4_medium_006",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
+      "run",
+      "happy",
+      "table",
+      "quickly"
+    ],
+    "correctAnswer": "table",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253423_6"
+  },
+  {
+    "_id": "english_4_medium_007",
+    "content": "What is the opposite of 'hot'?",
     "type": "multiple_choice",
     "options": [
       "warm",
       "cold",
-      "fire",
-      "sun"
+      "cool",
+      "freezing"
     ],
     "correctAnswer": "cold",
     "subject": "english",
     "grade": "4",
     "difficulty": "medium",
-    "explanation": "Antonyms are opposite words. 'Cold' is the opposite of 'hot'.",
-    "_cacheBreaker": "1755775531185_3"
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253423_7"
   },
   {
-    "_id": "english_4_medium_1755775531185_5",
-    "content": "Which sentence has correct subject-verb agreement?",
+    "_id": "english_4_medium_008",
+    "content": "Which sentence is correct?",
     "type": "multiple_choice",
     "options": [
-      "The dogs runs fast.",
-      "The dogs run fast.",
-      "The dog run fast.",
-      "The dogs running fast."
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
     ],
-    "correctAnswer": "The dogs run fast.",
+    "correctAnswer": "I like dogs.",
     "subject": "english",
     "grade": "4",
     "difficulty": "medium",
-    "explanation": "Plural subjects (dogs) need plural verbs (run).",
-    "_cacheBreaker": "1755775531185_4"
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253423_8"
   },
   {
-    "_id": "english_4_medium_1755775531185_6",
-    "content": "What is an antonym for 'hot'?",
+    "_id": "english_4_medium_009",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253423_9"
+  },
+  {
+    "_id": "english_4_medium_010",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253423_10"
+  },
+  {
+    "_id": "english_4_medium_011",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
+      "run",
+      "happy",
+      "table",
+      "quickly"
+    ],
+    "correctAnswer": "table",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253423_11"
+  },
+  {
+    "_id": "english_4_medium_012",
+    "content": "What is the opposite of 'hot'?",
     "type": "multiple_choice",
     "options": [
       "warm",
       "cold",
-      "fire",
-      "sun"
+      "cool",
+      "freezing"
     ],
     "correctAnswer": "cold",
     "subject": "english",
     "grade": "4",
     "difficulty": "medium",
-    "explanation": "Antonyms are opposite words. 'Cold' is the opposite of 'hot'.",
-    "_cacheBreaker": "1755775531185_5"
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253423_12"
   },
   {
-    "_id": "english_4_medium_1755775531185_7",
-    "content": "Which sentence has correct subject-verb agreement?",
+    "_id": "english_4_medium_013",
+    "content": "Which sentence is correct?",
     "type": "multiple_choice",
     "options": [
-      "The dogs runs fast.",
-      "The dogs run fast.",
-      "The dog run fast.",
-      "The dogs running fast."
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
     ],
-    "correctAnswer": "The dogs run fast.",
+    "correctAnswer": "I like dogs.",
     "subject": "english",
     "grade": "4",
     "difficulty": "medium",
-    "explanation": "Plural subjects (dogs) need plural verbs (run).",
-    "_cacheBreaker": "1755775531185_6"
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253423_13"
   },
   {
-    "_id": "english_4_medium_1755775531185_8",
-    "content": "What is an antonym for 'hot'?",
+    "_id": "english_4_medium_014",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253423_14"
+  },
+  {
+    "_id": "english_4_medium_015",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253423_15"
+  },
+  {
+    "_id": "english_4_medium_016",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
+      "run",
+      "happy",
+      "table",
+      "quickly"
+    ],
+    "correctAnswer": "table",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253423_16"
+  },
+  {
+    "_id": "english_4_medium_017",
+    "content": "What is the opposite of 'hot'?",
     "type": "multiple_choice",
     "options": [
       "warm",
       "cold",
-      "fire",
-      "sun"
+      "cool",
+      "freezing"
     ],
     "correctAnswer": "cold",
     "subject": "english",
     "grade": "4",
     "difficulty": "medium",
-    "explanation": "Antonyms are opposite words. 'Cold' is the opposite of 'hot'.",
-    "_cacheBreaker": "1755775531185_7"
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253423_17"
   },
   {
-    "_id": "english_4_medium_1755775531185_9",
-    "content": "Which sentence has correct subject-verb agreement?",
+    "_id": "english_4_medium_018",
+    "content": "Which sentence is correct?",
     "type": "multiple_choice",
     "options": [
-      "The dogs runs fast.",
-      "The dogs run fast.",
-      "The dog run fast.",
-      "The dogs running fast."
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
     ],
-    "correctAnswer": "The dogs run fast.",
+    "correctAnswer": "I like dogs.",
     "subject": "english",
     "grade": "4",
     "difficulty": "medium",
-    "explanation": "Plural subjects (dogs) need plural verbs (run).",
-    "_cacheBreaker": "1755775531185_8"
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253423_18"
   },
   {
-    "_id": "english_4_medium_1755775531185_10",
-    "content": "What is an antonym for 'hot'?",
+    "_id": "english_4_medium_019",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253423_19"
+  },
+  {
+    "_id": "english_4_medium_020",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253423_20"
+  },
+  {
+    "_id": "english_4_medium_021",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
+      "run",
+      "happy",
+      "table",
+      "quickly"
+    ],
+    "correctAnswer": "table",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253423_21"
+  },
+  {
+    "_id": "english_4_medium_022",
+    "content": "What is the opposite of 'hot'?",
     "type": "multiple_choice",
     "options": [
       "warm",
       "cold",
-      "fire",
-      "sun"
+      "cool",
+      "freezing"
     ],
     "correctAnswer": "cold",
     "subject": "english",
     "grade": "4",
     "difficulty": "medium",
-    "explanation": "Antonyms are opposite words. 'Cold' is the opposite of 'hot'.",
-    "_cacheBreaker": "1755775531185_9"
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253423_22"
   },
   {
-    "_id": "english_4_medium_1755775531185_11",
-    "content": "Which sentence has correct subject-verb agreement?",
+    "_id": "english_4_medium_023",
+    "content": "Which sentence is correct?",
     "type": "multiple_choice",
     "options": [
-      "The dogs runs fast.",
-      "The dogs run fast.",
-      "The dog run fast.",
-      "The dogs running fast."
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
     ],
-    "correctAnswer": "The dogs run fast.",
+    "correctAnswer": "I like dogs.",
     "subject": "english",
     "grade": "4",
     "difficulty": "medium",
-    "explanation": "Plural subjects (dogs) need plural verbs (run).",
-    "_cacheBreaker": "1755775531185_10"
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253423_23"
   },
   {
-    "_id": "english_4_medium_1755775531185_12",
-    "content": "What is an antonym for 'hot'?",
+    "_id": "english_4_medium_024",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253423_24"
+  },
+  {
+    "_id": "english_4_medium_025",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253423_25"
+  },
+  {
+    "_id": "english_4_medium_026",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
+      "run",
+      "happy",
+      "table",
+      "quickly"
+    ],
+    "correctAnswer": "table",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253423_26"
+  },
+  {
+    "_id": "english_4_medium_027",
+    "content": "What is the opposite of 'hot'?",
     "type": "multiple_choice",
     "options": [
       "warm",
       "cold",
-      "fire",
-      "sun"
+      "cool",
+      "freezing"
     ],
     "correctAnswer": "cold",
     "subject": "english",
     "grade": "4",
     "difficulty": "medium",
-    "explanation": "Antonyms are opposite words. 'Cold' is the opposite of 'hot'.",
-    "_cacheBreaker": "1755775531185_11"
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253423_27"
   },
   {
-    "_id": "english_4_medium_1755775531185_13",
-    "content": "Which sentence has correct subject-verb agreement?",
+    "_id": "english_4_medium_028",
+    "content": "Which sentence is correct?",
     "type": "multiple_choice",
     "options": [
-      "The dogs runs fast.",
-      "The dogs run fast.",
-      "The dog run fast.",
-      "The dogs running fast."
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
     ],
-    "correctAnswer": "The dogs run fast.",
+    "correctAnswer": "I like dogs.",
     "subject": "english",
     "grade": "4",
     "difficulty": "medium",
-    "explanation": "Plural subjects (dogs) need plural verbs (run).",
-    "_cacheBreaker": "1755775531185_12"
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253423_28"
   },
   {
-    "_id": "english_4_medium_1755775531185_14",
-    "content": "What is an antonym for 'hot'?",
+    "_id": "english_4_medium_029",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253423_29"
+  },
+  {
+    "_id": "english_4_medium_030",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253423_30"
+  },
+  {
+    "_id": "english_4_medium_031",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
+      "run",
+      "happy",
+      "table",
+      "quickly"
+    ],
+    "correctAnswer": "table",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253423_31"
+  },
+  {
+    "_id": "english_4_medium_032",
+    "content": "What is the opposite of 'hot'?",
     "type": "multiple_choice",
     "options": [
       "warm",
       "cold",
-      "fire",
-      "sun"
+      "cool",
+      "freezing"
     ],
     "correctAnswer": "cold",
     "subject": "english",
     "grade": "4",
     "difficulty": "medium",
-    "explanation": "Antonyms are opposite words. 'Cold' is the opposite of 'hot'.",
-    "_cacheBreaker": "1755775531185_13"
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253423_32"
   },
   {
-    "_id": "english_4_medium_1755775531185_15",
-    "content": "Which sentence has correct subject-verb agreement?",
+    "_id": "english_4_medium_033",
+    "content": "Which sentence is correct?",
     "type": "multiple_choice",
     "options": [
-      "The dogs runs fast.",
-      "The dogs run fast.",
-      "The dog run fast.",
-      "The dogs running fast."
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
     ],
-    "correctAnswer": "The dogs run fast.",
+    "correctAnswer": "I like dogs.",
     "subject": "english",
     "grade": "4",
     "difficulty": "medium",
-    "explanation": "Plural subjects (dogs) need plural verbs (run).",
-    "_cacheBreaker": "1755775531185_14"
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253423_33"
   },
   {
-    "_id": "english_4_medium_1755775531185_16",
-    "content": "What is an antonym for 'hot'?",
+    "_id": "english_4_medium_034",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253423_34"
+  },
+  {
+    "_id": "english_4_medium_035",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253423_35"
+  },
+  {
+    "_id": "english_4_medium_036",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
+      "run",
+      "happy",
+      "table",
+      "quickly"
+    ],
+    "correctAnswer": "table",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253423_36"
+  },
+  {
+    "_id": "english_4_medium_037",
+    "content": "What is the opposite of 'hot'?",
     "type": "multiple_choice",
     "options": [
       "warm",
       "cold",
-      "fire",
-      "sun"
+      "cool",
+      "freezing"
     ],
     "correctAnswer": "cold",
     "subject": "english",
     "grade": "4",
     "difficulty": "medium",
-    "explanation": "Antonyms are opposite words. 'Cold' is the opposite of 'hot'.",
-    "_cacheBreaker": "1755775531185_15"
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253423_37"
   },
   {
-    "_id": "english_4_medium_1755775531185_17",
-    "content": "Which sentence has correct subject-verb agreement?",
+    "_id": "english_4_medium_038",
+    "content": "Which sentence is correct?",
     "type": "multiple_choice",
     "options": [
-      "The dogs runs fast.",
-      "The dogs run fast.",
-      "The dog run fast.",
-      "The dogs running fast."
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
     ],
-    "correctAnswer": "The dogs run fast.",
+    "correctAnswer": "I like dogs.",
     "subject": "english",
     "grade": "4",
     "difficulty": "medium",
-    "explanation": "Plural subjects (dogs) need plural verbs (run).",
-    "_cacheBreaker": "1755775531185_16"
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253423_38"
   },
   {
-    "_id": "english_4_medium_1755775531185_18",
-    "content": "What is an antonym for 'hot'?",
+    "_id": "english_4_medium_039",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253423_39"
+  },
+  {
+    "_id": "english_4_medium_040",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253423_40"
+  },
+  {
+    "_id": "english_4_medium_041",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
+      "run",
+      "happy",
+      "table",
+      "quickly"
+    ],
+    "correctAnswer": "table",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253423_41"
+  },
+  {
+    "_id": "english_4_medium_042",
+    "content": "What is the opposite of 'hot'?",
     "type": "multiple_choice",
     "options": [
       "warm",
       "cold",
-      "fire",
-      "sun"
+      "cool",
+      "freezing"
     ],
     "correctAnswer": "cold",
     "subject": "english",
     "grade": "4",
     "difficulty": "medium",
-    "explanation": "Antonyms are opposite words. 'Cold' is the opposite of 'hot'.",
-    "_cacheBreaker": "1755775531185_17"
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253423_42"
   },
   {
-    "_id": "english_4_medium_1755775531185_19",
-    "content": "Which sentence has correct subject-verb agreement?",
+    "_id": "english_4_medium_043",
+    "content": "Which sentence is correct?",
     "type": "multiple_choice",
     "options": [
-      "The dogs runs fast.",
-      "The dogs run fast.",
-      "The dog run fast.",
-      "The dogs running fast."
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
     ],
-    "correctAnswer": "The dogs run fast.",
+    "correctAnswer": "I like dogs.",
     "subject": "english",
     "grade": "4",
     "difficulty": "medium",
-    "explanation": "Plural subjects (dogs) need plural verbs (run).",
-    "_cacheBreaker": "1755775531185_18"
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253423_43"
   },
   {
-    "_id": "english_4_medium_1755775531185_20",
-    "content": "What is an antonym for 'hot'?",
+    "_id": "english_4_medium_044",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253423_44"
+  },
+  {
+    "_id": "english_4_medium_045",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253423_45"
+  },
+  {
+    "_id": "english_4_medium_046",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": [
+      "run",
+      "happy",
+      "table",
+      "quickly"
+    ],
+    "correctAnswer": "table",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "A noun names a person, place, or thing. Table is a thing.",
+    "_cacheBreaker": "1756033253423_46"
+  },
+  {
+    "_id": "english_4_medium_047",
+    "content": "What is the opposite of 'hot'?",
     "type": "multiple_choice",
     "options": [
       "warm",
       "cold",
-      "fire",
-      "sun"
+      "cool",
+      "freezing"
     ],
     "correctAnswer": "cold",
     "subject": "english",
     "grade": "4",
     "difficulty": "medium",
-    "explanation": "Antonyms are opposite words. 'Cold' is the opposite of 'hot'.",
-    "_cacheBreaker": "1755775531185_19"
+    "explanation": "Hot and cold are opposites.",
+    "_cacheBreaker": "1756033253423_47"
+  },
+  {
+    "_id": "english_4_medium_048",
+    "content": "Which sentence is correct?",
+    "type": "multiple_choice",
+    "options": [
+      "i like dogs",
+      "I like dogs.",
+      "I Like Dogs",
+      "i like dogs."
+    ],
+    "correctAnswer": "I like dogs.",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "Sentences start with capital letters and end with periods.",
+    "_cacheBreaker": "1756033253423_48"
+  },
+  {
+    "_id": "english_4_medium_049",
+    "content": "How many vowels are in 'apple'?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "Apple has vowels 'a' and 'e'.",
+    "_cacheBreaker": "1756033253423_49"
+  },
+  {
+    "_id": "english_4_medium_050",
+    "content": "Which word rhymes with 'tree'?",
+    "type": "multiple_choice",
+    "options": [
+      "car",
+      "bee",
+      "dog",
+      "sun"
+    ],
+    "correctAnswer": "bee",
+    "subject": "english",
+    "grade": "4",
+    "difficulty": "medium",
+    "explanation": "Tree and bee both end with the 'ee' sound.",
+    "_cacheBreaker": "1756033253423_50"
   }
 ]

@@ -1,342 +1,852 @@
 [
   {
-    "_id": "hard1_1_001",
-    "content": "Look at this pattern: 🔴🔵🔴🔵🔴. What comes next?",
+    "_id": "mathematical-reasoning_1_hard_001",
+    "content": "If you have 3 red balls and 2 blue balls, how many balls do you have in total?",
     "type": "multiple_choice",
     "options": [
-      "🔴",
-      "🔵",
-      "🟡",
-      "🟢"
+      "4",
+      "5",
+      "6",
+      "7"
     ],
-    "correctAnswer": "🔵",
+    "correctAnswer": "5",
     "subject": "mathematical-reasoning",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "The pattern alternates red and blue circles, so blue comes next.",
-    "_cacheBreaker": "1755265388160_0"
+    "explanation": "3 + 2 = 5 balls total",
+    "_cacheBreaker": "1756033253393_1"
   },
   {
-    "_id": "hard1_1_002",
-    "content": "If you have 3 apples and eat 1 apple, how can you figure out how many are left?",
+    "_id": "mathematical-reasoning_1_hard_002",
+    "content": "What comes next in the pattern: 1, 3, 5, ?",
     "type": "multiple_choice",
     "options": [
-      "Count them",
-      "Subtract: 3 - 1",
-      "Add: 3 + 1",
-      "Guess"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "Subtract: 3 - 1",
+    "correctAnswer": "7",
     "subject": "mathematical-reasoning",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "When you take away, you subtract to find what's left.",
-    "_cacheBreaker": "1755265388160_1"
+    "explanation": "The pattern adds 2 each time: 1, 3, 5, 7",
+    "_cacheBreaker": "1756033253393_2"
   },
   {
-    "_id": "hard1_1_003",
-    "content": "Which number is bigger: 5 or 3? How do you know?",
+    "_id": "mathematical-reasoning_1_hard_003",
+    "content": "If a box has 10 toys and you take out 3, how many are left?",
     "type": "multiple_choice",
     "options": [
-      "5, because it comes after 3 when counting",
-      "3, because it's smaller",
-      "They are the same",
-      "Can't tell"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "5, because it comes after 3 when counting",
+    "correctAnswer": "7",
     "subject": "mathematical-reasoning",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "Numbers that come later when counting are bigger.",
-    "_cacheBreaker": "1755265388160_2"
+    "explanation": "10 - 3 = 7 toys left",
+    "_cacheBreaker": "1756033253393_3"
   },
   {
-    "_id": "hard1_1_004",
-    "content": "Look at this pattern: 🔴🔵🔴🔵🔴. What comes next? (Question 4)",
+    "_id": "mathematical-reasoning_1_hard_004",
+    "content": "Which shape has the most sides?",
     "type": "multiple_choice",
     "options": [
-      "🔴",
-      "🔵",
-      "🟡",
-      "🟢"
+      "triangle",
+      "square",
+      "pentagon",
+      "circle"
     ],
-    "correctAnswer": "🔵",
+    "correctAnswer": "pentagon",
     "subject": "mathematical-reasoning",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "The pattern alternates red and blue circles, so blue comes next.",
-    "_cacheBreaker": "1755265388160_3"
+    "explanation": "A pentagon has 5 sides, more than triangle (3) or square (4)",
+    "_cacheBreaker": "1756033253393_4"
   },
   {
-    "_id": "hard1_1_005",
-    "content": "If you have 3 apples and eat 1 apple, how can you figure out how many are left? (Question 5)",
+    "_id": "mathematical-reasoning_1_hard_005",
+    "content": "If you buy 2 apples for 10 cents each, how much do you spend?",
     "type": "multiple_choice",
     "options": [
-      "Count them",
-      "Subtract: 3 - 1",
-      "Add: 3 + 1",
-      "Guess"
+      "15 cents",
+      "20 cents",
+      "25 cents",
+      "30 cents"
     ],
-    "correctAnswer": "Subtract: 3 - 1",
+    "correctAnswer": "20 cents",
     "subject": "mathematical-reasoning",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "When you take away, you subtract to find what's left.",
-    "_cacheBreaker": "1755265388160_4"
+    "explanation": "2 × 10 cents = 20 cents",
+    "_cacheBreaker": "1756033253393_5"
   },
   {
-    "_id": "hard1_1_006",
-    "content": "Which number is bigger: 5 or 3? How do you know? (Question 6)",
+    "_id": "mathematical-reasoning_1_hard_006",
+    "content": "If you have 3 red balls and 2 blue balls, how many balls do you have in total?",
     "type": "multiple_choice",
     "options": [
-      "5, because it comes after 3 when counting",
-      "3, because it's smaller",
-      "They are the same",
-      "Can't tell"
+      "4",
+      "5",
+      "6",
+      "7"
     ],
-    "correctAnswer": "5, because it comes after 3 when counting",
+    "correctAnswer": "5",
     "subject": "mathematical-reasoning",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "Numbers that come later when counting are bigger.",
-    "_cacheBreaker": "1755265388160_5"
+    "explanation": "3 + 2 = 5 balls total",
+    "_cacheBreaker": "1756033253393_6"
   },
   {
-    "_id": "hard1_1_007",
-    "content": "Look at this pattern: 🔴🔵🔴🔵🔴. What comes next? (Question 7)",
+    "_id": "mathematical-reasoning_1_hard_007",
+    "content": "What comes next in the pattern: 1, 3, 5, ?",
     "type": "multiple_choice",
     "options": [
-      "🔴",
-      "🔵",
-      "🟡",
-      "🟢"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "🔵",
+    "correctAnswer": "7",
     "subject": "mathematical-reasoning",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "The pattern alternates red and blue circles, so blue comes next.",
-    "_cacheBreaker": "1755265388160_6"
+    "explanation": "The pattern adds 2 each time: 1, 3, 5, 7",
+    "_cacheBreaker": "1756033253393_7"
   },
   {
-    "_id": "hard1_1_008",
-    "content": "If you have 3 apples and eat 1 apple, how can you figure out how many are left? (Question 8)",
+    "_id": "mathematical-reasoning_1_hard_008",
+    "content": "If a box has 10 toys and you take out 3, how many are left?",
     "type": "multiple_choice",
     "options": [
-      "Count them",
-      "Subtract: 3 - 1",
-      "Add: 3 + 1",
-      "Guess"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "Subtract: 3 - 1",
+    "correctAnswer": "7",
     "subject": "mathematical-reasoning",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "When you take away, you subtract to find what's left.",
-    "_cacheBreaker": "1755265388160_7"
+    "explanation": "10 - 3 = 7 toys left",
+    "_cacheBreaker": "1756033253393_8"
   },
   {
-    "_id": "hard1_1_009",
-    "content": "Which number is bigger: 5 or 3? How do you know? (Question 9)",
+    "_id": "mathematical-reasoning_1_hard_009",
+    "content": "Which shape has the most sides?",
     "type": "multiple_choice",
     "options": [
-      "5, because it comes after 3 when counting",
-      "3, because it's smaller",
-      "They are the same",
-      "Can't tell"
+      "triangle",
+      "square",
+      "pentagon",
+      "circle"
     ],
-    "correctAnswer": "5, because it comes after 3 when counting",
+    "correctAnswer": "pentagon",
     "subject": "mathematical-reasoning",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "Numbers that come later when counting are bigger.",
-    "_cacheBreaker": "1755265388160_8"
+    "explanation": "A pentagon has 5 sides, more than triangle (3) or square (4)",
+    "_cacheBreaker": "1756033253393_9"
   },
   {
-    "_id": "hard1_1_010",
-    "content": "Look at this pattern: 🔴🔵🔴🔵🔴. What comes next? (Question 10)",
+    "_id": "mathematical-reasoning_1_hard_010",
+    "content": "If you buy 2 apples for 10 cents each, how much do you spend?",
     "type": "multiple_choice",
     "options": [
-      "🔴",
-      "🔵",
-      "🟡",
-      "🟢"
+      "15 cents",
+      "20 cents",
+      "25 cents",
+      "30 cents"
     ],
-    "correctAnswer": "🔵",
+    "correctAnswer": "20 cents",
     "subject": "mathematical-reasoning",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "The pattern alternates red and blue circles, so blue comes next.",
-    "_cacheBreaker": "1755265388160_9"
+    "explanation": "2 × 10 cents = 20 cents",
+    "_cacheBreaker": "1756033253393_10"
   },
   {
-    "_id": "hard1_1_011",
-    "content": "If you have 3 apples and eat 1 apple, how can you figure out how many are left? (Question 11)",
+    "_id": "mathematical-reasoning_1_hard_011",
+    "content": "If you have 3 red balls and 2 blue balls, how many balls do you have in total?",
     "type": "multiple_choice",
     "options": [
-      "Count them",
-      "Subtract: 3 - 1",
-      "Add: 3 + 1",
-      "Guess"
+      "4",
+      "5",
+      "6",
+      "7"
     ],
-    "correctAnswer": "Subtract: 3 - 1",
+    "correctAnswer": "5",
     "subject": "mathematical-reasoning",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "When you take away, you subtract to find what's left.",
-    "_cacheBreaker": "1755265388160_10"
+    "explanation": "3 + 2 = 5 balls total",
+    "_cacheBreaker": "1756033253393_11"
   },
   {
-    "_id": "hard1_1_012",
-    "content": "Which number is bigger: 5 or 3? How do you know? (Question 12)",
+    "_id": "mathematical-reasoning_1_hard_012",
+    "content": "What comes next in the pattern: 1, 3, 5, ?",
     "type": "multiple_choice",
     "options": [
-      "5, because it comes after 3 when counting",
-      "3, because it's smaller",
-      "They are the same",
-      "Can't tell"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "5, because it comes after 3 when counting",
+    "correctAnswer": "7",
     "subject": "mathematical-reasoning",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "Numbers that come later when counting are bigger.",
-    "_cacheBreaker": "1755265388160_11"
+    "explanation": "The pattern adds 2 each time: 1, 3, 5, 7",
+    "_cacheBreaker": "1756033253393_12"
   },
   {
-    "_id": "hard1_1_013",
-    "content": "Look at this pattern: 🔴🔵🔴🔵🔴. What comes next? (Question 13)",
+    "_id": "mathematical-reasoning_1_hard_013",
+    "content": "If a box has 10 toys and you take out 3, how many are left?",
     "type": "multiple_choice",
     "options": [
-      "🔴",
-      "🔵",
-      "🟡",
-      "🟢"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "🔵",
+    "correctAnswer": "7",
     "subject": "mathematical-reasoning",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "The pattern alternates red and blue circles, so blue comes next.",
-    "_cacheBreaker": "1755265388160_12"
+    "explanation": "10 - 3 = 7 toys left",
+    "_cacheBreaker": "1756033253393_13"
   },
   {
-    "_id": "hard1_1_014",
-    "content": "If you have 3 apples and eat 1 apple, how can you figure out how many are left? (Question 14)",
+    "_id": "mathematical-reasoning_1_hard_014",
+    "content": "Which shape has the most sides?",
     "type": "multiple_choice",
     "options": [
-      "Count them",
-      "Subtract: 3 - 1",
-      "Add: 3 + 1",
-      "Guess"
+      "triangle",
+      "square",
+      "pentagon",
+      "circle"
     ],
-    "correctAnswer": "Subtract: 3 - 1",
+    "correctAnswer": "pentagon",
     "subject": "mathematical-reasoning",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "When you take away, you subtract to find what's left.",
-    "_cacheBreaker": "1755265388160_13"
+    "explanation": "A pentagon has 5 sides, more than triangle (3) or square (4)",
+    "_cacheBreaker": "1756033253393_14"
   },
   {
-    "_id": "hard1_1_015",
-    "content": "Which number is bigger: 5 or 3? How do you know? (Question 15)",
+    "_id": "mathematical-reasoning_1_hard_015",
+    "content": "If you buy 2 apples for 10 cents each, how much do you spend?",
     "type": "multiple_choice",
     "options": [
-      "5, because it comes after 3 when counting",
-      "3, because it's smaller",
-      "They are the same",
-      "Can't tell"
+      "15 cents",
+      "20 cents",
+      "25 cents",
+      "30 cents"
     ],
-    "correctAnswer": "5, because it comes after 3 when counting",
+    "correctAnswer": "20 cents",
     "subject": "mathematical-reasoning",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "Numbers that come later when counting are bigger.",
-    "_cacheBreaker": "1755265388160_14"
+    "explanation": "2 × 10 cents = 20 cents",
+    "_cacheBreaker": "1756033253393_15"
   },
   {
-    "_id": "hard1_1_016",
-    "content": "Look at this pattern: 🔴🔵🔴🔵🔴. What comes next? (Question 16)",
+    "_id": "mathematical-reasoning_1_hard_016",
+    "content": "If you have 3 red balls and 2 blue balls, how many balls do you have in total?",
     "type": "multiple_choice",
     "options": [
-      "🔴",
-      "🔵",
-      "🟡",
-      "🟢"
+      "4",
+      "5",
+      "6",
+      "7"
     ],
-    "correctAnswer": "🔵",
+    "correctAnswer": "5",
     "subject": "mathematical-reasoning",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "The pattern alternates red and blue circles, so blue comes next.",
-    "_cacheBreaker": "1755265388160_15"
+    "explanation": "3 + 2 = 5 balls total",
+    "_cacheBreaker": "1756033253393_16"
   },
   {
-    "_id": "hard1_1_017",
-    "content": "If you have 3 apples and eat 1 apple, how can you figure out how many are left? (Question 17)",
+    "_id": "mathematical-reasoning_1_hard_017",
+    "content": "What comes next in the pattern: 1, 3, 5, ?",
     "type": "multiple_choice",
     "options": [
-      "Count them",
-      "Subtract: 3 - 1",
-      "Add: 3 + 1",
-      "Guess"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "Subtract: 3 - 1",
+    "correctAnswer": "7",
     "subject": "mathematical-reasoning",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "When you take away, you subtract to find what's left.",
-    "_cacheBreaker": "1755265388160_16"
+    "explanation": "The pattern adds 2 each time: 1, 3, 5, 7",
+    "_cacheBreaker": "1756033253393_17"
   },
   {
-    "_id": "hard1_1_018",
-    "content": "Which number is bigger: 5 or 3? How do you know? (Question 18)",
+    "_id": "mathematical-reasoning_1_hard_018",
+    "content": "If a box has 10 toys and you take out 3, how many are left?",
     "type": "multiple_choice",
     "options": [
-      "5, because it comes after 3 when counting",
-      "3, because it's smaller",
-      "They are the same",
-      "Can't tell"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correctAnswer": "5, because it comes after 3 when counting",
+    "correctAnswer": "7",
     "subject": "mathematical-reasoning",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "Numbers that come later when counting are bigger.",
-    "_cacheBreaker": "1755265388160_17"
+    "explanation": "10 - 3 = 7 toys left",
+    "_cacheBreaker": "1756033253393_18"
   },
   {
-    "_id": "hard1_1_019",
-    "content": "Look at this pattern: 🔴🔵🔴🔵🔴. What comes next? (Question 19)",
+    "_id": "mathematical-reasoning_1_hard_019",
+    "content": "Which shape has the most sides?",
     "type": "multiple_choice",
     "options": [
-      "🔴",
-      "🔵",
-      "🟡",
-      "🟢"
+      "triangle",
+      "square",
+      "pentagon",
+      "circle"
     ],
-    "correctAnswer": "🔵",
+    "correctAnswer": "pentagon",
     "subject": "mathematical-reasoning",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "The pattern alternates red and blue circles, so blue comes next.",
-    "_cacheBreaker": "1755265388160_18"
+    "explanation": "A pentagon has 5 sides, more than triangle (3) or square (4)",
+    "_cacheBreaker": "1756033253393_19"
   },
   {
-    "_id": "hard1_1_020",
-    "content": "If you have 3 apples and eat 1 apple, how can you figure out how many are left? (Question 20)",
+    "_id": "mathematical-reasoning_1_hard_020",
+    "content": "If you buy 2 apples for 10 cents each, how much do you spend?",
     "type": "multiple_choice",
     "options": [
-      "Count them",
-      "Subtract: 3 - 1",
-      "Add: 3 + 1",
-      "Guess"
+      "15 cents",
+      "20 cents",
+      "25 cents",
+      "30 cents"
     ],
-    "correctAnswer": "Subtract: 3 - 1",
+    "correctAnswer": "20 cents",
     "subject": "mathematical-reasoning",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "When you take away, you subtract to find what's left.",
-    "_cacheBreaker": "1755265388160_19"
+    "explanation": "2 × 10 cents = 20 cents",
+    "_cacheBreaker": "1756033253393_20"
+  },
+  {
+    "_id": "mathematical-reasoning_1_hard_021",
+    "content": "If you have 3 red balls and 2 blue balls, how many balls do you have in total?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "5",
+    "subject": "mathematical-reasoning",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "3 + 2 = 5 balls total",
+    "_cacheBreaker": "1756033253393_21"
+  },
+  {
+    "_id": "mathematical-reasoning_1_hard_022",
+    "content": "What comes next in the pattern: 1, 3, 5, ?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "7",
+    "subject": "mathematical-reasoning",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "The pattern adds 2 each time: 1, 3, 5, 7",
+    "_cacheBreaker": "1756033253393_22"
+  },
+  {
+    "_id": "mathematical-reasoning_1_hard_023",
+    "content": "If a box has 10 toys and you take out 3, how many are left?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "7",
+    "subject": "mathematical-reasoning",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "10 - 3 = 7 toys left",
+    "_cacheBreaker": "1756033253393_23"
+  },
+  {
+    "_id": "mathematical-reasoning_1_hard_024",
+    "content": "Which shape has the most sides?",
+    "type": "multiple_choice",
+    "options": [
+      "triangle",
+      "square",
+      "pentagon",
+      "circle"
+    ],
+    "correctAnswer": "pentagon",
+    "subject": "mathematical-reasoning",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "A pentagon has 5 sides, more than triangle (3) or square (4)",
+    "_cacheBreaker": "1756033253393_24"
+  },
+  {
+    "_id": "mathematical-reasoning_1_hard_025",
+    "content": "If you buy 2 apples for 10 cents each, how much do you spend?",
+    "type": "multiple_choice",
+    "options": [
+      "15 cents",
+      "20 cents",
+      "25 cents",
+      "30 cents"
+    ],
+    "correctAnswer": "20 cents",
+    "subject": "mathematical-reasoning",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "2 × 10 cents = 20 cents",
+    "_cacheBreaker": "1756033253393_25"
+  },
+  {
+    "_id": "mathematical-reasoning_1_hard_026",
+    "content": "If you have 3 red balls and 2 blue balls, how many balls do you have in total?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "5",
+    "subject": "mathematical-reasoning",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "3 + 2 = 5 balls total",
+    "_cacheBreaker": "1756033253393_26"
+  },
+  {
+    "_id": "mathematical-reasoning_1_hard_027",
+    "content": "What comes next in the pattern: 1, 3, 5, ?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "7",
+    "subject": "mathematical-reasoning",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "The pattern adds 2 each time: 1, 3, 5, 7",
+    "_cacheBreaker": "1756033253393_27"
+  },
+  {
+    "_id": "mathematical-reasoning_1_hard_028",
+    "content": "If a box has 10 toys and you take out 3, how many are left?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "7",
+    "subject": "mathematical-reasoning",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "10 - 3 = 7 toys left",
+    "_cacheBreaker": "1756033253393_28"
+  },
+  {
+    "_id": "mathematical-reasoning_1_hard_029",
+    "content": "Which shape has the most sides?",
+    "type": "multiple_choice",
+    "options": [
+      "triangle",
+      "square",
+      "pentagon",
+      "circle"
+    ],
+    "correctAnswer": "pentagon",
+    "subject": "mathematical-reasoning",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "A pentagon has 5 sides, more than triangle (3) or square (4)",
+    "_cacheBreaker": "1756033253393_29"
+  },
+  {
+    "_id": "mathematical-reasoning_1_hard_030",
+    "content": "If you buy 2 apples for 10 cents each, how much do you spend?",
+    "type": "multiple_choice",
+    "options": [
+      "15 cents",
+      "20 cents",
+      "25 cents",
+      "30 cents"
+    ],
+    "correctAnswer": "20 cents",
+    "subject": "mathematical-reasoning",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "2 × 10 cents = 20 cents",
+    "_cacheBreaker": "1756033253393_30"
+  },
+  {
+    "_id": "mathematical-reasoning_1_hard_031",
+    "content": "If you have 3 red balls and 2 blue balls, how many balls do you have in total?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "5",
+    "subject": "mathematical-reasoning",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "3 + 2 = 5 balls total",
+    "_cacheBreaker": "1756033253393_31"
+  },
+  {
+    "_id": "mathematical-reasoning_1_hard_032",
+    "content": "What comes next in the pattern: 1, 3, 5, ?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "7",
+    "subject": "mathematical-reasoning",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "The pattern adds 2 each time: 1, 3, 5, 7",
+    "_cacheBreaker": "1756033253393_32"
+  },
+  {
+    "_id": "mathematical-reasoning_1_hard_033",
+    "content": "If a box has 10 toys and you take out 3, how many are left?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "7",
+    "subject": "mathematical-reasoning",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "10 - 3 = 7 toys left",
+    "_cacheBreaker": "1756033253393_33"
+  },
+  {
+    "_id": "mathematical-reasoning_1_hard_034",
+    "content": "Which shape has the most sides?",
+    "type": "multiple_choice",
+    "options": [
+      "triangle",
+      "square",
+      "pentagon",
+      "circle"
+    ],
+    "correctAnswer": "pentagon",
+    "subject": "mathematical-reasoning",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "A pentagon has 5 sides, more than triangle (3) or square (4)",
+    "_cacheBreaker": "1756033253393_34"
+  },
+  {
+    "_id": "mathematical-reasoning_1_hard_035",
+    "content": "If you buy 2 apples for 10 cents each, how much do you spend?",
+    "type": "multiple_choice",
+    "options": [
+      "15 cents",
+      "20 cents",
+      "25 cents",
+      "30 cents"
+    ],
+    "correctAnswer": "20 cents",
+    "subject": "mathematical-reasoning",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "2 × 10 cents = 20 cents",
+    "_cacheBreaker": "1756033253393_35"
+  },
+  {
+    "_id": "mathematical-reasoning_1_hard_036",
+    "content": "If you have 3 red balls and 2 blue balls, how many balls do you have in total?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "5",
+    "subject": "mathematical-reasoning",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "3 + 2 = 5 balls total",
+    "_cacheBreaker": "1756033253393_36"
+  },
+  {
+    "_id": "mathematical-reasoning_1_hard_037",
+    "content": "What comes next in the pattern: 1, 3, 5, ?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "7",
+    "subject": "mathematical-reasoning",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "The pattern adds 2 each time: 1, 3, 5, 7",
+    "_cacheBreaker": "1756033253393_37"
+  },
+  {
+    "_id": "mathematical-reasoning_1_hard_038",
+    "content": "If a box has 10 toys and you take out 3, how many are left?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "7",
+    "subject": "mathematical-reasoning",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "10 - 3 = 7 toys left",
+    "_cacheBreaker": "1756033253393_38"
+  },
+  {
+    "_id": "mathematical-reasoning_1_hard_039",
+    "content": "Which shape has the most sides?",
+    "type": "multiple_choice",
+    "options": [
+      "triangle",
+      "square",
+      "pentagon",
+      "circle"
+    ],
+    "correctAnswer": "pentagon",
+    "subject": "mathematical-reasoning",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "A pentagon has 5 sides, more than triangle (3) or square (4)",
+    "_cacheBreaker": "1756033253393_39"
+  },
+  {
+    "_id": "mathematical-reasoning_1_hard_040",
+    "content": "If you buy 2 apples for 10 cents each, how much do you spend?",
+    "type": "multiple_choice",
+    "options": [
+      "15 cents",
+      "20 cents",
+      "25 cents",
+      "30 cents"
+    ],
+    "correctAnswer": "20 cents",
+    "subject": "mathematical-reasoning",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "2 × 10 cents = 20 cents",
+    "_cacheBreaker": "1756033253393_40"
+  },
+  {
+    "_id": "mathematical-reasoning_1_hard_041",
+    "content": "If you have 3 red balls and 2 blue balls, how many balls do you have in total?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "5",
+    "subject": "mathematical-reasoning",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "3 + 2 = 5 balls total",
+    "_cacheBreaker": "1756033253393_41"
+  },
+  {
+    "_id": "mathematical-reasoning_1_hard_042",
+    "content": "What comes next in the pattern: 1, 3, 5, ?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "7",
+    "subject": "mathematical-reasoning",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "The pattern adds 2 each time: 1, 3, 5, 7",
+    "_cacheBreaker": "1756033253393_42"
+  },
+  {
+    "_id": "mathematical-reasoning_1_hard_043",
+    "content": "If a box has 10 toys and you take out 3, how many are left?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "7",
+    "subject": "mathematical-reasoning",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "10 - 3 = 7 toys left",
+    "_cacheBreaker": "1756033253393_43"
+  },
+  {
+    "_id": "mathematical-reasoning_1_hard_044",
+    "content": "Which shape has the most sides?",
+    "type": "multiple_choice",
+    "options": [
+      "triangle",
+      "square",
+      "pentagon",
+      "circle"
+    ],
+    "correctAnswer": "pentagon",
+    "subject": "mathematical-reasoning",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "A pentagon has 5 sides, more than triangle (3) or square (4)",
+    "_cacheBreaker": "1756033253393_44"
+  },
+  {
+    "_id": "mathematical-reasoning_1_hard_045",
+    "content": "If you buy 2 apples for 10 cents each, how much do you spend?",
+    "type": "multiple_choice",
+    "options": [
+      "15 cents",
+      "20 cents",
+      "25 cents",
+      "30 cents"
+    ],
+    "correctAnswer": "20 cents",
+    "subject": "mathematical-reasoning",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "2 × 10 cents = 20 cents",
+    "_cacheBreaker": "1756033253393_45"
+  },
+  {
+    "_id": "mathematical-reasoning_1_hard_046",
+    "content": "If you have 3 red balls and 2 blue balls, how many balls do you have in total?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "5",
+    "subject": "mathematical-reasoning",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "3 + 2 = 5 balls total",
+    "_cacheBreaker": "1756033253393_46"
+  },
+  {
+    "_id": "mathematical-reasoning_1_hard_047",
+    "content": "What comes next in the pattern: 1, 3, 5, ?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "7",
+    "subject": "mathematical-reasoning",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "The pattern adds 2 each time: 1, 3, 5, 7",
+    "_cacheBreaker": "1756033253393_47"
+  },
+  {
+    "_id": "mathematical-reasoning_1_hard_048",
+    "content": "If a box has 10 toys and you take out 3, how many are left?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "7",
+    "subject": "mathematical-reasoning",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "10 - 3 = 7 toys left",
+    "_cacheBreaker": "1756033253393_48"
+  },
+  {
+    "_id": "mathematical-reasoning_1_hard_049",
+    "content": "Which shape has the most sides?",
+    "type": "multiple_choice",
+    "options": [
+      "triangle",
+      "square",
+      "pentagon",
+      "circle"
+    ],
+    "correctAnswer": "pentagon",
+    "subject": "mathematical-reasoning",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "A pentagon has 5 sides, more than triangle (3) or square (4)",
+    "_cacheBreaker": "1756033253393_49"
+  },
+  {
+    "_id": "mathematical-reasoning_1_hard_050",
+    "content": "If you buy 2 apples for 10 cents each, how much do you spend?",
+    "type": "multiple_choice",
+    "options": [
+      "15 cents",
+      "20 cents",
+      "25 cents",
+      "30 cents"
+    ],
+    "correctAnswer": "20 cents",
+    "subject": "mathematical-reasoning",
+    "grade": "1",
+    "difficulty": "hard",
+    "explanation": "2 × 10 cents = 20 cents",
+    "_cacheBreaker": "1756033253393_50"
   }
 ]
