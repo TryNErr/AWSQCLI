@@ -1,362 +1,852 @@
 [
   {
-    "_id": "thinking_5_hard_1755262177003_001",
-    "scenario": "Lisa observes this pattern in her math class: 3, 6, 12, 24, ___. She needs to find the rule.",
-    "content": "What number comes next?",
+    "_id": "thinking-skills_5_hard_001",
+    "content": "If all roses are flowers, and some flowers are red, which statement must be true?",
     "type": "multiple_choice",
     "options": [
-      "36",
-      "48",
-      "30",
-      "27"
+      "All roses are red",
+      "Some roses are red",
+      "All flowers are roses",
+      "Some roses might be red"
     ],
-    "correctAnswer": "48",
+    "correctAnswer": "Some roses might be red",
     "subject": "thinking-skills",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Each number doubles: 3×2=6, 6×2=12, 12×2=24, 24×2=48",
-    "_cacheBreaker": "1755265388194_0"
+    "explanation": "We know all roses are flowers, and some flowers are red, but we can't be certain about roses specifically. They might be red.",
+    "_cacheBreaker": "1756030323253_1"
   },
   {
-    "_id": "thinking_5_hard_1755262177003_002",
-    "scenario": "During a class discussion, Jake says: 'We should ban homework because I don't like it.' His teacher points out a problem with his reasoning.",
-    "content": "What's wrong with Jake's argument?",
+    "_id": "thinking-skills_5_hard_002",
+    "content": "Look at this pattern: ○●○●●○●●●○. What comes next?",
     "type": "multiple_choice",
     "options": [
-      "It's based only on personal preference",
-      "It's too long",
-      "It's too short",
-      "It's perfectly logical"
+      "●●●●",
+      "○●●●●",
+      "●●●●○",
+      "○○○○"
     ],
-    "correctAnswer": "It's based only on personal preference",
+    "correctAnswer": "●●●●○",
     "subject": "thinking-skills",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Jake's argument is weak because it's based only on his personal feelings, not logical reasons.",
-    "_cacheBreaker": "1755265388194_1"
+    "explanation": "The pattern shows increasing groups of filled circles: 1, 2, 3, so next should be 4 filled circles followed by an empty one.",
+    "_cacheBreaker": "1756030323253_2"
   },
   {
-    "_id": "thinking_5_hard_1755262177003_003",
-    "scenario": "The school cafeteria problem: 'We have 200 students but only 150 lunch trays.' The principal needs to solve this.",
-    "content": "What should the principal do first?",
+    "_id": "thinking-skills_5_hard_003",
+    "content": "If it takes 5 machines 5 minutes to make 5 widgets, how long does it take 100 machines to make 100 widgets?",
     "type": "multiple_choice",
     "options": [
-      "Buy more trays immediately",
-      "Understand the full situation",
-      "Ignore the problem",
-      "Blame the students"
+      "100 minutes",
+      "20 minutes",
+      "5 minutes",
+      "1 minute"
     ],
-    "correctAnswer": "Understand the full situation",
+    "correctAnswer": "5 minutes",
     "subject": "thinking-skills",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Good problem-solving starts with fully understanding the situation.",
-    "_cacheBreaker": "1755265388194_2"
+    "explanation": "Each machine makes 1 widget in 5 minutes. So 100 machines can make 100 widgets in the same 5 minutes.",
+    "_cacheBreaker": "1756030323253_3"
   },
   {
-    "_id": "thinking_5_hard_1755262177003_004",
-    "scenario": "Lisa observes this pattern in her math class: 3, 6, 12, 24, ___. She needs to find the rule.",
-    "content": "What number comes next? (Question 4)",
+    "_id": "thinking-skills_5_hard_004",
+    "content": "Which number doesn't belong in this group: 8, 27, 64, 100, 125?",
     "type": "multiple_choice",
     "options": [
-      "36",
-      "48",
-      "30",
-      "27"
+      "8",
+      "27",
+      "100",
+      "125"
     ],
-    "correctAnswer": "48",
+    "correctAnswer": "100",
     "subject": "thinking-skills",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Each number doubles: 3×2=6, 6×2=12, 12×2=24, 24×2=48",
-    "_cacheBreaker": "1755265388194_3"
+    "explanation": "All numbers except 100 are perfect cubes: 8=2³, 27=3³, 64=4³, 125=5³. 100 is not a perfect cube.",
+    "_cacheBreaker": "1756030323253_4"
   },
   {
-    "_id": "thinking_5_hard_1755262177003_005",
-    "scenario": "During a class discussion, Jake says: 'We should ban homework because I don't like it.' His teacher points out a problem with his reasoning.",
-    "content": "What's wrong with Jake's argument? (Question 5)",
+    "_id": "thinking-skills_5_hard_005",
+    "content": "If you rearrange the letters in 'LISTEN', you can make which word?",
     "type": "multiple_choice",
     "options": [
-      "It's based only on personal preference",
-      "It's too long",
-      "It's too short",
-      "It's perfectly logical"
+      "SILENT",
+      "ENLIST",
+      "TINSEL",
+      "All of the above"
     ],
-    "correctAnswer": "It's based only on personal preference",
+    "correctAnswer": "All of the above",
     "subject": "thinking-skills",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Jake's argument is weak because it's based only on his personal feelings, not logical reasons.",
-    "_cacheBreaker": "1755265388194_4"
+    "explanation": "LISTEN contains the same letters as SILENT, ENLIST, and TINSEL - they are all anagrams.",
+    "_cacheBreaker": "1756030323253_5"
   },
   {
-    "_id": "thinking_5_hard_1755262177003_006",
-    "scenario": "The school cafeteria problem: 'We have 200 students but only 150 lunch trays.' The principal needs to solve this.",
-    "content": "What should the principal do first? (Question 6)",
+    "_id": "thinking-skills_5_hard_006",
+    "content": "If all roses are flowers, and some flowers are red, which statement must be true?",
     "type": "multiple_choice",
     "options": [
-      "Buy more trays immediately",
-      "Understand the full situation",
-      "Ignore the problem",
-      "Blame the students"
+      "All roses are red",
+      "Some roses are red",
+      "All flowers are roses",
+      "Some roses might be red"
     ],
-    "correctAnswer": "Understand the full situation",
+    "correctAnswer": "Some roses might be red",
     "subject": "thinking-skills",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Good problem-solving starts with fully understanding the situation.",
-    "_cacheBreaker": "1755265388194_5"
+    "explanation": "We know all roses are flowers, and some flowers are red, but we can't be certain about roses specifically. They might be red.",
+    "_cacheBreaker": "1756030323253_6"
   },
   {
-    "_id": "thinking_5_hard_1755262177003_007",
-    "scenario": "Lisa observes this pattern in her math class: 3, 6, 12, 24, ___. She needs to find the rule.",
-    "content": "What number comes next? (Question 7)",
+    "_id": "thinking-skills_5_hard_007",
+    "content": "Look at this pattern: ○●○●●○●●●○. What comes next?",
     "type": "multiple_choice",
     "options": [
-      "36",
-      "48",
-      "30",
-      "27"
+      "●●●●",
+      "○●●●●",
+      "●●●●○",
+      "○○○○"
     ],
-    "correctAnswer": "48",
+    "correctAnswer": "●●●●○",
     "subject": "thinking-skills",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Each number doubles: 3×2=6, 6×2=12, 12×2=24, 24×2=48",
-    "_cacheBreaker": "1755265388194_6"
+    "explanation": "The pattern shows increasing groups of filled circles: 1, 2, 3, so next should be 4 filled circles followed by an empty one.",
+    "_cacheBreaker": "1756030323253_7"
   },
   {
-    "_id": "thinking_5_hard_1755262177003_008",
-    "scenario": "During a class discussion, Jake says: 'We should ban homework because I don't like it.' His teacher points out a problem with his reasoning.",
-    "content": "What's wrong with Jake's argument? (Question 8)",
+    "_id": "thinking-skills_5_hard_008",
+    "content": "If it takes 5 machines 5 minutes to make 5 widgets, how long does it take 100 machines to make 100 widgets?",
     "type": "multiple_choice",
     "options": [
-      "It's based only on personal preference",
-      "It's too long",
-      "It's too short",
-      "It's perfectly logical"
+      "100 minutes",
+      "20 minutes",
+      "5 minutes",
+      "1 minute"
     ],
-    "correctAnswer": "It's based only on personal preference",
+    "correctAnswer": "5 minutes",
     "subject": "thinking-skills",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Jake's argument is weak because it's based only on his personal feelings, not logical reasons.",
-    "_cacheBreaker": "1755265388194_7"
+    "explanation": "Each machine makes 1 widget in 5 minutes. So 100 machines can make 100 widgets in the same 5 minutes.",
+    "_cacheBreaker": "1756030323253_8"
   },
   {
-    "_id": "thinking_5_hard_1755262177003_009",
-    "scenario": "The school cafeteria problem: 'We have 200 students but only 150 lunch trays.' The principal needs to solve this.",
-    "content": "What should the principal do first? (Question 9)",
+    "_id": "thinking-skills_5_hard_009",
+    "content": "Which number doesn't belong in this group: 8, 27, 64, 100, 125?",
     "type": "multiple_choice",
     "options": [
-      "Buy more trays immediately",
-      "Understand the full situation",
-      "Ignore the problem",
-      "Blame the students"
+      "8",
+      "27",
+      "100",
+      "125"
     ],
-    "correctAnswer": "Understand the full situation",
+    "correctAnswer": "100",
     "subject": "thinking-skills",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Good problem-solving starts with fully understanding the situation.",
-    "_cacheBreaker": "1755265388194_8"
+    "explanation": "All numbers except 100 are perfect cubes: 8=2³, 27=3³, 64=4³, 125=5³. 100 is not a perfect cube.",
+    "_cacheBreaker": "1756030323253_9"
   },
   {
-    "_id": "thinking_5_hard_1755262177003_010",
-    "scenario": "Lisa observes this pattern in her math class: 3, 6, 12, 24, ___. She needs to find the rule.",
-    "content": "What number comes next? (Question 10)",
+    "_id": "thinking-skills_5_hard_010",
+    "content": "If you rearrange the letters in 'LISTEN', you can make which word?",
     "type": "multiple_choice",
     "options": [
-      "36",
-      "48",
-      "30",
-      "27"
+      "SILENT",
+      "ENLIST",
+      "TINSEL",
+      "All of the above"
     ],
-    "correctAnswer": "48",
+    "correctAnswer": "All of the above",
     "subject": "thinking-skills",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Each number doubles: 3×2=6, 6×2=12, 12×2=24, 24×2=48",
-    "_cacheBreaker": "1755265388194_9"
+    "explanation": "LISTEN contains the same letters as SILENT, ENLIST, and TINSEL - they are all anagrams.",
+    "_cacheBreaker": "1756030323253_10"
   },
   {
-    "_id": "thinking_5_hard_1755262177003_011",
-    "scenario": "During a class discussion, Jake says: 'We should ban homework because I don't like it.' His teacher points out a problem with his reasoning.",
-    "content": "What's wrong with Jake's argument? (Question 11)",
+    "_id": "thinking-skills_5_hard_011",
+    "content": "If all roses are flowers, and some flowers are red, which statement must be true?",
     "type": "multiple_choice",
     "options": [
-      "It's based only on personal preference",
-      "It's too long",
-      "It's too short",
-      "It's perfectly logical"
+      "All roses are red",
+      "Some roses are red",
+      "All flowers are roses",
+      "Some roses might be red"
     ],
-    "correctAnswer": "It's based only on personal preference",
+    "correctAnswer": "Some roses might be red",
     "subject": "thinking-skills",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Jake's argument is weak because it's based only on his personal feelings, not logical reasons.",
-    "_cacheBreaker": "1755265388194_10"
+    "explanation": "We know all roses are flowers, and some flowers are red, but we can't be certain about roses specifically. They might be red.",
+    "_cacheBreaker": "1756030323253_11"
   },
   {
-    "_id": "thinking_5_hard_1755262177003_012",
-    "scenario": "The school cafeteria problem: 'We have 200 students but only 150 lunch trays.' The principal needs to solve this.",
-    "content": "What should the principal do first? (Question 12)",
+    "_id": "thinking-skills_5_hard_012",
+    "content": "Look at this pattern: ○●○●●○●●●○. What comes next?",
     "type": "multiple_choice",
     "options": [
-      "Buy more trays immediately",
-      "Understand the full situation",
-      "Ignore the problem",
-      "Blame the students"
+      "●●●●",
+      "○●●●●",
+      "●●●●○",
+      "○○○○"
     ],
-    "correctAnswer": "Understand the full situation",
+    "correctAnswer": "●●●●○",
     "subject": "thinking-skills",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Good problem-solving starts with fully understanding the situation.",
-    "_cacheBreaker": "1755265388194_11"
+    "explanation": "The pattern shows increasing groups of filled circles: 1, 2, 3, so next should be 4 filled circles followed by an empty one.",
+    "_cacheBreaker": "1756030323253_12"
   },
   {
-    "_id": "thinking_5_hard_1755262177003_013",
-    "scenario": "Lisa observes this pattern in her math class: 3, 6, 12, 24, ___. She needs to find the rule.",
-    "content": "What number comes next? (Question 13)",
+    "_id": "thinking-skills_5_hard_013",
+    "content": "If it takes 5 machines 5 minutes to make 5 widgets, how long does it take 100 machines to make 100 widgets?",
     "type": "multiple_choice",
     "options": [
-      "36",
-      "48",
-      "30",
-      "27"
+      "100 minutes",
+      "20 minutes",
+      "5 minutes",
+      "1 minute"
     ],
-    "correctAnswer": "48",
+    "correctAnswer": "5 minutes",
     "subject": "thinking-skills",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Each number doubles: 3×2=6, 6×2=12, 12×2=24, 24×2=48",
-    "_cacheBreaker": "1755265388194_12"
+    "explanation": "Each machine makes 1 widget in 5 minutes. So 100 machines can make 100 widgets in the same 5 minutes.",
+    "_cacheBreaker": "1756030323253_13"
   },
   {
-    "_id": "thinking_5_hard_1755262177003_014",
-    "scenario": "During a class discussion, Jake says: 'We should ban homework because I don't like it.' His teacher points out a problem with his reasoning.",
-    "content": "What's wrong with Jake's argument? (Question 14)",
+    "_id": "thinking-skills_5_hard_014",
+    "content": "Which number doesn't belong in this group: 8, 27, 64, 100, 125?",
     "type": "multiple_choice",
     "options": [
-      "It's based only on personal preference",
-      "It's too long",
-      "It's too short",
-      "It's perfectly logical"
+      "8",
+      "27",
+      "100",
+      "125"
     ],
-    "correctAnswer": "It's based only on personal preference",
+    "correctAnswer": "100",
     "subject": "thinking-skills",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Jake's argument is weak because it's based only on his personal feelings, not logical reasons.",
-    "_cacheBreaker": "1755265388194_13"
+    "explanation": "All numbers except 100 are perfect cubes: 8=2³, 27=3³, 64=4³, 125=5³. 100 is not a perfect cube.",
+    "_cacheBreaker": "1756030323253_14"
   },
   {
-    "_id": "thinking_5_hard_1755262177003_015",
-    "scenario": "The school cafeteria problem: 'We have 200 students but only 150 lunch trays.' The principal needs to solve this.",
-    "content": "What should the principal do first? (Question 15)",
+    "_id": "thinking-skills_5_hard_015",
+    "content": "If you rearrange the letters in 'LISTEN', you can make which word?",
     "type": "multiple_choice",
     "options": [
-      "Buy more trays immediately",
-      "Understand the full situation",
-      "Ignore the problem",
-      "Blame the students"
+      "SILENT",
+      "ENLIST",
+      "TINSEL",
+      "All of the above"
     ],
-    "correctAnswer": "Understand the full situation",
+    "correctAnswer": "All of the above",
     "subject": "thinking-skills",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Good problem-solving starts with fully understanding the situation.",
-    "_cacheBreaker": "1755265388194_14"
+    "explanation": "LISTEN contains the same letters as SILENT, ENLIST, and TINSEL - they are all anagrams.",
+    "_cacheBreaker": "1756030323253_15"
   },
   {
-    "_id": "thinking_5_hard_1755262177003_016",
-    "scenario": "Lisa observes this pattern in her math class: 3, 6, 12, 24, ___. She needs to find the rule.",
-    "content": "What number comes next? (Question 16)",
+    "_id": "thinking-skills_5_hard_016",
+    "content": "If all roses are flowers, and some flowers are red, which statement must be true?",
     "type": "multiple_choice",
     "options": [
-      "36",
-      "48",
-      "30",
-      "27"
+      "All roses are red",
+      "Some roses are red",
+      "All flowers are roses",
+      "Some roses might be red"
     ],
-    "correctAnswer": "48",
+    "correctAnswer": "Some roses might be red",
     "subject": "thinking-skills",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Each number doubles: 3×2=6, 6×2=12, 12×2=24, 24×2=48",
-    "_cacheBreaker": "1755265388194_15"
+    "explanation": "We know all roses are flowers, and some flowers are red, but we can't be certain about roses specifically. They might be red.",
+    "_cacheBreaker": "1756030323253_16"
   },
   {
-    "_id": "thinking_5_hard_1755262177003_017",
-    "scenario": "During a class discussion, Jake says: 'We should ban homework because I don't like it.' His teacher points out a problem with his reasoning.",
-    "content": "What's wrong with Jake's argument? (Question 17)",
+    "_id": "thinking-skills_5_hard_017",
+    "content": "Look at this pattern: ○●○●●○●●●○. What comes next?",
     "type": "multiple_choice",
     "options": [
-      "It's based only on personal preference",
-      "It's too long",
-      "It's too short",
-      "It's perfectly logical"
+      "●●●●",
+      "○●●●●",
+      "●●●●○",
+      "○○○○"
     ],
-    "correctAnswer": "It's based only on personal preference",
+    "correctAnswer": "●●●●○",
     "subject": "thinking-skills",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Jake's argument is weak because it's based only on his personal feelings, not logical reasons.",
-    "_cacheBreaker": "1755265388194_16"
+    "explanation": "The pattern shows increasing groups of filled circles: 1, 2, 3, so next should be 4 filled circles followed by an empty one.",
+    "_cacheBreaker": "1756030323253_17"
   },
   {
-    "_id": "thinking_5_hard_1755262177003_018",
-    "scenario": "The school cafeteria problem: 'We have 200 students but only 150 lunch trays.' The principal needs to solve this.",
-    "content": "What should the principal do first? (Question 18)",
+    "_id": "thinking-skills_5_hard_018",
+    "content": "If it takes 5 machines 5 minutes to make 5 widgets, how long does it take 100 machines to make 100 widgets?",
     "type": "multiple_choice",
     "options": [
-      "Buy more trays immediately",
-      "Understand the full situation",
-      "Ignore the problem",
-      "Blame the students"
+      "100 minutes",
+      "20 minutes",
+      "5 minutes",
+      "1 minute"
     ],
-    "correctAnswer": "Understand the full situation",
+    "correctAnswer": "5 minutes",
     "subject": "thinking-skills",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Good problem-solving starts with fully understanding the situation.",
-    "_cacheBreaker": "1755265388194_17"
+    "explanation": "Each machine makes 1 widget in 5 minutes. So 100 machines can make 100 widgets in the same 5 minutes.",
+    "_cacheBreaker": "1756030323253_18"
   },
   {
-    "_id": "thinking_5_hard_1755262177003_019",
-    "scenario": "Lisa observes this pattern in her math class: 3, 6, 12, 24, ___. She needs to find the rule.",
-    "content": "What number comes next? (Question 19)",
+    "_id": "thinking-skills_5_hard_019",
+    "content": "Which number doesn't belong in this group: 8, 27, 64, 100, 125?",
     "type": "multiple_choice",
     "options": [
-      "36",
-      "48",
-      "30",
-      "27"
+      "8",
+      "27",
+      "100",
+      "125"
     ],
-    "correctAnswer": "48",
+    "correctAnswer": "100",
     "subject": "thinking-skills",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Each number doubles: 3×2=6, 6×2=12, 12×2=24, 24×2=48",
-    "_cacheBreaker": "1755265388194_18"
+    "explanation": "All numbers except 100 are perfect cubes: 8=2³, 27=3³, 64=4³, 125=5³. 100 is not a perfect cube.",
+    "_cacheBreaker": "1756030323253_19"
   },
   {
-    "_id": "thinking_5_hard_1755262177003_020",
-    "scenario": "During a class discussion, Jake says: 'We should ban homework because I don't like it.' His teacher points out a problem with his reasoning.",
-    "content": "What's wrong with Jake's argument? (Question 20)",
+    "_id": "thinking-skills_5_hard_020",
+    "content": "If you rearrange the letters in 'LISTEN', you can make which word?",
     "type": "multiple_choice",
     "options": [
-      "It's based only on personal preference",
-      "It's too long",
-      "It's too short",
-      "It's perfectly logical"
+      "SILENT",
+      "ENLIST",
+      "TINSEL",
+      "All of the above"
     ],
-    "correctAnswer": "It's based only on personal preference",
+    "correctAnswer": "All of the above",
     "subject": "thinking-skills",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Jake's argument is weak because it's based only on his personal feelings, not logical reasons.",
-    "_cacheBreaker": "1755265388194_19"
+    "explanation": "LISTEN contains the same letters as SILENT, ENLIST, and TINSEL - they are all anagrams.",
+    "_cacheBreaker": "1756030323253_20"
+  },
+  {
+    "_id": "thinking-skills_5_hard_021",
+    "content": "If all roses are flowers, and some flowers are red, which statement must be true?",
+    "type": "multiple_choice",
+    "options": [
+      "All roses are red",
+      "Some roses are red",
+      "All flowers are roses",
+      "Some roses might be red"
+    ],
+    "correctAnswer": "Some roses might be red",
+    "subject": "thinking-skills",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "We know all roses are flowers, and some flowers are red, but we can't be certain about roses specifically. They might be red.",
+    "_cacheBreaker": "1756030323253_21"
+  },
+  {
+    "_id": "thinking-skills_5_hard_022",
+    "content": "Look at this pattern: ○●○●●○●●●○. What comes next?",
+    "type": "multiple_choice",
+    "options": [
+      "●●●●",
+      "○●●●●",
+      "●●●●○",
+      "○○○○"
+    ],
+    "correctAnswer": "●●●●○",
+    "subject": "thinking-skills",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "The pattern shows increasing groups of filled circles: 1, 2, 3, so next should be 4 filled circles followed by an empty one.",
+    "_cacheBreaker": "1756030323253_22"
+  },
+  {
+    "_id": "thinking-skills_5_hard_023",
+    "content": "If it takes 5 machines 5 minutes to make 5 widgets, how long does it take 100 machines to make 100 widgets?",
+    "type": "multiple_choice",
+    "options": [
+      "100 minutes",
+      "20 minutes",
+      "5 minutes",
+      "1 minute"
+    ],
+    "correctAnswer": "5 minutes",
+    "subject": "thinking-skills",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "Each machine makes 1 widget in 5 minutes. So 100 machines can make 100 widgets in the same 5 minutes.",
+    "_cacheBreaker": "1756030323253_23"
+  },
+  {
+    "_id": "thinking-skills_5_hard_024",
+    "content": "Which number doesn't belong in this group: 8, 27, 64, 100, 125?",
+    "type": "multiple_choice",
+    "options": [
+      "8",
+      "27",
+      "100",
+      "125"
+    ],
+    "correctAnswer": "100",
+    "subject": "thinking-skills",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "All numbers except 100 are perfect cubes: 8=2³, 27=3³, 64=4³, 125=5³. 100 is not a perfect cube.",
+    "_cacheBreaker": "1756030323253_24"
+  },
+  {
+    "_id": "thinking-skills_5_hard_025",
+    "content": "If you rearrange the letters in 'LISTEN', you can make which word?",
+    "type": "multiple_choice",
+    "options": [
+      "SILENT",
+      "ENLIST",
+      "TINSEL",
+      "All of the above"
+    ],
+    "correctAnswer": "All of the above",
+    "subject": "thinking-skills",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "LISTEN contains the same letters as SILENT, ENLIST, and TINSEL - they are all anagrams.",
+    "_cacheBreaker": "1756030323253_25"
+  },
+  {
+    "_id": "thinking-skills_5_hard_026",
+    "content": "If all roses are flowers, and some flowers are red, which statement must be true?",
+    "type": "multiple_choice",
+    "options": [
+      "All roses are red",
+      "Some roses are red",
+      "All flowers are roses",
+      "Some roses might be red"
+    ],
+    "correctAnswer": "Some roses might be red",
+    "subject": "thinking-skills",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "We know all roses are flowers, and some flowers are red, but we can't be certain about roses specifically. They might be red.",
+    "_cacheBreaker": "1756030323253_26"
+  },
+  {
+    "_id": "thinking-skills_5_hard_027",
+    "content": "Look at this pattern: ○●○●●○●●●○. What comes next?",
+    "type": "multiple_choice",
+    "options": [
+      "●●●●",
+      "○●●●●",
+      "●●●●○",
+      "○○○○"
+    ],
+    "correctAnswer": "●●●●○",
+    "subject": "thinking-skills",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "The pattern shows increasing groups of filled circles: 1, 2, 3, so next should be 4 filled circles followed by an empty one.",
+    "_cacheBreaker": "1756030323253_27"
+  },
+  {
+    "_id": "thinking-skills_5_hard_028",
+    "content": "If it takes 5 machines 5 minutes to make 5 widgets, how long does it take 100 machines to make 100 widgets?",
+    "type": "multiple_choice",
+    "options": [
+      "100 minutes",
+      "20 minutes",
+      "5 minutes",
+      "1 minute"
+    ],
+    "correctAnswer": "5 minutes",
+    "subject": "thinking-skills",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "Each machine makes 1 widget in 5 minutes. So 100 machines can make 100 widgets in the same 5 minutes.",
+    "_cacheBreaker": "1756030323253_28"
+  },
+  {
+    "_id": "thinking-skills_5_hard_029",
+    "content": "Which number doesn't belong in this group: 8, 27, 64, 100, 125?",
+    "type": "multiple_choice",
+    "options": [
+      "8",
+      "27",
+      "100",
+      "125"
+    ],
+    "correctAnswer": "100",
+    "subject": "thinking-skills",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "All numbers except 100 are perfect cubes: 8=2³, 27=3³, 64=4³, 125=5³. 100 is not a perfect cube.",
+    "_cacheBreaker": "1756030323253_29"
+  },
+  {
+    "_id": "thinking-skills_5_hard_030",
+    "content": "If you rearrange the letters in 'LISTEN', you can make which word?",
+    "type": "multiple_choice",
+    "options": [
+      "SILENT",
+      "ENLIST",
+      "TINSEL",
+      "All of the above"
+    ],
+    "correctAnswer": "All of the above",
+    "subject": "thinking-skills",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "LISTEN contains the same letters as SILENT, ENLIST, and TINSEL - they are all anagrams.",
+    "_cacheBreaker": "1756030323253_30"
+  },
+  {
+    "_id": "thinking-skills_5_hard_031",
+    "content": "If all roses are flowers, and some flowers are red, which statement must be true?",
+    "type": "multiple_choice",
+    "options": [
+      "All roses are red",
+      "Some roses are red",
+      "All flowers are roses",
+      "Some roses might be red"
+    ],
+    "correctAnswer": "Some roses might be red",
+    "subject": "thinking-skills",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "We know all roses are flowers, and some flowers are red, but we can't be certain about roses specifically. They might be red.",
+    "_cacheBreaker": "1756030323253_31"
+  },
+  {
+    "_id": "thinking-skills_5_hard_032",
+    "content": "Look at this pattern: ○●○●●○●●●○. What comes next?",
+    "type": "multiple_choice",
+    "options": [
+      "●●●●",
+      "○●●●●",
+      "●●●●○",
+      "○○○○"
+    ],
+    "correctAnswer": "●●●●○",
+    "subject": "thinking-skills",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "The pattern shows increasing groups of filled circles: 1, 2, 3, so next should be 4 filled circles followed by an empty one.",
+    "_cacheBreaker": "1756030323253_32"
+  },
+  {
+    "_id": "thinking-skills_5_hard_033",
+    "content": "If it takes 5 machines 5 minutes to make 5 widgets, how long does it take 100 machines to make 100 widgets?",
+    "type": "multiple_choice",
+    "options": [
+      "100 minutes",
+      "20 minutes",
+      "5 minutes",
+      "1 minute"
+    ],
+    "correctAnswer": "5 minutes",
+    "subject": "thinking-skills",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "Each machine makes 1 widget in 5 minutes. So 100 machines can make 100 widgets in the same 5 minutes.",
+    "_cacheBreaker": "1756030323253_33"
+  },
+  {
+    "_id": "thinking-skills_5_hard_034",
+    "content": "Which number doesn't belong in this group: 8, 27, 64, 100, 125?",
+    "type": "multiple_choice",
+    "options": [
+      "8",
+      "27",
+      "100",
+      "125"
+    ],
+    "correctAnswer": "100",
+    "subject": "thinking-skills",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "All numbers except 100 are perfect cubes: 8=2³, 27=3³, 64=4³, 125=5³. 100 is not a perfect cube.",
+    "_cacheBreaker": "1756030323253_34"
+  },
+  {
+    "_id": "thinking-skills_5_hard_035",
+    "content": "If you rearrange the letters in 'LISTEN', you can make which word?",
+    "type": "multiple_choice",
+    "options": [
+      "SILENT",
+      "ENLIST",
+      "TINSEL",
+      "All of the above"
+    ],
+    "correctAnswer": "All of the above",
+    "subject": "thinking-skills",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "LISTEN contains the same letters as SILENT, ENLIST, and TINSEL - they are all anagrams.",
+    "_cacheBreaker": "1756030323253_35"
+  },
+  {
+    "_id": "thinking-skills_5_hard_036",
+    "content": "If all roses are flowers, and some flowers are red, which statement must be true?",
+    "type": "multiple_choice",
+    "options": [
+      "All roses are red",
+      "Some roses are red",
+      "All flowers are roses",
+      "Some roses might be red"
+    ],
+    "correctAnswer": "Some roses might be red",
+    "subject": "thinking-skills",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "We know all roses are flowers, and some flowers are red, but we can't be certain about roses specifically. They might be red.",
+    "_cacheBreaker": "1756030323253_36"
+  },
+  {
+    "_id": "thinking-skills_5_hard_037",
+    "content": "Look at this pattern: ○●○●●○●●●○. What comes next?",
+    "type": "multiple_choice",
+    "options": [
+      "●●●●",
+      "○●●●●",
+      "●●●●○",
+      "○○○○"
+    ],
+    "correctAnswer": "●●●●○",
+    "subject": "thinking-skills",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "The pattern shows increasing groups of filled circles: 1, 2, 3, so next should be 4 filled circles followed by an empty one.",
+    "_cacheBreaker": "1756030323253_37"
+  },
+  {
+    "_id": "thinking-skills_5_hard_038",
+    "content": "If it takes 5 machines 5 minutes to make 5 widgets, how long does it take 100 machines to make 100 widgets?",
+    "type": "multiple_choice",
+    "options": [
+      "100 minutes",
+      "20 minutes",
+      "5 minutes",
+      "1 minute"
+    ],
+    "correctAnswer": "5 minutes",
+    "subject": "thinking-skills",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "Each machine makes 1 widget in 5 minutes. So 100 machines can make 100 widgets in the same 5 minutes.",
+    "_cacheBreaker": "1756030323253_38"
+  },
+  {
+    "_id": "thinking-skills_5_hard_039",
+    "content": "Which number doesn't belong in this group: 8, 27, 64, 100, 125?",
+    "type": "multiple_choice",
+    "options": [
+      "8",
+      "27",
+      "100",
+      "125"
+    ],
+    "correctAnswer": "100",
+    "subject": "thinking-skills",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "All numbers except 100 are perfect cubes: 8=2³, 27=3³, 64=4³, 125=5³. 100 is not a perfect cube.",
+    "_cacheBreaker": "1756030323253_39"
+  },
+  {
+    "_id": "thinking-skills_5_hard_040",
+    "content": "If you rearrange the letters in 'LISTEN', you can make which word?",
+    "type": "multiple_choice",
+    "options": [
+      "SILENT",
+      "ENLIST",
+      "TINSEL",
+      "All of the above"
+    ],
+    "correctAnswer": "All of the above",
+    "subject": "thinking-skills",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "LISTEN contains the same letters as SILENT, ENLIST, and TINSEL - they are all anagrams.",
+    "_cacheBreaker": "1756030323253_40"
+  },
+  {
+    "_id": "thinking-skills_5_hard_041",
+    "content": "If all roses are flowers, and some flowers are red, which statement must be true?",
+    "type": "multiple_choice",
+    "options": [
+      "All roses are red",
+      "Some roses are red",
+      "All flowers are roses",
+      "Some roses might be red"
+    ],
+    "correctAnswer": "Some roses might be red",
+    "subject": "thinking-skills",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "We know all roses are flowers, and some flowers are red, but we can't be certain about roses specifically. They might be red.",
+    "_cacheBreaker": "1756030323253_41"
+  },
+  {
+    "_id": "thinking-skills_5_hard_042",
+    "content": "Look at this pattern: ○●○●●○●●●○. What comes next?",
+    "type": "multiple_choice",
+    "options": [
+      "●●●●",
+      "○●●●●",
+      "●●●●○",
+      "○○○○"
+    ],
+    "correctAnswer": "●●●●○",
+    "subject": "thinking-skills",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "The pattern shows increasing groups of filled circles: 1, 2, 3, so next should be 4 filled circles followed by an empty one.",
+    "_cacheBreaker": "1756030323253_42"
+  },
+  {
+    "_id": "thinking-skills_5_hard_043",
+    "content": "If it takes 5 machines 5 minutes to make 5 widgets, how long does it take 100 machines to make 100 widgets?",
+    "type": "multiple_choice",
+    "options": [
+      "100 minutes",
+      "20 minutes",
+      "5 minutes",
+      "1 minute"
+    ],
+    "correctAnswer": "5 minutes",
+    "subject": "thinking-skills",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "Each machine makes 1 widget in 5 minutes. So 100 machines can make 100 widgets in the same 5 minutes.",
+    "_cacheBreaker": "1756030323253_43"
+  },
+  {
+    "_id": "thinking-skills_5_hard_044",
+    "content": "Which number doesn't belong in this group: 8, 27, 64, 100, 125?",
+    "type": "multiple_choice",
+    "options": [
+      "8",
+      "27",
+      "100",
+      "125"
+    ],
+    "correctAnswer": "100",
+    "subject": "thinking-skills",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "All numbers except 100 are perfect cubes: 8=2³, 27=3³, 64=4³, 125=5³. 100 is not a perfect cube.",
+    "_cacheBreaker": "1756030323253_44"
+  },
+  {
+    "_id": "thinking-skills_5_hard_045",
+    "content": "If you rearrange the letters in 'LISTEN', you can make which word?",
+    "type": "multiple_choice",
+    "options": [
+      "SILENT",
+      "ENLIST",
+      "TINSEL",
+      "All of the above"
+    ],
+    "correctAnswer": "All of the above",
+    "subject": "thinking-skills",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "LISTEN contains the same letters as SILENT, ENLIST, and TINSEL - they are all anagrams.",
+    "_cacheBreaker": "1756030323253_45"
+  },
+  {
+    "_id": "thinking-skills_5_hard_046",
+    "content": "If all roses are flowers, and some flowers are red, which statement must be true?",
+    "type": "multiple_choice",
+    "options": [
+      "All roses are red",
+      "Some roses are red",
+      "All flowers are roses",
+      "Some roses might be red"
+    ],
+    "correctAnswer": "Some roses might be red",
+    "subject": "thinking-skills",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "We know all roses are flowers, and some flowers are red, but we can't be certain about roses specifically. They might be red.",
+    "_cacheBreaker": "1756030323253_46"
+  },
+  {
+    "_id": "thinking-skills_5_hard_047",
+    "content": "Look at this pattern: ○●○●●○●●●○. What comes next?",
+    "type": "multiple_choice",
+    "options": [
+      "●●●●",
+      "○●●●●",
+      "●●●●○",
+      "○○○○"
+    ],
+    "correctAnswer": "●●●●○",
+    "subject": "thinking-skills",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "The pattern shows increasing groups of filled circles: 1, 2, 3, so next should be 4 filled circles followed by an empty one.",
+    "_cacheBreaker": "1756030323253_47"
+  },
+  {
+    "_id": "thinking-skills_5_hard_048",
+    "content": "If it takes 5 machines 5 minutes to make 5 widgets, how long does it take 100 machines to make 100 widgets?",
+    "type": "multiple_choice",
+    "options": [
+      "100 minutes",
+      "20 minutes",
+      "5 minutes",
+      "1 minute"
+    ],
+    "correctAnswer": "5 minutes",
+    "subject": "thinking-skills",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "Each machine makes 1 widget in 5 minutes. So 100 machines can make 100 widgets in the same 5 minutes.",
+    "_cacheBreaker": "1756030323253_48"
+  },
+  {
+    "_id": "thinking-skills_5_hard_049",
+    "content": "Which number doesn't belong in this group: 8, 27, 64, 100, 125?",
+    "type": "multiple_choice",
+    "options": [
+      "8",
+      "27",
+      "100",
+      "125"
+    ],
+    "correctAnswer": "100",
+    "subject": "thinking-skills",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "All numbers except 100 are perfect cubes: 8=2³, 27=3³, 64=4³, 125=5³. 100 is not a perfect cube.",
+    "_cacheBreaker": "1756030323253_49"
+  },
+  {
+    "_id": "thinking-skills_5_hard_050",
+    "content": "If you rearrange the letters in 'LISTEN', you can make which word?",
+    "type": "multiple_choice",
+    "options": [
+      "SILENT",
+      "ENLIST",
+      "TINSEL",
+      "All of the above"
+    ],
+    "correctAnswer": "All of the above",
+    "subject": "thinking-skills",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "LISTEN contains the same letters as SILENT, ENLIST, and TINSEL - they are all anagrams.",
+    "_cacheBreaker": "1756030323253_50"
   }
 ]

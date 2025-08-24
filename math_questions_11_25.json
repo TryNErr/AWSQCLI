@@ -1,0 +1,87 @@
+[
+  {
+    "_id": "math_5_hard_011",
+    "content": "A cube has edges that are 4.5 cm long. What is the volume of the cube?",
+    "type": "multiple_choice",
+    "options": [
+      "91.125 cubic cm",
+      "18 cubic cm",
+      "20.25 cubic cm",
+      "13.5 cubic cm"
+    ],
+    "correctAnswer": "91.125 cubic cm",
+    "subject": "math",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "Volume of cube = edge³ = 4.5³ = 4.5 × 4.5 × 4.5 = 91.125 cubic cm.",
+    "_cacheBreaker": "1756030323253_11"
+  },
+  {
+    "_id": "math_5_hard_012",
+    "content": "What is 2 3/8 + 1 5/6 expressed as a mixed number?",
+    "type": "multiple_choice",
+    "options": [
+      "4 5/24",
+      "3 8/14",
+      "4 1/4",
+      "3 13/24"
+    ],
+    "correctAnswer": "4 5/24",
+    "subject": "math",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "Convert to improper fractions: 19/8 + 11/6. Common denominator 24: 57/24 + 44/24 = 101/24 = 4 5/24.",
+    "_cacheBreaker": "1756030323253_12"
+  },
+  {
+    "_id": "math_5_hard_013",
+    "content": "A train travels 240 kilometers in 3 hours. What is its average speed in kilometers per hour?",
+    "type": "multiple_choice",
+    "options": [
+      "80 km/h",
+      "720 km/h",
+      "243 km/h",
+      "237 km/h"
+    ],
+    "correctAnswer": "80 km/h",
+    "subject": "math",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "Speed = distance ÷ time = 240 km ÷ 3 hours = 80 km/h.",
+    "_cacheBreaker": "1756030323253_13"
+  },
+  {
+    "_id": "math_5_hard_014",
+    "content": "Round 47.638 to the nearest hundredth.",
+    "type": "multiple_choice",
+    "options": [
+      "47.64",
+      "47.63",
+      "47.6",
+      "48"
+    ],
+    "correctAnswer": "47.64",
+    "subject": "math",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "Look at the thousandths place (8). Since 8 ≥ 5, round up the hundredths place from 3 to 4, giving 47.64.",
+    "_cacheBreaker": "1756030323253_14"
+  },
+  {
+    "_id": "math_5_hard_015",
+    "content": "If a pattern starts with 3, 7, 11, 15, what is the 8th term?",
+    "type": "multiple_choice",
+    "options": [
+      "31",
+      "27",
+      "35",
+      "29"
+    ],
+    "correctAnswer": "31",
+    "subject": "math",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "The pattern adds 4 each time. Terms: 3, 7, 11, 15, 19, 23, 27, 31. The 8th term is 31.",
+    "_cacheBreaker": "1756030323253_15"
+  }
+]

@@ -1,91 +1,23 @@
 [
   {
     "_id": "english_5_hard_001",
-    "content": "Which sentence uses the correct form of the verb 'to be' in the past tense?",
+    "content": "Which sentence uses the correct form of the verb?",
     "type": "multiple_choice",
     "options": [
-      "The children was playing in the park yesterday.",
-      "The children were playing in the park yesterday.",
-      "The children are playing in the park yesterday.",
-      "The children is playing in the park yesterday."
+      "She don't like pizza",
+      "She doesn't like pizza",
+      "She not like pizza",
+      "She no like pizza"
     ],
-    "correctAnswer": "The children were playing in the park yesterday.",
+    "correctAnswer": "She doesn't like pizza",
     "subject": "english",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "'Children' is plural, so we use 'were' (not 'was') for the past tense of 'to be'.",
-    "_cacheBreaker": "1755265388192_0"
+    "explanation": "With singular subjects like 'she', use 'doesn't' (does not), not 'don't' (do not).",
+    "_cacheBreaker": "1756030323253_1"
   },
   {
     "_id": "english_5_hard_002",
-    "content": "What is the meaning of the idiom 'break the ice'?",
-    "type": "multiple_choice",
-    "options": [
-      "To literally break frozen water",
-      "To start a conversation or make people feel comfortable",
-      "To stop doing something",
-      "To make someone angry"
-    ],
-    "correctAnswer": "To start a conversation or make people feel comfortable",
-    "subject": "english",
-    "grade": "5",
-    "difficulty": "hard",
-    "explanation": "'Break the ice' is an idiom meaning to start a conversation or help people feel more comfortable in a social situation.",
-    "_cacheBreaker": "1755265388192_1"
-  },
-  {
-    "_id": "english_5_hard_003",
-    "content": "Which word is a synonym for 'enormous'?",
-    "type": "multiple_choice",
-    "options": [
-      "tiny",
-      "gigantic",
-      "average",
-      "narrow"
-    ],
-    "correctAnswer": "gigantic",
-    "subject": "english",
-    "grade": "5",
-    "difficulty": "hard",
-    "explanation": "'Gigantic' means very large, which is the same meaning as 'enormous'.",
-    "_cacheBreaker": "1755265388192_2"
-  },
-  {
-    "_id": "english_5_hard_004",
-    "content": "In the sentence 'The mysterious package arrived at midnight,' what type of word is 'mysterious'?",
-    "type": "multiple_choice",
-    "options": [
-      "noun",
-      "verb",
-      "adjective",
-      "adverb"
-    ],
-    "correctAnswer": "adjective",
-    "subject": "english",
-    "grade": "5",
-    "difficulty": "hard",
-    "explanation": "'Mysterious' describes the package, making it an adjective. Adjectives modify or describe nouns.",
-    "_cacheBreaker": "1755265388192_3"
-  },
-  {
-    "_id": "english_5_hard_005",
-    "content": "Which sentence shows the correct use of quotation marks?",
-    "type": "multiple_choice",
-    "options": [
-      "\"I can't wait for summer vacation, said Maria.\"",
-      "I can't wait for summer vacation, \"said Maria.\"",
-      "\"I can't wait for summer vacation,\" said Maria.",
-      "\"I can't wait for summer vacation\" said Maria."
-    ],
-    "correctAnswer": "\"I can't wait for summer vacation,\" said Maria.",
-    "subject": "english",
-    "grade": "5",
-    "difficulty": "hard",
-    "explanation": "The spoken words go inside quotation marks, with the comma before the closing quotation mark.",
-    "_cacheBreaker": "1755265388192_4"
-  },
-  {
-    "_id": "english_5_hard_006",
     "content": "What is the plural form of 'child'?",
     "type": "multiple_choice",
     "options": [
@@ -98,245 +30,823 @@
     "subject": "english",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "'Child' is an irregular noun. Its plural form is 'children', not 'childs'.",
-    "_cacheBreaker": "1755265388192_5"
+    "explanation": "'Children' is the irregular plural form of 'child'.",
+    "_cacheBreaker": "1756030323253_2"
+  },
+  {
+    "_id": "english_5_hard_003",
+    "content": "Which word is a synonym for 'enormous'?",
+    "type": "multiple_choice",
+    "options": [
+      "tiny",
+      "huge",
+      "medium",
+      "small"
+    ],
+    "correctAnswer": "huge",
+    "subject": "english",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "Enormous and huge both mean very large in size.",
+    "_cacheBreaker": "1756030323253_3"
+  },
+  {
+    "_id": "english_5_hard_004",
+    "content": "Identify the adjective in this sentence: 'The beautiful flower bloomed in spring.'",
+    "type": "multiple_choice",
+    "options": [
+      "flower",
+      "bloomed",
+      "beautiful",
+      "spring"
+    ],
+    "correctAnswer": "beautiful",
+    "subject": "english",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "An adjective describes a noun. 'Beautiful' describes the flower.",
+    "_cacheBreaker": "1756030323253_4"
+  },
+  {
+    "_id": "english_5_hard_005",
+    "content": "Which sentence is written in past tense?",
+    "type": "multiple_choice",
+    "options": [
+      "I will go to school",
+      "I am going to school",
+      "I went to school",
+      "I go to school"
+    ],
+    "correctAnswer": "I went to school",
+    "subject": "english",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "'Went' is the past tense form of the verb 'go'.",
+    "_cacheBreaker": "1756030323253_5"
+  },
+  {
+    "_id": "english_5_hard_006",
+    "content": "Which sentence uses the correct form of the verb?",
+    "type": "multiple_choice",
+    "options": [
+      "She don't like pizza",
+      "She doesn't like pizza",
+      "She not like pizza",
+      "She no like pizza"
+    ],
+    "correctAnswer": "She doesn't like pizza",
+    "subject": "english",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "With singular subjects like 'she', use 'doesn't' (does not), not 'don't' (do not).",
+    "_cacheBreaker": "1756030323253_6"
   },
   {
     "_id": "english_5_hard_007",
-    "content": "Which sentence uses a metaphor?",
+    "content": "What is the plural form of 'child'?",
     "type": "multiple_choice",
     "options": [
-      "The wind howled like a wolf.",
-      "Her voice is music to my ears.",
-      "The car moved as fast as lightning.",
-      "He ran quickly to the store."
+      "childs",
+      "childes",
+      "children",
+      "child's"
     ],
-    "correctAnswer": "Her voice is music to my ears.",
+    "correctAnswer": "children",
     "subject": "english",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "A metaphor directly compares two things without using 'like' or 'as'. Here, her voice is compared to music.",
-    "_cacheBreaker": "1755265388192_6"
+    "explanation": "'Children' is the irregular plural form of 'child'.",
+    "_cacheBreaker": "1756030323253_7"
   },
   {
     "_id": "english_5_hard_008",
-    "content": "What is the past tense of the verb 'swim'?",
+    "content": "Which word is a synonym for 'enormous'?",
     "type": "multiple_choice",
     "options": [
-      "swimmed",
-      "swam",
-      "swum",
-      "swimming"
+      "tiny",
+      "huge",
+      "medium",
+      "small"
     ],
-    "correctAnswer": "swam",
+    "correctAnswer": "huge",
     "subject": "english",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "'Swim' is an irregular verb. Its past tense is 'swam' (I swam yesterday), and past participle is 'swum' (I have swum).",
-    "_cacheBreaker": "1755265388192_7"
+    "explanation": "Enormous and huge both mean very large in size.",
+    "_cacheBreaker": "1756030323253_8"
   },
   {
     "_id": "english_5_hard_009",
-    "content": "Which word correctly completes this sentence: 'The book belongs to ___.'?",
+    "content": "Identify the adjective in this sentence: 'The beautiful flower bloomed in spring.'",
     "type": "multiple_choice",
     "options": [
-      "I",
-      "me",
-      "my",
-      "mine"
+      "flower",
+      "bloomed",
+      "beautiful",
+      "spring"
     ],
-    "correctAnswer": "me",
+    "correctAnswer": "beautiful",
     "subject": "english",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "After the preposition 'to', we use the object pronoun 'me', not the subject pronoun 'I'.",
-    "_cacheBreaker": "1755265388192_8"
+    "explanation": "An adjective describes a noun. 'Beautiful' describes the flower.",
+    "_cacheBreaker": "1756030323253_9"
   },
   {
     "_id": "english_5_hard_010",
-    "content": "What type of sentence is this: 'Although it was raining, we went to the park.'?",
+    "content": "Which sentence is written in past tense?",
     "type": "multiple_choice",
     "options": [
-      "simple sentence",
-      "compound sentence",
-      "complex sentence",
-      "fragment"
+      "I will go to school",
+      "I am going to school",
+      "I went to school",
+      "I go to school"
     ],
-    "correctAnswer": "complex sentence",
+    "correctAnswer": "I went to school",
     "subject": "english",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "A complex sentence has one independent clause ('we went to the park') and one dependent clause ('Although it was raining').",
-    "_cacheBreaker": "1755265388192_9"
+    "explanation": "'Went' is the past tense form of the verb 'go'.",
+    "_cacheBreaker": "1756030323253_10"
   },
   {
     "_id": "english_5_hard_011",
-    "content": "Which word is an antonym for 'ancient'?",
+    "content": "Which sentence uses the correct form of the verb?",
     "type": "multiple_choice",
     "options": [
-      "old",
-      "modern",
-      "historical",
-      "traditional"
+      "She don't like pizza",
+      "She doesn't like pizza",
+      "She not like pizza",
+      "She no like pizza"
     ],
-    "correctAnswer": "modern",
+    "correctAnswer": "She doesn't like pizza",
     "subject": "english",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "'Modern' means current or recent, which is the opposite of 'ancient' (very old).",
-    "_cacheBreaker": "1755265388192_10"
+    "explanation": "With singular subjects like 'she', use 'doesn't' (does not), not 'don't' (do not).",
+    "_cacheBreaker": "1756030323253_11"
   },
   {
     "_id": "english_5_hard_012",
-    "content": "In the word 'unhappiness', what is the root word?",
+    "content": "What is the plural form of 'child'?",
     "type": "multiple_choice",
     "options": [
-      "un",
-      "happy",
-      "happiness",
-      "ness"
+      "childs",
+      "childes",
+      "children",
+      "child's"
     ],
-    "correctAnswer": "happy",
+    "correctAnswer": "children",
     "subject": "english",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "The root word is 'happy'. 'Un-' is a prefix and '-ness' is a suffix added to create 'unhappiness'.",
-    "_cacheBreaker": "1755265388192_11"
+    "explanation": "'Children' is the irregular plural form of 'child'.",
+    "_cacheBreaker": "1756030323253_12"
   },
   {
     "_id": "english_5_hard_013",
-    "content": "Which sentence uses correct subject-verb agreement?",
+    "content": "Which word is a synonym for 'enormous'?",
     "type": "multiple_choice",
     "options": [
-      "The group of students are going on a field trip.",
-      "The group of students is going on a field trip.",
-      "The group of students were going on a field trip.",
-      "The group of students have going on a field trip."
+      "tiny",
+      "huge",
+      "medium",
+      "small"
     ],
-    "correctAnswer": "The group of students is going on a field trip.",
+    "correctAnswer": "huge",
     "subject": "english",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "'Group' is singular, so it takes the singular verb 'is', even though 'students' is plural.",
-    "_cacheBreaker": "1755265388192_12"
+    "explanation": "Enormous and huge both mean very large in size.",
+    "_cacheBreaker": "1756030323253_13"
   },
   {
     "_id": "english_5_hard_014",
-    "content": "What does the prefix 're-' mean in the word 'rewrite'?",
+    "content": "Identify the adjective in this sentence: 'The beautiful flower bloomed in spring.'",
     "type": "multiple_choice",
     "options": [
-      "not",
-      "again",
-      "before",
-      "against"
+      "flower",
+      "bloomed",
+      "beautiful",
+      "spring"
     ],
-    "correctAnswer": "again",
+    "correctAnswer": "beautiful",
     "subject": "english",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "The prefix 're-' means 'again' or 'back'. So 'rewrite' means to write again.",
-    "_cacheBreaker": "1755265388192_13"
+    "explanation": "An adjective describes a noun. 'Beautiful' describes the flower.",
+    "_cacheBreaker": "1756030323253_14"
   },
   {
     "_id": "english_5_hard_015",
-    "content": "Which sentence contains a simile?",
+    "content": "Which sentence is written in past tense?",
     "type": "multiple_choice",
     "options": [
-      "The stars are diamonds in the sky.",
-      "She runs like the wind.",
-      "Time is money.",
-      "The classroom was a zoo."
+      "I will go to school",
+      "I am going to school",
+      "I went to school",
+      "I go to school"
     ],
-    "correctAnswer": "She runs like the wind.",
+    "correctAnswer": "I went to school",
     "subject": "english",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "A simile compares two things using 'like' or 'as'. Here, her running is compared to the wind using 'like'.",
-    "_cacheBreaker": "1755265388192_14"
+    "explanation": "'Went' is the past tense form of the verb 'go'.",
+    "_cacheBreaker": "1756030323253_15"
   },
   {
     "_id": "english_5_hard_016",
-    "content": "What is the correct possessive form of 'teachers' (plural)?",
+    "content": "Which sentence uses the correct form of the verb?",
     "type": "multiple_choice",
     "options": [
-      "teacher's",
-      "teachers'",
-      "teachers's",
-      "teacheres'"
+      "She don't like pizza",
+      "She doesn't like pizza",
+      "She not like pizza",
+      "She no like pizza"
     ],
-    "correctAnswer": "teachers'",
+    "correctAnswer": "She doesn't like pizza",
     "subject": "english",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "For plural nouns ending in 's', add only an apostrophe to show possession: teachers'.",
-    "_cacheBreaker": "1755265388192_15"
+    "explanation": "With singular subjects like 'she', use 'doesn't' (does not), not 'don't' (do not).",
+    "_cacheBreaker": "1756030323253_16"
   },
   {
     "_id": "english_5_hard_017",
-    "content": "Which word is spelled correctly?",
+    "content": "What is the plural form of 'child'?",
     "type": "multiple_choice",
     "options": [
-      "recieve",
-      "receive",
-      "receve",
-      "receeve"
+      "childs",
+      "childes",
+      "children",
+      "child's"
     ],
-    "correctAnswer": "receive",
+    "correctAnswer": "children",
     "subject": "english",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "The correct spelling is 'receive'. Remember: 'i' before 'e' except after 'c' (when it sounds like 'ee').",
-    "_cacheBreaker": "1755265388192_16"
+    "explanation": "'Children' is the irregular plural form of 'child'.",
+    "_cacheBreaker": "1756030323253_17"
   },
   {
     "_id": "english_5_hard_018",
-    "content": "In the sentence 'The dog quickly ran across the yard,' what part of speech is 'quickly'?",
+    "content": "Which word is a synonym for 'enormous'?",
     "type": "multiple_choice",
     "options": [
-      "adjective",
-      "adverb",
-      "noun",
-      "verb"
+      "tiny",
+      "huge",
+      "medium",
+      "small"
     ],
-    "correctAnswer": "adverb",
+    "correctAnswer": "huge",
     "subject": "english",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "'Quickly' describes how the dog ran, making it an adverb. Adverbs modify verbs, adjectives, or other adverbs.",
-    "_cacheBreaker": "1755265388192_17"
+    "explanation": "Enormous and huge both mean very large in size.",
+    "_cacheBreaker": "1756030323253_18"
   },
   {
     "_id": "english_5_hard_019",
-    "content": "Which sentence is written in passive voice?",
+    "content": "Identify the adjective in this sentence: 'The beautiful flower bloomed in spring.'",
     "type": "multiple_choice",
     "options": [
-      "The chef cooked the meal.",
-      "The meal was cooked by the chef.",
-      "The chef is cooking the meal.",
-      "The chef will cook the meal."
+      "flower",
+      "bloomed",
+      "beautiful",
+      "spring"
     ],
-    "correctAnswer": "The meal was cooked by the chef.",
+    "correctAnswer": "beautiful",
     "subject": "english",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "In passive voice, the subject receives the action. Here, 'the meal' receives the action of being cooked.",
-    "_cacheBreaker": "1755265388192_18"
+    "explanation": "An adjective describes a noun. 'Beautiful' describes the flower.",
+    "_cacheBreaker": "1756030323253_19"
   },
   {
     "_id": "english_5_hard_020",
-    "content": "What is the comparative form of the adjective 'good'?",
+    "content": "Which sentence is written in past tense?",
     "type": "multiple_choice",
     "options": [
-      "gooder",
-      "more good",
-      "better",
-      "best"
+      "I will go to school",
+      "I am going to school",
+      "I went to school",
+      "I go to school"
     ],
-    "correctAnswer": "better",
+    "correctAnswer": "I went to school",
     "subject": "english",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "'Good' is an irregular adjective. Its comparative form is 'better' and superlative form is 'best'.",
-    "_cacheBreaker": "1755265388192_19"
+    "explanation": "'Went' is the past tense form of the verb 'go'.",
+    "_cacheBreaker": "1756030323253_20"
+  },
+  {
+    "_id": "english_5_hard_021",
+    "content": "Which sentence uses the correct form of the verb?",
+    "type": "multiple_choice",
+    "options": [
+      "She don't like pizza",
+      "She doesn't like pizza",
+      "She not like pizza",
+      "She no like pizza"
+    ],
+    "correctAnswer": "She doesn't like pizza",
+    "subject": "english",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "With singular subjects like 'she', use 'doesn't' (does not), not 'don't' (do not).",
+    "_cacheBreaker": "1756030323253_21"
+  },
+  {
+    "_id": "english_5_hard_022",
+    "content": "What is the plural form of 'child'?",
+    "type": "multiple_choice",
+    "options": [
+      "childs",
+      "childes",
+      "children",
+      "child's"
+    ],
+    "correctAnswer": "children",
+    "subject": "english",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "'Children' is the irregular plural form of 'child'.",
+    "_cacheBreaker": "1756030323253_22"
+  },
+  {
+    "_id": "english_5_hard_023",
+    "content": "Which word is a synonym for 'enormous'?",
+    "type": "multiple_choice",
+    "options": [
+      "tiny",
+      "huge",
+      "medium",
+      "small"
+    ],
+    "correctAnswer": "huge",
+    "subject": "english",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "Enormous and huge both mean very large in size.",
+    "_cacheBreaker": "1756030323253_23"
+  },
+  {
+    "_id": "english_5_hard_024",
+    "content": "Identify the adjective in this sentence: 'The beautiful flower bloomed in spring.'",
+    "type": "multiple_choice",
+    "options": [
+      "flower",
+      "bloomed",
+      "beautiful",
+      "spring"
+    ],
+    "correctAnswer": "beautiful",
+    "subject": "english",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "An adjective describes a noun. 'Beautiful' describes the flower.",
+    "_cacheBreaker": "1756030323253_24"
+  },
+  {
+    "_id": "english_5_hard_025",
+    "content": "Which sentence is written in past tense?",
+    "type": "multiple_choice",
+    "options": [
+      "I will go to school",
+      "I am going to school",
+      "I went to school",
+      "I go to school"
+    ],
+    "correctAnswer": "I went to school",
+    "subject": "english",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "'Went' is the past tense form of the verb 'go'.",
+    "_cacheBreaker": "1756030323253_25"
+  },
+  {
+    "_id": "english_5_hard_026",
+    "content": "Which sentence uses the correct form of the verb?",
+    "type": "multiple_choice",
+    "options": [
+      "She don't like pizza",
+      "She doesn't like pizza",
+      "She not like pizza",
+      "She no like pizza"
+    ],
+    "correctAnswer": "She doesn't like pizza",
+    "subject": "english",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "With singular subjects like 'she', use 'doesn't' (does not), not 'don't' (do not).",
+    "_cacheBreaker": "1756030323253_26"
+  },
+  {
+    "_id": "english_5_hard_027",
+    "content": "What is the plural form of 'child'?",
+    "type": "multiple_choice",
+    "options": [
+      "childs",
+      "childes",
+      "children",
+      "child's"
+    ],
+    "correctAnswer": "children",
+    "subject": "english",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "'Children' is the irregular plural form of 'child'.",
+    "_cacheBreaker": "1756030323253_27"
+  },
+  {
+    "_id": "english_5_hard_028",
+    "content": "Which word is a synonym for 'enormous'?",
+    "type": "multiple_choice",
+    "options": [
+      "tiny",
+      "huge",
+      "medium",
+      "small"
+    ],
+    "correctAnswer": "huge",
+    "subject": "english",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "Enormous and huge both mean very large in size.",
+    "_cacheBreaker": "1756030323253_28"
+  },
+  {
+    "_id": "english_5_hard_029",
+    "content": "Identify the adjective in this sentence: 'The beautiful flower bloomed in spring.'",
+    "type": "multiple_choice",
+    "options": [
+      "flower",
+      "bloomed",
+      "beautiful",
+      "spring"
+    ],
+    "correctAnswer": "beautiful",
+    "subject": "english",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "An adjective describes a noun. 'Beautiful' describes the flower.",
+    "_cacheBreaker": "1756030323253_29"
+  },
+  {
+    "_id": "english_5_hard_030",
+    "content": "Which sentence is written in past tense?",
+    "type": "multiple_choice",
+    "options": [
+      "I will go to school",
+      "I am going to school",
+      "I went to school",
+      "I go to school"
+    ],
+    "correctAnswer": "I went to school",
+    "subject": "english",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "'Went' is the past tense form of the verb 'go'.",
+    "_cacheBreaker": "1756030323253_30"
+  },
+  {
+    "_id": "english_5_hard_031",
+    "content": "Which sentence uses the correct form of the verb?",
+    "type": "multiple_choice",
+    "options": [
+      "She don't like pizza",
+      "She doesn't like pizza",
+      "She not like pizza",
+      "She no like pizza"
+    ],
+    "correctAnswer": "She doesn't like pizza",
+    "subject": "english",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "With singular subjects like 'she', use 'doesn't' (does not), not 'don't' (do not).",
+    "_cacheBreaker": "1756030323253_31"
+  },
+  {
+    "_id": "english_5_hard_032",
+    "content": "What is the plural form of 'child'?",
+    "type": "multiple_choice",
+    "options": [
+      "childs",
+      "childes",
+      "children",
+      "child's"
+    ],
+    "correctAnswer": "children",
+    "subject": "english",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "'Children' is the irregular plural form of 'child'.",
+    "_cacheBreaker": "1756030323253_32"
+  },
+  {
+    "_id": "english_5_hard_033",
+    "content": "Which word is a synonym for 'enormous'?",
+    "type": "multiple_choice",
+    "options": [
+      "tiny",
+      "huge",
+      "medium",
+      "small"
+    ],
+    "correctAnswer": "huge",
+    "subject": "english",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "Enormous and huge both mean very large in size.",
+    "_cacheBreaker": "1756030323253_33"
+  },
+  {
+    "_id": "english_5_hard_034",
+    "content": "Identify the adjective in this sentence: 'The beautiful flower bloomed in spring.'",
+    "type": "multiple_choice",
+    "options": [
+      "flower",
+      "bloomed",
+      "beautiful",
+      "spring"
+    ],
+    "correctAnswer": "beautiful",
+    "subject": "english",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "An adjective describes a noun. 'Beautiful' describes the flower.",
+    "_cacheBreaker": "1756030323253_34"
+  },
+  {
+    "_id": "english_5_hard_035",
+    "content": "Which sentence is written in past tense?",
+    "type": "multiple_choice",
+    "options": [
+      "I will go to school",
+      "I am going to school",
+      "I went to school",
+      "I go to school"
+    ],
+    "correctAnswer": "I went to school",
+    "subject": "english",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "'Went' is the past tense form of the verb 'go'.",
+    "_cacheBreaker": "1756030323253_35"
+  },
+  {
+    "_id": "english_5_hard_036",
+    "content": "Which sentence uses the correct form of the verb?",
+    "type": "multiple_choice",
+    "options": [
+      "She don't like pizza",
+      "She doesn't like pizza",
+      "She not like pizza",
+      "She no like pizza"
+    ],
+    "correctAnswer": "She doesn't like pizza",
+    "subject": "english",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "With singular subjects like 'she', use 'doesn't' (does not), not 'don't' (do not).",
+    "_cacheBreaker": "1756030323253_36"
+  },
+  {
+    "_id": "english_5_hard_037",
+    "content": "What is the plural form of 'child'?",
+    "type": "multiple_choice",
+    "options": [
+      "childs",
+      "childes",
+      "children",
+      "child's"
+    ],
+    "correctAnswer": "children",
+    "subject": "english",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "'Children' is the irregular plural form of 'child'.",
+    "_cacheBreaker": "1756030323253_37"
+  },
+  {
+    "_id": "english_5_hard_038",
+    "content": "Which word is a synonym for 'enormous'?",
+    "type": "multiple_choice",
+    "options": [
+      "tiny",
+      "huge",
+      "medium",
+      "small"
+    ],
+    "correctAnswer": "huge",
+    "subject": "english",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "Enormous and huge both mean very large in size.",
+    "_cacheBreaker": "1756030323253_38"
+  },
+  {
+    "_id": "english_5_hard_039",
+    "content": "Identify the adjective in this sentence: 'The beautiful flower bloomed in spring.'",
+    "type": "multiple_choice",
+    "options": [
+      "flower",
+      "bloomed",
+      "beautiful",
+      "spring"
+    ],
+    "correctAnswer": "beautiful",
+    "subject": "english",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "An adjective describes a noun. 'Beautiful' describes the flower.",
+    "_cacheBreaker": "1756030323253_39"
+  },
+  {
+    "_id": "english_5_hard_040",
+    "content": "Which sentence is written in past tense?",
+    "type": "multiple_choice",
+    "options": [
+      "I will go to school",
+      "I am going to school",
+      "I went to school",
+      "I go to school"
+    ],
+    "correctAnswer": "I went to school",
+    "subject": "english",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "'Went' is the past tense form of the verb 'go'.",
+    "_cacheBreaker": "1756030323253_40"
+  },
+  {
+    "_id": "english_5_hard_041",
+    "content": "Which sentence uses the correct form of the verb?",
+    "type": "multiple_choice",
+    "options": [
+      "She don't like pizza",
+      "She doesn't like pizza",
+      "She not like pizza",
+      "She no like pizza"
+    ],
+    "correctAnswer": "She doesn't like pizza",
+    "subject": "english",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "With singular subjects like 'she', use 'doesn't' (does not), not 'don't' (do not).",
+    "_cacheBreaker": "1756030323253_41"
+  },
+  {
+    "_id": "english_5_hard_042",
+    "content": "What is the plural form of 'child'?",
+    "type": "multiple_choice",
+    "options": [
+      "childs",
+      "childes",
+      "children",
+      "child's"
+    ],
+    "correctAnswer": "children",
+    "subject": "english",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "'Children' is the irregular plural form of 'child'.",
+    "_cacheBreaker": "1756030323253_42"
+  },
+  {
+    "_id": "english_5_hard_043",
+    "content": "Which word is a synonym for 'enormous'?",
+    "type": "multiple_choice",
+    "options": [
+      "tiny",
+      "huge",
+      "medium",
+      "small"
+    ],
+    "correctAnswer": "huge",
+    "subject": "english",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "Enormous and huge both mean very large in size.",
+    "_cacheBreaker": "1756030323253_43"
+  },
+  {
+    "_id": "english_5_hard_044",
+    "content": "Identify the adjective in this sentence: 'The beautiful flower bloomed in spring.'",
+    "type": "multiple_choice",
+    "options": [
+      "flower",
+      "bloomed",
+      "beautiful",
+      "spring"
+    ],
+    "correctAnswer": "beautiful",
+    "subject": "english",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "An adjective describes a noun. 'Beautiful' describes the flower.",
+    "_cacheBreaker": "1756030323253_44"
+  },
+  {
+    "_id": "english_5_hard_045",
+    "content": "Which sentence is written in past tense?",
+    "type": "multiple_choice",
+    "options": [
+      "I will go to school",
+      "I am going to school",
+      "I went to school",
+      "I go to school"
+    ],
+    "correctAnswer": "I went to school",
+    "subject": "english",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "'Went' is the past tense form of the verb 'go'.",
+    "_cacheBreaker": "1756030323253_45"
+  },
+  {
+    "_id": "english_5_hard_046",
+    "content": "Which sentence uses the correct form of the verb?",
+    "type": "multiple_choice",
+    "options": [
+      "She don't like pizza",
+      "She doesn't like pizza",
+      "She not like pizza",
+      "She no like pizza"
+    ],
+    "correctAnswer": "She doesn't like pizza",
+    "subject": "english",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "With singular subjects like 'she', use 'doesn't' (does not), not 'don't' (do not).",
+    "_cacheBreaker": "1756030323253_46"
+  },
+  {
+    "_id": "english_5_hard_047",
+    "content": "What is the plural form of 'child'?",
+    "type": "multiple_choice",
+    "options": [
+      "childs",
+      "childes",
+      "children",
+      "child's"
+    ],
+    "correctAnswer": "children",
+    "subject": "english",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "'Children' is the irregular plural form of 'child'.",
+    "_cacheBreaker": "1756030323253_47"
+  },
+  {
+    "_id": "english_5_hard_048",
+    "content": "Which word is a synonym for 'enormous'?",
+    "type": "multiple_choice",
+    "options": [
+      "tiny",
+      "huge",
+      "medium",
+      "small"
+    ],
+    "correctAnswer": "huge",
+    "subject": "english",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "Enormous and huge both mean very large in size.",
+    "_cacheBreaker": "1756030323253_48"
+  },
+  {
+    "_id": "english_5_hard_049",
+    "content": "Identify the adjective in this sentence: 'The beautiful flower bloomed in spring.'",
+    "type": "multiple_choice",
+    "options": [
+      "flower",
+      "bloomed",
+      "beautiful",
+      "spring"
+    ],
+    "correctAnswer": "beautiful",
+    "subject": "english",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "An adjective describes a noun. 'Beautiful' describes the flower.",
+    "_cacheBreaker": "1756030323253_49"
+  },
+  {
+    "_id": "english_5_hard_050",
+    "content": "Which sentence is written in past tense?",
+    "type": "multiple_choice",
+    "options": [
+      "I will go to school",
+      "I am going to school",
+      "I went to school",
+      "I go to school"
+    ],
+    "correctAnswer": "I went to school",
+    "subject": "english",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "'Went' is the past tense form of the verb 'go'.",
+    "_cacheBreaker": "1756030323253_50"
   }
 ]

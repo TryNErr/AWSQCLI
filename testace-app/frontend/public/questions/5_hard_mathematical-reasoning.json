@@ -1,342 +1,852 @@
 [
   {
-    "_id": "hard5_5_001",
-    "content": "If all cats have whiskers, and Fluffy is a cat, what can you conclude about Fluffy?",
+    "_id": "mathematical-reasoning_5_hard_001",
+    "content": "If the pattern 2, 6, 18, 54, ... continues, what is the next number?",
     "type": "multiple_choice",
     "options": [
-      "Fluffy is black",
-      "Fluffy has whiskers",
-      "Fluffy is big",
-      "Fluffy likes fish"
+      "108",
+      "162",
+      "216",
+      "72"
     ],
-    "correctAnswer": "Fluffy has whiskers",
+    "correctAnswer": "162",
     "subject": "mathematical-reasoning",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Using logical reasoning: All cats have whiskers → Fluffy is a cat → Fluffy has whiskers.",
-    "_cacheBreaker": "1755265388193_0"
+    "explanation": "Each number is multiplied by 3: 2×3=6, 6×3=18, 18×3=54, 54×3=162.",
+    "_cacheBreaker": "1756030323253_1"
   },
   {
-    "_id": "hard5_5_002",
-    "content": "In the pattern 2, 4, 6, 8, ___, what number comes next and why?",
+    "_id": "mathematical-reasoning_5_hard_002",
+    "content": "A number is divisible by both 4 and 6. What is the smallest such number greater than 20?",
     "type": "multiple_choice",
     "options": [
-      "9, because it's the next number",
-      "10, because we add 2 each time",
-      "12, because we double",
-      "16, because we multiply"
+      "24",
+      "28",
+      "30",
+      "36"
     ],
-    "correctAnswer": "10, because we add 2 each time",
+    "correctAnswer": "24",
     "subject": "mathematical-reasoning",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "The pattern increases by 2 each time: 2+2=4, 4+2=6, 6+2=8, 8+2=10.",
-    "_cacheBreaker": "1755265388193_1"
+    "explanation": "A number divisible by both 4 and 6 must be divisible by their LCM, which is 12. The multiples of 12 greater than 20 are 24, 36, 48...",
+    "_cacheBreaker": "1756030323253_2"
   },
   {
-    "_id": "hard5_5_003",
-    "content": "To solve 15 ÷ 3 = ?, what question should you ask yourself?",
+    "_id": "mathematical-reasoning_5_hard_003",
+    "content": "If A + B = 15 and A - B = 5, what is the value of A?",
     "type": "multiple_choice",
     "options": [
-      "What is 15 + 3?",
-      "What times 3 equals 15?",
-      "What is 15 - 3?",
-      "What is 3 - 15?"
+      "10",
+      "5",
+      "15",
+      "20"
     ],
-    "correctAnswer": "What times 3 equals 15?",
+    "correctAnswer": "10",
     "subject": "mathematical-reasoning",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Division asks 'what times the divisor equals the dividend?' So 15 ÷ 3 asks 'what × 3 = 15?'",
-    "_cacheBreaker": "1755265388193_2"
+    "explanation": "Adding the equations: (A + B) + (A - B) = 15 + 5, so 2A = 20, therefore A = 10.",
+    "_cacheBreaker": "1756030323253_3"
   },
   {
-    "_id": "hard5_5_004",
-    "content": "If all cats have whiskers, and Fluffy is a cat, what can you conclude about Fluffy? (Question 4)",
+    "_id": "mathematical-reasoning_5_hard_004",
+    "content": "In a sequence, each term after the first is found by adding 7 to the previous term. If the 3rd term is 23, what is the 1st term?",
     "type": "multiple_choice",
     "options": [
-      "Fluffy is black",
-      "Fluffy has whiskers",
-      "Fluffy is big",
-      "Fluffy likes fish"
+      "9",
+      "16",
+      "30",
+      "37"
     ],
-    "correctAnswer": "Fluffy has whiskers",
+    "correctAnswer": "9",
     "subject": "mathematical-reasoning",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Using logical reasoning: All cats have whiskers → Fluffy is a cat → Fluffy has whiskers.",
-    "_cacheBreaker": "1755265388193_3"
+    "explanation": "Working backwards: 3rd term = 23, 2nd term = 23 - 7 = 16, 1st term = 16 - 7 = 9.",
+    "_cacheBreaker": "1756030323253_4"
   },
   {
-    "_id": "hard5_5_005",
-    "content": "In the pattern 2, 4, 6, 8, ___, what number comes next and why? (Question 5)",
+    "_id": "mathematical-reasoning_5_hard_005",
+    "content": "A bag contains red and blue marbles in the ratio 3:5. If there are 15 red marbles, how many blue marbles are there?",
     "type": "multiple_choice",
     "options": [
-      "9, because it's the next number",
-      "10, because we add 2 each time",
-      "12, because we double",
-      "16, because we multiply"
+      "25",
+      "20",
+      "18",
+      "30"
     ],
-    "correctAnswer": "10, because we add 2 each time",
+    "correctAnswer": "25",
     "subject": "mathematical-reasoning",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "The pattern increases by 2 each time: 2+2=4, 4+2=6, 6+2=8, 8+2=10.",
-    "_cacheBreaker": "1755265388193_4"
+    "explanation": "The ratio is 3:5, so if red marbles = 15, then 15 ÷ 3 = 5. Blue marbles = 5 × 5 = 25.",
+    "_cacheBreaker": "1756030323253_5"
   },
   {
-    "_id": "hard5_5_006",
-    "content": "To solve 15 ÷ 3 = ?, what question should you ask yourself? (Question 6)",
+    "_id": "mathematical-reasoning_5_hard_006",
+    "content": "If the pattern 2, 6, 18, 54, ... continues, what is the next number?",
     "type": "multiple_choice",
     "options": [
-      "What is 15 + 3?",
-      "What times 3 equals 15?",
-      "What is 15 - 3?",
-      "What is 3 - 15?"
+      "108",
+      "162",
+      "216",
+      "72"
     ],
-    "correctAnswer": "What times 3 equals 15?",
+    "correctAnswer": "162",
     "subject": "mathematical-reasoning",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Division asks 'what times the divisor equals the dividend?' So 15 ÷ 3 asks 'what × 3 = 15?'",
-    "_cacheBreaker": "1755265388193_5"
+    "explanation": "Each number is multiplied by 3: 2×3=6, 6×3=18, 18×3=54, 54×3=162.",
+    "_cacheBreaker": "1756030323253_6"
   },
   {
-    "_id": "hard5_5_007",
-    "content": "If all cats have whiskers, and Fluffy is a cat, what can you conclude about Fluffy? (Question 7)",
+    "_id": "mathematical-reasoning_5_hard_007",
+    "content": "A number is divisible by both 4 and 6. What is the smallest such number greater than 20?",
     "type": "multiple_choice",
     "options": [
-      "Fluffy is black",
-      "Fluffy has whiskers",
-      "Fluffy is big",
-      "Fluffy likes fish"
+      "24",
+      "28",
+      "30",
+      "36"
     ],
-    "correctAnswer": "Fluffy has whiskers",
+    "correctAnswer": "24",
     "subject": "mathematical-reasoning",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Using logical reasoning: All cats have whiskers → Fluffy is a cat → Fluffy has whiskers.",
-    "_cacheBreaker": "1755265388193_6"
+    "explanation": "A number divisible by both 4 and 6 must be divisible by their LCM, which is 12. The multiples of 12 greater than 20 are 24, 36, 48...",
+    "_cacheBreaker": "1756030323253_7"
   },
   {
-    "_id": "hard5_5_008",
-    "content": "In the pattern 2, 4, 6, 8, ___, what number comes next and why? (Question 8)",
+    "_id": "mathematical-reasoning_5_hard_008",
+    "content": "If A + B = 15 and A - B = 5, what is the value of A?",
     "type": "multiple_choice",
     "options": [
-      "9, because it's the next number",
-      "10, because we add 2 each time",
-      "12, because we double",
-      "16, because we multiply"
+      "10",
+      "5",
+      "15",
+      "20"
     ],
-    "correctAnswer": "10, because we add 2 each time",
+    "correctAnswer": "10",
     "subject": "mathematical-reasoning",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "The pattern increases by 2 each time: 2+2=4, 4+2=6, 6+2=8, 8+2=10.",
-    "_cacheBreaker": "1755265388193_7"
+    "explanation": "Adding the equations: (A + B) + (A - B) = 15 + 5, so 2A = 20, therefore A = 10.",
+    "_cacheBreaker": "1756030323253_8"
   },
   {
-    "_id": "hard5_5_009",
-    "content": "To solve 15 ÷ 3 = ?, what question should you ask yourself? (Question 9)",
+    "_id": "mathematical-reasoning_5_hard_009",
+    "content": "In a sequence, each term after the first is found by adding 7 to the previous term. If the 3rd term is 23, what is the 1st term?",
     "type": "multiple_choice",
     "options": [
-      "What is 15 + 3?",
-      "What times 3 equals 15?",
-      "What is 15 - 3?",
-      "What is 3 - 15?"
+      "9",
+      "16",
+      "30",
+      "37"
     ],
-    "correctAnswer": "What times 3 equals 15?",
+    "correctAnswer": "9",
     "subject": "mathematical-reasoning",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Division asks 'what times the divisor equals the dividend?' So 15 ÷ 3 asks 'what × 3 = 15?'",
-    "_cacheBreaker": "1755265388193_8"
+    "explanation": "Working backwards: 3rd term = 23, 2nd term = 23 - 7 = 16, 1st term = 16 - 7 = 9.",
+    "_cacheBreaker": "1756030323253_9"
   },
   {
-    "_id": "hard5_5_010",
-    "content": "If all cats have whiskers, and Fluffy is a cat, what can you conclude about Fluffy? (Question 10)",
+    "_id": "mathematical-reasoning_5_hard_010",
+    "content": "A bag contains red and blue marbles in the ratio 3:5. If there are 15 red marbles, how many blue marbles are there?",
     "type": "multiple_choice",
     "options": [
-      "Fluffy is black",
-      "Fluffy has whiskers",
-      "Fluffy is big",
-      "Fluffy likes fish"
+      "25",
+      "20",
+      "18",
+      "30"
     ],
-    "correctAnswer": "Fluffy has whiskers",
+    "correctAnswer": "25",
     "subject": "mathematical-reasoning",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Using logical reasoning: All cats have whiskers → Fluffy is a cat → Fluffy has whiskers.",
-    "_cacheBreaker": "1755265388193_9"
+    "explanation": "The ratio is 3:5, so if red marbles = 15, then 15 ÷ 3 = 5. Blue marbles = 5 × 5 = 25.",
+    "_cacheBreaker": "1756030323253_10"
   },
   {
-    "_id": "hard5_5_011",
-    "content": "In the pattern 2, 4, 6, 8, ___, what number comes next and why? (Question 11)",
+    "_id": "mathematical-reasoning_5_hard_011",
+    "content": "If the pattern 2, 6, 18, 54, ... continues, what is the next number?",
     "type": "multiple_choice",
     "options": [
-      "9, because it's the next number",
-      "10, because we add 2 each time",
-      "12, because we double",
-      "16, because we multiply"
+      "108",
+      "162",
+      "216",
+      "72"
     ],
-    "correctAnswer": "10, because we add 2 each time",
+    "correctAnswer": "162",
     "subject": "mathematical-reasoning",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "The pattern increases by 2 each time: 2+2=4, 4+2=6, 6+2=8, 8+2=10.",
-    "_cacheBreaker": "1755265388193_10"
+    "explanation": "Each number is multiplied by 3: 2×3=6, 6×3=18, 18×3=54, 54×3=162.",
+    "_cacheBreaker": "1756030323253_11"
   },
   {
-    "_id": "hard5_5_012",
-    "content": "To solve 15 ÷ 3 = ?, what question should you ask yourself? (Question 12)",
+    "_id": "mathematical-reasoning_5_hard_012",
+    "content": "A number is divisible by both 4 and 6. What is the smallest such number greater than 20?",
     "type": "multiple_choice",
     "options": [
-      "What is 15 + 3?",
-      "What times 3 equals 15?",
-      "What is 15 - 3?",
-      "What is 3 - 15?"
+      "24",
+      "28",
+      "30",
+      "36"
     ],
-    "correctAnswer": "What times 3 equals 15?",
+    "correctAnswer": "24",
     "subject": "mathematical-reasoning",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Division asks 'what times the divisor equals the dividend?' So 15 ÷ 3 asks 'what × 3 = 15?'",
-    "_cacheBreaker": "1755265388193_11"
+    "explanation": "A number divisible by both 4 and 6 must be divisible by their LCM, which is 12. The multiples of 12 greater than 20 are 24, 36, 48...",
+    "_cacheBreaker": "1756030323253_12"
   },
   {
-    "_id": "hard5_5_013",
-    "content": "If all cats have whiskers, and Fluffy is a cat, what can you conclude about Fluffy? (Question 13)",
+    "_id": "mathematical-reasoning_5_hard_013",
+    "content": "If A + B = 15 and A - B = 5, what is the value of A?",
     "type": "multiple_choice",
     "options": [
-      "Fluffy is black",
-      "Fluffy has whiskers",
-      "Fluffy is big",
-      "Fluffy likes fish"
+      "10",
+      "5",
+      "15",
+      "20"
     ],
-    "correctAnswer": "Fluffy has whiskers",
+    "correctAnswer": "10",
     "subject": "mathematical-reasoning",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Using logical reasoning: All cats have whiskers → Fluffy is a cat → Fluffy has whiskers.",
-    "_cacheBreaker": "1755265388193_12"
+    "explanation": "Adding the equations: (A + B) + (A - B) = 15 + 5, so 2A = 20, therefore A = 10.",
+    "_cacheBreaker": "1756030323253_13"
   },
   {
-    "_id": "hard5_5_014",
-    "content": "In the pattern 2, 4, 6, 8, ___, what number comes next and why? (Question 14)",
+    "_id": "mathematical-reasoning_5_hard_014",
+    "content": "In a sequence, each term after the first is found by adding 7 to the previous term. If the 3rd term is 23, what is the 1st term?",
     "type": "multiple_choice",
     "options": [
-      "9, because it's the next number",
-      "10, because we add 2 each time",
-      "12, because we double",
-      "16, because we multiply"
+      "9",
+      "16",
+      "30",
+      "37"
     ],
-    "correctAnswer": "10, because we add 2 each time",
+    "correctAnswer": "9",
     "subject": "mathematical-reasoning",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "The pattern increases by 2 each time: 2+2=4, 4+2=6, 6+2=8, 8+2=10.",
-    "_cacheBreaker": "1755265388193_13"
+    "explanation": "Working backwards: 3rd term = 23, 2nd term = 23 - 7 = 16, 1st term = 16 - 7 = 9.",
+    "_cacheBreaker": "1756030323253_14"
   },
   {
-    "_id": "hard5_5_015",
-    "content": "To solve 15 ÷ 3 = ?, what question should you ask yourself? (Question 15)",
+    "_id": "mathematical-reasoning_5_hard_015",
+    "content": "A bag contains red and blue marbles in the ratio 3:5. If there are 15 red marbles, how many blue marbles are there?",
     "type": "multiple_choice",
     "options": [
-      "What is 15 + 3?",
-      "What times 3 equals 15?",
-      "What is 15 - 3?",
-      "What is 3 - 15?"
+      "25",
+      "20",
+      "18",
+      "30"
     ],
-    "correctAnswer": "What times 3 equals 15?",
+    "correctAnswer": "25",
     "subject": "mathematical-reasoning",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Division asks 'what times the divisor equals the dividend?' So 15 ÷ 3 asks 'what × 3 = 15?'",
-    "_cacheBreaker": "1755265388193_14"
+    "explanation": "The ratio is 3:5, so if red marbles = 15, then 15 ÷ 3 = 5. Blue marbles = 5 × 5 = 25.",
+    "_cacheBreaker": "1756030323253_15"
   },
   {
-    "_id": "hard5_5_016",
-    "content": "If all cats have whiskers, and Fluffy is a cat, what can you conclude about Fluffy? (Question 16)",
+    "_id": "mathematical-reasoning_5_hard_016",
+    "content": "If the pattern 2, 6, 18, 54, ... continues, what is the next number?",
     "type": "multiple_choice",
     "options": [
-      "Fluffy is black",
-      "Fluffy has whiskers",
-      "Fluffy is big",
-      "Fluffy likes fish"
+      "108",
+      "162",
+      "216",
+      "72"
     ],
-    "correctAnswer": "Fluffy has whiskers",
+    "correctAnswer": "162",
     "subject": "mathematical-reasoning",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Using logical reasoning: All cats have whiskers → Fluffy is a cat → Fluffy has whiskers.",
-    "_cacheBreaker": "1755265388193_15"
+    "explanation": "Each number is multiplied by 3: 2×3=6, 6×3=18, 18×3=54, 54×3=162.",
+    "_cacheBreaker": "1756030323253_16"
   },
   {
-    "_id": "hard5_5_017",
-    "content": "In the pattern 2, 4, 6, 8, ___, what number comes next and why? (Question 17)",
+    "_id": "mathematical-reasoning_5_hard_017",
+    "content": "A number is divisible by both 4 and 6. What is the smallest such number greater than 20?",
     "type": "multiple_choice",
     "options": [
-      "9, because it's the next number",
-      "10, because we add 2 each time",
-      "12, because we double",
-      "16, because we multiply"
+      "24",
+      "28",
+      "30",
+      "36"
     ],
-    "correctAnswer": "10, because we add 2 each time",
+    "correctAnswer": "24",
     "subject": "mathematical-reasoning",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "The pattern increases by 2 each time: 2+2=4, 4+2=6, 6+2=8, 8+2=10.",
-    "_cacheBreaker": "1755265388193_16"
+    "explanation": "A number divisible by both 4 and 6 must be divisible by their LCM, which is 12. The multiples of 12 greater than 20 are 24, 36, 48...",
+    "_cacheBreaker": "1756030323253_17"
   },
   {
-    "_id": "hard5_5_018",
-    "content": "To solve 15 ÷ 3 = ?, what question should you ask yourself? (Question 18)",
+    "_id": "mathematical-reasoning_5_hard_018",
+    "content": "If A + B = 15 and A - B = 5, what is the value of A?",
     "type": "multiple_choice",
     "options": [
-      "What is 15 + 3?",
-      "What times 3 equals 15?",
-      "What is 15 - 3?",
-      "What is 3 - 15?"
+      "10",
+      "5",
+      "15",
+      "20"
     ],
-    "correctAnswer": "What times 3 equals 15?",
+    "correctAnswer": "10",
     "subject": "mathematical-reasoning",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Division asks 'what times the divisor equals the dividend?' So 15 ÷ 3 asks 'what × 3 = 15?'",
-    "_cacheBreaker": "1755265388193_17"
+    "explanation": "Adding the equations: (A + B) + (A - B) = 15 + 5, so 2A = 20, therefore A = 10.",
+    "_cacheBreaker": "1756030323253_18"
   },
   {
-    "_id": "hard5_5_019",
-    "content": "If all cats have whiskers, and Fluffy is a cat, what can you conclude about Fluffy? (Question 19)",
+    "_id": "mathematical-reasoning_5_hard_019",
+    "content": "In a sequence, each term after the first is found by adding 7 to the previous term. If the 3rd term is 23, what is the 1st term?",
     "type": "multiple_choice",
     "options": [
-      "Fluffy is black",
-      "Fluffy has whiskers",
-      "Fluffy is big",
-      "Fluffy likes fish"
+      "9",
+      "16",
+      "30",
+      "37"
     ],
-    "correctAnswer": "Fluffy has whiskers",
+    "correctAnswer": "9",
     "subject": "mathematical-reasoning",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Using logical reasoning: All cats have whiskers → Fluffy is a cat → Fluffy has whiskers.",
-    "_cacheBreaker": "1755265388193_18"
+    "explanation": "Working backwards: 3rd term = 23, 2nd term = 23 - 7 = 16, 1st term = 16 - 7 = 9.",
+    "_cacheBreaker": "1756030323253_19"
   },
   {
-    "_id": "hard5_5_020",
-    "content": "In the pattern 2, 4, 6, 8, ___, what number comes next and why? (Question 20)",
+    "_id": "mathematical-reasoning_5_hard_020",
+    "content": "A bag contains red and blue marbles in the ratio 3:5. If there are 15 red marbles, how many blue marbles are there?",
     "type": "multiple_choice",
     "options": [
-      "9, because it's the next number",
-      "10, because we add 2 each time",
-      "12, because we double",
-      "16, because we multiply"
+      "25",
+      "20",
+      "18",
+      "30"
     ],
-    "correctAnswer": "10, because we add 2 each time",
+    "correctAnswer": "25",
     "subject": "mathematical-reasoning",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "The pattern increases by 2 each time: 2+2=4, 4+2=6, 6+2=8, 8+2=10.",
-    "_cacheBreaker": "1755265388193_19"
+    "explanation": "The ratio is 3:5, so if red marbles = 15, then 15 ÷ 3 = 5. Blue marbles = 5 × 5 = 25.",
+    "_cacheBreaker": "1756030323253_20"
+  },
+  {
+    "_id": "mathematical-reasoning_5_hard_021",
+    "content": "If the pattern 2, 6, 18, 54, ... continues, what is the next number?",
+    "type": "multiple_choice",
+    "options": [
+      "108",
+      "162",
+      "216",
+      "72"
+    ],
+    "correctAnswer": "162",
+    "subject": "mathematical-reasoning",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "Each number is multiplied by 3: 2×3=6, 6×3=18, 18×3=54, 54×3=162.",
+    "_cacheBreaker": "1756030323253_21"
+  },
+  {
+    "_id": "mathematical-reasoning_5_hard_022",
+    "content": "A number is divisible by both 4 and 6. What is the smallest such number greater than 20?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "28",
+      "30",
+      "36"
+    ],
+    "correctAnswer": "24",
+    "subject": "mathematical-reasoning",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "A number divisible by both 4 and 6 must be divisible by their LCM, which is 12. The multiples of 12 greater than 20 are 24, 36, 48...",
+    "_cacheBreaker": "1756030323253_22"
+  },
+  {
+    "_id": "mathematical-reasoning_5_hard_023",
+    "content": "If A + B = 15 and A - B = 5, what is the value of A?",
+    "type": "multiple_choice",
+    "options": [
+      "10",
+      "5",
+      "15",
+      "20"
+    ],
+    "correctAnswer": "10",
+    "subject": "mathematical-reasoning",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "Adding the equations: (A + B) + (A - B) = 15 + 5, so 2A = 20, therefore A = 10.",
+    "_cacheBreaker": "1756030323253_23"
+  },
+  {
+    "_id": "mathematical-reasoning_5_hard_024",
+    "content": "In a sequence, each term after the first is found by adding 7 to the previous term. If the 3rd term is 23, what is the 1st term?",
+    "type": "multiple_choice",
+    "options": [
+      "9",
+      "16",
+      "30",
+      "37"
+    ],
+    "correctAnswer": "9",
+    "subject": "mathematical-reasoning",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "Working backwards: 3rd term = 23, 2nd term = 23 - 7 = 16, 1st term = 16 - 7 = 9.",
+    "_cacheBreaker": "1756030323253_24"
+  },
+  {
+    "_id": "mathematical-reasoning_5_hard_025",
+    "content": "A bag contains red and blue marbles in the ratio 3:5. If there are 15 red marbles, how many blue marbles are there?",
+    "type": "multiple_choice",
+    "options": [
+      "25",
+      "20",
+      "18",
+      "30"
+    ],
+    "correctAnswer": "25",
+    "subject": "mathematical-reasoning",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "The ratio is 3:5, so if red marbles = 15, then 15 ÷ 3 = 5. Blue marbles = 5 × 5 = 25.",
+    "_cacheBreaker": "1756030323253_25"
+  },
+  {
+    "_id": "mathematical-reasoning_5_hard_026",
+    "content": "If the pattern 2, 6, 18, 54, ... continues, what is the next number?",
+    "type": "multiple_choice",
+    "options": [
+      "108",
+      "162",
+      "216",
+      "72"
+    ],
+    "correctAnswer": "162",
+    "subject": "mathematical-reasoning",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "Each number is multiplied by 3: 2×3=6, 6×3=18, 18×3=54, 54×3=162.",
+    "_cacheBreaker": "1756030323253_26"
+  },
+  {
+    "_id": "mathematical-reasoning_5_hard_027",
+    "content": "A number is divisible by both 4 and 6. What is the smallest such number greater than 20?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "28",
+      "30",
+      "36"
+    ],
+    "correctAnswer": "24",
+    "subject": "mathematical-reasoning",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "A number divisible by both 4 and 6 must be divisible by their LCM, which is 12. The multiples of 12 greater than 20 are 24, 36, 48...",
+    "_cacheBreaker": "1756030323253_27"
+  },
+  {
+    "_id": "mathematical-reasoning_5_hard_028",
+    "content": "If A + B = 15 and A - B = 5, what is the value of A?",
+    "type": "multiple_choice",
+    "options": [
+      "10",
+      "5",
+      "15",
+      "20"
+    ],
+    "correctAnswer": "10",
+    "subject": "mathematical-reasoning",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "Adding the equations: (A + B) + (A - B) = 15 + 5, so 2A = 20, therefore A = 10.",
+    "_cacheBreaker": "1756030323253_28"
+  },
+  {
+    "_id": "mathematical-reasoning_5_hard_029",
+    "content": "In a sequence, each term after the first is found by adding 7 to the previous term. If the 3rd term is 23, what is the 1st term?",
+    "type": "multiple_choice",
+    "options": [
+      "9",
+      "16",
+      "30",
+      "37"
+    ],
+    "correctAnswer": "9",
+    "subject": "mathematical-reasoning",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "Working backwards: 3rd term = 23, 2nd term = 23 - 7 = 16, 1st term = 16 - 7 = 9.",
+    "_cacheBreaker": "1756030323253_29"
+  },
+  {
+    "_id": "mathematical-reasoning_5_hard_030",
+    "content": "A bag contains red and blue marbles in the ratio 3:5. If there are 15 red marbles, how many blue marbles are there?",
+    "type": "multiple_choice",
+    "options": [
+      "25",
+      "20",
+      "18",
+      "30"
+    ],
+    "correctAnswer": "25",
+    "subject": "mathematical-reasoning",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "The ratio is 3:5, so if red marbles = 15, then 15 ÷ 3 = 5. Blue marbles = 5 × 5 = 25.",
+    "_cacheBreaker": "1756030323253_30"
+  },
+  {
+    "_id": "mathematical-reasoning_5_hard_031",
+    "content": "If the pattern 2, 6, 18, 54, ... continues, what is the next number?",
+    "type": "multiple_choice",
+    "options": [
+      "108",
+      "162",
+      "216",
+      "72"
+    ],
+    "correctAnswer": "162",
+    "subject": "mathematical-reasoning",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "Each number is multiplied by 3: 2×3=6, 6×3=18, 18×3=54, 54×3=162.",
+    "_cacheBreaker": "1756030323253_31"
+  },
+  {
+    "_id": "mathematical-reasoning_5_hard_032",
+    "content": "A number is divisible by both 4 and 6. What is the smallest such number greater than 20?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "28",
+      "30",
+      "36"
+    ],
+    "correctAnswer": "24",
+    "subject": "mathematical-reasoning",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "A number divisible by both 4 and 6 must be divisible by their LCM, which is 12. The multiples of 12 greater than 20 are 24, 36, 48...",
+    "_cacheBreaker": "1756030323253_32"
+  },
+  {
+    "_id": "mathematical-reasoning_5_hard_033",
+    "content": "If A + B = 15 and A - B = 5, what is the value of A?",
+    "type": "multiple_choice",
+    "options": [
+      "10",
+      "5",
+      "15",
+      "20"
+    ],
+    "correctAnswer": "10",
+    "subject": "mathematical-reasoning",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "Adding the equations: (A + B) + (A - B) = 15 + 5, so 2A = 20, therefore A = 10.",
+    "_cacheBreaker": "1756030323253_33"
+  },
+  {
+    "_id": "mathematical-reasoning_5_hard_034",
+    "content": "In a sequence, each term after the first is found by adding 7 to the previous term. If the 3rd term is 23, what is the 1st term?",
+    "type": "multiple_choice",
+    "options": [
+      "9",
+      "16",
+      "30",
+      "37"
+    ],
+    "correctAnswer": "9",
+    "subject": "mathematical-reasoning",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "Working backwards: 3rd term = 23, 2nd term = 23 - 7 = 16, 1st term = 16 - 7 = 9.",
+    "_cacheBreaker": "1756030323253_34"
+  },
+  {
+    "_id": "mathematical-reasoning_5_hard_035",
+    "content": "A bag contains red and blue marbles in the ratio 3:5. If there are 15 red marbles, how many blue marbles are there?",
+    "type": "multiple_choice",
+    "options": [
+      "25",
+      "20",
+      "18",
+      "30"
+    ],
+    "correctAnswer": "25",
+    "subject": "mathematical-reasoning",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "The ratio is 3:5, so if red marbles = 15, then 15 ÷ 3 = 5. Blue marbles = 5 × 5 = 25.",
+    "_cacheBreaker": "1756030323253_35"
+  },
+  {
+    "_id": "mathematical-reasoning_5_hard_036",
+    "content": "If the pattern 2, 6, 18, 54, ... continues, what is the next number?",
+    "type": "multiple_choice",
+    "options": [
+      "108",
+      "162",
+      "216",
+      "72"
+    ],
+    "correctAnswer": "162",
+    "subject": "mathematical-reasoning",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "Each number is multiplied by 3: 2×3=6, 6×3=18, 18×3=54, 54×3=162.",
+    "_cacheBreaker": "1756030323253_36"
+  },
+  {
+    "_id": "mathematical-reasoning_5_hard_037",
+    "content": "A number is divisible by both 4 and 6. What is the smallest such number greater than 20?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "28",
+      "30",
+      "36"
+    ],
+    "correctAnswer": "24",
+    "subject": "mathematical-reasoning",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "A number divisible by both 4 and 6 must be divisible by their LCM, which is 12. The multiples of 12 greater than 20 are 24, 36, 48...",
+    "_cacheBreaker": "1756030323253_37"
+  },
+  {
+    "_id": "mathematical-reasoning_5_hard_038",
+    "content": "If A + B = 15 and A - B = 5, what is the value of A?",
+    "type": "multiple_choice",
+    "options": [
+      "10",
+      "5",
+      "15",
+      "20"
+    ],
+    "correctAnswer": "10",
+    "subject": "mathematical-reasoning",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "Adding the equations: (A + B) + (A - B) = 15 + 5, so 2A = 20, therefore A = 10.",
+    "_cacheBreaker": "1756030323253_38"
+  },
+  {
+    "_id": "mathematical-reasoning_5_hard_039",
+    "content": "In a sequence, each term after the first is found by adding 7 to the previous term. If the 3rd term is 23, what is the 1st term?",
+    "type": "multiple_choice",
+    "options": [
+      "9",
+      "16",
+      "30",
+      "37"
+    ],
+    "correctAnswer": "9",
+    "subject": "mathematical-reasoning",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "Working backwards: 3rd term = 23, 2nd term = 23 - 7 = 16, 1st term = 16 - 7 = 9.",
+    "_cacheBreaker": "1756030323253_39"
+  },
+  {
+    "_id": "mathematical-reasoning_5_hard_040",
+    "content": "A bag contains red and blue marbles in the ratio 3:5. If there are 15 red marbles, how many blue marbles are there?",
+    "type": "multiple_choice",
+    "options": [
+      "25",
+      "20",
+      "18",
+      "30"
+    ],
+    "correctAnswer": "25",
+    "subject": "mathematical-reasoning",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "The ratio is 3:5, so if red marbles = 15, then 15 ÷ 3 = 5. Blue marbles = 5 × 5 = 25.",
+    "_cacheBreaker": "1756030323253_40"
+  },
+  {
+    "_id": "mathematical-reasoning_5_hard_041",
+    "content": "If the pattern 2, 6, 18, 54, ... continues, what is the next number?",
+    "type": "multiple_choice",
+    "options": [
+      "108",
+      "162",
+      "216",
+      "72"
+    ],
+    "correctAnswer": "162",
+    "subject": "mathematical-reasoning",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "Each number is multiplied by 3: 2×3=6, 6×3=18, 18×3=54, 54×3=162.",
+    "_cacheBreaker": "1756030323253_41"
+  },
+  {
+    "_id": "mathematical-reasoning_5_hard_042",
+    "content": "A number is divisible by both 4 and 6. What is the smallest such number greater than 20?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "28",
+      "30",
+      "36"
+    ],
+    "correctAnswer": "24",
+    "subject": "mathematical-reasoning",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "A number divisible by both 4 and 6 must be divisible by their LCM, which is 12. The multiples of 12 greater than 20 are 24, 36, 48...",
+    "_cacheBreaker": "1756030323253_42"
+  },
+  {
+    "_id": "mathematical-reasoning_5_hard_043",
+    "content": "If A + B = 15 and A - B = 5, what is the value of A?",
+    "type": "multiple_choice",
+    "options": [
+      "10",
+      "5",
+      "15",
+      "20"
+    ],
+    "correctAnswer": "10",
+    "subject": "mathematical-reasoning",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "Adding the equations: (A + B) + (A - B) = 15 + 5, so 2A = 20, therefore A = 10.",
+    "_cacheBreaker": "1756030323253_43"
+  },
+  {
+    "_id": "mathematical-reasoning_5_hard_044",
+    "content": "In a sequence, each term after the first is found by adding 7 to the previous term. If the 3rd term is 23, what is the 1st term?",
+    "type": "multiple_choice",
+    "options": [
+      "9",
+      "16",
+      "30",
+      "37"
+    ],
+    "correctAnswer": "9",
+    "subject": "mathematical-reasoning",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "Working backwards: 3rd term = 23, 2nd term = 23 - 7 = 16, 1st term = 16 - 7 = 9.",
+    "_cacheBreaker": "1756030323253_44"
+  },
+  {
+    "_id": "mathematical-reasoning_5_hard_045",
+    "content": "A bag contains red and blue marbles in the ratio 3:5. If there are 15 red marbles, how many blue marbles are there?",
+    "type": "multiple_choice",
+    "options": [
+      "25",
+      "20",
+      "18",
+      "30"
+    ],
+    "correctAnswer": "25",
+    "subject": "mathematical-reasoning",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "The ratio is 3:5, so if red marbles = 15, then 15 ÷ 3 = 5. Blue marbles = 5 × 5 = 25.",
+    "_cacheBreaker": "1756030323253_45"
+  },
+  {
+    "_id": "mathematical-reasoning_5_hard_046",
+    "content": "If the pattern 2, 6, 18, 54, ... continues, what is the next number?",
+    "type": "multiple_choice",
+    "options": [
+      "108",
+      "162",
+      "216",
+      "72"
+    ],
+    "correctAnswer": "162",
+    "subject": "mathematical-reasoning",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "Each number is multiplied by 3: 2×3=6, 6×3=18, 18×3=54, 54×3=162.",
+    "_cacheBreaker": "1756030323253_46"
+  },
+  {
+    "_id": "mathematical-reasoning_5_hard_047",
+    "content": "A number is divisible by both 4 and 6. What is the smallest such number greater than 20?",
+    "type": "multiple_choice",
+    "options": [
+      "24",
+      "28",
+      "30",
+      "36"
+    ],
+    "correctAnswer": "24",
+    "subject": "mathematical-reasoning",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "A number divisible by both 4 and 6 must be divisible by their LCM, which is 12. The multiples of 12 greater than 20 are 24, 36, 48...",
+    "_cacheBreaker": "1756030323253_47"
+  },
+  {
+    "_id": "mathematical-reasoning_5_hard_048",
+    "content": "If A + B = 15 and A - B = 5, what is the value of A?",
+    "type": "multiple_choice",
+    "options": [
+      "10",
+      "5",
+      "15",
+      "20"
+    ],
+    "correctAnswer": "10",
+    "subject": "mathematical-reasoning",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "Adding the equations: (A + B) + (A - B) = 15 + 5, so 2A = 20, therefore A = 10.",
+    "_cacheBreaker": "1756030323253_48"
+  },
+  {
+    "_id": "mathematical-reasoning_5_hard_049",
+    "content": "In a sequence, each term after the first is found by adding 7 to the previous term. If the 3rd term is 23, what is the 1st term?",
+    "type": "multiple_choice",
+    "options": [
+      "9",
+      "16",
+      "30",
+      "37"
+    ],
+    "correctAnswer": "9",
+    "subject": "mathematical-reasoning",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "Working backwards: 3rd term = 23, 2nd term = 23 - 7 = 16, 1st term = 16 - 7 = 9.",
+    "_cacheBreaker": "1756030323253_49"
+  },
+  {
+    "_id": "mathematical-reasoning_5_hard_050",
+    "content": "A bag contains red and blue marbles in the ratio 3:5. If there are 15 red marbles, how many blue marbles are there?",
+    "type": "multiple_choice",
+    "options": [
+      "25",
+      "20",
+      "18",
+      "30"
+    ],
+    "correctAnswer": "25",
+    "subject": "mathematical-reasoning",
+    "grade": "5",
+    "difficulty": "hard",
+    "explanation": "The ratio is 3:5, so if red marbles = 15, then 15 ÷ 3 = 5. Blue marbles = 5 × 5 = 25.",
+    "_cacheBreaker": "1756030323253_50"
   }
 ]
