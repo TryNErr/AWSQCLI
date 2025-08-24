@@ -1,852 +1,852 @@
 [
   {
     "_id": "math_11_hard_001",
-    "content": "Solve: 11x - 22 = 10x + 33",
+    "content": "What is 6^4?",
     "type": "multiple_choice",
     "options": [
-      "x = 55",
-      "x = 44",
-      "x = 66",
-      "x = 33"
+      "1291",
+      "1296",
+      "1304",
+      "1311"
     ],
-    "correctAnswer": "x = 55",
+    "correctAnswer": "1296",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "11x - 10x = 33 + 22, so x = 55",
-    "_cacheBreaker": "1756033578441_1"
+    "explanation": "6^4 = 1296",
+    "_cacheBreaker": "1756035526353_1"
   },
   {
     "_id": "math_11_hard_002",
-    "content": "If f(x) = 11x² + 22x, what is f(11)?",
+    "content": "What is 7^4?",
     "type": "multiple_choice",
     "options": [
-      "1573",
-      "143",
-      "33",
-      "121"
+      "2396",
+      "2401",
+      "2409",
+      "2416"
     ],
-    "correctAnswer": "1573",
+    "correctAnswer": "2401",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "f(11) = 11(11)² + 22(11) = 1331 + 242 = 1573",
-    "_cacheBreaker": "1756033578441_2"
+    "explanation": "7^4 = 2401",
+    "_cacheBreaker": "1756035526353_2"
   },
   {
     "_id": "math_11_hard_003",
-    "content": "What is the vertex of the parabola y = x² - 22x + 11?",
+    "content": "What is 2^4?",
     "type": "multiple_choice",
     "options": [
-      "(11, -11)",
-      "(11, 0)",
-      "(0, 11)",
-      "(11, 11)"
+      "11",
+      "16",
+      "24",
+      "31"
     ],
-    "correctAnswer": "(11, -11)",
+    "correctAnswer": "16",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "Vertex x-coordinate = -b/2a = 22/2 = 11. y = 11² - 22(11) + 11 = -11",
-    "_cacheBreaker": "1756033578441_3"
+    "explanation": "2^4 = 16",
+    "_cacheBreaker": "1756035526353_3"
   },
   {
     "_id": "math_11_hard_004",
-    "content": "Factor completely: x² - 121",
+    "content": "What is 8^3?",
     "type": "multiple_choice",
     "options": [
-      "(x - 11)(x + 11)",
-      "(x - 11)²",
-      "x(x - 11)",
-      "Cannot be factored"
+      "507",
+      "512",
+      "520",
+      "527"
     ],
-    "correctAnswer": "(x - 11)(x + 11)",
+    "correctAnswer": "512",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "x² - 121 is a difference of squares: (x - 11)(x + 11)",
-    "_cacheBreaker": "1756033578441_4"
+    "explanation": "8^3 = 512",
+    "_cacheBreaker": "1756035526353_4"
   },
   {
     "_id": "math_11_hard_005",
-    "content": "What is the range of f(x) = -x² + 22?",
+    "content": "What is 4^3?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "y ≤ 22",
-      "y ≥ 22",
-      "y > 0"
+      "59",
+      "64",
+      "72",
+      "79"
     ],
-    "correctAnswer": "y ≤ 22",
+    "correctAnswer": "64",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "Since the parabola opens downward, the maximum value is 22",
-    "_cacheBreaker": "1756033578441_5"
+    "explanation": "4^3 = 64",
+    "_cacheBreaker": "1756035526353_5"
   },
   {
     "_id": "math_11_hard_006",
-    "content": "Solve: 11x - 22 = 10x + 33",
+    "content": "What is 2^4?",
     "type": "multiple_choice",
     "options": [
-      "x = 55",
-      "x = 44",
-      "x = 66",
-      "x = 33"
+      "11",
+      "16",
+      "24",
+      "31"
     ],
-    "correctAnswer": "x = 55",
+    "correctAnswer": "16",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "11x - 10x = 33 + 22, so x = 55",
-    "_cacheBreaker": "1756033578441_6"
+    "explanation": "2^4 = 16",
+    "_cacheBreaker": "1756035526353_6"
   },
   {
     "_id": "math_11_hard_007",
-    "content": "If f(x) = 11x² + 22x, what is f(11)?",
+    "content": "What is 7^2?",
     "type": "multiple_choice",
     "options": [
-      "1573",
-      "143",
-      "33",
-      "121"
+      "44",
+      "49",
+      "57",
+      "64"
     ],
-    "correctAnswer": "1573",
+    "correctAnswer": "49",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "f(11) = 11(11)² + 22(11) = 1331 + 242 = 1573",
-    "_cacheBreaker": "1756033578441_7"
+    "explanation": "7^2 = 49",
+    "_cacheBreaker": "1756035526353_7"
   },
   {
     "_id": "math_11_hard_008",
-    "content": "What is the vertex of the parabola y = x² - 22x + 11?",
+    "content": "What is 3^2?",
     "type": "multiple_choice",
     "options": [
-      "(11, -11)",
-      "(11, 0)",
-      "(0, 11)",
-      "(11, 11)"
+      "4",
+      "9",
+      "17",
+      "24"
     ],
-    "correctAnswer": "(11, -11)",
+    "correctAnswer": "9",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "Vertex x-coordinate = -b/2a = 22/2 = 11. y = 11² - 22(11) + 11 = -11",
-    "_cacheBreaker": "1756033578441_8"
+    "explanation": "3^2 = 9",
+    "_cacheBreaker": "1756035526353_8"
   },
   {
     "_id": "math_11_hard_009",
-    "content": "Factor completely: x² - 121",
+    "content": "What is 9^3?",
     "type": "multiple_choice",
     "options": [
-      "(x - 11)(x + 11)",
-      "(x - 11)²",
-      "x(x - 11)",
-      "Cannot be factored"
+      "724",
+      "729",
+      "737",
+      "744"
     ],
-    "correctAnswer": "(x - 11)(x + 11)",
+    "correctAnswer": "729",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "x² - 121 is a difference of squares: (x - 11)(x + 11)",
-    "_cacheBreaker": "1756033578441_9"
+    "explanation": "9^3 = 729",
+    "_cacheBreaker": "1756035526353_9"
   },
   {
     "_id": "math_11_hard_010",
-    "content": "What is the range of f(x) = -x² + 22?",
+    "content": "What is 2^2?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "y ≤ 22",
-      "y ≥ 22",
-      "y > 0"
+      "-1",
+      "4",
+      "12",
+      "19"
     ],
-    "correctAnswer": "y ≤ 22",
+    "correctAnswer": "4",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "Since the parabola opens downward, the maximum value is 22",
-    "_cacheBreaker": "1756033578441_10"
+    "explanation": "2^2 = 4",
+    "_cacheBreaker": "1756035526353_10"
   },
   {
     "_id": "math_11_hard_011",
-    "content": "Solve: 11x - 22 = 10x + 33",
+    "content": "What is 9^2?",
     "type": "multiple_choice",
     "options": [
-      "x = 55",
-      "x = 44",
-      "x = 66",
-      "x = 33"
+      "76",
+      "81",
+      "89",
+      "96"
     ],
-    "correctAnswer": "x = 55",
+    "correctAnswer": "81",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "11x - 10x = 33 + 22, so x = 55",
-    "_cacheBreaker": "1756033578441_11"
+    "explanation": "9^2 = 81",
+    "_cacheBreaker": "1756035526353_11"
   },
   {
     "_id": "math_11_hard_012",
-    "content": "If f(x) = 11x² + 22x, what is f(11)?",
+    "content": "What is 6^2?",
     "type": "multiple_choice",
     "options": [
-      "1573",
-      "143",
-      "33",
-      "121"
+      "31",
+      "36",
+      "44",
+      "51"
     ],
-    "correctAnswer": "1573",
+    "correctAnswer": "36",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "f(11) = 11(11)² + 22(11) = 1331 + 242 = 1573",
-    "_cacheBreaker": "1756033578441_12"
+    "explanation": "6^2 = 36",
+    "_cacheBreaker": "1756035526353_12"
   },
   {
     "_id": "math_11_hard_013",
-    "content": "What is the vertex of the parabola y = x² - 22x + 11?",
+    "content": "What is 9^3?",
     "type": "multiple_choice",
     "options": [
-      "(11, -11)",
-      "(11, 0)",
-      "(0, 11)",
-      "(11, 11)"
+      "724",
+      "729",
+      "737",
+      "744"
     ],
-    "correctAnswer": "(11, -11)",
+    "correctAnswer": "729",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "Vertex x-coordinate = -b/2a = 22/2 = 11. y = 11² - 22(11) + 11 = -11",
-    "_cacheBreaker": "1756033578441_13"
+    "explanation": "9^3 = 729",
+    "_cacheBreaker": "1756035526353_13"
   },
   {
     "_id": "math_11_hard_014",
-    "content": "Factor completely: x² - 121",
+    "content": "What is 3^2?",
     "type": "multiple_choice",
     "options": [
-      "(x - 11)(x + 11)",
-      "(x - 11)²",
-      "x(x - 11)",
-      "Cannot be factored"
+      "4",
+      "9",
+      "17",
+      "24"
     ],
-    "correctAnswer": "(x - 11)(x + 11)",
+    "correctAnswer": "9",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "x² - 121 is a difference of squares: (x - 11)(x + 11)",
-    "_cacheBreaker": "1756033578441_14"
+    "explanation": "3^2 = 9",
+    "_cacheBreaker": "1756035526353_14"
   },
   {
     "_id": "math_11_hard_015",
-    "content": "What is the range of f(x) = -x² + 22?",
+    "content": "What is 9^3?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "y ≤ 22",
-      "y ≥ 22",
-      "y > 0"
+      "724",
+      "729",
+      "737",
+      "744"
     ],
-    "correctAnswer": "y ≤ 22",
+    "correctAnswer": "729",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "Since the parabola opens downward, the maximum value is 22",
-    "_cacheBreaker": "1756033578441_15"
+    "explanation": "9^3 = 729",
+    "_cacheBreaker": "1756035526353_15"
   },
   {
     "_id": "math_11_hard_016",
-    "content": "Solve: 11x - 22 = 10x + 33",
+    "content": "What is 7^3?",
     "type": "multiple_choice",
     "options": [
-      "x = 55",
-      "x = 44",
-      "x = 66",
-      "x = 33"
+      "338",
+      "343",
+      "351",
+      "358"
     ],
-    "correctAnswer": "x = 55",
+    "correctAnswer": "343",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "11x - 10x = 33 + 22, so x = 55",
-    "_cacheBreaker": "1756033578441_16"
+    "explanation": "7^3 = 343",
+    "_cacheBreaker": "1756035526353_16"
   },
   {
     "_id": "math_11_hard_017",
-    "content": "If f(x) = 11x² + 22x, what is f(11)?",
+    "content": "What is 8^3?",
     "type": "multiple_choice",
     "options": [
-      "1573",
-      "143",
-      "33",
-      "121"
+      "507",
+      "512",
+      "520",
+      "527"
     ],
-    "correctAnswer": "1573",
+    "correctAnswer": "512",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "f(11) = 11(11)² + 22(11) = 1331 + 242 = 1573",
-    "_cacheBreaker": "1756033578441_17"
+    "explanation": "8^3 = 512",
+    "_cacheBreaker": "1756035526353_17"
   },
   {
     "_id": "math_11_hard_018",
-    "content": "What is the vertex of the parabola y = x² - 22x + 11?",
+    "content": "What is 2^2?",
     "type": "multiple_choice",
     "options": [
-      "(11, -11)",
-      "(11, 0)",
-      "(0, 11)",
-      "(11, 11)"
+      "-1",
+      "4",
+      "12",
+      "19"
     ],
-    "correctAnswer": "(11, -11)",
+    "correctAnswer": "4",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "Vertex x-coordinate = -b/2a = 22/2 = 11. y = 11² - 22(11) + 11 = -11",
-    "_cacheBreaker": "1756033578441_18"
+    "explanation": "2^2 = 4",
+    "_cacheBreaker": "1756035526353_18"
   },
   {
     "_id": "math_11_hard_019",
-    "content": "Factor completely: x² - 121",
+    "content": "What is 7^4?",
     "type": "multiple_choice",
     "options": [
-      "(x - 11)(x + 11)",
-      "(x - 11)²",
-      "x(x - 11)",
-      "Cannot be factored"
+      "2396",
+      "2401",
+      "2409",
+      "2416"
     ],
-    "correctAnswer": "(x - 11)(x + 11)",
+    "correctAnswer": "2401",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "x² - 121 is a difference of squares: (x - 11)(x + 11)",
-    "_cacheBreaker": "1756033578441_19"
+    "explanation": "7^4 = 2401",
+    "_cacheBreaker": "1756035526353_19"
   },
   {
     "_id": "math_11_hard_020",
-    "content": "What is the range of f(x) = -x² + 22?",
+    "content": "What is 3^3?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "y ≤ 22",
-      "y ≥ 22",
-      "y > 0"
+      "22",
+      "27",
+      "35",
+      "42"
     ],
-    "correctAnswer": "y ≤ 22",
+    "correctAnswer": "27",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "Since the parabola opens downward, the maximum value is 22",
-    "_cacheBreaker": "1756033578441_20"
+    "explanation": "3^3 = 27",
+    "_cacheBreaker": "1756035526353_20"
   },
   {
     "_id": "math_11_hard_021",
-    "content": "Solve: 11x - 22 = 10x + 33",
+    "content": "What is 7^4?",
     "type": "multiple_choice",
     "options": [
-      "x = 55",
-      "x = 44",
-      "x = 66",
-      "x = 33"
+      "2396",
+      "2401",
+      "2409",
+      "2416"
     ],
-    "correctAnswer": "x = 55",
+    "correctAnswer": "2401",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "11x - 10x = 33 + 22, so x = 55",
-    "_cacheBreaker": "1756033578441_21"
+    "explanation": "7^4 = 2401",
+    "_cacheBreaker": "1756035526353_21"
   },
   {
     "_id": "math_11_hard_022",
-    "content": "If f(x) = 11x² + 22x, what is f(11)?",
+    "content": "What is 6^4?",
     "type": "multiple_choice",
     "options": [
-      "1573",
-      "143",
-      "33",
-      "121"
+      "1291",
+      "1296",
+      "1304",
+      "1311"
     ],
-    "correctAnswer": "1573",
+    "correctAnswer": "1296",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "f(11) = 11(11)² + 22(11) = 1331 + 242 = 1573",
-    "_cacheBreaker": "1756033578441_22"
+    "explanation": "6^4 = 1296",
+    "_cacheBreaker": "1756035526353_22"
   },
   {
     "_id": "math_11_hard_023",
-    "content": "What is the vertex of the parabola y = x² - 22x + 11?",
+    "content": "What is 4^2?",
     "type": "multiple_choice",
     "options": [
-      "(11, -11)",
-      "(11, 0)",
-      "(0, 11)",
-      "(11, 11)"
+      "11",
+      "16",
+      "24",
+      "31"
     ],
-    "correctAnswer": "(11, -11)",
+    "correctAnswer": "16",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "Vertex x-coordinate = -b/2a = 22/2 = 11. y = 11² - 22(11) + 11 = -11",
-    "_cacheBreaker": "1756033578441_23"
+    "explanation": "4^2 = 16",
+    "_cacheBreaker": "1756035526353_23"
   },
   {
     "_id": "math_11_hard_024",
-    "content": "Factor completely: x² - 121",
+    "content": "What is 2^2?",
     "type": "multiple_choice",
     "options": [
-      "(x - 11)(x + 11)",
-      "(x - 11)²",
-      "x(x - 11)",
-      "Cannot be factored"
+      "-1",
+      "4",
+      "12",
+      "19"
     ],
-    "correctAnswer": "(x - 11)(x + 11)",
+    "correctAnswer": "4",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "x² - 121 is a difference of squares: (x - 11)(x + 11)",
-    "_cacheBreaker": "1756033578441_24"
+    "explanation": "2^2 = 4",
+    "_cacheBreaker": "1756035526353_24"
   },
   {
     "_id": "math_11_hard_025",
-    "content": "What is the range of f(x) = -x² + 22?",
+    "content": "What is 3^2?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "y ≤ 22",
-      "y ≥ 22",
-      "y > 0"
+      "4",
+      "9",
+      "17",
+      "24"
     ],
-    "correctAnswer": "y ≤ 22",
+    "correctAnswer": "9",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "Since the parabola opens downward, the maximum value is 22",
-    "_cacheBreaker": "1756033578441_25"
+    "explanation": "3^2 = 9",
+    "_cacheBreaker": "1756035526353_25"
   },
   {
     "_id": "math_11_hard_026",
-    "content": "Solve: 11x - 22 = 10x + 33",
+    "content": "What is 5^4?",
     "type": "multiple_choice",
     "options": [
-      "x = 55",
-      "x = 44",
-      "x = 66",
-      "x = 33"
+      "620",
+      "625",
+      "633",
+      "640"
     ],
-    "correctAnswer": "x = 55",
+    "correctAnswer": "625",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "11x - 10x = 33 + 22, so x = 55",
-    "_cacheBreaker": "1756033578441_26"
+    "explanation": "5^4 = 625",
+    "_cacheBreaker": "1756035526353_26"
   },
   {
     "_id": "math_11_hard_027",
-    "content": "If f(x) = 11x² + 22x, what is f(11)?",
+    "content": "What is 7^4?",
     "type": "multiple_choice",
     "options": [
-      "1573",
-      "143",
-      "33",
-      "121"
+      "2396",
+      "2401",
+      "2409",
+      "2416"
     ],
-    "correctAnswer": "1573",
+    "correctAnswer": "2401",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "f(11) = 11(11)² + 22(11) = 1331 + 242 = 1573",
-    "_cacheBreaker": "1756033578441_27"
+    "explanation": "7^4 = 2401",
+    "_cacheBreaker": "1756035526353_27"
   },
   {
     "_id": "math_11_hard_028",
-    "content": "What is the vertex of the parabola y = x² - 22x + 11?",
+    "content": "What is 6^2?",
     "type": "multiple_choice",
     "options": [
-      "(11, -11)",
-      "(11, 0)",
-      "(0, 11)",
-      "(11, 11)"
+      "31",
+      "36",
+      "44",
+      "51"
     ],
-    "correctAnswer": "(11, -11)",
+    "correctAnswer": "36",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "Vertex x-coordinate = -b/2a = 22/2 = 11. y = 11² - 22(11) + 11 = -11",
-    "_cacheBreaker": "1756033578441_28"
+    "explanation": "6^2 = 36",
+    "_cacheBreaker": "1756035526353_28"
   },
   {
     "_id": "math_11_hard_029",
-    "content": "Factor completely: x² - 121",
+    "content": "What is 5^4?",
     "type": "multiple_choice",
     "options": [
-      "(x - 11)(x + 11)",
-      "(x - 11)²",
-      "x(x - 11)",
-      "Cannot be factored"
+      "620",
+      "625",
+      "633",
+      "640"
     ],
-    "correctAnswer": "(x - 11)(x + 11)",
+    "correctAnswer": "625",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "x² - 121 is a difference of squares: (x - 11)(x + 11)",
-    "_cacheBreaker": "1756033578441_29"
+    "explanation": "5^4 = 625",
+    "_cacheBreaker": "1756035526353_29"
   },
   {
     "_id": "math_11_hard_030",
-    "content": "What is the range of f(x) = -x² + 22?",
+    "content": "What is 6^4?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "y ≤ 22",
-      "y ≥ 22",
-      "y > 0"
+      "1291",
+      "1296",
+      "1304",
+      "1311"
     ],
-    "correctAnswer": "y ≤ 22",
+    "correctAnswer": "1296",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "Since the parabola opens downward, the maximum value is 22",
-    "_cacheBreaker": "1756033578441_30"
+    "explanation": "6^4 = 1296",
+    "_cacheBreaker": "1756035526353_30"
   },
   {
     "_id": "math_11_hard_031",
-    "content": "Solve: 11x - 22 = 10x + 33",
+    "content": "What is 8^4?",
     "type": "multiple_choice",
     "options": [
-      "x = 55",
-      "x = 44",
-      "x = 66",
-      "x = 33"
+      "4091",
+      "4096",
+      "4104",
+      "4111"
     ],
-    "correctAnswer": "x = 55",
+    "correctAnswer": "4096",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "11x - 10x = 33 + 22, so x = 55",
-    "_cacheBreaker": "1756033578441_31"
+    "explanation": "8^4 = 4096",
+    "_cacheBreaker": "1756035526353_31"
   },
   {
     "_id": "math_11_hard_032",
-    "content": "If f(x) = 11x² + 22x, what is f(11)?",
+    "content": "What is 9^2?",
     "type": "multiple_choice",
     "options": [
-      "1573",
-      "143",
-      "33",
-      "121"
+      "76",
+      "81",
+      "89",
+      "96"
     ],
-    "correctAnswer": "1573",
+    "correctAnswer": "81",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "f(11) = 11(11)² + 22(11) = 1331 + 242 = 1573",
-    "_cacheBreaker": "1756033578441_32"
+    "explanation": "9^2 = 81",
+    "_cacheBreaker": "1756035526353_32"
   },
   {
     "_id": "math_11_hard_033",
-    "content": "What is the vertex of the parabola y = x² - 22x + 11?",
+    "content": "What is 9^2?",
     "type": "multiple_choice",
     "options": [
-      "(11, -11)",
-      "(11, 0)",
-      "(0, 11)",
-      "(11, 11)"
+      "76",
+      "81",
+      "89",
+      "96"
     ],
-    "correctAnswer": "(11, -11)",
+    "correctAnswer": "81",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "Vertex x-coordinate = -b/2a = 22/2 = 11. y = 11² - 22(11) + 11 = -11",
-    "_cacheBreaker": "1756033578441_33"
+    "explanation": "9^2 = 81",
+    "_cacheBreaker": "1756035526353_33"
   },
   {
     "_id": "math_11_hard_034",
-    "content": "Factor completely: x² - 121",
+    "content": "What is 2^2?",
     "type": "multiple_choice",
     "options": [
-      "(x - 11)(x + 11)",
-      "(x - 11)²",
-      "x(x - 11)",
-      "Cannot be factored"
+      "-1",
+      "4",
+      "12",
+      "19"
     ],
-    "correctAnswer": "(x - 11)(x + 11)",
+    "correctAnswer": "4",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "x² - 121 is a difference of squares: (x - 11)(x + 11)",
-    "_cacheBreaker": "1756033578441_34"
+    "explanation": "2^2 = 4",
+    "_cacheBreaker": "1756035526353_34"
   },
   {
     "_id": "math_11_hard_035",
-    "content": "What is the range of f(x) = -x² + 22?",
+    "content": "What is 2^3?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "y ≤ 22",
-      "y ≥ 22",
-      "y > 0"
+      "3",
+      "8",
+      "16",
+      "23"
     ],
-    "correctAnswer": "y ≤ 22",
+    "correctAnswer": "8",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "Since the parabola opens downward, the maximum value is 22",
-    "_cacheBreaker": "1756033578441_35"
+    "explanation": "2^3 = 8",
+    "_cacheBreaker": "1756035526353_35"
   },
   {
     "_id": "math_11_hard_036",
-    "content": "Solve: 11x - 22 = 10x + 33",
+    "content": "What is 2^3?",
     "type": "multiple_choice",
     "options": [
-      "x = 55",
-      "x = 44",
-      "x = 66",
-      "x = 33"
+      "3",
+      "8",
+      "16",
+      "23"
     ],
-    "correctAnswer": "x = 55",
+    "correctAnswer": "8",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "11x - 10x = 33 + 22, so x = 55",
-    "_cacheBreaker": "1756033578441_36"
+    "explanation": "2^3 = 8",
+    "_cacheBreaker": "1756035526353_36"
   },
   {
     "_id": "math_11_hard_037",
-    "content": "If f(x) = 11x² + 22x, what is f(11)?",
+    "content": "What is 6^4?",
     "type": "multiple_choice",
     "options": [
-      "1573",
-      "143",
-      "33",
-      "121"
+      "1291",
+      "1296",
+      "1304",
+      "1311"
     ],
-    "correctAnswer": "1573",
+    "correctAnswer": "1296",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "f(11) = 11(11)² + 22(11) = 1331 + 242 = 1573",
-    "_cacheBreaker": "1756033578441_37"
+    "explanation": "6^4 = 1296",
+    "_cacheBreaker": "1756035526353_37"
   },
   {
     "_id": "math_11_hard_038",
-    "content": "What is the vertex of the parabola y = x² - 22x + 11?",
+    "content": "What is 5^4?",
     "type": "multiple_choice",
     "options": [
-      "(11, -11)",
-      "(11, 0)",
-      "(0, 11)",
-      "(11, 11)"
+      "620",
+      "625",
+      "633",
+      "640"
     ],
-    "correctAnswer": "(11, -11)",
+    "correctAnswer": "625",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "Vertex x-coordinate = -b/2a = 22/2 = 11. y = 11² - 22(11) + 11 = -11",
-    "_cacheBreaker": "1756033578441_38"
+    "explanation": "5^4 = 625",
+    "_cacheBreaker": "1756035526353_38"
   },
   {
     "_id": "math_11_hard_039",
-    "content": "Factor completely: x² - 121",
+    "content": "What is 3^4?",
     "type": "multiple_choice",
     "options": [
-      "(x - 11)(x + 11)",
-      "(x - 11)²",
-      "x(x - 11)",
-      "Cannot be factored"
+      "76",
+      "81",
+      "89",
+      "96"
     ],
-    "correctAnswer": "(x - 11)(x + 11)",
+    "correctAnswer": "81",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "x² - 121 is a difference of squares: (x - 11)(x + 11)",
-    "_cacheBreaker": "1756033578441_39"
+    "explanation": "3^4 = 81",
+    "_cacheBreaker": "1756035526353_39"
   },
   {
     "_id": "math_11_hard_040",
-    "content": "What is the range of f(x) = -x² + 22?",
+    "content": "What is 3^3?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "y ≤ 22",
-      "y ≥ 22",
-      "y > 0"
+      "22",
+      "27",
+      "35",
+      "42"
     ],
-    "correctAnswer": "y ≤ 22",
+    "correctAnswer": "27",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "Since the parabola opens downward, the maximum value is 22",
-    "_cacheBreaker": "1756033578441_40"
+    "explanation": "3^3 = 27",
+    "_cacheBreaker": "1756035526353_40"
   },
   {
     "_id": "math_11_hard_041",
-    "content": "Solve: 11x - 22 = 10x + 33",
+    "content": "What is 8^2?",
     "type": "multiple_choice",
     "options": [
-      "x = 55",
-      "x = 44",
-      "x = 66",
-      "x = 33"
+      "59",
+      "64",
+      "72",
+      "79"
     ],
-    "correctAnswer": "x = 55",
+    "correctAnswer": "64",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "11x - 10x = 33 + 22, so x = 55",
-    "_cacheBreaker": "1756033578441_41"
+    "explanation": "8^2 = 64",
+    "_cacheBreaker": "1756035526353_41"
   },
   {
     "_id": "math_11_hard_042",
-    "content": "If f(x) = 11x² + 22x, what is f(11)?",
+    "content": "What is 2^4?",
     "type": "multiple_choice",
     "options": [
-      "1573",
-      "143",
-      "33",
-      "121"
+      "11",
+      "16",
+      "24",
+      "31"
     ],
-    "correctAnswer": "1573",
+    "correctAnswer": "16",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "f(11) = 11(11)² + 22(11) = 1331 + 242 = 1573",
-    "_cacheBreaker": "1756033578441_42"
+    "explanation": "2^4 = 16",
+    "_cacheBreaker": "1756035526353_42"
   },
   {
     "_id": "math_11_hard_043",
-    "content": "What is the vertex of the parabola y = x² - 22x + 11?",
+    "content": "What is 7^2?",
     "type": "multiple_choice",
     "options": [
-      "(11, -11)",
-      "(11, 0)",
-      "(0, 11)",
-      "(11, 11)"
+      "44",
+      "49",
+      "57",
+      "64"
     ],
-    "correctAnswer": "(11, -11)",
+    "correctAnswer": "49",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "Vertex x-coordinate = -b/2a = 22/2 = 11. y = 11² - 22(11) + 11 = -11",
-    "_cacheBreaker": "1756033578441_43"
+    "explanation": "7^2 = 49",
+    "_cacheBreaker": "1756035526353_43"
   },
   {
     "_id": "math_11_hard_044",
-    "content": "Factor completely: x² - 121",
+    "content": "What is 2^4?",
     "type": "multiple_choice",
     "options": [
-      "(x - 11)(x + 11)",
-      "(x - 11)²",
-      "x(x - 11)",
-      "Cannot be factored"
+      "11",
+      "16",
+      "24",
+      "31"
     ],
-    "correctAnswer": "(x - 11)(x + 11)",
+    "correctAnswer": "16",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "x² - 121 is a difference of squares: (x - 11)(x + 11)",
-    "_cacheBreaker": "1756033578441_44"
+    "explanation": "2^4 = 16",
+    "_cacheBreaker": "1756035526353_44"
   },
   {
     "_id": "math_11_hard_045",
-    "content": "What is the range of f(x) = -x² + 22?",
+    "content": "What is 7^2?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "y ≤ 22",
-      "y ≥ 22",
-      "y > 0"
+      "44",
+      "49",
+      "57",
+      "64"
     ],
-    "correctAnswer": "y ≤ 22",
+    "correctAnswer": "49",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "Since the parabola opens downward, the maximum value is 22",
-    "_cacheBreaker": "1756033578441_45"
+    "explanation": "7^2 = 49",
+    "_cacheBreaker": "1756035526353_45"
   },
   {
     "_id": "math_11_hard_046",
-    "content": "Solve: 11x - 22 = 10x + 33",
+    "content": "What is 8^3?",
     "type": "multiple_choice",
     "options": [
-      "x = 55",
-      "x = 44",
-      "x = 66",
-      "x = 33"
+      "507",
+      "512",
+      "520",
+      "527"
     ],
-    "correctAnswer": "x = 55",
+    "correctAnswer": "512",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "11x - 10x = 33 + 22, so x = 55",
-    "_cacheBreaker": "1756033578441_46"
+    "explanation": "8^3 = 512",
+    "_cacheBreaker": "1756035526353_46"
   },
   {
     "_id": "math_11_hard_047",
-    "content": "If f(x) = 11x² + 22x, what is f(11)?",
+    "content": "What is 3^2?",
     "type": "multiple_choice",
     "options": [
-      "1573",
-      "143",
-      "33",
-      "121"
+      "4",
+      "9",
+      "17",
+      "24"
     ],
-    "correctAnswer": "1573",
+    "correctAnswer": "9",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "f(11) = 11(11)² + 22(11) = 1331 + 242 = 1573",
-    "_cacheBreaker": "1756033578441_47"
+    "explanation": "3^2 = 9",
+    "_cacheBreaker": "1756035526353_47"
   },
   {
     "_id": "math_11_hard_048",
-    "content": "What is the vertex of the parabola y = x² - 22x + 11?",
+    "content": "What is 8^3?",
     "type": "multiple_choice",
     "options": [
-      "(11, -11)",
-      "(11, 0)",
-      "(0, 11)",
-      "(11, 11)"
+      "507",
+      "512",
+      "520",
+      "527"
     ],
-    "correctAnswer": "(11, -11)",
+    "correctAnswer": "512",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "Vertex x-coordinate = -b/2a = 22/2 = 11. y = 11² - 22(11) + 11 = -11",
-    "_cacheBreaker": "1756033578441_48"
+    "explanation": "8^3 = 512",
+    "_cacheBreaker": "1756035526353_48"
   },
   {
     "_id": "math_11_hard_049",
-    "content": "Factor completely: x² - 121",
+    "content": "What is 5^2?",
     "type": "multiple_choice",
     "options": [
-      "(x - 11)(x + 11)",
-      "(x - 11)²",
-      "x(x - 11)",
-      "Cannot be factored"
+      "20",
+      "25",
+      "33",
+      "40"
     ],
-    "correctAnswer": "(x - 11)(x + 11)",
+    "correctAnswer": "25",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "x² - 121 is a difference of squares: (x - 11)(x + 11)",
-    "_cacheBreaker": "1756033578441_49"
+    "explanation": "5^2 = 25",
+    "_cacheBreaker": "1756035526353_49"
   },
   {
     "_id": "math_11_hard_050",
-    "content": "What is the range of f(x) = -x² + 22?",
+    "content": "What is 3^4?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "y ≤ 22",
-      "y ≥ 22",
-      "y > 0"
+      "76",
+      "81",
+      "89",
+      "96"
     ],
-    "correctAnswer": "y ≤ 22",
+    "correctAnswer": "81",
     "subject": "math",
     "grade": "11",
     "difficulty": "hard",
-    "explanation": "Since the parabola opens downward, the maximum value is 22",
-    "_cacheBreaker": "1756033578441_50"
+    "explanation": "3^4 = 81",
+    "_cacheBreaker": "1756035526353_50"
   }
 ]

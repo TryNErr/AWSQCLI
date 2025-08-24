@@ -1,852 +1,852 @@
 [
   {
     "_id": "math_9_medium_001",
-    "content": "Find the discriminant of x² - 4x + 3 = 0",
+    "content": "Solve: 3x + 24 = 42",
     "type": "multiple_choice",
     "options": [
-      "4",
-      "8",
-      "12",
-      "16"
+      "x = 5",
+      "x = 6",
+      "x = 7",
+      "x = 8"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "x = 6",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "Discriminant = b² - 4ac = (-4)² - 4(1)(3) = 16 - 12 = 4",
-    "_cacheBreaker": "1756033578426_1"
+    "explanation": "3x = 42 - 24 = 18, so x = 6",
+    "_cacheBreaker": "1756035526320_1"
   },
   {
     "_id": "math_9_medium_002",
-    "content": "What is the domain of f(x) = 1/(x-2)?",
+    "content": "Solve: 5x + 22 = 52",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "x ≠ 2",
-      "x > 2",
-      "x < 2"
+      "x = 5",
+      "x = 6",
+      "x = 7",
+      "x = 8"
     ],
-    "correctAnswer": "x ≠ 2",
+    "correctAnswer": "x = 6",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "The function is undefined when x = 2 (division by zero)",
-    "_cacheBreaker": "1756033578426_2"
+    "explanation": "5x = 52 - 22 = 30, so x = 6",
+    "_cacheBreaker": "1756035526320_2"
   },
   {
     "_id": "math_9_medium_003",
-    "content": "Simplify: √(x⁴)",
+    "content": "Solve: 4x + 5 = 33",
     "type": "multiple_choice",
     "options": [
-      "x²",
-      "x⁴",
-      "2x",
-      "4x"
+      "x = 6",
+      "x = 7",
+      "x = 8",
+      "x = 9"
     ],
-    "correctAnswer": "x²",
+    "correctAnswer": "x = 7",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "√(x⁴) = x² (assuming x ≥ 0)",
-    "_cacheBreaker": "1756033578426_3"
+    "explanation": "4x = 33 - 5 = 28, so x = 7",
+    "_cacheBreaker": "1756035526320_3"
   },
   {
     "_id": "math_9_medium_004",
-    "content": "What is cos(60°)?",
+    "content": "Solve: 6x + 6 = 48",
     "type": "multiple_choice",
     "options": [
-      "1/2",
-      "√3/2",
-      "1",
-      "0"
+      "x = 6",
+      "x = 7",
+      "x = 8",
+      "x = 9"
     ],
-    "correctAnswer": "1/2",
+    "correctAnswer": "x = 7",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "cos(60°) = 1/2",
-    "_cacheBreaker": "1756033578426_4"
+    "explanation": "6x = 48 - 6 = 42, so x = 7",
+    "_cacheBreaker": "1756035526320_4"
   },
   {
     "_id": "math_9_medium_005",
-    "content": "Solve the system: x + y = 5, x - y = 1",
+    "content": "Solve: 2x + 21 = 37",
     "type": "multiple_choice",
     "options": [
-      "x=3, y=2",
-      "x=2, y=3",
-      "x=4, y=1",
-      "x=1, y=4"
+      "x = 7",
+      "x = 8",
+      "x = 9",
+      "x = 10"
     ],
-    "correctAnswer": "x=3, y=2",
+    "correctAnswer": "x = 8",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "Adding equations: 2x = 6, so x = 3. Then y = 5 - 3 = 2",
-    "_cacheBreaker": "1756033578426_5"
+    "explanation": "2x = 37 - 21 = 16, so x = 8",
+    "_cacheBreaker": "1756035526320_5"
   },
   {
     "_id": "math_9_medium_006",
-    "content": "Find the discriminant of x² - 4x + 3 = 0",
+    "content": "Solve: 2x + 6 = 26",
     "type": "multiple_choice",
     "options": [
-      "4",
-      "8",
-      "12",
-      "16"
+      "x = 9",
+      "x = 10",
+      "x = 11",
+      "x = 12"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "x = 10",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "Discriminant = b² - 4ac = (-4)² - 4(1)(3) = 16 - 12 = 4",
-    "_cacheBreaker": "1756033578426_6"
+    "explanation": "2x = 26 - 6 = 20, so x = 10",
+    "_cacheBreaker": "1756035526320_6"
   },
   {
     "_id": "math_9_medium_007",
-    "content": "What is the domain of f(x) = 1/(x-2)?",
+    "content": "Solve: 5x + 19 = 59",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "x ≠ 2",
-      "x > 2",
-      "x < 2"
+      "x = 7",
+      "x = 8",
+      "x = 9",
+      "x = 10"
     ],
-    "correctAnswer": "x ≠ 2",
+    "correctAnswer": "x = 8",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "The function is undefined when x = 2 (division by zero)",
-    "_cacheBreaker": "1756033578426_7"
+    "explanation": "5x = 59 - 19 = 40, so x = 8",
+    "_cacheBreaker": "1756035526320_7"
   },
   {
     "_id": "math_9_medium_008",
-    "content": "Simplify: √(x⁴)",
+    "content": "Solve: 4x + 15 = 31",
     "type": "multiple_choice",
     "options": [
-      "x²",
-      "x⁴",
-      "2x",
-      "4x"
+      "x = 3",
+      "x = 4",
+      "x = 5",
+      "x = 6"
     ],
-    "correctAnswer": "x²",
+    "correctAnswer": "x = 4",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "√(x⁴) = x² (assuming x ≥ 0)",
-    "_cacheBreaker": "1756033578426_8"
+    "explanation": "4x = 31 - 15 = 16, so x = 4",
+    "_cacheBreaker": "1756035526320_8"
   },
   {
     "_id": "math_9_medium_009",
-    "content": "What is cos(60°)?",
+    "content": "Solve: 3x + 13 = 19",
     "type": "multiple_choice",
     "options": [
-      "1/2",
-      "√3/2",
-      "1",
-      "0"
+      "x = 1",
+      "x = 2",
+      "x = 3",
+      "x = 4"
     ],
-    "correctAnswer": "1/2",
+    "correctAnswer": "x = 2",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "cos(60°) = 1/2",
-    "_cacheBreaker": "1756033578426_9"
+    "explanation": "3x = 19 - 13 = 6, so x = 2",
+    "_cacheBreaker": "1756035526320_9"
   },
   {
     "_id": "math_9_medium_010",
-    "content": "Solve the system: x + y = 5, x - y = 1",
+    "content": "Solve: 5x + 18 = 73",
     "type": "multiple_choice",
     "options": [
-      "x=3, y=2",
-      "x=2, y=3",
-      "x=4, y=1",
-      "x=1, y=4"
+      "x = 10",
+      "x = 11",
+      "x = 12",
+      "x = 13"
     ],
-    "correctAnswer": "x=3, y=2",
+    "correctAnswer": "x = 11",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "Adding equations: 2x = 6, so x = 3. Then y = 5 - 3 = 2",
-    "_cacheBreaker": "1756033578426_10"
+    "explanation": "5x = 73 - 18 = 55, so x = 11",
+    "_cacheBreaker": "1756035526320_10"
   },
   {
     "_id": "math_9_medium_011",
-    "content": "Find the discriminant of x² - 4x + 3 = 0",
+    "content": "Solve: 2x + 18 = 36",
     "type": "multiple_choice",
     "options": [
-      "4",
-      "8",
-      "12",
-      "16"
+      "x = 8",
+      "x = 9",
+      "x = 10",
+      "x = 11"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "x = 9",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "Discriminant = b² - 4ac = (-4)² - 4(1)(3) = 16 - 12 = 4",
-    "_cacheBreaker": "1756033578426_11"
+    "explanation": "2x = 36 - 18 = 18, so x = 9",
+    "_cacheBreaker": "1756035526320_11"
   },
   {
     "_id": "math_9_medium_012",
-    "content": "What is the domain of f(x) = 1/(x-2)?",
+    "content": "Solve: 4x + 6 = 46",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "x ≠ 2",
-      "x > 2",
-      "x < 2"
+      "x = 9",
+      "x = 10",
+      "x = 11",
+      "x = 12"
     ],
-    "correctAnswer": "x ≠ 2",
+    "correctAnswer": "x = 10",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "The function is undefined when x = 2 (division by zero)",
-    "_cacheBreaker": "1756033578426_12"
+    "explanation": "4x = 46 - 6 = 40, so x = 10",
+    "_cacheBreaker": "1756035526320_12"
   },
   {
     "_id": "math_9_medium_013",
-    "content": "Simplify: √(x⁴)",
+    "content": "Solve: 5x + 8 = 63",
     "type": "multiple_choice",
     "options": [
-      "x²",
-      "x⁴",
-      "2x",
-      "4x"
+      "x = 10",
+      "x = 11",
+      "x = 12",
+      "x = 13"
     ],
-    "correctAnswer": "x²",
+    "correctAnswer": "x = 11",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "√(x⁴) = x² (assuming x ≥ 0)",
-    "_cacheBreaker": "1756033578426_13"
+    "explanation": "5x = 63 - 8 = 55, so x = 11",
+    "_cacheBreaker": "1756035526320_13"
   },
   {
     "_id": "math_9_medium_014",
-    "content": "What is cos(60°)?",
+    "content": "Solve: 2x + 6 = 20",
     "type": "multiple_choice",
     "options": [
-      "1/2",
-      "√3/2",
-      "1",
-      "0"
+      "x = 6",
+      "x = 7",
+      "x = 8",
+      "x = 9"
     ],
-    "correctAnswer": "1/2",
+    "correctAnswer": "x = 7",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "cos(60°) = 1/2",
-    "_cacheBreaker": "1756033578426_14"
+    "explanation": "2x = 20 - 6 = 14, so x = 7",
+    "_cacheBreaker": "1756035526320_14"
   },
   {
     "_id": "math_9_medium_015",
-    "content": "Solve the system: x + y = 5, x - y = 1",
+    "content": "Solve: 6x + 13 = 37",
     "type": "multiple_choice",
     "options": [
-      "x=3, y=2",
-      "x=2, y=3",
-      "x=4, y=1",
-      "x=1, y=4"
+      "x = 3",
+      "x = 4",
+      "x = 5",
+      "x = 6"
     ],
-    "correctAnswer": "x=3, y=2",
+    "correctAnswer": "x = 4",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "Adding equations: 2x = 6, so x = 3. Then y = 5 - 3 = 2",
-    "_cacheBreaker": "1756033578426_15"
+    "explanation": "6x = 37 - 13 = 24, so x = 4",
+    "_cacheBreaker": "1756035526320_15"
   },
   {
     "_id": "math_9_medium_016",
-    "content": "Find the discriminant of x² - 4x + 3 = 0",
+    "content": "Solve: 5x + 7 = 27",
     "type": "multiple_choice",
     "options": [
-      "4",
-      "8",
-      "12",
-      "16"
+      "x = 3",
+      "x = 4",
+      "x = 5",
+      "x = 6"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "x = 4",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "Discriminant = b² - 4ac = (-4)² - 4(1)(3) = 16 - 12 = 4",
-    "_cacheBreaker": "1756033578426_16"
+    "explanation": "5x = 27 - 7 = 20, so x = 4",
+    "_cacheBreaker": "1756035526320_16"
   },
   {
     "_id": "math_9_medium_017",
-    "content": "What is the domain of f(x) = 1/(x-2)?",
+    "content": "Solve: 5x + 19 = 39",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "x ≠ 2",
-      "x > 2",
-      "x < 2"
+      "x = 3",
+      "x = 4",
+      "x = 5",
+      "x = 6"
     ],
-    "correctAnswer": "x ≠ 2",
+    "correctAnswer": "x = 4",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "The function is undefined when x = 2 (division by zero)",
-    "_cacheBreaker": "1756033578426_17"
+    "explanation": "5x = 39 - 19 = 20, so x = 4",
+    "_cacheBreaker": "1756035526320_17"
   },
   {
     "_id": "math_9_medium_018",
-    "content": "Simplify: √(x⁴)",
+    "content": "Solve: 2x + 17 = 21",
     "type": "multiple_choice",
     "options": [
-      "x²",
-      "x⁴",
-      "2x",
-      "4x"
+      "x = 1",
+      "x = 2",
+      "x = 3",
+      "x = 4"
     ],
-    "correctAnswer": "x²",
+    "correctAnswer": "x = 2",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "√(x⁴) = x² (assuming x ≥ 0)",
-    "_cacheBreaker": "1756033578426_18"
+    "explanation": "2x = 21 - 17 = 4, so x = 2",
+    "_cacheBreaker": "1756035526320_18"
   },
   {
     "_id": "math_9_medium_019",
-    "content": "What is cos(60°)?",
+    "content": "Solve: 4x + 9 = 17",
     "type": "multiple_choice",
     "options": [
-      "1/2",
-      "√3/2",
-      "1",
-      "0"
+      "x = 1",
+      "x = 2",
+      "x = 3",
+      "x = 4"
     ],
-    "correctAnswer": "1/2",
+    "correctAnswer": "x = 2",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "cos(60°) = 1/2",
-    "_cacheBreaker": "1756033578426_19"
+    "explanation": "4x = 17 - 9 = 8, so x = 2",
+    "_cacheBreaker": "1756035526320_19"
   },
   {
     "_id": "math_9_medium_020",
-    "content": "Solve the system: x + y = 5, x - y = 1",
+    "content": "Solve: 4x + 23 = 31",
     "type": "multiple_choice",
     "options": [
-      "x=3, y=2",
-      "x=2, y=3",
-      "x=4, y=1",
-      "x=1, y=4"
+      "x = 1",
+      "x = 2",
+      "x = 3",
+      "x = 4"
     ],
-    "correctAnswer": "x=3, y=2",
+    "correctAnswer": "x = 2",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "Adding equations: 2x = 6, so x = 3. Then y = 5 - 3 = 2",
-    "_cacheBreaker": "1756033578426_20"
+    "explanation": "4x = 31 - 23 = 8, so x = 2",
+    "_cacheBreaker": "1756035526320_20"
   },
   {
     "_id": "math_9_medium_021",
-    "content": "Find the discriminant of x² - 4x + 3 = 0",
+    "content": "Solve: 4x + 11 = 39",
     "type": "multiple_choice",
     "options": [
-      "4",
-      "8",
-      "12",
-      "16"
+      "x = 6",
+      "x = 7",
+      "x = 8",
+      "x = 9"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "x = 7",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "Discriminant = b² - 4ac = (-4)² - 4(1)(3) = 16 - 12 = 4",
-    "_cacheBreaker": "1756033578426_21"
+    "explanation": "4x = 39 - 11 = 28, so x = 7",
+    "_cacheBreaker": "1756035526320_21"
   },
   {
     "_id": "math_9_medium_022",
-    "content": "What is the domain of f(x) = 1/(x-2)?",
+    "content": "Solve: 4x + 14 = 50",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "x ≠ 2",
-      "x > 2",
-      "x < 2"
+      "x = 8",
+      "x = 9",
+      "x = 10",
+      "x = 11"
     ],
-    "correctAnswer": "x ≠ 2",
+    "correctAnswer": "x = 9",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "The function is undefined when x = 2 (division by zero)",
-    "_cacheBreaker": "1756033578426_22"
+    "explanation": "4x = 50 - 14 = 36, so x = 9",
+    "_cacheBreaker": "1756035526320_22"
   },
   {
     "_id": "math_9_medium_023",
-    "content": "Simplify: √(x⁴)",
+    "content": "Solve: 5x + 6 = 36",
     "type": "multiple_choice",
     "options": [
-      "x²",
-      "x⁴",
-      "2x",
-      "4x"
+      "x = 5",
+      "x = 6",
+      "x = 7",
+      "x = 8"
     ],
-    "correctAnswer": "x²",
+    "correctAnswer": "x = 6",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "√(x⁴) = x² (assuming x ≥ 0)",
-    "_cacheBreaker": "1756033578426_23"
+    "explanation": "5x = 36 - 6 = 30, so x = 6",
+    "_cacheBreaker": "1756035526320_23"
   },
   {
     "_id": "math_9_medium_024",
-    "content": "What is cos(60°)?",
+    "content": "Solve: 2x + 8 = 22",
     "type": "multiple_choice",
     "options": [
-      "1/2",
-      "√3/2",
-      "1",
-      "0"
+      "x = 6",
+      "x = 7",
+      "x = 8",
+      "x = 9"
     ],
-    "correctAnswer": "1/2",
+    "correctAnswer": "x = 7",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "cos(60°) = 1/2",
-    "_cacheBreaker": "1756033578426_24"
+    "explanation": "2x = 22 - 8 = 14, so x = 7",
+    "_cacheBreaker": "1756035526320_24"
   },
   {
     "_id": "math_9_medium_025",
-    "content": "Solve the system: x + y = 5, x - y = 1",
+    "content": "Solve: 2x + 17 = 21",
     "type": "multiple_choice",
     "options": [
-      "x=3, y=2",
-      "x=2, y=3",
-      "x=4, y=1",
-      "x=1, y=4"
+      "x = 1",
+      "x = 2",
+      "x = 3",
+      "x = 4"
     ],
-    "correctAnswer": "x=3, y=2",
+    "correctAnswer": "x = 2",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "Adding equations: 2x = 6, so x = 3. Then y = 5 - 3 = 2",
-    "_cacheBreaker": "1756033578426_25"
+    "explanation": "2x = 21 - 17 = 4, so x = 2",
+    "_cacheBreaker": "1756035526320_25"
   },
   {
     "_id": "math_9_medium_026",
-    "content": "Find the discriminant of x² - 4x + 3 = 0",
+    "content": "Solve: 3x + 16 = 28",
     "type": "multiple_choice",
     "options": [
-      "4",
-      "8",
-      "12",
-      "16"
+      "x = 3",
+      "x = 4",
+      "x = 5",
+      "x = 6"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "x = 4",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "Discriminant = b² - 4ac = (-4)² - 4(1)(3) = 16 - 12 = 4",
-    "_cacheBreaker": "1756033578426_26"
+    "explanation": "3x = 28 - 16 = 12, so x = 4",
+    "_cacheBreaker": "1756035526320_26"
   },
   {
     "_id": "math_9_medium_027",
-    "content": "What is the domain of f(x) = 1/(x-2)?",
+    "content": "Solve: 5x + 7 = 47",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "x ≠ 2",
-      "x > 2",
-      "x < 2"
+      "x = 7",
+      "x = 8",
+      "x = 9",
+      "x = 10"
     ],
-    "correctAnswer": "x ≠ 2",
+    "correctAnswer": "x = 8",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "The function is undefined when x = 2 (division by zero)",
-    "_cacheBreaker": "1756033578426_27"
+    "explanation": "5x = 47 - 7 = 40, so x = 8",
+    "_cacheBreaker": "1756035526320_27"
   },
   {
     "_id": "math_9_medium_028",
-    "content": "Simplify: √(x⁴)",
+    "content": "Solve: 2x + 16 = 36",
     "type": "multiple_choice",
     "options": [
-      "x²",
-      "x⁴",
-      "2x",
-      "4x"
+      "x = 9",
+      "x = 10",
+      "x = 11",
+      "x = 12"
     ],
-    "correctAnswer": "x²",
+    "correctAnswer": "x = 10",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "√(x⁴) = x² (assuming x ≥ 0)",
-    "_cacheBreaker": "1756033578426_28"
+    "explanation": "2x = 36 - 16 = 20, so x = 10",
+    "_cacheBreaker": "1756035526320_28"
   },
   {
     "_id": "math_9_medium_029",
-    "content": "What is cos(60°)?",
+    "content": "Solve: 3x + 5 = 23",
     "type": "multiple_choice",
     "options": [
-      "1/2",
-      "√3/2",
-      "1",
-      "0"
+      "x = 5",
+      "x = 6",
+      "x = 7",
+      "x = 8"
     ],
-    "correctAnswer": "1/2",
+    "correctAnswer": "x = 6",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "cos(60°) = 1/2",
-    "_cacheBreaker": "1756033578426_29"
+    "explanation": "3x = 23 - 5 = 18, so x = 6",
+    "_cacheBreaker": "1756035526320_29"
   },
   {
     "_id": "math_9_medium_030",
-    "content": "Solve the system: x + y = 5, x - y = 1",
+    "content": "Solve: 4x + 20 = 52",
     "type": "multiple_choice",
     "options": [
-      "x=3, y=2",
-      "x=2, y=3",
-      "x=4, y=1",
-      "x=1, y=4"
+      "x = 7",
+      "x = 8",
+      "x = 9",
+      "x = 10"
     ],
-    "correctAnswer": "x=3, y=2",
+    "correctAnswer": "x = 8",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "Adding equations: 2x = 6, so x = 3. Then y = 5 - 3 = 2",
-    "_cacheBreaker": "1756033578426_30"
+    "explanation": "4x = 52 - 20 = 32, so x = 8",
+    "_cacheBreaker": "1756035526320_30"
   },
   {
     "_id": "math_9_medium_031",
-    "content": "Find the discriminant of x² - 4x + 3 = 0",
+    "content": "Solve: 3x + 13 = 46",
     "type": "multiple_choice",
     "options": [
-      "4",
-      "8",
-      "12",
-      "16"
+      "x = 10",
+      "x = 11",
+      "x = 12",
+      "x = 13"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "x = 11",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "Discriminant = b² - 4ac = (-4)² - 4(1)(3) = 16 - 12 = 4",
-    "_cacheBreaker": "1756033578426_31"
+    "explanation": "3x = 46 - 13 = 33, so x = 11",
+    "_cacheBreaker": "1756035526320_31"
   },
   {
     "_id": "math_9_medium_032",
-    "content": "What is the domain of f(x) = 1/(x-2)?",
+    "content": "Solve: 3x + 19 = 28",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "x ≠ 2",
-      "x > 2",
-      "x < 2"
+      "x = 2",
+      "x = 3",
+      "x = 4",
+      "x = 5"
     ],
-    "correctAnswer": "x ≠ 2",
+    "correctAnswer": "x = 3",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "The function is undefined when x = 2 (division by zero)",
-    "_cacheBreaker": "1756033578426_32"
+    "explanation": "3x = 28 - 19 = 9, so x = 3",
+    "_cacheBreaker": "1756035526320_32"
   },
   {
     "_id": "math_9_medium_033",
-    "content": "Simplify: √(x⁴)",
+    "content": "Solve: 4x + 19 = 55",
     "type": "multiple_choice",
     "options": [
-      "x²",
-      "x⁴",
-      "2x",
-      "4x"
+      "x = 8",
+      "x = 9",
+      "x = 10",
+      "x = 11"
     ],
-    "correctAnswer": "x²",
+    "correctAnswer": "x = 9",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "√(x⁴) = x² (assuming x ≥ 0)",
-    "_cacheBreaker": "1756033578426_33"
+    "explanation": "4x = 55 - 19 = 36, so x = 9",
+    "_cacheBreaker": "1756035526320_33"
   },
   {
     "_id": "math_9_medium_034",
-    "content": "What is cos(60°)?",
+    "content": "Solve: 6x + 18 = 48",
     "type": "multiple_choice",
     "options": [
-      "1/2",
-      "√3/2",
-      "1",
-      "0"
+      "x = 4",
+      "x = 5",
+      "x = 6",
+      "x = 7"
     ],
-    "correctAnswer": "1/2",
+    "correctAnswer": "x = 5",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "cos(60°) = 1/2",
-    "_cacheBreaker": "1756033578426_34"
+    "explanation": "6x = 48 - 18 = 30, so x = 5",
+    "_cacheBreaker": "1756035526320_34"
   },
   {
     "_id": "math_9_medium_035",
-    "content": "Solve the system: x + y = 5, x - y = 1",
+    "content": "Solve: 2x + 19 = 39",
     "type": "multiple_choice",
     "options": [
-      "x=3, y=2",
-      "x=2, y=3",
-      "x=4, y=1",
-      "x=1, y=4"
+      "x = 9",
+      "x = 10",
+      "x = 11",
+      "x = 12"
     ],
-    "correctAnswer": "x=3, y=2",
+    "correctAnswer": "x = 10",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "Adding equations: 2x = 6, so x = 3. Then y = 5 - 3 = 2",
-    "_cacheBreaker": "1756033578426_35"
+    "explanation": "2x = 39 - 19 = 20, so x = 10",
+    "_cacheBreaker": "1756035526320_35"
   },
   {
     "_id": "math_9_medium_036",
-    "content": "Find the discriminant of x² - 4x + 3 = 0",
+    "content": "Solve: 5x + 22 = 77",
     "type": "multiple_choice",
     "options": [
-      "4",
-      "8",
-      "12",
-      "16"
+      "x = 10",
+      "x = 11",
+      "x = 12",
+      "x = 13"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "x = 11",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "Discriminant = b² - 4ac = (-4)² - 4(1)(3) = 16 - 12 = 4",
-    "_cacheBreaker": "1756033578426_36"
+    "explanation": "5x = 77 - 22 = 55, so x = 11",
+    "_cacheBreaker": "1756035526320_36"
   },
   {
     "_id": "math_9_medium_037",
-    "content": "What is the domain of f(x) = 1/(x-2)?",
+    "content": "Solve: 6x + 7 = 37",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "x ≠ 2",
-      "x > 2",
-      "x < 2"
+      "x = 4",
+      "x = 5",
+      "x = 6",
+      "x = 7"
     ],
-    "correctAnswer": "x ≠ 2",
+    "correctAnswer": "x = 5",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "The function is undefined when x = 2 (division by zero)",
-    "_cacheBreaker": "1756033578426_37"
+    "explanation": "6x = 37 - 7 = 30, so x = 5",
+    "_cacheBreaker": "1756035526320_37"
   },
   {
     "_id": "math_9_medium_038",
-    "content": "Simplify: √(x⁴)",
+    "content": "Solve: 2x + 7 = 15",
     "type": "multiple_choice",
     "options": [
-      "x²",
-      "x⁴",
-      "2x",
-      "4x"
+      "x = 3",
+      "x = 4",
+      "x = 5",
+      "x = 6"
     ],
-    "correctAnswer": "x²",
+    "correctAnswer": "x = 4",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "√(x⁴) = x² (assuming x ≥ 0)",
-    "_cacheBreaker": "1756033578426_38"
+    "explanation": "2x = 15 - 7 = 8, so x = 4",
+    "_cacheBreaker": "1756035526320_38"
   },
   {
     "_id": "math_9_medium_039",
-    "content": "What is cos(60°)?",
+    "content": "Solve: 2x + 11 = 31",
     "type": "multiple_choice",
     "options": [
-      "1/2",
-      "√3/2",
-      "1",
-      "0"
+      "x = 9",
+      "x = 10",
+      "x = 11",
+      "x = 12"
     ],
-    "correctAnswer": "1/2",
+    "correctAnswer": "x = 10",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "cos(60°) = 1/2",
-    "_cacheBreaker": "1756033578426_39"
+    "explanation": "2x = 31 - 11 = 20, so x = 10",
+    "_cacheBreaker": "1756035526320_39"
   },
   {
     "_id": "math_9_medium_040",
-    "content": "Solve the system: x + y = 5, x - y = 1",
+    "content": "Solve: 4x + 12 = 48",
     "type": "multiple_choice",
     "options": [
-      "x=3, y=2",
-      "x=2, y=3",
-      "x=4, y=1",
-      "x=1, y=4"
+      "x = 8",
+      "x = 9",
+      "x = 10",
+      "x = 11"
     ],
-    "correctAnswer": "x=3, y=2",
+    "correctAnswer": "x = 9",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "Adding equations: 2x = 6, so x = 3. Then y = 5 - 3 = 2",
-    "_cacheBreaker": "1756033578426_40"
+    "explanation": "4x = 48 - 12 = 36, so x = 9",
+    "_cacheBreaker": "1756035526320_40"
   },
   {
     "_id": "math_9_medium_041",
-    "content": "Find the discriminant of x² - 4x + 3 = 0",
+    "content": "Solve: 4x + 15 = 59",
     "type": "multiple_choice",
     "options": [
-      "4",
-      "8",
-      "12",
-      "16"
+      "x = 10",
+      "x = 11",
+      "x = 12",
+      "x = 13"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "x = 11",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "Discriminant = b² - 4ac = (-4)² - 4(1)(3) = 16 - 12 = 4",
-    "_cacheBreaker": "1756033578426_41"
+    "explanation": "4x = 59 - 15 = 44, so x = 11",
+    "_cacheBreaker": "1756035526320_41"
   },
   {
     "_id": "math_9_medium_042",
-    "content": "What is the domain of f(x) = 1/(x-2)?",
+    "content": "Solve: 3x + 7 = 22",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "x ≠ 2",
-      "x > 2",
-      "x < 2"
+      "x = 4",
+      "x = 5",
+      "x = 6",
+      "x = 7"
     ],
-    "correctAnswer": "x ≠ 2",
+    "correctAnswer": "x = 5",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "The function is undefined when x = 2 (division by zero)",
-    "_cacheBreaker": "1756033578426_42"
+    "explanation": "3x = 22 - 7 = 15, so x = 5",
+    "_cacheBreaker": "1756035526320_42"
   },
   {
     "_id": "math_9_medium_043",
-    "content": "Simplify: √(x⁴)",
+    "content": "Solve: 4x + 19 = 31",
     "type": "multiple_choice",
     "options": [
-      "x²",
-      "x⁴",
-      "2x",
-      "4x"
+      "x = 2",
+      "x = 3",
+      "x = 4",
+      "x = 5"
     ],
-    "correctAnswer": "x²",
+    "correctAnswer": "x = 3",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "√(x⁴) = x² (assuming x ≥ 0)",
-    "_cacheBreaker": "1756033578426_43"
+    "explanation": "4x = 31 - 19 = 12, so x = 3",
+    "_cacheBreaker": "1756035526320_43"
   },
   {
     "_id": "math_9_medium_044",
-    "content": "What is cos(60°)?",
+    "content": "Solve: 4x + 16 = 48",
     "type": "multiple_choice",
     "options": [
-      "1/2",
-      "√3/2",
-      "1",
-      "0"
+      "x = 7",
+      "x = 8",
+      "x = 9",
+      "x = 10"
     ],
-    "correctAnswer": "1/2",
+    "correctAnswer": "x = 8",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "cos(60°) = 1/2",
-    "_cacheBreaker": "1756033578426_44"
+    "explanation": "4x = 48 - 16 = 32, so x = 8",
+    "_cacheBreaker": "1756035526320_44"
   },
   {
     "_id": "math_9_medium_045",
-    "content": "Solve the system: x + y = 5, x - y = 1",
+    "content": "Solve: 4x + 8 = 44",
     "type": "multiple_choice",
     "options": [
-      "x=3, y=2",
-      "x=2, y=3",
-      "x=4, y=1",
-      "x=1, y=4"
+      "x = 8",
+      "x = 9",
+      "x = 10",
+      "x = 11"
     ],
-    "correctAnswer": "x=3, y=2",
+    "correctAnswer": "x = 9",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "Adding equations: 2x = 6, so x = 3. Then y = 5 - 3 = 2",
-    "_cacheBreaker": "1756033578426_45"
+    "explanation": "4x = 44 - 8 = 36, so x = 9",
+    "_cacheBreaker": "1756035526320_45"
   },
   {
     "_id": "math_9_medium_046",
-    "content": "Find the discriminant of x² - 4x + 3 = 0",
+    "content": "Solve: 6x + 6 = 30",
     "type": "multiple_choice",
     "options": [
-      "4",
-      "8",
-      "12",
-      "16"
+      "x = 3",
+      "x = 4",
+      "x = 5",
+      "x = 6"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "x = 4",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "Discriminant = b² - 4ac = (-4)² - 4(1)(3) = 16 - 12 = 4",
-    "_cacheBreaker": "1756033578426_46"
+    "explanation": "6x = 30 - 6 = 24, so x = 4",
+    "_cacheBreaker": "1756035526320_46"
   },
   {
     "_id": "math_9_medium_047",
-    "content": "What is the domain of f(x) = 1/(x-2)?",
+    "content": "Solve: 5x + 20 = 30",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "x ≠ 2",
-      "x > 2",
-      "x < 2"
+      "x = 1",
+      "x = 2",
+      "x = 3",
+      "x = 4"
     ],
-    "correctAnswer": "x ≠ 2",
+    "correctAnswer": "x = 2",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "The function is undefined when x = 2 (division by zero)",
-    "_cacheBreaker": "1756033578426_47"
+    "explanation": "5x = 30 - 20 = 10, so x = 2",
+    "_cacheBreaker": "1756035526320_47"
   },
   {
     "_id": "math_9_medium_048",
-    "content": "Simplify: √(x⁴)",
+    "content": "Solve: 2x + 19 = 35",
     "type": "multiple_choice",
     "options": [
-      "x²",
-      "x⁴",
-      "2x",
-      "4x"
+      "x = 7",
+      "x = 8",
+      "x = 9",
+      "x = 10"
     ],
-    "correctAnswer": "x²",
+    "correctAnswer": "x = 8",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "√(x⁴) = x² (assuming x ≥ 0)",
-    "_cacheBreaker": "1756033578426_48"
+    "explanation": "2x = 35 - 19 = 16, so x = 8",
+    "_cacheBreaker": "1756035526320_48"
   },
   {
     "_id": "math_9_medium_049",
-    "content": "What is cos(60°)?",
+    "content": "Solve: 4x + 17 = 61",
     "type": "multiple_choice",
     "options": [
-      "1/2",
-      "√3/2",
-      "1",
-      "0"
+      "x = 10",
+      "x = 11",
+      "x = 12",
+      "x = 13"
     ],
-    "correctAnswer": "1/2",
+    "correctAnswer": "x = 11",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "cos(60°) = 1/2",
-    "_cacheBreaker": "1756033578426_49"
+    "explanation": "4x = 61 - 17 = 44, so x = 11",
+    "_cacheBreaker": "1756035526320_49"
   },
   {
     "_id": "math_9_medium_050",
-    "content": "Solve the system: x + y = 5, x - y = 1",
+    "content": "Solve: 2x + 17 = 31",
     "type": "multiple_choice",
     "options": [
-      "x=3, y=2",
-      "x=2, y=3",
-      "x=4, y=1",
-      "x=1, y=4"
+      "x = 6",
+      "x = 7",
+      "x = 8",
+      "x = 9"
     ],
-    "correctAnswer": "x=3, y=2",
+    "correctAnswer": "x = 7",
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
-    "explanation": "Adding equations: 2x = 6, so x = 3. Then y = 5 - 3 = 2",
-    "_cacheBreaker": "1756033578426_50"
+    "explanation": "2x = 31 - 17 = 14, so x = 7",
+    "_cacheBreaker": "1756035526320_50"
   }
 ]

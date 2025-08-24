@@ -1,852 +1,852 @@
 [
   {
     "_id": "math_9_hard_001",
-    "content": "Find the derivative of f(x) = x³ - 2x² + x",
+    "content": "What is 5^4?",
     "type": "multiple_choice",
     "options": [
-      "3x² - 4x + 1",
-      "x² - 2x",
-      "3x² - 2x + 1",
-      "3x - 4"
+      "620",
+      "625",
+      "633",
+      "640"
     ],
-    "correctAnswer": "3x² - 4x + 1",
+    "correctAnswer": "625",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "f'(x) = 3x² - 4x + 1 using power rule",
-    "_cacheBreaker": "1756033578427_1"
+    "explanation": "5^4 = 625",
+    "_cacheBreaker": "1756035526320_1"
   },
   {
     "_id": "math_9_hard_002",
-    "content": "What is the limit of (x² - 4)/(x - 2) as x approaches 2?",
+    "content": "What is 5^3?",
     "type": "multiple_choice",
     "options": [
-      "0",
-      "2",
-      "4",
-      "undefined"
+      "120",
+      "125",
+      "133",
+      "140"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "125",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "Factor: (x-2)(x+2)/(x-2) = x+2. As x→2, limit = 4",
-    "_cacheBreaker": "1756033578427_2"
+    "explanation": "5^3 = 125",
+    "_cacheBreaker": "1756035526321_2"
   },
   {
     "_id": "math_9_hard_003",
-    "content": "Solve: log₂(x) = 3",
+    "content": "What is 2^4?",
     "type": "multiple_choice",
     "options": [
-      "x = 6",
-      "x = 8",
-      "x = 9",
-      "x = 12"
+      "11",
+      "16",
+      "24",
+      "31"
     ],
-    "correctAnswer": "x = 8",
+    "correctAnswer": "16",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "log₂(x) = 3 means 2³ = x, so x = 8",
-    "_cacheBreaker": "1756033578427_3"
+    "explanation": "2^4 = 16",
+    "_cacheBreaker": "1756035526321_3"
   },
   {
     "_id": "math_9_hard_004",
-    "content": "Find the integral of 2x dx",
+    "content": "What is 4^3?",
     "type": "multiple_choice",
     "options": [
-      "x² + C",
-      "2x² + C",
-      "x²/2 + C",
-      "2x + C"
+      "59",
+      "64",
+      "72",
+      "79"
     ],
-    "correctAnswer": "x² + C",
+    "correctAnswer": "64",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "∫2x dx = x² + C",
-    "_cacheBreaker": "1756033578427_4"
+    "explanation": "4^3 = 64",
+    "_cacheBreaker": "1756035526321_4"
   },
   {
     "_id": "math_9_hard_005",
-    "content": "What is the period of sin(2x)?",
+    "content": "What is 6^2?",
     "type": "multiple_choice",
     "options": [
-      "π",
-      "2π",
-      "π/2",
-      "4π"
+      "31",
+      "36",
+      "44",
+      "51"
     ],
-    "correctAnswer": "π",
+    "correctAnswer": "36",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "Period of sin(kx) is 2π/k. For sin(2x), period = 2π/2 = π",
-    "_cacheBreaker": "1756033578427_5"
+    "explanation": "6^2 = 36",
+    "_cacheBreaker": "1756035526321_5"
   },
   {
     "_id": "math_9_hard_006",
-    "content": "Find the derivative of f(x) = x³ - 2x² + x",
+    "content": "What is 3^2?",
     "type": "multiple_choice",
     "options": [
-      "3x² - 4x + 1",
-      "x² - 2x",
-      "3x² - 2x + 1",
-      "3x - 4"
+      "4",
+      "9",
+      "17",
+      "24"
     ],
-    "correctAnswer": "3x² - 4x + 1",
+    "correctAnswer": "9",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "f'(x) = 3x² - 4x + 1 using power rule",
-    "_cacheBreaker": "1756033578427_6"
+    "explanation": "3^2 = 9",
+    "_cacheBreaker": "1756035526321_6"
   },
   {
     "_id": "math_9_hard_007",
-    "content": "What is the limit of (x² - 4)/(x - 2) as x approaches 2?",
+    "content": "What is 8^3?",
     "type": "multiple_choice",
     "options": [
-      "0",
-      "2",
-      "4",
-      "undefined"
+      "507",
+      "512",
+      "520",
+      "527"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "512",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "Factor: (x-2)(x+2)/(x-2) = x+2. As x→2, limit = 4",
-    "_cacheBreaker": "1756033578427_7"
+    "explanation": "8^3 = 512",
+    "_cacheBreaker": "1756035526321_7"
   },
   {
     "_id": "math_9_hard_008",
-    "content": "Solve: log₂(x) = 3",
+    "content": "What is 5^2?",
     "type": "multiple_choice",
     "options": [
-      "x = 6",
-      "x = 8",
-      "x = 9",
-      "x = 12"
+      "20",
+      "25",
+      "33",
+      "40"
     ],
-    "correctAnswer": "x = 8",
+    "correctAnswer": "25",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "log₂(x) = 3 means 2³ = x, so x = 8",
-    "_cacheBreaker": "1756033578427_8"
+    "explanation": "5^2 = 25",
+    "_cacheBreaker": "1756035526321_8"
   },
   {
     "_id": "math_9_hard_009",
-    "content": "Find the integral of 2x dx",
+    "content": "What is 5^2?",
     "type": "multiple_choice",
     "options": [
-      "x² + C",
-      "2x² + C",
-      "x²/2 + C",
-      "2x + C"
+      "20",
+      "25",
+      "33",
+      "40"
     ],
-    "correctAnswer": "x² + C",
+    "correctAnswer": "25",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "∫2x dx = x² + C",
-    "_cacheBreaker": "1756033578427_9"
+    "explanation": "5^2 = 25",
+    "_cacheBreaker": "1756035526321_9"
   },
   {
     "_id": "math_9_hard_010",
-    "content": "What is the period of sin(2x)?",
+    "content": "What is 3^2?",
     "type": "multiple_choice",
     "options": [
-      "π",
-      "2π",
-      "π/2",
-      "4π"
+      "4",
+      "9",
+      "17",
+      "24"
     ],
-    "correctAnswer": "π",
+    "correctAnswer": "9",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "Period of sin(kx) is 2π/k. For sin(2x), period = 2π/2 = π",
-    "_cacheBreaker": "1756033578427_10"
+    "explanation": "3^2 = 9",
+    "_cacheBreaker": "1756035526321_10"
   },
   {
     "_id": "math_9_hard_011",
-    "content": "Find the derivative of f(x) = x³ - 2x² + x",
+    "content": "What is 9^2?",
     "type": "multiple_choice",
     "options": [
-      "3x² - 4x + 1",
-      "x² - 2x",
-      "3x² - 2x + 1",
-      "3x - 4"
+      "76",
+      "81",
+      "89",
+      "96"
     ],
-    "correctAnswer": "3x² - 4x + 1",
+    "correctAnswer": "81",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "f'(x) = 3x² - 4x + 1 using power rule",
-    "_cacheBreaker": "1756033578427_11"
+    "explanation": "9^2 = 81",
+    "_cacheBreaker": "1756035526321_11"
   },
   {
     "_id": "math_9_hard_012",
-    "content": "What is the limit of (x² - 4)/(x - 2) as x approaches 2?",
+    "content": "What is 6^4?",
     "type": "multiple_choice",
     "options": [
-      "0",
-      "2",
-      "4",
-      "undefined"
+      "1291",
+      "1296",
+      "1304",
+      "1311"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "1296",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "Factor: (x-2)(x+2)/(x-2) = x+2. As x→2, limit = 4",
-    "_cacheBreaker": "1756033578427_12"
+    "explanation": "6^4 = 1296",
+    "_cacheBreaker": "1756035526321_12"
   },
   {
     "_id": "math_9_hard_013",
-    "content": "Solve: log₂(x) = 3",
+    "content": "What is 2^3?",
     "type": "multiple_choice",
     "options": [
-      "x = 6",
-      "x = 8",
-      "x = 9",
-      "x = 12"
+      "3",
+      "8",
+      "16",
+      "23"
     ],
-    "correctAnswer": "x = 8",
+    "correctAnswer": "8",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "log₂(x) = 3 means 2³ = x, so x = 8",
-    "_cacheBreaker": "1756033578427_13"
+    "explanation": "2^3 = 8",
+    "_cacheBreaker": "1756035526321_13"
   },
   {
     "_id": "math_9_hard_014",
-    "content": "Find the integral of 2x dx",
+    "content": "What is 4^3?",
     "type": "multiple_choice",
     "options": [
-      "x² + C",
-      "2x² + C",
-      "x²/2 + C",
-      "2x + C"
+      "59",
+      "64",
+      "72",
+      "79"
     ],
-    "correctAnswer": "x² + C",
+    "correctAnswer": "64",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "∫2x dx = x² + C",
-    "_cacheBreaker": "1756033578427_14"
+    "explanation": "4^3 = 64",
+    "_cacheBreaker": "1756035526321_14"
   },
   {
     "_id": "math_9_hard_015",
-    "content": "What is the period of sin(2x)?",
+    "content": "What is 7^3?",
     "type": "multiple_choice",
     "options": [
-      "π",
-      "2π",
-      "π/2",
-      "4π"
+      "338",
+      "343",
+      "351",
+      "358"
     ],
-    "correctAnswer": "π",
+    "correctAnswer": "343",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "Period of sin(kx) is 2π/k. For sin(2x), period = 2π/2 = π",
-    "_cacheBreaker": "1756033578427_15"
+    "explanation": "7^3 = 343",
+    "_cacheBreaker": "1756035526321_15"
   },
   {
     "_id": "math_9_hard_016",
-    "content": "Find the derivative of f(x) = x³ - 2x² + x",
+    "content": "What is 6^4?",
     "type": "multiple_choice",
     "options": [
-      "3x² - 4x + 1",
-      "x² - 2x",
-      "3x² - 2x + 1",
-      "3x - 4"
+      "1291",
+      "1296",
+      "1304",
+      "1311"
     ],
-    "correctAnswer": "3x² - 4x + 1",
+    "correctAnswer": "1296",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "f'(x) = 3x² - 4x + 1 using power rule",
-    "_cacheBreaker": "1756033578427_16"
+    "explanation": "6^4 = 1296",
+    "_cacheBreaker": "1756035526321_16"
   },
   {
     "_id": "math_9_hard_017",
-    "content": "What is the limit of (x² - 4)/(x - 2) as x approaches 2?",
+    "content": "What is 5^3?",
     "type": "multiple_choice",
     "options": [
-      "0",
-      "2",
-      "4",
-      "undefined"
+      "120",
+      "125",
+      "133",
+      "140"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "125",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "Factor: (x-2)(x+2)/(x-2) = x+2. As x→2, limit = 4",
-    "_cacheBreaker": "1756033578427_17"
+    "explanation": "5^3 = 125",
+    "_cacheBreaker": "1756035526321_17"
   },
   {
     "_id": "math_9_hard_018",
-    "content": "Solve: log₂(x) = 3",
+    "content": "What is 5^2?",
     "type": "multiple_choice",
     "options": [
-      "x = 6",
-      "x = 8",
-      "x = 9",
-      "x = 12"
+      "20",
+      "25",
+      "33",
+      "40"
     ],
-    "correctAnswer": "x = 8",
+    "correctAnswer": "25",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "log₂(x) = 3 means 2³ = x, so x = 8",
-    "_cacheBreaker": "1756033578427_18"
+    "explanation": "5^2 = 25",
+    "_cacheBreaker": "1756035526321_18"
   },
   {
     "_id": "math_9_hard_019",
-    "content": "Find the integral of 2x dx",
+    "content": "What is 3^4?",
     "type": "multiple_choice",
     "options": [
-      "x² + C",
-      "2x² + C",
-      "x²/2 + C",
-      "2x + C"
+      "76",
+      "81",
+      "89",
+      "96"
     ],
-    "correctAnswer": "x² + C",
+    "correctAnswer": "81",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "∫2x dx = x² + C",
-    "_cacheBreaker": "1756033578427_19"
+    "explanation": "3^4 = 81",
+    "_cacheBreaker": "1756035526321_19"
   },
   {
     "_id": "math_9_hard_020",
-    "content": "What is the period of sin(2x)?",
+    "content": "What is 3^4?",
     "type": "multiple_choice",
     "options": [
-      "π",
-      "2π",
-      "π/2",
-      "4π"
+      "76",
+      "81",
+      "89",
+      "96"
     ],
-    "correctAnswer": "π",
+    "correctAnswer": "81",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "Period of sin(kx) is 2π/k. For sin(2x), period = 2π/2 = π",
-    "_cacheBreaker": "1756033578427_20"
+    "explanation": "3^4 = 81",
+    "_cacheBreaker": "1756035526321_20"
   },
   {
     "_id": "math_9_hard_021",
-    "content": "Find the derivative of f(x) = x³ - 2x² + x",
+    "content": "What is 9^3?",
     "type": "multiple_choice",
     "options": [
-      "3x² - 4x + 1",
-      "x² - 2x",
-      "3x² - 2x + 1",
-      "3x - 4"
+      "724",
+      "729",
+      "737",
+      "744"
     ],
-    "correctAnswer": "3x² - 4x + 1",
+    "correctAnswer": "729",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "f'(x) = 3x² - 4x + 1 using power rule",
-    "_cacheBreaker": "1756033578427_21"
+    "explanation": "9^3 = 729",
+    "_cacheBreaker": "1756035526321_21"
   },
   {
     "_id": "math_9_hard_022",
-    "content": "What is the limit of (x² - 4)/(x - 2) as x approaches 2?",
+    "content": "What is 5^3?",
     "type": "multiple_choice",
     "options": [
-      "0",
-      "2",
-      "4",
-      "undefined"
+      "120",
+      "125",
+      "133",
+      "140"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "125",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "Factor: (x-2)(x+2)/(x-2) = x+2. As x→2, limit = 4",
-    "_cacheBreaker": "1756033578427_22"
+    "explanation": "5^3 = 125",
+    "_cacheBreaker": "1756035526321_22"
   },
   {
     "_id": "math_9_hard_023",
-    "content": "Solve: log₂(x) = 3",
+    "content": "What is 7^2?",
     "type": "multiple_choice",
     "options": [
-      "x = 6",
-      "x = 8",
-      "x = 9",
-      "x = 12"
+      "44",
+      "49",
+      "57",
+      "64"
     ],
-    "correctAnswer": "x = 8",
+    "correctAnswer": "49",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "log₂(x) = 3 means 2³ = x, so x = 8",
-    "_cacheBreaker": "1756033578427_23"
+    "explanation": "7^2 = 49",
+    "_cacheBreaker": "1756035526321_23"
   },
   {
     "_id": "math_9_hard_024",
-    "content": "Find the integral of 2x dx",
+    "content": "What is 7^4?",
     "type": "multiple_choice",
     "options": [
-      "x² + C",
-      "2x² + C",
-      "x²/2 + C",
-      "2x + C"
+      "2396",
+      "2401",
+      "2409",
+      "2416"
     ],
-    "correctAnswer": "x² + C",
+    "correctAnswer": "2401",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "∫2x dx = x² + C",
-    "_cacheBreaker": "1756033578427_24"
+    "explanation": "7^4 = 2401",
+    "_cacheBreaker": "1756035526321_24"
   },
   {
     "_id": "math_9_hard_025",
-    "content": "What is the period of sin(2x)?",
+    "content": "What is 2^3?",
     "type": "multiple_choice",
     "options": [
-      "π",
-      "2π",
-      "π/2",
-      "4π"
+      "3",
+      "8",
+      "16",
+      "23"
     ],
-    "correctAnswer": "π",
+    "correctAnswer": "8",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "Period of sin(kx) is 2π/k. For sin(2x), period = 2π/2 = π",
-    "_cacheBreaker": "1756033578427_25"
+    "explanation": "2^3 = 8",
+    "_cacheBreaker": "1756035526321_25"
   },
   {
     "_id": "math_9_hard_026",
-    "content": "Find the derivative of f(x) = x³ - 2x² + x",
+    "content": "What is 8^2?",
     "type": "multiple_choice",
     "options": [
-      "3x² - 4x + 1",
-      "x² - 2x",
-      "3x² - 2x + 1",
-      "3x - 4"
+      "59",
+      "64",
+      "72",
+      "79"
     ],
-    "correctAnswer": "3x² - 4x + 1",
+    "correctAnswer": "64",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "f'(x) = 3x² - 4x + 1 using power rule",
-    "_cacheBreaker": "1756033578427_26"
+    "explanation": "8^2 = 64",
+    "_cacheBreaker": "1756035526321_26"
   },
   {
     "_id": "math_9_hard_027",
-    "content": "What is the limit of (x² - 4)/(x - 2) as x approaches 2?",
+    "content": "What is 6^4?",
     "type": "multiple_choice",
     "options": [
-      "0",
-      "2",
-      "4",
-      "undefined"
+      "1291",
+      "1296",
+      "1304",
+      "1311"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "1296",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "Factor: (x-2)(x+2)/(x-2) = x+2. As x→2, limit = 4",
-    "_cacheBreaker": "1756033578427_27"
+    "explanation": "6^4 = 1296",
+    "_cacheBreaker": "1756035526321_27"
   },
   {
     "_id": "math_9_hard_028",
-    "content": "Solve: log₂(x) = 3",
+    "content": "What is 6^4?",
     "type": "multiple_choice",
     "options": [
-      "x = 6",
-      "x = 8",
-      "x = 9",
-      "x = 12"
+      "1291",
+      "1296",
+      "1304",
+      "1311"
     ],
-    "correctAnswer": "x = 8",
+    "correctAnswer": "1296",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "log₂(x) = 3 means 2³ = x, so x = 8",
-    "_cacheBreaker": "1756033578427_28"
+    "explanation": "6^4 = 1296",
+    "_cacheBreaker": "1756035526321_28"
   },
   {
     "_id": "math_9_hard_029",
-    "content": "Find the integral of 2x dx",
+    "content": "What is 5^4?",
     "type": "multiple_choice",
     "options": [
-      "x² + C",
-      "2x² + C",
-      "x²/2 + C",
-      "2x + C"
+      "620",
+      "625",
+      "633",
+      "640"
     ],
-    "correctAnswer": "x² + C",
+    "correctAnswer": "625",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "∫2x dx = x² + C",
-    "_cacheBreaker": "1756033578427_29"
+    "explanation": "5^4 = 625",
+    "_cacheBreaker": "1756035526321_29"
   },
   {
     "_id": "math_9_hard_030",
-    "content": "What is the period of sin(2x)?",
+    "content": "What is 7^4?",
     "type": "multiple_choice",
     "options": [
-      "π",
-      "2π",
-      "π/2",
-      "4π"
+      "2396",
+      "2401",
+      "2409",
+      "2416"
     ],
-    "correctAnswer": "π",
+    "correctAnswer": "2401",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "Period of sin(kx) is 2π/k. For sin(2x), period = 2π/2 = π",
-    "_cacheBreaker": "1756033578427_30"
+    "explanation": "7^4 = 2401",
+    "_cacheBreaker": "1756035526321_30"
   },
   {
     "_id": "math_9_hard_031",
-    "content": "Find the derivative of f(x) = x³ - 2x² + x",
+    "content": "What is 2^4?",
     "type": "multiple_choice",
     "options": [
-      "3x² - 4x + 1",
-      "x² - 2x",
-      "3x² - 2x + 1",
-      "3x - 4"
+      "11",
+      "16",
+      "24",
+      "31"
     ],
-    "correctAnswer": "3x² - 4x + 1",
+    "correctAnswer": "16",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "f'(x) = 3x² - 4x + 1 using power rule",
-    "_cacheBreaker": "1756033578427_31"
+    "explanation": "2^4 = 16",
+    "_cacheBreaker": "1756035526321_31"
   },
   {
     "_id": "math_9_hard_032",
-    "content": "What is the limit of (x² - 4)/(x - 2) as x approaches 2?",
+    "content": "What is 3^4?",
     "type": "multiple_choice",
     "options": [
-      "0",
-      "2",
-      "4",
-      "undefined"
+      "76",
+      "81",
+      "89",
+      "96"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "81",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "Factor: (x-2)(x+2)/(x-2) = x+2. As x→2, limit = 4",
-    "_cacheBreaker": "1756033578427_32"
+    "explanation": "3^4 = 81",
+    "_cacheBreaker": "1756035526321_32"
   },
   {
     "_id": "math_9_hard_033",
-    "content": "Solve: log₂(x) = 3",
+    "content": "What is 9^4?",
     "type": "multiple_choice",
     "options": [
-      "x = 6",
-      "x = 8",
-      "x = 9",
-      "x = 12"
+      "6556",
+      "6561",
+      "6569",
+      "6576"
     ],
-    "correctAnswer": "x = 8",
+    "correctAnswer": "6561",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "log₂(x) = 3 means 2³ = x, so x = 8",
-    "_cacheBreaker": "1756033578427_33"
+    "explanation": "9^4 = 6561",
+    "_cacheBreaker": "1756035526321_33"
   },
   {
     "_id": "math_9_hard_034",
-    "content": "Find the integral of 2x dx",
+    "content": "What is 2^3?",
     "type": "multiple_choice",
     "options": [
-      "x² + C",
-      "2x² + C",
-      "x²/2 + C",
-      "2x + C"
+      "3",
+      "8",
+      "16",
+      "23"
     ],
-    "correctAnswer": "x² + C",
+    "correctAnswer": "8",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "∫2x dx = x² + C",
-    "_cacheBreaker": "1756033578427_34"
+    "explanation": "2^3 = 8",
+    "_cacheBreaker": "1756035526321_34"
   },
   {
     "_id": "math_9_hard_035",
-    "content": "What is the period of sin(2x)?",
+    "content": "What is 9^4?",
     "type": "multiple_choice",
     "options": [
-      "π",
-      "2π",
-      "π/2",
-      "4π"
+      "6556",
+      "6561",
+      "6569",
+      "6576"
     ],
-    "correctAnswer": "π",
+    "correctAnswer": "6561",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "Period of sin(kx) is 2π/k. For sin(2x), period = 2π/2 = π",
-    "_cacheBreaker": "1756033578427_35"
+    "explanation": "9^4 = 6561",
+    "_cacheBreaker": "1756035526321_35"
   },
   {
     "_id": "math_9_hard_036",
-    "content": "Find the derivative of f(x) = x³ - 2x² + x",
+    "content": "What is 4^4?",
     "type": "multiple_choice",
     "options": [
-      "3x² - 4x + 1",
-      "x² - 2x",
-      "3x² - 2x + 1",
-      "3x - 4"
+      "251",
+      "256",
+      "264",
+      "271"
     ],
-    "correctAnswer": "3x² - 4x + 1",
+    "correctAnswer": "256",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "f'(x) = 3x² - 4x + 1 using power rule",
-    "_cacheBreaker": "1756033578427_36"
+    "explanation": "4^4 = 256",
+    "_cacheBreaker": "1756035526321_36"
   },
   {
     "_id": "math_9_hard_037",
-    "content": "What is the limit of (x² - 4)/(x - 2) as x approaches 2?",
+    "content": "What is 7^3?",
     "type": "multiple_choice",
     "options": [
-      "0",
-      "2",
-      "4",
-      "undefined"
+      "338",
+      "343",
+      "351",
+      "358"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "343",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "Factor: (x-2)(x+2)/(x-2) = x+2. As x→2, limit = 4",
-    "_cacheBreaker": "1756033578427_37"
+    "explanation": "7^3 = 343",
+    "_cacheBreaker": "1756035526321_37"
   },
   {
     "_id": "math_9_hard_038",
-    "content": "Solve: log₂(x) = 3",
+    "content": "What is 5^3?",
     "type": "multiple_choice",
     "options": [
-      "x = 6",
-      "x = 8",
-      "x = 9",
-      "x = 12"
+      "120",
+      "125",
+      "133",
+      "140"
     ],
-    "correctAnswer": "x = 8",
+    "correctAnswer": "125",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "log₂(x) = 3 means 2³ = x, so x = 8",
-    "_cacheBreaker": "1756033578427_38"
+    "explanation": "5^3 = 125",
+    "_cacheBreaker": "1756035526321_38"
   },
   {
     "_id": "math_9_hard_039",
-    "content": "Find the integral of 2x dx",
+    "content": "What is 4^3?",
     "type": "multiple_choice",
     "options": [
-      "x² + C",
-      "2x² + C",
-      "x²/2 + C",
-      "2x + C"
+      "59",
+      "64",
+      "72",
+      "79"
     ],
-    "correctAnswer": "x² + C",
+    "correctAnswer": "64",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "∫2x dx = x² + C",
-    "_cacheBreaker": "1756033578427_39"
+    "explanation": "4^3 = 64",
+    "_cacheBreaker": "1756035526321_39"
   },
   {
     "_id": "math_9_hard_040",
-    "content": "What is the period of sin(2x)?",
+    "content": "What is 3^4?",
     "type": "multiple_choice",
     "options": [
-      "π",
-      "2π",
-      "π/2",
-      "4π"
+      "76",
+      "81",
+      "89",
+      "96"
     ],
-    "correctAnswer": "π",
+    "correctAnswer": "81",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "Period of sin(kx) is 2π/k. For sin(2x), period = 2π/2 = π",
-    "_cacheBreaker": "1756033578427_40"
+    "explanation": "3^4 = 81",
+    "_cacheBreaker": "1756035526321_40"
   },
   {
     "_id": "math_9_hard_041",
-    "content": "Find the derivative of f(x) = x³ - 2x² + x",
+    "content": "What is 2^4?",
     "type": "multiple_choice",
     "options": [
-      "3x² - 4x + 1",
-      "x² - 2x",
-      "3x² - 2x + 1",
-      "3x - 4"
+      "11",
+      "16",
+      "24",
+      "31"
     ],
-    "correctAnswer": "3x² - 4x + 1",
+    "correctAnswer": "16",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "f'(x) = 3x² - 4x + 1 using power rule",
-    "_cacheBreaker": "1756033578427_41"
+    "explanation": "2^4 = 16",
+    "_cacheBreaker": "1756035526321_41"
   },
   {
     "_id": "math_9_hard_042",
-    "content": "What is the limit of (x² - 4)/(x - 2) as x approaches 2?",
+    "content": "What is 3^2?",
     "type": "multiple_choice",
     "options": [
-      "0",
-      "2",
       "4",
-      "undefined"
+      "9",
+      "17",
+      "24"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "9",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "Factor: (x-2)(x+2)/(x-2) = x+2. As x→2, limit = 4",
-    "_cacheBreaker": "1756033578427_42"
+    "explanation": "3^2 = 9",
+    "_cacheBreaker": "1756035526321_42"
   },
   {
     "_id": "math_9_hard_043",
-    "content": "Solve: log₂(x) = 3",
+    "content": "What is 3^3?",
     "type": "multiple_choice",
     "options": [
-      "x = 6",
-      "x = 8",
-      "x = 9",
-      "x = 12"
+      "22",
+      "27",
+      "35",
+      "42"
     ],
-    "correctAnswer": "x = 8",
+    "correctAnswer": "27",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "log₂(x) = 3 means 2³ = x, so x = 8",
-    "_cacheBreaker": "1756033578427_43"
+    "explanation": "3^3 = 27",
+    "_cacheBreaker": "1756035526321_43"
   },
   {
     "_id": "math_9_hard_044",
-    "content": "Find the integral of 2x dx",
+    "content": "What is 2^3?",
     "type": "multiple_choice",
     "options": [
-      "x² + C",
-      "2x² + C",
-      "x²/2 + C",
-      "2x + C"
+      "3",
+      "8",
+      "16",
+      "23"
     ],
-    "correctAnswer": "x² + C",
+    "correctAnswer": "8",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "∫2x dx = x² + C",
-    "_cacheBreaker": "1756033578427_44"
+    "explanation": "2^3 = 8",
+    "_cacheBreaker": "1756035526321_44"
   },
   {
     "_id": "math_9_hard_045",
-    "content": "What is the period of sin(2x)?",
+    "content": "What is 8^2?",
     "type": "multiple_choice",
     "options": [
-      "π",
-      "2π",
-      "π/2",
-      "4π"
+      "59",
+      "64",
+      "72",
+      "79"
     ],
-    "correctAnswer": "π",
+    "correctAnswer": "64",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "Period of sin(kx) is 2π/k. For sin(2x), period = 2π/2 = π",
-    "_cacheBreaker": "1756033578427_45"
+    "explanation": "8^2 = 64",
+    "_cacheBreaker": "1756035526321_45"
   },
   {
     "_id": "math_9_hard_046",
-    "content": "Find the derivative of f(x) = x³ - 2x² + x",
+    "content": "What is 2^4?",
     "type": "multiple_choice",
     "options": [
-      "3x² - 4x + 1",
-      "x² - 2x",
-      "3x² - 2x + 1",
-      "3x - 4"
+      "11",
+      "16",
+      "24",
+      "31"
     ],
-    "correctAnswer": "3x² - 4x + 1",
+    "correctAnswer": "16",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "f'(x) = 3x² - 4x + 1 using power rule",
-    "_cacheBreaker": "1756033578427_46"
+    "explanation": "2^4 = 16",
+    "_cacheBreaker": "1756035526321_46"
   },
   {
     "_id": "math_9_hard_047",
-    "content": "What is the limit of (x² - 4)/(x - 2) as x approaches 2?",
+    "content": "What is 2^3?",
     "type": "multiple_choice",
     "options": [
-      "0",
-      "2",
-      "4",
-      "undefined"
+      "3",
+      "8",
+      "16",
+      "23"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "8",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "Factor: (x-2)(x+2)/(x-2) = x+2. As x→2, limit = 4",
-    "_cacheBreaker": "1756033578427_47"
+    "explanation": "2^3 = 8",
+    "_cacheBreaker": "1756035526321_47"
   },
   {
     "_id": "math_9_hard_048",
-    "content": "Solve: log₂(x) = 3",
+    "content": "What is 9^3?",
     "type": "multiple_choice",
     "options": [
-      "x = 6",
-      "x = 8",
-      "x = 9",
-      "x = 12"
+      "724",
+      "729",
+      "737",
+      "744"
     ],
-    "correctAnswer": "x = 8",
+    "correctAnswer": "729",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "log₂(x) = 3 means 2³ = x, so x = 8",
-    "_cacheBreaker": "1756033578427_48"
+    "explanation": "9^3 = 729",
+    "_cacheBreaker": "1756035526321_48"
   },
   {
     "_id": "math_9_hard_049",
-    "content": "Find the integral of 2x dx",
+    "content": "What is 3^2?",
     "type": "multiple_choice",
     "options": [
-      "x² + C",
-      "2x² + C",
-      "x²/2 + C",
-      "2x + C"
+      "4",
+      "9",
+      "17",
+      "24"
     ],
-    "correctAnswer": "x² + C",
+    "correctAnswer": "9",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "∫2x dx = x² + C",
-    "_cacheBreaker": "1756033578427_49"
+    "explanation": "3^2 = 9",
+    "_cacheBreaker": "1756035526321_49"
   },
   {
     "_id": "math_9_hard_050",
-    "content": "What is the period of sin(2x)?",
+    "content": "What is 3^4?",
     "type": "multiple_choice",
     "options": [
-      "π",
-      "2π",
-      "π/2",
-      "4π"
+      "76",
+      "81",
+      "89",
+      "96"
     ],
-    "correctAnswer": "π",
+    "correctAnswer": "81",
     "subject": "math",
     "grade": "9",
     "difficulty": "hard",
-    "explanation": "Period of sin(kx) is 2π/k. For sin(2x), period = 2π/2 = π",
-    "_cacheBreaker": "1756033578427_50"
+    "explanation": "3^4 = 81",
+    "_cacheBreaker": "1756035526321_50"
   }
 ]

@@ -1,852 +1,852 @@
 [
   {
     "_id": "math_7_hard_001",
-    "content": "Solve: 7x - 14 = 6x + 21",
+    "content": "What is 5^3?",
     "type": "multiple_choice",
     "options": [
-      "x = 35",
-      "x = 28",
-      "x = 42",
-      "x = 21"
+      "120",
+      "125",
+      "133",
+      "140"
     ],
-    "correctAnswer": "x = 35",
+    "correctAnswer": "125",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "7x - 6x = 21 + 14, so x = 35",
-    "_cacheBreaker": "1756033578398_1"
+    "explanation": "5^3 = 125",
+    "_cacheBreaker": "1756035526285_1"
   },
   {
     "_id": "math_7_hard_002",
-    "content": "If f(x) = 7x² + 14x, what is f(7)?",
+    "content": "What is 4^4?",
     "type": "multiple_choice",
     "options": [
-      "441",
-      "63",
-      "21",
-      "49"
+      "251",
+      "256",
+      "264",
+      "271"
     ],
-    "correctAnswer": "441",
+    "correctAnswer": "256",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "f(7) = 7(7)² + 14(7) = 343 + 98 = 441",
-    "_cacheBreaker": "1756033578398_2"
+    "explanation": "4^4 = 256",
+    "_cacheBreaker": "1756035526286_2"
   },
   {
     "_id": "math_7_hard_003",
-    "content": "What is the vertex of the parabola y = x² - 14x + 7?",
+    "content": "What is 2^2?",
     "type": "multiple_choice",
     "options": [
-      "(7, -7)",
-      "(7, 0)",
-      "(0, 7)",
-      "(7, 7)"
+      "-1",
+      "4",
+      "12",
+      "19"
     ],
-    "correctAnswer": "(7, -7)",
+    "correctAnswer": "4",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Vertex x-coordinate = -b/2a = 14/2 = 7. y = 7² - 14(7) + 7 = -7",
-    "_cacheBreaker": "1756033578398_3"
+    "explanation": "2^2 = 4",
+    "_cacheBreaker": "1756035526286_3"
   },
   {
     "_id": "math_7_hard_004",
-    "content": "Factor completely: x² - 49",
+    "content": "What is 7^2?",
     "type": "multiple_choice",
     "options": [
-      "(x - 7)(x + 7)",
-      "(x - 7)²",
-      "x(x - 7)",
-      "Cannot be factored"
+      "44",
+      "49",
+      "57",
+      "64"
     ],
-    "correctAnswer": "(x - 7)(x + 7)",
+    "correctAnswer": "49",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "x² - 49 is a difference of squares: (x - 7)(x + 7)",
-    "_cacheBreaker": "1756033578398_4"
+    "explanation": "7^2 = 49",
+    "_cacheBreaker": "1756035526286_4"
   },
   {
     "_id": "math_7_hard_005",
-    "content": "What is the range of f(x) = -x² + 14?",
+    "content": "What is 6^2?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "y ≤ 14",
-      "y ≥ 14",
-      "y > 0"
+      "31",
+      "36",
+      "44",
+      "51"
     ],
-    "correctAnswer": "y ≤ 14",
+    "correctAnswer": "36",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Since the parabola opens downward, the maximum value is 14",
-    "_cacheBreaker": "1756033578398_5"
+    "explanation": "6^2 = 36",
+    "_cacheBreaker": "1756035526286_5"
   },
   {
     "_id": "math_7_hard_006",
-    "content": "Solve: 7x - 14 = 6x + 21",
+    "content": "What is 6^4?",
     "type": "multiple_choice",
     "options": [
-      "x = 35",
-      "x = 28",
-      "x = 42",
-      "x = 21"
+      "1291",
+      "1296",
+      "1304",
+      "1311"
     ],
-    "correctAnswer": "x = 35",
+    "correctAnswer": "1296",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "7x - 6x = 21 + 14, so x = 35",
-    "_cacheBreaker": "1756033578398_6"
+    "explanation": "6^4 = 1296",
+    "_cacheBreaker": "1756035526286_6"
   },
   {
     "_id": "math_7_hard_007",
-    "content": "If f(x) = 7x² + 14x, what is f(7)?",
+    "content": "What is 8^3?",
     "type": "multiple_choice",
     "options": [
-      "441",
-      "63",
-      "21",
-      "49"
+      "507",
+      "512",
+      "520",
+      "527"
     ],
-    "correctAnswer": "441",
+    "correctAnswer": "512",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "f(7) = 7(7)² + 14(7) = 343 + 98 = 441",
-    "_cacheBreaker": "1756033578398_7"
+    "explanation": "8^3 = 512",
+    "_cacheBreaker": "1756035526286_7"
   },
   {
     "_id": "math_7_hard_008",
-    "content": "What is the vertex of the parabola y = x² - 14x + 7?",
+    "content": "What is 5^3?",
     "type": "multiple_choice",
     "options": [
-      "(7, -7)",
-      "(7, 0)",
-      "(0, 7)",
-      "(7, 7)"
+      "120",
+      "125",
+      "133",
+      "140"
     ],
-    "correctAnswer": "(7, -7)",
+    "correctAnswer": "125",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Vertex x-coordinate = -b/2a = 14/2 = 7. y = 7² - 14(7) + 7 = -7",
-    "_cacheBreaker": "1756033578398_8"
+    "explanation": "5^3 = 125",
+    "_cacheBreaker": "1756035526286_8"
   },
   {
     "_id": "math_7_hard_009",
-    "content": "Factor completely: x² - 49",
+    "content": "What is 6^2?",
     "type": "multiple_choice",
     "options": [
-      "(x - 7)(x + 7)",
-      "(x - 7)²",
-      "x(x - 7)",
-      "Cannot be factored"
+      "31",
+      "36",
+      "44",
+      "51"
     ],
-    "correctAnswer": "(x - 7)(x + 7)",
+    "correctAnswer": "36",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "x² - 49 is a difference of squares: (x - 7)(x + 7)",
-    "_cacheBreaker": "1756033578398_9"
+    "explanation": "6^2 = 36",
+    "_cacheBreaker": "1756035526286_9"
   },
   {
     "_id": "math_7_hard_010",
-    "content": "What is the range of f(x) = -x² + 14?",
+    "content": "What is 5^2?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "y ≤ 14",
-      "y ≥ 14",
-      "y > 0"
+      "20",
+      "25",
+      "33",
+      "40"
     ],
-    "correctAnswer": "y ≤ 14",
+    "correctAnswer": "25",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Since the parabola opens downward, the maximum value is 14",
-    "_cacheBreaker": "1756033578398_10"
+    "explanation": "5^2 = 25",
+    "_cacheBreaker": "1756035526286_10"
   },
   {
     "_id": "math_7_hard_011",
-    "content": "Solve: 7x - 14 = 6x + 21",
+    "content": "What is 8^4?",
     "type": "multiple_choice",
     "options": [
-      "x = 35",
-      "x = 28",
-      "x = 42",
-      "x = 21"
+      "4091",
+      "4096",
+      "4104",
+      "4111"
     ],
-    "correctAnswer": "x = 35",
+    "correctAnswer": "4096",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "7x - 6x = 21 + 14, so x = 35",
-    "_cacheBreaker": "1756033578398_11"
+    "explanation": "8^4 = 4096",
+    "_cacheBreaker": "1756035526286_11"
   },
   {
     "_id": "math_7_hard_012",
-    "content": "If f(x) = 7x² + 14x, what is f(7)?",
+    "content": "What is 2^3?",
     "type": "multiple_choice",
     "options": [
-      "441",
-      "63",
-      "21",
-      "49"
+      "3",
+      "8",
+      "16",
+      "23"
     ],
-    "correctAnswer": "441",
+    "correctAnswer": "8",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "f(7) = 7(7)² + 14(7) = 343 + 98 = 441",
-    "_cacheBreaker": "1756033578398_12"
+    "explanation": "2^3 = 8",
+    "_cacheBreaker": "1756035526286_12"
   },
   {
     "_id": "math_7_hard_013",
-    "content": "What is the vertex of the parabola y = x² - 14x + 7?",
+    "content": "What is 4^3?",
     "type": "multiple_choice",
     "options": [
-      "(7, -7)",
-      "(7, 0)",
-      "(0, 7)",
-      "(7, 7)"
+      "59",
+      "64",
+      "72",
+      "79"
     ],
-    "correctAnswer": "(7, -7)",
+    "correctAnswer": "64",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Vertex x-coordinate = -b/2a = 14/2 = 7. y = 7² - 14(7) + 7 = -7",
-    "_cacheBreaker": "1756033578398_13"
+    "explanation": "4^3 = 64",
+    "_cacheBreaker": "1756035526286_13"
   },
   {
     "_id": "math_7_hard_014",
-    "content": "Factor completely: x² - 49",
+    "content": "What is 2^2?",
     "type": "multiple_choice",
     "options": [
-      "(x - 7)(x + 7)",
-      "(x - 7)²",
-      "x(x - 7)",
-      "Cannot be factored"
+      "-1",
+      "4",
+      "12",
+      "19"
     ],
-    "correctAnswer": "(x - 7)(x + 7)",
+    "correctAnswer": "4",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "x² - 49 is a difference of squares: (x - 7)(x + 7)",
-    "_cacheBreaker": "1756033578398_14"
+    "explanation": "2^2 = 4",
+    "_cacheBreaker": "1756035526286_14"
   },
   {
     "_id": "math_7_hard_015",
-    "content": "What is the range of f(x) = -x² + 14?",
+    "content": "What is 4^4?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "y ≤ 14",
-      "y ≥ 14",
-      "y > 0"
+      "251",
+      "256",
+      "264",
+      "271"
     ],
-    "correctAnswer": "y ≤ 14",
+    "correctAnswer": "256",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Since the parabola opens downward, the maximum value is 14",
-    "_cacheBreaker": "1756033578398_15"
+    "explanation": "4^4 = 256",
+    "_cacheBreaker": "1756035526286_15"
   },
   {
     "_id": "math_7_hard_016",
-    "content": "Solve: 7x - 14 = 6x + 21",
+    "content": "What is 3^3?",
     "type": "multiple_choice",
     "options": [
-      "x = 35",
-      "x = 28",
-      "x = 42",
-      "x = 21"
+      "22",
+      "27",
+      "35",
+      "42"
     ],
-    "correctAnswer": "x = 35",
+    "correctAnswer": "27",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "7x - 6x = 21 + 14, so x = 35",
-    "_cacheBreaker": "1756033578398_16"
+    "explanation": "3^3 = 27",
+    "_cacheBreaker": "1756035526286_16"
   },
   {
     "_id": "math_7_hard_017",
-    "content": "If f(x) = 7x² + 14x, what is f(7)?",
+    "content": "What is 9^4?",
     "type": "multiple_choice",
     "options": [
-      "441",
-      "63",
-      "21",
-      "49"
+      "6556",
+      "6561",
+      "6569",
+      "6576"
     ],
-    "correctAnswer": "441",
+    "correctAnswer": "6561",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "f(7) = 7(7)² + 14(7) = 343 + 98 = 441",
-    "_cacheBreaker": "1756033578398_17"
+    "explanation": "9^4 = 6561",
+    "_cacheBreaker": "1756035526286_17"
   },
   {
     "_id": "math_7_hard_018",
-    "content": "What is the vertex of the parabola y = x² - 14x + 7?",
+    "content": "What is 7^4?",
     "type": "multiple_choice",
     "options": [
-      "(7, -7)",
-      "(7, 0)",
-      "(0, 7)",
-      "(7, 7)"
+      "2396",
+      "2401",
+      "2409",
+      "2416"
     ],
-    "correctAnswer": "(7, -7)",
+    "correctAnswer": "2401",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Vertex x-coordinate = -b/2a = 14/2 = 7. y = 7² - 14(7) + 7 = -7",
-    "_cacheBreaker": "1756033578398_18"
+    "explanation": "7^4 = 2401",
+    "_cacheBreaker": "1756035526286_18"
   },
   {
     "_id": "math_7_hard_019",
-    "content": "Factor completely: x² - 49",
+    "content": "What is 4^3?",
     "type": "multiple_choice",
     "options": [
-      "(x - 7)(x + 7)",
-      "(x - 7)²",
-      "x(x - 7)",
-      "Cannot be factored"
+      "59",
+      "64",
+      "72",
+      "79"
     ],
-    "correctAnswer": "(x - 7)(x + 7)",
+    "correctAnswer": "64",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "x² - 49 is a difference of squares: (x - 7)(x + 7)",
-    "_cacheBreaker": "1756033578398_19"
+    "explanation": "4^3 = 64",
+    "_cacheBreaker": "1756035526286_19"
   },
   {
     "_id": "math_7_hard_020",
-    "content": "What is the range of f(x) = -x² + 14?",
+    "content": "What is 3^2?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "y ≤ 14",
-      "y ≥ 14",
-      "y > 0"
+      "4",
+      "9",
+      "17",
+      "24"
     ],
-    "correctAnswer": "y ≤ 14",
+    "correctAnswer": "9",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Since the parabola opens downward, the maximum value is 14",
-    "_cacheBreaker": "1756033578398_20"
+    "explanation": "3^2 = 9",
+    "_cacheBreaker": "1756035526286_20"
   },
   {
     "_id": "math_7_hard_021",
-    "content": "Solve: 7x - 14 = 6x + 21",
+    "content": "What is 9^3?",
     "type": "multiple_choice",
     "options": [
-      "x = 35",
-      "x = 28",
-      "x = 42",
-      "x = 21"
+      "724",
+      "729",
+      "737",
+      "744"
     ],
-    "correctAnswer": "x = 35",
+    "correctAnswer": "729",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "7x - 6x = 21 + 14, so x = 35",
-    "_cacheBreaker": "1756033578398_21"
+    "explanation": "9^3 = 729",
+    "_cacheBreaker": "1756035526286_21"
   },
   {
     "_id": "math_7_hard_022",
-    "content": "If f(x) = 7x² + 14x, what is f(7)?",
+    "content": "What is 6^3?",
     "type": "multiple_choice",
     "options": [
-      "441",
-      "63",
-      "21",
-      "49"
+      "211",
+      "216",
+      "224",
+      "231"
     ],
-    "correctAnswer": "441",
+    "correctAnswer": "216",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "f(7) = 7(7)² + 14(7) = 343 + 98 = 441",
-    "_cacheBreaker": "1756033578398_22"
+    "explanation": "6^3 = 216",
+    "_cacheBreaker": "1756035526286_22"
   },
   {
     "_id": "math_7_hard_023",
-    "content": "What is the vertex of the parabola y = x² - 14x + 7?",
+    "content": "What is 4^2?",
     "type": "multiple_choice",
     "options": [
-      "(7, -7)",
-      "(7, 0)",
-      "(0, 7)",
-      "(7, 7)"
+      "11",
+      "16",
+      "24",
+      "31"
     ],
-    "correctAnswer": "(7, -7)",
+    "correctAnswer": "16",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Vertex x-coordinate = -b/2a = 14/2 = 7. y = 7² - 14(7) + 7 = -7",
-    "_cacheBreaker": "1756033578398_23"
+    "explanation": "4^2 = 16",
+    "_cacheBreaker": "1756035526286_23"
   },
   {
     "_id": "math_7_hard_024",
-    "content": "Factor completely: x² - 49",
+    "content": "What is 4^4?",
     "type": "multiple_choice",
     "options": [
-      "(x - 7)(x + 7)",
-      "(x - 7)²",
-      "x(x - 7)",
-      "Cannot be factored"
+      "251",
+      "256",
+      "264",
+      "271"
     ],
-    "correctAnswer": "(x - 7)(x + 7)",
+    "correctAnswer": "256",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "x² - 49 is a difference of squares: (x - 7)(x + 7)",
-    "_cacheBreaker": "1756033578398_24"
+    "explanation": "4^4 = 256",
+    "_cacheBreaker": "1756035526286_24"
   },
   {
     "_id": "math_7_hard_025",
-    "content": "What is the range of f(x) = -x² + 14?",
+    "content": "What is 8^3?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "y ≤ 14",
-      "y ≥ 14",
-      "y > 0"
+      "507",
+      "512",
+      "520",
+      "527"
     ],
-    "correctAnswer": "y ≤ 14",
+    "correctAnswer": "512",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Since the parabola opens downward, the maximum value is 14",
-    "_cacheBreaker": "1756033578398_25"
+    "explanation": "8^3 = 512",
+    "_cacheBreaker": "1756035526286_25"
   },
   {
     "_id": "math_7_hard_026",
-    "content": "Solve: 7x - 14 = 6x + 21",
+    "content": "What is 6^3?",
     "type": "multiple_choice",
     "options": [
-      "x = 35",
-      "x = 28",
-      "x = 42",
-      "x = 21"
+      "211",
+      "216",
+      "224",
+      "231"
     ],
-    "correctAnswer": "x = 35",
+    "correctAnswer": "216",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "7x - 6x = 21 + 14, so x = 35",
-    "_cacheBreaker": "1756033578398_26"
+    "explanation": "6^3 = 216",
+    "_cacheBreaker": "1756035526286_26"
   },
   {
     "_id": "math_7_hard_027",
-    "content": "If f(x) = 7x² + 14x, what is f(7)?",
+    "content": "What is 3^4?",
     "type": "multiple_choice",
     "options": [
-      "441",
-      "63",
-      "21",
-      "49"
+      "76",
+      "81",
+      "89",
+      "96"
     ],
-    "correctAnswer": "441",
+    "correctAnswer": "81",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "f(7) = 7(7)² + 14(7) = 343 + 98 = 441",
-    "_cacheBreaker": "1756033578398_27"
+    "explanation": "3^4 = 81",
+    "_cacheBreaker": "1756035526286_27"
   },
   {
     "_id": "math_7_hard_028",
-    "content": "What is the vertex of the parabola y = x² - 14x + 7?",
+    "content": "What is 5^4?",
     "type": "multiple_choice",
     "options": [
-      "(7, -7)",
-      "(7, 0)",
-      "(0, 7)",
-      "(7, 7)"
+      "620",
+      "625",
+      "633",
+      "640"
     ],
-    "correctAnswer": "(7, -7)",
+    "correctAnswer": "625",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Vertex x-coordinate = -b/2a = 14/2 = 7. y = 7² - 14(7) + 7 = -7",
-    "_cacheBreaker": "1756033578398_28"
+    "explanation": "5^4 = 625",
+    "_cacheBreaker": "1756035526286_28"
   },
   {
     "_id": "math_7_hard_029",
-    "content": "Factor completely: x² - 49",
+    "content": "What is 4^3?",
     "type": "multiple_choice",
     "options": [
-      "(x - 7)(x + 7)",
-      "(x - 7)²",
-      "x(x - 7)",
-      "Cannot be factored"
+      "59",
+      "64",
+      "72",
+      "79"
     ],
-    "correctAnswer": "(x - 7)(x + 7)",
+    "correctAnswer": "64",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "x² - 49 is a difference of squares: (x - 7)(x + 7)",
-    "_cacheBreaker": "1756033578398_29"
+    "explanation": "4^3 = 64",
+    "_cacheBreaker": "1756035526286_29"
   },
   {
     "_id": "math_7_hard_030",
-    "content": "What is the range of f(x) = -x² + 14?",
+    "content": "What is 9^2?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "y ≤ 14",
-      "y ≥ 14",
-      "y > 0"
+      "76",
+      "81",
+      "89",
+      "96"
     ],
-    "correctAnswer": "y ≤ 14",
+    "correctAnswer": "81",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Since the parabola opens downward, the maximum value is 14",
-    "_cacheBreaker": "1756033578398_30"
+    "explanation": "9^2 = 81",
+    "_cacheBreaker": "1756035526286_30"
   },
   {
     "_id": "math_7_hard_031",
-    "content": "Solve: 7x - 14 = 6x + 21",
+    "content": "What is 7^2?",
     "type": "multiple_choice",
     "options": [
-      "x = 35",
-      "x = 28",
-      "x = 42",
-      "x = 21"
+      "44",
+      "49",
+      "57",
+      "64"
     ],
-    "correctAnswer": "x = 35",
+    "correctAnswer": "49",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "7x - 6x = 21 + 14, so x = 35",
-    "_cacheBreaker": "1756033578398_31"
+    "explanation": "7^2 = 49",
+    "_cacheBreaker": "1756035526286_31"
   },
   {
     "_id": "math_7_hard_032",
-    "content": "If f(x) = 7x² + 14x, what is f(7)?",
+    "content": "What is 2^4?",
     "type": "multiple_choice",
     "options": [
-      "441",
-      "63",
-      "21",
-      "49"
+      "11",
+      "16",
+      "24",
+      "31"
     ],
-    "correctAnswer": "441",
+    "correctAnswer": "16",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "f(7) = 7(7)² + 14(7) = 343 + 98 = 441",
-    "_cacheBreaker": "1756033578398_32"
+    "explanation": "2^4 = 16",
+    "_cacheBreaker": "1756035526286_32"
   },
   {
     "_id": "math_7_hard_033",
-    "content": "What is the vertex of the parabola y = x² - 14x + 7?",
+    "content": "What is 4^3?",
     "type": "multiple_choice",
     "options": [
-      "(7, -7)",
-      "(7, 0)",
-      "(0, 7)",
-      "(7, 7)"
+      "59",
+      "64",
+      "72",
+      "79"
     ],
-    "correctAnswer": "(7, -7)",
+    "correctAnswer": "64",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Vertex x-coordinate = -b/2a = 14/2 = 7. y = 7² - 14(7) + 7 = -7",
-    "_cacheBreaker": "1756033578398_33"
+    "explanation": "4^3 = 64",
+    "_cacheBreaker": "1756035526286_33"
   },
   {
     "_id": "math_7_hard_034",
-    "content": "Factor completely: x² - 49",
+    "content": "What is 6^3?",
     "type": "multiple_choice",
     "options": [
-      "(x - 7)(x + 7)",
-      "(x - 7)²",
-      "x(x - 7)",
-      "Cannot be factored"
+      "211",
+      "216",
+      "224",
+      "231"
     ],
-    "correctAnswer": "(x - 7)(x + 7)",
+    "correctAnswer": "216",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "x² - 49 is a difference of squares: (x - 7)(x + 7)",
-    "_cacheBreaker": "1756033578398_34"
+    "explanation": "6^3 = 216",
+    "_cacheBreaker": "1756035526286_34"
   },
   {
     "_id": "math_7_hard_035",
-    "content": "What is the range of f(x) = -x² + 14?",
+    "content": "What is 8^2?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "y ≤ 14",
-      "y ≥ 14",
-      "y > 0"
+      "59",
+      "64",
+      "72",
+      "79"
     ],
-    "correctAnswer": "y ≤ 14",
+    "correctAnswer": "64",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Since the parabola opens downward, the maximum value is 14",
-    "_cacheBreaker": "1756033578398_35"
+    "explanation": "8^2 = 64",
+    "_cacheBreaker": "1756035526286_35"
   },
   {
     "_id": "math_7_hard_036",
-    "content": "Solve: 7x - 14 = 6x + 21",
+    "content": "What is 6^3?",
     "type": "multiple_choice",
     "options": [
-      "x = 35",
-      "x = 28",
-      "x = 42",
-      "x = 21"
+      "211",
+      "216",
+      "224",
+      "231"
     ],
-    "correctAnswer": "x = 35",
+    "correctAnswer": "216",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "7x - 6x = 21 + 14, so x = 35",
-    "_cacheBreaker": "1756033578398_36"
+    "explanation": "6^3 = 216",
+    "_cacheBreaker": "1756035526286_36"
   },
   {
     "_id": "math_7_hard_037",
-    "content": "If f(x) = 7x² + 14x, what is f(7)?",
+    "content": "What is 6^2?",
     "type": "multiple_choice",
     "options": [
-      "441",
-      "63",
-      "21",
-      "49"
+      "31",
+      "36",
+      "44",
+      "51"
     ],
-    "correctAnswer": "441",
+    "correctAnswer": "36",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "f(7) = 7(7)² + 14(7) = 343 + 98 = 441",
-    "_cacheBreaker": "1756033578398_37"
+    "explanation": "6^2 = 36",
+    "_cacheBreaker": "1756035526286_37"
   },
   {
     "_id": "math_7_hard_038",
-    "content": "What is the vertex of the parabola y = x² - 14x + 7?",
+    "content": "What is 7^3?",
     "type": "multiple_choice",
     "options": [
-      "(7, -7)",
-      "(7, 0)",
-      "(0, 7)",
-      "(7, 7)"
+      "338",
+      "343",
+      "351",
+      "358"
     ],
-    "correctAnswer": "(7, -7)",
+    "correctAnswer": "343",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Vertex x-coordinate = -b/2a = 14/2 = 7. y = 7² - 14(7) + 7 = -7",
-    "_cacheBreaker": "1756033578398_38"
+    "explanation": "7^3 = 343",
+    "_cacheBreaker": "1756035526286_38"
   },
   {
     "_id": "math_7_hard_039",
-    "content": "Factor completely: x² - 49",
+    "content": "What is 6^2?",
     "type": "multiple_choice",
     "options": [
-      "(x - 7)(x + 7)",
-      "(x - 7)²",
-      "x(x - 7)",
-      "Cannot be factored"
+      "31",
+      "36",
+      "44",
+      "51"
     ],
-    "correctAnswer": "(x - 7)(x + 7)",
+    "correctAnswer": "36",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "x² - 49 is a difference of squares: (x - 7)(x + 7)",
-    "_cacheBreaker": "1756033578398_39"
+    "explanation": "6^2 = 36",
+    "_cacheBreaker": "1756035526286_39"
   },
   {
     "_id": "math_7_hard_040",
-    "content": "What is the range of f(x) = -x² + 14?",
+    "content": "What is 7^2?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "y ≤ 14",
-      "y ≥ 14",
-      "y > 0"
+      "44",
+      "49",
+      "57",
+      "64"
     ],
-    "correctAnswer": "y ≤ 14",
+    "correctAnswer": "49",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Since the parabola opens downward, the maximum value is 14",
-    "_cacheBreaker": "1756033578398_40"
+    "explanation": "7^2 = 49",
+    "_cacheBreaker": "1756035526286_40"
   },
   {
     "_id": "math_7_hard_041",
-    "content": "Solve: 7x - 14 = 6x + 21",
+    "content": "What is 6^3?",
     "type": "multiple_choice",
     "options": [
-      "x = 35",
-      "x = 28",
-      "x = 42",
-      "x = 21"
+      "211",
+      "216",
+      "224",
+      "231"
     ],
-    "correctAnswer": "x = 35",
+    "correctAnswer": "216",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "7x - 6x = 21 + 14, so x = 35",
-    "_cacheBreaker": "1756033578398_41"
+    "explanation": "6^3 = 216",
+    "_cacheBreaker": "1756035526286_41"
   },
   {
     "_id": "math_7_hard_042",
-    "content": "If f(x) = 7x² + 14x, what is f(7)?",
+    "content": "What is 4^4?",
     "type": "multiple_choice",
     "options": [
-      "441",
-      "63",
-      "21",
-      "49"
+      "251",
+      "256",
+      "264",
+      "271"
     ],
-    "correctAnswer": "441",
+    "correctAnswer": "256",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "f(7) = 7(7)² + 14(7) = 343 + 98 = 441",
-    "_cacheBreaker": "1756033578398_42"
+    "explanation": "4^4 = 256",
+    "_cacheBreaker": "1756035526286_42"
   },
   {
     "_id": "math_7_hard_043",
-    "content": "What is the vertex of the parabola y = x² - 14x + 7?",
+    "content": "What is 7^2?",
     "type": "multiple_choice",
     "options": [
-      "(7, -7)",
-      "(7, 0)",
-      "(0, 7)",
-      "(7, 7)"
+      "44",
+      "49",
+      "57",
+      "64"
     ],
-    "correctAnswer": "(7, -7)",
+    "correctAnswer": "49",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Vertex x-coordinate = -b/2a = 14/2 = 7. y = 7² - 14(7) + 7 = -7",
-    "_cacheBreaker": "1756033578398_43"
+    "explanation": "7^2 = 49",
+    "_cacheBreaker": "1756035526286_43"
   },
   {
     "_id": "math_7_hard_044",
-    "content": "Factor completely: x² - 49",
+    "content": "What is 4^2?",
     "type": "multiple_choice",
     "options": [
-      "(x - 7)(x + 7)",
-      "(x - 7)²",
-      "x(x - 7)",
-      "Cannot be factored"
+      "11",
+      "16",
+      "24",
+      "31"
     ],
-    "correctAnswer": "(x - 7)(x + 7)",
+    "correctAnswer": "16",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "x² - 49 is a difference of squares: (x - 7)(x + 7)",
-    "_cacheBreaker": "1756033578398_44"
+    "explanation": "4^2 = 16",
+    "_cacheBreaker": "1756035526286_44"
   },
   {
     "_id": "math_7_hard_045",
-    "content": "What is the range of f(x) = -x² + 14?",
+    "content": "What is 7^3?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "y ≤ 14",
-      "y ≥ 14",
-      "y > 0"
+      "338",
+      "343",
+      "351",
+      "358"
     ],
-    "correctAnswer": "y ≤ 14",
+    "correctAnswer": "343",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Since the parabola opens downward, the maximum value is 14",
-    "_cacheBreaker": "1756033578398_45"
+    "explanation": "7^3 = 343",
+    "_cacheBreaker": "1756035526286_45"
   },
   {
     "_id": "math_7_hard_046",
-    "content": "Solve: 7x - 14 = 6x + 21",
+    "content": "What is 7^4?",
     "type": "multiple_choice",
     "options": [
-      "x = 35",
-      "x = 28",
-      "x = 42",
-      "x = 21"
+      "2396",
+      "2401",
+      "2409",
+      "2416"
     ],
-    "correctAnswer": "x = 35",
+    "correctAnswer": "2401",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "7x - 6x = 21 + 14, so x = 35",
-    "_cacheBreaker": "1756033578398_46"
+    "explanation": "7^4 = 2401",
+    "_cacheBreaker": "1756035526286_46"
   },
   {
     "_id": "math_7_hard_047",
-    "content": "If f(x) = 7x² + 14x, what is f(7)?",
+    "content": "What is 6^3?",
     "type": "multiple_choice",
     "options": [
-      "441",
-      "63",
-      "21",
-      "49"
+      "211",
+      "216",
+      "224",
+      "231"
     ],
-    "correctAnswer": "441",
+    "correctAnswer": "216",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "f(7) = 7(7)² + 14(7) = 343 + 98 = 441",
-    "_cacheBreaker": "1756033578398_47"
+    "explanation": "6^3 = 216",
+    "_cacheBreaker": "1756035526286_47"
   },
   {
     "_id": "math_7_hard_048",
-    "content": "What is the vertex of the parabola y = x² - 14x + 7?",
+    "content": "What is 7^4?",
     "type": "multiple_choice",
     "options": [
-      "(7, -7)",
-      "(7, 0)",
-      "(0, 7)",
-      "(7, 7)"
+      "2396",
+      "2401",
+      "2409",
+      "2416"
     ],
-    "correctAnswer": "(7, -7)",
+    "correctAnswer": "2401",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Vertex x-coordinate = -b/2a = 14/2 = 7. y = 7² - 14(7) + 7 = -7",
-    "_cacheBreaker": "1756033578398_48"
+    "explanation": "7^4 = 2401",
+    "_cacheBreaker": "1756035526286_48"
   },
   {
     "_id": "math_7_hard_049",
-    "content": "Factor completely: x² - 49",
+    "content": "What is 9^4?",
     "type": "multiple_choice",
     "options": [
-      "(x - 7)(x + 7)",
-      "(x - 7)²",
-      "x(x - 7)",
-      "Cannot be factored"
+      "6556",
+      "6561",
+      "6569",
+      "6576"
     ],
-    "correctAnswer": "(x - 7)(x + 7)",
+    "correctAnswer": "6561",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "x² - 49 is a difference of squares: (x - 7)(x + 7)",
-    "_cacheBreaker": "1756033578398_49"
+    "explanation": "9^4 = 6561",
+    "_cacheBreaker": "1756035526286_49"
   },
   {
     "_id": "math_7_hard_050",
-    "content": "What is the range of f(x) = -x² + 14?",
+    "content": "What is 5^3?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "y ≤ 14",
-      "y ≥ 14",
-      "y > 0"
+      "120",
+      "125",
+      "133",
+      "140"
     ],
-    "correctAnswer": "y ≤ 14",
+    "correctAnswer": "125",
     "subject": "math",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Since the parabola opens downward, the maximum value is 14",
-    "_cacheBreaker": "1756033578398_50"
+    "explanation": "5^3 = 125",
+    "_cacheBreaker": "1756035526286_50"
   }
 ]

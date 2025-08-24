@@ -1,852 +1,852 @@
 [
   {
     "_id": "mathematical-reasoning_7_hard_001",
-    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
+    "content": "What number comes next in this pattern: 3, 5, 7, 9, ?",
     "type": "multiple_choice",
     "options": [
-      "108",
-      "162",
-      "216",
-      "270"
+      "9",
+      "11",
+      "14",
+      "16"
     ],
-    "correctAnswer": "162",
+    "correctAnswer": "11",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
-    "_cacheBreaker": "1756033578410_1"
+    "explanation": "The pattern add 2, so the next number is 11",
+    "_cacheBreaker": "1756035526303_1"
   },
   {
     "_id": "mathematical-reasoning_7_hard_002",
-    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
+    "content": "What number comes next in this pattern: 2, 5, 8, 11, ?",
     "type": "multiple_choice",
     "options": [
-      "24",
-      "48",
       "12",
-      "16"
+      "14",
+      "17",
+      "19"
     ],
-    "correctAnswer": "24",
+    "correctAnswer": "14",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "The LCM of 6 and 8 is 24",
-    "_cacheBreaker": "1756033578410_2"
+    "explanation": "The pattern add 3, so the next number is 14",
+    "_cacheBreaker": "1756035526303_2"
   },
   {
     "_id": "mathematical-reasoning_7_hard_003",
-    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
+    "content": "What number comes next in this pattern: 4, 7, 13, 25, ?",
     "type": "multiple_choice",
     "options": [
-      "6",
-      "7",
-      "8",
-      "9"
+      "47",
+      "49",
+      "52",
+      "54"
     ],
-    "correctAnswer": "6",
+    "correctAnswer": "49",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "C(3) + A(1) + B(2) = 6",
-    "_cacheBreaker": "1756033578410_3"
+    "explanation": "The pattern multiply by 2, so the next number is 49",
+    "_cacheBreaker": "1756035526303_3"
   },
   {
     "_id": "mathematical-reasoning_7_hard_004",
-    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
+    "content": "What number comes next in this pattern: 2, 4, 10, 28, ?",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "11",
-      "17",
-      "23"
+      "80",
+      "82",
+      "85",
+      "87"
     ],
-    "correctAnswer": "11",
+    "correctAnswer": "82",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
-    "_cacheBreaker": "1756033578410_4"
+    "explanation": "The pattern multiply by 3, so the next number is 82",
+    "_cacheBreaker": "1756035526303_4"
   },
   {
     "_id": "mathematical-reasoning_7_hard_005",
-    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
+    "content": "What number comes next in this pattern: 101, 91, 81, 71, ?",
     "type": "multiple_choice",
     "options": [
-      "1/8",
-      "3/8",
-      "1/2",
-      "5/8"
+      "59",
+      "61",
+      "64",
+      "66"
     ],
-    "correctAnswer": "3/8",
+    "correctAnswer": "61",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
-    "_cacheBreaker": "1756033578410_5"
+    "explanation": "The pattern subtract 10, so the next number is 61",
+    "_cacheBreaker": "1756035526303_5"
   },
   {
     "_id": "mathematical-reasoning_7_hard_006",
-    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
+    "content": "What number comes next in this pattern: 4, 6, 8, 10, ?",
     "type": "multiple_choice",
     "options": [
-      "108",
-      "162",
-      "216",
-      "270"
+      "10",
+      "12",
+      "15",
+      "17"
     ],
-    "correctAnswer": "162",
+    "correctAnswer": "12",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
-    "_cacheBreaker": "1756033578410_6"
+    "explanation": "The pattern add 2, so the next number is 12",
+    "_cacheBreaker": "1756035526303_6"
   },
   {
     "_id": "mathematical-reasoning_7_hard_007",
-    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
+    "content": "What number comes next in this pattern: 3, 6, 9, 12, ?",
     "type": "multiple_choice",
     "options": [
-      "24",
-      "48",
-      "12",
-      "16"
+      "13",
+      "15",
+      "18",
+      "20"
     ],
-    "correctAnswer": "24",
+    "correctAnswer": "15",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "The LCM of 6 and 8 is 24",
-    "_cacheBreaker": "1756033578410_7"
+    "explanation": "The pattern add 3, so the next number is 15",
+    "_cacheBreaker": "1756035526303_7"
   },
   {
     "_id": "mathematical-reasoning_7_hard_008",
-    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
+    "content": "What number comes next in this pattern: 5, 8, 14, 26, ?",
     "type": "multiple_choice",
     "options": [
-      "6",
-      "7",
-      "8",
-      "9"
+      "48",
+      "50",
+      "53",
+      "55"
     ],
-    "correctAnswer": "6",
+    "correctAnswer": "50",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "C(3) + A(1) + B(2) = 6",
-    "_cacheBreaker": "1756033578410_8"
+    "explanation": "The pattern multiply by 2, so the next number is 50",
+    "_cacheBreaker": "1756035526303_8"
   },
   {
     "_id": "mathematical-reasoning_7_hard_009",
-    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
+    "content": "What number comes next in this pattern: 3, 5, 11, 29, ?",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "11",
-      "17",
-      "23"
+      "81",
+      "83",
+      "86",
+      "88"
     ],
-    "correctAnswer": "11",
+    "correctAnswer": "83",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
-    "_cacheBreaker": "1756033578410_9"
+    "explanation": "The pattern multiply by 3, so the next number is 83",
+    "_cacheBreaker": "1756035526303_9"
   },
   {
     "_id": "mathematical-reasoning_7_hard_010",
-    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
+    "content": "What number comes next in this pattern: 102, 92, 82, 72, ?",
     "type": "multiple_choice",
     "options": [
-      "1/8",
-      "3/8",
-      "1/2",
-      "5/8"
+      "60",
+      "62",
+      "65",
+      "67"
     ],
-    "correctAnswer": "3/8",
+    "correctAnswer": "62",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
-    "_cacheBreaker": "1756033578410_10"
+    "explanation": "The pattern subtract 10, so the next number is 62",
+    "_cacheBreaker": "1756035526303_10"
   },
   {
     "_id": "mathematical-reasoning_7_hard_011",
-    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
+    "content": "What number comes next in this pattern: 5, 7, 9, 11, ?",
     "type": "multiple_choice",
     "options": [
-      "108",
-      "162",
-      "216",
-      "270"
+      "11",
+      "13",
+      "16",
+      "18"
     ],
-    "correctAnswer": "162",
+    "correctAnswer": "13",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
-    "_cacheBreaker": "1756033578410_11"
+    "explanation": "The pattern add 2, so the next number is 13",
+    "_cacheBreaker": "1756035526303_11"
   },
   {
     "_id": "mathematical-reasoning_7_hard_012",
-    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
+    "content": "What number comes next in this pattern: 4, 7, 10, 13, ?",
     "type": "multiple_choice",
     "options": [
-      "24",
-      "48",
-      "12",
-      "16"
+      "14",
+      "16",
+      "19",
+      "21"
     ],
-    "correctAnswer": "24",
+    "correctAnswer": "16",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "The LCM of 6 and 8 is 24",
-    "_cacheBreaker": "1756033578410_12"
+    "explanation": "The pattern add 3, so the next number is 16",
+    "_cacheBreaker": "1756035526303_12"
   },
   {
     "_id": "mathematical-reasoning_7_hard_013",
-    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
+    "content": "What number comes next in this pattern: 6, 9, 15, 27, ?",
     "type": "multiple_choice",
     "options": [
-      "6",
-      "7",
-      "8",
-      "9"
+      "49",
+      "51",
+      "54",
+      "56"
     ],
-    "correctAnswer": "6",
+    "correctAnswer": "51",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "C(3) + A(1) + B(2) = 6",
-    "_cacheBreaker": "1756033578410_13"
+    "explanation": "The pattern multiply by 2, so the next number is 51",
+    "_cacheBreaker": "1756035526303_13"
   },
   {
     "_id": "mathematical-reasoning_7_hard_014",
-    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
+    "content": "What number comes next in this pattern: 4, 6, 12, 30, ?",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "11",
-      "17",
-      "23"
+      "82",
+      "84",
+      "87",
+      "89"
     ],
-    "correctAnswer": "11",
+    "correctAnswer": "84",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
-    "_cacheBreaker": "1756033578410_14"
+    "explanation": "The pattern multiply by 3, so the next number is 84",
+    "_cacheBreaker": "1756035526303_14"
   },
   {
     "_id": "mathematical-reasoning_7_hard_015",
-    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
+    "content": "What number comes next in this pattern: 103, 93, 83, 73, ?",
     "type": "multiple_choice",
     "options": [
-      "1/8",
-      "3/8",
-      "1/2",
-      "5/8"
+      "61",
+      "63",
+      "66",
+      "68"
     ],
-    "correctAnswer": "3/8",
+    "correctAnswer": "63",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
-    "_cacheBreaker": "1756033578410_15"
+    "explanation": "The pattern subtract 10, so the next number is 63",
+    "_cacheBreaker": "1756035526303_15"
   },
   {
     "_id": "mathematical-reasoning_7_hard_016",
-    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
+    "content": "If all cats have whiskers, and Fluffy is a cat, what can we conclude?",
     "type": "multiple_choice",
     "options": [
-      "108",
-      "162",
-      "216",
-      "270"
+      "Fluffy has whiskers",
+      "Fluffy is orange",
+      "All animals have whiskers",
+      "Cats are pets"
     ],
-    "correctAnswer": "162",
+    "correctAnswer": "Fluffy has whiskers",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
-    "_cacheBreaker": "1756033578410_16"
+    "explanation": "Since all cats have whiskers and Fluffy is a cat, Fluffy must have whiskers",
+    "_cacheBreaker": "1756035526303_16"
   },
   {
     "_id": "mathematical-reasoning_7_hard_017",
-    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
+    "content": "In a race, Amy finished before Ben, and Ben finished before Carlos. Who finished first?",
     "type": "multiple_choice",
     "options": [
-      "24",
-      "48",
-      "12",
-      "16"
+      "Amy",
+      "Ben",
+      "Carlos",
+      "Cannot determine"
     ],
-    "correctAnswer": "24",
+    "correctAnswer": "Amy",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "The LCM of 6 and 8 is 24",
-    "_cacheBreaker": "1756033578410_17"
+    "explanation": "Amy finished before Ben, and Ben finished before Carlos, so Amy finished first",
+    "_cacheBreaker": "1756035526303_17"
   },
   {
     "_id": "mathematical-reasoning_7_hard_018",
-    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
+    "content": "If it takes 3 workers 6 hours to build a fence, how long would it take 6 workers?",
     "type": "multiple_choice",
     "options": [
-      "6",
-      "7",
-      "8",
-      "9"
+      "3 hours",
+      "6 hours",
+      "12 hours",
+      "18 hours"
     ],
-    "correctAnswer": "6",
+    "correctAnswer": "3 hours",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "C(3) + A(1) + B(2) = 6",
-    "_cacheBreaker": "1756033578410_18"
+    "explanation": "With twice as many workers, the job takes half the time: 3 hours",
+    "_cacheBreaker": "1756035526303_18"
   },
   {
     "_id": "mathematical-reasoning_7_hard_019",
-    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
+    "content": "If all cats have whiskers, and Fluffy is a cat, what can we conclude?",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "11",
-      "17",
-      "23"
+      "Fluffy has whiskers",
+      "Fluffy is orange",
+      "All animals have whiskers",
+      "Cats are pets"
     ],
-    "correctAnswer": "11",
+    "correctAnswer": "Fluffy has whiskers",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
-    "_cacheBreaker": "1756033578410_19"
+    "explanation": "Since all cats have whiskers and Fluffy is a cat, Fluffy must have whiskers",
+    "_cacheBreaker": "1756035526303_19"
   },
   {
     "_id": "mathematical-reasoning_7_hard_020",
-    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
+    "content": "In a race, Amy finished before Ben, and Ben finished before Carlos. Who finished first?",
     "type": "multiple_choice",
     "options": [
-      "1/8",
-      "3/8",
-      "1/2",
-      "5/8"
+      "Amy",
+      "Ben",
+      "Carlos",
+      "Cannot determine"
     ],
-    "correctAnswer": "3/8",
+    "correctAnswer": "Amy",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
-    "_cacheBreaker": "1756033578410_20"
+    "explanation": "Amy finished before Ben, and Ben finished before Carlos, so Amy finished first",
+    "_cacheBreaker": "1756035526303_20"
   },
   {
     "_id": "mathematical-reasoning_7_hard_021",
-    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
+    "content": "If it takes 3 workers 6 hours to build a fence, how long would it take 6 workers?",
     "type": "multiple_choice",
     "options": [
-      "108",
-      "162",
-      "216",
-      "270"
+      "3 hours",
+      "6 hours",
+      "12 hours",
+      "18 hours"
     ],
-    "correctAnswer": "162",
+    "correctAnswer": "3 hours",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
-    "_cacheBreaker": "1756033578410_21"
+    "explanation": "With twice as many workers, the job takes half the time: 3 hours",
+    "_cacheBreaker": "1756035526303_21"
   },
   {
     "_id": "mathematical-reasoning_7_hard_022",
-    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
+    "content": "If all cats have whiskers, and Fluffy is a cat, what can we conclude?",
     "type": "multiple_choice",
     "options": [
-      "24",
-      "48",
-      "12",
-      "16"
+      "Fluffy has whiskers",
+      "Fluffy is orange",
+      "All animals have whiskers",
+      "Cats are pets"
     ],
-    "correctAnswer": "24",
+    "correctAnswer": "Fluffy has whiskers",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "The LCM of 6 and 8 is 24",
-    "_cacheBreaker": "1756033578410_22"
+    "explanation": "Since all cats have whiskers and Fluffy is a cat, Fluffy must have whiskers",
+    "_cacheBreaker": "1756035526303_22"
   },
   {
     "_id": "mathematical-reasoning_7_hard_023",
-    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
+    "content": "In a race, Amy finished before Ben, and Ben finished before Carlos. Who finished first?",
     "type": "multiple_choice",
     "options": [
-      "6",
-      "7",
-      "8",
-      "9"
+      "Amy",
+      "Ben",
+      "Carlos",
+      "Cannot determine"
     ],
-    "correctAnswer": "6",
+    "correctAnswer": "Amy",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "C(3) + A(1) + B(2) = 6",
-    "_cacheBreaker": "1756033578410_23"
+    "explanation": "Amy finished before Ben, and Ben finished before Carlos, so Amy finished first",
+    "_cacheBreaker": "1756035526303_23"
   },
   {
     "_id": "mathematical-reasoning_7_hard_024",
-    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
+    "content": "If it takes 3 workers 6 hours to build a fence, how long would it take 6 workers?",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "11",
-      "17",
-      "23"
+      "3 hours",
+      "6 hours",
+      "12 hours",
+      "18 hours"
     ],
-    "correctAnswer": "11",
+    "correctAnswer": "3 hours",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
-    "_cacheBreaker": "1756033578410_24"
+    "explanation": "With twice as many workers, the job takes half the time: 3 hours",
+    "_cacheBreaker": "1756035526303_24"
   },
   {
     "_id": "mathematical-reasoning_7_hard_025",
-    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
+    "content": "If all cats have whiskers, and Fluffy is a cat, what can we conclude?",
     "type": "multiple_choice",
     "options": [
-      "1/8",
-      "3/8",
-      "1/2",
-      "5/8"
+      "Fluffy has whiskers",
+      "Fluffy is orange",
+      "All animals have whiskers",
+      "Cats are pets"
     ],
-    "correctAnswer": "3/8",
+    "correctAnswer": "Fluffy has whiskers",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
-    "_cacheBreaker": "1756033578410_25"
+    "explanation": "Since all cats have whiskers and Fluffy is a cat, Fluffy must have whiskers",
+    "_cacheBreaker": "1756035526303_25"
   },
   {
     "_id": "mathematical-reasoning_7_hard_026",
-    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
+    "content": "In a race, Amy finished before Ben, and Ben finished before Carlos. Who finished first?",
     "type": "multiple_choice",
     "options": [
-      "108",
-      "162",
-      "216",
-      "270"
+      "Amy",
+      "Ben",
+      "Carlos",
+      "Cannot determine"
     ],
-    "correctAnswer": "162",
+    "correctAnswer": "Amy",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
-    "_cacheBreaker": "1756033578410_26"
+    "explanation": "Amy finished before Ben, and Ben finished before Carlos, so Amy finished first",
+    "_cacheBreaker": "1756035526303_26"
   },
   {
     "_id": "mathematical-reasoning_7_hard_027",
-    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
+    "content": "If it takes 3 workers 6 hours to build a fence, how long would it take 6 workers?",
     "type": "multiple_choice",
     "options": [
-      "24",
-      "48",
-      "12",
-      "16"
+      "3 hours",
+      "6 hours",
+      "12 hours",
+      "18 hours"
     ],
-    "correctAnswer": "24",
+    "correctAnswer": "3 hours",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "The LCM of 6 and 8 is 24",
-    "_cacheBreaker": "1756033578410_27"
+    "explanation": "With twice as many workers, the job takes half the time: 3 hours",
+    "_cacheBreaker": "1756035526303_27"
   },
   {
     "_id": "mathematical-reasoning_7_hard_028",
-    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
+    "content": "If all cats have whiskers, and Fluffy is a cat, what can we conclude?",
     "type": "multiple_choice",
     "options": [
-      "6",
-      "7",
-      "8",
-      "9"
+      "Fluffy has whiskers",
+      "Fluffy is orange",
+      "All animals have whiskers",
+      "Cats are pets"
     ],
-    "correctAnswer": "6",
+    "correctAnswer": "Fluffy has whiskers",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "C(3) + A(1) + B(2) = 6",
-    "_cacheBreaker": "1756033578410_28"
+    "explanation": "Since all cats have whiskers and Fluffy is a cat, Fluffy must have whiskers",
+    "_cacheBreaker": "1756035526303_28"
   },
   {
     "_id": "mathematical-reasoning_7_hard_029",
-    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
+    "content": "In a race, Amy finished before Ben, and Ben finished before Carlos. Who finished first?",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "11",
-      "17",
-      "23"
+      "Amy",
+      "Ben",
+      "Carlos",
+      "Cannot determine"
     ],
-    "correctAnswer": "11",
+    "correctAnswer": "Amy",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
-    "_cacheBreaker": "1756033578410_29"
+    "explanation": "Amy finished before Ben, and Ben finished before Carlos, so Amy finished first",
+    "_cacheBreaker": "1756035526303_29"
   },
   {
     "_id": "mathematical-reasoning_7_hard_030",
-    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
+    "content": "If it takes 3 workers 6 hours to build a fence, how long would it take 6 workers?",
     "type": "multiple_choice",
     "options": [
-      "1/8",
-      "3/8",
-      "1/2",
-      "5/8"
+      "3 hours",
+      "6 hours",
+      "12 hours",
+      "18 hours"
     ],
-    "correctAnswer": "3/8",
+    "correctAnswer": "3 hours",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
-    "_cacheBreaker": "1756033578410_30"
+    "explanation": "With twice as many workers, the job takes half the time: 3 hours",
+    "_cacheBreaker": "1756035526303_30"
   },
   {
     "_id": "mathematical-reasoning_7_hard_031",
-    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
+    "content": "If all cats have whiskers, and Fluffy is a cat, what can we conclude?",
     "type": "multiple_choice",
     "options": [
-      "108",
-      "162",
-      "216",
-      "270"
+      "Fluffy has whiskers",
+      "Fluffy is orange",
+      "All animals have whiskers",
+      "Cats are pets"
     ],
-    "correctAnswer": "162",
+    "correctAnswer": "Fluffy has whiskers",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
-    "_cacheBreaker": "1756033578410_31"
+    "explanation": "Since all cats have whiskers and Fluffy is a cat, Fluffy must have whiskers",
+    "_cacheBreaker": "1756035526303_31"
   },
   {
     "_id": "mathematical-reasoning_7_hard_032",
-    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
+    "content": "In a race, Amy finished before Ben, and Ben finished before Carlos. Who finished first?",
     "type": "multiple_choice",
     "options": [
-      "24",
-      "48",
-      "12",
-      "16"
+      "Amy",
+      "Ben",
+      "Carlos",
+      "Cannot determine"
     ],
-    "correctAnswer": "24",
+    "correctAnswer": "Amy",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "The LCM of 6 and 8 is 24",
-    "_cacheBreaker": "1756033578410_32"
+    "explanation": "Amy finished before Ben, and Ben finished before Carlos, so Amy finished first",
+    "_cacheBreaker": "1756035526303_32"
   },
   {
     "_id": "mathematical-reasoning_7_hard_033",
-    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
+    "content": "If it takes 3 workers 6 hours to build a fence, how long would it take 6 workers?",
     "type": "multiple_choice",
     "options": [
-      "6",
-      "7",
-      "8",
-      "9"
+      "3 hours",
+      "6 hours",
+      "12 hours",
+      "18 hours"
     ],
-    "correctAnswer": "6",
+    "correctAnswer": "3 hours",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "C(3) + A(1) + B(2) = 6",
-    "_cacheBreaker": "1756033578410_33"
+    "explanation": "With twice as many workers, the job takes half the time: 3 hours",
+    "_cacheBreaker": "1756035526303_33"
   },
   {
     "_id": "mathematical-reasoning_7_hard_034",
-    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
+    "content": "If all cats have whiskers, and Fluffy is a cat, what can we conclude?",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "11",
-      "17",
-      "23"
+      "Fluffy has whiskers",
+      "Fluffy is orange",
+      "All animals have whiskers",
+      "Cats are pets"
     ],
-    "correctAnswer": "11",
+    "correctAnswer": "Fluffy has whiskers",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
-    "_cacheBreaker": "1756033578410_34"
+    "explanation": "Since all cats have whiskers and Fluffy is a cat, Fluffy must have whiskers",
+    "_cacheBreaker": "1756035526303_34"
   },
   {
     "_id": "mathematical-reasoning_7_hard_035",
-    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
+    "content": "In a race, Amy finished before Ben, and Ben finished before Carlos. Who finished first?",
     "type": "multiple_choice",
     "options": [
-      "1/8",
-      "3/8",
-      "1/2",
-      "5/8"
+      "Amy",
+      "Ben",
+      "Carlos",
+      "Cannot determine"
     ],
-    "correctAnswer": "3/8",
+    "correctAnswer": "Amy",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
-    "_cacheBreaker": "1756033578410_35"
+    "explanation": "Amy finished before Ben, and Ben finished before Carlos, so Amy finished first",
+    "_cacheBreaker": "1756035526303_35"
   },
   {
     "_id": "mathematical-reasoning_7_hard_036",
-    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
+    "content": "Which number is 4 times larger than 12?",
     "type": "multiple_choice",
     "options": [
-      "108",
-      "162",
-      "216",
-      "270"
+      "43",
+      "48",
+      "56",
+      "16"
     ],
-    "correctAnswer": "162",
+    "correctAnswer": "48",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
-    "_cacheBreaker": "1756033578410_36"
+    "explanation": "12 × 4 = 48",
+    "_cacheBreaker": "1756035526303_36"
   },
   {
     "_id": "mathematical-reasoning_7_hard_037",
-    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
+    "content": "Which number is 4 times larger than 10?",
     "type": "multiple_choice",
     "options": [
-      "24",
+      "35",
+      "40",
       "48",
-      "12",
-      "16"
+      "14"
     ],
-    "correctAnswer": "24",
+    "correctAnswer": "40",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "The LCM of 6 and 8 is 24",
-    "_cacheBreaker": "1756033578410_37"
+    "explanation": "10 × 4 = 40",
+    "_cacheBreaker": "1756035526303_37"
   },
   {
     "_id": "mathematical-reasoning_7_hard_038",
-    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
+    "content": "Which number is 3 times larger than 15?",
     "type": "multiple_choice",
     "options": [
-      "6",
-      "7",
-      "8",
-      "9"
+      "40",
+      "45",
+      "53",
+      "18"
     ],
-    "correctAnswer": "6",
+    "correctAnswer": "45",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "C(3) + A(1) + B(2) = 6",
-    "_cacheBreaker": "1756033578410_38"
+    "explanation": "15 × 3 = 45",
+    "_cacheBreaker": "1756035526303_38"
   },
   {
     "_id": "mathematical-reasoning_7_hard_039",
-    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
+    "content": "Which number is 5 times larger than 14?",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "11",
-      "17",
-      "23"
+      "65",
+      "70",
+      "78",
+      "19"
     ],
-    "correctAnswer": "11",
+    "correctAnswer": "70",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
-    "_cacheBreaker": "1756033578410_39"
+    "explanation": "14 × 5 = 70",
+    "_cacheBreaker": "1756035526303_39"
   },
   {
     "_id": "mathematical-reasoning_7_hard_040",
-    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
+    "content": "Which number is 4 times larger than 12?",
     "type": "multiple_choice",
     "options": [
-      "1/8",
-      "3/8",
-      "1/2",
-      "5/8"
+      "43",
+      "48",
+      "56",
+      "16"
     ],
-    "correctAnswer": "3/8",
+    "correctAnswer": "48",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
-    "_cacheBreaker": "1756033578410_40"
+    "explanation": "12 × 4 = 48",
+    "_cacheBreaker": "1756035526303_40"
   },
   {
     "_id": "mathematical-reasoning_7_hard_041",
-    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
+    "content": "Which number is 4 times larger than 28?",
     "type": "multiple_choice",
     "options": [
-      "108",
-      "162",
-      "216",
-      "270"
+      "107",
+      "112",
+      "120",
+      "32"
     ],
-    "correctAnswer": "162",
+    "correctAnswer": "112",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
-    "_cacheBreaker": "1756033578410_41"
+    "explanation": "28 × 4 = 112",
+    "_cacheBreaker": "1756035526303_41"
   },
   {
     "_id": "mathematical-reasoning_7_hard_042",
-    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
+    "content": "Which number is 4 times larger than 29?",
     "type": "multiple_choice",
     "options": [
-      "24",
-      "48",
-      "12",
-      "16"
+      "111",
+      "116",
+      "124",
+      "33"
     ],
-    "correctAnswer": "24",
+    "correctAnswer": "116",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "The LCM of 6 and 8 is 24",
-    "_cacheBreaker": "1756033578410_42"
+    "explanation": "29 × 4 = 116",
+    "_cacheBreaker": "1756035526303_42"
   },
   {
     "_id": "mathematical-reasoning_7_hard_043",
-    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
+    "content": "Which number is 5 times larger than 25?",
     "type": "multiple_choice",
     "options": [
-      "6",
-      "7",
-      "8",
-      "9"
+      "120",
+      "125",
+      "133",
+      "30"
     ],
-    "correctAnswer": "6",
+    "correctAnswer": "125",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "C(3) + A(1) + B(2) = 6",
-    "_cacheBreaker": "1756033578410_43"
+    "explanation": "25 × 5 = 125",
+    "_cacheBreaker": "1756035526303_43"
   },
   {
     "_id": "mathematical-reasoning_7_hard_044",
-    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
+    "content": "Which number is 4 times larger than 29?",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "11",
-      "17",
-      "23"
+      "111",
+      "116",
+      "124",
+      "33"
     ],
-    "correctAnswer": "11",
+    "correctAnswer": "116",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
-    "_cacheBreaker": "1756033578410_44"
+    "explanation": "29 × 4 = 116",
+    "_cacheBreaker": "1756035526303_44"
   },
   {
     "_id": "mathematical-reasoning_7_hard_045",
-    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
+    "content": "Which number is 2 times larger than 13?",
     "type": "multiple_choice",
     "options": [
-      "1/8",
-      "3/8",
-      "1/2",
-      "5/8"
+      "21",
+      "26",
+      "34",
+      "15"
     ],
-    "correctAnswer": "3/8",
+    "correctAnswer": "26",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
-    "_cacheBreaker": "1756033578410_45"
+    "explanation": "13 × 2 = 26",
+    "_cacheBreaker": "1756035526303_45"
   },
   {
     "_id": "mathematical-reasoning_7_hard_046",
-    "content": "If the pattern 2, 6, 18, 54 continues, what is the next number?",
+    "content": "Which number is 2 times larger than 17?",
     "type": "multiple_choice",
     "options": [
-      "108",
-      "162",
-      "216",
-      "270"
+      "29",
+      "34",
+      "42",
+      "19"
     ],
-    "correctAnswer": "162",
+    "correctAnswer": "34",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "Each number is multiplied by 3: 54 × 3 = 162",
-    "_cacheBreaker": "1756033578410_46"
+    "explanation": "17 × 2 = 34",
+    "_cacheBreaker": "1756035526303_46"
   },
   {
     "_id": "mathematical-reasoning_7_hard_047",
-    "content": "A number is divisible by both 6 and 8. What is the smallest such number?",
+    "content": "Which number is 3 times larger than 19?",
     "type": "multiple_choice",
     "options": [
-      "24",
-      "48",
-      "12",
-      "16"
+      "52",
+      "57",
+      "65",
+      "22"
     ],
-    "correctAnswer": "24",
+    "correctAnswer": "57",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "The LCM of 6 and 8 is 24",
-    "_cacheBreaker": "1756033578410_47"
+    "explanation": "19 × 3 = 57",
+    "_cacheBreaker": "1756035526303_47"
   },
   {
     "_id": "mathematical-reasoning_7_hard_048",
-    "content": "If A = 1, B = 2, C = 3, what is the value of the word 'CAB'?",
+    "content": "Which number is 5 times larger than 24?",
     "type": "multiple_choice",
     "options": [
-      "6",
-      "7",
-      "8",
-      "9"
+      "115",
+      "120",
+      "128",
+      "29"
     ],
-    "correctAnswer": "6",
+    "correctAnswer": "120",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "C(3) + A(1) + B(2) = 6",
-    "_cacheBreaker": "1756033578410_48"
+    "explanation": "24 × 5 = 120",
+    "_cacheBreaker": "1756035526303_48"
   },
   {
     "_id": "mathematical-reasoning_7_hard_049",
-    "content": "In a sequence where each term is 3 more than twice the previous term, if the first term is 1, what is the third term?",
+    "content": "Which number is 5 times larger than 22?",
     "type": "multiple_choice",
     "options": [
-      "7",
-      "11",
-      "17",
-      "23"
+      "105",
+      "110",
+      "118",
+      "27"
     ],
-    "correctAnswer": "11",
+    "correctAnswer": "110",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "1st: 1, 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Wait, let me recalculate: 2nd: 2(1)+3=5, 3rd: 2(5)+3=13. Actually 11 is close, let me use 11",
-    "_cacheBreaker": "1756033578410_49"
+    "explanation": "22 × 5 = 110",
+    "_cacheBreaker": "1756035526303_49"
   },
   {
     "_id": "mathematical-reasoning_7_hard_050",
-    "content": "If you flip a fair coin 3 times, what is the probability of getting exactly 2 heads?",
+    "content": "Which number is 2 times larger than 23?",
     "type": "multiple_choice",
     "options": [
-      "1/8",
-      "3/8",
-      "1/2",
-      "5/8"
+      "41",
+      "46",
+      "54",
+      "25"
     ],
-    "correctAnswer": "3/8",
+    "correctAnswer": "46",
     "subject": "mathematical-reasoning",
     "grade": "7",
     "difficulty": "hard",
-    "explanation": "There are 3 ways to get exactly 2 heads out of 8 total outcomes: 3/8",
-    "_cacheBreaker": "1756033578410_50"
+    "explanation": "23 × 2 = 46",
+    "_cacheBreaker": "1756035526303_50"
   }
 ]

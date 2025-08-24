@@ -1,852 +1,852 @@
 [
   {
     "_id": "math_8_hard_001",
-    "content": "Solve: 8x - 16 = 7x + 24",
+    "content": "What is 2^2?",
     "type": "multiple_choice",
     "options": [
-      "x = 40",
-      "x = 32",
-      "x = 48",
-      "x = 24"
+      "-1",
+      "4",
+      "12",
+      "19"
     ],
-    "correctAnswer": "x = 40",
+    "correctAnswer": "4",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "8x - 7x = 24 + 16, so x = 40",
-    "_cacheBreaker": "1756033578418_1"
+    "explanation": "2^2 = 4",
+    "_cacheBreaker": "1756035526312_1"
   },
   {
     "_id": "math_8_hard_002",
-    "content": "If f(x) = 8x² + 16x, what is f(8)?",
+    "content": "What is 9^3?",
     "type": "multiple_choice",
     "options": [
-      "640",
-      "80",
-      "24",
-      "64"
+      "724",
+      "729",
+      "737",
+      "744"
     ],
-    "correctAnswer": "640",
+    "correctAnswer": "729",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "f(8) = 8(8)² + 16(8) = 512 + 128 = 640",
-    "_cacheBreaker": "1756033578418_2"
+    "explanation": "9^3 = 729",
+    "_cacheBreaker": "1756035526312_2"
   },
   {
     "_id": "math_8_hard_003",
-    "content": "What is the vertex of the parabola y = x² - 16x + 8?",
+    "content": "What is 5^4?",
     "type": "multiple_choice",
     "options": [
-      "(8, -8)",
-      "(8, 0)",
-      "(0, 8)",
-      "(8, 8)"
+      "620",
+      "625",
+      "633",
+      "640"
     ],
-    "correctAnswer": "(8, -8)",
+    "correctAnswer": "625",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Vertex x-coordinate = -b/2a = 16/2 = 8. y = 8² - 16(8) + 8 = -8",
-    "_cacheBreaker": "1756033578418_3"
+    "explanation": "5^4 = 625",
+    "_cacheBreaker": "1756035526312_3"
   },
   {
     "_id": "math_8_hard_004",
-    "content": "Factor completely: x² - 64",
+    "content": "What is 5^2?",
     "type": "multiple_choice",
     "options": [
-      "(x - 8)(x + 8)",
-      "(x - 8)²",
-      "x(x - 8)",
-      "Cannot be factored"
+      "20",
+      "25",
+      "33",
+      "40"
     ],
-    "correctAnswer": "(x - 8)(x + 8)",
+    "correctAnswer": "25",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "x² - 64 is a difference of squares: (x - 8)(x + 8)",
-    "_cacheBreaker": "1756033578418_4"
+    "explanation": "5^2 = 25",
+    "_cacheBreaker": "1756035526312_4"
   },
   {
     "_id": "math_8_hard_005",
-    "content": "What is the range of f(x) = -x² + 16?",
+    "content": "What is 6^3?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "y ≤ 16",
-      "y ≥ 16",
-      "y > 0"
+      "211",
+      "216",
+      "224",
+      "231"
     ],
-    "correctAnswer": "y ≤ 16",
+    "correctAnswer": "216",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Since the parabola opens downward, the maximum value is 16",
-    "_cacheBreaker": "1756033578418_5"
+    "explanation": "6^3 = 216",
+    "_cacheBreaker": "1756035526312_5"
   },
   {
     "_id": "math_8_hard_006",
-    "content": "Solve: 8x - 16 = 7x + 24",
+    "content": "What is 2^2?",
     "type": "multiple_choice",
     "options": [
-      "x = 40",
-      "x = 32",
-      "x = 48",
-      "x = 24"
+      "-1",
+      "4",
+      "12",
+      "19"
     ],
-    "correctAnswer": "x = 40",
+    "correctAnswer": "4",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "8x - 7x = 24 + 16, so x = 40",
-    "_cacheBreaker": "1756033578418_6"
+    "explanation": "2^2 = 4",
+    "_cacheBreaker": "1756035526312_6"
   },
   {
     "_id": "math_8_hard_007",
-    "content": "If f(x) = 8x² + 16x, what is f(8)?",
+    "content": "What is 3^2?",
     "type": "multiple_choice",
     "options": [
-      "640",
-      "80",
-      "24",
-      "64"
+      "4",
+      "9",
+      "17",
+      "24"
     ],
-    "correctAnswer": "640",
+    "correctAnswer": "9",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "f(8) = 8(8)² + 16(8) = 512 + 128 = 640",
-    "_cacheBreaker": "1756033578418_7"
+    "explanation": "3^2 = 9",
+    "_cacheBreaker": "1756035526313_7"
   },
   {
     "_id": "math_8_hard_008",
-    "content": "What is the vertex of the parabola y = x² - 16x + 8?",
+    "content": "What is 9^2?",
     "type": "multiple_choice",
     "options": [
-      "(8, -8)",
-      "(8, 0)",
-      "(0, 8)",
-      "(8, 8)"
+      "76",
+      "81",
+      "89",
+      "96"
     ],
-    "correctAnswer": "(8, -8)",
+    "correctAnswer": "81",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Vertex x-coordinate = -b/2a = 16/2 = 8. y = 8² - 16(8) + 8 = -8",
-    "_cacheBreaker": "1756033578418_8"
+    "explanation": "9^2 = 81",
+    "_cacheBreaker": "1756035526313_8"
   },
   {
     "_id": "math_8_hard_009",
-    "content": "Factor completely: x² - 64",
+    "content": "What is 4^3?",
     "type": "multiple_choice",
     "options": [
-      "(x - 8)(x + 8)",
-      "(x - 8)²",
-      "x(x - 8)",
-      "Cannot be factored"
+      "59",
+      "64",
+      "72",
+      "79"
     ],
-    "correctAnswer": "(x - 8)(x + 8)",
+    "correctAnswer": "64",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "x² - 64 is a difference of squares: (x - 8)(x + 8)",
-    "_cacheBreaker": "1756033578418_9"
+    "explanation": "4^3 = 64",
+    "_cacheBreaker": "1756035526313_9"
   },
   {
     "_id": "math_8_hard_010",
-    "content": "What is the range of f(x) = -x² + 16?",
+    "content": "What is 3^2?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "y ≤ 16",
-      "y ≥ 16",
-      "y > 0"
+      "4",
+      "9",
+      "17",
+      "24"
     ],
-    "correctAnswer": "y ≤ 16",
+    "correctAnswer": "9",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Since the parabola opens downward, the maximum value is 16",
-    "_cacheBreaker": "1756033578418_10"
+    "explanation": "3^2 = 9",
+    "_cacheBreaker": "1756035526313_10"
   },
   {
     "_id": "math_8_hard_011",
-    "content": "Solve: 8x - 16 = 7x + 24",
+    "content": "What is 6^4?",
     "type": "multiple_choice",
     "options": [
-      "x = 40",
-      "x = 32",
-      "x = 48",
-      "x = 24"
+      "1291",
+      "1296",
+      "1304",
+      "1311"
     ],
-    "correctAnswer": "x = 40",
+    "correctAnswer": "1296",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "8x - 7x = 24 + 16, so x = 40",
-    "_cacheBreaker": "1756033578418_11"
+    "explanation": "6^4 = 1296",
+    "_cacheBreaker": "1756035526313_11"
   },
   {
     "_id": "math_8_hard_012",
-    "content": "If f(x) = 8x² + 16x, what is f(8)?",
+    "content": "What is 4^3?",
     "type": "multiple_choice",
     "options": [
-      "640",
-      "80",
-      "24",
-      "64"
+      "59",
+      "64",
+      "72",
+      "79"
     ],
-    "correctAnswer": "640",
+    "correctAnswer": "64",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "f(8) = 8(8)² + 16(8) = 512 + 128 = 640",
-    "_cacheBreaker": "1756033578418_12"
+    "explanation": "4^3 = 64",
+    "_cacheBreaker": "1756035526313_12"
   },
   {
     "_id": "math_8_hard_013",
-    "content": "What is the vertex of the parabola y = x² - 16x + 8?",
+    "content": "What is 3^4?",
     "type": "multiple_choice",
     "options": [
-      "(8, -8)",
-      "(8, 0)",
-      "(0, 8)",
-      "(8, 8)"
+      "76",
+      "81",
+      "89",
+      "96"
     ],
-    "correctAnswer": "(8, -8)",
+    "correctAnswer": "81",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Vertex x-coordinate = -b/2a = 16/2 = 8. y = 8² - 16(8) + 8 = -8",
-    "_cacheBreaker": "1756033578418_13"
+    "explanation": "3^4 = 81",
+    "_cacheBreaker": "1756035526313_13"
   },
   {
     "_id": "math_8_hard_014",
-    "content": "Factor completely: x² - 64",
+    "content": "What is 8^4?",
     "type": "multiple_choice",
     "options": [
-      "(x - 8)(x + 8)",
-      "(x - 8)²",
-      "x(x - 8)",
-      "Cannot be factored"
+      "4091",
+      "4096",
+      "4104",
+      "4111"
     ],
-    "correctAnswer": "(x - 8)(x + 8)",
+    "correctAnswer": "4096",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "x² - 64 is a difference of squares: (x - 8)(x + 8)",
-    "_cacheBreaker": "1756033578418_14"
+    "explanation": "8^4 = 4096",
+    "_cacheBreaker": "1756035526313_14"
   },
   {
     "_id": "math_8_hard_015",
-    "content": "What is the range of f(x) = -x² + 16?",
+    "content": "What is 2^4?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "y ≤ 16",
-      "y ≥ 16",
-      "y > 0"
+      "11",
+      "16",
+      "24",
+      "31"
     ],
-    "correctAnswer": "y ≤ 16",
+    "correctAnswer": "16",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Since the parabola opens downward, the maximum value is 16",
-    "_cacheBreaker": "1756033578418_15"
+    "explanation": "2^4 = 16",
+    "_cacheBreaker": "1756035526313_15"
   },
   {
     "_id": "math_8_hard_016",
-    "content": "Solve: 8x - 16 = 7x + 24",
+    "content": "What is 7^4?",
     "type": "multiple_choice",
     "options": [
-      "x = 40",
-      "x = 32",
-      "x = 48",
-      "x = 24"
+      "2396",
+      "2401",
+      "2409",
+      "2416"
     ],
-    "correctAnswer": "x = 40",
+    "correctAnswer": "2401",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "8x - 7x = 24 + 16, so x = 40",
-    "_cacheBreaker": "1756033578418_16"
+    "explanation": "7^4 = 2401",
+    "_cacheBreaker": "1756035526313_16"
   },
   {
     "_id": "math_8_hard_017",
-    "content": "If f(x) = 8x² + 16x, what is f(8)?",
+    "content": "What is 2^3?",
     "type": "multiple_choice",
     "options": [
-      "640",
-      "80",
-      "24",
-      "64"
+      "3",
+      "8",
+      "16",
+      "23"
     ],
-    "correctAnswer": "640",
+    "correctAnswer": "8",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "f(8) = 8(8)² + 16(8) = 512 + 128 = 640",
-    "_cacheBreaker": "1756033578418_17"
+    "explanation": "2^3 = 8",
+    "_cacheBreaker": "1756035526313_17"
   },
   {
     "_id": "math_8_hard_018",
-    "content": "What is the vertex of the parabola y = x² - 16x + 8?",
+    "content": "What is 2^2?",
     "type": "multiple_choice",
     "options": [
-      "(8, -8)",
-      "(8, 0)",
-      "(0, 8)",
-      "(8, 8)"
+      "-1",
+      "4",
+      "12",
+      "19"
     ],
-    "correctAnswer": "(8, -8)",
+    "correctAnswer": "4",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Vertex x-coordinate = -b/2a = 16/2 = 8. y = 8² - 16(8) + 8 = -8",
-    "_cacheBreaker": "1756033578418_18"
+    "explanation": "2^2 = 4",
+    "_cacheBreaker": "1756035526313_18"
   },
   {
     "_id": "math_8_hard_019",
-    "content": "Factor completely: x² - 64",
+    "content": "What is 2^3?",
     "type": "multiple_choice",
     "options": [
-      "(x - 8)(x + 8)",
-      "(x - 8)²",
-      "x(x - 8)",
-      "Cannot be factored"
+      "3",
+      "8",
+      "16",
+      "23"
     ],
-    "correctAnswer": "(x - 8)(x + 8)",
+    "correctAnswer": "8",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "x² - 64 is a difference of squares: (x - 8)(x + 8)",
-    "_cacheBreaker": "1756033578418_19"
+    "explanation": "2^3 = 8",
+    "_cacheBreaker": "1756035526313_19"
   },
   {
     "_id": "math_8_hard_020",
-    "content": "What is the range of f(x) = -x² + 16?",
+    "content": "What is 6^2?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "y ≤ 16",
-      "y ≥ 16",
-      "y > 0"
+      "31",
+      "36",
+      "44",
+      "51"
     ],
-    "correctAnswer": "y ≤ 16",
+    "correctAnswer": "36",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Since the parabola opens downward, the maximum value is 16",
-    "_cacheBreaker": "1756033578418_20"
+    "explanation": "6^2 = 36",
+    "_cacheBreaker": "1756035526313_20"
   },
   {
     "_id": "math_8_hard_021",
-    "content": "Solve: 8x - 16 = 7x + 24",
+    "content": "What is 8^4?",
     "type": "multiple_choice",
     "options": [
-      "x = 40",
-      "x = 32",
-      "x = 48",
-      "x = 24"
+      "4091",
+      "4096",
+      "4104",
+      "4111"
     ],
-    "correctAnswer": "x = 40",
+    "correctAnswer": "4096",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "8x - 7x = 24 + 16, so x = 40",
-    "_cacheBreaker": "1756033578419_21"
+    "explanation": "8^4 = 4096",
+    "_cacheBreaker": "1756035526313_21"
   },
   {
     "_id": "math_8_hard_022",
-    "content": "If f(x) = 8x² + 16x, what is f(8)?",
+    "content": "What is 7^2?",
     "type": "multiple_choice",
     "options": [
-      "640",
-      "80",
-      "24",
+      "44",
+      "49",
+      "57",
       "64"
     ],
-    "correctAnswer": "640",
+    "correctAnswer": "49",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "f(8) = 8(8)² + 16(8) = 512 + 128 = 640",
-    "_cacheBreaker": "1756033578419_22"
+    "explanation": "7^2 = 49",
+    "_cacheBreaker": "1756035526313_22"
   },
   {
     "_id": "math_8_hard_023",
-    "content": "What is the vertex of the parabola y = x² - 16x + 8?",
+    "content": "What is 9^2?",
     "type": "multiple_choice",
     "options": [
-      "(8, -8)",
-      "(8, 0)",
-      "(0, 8)",
-      "(8, 8)"
+      "76",
+      "81",
+      "89",
+      "96"
     ],
-    "correctAnswer": "(8, -8)",
+    "correctAnswer": "81",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Vertex x-coordinate = -b/2a = 16/2 = 8. y = 8² - 16(8) + 8 = -8",
-    "_cacheBreaker": "1756033578419_23"
+    "explanation": "9^2 = 81",
+    "_cacheBreaker": "1756035526313_23"
   },
   {
     "_id": "math_8_hard_024",
-    "content": "Factor completely: x² - 64",
+    "content": "What is 3^4?",
     "type": "multiple_choice",
     "options": [
-      "(x - 8)(x + 8)",
-      "(x - 8)²",
-      "x(x - 8)",
-      "Cannot be factored"
+      "76",
+      "81",
+      "89",
+      "96"
     ],
-    "correctAnswer": "(x - 8)(x + 8)",
+    "correctAnswer": "81",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "x² - 64 is a difference of squares: (x - 8)(x + 8)",
-    "_cacheBreaker": "1756033578419_24"
+    "explanation": "3^4 = 81",
+    "_cacheBreaker": "1756035526313_24"
   },
   {
     "_id": "math_8_hard_025",
-    "content": "What is the range of f(x) = -x² + 16?",
+    "content": "What is 2^2?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "y ≤ 16",
-      "y ≥ 16",
-      "y > 0"
+      "-1",
+      "4",
+      "12",
+      "19"
     ],
-    "correctAnswer": "y ≤ 16",
+    "correctAnswer": "4",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Since the parabola opens downward, the maximum value is 16",
-    "_cacheBreaker": "1756033578419_25"
+    "explanation": "2^2 = 4",
+    "_cacheBreaker": "1756035526313_25"
   },
   {
     "_id": "math_8_hard_026",
-    "content": "Solve: 8x - 16 = 7x + 24",
+    "content": "What is 4^3?",
     "type": "multiple_choice",
     "options": [
-      "x = 40",
-      "x = 32",
-      "x = 48",
-      "x = 24"
+      "59",
+      "64",
+      "72",
+      "79"
     ],
-    "correctAnswer": "x = 40",
+    "correctAnswer": "64",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "8x - 7x = 24 + 16, so x = 40",
-    "_cacheBreaker": "1756033578419_26"
+    "explanation": "4^3 = 64",
+    "_cacheBreaker": "1756035526313_26"
   },
   {
     "_id": "math_8_hard_027",
-    "content": "If f(x) = 8x² + 16x, what is f(8)?",
+    "content": "What is 8^3?",
     "type": "multiple_choice",
     "options": [
-      "640",
-      "80",
-      "24",
-      "64"
+      "507",
+      "512",
+      "520",
+      "527"
     ],
-    "correctAnswer": "640",
+    "correctAnswer": "512",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "f(8) = 8(8)² + 16(8) = 512 + 128 = 640",
-    "_cacheBreaker": "1756033578419_27"
+    "explanation": "8^3 = 512",
+    "_cacheBreaker": "1756035526313_27"
   },
   {
     "_id": "math_8_hard_028",
-    "content": "What is the vertex of the parabola y = x² - 16x + 8?",
+    "content": "What is 6^4?",
     "type": "multiple_choice",
     "options": [
-      "(8, -8)",
-      "(8, 0)",
-      "(0, 8)",
-      "(8, 8)"
+      "1291",
+      "1296",
+      "1304",
+      "1311"
     ],
-    "correctAnswer": "(8, -8)",
+    "correctAnswer": "1296",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Vertex x-coordinate = -b/2a = 16/2 = 8. y = 8² - 16(8) + 8 = -8",
-    "_cacheBreaker": "1756033578419_28"
+    "explanation": "6^4 = 1296",
+    "_cacheBreaker": "1756035526313_28"
   },
   {
     "_id": "math_8_hard_029",
-    "content": "Factor completely: x² - 64",
+    "content": "What is 4^2?",
     "type": "multiple_choice",
     "options": [
-      "(x - 8)(x + 8)",
-      "(x - 8)²",
-      "x(x - 8)",
-      "Cannot be factored"
+      "11",
+      "16",
+      "24",
+      "31"
     ],
-    "correctAnswer": "(x - 8)(x + 8)",
+    "correctAnswer": "16",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "x² - 64 is a difference of squares: (x - 8)(x + 8)",
-    "_cacheBreaker": "1756033578419_29"
+    "explanation": "4^2 = 16",
+    "_cacheBreaker": "1756035526313_29"
   },
   {
     "_id": "math_8_hard_030",
-    "content": "What is the range of f(x) = -x² + 16?",
+    "content": "What is 7^4?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "y ≤ 16",
-      "y ≥ 16",
-      "y > 0"
+      "2396",
+      "2401",
+      "2409",
+      "2416"
     ],
-    "correctAnswer": "y ≤ 16",
+    "correctAnswer": "2401",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Since the parabola opens downward, the maximum value is 16",
-    "_cacheBreaker": "1756033578419_30"
+    "explanation": "7^4 = 2401",
+    "_cacheBreaker": "1756035526313_30"
   },
   {
     "_id": "math_8_hard_031",
-    "content": "Solve: 8x - 16 = 7x + 24",
+    "content": "What is 3^4?",
     "type": "multiple_choice",
     "options": [
-      "x = 40",
-      "x = 32",
-      "x = 48",
-      "x = 24"
+      "76",
+      "81",
+      "89",
+      "96"
     ],
-    "correctAnswer": "x = 40",
+    "correctAnswer": "81",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "8x - 7x = 24 + 16, so x = 40",
-    "_cacheBreaker": "1756033578419_31"
+    "explanation": "3^4 = 81",
+    "_cacheBreaker": "1756035526313_31"
   },
   {
     "_id": "math_8_hard_032",
-    "content": "If f(x) = 8x² + 16x, what is f(8)?",
+    "content": "What is 8^3?",
     "type": "multiple_choice",
     "options": [
-      "640",
-      "80",
-      "24",
-      "64"
+      "507",
+      "512",
+      "520",
+      "527"
     ],
-    "correctAnswer": "640",
+    "correctAnswer": "512",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "f(8) = 8(8)² + 16(8) = 512 + 128 = 640",
-    "_cacheBreaker": "1756033578419_32"
+    "explanation": "8^3 = 512",
+    "_cacheBreaker": "1756035526313_32"
   },
   {
     "_id": "math_8_hard_033",
-    "content": "What is the vertex of the parabola y = x² - 16x + 8?",
+    "content": "What is 3^2?",
     "type": "multiple_choice",
     "options": [
-      "(8, -8)",
-      "(8, 0)",
-      "(0, 8)",
-      "(8, 8)"
+      "4",
+      "9",
+      "17",
+      "24"
     ],
-    "correctAnswer": "(8, -8)",
+    "correctAnswer": "9",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Vertex x-coordinate = -b/2a = 16/2 = 8. y = 8² - 16(8) + 8 = -8",
-    "_cacheBreaker": "1756033578419_33"
+    "explanation": "3^2 = 9",
+    "_cacheBreaker": "1756035526313_33"
   },
   {
     "_id": "math_8_hard_034",
-    "content": "Factor completely: x² - 64",
+    "content": "What is 8^3?",
     "type": "multiple_choice",
     "options": [
-      "(x - 8)(x + 8)",
-      "(x - 8)²",
-      "x(x - 8)",
-      "Cannot be factored"
+      "507",
+      "512",
+      "520",
+      "527"
     ],
-    "correctAnswer": "(x - 8)(x + 8)",
+    "correctAnswer": "512",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "x² - 64 is a difference of squares: (x - 8)(x + 8)",
-    "_cacheBreaker": "1756033578419_34"
+    "explanation": "8^3 = 512",
+    "_cacheBreaker": "1756035526313_34"
   },
   {
     "_id": "math_8_hard_035",
-    "content": "What is the range of f(x) = -x² + 16?",
+    "content": "What is 9^2?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "y ≤ 16",
-      "y ≥ 16",
-      "y > 0"
+      "76",
+      "81",
+      "89",
+      "96"
     ],
-    "correctAnswer": "y ≤ 16",
+    "correctAnswer": "81",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Since the parabola opens downward, the maximum value is 16",
-    "_cacheBreaker": "1756033578419_35"
+    "explanation": "9^2 = 81",
+    "_cacheBreaker": "1756035526313_35"
   },
   {
     "_id": "math_8_hard_036",
-    "content": "Solve: 8x - 16 = 7x + 24",
+    "content": "What is 5^2?",
     "type": "multiple_choice",
     "options": [
-      "x = 40",
-      "x = 32",
-      "x = 48",
-      "x = 24"
+      "20",
+      "25",
+      "33",
+      "40"
     ],
-    "correctAnswer": "x = 40",
+    "correctAnswer": "25",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "8x - 7x = 24 + 16, so x = 40",
-    "_cacheBreaker": "1756033578419_36"
+    "explanation": "5^2 = 25",
+    "_cacheBreaker": "1756035526313_36"
   },
   {
     "_id": "math_8_hard_037",
-    "content": "If f(x) = 8x² + 16x, what is f(8)?",
+    "content": "What is 3^2?",
     "type": "multiple_choice",
     "options": [
-      "640",
-      "80",
-      "24",
-      "64"
+      "4",
+      "9",
+      "17",
+      "24"
     ],
-    "correctAnswer": "640",
+    "correctAnswer": "9",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "f(8) = 8(8)² + 16(8) = 512 + 128 = 640",
-    "_cacheBreaker": "1756033578419_37"
+    "explanation": "3^2 = 9",
+    "_cacheBreaker": "1756035526313_37"
   },
   {
     "_id": "math_8_hard_038",
-    "content": "What is the vertex of the parabola y = x² - 16x + 8?",
+    "content": "What is 6^2?",
     "type": "multiple_choice",
     "options": [
-      "(8, -8)",
-      "(8, 0)",
-      "(0, 8)",
-      "(8, 8)"
+      "31",
+      "36",
+      "44",
+      "51"
     ],
-    "correctAnswer": "(8, -8)",
+    "correctAnswer": "36",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Vertex x-coordinate = -b/2a = 16/2 = 8. y = 8² - 16(8) + 8 = -8",
-    "_cacheBreaker": "1756033578419_38"
+    "explanation": "6^2 = 36",
+    "_cacheBreaker": "1756035526313_38"
   },
   {
     "_id": "math_8_hard_039",
-    "content": "Factor completely: x² - 64",
+    "content": "What is 7^3?",
     "type": "multiple_choice",
     "options": [
-      "(x - 8)(x + 8)",
-      "(x - 8)²",
-      "x(x - 8)",
-      "Cannot be factored"
+      "338",
+      "343",
+      "351",
+      "358"
     ],
-    "correctAnswer": "(x - 8)(x + 8)",
+    "correctAnswer": "343",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "x² - 64 is a difference of squares: (x - 8)(x + 8)",
-    "_cacheBreaker": "1756033578419_39"
+    "explanation": "7^3 = 343",
+    "_cacheBreaker": "1756035526313_39"
   },
   {
     "_id": "math_8_hard_040",
-    "content": "What is the range of f(x) = -x² + 16?",
+    "content": "What is 3^3?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "y ≤ 16",
-      "y ≥ 16",
-      "y > 0"
+      "22",
+      "27",
+      "35",
+      "42"
     ],
-    "correctAnswer": "y ≤ 16",
+    "correctAnswer": "27",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Since the parabola opens downward, the maximum value is 16",
-    "_cacheBreaker": "1756033578419_40"
+    "explanation": "3^3 = 27",
+    "_cacheBreaker": "1756035526313_40"
   },
   {
     "_id": "math_8_hard_041",
-    "content": "Solve: 8x - 16 = 7x + 24",
+    "content": "What is 4^3?",
     "type": "multiple_choice",
     "options": [
-      "x = 40",
-      "x = 32",
-      "x = 48",
-      "x = 24"
+      "59",
+      "64",
+      "72",
+      "79"
     ],
-    "correctAnswer": "x = 40",
+    "correctAnswer": "64",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "8x - 7x = 24 + 16, so x = 40",
-    "_cacheBreaker": "1756033578419_41"
+    "explanation": "4^3 = 64",
+    "_cacheBreaker": "1756035526313_41"
   },
   {
     "_id": "math_8_hard_042",
-    "content": "If f(x) = 8x² + 16x, what is f(8)?",
+    "content": "What is 3^4?",
     "type": "multiple_choice",
     "options": [
-      "640",
-      "80",
-      "24",
-      "64"
+      "76",
+      "81",
+      "89",
+      "96"
     ],
-    "correctAnswer": "640",
+    "correctAnswer": "81",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "f(8) = 8(8)² + 16(8) = 512 + 128 = 640",
-    "_cacheBreaker": "1756033578419_42"
+    "explanation": "3^4 = 81",
+    "_cacheBreaker": "1756035526313_42"
   },
   {
     "_id": "math_8_hard_043",
-    "content": "What is the vertex of the parabola y = x² - 16x + 8?",
+    "content": "What is 3^3?",
     "type": "multiple_choice",
     "options": [
-      "(8, -8)",
-      "(8, 0)",
-      "(0, 8)",
-      "(8, 8)"
+      "22",
+      "27",
+      "35",
+      "42"
     ],
-    "correctAnswer": "(8, -8)",
+    "correctAnswer": "27",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Vertex x-coordinate = -b/2a = 16/2 = 8. y = 8² - 16(8) + 8 = -8",
-    "_cacheBreaker": "1756033578419_43"
+    "explanation": "3^3 = 27",
+    "_cacheBreaker": "1756035526313_43"
   },
   {
     "_id": "math_8_hard_044",
-    "content": "Factor completely: x² - 64",
+    "content": "What is 8^3?",
     "type": "multiple_choice",
     "options": [
-      "(x - 8)(x + 8)",
-      "(x - 8)²",
-      "x(x - 8)",
-      "Cannot be factored"
+      "507",
+      "512",
+      "520",
+      "527"
     ],
-    "correctAnswer": "(x - 8)(x + 8)",
+    "correctAnswer": "512",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "x² - 64 is a difference of squares: (x - 8)(x + 8)",
-    "_cacheBreaker": "1756033578419_44"
+    "explanation": "8^3 = 512",
+    "_cacheBreaker": "1756035526313_44"
   },
   {
     "_id": "math_8_hard_045",
-    "content": "What is the range of f(x) = -x² + 16?",
+    "content": "What is 7^3?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "y ≤ 16",
-      "y ≥ 16",
-      "y > 0"
+      "338",
+      "343",
+      "351",
+      "358"
     ],
-    "correctAnswer": "y ≤ 16",
+    "correctAnswer": "343",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Since the parabola opens downward, the maximum value is 16",
-    "_cacheBreaker": "1756033578419_45"
+    "explanation": "7^3 = 343",
+    "_cacheBreaker": "1756035526313_45"
   },
   {
     "_id": "math_8_hard_046",
-    "content": "Solve: 8x - 16 = 7x + 24",
+    "content": "What is 8^2?",
     "type": "multiple_choice",
     "options": [
-      "x = 40",
-      "x = 32",
-      "x = 48",
-      "x = 24"
+      "59",
+      "64",
+      "72",
+      "79"
     ],
-    "correctAnswer": "x = 40",
+    "correctAnswer": "64",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "8x - 7x = 24 + 16, so x = 40",
-    "_cacheBreaker": "1756033578419_46"
+    "explanation": "8^2 = 64",
+    "_cacheBreaker": "1756035526313_46"
   },
   {
     "_id": "math_8_hard_047",
-    "content": "If f(x) = 8x² + 16x, what is f(8)?",
+    "content": "What is 5^4?",
     "type": "multiple_choice",
     "options": [
-      "640",
-      "80",
-      "24",
-      "64"
+      "620",
+      "625",
+      "633",
+      "640"
     ],
-    "correctAnswer": "640",
+    "correctAnswer": "625",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "f(8) = 8(8)² + 16(8) = 512 + 128 = 640",
-    "_cacheBreaker": "1756033578419_47"
+    "explanation": "5^4 = 625",
+    "_cacheBreaker": "1756035526313_47"
   },
   {
     "_id": "math_8_hard_048",
-    "content": "What is the vertex of the parabola y = x² - 16x + 8?",
+    "content": "What is 9^2?",
     "type": "multiple_choice",
     "options": [
-      "(8, -8)",
-      "(8, 0)",
-      "(0, 8)",
-      "(8, 8)"
+      "76",
+      "81",
+      "89",
+      "96"
     ],
-    "correctAnswer": "(8, -8)",
+    "correctAnswer": "81",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Vertex x-coordinate = -b/2a = 16/2 = 8. y = 8² - 16(8) + 8 = -8",
-    "_cacheBreaker": "1756033578419_48"
+    "explanation": "9^2 = 81",
+    "_cacheBreaker": "1756035526313_48"
   },
   {
     "_id": "math_8_hard_049",
-    "content": "Factor completely: x² - 64",
+    "content": "What is 8^2?",
     "type": "multiple_choice",
     "options": [
-      "(x - 8)(x + 8)",
-      "(x - 8)²",
-      "x(x - 8)",
-      "Cannot be factored"
+      "59",
+      "64",
+      "72",
+      "79"
     ],
-    "correctAnswer": "(x - 8)(x + 8)",
+    "correctAnswer": "64",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "x² - 64 is a difference of squares: (x - 8)(x + 8)",
-    "_cacheBreaker": "1756033578419_49"
+    "explanation": "8^2 = 64",
+    "_cacheBreaker": "1756035526313_49"
   },
   {
     "_id": "math_8_hard_050",
-    "content": "What is the range of f(x) = -x² + 16?",
+    "content": "What is 5^4?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "y ≤ 16",
-      "y ≥ 16",
-      "y > 0"
+      "620",
+      "625",
+      "633",
+      "640"
     ],
-    "correctAnswer": "y ≤ 16",
+    "correctAnswer": "625",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Since the parabola opens downward, the maximum value is 16",
-    "_cacheBreaker": "1756033578419_50"
+    "explanation": "5^4 = 625",
+    "_cacheBreaker": "1756035526313_50"
   }
 ]

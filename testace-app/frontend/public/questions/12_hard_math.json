@@ -1,852 +1,852 @@
 [
   {
     "_id": "math_12_hard_001",
-    "content": "Solve: 12x - 24 = 11x + 36",
+    "content": "What is 2^3?",
     "type": "multiple_choice",
     "options": [
-      "x = 60",
-      "x = 48",
-      "x = 72",
-      "x = 36"
+      "3",
+      "8",
+      "16",
+      "23"
     ],
-    "correctAnswer": "x = 60",
+    "correctAnswer": "8",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "12x - 11x = 36 + 24, so x = 60",
-    "_cacheBreaker": "1756033578449_1"
+    "explanation": "2^3 = 8",
+    "_cacheBreaker": "1756035526369_1"
   },
   {
     "_id": "math_12_hard_002",
-    "content": "If f(x) = 12x² + 24x, what is f(12)?",
+    "content": "What is 5^4?",
     "type": "multiple_choice",
     "options": [
-      "2016",
-      "168",
-      "36",
-      "144"
+      "620",
+      "625",
+      "633",
+      "640"
     ],
-    "correctAnswer": "2016",
+    "correctAnswer": "625",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "f(12) = 12(12)² + 24(12) = 1728 + 288 = 2016",
-    "_cacheBreaker": "1756033578449_2"
+    "explanation": "5^4 = 625",
+    "_cacheBreaker": "1756035526369_2"
   },
   {
     "_id": "math_12_hard_003",
-    "content": "What is the vertex of the parabola y = x² - 24x + 12?",
+    "content": "What is 8^4?",
     "type": "multiple_choice",
     "options": [
-      "(12, -12)",
-      "(12, 0)",
-      "(0, 12)",
-      "(12, 12)"
+      "4091",
+      "4096",
+      "4104",
+      "4111"
     ],
-    "correctAnswer": "(12, -12)",
+    "correctAnswer": "4096",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "Vertex x-coordinate = -b/2a = 24/2 = 12. y = 12² - 24(12) + 12 = -12",
-    "_cacheBreaker": "1756033578449_3"
+    "explanation": "8^4 = 4096",
+    "_cacheBreaker": "1756035526369_3"
   },
   {
     "_id": "math_12_hard_004",
-    "content": "Factor completely: x² - 144",
+    "content": "What is 8^4?",
     "type": "multiple_choice",
     "options": [
-      "(x - 12)(x + 12)",
-      "(x - 12)²",
-      "x(x - 12)",
-      "Cannot be factored"
+      "4091",
+      "4096",
+      "4104",
+      "4111"
     ],
-    "correctAnswer": "(x - 12)(x + 12)",
+    "correctAnswer": "4096",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "x² - 144 is a difference of squares: (x - 12)(x + 12)",
-    "_cacheBreaker": "1756033578449_4"
+    "explanation": "8^4 = 4096",
+    "_cacheBreaker": "1756035526369_4"
   },
   {
     "_id": "math_12_hard_005",
-    "content": "What is the range of f(x) = -x² + 24?",
+    "content": "What is 2^4?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "y ≤ 24",
-      "y ≥ 24",
-      "y > 0"
+      "11",
+      "16",
+      "24",
+      "31"
     ],
-    "correctAnswer": "y ≤ 24",
+    "correctAnswer": "16",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "Since the parabola opens downward, the maximum value is 24",
-    "_cacheBreaker": "1756033578449_5"
+    "explanation": "2^4 = 16",
+    "_cacheBreaker": "1756035526369_5"
   },
   {
     "_id": "math_12_hard_006",
-    "content": "Solve: 12x - 24 = 11x + 36",
+    "content": "What is 3^2?",
     "type": "multiple_choice",
     "options": [
-      "x = 60",
-      "x = 48",
-      "x = 72",
-      "x = 36"
+      "4",
+      "9",
+      "17",
+      "24"
     ],
-    "correctAnswer": "x = 60",
+    "correctAnswer": "9",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "12x - 11x = 36 + 24, so x = 60",
-    "_cacheBreaker": "1756033578449_6"
+    "explanation": "3^2 = 9",
+    "_cacheBreaker": "1756035526369_6"
   },
   {
     "_id": "math_12_hard_007",
-    "content": "If f(x) = 12x² + 24x, what is f(12)?",
+    "content": "What is 7^3?",
     "type": "multiple_choice",
     "options": [
-      "2016",
-      "168",
-      "36",
-      "144"
+      "338",
+      "343",
+      "351",
+      "358"
     ],
-    "correctAnswer": "2016",
+    "correctAnswer": "343",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "f(12) = 12(12)² + 24(12) = 1728 + 288 = 2016",
-    "_cacheBreaker": "1756033578449_7"
+    "explanation": "7^3 = 343",
+    "_cacheBreaker": "1756035526369_7"
   },
   {
     "_id": "math_12_hard_008",
-    "content": "What is the vertex of the parabola y = x² - 24x + 12?",
+    "content": "What is 7^2?",
     "type": "multiple_choice",
     "options": [
-      "(12, -12)",
-      "(12, 0)",
-      "(0, 12)",
-      "(12, 12)"
+      "44",
+      "49",
+      "57",
+      "64"
     ],
-    "correctAnswer": "(12, -12)",
+    "correctAnswer": "49",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "Vertex x-coordinate = -b/2a = 24/2 = 12. y = 12² - 24(12) + 12 = -12",
-    "_cacheBreaker": "1756033578449_8"
+    "explanation": "7^2 = 49",
+    "_cacheBreaker": "1756035526369_8"
   },
   {
     "_id": "math_12_hard_009",
-    "content": "Factor completely: x² - 144",
+    "content": "What is 4^4?",
     "type": "multiple_choice",
     "options": [
-      "(x - 12)(x + 12)",
-      "(x - 12)²",
-      "x(x - 12)",
-      "Cannot be factored"
+      "251",
+      "256",
+      "264",
+      "271"
     ],
-    "correctAnswer": "(x - 12)(x + 12)",
+    "correctAnswer": "256",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "x² - 144 is a difference of squares: (x - 12)(x + 12)",
-    "_cacheBreaker": "1756033578449_9"
+    "explanation": "4^4 = 256",
+    "_cacheBreaker": "1756035526369_9"
   },
   {
     "_id": "math_12_hard_010",
-    "content": "What is the range of f(x) = -x² + 24?",
+    "content": "What is 9^3?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "y ≤ 24",
-      "y ≥ 24",
-      "y > 0"
+      "724",
+      "729",
+      "737",
+      "744"
     ],
-    "correctAnswer": "y ≤ 24",
+    "correctAnswer": "729",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "Since the parabola opens downward, the maximum value is 24",
-    "_cacheBreaker": "1756033578449_10"
+    "explanation": "9^3 = 729",
+    "_cacheBreaker": "1756035526369_10"
   },
   {
     "_id": "math_12_hard_011",
-    "content": "Solve: 12x - 24 = 11x + 36",
+    "content": "What is 8^2?",
     "type": "multiple_choice",
     "options": [
-      "x = 60",
-      "x = 48",
-      "x = 72",
-      "x = 36"
+      "59",
+      "64",
+      "72",
+      "79"
     ],
-    "correctAnswer": "x = 60",
+    "correctAnswer": "64",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "12x - 11x = 36 + 24, so x = 60",
-    "_cacheBreaker": "1756033578449_11"
+    "explanation": "8^2 = 64",
+    "_cacheBreaker": "1756035526369_11"
   },
   {
     "_id": "math_12_hard_012",
-    "content": "If f(x) = 12x² + 24x, what is f(12)?",
+    "content": "What is 6^4?",
     "type": "multiple_choice",
     "options": [
-      "2016",
-      "168",
-      "36",
-      "144"
+      "1291",
+      "1296",
+      "1304",
+      "1311"
     ],
-    "correctAnswer": "2016",
+    "correctAnswer": "1296",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "f(12) = 12(12)² + 24(12) = 1728 + 288 = 2016",
-    "_cacheBreaker": "1756033578449_12"
+    "explanation": "6^4 = 1296",
+    "_cacheBreaker": "1756035526369_12"
   },
   {
     "_id": "math_12_hard_013",
-    "content": "What is the vertex of the parabola y = x² - 24x + 12?",
+    "content": "What is 6^4?",
     "type": "multiple_choice",
     "options": [
-      "(12, -12)",
-      "(12, 0)",
-      "(0, 12)",
-      "(12, 12)"
+      "1291",
+      "1296",
+      "1304",
+      "1311"
     ],
-    "correctAnswer": "(12, -12)",
+    "correctAnswer": "1296",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "Vertex x-coordinate = -b/2a = 24/2 = 12. y = 12² - 24(12) + 12 = -12",
-    "_cacheBreaker": "1756033578449_13"
+    "explanation": "6^4 = 1296",
+    "_cacheBreaker": "1756035526369_13"
   },
   {
     "_id": "math_12_hard_014",
-    "content": "Factor completely: x² - 144",
+    "content": "What is 5^4?",
     "type": "multiple_choice",
     "options": [
-      "(x - 12)(x + 12)",
-      "(x - 12)²",
-      "x(x - 12)",
-      "Cannot be factored"
+      "620",
+      "625",
+      "633",
+      "640"
     ],
-    "correctAnswer": "(x - 12)(x + 12)",
+    "correctAnswer": "625",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "x² - 144 is a difference of squares: (x - 12)(x + 12)",
-    "_cacheBreaker": "1756033578449_14"
+    "explanation": "5^4 = 625",
+    "_cacheBreaker": "1756035526369_14"
   },
   {
     "_id": "math_12_hard_015",
-    "content": "What is the range of f(x) = -x² + 24?",
+    "content": "What is 6^4?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "y ≤ 24",
-      "y ≥ 24",
-      "y > 0"
+      "1291",
+      "1296",
+      "1304",
+      "1311"
     ],
-    "correctAnswer": "y ≤ 24",
+    "correctAnswer": "1296",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "Since the parabola opens downward, the maximum value is 24",
-    "_cacheBreaker": "1756033578449_15"
+    "explanation": "6^4 = 1296",
+    "_cacheBreaker": "1756035526369_15"
   },
   {
     "_id": "math_12_hard_016",
-    "content": "Solve: 12x - 24 = 11x + 36",
+    "content": "What is 7^3?",
     "type": "multiple_choice",
     "options": [
-      "x = 60",
-      "x = 48",
-      "x = 72",
-      "x = 36"
+      "338",
+      "343",
+      "351",
+      "358"
     ],
-    "correctAnswer": "x = 60",
+    "correctAnswer": "343",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "12x - 11x = 36 + 24, so x = 60",
-    "_cacheBreaker": "1756033578449_16"
+    "explanation": "7^3 = 343",
+    "_cacheBreaker": "1756035526369_16"
   },
   {
     "_id": "math_12_hard_017",
-    "content": "If f(x) = 12x² + 24x, what is f(12)?",
+    "content": "What is 3^3?",
     "type": "multiple_choice",
     "options": [
-      "2016",
-      "168",
-      "36",
-      "144"
+      "22",
+      "27",
+      "35",
+      "42"
     ],
-    "correctAnswer": "2016",
+    "correctAnswer": "27",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "f(12) = 12(12)² + 24(12) = 1728 + 288 = 2016",
-    "_cacheBreaker": "1756033578449_17"
+    "explanation": "3^3 = 27",
+    "_cacheBreaker": "1756035526369_17"
   },
   {
     "_id": "math_12_hard_018",
-    "content": "What is the vertex of the parabola y = x² - 24x + 12?",
+    "content": "What is 7^2?",
     "type": "multiple_choice",
     "options": [
-      "(12, -12)",
-      "(12, 0)",
-      "(0, 12)",
-      "(12, 12)"
+      "44",
+      "49",
+      "57",
+      "64"
     ],
-    "correctAnswer": "(12, -12)",
+    "correctAnswer": "49",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "Vertex x-coordinate = -b/2a = 24/2 = 12. y = 12² - 24(12) + 12 = -12",
-    "_cacheBreaker": "1756033578449_18"
+    "explanation": "7^2 = 49",
+    "_cacheBreaker": "1756035526369_18"
   },
   {
     "_id": "math_12_hard_019",
-    "content": "Factor completely: x² - 144",
+    "content": "What is 2^3?",
     "type": "multiple_choice",
     "options": [
-      "(x - 12)(x + 12)",
-      "(x - 12)²",
-      "x(x - 12)",
-      "Cannot be factored"
+      "3",
+      "8",
+      "16",
+      "23"
     ],
-    "correctAnswer": "(x - 12)(x + 12)",
+    "correctAnswer": "8",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "x² - 144 is a difference of squares: (x - 12)(x + 12)",
-    "_cacheBreaker": "1756033578449_19"
+    "explanation": "2^3 = 8",
+    "_cacheBreaker": "1756035526369_19"
   },
   {
     "_id": "math_12_hard_020",
-    "content": "What is the range of f(x) = -x² + 24?",
+    "content": "What is 4^4?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "y ≤ 24",
-      "y ≥ 24",
-      "y > 0"
+      "251",
+      "256",
+      "264",
+      "271"
     ],
-    "correctAnswer": "y ≤ 24",
+    "correctAnswer": "256",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "Since the parabola opens downward, the maximum value is 24",
-    "_cacheBreaker": "1756033578449_20"
+    "explanation": "4^4 = 256",
+    "_cacheBreaker": "1756035526369_20"
   },
   {
     "_id": "math_12_hard_021",
-    "content": "Solve: 12x - 24 = 11x + 36",
+    "content": "What is 3^3?",
     "type": "multiple_choice",
     "options": [
-      "x = 60",
-      "x = 48",
-      "x = 72",
-      "x = 36"
+      "22",
+      "27",
+      "35",
+      "42"
     ],
-    "correctAnswer": "x = 60",
+    "correctAnswer": "27",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "12x - 11x = 36 + 24, so x = 60",
-    "_cacheBreaker": "1756033578449_21"
+    "explanation": "3^3 = 27",
+    "_cacheBreaker": "1756035526369_21"
   },
   {
     "_id": "math_12_hard_022",
-    "content": "If f(x) = 12x² + 24x, what is f(12)?",
+    "content": "What is 9^2?",
     "type": "multiple_choice",
     "options": [
-      "2016",
-      "168",
-      "36",
-      "144"
+      "76",
+      "81",
+      "89",
+      "96"
     ],
-    "correctAnswer": "2016",
+    "correctAnswer": "81",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "f(12) = 12(12)² + 24(12) = 1728 + 288 = 2016",
-    "_cacheBreaker": "1756033578449_22"
+    "explanation": "9^2 = 81",
+    "_cacheBreaker": "1756035526369_22"
   },
   {
     "_id": "math_12_hard_023",
-    "content": "What is the vertex of the parabola y = x² - 24x + 12?",
+    "content": "What is 8^4?",
     "type": "multiple_choice",
     "options": [
-      "(12, -12)",
-      "(12, 0)",
-      "(0, 12)",
-      "(12, 12)"
+      "4091",
+      "4096",
+      "4104",
+      "4111"
     ],
-    "correctAnswer": "(12, -12)",
+    "correctAnswer": "4096",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "Vertex x-coordinate = -b/2a = 24/2 = 12. y = 12² - 24(12) + 12 = -12",
-    "_cacheBreaker": "1756033578449_23"
+    "explanation": "8^4 = 4096",
+    "_cacheBreaker": "1756035526369_23"
   },
   {
     "_id": "math_12_hard_024",
-    "content": "Factor completely: x² - 144",
+    "content": "What is 5^2?",
     "type": "multiple_choice",
     "options": [
-      "(x - 12)(x + 12)",
-      "(x - 12)²",
-      "x(x - 12)",
-      "Cannot be factored"
+      "20",
+      "25",
+      "33",
+      "40"
     ],
-    "correctAnswer": "(x - 12)(x + 12)",
+    "correctAnswer": "25",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "x² - 144 is a difference of squares: (x - 12)(x + 12)",
-    "_cacheBreaker": "1756033578449_24"
+    "explanation": "5^2 = 25",
+    "_cacheBreaker": "1756035526369_24"
   },
   {
     "_id": "math_12_hard_025",
-    "content": "What is the range of f(x) = -x² + 24?",
+    "content": "What is 6^3?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "y ≤ 24",
-      "y ≥ 24",
-      "y > 0"
+      "211",
+      "216",
+      "224",
+      "231"
     ],
-    "correctAnswer": "y ≤ 24",
+    "correctAnswer": "216",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "Since the parabola opens downward, the maximum value is 24",
-    "_cacheBreaker": "1756033578449_25"
+    "explanation": "6^3 = 216",
+    "_cacheBreaker": "1756035526369_25"
   },
   {
     "_id": "math_12_hard_026",
-    "content": "Solve: 12x - 24 = 11x + 36",
+    "content": "What is 3^4?",
     "type": "multiple_choice",
     "options": [
-      "x = 60",
-      "x = 48",
-      "x = 72",
-      "x = 36"
+      "76",
+      "81",
+      "89",
+      "96"
     ],
-    "correctAnswer": "x = 60",
+    "correctAnswer": "81",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "12x - 11x = 36 + 24, so x = 60",
-    "_cacheBreaker": "1756033578449_26"
+    "explanation": "3^4 = 81",
+    "_cacheBreaker": "1756035526369_26"
   },
   {
     "_id": "math_12_hard_027",
-    "content": "If f(x) = 12x² + 24x, what is f(12)?",
+    "content": "What is 4^2?",
     "type": "multiple_choice",
     "options": [
-      "2016",
-      "168",
-      "36",
-      "144"
+      "11",
+      "16",
+      "24",
+      "31"
     ],
-    "correctAnswer": "2016",
+    "correctAnswer": "16",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "f(12) = 12(12)² + 24(12) = 1728 + 288 = 2016",
-    "_cacheBreaker": "1756033578449_27"
+    "explanation": "4^2 = 16",
+    "_cacheBreaker": "1756035526369_27"
   },
   {
     "_id": "math_12_hard_028",
-    "content": "What is the vertex of the parabola y = x² - 24x + 12?",
+    "content": "What is 9^2?",
     "type": "multiple_choice",
     "options": [
-      "(12, -12)",
-      "(12, 0)",
-      "(0, 12)",
-      "(12, 12)"
+      "76",
+      "81",
+      "89",
+      "96"
     ],
-    "correctAnswer": "(12, -12)",
+    "correctAnswer": "81",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "Vertex x-coordinate = -b/2a = 24/2 = 12. y = 12² - 24(12) + 12 = -12",
-    "_cacheBreaker": "1756033578449_28"
+    "explanation": "9^2 = 81",
+    "_cacheBreaker": "1756035526369_28"
   },
   {
     "_id": "math_12_hard_029",
-    "content": "Factor completely: x² - 144",
+    "content": "What is 6^3?",
     "type": "multiple_choice",
     "options": [
-      "(x - 12)(x + 12)",
-      "(x - 12)²",
-      "x(x - 12)",
-      "Cannot be factored"
+      "211",
+      "216",
+      "224",
+      "231"
     ],
-    "correctAnswer": "(x - 12)(x + 12)",
+    "correctAnswer": "216",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "x² - 144 is a difference of squares: (x - 12)(x + 12)",
-    "_cacheBreaker": "1756033578449_29"
+    "explanation": "6^3 = 216",
+    "_cacheBreaker": "1756035526369_29"
   },
   {
     "_id": "math_12_hard_030",
-    "content": "What is the range of f(x) = -x² + 24?",
+    "content": "What is 4^2?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "y ≤ 24",
-      "y ≥ 24",
-      "y > 0"
+      "11",
+      "16",
+      "24",
+      "31"
     ],
-    "correctAnswer": "y ≤ 24",
+    "correctAnswer": "16",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "Since the parabola opens downward, the maximum value is 24",
-    "_cacheBreaker": "1756033578449_30"
+    "explanation": "4^2 = 16",
+    "_cacheBreaker": "1756035526369_30"
   },
   {
     "_id": "math_12_hard_031",
-    "content": "Solve: 12x - 24 = 11x + 36",
+    "content": "What is 3^3?",
     "type": "multiple_choice",
     "options": [
-      "x = 60",
-      "x = 48",
-      "x = 72",
-      "x = 36"
+      "22",
+      "27",
+      "35",
+      "42"
     ],
-    "correctAnswer": "x = 60",
+    "correctAnswer": "27",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "12x - 11x = 36 + 24, so x = 60",
-    "_cacheBreaker": "1756033578449_31"
+    "explanation": "3^3 = 27",
+    "_cacheBreaker": "1756035526369_31"
   },
   {
     "_id": "math_12_hard_032",
-    "content": "If f(x) = 12x² + 24x, what is f(12)?",
+    "content": "What is 8^3?",
     "type": "multiple_choice",
     "options": [
-      "2016",
-      "168",
-      "36",
-      "144"
+      "507",
+      "512",
+      "520",
+      "527"
     ],
-    "correctAnswer": "2016",
+    "correctAnswer": "512",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "f(12) = 12(12)² + 24(12) = 1728 + 288 = 2016",
-    "_cacheBreaker": "1756033578449_32"
+    "explanation": "8^3 = 512",
+    "_cacheBreaker": "1756035526369_32"
   },
   {
     "_id": "math_12_hard_033",
-    "content": "What is the vertex of the parabola y = x² - 24x + 12?",
+    "content": "What is 6^4?",
     "type": "multiple_choice",
     "options": [
-      "(12, -12)",
-      "(12, 0)",
-      "(0, 12)",
-      "(12, 12)"
+      "1291",
+      "1296",
+      "1304",
+      "1311"
     ],
-    "correctAnswer": "(12, -12)",
+    "correctAnswer": "1296",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "Vertex x-coordinate = -b/2a = 24/2 = 12. y = 12² - 24(12) + 12 = -12",
-    "_cacheBreaker": "1756033578449_33"
+    "explanation": "6^4 = 1296",
+    "_cacheBreaker": "1756035526369_33"
   },
   {
     "_id": "math_12_hard_034",
-    "content": "Factor completely: x² - 144",
+    "content": "What is 4^4?",
     "type": "multiple_choice",
     "options": [
-      "(x - 12)(x + 12)",
-      "(x - 12)²",
-      "x(x - 12)",
-      "Cannot be factored"
+      "251",
+      "256",
+      "264",
+      "271"
     ],
-    "correctAnswer": "(x - 12)(x + 12)",
+    "correctAnswer": "256",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "x² - 144 is a difference of squares: (x - 12)(x + 12)",
-    "_cacheBreaker": "1756033578449_34"
+    "explanation": "4^4 = 256",
+    "_cacheBreaker": "1756035526369_34"
   },
   {
     "_id": "math_12_hard_035",
-    "content": "What is the range of f(x) = -x² + 24?",
+    "content": "What is 7^3?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "y ≤ 24",
-      "y ≥ 24",
-      "y > 0"
+      "338",
+      "343",
+      "351",
+      "358"
     ],
-    "correctAnswer": "y ≤ 24",
+    "correctAnswer": "343",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "Since the parabola opens downward, the maximum value is 24",
-    "_cacheBreaker": "1756033578449_35"
+    "explanation": "7^3 = 343",
+    "_cacheBreaker": "1756035526369_35"
   },
   {
     "_id": "math_12_hard_036",
-    "content": "Solve: 12x - 24 = 11x + 36",
+    "content": "What is 9^3?",
     "type": "multiple_choice",
     "options": [
-      "x = 60",
-      "x = 48",
-      "x = 72",
-      "x = 36"
+      "724",
+      "729",
+      "737",
+      "744"
     ],
-    "correctAnswer": "x = 60",
+    "correctAnswer": "729",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "12x - 11x = 36 + 24, so x = 60",
-    "_cacheBreaker": "1756033578449_36"
+    "explanation": "9^3 = 729",
+    "_cacheBreaker": "1756035526369_36"
   },
   {
     "_id": "math_12_hard_037",
-    "content": "If f(x) = 12x² + 24x, what is f(12)?",
+    "content": "What is 2^4?",
     "type": "multiple_choice",
     "options": [
-      "2016",
-      "168",
-      "36",
-      "144"
+      "11",
+      "16",
+      "24",
+      "31"
     ],
-    "correctAnswer": "2016",
+    "correctAnswer": "16",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "f(12) = 12(12)² + 24(12) = 1728 + 288 = 2016",
-    "_cacheBreaker": "1756033578449_37"
+    "explanation": "2^4 = 16",
+    "_cacheBreaker": "1756035526369_37"
   },
   {
     "_id": "math_12_hard_038",
-    "content": "What is the vertex of the parabola y = x² - 24x + 12?",
+    "content": "What is 4^2?",
     "type": "multiple_choice",
     "options": [
-      "(12, -12)",
-      "(12, 0)",
-      "(0, 12)",
-      "(12, 12)"
+      "11",
+      "16",
+      "24",
+      "31"
     ],
-    "correctAnswer": "(12, -12)",
+    "correctAnswer": "16",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "Vertex x-coordinate = -b/2a = 24/2 = 12. y = 12² - 24(12) + 12 = -12",
-    "_cacheBreaker": "1756033578449_38"
+    "explanation": "4^2 = 16",
+    "_cacheBreaker": "1756035526369_38"
   },
   {
     "_id": "math_12_hard_039",
-    "content": "Factor completely: x² - 144",
+    "content": "What is 5^4?",
     "type": "multiple_choice",
     "options": [
-      "(x - 12)(x + 12)",
-      "(x - 12)²",
-      "x(x - 12)",
-      "Cannot be factored"
+      "620",
+      "625",
+      "633",
+      "640"
     ],
-    "correctAnswer": "(x - 12)(x + 12)",
+    "correctAnswer": "625",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "x² - 144 is a difference of squares: (x - 12)(x + 12)",
-    "_cacheBreaker": "1756033578449_39"
+    "explanation": "5^4 = 625",
+    "_cacheBreaker": "1756035526369_39"
   },
   {
     "_id": "math_12_hard_040",
-    "content": "What is the range of f(x) = -x² + 24?",
+    "content": "What is 2^2?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "y ≤ 24",
-      "y ≥ 24",
-      "y > 0"
+      "-1",
+      "4",
+      "12",
+      "19"
     ],
-    "correctAnswer": "y ≤ 24",
+    "correctAnswer": "4",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "Since the parabola opens downward, the maximum value is 24",
-    "_cacheBreaker": "1756033578449_40"
+    "explanation": "2^2 = 4",
+    "_cacheBreaker": "1756035526369_40"
   },
   {
     "_id": "math_12_hard_041",
-    "content": "Solve: 12x - 24 = 11x + 36",
+    "content": "What is 9^2?",
     "type": "multiple_choice",
     "options": [
-      "x = 60",
-      "x = 48",
-      "x = 72",
-      "x = 36"
+      "76",
+      "81",
+      "89",
+      "96"
     ],
-    "correctAnswer": "x = 60",
+    "correctAnswer": "81",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "12x - 11x = 36 + 24, so x = 60",
-    "_cacheBreaker": "1756033578449_41"
+    "explanation": "9^2 = 81",
+    "_cacheBreaker": "1756035526369_41"
   },
   {
     "_id": "math_12_hard_042",
-    "content": "If f(x) = 12x² + 24x, what is f(12)?",
+    "content": "What is 9^4?",
     "type": "multiple_choice",
     "options": [
-      "2016",
-      "168",
-      "36",
-      "144"
+      "6556",
+      "6561",
+      "6569",
+      "6576"
     ],
-    "correctAnswer": "2016",
+    "correctAnswer": "6561",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "f(12) = 12(12)² + 24(12) = 1728 + 288 = 2016",
-    "_cacheBreaker": "1756033578449_42"
+    "explanation": "9^4 = 6561",
+    "_cacheBreaker": "1756035526369_42"
   },
   {
     "_id": "math_12_hard_043",
-    "content": "What is the vertex of the parabola y = x² - 24x + 12?",
+    "content": "What is 3^2?",
     "type": "multiple_choice",
     "options": [
-      "(12, -12)",
-      "(12, 0)",
-      "(0, 12)",
-      "(12, 12)"
+      "4",
+      "9",
+      "17",
+      "24"
     ],
-    "correctAnswer": "(12, -12)",
+    "correctAnswer": "9",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "Vertex x-coordinate = -b/2a = 24/2 = 12. y = 12² - 24(12) + 12 = -12",
-    "_cacheBreaker": "1756033578449_43"
+    "explanation": "3^2 = 9",
+    "_cacheBreaker": "1756035526369_43"
   },
   {
     "_id": "math_12_hard_044",
-    "content": "Factor completely: x² - 144",
+    "content": "What is 9^3?",
     "type": "multiple_choice",
     "options": [
-      "(x - 12)(x + 12)",
-      "(x - 12)²",
-      "x(x - 12)",
-      "Cannot be factored"
+      "724",
+      "729",
+      "737",
+      "744"
     ],
-    "correctAnswer": "(x - 12)(x + 12)",
+    "correctAnswer": "729",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "x² - 144 is a difference of squares: (x - 12)(x + 12)",
-    "_cacheBreaker": "1756033578449_44"
+    "explanation": "9^3 = 729",
+    "_cacheBreaker": "1756035526369_44"
   },
   {
     "_id": "math_12_hard_045",
-    "content": "What is the range of f(x) = -x² + 24?",
+    "content": "What is 7^3?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "y ≤ 24",
-      "y ≥ 24",
-      "y > 0"
+      "338",
+      "343",
+      "351",
+      "358"
     ],
-    "correctAnswer": "y ≤ 24",
+    "correctAnswer": "343",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "Since the parabola opens downward, the maximum value is 24",
-    "_cacheBreaker": "1756033578449_45"
+    "explanation": "7^3 = 343",
+    "_cacheBreaker": "1756035526369_45"
   },
   {
     "_id": "math_12_hard_046",
-    "content": "Solve: 12x - 24 = 11x + 36",
+    "content": "What is 6^2?",
     "type": "multiple_choice",
     "options": [
-      "x = 60",
-      "x = 48",
-      "x = 72",
-      "x = 36"
+      "31",
+      "36",
+      "44",
+      "51"
     ],
-    "correctAnswer": "x = 60",
+    "correctAnswer": "36",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "12x - 11x = 36 + 24, so x = 60",
-    "_cacheBreaker": "1756033578449_46"
+    "explanation": "6^2 = 36",
+    "_cacheBreaker": "1756035526369_46"
   },
   {
     "_id": "math_12_hard_047",
-    "content": "If f(x) = 12x² + 24x, what is f(12)?",
+    "content": "What is 7^3?",
     "type": "multiple_choice",
     "options": [
-      "2016",
-      "168",
-      "36",
-      "144"
+      "338",
+      "343",
+      "351",
+      "358"
     ],
-    "correctAnswer": "2016",
+    "correctAnswer": "343",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "f(12) = 12(12)² + 24(12) = 1728 + 288 = 2016",
-    "_cacheBreaker": "1756033578449_47"
+    "explanation": "7^3 = 343",
+    "_cacheBreaker": "1756035526369_47"
   },
   {
     "_id": "math_12_hard_048",
-    "content": "What is the vertex of the parabola y = x² - 24x + 12?",
+    "content": "What is 8^2?",
     "type": "multiple_choice",
     "options": [
-      "(12, -12)",
-      "(12, 0)",
-      "(0, 12)",
-      "(12, 12)"
+      "59",
+      "64",
+      "72",
+      "79"
     ],
-    "correctAnswer": "(12, -12)",
+    "correctAnswer": "64",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "Vertex x-coordinate = -b/2a = 24/2 = 12. y = 12² - 24(12) + 12 = -12",
-    "_cacheBreaker": "1756033578449_48"
+    "explanation": "8^2 = 64",
+    "_cacheBreaker": "1756035526369_48"
   },
   {
     "_id": "math_12_hard_049",
-    "content": "Factor completely: x² - 144",
+    "content": "What is 9^4?",
     "type": "multiple_choice",
     "options": [
-      "(x - 12)(x + 12)",
-      "(x - 12)²",
-      "x(x - 12)",
-      "Cannot be factored"
+      "6556",
+      "6561",
+      "6569",
+      "6576"
     ],
-    "correctAnswer": "(x - 12)(x + 12)",
+    "correctAnswer": "6561",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "x² - 144 is a difference of squares: (x - 12)(x + 12)",
-    "_cacheBreaker": "1756033578449_49"
+    "explanation": "9^4 = 6561",
+    "_cacheBreaker": "1756035526369_49"
   },
   {
     "_id": "math_12_hard_050",
-    "content": "What is the range of f(x) = -x² + 24?",
+    "content": "What is 8^4?",
     "type": "multiple_choice",
     "options": [
-      "All real numbers",
-      "y ≤ 24",
-      "y ≥ 24",
-      "y > 0"
+      "4091",
+      "4096",
+      "4104",
+      "4111"
     ],
-    "correctAnswer": "y ≤ 24",
+    "correctAnswer": "4096",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "Since the parabola opens downward, the maximum value is 24",
-    "_cacheBreaker": "1756033578449_50"
+    "explanation": "8^4 = 4096",
+    "_cacheBreaker": "1756035526369_50"
   }
 ]
