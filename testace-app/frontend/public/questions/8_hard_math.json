@@ -3,220 +3,340 @@
     "_id": "math_8_hard_001",
     "content": "Solve: x² - 7x + 12 = 0",
     "type": "multiple_choice",
-    "options": ["x = 3, 4", "x = 2, 6", "x = 1, 12", "x = -3, -4"],
+    "options": [
+      "x = 3, 4",
+      "x = 2, 6",
+      "x = 1, 12",
+      "x = -3, -4"
+    ],
     "correctAnswer": "x = 3, 4",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Factor: (x - 3)(x - 4) = 0, so x = 3 or x = 4"
+    "explanation": "Factor: (x - 3)(x - 4) = 0, so x = 3 or x = 4",
+    "topic": "Linear Equations"
   },
   {
     "_id": "math_8_hard_002",
     "content": "Find the volume of a cylinder with radius 3 cm and height 8 cm (use π = 3.14)",
     "type": "multiple_choice",
-    "options": ["72 cm³", "226.08 cm³", "452.16 cm³", "904.32 cm³"],
+    "options": [
+      "72 cm³",
+      "226.08 cm³",
+      "452.16 cm³",
+      "904.32 cm³"
+    ],
     "correctAnswer": "226.08 cm³",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Volume = πr²h = 3.14 × 3² × 8 = 3.14 × 9 × 8 = 226.08 cm³"
+    "explanation": "Volume = πr²h = 3.14 × 3² × 8 = 3.14 × 9 × 8 = 226.08 cm³",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_8_hard_003",
     "content": "Simplify: √(x⁴y⁶)",
     "type": "multiple_choice",
-    "options": ["x²y³", "x⁴y⁶", "x²y²", "xy³"],
+    "options": [
+      "x²y³",
+      "x⁴y⁶",
+      "x²y²",
+      "xy³"
+    ],
     "correctAnswer": "x²y³",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "√(x⁴y⁶) = √(x⁴) × √(y⁶) = x² × y³ = x²y³"
+    "explanation": "√(x⁴y⁶) = √(x⁴) × √(y⁶) = x² × y³ = x²y³",
+    "topic": "Algebra"
   },
   {
     "_id": "math_8_hard_004",
     "content": "What is the slope of a line perpendicular to y = 2x + 3?",
     "type": "multiple_choice",
-    "options": ["-1/2", "1/2", "-2", "2"],
+    "options": [
+      "-1/2",
+      "1/2",
+      "-2",
+      "2"
+    ],
     "correctAnswer": "-1/2",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Perpendicular slopes are negative reciprocals. If slope is 2, perpendicular slope is -1/2"
+    "explanation": "Perpendicular slopes are negative reciprocals. If slope is 2, perpendicular slope is -1/2",
+    "topic": "Coordinate Geometry"
   },
   {
     "_id": "math_8_hard_005",
     "content": "Solve the system: 2x + y = 7, x - y = 2",
     "type": "multiple_choice",
-    "options": ["x = 3, y = 1", "x = 2, y = 3", "x = 1, y = 5", "x = 4, y = -1"],
+    "options": [
+      "x = 3, y = 1",
+      "x = 2, y = 3",
+      "x = 1, y = 5",
+      "x = 4, y = -1"
+    ],
     "correctAnswer": "x = 3, y = 1",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Add equations: 3x = 9, so x = 3. Substitute: 3 - y = 2, so y = 1"
+    "explanation": "Add equations: 3x = 9, so x = 3. Substitute: 3 - y = 2, so y = 1",
+    "topic": "Systems of Equations"
   },
   {
     "_id": "math_8_hard_006",
     "content": "Solve: x² + 6x + 9 = 0",
     "type": "multiple_choice",
-    "options": ["x = -3", "x = 3", "x = -3, 3", "x = -6, -9"],
+    "options": [
+      "x = -3",
+      "x = 3",
+      "x = -3, 3",
+      "x = -6, -9"
+    ],
     "correctAnswer": "x = -3",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Factor: (x + 3)² = 0, so x = -3 (double root)"
+    "explanation": "Factor: (x + 3)² = 0, so x = -3 (double root)",
+    "topic": "Linear Equations"
   },
   {
     "_id": "math_8_hard_007",
     "content": "Find the surface area of a sphere with radius 4 cm (use π = 3.14)",
     "type": "multiple_choice",
-    "options": ["50.24 cm²", "200.96 cm²", "267.95 cm³", "100.48 cm²"],
+    "options": [
+      "50.24 cm²",
+      "200.96 cm²",
+      "267.95 cm³",
+      "100.48 cm²"
+    ],
     "correctAnswer": "200.96 cm²",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Surface area = 4πr² = 4 × 3.14 × 4² = 4 × 3.14 × 16 = 200.96 cm²"
+    "explanation": "Surface area = 4πr² = 4 × 3.14 × 4² = 4 × 3.14 × 16 = 200.96 cm²",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_8_hard_008",
     "content": "Simplify: (3x²y)(2xy³)",
     "type": "multiple_choice",
-    "options": ["5x³y⁴", "6x³y⁴", "6x²y³", "5x²y⁴"],
+    "options": [
+      "5x³y⁴",
+      "6x³y⁴",
+      "6x²y³",
+      "5x²y⁴"
+    ],
     "correctAnswer": "6x³y⁴",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "(3x²y)(2xy³) = 3×2 × x²×x × y×y³ = 6x³y⁴"
+    "explanation": "(3x²y)(2xy³) = 3×2 × x²×x × y×y³ = 6x³y⁴",
+    "topic": "Quadratic Equations"
   },
   {
     "_id": "math_8_hard_009",
     "content": "Solve: x² - 8x + 15 = 0",
     "type": "multiple_choice",
-    "options": ["x = 3, 5", "x = 1, 15", "x = -3, -5", "x = 8, 15"],
+    "options": [
+      "x = 3, 5",
+      "x = 1, 15",
+      "x = -3, -5",
+      "x = 8, 15"
+    ],
     "correctAnswer": "x = 3, 5",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Factor: (x - 3)(x - 5) = 0, so x = 3 or x = 5"
+    "explanation": "Factor: (x - 3)(x - 5) = 0, so x = 3 or x = 5",
+    "topic": "Linear Equations"
   },
   {
     "_id": "math_8_hard_010",
     "content": "What is the equation of a line parallel to y = 3x + 2 passing through (1, 4)?",
     "type": "multiple_choice",
-    "options": ["y = 3x + 1", "y = 3x + 7", "y = -1/3x + 4", "y = 3x + 4"],
+    "options": [
+      "y = 3x + 1",
+      "y = 3x + 7",
+      "y = -1/3x + 4",
+      "y = 3x + 4"
+    ],
     "correctAnswer": "y = 3x + 1",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Parallel lines have same slope. Using point-slope: y - 4 = 3(x - 1), so y = 3x + 1"
+    "explanation": "Parallel lines have same slope. Using point-slope: y - 4 = 3(x - 1), so y = 3x + 1",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_8_hard_011",
     "content": "Solve the system: 3x + 2y = 12, x - y = 1",
     "type": "multiple_choice",
-    "options": ["x = 2, y = 3", "x = 3, y = 2", "x = 1, y = 0", "x = 4, y = 0"],
+    "options": [
+      "x = 2, y = 3",
+      "x = 3, y = 2",
+      "x = 1, y = 0",
+      "x = 4, y = 0"
+    ],
     "correctAnswer": "x = 2, y = 1",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "From second equation: x = y + 1. Substitute: 3(y + 1) + 2y = 12, 5y = 9, y = 1.8"
+    "explanation": "From second equation: x = y + 1. Substitute: 3(y + 1) + 2y = 12, 5y = 9, y = 1.8",
+    "topic": "Systems of Equations"
   },
   {
     "_id": "math_8_hard_012",
     "content": "Find the volume of a cone with radius 5 cm and height 12 cm (use π = 3.14)",
     "type": "multiple_choice",
-    "options": ["314 cm³", "628 cm³", "942 cm³", "157 cm³"],
+    "options": [
+      "314 cm³",
+      "628 cm³",
+      "942 cm³",
+      "157 cm³"
+    ],
     "correctAnswer": "314 cm³",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Volume = (1/3)πr²h = (1/3) × 3.14 × 5² × 12 = (1/3) × 3.14 × 25 × 12 = 314 cm³"
+    "explanation": "Volume = (1/3)πr²h = (1/3) × 3.14 × 5² × 12 = (1/3) × 3.14 × 25 × 12 = 314 cm³",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_8_hard_013",
     "content": "Simplify: √(16x⁴)",
     "type": "multiple_choice",
-    "options": ["4x²", "16x²", "4x⁴", "8x²"],
+    "options": [
+      "4x²",
+      "16x²",
+      "4x⁴",
+      "8x²"
+    ],
     "correctAnswer": "4x²",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "√(16x⁴) = √16 × √(x⁴) = 4 × x² = 4x²"
+    "explanation": "√(16x⁴) = √16 × √(x⁴) = 4 × x² = 4x²",
+    "topic": "Algebra"
   },
   {
     "_id": "math_8_hard_014",
     "content": "Solve: x² + 4x - 5 = 0",
     "type": "multiple_choice",
-    "options": ["x = 1, -5", "x = -1, 5", "x = 2, -2", "x = 4, -5"],
+    "options": [
+      "x = 1, -5",
+      "x = -1, 5",
+      "x = 2, -2",
+      "x = 4, -5"
+    ],
     "correctAnswer": "x = 1, -5",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Factor: (x + 5)(x - 1) = 0, so x = -5 or x = 1"
+    "explanation": "Factor: (x + 5)(x - 1) = 0, so x = -5 or x = 1",
+    "topic": "Linear Equations"
   },
   {
     "_id": "math_8_hard_015",
     "content": "What is the slope of a line perpendicular to y = -3x + 1?",
     "type": "multiple_choice",
-    "options": ["3", "-3", "1/3", "-1/3"],
+    "options": [
+      "3",
+      "-3",
+      "1/3",
+      "-1/3"
+    ],
     "correctAnswer": "1/3",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Perpendicular slopes are negative reciprocals. If slope is -3, perpendicular slope is 1/3"
+    "explanation": "Perpendicular slopes are negative reciprocals. If slope is -3, perpendicular slope is 1/3",
+    "topic": "Coordinate Geometry"
   },
   {
     "_id": "math_8_hard_016",
     "content": "Solve the system: x + 2y = 8, 2x - y = 1",
     "type": "multiple_choice",
-    "options": ["x = 2, y = 3", "x = 3, y = 2", "x = 1, y = 3.5", "x = 4, y = 2"],
+    "options": [
+      "x = 2, y = 3",
+      "x = 3, y = 2",
+      "x = 1, y = 3.5",
+      "x = 4, y = 2"
+    ],
     "correctAnswer": "x = 2, y = 3",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "From first: x = 8 - 2y. Substitute: 2(8 - 2y) - y = 1, 16 - 5y = 1, y = 3, x = 2"
+    "explanation": "From first: x = 8 - 2y. Substitute: 2(8 - 2y) - y = 1, 16 - 5y = 1, y = 3, x = 2",
+    "topic": "Systems of Equations"
   },
   {
     "_id": "math_8_hard_017",
     "content": "Simplify: (4x³y²)(3x²y)",
     "type": "multiple_choice",
-    "options": ["7x⁵y³", "12x⁵y³", "12x⁶y²", "7x⁶y³"],
+    "options": [
+      "7x⁵y³",
+      "12x⁵y³",
+      "12x⁶y²",
+      "7x⁶y³"
+    ],
     "correctAnswer": "12x⁵y³",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "(4x³y²)(3x²y) = 4×3 × x³×x² × y²×y = 12x⁵y³"
+    "explanation": "(4x³y²)(3x²y) = 4×3 × x³×x² × y²×y = 12x⁵y³",
+    "topic": "Quadratic Equations"
   },
   {
     "_id": "math_8_hard_018",
     "content": "Solve: x² - 10x + 25 = 0",
     "type": "multiple_choice",
-    "options": ["x = 5", "x = -5", "x = 5, -5", "x = 10, 25"],
+    "options": [
+      "x = 5",
+      "x = -5",
+      "x = 5, -5",
+      "x = 10, 25"
+    ],
     "correctAnswer": "x = 5",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Factor: (x - 5)² = 0, so x = 5 (double root)"
+    "explanation": "Factor: (x - 5)² = 0, so x = 5 (double root)",
+    "topic": "Linear Equations"
   },
   {
     "_id": "math_8_hard_019",
     "content": "Find the surface area of a cylinder with radius 4 cm and height 6 cm (use π = 3.14)",
     "type": "multiple_choice",
-    "options": ["251.2 cm²", "301.44 cm²", "150.72 cm²", "452.16 cm²"],
+    "options": [
+      "251.2 cm²",
+      "301.44 cm²",
+      "150.72 cm²",
+      "452.16 cm²"
+    ],
     "correctAnswer": "251.2 cm²",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Surface area = 2πr² + 2πrh = 2×3.14×16 + 2×3.14×4×6 = 100.48 + 150.72 = 251.2 cm²"
+    "explanation": "Surface area = 2πr² + 2πrh = 2×3.14×16 + 2×3.14×4×6 = 100.48 + 150.72 = 251.2 cm²",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_8_hard_020",
     "content": "Solve: x² + 2x - 8 = 0",
     "type": "multiple_choice",
-    "options": ["x = 2, -4", "x = -2, 4", "x = 1, -8", "x = 8, -1"],
+    "options": [
+      "x = 2, -4",
+      "x = -2, 4",
+      "x = 1, -8",
+      "x = 8, -1"
+    ],
     "correctAnswer": "x = 2, -4",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "Factor: (x + 4)(x - 2) = 0, so x = -4 or x = 2"
+    "explanation": "Factor: (x + 4)(x - 2) = 0, so x = -4 or x = 2",
+    "topic": "Linear Equations"
   }
 ]

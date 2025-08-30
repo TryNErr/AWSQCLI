@@ -3,220 +3,340 @@
     "_id": "math_5_hard_001",
     "content": "What is 456 + 789?",
     "type": "multiple_choice",
-    "options": ["1243", "1244", "1245", "1246"],
+    "options": [
+      "1243",
+      "1244",
+      "1245",
+      "1246"
+    ],
     "correctAnswer": "1245",
     "subject": "math",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "456 + 789 = 1245"
+    "explanation": "456 + 789 = 1245",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_5_hard_002",
     "content": "What is the area of a rectangle with length 14 cm and width 9 cm?",
     "type": "multiple_choice",
-    "options": ["124 cm²", "125 cm²", "126 cm²", "127 cm²"],
+    "options": [
+      "124 cm²",
+      "125 cm²",
+      "126 cm²",
+      "127 cm²"
+    ],
     "correctAnswer": "126 cm²",
     "subject": "math",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Area = length × width = 14 × 9 = 126 cm²"
+    "explanation": "Area = length × width = 14 × 9 = 126 cm²",
+    "topic": "Geometry - Area"
   },
   {
     "_id": "math_5_hard_003",
     "content": "Convert 3.25 to a mixed number",
     "type": "multiple_choice",
-    "options": ["3 1/4", "3 1/2", "3 2/5", "3 3/4"],
+    "options": [
+      "3 1/4",
+      "3 1/2",
+      "3 2/5",
+      "3 3/4"
+    ],
     "correctAnswer": "3 1/4",
     "subject": "math",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "3.25 = 3 + 0.25 = 3 + 1/4 = 3 1/4"
+    "explanation": "3.25 = 3 + 0.25 = 3 + 1/4 = 3 1/4",
+    "topic": "Decimals"
   },
   {
     "_id": "math_5_hard_004",
     "content": "What is 24 × 17?",
     "type": "multiple_choice",
-    "options": ["406", "407", "408", "247"],
+    "options": [
+      "406",
+      "407",
+      "408",
+      "247"
+    ],
     "correctAnswer": "408",
     "subject": "math",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "24 × 17 = 408"
+    "explanation": "24 × 17 = 408",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_5_hard_005",
     "content": "What is 847 - 359?",
     "type": "multiple_choice",
-    "options": ["486", "487", "488", "1206"],
+    "options": [
+      "486",
+      "487",
+      "488",
+      "1206"
+    ],
     "correctAnswer": "488",
     "subject": "math",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "847 - 359 = 488"
+    "explanation": "847 - 359 = 488",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_5_hard_006",
     "content": "What is 3/5 + 2/5?",
     "type": "multiple_choice",
-    "options": ["5/10", "1", "5/5", "6/5"],
+    "options": [
+      "5/10",
+      "1",
+      "5/5",
+      "6/5"
+    ],
     "correctAnswer": "1",
     "subject": "math",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "3/5 + 2/5 = 5/5 = 1"
+    "explanation": "3/5 + 2/5 = 5/5 = 1",
+    "topic": "Fractions"
   },
   {
     "_id": "math_5_hard_007",
     "content": "What is 216 ÷ 18?",
     "type": "multiple_choice",
-    "options": ["11", "12", "13", "234"],
+    "options": [
+      "11",
+      "12",
+      "13",
+      "234"
+    ],
     "correctAnswer": "12",
     "subject": "math",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "216 ÷ 18 = 12"
+    "explanation": "216 ÷ 18 = 12",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_5_hard_008",
     "content": "What is 4.75 as a mixed number?",
     "type": "multiple_choice",
-    "options": ["4 1/2", "4 3/4", "4 2/3", "4 4/5"],
+    "options": [
+      "4 1/2",
+      "4 3/4",
+      "4 2/3",
+      "4 4/5"
+    ],
     "correctAnswer": "4 3/4",
     "subject": "math",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "4.75 = 4 + 0.75 = 4 + 3/4 = 4 3/4"
+    "explanation": "4.75 = 4 + 0.75 = 4 + 3/4 = 4 3/4",
+    "topic": "Decimals"
   },
   {
     "_id": "math_5_hard_009",
     "content": "What is 673 + 458?",
     "type": "multiple_choice",
-    "options": ["1129", "1130", "1131", "1132"],
+    "options": [
+      "1129",
+      "1130",
+      "1131",
+      "1132"
+    ],
     "correctAnswer": "1131",
     "subject": "math",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "673 + 458 = 1131"
+    "explanation": "673 + 458 = 1131",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_5_hard_010",
     "content": "What is 26 × 15?",
     "type": "multiple_choice",
-    "options": ["388", "389", "390", "265"],
+    "options": [
+      "388",
+      "389",
+      "390",
+      "265"
+    ],
     "correctAnswer": "390",
     "subject": "math",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "26 × 15 = 390"
+    "explanation": "26 × 15 = 390",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_5_hard_011",
     "content": "What is 9/10 - 3/10?",
     "type": "multiple_choice",
-    "options": ["6/10", "3/5", "0.6", "All of the above"],
+    "options": [
+      "6/10",
+      "3/5",
+      "0.6",
+      "All of the above"
+    ],
     "correctAnswer": "All of the above",
     "subject": "math",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "9/10 - 3/10 = 6/10 = 3/5 = 0.6"
+    "explanation": "9/10 - 3/10 = 6/10 = 3/5 = 0.6",
+    "topic": "Fractions"
   },
   {
     "_id": "math_5_hard_012",
     "content": "What is 924 - 567?",
     "type": "multiple_choice",
-    "options": ["355", "356", "357", "1491"],
+    "options": [
+      "355",
+      "356",
+      "357",
+      "1491"
+    ],
     "correctAnswer": "357",
     "subject": "math",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "924 - 567 = 357"
+    "explanation": "924 - 567 = 357",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_5_hard_013",
     "content": "What is 252 ÷ 21?",
     "type": "multiple_choice",
-    "options": ["11", "12", "13", "273"],
+    "options": [
+      "11",
+      "12",
+      "13",
+      "273"
+    ],
     "correctAnswer": "12",
     "subject": "math",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "252 ÷ 21 = 12"
+    "explanation": "252 ÷ 21 = 12",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_5_hard_014",
     "content": "What is the volume of a cube with side length 6 cm?",
     "type": "multiple_choice",
-    "options": ["36 cm³", "216 cm³", "144 cm³", "18 cm³"],
+    "options": [
+      "36 cm³",
+      "216 cm³",
+      "144 cm³",
+      "18 cm³"
+    ],
     "correctAnswer": "216 cm³",
     "subject": "math",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Volume = side³ = 6³ = 216 cm³"
+    "explanation": "Volume = side³ = 6³ = 216 cm³",
+    "topic": "Geometry - Volume"
   },
   {
     "_id": "math_5_hard_015",
     "content": "What is 785 + 396?",
     "type": "multiple_choice",
-    "options": ["1179", "1180", "1181", "1182"],
+    "options": [
+      "1179",
+      "1180",
+      "1181",
+      "1182"
+    ],
     "correctAnswer": "1181",
     "subject": "math",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "785 + 396 = 1181"
+    "explanation": "785 + 396 = 1181",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_5_hard_016",
     "content": "What is 28 × 16?",
     "type": "multiple_choice",
-    "options": ["446", "447", "448", "286"],
+    "options": [
+      "446",
+      "447",
+      "448",
+      "286"
+    ],
     "correctAnswer": "448",
     "subject": "math",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "28 × 16 = 448"
+    "explanation": "28 × 16 = 448",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_5_hard_017",
     "content": "What decimal is equivalent to 11/20?",
     "type": "multiple_choice",
-    "options": ["0.11", "0.55", "0.2", "1.12"],
+    "options": [
+      "0.11",
+      "0.55",
+      "0.2",
+      "1.12"
+    ],
     "correctAnswer": "0.55",
     "subject": "math",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "11/20 = 0.55"
+    "explanation": "11/20 = 0.55",
+    "topic": "Fractions"
   },
   {
     "_id": "math_5_hard_018",
     "content": "What is 1036 - 679?",
     "type": "multiple_choice",
-    "options": ["355", "356", "357", "1715"],
+    "options": [
+      "355",
+      "356",
+      "357",
+      "1715"
+    ],
     "correctAnswer": "357",
     "subject": "math",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "1036 - 679 = 357"
+    "explanation": "1036 - 679 = 357",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_5_hard_019",
     "content": "What is 288 ÷ 24?",
     "type": "multiple_choice",
-    "options": ["11", "12", "13", "312"],
+    "options": [
+      "11",
+      "12",
+      "13",
+      "312"
+    ],
     "correctAnswer": "12",
     "subject": "math",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "288 ÷ 24 = 12"
+    "explanation": "288 ÷ 24 = 12",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_5_hard_020",
     "content": "What is the area of a triangle with base 16 cm and height 12 cm?",
     "type": "multiple_choice",
-    "options": ["28 cm²", "96 cm²", "192 cm²", "144 cm²"],
+    "options": [
+      "28 cm²",
+      "96 cm²",
+      "192 cm²",
+      "144 cm²"
+    ],
     "correctAnswer": "96 cm²",
     "subject": "math",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Area = (1/2) × base × height = (1/2) × 16 × 12 = 96 cm²"
+    "explanation": "Area = (1/2) × base × height = (1/2) × 16 × 12 = 96 cm²",
+    "topic": "Geometry - Area"
   }
 ]

@@ -3,220 +3,340 @@
     "_id": "math_1_hard_001",
     "content": "What is 12 + 9?",
     "type": "multiple_choice",
-    "options": ["20", "21", "22", "23"],
+    "options": [
+      "20",
+      "21",
+      "22",
+      "23"
+    ],
     "correctAnswer": "21",
     "subject": "math",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "12 + 9 = 21"
+    "explanation": "12 + 9 = 21",
+    "topic": "Addition"
   },
   {
     "_id": "math_1_hard_002",
     "content": "What is 15 - 8?",
     "type": "multiple_choice",
-    "options": ["6", "7", "8", "9"],
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
     "correctAnswer": "7",
     "subject": "math",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "15 - 8 = 7"
+    "explanation": "15 - 8 = 7",
+    "topic": "Subtraction"
   },
   {
     "_id": "math_1_hard_003",
     "content": "Count by 2s: 2, 4, 6, ?",
     "type": "multiple_choice",
-    "options": ["7", "8", "9", "10"],
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
     "correctAnswer": "8",
     "subject": "math",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "Counting by 2s: 2, 4, 6, 8"
+    "explanation": "Counting by 2s: 2, 4, 6, 8",
+    "topic": "Counting"
   },
   {
     "_id": "math_1_hard_004",
     "content": "What is 8 + 9?",
     "type": "multiple_choice",
-    "options": ["16", "17", "18", "89"],
+    "options": [
+      "16",
+      "17",
+      "18",
+      "89"
+    ],
     "correctAnswer": "17",
     "subject": "math",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "8 + 9 = 17"
+    "explanation": "8 + 9 = 17",
+    "topic": "Addition"
   },
   {
     "_id": "math_1_hard_005",
     "content": "What is 18 - 9?",
     "type": "multiple_choice",
-    "options": ["8", "9", "10", "27"],
+    "options": [
+      "8",
+      "9",
+      "10",
+      "27"
+    ],
     "correctAnswer": "9",
     "subject": "math",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "18 - 9 = 9"
+    "explanation": "18 - 9 = 9",
+    "topic": "Subtraction"
   },
   {
     "_id": "math_1_hard_006",
     "content": "What number comes between 16 and 18?",
     "type": "multiple_choice",
-    "options": ["15", "16", "17", "19"],
+    "options": [
+      "15",
+      "16",
+      "17",
+      "19"
+    ],
     "correctAnswer": "17",
     "subject": "math",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "Between 16 and 18 is 17"
+    "explanation": "Between 16 and 18 is 17",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_1_hard_007",
     "content": "What is 7 + 8?",
     "type": "multiple_choice",
-    "options": ["14", "15", "16", "78"],
+    "options": [
+      "14",
+      "15",
+      "16",
+      "78"
+    ],
     "correctAnswer": "15",
     "subject": "math",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "7 + 8 = 15"
+    "explanation": "7 + 8 = 15",
+    "topic": "Addition"
   },
   {
     "_id": "math_1_hard_008",
     "content": "What is 16 - 7?",
     "type": "multiple_choice",
-    "options": ["8", "9", "10", "23"],
+    "options": [
+      "8",
+      "9",
+      "10",
+      "23"
+    ],
     "correctAnswer": "9",
     "subject": "math",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "16 - 7 = 9"
+    "explanation": "16 - 7 = 9",
+    "topic": "Subtraction"
   },
   {
     "_id": "math_1_hard_009",
     "content": "How many months in a year?",
     "type": "multiple_choice",
-    "options": ["10", "11", "12", "13"],
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
     "correctAnswer": "12",
     "subject": "math",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "There are 12 months in a year"
+    "explanation": "There are 12 months in a year",
+    "topic": "Counting"
   },
   {
     "_id": "math_1_hard_010",
     "content": "What is 6 + 7?",
     "type": "multiple_choice",
-    "options": ["12", "13", "14", "67"],
+    "options": [
+      "12",
+      "13",
+      "14",
+      "67"
+    ],
     "correctAnswer": "13",
     "subject": "math",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "6 + 7 = 13"
+    "explanation": "6 + 7 = 13",
+    "topic": "Addition"
   },
   {
     "_id": "math_1_hard_011",
     "content": "What is 17 - 8?",
     "type": "multiple_choice",
-    "options": ["8", "9", "10", "25"],
+    "options": [
+      "8",
+      "9",
+      "10",
+      "25"
+    ],
     "correctAnswer": "9",
     "subject": "math",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "17 - 8 = 9"
+    "explanation": "17 - 8 = 9",
+    "topic": "Subtraction"
   },
   {
     "_id": "math_1_hard_012",
     "content": "Count backwards: 10, 9, 8, ?",
     "type": "multiple_choice",
-    "options": ["6", "7", "9", "11"],
+    "options": [
+      "6",
+      "7",
+      "9",
+      "11"
+    ],
     "correctAnswer": "7",
     "subject": "math",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "Counting backwards: 10, 9, 8, 7"
+    "explanation": "Counting backwards: 10, 9, 8, 7",
+    "topic": "Counting"
   },
   {
     "_id": "math_1_hard_013",
     "content": "What is 9 + 8?",
     "type": "multiple_choice",
-    "options": ["16", "17", "18", "98"],
+    "options": [
+      "16",
+      "17",
+      "18",
+      "98"
+    ],
     "correctAnswer": "17",
     "subject": "math",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "9 + 8 = 17"
+    "explanation": "9 + 8 = 17",
+    "topic": "Addition"
   },
   {
     "_id": "math_1_hard_014",
     "content": "What is 19 - 10?",
     "type": "multiple_choice",
-    "options": ["8", "9", "10", "29"],
+    "options": [
+      "8",
+      "9",
+      "10",
+      "29"
+    ],
     "correctAnswer": "9",
     "subject": "math",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "19 - 10 = 9"
+    "explanation": "19 - 10 = 9",
+    "topic": "Subtraction"
   },
   {
     "_id": "math_1_hard_015",
     "content": "Which number is largest: 14, 8, 19?",
     "type": "multiple_choice",
-    "options": ["14", "8", "19", "All same"],
+    "options": [
+      "14",
+      "8",
+      "19",
+      "All same"
+    ],
     "correctAnswer": "19",
     "subject": "math",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "19 is the largest number"
+    "explanation": "19 is the largest number",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_1_hard_016",
     "content": "What is 5 + 9?",
     "type": "multiple_choice",
-    "options": ["13", "14", "15", "59"],
+    "options": [
+      "13",
+      "14",
+      "15",
+      "59"
+    ],
     "correctAnswer": "14",
     "subject": "math",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "5 + 9 = 14"
+    "explanation": "5 + 9 = 14",
+    "topic": "Addition"
   },
   {
     "_id": "math_1_hard_017",
     "content": "What is 20 - 11?",
     "type": "multiple_choice",
-    "options": ["8", "9", "10", "31"],
+    "options": [
+      "8",
+      "9",
+      "10",
+      "31"
+    ],
     "correctAnswer": "9",
     "subject": "math",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "20 - 11 = 9"
+    "explanation": "20 - 11 = 9",
+    "topic": "Subtraction"
   },
   {
     "_id": "math_1_hard_018",
     "content": "What comes next: 12, 14, 16, ?",
     "type": "multiple_choice",
-    "options": ["17", "18", "19", "20"],
+    "options": [
+      "17",
+      "18",
+      "19",
+      "20"
+    ],
     "correctAnswer": "18",
     "subject": "math",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "Pattern adds 2: 12, 14, 16, 18"
+    "explanation": "Pattern adds 2: 12, 14, 16, 18",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_1_hard_019",
     "content": "What is 4 + 8?",
     "type": "multiple_choice",
-    "options": ["11", "12", "13", "48"],
+    "options": [
+      "11",
+      "12",
+      "13",
+      "48"
+    ],
     "correctAnswer": "12",
     "subject": "math",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "4 + 8 = 12"
+    "explanation": "4 + 8 = 12",
+    "topic": "Addition"
   },
   {
     "_id": "math_1_hard_020",
     "content": "What is 14 - 6?",
     "type": "multiple_choice",
-    "options": ["7", "8", "9", "20"],
+    "options": [
+      "7",
+      "8",
+      "9",
+      "20"
+    ],
     "correctAnswer": "8",
     "subject": "math",
     "grade": "1",
     "difficulty": "hard",
-    "explanation": "14 - 6 = 8"
+    "explanation": "14 - 6 = 8",
+    "topic": "Subtraction"
   }
 ]

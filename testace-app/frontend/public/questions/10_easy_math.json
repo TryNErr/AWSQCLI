@@ -3,220 +3,340 @@
     "_id": "math_10_easy_001",
     "content": "Expand: (x + 3)(x + 2)",
     "type": "multiple_choice",
-    "options": ["x² + 5x + 6", "x² + 6x + 5", "x² + 5x + 5", "x² + 6x + 6"],
+    "options": [
+      "x² + 5x + 6",
+      "x² + 6x + 5",
+      "x² + 5x + 5",
+      "x² + 6x + 6"
+    ],
     "correctAnswer": "x² + 5x + 6",
     "subject": "math",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "Use FOIL: x² + 2x + 3x + 6 = x² + 5x + 6"
+    "explanation": "Use FOIL: x² + 2x + 3x + 6 = x² + 5x + 6",
+    "topic": "Algebra"
   },
   {
     "_id": "math_10_easy_002",
     "content": "What is the y-intercept of y = 2x - 4?",
     "type": "multiple_choice",
-    "options": ["2", "-4", "4", "-2"],
+    "options": [
+      "2",
+      "-4",
+      "4",
+      "-2"
+    ],
     "correctAnswer": "-4",
     "subject": "math",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "In y = mx + b form, b is the y-intercept, so y-intercept = -4"
+    "explanation": "In y = mx + b form, b is the y-intercept, so y-intercept = -4",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_10_easy_003",
     "content": "Simplify: 2x + 3x - x",
     "type": "multiple_choice",
-    "options": ["4x", "5x", "6x", "3x"],
+    "options": [
+      "4x",
+      "5x",
+      "6x",
+      "3x"
+    ],
     "correctAnswer": "4x",
     "subject": "math",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "2x + 3x - x = (2 + 3 - 1)x = 4x"
+    "explanation": "2x + 3x - x = (2 + 3 - 1)x = 4x",
+    "topic": "Algebra"
   },
   {
     "_id": "math_10_easy_004",
     "content": "What is the distance between points (0, 0) and (3, 4)?",
     "type": "multiple_choice",
-    "options": ["5", "7", "12", "25"],
+    "options": [
+      "5",
+      "7",
+      "12",
+      "25"
+    ],
     "correctAnswer": "5",
     "subject": "math",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "Distance = √[(3-0)² + (4-0)²] = √[9 + 16] = √25 = 5"
+    "explanation": "Distance = √[(3-0)² + (4-0)²] = √[9 + 16] = √25 = 5",
+    "topic": "Trigonometry"
   },
   {
     "_id": "math_10_easy_005",
     "content": "Factor: x² - 4",
     "type": "multiple_choice",
-    "options": ["(x - 2)²", "(x + 2)²", "(x - 2)(x + 2)", "Cannot be factored"],
+    "options": [
+      "(x - 2)²",
+      "(x + 2)²",
+      "(x - 2)(x + 2)",
+      "Cannot be factored"
+    ],
     "correctAnswer": "(x - 2)(x + 2)",
     "subject": "math",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "This is a difference of squares: x² - 4 = (x - 2)(x + 2)"
+    "explanation": "This is a difference of squares: x² - 4 = (x - 2)(x + 2)",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_10_easy_006",
     "content": "Solve: 2x + 5 = 13",
     "type": "multiple_choice",
-    "options": ["x = 4", "x = 9", "x = 18", "x = 26"],
+    "options": [
+      "x = 4",
+      "x = 9",
+      "x = 18",
+      "x = 26"
+    ],
     "correctAnswer": "x = 4",
     "subject": "math",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "2x = 13 - 5 = 8, so x = 4"
+    "explanation": "2x = 13 - 5 = 8, so x = 4",
+    "topic": "Algebra"
   },
   {
     "_id": "math_10_easy_007",
     "content": "What is the slope of y = -3x + 7?",
     "type": "multiple_choice",
-    "options": ["-3", "3", "7", "-7"],
+    "options": [
+      "-3",
+      "3",
+      "7",
+      "-7"
+    ],
     "correctAnswer": "-3",
     "subject": "math",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "In y = mx + b form, m is the slope, so slope = -3"
+    "explanation": "In y = mx + b form, m is the slope, so slope = -3",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_10_easy_008",
     "content": "Expand: (x - 1)(x + 4)",
     "type": "multiple_choice",
-    "options": ["x² + 3x - 4", "x² - 3x + 4", "x² + 3x + 4", "x² - 3x - 4"],
+    "options": [
+      "x² + 3x - 4",
+      "x² - 3x + 4",
+      "x² + 3x + 4",
+      "x² - 3x - 4"
+    ],
     "correctAnswer": "x² + 3x - 4",
     "subject": "math",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "Use FOIL: x² + 4x - x - 4 = x² + 3x - 4"
+    "explanation": "Use FOIL: x² + 4x - x - 4 = x² + 3x - 4",
+    "topic": "Algebra"
   },
   {
     "_id": "math_10_easy_009",
     "content": "Simplify: 5x - 2x + 3x",
     "type": "multiple_choice",
-    "options": ["6x", "8x", "10x", "3x"],
+    "options": [
+      "6x",
+      "8x",
+      "10x",
+      "3x"
+    ],
     "correctAnswer": "6x",
     "subject": "math",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "5x - 2x + 3x = (5 - 2 + 3)x = 6x"
+    "explanation": "5x - 2x + 3x = (5 - 2 + 3)x = 6x",
+    "topic": "Algebra"
   },
   {
     "_id": "math_10_easy_010",
     "content": "What is the distance between points (1, 1) and (4, 5)?",
     "type": "multiple_choice",
-    "options": ["5", "7", "25", "3"],
+    "options": [
+      "5",
+      "7",
+      "25",
+      "3"
+    ],
     "correctAnswer": "5",
     "subject": "math",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "Distance = √[(4-1)² + (5-1)²] = √[9 + 16] = √25 = 5"
+    "explanation": "Distance = √[(4-1)² + (5-1)²] = √[9 + 16] = √25 = 5",
+    "topic": "Trigonometry"
   },
   {
     "_id": "math_10_easy_011",
     "content": "Factor: x² - 9",
     "type": "multiple_choice",
-    "options": ["(x - 3)²", "(x + 3)²", "(x - 3)(x + 3)", "Cannot be factored"],
+    "options": [
+      "(x - 3)²",
+      "(x + 3)²",
+      "(x - 3)(x + 3)",
+      "Cannot be factored"
+    ],
     "correctAnswer": "(x - 3)(x + 3)",
     "subject": "math",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "This is a difference of squares: x² - 9 = (x - 3)(x + 3)"
+    "explanation": "This is a difference of squares: x² - 9 = (x - 3)(x + 3)",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_10_easy_012",
     "content": "Solve: 3x - 7 = 14",
     "type": "multiple_choice",
-    "options": ["x = 7", "x = 21", "x = 42", "x = 2"],
+    "options": [
+      "x = 7",
+      "x = 21",
+      "x = 42",
+      "x = 2"
+    ],
     "correctAnswer": "x = 7",
     "subject": "math",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "3x = 14 + 7 = 21, so x = 7"
+    "explanation": "3x = 14 + 7 = 21, so x = 7",
+    "topic": "Algebra"
   },
   {
     "_id": "math_10_easy_013",
     "content": "What is the y-intercept of y = 4x + 1?",
     "type": "multiple_choice",
-    "options": ["4", "1", "-1", "-4"],
+    "options": [
+      "4",
+      "1",
+      "-1",
+      "-4"
+    ],
     "correctAnswer": "1",
     "subject": "math",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "In y = mx + b form, b is the y-intercept, so y-intercept = 1"
+    "explanation": "In y = mx + b form, b is the y-intercept, so y-intercept = 1",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_10_easy_014",
     "content": "Expand: (x + 5)(x - 2)",
     "type": "multiple_choice",
-    "options": ["x² + 3x - 10", "x² - 3x + 10", "x² + 3x + 10", "x² - 3x - 10"],
+    "options": [
+      "x² + 3x - 10",
+      "x² - 3x + 10",
+      "x² + 3x + 10",
+      "x² - 3x - 10"
+    ],
     "correctAnswer": "x² + 3x - 10",
     "subject": "math",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "Use FOIL: x² - 2x + 5x - 10 = x² + 3x - 10"
+    "explanation": "Use FOIL: x² - 2x + 5x - 10 = x² + 3x - 10",
+    "topic": "Algebra"
   },
   {
     "_id": "math_10_easy_015",
     "content": "Simplify: 7x + x - 4x",
     "type": "multiple_choice",
-    "options": ["4x", "8x", "12x", "2x"],
+    "options": [
+      "4x",
+      "8x",
+      "12x",
+      "2x"
+    ],
     "correctAnswer": "4x",
     "subject": "math",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "7x + x - 4x = (7 + 1 - 4)x = 4x"
+    "explanation": "7x + x - 4x = (7 + 1 - 4)x = 4x",
+    "topic": "Algebra"
   },
   {
     "_id": "math_10_easy_016",
     "content": "What is the midpoint of (2, 4) and (6, 8)?",
     "type": "multiple_choice",
-    "options": ["(4, 6)", "(8, 12)", "(4, 2)", "(2, 6)"],
+    "options": [
+      "(4, 6)",
+      "(8, 12)",
+      "(4, 2)",
+      "(2, 6)"
+    ],
     "correctAnswer": "(4, 6)",
     "subject": "math",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "Midpoint = ((2+6)/2, (4+8)/2) = (4, 6)"
+    "explanation": "Midpoint = ((2+6)/2, (4+8)/2) = (4, 6)",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_10_easy_017",
     "content": "Factor: x² - 16",
     "type": "multiple_choice",
-    "options": ["(x - 4)²", "(x + 4)²", "(x - 4)(x + 4)", "Cannot be factored"],
+    "options": [
+      "(x - 4)²",
+      "(x + 4)²",
+      "(x - 4)(x + 4)",
+      "Cannot be factored"
+    ],
     "correctAnswer": "(x - 4)(x + 4)",
     "subject": "math",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "This is a difference of squares: x² - 16 = (x - 4)(x + 4)"
+    "explanation": "This is a difference of squares: x² - 16 = (x - 4)(x + 4)",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_10_easy_018",
     "content": "Solve: 4x + 3 = 19",
     "type": "multiple_choice",
-    "options": ["x = 4", "x = 16", "x = 76", "x = 22"],
+    "options": [
+      "x = 4",
+      "x = 16",
+      "x = 76",
+      "x = 22"
+    ],
     "correctAnswer": "x = 4",
     "subject": "math",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "4x = 19 - 3 = 16, so x = 4"
+    "explanation": "4x = 19 - 3 = 16, so x = 4",
+    "topic": "Algebra"
   },
   {
     "_id": "math_10_easy_019",
     "content": "What is the slope of y = 5x - 2?",
     "type": "multiple_choice",
-    "options": ["5", "-2", "2", "-5"],
+    "options": [
+      "5",
+      "-2",
+      "2",
+      "-5"
+    ],
     "correctAnswer": "5",
     "subject": "math",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "In y = mx + b form, m is the slope, so slope = 5"
+    "explanation": "In y = mx + b form, m is the slope, so slope = 5",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_10_easy_020",
     "content": "Expand: (x - 3)(x - 1)",
     "type": "multiple_choice",
-    "options": ["x² - 4x + 3", "x² + 4x - 3", "x² - 4x - 3", "x² + 4x + 3"],
+    "options": [
+      "x² - 4x + 3",
+      "x² + 4x - 3",
+      "x² - 4x - 3",
+      "x² + 4x + 3"
+    ],
     "correctAnswer": "x² - 4x + 3",
     "subject": "math",
     "grade": "10",
     "difficulty": "easy",
-    "explanation": "Use FOIL: x² - x - 3x + 3 = x² - 4x + 3"
+    "explanation": "Use FOIL: x² - x - 3x + 3 = x² - 4x + 3",
+    "topic": "Algebra"
   }
 ]

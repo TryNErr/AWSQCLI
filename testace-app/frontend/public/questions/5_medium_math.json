@@ -3,220 +3,340 @@
     "_id": "math_5_medium_001",
     "content": "What is 234 + 189?",
     "type": "multiple_choice",
-    "options": ["421", "422", "423", "424"],
+    "options": [
+      "421",
+      "422",
+      "423",
+      "424"
+    ],
     "correctAnswer": "423",
     "subject": "math",
     "grade": "5",
     "difficulty": "medium",
-    "explanation": "234 + 189 = 423"
+    "explanation": "234 + 189 = 423",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_5_medium_002",
     "content": "What is 12 × 15?",
     "type": "multiple_choice",
-    "options": ["170", "175", "180", "185"],
+    "options": [
+      "170",
+      "175",
+      "180",
+      "185"
+    ],
     "correctAnswer": "180",
     "subject": "math",
     "grade": "5",
     "difficulty": "medium",
-    "explanation": "12 × 15 = 180"
+    "explanation": "12 × 15 = 180",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_5_medium_003",
     "content": "What is 2/5 + 1/5?",
     "type": "multiple_choice",
-    "options": ["3/10", "3/5", "2/5", "1/5"],
+    "options": [
+      "3/10",
+      "3/5",
+      "2/5",
+      "1/5"
+    ],
     "correctAnswer": "3/5",
     "subject": "math",
     "grade": "5",
     "difficulty": "medium",
-    "explanation": "2/5 + 1/5 = 3/5"
+    "explanation": "2/5 + 1/5 = 3/5",
+    "topic": "Fractions"
   },
   {
     "_id": "math_5_medium_004",
     "content": "What is 156 ÷ 12?",
     "type": "multiple_choice",
-    "options": ["12", "13", "14", "168"],
+    "options": [
+      "12",
+      "13",
+      "14",
+      "168"
+    ],
     "correctAnswer": "13",
     "subject": "math",
     "grade": "5",
     "difficulty": "medium",
-    "explanation": "156 ÷ 12 = 13"
+    "explanation": "156 ÷ 12 = 13",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_5_medium_005",
     "content": "What is 347 - 189?",
     "type": "multiple_choice",
-    "options": ["156", "157", "158", "536"],
+    "options": [
+      "156",
+      "157",
+      "158",
+      "536"
+    ],
     "correctAnswer": "158",
     "subject": "math",
     "grade": "5",
     "difficulty": "medium",
-    "explanation": "347 - 189 = 158"
+    "explanation": "347 - 189 = 158",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_5_medium_006",
     "content": "What is 3/4 - 1/4?",
     "type": "multiple_choice",
-    "options": ["2/4", "1/2", "2/8", "4/4"],
+    "options": [
+      "2/4",
+      "1/2",
+      "2/8",
+      "4/4"
+    ],
     "correctAnswer": "1/2",
     "subject": "math",
     "grade": "5",
     "difficulty": "medium",
-    "explanation": "3/4 - 1/4 = 2/4 = 1/2"
+    "explanation": "3/4 - 1/4 = 2/4 = 1/2",
+    "topic": "Fractions"
   },
   {
     "_id": "math_5_medium_007",
     "content": "What is 16 × 14?",
     "type": "multiple_choice",
-    "options": ["222", "223", "224", "164"],
+    "options": [
+      "222",
+      "223",
+      "224",
+      "164"
+    ],
     "correctAnswer": "224",
     "subject": "math",
     "grade": "5",
     "difficulty": "medium",
-    "explanation": "16 × 14 = 224"
+    "explanation": "16 × 14 = 224",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_5_medium_008",
     "content": "What is the area of a triangle with base 10 cm and height 8 cm?",
     "type": "multiple_choice",
-    "options": ["18 cm²", "40 cm²", "80 cm²", "36 cm²"],
+    "options": [
+      "18 cm²",
+      "40 cm²",
+      "80 cm²",
+      "36 cm²"
+    ],
     "correctAnswer": "40 cm²",
     "subject": "math",
     "grade": "5",
     "difficulty": "medium",
-    "explanation": "Area = (1/2) × base × height = (1/2) × 10 × 8 = 40 cm²"
+    "explanation": "Area = (1/2) × base × height = (1/2) × 10 × 8 = 40 cm²",
+    "topic": "Geometry - Area"
   },
   {
     "_id": "math_5_medium_009",
     "content": "What is 425 + 278?",
     "type": "multiple_choice",
-    "options": ["701", "702", "703", "704"],
+    "options": [
+      "701",
+      "702",
+      "703",
+      "704"
+    ],
     "correctAnswer": "703",
     "subject": "math",
     "grade": "5",
     "difficulty": "medium",
-    "explanation": "425 + 278 = 703"
+    "explanation": "425 + 278 = 703",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_5_medium_010",
     "content": "What is 168 ÷ 14?",
     "type": "multiple_choice",
-    "options": ["11", "12", "13", "182"],
+    "options": [
+      "11",
+      "12",
+      "13",
+      "182"
+    ],
     "correctAnswer": "12",
     "subject": "math",
     "grade": "5",
     "difficulty": "medium",
-    "explanation": "168 ÷ 14 = 12"
+    "explanation": "168 ÷ 14 = 12",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_5_medium_011",
     "content": "What is 5/6 + 1/6?",
     "type": "multiple_choice",
-    "options": ["6/12", "1", "6/6", "5/6"],
+    "options": [
+      "6/12",
+      "1",
+      "6/6",
+      "5/6"
+    ],
     "correctAnswer": "1",
     "subject": "math",
     "grade": "5",
     "difficulty": "medium",
-    "explanation": "5/6 + 1/6 = 6/6 = 1"
+    "explanation": "5/6 + 1/6 = 6/6 = 1",
+    "topic": "Fractions"
   },
   {
     "_id": "math_5_medium_012",
     "content": "What is 584 - 297?",
     "type": "multiple_choice",
-    "options": ["285", "286", "287", "881"],
+    "options": [
+      "285",
+      "286",
+      "287",
+      "881"
+    ],
     "correctAnswer": "287",
     "subject": "math",
     "grade": "5",
     "difficulty": "medium",
-    "explanation": "584 - 297 = 287"
+    "explanation": "584 - 297 = 287",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_5_medium_013",
     "content": "What is 18 × 13?",
     "type": "multiple_choice",
-    "options": ["232", "233", "234", "183"],
+    "options": [
+      "232",
+      "233",
+      "234",
+      "183"
+    ],
     "correctAnswer": "234",
     "subject": "math",
     "grade": "5",
     "difficulty": "medium",
-    "explanation": "18 × 13 = 234"
+    "explanation": "18 × 13 = 234",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_5_medium_014",
     "content": "What decimal is equivalent to 7/10?",
     "type": "multiple_choice",
-    "options": ["0.07", "0.7", "7.0", "0.17"],
+    "options": [
+      "0.07",
+      "0.7",
+      "7.0",
+      "0.17"
+    ],
     "correctAnswer": "0.7",
     "subject": "math",
     "grade": "5",
     "difficulty": "medium",
-    "explanation": "7/10 = 0.7"
+    "explanation": "7/10 = 0.7",
+    "topic": "Fractions"
   },
   {
     "_id": "math_5_medium_015",
     "content": "What is 639 + 185?",
     "type": "multiple_choice",
-    "options": ["822", "823", "824", "825"],
+    "options": [
+      "822",
+      "823",
+      "824",
+      "825"
+    ],
     "correctAnswer": "824",
     "subject": "math",
     "grade": "5",
     "difficulty": "medium",
-    "explanation": "639 + 185 = 824"
+    "explanation": "639 + 185 = 824",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_5_medium_016",
     "content": "What is 192 ÷ 16?",
     "type": "multiple_choice",
-    "options": ["11", "12", "13", "208"],
+    "options": [
+      "11",
+      "12",
+      "13",
+      "208"
+    ],
     "correctAnswer": "12",
     "subject": "math",
     "grade": "5",
     "difficulty": "medium",
-    "explanation": "192 ÷ 16 = 12"
+    "explanation": "192 ÷ 16 = 12",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_5_medium_017",
     "content": "What is 7/8 - 3/8?",
     "type": "multiple_choice",
-    "options": ["4/8", "1/2", "4/16", "10/8"],
+    "options": [
+      "4/8",
+      "1/2",
+      "4/16",
+      "10/8"
+    ],
     "correctAnswer": "1/2",
     "subject": "math",
     "grade": "5",
     "difficulty": "medium",
-    "explanation": "7/8 - 3/8 = 4/8 = 1/2"
+    "explanation": "7/8 - 3/8 = 4/8 = 1/2",
+    "topic": "Fractions"
   },
   {
     "_id": "math_5_medium_018",
     "content": "What is 756 - 389?",
     "type": "multiple_choice",
-    "options": ["365", "366", "367", "1145"],
+    "options": [
+      "365",
+      "366",
+      "367",
+      "1145"
+    ],
     "correctAnswer": "367",
     "subject": "math",
     "grade": "5",
     "difficulty": "medium",
-    "explanation": "756 - 389 = 367"
+    "explanation": "756 - 389 = 367",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_5_medium_019",
     "content": "What is 19 × 12?",
     "type": "multiple_choice",
-    "options": ["226", "227", "228", "192"],
+    "options": [
+      "226",
+      "227",
+      "228",
+      "192"
+    ],
     "correctAnswer": "228",
     "subject": "math",
     "grade": "5",
     "difficulty": "medium",
-    "explanation": "19 × 12 = 228"
+    "explanation": "19 × 12 = 228",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_5_medium_020",
     "content": "What is the perimeter of a rectangle with length 12 cm and width 7 cm?",
     "type": "multiple_choice",
-    "options": ["19 cm", "38 cm", "84 cm", "26 cm"],
+    "options": [
+      "19 cm",
+      "38 cm",
+      "84 cm",
+      "26 cm"
+    ],
     "correctAnswer": "38 cm",
     "subject": "math",
     "grade": "5",
     "difficulty": "medium",
-    "explanation": "Perimeter = 2(length + width) = 2(12 + 7) = 38 cm"
+    "explanation": "Perimeter = 2(length + width) = 2(12 + 7) = 38 cm",
+    "topic": "Geometry - Perimeter"
   }
 ]

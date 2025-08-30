@@ -13,6 +13,7 @@
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
+    "topic": "Linear Equations",
     "explanation": "Subtract 18 from both sides: 5x = 55, then divide by 5: x = 11",
     "_cacheBreaker": "1756035526320_1"
   },
@@ -30,6 +31,7 @@
     "subject": "math",
     "grade": "9",
     "difficulty": "medium",
+    "topic": "Geometry - Area",
     "explanation": "Area = πr² = 3.14 × 6² = 3.14 × 36 = 113.04 cm²",
     "_cacheBreaker": "1756035526320_2"
   },
@@ -48,7 +50,8 @@
     "grade": "9",
     "difficulty": "medium",
     "explanation": "Multiply coefficients and add exponents: 3 × 4 = 12, x² × x³ = x⁵",
-    "_cacheBreaker": "1756035526320_3"
+    "_cacheBreaker": "1756035526320_3",
+    "topic": "Quadratic Equations"
   },
   {
     "_id": "math_9_medium_004",
@@ -65,7 +68,8 @@
     "grade": "9",
     "difficulty": "medium",
     "explanation": "Use slope formula: m = (y₂ - y₁)/(x₂ - x₁) = (13 - 5)/(6 - 2) = 8/4 = 2",
-    "_cacheBreaker": "1756035526320_4"
+    "_cacheBreaker": "1756035526320_4",
+    "topic": "Coordinate Geometry"
   },
   {
     "_id": "math_9_medium_005",
@@ -82,7 +86,8 @@
     "grade": "9",
     "difficulty": "medium",
     "explanation": "Find two numbers that multiply to 20 and add to -9: -4 and -5",
-    "_cacheBreaker": "1756035526320_5"
+    "_cacheBreaker": "1756035526320_5",
+    "topic": "Quadratic Equations"
   },
   {
     "_id": "math_9_medium_006",
@@ -99,7 +104,8 @@
     "grade": "9",
     "difficulty": "medium",
     "explanation": "Substitute x = 5: f(5) = 2(5) - 3 = 10 - 3 = 7",
-    "_cacheBreaker": "1756035526320_6"
+    "_cacheBreaker": "1756035526320_6",
+    "topic": "Functions"
   },
   {
     "_id": "math_9_medium_007",
@@ -116,7 +122,8 @@
     "grade": "9",
     "difficulty": "medium",
     "explanation": "0.75 = 75/100 = 3/4 when reduced to lowest terms",
-    "_cacheBreaker": "1756035526320_7"
+    "_cacheBreaker": "1756035526320_7",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_9_medium_008",
@@ -133,7 +140,8 @@
     "grade": "9",
     "difficulty": "medium",
     "explanation": "Add 7 to both sides: 3x > 21, then divide by 3: x > 7",
-    "_cacheBreaker": "1756035526320_8"
+    "_cacheBreaker": "1756035526320_8",
+    "topic": "Inequalities"
   },
   {
     "_id": "math_9_medium_009",
@@ -150,7 +158,8 @@
     "grade": "9",
     "difficulty": "medium",
     "explanation": "Volume = length × width × height = 5 × 3 × 4 = 60 cm³",
-    "_cacheBreaker": "1756035526320_9"
+    "_cacheBreaker": "1756035526320_9",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_9_medium_010",
@@ -167,6 +176,7 @@
     "grade": "9",
     "difficulty": "medium",
     "explanation": "Divide both sides by 2: x + 3 = 8, then subtract 3: x = 5",
-    "_cacheBreaker": "1756035526320_10"
+    "_cacheBreaker": "1756035526320_10",
+    "topic": "Linear Equations"
   }
 ]

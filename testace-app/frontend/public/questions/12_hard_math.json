@@ -3,220 +3,340 @@
     "_id": "math_12_hard_001",
     "content": "Find the integral: ∫x²dx",
     "type": "multiple_choice",
-    "options": ["x³/3 + C", "2x + C", "x³ + C", "3x² + C"],
+    "options": [
+      "x³/3 + C",
+      "2x + C",
+      "x³ + C",
+      "3x² + C"
+    ],
     "correctAnswer": "x³/3 + C",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "∫x²dx = x³/3 + C"
+    "explanation": "∫x²dx = x³/3 + C",
+    "topic": "Calculus - Integrals"
   },
   {
     "_id": "math_12_hard_002",
     "content": "Find the limit: lim(x→∞) (1/x)",
     "type": "multiple_choice",
-    "options": ["0", "1", "∞", "undefined"],
+    "options": [
+      "0",
+      "1",
+      "∞",
+      "undefined"
+    ],
     "correctAnswer": "0",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "As x approaches infinity, 1/x approaches 0"
+    "explanation": "As x approaches infinity, 1/x approaches 0",
+    "topic": "Calculus - Limits"
   },
   {
     "_id": "math_12_hard_003",
     "content": "What is the second derivative of f(x) = x⁴?",
     "type": "multiple_choice",
-    "options": ["4x³", "12x²", "24x", "4x"],
+    "options": [
+      "4x³",
+      "12x²",
+      "24x",
+      "4x"
+    ],
     "correctAnswer": "12x²",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "f'(x) = 4x³, f''(x) = 12x²"
+    "explanation": "f'(x) = 4x³, f''(x) = 12x²",
+    "topic": "Calculus - Derivatives"
   },
   {
     "_id": "math_12_hard_004",
     "content": "Find the integral: ∫e^x dx",
     "type": "multiple_choice",
-    "options": ["e^x + C", "xe^(x-1) + C", "x + C", "e^x"],
+    "options": [
+      "e^x + C",
+      "xe^(x-1) + C",
+      "x + C",
+      "e^x"
+    ],
     "correctAnswer": "e^x + C",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "∫e^x dx = e^x + C"
+    "explanation": "∫e^x dx = e^x + C",
+    "topic": "Calculus - Integrals"
   },
   {
     "_id": "math_12_hard_005",
     "content": "Find the limit: lim(x→0) (sin x)/x",
     "type": "multiple_choice",
-    "options": ["0", "1", "∞", "undefined"],
+    "options": [
+      "0",
+      "1",
+      "∞",
+      "undefined"
+    ],
     "correctAnswer": "1",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "This is a standard limit: lim(x→0) (sin x)/x = 1"
+    "explanation": "This is a standard limit: lim(x→0) (sin x)/x = 1",
+    "topic": "Trigonometry"
   },
   {
     "_id": "math_12_hard_006",
     "content": "Find the derivative of f(x) = x^x",
     "type": "multiple_choice",
-    "options": ["x^x(ln x + 1)", "x^(x-1)", "x^x ln x", "x^x"],
+    "options": [
+      "x^x(ln x + 1)",
+      "x^(x-1)",
+      "x^x ln x",
+      "x^x"
+    ],
     "correctAnswer": "x^x(ln x + 1)",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "Using logarithmic differentiation: f'(x) = x^x(ln x + 1)"
+    "explanation": "Using logarithmic differentiation: f'(x) = x^x(ln x + 1)",
+    "topic": "Calculus - Derivatives"
   },
   {
     "_id": "math_12_hard_007",
     "content": "Find the integral: ∫sin x dx",
     "type": "multiple_choice",
-    "options": ["-cos x + C", "cos x + C", "sin x + C", "-sin x + C"],
+    "options": [
+      "-cos x + C",
+      "cos x + C",
+      "sin x + C",
+      "-sin x + C"
+    ],
     "correctAnswer": "-cos x + C",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "∫sin x dx = -cos x + C"
+    "explanation": "∫sin x dx = -cos x + C",
+    "topic": "Trigonometry"
   },
   {
     "_id": "math_12_hard_008",
     "content": "Find the limit: lim(x→2) (x² - 4)/(x - 2)",
     "type": "multiple_choice",
-    "options": ["0", "2", "4", "undefined"],
+    "options": [
+      "0",
+      "2",
+      "4",
+      "undefined"
+    ],
     "correctAnswer": "4",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "Factor: (x² - 4)/(x - 2) = (x - 2)(x + 2)/(x - 2) = x + 2, so limit = 4"
+    "explanation": "Factor: (x² - 4)/(x - 2) = (x - 2)(x + 2)/(x - 2) = x + 2, so limit = 4",
+    "topic": "Calculus - Limits"
   },
   {
     "_id": "math_12_hard_009",
     "content": "Find the derivative of f(x) = tan x",
     "type": "multiple_choice",
-    "options": ["sec² x", "cot x", "sec x", "csc² x"],
+    "options": [
+      "sec² x",
+      "cot x",
+      "sec x",
+      "csc² x"
+    ],
     "correctAnswer": "sec² x",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "The derivative of tan x is sec² x"
+    "explanation": "The derivative of tan x is sec² x",
+    "topic": "Trigonometry"
   },
   {
     "_id": "math_12_hard_010",
     "content": "Find the integral: ∫cos x dx",
     "type": "multiple_choice",
-    "options": ["sin x + C", "-sin x + C", "cos x + C", "-cos x + C"],
+    "options": [
+      "sin x + C",
+      "-sin x + C",
+      "cos x + C",
+      "-cos x + C"
+    ],
     "correctAnswer": "sin x + C",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "∫cos x dx = sin x + C"
+    "explanation": "∫cos x dx = sin x + C",
+    "topic": "Trigonometry"
   },
   {
     "_id": "math_12_hard_011",
     "content": "Find the limit: lim(x→1) (x³ - 1)/(x - 1)",
     "type": "multiple_choice",
-    "options": ["1", "2", "3", "undefined"],
+    "options": [
+      "1",
+      "2",
+      "3",
+      "undefined"
+    ],
     "correctAnswer": "3",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "Factor: (x³ - 1)/(x - 1) = (x - 1)(x² + x + 1)/(x - 1) = x² + x + 1, so limit = 3"
+    "explanation": "Factor: (x³ - 1)/(x - 1) = (x - 1)(x² + x + 1)/(x - 1) = x² + x + 1, so limit = 3",
+    "topic": "Calculus - Limits"
   },
   {
     "_id": "math_12_hard_012",
     "content": "Find the derivative of f(x) = sec x",
     "type": "multiple_choice",
-    "options": ["sec x tan x", "csc x cot x", "sec² x", "-csc x cot x"],
+    "options": [
+      "sec x tan x",
+      "csc x cot x",
+      "sec² x",
+      "-csc x cot x"
+    ],
     "correctAnswer": "sec x tan x",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "The derivative of sec x is sec x tan x"
+    "explanation": "The derivative of sec x is sec x tan x",
+    "topic": "Calculus - Derivatives"
   },
   {
     "_id": "math_12_hard_013",
     "content": "Find the integral: ∫x³ dx",
     "type": "multiple_choice",
-    "options": ["x⁴/4 + C", "3x² + C", "x⁴ + C", "4x³ + C"],
+    "options": [
+      "x⁴/4 + C",
+      "3x² + C",
+      "x⁴ + C",
+      "4x³ + C"
+    ],
     "correctAnswer": "x⁴/4 + C",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "∫x³ dx = x⁴/4 + C"
+    "explanation": "∫x³ dx = x⁴/4 + C",
+    "topic": "Calculus - Integrals"
   },
   {
     "_id": "math_12_hard_014",
     "content": "Find the limit: lim(x→0) (1 - cos x)/x²",
     "type": "multiple_choice",
-    "options": ["0", "1/2", "1", "∞"],
+    "options": [
+      "0",
+      "1/2",
+      "1",
+      "∞"
+    ],
     "correctAnswer": "1/2",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "Using L'Hôpital's rule twice: lim(x→0) (1 - cos x)/x² = 1/2"
+    "explanation": "Using L'Hôpital's rule twice: lim(x→0) (1 - cos x)/x² = 1/2",
+    "topic": "Trigonometry"
   },
   {
     "_id": "math_12_hard_015",
     "content": "Find the derivative of f(x) = ln(sin x)",
     "type": "multiple_choice",
-    "options": ["cot x", "tan x", "1/sin x", "cos x/sin x"],
+    "options": [
+      "cot x",
+      "tan x",
+      "1/sin x",
+      "cos x/sin x"
+    ],
     "correctAnswer": "cot x",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "Using chain rule: f'(x) = (1/sin x) × cos x = cot x"
+    "explanation": "Using chain rule: f'(x) = (1/sin x) × cos x = cot x",
+    "topic": "Trigonometry"
   },
   {
     "_id": "math_12_hard_016",
     "content": "Find the integral: ∫sec² x dx",
     "type": "multiple_choice",
-    "options": ["tan x + C", "sec x + C", "cot x + C", "csc x + C"],
+    "options": [
+      "tan x + C",
+      "sec x + C",
+      "cot x + C",
+      "csc x + C"
+    ],
     "correctAnswer": "tan x + C",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "∫sec² x dx = tan x + C"
+    "explanation": "∫sec² x dx = tan x + C",
+    "topic": "Calculus - Integrals"
   },
   {
     "_id": "math_12_hard_017",
     "content": "Find the limit: lim(x→∞) (3x² + 2x)/(x² - 1)",
     "type": "multiple_choice",
-    "options": ["0", "2", "3", "∞"],
+    "options": [
+      "0",
+      "2",
+      "3",
+      "∞"
+    ],
     "correctAnswer": "3",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "Divide by highest power: lim(x→∞) (3 + 2/x)/(1 - 1/x²) = 3/1 = 3"
+    "explanation": "Divide by highest power: lim(x→∞) (3 + 2/x)/(1 - 1/x²) = 3/1 = 3",
+    "topic": "Calculus - Limits"
   },
   {
     "_id": "math_12_hard_018",
     "content": "Find the derivative of f(x) = e^(2x)",
     "type": "multiple_choice",
-    "options": ["2e^(2x)", "e^(2x)", "2xe^(2x-1)", "e^(2x) + 2x"],
+    "options": [
+      "2e^(2x)",
+      "e^(2x)",
+      "2xe^(2x-1)",
+      "e^(2x) + 2x"
+    ],
     "correctAnswer": "2e^(2x)",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "Using chain rule: f'(x) = e^(2x) × 2 = 2e^(2x)"
+    "explanation": "Using chain rule: f'(x) = e^(2x) × 2 = 2e^(2x)",
+    "topic": "Calculus - Derivatives"
   },
   {
     "_id": "math_12_hard_019",
     "content": "Find the integral: ∫(1/(x² + 1)) dx",
     "type": "multiple_choice",
-    "options": ["arctan x + C", "ln(x² + 1) + C", "1/(2x) + C", "x/(x² + 1) + C"],
+    "options": [
+      "arctan x + C",
+      "ln(x² + 1) + C",
+      "1/(2x) + C",
+      "x/(x² + 1) + C"
+    ],
     "correctAnswer": "arctan x + C",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "∫(1/(x² + 1)) dx = arctan x + C"
+    "explanation": "∫(1/(x² + 1)) dx = arctan x + C",
+    "topic": "Calculus - Integrals"
   },
   {
     "_id": "math_12_hard_020",
     "content": "Find the limit: lim(x→0⁺) x ln x",
     "type": "multiple_choice",
-    "options": ["0", "1", "-∞", "∞"],
+    "options": [
+      "0",
+      "1",
+      "-∞",
+      "∞"
+    ],
     "correctAnswer": "0",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "Rewrite as lim(x→0⁺) (ln x)/(1/x) and use L'Hôpital's rule: limit = 0"
+    "explanation": "Rewrite as lim(x→0⁺) (ln x)/(1/x) and use L'Hôpital's rule: limit = 0",
+    "topic": "Logarithms"
   }
 ]

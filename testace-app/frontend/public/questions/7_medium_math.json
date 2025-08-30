@@ -3,220 +3,340 @@
     "_id": "math_7_medium_001",
     "content": "Solve: 2x + 5 = 17",
     "type": "multiple_choice",
-    "options": ["x = 6", "x = 7", "x = 8", "x = 9"],
+    "options": [
+      "x = 6",
+      "x = 7",
+      "x = 8",
+      "x = 9"
+    ],
     "correctAnswer": "x = 6",
     "subject": "math",
     "grade": "7",
     "difficulty": "medium",
-    "explanation": "2x = 17 - 5 = 12, so x = 6"
+    "explanation": "2x = 17 - 5 = 12, so x = 6",
+    "topic": "Linear Equations"
   },
   {
     "_id": "math_7_medium_002",
     "content": "What is 30% of 80?",
     "type": "multiple_choice",
-    "options": ["20", "24", "28", "32"],
+    "options": [
+      "20",
+      "24",
+      "28",
+      "32"
+    ],
     "correctAnswer": "24",
     "subject": "math",
     "grade": "7",
     "difficulty": "medium",
-    "explanation": "30% of 80 = 0.30 × 80 = 24"
+    "explanation": "30% of 80 = 0.30 × 80 = 24",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_7_medium_003",
     "content": "Find the circumference of a circle with radius 5 cm (use π = 3.14)",
     "type": "multiple_choice",
-    "options": ["15.7 cm", "31.4 cm", "78.5 cm", "157 cm"],
+    "options": [
+      "15.7 cm",
+      "31.4 cm",
+      "78.5 cm",
+      "157 cm"
+    ],
     "correctAnswer": "31.4 cm",
     "subject": "math",
     "grade": "7",
     "difficulty": "medium",
-    "explanation": "Circumference = 2πr = 2 × 3.14 × 5 = 31.4 cm"
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 5 = 31.4 cm",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_7_medium_004",
     "content": "Simplify: 3x + 2x - x",
     "type": "multiple_choice",
-    "options": ["4x", "5x", "6x", "2x"],
+    "options": [
+      "4x",
+      "5x",
+      "6x",
+      "2x"
+    ],
     "correctAnswer": "4x",
     "subject": "math",
     "grade": "7",
     "difficulty": "medium",
-    "explanation": "3x + 2x - x = (3 + 2 - 1)x = 4x"
+    "explanation": "3x + 2x - x = (3 + 2 - 1)x = 4x",
+    "topic": "Algebra"
   },
   {
     "_id": "math_7_medium_005",
     "content": "What is the mean of: 12, 15, 18, 21?",
     "type": "multiple_choice",
-    "options": ["15", "16.5", "18", "19.5"],
+    "options": [
+      "15",
+      "16.5",
+      "18",
+      "19.5"
+    ],
     "correctAnswer": "16.5",
     "subject": "math",
     "grade": "7",
     "difficulty": "medium",
-    "explanation": "Mean = (12 + 15 + 18 + 21) ÷ 4 = 66 ÷ 4 = 16.5"
+    "explanation": "Mean = (12 + 15 + 18 + 21) ÷ 4 = 66 ÷ 4 = 16.5",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_7_medium_006",
     "content": "Solve: 3x - 4 = 14",
     "type": "multiple_choice",
-    "options": ["x = 5", "x = 6", "x = 7", "x = 42"],
+    "options": [
+      "x = 5",
+      "x = 6",
+      "x = 7",
+      "x = 42"
+    ],
     "correctAnswer": "x = 6",
     "subject": "math",
     "grade": "7",
     "difficulty": "medium",
-    "explanation": "3x = 14 + 4 = 18, so x = 6"
+    "explanation": "3x = 14 + 4 = 18, so x = 6",
+    "topic": "Linear Equations"
   },
   {
     "_id": "math_7_medium_007",
     "content": "What is 45% of 120?",
     "type": "multiple_choice",
-    "options": ["52", "53", "54", "55"],
+    "options": [
+      "52",
+      "53",
+      "54",
+      "55"
+    ],
     "correctAnswer": "54",
     "subject": "math",
     "grade": "7",
     "difficulty": "medium",
-    "explanation": "45% of 120 = 0.45 × 120 = 54"
+    "explanation": "45% of 120 = 0.45 × 120 = 54",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_7_medium_008",
     "content": "What is the area of a triangle with base 12 cm and height 8 cm?",
     "type": "multiple_choice",
-    "options": ["20 cm²", "48 cm²", "96 cm²", "40 cm²"],
+    "options": [
+      "20 cm²",
+      "48 cm²",
+      "96 cm²",
+      "40 cm²"
+    ],
     "correctAnswer": "48 cm²",
     "subject": "math",
     "grade": "7",
     "difficulty": "medium",
-    "explanation": "Area = (1/2) × base × height = (1/2) × 12 × 8 = 48 cm²"
+    "explanation": "Area = (1/2) × base × height = (1/2) × 12 × 8 = 48 cm²",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_7_medium_009",
     "content": "Simplify: 5x - 2x + 3x",
     "type": "multiple_choice",
-    "options": ["6x", "8x", "10x", "3x"],
+    "options": [
+      "6x",
+      "8x",
+      "10x",
+      "3x"
+    ],
     "correctAnswer": "6x",
     "subject": "math",
     "grade": "7",
     "difficulty": "medium",
-    "explanation": "5x - 2x + 3x = (5 - 2 + 3)x = 6x"
+    "explanation": "5x - 2x + 3x = (5 - 2 + 3)x = 6x",
+    "topic": "Algebra"
   },
   {
     "_id": "math_7_medium_010",
     "content": "What is the median of: 8, 12, 15, 18, 22?",
     "type": "multiple_choice",
-    "options": ["12", "15", "18", "75"],
+    "options": [
+      "12",
+      "15",
+      "18",
+      "75"
+    ],
     "correctAnswer": "15",
     "subject": "math",
     "grade": "7",
     "difficulty": "medium",
-    "explanation": "The median is the middle value: 15"
+    "explanation": "The median is the middle value: 15",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_7_medium_011",
     "content": "Solve: 4x + 7 = 31",
     "type": "multiple_choice",
-    "options": ["x = 5", "x = 6", "x = 7", "x = 38"],
+    "options": [
+      "x = 5",
+      "x = 6",
+      "x = 7",
+      "x = 38"
+    ],
     "correctAnswer": "x = 6",
     "subject": "math",
     "grade": "7",
     "difficulty": "medium",
-    "explanation": "4x = 31 - 7 = 24, so x = 6"
+    "explanation": "4x = 31 - 7 = 24, so x = 6",
+    "topic": "Linear Equations"
   },
   {
     "_id": "math_7_medium_012",
     "content": "What is 60% of 85?",
     "type": "multiple_choice",
-    "options": ["49", "50", "51", "52"],
+    "options": [
+      "49",
+      "50",
+      "51",
+      "52"
+    ],
     "correctAnswer": "51",
     "subject": "math",
     "grade": "7",
     "difficulty": "medium",
-    "explanation": "60% of 85 = 0.60 × 85 = 51"
+    "explanation": "60% of 85 = 0.60 × 85 = 51",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_7_medium_013",
     "content": "Find the area of a rectangle with length 15 cm and width 9 cm",
     "type": "multiple_choice",
-    "options": ["24 cm²", "48 cm²", "135 cm²", "30 cm²"],
+    "options": [
+      "24 cm²",
+      "48 cm²",
+      "135 cm²",
+      "30 cm²"
+    ],
     "correctAnswer": "135 cm²",
     "subject": "math",
     "grade": "7",
     "difficulty": "medium",
-    "explanation": "Area = length × width = 15 × 9 = 135 cm²"
+    "explanation": "Area = length × width = 15 × 9 = 135 cm²",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_7_medium_014",
     "content": "Simplify: 7x + x - 3x",
     "type": "multiple_choice",
-    "options": ["4x", "5x", "11x", "3x"],
+    "options": [
+      "4x",
+      "5x",
+      "11x",
+      "3x"
+    ],
     "correctAnswer": "5x",
     "subject": "math",
     "grade": "7",
     "difficulty": "medium",
-    "explanation": "7x + x - 3x = (7 + 1 - 3)x = 5x"
+    "explanation": "7x + x - 3x = (7 + 1 - 3)x = 5x",
+    "topic": "Algebra"
   },
   {
     "_id": "math_7_medium_015",
     "content": "What is the range of: 5, 12, 8, 15, 3?",
     "type": "multiple_choice",
-    "options": ["10", "11", "12", "13"],
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
     "correctAnswer": "12",
     "subject": "math",
     "grade": "7",
     "difficulty": "medium",
-    "explanation": "Range = highest - lowest = 15 - 3 = 12"
+    "explanation": "Range = highest - lowest = 15 - 3 = 12",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_7_medium_016",
     "content": "Solve: 5x - 8 = 22",
     "type": "multiple_choice",
-    "options": ["x = 5", "x = 6", "x = 7", "x = 30"],
+    "options": [
+      "x = 5",
+      "x = 6",
+      "x = 7",
+      "x = 30"
+    ],
     "correctAnswer": "x = 6",
     "subject": "math",
     "grade": "7",
     "difficulty": "medium",
-    "explanation": "5x = 22 + 8 = 30, so x = 6"
+    "explanation": "5x = 22 + 8 = 30, so x = 6",
+    "topic": "Linear Equations"
   },
   {
     "_id": "math_7_medium_017",
     "content": "What is 35% of 140?",
     "type": "multiple_choice",
-    "options": ["47", "48", "49", "50"],
+    "options": [
+      "47",
+      "48",
+      "49",
+      "50"
+    ],
     "correctAnswer": "49",
     "subject": "math",
     "grade": "7",
     "difficulty": "medium",
-    "explanation": "35% of 140 = 0.35 × 140 = 49"
+    "explanation": "35% of 140 = 0.35 × 140 = 49",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_7_medium_018",
     "content": "Find the perimeter of a square with side 11 cm",
     "type": "multiple_choice",
-    "options": ["22 cm", "33 cm", "44 cm", "121 cm"],
+    "options": [
+      "22 cm",
+      "33 cm",
+      "44 cm",
+      "121 cm"
+    ],
     "correctAnswer": "44 cm",
     "subject": "math",
     "grade": "7",
     "difficulty": "medium",
-    "explanation": "Perimeter = 4 × side = 4 × 11 = 44 cm"
+    "explanation": "Perimeter = 4 × side = 4 × 11 = 44 cm",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_7_medium_019",
     "content": "Simplify: 6x - 4x + 2x",
     "type": "multiple_choice",
-    "options": ["2x", "4x", "8x", "12x"],
+    "options": [
+      "2x",
+      "4x",
+      "8x",
+      "12x"
+    ],
     "correctAnswer": "4x",
     "subject": "math",
     "grade": "7",
     "difficulty": "medium",
-    "explanation": "6x - 4x + 2x = (6 - 4 + 2)x = 4x"
+    "explanation": "6x - 4x + 2x = (6 - 4 + 2)x = 4x",
+    "topic": "Algebra"
   },
   {
     "_id": "math_7_medium_020",
     "content": "What is the mode of: 3, 7, 5, 7, 9, 7, 2?",
     "type": "multiple_choice",
-    "options": ["3", "5", "7", "9"],
+    "options": [
+      "3",
+      "5",
+      "7",
+      "9"
+    ],
     "correctAnswer": "7",
     "subject": "math",
     "grade": "7",
     "difficulty": "medium",
-    "explanation": "The mode is the most frequent value: 7 appears 3 times"
+    "explanation": "The mode is the most frequent value: 7 appears 3 times",
+    "topic": "Mathematics"
   }
 ]

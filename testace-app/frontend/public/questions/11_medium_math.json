@@ -3,220 +3,340 @@
     "_id": "math_11_medium_001",
     "content": "Find the derivative of f(x) = x² + 3x",
     "type": "multiple_choice",
-    "options": ["2x + 3", "x + 3", "2x² + 3x", "x² + 3"],
+    "options": [
+      "2x + 3",
+      "x + 3",
+      "2x² + 3x",
+      "x² + 3"
+    ],
     "correctAnswer": "2x + 3",
     "subject": "math",
     "grade": "11",
     "difficulty": "medium",
-    "explanation": "f'(x) = 2x + 3"
+    "explanation": "f'(x) = 2x + 3",
+    "topic": "Calculus - Derivatives"
   },
   {
     "_id": "math_11_medium_002",
     "content": "Solve: 2^x = 16",
     "type": "multiple_choice",
-    "options": ["x = 2", "x = 4", "x = 8", "x = 32"],
+    "options": [
+      "x = 2",
+      "x = 4",
+      "x = 8",
+      "x = 32"
+    ],
     "correctAnswer": "x = 4",
     "subject": "math",
     "grade": "11",
     "difficulty": "medium",
-    "explanation": "2^x = 16 = 2⁴, so x = 4"
+    "explanation": "2^x = 16 = 2⁴, so x = 4",
+    "topic": "Algebra"
   },
   {
     "_id": "math_11_medium_003",
     "content": "What is cos(30°)?",
     "type": "multiple_choice",
-    "options": ["1/2", "√2/2", "√3/2", "1"],
+    "options": [
+      "1/2",
+      "√2/2",
+      "√3/2",
+      "1"
+    ],
     "correctAnswer": "√3/2",
     "subject": "math",
     "grade": "11",
     "difficulty": "medium",
-    "explanation": "cos(30°) = √3/2"
+    "explanation": "cos(30°) = √3/2",
+    "topic": "Trigonometry"
   },
   {
     "_id": "math_11_medium_004",
     "content": "Find the vertex of y = x² - 4x + 7",
     "type": "multiple_choice",
-    "options": ["(2, 3)", "(-2, -3)", "(4, 7)", "(0, 7)"],
+    "options": [
+      "(2, 3)",
+      "(-2, -3)",
+      "(4, 7)",
+      "(0, 7)"
+    ],
     "correctAnswer": "(2, 3)",
     "subject": "math",
     "grade": "11",
     "difficulty": "medium",
-    "explanation": "x-coordinate: x = -b/2a = 4/2 = 2, y-coordinate: y = 2² - 4(2) + 7 = 3"
+    "explanation": "x-coordinate: x = -b/2a = 4/2 = 2, y-coordinate: y = 2² - 4(2) + 7 = 3",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_11_medium_005",
     "content": "Solve: log₂(x) = 3",
     "type": "multiple_choice",
-    "options": ["x = 6", "x = 8", "x = 9", "x = 23"],
+    "options": [
+      "x = 6",
+      "x = 8",
+      "x = 9",
+      "x = 23"
+    ],
     "correctAnswer": "x = 8",
     "subject": "math",
     "grade": "11",
     "difficulty": "medium",
-    "explanation": "If log₂(x) = 3, then x = 2³ = 8"
+    "explanation": "If log₂(x) = 3, then x = 2³ = 8",
+    "topic": "Logarithms"
   },
   {
     "_id": "math_11_medium_006",
     "content": "What is sin(60°)?",
     "type": "multiple_choice",
-    "options": ["1/2", "√2/2", "√3/2", "1"],
+    "options": [
+      "1/2",
+      "√2/2",
+      "√3/2",
+      "1"
+    ],
     "correctAnswer": "√3/2",
     "subject": "math",
     "grade": "11",
     "difficulty": "medium",
-    "explanation": "sin(60°) = √3/2"
+    "explanation": "sin(60°) = √3/2",
+    "topic": "Trigonometry"
   },
   {
     "_id": "math_11_medium_007",
     "content": "Find the derivative of f(x) = 3x³ - 2x",
     "type": "multiple_choice",
-    "options": ["9x² - 2", "3x² - 2", "9x³ - 2x", "6x² - 2"],
+    "options": [
+      "9x² - 2",
+      "3x² - 2",
+      "9x³ - 2x",
+      "6x² - 2"
+    ],
     "correctAnswer": "9x² - 2",
     "subject": "math",
     "grade": "11",
     "difficulty": "medium",
-    "explanation": "f'(x) = 9x² - 2"
+    "explanation": "f'(x) = 9x² - 2",
+    "topic": "Calculus - Derivatives"
   },
   {
     "_id": "math_11_medium_008",
     "content": "Solve: 3^x = 27",
     "type": "multiple_choice",
-    "options": ["x = 2", "x = 3", "x = 9", "x = 81"],
+    "options": [
+      "x = 2",
+      "x = 3",
+      "x = 9",
+      "x = 81"
+    ],
     "correctAnswer": "x = 3",
     "subject": "math",
     "grade": "11",
     "difficulty": "medium",
-    "explanation": "3^x = 27 = 3³, so x = 3"
+    "explanation": "3^x = 27 = 3³, so x = 3",
+    "topic": "Algebra"
   },
   {
     "_id": "math_11_medium_009",
     "content": "What is tan(45°)?",
     "type": "multiple_choice",
-    "options": ["1/2", "√2/2", "√3/2", "1"],
+    "options": [
+      "1/2",
+      "√2/2",
+      "√3/2",
+      "1"
+    ],
     "correctAnswer": "1",
     "subject": "math",
     "grade": "11",
     "difficulty": "medium",
-    "explanation": "tan(45°) = 1"
+    "explanation": "tan(45°) = 1",
+    "topic": "Trigonometry"
   },
   {
     "_id": "math_11_medium_010",
     "content": "Find the axis of symmetry of y = 2x² - 8x + 3",
     "type": "multiple_choice",
-    "options": ["x = 2", "x = -2", "x = 4", "x = -4"],
+    "options": [
+      "x = 2",
+      "x = -2",
+      "x = 4",
+      "x = -4"
+    ],
     "correctAnswer": "x = 2",
     "subject": "math",
     "grade": "11",
     "difficulty": "medium",
-    "explanation": "Axis of symmetry: x = -b/2a = -(-8)/2(2) = 8/4 = 2"
+    "explanation": "Axis of symmetry: x = -b/2a = -(-8)/2(2) = 8/4 = 2",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_11_medium_011",
     "content": "Solve: log₃(x) = 2",
     "type": "multiple_choice",
-    "options": ["x = 6", "x = 8", "x = 9", "x = 32"],
+    "options": [
+      "x = 6",
+      "x = 8",
+      "x = 9",
+      "x = 32"
+    ],
     "correctAnswer": "x = 9",
     "subject": "math",
     "grade": "11",
     "difficulty": "medium",
-    "explanation": "If log₃(x) = 2, then x = 3² = 9"
+    "explanation": "If log₃(x) = 2, then x = 3² = 9",
+    "topic": "Logarithms"
   },
   {
     "_id": "math_11_medium_012",
     "content": "What is cos(45°)?",
     "type": "multiple_choice",
-    "options": ["1/2", "√2/2", "√3/2", "1"],
+    "options": [
+      "1/2",
+      "√2/2",
+      "√3/2",
+      "1"
+    ],
     "correctAnswer": "√2/2",
     "subject": "math",
     "grade": "11",
     "difficulty": "medium",
-    "explanation": "cos(45°) = √2/2"
+    "explanation": "cos(45°) = √2/2",
+    "topic": "Trigonometry"
   },
   {
     "_id": "math_11_medium_013",
     "content": "Find the derivative of f(x) = 5x⁴ + x²",
     "type": "multiple_choice",
-    "options": ["20x³ + 2x", "5x³ + 2x", "20x⁴ + x²", "15x³ + x"],
+    "options": [
+      "20x³ + 2x",
+      "5x³ + 2x",
+      "20x⁴ + x²",
+      "15x³ + x"
+    ],
     "correctAnswer": "20x³ + 2x",
     "subject": "math",
     "grade": "11",
     "difficulty": "medium",
-    "explanation": "f'(x) = 20x³ + 2x"
+    "explanation": "f'(x) = 20x³ + 2x",
+    "topic": "Calculus - Derivatives"
   },
   {
     "_id": "math_11_medium_014",
     "content": "Solve: 4^x = 64",
     "type": "multiple_choice",
-    "options": ["x = 2", "x = 3", "x = 4", "x = 16"],
+    "options": [
+      "x = 2",
+      "x = 3",
+      "x = 4",
+      "x = 16"
+    ],
     "correctAnswer": "x = 3",
     "subject": "math",
     "grade": "11",
     "difficulty": "medium",
-    "explanation": "4^x = 64 = 4³, so x = 3"
+    "explanation": "4^x = 64 = 4³, so x = 3",
+    "topic": "Algebra"
   },
   {
     "_id": "math_11_medium_015",
     "content": "What is sin(30°)?",
     "type": "multiple_choice",
-    "options": ["1/2", "√2/2", "√3/2", "1"],
+    "options": [
+      "1/2",
+      "√2/2",
+      "√3/2",
+      "1"
+    ],
     "correctAnswer": "1/2",
     "subject": "math",
     "grade": "11",
     "difficulty": "medium",
-    "explanation": "sin(30°) = 1/2"
+    "explanation": "sin(30°) = 1/2",
+    "topic": "Trigonometry"
   },
   {
     "_id": "math_11_medium_016",
     "content": "Find the y-intercept of y = x² + 2x - 3",
     "type": "multiple_choice",
-    "options": ["-3", "2", "1", "0"],
+    "options": [
+      "-3",
+      "2",
+      "1",
+      "0"
+    ],
     "correctAnswer": "-3",
     "subject": "math",
     "grade": "11",
     "difficulty": "medium",
-    "explanation": "Y-intercept occurs when x = 0: y = 0² + 2(0) - 3 = -3"
+    "explanation": "Y-intercept occurs when x = 0: y = 0² + 2(0) - 3 = -3",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_11_medium_017",
     "content": "Solve: log₄(x) = 2",
     "type": "multiple_choice",
-    "options": ["x = 8", "x = 16", "x = 6", "x = 42"],
+    "options": [
+      "x = 8",
+      "x = 16",
+      "x = 6",
+      "x = 42"
+    ],
     "correctAnswer": "x = 16",
     "subject": "math",
     "grade": "11",
     "difficulty": "medium",
-    "explanation": "If log₄(x) = 2, then x = 4² = 16"
+    "explanation": "If log₄(x) = 2, then x = 4² = 16",
+    "topic": "Logarithms"
   },
   {
     "_id": "math_11_medium_018",
     "content": "What is tan(60°)?",
     "type": "multiple_choice",
-    "options": ["1/2", "√2/2", "√3", "1"],
+    "options": [
+      "1/2",
+      "√2/2",
+      "√3",
+      "1"
+    ],
     "correctAnswer": "√3",
     "subject": "math",
     "grade": "11",
     "difficulty": "medium",
-    "explanation": "tan(60°) = √3"
+    "explanation": "tan(60°) = √3",
+    "topic": "Trigonometry"
   },
   {
     "_id": "math_11_medium_019",
     "content": "Find the derivative of f(x) = x⁵ - 4x³",
     "type": "multiple_choice",
-    "options": ["5x⁴ - 12x²", "x⁴ - 4x²", "5x⁵ - 4x³", "4x⁴ - 3x²"],
+    "options": [
+      "5x⁴ - 12x²",
+      "x⁴ - 4x²",
+      "5x⁵ - 4x³",
+      "4x⁴ - 3x²"
+    ],
     "correctAnswer": "5x⁴ - 12x²",
     "subject": "math",
     "grade": "11",
     "difficulty": "medium",
-    "explanation": "f'(x) = 5x⁴ - 12x²"
+    "explanation": "f'(x) = 5x⁴ - 12x²",
+    "topic": "Calculus - Derivatives"
   },
   {
     "_id": "math_11_medium_020",
     "content": "Solve: 5^x = 125",
     "type": "multiple_choice",
-    "options": ["x = 2", "x = 3", "x = 5", "x = 25"],
+    "options": [
+      "x = 2",
+      "x = 3",
+      "x = 5",
+      "x = 25"
+    ],
     "correctAnswer": "x = 3",
     "subject": "math",
     "grade": "11",
     "difficulty": "medium",
-    "explanation": "5^x = 125 = 5³, so x = 3"
+    "explanation": "5^x = 125 = 5³, so x = 3",
+    "topic": "Algebra"
   }
 ]

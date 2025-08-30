@@ -3,220 +3,340 @@
     "_id": "math_3_medium_001",
     "content": "What is 34 + 29?",
     "type": "multiple_choice",
-    "options": ["61", "62", "63", "64"],
+    "options": [
+      "61",
+      "62",
+      "63",
+      "64"
+    ],
     "correctAnswer": "63",
     "subject": "math",
     "grade": "3",
     "difficulty": "medium",
-    "explanation": "34 + 29 = 63"
+    "explanation": "34 + 29 = 63",
+    "topic": "Addition"
   },
   {
     "_id": "math_3_medium_002",
     "content": "What is 7 × 8?",
     "type": "multiple_choice",
-    "options": ["54", "56", "58", "60"],
+    "options": [
+      "54",
+      "56",
+      "58",
+      "60"
+    ],
     "correctAnswer": "56",
     "subject": "math",
     "grade": "3",
     "difficulty": "medium",
-    "explanation": "7 × 8 = 56"
+    "explanation": "7 × 8 = 56",
+    "topic": "Multiplication"
   },
   {
     "_id": "math_3_medium_003",
     "content": "What is the perimeter of a rectangle with length 5 cm and width 3 cm?",
     "type": "multiple_choice",
-    "options": ["15 cm", "16 cm", "8 cm", "30 cm"],
+    "options": [
+      "15 cm",
+      "16 cm",
+      "8 cm",
+      "30 cm"
+    ],
     "correctAnswer": "16 cm",
     "subject": "math",
     "grade": "3",
     "difficulty": "medium",
-    "explanation": "Perimeter = 2(length + width) = 2(5 + 3) = 16 cm"
+    "explanation": "Perimeter = 2(length + width) = 2(5 + 3) = 16 cm",
+    "topic": "Geometry - Perimeter"
   },
   {
     "_id": "math_3_medium_004",
     "content": "What is 48 ÷ 6?",
     "type": "multiple_choice",
-    "options": ["7", "8", "9", "54"],
+    "options": [
+      "7",
+      "8",
+      "9",
+      "54"
+    ],
     "correctAnswer": "8",
     "subject": "math",
     "grade": "3",
     "difficulty": "medium",
-    "explanation": "48 ÷ 6 = 8"
+    "explanation": "48 ÷ 6 = 8",
+    "topic": "Division"
   },
   {
     "_id": "math_3_medium_005",
     "content": "What is 67 - 29?",
     "type": "multiple_choice",
-    "options": ["36", "37", "38", "96"],
+    "options": [
+      "36",
+      "37",
+      "38",
+      "96"
+    ],
     "correctAnswer": "38",
     "subject": "math",
     "grade": "3",
     "difficulty": "medium",
-    "explanation": "67 - 29 = 38"
+    "explanation": "67 - 29 = 38",
+    "topic": "Subtraction"
   },
   {
     "_id": "math_3_medium_006",
     "content": "What is 9 × 6?",
     "type": "multiple_choice",
-    "options": ["52", "53", "54", "96"],
+    "options": [
+      "52",
+      "53",
+      "54",
+      "96"
+    ],
     "correctAnswer": "54",
     "subject": "math",
     "grade": "3",
     "difficulty": "medium",
-    "explanation": "9 × 6 = 54"
+    "explanation": "9 × 6 = 54",
+    "topic": "Multiplication"
   },
   {
     "_id": "math_3_medium_007",
     "content": "What is 45 + 37?",
     "type": "multiple_choice",
-    "options": ["80", "81", "82", "83"],
+    "options": [
+      "80",
+      "81",
+      "82",
+      "83"
+    ],
     "correctAnswer": "82",
     "subject": "math",
     "grade": "3",
     "difficulty": "medium",
-    "explanation": "45 + 37 = 82"
+    "explanation": "45 + 37 = 82",
+    "topic": "Addition"
   },
   {
     "_id": "math_3_medium_008",
     "content": "What is 72 ÷ 8?",
     "type": "multiple_choice",
-    "options": ["8", "9", "10", "80"],
+    "options": [
+      "8",
+      "9",
+      "10",
+      "80"
+    ],
     "correctAnswer": "9",
     "subject": "math",
     "grade": "3",
     "difficulty": "medium",
-    "explanation": "72 ÷ 8 = 9"
+    "explanation": "72 ÷ 8 = 9",
+    "topic": "Division"
   },
   {
     "_id": "math_3_medium_009",
     "content": "What is 85 - 47?",
     "type": "multiple_choice",
-    "options": ["36", "37", "38", "132"],
+    "options": [
+      "36",
+      "37",
+      "38",
+      "132"
+    ],
     "correctAnswer": "38",
     "subject": "math",
     "grade": "3",
     "difficulty": "medium",
-    "explanation": "85 - 47 = 38"
+    "explanation": "85 - 47 = 38",
+    "topic": "Subtraction"
   },
   {
     "_id": "math_3_medium_010",
     "content": "What is 8 × 7?",
     "type": "multiple_choice",
-    "options": ["54", "55", "56", "87"],
+    "options": [
+      "54",
+      "55",
+      "56",
+      "87"
+    ],
     "correctAnswer": "56",
     "subject": "math",
     "grade": "3",
     "difficulty": "medium",
-    "explanation": "8 × 7 = 56"
+    "explanation": "8 × 7 = 56",
+    "topic": "Multiplication"
   },
   {
     "_id": "math_3_medium_011",
     "content": "What is the area of a square with side 4 cm?",
     "type": "multiple_choice",
-    "options": ["12 cm²", "16 cm²", "20 cm²", "8 cm²"],
+    "options": [
+      "12 cm²",
+      "16 cm²",
+      "20 cm²",
+      "8 cm²"
+    ],
     "correctAnswer": "16 cm²",
     "subject": "math",
     "grade": "3",
     "difficulty": "medium",
-    "explanation": "Area = side × side = 4 × 4 = 16 cm²"
+    "explanation": "Area = side × side = 4 × 4 = 16 cm²",
+    "topic": "Shapes"
   },
   {
     "_id": "math_3_medium_012",
     "content": "What is 56 + 28?",
     "type": "multiple_choice",
-    "options": ["82", "83", "84", "85"],
+    "options": [
+      "82",
+      "83",
+      "84",
+      "85"
+    ],
     "correctAnswer": "84",
     "subject": "math",
     "grade": "3",
     "difficulty": "medium",
-    "explanation": "56 + 28 = 84"
+    "explanation": "56 + 28 = 84",
+    "topic": "Addition"
   },
   {
     "_id": "math_3_medium_013",
     "content": "What is 63 ÷ 7?",
     "type": "multiple_choice",
-    "options": ["8", "9", "10", "70"],
+    "options": [
+      "8",
+      "9",
+      "10",
+      "70"
+    ],
     "correctAnswer": "9",
     "subject": "math",
     "grade": "3",
     "difficulty": "medium",
-    "explanation": "63 ÷ 7 = 9"
+    "explanation": "63 ÷ 7 = 9",
+    "topic": "Division"
   },
   {
     "_id": "math_3_medium_014",
     "content": "What is 91 - 54?",
     "type": "multiple_choice",
-    "options": ["35", "36", "37", "145"],
+    "options": [
+      "35",
+      "36",
+      "37",
+      "145"
+    ],
     "correctAnswer": "37",
     "subject": "math",
     "grade": "3",
     "difficulty": "medium",
-    "explanation": "91 - 54 = 37"
+    "explanation": "91 - 54 = 37",
+    "topic": "Subtraction"
   },
   {
     "_id": "math_3_medium_015",
     "content": "What is 6 × 9?",
     "type": "multiple_choice",
-    "options": ["52", "53", "54", "69"],
+    "options": [
+      "52",
+      "53",
+      "54",
+      "69"
+    ],
     "correctAnswer": "54",
     "subject": "math",
     "grade": "3",
     "difficulty": "medium",
-    "explanation": "6 × 9 = 54"
+    "explanation": "6 × 9 = 54",
+    "topic": "Multiplication"
   },
   {
     "_id": "math_3_medium_016",
     "content": "How many minutes in 2 hours?",
     "type": "multiple_choice",
-    "options": ["100", "110", "120", "200"],
+    "options": [
+      "100",
+      "110",
+      "120",
+      "200"
+    ],
     "correctAnswer": "120",
     "subject": "math",
     "grade": "3",
     "difficulty": "medium",
-    "explanation": "2 hours = 2 × 60 = 120 minutes"
+    "explanation": "2 hours = 2 × 60 = 120 minutes",
+    "topic": "Counting"
   },
   {
     "_id": "math_3_medium_017",
     "content": "What is 39 + 46?",
     "type": "multiple_choice",
-    "options": ["83", "84", "85", "86"],
+    "options": [
+      "83",
+      "84",
+      "85",
+      "86"
+    ],
     "correctAnswer": "85",
     "subject": "math",
     "grade": "3",
     "difficulty": "medium",
-    "explanation": "39 + 46 = 85"
+    "explanation": "39 + 46 = 85",
+    "topic": "Addition"
   },
   {
     "_id": "math_3_medium_018",
     "content": "What is 54 ÷ 9?",
     "type": "multiple_choice",
-    "options": ["5", "6", "7", "63"],
+    "options": [
+      "5",
+      "6",
+      "7",
+      "63"
+    ],
     "correctAnswer": "6",
     "subject": "math",
     "grade": "3",
     "difficulty": "medium",
-    "explanation": "54 ÷ 9 = 6"
+    "explanation": "54 ÷ 9 = 6",
+    "topic": "Division"
   },
   {
     "_id": "math_3_medium_019",
     "content": "What is 76 - 38?",
     "type": "multiple_choice",
-    "options": ["36", "37", "38", "114"],
+    "options": [
+      "36",
+      "37",
+      "38",
+      "114"
+    ],
     "correctAnswer": "38",
     "subject": "math",
     "grade": "3",
     "difficulty": "medium",
-    "explanation": "76 - 38 = 38"
+    "explanation": "76 - 38 = 38",
+    "topic": "Subtraction"
   },
   {
     "_id": "math_3_medium_020",
     "content": "What is 5 × 9?",
     "type": "multiple_choice",
-    "options": ["43", "44", "45", "59"],
+    "options": [
+      "43",
+      "44",
+      "45",
+      "59"
+    ],
     "correctAnswer": "45",
     "subject": "math",
     "grade": "3",
     "difficulty": "medium",
-    "explanation": "5 × 9 = 45"
+    "explanation": "5 × 9 = 45",
+    "topic": "Multiplication"
   }
 ]

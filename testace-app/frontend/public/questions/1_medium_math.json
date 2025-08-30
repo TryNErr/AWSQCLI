@@ -3,220 +3,340 @@
     "_id": "math_1_medium_001",
     "content": "What is 8 + 7?",
     "type": "multiple_choice",
-    "options": ["14", "15", "16", "17"],
+    "options": [
+      "14",
+      "15",
+      "16",
+      "17"
+    ],
     "correctAnswer": "15",
     "subject": "math",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "8 + 7 = 15"
+    "explanation": "8 + 7 = 15",
+    "topic": "Addition"
   },
   {
     "_id": "math_1_medium_002",
     "content": "What is 10 - 4?",
     "type": "multiple_choice",
-    "options": ["5", "6", "7", "8"],
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
     "correctAnswer": "6",
     "subject": "math",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "10 - 4 = 6"
+    "explanation": "10 - 4 = 6",
+    "topic": "Subtraction"
   },
   {
     "_id": "math_1_medium_003",
     "content": "How many sides does a square have?",
     "type": "multiple_choice",
-    "options": ["3", "4", "5", "6"],
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
     "correctAnswer": "4",
     "subject": "math",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "A square has 4 sides"
+    "explanation": "A square has 4 sides",
+    "topic": "Counting"
   },
   {
     "_id": "math_1_medium_004",
     "content": "What is 6 + 5?",
     "type": "multiple_choice",
-    "options": ["10", "11", "12", "13"],
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
     "correctAnswer": "11",
     "subject": "math",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "6 + 5 = 11"
+    "explanation": "6 + 5 = 11",
+    "topic": "Addition"
   },
   {
     "_id": "math_1_medium_005",
     "content": "What is 9 - 3?",
     "type": "multiple_choice",
-    "options": ["5", "6", "7", "12"],
+    "options": [
+      "5",
+      "6",
+      "7",
+      "12"
+    ],
     "correctAnswer": "6",
     "subject": "math",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "9 - 3 = 6"
+    "explanation": "9 - 3 = 6",
+    "topic": "Subtraction"
   },
   {
     "_id": "math_1_medium_006",
     "content": "Count by 5s: 5, 10, ?",
     "type": "multiple_choice",
-    "options": ["11", "12", "15", "20"],
+    "options": [
+      "11",
+      "12",
+      "15",
+      "20"
+    ],
     "correctAnswer": "15",
     "subject": "math",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "Counting by 5s: 5, 10, 15"
+    "explanation": "Counting by 5s: 5, 10, 15",
+    "topic": "Counting"
   },
   {
     "_id": "math_1_medium_007",
     "content": "What is 7 + 6?",
     "type": "multiple_choice",
-    "options": ["12", "13", "14", "15"],
+    "options": [
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
     "correctAnswer": "13",
     "subject": "math",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "7 + 6 = 13"
+    "explanation": "7 + 6 = 13",
+    "topic": "Addition"
   },
   {
     "_id": "math_1_medium_008",
     "content": "What is 12 - 5?",
     "type": "multiple_choice",
-    "options": ["6", "7", "8", "17"],
+    "options": [
+      "6",
+      "7",
+      "8",
+      "17"
+    ],
     "correctAnswer": "7",
     "subject": "math",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "12 - 5 = 7"
+    "explanation": "12 - 5 = 7",
+    "topic": "Subtraction"
   },
   {
     "_id": "math_1_medium_009",
     "content": "How many corners does a rectangle have?",
     "type": "multiple_choice",
-    "options": ["2", "3", "4", "6"],
+    "options": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
     "correctAnswer": "4",
     "subject": "math",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "A rectangle has 4 corners"
+    "explanation": "A rectangle has 4 corners",
+    "topic": "Counting"
   },
   {
     "_id": "math_1_medium_010",
     "content": "What is 5 + 8?",
     "type": "multiple_choice",
-    "options": ["12", "13", "14", "15"],
+    "options": [
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
     "correctAnswer": "13",
     "subject": "math",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "5 + 8 = 13"
+    "explanation": "5 + 8 = 13",
+    "topic": "Addition"
   },
   {
     "_id": "math_1_medium_011",
     "content": "What is 11 - 6?",
     "type": "multiple_choice",
-    "options": ["4", "5", "6", "17"],
+    "options": [
+      "4",
+      "5",
+      "6",
+      "17"
+    ],
     "correctAnswer": "5",
     "subject": "math",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "11 - 6 = 5"
+    "explanation": "11 - 6 = 5",
+    "topic": "Subtraction"
   },
   {
     "_id": "math_1_medium_012",
     "content": "Count by 10s: 10, 20, ?",
     "type": "multiple_choice",
-    "options": ["21", "25", "30", "40"],
+    "options": [
+      "21",
+      "25",
+      "30",
+      "40"
+    ],
     "correctAnswer": "30",
     "subject": "math",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "Counting by 10s: 10, 20, 30"
+    "explanation": "Counting by 10s: 10, 20, 30",
+    "topic": "Counting"
   },
   {
     "_id": "math_1_medium_013",
     "content": "What is 4 + 9?",
     "type": "multiple_choice",
-    "options": ["12", "13", "14", "49"],
+    "options": [
+      "12",
+      "13",
+      "14",
+      "49"
+    ],
     "correctAnswer": "13",
     "subject": "math",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "4 + 9 = 13"
+    "explanation": "4 + 9 = 13",
+    "topic": "Addition"
   },
   {
     "_id": "math_1_medium_014",
     "content": "What is 14 - 7?",
     "type": "multiple_choice",
-    "options": ["6", "7", "8", "21"],
+    "options": [
+      "6",
+      "7",
+      "8",
+      "21"
+    ],
     "correctAnswer": "7",
     "subject": "math",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "14 - 7 = 7"
+    "explanation": "14 - 7 = 7",
+    "topic": "Subtraction"
   },
   {
     "_id": "math_1_medium_015",
     "content": "Which number is smallest: 8, 3, 12?",
     "type": "multiple_choice",
-    "options": ["8", "3", "12", "All same"],
+    "options": [
+      "8",
+      "3",
+      "12",
+      "All same"
+    ],
     "correctAnswer": "3",
     "subject": "math",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "3 is the smallest number"
+    "explanation": "3 is the smallest number",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_1_medium_016",
     "content": "What is 9 + 4?",
     "type": "multiple_choice",
-    "options": ["12", "13", "14", "94"],
+    "options": [
+      "12",
+      "13",
+      "14",
+      "94"
+    ],
     "correctAnswer": "13",
     "subject": "math",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "9 + 4 = 13"
+    "explanation": "9 + 4 = 13",
+    "topic": "Addition"
   },
   {
     "_id": "math_1_medium_017",
     "content": "What is 13 - 8?",
     "type": "multiple_choice",
-    "options": ["4", "5", "6", "21"],
+    "options": [
+      "4",
+      "5",
+      "6",
+      "21"
+    ],
     "correctAnswer": "5",
     "subject": "math",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "13 - 8 = 5"
+    "explanation": "13 - 8 = 5",
+    "topic": "Subtraction"
   },
   {
     "_id": "math_1_medium_018",
     "content": "How many days in a week?",
     "type": "multiple_choice",
-    "options": ["5", "6", "7", "8"],
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
     "correctAnswer": "7",
     "subject": "math",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "There are 7 days in a week"
+    "explanation": "There are 7 days in a week",
+    "topic": "Counting"
   },
   {
     "_id": "math_1_medium_019",
     "content": "What is 3 + 7?",
     "type": "multiple_choice",
-    "options": ["9", "10", "11", "37"],
+    "options": [
+      "9",
+      "10",
+      "11",
+      "37"
+    ],
     "correctAnswer": "10",
     "subject": "math",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "3 + 7 = 10"
+    "explanation": "3 + 7 = 10",
+    "topic": "Addition"
   },
   {
     "_id": "math_1_medium_020",
     "content": "What is 15 - 9?",
     "type": "multiple_choice",
-    "options": ["5", "6", "7", "24"],
+    "options": [
+      "5",
+      "6",
+      "7",
+      "24"
+    ],
     "correctAnswer": "6",
     "subject": "math",
     "grade": "1",
     "difficulty": "medium",
-    "explanation": "15 - 9 = 6"
+    "explanation": "15 - 9 = 6",
+    "topic": "Subtraction"
   }
 ]

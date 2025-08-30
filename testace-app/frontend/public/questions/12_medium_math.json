@@ -3,220 +3,340 @@
     "_id": "math_12_medium_001",
     "content": "Find the integral: ∫(2x + 3)dx",
     "type": "multiple_choice",
-    "options": ["x² + 3x + C", "2x² + 3x + C", "x² + 3x", "2x + 3"],
+    "options": [
+      "x² + 3x + C",
+      "2x² + 3x + C",
+      "x² + 3x",
+      "2x + 3"
+    ],
     "correctAnswer": "x² + 3x + C",
     "subject": "math",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "∫(2x + 3)dx = x² + 3x + C"
+    "explanation": "∫(2x + 3)dx = x² + 3x + C",
+    "topic": "Calculus - Integrals"
   },
   {
     "_id": "math_12_medium_002",
     "content": "Solve: e^x = 20 (round to 2 decimal places)",
     "type": "multiple_choice",
-    "options": ["x = 2.30", "x = 2.99", "x = 3.22", "x = 4.61"],
+    "options": [
+      "x = 2.30",
+      "x = 2.99",
+      "x = 3.22",
+      "x = 4.61"
+    ],
     "correctAnswer": "x = 2.99",
     "subject": "math",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "x = ln(20) ≈ 2.99"
+    "explanation": "x = ln(20) ≈ 2.99",
+    "topic": "Algebra"
   },
   {
     "_id": "math_12_medium_003",
     "content": "What is cos(π/3)?",
     "type": "multiple_choice",
-    "options": ["1/2", "√2/2", "√3/2", "1"],
+    "options": [
+      "1/2",
+      "√2/2",
+      "√3/2",
+      "1"
+    ],
     "correctAnswer": "1/2",
     "subject": "math",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "cos(π/3) = cos(60°) = 1/2"
+    "explanation": "cos(π/3) = cos(60°) = 1/2",
+    "topic": "Trigonometry"
   },
   {
     "_id": "math_12_medium_004",
     "content": "Find the domain of f(x) = √(x - 3)",
     "type": "multiple_choice",
-    "options": ["x ≥ 3", "x > 3", "x ≤ 3", "All real numbers"],
+    "options": [
+      "x ≥ 3",
+      "x > 3",
+      "x ≤ 3",
+      "All real numbers"
+    ],
     "correctAnswer": "x ≥ 3",
     "subject": "math",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "For square root to be defined, x - 3 ≥ 0, so x ≥ 3"
+    "explanation": "For square root to be defined, x - 3 ≥ 0, so x ≥ 3",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_12_medium_005",
     "content": "What is the period of y = sin(2x)?",
     "type": "multiple_choice",
-    "options": ["π/2", "π", "2π", "4π"],
+    "options": [
+      "π/2",
+      "π",
+      "2π",
+      "4π"
+    ],
     "correctAnswer": "π",
     "subject": "math",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "Period of sin(bx) is 2π/b, so period of sin(2x) is 2π/2 = π"
+    "explanation": "Period of sin(bx) is 2π/b, so period of sin(2x) is 2π/2 = π",
+    "topic": "Trigonometry"
   },
   {
     "_id": "math_12_medium_006",
     "content": "Find the derivative of f(x) = sin(x)",
     "type": "multiple_choice",
-    "options": ["cos(x)", "-cos(x)", "sin(x)", "-sin(x)"],
+    "options": [
+      "cos(x)",
+      "-cos(x)",
+      "sin(x)",
+      "-sin(x)"
+    ],
     "correctAnswer": "cos(x)",
     "subject": "math",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "The derivative of sin(x) is cos(x)"
+    "explanation": "The derivative of sin(x) is cos(x)",
+    "topic": "Trigonometry"
   },
   {
     "_id": "math_12_medium_007",
     "content": "Solve: ln(x) = 2",
     "type": "multiple_choice",
-    "options": ["x = 2", "x = e²", "x = 2e", "x = e/2"],
+    "options": [
+      "x = 2",
+      "x = e²",
+      "x = 2e",
+      "x = e/2"
+    ],
     "correctAnswer": "x = e²",
     "subject": "math",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "If ln(x) = 2, then x = e²"
+    "explanation": "If ln(x) = 2, then x = e²",
+    "topic": "Logarithms"
   },
   {
     "_id": "math_12_medium_008",
     "content": "What is sin(π/4)?",
     "type": "multiple_choice",
-    "options": ["1/2", "√2/2", "√3/2", "1"],
+    "options": [
+      "1/2",
+      "√2/2",
+      "√3/2",
+      "1"
+    ],
     "correctAnswer": "√2/2",
     "subject": "math",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "sin(π/4) = sin(45°) = √2/2"
+    "explanation": "sin(π/4) = sin(45°) = √2/2",
+    "topic": "Trigonometry"
   },
   {
     "_id": "math_12_medium_009",
     "content": "Find the integral: ∫x²dx",
     "type": "multiple_choice",
-    "options": ["x³/3 + C", "2x + C", "x³ + C", "3x² + C"],
+    "options": [
+      "x³/3 + C",
+      "2x + C",
+      "x³ + C",
+      "3x² + C"
+    ],
     "correctAnswer": "x³/3 + C",
     "subject": "math",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "∫x²dx = x³/3 + C"
+    "explanation": "∫x²dx = x³/3 + C",
+    "topic": "Calculus - Integrals"
   },
   {
     "_id": "math_12_medium_010",
     "content": "Find the derivative of f(x) = cos(x)",
     "type": "multiple_choice",
-    "options": ["sin(x)", "-sin(x)", "cos(x)", "-cos(x)"],
+    "options": [
+      "sin(x)",
+      "-sin(x)",
+      "cos(x)",
+      "-cos(x)"
+    ],
     "correctAnswer": "-sin(x)",
     "subject": "math",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "The derivative of cos(x) is -sin(x)"
+    "explanation": "The derivative of cos(x) is -sin(x)",
+    "topic": "Trigonometry"
   },
   {
     "_id": "math_12_medium_011",
     "content": "What is tan(π/6)?",
     "type": "multiple_choice",
-    "options": ["1/2", "√3/3", "√3", "1"],
+    "options": [
+      "1/2",
+      "√3/3",
+      "√3",
+      "1"
+    ],
     "correctAnswer": "√3/3",
     "subject": "math",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "tan(π/6) = tan(30°) = 1/√3 = √3/3"
+    "explanation": "tan(π/6) = tan(30°) = 1/√3 = √3/3",
+    "topic": "Trigonometry"
   },
   {
     "_id": "math_12_medium_012",
     "content": "Solve: 2^x = 32",
     "type": "multiple_choice",
-    "options": ["x = 4", "x = 5", "x = 6", "x = 16"],
+    "options": [
+      "x = 4",
+      "x = 5",
+      "x = 6",
+      "x = 16"
+    ],
     "correctAnswer": "x = 5",
     "subject": "math",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "2^x = 32 = 2⁵, so x = 5"
+    "explanation": "2^x = 32 = 2⁵, so x = 5",
+    "topic": "Algebra"
   },
   {
     "_id": "math_12_medium_013",
     "content": "Find the integral: ∫(3x² + 2x)dx",
     "type": "multiple_choice",
-    "options": ["x³ + x² + C", "3x³ + 2x² + C", "6x + 2 + C", "x³ + 2x² + C"],
+    "options": [
+      "x³ + x² + C",
+      "3x³ + 2x² + C",
+      "6x + 2 + C",
+      "x³ + 2x² + C"
+    ],
     "correctAnswer": "x³ + x² + C",
     "subject": "math",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "∫(3x² + 2x)dx = x³ + x² + C"
+    "explanation": "∫(3x² + 2x)dx = x³ + x² + C",
+    "topic": "Calculus - Integrals"
   },
   {
     "_id": "math_12_medium_014",
     "content": "What is the amplitude of y = 4sin(x)?",
     "type": "multiple_choice",
-    "options": ["1", "2", "4", "π"],
+    "options": [
+      "1",
+      "2",
+      "4",
+      "π"
+    ],
     "correctAnswer": "4",
     "subject": "math",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "The amplitude of y = A sin(x) is |A|, so amplitude = 4"
+    "explanation": "The amplitude of y = A sin(x) is |A|, so amplitude = 4",
+    "topic": "Trigonometry"
   },
   {
     "_id": "math_12_medium_015",
     "content": "Find the derivative of f(x) = e^x",
     "type": "multiple_choice",
-    "options": ["e^x", "xe^(x-1)", "1", "x"],
+    "options": [
+      "e^x",
+      "xe^(x-1)",
+      "1",
+      "x"
+    ],
     "correctAnswer": "e^x",
     "subject": "math",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "The derivative of e^x is e^x"
+    "explanation": "The derivative of e^x is e^x",
+    "topic": "Calculus - Derivatives"
   },
   {
     "_id": "math_12_medium_016",
     "content": "What is cos(π/4)?",
     "type": "multiple_choice",
-    "options": ["1/2", "√2/2", "√3/2", "1"],
+    "options": [
+      "1/2",
+      "√2/2",
+      "√3/2",
+      "1"
+    ],
     "correctAnswer": "√2/2",
     "subject": "math",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "cos(π/4) = cos(45°) = √2/2"
+    "explanation": "cos(π/4) = cos(45°) = √2/2",
+    "topic": "Trigonometry"
   },
   {
     "_id": "math_12_medium_017",
     "content": "Solve: log₃(x) = 4",
     "type": "multiple_choice",
-    "options": ["x = 12", "x = 64", "x = 81", "x = 7"],
+    "options": [
+      "x = 12",
+      "x = 64",
+      "x = 81",
+      "x = 7"
+    ],
     "correctAnswer": "x = 81",
     "subject": "math",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "If log₃(x) = 4, then x = 3⁴ = 81"
+    "explanation": "If log₃(x) = 4, then x = 3⁴ = 81",
+    "topic": "Logarithms"
   },
   {
     "_id": "math_12_medium_018",
     "content": "Find the integral: ∫(1/x)dx",
     "type": "multiple_choice",
-    "options": ["ln|x| + C", "1/x² + C", "x + C", "-1/x² + C"],
+    "options": [
+      "ln|x| + C",
+      "1/x² + C",
+      "x + C",
+      "-1/x² + C"
+    ],
     "correctAnswer": "ln|x| + C",
     "subject": "math",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "∫(1/x)dx = ln|x| + C"
+    "explanation": "∫(1/x)dx = ln|x| + C",
+    "topic": "Calculus - Integrals"
   },
   {
     "_id": "math_12_medium_019",
     "content": "What is sin(π/6)?",
     "type": "multiple_choice",
-    "options": ["1/2", "√2/2", "√3/2", "1"],
+    "options": [
+      "1/2",
+      "√2/2",
+      "√3/2",
+      "1"
+    ],
     "correctAnswer": "1/2",
     "subject": "math",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "sin(π/6) = sin(30°) = 1/2"
+    "explanation": "sin(π/6) = sin(30°) = 1/2",
+    "topic": "Trigonometry"
   },
   {
     "_id": "math_12_medium_020",
     "content": "Find the derivative of f(x) = ln(x)",
     "type": "multiple_choice",
-    "options": ["1/x", "ln(x)", "x", "1"],
+    "options": [
+      "1/x",
+      "ln(x)",
+      "x",
+      "1"
+    ],
     "correctAnswer": "1/x",
     "subject": "math",
     "grade": "12",
     "difficulty": "medium",
-    "explanation": "The derivative of ln(x) is 1/x"
+    "explanation": "The derivative of ln(x) is 1/x",
+    "topic": "Logarithms"
   }
 ]

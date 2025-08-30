@@ -3,220 +3,340 @@
     "_id": "math_9_easy_001",
     "content": "Solve: x - 12 = 8",
     "type": "multiple_choice",
-    "options": ["x = 4", "x = 20", "x = -4", "x = 96"],
+    "options": [
+      "x = 4",
+      "x = 20",
+      "x = -4",
+      "x = 96"
+    ],
     "correctAnswer": "x = 20",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "x = 8 + 12 = 20"
+    "explanation": "x = 8 + 12 = 20",
+    "topic": "Linear Equations"
   },
   {
     "_id": "math_9_easy_002",
     "content": "What is the y-intercept of y = x + 5?",
     "type": "multiple_choice",
-    "options": ["1", "5", "0", "x"],
+    "options": [
+      "1",
+      "5",
+      "0",
+      "x"
+    ],
     "correctAnswer": "5",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "In y = mx + b form, b is the y-intercept, so y-intercept = 5"
+    "explanation": "In y = mx + b form, b is the y-intercept, so y-intercept = 5",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_9_easy_003",
     "content": "Simplify: 2x + 3x",
     "type": "multiple_choice",
-    "options": ["5x", "6x", "5x²", "2x + 3x"],
+    "options": [
+      "5x",
+      "6x",
+      "5x²",
+      "2x + 3x"
+    ],
     "correctAnswer": "5x",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "2x + 3x = (2 + 3)x = 5x"
+    "explanation": "2x + 3x = (2 + 3)x = 5x",
+    "topic": "Algebra"
   },
   {
     "_id": "math_9_easy_004",
     "content": "Solve: 3x = 24",
     "type": "multiple_choice",
-    "options": ["x = 6", "x = 7", "x = 8", "x = 72"],
+    "options": [
+      "x = 6",
+      "x = 7",
+      "x = 8",
+      "x = 72"
+    ],
     "correctAnswer": "x = 8",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "x = 24 ÷ 3 = 8"
+    "explanation": "x = 24 ÷ 3 = 8",
+    "topic": "Linear Equations"
   },
   {
     "_id": "math_9_easy_005",
     "content": "What is the slope of y = 2x - 4?",
     "type": "multiple_choice",
-    "options": ["2", "-4", "4", "-2"],
+    "options": [
+      "2",
+      "-4",
+      "4",
+      "-2"
+    ],
     "correctAnswer": "2",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "In y = mx + b form, m is the slope, so slope = 2"
+    "explanation": "In y = mx + b form, m is the slope, so slope = 2",
+    "topic": "Coordinate Geometry"
   },
   {
     "_id": "math_9_easy_006",
     "content": "Simplify: 7x - 4x",
     "type": "multiple_choice",
-    "options": ["3x", "11x", "28x", "74x"],
+    "options": [
+      "3x",
+      "11x",
+      "28x",
+      "74x"
+    ],
     "correctAnswer": "3x",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "7x - 4x = (7 - 4)x = 3x"
+    "explanation": "7x - 4x = (7 - 4)x = 3x",
+    "topic": "Algebra"
   },
   {
     "_id": "math_9_easy_007",
     "content": "Solve: x + 15 = 28",
     "type": "multiple_choice",
-    "options": ["x = 13", "x = 43", "x = 15", "x = 28"],
+    "options": [
+      "x = 13",
+      "x = 43",
+      "x = 15",
+      "x = 28"
+    ],
     "correctAnswer": "x = 13",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "x = 28 - 15 = 13"
+    "explanation": "x = 28 - 15 = 13",
+    "topic": "Linear Equations"
   },
   {
     "_id": "math_9_easy_008",
     "content": "What is the y-intercept of y = -2x + 7?",
     "type": "multiple_choice",
-    "options": ["-2", "2", "7", "-7"],
+    "options": [
+      "-2",
+      "2",
+      "7",
+      "-7"
+    ],
     "correctAnswer": "7",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "In y = mx + b form, b is the y-intercept, so y-intercept = 7"
+    "explanation": "In y = mx + b form, b is the y-intercept, so y-intercept = 7",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_9_easy_009",
     "content": "Simplify: 6x + 2x",
     "type": "multiple_choice",
-    "options": ["8x", "12x", "6x²", "62x"],
+    "options": [
+      "8x",
+      "12x",
+      "6x²",
+      "62x"
+    ],
     "correctAnswer": "8x",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "6x + 2x = (6 + 2)x = 8x"
+    "explanation": "6x + 2x = (6 + 2)x = 8x",
+    "topic": "Algebra"
   },
   {
     "_id": "math_9_easy_010",
     "content": "Solve: 4x = 32",
     "type": "multiple_choice",
-    "options": ["x = 6", "x = 7", "x = 8", "x = 128"],
+    "options": [
+      "x = 6",
+      "x = 7",
+      "x = 8",
+      "x = 128"
+    ],
     "correctAnswer": "x = 8",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "x = 32 ÷ 4 = 8"
+    "explanation": "x = 32 ÷ 4 = 8",
+    "topic": "Linear Equations"
   },
   {
     "_id": "math_9_easy_011",
     "content": "What is the slope of y = -3x + 1?",
     "type": "multiple_choice",
-    "options": ["-3", "3", "1", "-1"],
+    "options": [
+      "-3",
+      "3",
+      "1",
+      "-1"
+    ],
     "correctAnswer": "-3",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "In y = mx + b form, m is the slope, so slope = -3"
+    "explanation": "In y = mx + b form, m is the slope, so slope = -3",
+    "topic": "Coordinate Geometry"
   },
   {
     "_id": "math_9_easy_012",
     "content": "Simplify: 9x - 6x",
     "type": "multiple_choice",
-    "options": ["3x", "15x", "54x", "96x"],
+    "options": [
+      "3x",
+      "15x",
+      "54x",
+      "96x"
+    ],
     "correctAnswer": "3x",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "9x - 6x = (9 - 6)x = 3x"
+    "explanation": "9x - 6x = (9 - 6)x = 3x",
+    "topic": "Algebra"
   },
   {
     "_id": "math_9_easy_013",
     "content": "Solve: x - 18 = 5",
     "type": "multiple_choice",
-    "options": ["x = 13", "x = 23", "x = 90", "x = 18"],
+    "options": [
+      "x = 13",
+      "x = 23",
+      "x = 90",
+      "x = 18"
+    ],
     "correctAnswer": "x = 23",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "x = 5 + 18 = 23"
+    "explanation": "x = 5 + 18 = 23",
+    "topic": "Linear Equations"
   },
   {
     "_id": "math_9_easy_014",
     "content": "What is the y-intercept of y = 4x - 9?",
     "type": "multiple_choice",
-    "options": ["4", "-9", "9", "-4"],
+    "options": [
+      "4",
+      "-9",
+      "9",
+      "-4"
+    ],
     "correctAnswer": "-9",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "In y = mx + b form, b is the y-intercept, so y-intercept = -9"
+    "explanation": "In y = mx + b form, b is the y-intercept, so y-intercept = -9",
+    "topic": "Mathematics"
   },
   {
     "_id": "math_9_easy_015",
     "content": "Simplify: 5x + 7x",
     "type": "multiple_choice",
-    "options": ["12x", "35x", "5x²", "57x"],
+    "options": [
+      "12x",
+      "35x",
+      "5x²",
+      "57x"
+    ],
     "correctAnswer": "12x",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "5x + 7x = (5 + 7)x = 12x"
+    "explanation": "5x + 7x = (5 + 7)x = 12x",
+    "topic": "Algebra"
   },
   {
     "_id": "math_9_easy_016",
     "content": "Solve: 5x = 40",
     "type": "multiple_choice",
-    "options": ["x = 6", "x = 7", "x = 8", "x = 200"],
+    "options": [
+      "x = 6",
+      "x = 7",
+      "x = 8",
+      "x = 200"
+    ],
     "correctAnswer": "x = 8",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "x = 40 ÷ 5 = 8"
+    "explanation": "x = 40 ÷ 5 = 8",
+    "topic": "Linear Equations"
   },
   {
     "_id": "math_9_easy_017",
     "content": "What is the slope of y = x - 6?",
     "type": "multiple_choice",
-    "options": ["1", "-6", "6", "-1"],
+    "options": [
+      "1",
+      "-6",
+      "6",
+      "-1"
+    ],
     "correctAnswer": "1",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "In y = mx + b form, m is the slope, so slope = 1"
+    "explanation": "In y = mx + b form, m is the slope, so slope = 1",
+    "topic": "Coordinate Geometry"
   },
   {
     "_id": "math_9_easy_018",
     "content": "Simplify: 8x - 3x",
     "type": "multiple_choice",
-    "options": ["5x", "11x", "24x", "83x"],
+    "options": [
+      "5x",
+      "11x",
+      "24x",
+      "83x"
+    ],
     "correctAnswer": "5x",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "8x - 3x = (8 - 3)x = 5x"
+    "explanation": "8x - 3x = (8 - 3)x = 5x",
+    "topic": "Algebra"
   },
   {
     "_id": "math_9_easy_019",
     "content": "Solve: x + 22 = 35",
     "type": "multiple_choice",
-    "options": ["x = 13", "x = 57", "x = 22", "x = 35"],
+    "options": [
+      "x = 13",
+      "x = 57",
+      "x = 22",
+      "x = 35"
+    ],
     "correctAnswer": "x = 13",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "x = 35 - 22 = 13"
+    "explanation": "x = 35 - 22 = 13",
+    "topic": "Linear Equations"
   },
   {
     "_id": "math_9_easy_020",
     "content": "What is the y-intercept of y = -x + 3?",
     "type": "multiple_choice",
-    "options": ["-1", "1", "3", "-3"],
+    "options": [
+      "-1",
+      "1",
+      "3",
+      "-3"
+    ],
     "correctAnswer": "3",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "In y = mx + b form, b is the y-intercept, so y-intercept = 3"
+    "explanation": "In y = mx + b form, b is the y-intercept, so y-intercept = 3",
+    "topic": "Mathematics"
   }
 ]

@@ -3,220 +3,340 @@
     "_id": "math_2_hard_001",
     "content": "What is 47 + 36?",
     "type": "multiple_choice",
-    "options": ["81", "82", "83", "84"],
+    "options": [
+      "81",
+      "82",
+      "83",
+      "84"
+    ],
     "correctAnswer": "83",
     "subject": "math",
     "grade": "2",
     "difficulty": "hard",
-    "explanation": "47 + 36 = 83"
+    "explanation": "47 + 36 = 83",
+    "topic": "Addition"
   },
   {
     "_id": "math_2_hard_002",
     "content": "What is 72 - 28?",
     "type": "multiple_choice",
-    "options": ["42", "43", "44", "45"],
+    "options": [
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
     "correctAnswer": "44",
     "subject": "math",
     "grade": "2",
     "difficulty": "hard",
-    "explanation": "72 - 28 = 44"
+    "explanation": "72 - 28 = 44",
+    "topic": "Subtraction"
   },
   {
     "_id": "math_2_hard_003",
     "content": "How many groups of 3 are in 15?",
     "type": "multiple_choice",
-    "options": ["4", "5", "6", "7"],
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
     "correctAnswer": "5",
     "subject": "math",
     "grade": "2",
     "difficulty": "hard",
-    "explanation": "15 ÷ 3 = 5 groups"
+    "explanation": "15 ÷ 3 = 5 groups",
+    "topic": "Counting"
   },
   {
     "_id": "math_2_hard_004",
     "content": "What is 58 + 27?",
     "type": "multiple_choice",
-    "options": ["83", "84", "85", "86"],
+    "options": [
+      "83",
+      "84",
+      "85",
+      "86"
+    ],
     "correctAnswer": "85",
     "subject": "math",
     "grade": "2",
     "difficulty": "hard",
-    "explanation": "58 + 27 = 85"
+    "explanation": "58 + 27 = 85",
+    "topic": "Addition"
   },
   {
     "_id": "math_2_hard_005",
     "content": "What is 81 - 39?",
     "type": "multiple_choice",
-    "options": ["40", "41", "42", "120"],
+    "options": [
+      "40",
+      "41",
+      "42",
+      "120"
+    ],
     "correctAnswer": "42",
     "subject": "math",
     "grade": "2",
     "difficulty": "hard",
-    "explanation": "81 - 39 = 42"
+    "explanation": "81 - 39 = 42",
+    "topic": "Subtraction"
   },
   {
     "_id": "math_2_hard_006",
     "content": "What is 6 × 7?",
     "type": "multiple_choice",
-    "options": ["40", "41", "42", "67"],
+    "options": [
+      "40",
+      "41",
+      "42",
+      "67"
+    ],
     "correctAnswer": "42",
     "subject": "math",
     "grade": "2",
     "difficulty": "hard",
-    "explanation": "6 × 7 = 42"
+    "explanation": "6 × 7 = 42",
+    "topic": "Multiplication"
   },
   {
     "_id": "math_2_hard_007",
     "content": "How many groups of 4 are in 20?",
     "type": "multiple_choice",
-    "options": ["4", "5", "6", "24"],
+    "options": [
+      "4",
+      "5",
+      "6",
+      "24"
+    ],
     "correctAnswer": "5",
     "subject": "math",
     "grade": "2",
     "difficulty": "hard",
-    "explanation": "20 ÷ 4 = 5 groups"
+    "explanation": "20 ÷ 4 = 5 groups",
+    "topic": "Counting"
   },
   {
     "_id": "math_2_hard_008",
     "content": "What is 64 + 18?",
     "type": "multiple_choice",
-    "options": ["80", "81", "82", "83"],
+    "options": [
+      "80",
+      "81",
+      "82",
+      "83"
+    ],
     "correctAnswer": "82",
     "subject": "math",
     "grade": "2",
     "difficulty": "hard",
-    "explanation": "64 + 18 = 82"
+    "explanation": "64 + 18 = 82",
+    "topic": "Addition"
   },
   {
     "_id": "math_2_hard_009",
     "content": "What is 90 - 47?",
     "type": "multiple_choice",
-    "options": ["41", "42", "43", "137"],
+    "options": [
+      "41",
+      "42",
+      "43",
+      "137"
+    ],
     "correctAnswer": "43",
     "subject": "math",
     "grade": "2",
     "difficulty": "hard",
-    "explanation": "90 - 47 = 43"
+    "explanation": "90 - 47 = 43",
+    "topic": "Subtraction"
   },
   {
     "_id": "math_2_hard_010",
     "content": "What is 8 × 6?",
     "type": "multiple_choice",
-    "options": ["46", "47", "48", "86"],
+    "options": [
+      "46",
+      "47",
+      "48",
+      "86"
+    ],
     "correctAnswer": "48",
     "subject": "math",
     "grade": "2",
     "difficulty": "hard",
-    "explanation": "8 × 6 = 48"
+    "explanation": "8 × 6 = 48",
+    "topic": "Multiplication"
   },
   {
     "_id": "math_2_hard_011",
     "content": "How many groups of 5 are in 25?",
     "type": "multiple_choice",
-    "options": ["4", "5", "6", "30"],
+    "options": [
+      "4",
+      "5",
+      "6",
+      "30"
+    ],
     "correctAnswer": "5",
     "subject": "math",
     "grade": "2",
     "difficulty": "hard",
-    "explanation": "25 ÷ 5 = 5 groups"
+    "explanation": "25 ÷ 5 = 5 groups",
+    "topic": "Counting"
   },
   {
     "_id": "math_2_hard_012",
     "content": "What is 39 + 45?",
     "type": "multiple_choice",
-    "options": ["82", "83", "84", "85"],
+    "options": [
+      "82",
+      "83",
+      "84",
+      "85"
+    ],
     "correctAnswer": "84",
     "subject": "math",
     "grade": "2",
     "difficulty": "hard",
-    "explanation": "39 + 45 = 84"
+    "explanation": "39 + 45 = 84",
+    "topic": "Addition"
   },
   {
     "_id": "math_2_hard_013",
     "content": "What is 76 - 29?",
     "type": "multiple_choice",
-    "options": ["45", "46", "47", "105"],
+    "options": [
+      "45",
+      "46",
+      "47",
+      "105"
+    ],
     "correctAnswer": "47",
     "subject": "math",
     "grade": "2",
     "difficulty": "hard",
-    "explanation": "76 - 29 = 47"
+    "explanation": "76 - 29 = 47",
+    "topic": "Subtraction"
   },
   {
     "_id": "math_2_hard_014",
     "content": "What is 7 × 8?",
     "type": "multiple_choice",
-    "options": ["54", "55", "56", "78"],
+    "options": [
+      "54",
+      "55",
+      "56",
+      "78"
+    ],
     "correctAnswer": "56",
     "subject": "math",
     "grade": "2",
     "difficulty": "hard",
-    "explanation": "7 × 8 = 56"
+    "explanation": "7 × 8 = 56",
+    "topic": "Multiplication"
   },
   {
     "_id": "math_2_hard_015",
     "content": "How many groups of 6 are in 30?",
     "type": "multiple_choice",
-    "options": ["4", "5", "6", "36"],
+    "options": [
+      "4",
+      "5",
+      "6",
+      "36"
+    ],
     "correctAnswer": "5",
     "subject": "math",
     "grade": "2",
     "difficulty": "hard",
-    "explanation": "30 ÷ 6 = 5 groups"
+    "explanation": "30 ÷ 6 = 5 groups",
+    "topic": "Counting"
   },
   {
     "_id": "math_2_hard_016",
     "content": "What is 53 + 38?",
     "type": "multiple_choice",
-    "options": ["89", "90", "91", "92"],
+    "options": [
+      "89",
+      "90",
+      "91",
+      "92"
+    ],
     "correctAnswer": "91",
     "subject": "math",
     "grade": "2",
     "difficulty": "hard",
-    "explanation": "53 + 38 = 91"
+    "explanation": "53 + 38 = 91",
+    "topic": "Addition"
   },
   {
     "_id": "math_2_hard_017",
     "content": "What is 85 - 37?",
     "type": "multiple_choice",
-    "options": ["46", "47", "48", "122"],
+    "options": [
+      "46",
+      "47",
+      "48",
+      "122"
+    ],
     "correctAnswer": "48",
     "subject": "math",
     "grade": "2",
     "difficulty": "hard",
-    "explanation": "85 - 37 = 48"
+    "explanation": "85 - 37 = 48",
+    "topic": "Subtraction"
   },
   {
     "_id": "math_2_hard_018",
     "content": "What is 9 × 5?",
     "type": "multiple_choice",
-    "options": ["43", "44", "45", "95"],
+    "options": [
+      "43",
+      "44",
+      "45",
+      "95"
+    ],
     "correctAnswer": "45",
     "subject": "math",
     "grade": "2",
     "difficulty": "hard",
-    "explanation": "9 × 5 = 45"
+    "explanation": "9 × 5 = 45",
+    "topic": "Multiplication"
   },
   {
     "_id": "math_2_hard_019",
     "content": "How many groups of 7 are in 35?",
     "type": "multiple_choice",
-    "options": ["4", "5", "6", "42"],
+    "options": [
+      "4",
+      "5",
+      "6",
+      "42"
+    ],
     "correctAnswer": "5",
     "subject": "math",
     "grade": "2",
     "difficulty": "hard",
-    "explanation": "35 ÷ 7 = 5 groups"
+    "explanation": "35 ÷ 7 = 5 groups",
+    "topic": "Counting"
   },
   {
     "_id": "math_2_hard_020",
     "content": "What is 67 + 24?",
     "type": "multiple_choice",
-    "options": ["89", "90", "91", "92"],
+    "options": [
+      "89",
+      "90",
+      "91",
+      "92"
+    ],
     "correctAnswer": "91",
     "subject": "math",
     "grade": "2",
     "difficulty": "hard",
-    "explanation": "67 + 24 = 91"
+    "explanation": "67 + 24 = 91",
+    "topic": "Addition"
   }
 ]

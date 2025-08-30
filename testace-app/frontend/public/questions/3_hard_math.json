@@ -3,220 +3,340 @@
     "_id": "math_3_hard_001",
     "content": "What is 156 + 247?",
     "type": "multiple_choice",
-    "options": ["403", "413", "423", "433"],
+    "options": [
+      "403",
+      "413",
+      "423",
+      "433"
+    ],
     "correctAnswer": "403",
     "subject": "math",
     "grade": "3",
     "difficulty": "hard",
-    "explanation": "156 + 247 = 403"
+    "explanation": "156 + 247 = 403",
+    "topic": "Addition"
   },
   {
     "_id": "math_3_hard_002",
     "content": "What is 9 × 7?",
     "type": "multiple_choice",
-    "options": ["61", "62", "63", "64"],
+    "options": [
+      "61",
+      "62",
+      "63",
+      "64"
+    ],
     "correctAnswer": "63",
     "subject": "math",
     "grade": "3",
     "difficulty": "hard",
-    "explanation": "9 × 7 = 63"
+    "explanation": "9 × 7 = 63",
+    "topic": "Multiplication"
   },
   {
     "_id": "math_3_hard_003",
     "content": "What fraction of this circle is shaded if 3 out of 8 parts are colored?",
     "type": "multiple_choice",
-    "options": ["3/5", "3/8", "5/8", "8/3"],
+    "options": [
+      "3/5",
+      "3/8",
+      "5/8",
+      "8/3"
+    ],
     "correctAnswer": "3/8",
     "subject": "math",
     "grade": "3",
     "difficulty": "hard",
-    "explanation": "3 out of 8 parts = 3/8"
+    "explanation": "3 out of 8 parts = 3/8",
+    "topic": "Fractions"
   },
   {
     "_id": "math_3_hard_004",
     "content": "What is 284 - 167?",
     "type": "multiple_choice",
-    "options": ["115", "116", "117", "451"],
+    "options": [
+      "115",
+      "116",
+      "117",
+      "451"
+    ],
     "correctAnswer": "117",
     "subject": "math",
     "grade": "3",
     "difficulty": "hard",
-    "explanation": "284 - 167 = 117"
+    "explanation": "284 - 167 = 117",
+    "topic": "Subtraction"
   },
   {
     "_id": "math_3_hard_005",
     "content": "What is 12 × 8?",
     "type": "multiple_choice",
-    "options": ["94", "95", "96", "128"],
+    "options": [
+      "94",
+      "95",
+      "96",
+      "128"
+    ],
     "correctAnswer": "96",
     "subject": "math",
     "grade": "3",
     "difficulty": "hard",
-    "explanation": "12 × 8 = 96"
+    "explanation": "12 × 8 = 96",
+    "topic": "Multiplication"
   },
   {
     "_id": "math_3_hard_006",
     "content": "What is 108 ÷ 12?",
     "type": "multiple_choice",
-    "options": ["8", "9", "10", "120"],
+    "options": [
+      "8",
+      "9",
+      "10",
+      "120"
+    ],
     "correctAnswer": "9",
     "subject": "math",
     "grade": "3",
     "difficulty": "hard",
-    "explanation": "108 ÷ 12 = 9"
+    "explanation": "108 ÷ 12 = 9",
+    "topic": "Division"
   },
   {
     "_id": "math_3_hard_007",
     "content": "What is 379 + 186?",
     "type": "multiple_choice",
-    "options": ["563", "564", "565", "566"],
+    "options": [
+      "563",
+      "564",
+      "565",
+      "566"
+    ],
     "correctAnswer": "565",
     "subject": "math",
     "grade": "3",
     "difficulty": "hard",
-    "explanation": "379 + 186 = 565"
+    "explanation": "379 + 186 = 565",
+    "topic": "Addition"
   },
   {
     "_id": "math_3_hard_008",
     "content": "What is the area of a rectangle with length 9 cm and width 6 cm?",
     "type": "multiple_choice",
-    "options": ["30 cm²", "54 cm²", "15 cm²", "96 cm²"],
+    "options": [
+      "30 cm²",
+      "54 cm²",
+      "15 cm²",
+      "96 cm²"
+    ],
     "correctAnswer": "54 cm²",
     "subject": "math",
     "grade": "3",
     "difficulty": "hard",
-    "explanation": "Area = length × width = 9 × 6 = 54 cm²"
+    "explanation": "Area = length × width = 9 × 6 = 54 cm²",
+    "topic": "Geometry - Area"
   },
   {
     "_id": "math_3_hard_009",
     "content": "What is 425 - 238?",
     "type": "multiple_choice",
-    "options": ["185", "186", "187", "663"],
+    "options": [
+      "185",
+      "186",
+      "187",
+      "663"
+    ],
     "correctAnswer": "187",
     "subject": "math",
     "grade": "3",
     "difficulty": "hard",
-    "explanation": "425 - 238 = 187"
+    "explanation": "425 - 238 = 187",
+    "topic": "Subtraction"
   },
   {
     "_id": "math_3_hard_010",
     "content": "What is 11 × 9?",
     "type": "multiple_choice",
-    "options": ["97", "98", "99", "119"],
+    "options": [
+      "97",
+      "98",
+      "99",
+      "119"
+    ],
     "correctAnswer": "99",
     "subject": "math",
     "grade": "3",
     "difficulty": "hard",
-    "explanation": "11 × 9 = 99"
+    "explanation": "11 × 9 = 99",
+    "topic": "Multiplication"
   },
   {
     "_id": "math_3_hard_011",
     "content": "What is 144 ÷ 16?",
     "type": "multiple_choice",
-    "options": ["8", "9", "10", "160"],
+    "options": [
+      "8",
+      "9",
+      "10",
+      "160"
+    ],
     "correctAnswer": "9",
     "subject": "math",
     "grade": "3",
     "difficulty": "hard",
-    "explanation": "144 ÷ 16 = 9"
+    "explanation": "144 ÷ 16 = 9",
+    "topic": "Division"
   },
   {
     "_id": "math_3_hard_012",
     "content": "How many seconds in 3 minutes?",
     "type": "multiple_choice",
-    "options": ["120", "150", "180", "300"],
+    "options": [
+      "120",
+      "150",
+      "180",
+      "300"
+    ],
     "correctAnswer": "180",
     "subject": "math",
     "grade": "3",
     "difficulty": "hard",
-    "explanation": "3 minutes = 3 × 60 = 180 seconds"
+    "explanation": "3 minutes = 3 × 60 = 180 seconds",
+    "topic": "Counting"
   },
   {
     "_id": "math_3_hard_013",
     "content": "What is 267 + 195?",
     "type": "multiple_choice",
-    "options": ["460", "461", "462", "463"],
+    "options": [
+      "460",
+      "461",
+      "462",
+      "463"
+    ],
     "correctAnswer": "462",
     "subject": "math",
     "grade": "3",
     "difficulty": "hard",
-    "explanation": "267 + 195 = 462"
+    "explanation": "267 + 195 = 462",
+    "topic": "Addition"
   },
   {
     "_id": "math_3_hard_014",
     "content": "What is 8 × 12?",
     "type": "multiple_choice",
-    "options": ["94", "95", "96", "812"],
+    "options": [
+      "94",
+      "95",
+      "96",
+      "812"
+    ],
     "correctAnswer": "96",
     "subject": "math",
     "grade": "3",
     "difficulty": "hard",
-    "explanation": "8 × 12 = 96"
+    "explanation": "8 × 12 = 96",
+    "topic": "Multiplication"
   },
   {
     "_id": "math_3_hard_015",
     "content": "What is 516 - 279?",
     "type": "multiple_choice",
-    "options": ["235", "236", "237", "795"],
+    "options": [
+      "235",
+      "236",
+      "237",
+      "795"
+    ],
     "correctAnswer": "237",
     "subject": "math",
     "grade": "3",
     "difficulty": "hard",
-    "explanation": "516 - 279 = 237"
+    "explanation": "516 - 279 = 237",
+    "topic": "Subtraction"
   },
   {
     "_id": "math_3_hard_016",
     "content": "What is 132 ÷ 11?",
     "type": "multiple_choice",
-    "options": ["11", "12", "13", "143"],
+    "options": [
+      "11",
+      "12",
+      "13",
+      "143"
+    ],
     "correctAnswer": "12",
     "subject": "math",
     "grade": "3",
     "difficulty": "hard",
-    "explanation": "132 ÷ 11 = 12"
+    "explanation": "132 ÷ 11 = 12",
+    "topic": "Division"
   },
   {
     "_id": "math_3_hard_017",
     "content": "What is the perimeter of a square with side 8 cm?",
     "type": "multiple_choice",
-    "options": ["24 cm", "32 cm", "64 cm", "16 cm"],
+    "options": [
+      "24 cm",
+      "32 cm",
+      "64 cm",
+      "16 cm"
+    ],
     "correctAnswer": "32 cm",
     "subject": "math",
     "grade": "3",
     "difficulty": "hard",
-    "explanation": "Perimeter = 4 × side = 4 × 8 = 32 cm"
+    "explanation": "Perimeter = 4 × side = 4 × 8 = 32 cm",
+    "topic": "Shapes"
   },
   {
     "_id": "math_3_hard_018",
     "content": "What is 348 + 257?",
     "type": "multiple_choice",
-    "options": ["603", "604", "605", "606"],
+    "options": [
+      "603",
+      "604",
+      "605",
+      "606"
+    ],
     "correctAnswer": "605",
     "subject": "math",
     "grade": "3",
     "difficulty": "hard",
-    "explanation": "348 + 257 = 605"
+    "explanation": "348 + 257 = 605",
+    "topic": "Addition"
   },
   {
     "_id": "math_3_hard_019",
     "content": "What is 10 × 11?",
     "type": "multiple_choice",
-    "options": ["101", "110", "111", "1011"],
+    "options": [
+      "101",
+      "110",
+      "111",
+      "1011"
+    ],
     "correctAnswer": "110",
     "subject": "math",
     "grade": "3",
     "difficulty": "hard",
-    "explanation": "10 × 11 = 110"
+    "explanation": "10 × 11 = 110",
+    "topic": "Multiplication"
   },
   {
     "_id": "math_3_hard_020",
     "content": "What is 672 - 385?",
     "type": "multiple_choice",
-    "options": ["285", "286", "287", "1057"],
+    "options": [
+      "285",
+      "286",
+      "287",
+      "1057"
+    ],
     "correctAnswer": "287",
     "subject": "math",
     "grade": "3",
     "difficulty": "hard",
-    "explanation": "672 - 385 = 287"
+    "explanation": "672 - 385 = 287",
+    "topic": "Subtraction"
   }
 ]

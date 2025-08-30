@@ -3,220 +3,340 @@
     "_id": "math_6_medium_001",
     "content": "What is 3/4 + 1/8?",
     "type": "multiple_choice",
-    "options": ["4/12", "7/8", "4/8", "5/8"],
+    "options": [
+      "4/12",
+      "7/8",
+      "4/8",
+      "5/8"
+    ],
     "correctAnswer": "7/8",
     "subject": "math",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "3/4 = 6/8, so 6/8 + 1/8 = 7/8"
+    "explanation": "3/4 = 6/8, so 6/8 + 1/8 = 7/8",
+    "topic": "Fractions"
   },
   {
     "_id": "math_6_medium_002",
     "content": "Find the area of a triangle with base 8 cm and height 6 cm",
     "type": "multiple_choice",
-    "options": ["24 cm²", "28 cm²", "48 cm²", "14 cm²"],
+    "options": [
+      "24 cm²",
+      "28 cm²",
+      "48 cm²",
+      "14 cm²"
+    ],
     "correctAnswer": "24 cm²",
     "subject": "math",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "Area = (1/2) × base × height = (1/2) × 8 × 6 = 24 cm²"
+    "explanation": "Area = (1/2) × base × height = (1/2) × 8 × 6 = 24 cm²",
+    "topic": "Geometry - Area"
   },
   {
     "_id": "math_6_medium_003",
     "content": "What is 15% of 200?",
     "type": "multiple_choice",
-    "options": ["25", "30", "35", "40"],
+    "options": [
+      "25",
+      "30",
+      "35",
+      "40"
+    ],
     "correctAnswer": "30",
     "subject": "math",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "15% of 200 = 0.15 × 200 = 30"
+    "explanation": "15% of 200 = 0.15 × 200 = 30",
+    "topic": "Percentages"
   },
   {
     "_id": "math_6_medium_004",
     "content": "Solve: x + 12 = 25",
     "type": "multiple_choice",
-    "options": ["x = 13", "x = 37", "x = 12", "x = 25"],
+    "options": [
+      "x = 13",
+      "x = 37",
+      "x = 12",
+      "x = 25"
+    ],
     "correctAnswer": "x = 13",
     "subject": "math",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "x = 25 - 12 = 13"
+    "explanation": "x = 25 - 12 = 13",
+    "topic": "Linear Equations"
   },
   {
     "_id": "math_6_medium_005",
     "content": "What is the median of: 5, 8, 12, 15, 20?",
     "type": "multiple_choice",
-    "options": ["8", "10", "12", "15"],
+    "options": [
+      "8",
+      "10",
+      "12",
+      "15"
+    ],
     "correctAnswer": "12",
     "subject": "math",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "The median is the middle value when arranged in order: 12"
+    "explanation": "The median is the middle value when arranged in order: 12",
+    "topic": "Statistics"
   },
   {
     "_id": "math_6_medium_006",
     "content": "What is 2/3 - 1/6?",
     "type": "multiple_choice",
-    "options": ["1/2", "1/3", "1/6", "2/9"],
+    "options": [
+      "1/2",
+      "1/3",
+      "1/6",
+      "2/9"
+    ],
     "correctAnswer": "1/2",
     "subject": "math",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "2/3 = 4/6, so 4/6 - 1/6 = 3/6 = 1/2"
+    "explanation": "2/3 = 4/6, so 4/6 - 1/6 = 3/6 = 1/2",
+    "topic": "Fractions"
   },
   {
     "_id": "math_6_medium_007",
     "content": "Find the circumference of a circle with radius 4 cm (use π = 3.14)",
     "type": "multiple_choice",
-    "options": ["12.56 cm", "25.12 cm", "50.24 cm", "6.28 cm"],
+    "options": [
+      "12.56 cm",
+      "25.12 cm",
+      "50.24 cm",
+      "6.28 cm"
+    ],
     "correctAnswer": "25.12 cm",
     "subject": "math",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "Circumference = 2πr = 2 × 3.14 × 4 = 25.12 cm"
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 4 = 25.12 cm",
+    "topic": "Decimals"
   },
   {
     "_id": "math_6_medium_008",
     "content": "What is 25% of 80?",
     "type": "multiple_choice",
-    "options": ["15", "20", "25", "30"],
+    "options": [
+      "15",
+      "20",
+      "25",
+      "30"
+    ],
     "correctAnswer": "20",
     "subject": "math",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "25% of 80 = 0.25 × 80 = 20"
+    "explanation": "25% of 80 = 0.25 × 80 = 20",
+    "topic": "Percentages"
   },
   {
     "_id": "math_6_medium_009",
     "content": "Solve: 3x = 21",
     "type": "multiple_choice",
-    "options": ["x = 6", "x = 7", "x = 18", "x = 24"],
+    "options": [
+      "x = 6",
+      "x = 7",
+      "x = 18",
+      "x = 24"
+    ],
     "correctAnswer": "x = 7",
     "subject": "math",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "x = 21 ÷ 3 = 7"
+    "explanation": "x = 21 ÷ 3 = 7",
+    "topic": "Linear Equations"
   },
   {
     "_id": "math_6_medium_010",
     "content": "What is the range of: 3, 7, 12, 18, 25?",
     "type": "multiple_choice",
-    "options": ["20", "22", "25", "28"],
+    "options": [
+      "20",
+      "22",
+      "25",
+      "28"
+    ],
     "correctAnswer": "22",
     "subject": "math",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "Range = highest - lowest = 25 - 3 = 22"
+    "explanation": "Range = highest - lowest = 25 - 3 = 22",
+    "topic": "Statistics"
   },
   {
     "_id": "math_6_medium_011",
     "content": "Convert 0.6 to a fraction in lowest terms",
     "type": "multiple_choice",
-    "options": ["6/10", "3/5", "2/3", "1/6"],
+    "options": [
+      "6/10",
+      "3/5",
+      "2/3",
+      "1/6"
+    ],
     "correctAnswer": "3/5",
     "subject": "math",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "0.6 = 6/10 = 3/5"
+    "explanation": "0.6 = 6/10 = 3/5",
+    "topic": "Fractions"
   },
   {
     "_id": "math_6_medium_012",
     "content": "Find the area of a rectangle with length 9 cm and width 5 cm",
     "type": "multiple_choice",
-    "options": ["28 cm²", "45 cm²", "14 cm²", "18 cm²"],
+    "options": [
+      "28 cm²",
+      "45 cm²",
+      "14 cm²",
+      "18 cm²"
+    ],
     "correctAnswer": "45 cm²",
     "subject": "math",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "Area = length × width = 9 × 5 = 45 cm²"
+    "explanation": "Area = length × width = 9 × 5 = 45 cm²",
+    "topic": "Geometry - Area"
   },
   {
     "_id": "math_6_medium_013",
     "content": "What is 40% of 150?",
     "type": "multiple_choice",
-    "options": ["50", "60", "70", "80"],
+    "options": [
+      "50",
+      "60",
+      "70",
+      "80"
+    ],
     "correctAnswer": "60",
     "subject": "math",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "40% of 150 = 0.40 × 150 = 60"
+    "explanation": "40% of 150 = 0.40 × 150 = 60",
+    "topic": "Percentages"
   },
   {
     "_id": "math_6_medium_014",
     "content": "Solve: x - 8 = 15",
     "type": "multiple_choice",
-    "options": ["x = 7", "x = 23", "x = 120", "x = 8"],
+    "options": [
+      "x = 7",
+      "x = 23",
+      "x = 120",
+      "x = 8"
+    ],
     "correctAnswer": "x = 23",
     "subject": "math",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "x = 15 + 8 = 23"
+    "explanation": "x = 15 + 8 = 23",
+    "topic": "Linear Equations"
   },
   {
     "_id": "math_6_medium_015",
     "content": "What is the mean of: 10, 15, 20, 25?",
     "type": "multiple_choice",
-    "options": ["15", "17.5", "20", "22.5"],
+    "options": [
+      "15",
+      "17.5",
+      "20",
+      "22.5"
+    ],
     "correctAnswer": "17.5",
     "subject": "math",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "Mean = (10 + 15 + 20 + 25) ÷ 4 = 70 ÷ 4 = 17.5"
+    "explanation": "Mean = (10 + 15 + 20 + 25) ÷ 4 = 70 ÷ 4 = 17.5",
+    "topic": "Statistics"
   },
   {
     "_id": "math_6_medium_016",
     "content": "What is 5/6 - 1/3?",
     "type": "multiple_choice",
-    "options": ["4/3", "1/2", "2/3", "1/6"],
+    "options": [
+      "4/3",
+      "1/2",
+      "2/3",
+      "1/6"
+    ],
     "correctAnswer": "1/2",
     "subject": "math",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "1/3 = 2/6, so 5/6 - 2/6 = 3/6 = 1/2"
+    "explanation": "1/3 = 2/6, so 5/6 - 2/6 = 3/6 = 1/2",
+    "topic": "Fractions"
   },
   {
     "_id": "math_6_medium_017",
     "content": "Find the perimeter of a square with side length 7 cm",
     "type": "multiple_choice",
-    "options": ["14 cm", "21 cm", "28 cm", "49 cm"],
+    "options": [
+      "14 cm",
+      "21 cm",
+      "28 cm",
+      "49 cm"
+    ],
     "correctAnswer": "28 cm",
     "subject": "math",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "Perimeter = 4 × side = 4 × 7 = 28 cm"
+    "explanation": "Perimeter = 4 × side = 4 × 7 = 28 cm",
+    "topic": "Geometry - Perimeter"
   },
   {
     "_id": "math_6_medium_018",
     "content": "What is 12% of 250?",
     "type": "multiple_choice",
-    "options": ["25", "30", "35", "40"],
+    "options": [
+      "25",
+      "30",
+      "35",
+      "40"
+    ],
     "correctAnswer": "30",
     "subject": "math",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "12% of 250 = 0.12 × 250 = 30"
+    "explanation": "12% of 250 = 0.12 × 250 = 30",
+    "topic": "Percentages"
   },
   {
     "_id": "math_6_medium_019",
     "content": "Solve: 2x + 3 = 11",
     "type": "multiple_choice",
-    "options": ["x = 4", "x = 7", "x = 8", "x = 14"],
+    "options": [
+      "x = 4",
+      "x = 7",
+      "x = 8",
+      "x = 14"
+    ],
     "correctAnswer": "x = 4",
     "subject": "math",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "2x = 11 - 3 = 8, so x = 4"
+    "explanation": "2x = 11 - 3 = 8, so x = 4",
+    "topic": "Linear Equations"
   },
   {
     "_id": "math_6_medium_020",
     "content": "What is the mode of: 2, 5, 7, 5, 9, 5, 3?",
     "type": "multiple_choice",
-    "options": ["2", "5", "7", "9"],
+    "options": [
+      "2",
+      "5",
+      "7",
+      "9"
+    ],
     "correctAnswer": "5",
     "subject": "math",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "The mode is the most frequent value: 5 appears 3 times"
+    "explanation": "The mode is the most frequent value: 5 appears 3 times",
+    "topic": "Statistics"
   }
 ]
