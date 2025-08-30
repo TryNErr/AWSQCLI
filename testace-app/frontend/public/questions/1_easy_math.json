@@ -1,852 +1,222 @@
 [
   {
     "_id": "math_1_easy_001",
-    "content": "What is 1 + 1?",
+    "content": "What is 2 + 3?",
     "type": "multiple_choice",
-    "options": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "correctAnswer": "2",
+    "options": ["4", "5", "6", "7"],
+    "correctAnswer": "5",
     "subject": "math",
     "grade": "1",
     "difficulty": "easy",
-    "explanation": "1 + 1 = 2",
-    "_cacheBreaker": "1756033253381_1"
+    "explanation": "2 + 3 = 5"
   },
   {
     "_id": "math_1_easy_002",
-    "content": "What is 3 + 2?",
+    "content": "How many fingers do you have on one hand?",
     "type": "multiple_choice",
-    "options": [
-      "4",
-      "5",
-      "6",
-      "7"
-    ],
+    "options": ["4", "5", "6", "10"],
     "correctAnswer": "5",
     "subject": "math",
     "grade": "1",
     "difficulty": "easy",
-    "explanation": "3 + 2 = 5",
-    "_cacheBreaker": "1756033253381_2"
+    "explanation": "One hand has 5 fingers"
   },
   {
     "_id": "math_1_easy_003",
-    "content": "How many dots are there: • • •",
+    "content": "What comes after 7?",
     "type": "multiple_choice",
-    "options": [
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "correctAnswer": "3",
+    "options": ["6", "8", "9", "10"],
+    "correctAnswer": "8",
     "subject": "math",
     "grade": "1",
     "difficulty": "easy",
-    "explanation": "Count the dots: 1, 2, 3",
-    "_cacheBreaker": "1756033253381_3"
+    "explanation": "After 7 comes 8"
   },
   {
     "_id": "math_1_easy_004",
-    "content": "What is 5 - 1?",
+    "content": "What is 1 + 1?",
     "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "correctAnswer": "4",
+    "options": ["1", "2", "3", "4"],
+    "correctAnswer": "2",
     "subject": "math",
     "grade": "1",
     "difficulty": "easy",
-    "explanation": "5 - 1 = 4",
-    "_cacheBreaker": "1756033253381_4"
+    "explanation": "1 + 1 = 2"
   },
   {
     "_id": "math_1_easy_005",
-    "content": "Which number is bigger: 2 or 4?",
+    "content": "Count: How many apples? 🍎🍎🍎",
     "type": "multiple_choice",
-    "options": [
-      "2",
-      "4",
-      "Same",
-      "Can't tell"
-    ],
-    "correctAnswer": "4",
+    "options": ["2", "3", "4", "5"],
+    "correctAnswer": "3",
     "subject": "math",
     "grade": "1",
     "difficulty": "easy",
-    "explanation": "4 is bigger than 2",
-    "_cacheBreaker": "1756033253381_5"
+    "explanation": "There are 3 apples"
   },
   {
     "_id": "math_1_easy_006",
-    "content": "What is 1 + 1?",
+    "content": "What is 4 + 1?",
     "type": "multiple_choice",
-    "options": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "correctAnswer": "2",
+    "options": ["3", "4", "5", "6"],
+    "correctAnswer": "5",
     "subject": "math",
     "grade": "1",
     "difficulty": "easy",
-    "explanation": "1 + 1 = 2",
-    "_cacheBreaker": "1756033253381_6"
+    "explanation": "4 + 1 = 5"
   },
   {
     "_id": "math_1_easy_007",
-    "content": "What is 3 + 2?",
+    "content": "What number comes before 5?",
     "type": "multiple_choice",
-    "options": [
-      "4",
-      "5",
-      "6",
-      "7"
-    ],
-    "correctAnswer": "5",
+    "options": ["3", "4", "6", "7"],
+    "correctAnswer": "4",
     "subject": "math",
     "grade": "1",
     "difficulty": "easy",
-    "explanation": "3 + 2 = 5",
-    "_cacheBreaker": "1756033253381_7"
+    "explanation": "Before 5 comes 4"
   },
   {
     "_id": "math_1_easy_008",
-    "content": "How many dots are there: • • •",
+    "content": "What is 3 - 1?",
     "type": "multiple_choice",
-    "options": [
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "correctAnswer": "3",
+    "options": ["1", "2", "3", "4"],
+    "correctAnswer": "2",
     "subject": "math",
     "grade": "1",
     "difficulty": "easy",
-    "explanation": "Count the dots: 1, 2, 3",
-    "_cacheBreaker": "1756033253381_8"
+    "explanation": "3 - 1 = 2"
   },
   {
     "_id": "math_1_easy_009",
-    "content": "What is 5 - 1?",
+    "content": "How many sides does a circle have?",
     "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "correctAnswer": "4",
+    "options": ["0", "1", "2", "3"],
+    "correctAnswer": "0",
     "subject": "math",
     "grade": "1",
     "difficulty": "easy",
-    "explanation": "5 - 1 = 4",
-    "_cacheBreaker": "1756033253381_9"
+    "explanation": "A circle has no straight sides"
   },
   {
     "_id": "math_1_easy_010",
-    "content": "Which number is bigger: 2 or 4?",
+    "content": "What is 5 - 2?",
     "type": "multiple_choice",
-    "options": [
-      "2",
-      "4",
-      "Same",
-      "Can't tell"
-    ],
-    "correctAnswer": "4",
+    "options": ["2", "3", "4", "7"],
+    "correctAnswer": "3",
     "subject": "math",
     "grade": "1",
     "difficulty": "easy",
-    "explanation": "4 is bigger than 2",
-    "_cacheBreaker": "1756033253381_10"
+    "explanation": "5 - 2 = 3"
   },
   {
     "_id": "math_1_easy_011",
-    "content": "What is 1 + 1?",
+    "content": "Count by 1s: 1, 2, 3, ?",
     "type": "multiple_choice",
-    "options": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "correctAnswer": "2",
+    "options": ["3", "4", "5", "6"],
+    "correctAnswer": "4",
     "subject": "math",
     "grade": "1",
     "difficulty": "easy",
-    "explanation": "1 + 1 = 2",
-    "_cacheBreaker": "1756033253381_11"
+    "explanation": "Counting: 1, 2, 3, 4"
   },
   {
     "_id": "math_1_easy_012",
-    "content": "What is 3 + 2?",
+    "content": "What is 0 + 6?",
     "type": "multiple_choice",
-    "options": [
-      "4",
-      "5",
-      "6",
-      "7"
-    ],
-    "correctAnswer": "5",
+    "options": ["0", "6", "60", "66"],
+    "correctAnswer": "6",
     "subject": "math",
     "grade": "1",
     "difficulty": "easy",
-    "explanation": "3 + 2 = 5",
-    "_cacheBreaker": "1756033253381_12"
+    "explanation": "0 + 6 = 6"
   },
   {
     "_id": "math_1_easy_013",
-    "content": "How many dots are there: • • •",
+    "content": "Which is bigger: 3 or 7?",
     "type": "multiple_choice",
-    "options": [
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "correctAnswer": "3",
+    "options": ["3", "7", "Same", "Can't tell"],
+    "correctAnswer": "7",
     "subject": "math",
     "grade": "1",
     "difficulty": "easy",
-    "explanation": "Count the dots: 1, 2, 3",
-    "_cacheBreaker": "1756033253381_13"
+    "explanation": "7 is bigger than 3"
   },
   {
     "_id": "math_1_easy_014",
-    "content": "What is 5 - 1?",
+    "content": "What is 2 + 2?",
     "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
+    "options": ["2", "3", "4", "22"],
     "correctAnswer": "4",
     "subject": "math",
     "grade": "1",
     "difficulty": "easy",
-    "explanation": "5 - 1 = 4",
-    "_cacheBreaker": "1756033253381_14"
+    "explanation": "2 + 2 = 4"
   },
   {
     "_id": "math_1_easy_015",
-    "content": "Which number is bigger: 2 or 4?",
+    "content": "How many wheels does a bicycle have?",
     "type": "multiple_choice",
-    "options": [
-      "2",
-      "4",
-      "Same",
-      "Can't tell"
-    ],
-    "correctAnswer": "4",
+    "options": ["1", "2", "3", "4"],
+    "correctAnswer": "2",
     "subject": "math",
     "grade": "1",
     "difficulty": "easy",
-    "explanation": "4 is bigger than 2",
-    "_cacheBreaker": "1756033253381_15"
+    "explanation": "A bicycle has 2 wheels"
   },
   {
     "_id": "math_1_easy_016",
-    "content": "What is 1 + 1?",
+    "content": "What is 6 - 3?",
     "type": "multiple_choice",
-    "options": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "correctAnswer": "2",
+    "options": ["2", "3", "9", "63"],
+    "correctAnswer": "3",
     "subject": "math",
     "grade": "1",
     "difficulty": "easy",
-    "explanation": "1 + 1 = 2",
-    "_cacheBreaker": "1756033253381_16"
+    "explanation": "6 - 3 = 3"
   },
   {
     "_id": "math_1_easy_017",
-    "content": "What is 3 + 2?",
+    "content": "What number is missing: 1, 2, ?, 4",
     "type": "multiple_choice",
-    "options": [
-      "4",
-      "5",
-      "6",
-      "7"
-    ],
-    "correctAnswer": "5",
+    "options": ["1", "2", "3", "5"],
+    "correctAnswer": "3",
     "subject": "math",
     "grade": "1",
     "difficulty": "easy",
-    "explanation": "3 + 2 = 5",
-    "_cacheBreaker": "1756033253381_17"
+    "explanation": "The missing number is 3"
   },
   {
     "_id": "math_1_easy_018",
-    "content": "How many dots are there: • • •",
+    "content": "What is 1 + 4?",
     "type": "multiple_choice",
-    "options": [
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "correctAnswer": "3",
+    "options": ["3", "4", "5", "14"],
+    "correctAnswer": "5",
     "subject": "math",
     "grade": "1",
     "difficulty": "easy",
-    "explanation": "Count the dots: 1, 2, 3",
-    "_cacheBreaker": "1756033253381_18"
+    "explanation": "1 + 4 = 5"
   },
   {
     "_id": "math_1_easy_019",
-    "content": "What is 5 - 1?",
+    "content": "Which shape has 3 sides?",
     "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "correctAnswer": "4",
+    "options": ["Circle", "Square", "Triangle", "Rectangle"],
+    "correctAnswer": "Triangle",
     "subject": "math",
     "grade": "1",
     "difficulty": "easy",
-    "explanation": "5 - 1 = 4",
-    "_cacheBreaker": "1756033253381_19"
+    "explanation": "A triangle has 3 sides"
   },
   {
     "_id": "math_1_easy_020",
-    "content": "Which number is bigger: 2 or 4?",
+    "content": "What is 4 - 4?",
     "type": "multiple_choice",
-    "options": [
-      "2",
-      "4",
-      "Same",
-      "Can't tell"
-    ],
-    "correctAnswer": "4",
+    "options": ["0", "4", "8", "44"],
+    "correctAnswer": "0",
     "subject": "math",
     "grade": "1",
     "difficulty": "easy",
-    "explanation": "4 is bigger than 2",
-    "_cacheBreaker": "1756033253381_20"
-  },
-  {
-    "_id": "math_1_easy_021",
-    "content": "What is 1 + 1?",
-    "type": "multiple_choice",
-    "options": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "correctAnswer": "2",
-    "subject": "math",
-    "grade": "1",
-    "difficulty": "easy",
-    "explanation": "1 + 1 = 2",
-    "_cacheBreaker": "1756033253381_21"
-  },
-  {
-    "_id": "math_1_easy_022",
-    "content": "What is 3 + 2?",
-    "type": "multiple_choice",
-    "options": [
-      "4",
-      "5",
-      "6",
-      "7"
-    ],
-    "correctAnswer": "5",
-    "subject": "math",
-    "grade": "1",
-    "difficulty": "easy",
-    "explanation": "3 + 2 = 5",
-    "_cacheBreaker": "1756033253381_22"
-  },
-  {
-    "_id": "math_1_easy_023",
-    "content": "How many dots are there: • • •",
-    "type": "multiple_choice",
-    "options": [
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "correctAnswer": "3",
-    "subject": "math",
-    "grade": "1",
-    "difficulty": "easy",
-    "explanation": "Count the dots: 1, 2, 3",
-    "_cacheBreaker": "1756033253381_23"
-  },
-  {
-    "_id": "math_1_easy_024",
-    "content": "What is 5 - 1?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "correctAnswer": "4",
-    "subject": "math",
-    "grade": "1",
-    "difficulty": "easy",
-    "explanation": "5 - 1 = 4",
-    "_cacheBreaker": "1756033253381_24"
-  },
-  {
-    "_id": "math_1_easy_025",
-    "content": "Which number is bigger: 2 or 4?",
-    "type": "multiple_choice",
-    "options": [
-      "2",
-      "4",
-      "Same",
-      "Can't tell"
-    ],
-    "correctAnswer": "4",
-    "subject": "math",
-    "grade": "1",
-    "difficulty": "easy",
-    "explanation": "4 is bigger than 2",
-    "_cacheBreaker": "1756033253381_25"
-  },
-  {
-    "_id": "math_1_easy_026",
-    "content": "What is 1 + 1?",
-    "type": "multiple_choice",
-    "options": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "correctAnswer": "2",
-    "subject": "math",
-    "grade": "1",
-    "difficulty": "easy",
-    "explanation": "1 + 1 = 2",
-    "_cacheBreaker": "1756033253381_26"
-  },
-  {
-    "_id": "math_1_easy_027",
-    "content": "What is 3 + 2?",
-    "type": "multiple_choice",
-    "options": [
-      "4",
-      "5",
-      "6",
-      "7"
-    ],
-    "correctAnswer": "5",
-    "subject": "math",
-    "grade": "1",
-    "difficulty": "easy",
-    "explanation": "3 + 2 = 5",
-    "_cacheBreaker": "1756033253381_27"
-  },
-  {
-    "_id": "math_1_easy_028",
-    "content": "How many dots are there: • • •",
-    "type": "multiple_choice",
-    "options": [
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "correctAnswer": "3",
-    "subject": "math",
-    "grade": "1",
-    "difficulty": "easy",
-    "explanation": "Count the dots: 1, 2, 3",
-    "_cacheBreaker": "1756033253381_28"
-  },
-  {
-    "_id": "math_1_easy_029",
-    "content": "What is 5 - 1?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "correctAnswer": "4",
-    "subject": "math",
-    "grade": "1",
-    "difficulty": "easy",
-    "explanation": "5 - 1 = 4",
-    "_cacheBreaker": "1756033253381_29"
-  },
-  {
-    "_id": "math_1_easy_030",
-    "content": "Which number is bigger: 2 or 4?",
-    "type": "multiple_choice",
-    "options": [
-      "2",
-      "4",
-      "Same",
-      "Can't tell"
-    ],
-    "correctAnswer": "4",
-    "subject": "math",
-    "grade": "1",
-    "difficulty": "easy",
-    "explanation": "4 is bigger than 2",
-    "_cacheBreaker": "1756033253381_30"
-  },
-  {
-    "_id": "math_1_easy_031",
-    "content": "What is 1 + 1?",
-    "type": "multiple_choice",
-    "options": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "correctAnswer": "2",
-    "subject": "math",
-    "grade": "1",
-    "difficulty": "easy",
-    "explanation": "1 + 1 = 2",
-    "_cacheBreaker": "1756033253381_31"
-  },
-  {
-    "_id": "math_1_easy_032",
-    "content": "What is 3 + 2?",
-    "type": "multiple_choice",
-    "options": [
-      "4",
-      "5",
-      "6",
-      "7"
-    ],
-    "correctAnswer": "5",
-    "subject": "math",
-    "grade": "1",
-    "difficulty": "easy",
-    "explanation": "3 + 2 = 5",
-    "_cacheBreaker": "1756033253381_32"
-  },
-  {
-    "_id": "math_1_easy_033",
-    "content": "How many dots are there: • • •",
-    "type": "multiple_choice",
-    "options": [
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "correctAnswer": "3",
-    "subject": "math",
-    "grade": "1",
-    "difficulty": "easy",
-    "explanation": "Count the dots: 1, 2, 3",
-    "_cacheBreaker": "1756033253381_33"
-  },
-  {
-    "_id": "math_1_easy_034",
-    "content": "What is 5 - 1?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "correctAnswer": "4",
-    "subject": "math",
-    "grade": "1",
-    "difficulty": "easy",
-    "explanation": "5 - 1 = 4",
-    "_cacheBreaker": "1756033253381_34"
-  },
-  {
-    "_id": "math_1_easy_035",
-    "content": "Which number is bigger: 2 or 4?",
-    "type": "multiple_choice",
-    "options": [
-      "2",
-      "4",
-      "Same",
-      "Can't tell"
-    ],
-    "correctAnswer": "4",
-    "subject": "math",
-    "grade": "1",
-    "difficulty": "easy",
-    "explanation": "4 is bigger than 2",
-    "_cacheBreaker": "1756033253381_35"
-  },
-  {
-    "_id": "math_1_easy_036",
-    "content": "What is 1 + 1?",
-    "type": "multiple_choice",
-    "options": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "correctAnswer": "2",
-    "subject": "math",
-    "grade": "1",
-    "difficulty": "easy",
-    "explanation": "1 + 1 = 2",
-    "_cacheBreaker": "1756033253381_36"
-  },
-  {
-    "_id": "math_1_easy_037",
-    "content": "What is 3 + 2?",
-    "type": "multiple_choice",
-    "options": [
-      "4",
-      "5",
-      "6",
-      "7"
-    ],
-    "correctAnswer": "5",
-    "subject": "math",
-    "grade": "1",
-    "difficulty": "easy",
-    "explanation": "3 + 2 = 5",
-    "_cacheBreaker": "1756033253381_37"
-  },
-  {
-    "_id": "math_1_easy_038",
-    "content": "How many dots are there: • • •",
-    "type": "multiple_choice",
-    "options": [
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "correctAnswer": "3",
-    "subject": "math",
-    "grade": "1",
-    "difficulty": "easy",
-    "explanation": "Count the dots: 1, 2, 3",
-    "_cacheBreaker": "1756033253381_38"
-  },
-  {
-    "_id": "math_1_easy_039",
-    "content": "What is 5 - 1?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "correctAnswer": "4",
-    "subject": "math",
-    "grade": "1",
-    "difficulty": "easy",
-    "explanation": "5 - 1 = 4",
-    "_cacheBreaker": "1756033253381_39"
-  },
-  {
-    "_id": "math_1_easy_040",
-    "content": "Which number is bigger: 2 or 4?",
-    "type": "multiple_choice",
-    "options": [
-      "2",
-      "4",
-      "Same",
-      "Can't tell"
-    ],
-    "correctAnswer": "4",
-    "subject": "math",
-    "grade": "1",
-    "difficulty": "easy",
-    "explanation": "4 is bigger than 2",
-    "_cacheBreaker": "1756033253381_40"
-  },
-  {
-    "_id": "math_1_easy_041",
-    "content": "What is 1 + 1?",
-    "type": "multiple_choice",
-    "options": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "correctAnswer": "2",
-    "subject": "math",
-    "grade": "1",
-    "difficulty": "easy",
-    "explanation": "1 + 1 = 2",
-    "_cacheBreaker": "1756033253381_41"
-  },
-  {
-    "_id": "math_1_easy_042",
-    "content": "What is 3 + 2?",
-    "type": "multiple_choice",
-    "options": [
-      "4",
-      "5",
-      "6",
-      "7"
-    ],
-    "correctAnswer": "5",
-    "subject": "math",
-    "grade": "1",
-    "difficulty": "easy",
-    "explanation": "3 + 2 = 5",
-    "_cacheBreaker": "1756033253381_42"
-  },
-  {
-    "_id": "math_1_easy_043",
-    "content": "How many dots are there: • • •",
-    "type": "multiple_choice",
-    "options": [
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "correctAnswer": "3",
-    "subject": "math",
-    "grade": "1",
-    "difficulty": "easy",
-    "explanation": "Count the dots: 1, 2, 3",
-    "_cacheBreaker": "1756033253381_43"
-  },
-  {
-    "_id": "math_1_easy_044",
-    "content": "What is 5 - 1?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "correctAnswer": "4",
-    "subject": "math",
-    "grade": "1",
-    "difficulty": "easy",
-    "explanation": "5 - 1 = 4",
-    "_cacheBreaker": "1756033253381_44"
-  },
-  {
-    "_id": "math_1_easy_045",
-    "content": "Which number is bigger: 2 or 4?",
-    "type": "multiple_choice",
-    "options": [
-      "2",
-      "4",
-      "Same",
-      "Can't tell"
-    ],
-    "correctAnswer": "4",
-    "subject": "math",
-    "grade": "1",
-    "difficulty": "easy",
-    "explanation": "4 is bigger than 2",
-    "_cacheBreaker": "1756033253381_45"
-  },
-  {
-    "_id": "math_1_easy_046",
-    "content": "What is 1 + 1?",
-    "type": "multiple_choice",
-    "options": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "correctAnswer": "2",
-    "subject": "math",
-    "grade": "1",
-    "difficulty": "easy",
-    "explanation": "1 + 1 = 2",
-    "_cacheBreaker": "1756033253381_46"
-  },
-  {
-    "_id": "math_1_easy_047",
-    "content": "What is 3 + 2?",
-    "type": "multiple_choice",
-    "options": [
-      "4",
-      "5",
-      "6",
-      "7"
-    ],
-    "correctAnswer": "5",
-    "subject": "math",
-    "grade": "1",
-    "difficulty": "easy",
-    "explanation": "3 + 2 = 5",
-    "_cacheBreaker": "1756033253381_47"
-  },
-  {
-    "_id": "math_1_easy_048",
-    "content": "How many dots are there: • • •",
-    "type": "multiple_choice",
-    "options": [
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "correctAnswer": "3",
-    "subject": "math",
-    "grade": "1",
-    "difficulty": "easy",
-    "explanation": "Count the dots: 1, 2, 3",
-    "_cacheBreaker": "1756033253381_48"
-  },
-  {
-    "_id": "math_1_easy_049",
-    "content": "What is 5 - 1?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "correctAnswer": "4",
-    "subject": "math",
-    "grade": "1",
-    "difficulty": "easy",
-    "explanation": "5 - 1 = 4",
-    "_cacheBreaker": "1756033253381_49"
-  },
-  {
-    "_id": "math_1_easy_050",
-    "content": "Which number is bigger: 2 or 4?",
-    "type": "multiple_choice",
-    "options": [
-      "2",
-      "4",
-      "Same",
-      "Can't tell"
-    ],
-    "correctAnswer": "4",
-    "subject": "math",
-    "grade": "1",
-    "difficulty": "easy",
-    "explanation": "4 is bigger than 2",
-    "_cacheBreaker": "1756033253381_50"
+    "explanation": "4 - 4 = 0"
   }
 ]

@@ -1,39 +1,55 @@
 [
   {
     "_id": "med9_1755260776579_001",
-    "content": "Solve for x: 3x + 7 = 22",
+    "content": "Solve: 5x + 18 = 73",
     "type": "multiple_choice",
     "options": [
-      "x = 5",
-      "x = 7",
+      "x = 11",
       "x = 15",
-      "x = 29"
+      "x = 18",
+      "x = 91"
     ],
-    "correctAnswer": "x = 5",
+    "correctAnswer": "x = 11",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "Subtract 7 from both sides: 3x = 15, then divide by 3: x = 5"
+    "explanation": "Subtract 18 from both sides: 5x = 55, then divide by 5: x = 11"
   },
   {
     "_id": "med9_1755260776579_002",
-    "content": "Factor completely: x² - 9",
+    "content": "Find the area of a circle with radius 6 cm (use π = 3.14)",
     "type": "multiple_choice",
     "options": [
-      "(x - 3)(x + 3)",
-      "(x - 9)(x + 1)",
-      "x(x - 9)",
-      "Cannot be factored"
+      "113.04 cm²",
+      "37.68 cm²",
+      "18.84 cm²",
+      "226.08 cm²"
     ],
-    "correctAnswer": "(x - 3)(x + 3)",
+    "correctAnswer": "113.04 cm²",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "This is a difference of squares: a² - b² = (a - b)(a + b)"
+    "explanation": "Area = πr² = 3.14 × 6² = 3.14 × 36 = 113.04 cm²"
   },
   {
     "_id": "med9_1755260776579_003",
-    "content": "Find the slope of the line passing through (2, 5) and (6, 13)",
+    "content": "Simplify: (3x²)(4x³)",
+    "type": "multiple_choice",
+    "options": [
+      "7x⁵",
+      "12x⁵",
+      "12x⁶",
+      "7x⁶"
+    ],
+    "correctAnswer": "12x⁵",
+    "subject": "Mathematics",
+    "grade": 9,
+    "difficulty": "medium",
+    "explanation": "Multiply coefficients and add exponents: 3 × 4 = 12, x² × x³ = x⁵"
+  },
+  {
+    "_id": "med9_1755260776579_004",
+    "content": "What is the slope of the line passing through points (2, 5) and (6, 13)?",
     "type": "multiple_choice",
     "options": [
       "m = 2",
@@ -48,275 +64,259 @@
     "explanation": "Use slope formula: m = (y₂ - y₁)/(x₂ - x₁) = (13 - 5)/(6 - 2) = 8/4 = 2"
   },
   {
-    "_id": "med9_1755260776579_004",
-    "content": "Solve: x² - 5x + 6 = 0",
-    "type": "multiple_choice",
-    "options": [
-      "x = 2, 3",
-      "x = 1, 6",
-      "x = -2, -3",
-      "x = 5, 1"
-    ],
-    "correctAnswer": "x = 2, 3",
-    "subject": "Mathematics",
-    "grade": 9,
-    "difficulty": "medium",
-    "explanation": "Factor: (x - 2)(x - 3) = 0, so x = 2 or x = 3"
-  },
-  {
     "_id": "med9_1755260776579_005",
-    "content": "Simplify: (2x³)(3x²)",
+    "content": "Factor completely: x² - 9x + 20",
     "type": "multiple_choice",
     "options": [
-      "5x⁵",
-      "6x⁵",
-      "6x⁶",
-      "5x⁶"
+      "(x - 4)(x - 5)",
+      "(x - 2)(x - 10)",
+      "(x + 4)(x + 5)",
+      "(x - 1)(x - 20)"
     ],
-    "correctAnswer": "6x⁵",
+    "correctAnswer": "(x - 4)(x - 5)",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "Multiply coefficients and add exponents: 2 × 3 = 6, x³ × x² = x⁵"
+    "explanation": "Find two numbers that multiply to 20 and add to -9: -4 and -5"
   },
   {
     "_id": "med9_1755260776579_006",
-    "content": "What is the y-intercept of y = 2x - 7?",
+    "content": "If f(x) = 2x - 3, find f(5)",
     "type": "multiple_choice",
     "options": [
-      "2",
-      "-7",
       "7",
-      "-2"
+      "10",
+      "13",
+      "8"
     ],
-    "correctAnswer": "-7",
+    "correctAnswer": "7",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "In y = mx + b form, b is the y-intercept, so y-intercept = -7"
+    "explanation": "Substitute x = 5: f(5) = 2(5) - 3 = 10 - 3 = 7"
   },
   {
     "_id": "med9_1755260776579_007",
-    "content": "Expand: (x + 4)(x - 2)",
+    "content": "Convert 0.75 to a fraction in lowest terms",
     "type": "multiple_choice",
     "options": [
-      "x² + 2x - 8",
-      "x² - 2x + 8",
-      "x² + 2x + 8",
-      "x² - 2x - 8"
+      "3/4",
+      "75/100",
+      "15/20",
+      "6/8"
     ],
-    "correctAnswer": "x² + 2x - 8",
+    "correctAnswer": "3/4",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "Use FOIL: x² - 2x + 4x - 8 = x² + 2x - 8"
+    "explanation": "0.75 = 75/100 = 3/4 when reduced to lowest terms"
   },
   {
     "_id": "med9_1755260776579_008",
-    "content": "Solve for y: 2y - 3x = 12",
+    "content": "Solve the inequality: 3x - 7 > 14",
     "type": "multiple_choice",
     "options": [
-      "y = (3x + 12)/2",
-      "y = (12 + 3x)/2",
-      "y = 6 + 3x/2",
-      "y = 12 - 3x/2"
+      "x > 7",
+      "x < 7",
+      "x > 21",
+      "x < 21"
     ],
-    "correctAnswer": "y = 6 + 3x/2",
+    "correctAnswer": "x > 7",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "Add 3x to both sides: 2y = 12 + 3x, then divide by 2: y = 6 + 3x/2"
+    "explanation": "Add 7 to both sides: 3x > 21, then divide by 3: x > 7"
   },
   {
     "_id": "med9_1755260776579_009",
-    "content": "Find the distance between points (1, 2) and (4, 6)",
+    "content": "Find the volume of a rectangular prism with length 5 cm, width 3 cm, and height 4 cm",
     "type": "multiple_choice",
     "options": [
-      "5",
-      "7",
-      "√7",
-      "√25"
+      "60 cm³",
+      "47 cm³",
+      "12 cm³",
+      "24 cm³"
     ],
-    "correctAnswer": "5",
+    "correctAnswer": "60 cm³",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "Use distance formula: d = √[(4-1)² + (6-2)²] = √[9 + 16] = √25 = 5"
+    "explanation": "Volume = length × width × height = 5 × 3 × 4 = 60 cm³"
   },
   {
     "_id": "med9_1755260776579_010",
-    "content": "Simplify: √48",
+    "content": "Solve: 2(x + 3) = 16",
     "type": "multiple_choice",
     "options": [
-      "4√3",
-      "6√2",
-      "3√16",
-      "2√12"
+      "x = 5",
+      "x = 8",
+      "x = 10",
+      "x = 13"
     ],
-    "correctAnswer": "4√3",
+    "correctAnswer": "x = 5",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "√48 = √(16 × 3) = √16 × √3 = 4√3"
+    "explanation": "Divide both sides by 2: x + 3 = 8, then subtract 3: x = 5"
   },
   {
     "_id": "med9_1755260776579_011",
-    "content": "If f(x) = 2x + 3, find f(5)",
+    "content": "What is the circumference of a circle with diameter 10 cm? (use π = 3.14)",
     "type": "multiple_choice",
     "options": [
-      "10",
-      "13",
-      "8",
-      "11"
+      "31.4 cm",
+      "62.8 cm",
+      "78.5 cm",
+      "314 cm"
     ],
-    "correctAnswer": "13",
+    "correctAnswer": "31.4 cm",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "Substitute x = 5: f(5) = 2(5) + 3 = 10 + 3 = 13"
+    "explanation": "Circumference = πd = 3.14 × 10 = 31.4 cm"
   },
   {
     "_id": "med9_1755260776579_012",
-    "content": "Solve the inequality: 3x - 5 > 7",
+    "content": "Express in scientific notation: 45,000",
     "type": "multiple_choice",
     "options": [
-      "x > 4",
-      "x < 4",
-      "x > 2",
-      "x < 2"
+      "4.5 × 10⁴",
+      "45 × 10³",
+      "4.5 × 10³",
+      "0.45 × 10⁵"
     ],
-    "correctAnswer": "x > 4",
+    "correctAnswer": "4.5 × 10⁴",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "Add 5 to both sides: 3x > 12, then divide by 3: x > 4"
+    "explanation": "Move decimal point 4 places left: 45,000 = 4.5 × 10⁴"
   },
   {
     "_id": "med9_1755260776579_013",
-    "content": "Find the midpoint of the segment from (2, 8) to (6, 4)",
+    "content": "Find the mean of: 12, 15, 18, 20, 25",
     "type": "multiple_choice",
     "options": [
-      "(4, 6)",
-      "(8, 12)",
-      "(4, 2)",
-      "(2, 6)"
+      "18",
+      "19",
+      "20",
+      "17"
     ],
-    "correctAnswer": "(4, 6)",
+    "correctAnswer": "18",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "Midpoint formula: ((x₁+x₂)/2, (y₁+y₂)/2) = ((2+6)/2, (8+4)/2) = (4, 6)"
+    "explanation": "Mean = (12 + 15 + 18 + 20 + 25) ÷ 5 = 90 ÷ 5 = 18"
   },
   {
     "_id": "med9_1755260776579_014",
-    "content": "Factor: x² + 7x + 12",
+    "content": "Solve for x: x/4 + 6 = 11",
     "type": "multiple_choice",
     "options": [
-      "(x + 3)(x + 4)",
-      "(x + 2)(x + 6)",
-      "(x + 1)(x + 12)",
-      "(x - 3)(x - 4)"
+      "x = 20",
+      "x = 44",
+      "x = 5",
+      "x = 68"
     ],
-    "correctAnswer": "(x + 3)(x + 4)",
+    "correctAnswer": "x = 20",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "Find two numbers that multiply to 12 and add to 7: 3 and 4"
+    "explanation": "Subtract 6 from both sides: x/4 = 5, then multiply by 4: x = 20"
   },
   {
     "_id": "med9_1755260776579_015",
-    "content": "Simplify: (x⁴)³",
+    "content": "If 4x - 12 = 2x + 8, find x",
     "type": "multiple_choice",
     "options": [
-      "x⁷",
-      "x¹²",
-      "3x⁴",
-      "x⁴³"
+      "x = 10",
+      "x = 5",
+      "x = 20",
+      "x = -4"
     ],
-    "correctAnswer": "x¹²",
+    "correctAnswer": "x = 10",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "Use power rule: (xᵃ)ᵇ = xᵃᵇ, so (x⁴)³ = x⁴ˣ³ = x¹²"
+    "explanation": "Subtract 2x from both sides: 2x - 12 = 8, add 12: 2x = 20, divide by 2: x = 10"
   },
   {
     "_id": "med9_1755260776579_016",
-    "content": "What is the vertex of y = x² - 4x + 3?",
+    "content": "What is the range of the data set: 5, 12, 8, 15, 3, 20?",
     "type": "multiple_choice",
     "options": [
-      "(2, -1)",
-      "(-2, 1)",
-      "(4, 3)",
-      "(-4, -3)"
+      "17",
+      "15",
+      "20",
+      "12"
     ],
-    "correctAnswer": "(2, -1)",
+    "correctAnswer": "17",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "x-coordinate: x = -b/2a = 4/2 = 2, y-coordinate: y = (2)² - 4(2) + 3 = -1"
+    "explanation": "Range = highest value - lowest value = 20 - 3 = 17"
   },
   {
     "_id": "med9_1755260776579_017",
-    "content": "Solve: |x - 3| = 5",
+    "content": "Simplify: 3² × 3⁴",
     "type": "multiple_choice",
     "options": [
-      "x = 8, -2",
-      "x = 2, 8",
-      "x = -8, 2",
-      "x = 3, 5"
+      "3⁶",
+      "3⁸",
+      "9⁶",
+      "6⁶"
     ],
-    "correctAnswer": "x = 8, -2",
+    "correctAnswer": "3⁶",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "x - 3 = 5 or x - 3 = -5, so x = 8 or x = -2"
+    "explanation": "When multiplying powers with same base, add exponents: 3² × 3⁴ = 3²⁺⁴ = 3⁶"
   },
   {
     "_id": "med9_1755260776579_018",
-    "content": "Find the equation of the line with slope 3 passing through (1, 5)",
+    "content": "Find the surface area of a cube with side length 4 cm",
     "type": "multiple_choice",
     "options": [
-      "y = 3x + 2",
-      "y = 3x - 2",
-      "y = 3x + 5",
-      "y = 3x + 8"
+      "96 cm²",
+      "64 cm²",
+      "48 cm²",
+      "16 cm²"
     ],
-    "correctAnswer": "y = 3x + 2",
+    "correctAnswer": "96 cm²",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "Use point-slope form: y - 5 = 3(x - 1), simplify: y = 3x + 2"
+    "explanation": "Surface area of cube = 6s² = 6 × 4² = 6 × 16 = 96 cm²"
   },
   {
     "_id": "med9_1755260776579_019",
-    "content": "Simplify: 3√2 + 5√2",
+    "content": "What percentage is 15 out of 60?",
     "type": "multiple_choice",
     "options": [
-      "8√2",
-      "15√2",
-      "8√4",
-      "√34"
+      "25%",
+      "15%",
+      "30%",
+      "20%"
     ],
-    "correctAnswer": "8√2",
+    "correctAnswer": "25%",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "Combine like terms: (3 + 5)√2 = 8√2"
+    "explanation": "Percentage = (15/60) × 100% = 0.25 × 100% = 25%"
   },
   {
     "_id": "med9_1755260776579_020",
-    "content": "If the perimeter of a rectangle is 24 and the length is 8, what is the width?",
+    "content": "Solve: √(x + 5) = 7",
     "type": "multiple_choice",
     "options": [
-      "4",
-      "6",
-      "8",
-      "16"
+      "x = 44",
+      "x = 12",
+      "x = 2",
+      "x = 49"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "x = 44",
     "subject": "Mathematics",
     "grade": 9,
     "difficulty": "medium",
-    "explanation": "Perimeter = 2(length + width), so 24 = 2(8 + w), 12 = 8 + w, w = 4"
+    "explanation": "Square both sides: x + 5 = 49, then subtract 5: x = 44"
   }
 ]

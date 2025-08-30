@@ -1,852 +1,222 @@
 [
   {
     "_id": "math_4_hard_001",
-    "content": "What is 5 + 4?",
+    "content": "What is 247 + 389?",
     "type": "multiple_choice",
-    "options": [
-      "4",
-      "5",
-      "9",
-      "10"
-    ],
-    "correctAnswer": "9",
+    "options": ["626", "636", "646", "656"],
+    "correctAnswer": "636",
     "subject": "math",
     "grade": "4",
     "difficulty": "hard",
-    "explanation": "5 + 4 = 9",
-    "_cacheBreaker": "1756033253422_1"
+    "explanation": "247 + 389 = 636"
   },
   {
     "_id": "math_4_hard_002",
-    "content": "What is 9 - 4?",
+    "content": "A rectangle has length 12 cm and width 8 cm. What is its area?",
     "type": "multiple_choice",
-    "options": [
-      "3",
-      "5",
-      "5",
-      "10"
-    ],
-    "correctAnswer": "5",
+    "options": ["20 cm²", "40 cm²", "96 cm²", "160 cm²"],
+    "correctAnswer": "96 cm²",
     "subject": "math",
     "grade": "4",
     "difficulty": "hard",
-    "explanation": "9 - 4 = 5",
-    "_cacheBreaker": "1756033253422_2"
+    "explanation": "Area = length × width = 12 × 8 = 96 cm²"
   },
   {
     "_id": "math_4_hard_003",
-    "content": "How many sides does a rectangle have?",
+    "content": "What is 144 ÷ 12?",
     "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "correctAnswer": "4",
+    "options": ["11", "12", "13", "14"],
+    "correctAnswer": "12",
     "subject": "math",
     "grade": "4",
     "difficulty": "hard",
-    "explanation": "A rectangle has 4 sides",
-    "_cacheBreaker": "1756033253422_3"
+    "explanation": "144 ÷ 12 = 12"
   },
   {
     "_id": "math_4_hard_004",
-    "content": "What is 4 × 2?",
+    "content": "What fraction is equivalent to 6/8?",
     "type": "multiple_choice",
-    "options": [
-      "4",
-      "8",
-      "9",
-      "12"
-    ],
-    "correctAnswer": "8",
+    "options": ["2/3", "3/4", "4/5", "5/6"],
+    "correctAnswer": "3/4",
     "subject": "math",
     "grade": "4",
     "difficulty": "hard",
-    "explanation": "4 × 2 = 8",
-    "_cacheBreaker": "1756033253422_4"
+    "explanation": "6/8 = 3/4 when reduced to lowest terms"
   },
   {
     "_id": "math_4_hard_005",
-    "content": "Which number comes after 14?",
+    "content": "How many minutes are in 2.5 hours?",
     "type": "multiple_choice",
-    "options": [
-      "13",
-      "14",
-      "15",
-      "16"
-    ],
-    "correctAnswer": "15",
+    "options": ["120 minutes", "130 minutes", "140 minutes", "150 minutes"],
+    "correctAnswer": "150 minutes",
     "subject": "math",
     "grade": "4",
     "difficulty": "hard",
-    "explanation": "After 14 comes 15",
-    "_cacheBreaker": "1756033253422_5"
+    "explanation": "2.5 hours = 2.5 × 60 = 150 minutes"
   },
   {
     "_id": "math_4_hard_006",
-    "content": "What is 5 + 4?",
+    "content": "What is 456 - 278?",
     "type": "multiple_choice",
-    "options": [
-      "4",
-      "5",
-      "9",
-      "10"
-    ],
-    "correctAnswer": "9",
+    "options": ["176", "177", "178", "734"],
+    "correctAnswer": "178",
     "subject": "math",
     "grade": "4",
     "difficulty": "hard",
-    "explanation": "5 + 4 = 9",
-    "_cacheBreaker": "1756033253422_6"
+    "explanation": "456 - 278 = 178"
   },
   {
     "_id": "math_4_hard_007",
-    "content": "What is 9 - 4?",
+    "content": "What is 16 × 13?",
     "type": "multiple_choice",
-    "options": [
-      "3",
-      "5",
-      "5",
-      "10"
-    ],
-    "correctAnswer": "5",
+    "options": ["206", "207", "208", "163"],
+    "correctAnswer": "208",
     "subject": "math",
     "grade": "4",
     "difficulty": "hard",
-    "explanation": "9 - 4 = 5",
-    "_cacheBreaker": "1756033253422_7"
+    "explanation": "16 × 13 = 208"
   },
   {
     "_id": "math_4_hard_008",
-    "content": "How many sides does a rectangle have?",
+    "content": "What is 5/8 of 32?",
     "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "correctAnswer": "4",
+    "options": ["18", "19", "20", "160"],
+    "correctAnswer": "20",
     "subject": "math",
     "grade": "4",
     "difficulty": "hard",
-    "explanation": "A rectangle has 4 sides",
-    "_cacheBreaker": "1756033253422_8"
+    "explanation": "5/8 of 32 = (5 × 32) ÷ 8 = 160 ÷ 8 = 20"
   },
   {
     "_id": "math_4_hard_009",
-    "content": "What is 4 × 2?",
+    "content": "What is 573 + 289?",
     "type": "multiple_choice",
-    "options": [
-      "4",
-      "8",
-      "9",
-      "12"
-    ],
-    "correctAnswer": "8",
+    "options": ["860", "861", "862", "863"],
+    "correctAnswer": "862",
     "subject": "math",
     "grade": "4",
     "difficulty": "hard",
-    "explanation": "4 × 2 = 8",
-    "_cacheBreaker": "1756033253422_9"
+    "explanation": "573 + 289 = 862"
   },
   {
     "_id": "math_4_hard_010",
-    "content": "Which number comes after 14?",
+    "content": "What is 168 ÷ 14?",
     "type": "multiple_choice",
-    "options": [
-      "13",
-      "14",
-      "15",
-      "16"
-    ],
-    "correctAnswer": "15",
+    "options": ["11", "12", "13", "182"],
+    "correctAnswer": "12",
     "subject": "math",
     "grade": "4",
     "difficulty": "hard",
-    "explanation": "After 14 comes 15",
-    "_cacheBreaker": "1756033253422_10"
+    "explanation": "168 ÷ 14 = 12"
   },
   {
     "_id": "math_4_hard_011",
-    "content": "What is 5 + 4?",
+    "content": "What decimal is equivalent to 3/4?",
     "type": "multiple_choice",
-    "options": [
-      "4",
-      "5",
-      "9",
-      "10"
-    ],
-    "correctAnswer": "9",
+    "options": ["0.25", "0.5", "0.75", "0.34"],
+    "correctAnswer": "0.75",
     "subject": "math",
     "grade": "4",
     "difficulty": "hard",
-    "explanation": "5 + 4 = 9",
-    "_cacheBreaker": "1756033253422_11"
+    "explanation": "3/4 = 0.75"
   },
   {
     "_id": "math_4_hard_012",
-    "content": "What is 9 - 4?",
+    "content": "What is 684 - 397?",
     "type": "multiple_choice",
-    "options": [
-      "3",
-      "5",
-      "5",
-      "10"
-    ],
-    "correctAnswer": "5",
+    "options": ["285", "286", "287", "1081"],
+    "correctAnswer": "287",
     "subject": "math",
     "grade": "4",
     "difficulty": "hard",
-    "explanation": "9 - 4 = 5",
-    "_cacheBreaker": "1756033253422_12"
+    "explanation": "684 - 397 = 287"
   },
   {
     "_id": "math_4_hard_013",
-    "content": "How many sides does a rectangle have?",
+    "content": "What is 17 × 12?",
     "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "correctAnswer": "4",
+    "options": ["202", "203", "204", "172"],
+    "correctAnswer": "204",
     "subject": "math",
     "grade": "4",
     "difficulty": "hard",
-    "explanation": "A rectangle has 4 sides",
-    "_cacheBreaker": "1756033253422_13"
+    "explanation": "17 × 12 = 204"
   },
   {
     "_id": "math_4_hard_014",
-    "content": "What is 4 × 2?",
+    "content": "What is the perimeter of a rectangle with length 15 cm and width 9 cm?",
     "type": "multiple_choice",
-    "options": [
-      "4",
-      "8",
-      "9",
-      "12"
-    ],
-    "correctAnswer": "8",
+    "options": ["24 cm", "48 cm", "135 cm", "30 cm"],
+    "correctAnswer": "48 cm",
     "subject": "math",
     "grade": "4",
     "difficulty": "hard",
-    "explanation": "4 × 2 = 8",
-    "_cacheBreaker": "1756033253422_14"
+    "explanation": "Perimeter = 2(length + width) = 2(15 + 9) = 48 cm"
   },
   {
     "_id": "math_4_hard_015",
-    "content": "Which number comes after 14?",
+    "content": "What is 7/9 of 36?",
     "type": "multiple_choice",
-    "options": [
-      "13",
-      "14",
-      "15",
-      "16"
-    ],
-    "correctAnswer": "15",
+    "options": ["26", "27", "28", "252"],
+    "correctAnswer": "28",
     "subject": "math",
     "grade": "4",
     "difficulty": "hard",
-    "explanation": "After 14 comes 15",
-    "_cacheBreaker": "1756033253422_15"
+    "explanation": "7/9 of 36 = (7 × 36) ÷ 9 = 252 ÷ 9 = 28"
   },
   {
     "_id": "math_4_hard_016",
-    "content": "What is 5 + 4?",
+    "content": "What is 795 + 368?",
     "type": "multiple_choice",
-    "options": [
-      "4",
-      "5",
-      "9",
-      "10"
-    ],
-    "correctAnswer": "9",
+    "options": ["1161", "1162", "1163", "1164"],
+    "correctAnswer": "1163",
     "subject": "math",
     "grade": "4",
     "difficulty": "hard",
-    "explanation": "5 + 4 = 9",
-    "_cacheBreaker": "1756033253422_16"
+    "explanation": "795 + 368 = 1163"
   },
   {
     "_id": "math_4_hard_017",
-    "content": "What is 9 - 4?",
+    "content": "What is 192 ÷ 16?",
     "type": "multiple_choice",
-    "options": [
-      "3",
-      "5",
-      "5",
-      "10"
-    ],
-    "correctAnswer": "5",
+    "options": ["11", "12", "13", "208"],
+    "correctAnswer": "12",
     "subject": "math",
     "grade": "4",
     "difficulty": "hard",
-    "explanation": "9 - 4 = 5",
-    "_cacheBreaker": "1756033253422_17"
+    "explanation": "192 ÷ 16 = 12"
   },
   {
     "_id": "math_4_hard_018",
-    "content": "How many sides does a rectangle have?",
+    "content": "What decimal is equivalent to 1/5?",
     "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "correctAnswer": "4",
+    "options": ["0.15", "0.2", "0.25", "0.5"],
+    "correctAnswer": "0.2",
     "subject": "math",
     "grade": "4",
     "difficulty": "hard",
-    "explanation": "A rectangle has 4 sides",
-    "_cacheBreaker": "1756033253422_18"
+    "explanation": "1/5 = 0.2"
   },
   {
     "_id": "math_4_hard_019",
-    "content": "What is 4 × 2?",
+    "content": "What is 847 - 459?",
     "type": "multiple_choice",
-    "options": [
-      "4",
-      "8",
-      "9",
-      "12"
-    ],
-    "correctAnswer": "8",
+    "options": ["386", "387", "388", "1306"],
+    "correctAnswer": "388",
     "subject": "math",
     "grade": "4",
     "difficulty": "hard",
-    "explanation": "4 × 2 = 8",
-    "_cacheBreaker": "1756033253422_19"
+    "explanation": "847 - 459 = 388"
   },
   {
     "_id": "math_4_hard_020",
-    "content": "Which number comes after 14?",
+    "content": "What is 18 × 14?",
     "type": "multiple_choice",
-    "options": [
-      "13",
-      "14",
-      "15",
-      "16"
-    ],
-    "correctAnswer": "15",
+    "options": ["250", "251", "252", "184"],
+    "correctAnswer": "252",
     "subject": "math",
     "grade": "4",
     "difficulty": "hard",
-    "explanation": "After 14 comes 15",
-    "_cacheBreaker": "1756033253422_20"
-  },
-  {
-    "_id": "math_4_hard_021",
-    "content": "What is 5 + 4?",
-    "type": "multiple_choice",
-    "options": [
-      "4",
-      "5",
-      "9",
-      "10"
-    ],
-    "correctAnswer": "9",
-    "subject": "math",
-    "grade": "4",
-    "difficulty": "hard",
-    "explanation": "5 + 4 = 9",
-    "_cacheBreaker": "1756033253422_21"
-  },
-  {
-    "_id": "math_4_hard_022",
-    "content": "What is 9 - 4?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "5",
-      "5",
-      "10"
-    ],
-    "correctAnswer": "5",
-    "subject": "math",
-    "grade": "4",
-    "difficulty": "hard",
-    "explanation": "9 - 4 = 5",
-    "_cacheBreaker": "1756033253422_22"
-  },
-  {
-    "_id": "math_4_hard_023",
-    "content": "How many sides does a rectangle have?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "correctAnswer": "4",
-    "subject": "math",
-    "grade": "4",
-    "difficulty": "hard",
-    "explanation": "A rectangle has 4 sides",
-    "_cacheBreaker": "1756033253422_23"
-  },
-  {
-    "_id": "math_4_hard_024",
-    "content": "What is 4 × 2?",
-    "type": "multiple_choice",
-    "options": [
-      "4",
-      "8",
-      "9",
-      "12"
-    ],
-    "correctAnswer": "8",
-    "subject": "math",
-    "grade": "4",
-    "difficulty": "hard",
-    "explanation": "4 × 2 = 8",
-    "_cacheBreaker": "1756033253422_24"
-  },
-  {
-    "_id": "math_4_hard_025",
-    "content": "Which number comes after 14?",
-    "type": "multiple_choice",
-    "options": [
-      "13",
-      "14",
-      "15",
-      "16"
-    ],
-    "correctAnswer": "15",
-    "subject": "math",
-    "grade": "4",
-    "difficulty": "hard",
-    "explanation": "After 14 comes 15",
-    "_cacheBreaker": "1756033253422_25"
-  },
-  {
-    "_id": "math_4_hard_026",
-    "content": "What is 5 + 4?",
-    "type": "multiple_choice",
-    "options": [
-      "4",
-      "5",
-      "9",
-      "10"
-    ],
-    "correctAnswer": "9",
-    "subject": "math",
-    "grade": "4",
-    "difficulty": "hard",
-    "explanation": "5 + 4 = 9",
-    "_cacheBreaker": "1756033253422_26"
-  },
-  {
-    "_id": "math_4_hard_027",
-    "content": "What is 9 - 4?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "5",
-      "5",
-      "10"
-    ],
-    "correctAnswer": "5",
-    "subject": "math",
-    "grade": "4",
-    "difficulty": "hard",
-    "explanation": "9 - 4 = 5",
-    "_cacheBreaker": "1756033253422_27"
-  },
-  {
-    "_id": "math_4_hard_028",
-    "content": "How many sides does a rectangle have?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "correctAnswer": "4",
-    "subject": "math",
-    "grade": "4",
-    "difficulty": "hard",
-    "explanation": "A rectangle has 4 sides",
-    "_cacheBreaker": "1756033253422_28"
-  },
-  {
-    "_id": "math_4_hard_029",
-    "content": "What is 4 × 2?",
-    "type": "multiple_choice",
-    "options": [
-      "4",
-      "8",
-      "9",
-      "12"
-    ],
-    "correctAnswer": "8",
-    "subject": "math",
-    "grade": "4",
-    "difficulty": "hard",
-    "explanation": "4 × 2 = 8",
-    "_cacheBreaker": "1756033253422_29"
-  },
-  {
-    "_id": "math_4_hard_030",
-    "content": "Which number comes after 14?",
-    "type": "multiple_choice",
-    "options": [
-      "13",
-      "14",
-      "15",
-      "16"
-    ],
-    "correctAnswer": "15",
-    "subject": "math",
-    "grade": "4",
-    "difficulty": "hard",
-    "explanation": "After 14 comes 15",
-    "_cacheBreaker": "1756033253422_30"
-  },
-  {
-    "_id": "math_4_hard_031",
-    "content": "What is 5 + 4?",
-    "type": "multiple_choice",
-    "options": [
-      "4",
-      "5",
-      "9",
-      "10"
-    ],
-    "correctAnswer": "9",
-    "subject": "math",
-    "grade": "4",
-    "difficulty": "hard",
-    "explanation": "5 + 4 = 9",
-    "_cacheBreaker": "1756033253422_31"
-  },
-  {
-    "_id": "math_4_hard_032",
-    "content": "What is 9 - 4?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "5",
-      "5",
-      "10"
-    ],
-    "correctAnswer": "5",
-    "subject": "math",
-    "grade": "4",
-    "difficulty": "hard",
-    "explanation": "9 - 4 = 5",
-    "_cacheBreaker": "1756033253422_32"
-  },
-  {
-    "_id": "math_4_hard_033",
-    "content": "How many sides does a rectangle have?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "correctAnswer": "4",
-    "subject": "math",
-    "grade": "4",
-    "difficulty": "hard",
-    "explanation": "A rectangle has 4 sides",
-    "_cacheBreaker": "1756033253422_33"
-  },
-  {
-    "_id": "math_4_hard_034",
-    "content": "What is 4 × 2?",
-    "type": "multiple_choice",
-    "options": [
-      "4",
-      "8",
-      "9",
-      "12"
-    ],
-    "correctAnswer": "8",
-    "subject": "math",
-    "grade": "4",
-    "difficulty": "hard",
-    "explanation": "4 × 2 = 8",
-    "_cacheBreaker": "1756033253422_34"
-  },
-  {
-    "_id": "math_4_hard_035",
-    "content": "Which number comes after 14?",
-    "type": "multiple_choice",
-    "options": [
-      "13",
-      "14",
-      "15",
-      "16"
-    ],
-    "correctAnswer": "15",
-    "subject": "math",
-    "grade": "4",
-    "difficulty": "hard",
-    "explanation": "After 14 comes 15",
-    "_cacheBreaker": "1756033253422_35"
-  },
-  {
-    "_id": "math_4_hard_036",
-    "content": "What is 5 + 4?",
-    "type": "multiple_choice",
-    "options": [
-      "4",
-      "5",
-      "9",
-      "10"
-    ],
-    "correctAnswer": "9",
-    "subject": "math",
-    "grade": "4",
-    "difficulty": "hard",
-    "explanation": "5 + 4 = 9",
-    "_cacheBreaker": "1756033253422_36"
-  },
-  {
-    "_id": "math_4_hard_037",
-    "content": "What is 9 - 4?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "5",
-      "5",
-      "10"
-    ],
-    "correctAnswer": "5",
-    "subject": "math",
-    "grade": "4",
-    "difficulty": "hard",
-    "explanation": "9 - 4 = 5",
-    "_cacheBreaker": "1756033253422_37"
-  },
-  {
-    "_id": "math_4_hard_038",
-    "content": "How many sides does a rectangle have?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "correctAnswer": "4",
-    "subject": "math",
-    "grade": "4",
-    "difficulty": "hard",
-    "explanation": "A rectangle has 4 sides",
-    "_cacheBreaker": "1756033253422_38"
-  },
-  {
-    "_id": "math_4_hard_039",
-    "content": "What is 4 × 2?",
-    "type": "multiple_choice",
-    "options": [
-      "4",
-      "8",
-      "9",
-      "12"
-    ],
-    "correctAnswer": "8",
-    "subject": "math",
-    "grade": "4",
-    "difficulty": "hard",
-    "explanation": "4 × 2 = 8",
-    "_cacheBreaker": "1756033253422_39"
-  },
-  {
-    "_id": "math_4_hard_040",
-    "content": "Which number comes after 14?",
-    "type": "multiple_choice",
-    "options": [
-      "13",
-      "14",
-      "15",
-      "16"
-    ],
-    "correctAnswer": "15",
-    "subject": "math",
-    "grade": "4",
-    "difficulty": "hard",
-    "explanation": "After 14 comes 15",
-    "_cacheBreaker": "1756033253422_40"
-  },
-  {
-    "_id": "math_4_hard_041",
-    "content": "What is 5 + 4?",
-    "type": "multiple_choice",
-    "options": [
-      "4",
-      "5",
-      "9",
-      "10"
-    ],
-    "correctAnswer": "9",
-    "subject": "math",
-    "grade": "4",
-    "difficulty": "hard",
-    "explanation": "5 + 4 = 9",
-    "_cacheBreaker": "1756033253422_41"
-  },
-  {
-    "_id": "math_4_hard_042",
-    "content": "What is 9 - 4?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "5",
-      "5",
-      "10"
-    ],
-    "correctAnswer": "5",
-    "subject": "math",
-    "grade": "4",
-    "difficulty": "hard",
-    "explanation": "9 - 4 = 5",
-    "_cacheBreaker": "1756033253422_42"
-  },
-  {
-    "_id": "math_4_hard_043",
-    "content": "How many sides does a rectangle have?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "correctAnswer": "4",
-    "subject": "math",
-    "grade": "4",
-    "difficulty": "hard",
-    "explanation": "A rectangle has 4 sides",
-    "_cacheBreaker": "1756033253422_43"
-  },
-  {
-    "_id": "math_4_hard_044",
-    "content": "What is 4 × 2?",
-    "type": "multiple_choice",
-    "options": [
-      "4",
-      "8",
-      "9",
-      "12"
-    ],
-    "correctAnswer": "8",
-    "subject": "math",
-    "grade": "4",
-    "difficulty": "hard",
-    "explanation": "4 × 2 = 8",
-    "_cacheBreaker": "1756033253422_44"
-  },
-  {
-    "_id": "math_4_hard_045",
-    "content": "Which number comes after 14?",
-    "type": "multiple_choice",
-    "options": [
-      "13",
-      "14",
-      "15",
-      "16"
-    ],
-    "correctAnswer": "15",
-    "subject": "math",
-    "grade": "4",
-    "difficulty": "hard",
-    "explanation": "After 14 comes 15",
-    "_cacheBreaker": "1756033253422_45"
-  },
-  {
-    "_id": "math_4_hard_046",
-    "content": "What is 5 + 4?",
-    "type": "multiple_choice",
-    "options": [
-      "4",
-      "5",
-      "9",
-      "10"
-    ],
-    "correctAnswer": "9",
-    "subject": "math",
-    "grade": "4",
-    "difficulty": "hard",
-    "explanation": "5 + 4 = 9",
-    "_cacheBreaker": "1756033253422_46"
-  },
-  {
-    "_id": "math_4_hard_047",
-    "content": "What is 9 - 4?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "5",
-      "5",
-      "10"
-    ],
-    "correctAnswer": "5",
-    "subject": "math",
-    "grade": "4",
-    "difficulty": "hard",
-    "explanation": "9 - 4 = 5",
-    "_cacheBreaker": "1756033253422_47"
-  },
-  {
-    "_id": "math_4_hard_048",
-    "content": "How many sides does a rectangle have?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "correctAnswer": "4",
-    "subject": "math",
-    "grade": "4",
-    "difficulty": "hard",
-    "explanation": "A rectangle has 4 sides",
-    "_cacheBreaker": "1756033253422_48"
-  },
-  {
-    "_id": "math_4_hard_049",
-    "content": "What is 4 × 2?",
-    "type": "multiple_choice",
-    "options": [
-      "4",
-      "8",
-      "9",
-      "12"
-    ],
-    "correctAnswer": "8",
-    "subject": "math",
-    "grade": "4",
-    "difficulty": "hard",
-    "explanation": "4 × 2 = 8",
-    "_cacheBreaker": "1756033253422_49"
-  },
-  {
-    "_id": "math_4_hard_050",
-    "content": "Which number comes after 14?",
-    "type": "multiple_choice",
-    "options": [
-      "13",
-      "14",
-      "15",
-      "16"
-    ],
-    "correctAnswer": "15",
-    "subject": "math",
-    "grade": "4",
-    "difficulty": "hard",
-    "explanation": "After 14 comes 15",
-    "_cacheBreaker": "1756033253422_50"
+    "explanation": "18 × 14 = 252"
   }
 ]

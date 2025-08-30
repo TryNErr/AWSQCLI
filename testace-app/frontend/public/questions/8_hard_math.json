@@ -1,852 +1,222 @@
 [
   {
     "_id": "math_8_hard_001",
-    "content": "What is 2^2?",
+    "content": "Solve: x² - 7x + 12 = 0",
     "type": "multiple_choice",
-    "options": [
-      "-1",
-      "4",
-      "12",
-      "19"
-    ],
-    "correctAnswer": "4",
+    "options": ["x = 3, 4", "x = 2, 6", "x = 1, 12", "x = -3, -4"],
+    "correctAnswer": "x = 3, 4",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "2^2 = 4",
-    "_cacheBreaker": "1756035526312_1"
+    "explanation": "Factor: (x - 3)(x - 4) = 0, so x = 3 or x = 4"
   },
   {
     "_id": "math_8_hard_002",
-    "content": "What is 9^3?",
+    "content": "Find the volume of a cylinder with radius 3 cm and height 8 cm (use π = 3.14)",
     "type": "multiple_choice",
-    "options": [
-      "724",
-      "729",
-      "737",
-      "744"
-    ],
-    "correctAnswer": "729",
+    "options": ["72 cm³", "226.08 cm³", "452.16 cm³", "904.32 cm³"],
+    "correctAnswer": "226.08 cm³",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "9^3 = 729",
-    "_cacheBreaker": "1756035526312_2"
+    "explanation": "Volume = πr²h = 3.14 × 3² × 8 = 3.14 × 9 × 8 = 226.08 cm³"
   },
   {
     "_id": "math_8_hard_003",
-    "content": "What is 5^4?",
+    "content": "Simplify: √(x⁴y⁶)",
     "type": "multiple_choice",
-    "options": [
-      "620",
-      "625",
-      "633",
-      "640"
-    ],
-    "correctAnswer": "625",
+    "options": ["x²y³", "x⁴y⁶", "x²y²", "xy³"],
+    "correctAnswer": "x²y³",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "5^4 = 625",
-    "_cacheBreaker": "1756035526312_3"
+    "explanation": "√(x⁴y⁶) = √(x⁴) × √(y⁶) = x² × y³ = x²y³"
   },
   {
     "_id": "math_8_hard_004",
-    "content": "What is 5^2?",
+    "content": "What is the slope of a line perpendicular to y = 2x + 3?",
     "type": "multiple_choice",
-    "options": [
-      "20",
-      "25",
-      "33",
-      "40"
-    ],
-    "correctAnswer": "25",
+    "options": ["-1/2", "1/2", "-2", "2"],
+    "correctAnswer": "-1/2",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "5^2 = 25",
-    "_cacheBreaker": "1756035526312_4"
+    "explanation": "Perpendicular slopes are negative reciprocals. If slope is 2, perpendicular slope is -1/2"
   },
   {
     "_id": "math_8_hard_005",
-    "content": "What is 6^3?",
+    "content": "Solve the system: 2x + y = 7, x - y = 2",
     "type": "multiple_choice",
-    "options": [
-      "211",
-      "216",
-      "224",
-      "231"
-    ],
-    "correctAnswer": "216",
+    "options": ["x = 3, y = 1", "x = 2, y = 3", "x = 1, y = 5", "x = 4, y = -1"],
+    "correctAnswer": "x = 3, y = 1",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "6^3 = 216",
-    "_cacheBreaker": "1756035526312_5"
+    "explanation": "Add equations: 3x = 9, so x = 3. Substitute: 3 - y = 2, so y = 1"
   },
   {
     "_id": "math_8_hard_006",
-    "content": "What is 2^2?",
+    "content": "Solve: x² + 6x + 9 = 0",
     "type": "multiple_choice",
-    "options": [
-      "-1",
-      "4",
-      "12",
-      "19"
-    ],
-    "correctAnswer": "4",
+    "options": ["x = -3", "x = 3", "x = -3, 3", "x = -6, -9"],
+    "correctAnswer": "x = -3",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "2^2 = 4",
-    "_cacheBreaker": "1756035526312_6"
+    "explanation": "Factor: (x + 3)² = 0, so x = -3 (double root)"
   },
   {
     "_id": "math_8_hard_007",
-    "content": "What is 3^2?",
+    "content": "Find the surface area of a sphere with radius 4 cm (use π = 3.14)",
     "type": "multiple_choice",
-    "options": [
-      "4",
-      "9",
-      "17",
-      "24"
-    ],
-    "correctAnswer": "9",
+    "options": ["50.24 cm²", "200.96 cm²", "267.95 cm³", "100.48 cm²"],
+    "correctAnswer": "200.96 cm²",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "3^2 = 9",
-    "_cacheBreaker": "1756035526313_7"
+    "explanation": "Surface area = 4πr² = 4 × 3.14 × 4² = 4 × 3.14 × 16 = 200.96 cm²"
   },
   {
     "_id": "math_8_hard_008",
-    "content": "What is 9^2?",
+    "content": "Simplify: (3x²y)(2xy³)",
     "type": "multiple_choice",
-    "options": [
-      "76",
-      "81",
-      "89",
-      "96"
-    ],
-    "correctAnswer": "81",
+    "options": ["5x³y⁴", "6x³y⁴", "6x²y³", "5x²y⁴"],
+    "correctAnswer": "6x³y⁴",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "9^2 = 81",
-    "_cacheBreaker": "1756035526313_8"
+    "explanation": "(3x²y)(2xy³) = 3×2 × x²×x × y×y³ = 6x³y⁴"
   },
   {
     "_id": "math_8_hard_009",
-    "content": "What is 4^3?",
+    "content": "Solve: x² - 8x + 15 = 0",
     "type": "multiple_choice",
-    "options": [
-      "59",
-      "64",
-      "72",
-      "79"
-    ],
-    "correctAnswer": "64",
+    "options": ["x = 3, 5", "x = 1, 15", "x = -3, -5", "x = 8, 15"],
+    "correctAnswer": "x = 3, 5",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "4^3 = 64",
-    "_cacheBreaker": "1756035526313_9"
+    "explanation": "Factor: (x - 3)(x - 5) = 0, so x = 3 or x = 5"
   },
   {
     "_id": "math_8_hard_010",
-    "content": "What is 3^2?",
+    "content": "What is the equation of a line parallel to y = 3x + 2 passing through (1, 4)?",
     "type": "multiple_choice",
-    "options": [
-      "4",
-      "9",
-      "17",
-      "24"
-    ],
-    "correctAnswer": "9",
+    "options": ["y = 3x + 1", "y = 3x + 7", "y = -1/3x + 4", "y = 3x + 4"],
+    "correctAnswer": "y = 3x + 1",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "3^2 = 9",
-    "_cacheBreaker": "1756035526313_10"
+    "explanation": "Parallel lines have same slope. Using point-slope: y - 4 = 3(x - 1), so y = 3x + 1"
   },
   {
     "_id": "math_8_hard_011",
-    "content": "What is 6^4?",
+    "content": "Solve the system: 3x + 2y = 12, x - y = 1",
     "type": "multiple_choice",
-    "options": [
-      "1291",
-      "1296",
-      "1304",
-      "1311"
-    ],
-    "correctAnswer": "1296",
+    "options": ["x = 2, y = 3", "x = 3, y = 2", "x = 1, y = 0", "x = 4, y = 0"],
+    "correctAnswer": "x = 2, y = 1",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "6^4 = 1296",
-    "_cacheBreaker": "1756035526313_11"
+    "explanation": "From second equation: x = y + 1. Substitute: 3(y + 1) + 2y = 12, 5y = 9, y = 1.8"
   },
   {
     "_id": "math_8_hard_012",
-    "content": "What is 4^3?",
+    "content": "Find the volume of a cone with radius 5 cm and height 12 cm (use π = 3.14)",
     "type": "multiple_choice",
-    "options": [
-      "59",
-      "64",
-      "72",
-      "79"
-    ],
-    "correctAnswer": "64",
+    "options": ["314 cm³", "628 cm³", "942 cm³", "157 cm³"],
+    "correctAnswer": "314 cm³",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "4^3 = 64",
-    "_cacheBreaker": "1756035526313_12"
+    "explanation": "Volume = (1/3)πr²h = (1/3) × 3.14 × 5² × 12 = (1/3) × 3.14 × 25 × 12 = 314 cm³"
   },
   {
     "_id": "math_8_hard_013",
-    "content": "What is 3^4?",
+    "content": "Simplify: √(16x⁴)",
     "type": "multiple_choice",
-    "options": [
-      "76",
-      "81",
-      "89",
-      "96"
-    ],
-    "correctAnswer": "81",
+    "options": ["4x²", "16x²", "4x⁴", "8x²"],
+    "correctAnswer": "4x²",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "3^4 = 81",
-    "_cacheBreaker": "1756035526313_13"
+    "explanation": "√(16x⁴) = √16 × √(x⁴) = 4 × x² = 4x²"
   },
   {
     "_id": "math_8_hard_014",
-    "content": "What is 8^4?",
+    "content": "Solve: x² + 4x - 5 = 0",
     "type": "multiple_choice",
-    "options": [
-      "4091",
-      "4096",
-      "4104",
-      "4111"
-    ],
-    "correctAnswer": "4096",
+    "options": ["x = 1, -5", "x = -1, 5", "x = 2, -2", "x = 4, -5"],
+    "correctAnswer": "x = 1, -5",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "8^4 = 4096",
-    "_cacheBreaker": "1756035526313_14"
+    "explanation": "Factor: (x + 5)(x - 1) = 0, so x = -5 or x = 1"
   },
   {
     "_id": "math_8_hard_015",
-    "content": "What is 2^4?",
+    "content": "What is the slope of a line perpendicular to y = -3x + 1?",
     "type": "multiple_choice",
-    "options": [
-      "11",
-      "16",
-      "24",
-      "31"
-    ],
-    "correctAnswer": "16",
+    "options": ["3", "-3", "1/3", "-1/3"],
+    "correctAnswer": "1/3",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "2^4 = 16",
-    "_cacheBreaker": "1756035526313_15"
+    "explanation": "Perpendicular slopes are negative reciprocals. If slope is -3, perpendicular slope is 1/3"
   },
   {
     "_id": "math_8_hard_016",
-    "content": "What is 7^4?",
+    "content": "Solve the system: x + 2y = 8, 2x - y = 1",
     "type": "multiple_choice",
-    "options": [
-      "2396",
-      "2401",
-      "2409",
-      "2416"
-    ],
-    "correctAnswer": "2401",
+    "options": ["x = 2, y = 3", "x = 3, y = 2", "x = 1, y = 3.5", "x = 4, y = 2"],
+    "correctAnswer": "x = 2, y = 3",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "7^4 = 2401",
-    "_cacheBreaker": "1756035526313_16"
+    "explanation": "From first: x = 8 - 2y. Substitute: 2(8 - 2y) - y = 1, 16 - 5y = 1, y = 3, x = 2"
   },
   {
     "_id": "math_8_hard_017",
-    "content": "What is 2^3?",
+    "content": "Simplify: (4x³y²)(3x²y)",
     "type": "multiple_choice",
-    "options": [
-      "3",
-      "8",
-      "16",
-      "23"
-    ],
-    "correctAnswer": "8",
+    "options": ["7x⁵y³", "12x⁵y³", "12x⁶y²", "7x⁶y³"],
+    "correctAnswer": "12x⁵y³",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "2^3 = 8",
-    "_cacheBreaker": "1756035526313_17"
+    "explanation": "(4x³y²)(3x²y) = 4×3 × x³×x² × y²×y = 12x⁵y³"
   },
   {
     "_id": "math_8_hard_018",
-    "content": "What is 2^2?",
+    "content": "Solve: x² - 10x + 25 = 0",
     "type": "multiple_choice",
-    "options": [
-      "-1",
-      "4",
-      "12",
-      "19"
-    ],
-    "correctAnswer": "4",
+    "options": ["x = 5", "x = -5", "x = 5, -5", "x = 10, 25"],
+    "correctAnswer": "x = 5",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "2^2 = 4",
-    "_cacheBreaker": "1756035526313_18"
+    "explanation": "Factor: (x - 5)² = 0, so x = 5 (double root)"
   },
   {
     "_id": "math_8_hard_019",
-    "content": "What is 2^3?",
+    "content": "Find the surface area of a cylinder with radius 4 cm and height 6 cm (use π = 3.14)",
     "type": "multiple_choice",
-    "options": [
-      "3",
-      "8",
-      "16",
-      "23"
-    ],
-    "correctAnswer": "8",
+    "options": ["251.2 cm²", "301.44 cm²", "150.72 cm²", "452.16 cm²"],
+    "correctAnswer": "251.2 cm²",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "2^3 = 8",
-    "_cacheBreaker": "1756035526313_19"
+    "explanation": "Surface area = 2πr² + 2πrh = 2×3.14×16 + 2×3.14×4×6 = 100.48 + 150.72 = 251.2 cm²"
   },
   {
     "_id": "math_8_hard_020",
-    "content": "What is 6^2?",
+    "content": "Solve: x² + 2x - 8 = 0",
     "type": "multiple_choice",
-    "options": [
-      "31",
-      "36",
-      "44",
-      "51"
-    ],
-    "correctAnswer": "36",
+    "options": ["x = 2, -4", "x = -2, 4", "x = 1, -8", "x = 8, -1"],
+    "correctAnswer": "x = 2, -4",
     "subject": "math",
     "grade": "8",
     "difficulty": "hard",
-    "explanation": "6^2 = 36",
-    "_cacheBreaker": "1756035526313_20"
-  },
-  {
-    "_id": "math_8_hard_021",
-    "content": "What is 8^4?",
-    "type": "multiple_choice",
-    "options": [
-      "4091",
-      "4096",
-      "4104",
-      "4111"
-    ],
-    "correctAnswer": "4096",
-    "subject": "math",
-    "grade": "8",
-    "difficulty": "hard",
-    "explanation": "8^4 = 4096",
-    "_cacheBreaker": "1756035526313_21"
-  },
-  {
-    "_id": "math_8_hard_022",
-    "content": "What is 7^2?",
-    "type": "multiple_choice",
-    "options": [
-      "44",
-      "49",
-      "57",
-      "64"
-    ],
-    "correctAnswer": "49",
-    "subject": "math",
-    "grade": "8",
-    "difficulty": "hard",
-    "explanation": "7^2 = 49",
-    "_cacheBreaker": "1756035526313_22"
-  },
-  {
-    "_id": "math_8_hard_023",
-    "content": "What is 9^2?",
-    "type": "multiple_choice",
-    "options": [
-      "76",
-      "81",
-      "89",
-      "96"
-    ],
-    "correctAnswer": "81",
-    "subject": "math",
-    "grade": "8",
-    "difficulty": "hard",
-    "explanation": "9^2 = 81",
-    "_cacheBreaker": "1756035526313_23"
-  },
-  {
-    "_id": "math_8_hard_024",
-    "content": "What is 3^4?",
-    "type": "multiple_choice",
-    "options": [
-      "76",
-      "81",
-      "89",
-      "96"
-    ],
-    "correctAnswer": "81",
-    "subject": "math",
-    "grade": "8",
-    "difficulty": "hard",
-    "explanation": "3^4 = 81",
-    "_cacheBreaker": "1756035526313_24"
-  },
-  {
-    "_id": "math_8_hard_025",
-    "content": "What is 2^2?",
-    "type": "multiple_choice",
-    "options": [
-      "-1",
-      "4",
-      "12",
-      "19"
-    ],
-    "correctAnswer": "4",
-    "subject": "math",
-    "grade": "8",
-    "difficulty": "hard",
-    "explanation": "2^2 = 4",
-    "_cacheBreaker": "1756035526313_25"
-  },
-  {
-    "_id": "math_8_hard_026",
-    "content": "What is 4^3?",
-    "type": "multiple_choice",
-    "options": [
-      "59",
-      "64",
-      "72",
-      "79"
-    ],
-    "correctAnswer": "64",
-    "subject": "math",
-    "grade": "8",
-    "difficulty": "hard",
-    "explanation": "4^3 = 64",
-    "_cacheBreaker": "1756035526313_26"
-  },
-  {
-    "_id": "math_8_hard_027",
-    "content": "What is 8^3?",
-    "type": "multiple_choice",
-    "options": [
-      "507",
-      "512",
-      "520",
-      "527"
-    ],
-    "correctAnswer": "512",
-    "subject": "math",
-    "grade": "8",
-    "difficulty": "hard",
-    "explanation": "8^3 = 512",
-    "_cacheBreaker": "1756035526313_27"
-  },
-  {
-    "_id": "math_8_hard_028",
-    "content": "What is 6^4?",
-    "type": "multiple_choice",
-    "options": [
-      "1291",
-      "1296",
-      "1304",
-      "1311"
-    ],
-    "correctAnswer": "1296",
-    "subject": "math",
-    "grade": "8",
-    "difficulty": "hard",
-    "explanation": "6^4 = 1296",
-    "_cacheBreaker": "1756035526313_28"
-  },
-  {
-    "_id": "math_8_hard_029",
-    "content": "What is 4^2?",
-    "type": "multiple_choice",
-    "options": [
-      "11",
-      "16",
-      "24",
-      "31"
-    ],
-    "correctAnswer": "16",
-    "subject": "math",
-    "grade": "8",
-    "difficulty": "hard",
-    "explanation": "4^2 = 16",
-    "_cacheBreaker": "1756035526313_29"
-  },
-  {
-    "_id": "math_8_hard_030",
-    "content": "What is 7^4?",
-    "type": "multiple_choice",
-    "options": [
-      "2396",
-      "2401",
-      "2409",
-      "2416"
-    ],
-    "correctAnswer": "2401",
-    "subject": "math",
-    "grade": "8",
-    "difficulty": "hard",
-    "explanation": "7^4 = 2401",
-    "_cacheBreaker": "1756035526313_30"
-  },
-  {
-    "_id": "math_8_hard_031",
-    "content": "What is 3^4?",
-    "type": "multiple_choice",
-    "options": [
-      "76",
-      "81",
-      "89",
-      "96"
-    ],
-    "correctAnswer": "81",
-    "subject": "math",
-    "grade": "8",
-    "difficulty": "hard",
-    "explanation": "3^4 = 81",
-    "_cacheBreaker": "1756035526313_31"
-  },
-  {
-    "_id": "math_8_hard_032",
-    "content": "What is 8^3?",
-    "type": "multiple_choice",
-    "options": [
-      "507",
-      "512",
-      "520",
-      "527"
-    ],
-    "correctAnswer": "512",
-    "subject": "math",
-    "grade": "8",
-    "difficulty": "hard",
-    "explanation": "8^3 = 512",
-    "_cacheBreaker": "1756035526313_32"
-  },
-  {
-    "_id": "math_8_hard_033",
-    "content": "What is 3^2?",
-    "type": "multiple_choice",
-    "options": [
-      "4",
-      "9",
-      "17",
-      "24"
-    ],
-    "correctAnswer": "9",
-    "subject": "math",
-    "grade": "8",
-    "difficulty": "hard",
-    "explanation": "3^2 = 9",
-    "_cacheBreaker": "1756035526313_33"
-  },
-  {
-    "_id": "math_8_hard_034",
-    "content": "What is 8^3?",
-    "type": "multiple_choice",
-    "options": [
-      "507",
-      "512",
-      "520",
-      "527"
-    ],
-    "correctAnswer": "512",
-    "subject": "math",
-    "grade": "8",
-    "difficulty": "hard",
-    "explanation": "8^3 = 512",
-    "_cacheBreaker": "1756035526313_34"
-  },
-  {
-    "_id": "math_8_hard_035",
-    "content": "What is 9^2?",
-    "type": "multiple_choice",
-    "options": [
-      "76",
-      "81",
-      "89",
-      "96"
-    ],
-    "correctAnswer": "81",
-    "subject": "math",
-    "grade": "8",
-    "difficulty": "hard",
-    "explanation": "9^2 = 81",
-    "_cacheBreaker": "1756035526313_35"
-  },
-  {
-    "_id": "math_8_hard_036",
-    "content": "What is 5^2?",
-    "type": "multiple_choice",
-    "options": [
-      "20",
-      "25",
-      "33",
-      "40"
-    ],
-    "correctAnswer": "25",
-    "subject": "math",
-    "grade": "8",
-    "difficulty": "hard",
-    "explanation": "5^2 = 25",
-    "_cacheBreaker": "1756035526313_36"
-  },
-  {
-    "_id": "math_8_hard_037",
-    "content": "What is 3^2?",
-    "type": "multiple_choice",
-    "options": [
-      "4",
-      "9",
-      "17",
-      "24"
-    ],
-    "correctAnswer": "9",
-    "subject": "math",
-    "grade": "8",
-    "difficulty": "hard",
-    "explanation": "3^2 = 9",
-    "_cacheBreaker": "1756035526313_37"
-  },
-  {
-    "_id": "math_8_hard_038",
-    "content": "What is 6^2?",
-    "type": "multiple_choice",
-    "options": [
-      "31",
-      "36",
-      "44",
-      "51"
-    ],
-    "correctAnswer": "36",
-    "subject": "math",
-    "grade": "8",
-    "difficulty": "hard",
-    "explanation": "6^2 = 36",
-    "_cacheBreaker": "1756035526313_38"
-  },
-  {
-    "_id": "math_8_hard_039",
-    "content": "What is 7^3?",
-    "type": "multiple_choice",
-    "options": [
-      "338",
-      "343",
-      "351",
-      "358"
-    ],
-    "correctAnswer": "343",
-    "subject": "math",
-    "grade": "8",
-    "difficulty": "hard",
-    "explanation": "7^3 = 343",
-    "_cacheBreaker": "1756035526313_39"
-  },
-  {
-    "_id": "math_8_hard_040",
-    "content": "What is 3^3?",
-    "type": "multiple_choice",
-    "options": [
-      "22",
-      "27",
-      "35",
-      "42"
-    ],
-    "correctAnswer": "27",
-    "subject": "math",
-    "grade": "8",
-    "difficulty": "hard",
-    "explanation": "3^3 = 27",
-    "_cacheBreaker": "1756035526313_40"
-  },
-  {
-    "_id": "math_8_hard_041",
-    "content": "What is 4^3?",
-    "type": "multiple_choice",
-    "options": [
-      "59",
-      "64",
-      "72",
-      "79"
-    ],
-    "correctAnswer": "64",
-    "subject": "math",
-    "grade": "8",
-    "difficulty": "hard",
-    "explanation": "4^3 = 64",
-    "_cacheBreaker": "1756035526313_41"
-  },
-  {
-    "_id": "math_8_hard_042",
-    "content": "What is 3^4?",
-    "type": "multiple_choice",
-    "options": [
-      "76",
-      "81",
-      "89",
-      "96"
-    ],
-    "correctAnswer": "81",
-    "subject": "math",
-    "grade": "8",
-    "difficulty": "hard",
-    "explanation": "3^4 = 81",
-    "_cacheBreaker": "1756035526313_42"
-  },
-  {
-    "_id": "math_8_hard_043",
-    "content": "What is 3^3?",
-    "type": "multiple_choice",
-    "options": [
-      "22",
-      "27",
-      "35",
-      "42"
-    ],
-    "correctAnswer": "27",
-    "subject": "math",
-    "grade": "8",
-    "difficulty": "hard",
-    "explanation": "3^3 = 27",
-    "_cacheBreaker": "1756035526313_43"
-  },
-  {
-    "_id": "math_8_hard_044",
-    "content": "What is 8^3?",
-    "type": "multiple_choice",
-    "options": [
-      "507",
-      "512",
-      "520",
-      "527"
-    ],
-    "correctAnswer": "512",
-    "subject": "math",
-    "grade": "8",
-    "difficulty": "hard",
-    "explanation": "8^3 = 512",
-    "_cacheBreaker": "1756035526313_44"
-  },
-  {
-    "_id": "math_8_hard_045",
-    "content": "What is 7^3?",
-    "type": "multiple_choice",
-    "options": [
-      "338",
-      "343",
-      "351",
-      "358"
-    ],
-    "correctAnswer": "343",
-    "subject": "math",
-    "grade": "8",
-    "difficulty": "hard",
-    "explanation": "7^3 = 343",
-    "_cacheBreaker": "1756035526313_45"
-  },
-  {
-    "_id": "math_8_hard_046",
-    "content": "What is 8^2?",
-    "type": "multiple_choice",
-    "options": [
-      "59",
-      "64",
-      "72",
-      "79"
-    ],
-    "correctAnswer": "64",
-    "subject": "math",
-    "grade": "8",
-    "difficulty": "hard",
-    "explanation": "8^2 = 64",
-    "_cacheBreaker": "1756035526313_46"
-  },
-  {
-    "_id": "math_8_hard_047",
-    "content": "What is 5^4?",
-    "type": "multiple_choice",
-    "options": [
-      "620",
-      "625",
-      "633",
-      "640"
-    ],
-    "correctAnswer": "625",
-    "subject": "math",
-    "grade": "8",
-    "difficulty": "hard",
-    "explanation": "5^4 = 625",
-    "_cacheBreaker": "1756035526313_47"
-  },
-  {
-    "_id": "math_8_hard_048",
-    "content": "What is 9^2?",
-    "type": "multiple_choice",
-    "options": [
-      "76",
-      "81",
-      "89",
-      "96"
-    ],
-    "correctAnswer": "81",
-    "subject": "math",
-    "grade": "8",
-    "difficulty": "hard",
-    "explanation": "9^2 = 81",
-    "_cacheBreaker": "1756035526313_48"
-  },
-  {
-    "_id": "math_8_hard_049",
-    "content": "What is 8^2?",
-    "type": "multiple_choice",
-    "options": [
-      "59",
-      "64",
-      "72",
-      "79"
-    ],
-    "correctAnswer": "64",
-    "subject": "math",
-    "grade": "8",
-    "difficulty": "hard",
-    "explanation": "8^2 = 64",
-    "_cacheBreaker": "1756035526313_49"
-  },
-  {
-    "_id": "math_8_hard_050",
-    "content": "What is 5^4?",
-    "type": "multiple_choice",
-    "options": [
-      "620",
-      "625",
-      "633",
-      "640"
-    ],
-    "correctAnswer": "625",
-    "subject": "math",
-    "grade": "8",
-    "difficulty": "hard",
-    "explanation": "5^4 = 625",
-    "_cacheBreaker": "1756035526313_50"
+    "explanation": "Factor: (x + 4)(x - 2) = 0, so x = -4 or x = 2"
   }
 ]

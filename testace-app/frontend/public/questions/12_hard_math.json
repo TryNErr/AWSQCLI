@@ -1,852 +1,222 @@
 [
   {
     "_id": "math_12_hard_001",
-    "content": "What is 2^3?",
+    "content": "Find the integral: ∫x²dx",
     "type": "multiple_choice",
-    "options": [
-      "3",
-      "8",
-      "16",
-      "23"
-    ],
-    "correctAnswer": "8",
+    "options": ["x³/3 + C", "2x + C", "x³ + C", "3x² + C"],
+    "correctAnswer": "x³/3 + C",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "2^3 = 8",
-    "_cacheBreaker": "1756035526369_1"
+    "explanation": "∫x²dx = x³/3 + C"
   },
   {
     "_id": "math_12_hard_002",
-    "content": "What is 5^4?",
+    "content": "Find the limit: lim(x→∞) (1/x)",
     "type": "multiple_choice",
-    "options": [
-      "620",
-      "625",
-      "633",
-      "640"
-    ],
-    "correctAnswer": "625",
+    "options": ["0", "1", "∞", "undefined"],
+    "correctAnswer": "0",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "5^4 = 625",
-    "_cacheBreaker": "1756035526369_2"
+    "explanation": "As x approaches infinity, 1/x approaches 0"
   },
   {
     "_id": "math_12_hard_003",
-    "content": "What is 8^4?",
+    "content": "What is the second derivative of f(x) = x⁴?",
     "type": "multiple_choice",
-    "options": [
-      "4091",
-      "4096",
-      "4104",
-      "4111"
-    ],
-    "correctAnswer": "4096",
+    "options": ["4x³", "12x²", "24x", "4x"],
+    "correctAnswer": "12x²",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "8^4 = 4096",
-    "_cacheBreaker": "1756035526369_3"
+    "explanation": "f'(x) = 4x³, f''(x) = 12x²"
   },
   {
     "_id": "math_12_hard_004",
-    "content": "What is 8^4?",
+    "content": "Find the integral: ∫e^x dx",
     "type": "multiple_choice",
-    "options": [
-      "4091",
-      "4096",
-      "4104",
-      "4111"
-    ],
-    "correctAnswer": "4096",
+    "options": ["e^x + C", "xe^(x-1) + C", "x + C", "e^x"],
+    "correctAnswer": "e^x + C",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "8^4 = 4096",
-    "_cacheBreaker": "1756035526369_4"
+    "explanation": "∫e^x dx = e^x + C"
   },
   {
     "_id": "math_12_hard_005",
-    "content": "What is 2^4?",
+    "content": "Find the limit: lim(x→0) (sin x)/x",
     "type": "multiple_choice",
-    "options": [
-      "11",
-      "16",
-      "24",
-      "31"
-    ],
-    "correctAnswer": "16",
+    "options": ["0", "1", "∞", "undefined"],
+    "correctAnswer": "1",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "2^4 = 16",
-    "_cacheBreaker": "1756035526369_5"
+    "explanation": "This is a standard limit: lim(x→0) (sin x)/x = 1"
   },
   {
     "_id": "math_12_hard_006",
-    "content": "What is 3^2?",
+    "content": "Find the derivative of f(x) = x^x",
     "type": "multiple_choice",
-    "options": [
-      "4",
-      "9",
-      "17",
-      "24"
-    ],
-    "correctAnswer": "9",
+    "options": ["x^x(ln x + 1)", "x^(x-1)", "x^x ln x", "x^x"],
+    "correctAnswer": "x^x(ln x + 1)",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "3^2 = 9",
-    "_cacheBreaker": "1756035526369_6"
+    "explanation": "Using logarithmic differentiation: f'(x) = x^x(ln x + 1)"
   },
   {
     "_id": "math_12_hard_007",
-    "content": "What is 7^3?",
+    "content": "Find the integral: ∫sin x dx",
     "type": "multiple_choice",
-    "options": [
-      "338",
-      "343",
-      "351",
-      "358"
-    ],
-    "correctAnswer": "343",
+    "options": ["-cos x + C", "cos x + C", "sin x + C", "-sin x + C"],
+    "correctAnswer": "-cos x + C",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "7^3 = 343",
-    "_cacheBreaker": "1756035526369_7"
+    "explanation": "∫sin x dx = -cos x + C"
   },
   {
     "_id": "math_12_hard_008",
-    "content": "What is 7^2?",
+    "content": "Find the limit: lim(x→2) (x² - 4)/(x - 2)",
     "type": "multiple_choice",
-    "options": [
-      "44",
-      "49",
-      "57",
-      "64"
-    ],
-    "correctAnswer": "49",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "hard",
-    "explanation": "7^2 = 49",
-    "_cacheBreaker": "1756035526369_8"
-  },
-  {
-    "_id": "math_12_hard_009",
-    "content": "What is 4^4?",
-    "type": "multiple_choice",
-    "options": [
-      "251",
-      "256",
-      "264",
-      "271"
-    ],
-    "correctAnswer": "256",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "hard",
-    "explanation": "4^4 = 256",
-    "_cacheBreaker": "1756035526369_9"
-  },
-  {
-    "_id": "math_12_hard_010",
-    "content": "What is 9^3?",
-    "type": "multiple_choice",
-    "options": [
-      "724",
-      "729",
-      "737",
-      "744"
-    ],
-    "correctAnswer": "729",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "hard",
-    "explanation": "9^3 = 729",
-    "_cacheBreaker": "1756035526369_10"
-  },
-  {
-    "_id": "math_12_hard_011",
-    "content": "What is 8^2?",
-    "type": "multiple_choice",
-    "options": [
-      "59",
-      "64",
-      "72",
-      "79"
-    ],
-    "correctAnswer": "64",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "hard",
-    "explanation": "8^2 = 64",
-    "_cacheBreaker": "1756035526369_11"
-  },
-  {
-    "_id": "math_12_hard_012",
-    "content": "What is 6^4?",
-    "type": "multiple_choice",
-    "options": [
-      "1291",
-      "1296",
-      "1304",
-      "1311"
-    ],
-    "correctAnswer": "1296",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "hard",
-    "explanation": "6^4 = 1296",
-    "_cacheBreaker": "1756035526369_12"
-  },
-  {
-    "_id": "math_12_hard_013",
-    "content": "What is 6^4?",
-    "type": "multiple_choice",
-    "options": [
-      "1291",
-      "1296",
-      "1304",
-      "1311"
-    ],
-    "correctAnswer": "1296",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "hard",
-    "explanation": "6^4 = 1296",
-    "_cacheBreaker": "1756035526369_13"
-  },
-  {
-    "_id": "math_12_hard_014",
-    "content": "What is 5^4?",
-    "type": "multiple_choice",
-    "options": [
-      "620",
-      "625",
-      "633",
-      "640"
-    ],
-    "correctAnswer": "625",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "hard",
-    "explanation": "5^4 = 625",
-    "_cacheBreaker": "1756035526369_14"
-  },
-  {
-    "_id": "math_12_hard_015",
-    "content": "What is 6^4?",
-    "type": "multiple_choice",
-    "options": [
-      "1291",
-      "1296",
-      "1304",
-      "1311"
-    ],
-    "correctAnswer": "1296",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "hard",
-    "explanation": "6^4 = 1296",
-    "_cacheBreaker": "1756035526369_15"
-  },
-  {
-    "_id": "math_12_hard_016",
-    "content": "What is 7^3?",
-    "type": "multiple_choice",
-    "options": [
-      "338",
-      "343",
-      "351",
-      "358"
-    ],
-    "correctAnswer": "343",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "hard",
-    "explanation": "7^3 = 343",
-    "_cacheBreaker": "1756035526369_16"
-  },
-  {
-    "_id": "math_12_hard_017",
-    "content": "What is 3^3?",
-    "type": "multiple_choice",
-    "options": [
-      "22",
-      "27",
-      "35",
-      "42"
-    ],
-    "correctAnswer": "27",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "hard",
-    "explanation": "3^3 = 27",
-    "_cacheBreaker": "1756035526369_17"
-  },
-  {
-    "_id": "math_12_hard_018",
-    "content": "What is 7^2?",
-    "type": "multiple_choice",
-    "options": [
-      "44",
-      "49",
-      "57",
-      "64"
-    ],
-    "correctAnswer": "49",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "hard",
-    "explanation": "7^2 = 49",
-    "_cacheBreaker": "1756035526369_18"
-  },
-  {
-    "_id": "math_12_hard_019",
-    "content": "What is 2^3?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "8",
-      "16",
-      "23"
-    ],
-    "correctAnswer": "8",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "hard",
-    "explanation": "2^3 = 8",
-    "_cacheBreaker": "1756035526369_19"
-  },
-  {
-    "_id": "math_12_hard_020",
-    "content": "What is 4^4?",
-    "type": "multiple_choice",
-    "options": [
-      "251",
-      "256",
-      "264",
-      "271"
-    ],
-    "correctAnswer": "256",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "hard",
-    "explanation": "4^4 = 256",
-    "_cacheBreaker": "1756035526369_20"
-  },
-  {
-    "_id": "math_12_hard_021",
-    "content": "What is 3^3?",
-    "type": "multiple_choice",
-    "options": [
-      "22",
-      "27",
-      "35",
-      "42"
-    ],
-    "correctAnswer": "27",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "hard",
-    "explanation": "3^3 = 27",
-    "_cacheBreaker": "1756035526369_21"
-  },
-  {
-    "_id": "math_12_hard_022",
-    "content": "What is 9^2?",
-    "type": "multiple_choice",
-    "options": [
-      "76",
-      "81",
-      "89",
-      "96"
-    ],
-    "correctAnswer": "81",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "hard",
-    "explanation": "9^2 = 81",
-    "_cacheBreaker": "1756035526369_22"
-  },
-  {
-    "_id": "math_12_hard_023",
-    "content": "What is 8^4?",
-    "type": "multiple_choice",
-    "options": [
-      "4091",
-      "4096",
-      "4104",
-      "4111"
-    ],
-    "correctAnswer": "4096",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "hard",
-    "explanation": "8^4 = 4096",
-    "_cacheBreaker": "1756035526369_23"
-  },
-  {
-    "_id": "math_12_hard_024",
-    "content": "What is 5^2?",
-    "type": "multiple_choice",
-    "options": [
-      "20",
-      "25",
-      "33",
-      "40"
-    ],
-    "correctAnswer": "25",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "hard",
-    "explanation": "5^2 = 25",
-    "_cacheBreaker": "1756035526369_24"
-  },
-  {
-    "_id": "math_12_hard_025",
-    "content": "What is 6^3?",
-    "type": "multiple_choice",
-    "options": [
-      "211",
-      "216",
-      "224",
-      "231"
-    ],
-    "correctAnswer": "216",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "hard",
-    "explanation": "6^3 = 216",
-    "_cacheBreaker": "1756035526369_25"
-  },
-  {
-    "_id": "math_12_hard_026",
-    "content": "What is 3^4?",
-    "type": "multiple_choice",
-    "options": [
-      "76",
-      "81",
-      "89",
-      "96"
-    ],
-    "correctAnswer": "81",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "hard",
-    "explanation": "3^4 = 81",
-    "_cacheBreaker": "1756035526369_26"
-  },
-  {
-    "_id": "math_12_hard_027",
-    "content": "What is 4^2?",
-    "type": "multiple_choice",
-    "options": [
-      "11",
-      "16",
-      "24",
-      "31"
-    ],
-    "correctAnswer": "16",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "hard",
-    "explanation": "4^2 = 16",
-    "_cacheBreaker": "1756035526369_27"
-  },
-  {
-    "_id": "math_12_hard_028",
-    "content": "What is 9^2?",
-    "type": "multiple_choice",
-    "options": [
-      "76",
-      "81",
-      "89",
-      "96"
-    ],
-    "correctAnswer": "81",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "hard",
-    "explanation": "9^2 = 81",
-    "_cacheBreaker": "1756035526369_28"
-  },
-  {
-    "_id": "math_12_hard_029",
-    "content": "What is 6^3?",
-    "type": "multiple_choice",
-    "options": [
-      "211",
-      "216",
-      "224",
-      "231"
-    ],
-    "correctAnswer": "216",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "hard",
-    "explanation": "6^3 = 216",
-    "_cacheBreaker": "1756035526369_29"
-  },
-  {
-    "_id": "math_12_hard_030",
-    "content": "What is 4^2?",
-    "type": "multiple_choice",
-    "options": [
-      "11",
-      "16",
-      "24",
-      "31"
-    ],
-    "correctAnswer": "16",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "hard",
-    "explanation": "4^2 = 16",
-    "_cacheBreaker": "1756035526369_30"
-  },
-  {
-    "_id": "math_12_hard_031",
-    "content": "What is 3^3?",
-    "type": "multiple_choice",
-    "options": [
-      "22",
-      "27",
-      "35",
-      "42"
-    ],
-    "correctAnswer": "27",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "hard",
-    "explanation": "3^3 = 27",
-    "_cacheBreaker": "1756035526369_31"
-  },
-  {
-    "_id": "math_12_hard_032",
-    "content": "What is 8^3?",
-    "type": "multiple_choice",
-    "options": [
-      "507",
-      "512",
-      "520",
-      "527"
-    ],
-    "correctAnswer": "512",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "hard",
-    "explanation": "8^3 = 512",
-    "_cacheBreaker": "1756035526369_32"
-  },
-  {
-    "_id": "math_12_hard_033",
-    "content": "What is 6^4?",
-    "type": "multiple_choice",
-    "options": [
-      "1291",
-      "1296",
-      "1304",
-      "1311"
-    ],
-    "correctAnswer": "1296",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "hard",
-    "explanation": "6^4 = 1296",
-    "_cacheBreaker": "1756035526369_33"
-  },
-  {
-    "_id": "math_12_hard_034",
-    "content": "What is 4^4?",
-    "type": "multiple_choice",
-    "options": [
-      "251",
-      "256",
-      "264",
-      "271"
-    ],
-    "correctAnswer": "256",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "hard",
-    "explanation": "4^4 = 256",
-    "_cacheBreaker": "1756035526369_34"
-  },
-  {
-    "_id": "math_12_hard_035",
-    "content": "What is 7^3?",
-    "type": "multiple_choice",
-    "options": [
-      "338",
-      "343",
-      "351",
-      "358"
-    ],
-    "correctAnswer": "343",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "hard",
-    "explanation": "7^3 = 343",
-    "_cacheBreaker": "1756035526369_35"
-  },
-  {
-    "_id": "math_12_hard_036",
-    "content": "What is 9^3?",
-    "type": "multiple_choice",
-    "options": [
-      "724",
-      "729",
-      "737",
-      "744"
-    ],
-    "correctAnswer": "729",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "hard",
-    "explanation": "9^3 = 729",
-    "_cacheBreaker": "1756035526369_36"
-  },
-  {
-    "_id": "math_12_hard_037",
-    "content": "What is 2^4?",
-    "type": "multiple_choice",
-    "options": [
-      "11",
-      "16",
-      "24",
-      "31"
-    ],
-    "correctAnswer": "16",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "hard",
-    "explanation": "2^4 = 16",
-    "_cacheBreaker": "1756035526369_37"
-  },
-  {
-    "_id": "math_12_hard_038",
-    "content": "What is 4^2?",
-    "type": "multiple_choice",
-    "options": [
-      "11",
-      "16",
-      "24",
-      "31"
-    ],
-    "correctAnswer": "16",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "hard",
-    "explanation": "4^2 = 16",
-    "_cacheBreaker": "1756035526369_38"
-  },
-  {
-    "_id": "math_12_hard_039",
-    "content": "What is 5^4?",
-    "type": "multiple_choice",
-    "options": [
-      "620",
-      "625",
-      "633",
-      "640"
-    ],
-    "correctAnswer": "625",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "hard",
-    "explanation": "5^4 = 625",
-    "_cacheBreaker": "1756035526369_39"
-  },
-  {
-    "_id": "math_12_hard_040",
-    "content": "What is 2^2?",
-    "type": "multiple_choice",
-    "options": [
-      "-1",
-      "4",
-      "12",
-      "19"
-    ],
+    "options": ["0", "2", "4", "undefined"],
     "correctAnswer": "4",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "2^2 = 4",
-    "_cacheBreaker": "1756035526369_40"
+    "explanation": "Factor: (x² - 4)/(x - 2) = (x - 2)(x + 2)/(x - 2) = x + 2, so limit = 4"
   },
   {
-    "_id": "math_12_hard_041",
-    "content": "What is 9^2?",
+    "_id": "math_12_hard_009",
+    "content": "Find the derivative of f(x) = tan x",
     "type": "multiple_choice",
-    "options": [
-      "76",
-      "81",
-      "89",
-      "96"
-    ],
-    "correctAnswer": "81",
+    "options": ["sec² x", "cot x", "sec x", "csc² x"],
+    "correctAnswer": "sec² x",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "9^2 = 81",
-    "_cacheBreaker": "1756035526369_41"
+    "explanation": "The derivative of tan x is sec² x"
   },
   {
-    "_id": "math_12_hard_042",
-    "content": "What is 9^4?",
+    "_id": "math_12_hard_010",
+    "content": "Find the integral: ∫cos x dx",
     "type": "multiple_choice",
-    "options": [
-      "6556",
-      "6561",
-      "6569",
-      "6576"
-    ],
-    "correctAnswer": "6561",
+    "options": ["sin x + C", "-sin x + C", "cos x + C", "-cos x + C"],
+    "correctAnswer": "sin x + C",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "9^4 = 6561",
-    "_cacheBreaker": "1756035526369_42"
+    "explanation": "∫cos x dx = sin x + C"
   },
   {
-    "_id": "math_12_hard_043",
-    "content": "What is 3^2?",
+    "_id": "math_12_hard_011",
+    "content": "Find the limit: lim(x→1) (x³ - 1)/(x - 1)",
     "type": "multiple_choice",
-    "options": [
-      "4",
-      "9",
-      "17",
-      "24"
-    ],
-    "correctAnswer": "9",
+    "options": ["1", "2", "3", "undefined"],
+    "correctAnswer": "3",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "3^2 = 9",
-    "_cacheBreaker": "1756035526369_43"
+    "explanation": "Factor: (x³ - 1)/(x - 1) = (x - 1)(x² + x + 1)/(x - 1) = x² + x + 1, so limit = 3"
   },
   {
-    "_id": "math_12_hard_044",
-    "content": "What is 9^3?",
+    "_id": "math_12_hard_012",
+    "content": "Find the derivative of f(x) = sec x",
     "type": "multiple_choice",
-    "options": [
-      "724",
-      "729",
-      "737",
-      "744"
-    ],
-    "correctAnswer": "729",
+    "options": ["sec x tan x", "csc x cot x", "sec² x", "-csc x cot x"],
+    "correctAnswer": "sec x tan x",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "9^3 = 729",
-    "_cacheBreaker": "1756035526369_44"
+    "explanation": "The derivative of sec x is sec x tan x"
   },
   {
-    "_id": "math_12_hard_045",
-    "content": "What is 7^3?",
+    "_id": "math_12_hard_013",
+    "content": "Find the integral: ∫x³ dx",
     "type": "multiple_choice",
-    "options": [
-      "338",
-      "343",
-      "351",
-      "358"
-    ],
-    "correctAnswer": "343",
+    "options": ["x⁴/4 + C", "3x² + C", "x⁴ + C", "4x³ + C"],
+    "correctAnswer": "x⁴/4 + C",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "7^3 = 343",
-    "_cacheBreaker": "1756035526369_45"
+    "explanation": "∫x³ dx = x⁴/4 + C"
   },
   {
-    "_id": "math_12_hard_046",
-    "content": "What is 6^2?",
+    "_id": "math_12_hard_014",
+    "content": "Find the limit: lim(x→0) (1 - cos x)/x²",
     "type": "multiple_choice",
-    "options": [
-      "31",
-      "36",
-      "44",
-      "51"
-    ],
-    "correctAnswer": "36",
+    "options": ["0", "1/2", "1", "∞"],
+    "correctAnswer": "1/2",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "6^2 = 36",
-    "_cacheBreaker": "1756035526369_46"
+    "explanation": "Using L'Hôpital's rule twice: lim(x→0) (1 - cos x)/x² = 1/2"
   },
   {
-    "_id": "math_12_hard_047",
-    "content": "What is 7^3?",
+    "_id": "math_12_hard_015",
+    "content": "Find the derivative of f(x) = ln(sin x)",
     "type": "multiple_choice",
-    "options": [
-      "338",
-      "343",
-      "351",
-      "358"
-    ],
-    "correctAnswer": "343",
+    "options": ["cot x", "tan x", "1/sin x", "cos x/sin x"],
+    "correctAnswer": "cot x",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "7^3 = 343",
-    "_cacheBreaker": "1756035526369_47"
+    "explanation": "Using chain rule: f'(x) = (1/sin x) × cos x = cot x"
   },
   {
-    "_id": "math_12_hard_048",
-    "content": "What is 8^2?",
+    "_id": "math_12_hard_016",
+    "content": "Find the integral: ∫sec² x dx",
     "type": "multiple_choice",
-    "options": [
-      "59",
-      "64",
-      "72",
-      "79"
-    ],
-    "correctAnswer": "64",
+    "options": ["tan x + C", "sec x + C", "cot x + C", "csc x + C"],
+    "correctAnswer": "tan x + C",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "8^2 = 64",
-    "_cacheBreaker": "1756035526369_48"
+    "explanation": "∫sec² x dx = tan x + C"
   },
   {
-    "_id": "math_12_hard_049",
-    "content": "What is 9^4?",
+    "_id": "math_12_hard_017",
+    "content": "Find the limit: lim(x→∞) (3x² + 2x)/(x² - 1)",
     "type": "multiple_choice",
-    "options": [
-      "6556",
-      "6561",
-      "6569",
-      "6576"
-    ],
-    "correctAnswer": "6561",
+    "options": ["0", "2", "3", "∞"],
+    "correctAnswer": "3",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "9^4 = 6561",
-    "_cacheBreaker": "1756035526369_49"
+    "explanation": "Divide by highest power: lim(x→∞) (3 + 2/x)/(1 - 1/x²) = 3/1 = 3"
   },
   {
-    "_id": "math_12_hard_050",
-    "content": "What is 8^4?",
+    "_id": "math_12_hard_018",
+    "content": "Find the derivative of f(x) = e^(2x)",
     "type": "multiple_choice",
-    "options": [
-      "4091",
-      "4096",
-      "4104",
-      "4111"
-    ],
-    "correctAnswer": "4096",
+    "options": ["2e^(2x)", "e^(2x)", "2xe^(2x-1)", "e^(2x) + 2x"],
+    "correctAnswer": "2e^(2x)",
     "subject": "math",
     "grade": "12",
     "difficulty": "hard",
-    "explanation": "8^4 = 4096",
-    "_cacheBreaker": "1756035526369_50"
+    "explanation": "Using chain rule: f'(x) = e^(2x) × 2 = 2e^(2x)"
+  },
+  {
+    "_id": "math_12_hard_019",
+    "content": "Find the integral: ∫(1/(x² + 1)) dx",
+    "type": "multiple_choice",
+    "options": ["arctan x + C", "ln(x² + 1) + C", "1/(2x) + C", "x/(x² + 1) + C"],
+    "correctAnswer": "arctan x + C",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "hard",
+    "explanation": "∫(1/(x² + 1)) dx = arctan x + C"
+  },
+  {
+    "_id": "math_12_hard_020",
+    "content": "Find the limit: lim(x→0⁺) x ln x",
+    "type": "multiple_choice",
+    "options": ["0", "1", "-∞", "∞"],
+    "correctAnswer": "0",
+    "subject": "math",
+    "grade": "12",
+    "difficulty": "hard",
+    "explanation": "Rewrite as lim(x→0⁺) (ln x)/(1/x) and use L'Hôpital's rule: limit = 0"
   }
 ]

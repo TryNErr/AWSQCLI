@@ -1,852 +1,222 @@
 [
   {
     "_id": "math_12_easy_001",
-    "content": "What is 46 + 25?",
+    "content": "Find the derivative of f(x) = 5x",
     "type": "multiple_choice",
-    "options": [
-      "69",
-      "71",
-      "74",
-      "76"
-    ],
-    "correctAnswer": "71",
+    "options": ["5", "5x", "x", "0"],
+    "correctAnswer": "5",
     "subject": "math",
     "grade": "12",
     "difficulty": "easy",
-    "explanation": "46 + 25 = 71",
-    "_cacheBreaker": "1756035526367_1"
+    "explanation": "The derivative of 5x is 5"
   },
   {
     "_id": "math_12_easy_002",
-    "content": "What is 53 + 36?",
+    "content": "What is ln(e)?",
     "type": "multiple_choice",
-    "options": [
-      "87",
-      "89",
-      "92",
-      "94"
-    ],
-    "correctAnswer": "89",
+    "options": ["0", "1", "e", "undefined"],
+    "correctAnswer": "1",
     "subject": "math",
     "grade": "12",
     "difficulty": "easy",
-    "explanation": "53 + 36 = 89",
-    "_cacheBreaker": "1756035526367_2"
+    "explanation": "ln(e) = 1 by definition"
   },
   {
     "_id": "math_12_easy_003",
-    "content": "What is 46 + 38?",
+    "content": "What is sin(90°)?",
     "type": "multiple_choice",
-    "options": [
-      "82",
-      "84",
-      "87",
-      "89"
-    ],
-    "correctAnswer": "84",
+    "options": ["0", "1/2", "√3/2", "1"],
+    "correctAnswer": "1",
     "subject": "math",
     "grade": "12",
     "difficulty": "easy",
-    "explanation": "46 + 38 = 84",
-    "_cacheBreaker": "1756035526367_3"
+    "explanation": "sin(90°) = 1"
   },
   {
     "_id": "math_12_easy_004",
-    "content": "What is 48 + 26?",
+    "content": "Find the derivative of f(x) = x²",
     "type": "multiple_choice",
-    "options": [
-      "72",
-      "74",
-      "77",
-      "79"
-    ],
-    "correctAnswer": "74",
+    "options": ["2x", "x", "x²", "2"],
+    "correctAnswer": "2x",
     "subject": "math",
     "grade": "12",
     "difficulty": "easy",
-    "explanation": "48 + 26 = 74",
-    "_cacheBreaker": "1756035526367_4"
+    "explanation": "Using power rule: f'(x) = 2x"
   },
   {
     "_id": "math_12_easy_005",
-    "content": "What is 50 + 30?",
+    "content": "What is cos(0°)?",
     "type": "multiple_choice",
-    "options": [
-      "78",
-      "80",
-      "83",
-      "85"
-    ],
-    "correctAnswer": "80",
+    "options": ["0", "1/2", "√3/2", "1"],
+    "correctAnswer": "1",
     "subject": "math",
     "grade": "12",
     "difficulty": "easy",
-    "explanation": "50 + 30 = 80",
-    "_cacheBreaker": "1756035526367_5"
+    "explanation": "cos(0°) = 1"
   },
   {
     "_id": "math_12_easy_006",
-    "content": "What is 54 + 30?",
+    "content": "What is e⁰?",
     "type": "multiple_choice",
-    "options": [
-      "82",
-      "84",
-      "87",
-      "89"
-    ],
-    "correctAnswer": "84",
+    "options": ["0", "1", "e", "undefined"],
+    "correctAnswer": "1",
     "subject": "math",
     "grade": "12",
     "difficulty": "easy",
-    "explanation": "54 + 30 = 84",
-    "_cacheBreaker": "1756035526367_6"
+    "explanation": "Any number to the power 0 equals 1"
   },
   {
     "_id": "math_12_easy_007",
-    "content": "What is 39 + 28?",
+    "content": "Find the derivative of f(x) = 3x²",
     "type": "multiple_choice",
-    "options": [
-      "65",
-      "67",
-      "70",
-      "72"
-    ],
-    "correctAnswer": "67",
+    "options": ["6x", "3x", "3x²", "6"],
+    "correctAnswer": "6x",
     "subject": "math",
     "grade": "12",
     "difficulty": "easy",
-    "explanation": "39 + 28 = 67",
-    "_cacheBreaker": "1756035526367_7"
+    "explanation": "Using power rule: f'(x) = 6x"
   },
   {
     "_id": "math_12_easy_008",
-    "content": "What is 47 + 34?",
+    "content": "What is tan(0°)?",
     "type": "multiple_choice",
-    "options": [
-      "79",
-      "81",
-      "84",
-      "86"
-    ],
-    "correctAnswer": "81",
+    "options": ["0", "1/2", "√3/2", "1"],
+    "correctAnswer": "0",
     "subject": "math",
     "grade": "12",
     "difficulty": "easy",
-    "explanation": "47 + 34 = 81",
-    "_cacheBreaker": "1756035526367_8"
+    "explanation": "tan(0°) = 0"
   },
   {
     "_id": "math_12_easy_009",
-    "content": "What is 37 + 36?",
+    "content": "What is ln(1)?",
     "type": "multiple_choice",
-    "options": [
-      "71",
-      "73",
-      "76",
-      "78"
-    ],
-    "correctAnswer": "73",
+    "options": ["0", "1", "e", "undefined"],
+    "correctAnswer": "0",
     "subject": "math",
     "grade": "12",
     "difficulty": "easy",
-    "explanation": "37 + 36 = 73",
-    "_cacheBreaker": "1756035526367_9"
+    "explanation": "ln(1) = 0 by definition"
   },
   {
     "_id": "math_12_easy_010",
-    "content": "What is 41 + 30?",
+    "content": "Find the derivative of f(x) = x³",
     "type": "multiple_choice",
-    "options": [
-      "69",
-      "71",
-      "74",
-      "76"
-    ],
-    "correctAnswer": "71",
+    "options": ["3x²", "x²", "3x³", "3x"],
+    "correctAnswer": "3x²",
     "subject": "math",
     "grade": "12",
     "difficulty": "easy",
-    "explanation": "41 + 30 = 71",
-    "_cacheBreaker": "1756035526367_10"
+    "explanation": "Using power rule: f'(x) = 3x²"
   },
   {
     "_id": "math_12_easy_011",
-    "content": "What is 54 + 28?",
+    "content": "What is sin(0°)?",
     "type": "multiple_choice",
-    "options": [
-      "80",
-      "82",
-      "85",
-      "87"
-    ],
-    "correctAnswer": "82",
+    "options": ["0", "1/2", "√3/2", "1"],
+    "correctAnswer": "0",
     "subject": "math",
     "grade": "12",
     "difficulty": "easy",
-    "explanation": "54 + 28 = 82",
-    "_cacheBreaker": "1756035526367_11"
+    "explanation": "sin(0°) = 0"
   },
   {
     "_id": "math_12_easy_012",
-    "content": "What is 53 + 30?",
+    "content": "What is e¹?",
     "type": "multiple_choice",
-    "options": [
-      "81",
-      "83",
-      "86",
-      "88"
-    ],
-    "correctAnswer": "83",
+    "options": ["0", "1", "e", "2.718"],
+    "correctAnswer": "e",
     "subject": "math",
     "grade": "12",
     "difficulty": "easy",
-    "explanation": "53 + 30 = 83",
-    "_cacheBreaker": "1756035526367_12"
+    "explanation": "e¹ = e"
   },
   {
     "_id": "math_12_easy_013",
-    "content": "What is 37 + 32?",
+    "content": "Find the derivative of f(x) = 4x³",
     "type": "multiple_choice",
-    "options": [
-      "67",
-      "69",
-      "72",
-      "74"
-    ],
-    "correctAnswer": "69",
+    "options": ["12x²", "4x²", "12x³", "4x"],
+    "correctAnswer": "12x²",
     "subject": "math",
     "grade": "12",
     "difficulty": "easy",
-    "explanation": "37 + 32 = 69",
-    "_cacheBreaker": "1756035526367_13"
+    "explanation": "Using power rule: f'(x) = 12x²"
   },
   {
     "_id": "math_12_easy_014",
-    "content": "What is 51 + 37?",
+    "content": "What is cos(90°)?",
     "type": "multiple_choice",
-    "options": [
-      "86",
-      "88",
-      "91",
-      "93"
-    ],
-    "correctAnswer": "88",
+    "options": ["0", "1/2", "√3/2", "1"],
+    "correctAnswer": "0",
     "subject": "math",
     "grade": "12",
     "difficulty": "easy",
-    "explanation": "51 + 37 = 88",
-    "_cacheBreaker": "1756035526367_14"
+    "explanation": "cos(90°) = 0"
   },
   {
     "_id": "math_12_easy_015",
-    "content": "What is 52 + 31?",
+    "content": "What is log₁₀(10)?",
     "type": "multiple_choice",
-    "options": [
-      "81",
-      "83",
-      "86",
-      "88"
-    ],
-    "correctAnswer": "83",
+    "options": ["0", "1", "10", "100"],
+    "correctAnswer": "1",
     "subject": "math",
     "grade": "12",
     "difficulty": "easy",
-    "explanation": "52 + 31 = 83",
-    "_cacheBreaker": "1756035526367_15"
+    "explanation": "log₁₀(10) = 1 by definition"
   },
   {
     "_id": "math_12_easy_016",
-    "content": "What is 39 + 26?",
+    "content": "Find the derivative of f(x) = x + 3",
     "type": "multiple_choice",
-    "options": [
-      "63",
-      "65",
-      "68",
-      "70"
-    ],
-    "correctAnswer": "65",
+    "options": ["1", "x", "3", "x + 3"],
+    "correctAnswer": "1",
     "subject": "math",
     "grade": "12",
     "difficulty": "easy",
-    "explanation": "39 + 26 = 65",
-    "_cacheBreaker": "1756035526367_16"
+    "explanation": "The derivative of x + 3 is 1"
   },
   {
     "_id": "math_12_easy_017",
-    "content": "What is 52 + 28?",
+    "content": "What is tan(45°)?",
     "type": "multiple_choice",
-    "options": [
-      "78",
-      "80",
-      "83",
-      "85"
-    ],
-    "correctAnswer": "80",
+    "options": ["0", "1/2", "√3/2", "1"],
+    "correctAnswer": "1",
     "subject": "math",
     "grade": "12",
     "difficulty": "easy",
-    "explanation": "52 + 28 = 80",
-    "_cacheBreaker": "1756035526367_17"
+    "explanation": "tan(45°) = 1"
   },
   {
     "_id": "math_12_easy_018",
-    "content": "What is 36 + 36?",
+    "content": "What is 2⁰?",
     "type": "multiple_choice",
-    "options": [
-      "70",
-      "72",
-      "75",
-      "77"
-    ],
-    "correctAnswer": "72",
+    "options": ["0", "1", "2", "undefined"],
+    "correctAnswer": "1",
     "subject": "math",
     "grade": "12",
     "difficulty": "easy",
-    "explanation": "36 + 36 = 72",
-    "_cacheBreaker": "1756035526367_18"
+    "explanation": "Any number to the power 0 equals 1"
   },
   {
     "_id": "math_12_easy_019",
-    "content": "What is 43 + 36?",
+    "content": "Find the derivative of f(x) = 2x + 1",
     "type": "multiple_choice",
-    "options": [
-      "77",
-      "79",
-      "82",
-      "84"
-    ],
-    "correctAnswer": "79",
+    "options": ["2", "2x", "1", "2x + 1"],
+    "correctAnswer": "2",
     "subject": "math",
     "grade": "12",
     "difficulty": "easy",
-    "explanation": "43 + 36 = 79",
-    "_cacheBreaker": "1756035526367_19"
+    "explanation": "The derivative of 2x + 1 is 2"
   },
   {
     "_id": "math_12_easy_020",
-    "content": "What is 53 + 30?",
+    "content": "What is log₂(2)?",
     "type": "multiple_choice",
-    "options": [
-      "81",
-      "83",
-      "86",
-      "88"
-    ],
-    "correctAnswer": "83",
+    "options": ["0", "1", "2", "4"],
+    "correctAnswer": "1",
     "subject": "math",
     "grade": "12",
     "difficulty": "easy",
-    "explanation": "53 + 30 = 83",
-    "_cacheBreaker": "1756035526367_20"
-  },
-  {
-    "_id": "math_12_easy_021",
-    "content": "What is 55 + 37?",
-    "type": "multiple_choice",
-    "options": [
-      "90",
-      "92",
-      "95",
-      "97"
-    ],
-    "correctAnswer": "92",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "easy",
-    "explanation": "55 + 37 = 92",
-    "_cacheBreaker": "1756035526367_21"
-  },
-  {
-    "_id": "math_12_easy_022",
-    "content": "What is 55 + 35?",
-    "type": "multiple_choice",
-    "options": [
-      "88",
-      "90",
-      "93",
-      "95"
-    ],
-    "correctAnswer": "90",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "easy",
-    "explanation": "55 + 35 = 90",
-    "_cacheBreaker": "1756035526367_22"
-  },
-  {
-    "_id": "math_12_easy_023",
-    "content": "What is 44 + 24?",
-    "type": "multiple_choice",
-    "options": [
-      "66",
-      "68",
-      "71",
-      "73"
-    ],
-    "correctAnswer": "68",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "easy",
-    "explanation": "44 + 24 = 68",
-    "_cacheBreaker": "1756035526367_23"
-  },
-  {
-    "_id": "math_12_easy_024",
-    "content": "What is 37 + 32?",
-    "type": "multiple_choice",
-    "options": [
-      "67",
-      "69",
-      "72",
-      "74"
-    ],
-    "correctAnswer": "69",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "easy",
-    "explanation": "37 + 32 = 69",
-    "_cacheBreaker": "1756035526367_24"
-  },
-  {
-    "_id": "math_12_easy_025",
-    "content": "What is 51 + 36?",
-    "type": "multiple_choice",
-    "options": [
-      "85",
-      "87",
-      "90",
-      "92"
-    ],
-    "correctAnswer": "87",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "easy",
-    "explanation": "51 + 36 = 87",
-    "_cacheBreaker": "1756035526367_25"
-  },
-  {
-    "_id": "math_12_easy_026",
-    "content": "What is 37 + 34?",
-    "type": "multiple_choice",
-    "options": [
-      "69",
-      "71",
-      "74",
-      "76"
-    ],
-    "correctAnswer": "71",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "easy",
-    "explanation": "37 + 34 = 71",
-    "_cacheBreaker": "1756035526367_26"
-  },
-  {
-    "_id": "math_12_easy_027",
-    "content": "What is 37 + 25?",
-    "type": "multiple_choice",
-    "options": [
-      "60",
-      "62",
-      "65",
-      "67"
-    ],
-    "correctAnswer": "62",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "easy",
-    "explanation": "37 + 25 = 62",
-    "_cacheBreaker": "1756035526367_27"
-  },
-  {
-    "_id": "math_12_easy_028",
-    "content": "What is 54 + 36?",
-    "type": "multiple_choice",
-    "options": [
-      "88",
-      "90",
-      "93",
-      "95"
-    ],
-    "correctAnswer": "90",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "easy",
-    "explanation": "54 + 36 = 90",
-    "_cacheBreaker": "1756035526367_28"
-  },
-  {
-    "_id": "math_12_easy_029",
-    "content": "What is 54 + 29?",
-    "type": "multiple_choice",
-    "options": [
-      "81",
-      "83",
-      "86",
-      "88"
-    ],
-    "correctAnswer": "83",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "easy",
-    "explanation": "54 + 29 = 83",
-    "_cacheBreaker": "1756035526367_29"
-  },
-  {
-    "_id": "math_12_easy_030",
-    "content": "What is 53 + 27?",
-    "type": "multiple_choice",
-    "options": [
-      "78",
-      "80",
-      "83",
-      "85"
-    ],
-    "correctAnswer": "80",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "easy",
-    "explanation": "53 + 27 = 80",
-    "_cacheBreaker": "1756035526367_30"
-  },
-  {
-    "_id": "math_12_easy_031",
-    "content": "What is 41 + 24?",
-    "type": "multiple_choice",
-    "options": [
-      "63",
-      "65",
-      "68",
-      "70"
-    ],
-    "correctAnswer": "65",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "easy",
-    "explanation": "41 + 24 = 65",
-    "_cacheBreaker": "1756035526367_31"
-  },
-  {
-    "_id": "math_12_easy_032",
-    "content": "What is 52 + 31?",
-    "type": "multiple_choice",
-    "options": [
-      "81",
-      "83",
-      "86",
-      "88"
-    ],
-    "correctAnswer": "83",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "easy",
-    "explanation": "52 + 31 = 83",
-    "_cacheBreaker": "1756035526367_32"
-  },
-  {
-    "_id": "math_12_easy_033",
-    "content": "What is 38 + 38?",
-    "type": "multiple_choice",
-    "options": [
-      "74",
-      "76",
-      "79",
-      "81"
-    ],
-    "correctAnswer": "76",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "easy",
-    "explanation": "38 + 38 = 76",
-    "_cacheBreaker": "1756035526367_33"
-  },
-  {
-    "_id": "math_12_easy_034",
-    "content": "What is 45 + 37?",
-    "type": "multiple_choice",
-    "options": [
-      "80",
-      "82",
-      "85",
-      "87"
-    ],
-    "correctAnswer": "82",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "easy",
-    "explanation": "45 + 37 = 82",
-    "_cacheBreaker": "1756035526367_34"
-  },
-  {
-    "_id": "math_12_easy_035",
-    "content": "What is 36 + 36?",
-    "type": "multiple_choice",
-    "options": [
-      "70",
-      "72",
-      "75",
-      "77"
-    ],
-    "correctAnswer": "72",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "easy",
-    "explanation": "36 + 36 = 72",
-    "_cacheBreaker": "1756035526367_35"
-  },
-  {
-    "_id": "math_12_easy_036",
-    "content": "What is 43 + 27?",
-    "type": "multiple_choice",
-    "options": [
-      "68",
-      "70",
-      "73",
-      "75"
-    ],
-    "correctAnswer": "70",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "easy",
-    "explanation": "43 + 27 = 70",
-    "_cacheBreaker": "1756035526367_36"
-  },
-  {
-    "_id": "math_12_easy_037",
-    "content": "What is 49 + 37?",
-    "type": "multiple_choice",
-    "options": [
-      "84",
-      "86",
-      "89",
-      "91"
-    ],
-    "correctAnswer": "86",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "easy",
-    "explanation": "49 + 37 = 86",
-    "_cacheBreaker": "1756035526367_37"
-  },
-  {
-    "_id": "math_12_easy_038",
-    "content": "What is 54 + 28?",
-    "type": "multiple_choice",
-    "options": [
-      "80",
-      "82",
-      "85",
-      "87"
-    ],
-    "correctAnswer": "82",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "easy",
-    "explanation": "54 + 28 = 82",
-    "_cacheBreaker": "1756035526367_38"
-  },
-  {
-    "_id": "math_12_easy_039",
-    "content": "What is 45 + 32?",
-    "type": "multiple_choice",
-    "options": [
-      "75",
-      "77",
-      "80",
-      "82"
-    ],
-    "correctAnswer": "77",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "easy",
-    "explanation": "45 + 32 = 77",
-    "_cacheBreaker": "1756035526367_39"
-  },
-  {
-    "_id": "math_12_easy_040",
-    "content": "What is 42 + 36?",
-    "type": "multiple_choice",
-    "options": [
-      "76",
-      "78",
-      "81",
-      "83"
-    ],
-    "correctAnswer": "78",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "easy",
-    "explanation": "42 + 36 = 78",
-    "_cacheBreaker": "1756035526367_40"
-  },
-  {
-    "_id": "math_12_easy_041",
-    "content": "What is 42 + 30?",
-    "type": "multiple_choice",
-    "options": [
-      "70",
-      "72",
-      "75",
-      "77"
-    ],
-    "correctAnswer": "72",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "easy",
-    "explanation": "42 + 30 = 72",
-    "_cacheBreaker": "1756035526367_41"
-  },
-  {
-    "_id": "math_12_easy_042",
-    "content": "What is 48 + 27?",
-    "type": "multiple_choice",
-    "options": [
-      "73",
-      "75",
-      "78",
-      "80"
-    ],
-    "correctAnswer": "75",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "easy",
-    "explanation": "48 + 27 = 75",
-    "_cacheBreaker": "1756035526367_42"
-  },
-  {
-    "_id": "math_12_easy_043",
-    "content": "What is 47 + 35?",
-    "type": "multiple_choice",
-    "options": [
-      "80",
-      "82",
-      "85",
-      "87"
-    ],
-    "correctAnswer": "82",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "easy",
-    "explanation": "47 + 35 = 82",
-    "_cacheBreaker": "1756035526367_43"
-  },
-  {
-    "_id": "math_12_easy_044",
-    "content": "What is 39 + 32?",
-    "type": "multiple_choice",
-    "options": [
-      "69",
-      "71",
-      "74",
-      "76"
-    ],
-    "correctAnswer": "71",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "easy",
-    "explanation": "39 + 32 = 71",
-    "_cacheBreaker": "1756035526367_44"
-  },
-  {
-    "_id": "math_12_easy_045",
-    "content": "What is 46 + 34?",
-    "type": "multiple_choice",
-    "options": [
-      "78",
-      "80",
-      "83",
-      "85"
-    ],
-    "correctAnswer": "80",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "easy",
-    "explanation": "46 + 34 = 80",
-    "_cacheBreaker": "1756035526367_45"
-  },
-  {
-    "_id": "math_12_easy_046",
-    "content": "What is 51 + 34?",
-    "type": "multiple_choice",
-    "options": [
-      "83",
-      "85",
-      "88",
-      "90"
-    ],
-    "correctAnswer": "85",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "easy",
-    "explanation": "51 + 34 = 85",
-    "_cacheBreaker": "1756035526367_46"
-  },
-  {
-    "_id": "math_12_easy_047",
-    "content": "What is 47 + 35?",
-    "type": "multiple_choice",
-    "options": [
-      "80",
-      "82",
-      "85",
-      "87"
-    ],
-    "correctAnswer": "82",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "easy",
-    "explanation": "47 + 35 = 82",
-    "_cacheBreaker": "1756035526367_47"
-  },
-  {
-    "_id": "math_12_easy_048",
-    "content": "What is 36 + 28?",
-    "type": "multiple_choice",
-    "options": [
-      "62",
-      "64",
-      "67",
-      "69"
-    ],
-    "correctAnswer": "64",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "easy",
-    "explanation": "36 + 28 = 64",
-    "_cacheBreaker": "1756035526367_48"
-  },
-  {
-    "_id": "math_12_easy_049",
-    "content": "What is 36 + 30?",
-    "type": "multiple_choice",
-    "options": [
-      "64",
-      "66",
-      "69",
-      "71"
-    ],
-    "correctAnswer": "66",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "easy",
-    "explanation": "36 + 30 = 66",
-    "_cacheBreaker": "1756035526367_49"
-  },
-  {
-    "_id": "math_12_easy_050",
-    "content": "What is 55 + 28?",
-    "type": "multiple_choice",
-    "options": [
-      "81",
-      "83",
-      "86",
-      "88"
-    ],
-    "correctAnswer": "83",
-    "subject": "math",
-    "grade": "12",
-    "difficulty": "easy",
-    "explanation": "55 + 28 = 83",
-    "_cacheBreaker": "1756035526367_50"
+    "explanation": "log₂(2) = 1 by definition"
   }
 ]

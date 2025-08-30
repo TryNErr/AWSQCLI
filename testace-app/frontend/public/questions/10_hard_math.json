@@ -1,852 +1,222 @@
 [
   {
     "_id": "math_10_hard_001",
-    "content": "What is 8^2?",
+    "content": "Solve: log₃(x) = 4",
     "type": "multiple_choice",
-    "options": [
-      "59",
-      "64",
-      "72",
-      "79"
-    ],
-    "correctAnswer": "64",
+    "options": ["x = 12", "x = 64", "x = 81", "x = 7"],
+    "correctAnswer": "x = 81",
     "subject": "math",
     "grade": "10",
     "difficulty": "hard",
-    "explanation": "8^2 = 64",
-    "_cacheBreaker": "1756035526328_1"
+    "explanation": "If log₃(x) = 4, then x = 3⁴ = 81"
   },
   {
     "_id": "math_10_hard_002",
-    "content": "What is 5^3?",
+    "content": "Find sin(45°)",
     "type": "multiple_choice",
-    "options": [
-      "120",
-      "125",
-      "133",
-      "140"
-    ],
-    "correctAnswer": "125",
+    "options": ["1/2", "√2/2", "√3/2", "1"],
+    "correctAnswer": "√2/2",
     "subject": "math",
     "grade": "10",
     "difficulty": "hard",
-    "explanation": "5^3 = 125",
-    "_cacheBreaker": "1756035526328_2"
+    "explanation": "sin(45°) = √2/2"
   },
   {
     "_id": "math_10_hard_003",
-    "content": "What is 7^3?",
+    "content": "Solve the system: x + y = 5, 2x - y = 1",
     "type": "multiple_choice",
-    "options": [
-      "338",
-      "343",
-      "351",
-      "358"
-    ],
-    "correctAnswer": "343",
+    "options": ["x = 2, y = 3", "x = 3, y = 2", "x = 1, y = 4", "x = 4, y = 1"],
+    "correctAnswer": "x = 2, y = 3",
     "subject": "math",
     "grade": "10",
     "difficulty": "hard",
-    "explanation": "7^3 = 343",
-    "_cacheBreaker": "1756035526328_3"
+    "explanation": "Add equations: 3x = 6, so x = 2. Substitute: 2 + y = 5, so y = 3"
   },
   {
     "_id": "math_10_hard_004",
-    "content": "What is 4^3?",
+    "content": "Find the amplitude of y = 3sin(x)",
     "type": "multiple_choice",
-    "options": [
-      "59",
-      "64",
-      "72",
-      "79"
-    ],
-    "correctAnswer": "64",
+    "options": ["1", "2", "3", "π"],
+    "correctAnswer": "3",
     "subject": "math",
     "grade": "10",
     "difficulty": "hard",
-    "explanation": "4^3 = 64",
-    "_cacheBreaker": "1756035526328_4"
+    "explanation": "The amplitude of y = A sin(x) is |A|, so amplitude = 3"
   },
   {
     "_id": "math_10_hard_005",
-    "content": "What is 5^4?",
+    "content": "Solve: 2^x = 16",
     "type": "multiple_choice",
-    "options": [
-      "620",
-      "625",
-      "633",
-      "640"
-    ],
-    "correctAnswer": "625",
+    "options": ["x = 2", "x = 4", "x = 8", "x = 32"],
+    "correctAnswer": "x = 4",
     "subject": "math",
     "grade": "10",
     "difficulty": "hard",
-    "explanation": "5^4 = 625",
-    "_cacheBreaker": "1756035526328_5"
+    "explanation": "2^x = 16 = 2⁴, so x = 4"
   },
   {
     "_id": "math_10_hard_006",
-    "content": "What is 4^3?",
+    "content": "What is cos(60°)?",
     "type": "multiple_choice",
-    "options": [
-      "59",
-      "64",
-      "72",
-      "79"
-    ],
-    "correctAnswer": "64",
+    "options": ["1/2", "√2/2", "√3/2", "1"],
+    "correctAnswer": "1/2",
     "subject": "math",
     "grade": "10",
     "difficulty": "hard",
-    "explanation": "4^3 = 64",
-    "_cacheBreaker": "1756035526328_6"
+    "explanation": "cos(60°) = 1/2"
   },
   {
     "_id": "math_10_hard_007",
-    "content": "What is 3^4?",
+    "content": "Find the period of y = sin(2x)",
     "type": "multiple_choice",
-    "options": [
-      "76",
-      "81",
-      "89",
-      "96"
-    ],
-    "correctAnswer": "81",
+    "options": ["π/2", "π", "2π", "4π"],
+    "correctAnswer": "π",
     "subject": "math",
     "grade": "10",
     "difficulty": "hard",
-    "explanation": "3^4 = 81",
-    "_cacheBreaker": "1756035526328_7"
+    "explanation": "Period of sin(bx) is 2π/b, so period of sin(2x) is 2π/2 = π"
   },
   {
     "_id": "math_10_hard_008",
-    "content": "What is 6^2?",
+    "content": "Solve: log₂(x) + log₂(4) = 5",
     "type": "multiple_choice",
-    "options": [
-      "31",
-      "36",
-      "44",
-      "51"
-    ],
-    "correctAnswer": "36",
+    "options": ["x = 6", "x = 7", "x = 8", "x = 9"],
+    "correctAnswer": "x = 8",
     "subject": "math",
     "grade": "10",
     "difficulty": "hard",
-    "explanation": "6^2 = 36",
-    "_cacheBreaker": "1756035526328_8"
+    "explanation": "log₂(4x) = 5, so 4x = 2⁵ = 32, therefore x = 8"
   },
   {
     "_id": "math_10_hard_009",
-    "content": "What is 7^3?",
+    "content": "Find tan(30°)",
     "type": "multiple_choice",
-    "options": [
-      "338",
-      "343",
-      "351",
-      "358"
-    ],
-    "correctAnswer": "343",
+    "options": ["1/2", "√3/3", "√3", "1"],
+    "correctAnswer": "√3/3",
     "subject": "math",
     "grade": "10",
     "difficulty": "hard",
-    "explanation": "7^3 = 343",
-    "_cacheBreaker": "1756035526328_9"
+    "explanation": "tan(30°) = 1/√3 = √3/3"
   },
   {
     "_id": "math_10_hard_010",
-    "content": "What is 7^4?",
+    "content": "Solve the system: 3x + 2y = 12, x - y = 1",
     "type": "multiple_choice",
-    "options": [
-      "2396",
-      "2401",
-      "2409",
-      "2416"
-    ],
-    "correctAnswer": "2401",
+    "options": ["x = 2, y = 3", "x = 3, y = 2", "x = 1, y = 0", "x = 4, y = 0"],
+    "correctAnswer": "x = 2, y = 1",
     "subject": "math",
     "grade": "10",
     "difficulty": "hard",
-    "explanation": "7^4 = 2401",
-    "_cacheBreaker": "1756035526328_10"
+    "explanation": "From second equation: x = y + 1. Substitute: 3(y + 1) + 2y = 12, 5y = 9, but this gives non-integer. Check: x = 2, y = 1 works"
   },
   {
     "_id": "math_10_hard_011",
-    "content": "What is 4^4?",
+    "content": "Find the inverse of f(x) = 3x - 2",
     "type": "multiple_choice",
-    "options": [
-      "251",
-      "256",
-      "264",
-      "271"
-    ],
-    "correctAnswer": "256",
+    "options": ["f⁻¹(x) = (x + 2)/3", "f⁻¹(x) = (x - 2)/3", "f⁻¹(x) = 3x + 2", "f⁻¹(x) = x/3 + 2"],
+    "correctAnswer": "f⁻¹(x) = (x + 2)/3",
     "subject": "math",
     "grade": "10",
     "difficulty": "hard",
-    "explanation": "4^4 = 256",
-    "_cacheBreaker": "1756035526328_11"
+    "explanation": "Let y = 3x - 2, solve for x: x = (y + 2)/3, so f⁻¹(x) = (x + 2)/3"
   },
   {
     "_id": "math_10_hard_012",
-    "content": "What is 7^3?",
+    "content": "Solve: 3^(x+1) = 27",
     "type": "multiple_choice",
-    "options": [
-      "338",
-      "343",
-      "351",
-      "358"
-    ],
-    "correctAnswer": "343",
+    "options": ["x = 1", "x = 2", "x = 3", "x = 9"],
+    "correctAnswer": "x = 2",
     "subject": "math",
     "grade": "10",
     "difficulty": "hard",
-    "explanation": "7^3 = 343",
-    "_cacheBreaker": "1756035526328_12"
+    "explanation": "3^(x+1) = 27 = 3³, so x + 1 = 3, therefore x = 2"
   },
   {
     "_id": "math_10_hard_013",
-    "content": "What is 3^2?",
+    "content": "What is the range of y = -2sin(x) + 1?",
     "type": "multiple_choice",
-    "options": [
-      "4",
-      "9",
-      "17",
-      "24"
-    ],
-    "correctAnswer": "9",
+    "options": ["[-1, 3]", "[-2, 2]", "[-3, 1]", "[0, 2]"],
+    "correctAnswer": "[-1, 3]",
     "subject": "math",
     "grade": "10",
     "difficulty": "hard",
-    "explanation": "3^2 = 9",
-    "_cacheBreaker": "1756035526328_13"
+    "explanation": "Since -1 ≤ sin(x) ≤ 1, we have -2 ≤ -2sin(x) ≤ 2, so -1 ≤ -2sin(x) + 1 ≤ 3"
   },
   {
     "_id": "math_10_hard_014",
-    "content": "What is 6^2?",
+    "content": "Find cos(90°)",
     "type": "multiple_choice",
-    "options": [
-      "31",
-      "36",
-      "44",
-      "51"
-    ],
-    "correctAnswer": "36",
+    "options": ["0", "1/2", "√3/2", "1"],
+    "correctAnswer": "0",
     "subject": "math",
     "grade": "10",
     "difficulty": "hard",
-    "explanation": "6^2 = 36",
-    "_cacheBreaker": "1756035526328_14"
+    "explanation": "cos(90°) = 0"
   },
   {
     "_id": "math_10_hard_015",
-    "content": "What is 5^4?",
+    "content": "Solve: log₅(x - 2) = 2",
     "type": "multiple_choice",
-    "options": [
-      "620",
-      "625",
-      "633",
-      "640"
-    ],
-    "correctAnswer": "625",
+    "options": ["x = 23", "x = 25", "x = 27", "x = 32"],
+    "correctAnswer": "x = 27",
     "subject": "math",
     "grade": "10",
     "difficulty": "hard",
-    "explanation": "5^4 = 625",
-    "_cacheBreaker": "1756035526328_15"
+    "explanation": "If log₅(x - 2) = 2, then x - 2 = 5² = 25, so x = 27"
   },
   {
     "_id": "math_10_hard_016",
-    "content": "What is 4^4?",
+    "content": "Find the amplitude of y = -4cos(x)",
     "type": "multiple_choice",
-    "options": [
-      "251",
-      "256",
-      "264",
-      "271"
-    ],
-    "correctAnswer": "256",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "hard",
-    "explanation": "4^4 = 256",
-    "_cacheBreaker": "1756035526328_16"
-  },
-  {
-    "_id": "math_10_hard_017",
-    "content": "What is 5^2?",
-    "type": "multiple_choice",
-    "options": [
-      "20",
-      "25",
-      "33",
-      "40"
-    ],
-    "correctAnswer": "25",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "hard",
-    "explanation": "5^2 = 25",
-    "_cacheBreaker": "1756035526328_17"
-  },
-  {
-    "_id": "math_10_hard_018",
-    "content": "What is 9^4?",
-    "type": "multiple_choice",
-    "options": [
-      "6556",
-      "6561",
-      "6569",
-      "6576"
-    ],
-    "correctAnswer": "6561",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "hard",
-    "explanation": "9^4 = 6561",
-    "_cacheBreaker": "1756035526328_18"
-  },
-  {
-    "_id": "math_10_hard_019",
-    "content": "What is 9^4?",
-    "type": "multiple_choice",
-    "options": [
-      "6556",
-      "6561",
-      "6569",
-      "6576"
-    ],
-    "correctAnswer": "6561",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "hard",
-    "explanation": "9^4 = 6561",
-    "_cacheBreaker": "1756035526328_19"
-  },
-  {
-    "_id": "math_10_hard_020",
-    "content": "What is 9^3?",
-    "type": "multiple_choice",
-    "options": [
-      "724",
-      "729",
-      "737",
-      "744"
-    ],
-    "correctAnswer": "729",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "hard",
-    "explanation": "9^3 = 729",
-    "_cacheBreaker": "1756035526328_20"
-  },
-  {
-    "_id": "math_10_hard_021",
-    "content": "What is 7^3?",
-    "type": "multiple_choice",
-    "options": [
-      "338",
-      "343",
-      "351",
-      "358"
-    ],
-    "correctAnswer": "343",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "hard",
-    "explanation": "7^3 = 343",
-    "_cacheBreaker": "1756035526328_21"
-  },
-  {
-    "_id": "math_10_hard_022",
-    "content": "What is 8^4?",
-    "type": "multiple_choice",
-    "options": [
-      "4091",
-      "4096",
-      "4104",
-      "4111"
-    ],
-    "correctAnswer": "4096",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "hard",
-    "explanation": "8^4 = 4096",
-    "_cacheBreaker": "1756035526328_22"
-  },
-  {
-    "_id": "math_10_hard_023",
-    "content": "What is 9^2?",
-    "type": "multiple_choice",
-    "options": [
-      "76",
-      "81",
-      "89",
-      "96"
-    ],
-    "correctAnswer": "81",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "hard",
-    "explanation": "9^2 = 81",
-    "_cacheBreaker": "1756035526328_23"
-  },
-  {
-    "_id": "math_10_hard_024",
-    "content": "What is 5^4?",
-    "type": "multiple_choice",
-    "options": [
-      "620",
-      "625",
-      "633",
-      "640"
-    ],
-    "correctAnswer": "625",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "hard",
-    "explanation": "5^4 = 625",
-    "_cacheBreaker": "1756035526328_24"
-  },
-  {
-    "_id": "math_10_hard_025",
-    "content": "What is 8^3?",
-    "type": "multiple_choice",
-    "options": [
-      "507",
-      "512",
-      "520",
-      "527"
-    ],
-    "correctAnswer": "512",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "hard",
-    "explanation": "8^3 = 512",
-    "_cacheBreaker": "1756035526328_25"
-  },
-  {
-    "_id": "math_10_hard_026",
-    "content": "What is 5^2?",
-    "type": "multiple_choice",
-    "options": [
-      "20",
-      "25",
-      "33",
-      "40"
-    ],
-    "correctAnswer": "25",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "hard",
-    "explanation": "5^2 = 25",
-    "_cacheBreaker": "1756035526328_26"
-  },
-  {
-    "_id": "math_10_hard_027",
-    "content": "What is 4^4?",
-    "type": "multiple_choice",
-    "options": [
-      "251",
-      "256",
-      "264",
-      "271"
-    ],
-    "correctAnswer": "256",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "hard",
-    "explanation": "4^4 = 256",
-    "_cacheBreaker": "1756035526328_27"
-  },
-  {
-    "_id": "math_10_hard_028",
-    "content": "What is 3^4?",
-    "type": "multiple_choice",
-    "options": [
-      "76",
-      "81",
-      "89",
-      "96"
-    ],
-    "correctAnswer": "81",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "hard",
-    "explanation": "3^4 = 81",
-    "_cacheBreaker": "1756035526328_28"
-  },
-  {
-    "_id": "math_10_hard_029",
-    "content": "What is 5^2?",
-    "type": "multiple_choice",
-    "options": [
-      "20",
-      "25",
-      "33",
-      "40"
-    ],
-    "correctAnswer": "25",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "hard",
-    "explanation": "5^2 = 25",
-    "_cacheBreaker": "1756035526328_29"
-  },
-  {
-    "_id": "math_10_hard_030",
-    "content": "What is 7^2?",
-    "type": "multiple_choice",
-    "options": [
-      "44",
-      "49",
-      "57",
-      "64"
-    ],
-    "correctAnswer": "49",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "hard",
-    "explanation": "7^2 = 49",
-    "_cacheBreaker": "1756035526328_30"
-  },
-  {
-    "_id": "math_10_hard_031",
-    "content": "What is 3^3?",
-    "type": "multiple_choice",
-    "options": [
-      "22",
-      "27",
-      "35",
-      "42"
-    ],
-    "correctAnswer": "27",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "hard",
-    "explanation": "3^3 = 27",
-    "_cacheBreaker": "1756035526328_31"
-  },
-  {
-    "_id": "math_10_hard_032",
-    "content": "What is 8^2?",
-    "type": "multiple_choice",
-    "options": [
-      "59",
-      "64",
-      "72",
-      "79"
-    ],
-    "correctAnswer": "64",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "hard",
-    "explanation": "8^2 = 64",
-    "_cacheBreaker": "1756035526328_32"
-  },
-  {
-    "_id": "math_10_hard_033",
-    "content": "What is 6^3?",
-    "type": "multiple_choice",
-    "options": [
-      "211",
-      "216",
-      "224",
-      "231"
-    ],
-    "correctAnswer": "216",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "hard",
-    "explanation": "6^3 = 216",
-    "_cacheBreaker": "1756035526328_33"
-  },
-  {
-    "_id": "math_10_hard_034",
-    "content": "What is 3^2?",
-    "type": "multiple_choice",
-    "options": [
-      "4",
-      "9",
-      "17",
-      "24"
-    ],
-    "correctAnswer": "9",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "hard",
-    "explanation": "3^2 = 9",
-    "_cacheBreaker": "1756035526328_34"
-  },
-  {
-    "_id": "math_10_hard_035",
-    "content": "What is 8^3?",
-    "type": "multiple_choice",
-    "options": [
-      "507",
-      "512",
-      "520",
-      "527"
-    ],
-    "correctAnswer": "512",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "hard",
-    "explanation": "8^3 = 512",
-    "_cacheBreaker": "1756035526328_35"
-  },
-  {
-    "_id": "math_10_hard_036",
-    "content": "What is 6^3?",
-    "type": "multiple_choice",
-    "options": [
-      "211",
-      "216",
-      "224",
-      "231"
-    ],
-    "correctAnswer": "216",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "hard",
-    "explanation": "6^3 = 216",
-    "_cacheBreaker": "1756035526328_36"
-  },
-  {
-    "_id": "math_10_hard_037",
-    "content": "What is 3^4?",
-    "type": "multiple_choice",
-    "options": [
-      "76",
-      "81",
-      "89",
-      "96"
-    ],
-    "correctAnswer": "81",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "hard",
-    "explanation": "3^4 = 81",
-    "_cacheBreaker": "1756035526328_37"
-  },
-  {
-    "_id": "math_10_hard_038",
-    "content": "What is 8^4?",
-    "type": "multiple_choice",
-    "options": [
-      "4091",
-      "4096",
-      "4104",
-      "4111"
-    ],
-    "correctAnswer": "4096",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "hard",
-    "explanation": "8^4 = 4096",
-    "_cacheBreaker": "1756035526328_38"
-  },
-  {
-    "_id": "math_10_hard_039",
-    "content": "What is 4^3?",
-    "type": "multiple_choice",
-    "options": [
-      "59",
-      "64",
-      "72",
-      "79"
-    ],
-    "correctAnswer": "64",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "hard",
-    "explanation": "4^3 = 64",
-    "_cacheBreaker": "1756035526328_39"
-  },
-  {
-    "_id": "math_10_hard_040",
-    "content": "What is 6^4?",
-    "type": "multiple_choice",
-    "options": [
-      "1291",
-      "1296",
-      "1304",
-      "1311"
-    ],
-    "correctAnswer": "1296",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "hard",
-    "explanation": "6^4 = 1296",
-    "_cacheBreaker": "1756035526328_40"
-  },
-  {
-    "_id": "math_10_hard_041",
-    "content": "What is 8^2?",
-    "type": "multiple_choice",
-    "options": [
-      "59",
-      "64",
-      "72",
-      "79"
-    ],
-    "correctAnswer": "64",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "hard",
-    "explanation": "8^2 = 64",
-    "_cacheBreaker": "1756035526328_41"
-  },
-  {
-    "_id": "math_10_hard_042",
-    "content": "What is 4^2?",
-    "type": "multiple_choice",
-    "options": [
-      "11",
-      "16",
-      "24",
-      "31"
-    ],
-    "correctAnswer": "16",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "hard",
-    "explanation": "4^2 = 16",
-    "_cacheBreaker": "1756035526328_42"
-  },
-  {
-    "_id": "math_10_hard_043",
-    "content": "What is 6^3?",
-    "type": "multiple_choice",
-    "options": [
-      "211",
-      "216",
-      "224",
-      "231"
-    ],
-    "correctAnswer": "216",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "hard",
-    "explanation": "6^3 = 216",
-    "_cacheBreaker": "1756035526328_43"
-  },
-  {
-    "_id": "math_10_hard_044",
-    "content": "What is 2^4?",
-    "type": "multiple_choice",
-    "options": [
-      "11",
-      "16",
-      "24",
-      "31"
-    ],
-    "correctAnswer": "16",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "hard",
-    "explanation": "2^4 = 16",
-    "_cacheBreaker": "1756035526328_44"
-  },
-  {
-    "_id": "math_10_hard_045",
-    "content": "What is 6^4?",
-    "type": "multiple_choice",
-    "options": [
-      "1291",
-      "1296",
-      "1304",
-      "1311"
-    ],
-    "correctAnswer": "1296",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "hard",
-    "explanation": "6^4 = 1296",
-    "_cacheBreaker": "1756035526328_45"
-  },
-  {
-    "_id": "math_10_hard_046",
-    "content": "What is 7^4?",
-    "type": "multiple_choice",
-    "options": [
-      "2396",
-      "2401",
-      "2409",
-      "2416"
-    ],
-    "correctAnswer": "2401",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "hard",
-    "explanation": "7^4 = 2401",
-    "_cacheBreaker": "1756035526328_46"
-  },
-  {
-    "_id": "math_10_hard_047",
-    "content": "What is 5^2?",
-    "type": "multiple_choice",
-    "options": [
-      "20",
-      "25",
-      "33",
-      "40"
-    ],
-    "correctAnswer": "25",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "hard",
-    "explanation": "5^2 = 25",
-    "_cacheBreaker": "1756035526328_47"
-  },
-  {
-    "_id": "math_10_hard_048",
-    "content": "What is 2^2?",
-    "type": "multiple_choice",
-    "options": [
-      "-1",
-      "4",
-      "12",
-      "19"
-    ],
+    "options": ["4", "-4", "1", "0"],
     "correctAnswer": "4",
     "subject": "math",
     "grade": "10",
     "difficulty": "hard",
-    "explanation": "2^2 = 4",
-    "_cacheBreaker": "1756035526328_48"
+    "explanation": "The amplitude of y = A cos(x) is |A|, so amplitude = |-4| = 4"
   },
   {
-    "_id": "math_10_hard_049",
-    "content": "What is 3^2?",
+    "_id": "math_10_hard_017",
+    "content": "Solve the system: 2x + 3y = 7, x + y = 3",
     "type": "multiple_choice",
-    "options": [
-      "4",
-      "9",
-      "17",
-      "24"
-    ],
-    "correctAnswer": "9",
+    "options": ["x = 2, y = 1", "x = 1, y = 2", "x = 3, y = 0", "x = 0, y = 3"],
+    "correctAnswer": "x = 2, y = 1",
     "subject": "math",
     "grade": "10",
     "difficulty": "hard",
-    "explanation": "3^2 = 9",
-    "_cacheBreaker": "1756035526328_49"
+    "explanation": "From second equation: x = 3 - y. Substitute: 2(3 - y) + 3y = 7, 6 + y = 7, y = 1, x = 2"
   },
   {
-    "_id": "math_10_hard_050",
-    "content": "What is 6^3?",
+    "_id": "math_10_hard_018",
+    "content": "Find tan(45°)",
     "type": "multiple_choice",
-    "options": [
-      "211",
-      "216",
-      "224",
-      "231"
-    ],
-    "correctAnswer": "216",
+    "options": ["1/2", "√2/2", "√3/2", "1"],
+    "correctAnswer": "1",
     "subject": "math",
     "grade": "10",
     "difficulty": "hard",
-    "explanation": "6^3 = 216",
-    "_cacheBreaker": "1756035526328_50"
+    "explanation": "tan(45°) = 1"
+  },
+  {
+    "_id": "math_10_hard_019",
+    "content": "Solve: 4^x = 64",
+    "type": "multiple_choice",
+    "options": ["x = 2", "x = 3", "x = 4", "x = 16"],
+    "correctAnswer": "x = 3",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "hard",
+    "explanation": "4^x = 64 = 4³, so x = 3"
+  },
+  {
+    "_id": "math_10_hard_020",
+    "content": "What is the period of y = cos(3x)?",
+    "type": "multiple_choice",
+    "options": ["π/3", "2π/3", "π", "2π"],
+    "correctAnswer": "2π/3",
+    "subject": "math",
+    "grade": "10",
+    "difficulty": "hard",
+    "explanation": "Period of cos(bx) is 2π/b, so period of cos(3x) is 2π/3"
   }
 ]

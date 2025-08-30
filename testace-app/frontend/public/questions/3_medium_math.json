@@ -1,852 +1,222 @@
 [
   {
     "_id": "math_3_medium_001",
-    "content": "What is 4 + 3?",
+    "content": "What is 34 + 29?",
     "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "7",
-      "8"
-    ],
-    "correctAnswer": "7",
+    "options": ["61", "62", "63", "64"],
+    "correctAnswer": "63",
     "subject": "math",
     "grade": "3",
     "difficulty": "medium",
-    "explanation": "4 + 3 = 7",
-    "_cacheBreaker": "1756033253409_1"
+    "explanation": "34 + 29 = 63"
   },
   {
     "_id": "math_3_medium_002",
-    "content": "What is 8 - 3?",
+    "content": "What is 7 × 8?",
     "type": "multiple_choice",
-    "options": [
-      "2",
-      "5",
-      "4",
-      "10"
-    ],
-    "correctAnswer": "5",
+    "options": ["54", "56", "58", "60"],
+    "correctAnswer": "56",
     "subject": "math",
     "grade": "3",
     "difficulty": "medium",
-    "explanation": "8 - 3 = 5",
-    "_cacheBreaker": "1756033253409_2"
+    "explanation": "7 × 8 = 56"
   },
   {
     "_id": "math_3_medium_003",
-    "content": "How many sides does a rectangle have?",
+    "content": "What is the perimeter of a rectangle with length 5 cm and width 3 cm?",
     "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "correctAnswer": "4",
+    "options": ["15 cm", "16 cm", "8 cm", "30 cm"],
+    "correctAnswer": "16 cm",
     "subject": "math",
     "grade": "3",
     "difficulty": "medium",
-    "explanation": "A rectangle has 4 sides",
-    "_cacheBreaker": "1756033253409_3"
+    "explanation": "Perimeter = 2(length + width) = 2(5 + 3) = 16 cm"
   },
   {
     "_id": "math_3_medium_004",
-    "content": "What is 3 × 2?",
+    "content": "What is 48 ÷ 6?",
     "type": "multiple_choice",
-    "options": [
-      "3",
-      "6",
-      "7",
-      "9"
-    ],
-    "correctAnswer": "6",
+    "options": ["7", "8", "9", "54"],
+    "correctAnswer": "8",
     "subject": "math",
     "grade": "3",
     "difficulty": "medium",
-    "explanation": "3 × 2 = 6",
-    "_cacheBreaker": "1756033253409_4"
+    "explanation": "48 ÷ 6 = 8"
   },
   {
     "_id": "math_3_medium_005",
-    "content": "Which number comes after 13?",
+    "content": "What is 67 - 29?",
     "type": "multiple_choice",
-    "options": [
-      "12",
-      "13",
-      "14",
-      "15"
-    ],
-    "correctAnswer": "14",
+    "options": ["36", "37", "38", "96"],
+    "correctAnswer": "38",
     "subject": "math",
     "grade": "3",
     "difficulty": "medium",
-    "explanation": "After 13 comes 14",
-    "_cacheBreaker": "1756033253409_5"
+    "explanation": "67 - 29 = 38"
   },
   {
     "_id": "math_3_medium_006",
-    "content": "What is 4 + 3?",
+    "content": "What is 9 × 6?",
     "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "7",
-      "8"
-    ],
-    "correctAnswer": "7",
+    "options": ["52", "53", "54", "96"],
+    "correctAnswer": "54",
     "subject": "math",
     "grade": "3",
     "difficulty": "medium",
-    "explanation": "4 + 3 = 7",
-    "_cacheBreaker": "1756033253409_6"
+    "explanation": "9 × 6 = 54"
   },
   {
     "_id": "math_3_medium_007",
-    "content": "What is 8 - 3?",
+    "content": "What is 45 + 37?",
     "type": "multiple_choice",
-    "options": [
-      "2",
-      "5",
-      "4",
-      "10"
-    ],
-    "correctAnswer": "5",
+    "options": ["80", "81", "82", "83"],
+    "correctAnswer": "82",
     "subject": "math",
     "grade": "3",
     "difficulty": "medium",
-    "explanation": "8 - 3 = 5",
-    "_cacheBreaker": "1756033253409_7"
+    "explanation": "45 + 37 = 82"
   },
   {
     "_id": "math_3_medium_008",
-    "content": "How many sides does a rectangle have?",
+    "content": "What is 72 ÷ 8?",
     "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "correctAnswer": "4",
+    "options": ["8", "9", "10", "80"],
+    "correctAnswer": "9",
     "subject": "math",
     "grade": "3",
     "difficulty": "medium",
-    "explanation": "A rectangle has 4 sides",
-    "_cacheBreaker": "1756033253409_8"
+    "explanation": "72 ÷ 8 = 9"
   },
   {
     "_id": "math_3_medium_009",
-    "content": "What is 3 × 2?",
+    "content": "What is 85 - 47?",
     "type": "multiple_choice",
-    "options": [
-      "3",
-      "6",
-      "7",
-      "9"
-    ],
-    "correctAnswer": "6",
+    "options": ["36", "37", "38", "132"],
+    "correctAnswer": "38",
     "subject": "math",
     "grade": "3",
     "difficulty": "medium",
-    "explanation": "3 × 2 = 6",
-    "_cacheBreaker": "1756033253409_9"
+    "explanation": "85 - 47 = 38"
   },
   {
     "_id": "math_3_medium_010",
-    "content": "Which number comes after 13?",
+    "content": "What is 8 × 7?",
     "type": "multiple_choice",
-    "options": [
-      "12",
-      "13",
-      "14",
-      "15"
-    ],
-    "correctAnswer": "14",
+    "options": ["54", "55", "56", "87"],
+    "correctAnswer": "56",
     "subject": "math",
     "grade": "3",
     "difficulty": "medium",
-    "explanation": "After 13 comes 14",
-    "_cacheBreaker": "1756033253409_10"
+    "explanation": "8 × 7 = 56"
   },
   {
     "_id": "math_3_medium_011",
-    "content": "What is 4 + 3?",
+    "content": "What is the area of a square with side 4 cm?",
     "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "7",
-      "8"
-    ],
-    "correctAnswer": "7",
+    "options": ["12 cm²", "16 cm²", "20 cm²", "8 cm²"],
+    "correctAnswer": "16 cm²",
     "subject": "math",
     "grade": "3",
     "difficulty": "medium",
-    "explanation": "4 + 3 = 7",
-    "_cacheBreaker": "1756033253409_11"
+    "explanation": "Area = side × side = 4 × 4 = 16 cm²"
   },
   {
     "_id": "math_3_medium_012",
-    "content": "What is 8 - 3?",
+    "content": "What is 56 + 28?",
     "type": "multiple_choice",
-    "options": [
-      "2",
-      "5",
-      "4",
-      "10"
-    ],
-    "correctAnswer": "5",
+    "options": ["82", "83", "84", "85"],
+    "correctAnswer": "84",
     "subject": "math",
     "grade": "3",
     "difficulty": "medium",
-    "explanation": "8 - 3 = 5",
-    "_cacheBreaker": "1756033253409_12"
+    "explanation": "56 + 28 = 84"
   },
   {
     "_id": "math_3_medium_013",
-    "content": "How many sides does a rectangle have?",
+    "content": "What is 63 ÷ 7?",
     "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "correctAnswer": "4",
+    "options": ["8", "9", "10", "70"],
+    "correctAnswer": "9",
     "subject": "math",
     "grade": "3",
     "difficulty": "medium",
-    "explanation": "A rectangle has 4 sides",
-    "_cacheBreaker": "1756033253409_13"
+    "explanation": "63 ÷ 7 = 9"
   },
   {
     "_id": "math_3_medium_014",
-    "content": "What is 3 × 2?",
+    "content": "What is 91 - 54?",
     "type": "multiple_choice",
-    "options": [
-      "3",
-      "6",
-      "7",
-      "9"
-    ],
-    "correctAnswer": "6",
+    "options": ["35", "36", "37", "145"],
+    "correctAnswer": "37",
     "subject": "math",
     "grade": "3",
     "difficulty": "medium",
-    "explanation": "3 × 2 = 6",
-    "_cacheBreaker": "1756033253409_14"
+    "explanation": "91 - 54 = 37"
   },
   {
     "_id": "math_3_medium_015",
-    "content": "Which number comes after 13?",
+    "content": "What is 6 × 9?",
     "type": "multiple_choice",
-    "options": [
-      "12",
-      "13",
-      "14",
-      "15"
-    ],
-    "correctAnswer": "14",
+    "options": ["52", "53", "54", "69"],
+    "correctAnswer": "54",
     "subject": "math",
     "grade": "3",
     "difficulty": "medium",
-    "explanation": "After 13 comes 14",
-    "_cacheBreaker": "1756033253409_15"
+    "explanation": "6 × 9 = 54"
   },
   {
     "_id": "math_3_medium_016",
-    "content": "What is 4 + 3?",
+    "content": "How many minutes in 2 hours?",
     "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "7",
-      "8"
-    ],
-    "correctAnswer": "7",
+    "options": ["100", "110", "120", "200"],
+    "correctAnswer": "120",
     "subject": "math",
     "grade": "3",
     "difficulty": "medium",
-    "explanation": "4 + 3 = 7",
-    "_cacheBreaker": "1756033253409_16"
+    "explanation": "2 hours = 2 × 60 = 120 minutes"
   },
   {
     "_id": "math_3_medium_017",
-    "content": "What is 8 - 3?",
+    "content": "What is 39 + 46?",
     "type": "multiple_choice",
-    "options": [
-      "2",
-      "5",
-      "4",
-      "10"
-    ],
-    "correctAnswer": "5",
+    "options": ["83", "84", "85", "86"],
+    "correctAnswer": "85",
     "subject": "math",
     "grade": "3",
     "difficulty": "medium",
-    "explanation": "8 - 3 = 5",
-    "_cacheBreaker": "1756033253409_17"
+    "explanation": "39 + 46 = 85"
   },
   {
     "_id": "math_3_medium_018",
-    "content": "How many sides does a rectangle have?",
+    "content": "What is 54 ÷ 9?",
     "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "correctAnswer": "4",
+    "options": ["5", "6", "7", "63"],
+    "correctAnswer": "6",
     "subject": "math",
     "grade": "3",
     "difficulty": "medium",
-    "explanation": "A rectangle has 4 sides",
-    "_cacheBreaker": "1756033253409_18"
+    "explanation": "54 ÷ 9 = 6"
   },
   {
     "_id": "math_3_medium_019",
-    "content": "What is 3 × 2?",
+    "content": "What is 76 - 38?",
     "type": "multiple_choice",
-    "options": [
-      "3",
-      "6",
-      "7",
-      "9"
-    ],
-    "correctAnswer": "6",
+    "options": ["36", "37", "38", "114"],
+    "correctAnswer": "38",
     "subject": "math",
     "grade": "3",
     "difficulty": "medium",
-    "explanation": "3 × 2 = 6",
-    "_cacheBreaker": "1756033253409_19"
+    "explanation": "76 - 38 = 38"
   },
   {
     "_id": "math_3_medium_020",
-    "content": "Which number comes after 13?",
+    "content": "What is 5 × 9?",
     "type": "multiple_choice",
-    "options": [
-      "12",
-      "13",
-      "14",
-      "15"
-    ],
-    "correctAnswer": "14",
+    "options": ["43", "44", "45", "59"],
+    "correctAnswer": "45",
     "subject": "math",
     "grade": "3",
     "difficulty": "medium",
-    "explanation": "After 13 comes 14",
-    "_cacheBreaker": "1756033253409_20"
-  },
-  {
-    "_id": "math_3_medium_021",
-    "content": "What is 4 + 3?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "7",
-      "8"
-    ],
-    "correctAnswer": "7",
-    "subject": "math",
-    "grade": "3",
-    "difficulty": "medium",
-    "explanation": "4 + 3 = 7",
-    "_cacheBreaker": "1756033253409_21"
-  },
-  {
-    "_id": "math_3_medium_022",
-    "content": "What is 8 - 3?",
-    "type": "multiple_choice",
-    "options": [
-      "2",
-      "5",
-      "4",
-      "10"
-    ],
-    "correctAnswer": "5",
-    "subject": "math",
-    "grade": "3",
-    "difficulty": "medium",
-    "explanation": "8 - 3 = 5",
-    "_cacheBreaker": "1756033253409_22"
-  },
-  {
-    "_id": "math_3_medium_023",
-    "content": "How many sides does a rectangle have?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "correctAnswer": "4",
-    "subject": "math",
-    "grade": "3",
-    "difficulty": "medium",
-    "explanation": "A rectangle has 4 sides",
-    "_cacheBreaker": "1756033253409_23"
-  },
-  {
-    "_id": "math_3_medium_024",
-    "content": "What is 3 × 2?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "6",
-      "7",
-      "9"
-    ],
-    "correctAnswer": "6",
-    "subject": "math",
-    "grade": "3",
-    "difficulty": "medium",
-    "explanation": "3 × 2 = 6",
-    "_cacheBreaker": "1756033253409_24"
-  },
-  {
-    "_id": "math_3_medium_025",
-    "content": "Which number comes after 13?",
-    "type": "multiple_choice",
-    "options": [
-      "12",
-      "13",
-      "14",
-      "15"
-    ],
-    "correctAnswer": "14",
-    "subject": "math",
-    "grade": "3",
-    "difficulty": "medium",
-    "explanation": "After 13 comes 14",
-    "_cacheBreaker": "1756033253409_25"
-  },
-  {
-    "_id": "math_3_medium_026",
-    "content": "What is 4 + 3?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "7",
-      "8"
-    ],
-    "correctAnswer": "7",
-    "subject": "math",
-    "grade": "3",
-    "difficulty": "medium",
-    "explanation": "4 + 3 = 7",
-    "_cacheBreaker": "1756033253409_26"
-  },
-  {
-    "_id": "math_3_medium_027",
-    "content": "What is 8 - 3?",
-    "type": "multiple_choice",
-    "options": [
-      "2",
-      "5",
-      "4",
-      "10"
-    ],
-    "correctAnswer": "5",
-    "subject": "math",
-    "grade": "3",
-    "difficulty": "medium",
-    "explanation": "8 - 3 = 5",
-    "_cacheBreaker": "1756033253409_27"
-  },
-  {
-    "_id": "math_3_medium_028",
-    "content": "How many sides does a rectangle have?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "correctAnswer": "4",
-    "subject": "math",
-    "grade": "3",
-    "difficulty": "medium",
-    "explanation": "A rectangle has 4 sides",
-    "_cacheBreaker": "1756033253409_28"
-  },
-  {
-    "_id": "math_3_medium_029",
-    "content": "What is 3 × 2?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "6",
-      "7",
-      "9"
-    ],
-    "correctAnswer": "6",
-    "subject": "math",
-    "grade": "3",
-    "difficulty": "medium",
-    "explanation": "3 × 2 = 6",
-    "_cacheBreaker": "1756033253409_29"
-  },
-  {
-    "_id": "math_3_medium_030",
-    "content": "Which number comes after 13?",
-    "type": "multiple_choice",
-    "options": [
-      "12",
-      "13",
-      "14",
-      "15"
-    ],
-    "correctAnswer": "14",
-    "subject": "math",
-    "grade": "3",
-    "difficulty": "medium",
-    "explanation": "After 13 comes 14",
-    "_cacheBreaker": "1756033253409_30"
-  },
-  {
-    "_id": "math_3_medium_031",
-    "content": "What is 4 + 3?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "7",
-      "8"
-    ],
-    "correctAnswer": "7",
-    "subject": "math",
-    "grade": "3",
-    "difficulty": "medium",
-    "explanation": "4 + 3 = 7",
-    "_cacheBreaker": "1756033253409_31"
-  },
-  {
-    "_id": "math_3_medium_032",
-    "content": "What is 8 - 3?",
-    "type": "multiple_choice",
-    "options": [
-      "2",
-      "5",
-      "4",
-      "10"
-    ],
-    "correctAnswer": "5",
-    "subject": "math",
-    "grade": "3",
-    "difficulty": "medium",
-    "explanation": "8 - 3 = 5",
-    "_cacheBreaker": "1756033253409_32"
-  },
-  {
-    "_id": "math_3_medium_033",
-    "content": "How many sides does a rectangle have?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "correctAnswer": "4",
-    "subject": "math",
-    "grade": "3",
-    "difficulty": "medium",
-    "explanation": "A rectangle has 4 sides",
-    "_cacheBreaker": "1756033253409_33"
-  },
-  {
-    "_id": "math_3_medium_034",
-    "content": "What is 3 × 2?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "6",
-      "7",
-      "9"
-    ],
-    "correctAnswer": "6",
-    "subject": "math",
-    "grade": "3",
-    "difficulty": "medium",
-    "explanation": "3 × 2 = 6",
-    "_cacheBreaker": "1756033253409_34"
-  },
-  {
-    "_id": "math_3_medium_035",
-    "content": "Which number comes after 13?",
-    "type": "multiple_choice",
-    "options": [
-      "12",
-      "13",
-      "14",
-      "15"
-    ],
-    "correctAnswer": "14",
-    "subject": "math",
-    "grade": "3",
-    "difficulty": "medium",
-    "explanation": "After 13 comes 14",
-    "_cacheBreaker": "1756033253409_35"
-  },
-  {
-    "_id": "math_3_medium_036",
-    "content": "What is 4 + 3?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "7",
-      "8"
-    ],
-    "correctAnswer": "7",
-    "subject": "math",
-    "grade": "3",
-    "difficulty": "medium",
-    "explanation": "4 + 3 = 7",
-    "_cacheBreaker": "1756033253409_36"
-  },
-  {
-    "_id": "math_3_medium_037",
-    "content": "What is 8 - 3?",
-    "type": "multiple_choice",
-    "options": [
-      "2",
-      "5",
-      "4",
-      "10"
-    ],
-    "correctAnswer": "5",
-    "subject": "math",
-    "grade": "3",
-    "difficulty": "medium",
-    "explanation": "8 - 3 = 5",
-    "_cacheBreaker": "1756033253409_37"
-  },
-  {
-    "_id": "math_3_medium_038",
-    "content": "How many sides does a rectangle have?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "correctAnswer": "4",
-    "subject": "math",
-    "grade": "3",
-    "difficulty": "medium",
-    "explanation": "A rectangle has 4 sides",
-    "_cacheBreaker": "1756033253409_38"
-  },
-  {
-    "_id": "math_3_medium_039",
-    "content": "What is 3 × 2?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "6",
-      "7",
-      "9"
-    ],
-    "correctAnswer": "6",
-    "subject": "math",
-    "grade": "3",
-    "difficulty": "medium",
-    "explanation": "3 × 2 = 6",
-    "_cacheBreaker": "1756033253409_39"
-  },
-  {
-    "_id": "math_3_medium_040",
-    "content": "Which number comes after 13?",
-    "type": "multiple_choice",
-    "options": [
-      "12",
-      "13",
-      "14",
-      "15"
-    ],
-    "correctAnswer": "14",
-    "subject": "math",
-    "grade": "3",
-    "difficulty": "medium",
-    "explanation": "After 13 comes 14",
-    "_cacheBreaker": "1756033253409_40"
-  },
-  {
-    "_id": "math_3_medium_041",
-    "content": "What is 4 + 3?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "7",
-      "8"
-    ],
-    "correctAnswer": "7",
-    "subject": "math",
-    "grade": "3",
-    "difficulty": "medium",
-    "explanation": "4 + 3 = 7",
-    "_cacheBreaker": "1756033253409_41"
-  },
-  {
-    "_id": "math_3_medium_042",
-    "content": "What is 8 - 3?",
-    "type": "multiple_choice",
-    "options": [
-      "2",
-      "5",
-      "4",
-      "10"
-    ],
-    "correctAnswer": "5",
-    "subject": "math",
-    "grade": "3",
-    "difficulty": "medium",
-    "explanation": "8 - 3 = 5",
-    "_cacheBreaker": "1756033253409_42"
-  },
-  {
-    "_id": "math_3_medium_043",
-    "content": "How many sides does a rectangle have?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "correctAnswer": "4",
-    "subject": "math",
-    "grade": "3",
-    "difficulty": "medium",
-    "explanation": "A rectangle has 4 sides",
-    "_cacheBreaker": "1756033253409_43"
-  },
-  {
-    "_id": "math_3_medium_044",
-    "content": "What is 3 × 2?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "6",
-      "7",
-      "9"
-    ],
-    "correctAnswer": "6",
-    "subject": "math",
-    "grade": "3",
-    "difficulty": "medium",
-    "explanation": "3 × 2 = 6",
-    "_cacheBreaker": "1756033253409_44"
-  },
-  {
-    "_id": "math_3_medium_045",
-    "content": "Which number comes after 13?",
-    "type": "multiple_choice",
-    "options": [
-      "12",
-      "13",
-      "14",
-      "15"
-    ],
-    "correctAnswer": "14",
-    "subject": "math",
-    "grade": "3",
-    "difficulty": "medium",
-    "explanation": "After 13 comes 14",
-    "_cacheBreaker": "1756033253409_45"
-  },
-  {
-    "_id": "math_3_medium_046",
-    "content": "What is 4 + 3?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "7",
-      "8"
-    ],
-    "correctAnswer": "7",
-    "subject": "math",
-    "grade": "3",
-    "difficulty": "medium",
-    "explanation": "4 + 3 = 7",
-    "_cacheBreaker": "1756033253409_46"
-  },
-  {
-    "_id": "math_3_medium_047",
-    "content": "What is 8 - 3?",
-    "type": "multiple_choice",
-    "options": [
-      "2",
-      "5",
-      "4",
-      "10"
-    ],
-    "correctAnswer": "5",
-    "subject": "math",
-    "grade": "3",
-    "difficulty": "medium",
-    "explanation": "8 - 3 = 5",
-    "_cacheBreaker": "1756033253409_47"
-  },
-  {
-    "_id": "math_3_medium_048",
-    "content": "How many sides does a rectangle have?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "correctAnswer": "4",
-    "subject": "math",
-    "grade": "3",
-    "difficulty": "medium",
-    "explanation": "A rectangle has 4 sides",
-    "_cacheBreaker": "1756033253409_48"
-  },
-  {
-    "_id": "math_3_medium_049",
-    "content": "What is 3 × 2?",
-    "type": "multiple_choice",
-    "options": [
-      "3",
-      "6",
-      "7",
-      "9"
-    ],
-    "correctAnswer": "6",
-    "subject": "math",
-    "grade": "3",
-    "difficulty": "medium",
-    "explanation": "3 × 2 = 6",
-    "_cacheBreaker": "1756033253409_49"
-  },
-  {
-    "_id": "math_3_medium_050",
-    "content": "Which number comes after 13?",
-    "type": "multiple_choice",
-    "options": [
-      "12",
-      "13",
-      "14",
-      "15"
-    ],
-    "correctAnswer": "14",
-    "subject": "math",
-    "grade": "3",
-    "difficulty": "medium",
-    "explanation": "After 13 comes 14",
-    "_cacheBreaker": "1756033253409_50"
+    "explanation": "5 × 9 = 45"
   }
 ]

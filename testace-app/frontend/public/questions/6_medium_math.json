@@ -1,852 +1,222 @@
 [
   {
     "_id": "math_6_medium_001",
-    "content": "Solve: 4x + 8 = 52",
+    "content": "What is 3/4 + 1/8?",
     "type": "multiple_choice",
-    "options": [
-      "x = 10",
-      "x = 11",
-      "x = 12",
-      "x = 13"
-    ],
-    "correctAnswer": "x = 11",
+    "options": ["4/12", "7/8", "4/8", "5/8"],
+    "correctAnswer": "7/8",
     "subject": "math",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "4x = 52 - 8 = 44, so x = 11",
-    "_cacheBreaker": "1756035526275_1"
+    "explanation": "3/4 = 6/8, so 6/8 + 1/8 = 7/8"
   },
   {
     "_id": "math_6_medium_002",
-    "content": "Solve: 3x + 16 = 46",
+    "content": "Find the area of a triangle with base 8 cm and height 6 cm",
     "type": "multiple_choice",
-    "options": [
-      "x = 9",
-      "x = 10",
-      "x = 11",
-      "x = 12"
-    ],
-    "correctAnswer": "x = 10",
+    "options": ["24 cm²", "28 cm²", "48 cm²", "14 cm²"],
+    "correctAnswer": "24 cm²",
     "subject": "math",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "3x = 46 - 16 = 30, so x = 10",
-    "_cacheBreaker": "1756035526275_2"
+    "explanation": "Area = (1/2) × base × height = (1/2) × 8 × 6 = 24 cm²"
   },
   {
     "_id": "math_6_medium_003",
-    "content": "Solve: 5x + 5 = 15",
+    "content": "What is 15% of 200?",
     "type": "multiple_choice",
-    "options": [
-      "x = 1",
-      "x = 2",
-      "x = 3",
-      "x = 4"
-    ],
-    "correctAnswer": "x = 2",
+    "options": ["25", "30", "35", "40"],
+    "correctAnswer": "30",
     "subject": "math",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "5x = 15 - 5 = 10, so x = 2",
-    "_cacheBreaker": "1756035526275_3"
+    "explanation": "15% of 200 = 0.15 × 200 = 30"
   },
   {
     "_id": "math_6_medium_004",
-    "content": "Solve: 2x + 11 = 31",
+    "content": "Solve: x + 12 = 25",
     "type": "multiple_choice",
-    "options": [
-      "x = 9",
-      "x = 10",
-      "x = 11",
-      "x = 12"
-    ],
-    "correctAnswer": "x = 10",
+    "options": ["x = 13", "x = 37", "x = 12", "x = 25"],
+    "correctAnswer": "x = 13",
     "subject": "math",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "2x = 31 - 11 = 20, so x = 10",
-    "_cacheBreaker": "1756035526275_4"
+    "explanation": "x = 25 - 12 = 13"
   },
   {
     "_id": "math_6_medium_005",
-    "content": "Solve: 3x + 10 = 34",
+    "content": "What is the median of: 5, 8, 12, 15, 20?",
     "type": "multiple_choice",
-    "options": [
-      "x = 7",
-      "x = 8",
-      "x = 9",
-      "x = 10"
-    ],
-    "correctAnswer": "x = 8",
+    "options": ["8", "10", "12", "15"],
+    "correctAnswer": "12",
     "subject": "math",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "3x = 34 - 10 = 24, so x = 8",
-    "_cacheBreaker": "1756035526275_5"
+    "explanation": "The median is the middle value when arranged in order: 12"
   },
   {
     "_id": "math_6_medium_006",
-    "content": "Solve: 2x + 24 = 44",
+    "content": "What is 2/3 - 1/6?",
     "type": "multiple_choice",
-    "options": [
-      "x = 9",
-      "x = 10",
-      "x = 11",
-      "x = 12"
-    ],
-    "correctAnswer": "x = 10",
+    "options": ["1/2", "1/3", "1/6", "2/9"],
+    "correctAnswer": "1/2",
     "subject": "math",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "2x = 44 - 24 = 20, so x = 10",
-    "_cacheBreaker": "1756035526275_6"
+    "explanation": "2/3 = 4/6, so 4/6 - 1/6 = 3/6 = 1/2"
   },
   {
     "_id": "math_6_medium_007",
-    "content": "Solve: 3x + 5 = 17",
+    "content": "Find the circumference of a circle with radius 4 cm (use π = 3.14)",
     "type": "multiple_choice",
-    "options": [
-      "x = 3",
-      "x = 4",
-      "x = 5",
-      "x = 6"
-    ],
-    "correctAnswer": "x = 4",
+    "options": ["12.56 cm", "25.12 cm", "50.24 cm", "6.28 cm"],
+    "correctAnswer": "25.12 cm",
     "subject": "math",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "3x = 17 - 5 = 12, so x = 4",
-    "_cacheBreaker": "1756035526275_7"
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 4 = 25.12 cm"
   },
   {
     "_id": "math_6_medium_008",
-    "content": "Solve: 2x + 23 = 31",
+    "content": "What is 25% of 80?",
     "type": "multiple_choice",
-    "options": [
-      "x = 3",
-      "x = 4",
-      "x = 5",
-      "x = 6"
-    ],
-    "correctAnswer": "x = 4",
+    "options": ["15", "20", "25", "30"],
+    "correctAnswer": "20",
     "subject": "math",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "2x = 31 - 23 = 8, so x = 4",
-    "_cacheBreaker": "1756035526275_8"
+    "explanation": "25% of 80 = 0.25 × 80 = 20"
   },
   {
     "_id": "math_6_medium_009",
-    "content": "Solve: 4x + 5 = 13",
+    "content": "Solve: 3x = 21",
     "type": "multiple_choice",
-    "options": [
-      "x = 1",
-      "x = 2",
-      "x = 3",
-      "x = 4"
-    ],
-    "correctAnswer": "x = 2",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "medium",
-    "explanation": "4x = 13 - 5 = 8, so x = 2",
-    "_cacheBreaker": "1756035526275_9"
-  },
-  {
-    "_id": "math_6_medium_010",
-    "content": "Solve: 6x + 16 = 40",
-    "type": "multiple_choice",
-    "options": [
-      "x = 3",
-      "x = 4",
-      "x = 5",
-      "x = 6"
-    ],
-    "correctAnswer": "x = 4",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "medium",
-    "explanation": "6x = 40 - 16 = 24, so x = 4",
-    "_cacheBreaker": "1756035526275_10"
-  },
-  {
-    "_id": "math_6_medium_011",
-    "content": "Solve: 2x + 18 = 36",
-    "type": "multiple_choice",
-    "options": [
-      "x = 8",
-      "x = 9",
-      "x = 10",
-      "x = 11"
-    ],
-    "correctAnswer": "x = 9",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "medium",
-    "explanation": "2x = 36 - 18 = 18, so x = 9",
-    "_cacheBreaker": "1756035526275_11"
-  },
-  {
-    "_id": "math_6_medium_012",
-    "content": "Solve: 2x + 12 = 34",
-    "type": "multiple_choice",
-    "options": [
-      "x = 10",
-      "x = 11",
-      "x = 12",
-      "x = 13"
-    ],
-    "correctAnswer": "x = 11",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "medium",
-    "explanation": "2x = 34 - 12 = 22, so x = 11",
-    "_cacheBreaker": "1756035526275_12"
-  },
-  {
-    "_id": "math_6_medium_013",
-    "content": "Solve: 4x + 24 = 36",
-    "type": "multiple_choice",
-    "options": [
-      "x = 2",
-      "x = 3",
-      "x = 4",
-      "x = 5"
-    ],
-    "correctAnswer": "x = 3",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "medium",
-    "explanation": "4x = 36 - 24 = 12, so x = 3",
-    "_cacheBreaker": "1756035526275_13"
-  },
-  {
-    "_id": "math_6_medium_014",
-    "content": "Solve: 3x + 6 = 39",
-    "type": "multiple_choice",
-    "options": [
-      "x = 10",
-      "x = 11",
-      "x = 12",
-      "x = 13"
-    ],
-    "correctAnswer": "x = 11",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "medium",
-    "explanation": "3x = 39 - 6 = 33, so x = 11",
-    "_cacheBreaker": "1756035526275_14"
-  },
-  {
-    "_id": "math_6_medium_015",
-    "content": "Solve: 2x + 17 = 29",
-    "type": "multiple_choice",
-    "options": [
-      "x = 5",
-      "x = 6",
-      "x = 7",
-      "x = 8"
-    ],
-    "correctAnswer": "x = 6",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "medium",
-    "explanation": "2x = 29 - 17 = 12, so x = 6",
-    "_cacheBreaker": "1756035526275_15"
-  },
-  {
-    "_id": "math_6_medium_016",
-    "content": "Solve: 5x + 14 = 54",
-    "type": "multiple_choice",
-    "options": [
-      "x = 7",
-      "x = 8",
-      "x = 9",
-      "x = 10"
-    ],
-    "correctAnswer": "x = 8",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "medium",
-    "explanation": "5x = 54 - 14 = 40, so x = 8",
-    "_cacheBreaker": "1756035526275_16"
-  },
-  {
-    "_id": "math_6_medium_017",
-    "content": "Solve: 2x + 11 = 29",
-    "type": "multiple_choice",
-    "options": [
-      "x = 8",
-      "x = 9",
-      "x = 10",
-      "x = 11"
-    ],
-    "correctAnswer": "x = 9",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "medium",
-    "explanation": "2x = 29 - 11 = 18, so x = 9",
-    "_cacheBreaker": "1756035526275_17"
-  },
-  {
-    "_id": "math_6_medium_018",
-    "content": "Solve: 5x + 8 = 48",
-    "type": "multiple_choice",
-    "options": [
-      "x = 7",
-      "x = 8",
-      "x = 9",
-      "x = 10"
-    ],
-    "correctAnswer": "x = 8",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "medium",
-    "explanation": "5x = 48 - 8 = 40, so x = 8",
-    "_cacheBreaker": "1756035526275_18"
-  },
-  {
-    "_id": "math_6_medium_019",
-    "content": "Solve: 5x + 16 = 71",
-    "type": "multiple_choice",
-    "options": [
-      "x = 10",
-      "x = 11",
-      "x = 12",
-      "x = 13"
-    ],
-    "correctAnswer": "x = 11",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "medium",
-    "explanation": "5x = 71 - 16 = 55, so x = 11",
-    "_cacheBreaker": "1756035526275_19"
-  },
-  {
-    "_id": "math_6_medium_020",
-    "content": "Solve: 4x + 11 = 55",
-    "type": "multiple_choice",
-    "options": [
-      "x = 10",
-      "x = 11",
-      "x = 12",
-      "x = 13"
-    ],
-    "correctAnswer": "x = 11",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "medium",
-    "explanation": "4x = 55 - 11 = 44, so x = 11",
-    "_cacheBreaker": "1756035526275_20"
-  },
-  {
-    "_id": "math_6_medium_021",
-    "content": "Solve: 5x + 7 = 62",
-    "type": "multiple_choice",
-    "options": [
-      "x = 10",
-      "x = 11",
-      "x = 12",
-      "x = 13"
-    ],
-    "correctAnswer": "x = 11",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "medium",
-    "explanation": "5x = 62 - 7 = 55, so x = 11",
-    "_cacheBreaker": "1756035526275_21"
-  },
-  {
-    "_id": "math_6_medium_022",
-    "content": "Solve: 4x + 18 = 42",
-    "type": "multiple_choice",
-    "options": [
-      "x = 5",
-      "x = 6",
-      "x = 7",
-      "x = 8"
-    ],
-    "correctAnswer": "x = 6",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "medium",
-    "explanation": "4x = 42 - 18 = 24, so x = 6",
-    "_cacheBreaker": "1756035526275_22"
-  },
-  {
-    "_id": "math_6_medium_023",
-    "content": "Solve: 3x + 14 = 38",
-    "type": "multiple_choice",
-    "options": [
-      "x = 7",
-      "x = 8",
-      "x = 9",
-      "x = 10"
-    ],
-    "correctAnswer": "x = 8",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "medium",
-    "explanation": "3x = 38 - 14 = 24, so x = 8",
-    "_cacheBreaker": "1756035526275_23"
-  },
-  {
-    "_id": "math_6_medium_024",
-    "content": "Solve: 2x + 16 = 22",
-    "type": "multiple_choice",
-    "options": [
-      "x = 2",
-      "x = 3",
-      "x = 4",
-      "x = 5"
-    ],
-    "correctAnswer": "x = 3",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "medium",
-    "explanation": "2x = 22 - 16 = 6, so x = 3",
-    "_cacheBreaker": "1756035526275_24"
-  },
-  {
-    "_id": "math_6_medium_025",
-    "content": "Solve: 3x + 7 = 19",
-    "type": "multiple_choice",
-    "options": [
-      "x = 3",
-      "x = 4",
-      "x = 5",
-      "x = 6"
-    ],
-    "correctAnswer": "x = 4",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "medium",
-    "explanation": "3x = 19 - 7 = 12, so x = 4",
-    "_cacheBreaker": "1756035526275_25"
-  },
-  {
-    "_id": "math_6_medium_026",
-    "content": "Solve: 5x + 20 = 40",
-    "type": "multiple_choice",
-    "options": [
-      "x = 3",
-      "x = 4",
-      "x = 5",
-      "x = 6"
-    ],
-    "correctAnswer": "x = 4",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "medium",
-    "explanation": "5x = 40 - 20 = 20, so x = 4",
-    "_cacheBreaker": "1756035526275_26"
-  },
-  {
-    "_id": "math_6_medium_027",
-    "content": "Solve: 6x + 21 = 57",
-    "type": "multiple_choice",
-    "options": [
-      "x = 5",
-      "x = 6",
-      "x = 7",
-      "x = 8"
-    ],
-    "correctAnswer": "x = 6",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "medium",
-    "explanation": "6x = 57 - 21 = 36, so x = 6",
-    "_cacheBreaker": "1756035526275_27"
-  },
-  {
-    "_id": "math_6_medium_028",
-    "content": "Solve: 3x + 23 = 29",
-    "type": "multiple_choice",
-    "options": [
-      "x = 1",
-      "x = 2",
-      "x = 3",
-      "x = 4"
-    ],
-    "correctAnswer": "x = 2",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "medium",
-    "explanation": "3x = 29 - 23 = 6, so x = 2",
-    "_cacheBreaker": "1756035526275_28"
-  },
-  {
-    "_id": "math_6_medium_029",
-    "content": "Solve: 4x + 22 = 62",
-    "type": "multiple_choice",
-    "options": [
-      "x = 9",
-      "x = 10",
-      "x = 11",
-      "x = 12"
-    ],
-    "correctAnswer": "x = 10",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "medium",
-    "explanation": "4x = 62 - 22 = 40, so x = 10",
-    "_cacheBreaker": "1756035526275_29"
-  },
-  {
-    "_id": "math_6_medium_030",
-    "content": "Solve: 2x + 23 = 33",
-    "type": "multiple_choice",
-    "options": [
-      "x = 4",
-      "x = 5",
-      "x = 6",
-      "x = 7"
-    ],
-    "correctAnswer": "x = 5",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "medium",
-    "explanation": "2x = 33 - 23 = 10, so x = 5",
-    "_cacheBreaker": "1756035526275_30"
-  },
-  {
-    "_id": "math_6_medium_031",
-    "content": "Solve: 6x + 8 = 32",
-    "type": "multiple_choice",
-    "options": [
-      "x = 3",
-      "x = 4",
-      "x = 5",
-      "x = 6"
-    ],
-    "correctAnswer": "x = 4",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "medium",
-    "explanation": "6x = 32 - 8 = 24, so x = 4",
-    "_cacheBreaker": "1756035526275_31"
-  },
-  {
-    "_id": "math_6_medium_032",
-    "content": "Solve: 6x + 14 = 26",
-    "type": "multiple_choice",
-    "options": [
-      "x = 1",
-      "x = 2",
-      "x = 3",
-      "x = 4"
-    ],
-    "correctAnswer": "x = 2",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "medium",
-    "explanation": "6x = 26 - 14 = 12, so x = 2",
-    "_cacheBreaker": "1756035526275_32"
-  },
-  {
-    "_id": "math_6_medium_033",
-    "content": "Solve: 2x + 23 = 37",
-    "type": "multiple_choice",
-    "options": [
-      "x = 6",
-      "x = 7",
-      "x = 8",
-      "x = 9"
-    ],
+    "options": ["x = 6", "x = 7", "x = 18", "x = 24"],
     "correctAnswer": "x = 7",
     "subject": "math",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "2x = 37 - 23 = 14, so x = 7",
-    "_cacheBreaker": "1756035526275_33"
+    "explanation": "x = 21 ÷ 3 = 7"
   },
   {
-    "_id": "math_6_medium_034",
-    "content": "Solve: 4x + 20 = 60",
+    "_id": "math_6_medium_010",
+    "content": "What is the range of: 3, 7, 12, 18, 25?",
     "type": "multiple_choice",
-    "options": [
-      "x = 9",
-      "x = 10",
-      "x = 11",
-      "x = 12"
-    ],
-    "correctAnswer": "x = 10",
+    "options": ["20", "22", "25", "28"],
+    "correctAnswer": "22",
     "subject": "math",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "4x = 60 - 20 = 40, so x = 10",
-    "_cacheBreaker": "1756035526275_34"
+    "explanation": "Range = highest - lowest = 25 - 3 = 22"
   },
   {
-    "_id": "math_6_medium_035",
-    "content": "Solve: 3x + 7 = 19",
+    "_id": "math_6_medium_011",
+    "content": "Convert 0.6 to a fraction in lowest terms",
     "type": "multiple_choice",
-    "options": [
-      "x = 3",
-      "x = 4",
-      "x = 5",
-      "x = 6"
-    ],
+    "options": ["6/10", "3/5", "2/3", "1/6"],
+    "correctAnswer": "3/5",
+    "subject": "math",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "0.6 = 6/10 = 3/5"
+  },
+  {
+    "_id": "math_6_medium_012",
+    "content": "Find the area of a rectangle with length 9 cm and width 5 cm",
+    "type": "multiple_choice",
+    "options": ["28 cm²", "45 cm²", "14 cm²", "18 cm²"],
+    "correctAnswer": "45 cm²",
+    "subject": "math",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "Area = length × width = 9 × 5 = 45 cm²"
+  },
+  {
+    "_id": "math_6_medium_013",
+    "content": "What is 40% of 150?",
+    "type": "multiple_choice",
+    "options": ["50", "60", "70", "80"],
+    "correctAnswer": "60",
+    "subject": "math",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "40% of 150 = 0.40 × 150 = 60"
+  },
+  {
+    "_id": "math_6_medium_014",
+    "content": "Solve: x - 8 = 15",
+    "type": "multiple_choice",
+    "options": ["x = 7", "x = 23", "x = 120", "x = 8"],
+    "correctAnswer": "x = 23",
+    "subject": "math",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "x = 15 + 8 = 23"
+  },
+  {
+    "_id": "math_6_medium_015",
+    "content": "What is the mean of: 10, 15, 20, 25?",
+    "type": "multiple_choice",
+    "options": ["15", "17.5", "20", "22.5"],
+    "correctAnswer": "17.5",
+    "subject": "math",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "Mean = (10 + 15 + 20 + 25) ÷ 4 = 70 ÷ 4 = 17.5"
+  },
+  {
+    "_id": "math_6_medium_016",
+    "content": "What is 5/6 - 1/3?",
+    "type": "multiple_choice",
+    "options": ["4/3", "1/2", "2/3", "1/6"],
+    "correctAnswer": "1/2",
+    "subject": "math",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "1/3 = 2/6, so 5/6 - 2/6 = 3/6 = 1/2"
+  },
+  {
+    "_id": "math_6_medium_017",
+    "content": "Find the perimeter of a square with side length 7 cm",
+    "type": "multiple_choice",
+    "options": ["14 cm", "21 cm", "28 cm", "49 cm"],
+    "correctAnswer": "28 cm",
+    "subject": "math",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "Perimeter = 4 × side = 4 × 7 = 28 cm"
+  },
+  {
+    "_id": "math_6_medium_018",
+    "content": "What is 12% of 250?",
+    "type": "multiple_choice",
+    "options": ["25", "30", "35", "40"],
+    "correctAnswer": "30",
+    "subject": "math",
+    "grade": "6",
+    "difficulty": "medium",
+    "explanation": "12% of 250 = 0.12 × 250 = 30"
+  },
+  {
+    "_id": "math_6_medium_019",
+    "content": "Solve: 2x + 3 = 11",
+    "type": "multiple_choice",
+    "options": ["x = 4", "x = 7", "x = 8", "x = 14"],
     "correctAnswer": "x = 4",
     "subject": "math",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "3x = 19 - 7 = 12, so x = 4",
-    "_cacheBreaker": "1756035526275_35"
+    "explanation": "2x = 11 - 3 = 8, so x = 4"
   },
   {
-    "_id": "math_6_medium_036",
-    "content": "Solve: 6x + 12 = 78",
+    "_id": "math_6_medium_020",
+    "content": "What is the mode of: 2, 5, 7, 5, 9, 5, 3?",
     "type": "multiple_choice",
-    "options": [
-      "x = 10",
-      "x = 11",
-      "x = 12",
-      "x = 13"
-    ],
-    "correctAnswer": "x = 11",
+    "options": ["2", "5", "7", "9"],
+    "correctAnswer": "5",
     "subject": "math",
     "grade": "6",
     "difficulty": "medium",
-    "explanation": "6x = 78 - 12 = 66, so x = 11",
-    "_cacheBreaker": "1756035526275_36"
-  },
-  {
-    "_id": "math_6_medium_037",
-    "content": "Solve: 2x + 12 = 30",
-    "type": "multiple_choice",
-    "options": [
-      "x = 8",
-      "x = 9",
-      "x = 10",
-      "x = 11"
-    ],
-    "correctAnswer": "x = 9",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "medium",
-    "explanation": "2x = 30 - 12 = 18, so x = 9",
-    "_cacheBreaker": "1756035526275_37"
-  },
-  {
-    "_id": "math_6_medium_038",
-    "content": "Solve: 2x + 9 = 17",
-    "type": "multiple_choice",
-    "options": [
-      "x = 3",
-      "x = 4",
-      "x = 5",
-      "x = 6"
-    ],
-    "correctAnswer": "x = 4",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "medium",
-    "explanation": "2x = 17 - 9 = 8, so x = 4",
-    "_cacheBreaker": "1756035526275_38"
-  },
-  {
-    "_id": "math_6_medium_039",
-    "content": "Solve: 5x + 18 = 48",
-    "type": "multiple_choice",
-    "options": [
-      "x = 5",
-      "x = 6",
-      "x = 7",
-      "x = 8"
-    ],
-    "correctAnswer": "x = 6",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "medium",
-    "explanation": "5x = 48 - 18 = 30, so x = 6",
-    "_cacheBreaker": "1756035526275_39"
-  },
-  {
-    "_id": "math_6_medium_040",
-    "content": "Solve: 5x + 20 = 35",
-    "type": "multiple_choice",
-    "options": [
-      "x = 2",
-      "x = 3",
-      "x = 4",
-      "x = 5"
-    ],
-    "correctAnswer": "x = 3",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "medium",
-    "explanation": "5x = 35 - 20 = 15, so x = 3",
-    "_cacheBreaker": "1756035526275_40"
-  },
-  {
-    "_id": "math_6_medium_041",
-    "content": "Solve: 4x + 17 = 29",
-    "type": "multiple_choice",
-    "options": [
-      "x = 2",
-      "x = 3",
-      "x = 4",
-      "x = 5"
-    ],
-    "correctAnswer": "x = 3",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "medium",
-    "explanation": "4x = 29 - 17 = 12, so x = 3",
-    "_cacheBreaker": "1756035526275_41"
-  },
-  {
-    "_id": "math_6_medium_042",
-    "content": "Solve: 5x + 7 = 47",
-    "type": "multiple_choice",
-    "options": [
-      "x = 7",
-      "x = 8",
-      "x = 9",
-      "x = 10"
-    ],
-    "correctAnswer": "x = 8",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "medium",
-    "explanation": "5x = 47 - 7 = 40, so x = 8",
-    "_cacheBreaker": "1756035526275_42"
-  },
-  {
-    "_id": "math_6_medium_043",
-    "content": "Solve: 3x + 20 = 53",
-    "type": "multiple_choice",
-    "options": [
-      "x = 10",
-      "x = 11",
-      "x = 12",
-      "x = 13"
-    ],
-    "correctAnswer": "x = 11",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "medium",
-    "explanation": "3x = 53 - 20 = 33, so x = 11",
-    "_cacheBreaker": "1756035526275_43"
-  },
-  {
-    "_id": "math_6_medium_044",
-    "content": "Solve: 4x + 15 = 51",
-    "type": "multiple_choice",
-    "options": [
-      "x = 8",
-      "x = 9",
-      "x = 10",
-      "x = 11"
-    ],
-    "correctAnswer": "x = 9",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "medium",
-    "explanation": "4x = 51 - 15 = 36, so x = 9",
-    "_cacheBreaker": "1756035526275_44"
-  },
-  {
-    "_id": "math_6_medium_045",
-    "content": "Solve: 5x + 24 = 69",
-    "type": "multiple_choice",
-    "options": [
-      "x = 8",
-      "x = 9",
-      "x = 10",
-      "x = 11"
-    ],
-    "correctAnswer": "x = 9",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "medium",
-    "explanation": "5x = 69 - 24 = 45, so x = 9",
-    "_cacheBreaker": "1756035526275_45"
-  },
-  {
-    "_id": "math_6_medium_046",
-    "content": "Solve: 5x + 11 = 51",
-    "type": "multiple_choice",
-    "options": [
-      "x = 7",
-      "x = 8",
-      "x = 9",
-      "x = 10"
-    ],
-    "correctAnswer": "x = 8",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "medium",
-    "explanation": "5x = 51 - 11 = 40, so x = 8",
-    "_cacheBreaker": "1756035526275_46"
-  },
-  {
-    "_id": "math_6_medium_047",
-    "content": "Solve: 6x + 9 = 27",
-    "type": "multiple_choice",
-    "options": [
-      "x = 2",
-      "x = 3",
-      "x = 4",
-      "x = 5"
-    ],
-    "correctAnswer": "x = 3",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "medium",
-    "explanation": "6x = 27 - 9 = 18, so x = 3",
-    "_cacheBreaker": "1756035526275_47"
-  },
-  {
-    "_id": "math_6_medium_048",
-    "content": "Solve: 4x + 7 = 39",
-    "type": "multiple_choice",
-    "options": [
-      "x = 7",
-      "x = 8",
-      "x = 9",
-      "x = 10"
-    ],
-    "correctAnswer": "x = 8",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "medium",
-    "explanation": "4x = 39 - 7 = 32, so x = 8",
-    "_cacheBreaker": "1756035526275_48"
-  },
-  {
-    "_id": "math_6_medium_049",
-    "content": "Solve: 2x + 9 = 21",
-    "type": "multiple_choice",
-    "options": [
-      "x = 5",
-      "x = 6",
-      "x = 7",
-      "x = 8"
-    ],
-    "correctAnswer": "x = 6",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "medium",
-    "explanation": "2x = 21 - 9 = 12, so x = 6",
-    "_cacheBreaker": "1756035526275_49"
-  },
-  {
-    "_id": "math_6_medium_050",
-    "content": "Solve: 6x + 21 = 75",
-    "type": "multiple_choice",
-    "options": [
-      "x = 8",
-      "x = 9",
-      "x = 10",
-      "x = 11"
-    ],
-    "correctAnswer": "x = 9",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "medium",
-    "explanation": "6x = 75 - 21 = 54, so x = 9",
-    "_cacheBreaker": "1756035526275_50"
+    "explanation": "The mode is the most frequent value: 5 appears 3 times"
   }
 ]

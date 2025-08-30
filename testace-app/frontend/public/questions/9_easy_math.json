@@ -1,852 +1,222 @@
 [
   {
     "_id": "math_9_easy_001",
-    "content": "What is 29 + 21?",
+    "content": "Solve: x - 12 = 8",
     "type": "multiple_choice",
-    "options": [
-      "48",
-      "50",
-      "53",
-      "55"
-    ],
-    "correctAnswer": "50",
+    "options": ["x = 4", "x = 20", "x = -4", "x = 96"],
+    "correctAnswer": "x = 20",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "29 + 21 = 50",
-    "_cacheBreaker": "1756035526319_1"
+    "explanation": "x = 8 + 12 = 20"
   },
   {
     "_id": "math_9_easy_002",
-    "content": "What is 33 + 28?",
+    "content": "What is the y-intercept of y = x + 5?",
     "type": "multiple_choice",
-    "options": [
-      "59",
-      "61",
-      "64",
-      "66"
-    ],
-    "correctAnswer": "61",
+    "options": ["1", "5", "0", "x"],
+    "correctAnswer": "5",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "33 + 28 = 61",
-    "_cacheBreaker": "1756035526319_2"
+    "explanation": "In y = mx + b form, b is the y-intercept, so y-intercept = 5"
   },
   {
     "_id": "math_9_easy_003",
-    "content": "What is 41 + 27?",
+    "content": "Simplify: 2x + 3x",
     "type": "multiple_choice",
-    "options": [
-      "66",
-      "68",
-      "71",
-      "73"
-    ],
-    "correctAnswer": "68",
+    "options": ["5x", "6x", "5x²", "2x + 3x"],
+    "correctAnswer": "5x",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "41 + 27 = 68",
-    "_cacheBreaker": "1756035526319_3"
+    "explanation": "2x + 3x = (2 + 3)x = 5x"
   },
   {
     "_id": "math_9_easy_004",
-    "content": "What is 33 + 28?",
+    "content": "Solve: 3x = 24",
     "type": "multiple_choice",
-    "options": [
-      "59",
-      "61",
-      "64",
-      "66"
-    ],
-    "correctAnswer": "61",
+    "options": ["x = 6", "x = 7", "x = 8", "x = 72"],
+    "correctAnswer": "x = 8",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "33 + 28 = 61",
-    "_cacheBreaker": "1756035526319_4"
+    "explanation": "x = 24 ÷ 3 = 8"
   },
   {
     "_id": "math_9_easy_005",
-    "content": "What is 40 + 22?",
+    "content": "What is the slope of y = 2x - 4?",
     "type": "multiple_choice",
-    "options": [
-      "60",
-      "62",
-      "65",
-      "67"
-    ],
-    "correctAnswer": "62",
+    "options": ["2", "-4", "4", "-2"],
+    "correctAnswer": "2",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "40 + 22 = 62",
-    "_cacheBreaker": "1756035526319_5"
+    "explanation": "In y = mx + b form, m is the slope, so slope = 2"
   },
   {
     "_id": "math_9_easy_006",
-    "content": "What is 31 + 26?",
+    "content": "Simplify: 7x - 4x",
     "type": "multiple_choice",
-    "options": [
-      "55",
-      "57",
-      "60",
-      "62"
-    ],
-    "correctAnswer": "57",
+    "options": ["3x", "11x", "28x", "74x"],
+    "correctAnswer": "3x",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "31 + 26 = 57",
-    "_cacheBreaker": "1756035526319_6"
+    "explanation": "7x - 4x = (7 - 4)x = 3x"
   },
   {
     "_id": "math_9_easy_007",
-    "content": "What is 38 + 27?",
+    "content": "Solve: x + 15 = 28",
     "type": "multiple_choice",
-    "options": [
-      "63",
-      "65",
-      "68",
-      "70"
-    ],
-    "correctAnswer": "65",
+    "options": ["x = 13", "x = 43", "x = 15", "x = 28"],
+    "correctAnswer": "x = 13",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "38 + 27 = 65",
-    "_cacheBreaker": "1756035526319_7"
+    "explanation": "x = 28 - 15 = 13"
   },
   {
     "_id": "math_9_easy_008",
-    "content": "What is 29 + 26?",
+    "content": "What is the y-intercept of y = -2x + 7?",
     "type": "multiple_choice",
-    "options": [
-      "53",
-      "55",
-      "58",
-      "60"
-    ],
-    "correctAnswer": "55",
+    "options": ["-2", "2", "7", "-7"],
+    "correctAnswer": "7",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "29 + 26 = 55",
-    "_cacheBreaker": "1756035526319_8"
+    "explanation": "In y = mx + b form, b is the y-intercept, so y-intercept = 7"
   },
   {
     "_id": "math_9_easy_009",
-    "content": "What is 29 + 29?",
+    "content": "Simplify: 6x + 2x",
     "type": "multiple_choice",
-    "options": [
-      "56",
-      "58",
-      "61",
-      "63"
-    ],
-    "correctAnswer": "58",
+    "options": ["8x", "12x", "6x²", "62x"],
+    "correctAnswer": "8x",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "29 + 29 = 58",
-    "_cacheBreaker": "1756035526319_9"
+    "explanation": "6x + 2x = (6 + 2)x = 8x"
   },
   {
     "_id": "math_9_easy_010",
-    "content": "What is 30 + 22?",
+    "content": "Solve: 4x = 32",
     "type": "multiple_choice",
-    "options": [
-      "50",
-      "52",
-      "55",
-      "57"
-    ],
-    "correctAnswer": "52",
+    "options": ["x = 6", "x = 7", "x = 8", "x = 128"],
+    "correctAnswer": "x = 8",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "30 + 22 = 52",
-    "_cacheBreaker": "1756035526319_10"
+    "explanation": "x = 32 ÷ 4 = 8"
   },
   {
     "_id": "math_9_easy_011",
-    "content": "What is 40 + 23?",
+    "content": "What is the slope of y = -3x + 1?",
     "type": "multiple_choice",
-    "options": [
-      "61",
-      "63",
-      "66",
-      "68"
-    ],
-    "correctAnswer": "63",
+    "options": ["-3", "3", "1", "-1"],
+    "correctAnswer": "-3",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "40 + 23 = 63",
-    "_cacheBreaker": "1756035526319_11"
+    "explanation": "In y = mx + b form, m is the slope, so slope = -3"
   },
   {
     "_id": "math_9_easy_012",
-    "content": "What is 37 + 28?",
+    "content": "Simplify: 9x - 6x",
     "type": "multiple_choice",
-    "options": [
-      "63",
-      "65",
-      "68",
-      "70"
-    ],
-    "correctAnswer": "65",
+    "options": ["3x", "15x", "54x", "96x"],
+    "correctAnswer": "3x",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "37 + 28 = 65",
-    "_cacheBreaker": "1756035526319_12"
+    "explanation": "9x - 6x = (9 - 6)x = 3x"
   },
   {
     "_id": "math_9_easy_013",
-    "content": "What is 31 + 23?",
+    "content": "Solve: x - 18 = 5",
     "type": "multiple_choice",
-    "options": [
-      "52",
-      "54",
-      "57",
-      "59"
-    ],
-    "correctAnswer": "54",
+    "options": ["x = 13", "x = 23", "x = 90", "x = 18"],
+    "correctAnswer": "x = 23",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "31 + 23 = 54",
-    "_cacheBreaker": "1756035526319_13"
+    "explanation": "x = 5 + 18 = 23"
   },
   {
     "_id": "math_9_easy_014",
-    "content": "What is 45 + 21?",
+    "content": "What is the y-intercept of y = 4x - 9?",
     "type": "multiple_choice",
-    "options": [
-      "64",
-      "66",
-      "69",
-      "71"
-    ],
-    "correctAnswer": "66",
+    "options": ["4", "-9", "9", "-4"],
+    "correctAnswer": "-9",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "45 + 21 = 66",
-    "_cacheBreaker": "1756035526319_14"
+    "explanation": "In y = mx + b form, b is the y-intercept, so y-intercept = -9"
   },
   {
     "_id": "math_9_easy_015",
-    "content": "What is 43 + 30?",
+    "content": "Simplify: 5x + 7x",
     "type": "multiple_choice",
-    "options": [
-      "71",
-      "73",
-      "76",
-      "78"
-    ],
-    "correctAnswer": "73",
+    "options": ["12x", "35x", "5x²", "57x"],
+    "correctAnswer": "12x",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "43 + 30 = 73",
-    "_cacheBreaker": "1756035526319_15"
+    "explanation": "5x + 7x = (5 + 7)x = 12x"
   },
   {
     "_id": "math_9_easy_016",
-    "content": "What is 34 + 26?",
+    "content": "Solve: 5x = 40",
     "type": "multiple_choice",
-    "options": [
-      "58",
-      "60",
-      "63",
-      "65"
-    ],
-    "correctAnswer": "60",
+    "options": ["x = 6", "x = 7", "x = 8", "x = 200"],
+    "correctAnswer": "x = 8",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "34 + 26 = 60",
-    "_cacheBreaker": "1756035526319_16"
+    "explanation": "x = 40 ÷ 5 = 8"
   },
   {
     "_id": "math_9_easy_017",
-    "content": "What is 30 + 18?",
+    "content": "What is the slope of y = x - 6?",
     "type": "multiple_choice",
-    "options": [
-      "46",
-      "48",
-      "51",
-      "53"
-    ],
-    "correctAnswer": "48",
+    "options": ["1", "-6", "6", "-1"],
+    "correctAnswer": "1",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "30 + 18 = 48",
-    "_cacheBreaker": "1756035526319_17"
+    "explanation": "In y = mx + b form, m is the slope, so slope = 1"
   },
   {
     "_id": "math_9_easy_018",
-    "content": "What is 44 + 23?",
+    "content": "Simplify: 8x - 3x",
     "type": "multiple_choice",
-    "options": [
-      "65",
-      "67",
-      "70",
-      "72"
-    ],
-    "correctAnswer": "67",
+    "options": ["5x", "11x", "24x", "83x"],
+    "correctAnswer": "5x",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "44 + 23 = 67",
-    "_cacheBreaker": "1756035526319_18"
+    "explanation": "8x - 3x = (8 - 3)x = 5x"
   },
   {
     "_id": "math_9_easy_019",
-    "content": "What is 39 + 22?",
+    "content": "Solve: x + 22 = 35",
     "type": "multiple_choice",
-    "options": [
-      "59",
-      "61",
-      "64",
-      "66"
-    ],
-    "correctAnswer": "61",
+    "options": ["x = 13", "x = 57", "x = 22", "x = 35"],
+    "correctAnswer": "x = 13",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "39 + 22 = 61",
-    "_cacheBreaker": "1756035526319_19"
+    "explanation": "x = 35 - 22 = 13"
   },
   {
     "_id": "math_9_easy_020",
-    "content": "What is 30 + 20?",
+    "content": "What is the y-intercept of y = -x + 3?",
     "type": "multiple_choice",
-    "options": [
-      "48",
-      "50",
-      "53",
-      "55"
-    ],
-    "correctAnswer": "50",
+    "options": ["-1", "1", "3", "-3"],
+    "correctAnswer": "3",
     "subject": "math",
     "grade": "9",
     "difficulty": "easy",
-    "explanation": "30 + 20 = 50",
-    "_cacheBreaker": "1756035526319_20"
-  },
-  {
-    "_id": "math_9_easy_021",
-    "content": "What is 29 + 19?",
-    "type": "multiple_choice",
-    "options": [
-      "46",
-      "48",
-      "51",
-      "53"
-    ],
-    "correctAnswer": "48",
-    "subject": "math",
-    "grade": "9",
-    "difficulty": "easy",
-    "explanation": "29 + 19 = 48",
-    "_cacheBreaker": "1756035526319_21"
-  },
-  {
-    "_id": "math_9_easy_022",
-    "content": "What is 44 + 31?",
-    "type": "multiple_choice",
-    "options": [
-      "73",
-      "75",
-      "78",
-      "80"
-    ],
-    "correctAnswer": "75",
-    "subject": "math",
-    "grade": "9",
-    "difficulty": "easy",
-    "explanation": "44 + 31 = 75",
-    "_cacheBreaker": "1756035526319_22"
-  },
-  {
-    "_id": "math_9_easy_023",
-    "content": "What is 33 + 21?",
-    "type": "multiple_choice",
-    "options": [
-      "52",
-      "54",
-      "57",
-      "59"
-    ],
-    "correctAnswer": "54",
-    "subject": "math",
-    "grade": "9",
-    "difficulty": "easy",
-    "explanation": "33 + 21 = 54",
-    "_cacheBreaker": "1756035526319_23"
-  },
-  {
-    "_id": "math_9_easy_024",
-    "content": "What is 44 + 30?",
-    "type": "multiple_choice",
-    "options": [
-      "72",
-      "74",
-      "77",
-      "79"
-    ],
-    "correctAnswer": "74",
-    "subject": "math",
-    "grade": "9",
-    "difficulty": "easy",
-    "explanation": "44 + 30 = 74",
-    "_cacheBreaker": "1756035526319_24"
-  },
-  {
-    "_id": "math_9_easy_025",
-    "content": "What is 27 + 20?",
-    "type": "multiple_choice",
-    "options": [
-      "45",
-      "47",
-      "50",
-      "52"
-    ],
-    "correctAnswer": "47",
-    "subject": "math",
-    "grade": "9",
-    "difficulty": "easy",
-    "explanation": "27 + 20 = 47",
-    "_cacheBreaker": "1756035526319_25"
-  },
-  {
-    "_id": "math_9_easy_026",
-    "content": "What is 31 + 22?",
-    "type": "multiple_choice",
-    "options": [
-      "51",
-      "53",
-      "56",
-      "58"
-    ],
-    "correctAnswer": "53",
-    "subject": "math",
-    "grade": "9",
-    "difficulty": "easy",
-    "explanation": "31 + 22 = 53",
-    "_cacheBreaker": "1756035526319_26"
-  },
-  {
-    "_id": "math_9_easy_027",
-    "content": "What is 43 + 32?",
-    "type": "multiple_choice",
-    "options": [
-      "73",
-      "75",
-      "78",
-      "80"
-    ],
-    "correctAnswer": "75",
-    "subject": "math",
-    "grade": "9",
-    "difficulty": "easy",
-    "explanation": "43 + 32 = 75",
-    "_cacheBreaker": "1756035526320_27"
-  },
-  {
-    "_id": "math_9_easy_028",
-    "content": "What is 45 + 31?",
-    "type": "multiple_choice",
-    "options": [
-      "74",
-      "76",
-      "79",
-      "81"
-    ],
-    "correctAnswer": "76",
-    "subject": "math",
-    "grade": "9",
-    "difficulty": "easy",
-    "explanation": "45 + 31 = 76",
-    "_cacheBreaker": "1756035526320_28"
-  },
-  {
-    "_id": "math_9_easy_029",
-    "content": "What is 29 + 19?",
-    "type": "multiple_choice",
-    "options": [
-      "46",
-      "48",
-      "51",
-      "53"
-    ],
-    "correctAnswer": "48",
-    "subject": "math",
-    "grade": "9",
-    "difficulty": "easy",
-    "explanation": "29 + 19 = 48",
-    "_cacheBreaker": "1756035526320_29"
-  },
-  {
-    "_id": "math_9_easy_030",
-    "content": "What is 39 + 32?",
-    "type": "multiple_choice",
-    "options": [
-      "69",
-      "71",
-      "74",
-      "76"
-    ],
-    "correctAnswer": "71",
-    "subject": "math",
-    "grade": "9",
-    "difficulty": "easy",
-    "explanation": "39 + 32 = 71",
-    "_cacheBreaker": "1756035526320_30"
-  },
-  {
-    "_id": "math_9_easy_031",
-    "content": "What is 37 + 26?",
-    "type": "multiple_choice",
-    "options": [
-      "61",
-      "63",
-      "66",
-      "68"
-    ],
-    "correctAnswer": "63",
-    "subject": "math",
-    "grade": "9",
-    "difficulty": "easy",
-    "explanation": "37 + 26 = 63",
-    "_cacheBreaker": "1756035526320_31"
-  },
-  {
-    "_id": "math_9_easy_032",
-    "content": "What is 46 + 27?",
-    "type": "multiple_choice",
-    "options": [
-      "71",
-      "73",
-      "76",
-      "78"
-    ],
-    "correctAnswer": "73",
-    "subject": "math",
-    "grade": "9",
-    "difficulty": "easy",
-    "explanation": "46 + 27 = 73",
-    "_cacheBreaker": "1756035526320_32"
-  },
-  {
-    "_id": "math_9_easy_033",
-    "content": "What is 31 + 30?",
-    "type": "multiple_choice",
-    "options": [
-      "59",
-      "61",
-      "64",
-      "66"
-    ],
-    "correctAnswer": "61",
-    "subject": "math",
-    "grade": "9",
-    "difficulty": "easy",
-    "explanation": "31 + 30 = 61",
-    "_cacheBreaker": "1756035526320_33"
-  },
-  {
-    "_id": "math_9_easy_034",
-    "content": "What is 36 + 31?",
-    "type": "multiple_choice",
-    "options": [
-      "65",
-      "67",
-      "70",
-      "72"
-    ],
-    "correctAnswer": "67",
-    "subject": "math",
-    "grade": "9",
-    "difficulty": "easy",
-    "explanation": "36 + 31 = 67",
-    "_cacheBreaker": "1756035526320_34"
-  },
-  {
-    "_id": "math_9_easy_035",
-    "content": "What is 32 + 29?",
-    "type": "multiple_choice",
-    "options": [
-      "59",
-      "61",
-      "64",
-      "66"
-    ],
-    "correctAnswer": "61",
-    "subject": "math",
-    "grade": "9",
-    "difficulty": "easy",
-    "explanation": "32 + 29 = 61",
-    "_cacheBreaker": "1756035526320_35"
-  },
-  {
-    "_id": "math_9_easy_036",
-    "content": "What is 40 + 24?",
-    "type": "multiple_choice",
-    "options": [
-      "62",
-      "64",
-      "67",
-      "69"
-    ],
-    "correctAnswer": "64",
-    "subject": "math",
-    "grade": "9",
-    "difficulty": "easy",
-    "explanation": "40 + 24 = 64",
-    "_cacheBreaker": "1756035526320_36"
-  },
-  {
-    "_id": "math_9_easy_037",
-    "content": "What is 32 + 29?",
-    "type": "multiple_choice",
-    "options": [
-      "59",
-      "61",
-      "64",
-      "66"
-    ],
-    "correctAnswer": "61",
-    "subject": "math",
-    "grade": "9",
-    "difficulty": "easy",
-    "explanation": "32 + 29 = 61",
-    "_cacheBreaker": "1756035526320_37"
-  },
-  {
-    "_id": "math_9_easy_038",
-    "content": "What is 29 + 24?",
-    "type": "multiple_choice",
-    "options": [
-      "51",
-      "53",
-      "56",
-      "58"
-    ],
-    "correctAnswer": "53",
-    "subject": "math",
-    "grade": "9",
-    "difficulty": "easy",
-    "explanation": "29 + 24 = 53",
-    "_cacheBreaker": "1756035526320_38"
-  },
-  {
-    "_id": "math_9_easy_039",
-    "content": "What is 43 + 28?",
-    "type": "multiple_choice",
-    "options": [
-      "69",
-      "71",
-      "74",
-      "76"
-    ],
-    "correctAnswer": "71",
-    "subject": "math",
-    "grade": "9",
-    "difficulty": "easy",
-    "explanation": "43 + 28 = 71",
-    "_cacheBreaker": "1756035526320_39"
-  },
-  {
-    "_id": "math_9_easy_040",
-    "content": "What is 43 + 25?",
-    "type": "multiple_choice",
-    "options": [
-      "66",
-      "68",
-      "71",
-      "73"
-    ],
-    "correctAnswer": "68",
-    "subject": "math",
-    "grade": "9",
-    "difficulty": "easy",
-    "explanation": "43 + 25 = 68",
-    "_cacheBreaker": "1756035526320_40"
-  },
-  {
-    "_id": "math_9_easy_041",
-    "content": "What is 31 + 20?",
-    "type": "multiple_choice",
-    "options": [
-      "49",
-      "51",
-      "54",
-      "56"
-    ],
-    "correctAnswer": "51",
-    "subject": "math",
-    "grade": "9",
-    "difficulty": "easy",
-    "explanation": "31 + 20 = 51",
-    "_cacheBreaker": "1756035526320_41"
-  },
-  {
-    "_id": "math_9_easy_042",
-    "content": "What is 28 + 18?",
-    "type": "multiple_choice",
-    "options": [
-      "44",
-      "46",
-      "49",
-      "51"
-    ],
-    "correctAnswer": "46",
-    "subject": "math",
-    "grade": "9",
-    "difficulty": "easy",
-    "explanation": "28 + 18 = 46",
-    "_cacheBreaker": "1756035526320_42"
-  },
-  {
-    "_id": "math_9_easy_043",
-    "content": "What is 34 + 30?",
-    "type": "multiple_choice",
-    "options": [
-      "62",
-      "64",
-      "67",
-      "69"
-    ],
-    "correctAnswer": "64",
-    "subject": "math",
-    "grade": "9",
-    "difficulty": "easy",
-    "explanation": "34 + 30 = 64",
-    "_cacheBreaker": "1756035526320_43"
-  },
-  {
-    "_id": "math_9_easy_044",
-    "content": "What is 38 + 26?",
-    "type": "multiple_choice",
-    "options": [
-      "62",
-      "64",
-      "67",
-      "69"
-    ],
-    "correctAnswer": "64",
-    "subject": "math",
-    "grade": "9",
-    "difficulty": "easy",
-    "explanation": "38 + 26 = 64",
-    "_cacheBreaker": "1756035526320_44"
-  },
-  {
-    "_id": "math_9_easy_045",
-    "content": "What is 30 + 26?",
-    "type": "multiple_choice",
-    "options": [
-      "54",
-      "56",
-      "59",
-      "61"
-    ],
-    "correctAnswer": "56",
-    "subject": "math",
-    "grade": "9",
-    "difficulty": "easy",
-    "explanation": "30 + 26 = 56",
-    "_cacheBreaker": "1756035526320_45"
-  },
-  {
-    "_id": "math_9_easy_046",
-    "content": "What is 45 + 19?",
-    "type": "multiple_choice",
-    "options": [
-      "62",
-      "64",
-      "67",
-      "69"
-    ],
-    "correctAnswer": "64",
-    "subject": "math",
-    "grade": "9",
-    "difficulty": "easy",
-    "explanation": "45 + 19 = 64",
-    "_cacheBreaker": "1756035526320_46"
-  },
-  {
-    "_id": "math_9_easy_047",
-    "content": "What is 38 + 23?",
-    "type": "multiple_choice",
-    "options": [
-      "59",
-      "61",
-      "64",
-      "66"
-    ],
-    "correctAnswer": "61",
-    "subject": "math",
-    "grade": "9",
-    "difficulty": "easy",
-    "explanation": "38 + 23 = 61",
-    "_cacheBreaker": "1756035526320_47"
-  },
-  {
-    "_id": "math_9_easy_048",
-    "content": "What is 46 + 30?",
-    "type": "multiple_choice",
-    "options": [
-      "74",
-      "76",
-      "79",
-      "81"
-    ],
-    "correctAnswer": "76",
-    "subject": "math",
-    "grade": "9",
-    "difficulty": "easy",
-    "explanation": "46 + 30 = 76",
-    "_cacheBreaker": "1756035526320_48"
-  },
-  {
-    "_id": "math_9_easy_049",
-    "content": "What is 35 + 26?",
-    "type": "multiple_choice",
-    "options": [
-      "59",
-      "61",
-      "64",
-      "66"
-    ],
-    "correctAnswer": "61",
-    "subject": "math",
-    "grade": "9",
-    "difficulty": "easy",
-    "explanation": "35 + 26 = 61",
-    "_cacheBreaker": "1756035526320_49"
-  },
-  {
-    "_id": "math_9_easy_050",
-    "content": "What is 45 + 29?",
-    "type": "multiple_choice",
-    "options": [
-      "72",
-      "74",
-      "77",
-      "79"
-    ],
-    "correctAnswer": "74",
-    "subject": "math",
-    "grade": "9",
-    "difficulty": "easy",
-    "explanation": "45 + 29 = 74",
-    "_cacheBreaker": "1756035526320_50"
+    "explanation": "In y = mx + b form, b is the y-intercept, so y-intercept = 3"
   }
 ]

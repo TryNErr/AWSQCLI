@@ -1,852 +1,222 @@
 [
   {
     "_id": "math_6_hard_001",
-    "content": "What is 8^2?",
+    "content": "What is 2/3 × 3/4?",
     "type": "multiple_choice",
-    "options": [
-      "59",
-      "64",
-      "72",
-      "79"
-    ],
-    "correctAnswer": "64",
+    "options": ["5/7", "6/12", "1/2", "5/12"],
+    "correctAnswer": "1/2",
     "subject": "math",
     "grade": "6",
     "difficulty": "hard",
-    "explanation": "8^2 = 64",
-    "_cacheBreaker": "1756035526275_1"
+    "explanation": "2/3 × 3/4 = 6/12 = 1/2"
   },
   {
     "_id": "math_6_hard_002",
-    "content": "What is 2^3?",
+    "content": "Solve: x + 15 = 32",
     "type": "multiple_choice",
-    "options": [
-      "3",
-      "8",
-      "16",
-      "23"
-    ],
-    "correctAnswer": "8",
+    "options": ["x = 15", "x = 17", "x = 47", "x = 32"],
+    "correctAnswer": "x = 17",
     "subject": "math",
     "grade": "6",
     "difficulty": "hard",
-    "explanation": "2^3 = 8",
-    "_cacheBreaker": "1756035526275_2"
+    "explanation": "x = 32 - 15 = 17"
   },
   {
     "_id": "math_6_hard_003",
-    "content": "What is 7^4?",
+    "content": "What is the volume of a cube with side length 4 cm?",
     "type": "multiple_choice",
-    "options": [
-      "2396",
-      "2401",
-      "2409",
-      "2416"
-    ],
-    "correctAnswer": "2401",
+    "options": ["16 cm³", "48 cm³", "64 cm³", "12 cm³"],
+    "correctAnswer": "64 cm³",
     "subject": "math",
     "grade": "6",
     "difficulty": "hard",
-    "explanation": "7^4 = 2401",
-    "_cacheBreaker": "1756035526275_3"
+    "explanation": "Volume = side³ = 4³ = 64 cm³"
   },
   {
     "_id": "math_6_hard_004",
-    "content": "What is 2^3?",
+    "content": "What is 3/5 ÷ 2/5?",
     "type": "multiple_choice",
-    "options": [
-      "3",
-      "8",
-      "16",
-      "23"
-    ],
-    "correctAnswer": "8",
+    "options": ["1/2", "3/2", "6/10", "5/6"],
+    "correctAnswer": "3/2",
     "subject": "math",
     "grade": "6",
     "difficulty": "hard",
-    "explanation": "2^3 = 8",
-    "_cacheBreaker": "1756035526275_4"
+    "explanation": "3/5 ÷ 2/5 = 3/5 × 5/2 = 15/10 = 3/2"
   },
   {
     "_id": "math_6_hard_005",
-    "content": "What is 4^4?",
+    "content": "What is 456 + 789?",
     "type": "multiple_choice",
-    "options": [
-      "251",
-      "256",
-      "264",
-      "271"
-    ],
-    "correctAnswer": "256",
+    "options": ["1243", "1244", "1245", "1246"],
+    "correctAnswer": "1245",
     "subject": "math",
     "grade": "6",
     "difficulty": "hard",
-    "explanation": "4^4 = 256",
-    "_cacheBreaker": "1756035526275_5"
+    "explanation": "456 + 789 = 1245"
   },
   {
     "_id": "math_6_hard_006",
-    "content": "What is 4^2?",
+    "content": "Solve: 3x = 24",
     "type": "multiple_choice",
-    "options": [
-      "11",
-      "16",
-      "24",
-      "31"
-    ],
-    "correctAnswer": "16",
+    "options": ["x = 6", "x = 7", "x = 8", "x = 72"],
+    "correctAnswer": "x = 8",
     "subject": "math",
     "grade": "6",
     "difficulty": "hard",
-    "explanation": "4^2 = 16",
-    "_cacheBreaker": "1756035526275_6"
+    "explanation": "x = 24 ÷ 3 = 8"
   },
   {
     "_id": "math_6_hard_007",
-    "content": "What is 6^4?",
+    "content": "What is 40% of 125?",
     "type": "multiple_choice",
-    "options": [
-      "1291",
-      "1296",
-      "1304",
-      "1311"
-    ],
-    "correctAnswer": "1296",
+    "options": ["48", "49", "50", "51"],
+    "correctAnswer": "50",
     "subject": "math",
     "grade": "6",
     "difficulty": "hard",
-    "explanation": "6^4 = 1296",
-    "_cacheBreaker": "1756035526275_7"
+    "explanation": "40% of 125 = 0.40 × 125 = 50"
   },
   {
     "_id": "math_6_hard_008",
-    "content": "What is 8^4?",
+    "content": "What is 5/6 - 2/3?",
     "type": "multiple_choice",
-    "options": [
-      "4091",
-      "4096",
-      "4104",
-      "4111"
-    ],
-    "correctAnswer": "4096",
+    "options": ["1/6", "3/3", "1/3", "3/6"],
+    "correctAnswer": "1/6",
     "subject": "math",
     "grade": "6",
     "difficulty": "hard",
-    "explanation": "8^4 = 4096",
-    "_cacheBreaker": "1756035526275_8"
+    "explanation": "2/3 = 4/6, so 5/6 - 4/6 = 1/6"
   },
   {
     "_id": "math_6_hard_009",
-    "content": "What is 8^4?",
+    "content": "What is 847 - 359?",
     "type": "multiple_choice",
-    "options": [
-      "4091",
-      "4096",
-      "4104",
-      "4111"
-    ],
-    "correctAnswer": "4096",
+    "options": ["486", "487", "488", "1206"],
+    "correctAnswer": "488",
     "subject": "math",
     "grade": "6",
     "difficulty": "hard",
-    "explanation": "8^4 = 4096",
-    "_cacheBreaker": "1756035526275_9"
+    "explanation": "847 - 359 = 488"
   },
   {
     "_id": "math_6_hard_010",
-    "content": "What is 2^4?",
+    "content": "What is 24 × 17?",
     "type": "multiple_choice",
-    "options": [
-      "11",
-      "16",
-      "24",
-      "31"
-    ],
-    "correctAnswer": "16",
+    "options": ["406", "407", "408", "247"],
+    "correctAnswer": "408",
     "subject": "math",
     "grade": "6",
     "difficulty": "hard",
-    "explanation": "2^4 = 16",
-    "_cacheBreaker": "1756035526275_10"
+    "explanation": "24 × 17 = 408"
   },
   {
     "_id": "math_6_hard_011",
-    "content": "What is 3^3?",
+    "content": "Solve: x - 18 = 25",
     "type": "multiple_choice",
-    "options": [
-      "22",
-      "27",
-      "35",
-      "42"
-    ],
-    "correctAnswer": "27",
+    "options": ["x = 7", "x = 43", "x = 18", "x = 25"],
+    "correctAnswer": "x = 43",
     "subject": "math",
     "grade": "6",
     "difficulty": "hard",
-    "explanation": "3^3 = 27",
-    "_cacheBreaker": "1756035526275_11"
+    "explanation": "x = 25 + 18 = 43"
   },
   {
     "_id": "math_6_hard_012",
-    "content": "What is 6^2?",
+    "content": "What is 3/4 × 2/3?",
     "type": "multiple_choice",
-    "options": [
-      "31",
-      "36",
-      "44",
-      "51"
-    ],
-    "correctAnswer": "36",
+    "options": ["5/7", "6/12", "1/2", "5/12"],
+    "correctAnswer": "1/2",
     "subject": "math",
     "grade": "6",
     "difficulty": "hard",
-    "explanation": "6^2 = 36",
-    "_cacheBreaker": "1756035526275_12"
+    "explanation": "3/4 × 2/3 = 6/12 = 1/2"
   },
   {
     "_id": "math_6_hard_013",
-    "content": "What is 5^2?",
+    "content": "What is 216 ÷ 18?",
     "type": "multiple_choice",
-    "options": [
-      "20",
-      "25",
-      "33",
-      "40"
-    ],
-    "correctAnswer": "25",
+    "options": ["11", "12", "13", "234"],
+    "correctAnswer": "12",
     "subject": "math",
     "grade": "6",
     "difficulty": "hard",
-    "explanation": "5^2 = 25",
-    "_cacheBreaker": "1756035526275_13"
+    "explanation": "216 ÷ 18 = 12"
   },
   {
     "_id": "math_6_hard_014",
-    "content": "What is 4^3?",
+    "content": "What is 60% of 85?",
     "type": "multiple_choice",
-    "options": [
-      "59",
-      "64",
-      "72",
-      "79"
-    ],
-    "correctAnswer": "64",
+    "options": ["49", "50", "51", "52"],
+    "correctAnswer": "51",
     "subject": "math",
     "grade": "6",
     "difficulty": "hard",
-    "explanation": "4^3 = 64",
-    "_cacheBreaker": "1756035526275_14"
+    "explanation": "60% of 85 = 0.60 × 85 = 51"
   },
   {
     "_id": "math_6_hard_015",
-    "content": "What is 3^2?",
+    "content": "What is the area of a circle with radius 5 cm? (use π = 3.14)",
     "type": "multiple_choice",
-    "options": [
-      "4",
-      "9",
-      "17",
-      "24"
-    ],
-    "correctAnswer": "9",
+    "options": ["31.4 cm²", "78.5 cm²", "15.7 cm²", "157 cm²"],
+    "correctAnswer": "78.5 cm²",
     "subject": "math",
     "grade": "6",
     "difficulty": "hard",
-    "explanation": "3^2 = 9",
-    "_cacheBreaker": "1756035526275_15"
+    "explanation": "Area = πr² = 3.14 × 5² = 3.14 × 25 = 78.5 cm²"
   },
   {
     "_id": "math_6_hard_016",
-    "content": "What is 9^3?",
+    "content": "Solve: 2x + 5 = 17",
     "type": "multiple_choice",
-    "options": [
-      "724",
-      "729",
-      "737",
-      "744"
-    ],
-    "correctAnswer": "729",
+    "options": ["x = 5", "x = 6", "x = 11", "x = 22"],
+    "correctAnswer": "x = 6",
     "subject": "math",
     "grade": "6",
     "difficulty": "hard",
-    "explanation": "9^3 = 729",
-    "_cacheBreaker": "1756035526275_16"
+    "explanation": "2x = 17 - 5 = 12, so x = 6"
   },
   {
     "_id": "math_6_hard_017",
-    "content": "What is 2^3?",
+    "content": "What is 4/5 ÷ 1/2?",
     "type": "multiple_choice",
-    "options": [
-      "3",
-      "8",
-      "16",
-      "23"
-    ],
-    "correctAnswer": "8",
+    "options": ["4/10", "8/5", "2/5", "4/5"],
+    "correctAnswer": "8/5",
     "subject": "math",
     "grade": "6",
     "difficulty": "hard",
-    "explanation": "2^3 = 8",
-    "_cacheBreaker": "1756035526275_17"
+    "explanation": "4/5 ÷ 1/2 = 4/5 × 2/1 = 8/5"
   },
   {
     "_id": "math_6_hard_018",
-    "content": "What is 4^2?",
+    "content": "What is 673 + 458?",
     "type": "multiple_choice",
-    "options": [
-      "11",
-      "16",
-      "24",
-      "31"
-    ],
-    "correctAnswer": "16",
+    "options": ["1129", "1130", "1131", "1132"],
+    "correctAnswer": "1131",
     "subject": "math",
     "grade": "6",
     "difficulty": "hard",
-    "explanation": "4^2 = 16",
-    "_cacheBreaker": "1756035526275_18"
+    "explanation": "673 + 458 = 1131"
   },
   {
     "_id": "math_6_hard_019",
-    "content": "What is 5^3?",
+    "content": "What is 26 × 15?",
     "type": "multiple_choice",
-    "options": [
-      "120",
-      "125",
-      "133",
-      "140"
-    ],
-    "correctAnswer": "125",
+    "options": ["388", "389", "390", "265"],
+    "correctAnswer": "390",
     "subject": "math",
     "grade": "6",
     "difficulty": "hard",
-    "explanation": "5^3 = 125",
-    "_cacheBreaker": "1756035526275_19"
+    "explanation": "26 × 15 = 390"
   },
   {
     "_id": "math_6_hard_020",
-    "content": "What is 2^4?",
+    "content": "What is 75% of 120?",
     "type": "multiple_choice",
-    "options": [
-      "11",
-      "16",
-      "24",
-      "31"
-    ],
-    "correctAnswer": "16",
+    "options": ["88", "89", "90", "91"],
+    "correctAnswer": "90",
     "subject": "math",
     "grade": "6",
     "difficulty": "hard",
-    "explanation": "2^4 = 16",
-    "_cacheBreaker": "1756035526275_20"
-  },
-  {
-    "_id": "math_6_hard_021",
-    "content": "What is 9^4?",
-    "type": "multiple_choice",
-    "options": [
-      "6556",
-      "6561",
-      "6569",
-      "6576"
-    ],
-    "correctAnswer": "6561",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "hard",
-    "explanation": "9^4 = 6561",
-    "_cacheBreaker": "1756035526275_21"
-  },
-  {
-    "_id": "math_6_hard_022",
-    "content": "What is 4^3?",
-    "type": "multiple_choice",
-    "options": [
-      "59",
-      "64",
-      "72",
-      "79"
-    ],
-    "correctAnswer": "64",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "hard",
-    "explanation": "4^3 = 64",
-    "_cacheBreaker": "1756035526275_22"
-  },
-  {
-    "_id": "math_6_hard_023",
-    "content": "What is 7^2?",
-    "type": "multiple_choice",
-    "options": [
-      "44",
-      "49",
-      "57",
-      "64"
-    ],
-    "correctAnswer": "49",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "hard",
-    "explanation": "7^2 = 49",
-    "_cacheBreaker": "1756035526275_23"
-  },
-  {
-    "_id": "math_6_hard_024",
-    "content": "What is 3^3?",
-    "type": "multiple_choice",
-    "options": [
-      "22",
-      "27",
-      "35",
-      "42"
-    ],
-    "correctAnswer": "27",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "hard",
-    "explanation": "3^3 = 27",
-    "_cacheBreaker": "1756035526275_24"
-  },
-  {
-    "_id": "math_6_hard_025",
-    "content": "What is 7^3?",
-    "type": "multiple_choice",
-    "options": [
-      "338",
-      "343",
-      "351",
-      "358"
-    ],
-    "correctAnswer": "343",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "hard",
-    "explanation": "7^3 = 343",
-    "_cacheBreaker": "1756035526275_25"
-  },
-  {
-    "_id": "math_6_hard_026",
-    "content": "What is 3^3?",
-    "type": "multiple_choice",
-    "options": [
-      "22",
-      "27",
-      "35",
-      "42"
-    ],
-    "correctAnswer": "27",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "hard",
-    "explanation": "3^3 = 27",
-    "_cacheBreaker": "1756035526275_26"
-  },
-  {
-    "_id": "math_6_hard_027",
-    "content": "What is 5^3?",
-    "type": "multiple_choice",
-    "options": [
-      "120",
-      "125",
-      "133",
-      "140"
-    ],
-    "correctAnswer": "125",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "hard",
-    "explanation": "5^3 = 125",
-    "_cacheBreaker": "1756035526275_27"
-  },
-  {
-    "_id": "math_6_hard_028",
-    "content": "What is 7^3?",
-    "type": "multiple_choice",
-    "options": [
-      "338",
-      "343",
-      "351",
-      "358"
-    ],
-    "correctAnswer": "343",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "hard",
-    "explanation": "7^3 = 343",
-    "_cacheBreaker": "1756035526275_28"
-  },
-  {
-    "_id": "math_6_hard_029",
-    "content": "What is 9^3?",
-    "type": "multiple_choice",
-    "options": [
-      "724",
-      "729",
-      "737",
-      "744"
-    ],
-    "correctAnswer": "729",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "hard",
-    "explanation": "9^3 = 729",
-    "_cacheBreaker": "1756035526275_29"
-  },
-  {
-    "_id": "math_6_hard_030",
-    "content": "What is 7^3?",
-    "type": "multiple_choice",
-    "options": [
-      "338",
-      "343",
-      "351",
-      "358"
-    ],
-    "correctAnswer": "343",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "hard",
-    "explanation": "7^3 = 343",
-    "_cacheBreaker": "1756035526275_30"
-  },
-  {
-    "_id": "math_6_hard_031",
-    "content": "What is 5^3?",
-    "type": "multiple_choice",
-    "options": [
-      "120",
-      "125",
-      "133",
-      "140"
-    ],
-    "correctAnswer": "125",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "hard",
-    "explanation": "5^3 = 125",
-    "_cacheBreaker": "1756035526275_31"
-  },
-  {
-    "_id": "math_6_hard_032",
-    "content": "What is 9^4?",
-    "type": "multiple_choice",
-    "options": [
-      "6556",
-      "6561",
-      "6569",
-      "6576"
-    ],
-    "correctAnswer": "6561",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "hard",
-    "explanation": "9^4 = 6561",
-    "_cacheBreaker": "1756035526275_32"
-  },
-  {
-    "_id": "math_6_hard_033",
-    "content": "What is 6^4?",
-    "type": "multiple_choice",
-    "options": [
-      "1291",
-      "1296",
-      "1304",
-      "1311"
-    ],
-    "correctAnswer": "1296",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "hard",
-    "explanation": "6^4 = 1296",
-    "_cacheBreaker": "1756035526275_33"
-  },
-  {
-    "_id": "math_6_hard_034",
-    "content": "What is 2^2?",
-    "type": "multiple_choice",
-    "options": [
-      "-1",
-      "4",
-      "12",
-      "19"
-    ],
-    "correctAnswer": "4",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "hard",
-    "explanation": "2^2 = 4",
-    "_cacheBreaker": "1756035526275_34"
-  },
-  {
-    "_id": "math_6_hard_035",
-    "content": "What is 5^2?",
-    "type": "multiple_choice",
-    "options": [
-      "20",
-      "25",
-      "33",
-      "40"
-    ],
-    "correctAnswer": "25",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "hard",
-    "explanation": "5^2 = 25",
-    "_cacheBreaker": "1756035526275_35"
-  },
-  {
-    "_id": "math_6_hard_036",
-    "content": "What is 5^3?",
-    "type": "multiple_choice",
-    "options": [
-      "120",
-      "125",
-      "133",
-      "140"
-    ],
-    "correctAnswer": "125",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "hard",
-    "explanation": "5^3 = 125",
-    "_cacheBreaker": "1756035526275_36"
-  },
-  {
-    "_id": "math_6_hard_037",
-    "content": "What is 2^2?",
-    "type": "multiple_choice",
-    "options": [
-      "-1",
-      "4",
-      "12",
-      "19"
-    ],
-    "correctAnswer": "4",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "hard",
-    "explanation": "2^2 = 4",
-    "_cacheBreaker": "1756035526275_37"
-  },
-  {
-    "_id": "math_6_hard_038",
-    "content": "What is 2^2?",
-    "type": "multiple_choice",
-    "options": [
-      "-1",
-      "4",
-      "12",
-      "19"
-    ],
-    "correctAnswer": "4",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "hard",
-    "explanation": "2^2 = 4",
-    "_cacheBreaker": "1756035526275_38"
-  },
-  {
-    "_id": "math_6_hard_039",
-    "content": "What is 4^3?",
-    "type": "multiple_choice",
-    "options": [
-      "59",
-      "64",
-      "72",
-      "79"
-    ],
-    "correctAnswer": "64",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "hard",
-    "explanation": "4^3 = 64",
-    "_cacheBreaker": "1756035526275_39"
-  },
-  {
-    "_id": "math_6_hard_040",
-    "content": "What is 3^2?",
-    "type": "multiple_choice",
-    "options": [
-      "4",
-      "9",
-      "17",
-      "24"
-    ],
-    "correctAnswer": "9",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "hard",
-    "explanation": "3^2 = 9",
-    "_cacheBreaker": "1756035526275_40"
-  },
-  {
-    "_id": "math_6_hard_041",
-    "content": "What is 7^2?",
-    "type": "multiple_choice",
-    "options": [
-      "44",
-      "49",
-      "57",
-      "64"
-    ],
-    "correctAnswer": "49",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "hard",
-    "explanation": "7^2 = 49",
-    "_cacheBreaker": "1756035526275_41"
-  },
-  {
-    "_id": "math_6_hard_042",
-    "content": "What is 4^2?",
-    "type": "multiple_choice",
-    "options": [
-      "11",
-      "16",
-      "24",
-      "31"
-    ],
-    "correctAnswer": "16",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "hard",
-    "explanation": "4^2 = 16",
-    "_cacheBreaker": "1756035526275_42"
-  },
-  {
-    "_id": "math_6_hard_043",
-    "content": "What is 4^2?",
-    "type": "multiple_choice",
-    "options": [
-      "11",
-      "16",
-      "24",
-      "31"
-    ],
-    "correctAnswer": "16",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "hard",
-    "explanation": "4^2 = 16",
-    "_cacheBreaker": "1756035526275_43"
-  },
-  {
-    "_id": "math_6_hard_044",
-    "content": "What is 7^2?",
-    "type": "multiple_choice",
-    "options": [
-      "44",
-      "49",
-      "57",
-      "64"
-    ],
-    "correctAnswer": "49",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "hard",
-    "explanation": "7^2 = 49",
-    "_cacheBreaker": "1756035526275_44"
-  },
-  {
-    "_id": "math_6_hard_045",
-    "content": "What is 5^2?",
-    "type": "multiple_choice",
-    "options": [
-      "20",
-      "25",
-      "33",
-      "40"
-    ],
-    "correctAnswer": "25",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "hard",
-    "explanation": "5^2 = 25",
-    "_cacheBreaker": "1756035526275_45"
-  },
-  {
-    "_id": "math_6_hard_046",
-    "content": "What is 8^4?",
-    "type": "multiple_choice",
-    "options": [
-      "4091",
-      "4096",
-      "4104",
-      "4111"
-    ],
-    "correctAnswer": "4096",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "hard",
-    "explanation": "8^4 = 4096",
-    "_cacheBreaker": "1756035526275_46"
-  },
-  {
-    "_id": "math_6_hard_047",
-    "content": "What is 3^2?",
-    "type": "multiple_choice",
-    "options": [
-      "4",
-      "9",
-      "17",
-      "24"
-    ],
-    "correctAnswer": "9",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "hard",
-    "explanation": "3^2 = 9",
-    "_cacheBreaker": "1756035526275_47"
-  },
-  {
-    "_id": "math_6_hard_048",
-    "content": "What is 8^3?",
-    "type": "multiple_choice",
-    "options": [
-      "507",
-      "512",
-      "520",
-      "527"
-    ],
-    "correctAnswer": "512",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "hard",
-    "explanation": "8^3 = 512",
-    "_cacheBreaker": "1756035526275_48"
-  },
-  {
-    "_id": "math_6_hard_049",
-    "content": "What is 5^3?",
-    "type": "multiple_choice",
-    "options": [
-      "120",
-      "125",
-      "133",
-      "140"
-    ],
-    "correctAnswer": "125",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "hard",
-    "explanation": "5^3 = 125",
-    "_cacheBreaker": "1756035526275_49"
-  },
-  {
-    "_id": "math_6_hard_050",
-    "content": "What is 2^2?",
-    "type": "multiple_choice",
-    "options": [
-      "-1",
-      "4",
-      "12",
-      "19"
-    ],
-    "correctAnswer": "4",
-    "subject": "math",
-    "grade": "6",
-    "difficulty": "hard",
-    "explanation": "2^2 = 4",
-    "_cacheBreaker": "1756035526275_50"
+    "explanation": "75% of 120 = 0.75 × 120 = 90"
   }
 ]

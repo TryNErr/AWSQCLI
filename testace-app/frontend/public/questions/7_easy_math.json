@@ -1,852 +1,222 @@
 [
   {
     "_id": "math_7_easy_001",
-    "content": "What is 35 + 23?",
+    "content": "What is 67 + 45?",
     "type": "multiple_choice",
-    "options": [
-      "56",
-      "58",
-      "61",
-      "63"
-    ],
-    "correctAnswer": "58",
+    "options": ["110", "111", "112", "113"],
+    "correctAnswer": "112",
     "subject": "math",
     "grade": "7",
     "difficulty": "easy",
-    "explanation": "35 + 23 = 58",
-    "_cacheBreaker": "1756035526285_1"
+    "explanation": "67 + 45 = 112"
   },
   {
     "_id": "math_7_easy_002",
-    "content": "What is 21 + 26?",
+    "content": "Solve: x - 8 = 15",
     "type": "multiple_choice",
-    "options": [
-      "45",
-      "47",
-      "50",
-      "52"
-    ],
-    "correctAnswer": "47",
+    "options": ["x = 7", "x = 23", "x = 120", "x = 8"],
+    "correctAnswer": "x = 23",
     "subject": "math",
     "grade": "7",
     "difficulty": "easy",
-    "explanation": "21 + 26 = 47",
-    "_cacheBreaker": "1756035526285_2"
+    "explanation": "x = 15 + 8 = 23"
   },
   {
     "_id": "math_7_easy_003",
-    "content": "What is 37 + 20?",
+    "content": "What is 10% of 80?",
     "type": "multiple_choice",
-    "options": [
-      "55",
-      "57",
-      "60",
-      "62"
-    ],
-    "correctAnswer": "57",
+    "options": ["6", "7", "8", "9"],
+    "correctAnswer": "8",
     "subject": "math",
     "grade": "7",
     "difficulty": "easy",
-    "explanation": "37 + 20 = 57",
-    "_cacheBreaker": "1756035526285_3"
+    "explanation": "10% of 80 = 0.10 × 80 = 8"
   },
   {
     "_id": "math_7_easy_004",
-    "content": "What is 25 + 25?",
+    "content": "What is 84 ÷ 12?",
     "type": "multiple_choice",
-    "options": [
-      "48",
-      "50",
-      "53",
-      "55"
-    ],
-    "correctAnswer": "50",
+    "options": ["6", "7", "8", "96"],
+    "correctAnswer": "7",
     "subject": "math",
     "grade": "7",
     "difficulty": "easy",
-    "explanation": "25 + 25 = 50",
-    "_cacheBreaker": "1756035526285_4"
+    "explanation": "84 ÷ 12 = 7"
   },
   {
     "_id": "math_7_easy_005",
-    "content": "What is 31 + 22?",
+    "content": "What is 95 - 38?",
     "type": "multiple_choice",
-    "options": [
-      "51",
-      "53",
-      "56",
-      "58"
-    ],
-    "correctAnswer": "53",
+    "options": ["55", "56", "57", "133"],
+    "correctAnswer": "57",
     "subject": "math",
     "grade": "7",
     "difficulty": "easy",
-    "explanation": "31 + 22 = 53",
-    "_cacheBreaker": "1756035526285_5"
+    "explanation": "95 - 38 = 57"
   },
   {
     "_id": "math_7_easy_006",
-    "content": "What is 33 + 17?",
+    "content": "What is 9 × 8?",
     "type": "multiple_choice",
-    "options": [
-      "48",
-      "50",
-      "53",
-      "55"
-    ],
-    "correctAnswer": "50",
+    "options": ["70", "71", "72", "98"],
+    "correctAnswer": "72",
     "subject": "math",
     "grade": "7",
     "difficulty": "easy",
-    "explanation": "33 + 17 = 50",
-    "_cacheBreaker": "1756035526285_6"
+    "explanation": "9 × 8 = 72"
   },
   {
     "_id": "math_7_easy_007",
-    "content": "What is 34 + 24?",
+    "content": "Solve: x + 12 = 28",
     "type": "multiple_choice",
-    "options": [
-      "56",
-      "58",
-      "61",
-      "63"
-    ],
-    "correctAnswer": "58",
+    "options": ["x = 14", "x = 16", "x = 40", "x = 12"],
+    "correctAnswer": "x = 16",
     "subject": "math",
     "grade": "7",
     "difficulty": "easy",
-    "explanation": "34 + 24 = 58",
-    "_cacheBreaker": "1756035526285_7"
+    "explanation": "x = 28 - 12 = 16"
   },
   {
     "_id": "math_7_easy_008",
-    "content": "What is 21 + 14?",
+    "content": "What is 25% of 60?",
     "type": "multiple_choice",
-    "options": [
-      "33",
-      "35",
-      "38",
-      "40"
-    ],
-    "correctAnswer": "35",
+    "options": ["13", "14", "15", "16"],
+    "correctAnswer": "15",
     "subject": "math",
     "grade": "7",
     "difficulty": "easy",
-    "explanation": "21 + 14 = 35",
-    "_cacheBreaker": "1756035526285_8"
+    "explanation": "25% of 60 = 0.25 × 60 = 15"
   },
   {
     "_id": "math_7_easy_009",
-    "content": "What is 27 + 27?",
+    "content": "What is 78 + 34?",
     "type": "multiple_choice",
-    "options": [
-      "52",
-      "54",
-      "57",
-      "59"
-    ],
-    "correctAnswer": "54",
+    "options": ["110", "111", "112", "113"],
+    "correctAnswer": "112",
     "subject": "math",
     "grade": "7",
     "difficulty": "easy",
-    "explanation": "27 + 27 = 54",
-    "_cacheBreaker": "1756035526285_9"
+    "explanation": "78 + 34 = 112"
   },
   {
     "_id": "math_7_easy_010",
-    "content": "What is 24 + 22?",
+    "content": "What is 96 ÷ 8?",
     "type": "multiple_choice",
-    "options": [
-      "44",
-      "46",
-      "49",
-      "51"
-    ],
-    "correctAnswer": "46",
+    "options": ["11", "12", "13", "104"],
+    "correctAnswer": "12",
     "subject": "math",
     "grade": "7",
     "difficulty": "easy",
-    "explanation": "24 + 22 = 46",
-    "_cacheBreaker": "1756035526285_10"
+    "explanation": "96 ÷ 8 = 12"
   },
   {
     "_id": "math_7_easy_011",
-    "content": "What is 30 + 24?",
+    "content": "What is 87 - 49?",
     "type": "multiple_choice",
-    "options": [
-      "52",
-      "54",
-      "57",
-      "59"
-    ],
-    "correctAnswer": "54",
+    "options": ["36", "37", "38", "136"],
+    "correctAnswer": "38",
     "subject": "math",
     "grade": "7",
     "difficulty": "easy",
-    "explanation": "30 + 24 = 54",
-    "_cacheBreaker": "1756035526285_11"
+    "explanation": "87 - 49 = 38"
   },
   {
     "_id": "math_7_easy_012",
-    "content": "What is 39 + 18?",
+    "content": "What is 7 × 11?",
     "type": "multiple_choice",
-    "options": [
-      "55",
-      "57",
-      "60",
-      "62"
-    ],
-    "correctAnswer": "57",
+    "options": ["75", "76", "77", "711"],
+    "correctAnswer": "77",
     "subject": "math",
     "grade": "7",
     "difficulty": "easy",
-    "explanation": "39 + 18 = 57",
-    "_cacheBreaker": "1756035526285_12"
+    "explanation": "7 × 11 = 77"
   },
   {
     "_id": "math_7_easy_013",
-    "content": "What is 21 + 17?",
+    "content": "Solve: x - 15 = 22",
     "type": "multiple_choice",
-    "options": [
-      "36",
-      "38",
-      "41",
-      "43"
-    ],
-    "correctAnswer": "38",
+    "options": ["x = 7", "x = 37", "x = 15", "x = 22"],
+    "correctAnswer": "x = 37",
     "subject": "math",
     "grade": "7",
     "difficulty": "easy",
-    "explanation": "21 + 17 = 38",
-    "_cacheBreaker": "1756035526285_13"
+    "explanation": "x = 22 + 15 = 37"
   },
   {
     "_id": "math_7_easy_014",
-    "content": "What is 40 + 28?",
+    "content": "What is 20% of 75?",
     "type": "multiple_choice",
-    "options": [
-      "66",
-      "68",
-      "71",
-      "73"
-    ],
-    "correctAnswer": "68",
+    "options": ["13", "14", "15", "16"],
+    "correctAnswer": "15",
     "subject": "math",
     "grade": "7",
     "difficulty": "easy",
-    "explanation": "40 + 28 = 68",
-    "_cacheBreaker": "1756035526285_14"
+    "explanation": "20% of 75 = 0.20 × 75 = 15"
   },
   {
     "_id": "math_7_easy_015",
-    "content": "What is 38 + 25?",
+    "content": "What is 59 + 46?",
     "type": "multiple_choice",
-    "options": [
-      "61",
-      "63",
-      "66",
-      "68"
-    ],
-    "correctAnswer": "63",
+    "options": ["103", "104", "105", "106"],
+    "correctAnswer": "105",
     "subject": "math",
     "grade": "7",
     "difficulty": "easy",
-    "explanation": "38 + 25 = 63",
-    "_cacheBreaker": "1756035526285_15"
+    "explanation": "59 + 46 = 105"
   },
   {
     "_id": "math_7_easy_016",
-    "content": "What is 29 + 28?",
+    "content": "What is 108 ÷ 9?",
     "type": "multiple_choice",
-    "options": [
-      "55",
-      "57",
-      "60",
-      "62"
-    ],
-    "correctAnswer": "57",
+    "options": ["11", "12", "13", "117"],
+    "correctAnswer": "12",
     "subject": "math",
     "grade": "7",
     "difficulty": "easy",
-    "explanation": "29 + 28 = 57",
-    "_cacheBreaker": "1756035526285_16"
+    "explanation": "108 ÷ 9 = 12"
   },
   {
     "_id": "math_7_easy_017",
-    "content": "What is 22 + 26?",
+    "content": "What is 76 - 28?",
     "type": "multiple_choice",
-    "options": [
-      "46",
-      "48",
-      "51",
-      "53"
-    ],
+    "options": ["46", "47", "48", "104"],
     "correctAnswer": "48",
     "subject": "math",
     "grade": "7",
     "difficulty": "easy",
-    "explanation": "22 + 26 = 48",
-    "_cacheBreaker": "1756035526285_17"
+    "explanation": "76 - 28 = 48"
   },
   {
     "_id": "math_7_easy_018",
-    "content": "What is 35 + 15?",
+    "content": "What is 8 × 9?",
     "type": "multiple_choice",
-    "options": [
-      "48",
-      "50",
-      "53",
-      "55"
-    ],
-    "correctAnswer": "50",
+    "options": ["70", "71", "72", "89"],
+    "correctAnswer": "72",
     "subject": "math",
     "grade": "7",
     "difficulty": "easy",
-    "explanation": "35 + 15 = 50",
-    "_cacheBreaker": "1756035526285_18"
+    "explanation": "8 × 9 = 72"
   },
   {
     "_id": "math_7_easy_019",
-    "content": "What is 21 + 27?",
+    "content": "Solve: x + 18 = 35",
     "type": "multiple_choice",
-    "options": [
-      "46",
-      "48",
-      "51",
-      "53"
-    ],
-    "correctAnswer": "48",
+    "options": ["x = 17", "x = 53", "x = 18", "x = 35"],
+    "correctAnswer": "x = 17",
     "subject": "math",
     "grade": "7",
     "difficulty": "easy",
-    "explanation": "21 + 27 = 48",
-    "_cacheBreaker": "1756035526285_19"
+    "explanation": "x = 35 - 18 = 17"
   },
   {
     "_id": "math_7_easy_020",
-    "content": "What is 40 + 22?",
+    "content": "What is 50% of 90?",
     "type": "multiple_choice",
-    "options": [
-      "60",
-      "62",
-      "65",
-      "67"
-    ],
-    "correctAnswer": "62",
-    "subject": "math",
-    "grade": "7",
-    "difficulty": "easy",
-    "explanation": "40 + 22 = 62",
-    "_cacheBreaker": "1756035526285_20"
-  },
-  {
-    "_id": "math_7_easy_021",
-    "content": "What is 37 + 22?",
-    "type": "multiple_choice",
-    "options": [
-      "57",
-      "59",
-      "62",
-      "64"
-    ],
-    "correctAnswer": "59",
-    "subject": "math",
-    "grade": "7",
-    "difficulty": "easy",
-    "explanation": "37 + 22 = 59",
-    "_cacheBreaker": "1756035526285_21"
-  },
-  {
-    "_id": "math_7_easy_022",
-    "content": "What is 28 + 23?",
-    "type": "multiple_choice",
-    "options": [
-      "49",
-      "51",
-      "54",
-      "56"
-    ],
-    "correctAnswer": "51",
-    "subject": "math",
-    "grade": "7",
-    "difficulty": "easy",
-    "explanation": "28 + 23 = 51",
-    "_cacheBreaker": "1756035526285_22"
-  },
-  {
-    "_id": "math_7_easy_023",
-    "content": "What is 23 + 19?",
-    "type": "multiple_choice",
-    "options": [
-      "40",
-      "42",
-      "45",
-      "47"
-    ],
-    "correctAnswer": "42",
-    "subject": "math",
-    "grade": "7",
-    "difficulty": "easy",
-    "explanation": "23 + 19 = 42",
-    "_cacheBreaker": "1756035526285_23"
-  },
-  {
-    "_id": "math_7_easy_024",
-    "content": "What is 35 + 21?",
-    "type": "multiple_choice",
-    "options": [
-      "54",
-      "56",
-      "59",
-      "61"
-    ],
-    "correctAnswer": "56",
-    "subject": "math",
-    "grade": "7",
-    "difficulty": "easy",
-    "explanation": "35 + 21 = 56",
-    "_cacheBreaker": "1756035526285_24"
-  },
-  {
-    "_id": "math_7_easy_025",
-    "content": "What is 21 + 15?",
-    "type": "multiple_choice",
-    "options": [
-      "34",
-      "36",
-      "39",
-      "41"
-    ],
-    "correctAnswer": "36",
-    "subject": "math",
-    "grade": "7",
-    "difficulty": "easy",
-    "explanation": "21 + 15 = 36",
-    "_cacheBreaker": "1756035526285_25"
-  },
-  {
-    "_id": "math_7_easy_026",
-    "content": "What is 29 + 25?",
-    "type": "multiple_choice",
-    "options": [
-      "52",
-      "54",
-      "57",
-      "59"
-    ],
-    "correctAnswer": "54",
-    "subject": "math",
-    "grade": "7",
-    "difficulty": "easy",
-    "explanation": "29 + 25 = 54",
-    "_cacheBreaker": "1756035526285_26"
-  },
-  {
-    "_id": "math_7_easy_027",
-    "content": "What is 30 + 25?",
-    "type": "multiple_choice",
-    "options": [
-      "53",
-      "55",
-      "58",
-      "60"
-    ],
-    "correctAnswer": "55",
-    "subject": "math",
-    "grade": "7",
-    "difficulty": "easy",
-    "explanation": "30 + 25 = 55",
-    "_cacheBreaker": "1756035526285_27"
-  },
-  {
-    "_id": "math_7_easy_028",
-    "content": "What is 27 + 21?",
-    "type": "multiple_choice",
-    "options": [
-      "46",
-      "48",
-      "51",
-      "53"
-    ],
-    "correctAnswer": "48",
-    "subject": "math",
-    "grade": "7",
-    "difficulty": "easy",
-    "explanation": "27 + 21 = 48",
-    "_cacheBreaker": "1756035526285_28"
-  },
-  {
-    "_id": "math_7_easy_029",
-    "content": "What is 25 + 27?",
-    "type": "multiple_choice",
-    "options": [
-      "50",
-      "52",
-      "55",
-      "57"
-    ],
-    "correctAnswer": "52",
-    "subject": "math",
-    "grade": "7",
-    "difficulty": "easy",
-    "explanation": "25 + 27 = 52",
-    "_cacheBreaker": "1756035526285_29"
-  },
-  {
-    "_id": "math_7_easy_030",
-    "content": "What is 26 + 18?",
-    "type": "multiple_choice",
-    "options": [
-      "42",
-      "44",
-      "47",
-      "49"
-    ],
-    "correctAnswer": "44",
-    "subject": "math",
-    "grade": "7",
-    "difficulty": "easy",
-    "explanation": "26 + 18 = 44",
-    "_cacheBreaker": "1756035526285_30"
-  },
-  {
-    "_id": "math_7_easy_031",
-    "content": "What is 27 + 26?",
-    "type": "multiple_choice",
-    "options": [
-      "51",
-      "53",
-      "56",
-      "58"
-    ],
-    "correctAnswer": "53",
-    "subject": "math",
-    "grade": "7",
-    "difficulty": "easy",
-    "explanation": "27 + 26 = 53",
-    "_cacheBreaker": "1756035526285_31"
-  },
-  {
-    "_id": "math_7_easy_032",
-    "content": "What is 40 + 16?",
-    "type": "multiple_choice",
-    "options": [
-      "54",
-      "56",
-      "59",
-      "61"
-    ],
-    "correctAnswer": "56",
-    "subject": "math",
-    "grade": "7",
-    "difficulty": "easy",
-    "explanation": "40 + 16 = 56",
-    "_cacheBreaker": "1756035526285_32"
-  },
-  {
-    "_id": "math_7_easy_033",
-    "content": "What is 39 + 15?",
-    "type": "multiple_choice",
-    "options": [
-      "52",
-      "54",
-      "57",
-      "59"
-    ],
-    "correctAnswer": "54",
-    "subject": "math",
-    "grade": "7",
-    "difficulty": "easy",
-    "explanation": "39 + 15 = 54",
-    "_cacheBreaker": "1756035526285_33"
-  },
-  {
-    "_id": "math_7_easy_034",
-    "content": "What is 28 + 14?",
-    "type": "multiple_choice",
-    "options": [
-      "40",
-      "42",
-      "45",
-      "47"
-    ],
-    "correctAnswer": "42",
-    "subject": "math",
-    "grade": "7",
-    "difficulty": "easy",
-    "explanation": "28 + 14 = 42",
-    "_cacheBreaker": "1756035526285_34"
-  },
-  {
-    "_id": "math_7_easy_035",
-    "content": "What is 21 + 17?",
-    "type": "multiple_choice",
-    "options": [
-      "36",
-      "38",
-      "41",
-      "43"
-    ],
-    "correctAnswer": "38",
-    "subject": "math",
-    "grade": "7",
-    "difficulty": "easy",
-    "explanation": "21 + 17 = 38",
-    "_cacheBreaker": "1756035526285_35"
-  },
-  {
-    "_id": "math_7_easy_036",
-    "content": "What is 24 + 27?",
-    "type": "multiple_choice",
-    "options": [
-      "49",
-      "51",
-      "54",
-      "56"
-    ],
-    "correctAnswer": "51",
-    "subject": "math",
-    "grade": "7",
-    "difficulty": "easy",
-    "explanation": "24 + 27 = 51",
-    "_cacheBreaker": "1756035526285_36"
-  },
-  {
-    "_id": "math_7_easy_037",
-    "content": "What is 36 + 14?",
-    "type": "multiple_choice",
-    "options": [
-      "48",
-      "50",
-      "53",
-      "55"
-    ],
-    "correctAnswer": "50",
-    "subject": "math",
-    "grade": "7",
-    "difficulty": "easy",
-    "explanation": "36 + 14 = 50",
-    "_cacheBreaker": "1756035526285_37"
-  },
-  {
-    "_id": "math_7_easy_038",
-    "content": "What is 25 + 20?",
-    "type": "multiple_choice",
-    "options": [
-      "43",
-      "45",
-      "48",
-      "50"
-    ],
+    "options": ["43", "44", "45", "46"],
     "correctAnswer": "45",
     "subject": "math",
     "grade": "7",
     "difficulty": "easy",
-    "explanation": "25 + 20 = 45",
-    "_cacheBreaker": "1756035526285_38"
-  },
-  {
-    "_id": "math_7_easy_039",
-    "content": "What is 36 + 23?",
-    "type": "multiple_choice",
-    "options": [
-      "57",
-      "59",
-      "62",
-      "64"
-    ],
-    "correctAnswer": "59",
-    "subject": "math",
-    "grade": "7",
-    "difficulty": "easy",
-    "explanation": "36 + 23 = 59",
-    "_cacheBreaker": "1756035526285_39"
-  },
-  {
-    "_id": "math_7_easy_040",
-    "content": "What is 34 + 25?",
-    "type": "multiple_choice",
-    "options": [
-      "57",
-      "59",
-      "62",
-      "64"
-    ],
-    "correctAnswer": "59",
-    "subject": "math",
-    "grade": "7",
-    "difficulty": "easy",
-    "explanation": "34 + 25 = 59",
-    "_cacheBreaker": "1756035526285_40"
-  },
-  {
-    "_id": "math_7_easy_041",
-    "content": "What is 24 + 28?",
-    "type": "multiple_choice",
-    "options": [
-      "50",
-      "52",
-      "55",
-      "57"
-    ],
-    "correctAnswer": "52",
-    "subject": "math",
-    "grade": "7",
-    "difficulty": "easy",
-    "explanation": "24 + 28 = 52",
-    "_cacheBreaker": "1756035526285_41"
-  },
-  {
-    "_id": "math_7_easy_042",
-    "content": "What is 24 + 15?",
-    "type": "multiple_choice",
-    "options": [
-      "37",
-      "39",
-      "42",
-      "44"
-    ],
-    "correctAnswer": "39",
-    "subject": "math",
-    "grade": "7",
-    "difficulty": "easy",
-    "explanation": "24 + 15 = 39",
-    "_cacheBreaker": "1756035526285_42"
-  },
-  {
-    "_id": "math_7_easy_043",
-    "content": "What is 32 + 25?",
-    "type": "multiple_choice",
-    "options": [
-      "55",
-      "57",
-      "60",
-      "62"
-    ],
-    "correctAnswer": "57",
-    "subject": "math",
-    "grade": "7",
-    "difficulty": "easy",
-    "explanation": "32 + 25 = 57",
-    "_cacheBreaker": "1756035526285_43"
-  },
-  {
-    "_id": "math_7_easy_044",
-    "content": "What is 37 + 22?",
-    "type": "multiple_choice",
-    "options": [
-      "57",
-      "59",
-      "62",
-      "64"
-    ],
-    "correctAnswer": "59",
-    "subject": "math",
-    "grade": "7",
-    "difficulty": "easy",
-    "explanation": "37 + 22 = 59",
-    "_cacheBreaker": "1756035526285_44"
-  },
-  {
-    "_id": "math_7_easy_045",
-    "content": "What is 38 + 24?",
-    "type": "multiple_choice",
-    "options": [
-      "60",
-      "62",
-      "65",
-      "67"
-    ],
-    "correctAnswer": "62",
-    "subject": "math",
-    "grade": "7",
-    "difficulty": "easy",
-    "explanation": "38 + 24 = 62",
-    "_cacheBreaker": "1756035526285_45"
-  },
-  {
-    "_id": "math_7_easy_046",
-    "content": "What is 35 + 23?",
-    "type": "multiple_choice",
-    "options": [
-      "56",
-      "58",
-      "61",
-      "63"
-    ],
-    "correctAnswer": "58",
-    "subject": "math",
-    "grade": "7",
-    "difficulty": "easy",
-    "explanation": "35 + 23 = 58",
-    "_cacheBreaker": "1756035526285_46"
-  },
-  {
-    "_id": "math_7_easy_047",
-    "content": "What is 30 + 25?",
-    "type": "multiple_choice",
-    "options": [
-      "53",
-      "55",
-      "58",
-      "60"
-    ],
-    "correctAnswer": "55",
-    "subject": "math",
-    "grade": "7",
-    "difficulty": "easy",
-    "explanation": "30 + 25 = 55",
-    "_cacheBreaker": "1756035526285_47"
-  },
-  {
-    "_id": "math_7_easy_048",
-    "content": "What is 21 + 24?",
-    "type": "multiple_choice",
-    "options": [
-      "43",
-      "45",
-      "48",
-      "50"
-    ],
-    "correctAnswer": "45",
-    "subject": "math",
-    "grade": "7",
-    "difficulty": "easy",
-    "explanation": "21 + 24 = 45",
-    "_cacheBreaker": "1756035526285_48"
-  },
-  {
-    "_id": "math_7_easy_049",
-    "content": "What is 31 + 16?",
-    "type": "multiple_choice",
-    "options": [
-      "45",
-      "47",
-      "50",
-      "52"
-    ],
-    "correctAnswer": "47",
-    "subject": "math",
-    "grade": "7",
-    "difficulty": "easy",
-    "explanation": "31 + 16 = 47",
-    "_cacheBreaker": "1756035526285_49"
-  },
-  {
-    "_id": "math_7_easy_050",
-    "content": "What is 40 + 14?",
-    "type": "multiple_choice",
-    "options": [
-      "52",
-      "54",
-      "57",
-      "59"
-    ],
-    "correctAnswer": "54",
-    "subject": "math",
-    "grade": "7",
-    "difficulty": "easy",
-    "explanation": "40 + 14 = 54",
-    "_cacheBreaker": "1756035526285_50"
+    "explanation": "50% of 90 = 0.50 × 90 = 45"
   }
 ]

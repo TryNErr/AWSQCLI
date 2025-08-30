@@ -1,852 +1,222 @@
 [
   {
     "_id": "math_10_medium_001",
-    "content": "Solve: 3x + 21 = 48",
+    "content": "Solve: 2x² - 8 = 0",
     "type": "multiple_choice",
-    "options": [
-      "x = 8",
-      "x = 9",
-      "x = 10",
-      "x = 11"
-    ],
-    "correctAnswer": "x = 9",
+    "options": ["x = ±2", "x = ±4", "x = 4", "x = 2"],
+    "correctAnswer": "x = ±2",
     "subject": "math",
     "grade": "10",
     "difficulty": "medium",
-    "explanation": "3x = 48 - 21 = 27, so x = 9",
-    "_cacheBreaker": "1756035526327_1"
+    "explanation": "2x² = 8, x² = 4, x = ±2"
   },
   {
     "_id": "math_10_medium_002",
-    "content": "Solve: 2x + 22 = 44",
+    "content": "What is the domain of f(x) = 1/(x - 3)?",
     "type": "multiple_choice",
-    "options": [
-      "x = 10",
-      "x = 11",
-      "x = 12",
-      "x = 13"
-    ],
-    "correctAnswer": "x = 11",
+    "options": ["All real numbers", "x ≠ 3", "x > 3", "x < 3"],
+    "correctAnswer": "x ≠ 3",
     "subject": "math",
     "grade": "10",
     "difficulty": "medium",
-    "explanation": "2x = 44 - 22 = 22, so x = 11",
-    "_cacheBreaker": "1756035526327_2"
+    "explanation": "Function is undefined when denominator = 0, so x ≠ 3"
   },
   {
     "_id": "math_10_medium_003",
-    "content": "Solve: 6x + 20 = 80",
+    "content": "Simplify: (x³)²",
     "type": "multiple_choice",
-    "options": [
-      "x = 9",
-      "x = 10",
-      "x = 11",
-      "x = 12"
-    ],
-    "correctAnswer": "x = 10",
+    "options": ["x⁵", "x⁶", "x⁹", "2x³"],
+    "correctAnswer": "x⁶",
     "subject": "math",
     "grade": "10",
     "difficulty": "medium",
-    "explanation": "6x = 80 - 20 = 60, so x = 10",
-    "_cacheBreaker": "1756035526327_3"
+    "explanation": "(x³)² = x³ˣ² = x⁶"
   },
   {
     "_id": "math_10_medium_004",
-    "content": "Solve: 5x + 19 = 69",
+    "content": "Solve: x² + 2x - 8 = 0",
     "type": "multiple_choice",
-    "options": [
-      "x = 9",
-      "x = 10",
-      "x = 11",
-      "x = 12"
-    ],
-    "correctAnswer": "x = 10",
+    "options": ["x = 2, -4", "x = -2, 4", "x = 1, -8", "x = 8, -1"],
+    "correctAnswer": "x = 2, -4",
     "subject": "math",
     "grade": "10",
     "difficulty": "medium",
-    "explanation": "5x = 69 - 19 = 50, so x = 10",
-    "_cacheBreaker": "1756035526327_4"
+    "explanation": "Factor: (x + 4)(x - 2) = 0, so x = -4 or x = 2"
   },
   {
     "_id": "math_10_medium_005",
-    "content": "Solve: 4x + 21 = 49",
+    "content": "What is the vertex of y = x² - 4x + 3?",
     "type": "multiple_choice",
-    "options": [
-      "x = 6",
-      "x = 7",
-      "x = 8",
-      "x = 9"
-    ],
-    "correctAnswer": "x = 7",
+    "options": ["(2, -1)", "(-2, 1)", "(4, 3)", "(0, 3)"],
+    "correctAnswer": "(2, -1)",
     "subject": "math",
     "grade": "10",
     "difficulty": "medium",
-    "explanation": "4x = 49 - 21 = 28, so x = 7",
-    "_cacheBreaker": "1756035526327_5"
+    "explanation": "x-coordinate: x = -b/2a = 4/2 = 2, y-coordinate: y = 2² - 4(2) + 3 = -1"
   },
   {
     "_id": "math_10_medium_006",
-    "content": "Solve: 3x + 15 = 33",
+    "content": "Find the inverse of f(x) = 2x + 3",
     "type": "multiple_choice",
-    "options": [
-      "x = 5",
-      "x = 6",
-      "x = 7",
-      "x = 8"
-    ],
-    "correctAnswer": "x = 6",
+    "options": ["f⁻¹(x) = (x - 3)/2", "f⁻¹(x) = (x + 3)/2", "f⁻¹(x) = 2x - 3", "f⁻¹(x) = x/2 - 3"],
+    "correctAnswer": "f⁻¹(x) = (x - 3)/2",
     "subject": "math",
     "grade": "10",
     "difficulty": "medium",
-    "explanation": "3x = 33 - 15 = 18, so x = 6",
-    "_cacheBreaker": "1756035526327_6"
+    "explanation": "Let y = 2x + 3, solve for x: x = (y - 3)/2, so f⁻¹(x) = (x - 3)/2"
   },
   {
     "_id": "math_10_medium_007",
-    "content": "Solve: 6x + 11 = 29",
+    "content": "Solve: 3x² - 12x = 0",
     "type": "multiple_choice",
-    "options": [
-      "x = 2",
-      "x = 3",
-      "x = 4",
-      "x = 5"
-    ],
-    "correctAnswer": "x = 3",
+    "options": ["x = 0, 4", "x = 0, -4", "x = 3, 12", "x = -3, -12"],
+    "correctAnswer": "x = 0, 4",
     "subject": "math",
     "grade": "10",
     "difficulty": "medium",
-    "explanation": "6x = 29 - 11 = 18, so x = 3",
-    "_cacheBreaker": "1756035526327_7"
+    "explanation": "Factor: 3x(x - 4) = 0, so x = 0 or x = 4"
   },
   {
     "_id": "math_10_medium_008",
-    "content": "Solve: 3x + 14 = 35",
+    "content": "What is the range of f(x) = x² + 1?",
     "type": "multiple_choice",
-    "options": [
-      "x = 6",
-      "x = 7",
-      "x = 8",
-      "x = 9"
-    ],
-    "correctAnswer": "x = 7",
+    "options": ["All real numbers", "y ≥ 1", "y > 1", "y ≤ 1"],
+    "correctAnswer": "y ≥ 1",
     "subject": "math",
     "grade": "10",
     "difficulty": "medium",
-    "explanation": "3x = 35 - 14 = 21, so x = 7",
-    "_cacheBreaker": "1756035526327_8"
+    "explanation": "Since x² ≥ 0 for all real x, x² + 1 ≥ 1"
   },
   {
     "_id": "math_10_medium_009",
-    "content": "Solve: 3x + 19 = 28",
+    "content": "Simplify: √(9x⁴)",
     "type": "multiple_choice",
-    "options": [
-      "x = 2",
-      "x = 3",
-      "x = 4",
-      "x = 5"
-    ],
-    "correctAnswer": "x = 3",
+    "options": ["3x²", "9x²", "3x⁴", "x²"],
+    "correctAnswer": "3x²",
     "subject": "math",
     "grade": "10",
     "difficulty": "medium",
-    "explanation": "3x = 28 - 19 = 9, so x = 3",
-    "_cacheBreaker": "1756035526327_9"
+    "explanation": "√(9x⁴) = √9 × √(x⁴) = 3 × x² = 3x²"
   },
   {
     "_id": "math_10_medium_010",
-    "content": "Solve: 5x + 7 = 27",
+    "content": "Solve: x² - 6x + 9 = 0",
     "type": "multiple_choice",
-    "options": [
-      "x = 3",
-      "x = 4",
-      "x = 5",
-      "x = 6"
-    ],
-    "correctAnswer": "x = 4",
+    "options": ["x = 3", "x = -3", "x = 3, -3", "x = 6, 9"],
+    "correctAnswer": "x = 3",
     "subject": "math",
     "grade": "10",
     "difficulty": "medium",
-    "explanation": "5x = 27 - 7 = 20, so x = 4",
-    "_cacheBreaker": "1756035526327_10"
+    "explanation": "Factor: (x - 3)² = 0, so x = 3 (double root)"
   },
   {
     "_id": "math_10_medium_011",
-    "content": "Solve: 6x + 8 = 50",
+    "content": "What is the axis of symmetry of y = 2x² - 8x + 5?",
     "type": "multiple_choice",
-    "options": [
-      "x = 6",
-      "x = 7",
-      "x = 8",
-      "x = 9"
-    ],
-    "correctAnswer": "x = 7",
+    "options": ["x = 2", "x = -2", "x = 4", "x = -4"],
+    "correctAnswer": "x = 2",
     "subject": "math",
     "grade": "10",
     "difficulty": "medium",
-    "explanation": "6x = 50 - 8 = 42, so x = 7",
-    "_cacheBreaker": "1756035526327_11"
+    "explanation": "Axis of symmetry: x = -b/2a = -(-8)/2(2) = 8/4 = 2"
   },
   {
     "_id": "math_10_medium_012",
-    "content": "Solve: 4x + 12 = 48",
+    "content": "Find the composition (f ∘ g)(x) if f(x) = x + 2 and g(x) = 3x",
     "type": "multiple_choice",
-    "options": [
-      "x = 8",
-      "x = 9",
-      "x = 10",
-      "x = 11"
-    ],
-    "correctAnswer": "x = 9",
+    "options": ["3x + 2", "3x + 6", "x + 6", "5x"],
+    "correctAnswer": "3x + 2",
     "subject": "math",
     "grade": "10",
     "difficulty": "medium",
-    "explanation": "4x = 48 - 12 = 36, so x = 9",
-    "_cacheBreaker": "1756035526327_12"
+    "explanation": "(f ∘ g)(x) = f(g(x)) = f(3x) = 3x + 2"
   },
   {
     "_id": "math_10_medium_013",
-    "content": "Solve: 5x + 23 = 68",
+    "content": "Solve: x² + 5x - 6 = 0",
     "type": "multiple_choice",
-    "options": [
-      "x = 8",
-      "x = 9",
-      "x = 10",
-      "x = 11"
-    ],
-    "correctAnswer": "x = 9",
+    "options": ["x = 1, -6", "x = -1, 6", "x = 2, -3", "x = -2, 3"],
+    "correctAnswer": "x = 1, -6",
     "subject": "math",
     "grade": "10",
     "difficulty": "medium",
-    "explanation": "5x = 68 - 23 = 45, so x = 9",
-    "_cacheBreaker": "1756035526327_13"
+    "explanation": "Factor: (x + 6)(x - 1) = 0, so x = -6 or x = 1"
   },
   {
     "_id": "math_10_medium_014",
-    "content": "Solve: 5x + 20 = 45",
+    "content": "What is the domain of f(x) = √(x + 4)?",
     "type": "multiple_choice",
-    "options": [
-      "x = 4",
-      "x = 5",
-      "x = 6",
-      "x = 7"
-    ],
-    "correctAnswer": "x = 5",
+    "options": ["x ≥ -4", "x > -4", "x ≤ -4", "All real numbers"],
+    "correctAnswer": "x ≥ -4",
     "subject": "math",
     "grade": "10",
     "difficulty": "medium",
-    "explanation": "5x = 45 - 20 = 25, so x = 5",
-    "_cacheBreaker": "1756035526327_14"
+    "explanation": "For square root to be defined, x + 4 ≥ 0, so x ≥ -4"
   },
   {
     "_id": "math_10_medium_015",
-    "content": "Solve: 5x + 12 = 22",
+    "content": "Simplify: (2x²)³",
     "type": "multiple_choice",
-    "options": [
-      "x = 1",
-      "x = 2",
-      "x = 3",
-      "x = 4"
-    ],
-    "correctAnswer": "x = 2",
+    "options": ["6x⁶", "8x⁶", "2x⁶", "8x⁵"],
+    "correctAnswer": "8x⁶",
     "subject": "math",
     "grade": "10",
     "difficulty": "medium",
-    "explanation": "5x = 22 - 12 = 10, so x = 2",
-    "_cacheBreaker": "1756035526327_15"
+    "explanation": "(2x²)³ = 2³ × (x²)³ = 8 × x⁶ = 8x⁶"
   },
   {
     "_id": "math_10_medium_016",
-    "content": "Solve: 2x + 22 = 38",
+    "content": "Solve: x² - 3x - 10 = 0",
     "type": "multiple_choice",
-    "options": [
-      "x = 7",
-      "x = 8",
-      "x = 9",
-      "x = 10"
-    ],
-    "correctAnswer": "x = 8",
+    "options": ["x = 5, -2", "x = -5, 2", "x = 1, -10", "x = 3, 10"],
+    "correctAnswer": "x = 5, -2",
     "subject": "math",
     "grade": "10",
     "difficulty": "medium",
-    "explanation": "2x = 38 - 22 = 16, so x = 8",
-    "_cacheBreaker": "1756035526327_16"
+    "explanation": "Factor: (x - 5)(x + 2) = 0, so x = 5 or x = -2"
   },
   {
     "_id": "math_10_medium_017",
-    "content": "Solve: 5x + 8 = 33",
+    "content": "What is the y-intercept of y = x² - 2x + 5?",
     "type": "multiple_choice",
-    "options": [
-      "x = 4",
-      "x = 5",
-      "x = 6",
-      "x = 7"
-    ],
-    "correctAnswer": "x = 5",
+    "options": ["5", "-2", "1", "0"],
+    "correctAnswer": "5",
     "subject": "math",
     "grade": "10",
     "difficulty": "medium",
-    "explanation": "5x = 33 - 8 = 25, so x = 5",
-    "_cacheBreaker": "1756035526327_17"
+    "explanation": "Y-intercept occurs when x = 0: y = 0² - 2(0) + 5 = 5"
   },
   {
     "_id": "math_10_medium_018",
-    "content": "Solve: 3x + 14 = 32",
+    "content": "Find the inverse of f(x) = x - 5",
     "type": "multiple_choice",
-    "options": [
-      "x = 5",
-      "x = 6",
-      "x = 7",
-      "x = 8"
-    ],
-    "correctAnswer": "x = 6",
+    "options": ["f⁻¹(x) = x + 5", "f⁻¹(x) = x - 5", "f⁻¹(x) = 5 - x", "f⁻¹(x) = -x + 5"],
+    "correctAnswer": "f⁻¹(x) = x + 5",
     "subject": "math",
     "grade": "10",
     "difficulty": "medium",
-    "explanation": "3x = 32 - 14 = 18, so x = 6",
-    "_cacheBreaker": "1756035526327_18"
+    "explanation": "Let y = x - 5, solve for x: x = y + 5, so f⁻¹(x) = x + 5"
   },
   {
     "_id": "math_10_medium_019",
-    "content": "Solve: 5x + 8 = 63",
+    "content": "Solve: 4x² - 16 = 0",
     "type": "multiple_choice",
-    "options": [
-      "x = 10",
-      "x = 11",
-      "x = 12",
-      "x = 13"
-    ],
-    "correctAnswer": "x = 11",
+    "options": ["x = ±2", "x = ±4", "x = 4", "x = 2"],
+    "correctAnswer": "x = ±2",
     "subject": "math",
     "grade": "10",
     "difficulty": "medium",
-    "explanation": "5x = 63 - 8 = 55, so x = 11",
-    "_cacheBreaker": "1756035526327_19"
+    "explanation": "4x² = 16, x² = 4, x = ±2"
   },
   {
     "_id": "math_10_medium_020",
-    "content": "Solve: 4x + 5 = 29",
+    "content": "What is the vertex of y = -x² + 6x - 5?",
     "type": "multiple_choice",
-    "options": [
-      "x = 5",
-      "x = 6",
-      "x = 7",
-      "x = 8"
-    ],
-    "correctAnswer": "x = 6",
+    "options": ["(3, 4)", "(-3, -4)", "(6, -5)", "(0, -5)"],
+    "correctAnswer": "(3, 4)",
     "subject": "math",
     "grade": "10",
     "difficulty": "medium",
-    "explanation": "4x = 29 - 5 = 24, so x = 6",
-    "_cacheBreaker": "1756035526327_20"
-  },
-  {
-    "_id": "math_10_medium_021",
-    "content": "Solve: 6x + 7 = 43",
-    "type": "multiple_choice",
-    "options": [
-      "x = 5",
-      "x = 6",
-      "x = 7",
-      "x = 8"
-    ],
-    "correctAnswer": "x = 6",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "medium",
-    "explanation": "6x = 43 - 7 = 36, so x = 6",
-    "_cacheBreaker": "1756035526327_21"
-  },
-  {
-    "_id": "math_10_medium_022",
-    "content": "Solve: 3x + 23 = 41",
-    "type": "multiple_choice",
-    "options": [
-      "x = 5",
-      "x = 6",
-      "x = 7",
-      "x = 8"
-    ],
-    "correctAnswer": "x = 6",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "medium",
-    "explanation": "3x = 41 - 23 = 18, so x = 6",
-    "_cacheBreaker": "1756035526327_22"
-  },
-  {
-    "_id": "math_10_medium_023",
-    "content": "Solve: 2x + 24 = 46",
-    "type": "multiple_choice",
-    "options": [
-      "x = 10",
-      "x = 11",
-      "x = 12",
-      "x = 13"
-    ],
-    "correctAnswer": "x = 11",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "medium",
-    "explanation": "2x = 46 - 24 = 22, so x = 11",
-    "_cacheBreaker": "1756035526327_23"
-  },
-  {
-    "_id": "math_10_medium_024",
-    "content": "Solve: 3x + 7 = 25",
-    "type": "multiple_choice",
-    "options": [
-      "x = 5",
-      "x = 6",
-      "x = 7",
-      "x = 8"
-    ],
-    "correctAnswer": "x = 6",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "medium",
-    "explanation": "3x = 25 - 7 = 18, so x = 6",
-    "_cacheBreaker": "1756035526327_24"
-  },
-  {
-    "_id": "math_10_medium_025",
-    "content": "Solve: 3x + 12 = 27",
-    "type": "multiple_choice",
-    "options": [
-      "x = 4",
-      "x = 5",
-      "x = 6",
-      "x = 7"
-    ],
-    "correctAnswer": "x = 5",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "medium",
-    "explanation": "3x = 27 - 12 = 15, so x = 5",
-    "_cacheBreaker": "1756035526327_25"
-  },
-  {
-    "_id": "math_10_medium_026",
-    "content": "Solve: 2x + 5 = 17",
-    "type": "multiple_choice",
-    "options": [
-      "x = 5",
-      "x = 6",
-      "x = 7",
-      "x = 8"
-    ],
-    "correctAnswer": "x = 6",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "medium",
-    "explanation": "2x = 17 - 5 = 12, so x = 6",
-    "_cacheBreaker": "1756035526327_26"
-  },
-  {
-    "_id": "math_10_medium_027",
-    "content": "Solve: 6x + 23 = 41",
-    "type": "multiple_choice",
-    "options": [
-      "x = 2",
-      "x = 3",
-      "x = 4",
-      "x = 5"
-    ],
-    "correctAnswer": "x = 3",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "medium",
-    "explanation": "6x = 41 - 23 = 18, so x = 3",
-    "_cacheBreaker": "1756035526327_27"
-  },
-  {
-    "_id": "math_10_medium_028",
-    "content": "Solve: 4x + 19 = 27",
-    "type": "multiple_choice",
-    "options": [
-      "x = 1",
-      "x = 2",
-      "x = 3",
-      "x = 4"
-    ],
-    "correctAnswer": "x = 2",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "medium",
-    "explanation": "4x = 27 - 19 = 8, so x = 2",
-    "_cacheBreaker": "1756035526327_28"
-  },
-  {
-    "_id": "math_10_medium_029",
-    "content": "Solve: 4x + 10 = 46",
-    "type": "multiple_choice",
-    "options": [
-      "x = 8",
-      "x = 9",
-      "x = 10",
-      "x = 11"
-    ],
-    "correctAnswer": "x = 9",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "medium",
-    "explanation": "4x = 46 - 10 = 36, so x = 9",
-    "_cacheBreaker": "1756035526327_29"
-  },
-  {
-    "_id": "math_10_medium_030",
-    "content": "Solve: 3x + 14 = 29",
-    "type": "multiple_choice",
-    "options": [
-      "x = 4",
-      "x = 5",
-      "x = 6",
-      "x = 7"
-    ],
-    "correctAnswer": "x = 5",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "medium",
-    "explanation": "3x = 29 - 14 = 15, so x = 5",
-    "_cacheBreaker": "1756035526327_30"
-  },
-  {
-    "_id": "math_10_medium_031",
-    "content": "Solve: 5x + 8 = 28",
-    "type": "multiple_choice",
-    "options": [
-      "x = 3",
-      "x = 4",
-      "x = 5",
-      "x = 6"
-    ],
-    "correctAnswer": "x = 4",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "medium",
-    "explanation": "5x = 28 - 8 = 20, so x = 4",
-    "_cacheBreaker": "1756035526327_31"
-  },
-  {
-    "_id": "math_10_medium_032",
-    "content": "Solve: 5x + 13 = 43",
-    "type": "multiple_choice",
-    "options": [
-      "x = 5",
-      "x = 6",
-      "x = 7",
-      "x = 8"
-    ],
-    "correctAnswer": "x = 6",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "medium",
-    "explanation": "5x = 43 - 13 = 30, so x = 6",
-    "_cacheBreaker": "1756035526327_32"
-  },
-  {
-    "_id": "math_10_medium_033",
-    "content": "Solve: 6x + 13 = 73",
-    "type": "multiple_choice",
-    "options": [
-      "x = 9",
-      "x = 10",
-      "x = 11",
-      "x = 12"
-    ],
-    "correctAnswer": "x = 10",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "medium",
-    "explanation": "6x = 73 - 13 = 60, so x = 10",
-    "_cacheBreaker": "1756035526327_33"
-  },
-  {
-    "_id": "math_10_medium_034",
-    "content": "Solve: 2x + 24 = 44",
-    "type": "multiple_choice",
-    "options": [
-      "x = 9",
-      "x = 10",
-      "x = 11",
-      "x = 12"
-    ],
-    "correctAnswer": "x = 10",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "medium",
-    "explanation": "2x = 44 - 24 = 20, so x = 10",
-    "_cacheBreaker": "1756035526327_34"
-  },
-  {
-    "_id": "math_10_medium_035",
-    "content": "Solve: 2x + 18 = 22",
-    "type": "multiple_choice",
-    "options": [
-      "x = 1",
-      "x = 2",
-      "x = 3",
-      "x = 4"
-    ],
-    "correctAnswer": "x = 2",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "medium",
-    "explanation": "2x = 22 - 18 = 4, so x = 2",
-    "_cacheBreaker": "1756035526327_35"
-  },
-  {
-    "_id": "math_10_medium_036",
-    "content": "Solve: 5x + 15 = 35",
-    "type": "multiple_choice",
-    "options": [
-      "x = 3",
-      "x = 4",
-      "x = 5",
-      "x = 6"
-    ],
-    "correctAnswer": "x = 4",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "medium",
-    "explanation": "5x = 35 - 15 = 20, so x = 4",
-    "_cacheBreaker": "1756035526327_36"
-  },
-  {
-    "_id": "math_10_medium_037",
-    "content": "Solve: 6x + 8 = 20",
-    "type": "multiple_choice",
-    "options": [
-      "x = 1",
-      "x = 2",
-      "x = 3",
-      "x = 4"
-    ],
-    "correctAnswer": "x = 2",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "medium",
-    "explanation": "6x = 20 - 8 = 12, so x = 2",
-    "_cacheBreaker": "1756035526327_37"
-  },
-  {
-    "_id": "math_10_medium_038",
-    "content": "Solve: 4x + 5 = 17",
-    "type": "multiple_choice",
-    "options": [
-      "x = 2",
-      "x = 3",
-      "x = 4",
-      "x = 5"
-    ],
-    "correctAnswer": "x = 3",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "medium",
-    "explanation": "4x = 17 - 5 = 12, so x = 3",
-    "_cacheBreaker": "1756035526327_38"
-  },
-  {
-    "_id": "math_10_medium_039",
-    "content": "Solve: 6x + 11 = 65",
-    "type": "multiple_choice",
-    "options": [
-      "x = 8",
-      "x = 9",
-      "x = 10",
-      "x = 11"
-    ],
-    "correctAnswer": "x = 9",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "medium",
-    "explanation": "6x = 65 - 11 = 54, so x = 9",
-    "_cacheBreaker": "1756035526327_39"
-  },
-  {
-    "_id": "math_10_medium_040",
-    "content": "Solve: 5x + 24 = 44",
-    "type": "multiple_choice",
-    "options": [
-      "x = 3",
-      "x = 4",
-      "x = 5",
-      "x = 6"
-    ],
-    "correctAnswer": "x = 4",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "medium",
-    "explanation": "5x = 44 - 24 = 20, so x = 4",
-    "_cacheBreaker": "1756035526327_40"
-  },
-  {
-    "_id": "math_10_medium_041",
-    "content": "Solve: 4x + 22 = 50",
-    "type": "multiple_choice",
-    "options": [
-      "x = 6",
-      "x = 7",
-      "x = 8",
-      "x = 9"
-    ],
-    "correctAnswer": "x = 7",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "medium",
-    "explanation": "4x = 50 - 22 = 28, so x = 7",
-    "_cacheBreaker": "1756035526327_41"
-  },
-  {
-    "_id": "math_10_medium_042",
-    "content": "Solve: 6x + 20 = 68",
-    "type": "multiple_choice",
-    "options": [
-      "x = 7",
-      "x = 8",
-      "x = 9",
-      "x = 10"
-    ],
-    "correctAnswer": "x = 8",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "medium",
-    "explanation": "6x = 68 - 20 = 48, so x = 8",
-    "_cacheBreaker": "1756035526327_42"
-  },
-  {
-    "_id": "math_10_medium_043",
-    "content": "Solve: 6x + 5 = 59",
-    "type": "multiple_choice",
-    "options": [
-      "x = 8",
-      "x = 9",
-      "x = 10",
-      "x = 11"
-    ],
-    "correctAnswer": "x = 9",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "medium",
-    "explanation": "6x = 59 - 5 = 54, so x = 9",
-    "_cacheBreaker": "1756035526327_43"
-  },
-  {
-    "_id": "math_10_medium_044",
-    "content": "Solve: 3x + 18 = 24",
-    "type": "multiple_choice",
-    "options": [
-      "x = 1",
-      "x = 2",
-      "x = 3",
-      "x = 4"
-    ],
-    "correctAnswer": "x = 2",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "medium",
-    "explanation": "3x = 24 - 18 = 6, so x = 2",
-    "_cacheBreaker": "1756035526327_44"
-  },
-  {
-    "_id": "math_10_medium_045",
-    "content": "Solve: 3x + 9 = 39",
-    "type": "multiple_choice",
-    "options": [
-      "x = 9",
-      "x = 10",
-      "x = 11",
-      "x = 12"
-    ],
-    "correctAnswer": "x = 10",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "medium",
-    "explanation": "3x = 39 - 9 = 30, so x = 10",
-    "_cacheBreaker": "1756035526327_45"
-  },
-  {
-    "_id": "math_10_medium_046",
-    "content": "Solve: 4x + 12 = 20",
-    "type": "multiple_choice",
-    "options": [
-      "x = 1",
-      "x = 2",
-      "x = 3",
-      "x = 4"
-    ],
-    "correctAnswer": "x = 2",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "medium",
-    "explanation": "4x = 20 - 12 = 8, so x = 2",
-    "_cacheBreaker": "1756035526327_46"
-  },
-  {
-    "_id": "math_10_medium_047",
-    "content": "Solve: 3x + 5 = 23",
-    "type": "multiple_choice",
-    "options": [
-      "x = 5",
-      "x = 6",
-      "x = 7",
-      "x = 8"
-    ],
-    "correctAnswer": "x = 6",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "medium",
-    "explanation": "3x = 23 - 5 = 18, so x = 6",
-    "_cacheBreaker": "1756035526327_47"
-  },
-  {
-    "_id": "math_10_medium_048",
-    "content": "Solve: 4x + 9 = 25",
-    "type": "multiple_choice",
-    "options": [
-      "x = 3",
-      "x = 4",
-      "x = 5",
-      "x = 6"
-    ],
-    "correctAnswer": "x = 4",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "medium",
-    "explanation": "4x = 25 - 9 = 16, so x = 4",
-    "_cacheBreaker": "1756035526327_48"
-  },
-  {
-    "_id": "math_10_medium_049",
-    "content": "Solve: 2x + 5 = 13",
-    "type": "multiple_choice",
-    "options": [
-      "x = 3",
-      "x = 4",
-      "x = 5",
-      "x = 6"
-    ],
-    "correctAnswer": "x = 4",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "medium",
-    "explanation": "2x = 13 - 5 = 8, so x = 4",
-    "_cacheBreaker": "1756035526327_49"
-  },
-  {
-    "_id": "math_10_medium_050",
-    "content": "Solve: 2x + 8 = 24",
-    "type": "multiple_choice",
-    "options": [
-      "x = 7",
-      "x = 8",
-      "x = 9",
-      "x = 10"
-    ],
-    "correctAnswer": "x = 8",
-    "subject": "math",
-    "grade": "10",
-    "difficulty": "medium",
-    "explanation": "2x = 24 - 8 = 16, so x = 8",
-    "_cacheBreaker": "1756035526327_50"
+    "explanation": "x-coordinate: x = -b/2a = -6/2(-1) = 3, y-coordinate: y = -(3)² + 6(3) - 5 = 4"
   }
 ]

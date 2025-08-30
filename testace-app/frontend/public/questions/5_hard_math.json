@@ -1,852 +1,222 @@
 [
   {
     "_id": "math_5_hard_001",
-    "content": "Sarah has 3/4 of a pizza and wants to share it equally among 6 friends. What fraction of the whole pizza will each friend get?",
+    "content": "What is 456 + 789?",
     "type": "multiple_choice",
-    "options": [
-      "1/8",
-      "1/6",
-      "3/24",
-      "1/4"
-    ],
-    "correctAnswer": "1/8",
+    "options": ["1243", "1244", "1245", "1246"],
+    "correctAnswer": "1245",
     "subject": "math",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "To divide 3/4 by 6, multiply 3/4 × 1/6 = 3/24 = 1/8. Each friend gets 1/8 of the whole pizza.",
-    "_cacheBreaker": "1756030323253_1"
+    "explanation": "456 + 789 = 1245"
   },
   {
     "_id": "math_5_hard_002",
-    "content": "A rectangular garden is 12.5 meters long and 8.4 meters wide. What is the area of the garden in square meters?",
+    "content": "What is the area of a rectangle with length 14 cm and width 9 cm?",
     "type": "multiple_choice",
-    "options": [
-      "105 square meters",
-      "104.5 square meters",
-      "105.5 square meters",
-      "20.9 square meters"
-    ],
-    "correctAnswer": "105 square meters",
+    "options": ["124 cm²", "125 cm²", "126 cm²", "127 cm²"],
+    "correctAnswer": "126 cm²",
     "subject": "math",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Area = length × width = 12.5 × 8.4 = 105 square meters.",
-    "_cacheBreaker": "1756030323253_2"
+    "explanation": "Area = length × width = 14 × 9 = 126 cm²"
   },
   {
     "_id": "math_5_hard_003",
-    "content": "Tom bought 4 books for $8.75 each and 3 notebooks for $2.50 each. How much did he spend in total?",
+    "content": "Convert 3.25 to a mixed number",
     "type": "multiple_choice",
-    "options": [
-      "$42.50",
-      "$43.00",
-      "$42.00",
-      "$41.50"
-    ],
-    "correctAnswer": "$42.50",
+    "options": ["3 1/4", "3 1/2", "3 2/5", "3 3/4"],
+    "correctAnswer": "3 1/4",
     "subject": "math",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Books: 4 × $8.75 = $35.00. Notebooks: 3 × $2.50 = $7.50. Total: $35.00 + $7.50 = $42.50.",
-    "_cacheBreaker": "1756030323253_3"
+    "explanation": "3.25 = 3 + 0.25 = 3 + 1/4 = 3 1/4"
   },
   {
     "_id": "math_5_hard_004",
-    "content": "What is 7/8 - 3/5 expressed as a fraction in lowest terms?",
+    "content": "What is 24 × 17?",
     "type": "multiple_choice",
-    "options": [
-      "11/40",
-      "4/3",
-      "35/40",
-      "1/8"
-    ],
-    "correctAnswer": "11/40",
+    "options": ["406", "407", "408", "247"],
+    "correctAnswer": "408",
     "subject": "math",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Find common denominator: 7/8 = 35/40, 3/5 = 24/40. Then 35/40 - 24/40 = 11/40.",
-    "_cacheBreaker": "1756030323253_4"
+    "explanation": "24 × 17 = 408"
   },
   {
     "_id": "math_5_hard_005",
-    "content": "A triangle has angles measuring 45°, 65°, and x°. What is the value of x?",
+    "content": "What is 847 - 359?",
     "type": "multiple_choice",
-    "options": [
-      "70°",
-      "80°",
-      "90°",
-      "110°"
-    ],
-    "correctAnswer": "70°",
+    "options": ["486", "487", "488", "1206"],
+    "correctAnswer": "488",
     "subject": "math",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "The sum of angles in a triangle is 180°. So 45° + 65° + x° = 180°, which means x = 180° - 110° = 70°.",
-    "_cacheBreaker": "1756030323253_5"
+    "explanation": "847 - 359 = 488"
   },
   {
     "_id": "math_5_hard_006",
-    "content": "If 3.6 ÷ 0.4 = n, what is the value of n?",
+    "content": "What is 3/5 + 2/5?",
     "type": "multiple_choice",
-    "options": [
-      "9",
-      "0.9",
-      "90",
-      "1.44"
-    ],
-    "correctAnswer": "9",
+    "options": ["5/10", "1", "5/5", "6/5"],
+    "correctAnswer": "1",
     "subject": "math",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "3.6 ÷ 0.4 = 36 ÷ 4 = 9. When dividing by a decimal, multiply both numbers by 10 to make it easier.",
-    "_cacheBreaker": "1756030323253_6"
+    "explanation": "3/5 + 2/5 = 5/5 = 1"
   },
   {
     "_id": "math_5_hard_007",
-    "content": "A box contains 24 marbles. If 1/3 are red, 1/4 are blue, and the rest are green, how many green marbles are there?",
+    "content": "What is 216 ÷ 18?",
     "type": "multiple_choice",
-    "options": [
-      "8",
-      "10",
-      "12",
-      "6"
-    ],
-    "correctAnswer": "10",
+    "options": ["11", "12", "13", "234"],
+    "correctAnswer": "12",
     "subject": "math",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Red: 1/3 × 24 = 8. Blue: 1/4 × 24 = 6. Green: 24 - 8 - 6 = 10 marbles.",
-    "_cacheBreaker": "1756030323253_7"
+    "explanation": "216 ÷ 18 = 12"
   },
   {
     "_id": "math_5_hard_008",
-    "content": "What is the perimeter of a rectangle with length 15.5 cm and width 9.8 cm?",
+    "content": "What is 4.75 as a mixed number?",
     "type": "multiple_choice",
-    "options": [
-      "50.6 cm",
-      "25.3 cm",
-      "151.9 cm",
-      "50.3 cm"
-    ],
-    "correctAnswer": "50.6 cm",
+    "options": ["4 1/2", "4 3/4", "4 2/3", "4 4/5"],
+    "correctAnswer": "4 3/4",
     "subject": "math",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Perimeter = 2(length + width) = 2(15.5 + 9.8) = 2(25.3) = 50.6 cm.",
-    "_cacheBreaker": "1756030323253_8"
+    "explanation": "4.75 = 4 + 0.75 = 4 + 3/4 = 4 3/4"
   },
   {
     "_id": "math_5_hard_009",
-    "content": "Emma saves $12.50 each week. How much will she have saved after 8 weeks?",
+    "content": "What is 673 + 458?",
     "type": "multiple_choice",
-    "options": [
-      "$100.00",
-      "$96.00",
-      "$104.00",
-      "$108.00"
-    ],
-    "correctAnswer": "$100.00",
+    "options": ["1129", "1130", "1131", "1132"],
+    "correctAnswer": "1131",
     "subject": "math",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "$12.50 × 8 weeks = $100.00.",
-    "_cacheBreaker": "1756030323253_9"
+    "explanation": "673 + 458 = 1131"
   },
   {
     "_id": "math_5_hard_010",
-    "content": "Which fraction is equivalent to 0.75?",
+    "content": "What is 26 × 15?",
     "type": "multiple_choice",
-    "options": [
-      "3/4",
-      "7/5",
-      "75/10",
-      "3/5"
-    ],
-    "correctAnswer": "3/4",
+    "options": ["388", "389", "390", "265"],
+    "correctAnswer": "390",
     "subject": "math",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "0.75 = 75/100 = 3/4 when reduced to lowest terms.",
-    "_cacheBreaker": "1756030323253_10"
+    "explanation": "26 × 15 = 390"
   },
   {
     "_id": "math_5_hard_011",
-    "content": "If 3.6 ÷ 0.4 = n, what is the value of n?",
+    "content": "What is 9/10 - 3/10?",
     "type": "multiple_choice",
-    "options": [
-      "9",
-      "0.9",
-      "90",
-      "1.44"
-    ],
-    "correctAnswer": "9",
+    "options": ["6/10", "3/5", "0.6", "All of the above"],
+    "correctAnswer": "All of the above",
     "subject": "math",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "3.6 ÷ 0.4 = 36 ÷ 4 = 9. When dividing by a decimal, multiply both numbers by 10 to make it easier.",
-    "_cacheBreaker": "1756030323253_11"
+    "explanation": "9/10 - 3/10 = 6/10 = 3/5 = 0.6"
   },
   {
     "_id": "math_5_hard_012",
-    "content": "A box contains 24 marbles. If 1/3 are red, 1/4 are blue, and the rest are green, how many green marbles are there?",
+    "content": "What is 924 - 567?",
     "type": "multiple_choice",
-    "options": [
-      "8",
-      "10",
-      "12",
-      "6"
-    ],
-    "correctAnswer": "10",
+    "options": ["355", "356", "357", "1491"],
+    "correctAnswer": "357",
     "subject": "math",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Red: 1/3 × 24 = 8. Blue: 1/4 × 24 = 6. Green: 24 - 8 - 6 = 10 marbles.",
-    "_cacheBreaker": "1756030323253_12"
+    "explanation": "924 - 567 = 357"
   },
   {
     "_id": "math_5_hard_013",
-    "content": "What is the perimeter of a rectangle with length 15.5 cm and width 9.8 cm?",
+    "content": "What is 252 ÷ 21?",
     "type": "multiple_choice",
-    "options": [
-      "50.6 cm",
-      "25.3 cm",
-      "151.9 cm",
-      "50.3 cm"
-    ],
-    "correctAnswer": "50.6 cm",
+    "options": ["11", "12", "13", "273"],
+    "correctAnswer": "12",
     "subject": "math",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Perimeter = 2(length + width) = 2(15.5 + 9.8) = 2(25.3) = 50.6 cm.",
-    "_cacheBreaker": "1756030323253_13"
+    "explanation": "252 ÷ 21 = 12"
   },
   {
     "_id": "math_5_hard_014",
-    "content": "Emma saves $12.50 each week. How much will she have saved after 8 weeks?",
+    "content": "What is the volume of a cube with side length 6 cm?",
     "type": "multiple_choice",
-    "options": [
-      "$100.00",
-      "$96.00",
-      "$104.00",
-      "$108.00"
-    ],
-    "correctAnswer": "$100.00",
+    "options": ["36 cm³", "216 cm³", "144 cm³", "18 cm³"],
+    "correctAnswer": "216 cm³",
     "subject": "math",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "$12.50 × 8 weeks = $100.00.",
-    "_cacheBreaker": "1756030323253_14"
+    "explanation": "Volume = side³ = 6³ = 216 cm³"
   },
   {
     "_id": "math_5_hard_015",
-    "content": "Which fraction is equivalent to 0.75?",
+    "content": "What is 785 + 396?",
     "type": "multiple_choice",
-    "options": [
-      "3/4",
-      "7/5",
-      "75/10",
-      "3/5"
-    ],
-    "correctAnswer": "3/4",
+    "options": ["1179", "1180", "1181", "1182"],
+    "correctAnswer": "1181",
     "subject": "math",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "0.75 = 75/100 = 3/4 when reduced to lowest terms.",
-    "_cacheBreaker": "1756030323253_15"
+    "explanation": "785 + 396 = 1181"
   },
   {
     "_id": "math_5_hard_016",
-    "content": "If 3.6 ÷ 0.4 = n, what is the value of n?",
+    "content": "What is 28 × 16?",
     "type": "multiple_choice",
-    "options": [
-      "9",
-      "0.9",
-      "90",
-      "1.44"
-    ],
-    "correctAnswer": "9",
+    "options": ["446", "447", "448", "286"],
+    "correctAnswer": "448",
     "subject": "math",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "3.6 ÷ 0.4 = 36 ÷ 4 = 9. When dividing by a decimal, multiply both numbers by 10 to make it easier.",
-    "_cacheBreaker": "1756030323253_16"
+    "explanation": "28 × 16 = 448"
   },
   {
     "_id": "math_5_hard_017",
-    "content": "A box contains 24 marbles. If 1/3 are red, 1/4 are blue, and the rest are green, how many green marbles are there?",
+    "content": "What decimal is equivalent to 11/20?",
     "type": "multiple_choice",
-    "options": [
-      "8",
-      "10",
-      "12",
-      "6"
-    ],
-    "correctAnswer": "10",
+    "options": ["0.11", "0.55", "0.2", "1.12"],
+    "correctAnswer": "0.55",
     "subject": "math",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Red: 1/3 × 24 = 8. Blue: 1/4 × 24 = 6. Green: 24 - 8 - 6 = 10 marbles.",
-    "_cacheBreaker": "1756030323253_17"
+    "explanation": "11/20 = 0.55"
   },
   {
     "_id": "math_5_hard_018",
-    "content": "What is the perimeter of a rectangle with length 15.5 cm and width 9.8 cm?",
+    "content": "What is 1036 - 679?",
     "type": "multiple_choice",
-    "options": [
-      "50.6 cm",
-      "25.3 cm",
-      "151.9 cm",
-      "50.3 cm"
-    ],
-    "correctAnswer": "50.6 cm",
+    "options": ["355", "356", "357", "1715"],
+    "correctAnswer": "357",
     "subject": "math",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "Perimeter = 2(length + width) = 2(15.5 + 9.8) = 2(25.3) = 50.6 cm.",
-    "_cacheBreaker": "1756030323253_18"
+    "explanation": "1036 - 679 = 357"
   },
   {
     "_id": "math_5_hard_019",
-    "content": "Emma saves $12.50 each week. How much will she have saved after 8 weeks?",
+    "content": "What is 288 ÷ 24?",
     "type": "multiple_choice",
-    "options": [
-      "$100.00",
-      "$96.00",
-      "$104.00",
-      "$108.00"
-    ],
-    "correctAnswer": "$100.00",
+    "options": ["11", "12", "13", "312"],
+    "correctAnswer": "12",
     "subject": "math",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "$12.50 × 8 weeks = $100.00.",
-    "_cacheBreaker": "1756030323253_19"
+    "explanation": "288 ÷ 24 = 12"
   },
   {
     "_id": "math_5_hard_020",
-    "content": "Which fraction is equivalent to 0.75?",
+    "content": "What is the area of a triangle with base 16 cm and height 12 cm?",
     "type": "multiple_choice",
-    "options": [
-      "3/4",
-      "7/5",
-      "75/10",
-      "3/5"
-    ],
-    "correctAnswer": "3/4",
+    "options": ["28 cm²", "96 cm²", "192 cm²", "144 cm²"],
+    "correctAnswer": "96 cm²",
     "subject": "math",
     "grade": "5",
     "difficulty": "hard",
-    "explanation": "0.75 = 75/100 = 3/4 when reduced to lowest terms.",
-    "_cacheBreaker": "1756030323253_20"
-  },
-  {
-    "_id": "math_5_hard_021",
-    "content": "If 3.6 ÷ 0.4 = n, what is the value of n?",
-    "type": "multiple_choice",
-    "options": [
-      "9",
-      "0.9",
-      "90",
-      "1.44"
-    ],
-    "correctAnswer": "9",
-    "subject": "math",
-    "grade": "5",
-    "difficulty": "hard",
-    "explanation": "3.6 ÷ 0.4 = 36 ÷ 4 = 9. When dividing by a decimal, multiply both numbers by 10 to make it easier.",
-    "_cacheBreaker": "1756030323253_21"
-  },
-  {
-    "_id": "math_5_hard_022",
-    "content": "A box contains 24 marbles. If 1/3 are red, 1/4 are blue, and the rest are green, how many green marbles are there?",
-    "type": "multiple_choice",
-    "options": [
-      "8",
-      "10",
-      "12",
-      "6"
-    ],
-    "correctAnswer": "10",
-    "subject": "math",
-    "grade": "5",
-    "difficulty": "hard",
-    "explanation": "Red: 1/3 × 24 = 8. Blue: 1/4 × 24 = 6. Green: 24 - 8 - 6 = 10 marbles.",
-    "_cacheBreaker": "1756030323253_22"
-  },
-  {
-    "_id": "math_5_hard_023",
-    "content": "What is the perimeter of a rectangle with length 15.5 cm and width 9.8 cm?",
-    "type": "multiple_choice",
-    "options": [
-      "50.6 cm",
-      "25.3 cm",
-      "151.9 cm",
-      "50.3 cm"
-    ],
-    "correctAnswer": "50.6 cm",
-    "subject": "math",
-    "grade": "5",
-    "difficulty": "hard",
-    "explanation": "Perimeter = 2(length + width) = 2(15.5 + 9.8) = 2(25.3) = 50.6 cm.",
-    "_cacheBreaker": "1756030323253_23"
-  },
-  {
-    "_id": "math_5_hard_024",
-    "content": "Emma saves $12.50 each week. How much will she have saved after 8 weeks?",
-    "type": "multiple_choice",
-    "options": [
-      "$100.00",
-      "$96.00",
-      "$104.00",
-      "$108.00"
-    ],
-    "correctAnswer": "$100.00",
-    "subject": "math",
-    "grade": "5",
-    "difficulty": "hard",
-    "explanation": "$12.50 × 8 weeks = $100.00.",
-    "_cacheBreaker": "1756030323253_24"
-  },
-  {
-    "_id": "math_5_hard_025",
-    "content": "Which fraction is equivalent to 0.75?",
-    "type": "multiple_choice",
-    "options": [
-      "3/4",
-      "7/5",
-      "75/10",
-      "3/5"
-    ],
-    "correctAnswer": "3/4",
-    "subject": "math",
-    "grade": "5",
-    "difficulty": "hard",
-    "explanation": "0.75 = 75/100 = 3/4 when reduced to lowest terms.",
-    "_cacheBreaker": "1756030323253_25"
-  },
-  {
-    "_id": "math_5_hard_026",
-    "content": "If 3.6 ÷ 0.4 = n, what is the value of n?",
-    "type": "multiple_choice",
-    "options": [
-      "9",
-      "0.9",
-      "90",
-      "1.44"
-    ],
-    "correctAnswer": "9",
-    "subject": "math",
-    "grade": "5",
-    "difficulty": "hard",
-    "explanation": "3.6 ÷ 0.4 = 36 ÷ 4 = 9. When dividing by a decimal, multiply both numbers by 10 to make it easier.",
-    "_cacheBreaker": "1756030323253_26"
-  },
-  {
-    "_id": "math_5_hard_027",
-    "content": "A box contains 24 marbles. If 1/3 are red, 1/4 are blue, and the rest are green, how many green marbles are there?",
-    "type": "multiple_choice",
-    "options": [
-      "8",
-      "10",
-      "12",
-      "6"
-    ],
-    "correctAnswer": "10",
-    "subject": "math",
-    "grade": "5",
-    "difficulty": "hard",
-    "explanation": "Red: 1/3 × 24 = 8. Blue: 1/4 × 24 = 6. Green: 24 - 8 - 6 = 10 marbles.",
-    "_cacheBreaker": "1756030323253_27"
-  },
-  {
-    "_id": "math_5_hard_028",
-    "content": "What is the perimeter of a rectangle with length 15.5 cm and width 9.8 cm?",
-    "type": "multiple_choice",
-    "options": [
-      "50.6 cm",
-      "25.3 cm",
-      "151.9 cm",
-      "50.3 cm"
-    ],
-    "correctAnswer": "50.6 cm",
-    "subject": "math",
-    "grade": "5",
-    "difficulty": "hard",
-    "explanation": "Perimeter = 2(length + width) = 2(15.5 + 9.8) = 2(25.3) = 50.6 cm.",
-    "_cacheBreaker": "1756030323253_28"
-  },
-  {
-    "_id": "math_5_hard_029",
-    "content": "Emma saves $12.50 each week. How much will she have saved after 8 weeks?",
-    "type": "multiple_choice",
-    "options": [
-      "$100.00",
-      "$96.00",
-      "$104.00",
-      "$108.00"
-    ],
-    "correctAnswer": "$100.00",
-    "subject": "math",
-    "grade": "5",
-    "difficulty": "hard",
-    "explanation": "$12.50 × 8 weeks = $100.00.",
-    "_cacheBreaker": "1756030323253_29"
-  },
-  {
-    "_id": "math_5_hard_030",
-    "content": "Which fraction is equivalent to 0.75?",
-    "type": "multiple_choice",
-    "options": [
-      "3/4",
-      "7/5",
-      "75/10",
-      "3/5"
-    ],
-    "correctAnswer": "3/4",
-    "subject": "math",
-    "grade": "5",
-    "difficulty": "hard",
-    "explanation": "0.75 = 75/100 = 3/4 when reduced to lowest terms.",
-    "_cacheBreaker": "1756030323253_30"
-  },
-  {
-    "_id": "math_5_hard_031",
-    "content": "If 3.6 ÷ 0.4 = n, what is the value of n?",
-    "type": "multiple_choice",
-    "options": [
-      "9",
-      "0.9",
-      "90",
-      "1.44"
-    ],
-    "correctAnswer": "9",
-    "subject": "math",
-    "grade": "5",
-    "difficulty": "hard",
-    "explanation": "3.6 ÷ 0.4 = 36 ÷ 4 = 9. When dividing by a decimal, multiply both numbers by 10 to make it easier.",
-    "_cacheBreaker": "1756030323253_31"
-  },
-  {
-    "_id": "math_5_hard_032",
-    "content": "A box contains 24 marbles. If 1/3 are red, 1/4 are blue, and the rest are green, how many green marbles are there?",
-    "type": "multiple_choice",
-    "options": [
-      "8",
-      "10",
-      "12",
-      "6"
-    ],
-    "correctAnswer": "10",
-    "subject": "math",
-    "grade": "5",
-    "difficulty": "hard",
-    "explanation": "Red: 1/3 × 24 = 8. Blue: 1/4 × 24 = 6. Green: 24 - 8 - 6 = 10 marbles.",
-    "_cacheBreaker": "1756030323253_32"
-  },
-  {
-    "_id": "math_5_hard_033",
-    "content": "What is the perimeter of a rectangle with length 15.5 cm and width 9.8 cm?",
-    "type": "multiple_choice",
-    "options": [
-      "50.6 cm",
-      "25.3 cm",
-      "151.9 cm",
-      "50.3 cm"
-    ],
-    "correctAnswer": "50.6 cm",
-    "subject": "math",
-    "grade": "5",
-    "difficulty": "hard",
-    "explanation": "Perimeter = 2(length + width) = 2(15.5 + 9.8) = 2(25.3) = 50.6 cm.",
-    "_cacheBreaker": "1756030323253_33"
-  },
-  {
-    "_id": "math_5_hard_034",
-    "content": "Emma saves $12.50 each week. How much will she have saved after 8 weeks?",
-    "type": "multiple_choice",
-    "options": [
-      "$100.00",
-      "$96.00",
-      "$104.00",
-      "$108.00"
-    ],
-    "correctAnswer": "$100.00",
-    "subject": "math",
-    "grade": "5",
-    "difficulty": "hard",
-    "explanation": "$12.50 × 8 weeks = $100.00.",
-    "_cacheBreaker": "1756030323253_34"
-  },
-  {
-    "_id": "math_5_hard_035",
-    "content": "Which fraction is equivalent to 0.75?",
-    "type": "multiple_choice",
-    "options": [
-      "3/4",
-      "7/5",
-      "75/10",
-      "3/5"
-    ],
-    "correctAnswer": "3/4",
-    "subject": "math",
-    "grade": "5",
-    "difficulty": "hard",
-    "explanation": "0.75 = 75/100 = 3/4 when reduced to lowest terms.",
-    "_cacheBreaker": "1756030323253_35"
-  },
-  {
-    "_id": "math_5_hard_036",
-    "content": "If 3.6 ÷ 0.4 = n, what is the value of n?",
-    "type": "multiple_choice",
-    "options": [
-      "9",
-      "0.9",
-      "90",
-      "1.44"
-    ],
-    "correctAnswer": "9",
-    "subject": "math",
-    "grade": "5",
-    "difficulty": "hard",
-    "explanation": "3.6 ÷ 0.4 = 36 ÷ 4 = 9. When dividing by a decimal, multiply both numbers by 10 to make it easier.",
-    "_cacheBreaker": "1756030323253_36"
-  },
-  {
-    "_id": "math_5_hard_037",
-    "content": "A box contains 24 marbles. If 1/3 are red, 1/4 are blue, and the rest are green, how many green marbles are there?",
-    "type": "multiple_choice",
-    "options": [
-      "8",
-      "10",
-      "12",
-      "6"
-    ],
-    "correctAnswer": "10",
-    "subject": "math",
-    "grade": "5",
-    "difficulty": "hard",
-    "explanation": "Red: 1/3 × 24 = 8. Blue: 1/4 × 24 = 6. Green: 24 - 8 - 6 = 10 marbles.",
-    "_cacheBreaker": "1756030323253_37"
-  },
-  {
-    "_id": "math_5_hard_038",
-    "content": "What is the perimeter of a rectangle with length 15.5 cm and width 9.8 cm?",
-    "type": "multiple_choice",
-    "options": [
-      "50.6 cm",
-      "25.3 cm",
-      "151.9 cm",
-      "50.3 cm"
-    ],
-    "correctAnswer": "50.6 cm",
-    "subject": "math",
-    "grade": "5",
-    "difficulty": "hard",
-    "explanation": "Perimeter = 2(length + width) = 2(15.5 + 9.8) = 2(25.3) = 50.6 cm.",
-    "_cacheBreaker": "1756030323253_38"
-  },
-  {
-    "_id": "math_5_hard_039",
-    "content": "Emma saves $12.50 each week. How much will she have saved after 8 weeks?",
-    "type": "multiple_choice",
-    "options": [
-      "$100.00",
-      "$96.00",
-      "$104.00",
-      "$108.00"
-    ],
-    "correctAnswer": "$100.00",
-    "subject": "math",
-    "grade": "5",
-    "difficulty": "hard",
-    "explanation": "$12.50 × 8 weeks = $100.00.",
-    "_cacheBreaker": "1756030323253_39"
-  },
-  {
-    "_id": "math_5_hard_040",
-    "content": "Which fraction is equivalent to 0.75?",
-    "type": "multiple_choice",
-    "options": [
-      "3/4",
-      "7/5",
-      "75/10",
-      "3/5"
-    ],
-    "correctAnswer": "3/4",
-    "subject": "math",
-    "grade": "5",
-    "difficulty": "hard",
-    "explanation": "0.75 = 75/100 = 3/4 when reduced to lowest terms.",
-    "_cacheBreaker": "1756030323253_40"
-  },
-  {
-    "_id": "math_5_hard_041",
-    "content": "If 3.6 ÷ 0.4 = n, what is the value of n?",
-    "type": "multiple_choice",
-    "options": [
-      "9",
-      "0.9",
-      "90",
-      "1.44"
-    ],
-    "correctAnswer": "9",
-    "subject": "math",
-    "grade": "5",
-    "difficulty": "hard",
-    "explanation": "3.6 ÷ 0.4 = 36 ÷ 4 = 9. When dividing by a decimal, multiply both numbers by 10 to make it easier.",
-    "_cacheBreaker": "1756030323253_41"
-  },
-  {
-    "_id": "math_5_hard_042",
-    "content": "A box contains 24 marbles. If 1/3 are red, 1/4 are blue, and the rest are green, how many green marbles are there?",
-    "type": "multiple_choice",
-    "options": [
-      "8",
-      "10",
-      "12",
-      "6"
-    ],
-    "correctAnswer": "10",
-    "subject": "math",
-    "grade": "5",
-    "difficulty": "hard",
-    "explanation": "Red: 1/3 × 24 = 8. Blue: 1/4 × 24 = 6. Green: 24 - 8 - 6 = 10 marbles.",
-    "_cacheBreaker": "1756030323253_42"
-  },
-  {
-    "_id": "math_5_hard_043",
-    "content": "What is the perimeter of a rectangle with length 15.5 cm and width 9.8 cm?",
-    "type": "multiple_choice",
-    "options": [
-      "50.6 cm",
-      "25.3 cm",
-      "151.9 cm",
-      "50.3 cm"
-    ],
-    "correctAnswer": "50.6 cm",
-    "subject": "math",
-    "grade": "5",
-    "difficulty": "hard",
-    "explanation": "Perimeter = 2(length + width) = 2(15.5 + 9.8) = 2(25.3) = 50.6 cm.",
-    "_cacheBreaker": "1756030323253_43"
-  },
-  {
-    "_id": "math_5_hard_044",
-    "content": "Emma saves $12.50 each week. How much will she have saved after 8 weeks?",
-    "type": "multiple_choice",
-    "options": [
-      "$100.00",
-      "$96.00",
-      "$104.00",
-      "$108.00"
-    ],
-    "correctAnswer": "$100.00",
-    "subject": "math",
-    "grade": "5",
-    "difficulty": "hard",
-    "explanation": "$12.50 × 8 weeks = $100.00.",
-    "_cacheBreaker": "1756030323253_44"
-  },
-  {
-    "_id": "math_5_hard_045",
-    "content": "Which fraction is equivalent to 0.75?",
-    "type": "multiple_choice",
-    "options": [
-      "3/4",
-      "7/5",
-      "75/10",
-      "3/5"
-    ],
-    "correctAnswer": "3/4",
-    "subject": "math",
-    "grade": "5",
-    "difficulty": "hard",
-    "explanation": "0.75 = 75/100 = 3/4 when reduced to lowest terms.",
-    "_cacheBreaker": "1756030323253_45"
-  },
-  {
-    "_id": "math_5_hard_046",
-    "content": "If 3.6 ÷ 0.4 = n, what is the value of n?",
-    "type": "multiple_choice",
-    "options": [
-      "9",
-      "0.9",
-      "90",
-      "1.44"
-    ],
-    "correctAnswer": "9",
-    "subject": "math",
-    "grade": "5",
-    "difficulty": "hard",
-    "explanation": "3.6 ÷ 0.4 = 36 ÷ 4 = 9. When dividing by a decimal, multiply both numbers by 10 to make it easier.",
-    "_cacheBreaker": "1756030323253_46"
-  },
-  {
-    "_id": "math_5_hard_047",
-    "content": "A box contains 24 marbles. If 1/3 are red, 1/4 are blue, and the rest are green, how many green marbles are there?",
-    "type": "multiple_choice",
-    "options": [
-      "8",
-      "10",
-      "12",
-      "6"
-    ],
-    "correctAnswer": "10",
-    "subject": "math",
-    "grade": "5",
-    "difficulty": "hard",
-    "explanation": "Red: 1/3 × 24 = 8. Blue: 1/4 × 24 = 6. Green: 24 - 8 - 6 = 10 marbles.",
-    "_cacheBreaker": "1756030323253_47"
-  },
-  {
-    "_id": "math_5_hard_048",
-    "content": "What is the perimeter of a rectangle with length 15.5 cm and width 9.8 cm?",
-    "type": "multiple_choice",
-    "options": [
-      "50.6 cm",
-      "25.3 cm",
-      "151.9 cm",
-      "50.3 cm"
-    ],
-    "correctAnswer": "50.6 cm",
-    "subject": "math",
-    "grade": "5",
-    "difficulty": "hard",
-    "explanation": "Perimeter = 2(length + width) = 2(15.5 + 9.8) = 2(25.3) = 50.6 cm.",
-    "_cacheBreaker": "1756030323253_48"
-  },
-  {
-    "_id": "math_5_hard_049",
-    "content": "Emma saves $12.50 each week. How much will she have saved after 8 weeks?",
-    "type": "multiple_choice",
-    "options": [
-      "$100.00",
-      "$96.00",
-      "$104.00",
-      "$108.00"
-    ],
-    "correctAnswer": "$100.00",
-    "subject": "math",
-    "grade": "5",
-    "difficulty": "hard",
-    "explanation": "$12.50 × 8 weeks = $100.00.",
-    "_cacheBreaker": "1756030323253_49"
-  },
-  {
-    "_id": "math_5_hard_050",
-    "content": "Which fraction is equivalent to 0.75?",
-    "type": "multiple_choice",
-    "options": [
-      "3/4",
-      "7/5",
-      "75/10",
-      "3/5"
-    ],
-    "correctAnswer": "3/4",
-    "subject": "math",
-    "grade": "5",
-    "difficulty": "hard",
-    "explanation": "0.75 = 75/100 = 3/4 when reduced to lowest terms.",
-    "_cacheBreaker": "1756030323253_50"
+    "explanation": "Area = (1/2) × base × height = (1/2) × 16 × 12 = 96 cm²"
   }
 ]
