@@ -1,0 +1,23 @@
+  },
+  {
+    "_id": "hard7_1755260948241_021",
+    "content": "Solve for x: 3x + 8 = 2x + 15",
+    "type": "multiple_choice",
+    "options": ["6", "7", "8", "9"],
+    "correct_answer": "7",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "3x - 2x = 15 - 8, so x = 7"
+  },
+  {
+    "_id": "hard7_1755260948241_022",
+    "content": "What is the slope between points (3, 7) and (8, 17)?",
+    "type": "multiple_choice",
+    "options": ["1", "2", "3", "4"],
+    "correct_answer": "2",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "Slope = (17-7)/(8-3) = 10/5 = 2"
+  }

@@ -1,322 +1,642 @@
 [
   {
-    "_id": "hard9_1755260455350_001",
-    "content": "Solve the system of equations: 2x + 3y = 12 and x - y = 1",
+    "_id": "easy1_1755260948241_001",
+    "content": "Count the apples: 🍎🍎🍎. How many apples are there?",
     "type": "multiple_choice",
     "options": [
-      "x = 3, y = 2",
-      "x = 2, y = 3",
-      "x = 4, y = 1",
-      "x = 1, y = 4"
+      "2",
+      "3",
+      "4",
+      "5"
     ],
-    "correct_answer": "x = 3, y = 2",
+    "correct_answer": "3",
     "subject": "Mathematics",
-    "grade": 9,
-    "difficulty": "hard",
-    "explanation": "From x - y = 1, we get x = y + 1. Substituting: 2(y + 1) + 3y = 12, so 5y = 10, y = 2, x = 3."
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "Count each apple: 1, 2, 3. There are 3 apples."
   },
   {
-    "_id": "hard9_1755260455350_002",
-    "content": "Factor completely: x² - 5x + 6",
+    "_id": "easy1_1755260948241_002",
+    "content": "What is 2 + 1?",
     "type": "multiple_choice",
     "options": [
-      "(x - 2)(x - 3)",
-      "(x + 2)(x + 3)",
-      "(x - 1)(x - 6)",
-      "(x + 1)(x + 6)"
+      "2",
+      "3",
+      "4",
+      "1"
     ],
-    "correct_answer": "(x - 2)(x - 3)",
+    "correct_answer": "3",
     "subject": "Mathematics",
-    "grade": 9,
-    "difficulty": "hard",
-    "explanation": "We need two numbers that multiply to 6 and add to -5. Those are -2 and -3."
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "When you add 2 + 1, you get 3."
   },
   {
-    "_id": "hard9_1755260455350_003",
-    "content": "Solve for x: 2x² - 8x + 6 = 0",
+    "_id": "easy1_1755260948241_003",
+    "content": "Count the stars: ⭐⭐⭐⭐⭐. How many stars?",
     "type": "multiple_choice",
     "options": [
-      "x = 1, x = 3",
-      "x = 2, x = 4",
-      "x = -1, x = -3",
-      "x = 0, x = 2"
+      "4",
+      "5",
+      "6",
+      "3"
     ],
-    "correct_answer": "x = 1, x = 3",
+    "correct_answer": "5",
     "subject": "Mathematics",
-    "grade": 9,
-    "difficulty": "hard",
-    "explanation": "Divide by 2: x² - 4x + 3 = 0. Factor: (x - 1)(x - 3) = 0. So x = 1 or x = 3."
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "Count each star: 1, 2, 3, 4, 5. There are 5 stars."
   },
   {
-    "_id": "hard9_1755260455350_004",
-    "content": "Simplify: (4x + 5)²",
+    "_id": "easy1_1755260948241_004",
+    "content": "What is 2 + 1?",
     "type": "multiple_choice",
     "options": [
-      "16x² + 40x + 25",
-      "Different answer 1",
-      "Different answer 2",
-      "Different answer 3"
+      "3",
+      "4",
+      "2",
+      "5"
     ],
-    "correct_answer": "16x² + 40x + 25",
+    "correct_answer": "3",
     "subject": "Mathematics",
-    "grade": 9,
-    "difficulty": "hard",
-    "explanation": "The solution involves advanced algebraic manipulation."
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The correct answer is 3."
   },
   {
-    "_id": "hard9_1755260455350_005",
-    "content": "Find the vertex of y = x² - 10x + 25",
+    "_id": "easy1_1755260948241_005",
+    "content": "Count the hearts: ❤️❤️❤️. How many hearts?",
     "type": "multiple_choice",
     "options": [
-      "(5, 0)",
-      "Different answer 1",
-      "Different answer 2",
-      "Different answer 3"
+      "3",
+      "4",
+      "2",
+      "5"
     ],
-    "correct_answer": "(5, 0)",
+    "correct_answer": "3",
     "subject": "Mathematics",
-    "grade": 9,
-    "difficulty": "hard",
-    "explanation": "The solution involves advanced algebraic manipulation."
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The correct answer is 3."
   },
   {
-    "_id": "hard9_1755260455350_006",
-    "content": "Solve: 6x - 8 = 12",
+    "_id": "easy1_1755260948241_006",
+    "content": "What comes after 5?",
     "type": "multiple_choice",
     "options": [
-      "x = 3.3333333333333335",
-      "Different answer 1",
-      "Different answer 2",
-      "Different answer 3"
+      "6",
+      "7",
+      "5",
+      "8"
     ],
-    "correct_answer": "x = 3.3333333333333335",
+    "correct_answer": "6",
     "subject": "Mathematics",
-    "grade": 9,
-    "difficulty": "hard",
-    "explanation": "The solution involves advanced algebraic manipulation."
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The correct answer is 6."
   },
   {
-    "_id": "hard9_1755260455350_007",
-    "content": "Simplify: (7x + 8)²",
+    "_id": "easy1_1755260948241_007",
+    "content": "What is 5 + 1?",
     "type": "multiple_choice",
     "options": [
-      "49x² + 112x + 64",
-      "Different answer 1",
-      "Different answer 2",
-      "Different answer 3"
+      "6",
+      "7",
+      "5",
+      "8"
     ],
-    "correct_answer": "49x² + 112x + 64",
+    "correct_answer": "6",
     "subject": "Mathematics",
-    "grade": 9,
-    "difficulty": "hard",
-    "explanation": "The solution involves advanced algebraic manipulation."
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The correct answer is 6."
   },
   {
-    "_id": "hard9_1755260455350_008",
-    "content": "Find the vertex of y = x² - 16x + 64",
+    "_id": "easy1_1755260948241_008",
+    "content": "Count the hearts: ❤️❤️❤️❤️❤️❤️. How many hearts?",
     "type": "multiple_choice",
     "options": [
-      "(8, 0)",
-      "Different answer 1",
-      "Different answer 2",
-      "Different answer 3"
+      "6",
+      "7",
+      "5",
+      "8"
     ],
-    "correct_answer": "(8, 0)",
+    "correct_answer": "6",
     "subject": "Mathematics",
-    "grade": 9,
-    "difficulty": "hard",
-    "explanation": "The solution involves advanced algebraic manipulation."
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The correct answer is 6."
   },
   {
-    "_id": "hard9_1755260455350_009",
-    "content": "Solve: 9x - 11 = 18",
+    "_id": "easy1_1755260948241_009",
+    "content": "What comes after 8?",
     "type": "multiple_choice",
     "options": [
-      "x = 3.2222222222222223",
-      "Different answer 1",
-      "Different answer 2",
-      "Different answer 3"
+      "9",
+      "10",
+      "8",
+      "11"
     ],
-    "correct_answer": "x = 3.2222222222222223",
+    "correct_answer": "9",
     "subject": "Mathematics",
-    "grade": 9,
-    "difficulty": "hard",
-    "explanation": "The solution involves advanced algebraic manipulation."
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The correct answer is 9."
   },
   {
-    "_id": "hard9_1755260455350_010",
-    "content": "Simplify: (10x + 11)²",
+    "_id": "easy1_1755260948241_010",
+    "content": "What is 8 + 1?",
     "type": "multiple_choice",
     "options": [
-      "100x² + 220x + 121",
-      "Different answer 1",
-      "Different answer 2",
-      "Different answer 3"
+      "9",
+      "10",
+      "8",
+      "11"
     ],
-    "correct_answer": "100x² + 220x + 121",
+    "correct_answer": "9",
     "subject": "Mathematics",
-    "grade": 9,
-    "difficulty": "hard",
-    "explanation": "The solution involves advanced algebraic manipulation."
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The correct answer is 9."
   },
   {
-    "_id": "hard9_1755260455350_011",
-    "content": "Find the vertex of y = x² - 22x + 121",
+    "_id": "easy1_1755260948241_011",
+    "content": "Count the hearts: ❤️❤️❤️❤️❤️❤️❤️❤️❤️. How many hearts?",
     "type": "multiple_choice",
     "options": [
-      "(11, 0)",
-      "Different answer 1",
-      "Different answer 2",
-      "Different answer 3"
+      "9",
+      "10",
+      "8",
+      "11"
     ],
-    "correct_answer": "(11, 0)",
+    "correct_answer": "9",
     "subject": "Mathematics",
-    "grade": 9,
-    "difficulty": "hard",
-    "explanation": "The solution involves advanced algebraic manipulation."
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The correct answer is 9."
   },
   {
-    "_id": "hard9_1755260455350_012",
-    "content": "Solve: 12x - 14 = 24",
+    "_id": "easy1_1755260948241_012",
+    "content": "What comes after 11?",
     "type": "multiple_choice",
     "options": [
-      "x = 3.1666666666666665",
-      "Different answer 1",
-      "Different answer 2",
-      "Different answer 3"
+      "12",
+      "13",
+      "11",
+      "14"
     ],
-    "correct_answer": "x = 3.1666666666666665",
+    "correct_answer": "12",
     "subject": "Mathematics",
-    "grade": 9,
-    "difficulty": "hard",
-    "explanation": "The solution involves advanced algebraic manipulation."
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The correct answer is 12."
   },
   {
-    "_id": "hard9_1755260455350_013",
-    "content": "Simplify: (13x + 14)²",
+    "_id": "easy1_1755260948241_013",
+    "content": "What is 11 + 1?",
     "type": "multiple_choice",
     "options": [
-      "169x² + 364x + 196",
-      "Different answer 1",
-      "Different answer 2",
-      "Different answer 3"
+      "12",
+      "13",
+      "11",
+      "14"
     ],
-    "correct_answer": "169x² + 364x + 196",
+    "correct_answer": "12",
     "subject": "Mathematics",
-    "grade": 9,
-    "difficulty": "hard",
-    "explanation": "The solution involves advanced algebraic manipulation."
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The correct answer is 12."
   },
   {
-    "_id": "hard9_1755260455350_014",
-    "content": "Find the vertex of y = x² - 28x + 196",
+    "_id": "easy1_1755260948241_014",
+    "content": "Count the hearts: ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️. How many hearts?",
     "type": "multiple_choice",
     "options": [
-      "(14, 0)",
-      "Different answer 1",
-      "Different answer 2",
-      "Different answer 3"
+      "12",
+      "13",
+      "11",
+      "14"
     ],
-    "correct_answer": "(14, 0)",
+    "correct_answer": "12",
     "subject": "Mathematics",
-    "grade": 9,
-    "difficulty": "hard",
-    "explanation": "The solution involves advanced algebraic manipulation."
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The correct answer is 12."
   },
   {
-    "_id": "hard9_1755260455350_015",
-    "content": "Solve: 15x - 17 = 30",
+    "_id": "easy1_1755260948241_015",
+    "content": "What comes after 14?",
     "type": "multiple_choice",
     "options": [
-      "x = 3.1333333333333333",
-      "Different answer 1",
-      "Different answer 2",
-      "Different answer 3"
+      "15",
+      "16",
+      "14",
+      "17"
     ],
-    "correct_answer": "x = 3.1333333333333333",
+    "correct_answer": "15",
     "subject": "Mathematics",
-    "grade": 9,
-    "difficulty": "hard",
-    "explanation": "The solution involves advanced algebraic manipulation."
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The correct answer is 15."
   },
   {
-    "_id": "hard9_1755260455350_016",
-    "content": "Simplify: (16x + 17)²",
+    "_id": "easy1_1755260948241_016",
+    "content": "What is 14 + 1?",
     "type": "multiple_choice",
     "options": [
-      "256x² + 544x + 289",
-      "Different answer 1",
-      "Different answer 2",
-      "Different answer 3"
+      "15",
+      "16",
+      "14",
+      "17"
     ],
-    "correct_answer": "256x² + 544x + 289",
+    "correct_answer": "15",
     "subject": "Mathematics",
-    "grade": 9,
-    "difficulty": "hard",
-    "explanation": "The solution involves advanced algebraic manipulation."
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The correct answer is 15."
   },
   {
-    "_id": "hard9_1755260455350_017",
-    "content": "Find the vertex of y = x² - 34x + 289",
+    "_id": "easy1_1755260948241_017",
+    "content": "Count the hearts: ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️. How many hearts?",
     "type": "multiple_choice",
     "options": [
-      "(17, 0)",
-      "Different answer 1",
-      "Different answer 2",
-      "Different answer 3"
+      "15",
+      "16",
+      "14",
+      "17"
     ],
-    "correct_answer": "(17, 0)",
+    "correct_answer": "15",
     "subject": "Mathematics",
-    "grade": 9,
-    "difficulty": "hard",
-    "explanation": "The solution involves advanced algebraic manipulation."
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The correct answer is 15."
   },
   {
-    "_id": "hard9_1755260455350_018",
-    "content": "Solve: 18x - 20 = 36",
+    "_id": "easy1_1755260948241_018",
+    "content": "What comes after 17?",
     "type": "multiple_choice",
     "options": [
-      "x = 3.111111111111111",
-      "Different answer 1",
-      "Different answer 2",
-      "Different answer 3"
+      "18",
+      "19",
+      "17",
+      "20"
     ],
-    "correct_answer": "x = 3.111111111111111",
+    "correct_answer": "18",
     "subject": "Mathematics",
-    "grade": 9,
-    "difficulty": "hard",
-    "explanation": "The solution involves advanced algebraic manipulation."
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The correct answer is 18."
   },
   {
-    "_id": "hard9_1755260455350_019",
-    "content": "Simplify: (19x + 20)²",
+    "_id": "easy1_1755260948241_019",
+    "content": "What is 17 + 1?",
     "type": "multiple_choice",
     "options": [
-      "361x² + 760x + 400",
-      "Different answer 1",
-      "Different answer 2",
-      "Different answer 3"
+      "18",
+      "19",
+      "17",
+      "20"
     ],
-    "correct_answer": "361x² + 760x + 400",
+    "correct_answer": "18",
     "subject": "Mathematics",
-    "grade": 9,
-    "difficulty": "hard",
-    "explanation": "The solution involves advanced algebraic manipulation."
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The correct answer is 18."
   },
   {
-    "_id": "hard9_1755260455350_020",
-    "content": "Find the vertex of y = x² - 40x + 400",
+    "_id": "easy1_1755260948241_020",
+    "content": "Count the hearts: ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️. How many hearts?",
     "type": "multiple_choice",
     "options": [
-      "(20, 0)",
-      "Different answer 1",
-      "Different answer 2",
-      "Different answer 3"
+      "18",
+      "19",
+      "17",
+      "20"
     ],
-    "correct_answer": "(20, 0)",
+    "correct_answer": "18",
     "subject": "Mathematics",
-    "grade": 9,
-    "difficulty": "hard",
-    "explanation": "The solution involves advanced algebraic manipulation."
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The correct answer is 18."
+  },
+  {
+    "_id": "easy1_1755260948241_021",
+    "content": "What is 1 + 1?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_answer": "2",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "1 + 1 = 2"
+  },
+  {
+    "_id": "easy1_1755260948241_022",
+    "content": "What is 3 - 1?",
+    "type": "multiple_choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_answer": "2",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "3 - 1 = 2"
+  },
+  {
+    "_id": "easy1_1755260948241_023",
+    "content": "How many sides does a circle have?",
+    "type": "multiple_choice",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correct_answer": "0",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "A circle has no straight sides"
+  },
+  {
+    "_id": "easy1_1755260948241_024",
+    "content": "What is 4 + 2?",
+    "type": "multiple_choice",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct_answer": "6",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "4 + 2 = 6"
+  },
+  {
+    "_id": "easy1_1755260948241_025",
+    "content": "What is 7 - 3?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct_answer": "4",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "7 - 3 = 4"
+  },
+  {
+    "_id": "easy1_1755260948241_026",
+    "content": "Count the dots: • • • • •. How many dots?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correct_answer": "5",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "Count each dot: 1, 2, 3, 4, 5"
+  },
+  {
+    "_id": "easy1_1755260948241_027",
+    "content": "What is 3 + 3?",
+    "type": "multiple_choice",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct_answer": "6",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "3 + 3 = 6"
+  },
+  {
+    "_id": "easy1_1755260948241_028",
+    "content": "What is 8 - 4?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct_answer": "4",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "8 - 4 = 4"
+  },
+  {
+    "_id": "easy1_1755260948241_029",
+    "content": "How many sides does a square have?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct_answer": "4",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "A square has 4 equal sides"
+  },
+  {
+    "_id": "easy1_1755260948241_030",
+    "content": "What is 2 + 4?",
+    "type": "multiple_choice",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct_answer": "6",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "2 + 4 = 6"
+  },
+  {
+    "_id": "easy1_1755260948241_031",
+    "content": "What is 9 - 5?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct_answer": "4",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "9 - 5 = 4"
+  },
+  {
+    "_id": "easy1_1755260948241_032",
+    "content": "What comes before 5?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct_answer": "4",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "4 comes before 5"
+  },
+  {
+    "_id": "easy1_1755260948241_033",
+    "content": "What is 1 + 5?",
+    "type": "multiple_choice",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct_answer": "6",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "1 + 5 = 6"
+  },
+  {
+    "_id": "easy1_1755260948241_034",
+    "content": "What is 6 - 2?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct_answer": "4",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "6 - 2 = 4"
+  },
+  {
+    "_id": "easy1_1755260948241_035",
+    "content": "How many corners does a triangle have?",
+    "type": "multiple_choice",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct_answer": "3",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "A triangle has 3 corners"
+  },
+  {
+    "_id": "easy1_1755260948241_036",
+    "content": "What is 4 + 4?",
+    "type": "multiple_choice",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correct_answer": "8",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "4 + 4 = 8"
+  },
+  {
+    "_id": "easy1_1755260948241_037",
+    "content": "What is 10 - 6?",
+    "type": "multiple_choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct_answer": "4",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "10 - 6 = 4"
+  },
+  {
+    "_id": "easy1_1755260948241_038",
+    "content": "What comes after 9?",
+    "type": "multiple_choice",
+    "options": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "correct_answer": "10",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "10 comes after 9"
+  },
+  {
+    "_id": "easy1_1755260948241_039",
+    "content": "What is 3 + 4?",
+    "type": "multiple_choice",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correct_answer": "7",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "3 + 4 = 7"
+  },
+  {
+    "_id": "easy1_1755260948241_040",
+    "content": "What is 8 - 3?",
+    "type": "multiple_choice",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correct_answer": "5",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "8 - 3 = 5"
   }
 ]
