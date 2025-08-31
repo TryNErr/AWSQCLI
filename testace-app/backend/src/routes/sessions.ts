@@ -7,8 +7,99 @@ import Question from '../models/Question';
 import User from '../models/User';
 import { TestMode, DifficultyLevel } from '../../../shared/types';
 import { io } from '../server';
+const MathQuestionGenerator = require('../../utils/questionGenerator');
 
 const router = express.Router();
+const questionGenerator = new MathQuestionGenerator();
+
+// Helper function to get or generate questions
+async function getQuestionsWithFallback(
+  questionCount: number, 
+  filters: any, 
+  userId?: string, 
+  mode?: TestMode
+): Promise<any[]> {
+  let questions = [];
+  
+  try {
+    // First try to get questions from database
+    if (mode === TestMode.DAILY_CHALLENGE) {
+      questions = await (Question as any).getRandomQuestions(questionCount, {});
+    } else if (mode === TestMode.PRACTICE && userId) {
+      const user = await User.findById(userId);
+      if (user?.stats?.weakAreas?.length > 0) {
+        questions = await (Question as any).getAdaptiveQuestions(
+          userId,
+          questionCount,
+          user.stats.weakAreas,
+          filters.difficulty || DifficultyLevel.MEDIUM
+        );
+      } else {
+        questions = await (Question as any).getRandomQuestions(questionCount, filters);
+      }
+    } else {
+      questions = await (Question as any).getRandomQuestions(questionCount, filters);
+    }
+    
+    // If we don't have enough questions, generate more
+    const shortfall = questionCount - questions.length;
+    if (shortfall > 0 && filters.subject === 'Mathematics') {
+      console.log(`Generating ${shortfall} additional math questions...`);
+      
+      // Determine grade from difficulty or default
+      const grade = getGradeFromDifficulty(filters.difficulty);
+      const difficulty = filters.difficulty || 'medium';
+      
+      // Generate additional questions
+      const generatedQuestions = questionGenerator.generateQuestion(
+        grade, 
+        difficulty.toLowerCase(), 
+        shortfall
+      );
+      
+      // Convert generated questions to database format
+      const formattedQuestions = Array.isArray(generatedQuestions) 
+        ? generatedQuestions 
+        : [generatedQuestions];
+      
+      questions = [...questions, ...formattedQuestions];
+      console.log(`✅ Generated ${formattedQuestions.length} questions on-the-fly`);
+    }
+    
+  } catch (error) {
+    console.error('Error fetching questions:', error);
+    
+    // Fallback: generate all questions if database fails
+    if (filters.subject === 'Mathematics') {
+      const grade = getGradeFromDifficulty(filters.difficulty);
+      const difficulty = filters.difficulty || 'medium';
+      
+      const generatedQuestions = questionGenerator.generateQuestion(
+        grade, 
+        difficulty.toLowerCase(), 
+        questionCount
+      );
+      
+      questions = Array.isArray(generatedQuestions) 
+        ? generatedQuestions 
+        : [generatedQuestions];
+      
+      console.log(`🔄 Fallback: Generated all ${questions.length} questions`);
+    }
+  }
+  
+  return questions;
+}
+
+// Helper to map difficulty to appropriate grade level
+function getGradeFromDifficulty(difficulty?: string): number {
+  switch (difficulty?.toLowerCase()) {
+    case 'easy': return 1;
+    case 'medium': return 5;
+    case 'hard': return 9;
+    default: return 5;
+  }
+}
 
 // Create new test session
 router.post('/', validate(sessionSchema), asyncHandler(async (req: AuthRequest, res) => {
@@ -39,62 +130,44 @@ router.post('/', validate(sessionSchema), asyncHandler(async (req: AuthRequest, 
     }
   }
 
-  // Get questions based on mode and filters
-  let questions;
-  if (mode === TestMode.DAILY_CHALLENGE) {
-    // Daily challenge: mixed difficulty, random subjects
-    questions = await (Question as any).getRandomQuestions(questionCount, {});
-  } else {
-    // Regular practice or timed mode
-    const filters: any = {};
-    if (subject) filters.subject = subject;
-    if (difficulty) filters.difficulty = difficulty;
+  // Get questions with automatic generation fallback
+  const filters: any = {};
+  if (subject) filters.subject = subject;
+  if (difficulty) filters.difficulty = difficulty;
 
-    if (mode === TestMode.PRACTICE && req.user.stats.weakAreas.length > 0) {
-      // For practice mode, use adaptive questions
-      questions = await (Question as any).getAdaptiveQuestions(
-        userId,
-        questionCount,
-        req.user.stats.weakAreas,
-        difficulty || DifficultyLevel.MEDIUM
-      );
-    } else {
-      questions = await (Question as any).getRandomQuestions(questionCount, filters);
-    }
-  }
+  const questions = await getQuestionsWithFallback(
+    questionCount, 
+    filters, 
+    userId, 
+    mode
+  );
 
-  // Validate minimum question count for timed tests (dynamic based on user settings)
-  if (mode === TestMode.TIMED && questionCount < 5) {
+  // Validate minimum question count
+  if (mode === TestMode.TIMED && questions.length < 5) {
     return res.status(400).json({
       success: false,
       message: 'Timed tests require at least 5 questions'
     });
   }
 
-  // Ensure we have enough questions (allow up to 50% shortfall for emergency generation)
-  const minimumRequired = Math.max(Math.floor(questionCount * 0.5), 3);
-  if (questions.length < minimumRequired) {
-    return res.status(404).json({
-      success: false,
-      message: `Insufficient questions available. Found ${questions.length}, need at least ${minimumRequired} (50% of requested ${questionCount})`
-    });
-  }
-
   if (questions.length === 0) {
     return res.status(404).json({
       success: false,
-      message: 'No questions found matching your criteria'
+      message: 'Unable to generate questions for your criteria'
     });
   }
 
-  // Create session
+  // Create session with question IDs (for DB questions) or full questions (for generated)
+  const questionIds = questions.map((q: any) => q._id || q.id || `generated_${Date.now()}_${Math.random()}`);
+  
   const session = new TestSession({
     userId,
     mode,
-    questions: questions.map((q: any) => q._id),
+    questions: questionIds,
     subject,
     difficulty,
-    timeLimit
+    timeLimit,
+    generatedQuestions: questions.filter(q => !q._id) // Store generated questions separately
   });
 
   await session.save();

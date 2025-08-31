@@ -5,12 +5,12 @@ interface TestSessionDocument extends Omit<ITestSession, '_id'>, Document {
   calculateScore(): number;
   getAccuracy(): number;
   getAverageTime(): number;
+  generatedQuestions?: any[]; // Store generated questions
 }
 
 const userAnswerSchema = new Schema<UserAnswer>({
   questionId: {
-    type: Schema.Types.ObjectId as any,
-    ref: 'Question',
+    type: Schema.Types.Mixed, // Allow both ObjectId and string for generated questions
     required: true
   },
   answer: {
@@ -39,12 +39,15 @@ const testSessionSchema = new Schema<TestSessionDocument>({
   },
   mode: {
     type: String,
-    enum: Object.values(TestMode),
+    enum: [...Object.values(TestMode), 'INFINITE_PRACTICE'],
     required: true
   },
   questions: [{
-    type: Schema.Types.ObjectId,
-    ref: 'Question'
+    type: Schema.Types.Mixed // Allow both ObjectId and string for generated questions
+  }],
+  generatedQuestions: [{
+    type: Schema.Types.Mixed,
+    default: []
   }],
   answers: [userAnswerSchema],
   startTime: {

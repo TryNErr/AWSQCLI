@@ -14,6 +14,8 @@ import analyticsRoutes from './routes/analytics';
 import leaderboardRoutes from './routes/leaderboard';
 import writingRoutes from './routes/writing';
 import userRoutes from './routes/users';
+const enhancedSessionRoutes = require('./routes/enhancedSessions');
+const generateQuestionRoutes = require('../routes/generateQuestions');
 
 import { setupSocketHandlers } from './socket/handlers';
 import { errorHandler } from './middleware/errorHandler';
@@ -57,6 +59,8 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/testace')
 app.use('/api/auth', authRoutes);
 app.use('/api/questions', authenticateToken, questionRoutes);
 app.use('/api/sessions', authenticateToken, sessionRoutes);
+app.use('/api/enhanced-sessions', authenticateToken, enhancedSessionRoutes);
+app.use('/api/generate', authenticateToken, generateQuestionRoutes);
 app.use('/api/analytics', authenticateToken, analyticsRoutes);
 app.use('/api/leaderboard', authenticateToken, leaderboardRoutes);
 app.use('/api/writing', authenticateToken, writingRoutes);
