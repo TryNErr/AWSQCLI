@@ -78,7 +78,7 @@ export const EnhancedPractice: React.FC<EnhancedPracticeProps> = ({
     if (!selectedAnswer || !sessionId) return;
 
     const currentQuestion = questions[currentIndex];
-    const isCorrect = selectedAnswer === currentQuestion.correct_answer;
+    const isCorrect = selectedAnswer === currentQuestion.correctAnswer;
     
     setShowResult(true);
     setScore(prev => ({
@@ -191,7 +191,7 @@ export const EnhancedPractice: React.FC<EnhancedPracticeProps> = ({
                   disabled={showResult}
                   sx={{
                     backgroundColor: showResult
-                      ? option === currentQuestion.correct_answer
+                      ? option === currentQuestion.correctAnswer
                         ? 'success.light'
                         : option === selectedAnswer
                         ? 'error.light'
@@ -208,12 +208,12 @@ export const EnhancedPractice: React.FC<EnhancedPracticeProps> = ({
 
           {showResult && (
             <Alert 
-              severity={selectedAnswer === currentQuestion.correct_answer ? 'success' : 'error'}
+              severity={selectedAnswer === currentQuestion.correctAnswer ? 'success' : 'error'}
               sx={{ mt: 2 }}
             >
-              {selectedAnswer === currentQuestion.correct_answer 
+              {selectedAnswer === currentQuestion.correctAnswer 
                 ? '✅ Correct!' 
-                : `❌ Incorrect. The correct answer is: ${currentQuestion.correct_answer}`
+                : `❌ Incorrect. The correct answer is: ${currentQuestion.correctAnswer}`
               }
               {currentQuestion.explanation && (
                 <Typography variant="body2" sx={{ mt: 1 }}>
