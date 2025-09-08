@@ -318,5 +318,115 @@
     "grade": 7,
     "difficulty": "medium",
     "explanation": "This evaluates key English skills"
+  },
+  {
+    "_id": "medium7_eng_001",
+    "content": "What is the theme of a story?",
+    "type": "multiple_choice",
+    "options": ["Where the story takes place", "The main message or lesson", "Who the main character is", "When the story happens"],
+    "correct_answer": "The main message or lesson",
+    "subject": "English",
+    "grade": 7,
+    "difficulty": "medium",
+    "explanation": "Theme is the central message, moral, or lesson that the author wants to convey."
+  },
+  {
+    "_id": "medium7_eng_002",
+    "content": "Which sentence uses a metaphor?",
+    "type": "multiple_choice",
+    "options": ["She runs like the wind", "Her voice is music to my ears", "The dog barked loudly", "He is as tall as a tree"],
+    "correct_answer": "Her voice is music to my ears",
+    "subject": "English",
+    "grade": 7,
+    "difficulty": "medium",
+    "explanation": "A metaphor directly compares two things without using 'like' or 'as'."
+  },
+  {
+    "_id": "medium7_eng_003",
+    "content": "What is the purpose of a conclusion paragraph?",
+    "type": "multiple_choice",
+    "options": ["To introduce new ideas", "To restate the main points and provide closure", "To ask questions", "To give examples"],
+    "correct_answer": "To restate the main points and provide closure",
+    "subject": "English",
+    "grade": 7,
+    "difficulty": "medium",
+    "explanation": "A conclusion summarizes main points and provides a sense of closure to the writing."
+  },
+  {
+    "_id": "medium7_eng_004",
+    "content": "Which word is an adverb?",
+    "type": "multiple_choice",
+    "options": ["beautiful", "carefully", "happiness", "running"],
+    "correct_answer": "carefully",
+    "subject": "English",
+    "grade": 7,
+    "difficulty": "medium",
+    "explanation": "Adverbs modify verbs, adjectives, or other adverbs, often ending in -ly."
+  },
+  {
+    "_id": "medium7_eng_005",
+    "content": "What is personification?",
+    "type": "multiple_choice",
+    "options": ["Comparing two things with 'like' or 'as'", "Giving human qualities to non-human things", "Exaggerating for effect", "Repeating sounds"],
+    "correct_answer": "Giving human qualities to non-human things",
+    "subject": "English",
+    "grade": 7,
+    "difficulty": "medium",
+    "explanation": "Personification gives human characteristics to animals, objects, or ideas."
+  },
+  {
+    "_id": "medium7_eng_006",
+    "content": "Which sentence is written in passive voice?",
+    "type": "multiple_choice",
+    "options": ["John threw the ball", "The ball was thrown by John", "John is throwing the ball", "John will throw the ball"],
+    "correct_answer": "The ball was thrown by John",
+    "subject": "English",
+    "grade": 7,
+    "difficulty": "medium",
+    "explanation": "Passive voice has the subject receiving the action rather than performing it."
+  },
+  {
+    "_id": "medium7_eng_007",
+    "content": "What is the main conflict in a story?",
+    "type": "multiple_choice",
+    "options": ["The setting", "The main problem or struggle", "The characters", "The theme"],
+    "correct_answer": "The main problem or struggle",
+    "subject": "English",
+    "grade": 7,
+    "difficulty": "medium",
+    "explanation": "Conflict is the central problem or struggle that drives the story forward."
+  },
+  {
+    "_id": "medium7_eng_008",
+    "content": "Which sentence uses correct comma placement?",
+    "type": "multiple_choice",
+    "options": ["After the game we went home", "After the game, we went home", "After, the game we went home", "After the game we, went home"],
+    "correct_answer": "After the game, we went home",
+    "subject": "English",
+    "grade": 7,
+    "difficulty": "medium",
+    "explanation": "Use a comma after an introductory phrase or clause."
+  },
+  {
+    "_id": "medium7_eng_009",
+    "content": "What is alliteration?",
+    "type": "multiple_choice",
+    "options": ["Rhyming words at the end of lines", "Repetition of beginning consonant sounds", "Comparing two unlike things", "Exaggerating for effect"],
+    "correct_answer": "Repetition of beginning consonant sounds",
+    "subject": "English",
+    "grade": 7,
+    "difficulty": "medium",
+    "explanation": "Alliteration repeats the same consonant sound at the beginning of nearby words."
+  },
+  {
+    "_id": "medium7_eng_010",
+    "content": "What point of view uses 'I' and 'me'?",
+    "type": "multiple_choice",
+    "options": ["First person", "Second person", "Third person", "Fourth person"],
+    "correct_answer": "First person",
+    "subject": "English",
+    "grade": 7,
+    "difficulty": "medium",
+    "explanation": "First person point of view uses pronouns like 'I', 'me', 'my', and 'we'."
   }
 ]

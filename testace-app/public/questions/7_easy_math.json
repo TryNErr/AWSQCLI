@@ -538,5 +538,115 @@
     "grade": 7,
     "difficulty": "easy",
     "explanation": "x = 9 + 6 = 15"
+  },
+  {
+    "_id": "easy7_math_001",
+    "content": "What is 3/4 + 1/4?",
+    "type": "multiple_choice",
+    "options": ["1/2", "3/4", "1", "4/8"],
+    "correct_answer": "1",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "easy",
+    "explanation": "3/4 + 1/4 = 4/4 = 1"
+  },
+  {
+    "_id": "easy7_math_002",
+    "content": "Solve: 2x + 8 = 20",
+    "type": "multiple_choice",
+    "options": ["x = 4", "x = 6", "x = 8", "x = 10"],
+    "correct_answer": "x = 6",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "easy",
+    "explanation": "2x + 8 = 20, so 2x = 12, therefore x = 6"
+  },
+  {
+    "_id": "easy7_math_003",
+    "content": "What is 20% of 50?",
+    "type": "multiple_choice",
+    "options": ["8", "10", "12", "15"],
+    "correct_answer": "10",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "easy",
+    "explanation": "20% of 50 = 0.20 × 50 = 10"
+  },
+  {
+    "_id": "easy7_math_004",
+    "content": "What is the area of a triangle with base 8 and height 6?",
+    "type": "multiple_choice",
+    "options": ["24", "48", "14", "28"],
+    "correct_answer": "24",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "easy",
+    "explanation": "Area = (1/2) × base × height = (1/2) × 8 × 6 = 24"
+  },
+  {
+    "_id": "easy7_math_005",
+    "content": "Simplify: 4x + 3x - 2x",
+    "type": "multiple_choice",
+    "options": ["5x", "6x", "7x", "9x"],
+    "correct_answer": "5x",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "easy",
+    "explanation": "4x + 3x - 2x = (4 + 3 - 2)x = 5x"
+  },
+  {
+    "_id": "easy7_math_006",
+    "content": "What is 2/3 × 3/4?",
+    "type": "multiple_choice",
+    "options": ["1/2", "5/7", "6/12", "5/12"],
+    "correct_answer": "1/2",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "easy",
+    "explanation": "2/3 × 3/4 = 6/12 = 1/2"
+  },
+  {
+    "_id": "easy7_math_007",
+    "content": "What is the perimeter of a rectangle with length 7 and width 4?",
+    "type": "multiple_choice",
+    "options": ["11", "22", "28", "14"],
+    "correct_answer": "22",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "easy",
+    "explanation": "Perimeter = 2(length + width) = 2(7 + 4) = 22"
+  },
+  {
+    "_id": "easy7_math_008",
+    "content": "What is (-3) + 8?",
+    "type": "multiple_choice",
+    "options": ["5", "-5", "11", "-11"],
+    "correct_answer": "5",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "easy",
+    "explanation": "(-3) + 8 = 8 - 3 = 5"
+  },
+  {
+    "_id": "easy7_math_009",
+    "content": "What is 5²?",
+    "type": "multiple_choice",
+    "options": ["10", "15", "20", "25"],
+    "correct_answer": "25",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "easy",
+    "explanation": "5² = 5 × 5 = 25"
+  },
+  {
+    "_id": "easy7_math_010",
+    "content": "Solve: x - 12 = 8",
+    "type": "multiple_choice",
+    "options": ["x = 4", "x = 20", "x = -4", "x = 16"],
+    "correct_answer": "x = 20",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "easy",
+    "explanation": "x - 12 = 8, so x = 8 + 12 = 20"
   }
 ]

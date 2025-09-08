@@ -318,5 +318,115 @@
     "grade": 3,
     "difficulty": "medium",
     "explanation": "This evaluates key English skills"
+  },
+  {
+    "_id": "medium3_eng_001",
+    "content": "What is a compound word?",
+    "type": "multiple_choice",
+    "options": ["A very long word", "Two words put together to make one", "A word that rhymes", "A word with many letters"],
+    "correct_answer": "Two words put together to make one",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "medium",
+    "explanation": "Compound words are made by joining two smaller words, like 'sunshine' or 'playground'."
+  },
+  {
+    "_id": "medium3_eng_002",
+    "content": "Which is a compound word?",
+    "type": "multiple_choice",
+    "options": ["running", "baseball", "happy", "quickly"],
+    "correct_answer": "baseball",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "medium",
+    "explanation": "Baseball is made from 'base' + 'ball' - two words joined together."
+  },
+  {
+    "_id": "medium3_eng_003",
+    "content": "What is the root word in 'playing'?",
+    "type": "multiple_choice",
+    "options": ["play", "ing", "playing", "lay"],
+    "correct_answer": "play",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "medium",
+    "explanation": "'Play' is the root word, and '-ing' is the ending that was added."
+  },
+  {
+    "_id": "medium3_eng_004",
+    "content": "Which sentence has the correct word order?",
+    "type": "multiple_choice",
+    "options": ["Red the big ball bounced.", "The big red ball bounced.", "Ball the bounced big red.", "Bounced red big the ball."],
+    "correct_answer": "The big red ball bounced.",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "medium",
+    "explanation": "English follows the pattern: article + adjectives + noun + verb."
+  },
+  {
+    "_id": "medium3_eng_005",
+    "content": "What makes the /ch/ sound in 'chair'?",
+    "type": "multiple_choice",
+    "options": ["c and h together", "just c", "just h", "a and i together"],
+    "correct_answer": "c and h together",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "medium",
+    "explanation": "The letters 'c' and 'h' work together to make the /ch/ sound."
+  },
+  {
+    "_id": "medium3_eng_006",
+    "content": "Which word has a long vowel sound?",
+    "type": "multiple_choice",
+    "options": ["cat", "cake", "cap", "can"],
+    "correct_answer": "cake",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "medium",
+    "explanation": "Cake has a long 'a' sound because of the silent 'e' at the end."
+  },
+  {
+    "_id": "medium3_eng_007",
+    "content": "What is a describing word called?",
+    "type": "multiple_choice",
+    "options": ["noun", "verb", "adjective", "adverb"],
+    "correct_answer": "adjective",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "medium",
+    "explanation": "Adjectives are describing words that tell us more about nouns."
+  },
+  {
+    "_id": "medium3_eng_008",
+    "content": "Which sentence uses a describing word?",
+    "type": "multiple_choice",
+    "options": ["The dog ran.", "The fast dog ran.", "The dog ran away.", "Dogs can run."],
+    "correct_answer": "The fast dog ran.",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "medium",
+    "explanation": "'Fast' describes the dog, so it's an adjective or describing word."
+  },
+  {
+    "_id": "medium3_eng_009",
+    "content": "What is the plural of 'story'?",
+    "type": "multiple_choice",
+    "options": ["storys", "stories", "storyes", "story"],
+    "correct_answer": "stories",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "medium",
+    "explanation": "When a word ends in 'y' after a consonant, change 'y' to 'ies'."
+  },
+  {
+    "_id": "medium3_eng_010",
+    "content": "Which word means the opposite of 'up'?",
+    "type": "multiple_choice",
+    "options": ["over", "down", "around", "through"],
+    "correct_answer": "down",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "medium",
+    "explanation": "Down is the opposite direction of up."
   }
 ]

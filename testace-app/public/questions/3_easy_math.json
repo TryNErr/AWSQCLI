@@ -538,5 +538,115 @@
     "grade": 3,
     "difficulty": "easy",
     "explanation": "54 ÷ 6 = 9"
+  },
+  {
+    "_id": "easy3_math_001",
+    "content": "What is 25 + 17?",
+    "type": "multiple_choice",
+    "options": ["40", "42", "44", "38"],
+    "correct_answer": "42",
+    "subject": "Mathematics",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "25 + 17 = 42"
+  },
+  {
+    "_id": "easy3_math_002",
+    "content": "What is 6 × 4?",
+    "type": "multiple_choice",
+    "options": ["20", "22", "24", "26"],
+    "correct_answer": "24",
+    "subject": "Mathematics",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "6 × 4 = 24"
+  },
+  {
+    "_id": "easy3_math_003",
+    "content": "What is 48 - 19?",
+    "type": "multiple_choice",
+    "options": ["27", "29", "31", "33"],
+    "correct_answer": "29",
+    "subject": "Mathematics",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "48 - 19 = 29"
+  },
+  {
+    "_id": "easy3_math_004",
+    "content": "What is 35 ÷ 7?",
+    "type": "multiple_choice",
+    "options": ["4", "5", "6", "7"],
+    "correct_answer": "5",
+    "subject": "Mathematics",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "35 ÷ 7 = 5"
+  },
+  {
+    "_id": "easy3_math_005",
+    "content": "How many minutes are in 1 hour?",
+    "type": "multiple_choice",
+    "options": ["50", "60", "70", "80"],
+    "correct_answer": "60",
+    "subject": "Mathematics",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "1 hour = 60 minutes"
+  },
+  {
+    "_id": "easy3_math_006",
+    "content": "What is 9 × 3?",
+    "type": "multiple_choice",
+    "options": ["24", "27", "30", "21"],
+    "correct_answer": "27",
+    "subject": "Mathematics",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "9 × 3 = 27"
+  },
+  {
+    "_id": "easy3_math_007",
+    "content": "Round 67 to the nearest ten.",
+    "type": "multiple_choice",
+    "options": ["60", "70", "65", "75"],
+    "correct_answer": "70",
+    "subject": "Mathematics",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "67 is closer to 70 than to 60"
+  },
+  {
+    "_id": "easy3_math_008",
+    "content": "What is 100 - 37?",
+    "type": "multiple_choice",
+    "options": ["63", "67", "73", "57"],
+    "correct_answer": "63",
+    "subject": "Mathematics",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "100 - 37 = 63"
+  },
+  {
+    "_id": "easy3_math_009",
+    "content": "How many sides does a triangle have?",
+    "type": "multiple_choice",
+    "options": ["2", "3", "4", "5"],
+    "correct_answer": "3",
+    "subject": "Mathematics",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "A triangle has 3 sides"
+  },
+  {
+    "_id": "easy3_math_010",
+    "content": "What is 8 × 5?",
+    "type": "multiple_choice",
+    "options": ["35", "40", "45", "30"],
+    "correct_answer": "40",
+    "subject": "Mathematics",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "8 × 5 = 40"
   }
 ]

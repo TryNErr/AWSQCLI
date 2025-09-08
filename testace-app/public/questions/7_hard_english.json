@@ -318,5 +318,115 @@
     "grade": 7,
     "difficulty": "hard",
     "explanation": "This evaluates key English skills"
+  },
+  {
+    "_id": "hard7_eng_001",
+    "content": "What is the difference between mood and tone in literature?",
+    "type": "multiple_choice",
+    "options": ["They are the same thing", "Mood is the reader's feeling; tone is the author's attitude", "Tone is the reader's feeling; mood is the author's attitude", "Mood is only in poetry"],
+    "correct_answer": "Mood is the reader's feeling; tone is the author's attitude",
+    "subject": "English",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "Mood is the emotional atmosphere that affects the reader; tone is the author's attitude toward the subject."
+  },
+  {
+    "_id": "hard7_eng_002",
+    "content": "Which sentence uses the subjunctive mood correctly?",
+    "type": "multiple_choice",
+    "options": ["If I was you, I would study more", "If I were you, I would study more", "If I am you, I will study more", "If I will be you, I would study"],
+    "correct_answer": "If I were you, I would study more",
+    "subject": "English",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "The subjunctive mood uses 'were' instead of 'was' for hypothetical or contrary-to-fact situations."
+  },
+  {
+    "_id": "hard7_eng_003",
+    "content": "What is the purpose of using symbolism in literature?",
+    "type": "multiple_choice",
+    "options": ["To make the story longer", "To represent deeper meanings and abstract ideas", "To confuse readers", "To show off vocabulary"],
+    "correct_answer": "To represent deeper meanings and abstract ideas",
+    "subject": "English",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "Symbolism uses concrete objects or actions to represent abstract ideas, adding layers of meaning to literature."
+  },
+  {
+    "_id": "hard7_eng_004",
+    "content": "In the sentence 'The committee has made its decision,' why is 'has' correct instead of 'have'?",
+    "type": "multiple_choice",
+    "options": ["Committee is always singular", "Committee is treated as a single unit in this context", "It's actually wrong; should be 'have'", "There's no rule for this"],
+    "correct_answer": "Committee is treated as a single unit in this context",
+    "subject": "English",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "Collective nouns like 'committee' take singular verbs when the group acts as one unit."
+  },
+  {
+    "_id": "hard7_eng_005",
+    "content": "What is the effect of using a first-person narrator in a story?",
+    "type": "multiple_choice",
+    "options": ["It makes the story less interesting", "It creates intimacy and limits perspective to one character's view", "It's the same as third person", "It's only used in poetry"],
+    "correct_answer": "It creates intimacy and limits perspective to one character's view",
+    "subject": "English",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "First-person narration creates intimacy with the narrator but limits readers to that character's perspective and knowledge."
+  },
+  {
+    "_id": "hard7_eng_006",
+    "content": "Which sentence demonstrates correct use of the semicolon?",
+    "type": "multiple_choice",
+    "options": ["I love reading; especially mysteries", "The weather was terrible; we stayed inside", "She studied hard; and passed the test", "We went shopping; to buy clothes"],
+    "correct_answer": "The weather was terrible; we stayed inside",
+    "subject": "English",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "Semicolons connect two independent clauses that are closely related in meaning."
+  },
+  {
+    "_id": "hard7_eng_007",
+    "content": "What is an oxymoron?",
+    "type": "multiple_choice",
+    "options": ["A type of rhyme", "A combination of contradictory terms", "A long sentence", "A type of character"],
+    "correct_answer": "A combination of contradictory terms",
+    "subject": "English",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "An oxymoron combines contradictory or opposing terms, like 'deafening silence' or 'jumbo shrimp.'"
+  },
+  {
+    "_id": "hard7_eng_008",
+    "content": "What is the difference between connotation and denotation?",
+    "type": "multiple_choice",
+    "options": ["They mean the same thing", "Connotation is emotional meaning; denotation is literal meaning", "Denotation is emotional; connotation is literal", "Connotation is only in poetry"],
+    "correct_answer": "Connotation is emotional meaning; denotation is literal meaning",
+    "subject": "English",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "Denotation is the literal dictionary meaning; connotation is the emotional or cultural associations."
+  },
+  {
+    "_id": "hard7_eng_009",
+    "content": "What is the purpose of using foreshadowing in a story?",
+    "type": "multiple_choice",
+    "options": ["To give away the ending", "To create suspense and prepare readers for future events", "To make the story longer", "To confuse readers"],
+    "correct_answer": "To create suspense and prepare readers for future events",
+    "subject": "English",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "Foreshadowing hints at future events, creating suspense and making later events feel inevitable rather than random."
+  },
+  {
+    "_id": "hard7_eng_010",
+    "content": "Which sentence uses an appositive correctly?",
+    "type": "multiple_choice",
+    "options": ["My friend Sarah is coming over", "My friend, Sarah, is coming over", "My friend Sarah, is coming over", "My friend, Sarah is coming over"],
+    "correct_answer": "My friend, Sarah, is coming over",
+    "subject": "English",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "Appositives (words that rename or explain a noun) should be set off by commas when they provide additional, non-essential information."
   }
 ]

@@ -318,5 +318,115 @@
     "grade": 8,
     "difficulty": "medium",
     "explanation": "This evaluates key English skills"
+  },
+  {
+    "_id": "medium8_eng_001",
+    "content": "What is the main purpose of supporting details in a paragraph?",
+    "type": "multiple_choice",
+    "options": ["To confuse the reader", "To provide evidence for the main idea", "To change the topic", "To make the paragraph longer"],
+    "correct_answer": "To provide evidence for the main idea",
+    "subject": "English",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "Supporting details provide evidence, examples, and explanations that support the main idea."
+  },
+  {
+    "_id": "medium8_eng_002",
+    "content": "Which sentence uses correct subject-verb agreement?",
+    "type": "multiple_choice",
+    "options": ["The group of students are studying", "The group of students is studying", "The groups of student is studying", "The groups of student are studying"],
+    "correct_answer": "The group of students is studying",
+    "subject": "English",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "The subject 'group' is singular, so it takes the singular verb 'is'."
+  },
+  {
+    "_id": "medium8_eng_003",
+    "content": "What is the difference between a fact and an opinion?",
+    "type": "multiple_choice",
+    "options": ["Facts are longer than opinions", "Facts can be proven, opinions are personal beliefs", "Opinions are always wrong", "Facts are more interesting"],
+    "correct_answer": "Facts can be proven, opinions are personal beliefs",
+    "subject": "English",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "Facts are statements that can be verified as true or false; opinions are personal beliefs or judgments."
+  },
+  {
+    "_id": "medium8_eng_004",
+    "content": "Which literary device is used in 'The thunder roared like a lion'?",
+    "type": "multiple_choice",
+    "options": ["Metaphor", "Simile", "Personification", "Alliteration"],
+    "correct_answer": "Simile",
+    "subject": "English",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "A simile compares two things using 'like' or 'as' - thunder is compared to a lion using 'like'."
+  },
+  {
+    "_id": "medium8_eng_005",
+    "content": "What is the purpose of transition words in writing?",
+    "type": "multiple_choice",
+    "options": ["To make sentences longer", "To connect ideas and improve flow", "To confuse the reader", "To add more details"],
+    "correct_answer": "To connect ideas and improve flow",
+    "subject": "English",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "Transition words help connect ideas and create smooth flow between sentences and paragraphs."
+  },
+  {
+    "_id": "medium8_eng_006",
+    "content": "Which sentence is a complex sentence?",
+    "type": "multiple_choice",
+    "options": ["I like pizza and pasta.", "I like pizza.", "Because I was hungry, I ate pizza.", "I like pizza; it's delicious."],
+    "correct_answer": "Because I was hungry, I ate pizza.",
+    "subject": "English",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "A complex sentence has one independent clause and one or more dependent clauses."
+  },
+  {
+    "_id": "medium8_eng_007",
+    "content": "What is the setting of a story?",
+    "type": "multiple_choice",
+    "options": ["The main character", "The time and place where events occur", "The problem in the story", "The lesson learned"],
+    "correct_answer": "The time and place where events occur",
+    "subject": "English",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "Setting refers to when and where the story takes place."
+  },
+  {
+    "_id": "medium8_eng_008",
+    "content": "Which word is a preposition?",
+    "type": "multiple_choice",
+    "options": ["quickly", "under", "happy", "running"],
+    "correct_answer": "under",
+    "subject": "English",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "Prepositions show relationships between words, often indicating location, direction, or time."
+  },
+  {
+    "_id": "medium8_eng_009",
+    "content": "What is the climax of a story?",
+    "type": "multiple_choice",
+    "options": ["The beginning", "The most exciting or tense moment", "The ending", "The introduction of characters"],
+    "correct_answer": "The most exciting or tense moment",
+    "subject": "English",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "The climax is the turning point where tension and excitement reach their peak."
+  },
+  {
+    "_id": "medium8_eng_010",
+    "content": "Which sentence uses correct punctuation for dialogue?",
+    "type": "multiple_choice",
+    "options": ["\"Hello, she said.\"", "\"Hello,\" she said.", "\"Hello\" she said.", "Hello, she said."],
+    "correct_answer": "\"Hello,\" she said.",
+    "subject": "English",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "Dialogue should be enclosed in quotation marks with proper punctuation inside the quotes."
   }
 ]

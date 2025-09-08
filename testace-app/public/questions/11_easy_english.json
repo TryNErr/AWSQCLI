@@ -318,5 +318,115 @@
     "grade": 11,
     "difficulty": "easy",
     "explanation": "This evaluates key English skills"
+  },
+  {
+    "_id": "easy11_eng_001",
+    "content": "What is the main purpose of a topic sentence?",
+    "type": "multiple_choice",
+    "options": ["To conclude the paragraph", "To introduce the main idea of the paragraph", "To provide evidence", "To create a transition"],
+    "correct_answer": "To introduce the main idea of the paragraph",
+    "subject": "English",
+    "grade": 11,
+    "difficulty": "easy",
+    "explanation": "A topic sentence introduces and states the main idea of a paragraph."
+  },
+  {
+    "_id": "easy11_eng_002",
+    "content": "Which is an example of symbolism?",
+    "type": "multiple_choice",
+    "options": ["A dove representing peace", "The wind howled angrily", "She runs like the wind", "It's raining cats and dogs"],
+    "correct_answer": "A dove representing peace",
+    "subject": "English",
+    "grade": 11,
+    "difficulty": "easy",
+    "explanation": "Symbolism uses objects to represent abstract ideas - a dove symbolizes peace."
+  },
+  {
+    "_id": "easy11_eng_003",
+    "content": "What is the difference between a simile and a metaphor?",
+    "type": "multiple_choice",
+    "options": ["Similes use 'like' or 'as', metaphors don't", "Metaphors use 'like' or 'as', similes don't", "There is no difference", "Similes are longer than metaphors"],
+    "correct_answer": "Similes use 'like' or 'as', metaphors don't",
+    "subject": "English",
+    "grade": 11,
+    "difficulty": "easy",
+    "explanation": "Similes make comparisons using 'like' or 'as'; metaphors make direct comparisons."
+  },
+  {
+    "_id": "easy11_eng_004",
+    "content": "What is the climax of a story?",
+    "type": "multiple_choice",
+    "options": ["The beginning", "The turning point or highest tension", "The ending", "The setting"],
+    "correct_answer": "The turning point or highest tension",
+    "subject": "English",
+    "grade": 11,
+    "difficulty": "easy",
+    "explanation": "The climax is the story's turning point where tension reaches its peak."
+  },
+  {
+    "_id": "easy11_eng_005",
+    "content": "Which sentence is in active voice?",
+    "type": "multiple_choice",
+    "options": ["The book was read by Sarah", "Sarah read the book", "The book was being read", "Reading was done by Sarah"],
+    "correct_answer": "Sarah read the book",
+    "subject": "English",
+    "grade": 11,
+    "difficulty": "easy",
+    "explanation": "Active voice has the subject performing the action directly."
+  },
+  {
+    "_id": "easy11_eng_006",
+    "content": "What is alliteration?",
+    "type": "multiple_choice",
+    "options": ["Repetition of vowel sounds", "Repetition of consonant sounds at the beginning of words", "Rhyming at the end of lines", "Repetition of entire words"],
+    "correct_answer": "Repetition of consonant sounds at the beginning of words",
+    "subject": "English",
+    "grade": 11,
+    "difficulty": "easy",
+    "explanation": "Alliteration repeats initial consonant sounds in nearby words."
+  },
+  {
+    "_id": "easy11_eng_007",
+    "content": "What is the setting of a story?",
+    "type": "multiple_choice",
+    "options": ["The main character", "The time and place where events occur", "The central conflict", "The author's message"],
+    "correct_answer": "The time and place where events occur",
+    "subject": "English",
+    "grade": 11,
+    "difficulty": "easy",
+    "explanation": "Setting refers to when and where the story takes place."
+  },
+  {
+    "_id": "easy11_eng_008",
+    "content": "Which is an example of hyperbole?",
+    "type": "multiple_choice",
+    "options": ["The sun smiled down", "I've told you a million times", "Time is money", "She's as brave as a lion"],
+    "correct_answer": "I've told you a million times",
+    "subject": "English",
+    "grade": 11,
+    "difficulty": "easy",
+    "explanation": "Hyperbole is deliberate exaggeration for emphasis or effect."
+  },
+  {
+    "_id": "easy11_eng_009",
+    "content": "What is the theme of a literary work?",
+    "type": "multiple_choice",
+    "options": ["The plot summary", "The main character", "The central message or meaning", "The setting"],
+    "correct_answer": "The central message or meaning",
+    "subject": "English",
+    "grade": 11,
+    "difficulty": "easy",
+    "explanation": "Theme is the underlying message or central idea of a literary work."
+  },
+  {
+    "_id": "easy11_eng_010",
+    "content": "What is foreshadowing?",
+    "type": "multiple_choice",
+    "options": ["Looking back at past events", "Hints about future events in the story", "Describing characters", "Setting the scene"],
+    "correct_answer": "Hints about future events in the story",
+    "subject": "English",
+    "grade": 11,
+    "difficulty": "easy",
+    "explanation": "Foreshadowing gives clues about what will happen later in the story."
   }
 ]

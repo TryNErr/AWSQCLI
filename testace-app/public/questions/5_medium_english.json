@@ -318,5 +318,115 @@
     "grade": 5,
     "difficulty": "medium",
     "explanation": "This evaluates key English skills"
+  },
+  {
+    "_id": "medium5_eng_001",
+    "content": "What is the purpose of a topic sentence?",
+    "type": "multiple_choice",
+    "options": ["To end the paragraph", "To tell the main idea of the paragraph", "To ask a question", "To give an example"],
+    "correct_answer": "To tell the main idea of the paragraph",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "medium",
+    "explanation": "A topic sentence introduces the main idea that the paragraph will explain or support."
+  },
+  {
+    "_id": "medium5_eng_002",
+    "content": "Which sentence uses a simile?",
+    "type": "multiple_choice",
+    "options": ["The stars are diamonds", "She runs like the wind", "The wind whispered", "Time flies"],
+    "correct_answer": "She runs like the wind",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "medium",
+    "explanation": "A simile compares two things using 'like' or 'as'."
+  },
+  {
+    "_id": "medium5_eng_003",
+    "content": "What is the difference between fact and opinion?",
+    "type": "multiple_choice",
+    "options": ["Facts are longer", "Facts can be proven, opinions are beliefs", "Opinions are always wrong", "Facts are more interesting"],
+    "correct_answer": "Facts can be proven, opinions are beliefs",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "medium",
+    "explanation": "Facts are statements that can be proven true or false; opinions are personal beliefs."
+  },
+  {
+    "_id": "medium5_eng_004",
+    "content": "Which word is a preposition?",
+    "type": "multiple_choice",
+    "options": ["quickly", "under", "happy", "jumped"],
+    "correct_answer": "under",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "medium",
+    "explanation": "Prepositions show relationships between words, often indicating location or direction."
+  },
+  {
+    "_id": "medium5_eng_005",
+    "content": "What is the climax of a story?",
+    "type": "multiple_choice",
+    "options": ["The beginning", "The most exciting part", "The ending", "The setting"],
+    "correct_answer": "The most exciting part",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "medium",
+    "explanation": "The climax is the most exciting or intense moment in a story."
+  },
+  {
+    "_id": "medium5_eng_006",
+    "content": "Which sentence has correct comma usage?",
+    "type": "multiple_choice",
+    "options": ["Yes I will come", "Yes, I will come", "Yes I, will come", "Yes I will, come"],
+    "correct_answer": "Yes, I will come",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "medium",
+    "explanation": "Use a comma after introductory words like 'yes', 'no', or 'well'."
+  },
+  {
+    "_id": "medium5_eng_007",
+    "content": "What does it mean to 'infer' something from a text?",
+    "type": "multiple_choice",
+    "options": ["To read it out loud", "To figure out something not directly stated", "To copy it exactly", "To disagree with it"],
+    "correct_answer": "To figure out something not directly stated",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "medium",
+    "explanation": "Inferring means using clues in the text to understand something the author didn't directly say."
+  },
+  {
+    "_id": "medium5_eng_008",
+    "content": "Which is an example of personification?",
+    "type": "multiple_choice",
+    "options": ["The sun smiled down", "She's as brave as a lion", "He runs like lightning", "The book is interesting"],
+    "correct_answer": "The sun smiled down",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "medium",
+    "explanation": "Personification gives human qualities (smiling) to non-human things (the sun)."
+  },
+  {
+    "_id": "medium5_eng_009",
+    "content": "What is a compound word?",
+    "type": "multiple_choice",
+    "options": ["A very long word", "Two words joined to make one", "A word with many syllables", "A word that rhymes"],
+    "correct_answer": "Two words joined to make one",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "medium",
+    "explanation": "Compound words are made by joining two smaller words, like 'sunshine' or 'baseball'."
+  },
+  {
+    "_id": "medium5_eng_010",
+    "content": "Which sentence is a complex sentence?",
+    "type": "multiple_choice",
+    "options": ["I like pizza.", "I like pizza and pasta.", "Because I was hungry, I ate pizza.", "I like pizza; it's delicious."],
+    "correct_answer": "Because I was hungry, I ate pizza.",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "medium",
+    "explanation": "A complex sentence has one main clause and one dependent clause that starts with words like 'because'."
   }
 ]

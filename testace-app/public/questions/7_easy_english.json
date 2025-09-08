@@ -318,5 +318,115 @@
     "grade": 7,
     "difficulty": "easy",
     "explanation": "This evaluates key English skills"
+  },
+  {
+    "_id": "easy7_eng_001",
+    "content": "What is the predicate of this sentence: 'The dog barked loudly'?",
+    "type": "multiple_choice",
+    "options": ["The dog", "barked loudly", "dog", "loudly"],
+    "correct_answer": "barked loudly",
+    "subject": "English",
+    "grade": 7,
+    "difficulty": "easy",
+    "explanation": "The predicate tells what the subject does - 'barked loudly'."
+  },
+  {
+    "_id": "easy7_eng_002",
+    "content": "Which word is spelled correctly?",
+    "type": "multiple_choice",
+    "options": ["recieve", "receive", "receve", "receeve"],
+    "correct_answer": "receive",
+    "subject": "English",
+    "grade": 7,
+    "difficulty": "easy",
+    "explanation": "The correct spelling follows 'i before e except after c'."
+  },
+  {
+    "_id": "easy7_eng_003",
+    "content": "What type of word is 'slowly'?",
+    "type": "multiple_choice",
+    "options": ["noun", "verb", "adjective", "adverb"],
+    "correct_answer": "adverb",
+    "subject": "English",
+    "grade": 7,
+    "difficulty": "easy",
+    "explanation": "Slowly is an adverb because it describes how an action is performed."
+  },
+  {
+    "_id": "easy7_eng_004",
+    "content": "Which sentence uses correct punctuation?",
+    "type": "multiple_choice",
+    "options": ["What time is it.", "What time is it?", "what time is it?", "What time is it,"],
+    "correct_answer": "What time is it?",
+    "subject": "English",
+    "grade": 7,
+    "difficulty": "easy",
+    "explanation": "Questions should start with capital letters and end with question marks."
+  },
+  {
+    "_id": "easy7_eng_005",
+    "content": "What is the plural of 'mouse'?",
+    "type": "multiple_choice",
+    "options": ["mouses", "mice", "mouse", "meese"],
+    "correct_answer": "mice",
+    "subject": "English",
+    "grade": 7,
+    "difficulty": "easy",
+    "explanation": "Mice is the irregular plural form of mouse."
+  },
+  {
+    "_id": "easy7_eng_006",
+    "content": "Which word is a verb?",
+    "type": "multiple_choice",
+    "options": ["happiness", "beautiful", "jump", "quickly"],
+    "correct_answer": "jump",
+    "subject": "English",
+    "grade": 7,
+    "difficulty": "easy",
+    "explanation": "A verb shows action or state of being - 'jump' shows action."
+  },
+  {
+    "_id": "easy7_eng_007",
+    "content": "What is a synonym for 'fast'?",
+    "type": "multiple_choice",
+    "options": ["slow", "quick", "heavy", "loud"],
+    "correct_answer": "quick",
+    "subject": "English",
+    "grade": 7,
+    "difficulty": "easy",
+    "explanation": "Quick means the same as fast - both indicate speed."
+  },
+  {
+    "_id": "easy7_eng_008",
+    "content": "Which sentence is written in past tense?",
+    "type": "multiple_choice",
+    "options": ["I will go tomorrow", "I am going now", "I went yesterday", "I go every day"],
+    "correct_answer": "I went yesterday",
+    "subject": "English",
+    "grade": 7,
+    "difficulty": "easy",
+    "explanation": "'Went' is past tense, and 'yesterday' indicates past time."
+  },
+  {
+    "_id": "easy7_eng_009",
+    "content": "What is the correct contraction for 'do not'?",
+    "type": "multiple_choice",
+    "options": ["dont", "don't", "do'nt", "dont'"],
+    "correct_answer": "don't",
+    "subject": "English",
+    "grade": 7,
+    "difficulty": "easy",
+    "explanation": "The apostrophe replaces the missing 'o' in 'do not'."
+  },
+  {
+    "_id": "easy7_eng_010",
+    "content": "Which word is an antonym for 'hot'?",
+    "type": "multiple_choice",
+    "options": ["warm", "cold", "cool", "freezing"],
+    "correct_answer": "cold",
+    "subject": "English",
+    "grade": 7,
+    "difficulty": "easy",
+    "explanation": "Cold is the direct opposite of hot."
   }
 ]

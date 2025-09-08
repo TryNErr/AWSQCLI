@@ -318,5 +318,115 @@
     "grade": 10,
     "difficulty": "easy",
     "explanation": "This evaluates key English skills"
+  },
+  {
+    "_id": "easy10_eng_001",
+    "content": "What is the main idea of a paragraph?",
+    "type": "multiple_choice",
+    "options": ["The first sentence", "The central point being made", "The longest sentence", "The final sentence"],
+    "correct_answer": "The central point being made",
+    "subject": "English",
+    "grade": 10,
+    "difficulty": "easy",
+    "explanation": "The main idea is the central point or message of a paragraph."
+  },
+  {
+    "_id": "easy10_eng_002",
+    "content": "Which is an example of personification?",
+    "type": "multiple_choice",
+    "options": ["The wind whispered through the trees", "She's as quiet as a mouse", "Time is money", "Peter Piper picked peppers"],
+    "correct_answer": "The wind whispered through the trees",
+    "subject": "English",
+    "grade": 10,
+    "difficulty": "easy",
+    "explanation": "Personification gives human qualities to non-human things."
+  },
+  {
+    "_id": "easy10_eng_003",
+    "content": "What is a metaphor?",
+    "type": "multiple_choice",
+    "options": ["A comparison using 'like' or 'as'", "A direct comparison without 'like' or 'as'", "An exaggeration", "A sound effect"],
+    "correct_answer": "A direct comparison without 'like' or 'as'",
+    "subject": "English",
+    "grade": 10,
+    "difficulty": "easy",
+    "explanation": "A metaphor makes a direct comparison between two unlike things."
+  },
+  {
+    "_id": "easy10_eng_004",
+    "content": "What is the purpose of a conclusion paragraph?",
+    "type": "multiple_choice",
+    "options": ["To introduce new ideas", "To restate the thesis and summarize", "To ask questions", "To provide evidence"],
+    "correct_answer": "To restate the thesis and summarize",
+    "subject": "English",
+    "grade": 10,
+    "difficulty": "easy",
+    "explanation": "A conclusion restates the thesis and summarizes main points."
+  },
+  {
+    "_id": "easy10_eng_005",
+    "content": "Which sentence has correct subject-verb agreement?",
+    "type": "multiple_choice",
+    "options": ["The dogs runs fast", "The dog run fast", "The dogs run fast", "The dog are running"],
+    "correct_answer": "The dogs run fast",
+    "subject": "English",
+    "grade": 10,
+    "difficulty": "easy",
+    "explanation": "Plural subject 'dogs' requires plural verb 'run'."
+  },
+  {
+    "_id": "easy10_eng_006",
+    "content": "What is irony?",
+    "type": "multiple_choice",
+    "options": ["When something happens as expected", "When the opposite of what's expected occurs", "A type of rhyme", "A character trait"],
+    "correct_answer": "When the opposite of what's expected occurs",
+    "subject": "English",
+    "grade": 10,
+    "difficulty": "easy",
+    "explanation": "Irony occurs when reality differs from expectation."
+  },
+  {
+    "_id": "easy10_eng_007",
+    "content": "What is the correct way to punctuate dialogue?",
+    "type": "multiple_choice",
+    "options": ["\"Hello, she said.\"", "\"Hello,\" she said.", "\"Hello\" she said.", "Hello, she said."],
+    "correct_answer": "\"Hello,\" she said.",
+    "subject": "English",
+    "grade": 10,
+    "difficulty": "easy",
+    "explanation": "Dialogue should be enclosed in quotation marks with proper punctuation."
+  },
+  {
+    "_id": "easy10_eng_008",
+    "content": "What is a simile?",
+    "type": "multiple_choice",
+    "options": ["A direct comparison", "A comparison using 'like' or 'as'", "An exaggeration", "A repetition of sounds"],
+    "correct_answer": "A comparison using 'like' or 'as'",
+    "subject": "English",
+    "grade": 10,
+    "difficulty": "easy",
+    "explanation": "A simile compares two things using 'like' or 'as'."
+  },
+  {
+    "_id": "easy10_eng_009",
+    "content": "What is the difference between 'your' and 'you're'?",
+    "type": "multiple_choice",
+    "options": ["No difference", "'Your' shows possession, 'you're' means 'you are'", "'You're' shows possession, 'your' means 'you are'", "They're both contractions"],
+    "correct_answer": "'Your' shows possession, 'you're' means 'you are'",
+    "subject": "English",
+    "grade": 10,
+    "difficulty": "easy",
+    "explanation": "'Your' is possessive; 'you're' is a contraction of 'you are'."
+  },
+  {
+    "_id": "easy10_eng_010",
+    "content": "What is alliteration?",
+    "type": "multiple_choice",
+    "options": ["Rhyming words", "Repetition of beginning consonant sounds", "Repetition of ending sounds", "Using big words"],
+    "correct_answer": "Repetition of beginning consonant sounds",
+    "subject": "English",
+    "grade": 10,
+    "difficulty": "easy",
+    "explanation": "Alliteration repeats initial consonant sounds in nearby words."
   }
 ]

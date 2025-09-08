@@ -538,5 +538,115 @@
     "grade": 4,
     "difficulty": "easy",
     "explanation": "854 - 567 = 287"
+  },
+  {
+    "_id": "easy4_math_001",
+    "content": "What is 456 + 278?",
+    "type": "multiple_choice",
+    "options": ["724", "734", "744", "754"],
+    "correct_answer": "734",
+    "subject": "Mathematics",
+    "grade": 4,
+    "difficulty": "easy",
+    "explanation": "456 + 278 = 734"
+  },
+  {
+    "_id": "easy4_math_002",
+    "content": "What is 8 × 7?",
+    "type": "multiple_choice",
+    "options": ["54", "56", "64", "48"],
+    "correct_answer": "56",
+    "subject": "Mathematics",
+    "grade": 4,
+    "difficulty": "easy",
+    "explanation": "8 × 7 = 56"
+  },
+  {
+    "_id": "easy4_math_003",
+    "content": "What is 72 ÷ 9?",
+    "type": "multiple_choice",
+    "options": ["7", "8", "9", "6"],
+    "correct_answer": "8",
+    "subject": "Mathematics",
+    "grade": 4,
+    "difficulty": "easy",
+    "explanation": "72 ÷ 9 = 8"
+  },
+  {
+    "_id": "easy4_math_004",
+    "content": "Round 347 to the nearest hundred.",
+    "type": "multiple_choice",
+    "options": ["300", "350", "400", "340"],
+    "correct_answer": "300",
+    "subject": "Mathematics",
+    "grade": 4,
+    "difficulty": "easy",
+    "explanation": "347 is closer to 300 than to 400"
+  },
+  {
+    "_id": "easy4_math_005",
+    "content": "What is 1/2 + 1/4?",
+    "type": "multiple_choice",
+    "options": ["2/6", "3/4", "1/6", "2/4"],
+    "correct_answer": "3/4",
+    "subject": "Mathematics",
+    "grade": 4,
+    "difficulty": "easy",
+    "explanation": "1/2 + 1/4 = 2/4 + 1/4 = 3/4"
+  },
+  {
+    "_id": "easy4_math_006",
+    "content": "What is the area of a rectangle with length 6 and width 4?",
+    "type": "multiple_choice",
+    "options": ["20", "24", "10", "14"],
+    "correct_answer": "24",
+    "subject": "Mathematics",
+    "grade": 4,
+    "difficulty": "easy",
+    "explanation": "Area = length × width = 6 × 4 = 24"
+  },
+  {
+    "_id": "easy4_math_007",
+    "content": "What is 3.2 + 1.5?",
+    "type": "multiple_choice",
+    "options": ["4.7", "4.5", "5.7", "3.7"],
+    "correct_answer": "4.7",
+    "subject": "Mathematics",
+    "grade": 4,
+    "difficulty": "easy",
+    "explanation": "3.2 + 1.5 = 4.7"
+  },
+  {
+    "_id": "easy4_math_008",
+    "content": "How many sides does a pentagon have?",
+    "type": "multiple_choice",
+    "options": ["4", "5", "6", "7"],
+    "correct_answer": "5",
+    "subject": "Mathematics",
+    "grade": 4,
+    "difficulty": "easy",
+    "explanation": "A pentagon has 5 sides"
+  },
+  {
+    "_id": "easy4_math_009",
+    "content": "What is 6.8 - 2.3?",
+    "type": "multiple_choice",
+    "options": ["4.5", "4.6", "3.5", "5.1"],
+    "correct_answer": "4.5",
+    "subject": "Mathematics",
+    "grade": 4,
+    "difficulty": "easy",
+    "explanation": "6.8 - 2.3 = 4.5"
+  },
+  {
+    "_id": "easy4_math_010",
+    "content": "What is 12 × 6?",
+    "type": "multiple_choice",
+    "options": ["72", "68", "76", "64"],
+    "correct_answer": "72",
+    "subject": "Mathematics",
+    "grade": 4,
+    "difficulty": "easy",
+    "explanation": "12 × 6 = 72"
   }
 ]

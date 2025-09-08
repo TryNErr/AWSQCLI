@@ -318,5 +318,115 @@
     "grade": 6,
     "difficulty": "hard",
     "explanation": "London is a specific place name, so it's a proper noun"
+  },
+  {
+    "_id": "hard6_eng_001",
+    "content": "What is the difference between a complex sentence and a compound sentence?",
+    "type": "multiple_choice",
+    "options": ["Complex has one independent and one dependent clause; compound has two independent clauses", "They are the same thing", "Complex is longer than compound", "Compound uses more commas"],
+    "correct_answer": "Complex has one independent and one dependent clause; compound has two independent clauses",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "hard",
+    "explanation": "Complex sentences combine independent and dependent clauses; compound sentences join two independent clauses."
+  },
+  {
+    "_id": "hard6_eng_002",
+    "content": "Which sentence uses a metaphor?",
+    "type": "multiple_choice",
+    "options": ["She runs like the wind", "Her voice is music to my ears", "The dog barked loudly", "He is as tall as a tree"],
+    "correct_answer": "Her voice is music to my ears",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "hard",
+    "explanation": "A metaphor directly compares two things without using 'like' or 'as' - her voice IS music."
+  },
+  {
+    "_id": "hard6_eng_003",
+    "content": "What is the purpose of using dialogue in a story?",
+    "type": "multiple_choice",
+    "options": ["To make the story longer", "To reveal character traits and advance the plot", "To confuse the reader", "To show off punctuation skills"],
+    "correct_answer": "To reveal character traits and advance the plot",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "hard",
+    "explanation": "Dialogue reveals how characters think, feel, and speak while moving the story forward."
+  },
+  {
+    "_id": "hard6_eng_004",
+    "content": "Which sentence correctly uses a semicolon?",
+    "type": "multiple_choice",
+    "options": ["I like pizza; and pasta too", "The rain stopped; we went outside", "She studied hard; because she wanted good grades", "We went shopping; to buy groceries"],
+    "correct_answer": "The rain stopped; we went outside",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "hard",
+    "explanation": "Semicolons connect two complete, related thoughts that could stand alone as sentences."
+  },
+  {
+    "_id": "hard6_eng_005",
+    "content": "What is the climax of a story?",
+    "type": "multiple_choice",
+    "options": ["The beginning where characters are introduced", "The turning point where the main conflict reaches its peak", "The ending where problems are solved", "The middle where nothing important happens"],
+    "correct_answer": "The turning point where the main conflict reaches its peak",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "hard",
+    "explanation": "The climax is the most intense moment when the main conflict reaches its highest point of tension."
+  },
+  {
+    "_id": "hard6_eng_006",
+    "content": "Which word is an example of onomatopoeia?",
+    "type": "multiple_choice",
+    "options": ["beautiful", "crash", "happiness", "running"],
+    "correct_answer": "crash",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "hard",
+    "explanation": "Onomatopoeia words imitate the sound they represent - 'crash' sounds like the noise it describes."
+  },
+  {
+    "_id": "hard6_eng_007",
+    "content": "What is the difference between first-person and third-person point of view?",
+    "type": "multiple_choice",
+    "options": ["First-person uses 'I'; third-person uses 'he/she'", "They are the same", "First-person is always better", "Third-person uses 'you'"],
+    "correct_answer": "First-person uses 'I'; third-person uses 'he/she'",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "hard",
+    "explanation": "First-person narration uses 'I' and tells the story from inside; third-person uses 'he/she' and tells from outside."
+  },
+  {
+    "_id": "hard6_eng_008",
+    "content": "What is irony?",
+    "type": "multiple_choice",
+    "options": ["When something is very funny", "When the opposite of what's expected happens", "When characters are angry", "When stories are sad"],
+    "correct_answer": "When the opposite of what's expected happens",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "hard",
+    "explanation": "Irony occurs when there's a contrast between expectation and reality - the opposite of what you'd expect happens."
+  },
+  {
+    "_id": "hard6_eng_009",
+    "content": "Which sentence uses correct parallel structure?",
+    "type": "multiple_choice",
+    "options": ["She likes reading, writing, and to paint", "She likes reading, writing, and painting", "She likes to read, writing, and paint", "She likes reading, to write, and painting"],
+    "correct_answer": "She likes reading, writing, and painting",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "hard",
+    "explanation": "Parallel structure uses the same grammatical form for items in a series - all gerunds ending in -ing."
+  },
+  {
+    "_id": "hard6_eng_010",
+    "content": "What is the resolution of a story?",
+    "type": "multiple_choice",
+    "options": ["The most exciting part", "The part where conflicts are resolved and loose ends are tied up", "The beginning", "The part with the most action"],
+    "correct_answer": "The part where conflicts are resolved and loose ends are tied up",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "hard",
+    "explanation": "The resolution (or denouement) is where the story's conflicts are resolved and questions are answered."
   }
 ]

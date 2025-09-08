@@ -638,5 +638,115 @@
     "grade": 1,
     "difficulty": "easy",
     "explanation": "8 - 3 = 5"
+  },
+  {
+    "_id": "hard7_math_001",
+    "content": "Solve: x² - 5x + 6 = 0",
+    "type": "multiple_choice",
+    "options": ["x = 2, 3", "x = 1, 6", "x = -2, -3", "x = 5, 1"],
+    "correct_answer": "x = 2, 3",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "Factor: (x - 2)(x - 3) = 0, so x = 2 or x = 3"
+  },
+  {
+    "_id": "hard7_math_002",
+    "content": "What is the distance between points (1, 4) and (5, 7)?",
+    "type": "multiple_choice",
+    "options": ["5", "7", "√7", "√25"],
+    "correct_answer": "5",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "d = √[(5-1)² + (7-4)²] = √[16 + 9] = √25 = 5"
+  },
+  {
+    "_id": "hard7_math_003",
+    "content": "Simplify: (2x + 3)(x - 1)",
+    "type": "multiple_choice",
+    "options": ["2x² + x - 3", "2x² - 2x + 3x - 3", "2x² + x - 3", "2x² - x + 3"],
+    "correct_answer": "2x² + x - 3",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "(2x + 3)(x - 1) = 2x² - 2x + 3x - 3 = 2x² + x - 3"
+  },
+  {
+    "_id": "hard7_math_004",
+    "content": "What is the equation of the line with slope -2 passing through (3, 1)?",
+    "type": "multiple_choice",
+    "options": ["y = -2x + 7", "y = -2x - 5", "y = 2x - 5", "y = -2x + 1"],
+    "correct_answer": "y = -2x + 7",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "Using point-slope: y - 1 = -2(x - 3) → y = -2x + 7"
+  },
+  {
+    "_id": "hard7_math_005",
+    "content": "Solve the system: 2x + y = 7, x - y = 2",
+    "type": "multiple_choice",
+    "options": ["x = 3, y = 1", "x = 2, y = 3", "x = 1, y = 5", "x = 4, y = -1"],
+    "correct_answer": "x = 3, y = 1",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "Adding equations: 3x = 9, so x = 3. Substituting: 3 - y = 2, so y = 1"
+  },
+  {
+    "_id": "hard7_math_006",
+    "content": "What is 3⁴?",
+    "type": "multiple_choice",
+    "options": ["12", "27", "64", "81"],
+    "correct_answer": "81",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "3⁴ = 3 × 3 × 3 × 3 = 81"
+  },
+  {
+    "_id": "hard7_math_007",
+    "content": "What is the surface area of a cube with side length 3?",
+    "type": "multiple_choice",
+    "options": ["18", "27", "54", "36"],
+    "correct_answer": "54",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "Surface area = 6 × side² = 6 × 3² = 6 × 9 = 54"
+  },
+  {
+    "_id": "hard7_math_008",
+    "content": "Simplify: √(144)",
+    "type": "multiple_choice",
+    "options": ["11", "12", "13", "14"],
+    "correct_answer": "12",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "√144 = 12 because 12² = 144"
+  },
+  {
+    "_id": "hard7_math_009",
+    "content": "What is the y-intercept of 3x + 2y = 8?",
+    "type": "multiple_choice",
+    "options": ["2", "3", "4", "8"],
+    "correct_answer": "4",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "When x = 0: 2y = 8, so y = 4"
+  },
+  {
+    "_id": "hard7_math_010",
+    "content": "Factor: x² - 9",
+    "type": "multiple_choice",
+    "options": ["(x - 3)(x - 3)", "(x + 3)(x + 3)", "(x - 3)(x + 3)", "(x - 9)(x + 1)"],
+    "correct_answer": "(x - 3)(x + 3)",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "hard",
+    "explanation": "x² - 9 is a difference of squares: x² - 3² = (x - 3)(x + 3)"
   }
 ]

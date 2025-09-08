@@ -318,5 +318,115 @@
     "grade": 4,
     "difficulty": "hard",
     "explanation": "This evaluates key English skills"
+  },
+  {
+    "_id": "hard4_eng_001",
+    "content": "What is the difference between fiction and nonfiction?",
+    "type": "multiple_choice",
+    "options": ["Fiction is true stories; nonfiction is made-up stories", "Fiction is made-up stories; nonfiction is true stories", "They are the same thing", "Fiction is always longer"],
+    "correct_answer": "Fiction is made-up stories; nonfiction is true stories",
+    "subject": "English",
+    "grade": 4,
+    "difficulty": "hard",
+    "explanation": "Fiction stories are imaginary or made-up, while nonfiction tells about real people, places, and events."
+  },
+  {
+    "_id": "hard4_eng_002",
+    "content": "Which sentence uses a simile?",
+    "type": "multiple_choice",
+    "options": ["The stars are diamonds", "She runs like the wind", "The wind whispered", "Time flies"],
+    "correct_answer": "She runs like the wind",
+    "subject": "English",
+    "grade": 4,
+    "difficulty": "hard",
+    "explanation": "A simile compares two things using 'like' or 'as' - comparing her running to the wind using 'like'."
+  },
+  {
+    "_id": "hard4_eng_003",
+    "content": "What is the purpose of a conclusion in a story or essay?",
+    "type": "multiple_choice",
+    "options": ["To start the story", "To wrap up the ideas and give a sense of ending", "To introduce new characters", "To ask questions"],
+    "correct_answer": "To wrap up the ideas and give a sense of ending",
+    "subject": "English",
+    "grade": 4,
+    "difficulty": "hard",
+    "explanation": "A conclusion brings the story or essay to a satisfying end by wrapping up the main ideas."
+  },
+  {
+    "_id": "hard4_eng_004",
+    "content": "Which word has a suffix that means 'full of'?",
+    "type": "multiple_choice",
+    "options": ["unhappy", "careful", "running", "biggest"],
+    "correct_answer": "careful",
+    "subject": "English",
+    "grade": 4,
+    "difficulty": "hard",
+    "explanation": "The suffix '-ful' means 'full of', so 'careful' means 'full of care'."
+  },
+  {
+    "_id": "hard4_eng_005",
+    "content": "What is the difference between a character's thoughts and a character's actions?",
+    "type": "multiple_choice",
+    "options": ["They are the same thing", "Thoughts are what they think; actions are what they do", "Actions are always more important", "Thoughts are always spoken out loud"],
+    "correct_answer": "Thoughts are what they think; actions are what they do",
+    "subject": "English",
+    "grade": 4,
+    "difficulty": "hard",
+    "explanation": "Thoughts happen inside a character's mind, while actions are the things they actually do."
+  },
+  {
+    "_id": "hard4_eng_006",
+    "content": "Which sentence shows the correct way to write a book title?",
+    "type": "multiple_choice",
+    "options": ["I read the book charlotte's web", "I read the book \"Charlotte's Web\"", "I read the book Charlotte's Web", "I read the book CHARLOTTE'S WEB"],
+    "correct_answer": "I read the book Charlotte's Web",
+    "subject": "English",
+    "grade": 4,
+    "difficulty": "hard",
+    "explanation": "Book titles should be underlined or italicized, and important words should be capitalized."
+  },
+  {
+    "_id": "hard4_eng_007",
+    "content": "What does it mean to 'infer' something from a story?",
+    "type": "multiple_choice",
+    "options": ["To read it out loud", "To figure out something the author didn't directly say", "To copy the words exactly", "To disagree with the story"],
+    "correct_answer": "To figure out something the author didn't directly say",
+    "subject": "English",
+    "grade": 4,
+    "difficulty": "hard",
+    "explanation": "Inferring means using clues in the story to understand something the author didn't directly tell you."
+  },
+  {
+    "_id": "hard4_eng_008",
+    "content": "Which sentence uses correct punctuation for a series?",
+    "type": "multiple_choice",
+    "options": ["I like apples oranges and bananas", "I like apples, oranges and bananas", "I like apples, oranges, and bananas", "I like, apples, oranges, and bananas"],
+    "correct_answer": "I like apples, oranges, and bananas",
+    "subject": "English",
+    "grade": 4,
+    "difficulty": "hard",
+    "explanation": "Items in a series should be separated by commas, including a comma before 'and'."
+  },
+  {
+    "_id": "hard4_eng_009",
+    "content": "What is the problem in a story called?",
+    "type": "multiple_choice",
+    "options": ["setting", "character", "conflict", "theme"],
+    "correct_answer": "conflict",
+    "subject": "English",
+    "grade": 4,
+    "difficulty": "hard",
+    "explanation": "The conflict is the main problem or struggle that the characters face in a story."
+  },
+  {
+    "_id": "hard4_eng_010",
+    "content": "Which sentence uses a possessive noun correctly?",
+    "type": "multiple_choice",
+    "options": ["The dogs bone is buried", "The dog's bone is buried", "The dogs' bone is buried", "The dogs bone's is buried"],
+    "correct_answer": "The dog's bone is buried",
+    "subject": "English",
+    "grade": 4,
+    "difficulty": "hard",
+    "explanation": "For a singular noun like 'dog', add an apostrophe and 's' to show possession."
   }
 ]

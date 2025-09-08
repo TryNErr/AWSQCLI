@@ -318,5 +318,115 @@
     "grade": 6,
     "difficulty": "medium",
     "explanation": "London is a specific place name, so it's a proper noun"
+  },
+  {
+    "_id": "medium6_eng_001",
+    "content": "What is the difference between a simile and a metaphor?",
+    "type": "multiple_choice",
+    "options": ["Similes are longer than metaphors", "Similes use 'like' or 'as', metaphors don't", "Metaphors use 'like' or 'as', similes don't", "There is no difference"],
+    "correct_answer": "Similes use 'like' or 'as', metaphors don't",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "Similes make comparisons using 'like' or 'as'; metaphors make direct comparisons."
+  },
+  {
+    "_id": "medium6_eng_002",
+    "content": "Which sentence has correct subject-verb agreement?",
+    "type": "multiple_choice",
+    "options": ["The dogs runs fast", "The dog run fast", "The dogs run fast", "The dog are running"],
+    "correct_answer": "The dogs run fast",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "Plural subject 'dogs' requires plural verb 'run'."
+  },
+  {
+    "_id": "medium6_eng_003",
+    "content": "What is the main idea of a paragraph?",
+    "type": "multiple_choice",
+    "options": ["The first sentence", "The most important point being made", "The longest sentence", "The last sentence"],
+    "correct_answer": "The most important point being made",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "The main idea is the central point or most important message of the paragraph."
+  },
+  {
+    "_id": "medium6_eng_004",
+    "content": "Which word is a conjunction?",
+    "type": "multiple_choice",
+    "options": ["quickly", "and", "beautiful", "running"],
+    "correct_answer": "and",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "Conjunctions connect words, phrases, or clauses. 'And' is a coordinating conjunction."
+  },
+  {
+    "_id": "medium6_eng_005",
+    "content": "What is personification?",
+    "type": "multiple_choice",
+    "options": ["Comparing with 'like' or 'as'", "Giving human qualities to non-human things", "Exaggerating", "Rhyming words"],
+    "correct_answer": "Giving human qualities to non-human things",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "Personification gives human characteristics to animals, objects, or ideas."
+  },
+  {
+    "_id": "medium6_eng_006",
+    "content": "Which sentence uses correct punctuation?",
+    "type": "multiple_choice",
+    "options": ["I need milk, bread and eggs", "I need milk, bread, and eggs", "I need milk bread and eggs", "I need, milk, bread, and eggs"],
+    "correct_answer": "I need milk, bread, and eggs",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "Items in a series should be separated by commas, including before 'and'."
+  },
+  {
+    "_id": "medium6_eng_007",
+    "content": "What is the setting of a story?",
+    "type": "multiple_choice",
+    "options": ["The main character", "When and where the story takes place", "The problem in the story", "The ending"],
+    "correct_answer": "When and where the story takes place",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "Setting includes both the time and place where the story occurs."
+  },
+  {
+    "_id": "medium6_eng_008",
+    "content": "Which is an example of alliteration?",
+    "type": "multiple_choice",
+    "options": ["Busy as a bee", "Peter Piper picked peppers", "Time flies", "It's raining cats and dogs"],
+    "correct_answer": "Peter Piper picked peppers",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "Alliteration repeats the same beginning consonant sound - the 'P' sound."
+  },
+  {
+    "_id": "medium6_eng_009",
+    "content": "What is a compound sentence?",
+    "type": "multiple_choice",
+    "options": ["A very long sentence", "Two complete sentences joined together", "A sentence with big words", "A sentence that asks a question"],
+    "correct_answer": "Two complete sentences joined together",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "A compound sentence joins two independent clauses with a conjunction."
+  },
+  {
+    "_id": "medium6_eng_010",
+    "content": "Which word is an antonym for 'brave'?",
+    "type": "multiple_choice",
+    "options": ["courageous", "fearless", "cowardly", "bold"],
+    "correct_answer": "cowardly",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "medium",
+    "explanation": "Cowardly is the opposite of brave - an antonym has the opposite meaning."
   }
 ]

@@ -318,5 +318,115 @@
     "grade": 3,
     "difficulty": "hard",
     "explanation": "This evaluates key English skills"
+  },
+  {
+    "_id": "hard3_eng_001",
+    "content": "What is the difference between a fact and an opinion?",
+    "type": "multiple_choice",
+    "options": ["Facts are longer than opinions", "Facts can be proven true; opinions are what someone thinks or feels", "Opinions are always right", "Facts are always more interesting"],
+    "correct_answer": "Facts can be proven true; opinions are what someone thinks or feels",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "hard",
+    "explanation": "Facts are statements that can be proven true or false, while opinions are personal thoughts or feelings."
+  },
+  {
+    "_id": "hard3_eng_002",
+    "content": "Which sentence uses quotation marks correctly?",
+    "type": "multiple_choice",
+    "options": ["\"Hello, said Mary.\"", "\"Hello,\" said Mary.", "\"Hello\" said Mary.", "Hello, said Mary."],
+    "correct_answer": "\"Hello,\" said Mary.",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "hard",
+    "explanation": "Quotation marks go around the exact words someone says, with punctuation inside the quotes."
+  },
+  {
+    "_id": "hard3_eng_003",
+    "content": "What is the main idea of a paragraph?",
+    "type": "multiple_choice",
+    "options": ["The first sentence", "What the paragraph is mostly about", "The longest sentence", "The last sentence"],
+    "correct_answer": "What the paragraph is mostly about",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "hard",
+    "explanation": "The main idea is the most important point or what the paragraph is mainly telling you about."
+  },
+  {
+    "_id": "hard3_eng_004",
+    "content": "Which word is a contraction?",
+    "type": "multiple_choice",
+    "options": ["cannot", "can't", "running", "happy"],
+    "correct_answer": "can't",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "hard",
+    "explanation": "A contraction combines two words with an apostrophe - 'can't' is short for 'cannot'."
+  },
+  {
+    "_id": "hard3_eng_005",
+    "content": "What does the prefix 'un-' mean?",
+    "type": "multiple_choice",
+    "options": ["very", "not", "again", "before"],
+    "correct_answer": "not",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "hard",
+    "explanation": "The prefix 'un-' means 'not' - so 'unhappy' means 'not happy'."
+  },
+  {
+    "_id": "hard3_eng_006",
+    "content": "Which sentence has the correct capitalization?",
+    "type": "multiple_choice",
+    "options": ["we went to disney world in florida", "We went to Disney World in Florida", "we went to Disney world in florida", "We went to disney World in Florida"],
+    "correct_answer": "We went to Disney World in Florida",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "hard",
+    "explanation": "Sentences start with capital letters, and proper nouns (names of specific places) are capitalized."
+  },
+  {
+    "_id": "hard3_eng_007",
+    "content": "What is the setting of a story?",
+    "type": "multiple_choice",
+    "options": ["Who the story is about", "When and where the story happens", "What happens in the story", "How the story ends"],
+    "correct_answer": "When and where the story happens",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "hard",
+    "explanation": "Setting tells us the time (when) and place (where) the story takes place."
+  },
+  {
+    "_id": "hard3_eng_008",
+    "content": "Which word has a long vowel sound?",
+    "type": "multiple_choice",
+    "options": ["cat", "cake", "cap", "can"],
+    "correct_answer": "cake",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "hard",
+    "explanation": "Cake has a long 'a' sound because of the silent 'e' at the end that makes the vowel say its name."
+  },
+  {
+    "_id": "hard3_eng_009",
+    "content": "What does the suffix '-er' mean in the word 'teacher'?",
+    "type": "multiple_choice",
+    "options": ["more than", "one who does", "in the past", "very small"],
+    "correct_answer": "one who does",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "hard",
+    "explanation": "The suffix '-er' means 'one who does' - so a teacher is 'one who teaches'."
+  },
+  {
+    "_id": "hard3_eng_010",
+    "content": "Which sentence uses an adjective?",
+    "type": "multiple_choice",
+    "options": ["The dog ran.", "The big dog ran.", "The dog ran fast.", "The dog ran away."],
+    "correct_answer": "The big dog ran.",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "hard",
+    "explanation": "'Big' is an adjective because it describes the dog - it tells us what kind of dog."
   }
 ]

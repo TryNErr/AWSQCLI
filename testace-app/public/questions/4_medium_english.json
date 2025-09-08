@@ -318,5 +318,115 @@
     "grade": 4,
     "difficulty": "medium",
     "explanation": "This evaluates key English skills"
+  },
+  {
+    "_id": "medium4_eng_001",
+    "content": "What is the main idea of a story?",
+    "type": "multiple_choice",
+    "options": ["The first sentence", "What the story is mostly about", "The characters' names", "Where it takes place"],
+    "correct_answer": "What the story is mostly about",
+    "subject": "English",
+    "grade": 4,
+    "difficulty": "medium",
+    "explanation": "The main idea is the most important point or what the story is mainly about."
+  },
+  {
+    "_id": "medium4_eng_002",
+    "content": "Which sentence uses an adjective?",
+    "type": "multiple_choice",
+    "options": ["The dog ran.", "The big dog ran.", "The dog ran fast.", "The dog ran away."],
+    "correct_answer": "The big dog ran.",
+    "subject": "English",
+    "grade": 4,
+    "difficulty": "medium",
+    "explanation": "'Big' is an adjective because it describes the dog."
+  },
+  {
+    "_id": "medium4_eng_003",
+    "content": "What is a compound sentence?",
+    "type": "multiple_choice",
+    "options": ["A very long sentence", "Two sentences joined with 'and', 'but', or 'or'", "A sentence with big words", "A sentence that asks a question"],
+    "correct_answer": "Two sentences joined with 'and', 'but', or 'or'",
+    "subject": "English",
+    "grade": 4,
+    "difficulty": "medium",
+    "explanation": "A compound sentence joins two complete thoughts with connecting words."
+  },
+  {
+    "_id": "medium4_eng_004",
+    "content": "Which word has a prefix?",
+    "type": "multiple_choice",
+    "options": ["happy", "unhappy", "happiness", "happily"],
+    "correct_answer": "unhappy",
+    "subject": "English",
+    "grade": 4,
+    "difficulty": "medium",
+    "explanation": "'Un-' is a prefix added to the beginning of 'happy' to change its meaning."
+  },
+  {
+    "_id": "medium4_eng_005",
+    "content": "What is the setting of a story?",
+    "type": "multiple_choice",
+    "options": ["Who the story is about", "When and where the story happens", "What happens in the story", "Why the story was written"],
+    "correct_answer": "When and where the story happens",
+    "subject": "English",
+    "grade": 4,
+    "difficulty": "medium",
+    "explanation": "Setting tells us the time and place where the story occurs."
+  },
+  {
+    "_id": "medium4_eng_006",
+    "content": "Which sentence shows cause and effect?",
+    "type": "multiple_choice",
+    "options": ["The cat is black.", "Because it rained, the game was cancelled.", "I like ice cream.", "The book is on the table."],
+    "correct_answer": "Because it rained, the game was cancelled.",
+    "subject": "English",
+    "grade": 4,
+    "difficulty": "medium",
+    "explanation": "This shows cause (rain) and effect (game cancelled) with the word 'because'."
+  },
+  {
+    "_id": "medium4_eng_007",
+    "content": "What is a synonym for 'big'?",
+    "type": "multiple_choice",
+    "options": ["small", "large", "fast", "red"],
+    "correct_answer": "large",
+    "subject": "English",
+    "grade": 4,
+    "difficulty": "medium",
+    "explanation": "Large means the same as big - they are synonyms."
+  },
+  {
+    "_id": "medium4_eng_008",
+    "content": "Which sentence uses correct punctuation?",
+    "type": "multiple_choice",
+    "options": ["I like apples oranges and bananas", "I like apples, oranges, and bananas", "I like apples oranges, and bananas", "I like, apples oranges and bananas"],
+    "correct_answer": "I like apples, oranges, and bananas",
+    "subject": "English",
+    "grade": 4,
+    "difficulty": "medium",
+    "explanation": "Use commas to separate items in a list."
+  },
+  {
+    "_id": "medium4_eng_009",
+    "content": "What does the suffix '-ly' usually mean?",
+    "type": "multiple_choice",
+    "options": ["More than one", "In the past", "How something is done", "Very small"],
+    "correct_answer": "How something is done",
+    "subject": "English",
+    "grade": 4,
+    "difficulty": "medium",
+    "explanation": "The suffix '-ly' often tells how something is done, like 'quickly' or 'carefully'."
+  },
+  {
+    "_id": "medium4_eng_010",
+    "content": "Which is an example of alliteration?",
+    "type": "multiple_choice",
+    "options": ["The cat sat on the mat", "Big brown bears", "She runs fast", "I like pizza"],
+    "correct_answer": "Big brown bears",
+    "subject": "English",
+    "grade": 4,
+    "difficulty": "medium",
+    "explanation": "Alliteration repeats the same beginning sound - the 'b' sound in this example."
   }
 ]

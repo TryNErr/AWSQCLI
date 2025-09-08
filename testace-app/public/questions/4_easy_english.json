@@ -318,5 +318,115 @@
     "grade": 4,
     "difficulty": "easy",
     "explanation": "This evaluates key English skills"
+  },
+  {
+    "_id": "easy4_eng_001",
+    "content": "Which word rhymes with 'cat'?",
+    "type": "multiple_choice",
+    "options": ["dog", "hat", "run", "big"],
+    "correct_answer": "hat",
+    "subject": "English",
+    "grade": 4,
+    "difficulty": "easy",
+    "explanation": "Cat and hat both end with the same 'at' sound."
+  },
+  {
+    "_id": "easy4_eng_002",
+    "content": "What is a noun?",
+    "type": "multiple_choice",
+    "options": ["A word that shows action", "A word that names a person, place, or thing", "A word that describes", "A word that connects"],
+    "correct_answer": "A word that names a person, place, or thing",
+    "subject": "English",
+    "grade": 4,
+    "difficulty": "easy",
+    "explanation": "Nouns name people, places, things, or ideas."
+  },
+  {
+    "_id": "easy4_eng_003",
+    "content": "Which sentence uses correct punctuation?",
+    "type": "multiple_choice",
+    "options": ["Where are you going.", "Where are you going?", "where are you going?", "Where are you going,"],
+    "correct_answer": "Where are you going?",
+    "subject": "English",
+    "grade": 4,
+    "difficulty": "easy",
+    "explanation": "Questions start with capital letters and end with question marks."
+  },
+  {
+    "_id": "easy4_eng_004",
+    "content": "What is the opposite of 'big'?",
+    "type": "multiple_choice",
+    "options": ["huge", "small", "tall", "wide"],
+    "correct_answer": "small",
+    "subject": "English",
+    "grade": 4,
+    "difficulty": "easy",
+    "explanation": "Small is the opposite of big in size."
+  },
+  {
+    "_id": "easy4_eng_005",
+    "content": "Which word is a verb?",
+    "type": "multiple_choice",
+    "options": ["book", "red", "jump", "happy"],
+    "correct_answer": "jump",
+    "subject": "English",
+    "grade": 4,
+    "difficulty": "easy",
+    "explanation": "A verb shows action or what someone does. Jump is an action."
+  },
+  {
+    "_id": "easy4_eng_006",
+    "content": "How do you make 'child' plural?",
+    "type": "multiple_choice",
+    "options": ["childs", "children", "childes", "child"],
+    "correct_answer": "children",
+    "subject": "English",
+    "grade": 4,
+    "difficulty": "easy",
+    "explanation": "Children is the plural form of child."
+  },
+  {
+    "_id": "easy4_eng_007",
+    "content": "Which word describes how something is done?",
+    "type": "multiple_choice",
+    "options": ["slowly", "dog", "red", "table"],
+    "correct_answer": "slowly",
+    "subject": "English",
+    "grade": 4,
+    "difficulty": "easy",
+    "explanation": "Slowly is an adverb that describes how an action is done."
+  },
+  {
+    "_id": "easy4_eng_008",
+    "content": "What should you do at the beginning of a sentence?",
+    "type": "multiple_choice",
+    "options": ["Use a period", "Use a capital letter", "Use a comma", "Use a question mark"],
+    "correct_answer": "Use a capital letter",
+    "subject": "English",
+    "grade": 4,
+    "difficulty": "easy",
+    "explanation": "All sentences should start with a capital letter."
+  },
+  {
+    "_id": "easy4_eng_009",
+    "content": "Which word means the same as 'happy'?",
+    "type": "multiple_choice",
+    "options": ["sad", "glad", "angry", "tired"],
+    "correct_answer": "glad",
+    "subject": "English",
+    "grade": 4,
+    "difficulty": "easy",
+    "explanation": "Glad means the same as happy - both show positive feelings."
+  },
+  {
+    "_id": "easy4_eng_010",
+    "content": "What is the past tense of 'run'?",
+    "type": "multiple_choice",
+    "options": ["runned", "ran", "running", "runs"],
+    "correct_answer": "ran",
+    "subject": "English",
+    "grade": 4,
+    "difficulty": "easy",
+    "explanation": "The past tense of run is ran."
   }
 ]

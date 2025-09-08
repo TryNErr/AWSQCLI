@@ -538,5 +538,115 @@
     "grade": 5,
     "difficulty": "medium",
     "explanation": "180 ÷ 15 = 12"
+  },
+  {
+    "_id": "medium5_math_001",
+    "content": "What is 2/3 + 1/4?",
+    "type": "multiple_choice",
+    "options": ["3/7", "11/12", "3/12", "8/12"],
+    "correct_answer": "11/12",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "medium",
+    "explanation": "2/3 + 1/4 = 8/12 + 3/12 = 11/12"
+  },
+  {
+    "_id": "medium5_math_002",
+    "content": "Sarah has 24 stickers. She gives away 1/3 of them. How many stickers does she have left?",
+    "type": "multiple_choice",
+    "options": ["8", "12", "16", "18"],
+    "correct_answer": "16",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "medium",
+    "explanation": "1/3 of 24 = 8 stickers given away. 24 - 8 = 16 left"
+  },
+  {
+    "_id": "medium5_math_003",
+    "content": "What is 4.25 × 3?",
+    "type": "multiple_choice",
+    "options": ["12.75", "12.25", "13.75", "11.75"],
+    "correct_answer": "12.75",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "medium",
+    "explanation": "4.25 × 3 = 12.75"
+  },
+  {
+    "_id": "medium5_math_004",
+    "content": "What is the volume of a rectangular prism with length 4, width 3, and height 2?",
+    "type": "multiple_choice",
+    "options": ["18", "24", "9", "12"],
+    "correct_answer": "24",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "medium",
+    "explanation": "Volume = length × width × height = 4 × 3 × 2 = 24"
+  },
+  {
+    "_id": "medium5_math_005",
+    "content": "What is 5/8 - 1/4?",
+    "type": "multiple_choice",
+    "options": ["3/8", "4/4", "1/2", "1/4"],
+    "correct_answer": "3/8",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "medium",
+    "explanation": "5/8 - 1/4 = 5/8 - 2/8 = 3/8"
+  },
+  {
+    "_id": "medium5_math_006",
+    "content": "A pizza is cut into 8 equal slices. If Tom eats 3 slices, what fraction of the pizza did he eat?",
+    "type": "multiple_choice",
+    "options": ["3/8", "3/5", "5/8", "1/3"],
+    "correct_answer": "3/8",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "medium",
+    "explanation": "Tom ate 3 out of 8 slices = 3/8"
+  },
+  {
+    "_id": "medium5_math_007",
+    "content": "What is 6.8 ÷ 4?",
+    "type": "multiple_choice",
+    "options": ["1.7", "1.6", "2.7", "2.2"],
+    "correct_answer": "1.7",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "medium",
+    "explanation": "6.8 ÷ 4 = 1.7"
+  },
+  {
+    "_id": "medium5_math_008",
+    "content": "What is 40% of 75?",
+    "type": "multiple_choice",
+    "options": ["25", "30", "35", "40"],
+    "correct_answer": "30",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "medium",
+    "explanation": "40% of 75 = 0.40 × 75 = 30"
+  },
+  {
+    "_id": "medium5_math_009",
+    "content": "What is the area of a triangle with base 10 cm and height 8 cm?",
+    "type": "multiple_choice",
+    "options": ["40 cm²", "80 cm²", "18 cm²", "20 cm²"],
+    "correct_answer": "40 cm²",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "medium",
+    "explanation": "Area = (1/2) × base × height = (1/2) × 10 × 8 = 40 cm²"
+  },
+  {
+    "_id": "medium5_math_010",
+    "content": "Convert 3.6 to a mixed number.",
+    "type": "multiple_choice",
+    "options": ["3 3/5", "3 6/10", "3 3/10", "Both A and B"],
+    "correct_answer": "Both A and B",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "medium",
+    "explanation": "3.6 = 3 6/10 = 3 3/5 (simplified)"
   }
 ]

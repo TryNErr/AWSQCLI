@@ -638,5 +638,115 @@
     "grade": 1,
     "difficulty": "easy",
     "explanation": "8 - 3 = 5"
+  },
+  {
+    "_id": "medium7_math_001",
+    "content": "Solve: 3x - 7 = 2x + 5",
+    "type": "multiple_choice",
+    "options": ["x = 10", "x = 12", "x = 8", "x = 6"],
+    "correct_answer": "x = 12",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "medium",
+    "explanation": "3x - 7 = 2x + 5, so 3x - 2x = 5 + 7, x = 12"
+  },
+  {
+    "_id": "medium7_math_002",
+    "content": "What is 5/6 - 1/3?",
+    "type": "multiple_choice",
+    "options": ["1/2", "4/3", "2/3", "1/6"],
+    "correct_answer": "1/2",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "medium",
+    "explanation": "5/6 - 1/3 = 5/6 - 2/6 = 3/6 = 1/2"
+  },
+  {
+    "_id": "medium7_math_003",
+    "content": "What is the slope of the line passing through (1, 2) and (3, 8)?",
+    "type": "multiple_choice",
+    "options": ["2", "3", "4", "6"],
+    "correct_answer": "3",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "medium",
+    "explanation": "Slope = (8 - 2)/(3 - 1) = 6/2 = 3"
+  },
+  {
+    "_id": "medium7_math_004",
+    "content": "Simplify: 2(3x + 4) - 5x",
+    "type": "multiple_choice",
+    "options": ["x + 8", "6x + 3", "x + 3", "11x + 8"],
+    "correct_answer": "x + 8",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "medium",
+    "explanation": "2(3x + 4) - 5x = 6x + 8 - 5x = x + 8"
+  },
+  {
+    "_id": "medium7_math_005",
+    "content": "What is 30% of 80?",
+    "type": "multiple_choice",
+    "options": ["20", "24", "26", "30"],
+    "correct_answer": "24",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "medium",
+    "explanation": "30% of 80 = 0.30 × 80 = 24"
+  },
+  {
+    "_id": "medium7_math_006",
+    "content": "What is the volume of a rectangular prism with length 5, width 3, and height 4?",
+    "type": "multiple_choice",
+    "options": ["60", "47", "12", "24"],
+    "correct_answer": "60",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "medium",
+    "explanation": "Volume = length × width × height = 5 × 3 × 4 = 60"
+  },
+  {
+    "_id": "medium7_math_007",
+    "content": "Solve: 2x/3 = 8",
+    "type": "multiple_choice",
+    "options": ["x = 10", "x = 12", "x = 16", "x = 24"],
+    "correct_answer": "x = 12",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "medium",
+    "explanation": "2x/3 = 8, so 2x = 24, therefore x = 12"
+  },
+  {
+    "_id": "medium7_math_008",
+    "content": "What is (-4) × (-6)?",
+    "type": "multiple_choice",
+    "options": ["24", "-24", "10", "-10"],
+    "correct_answer": "24",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "medium",
+    "explanation": "(-4) × (-6) = 24 (negative times negative equals positive)"
+  },
+  {
+    "_id": "medium7_math_009",
+    "content": "What is the circumference of a circle with diameter 10? (Use π ≈ 3.14)",
+    "type": "multiple_choice",
+    "options": ["31.4", "62.8", "15.7", "78.5"],
+    "correct_answer": "31.4",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "medium",
+    "explanation": "Circumference = πd = 3.14 × 10 = 31.4"
+  },
+  {
+    "_id": "medium7_math_010",
+    "content": "Factor: x² + 7x + 10",
+    "type": "multiple_choice",
+    "options": ["(x + 2)(x + 5)", "(x + 1)(x + 10)", "(x - 2)(x - 5)", "(x + 7)(x + 1)"],
+    "correct_answer": "(x + 2)(x + 5)",
+    "subject": "Mathematics",
+    "grade": 7,
+    "difficulty": "medium",
+    "explanation": "Need two numbers that multiply to 10 and add to 7: 2 and 5"
   }
 ]

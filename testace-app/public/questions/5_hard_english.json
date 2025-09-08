@@ -318,5 +318,115 @@
     "grade": 5,
     "difficulty": "hard",
     "explanation": "This evaluates key English skills"
+  },
+  {
+    "_id": "hard5_eng_001",
+    "content": "What is the difference between a biography and an autobiography?",
+    "type": "multiple_choice",
+    "options": ["They are the same thing", "Biography is written by someone else; autobiography is written by the person themselves", "Biography is longer than autobiography", "Autobiography is always fiction"],
+    "correct_answer": "Biography is written by someone else; autobiography is written by the person themselves",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "A biography is someone else's life story written by another person; an autobiography is your own life story written by yourself."
+  },
+  {
+    "_id": "hard5_eng_002",
+    "content": "Which sentence uses a complex sentence structure?",
+    "type": "multiple_choice",
+    "options": ["I like pizza.", "I like pizza and pasta.", "Because I was hungry, I ate pizza.", "I like pizza; it's delicious."],
+    "correct_answer": "Because I was hungry, I ate pizza.",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "A complex sentence has one main clause and one dependent clause that starts with words like 'because'."
+  },
+  {
+    "_id": "hard5_eng_003",
+    "content": "What is the purpose of using figurative language in writing?",
+    "type": "multiple_choice",
+    "options": ["To make writing confusing", "To create vivid images and express ideas in creative ways", "To use bigger words", "To make writing longer"],
+    "correct_answer": "To create vivid images and express ideas in creative ways",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "Figurative language like metaphors and similes helps writers paint pictures with words and express ideas creatively."
+  },
+  {
+    "_id": "hard5_eng_004",
+    "content": "Which sentence shows cause and effect relationship?",
+    "type": "multiple_choice",
+    "options": ["The cat is black and white.", "Since it was raining, we stayed inside.", "I like ice cream and cake.", "The book is on the table."],
+    "correct_answer": "Since it was raining, we stayed inside.",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "This sentence shows cause (raining) and effect (stayed inside) with the connecting word 'since'."
+  },
+  {
+    "_id": "hard5_eng_005",
+    "content": "What is the difference between a summary and a retelling?",
+    "type": "multiple_choice",
+    "options": ["They are exactly the same", "Summary includes only main points; retelling includes more details", "Retelling is always shorter", "Summary is always longer"],
+    "correct_answer": "Summary includes only main points; retelling includes more details",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "A summary focuses on the most important points, while a retelling includes more details from the original story."
+  },
+  {
+    "_id": "hard5_eng_006",
+    "content": "Which word has both a prefix and a suffix?",
+    "type": "multiple_choice",
+    "options": ["unhappy", "quickly", "uncomfortable", "running"],
+    "correct_answer": "uncomfortable",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "'Uncomfortable' has the prefix 'un-' and the suffix '-able' added to the root word 'comfort'."
+  },
+  {
+    "_id": "hard5_eng_007",
+    "content": "What is the purpose of using transition words in writing?",
+    "type": "multiple_choice",
+    "options": ["To make sentences longer", "To connect ideas and help writing flow smoothly", "To confuse the reader", "To show off vocabulary"],
+    "correct_answer": "To connect ideas and help writing flow smoothly",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "Transition words like 'first', 'next', 'however', and 'finally' help connect ideas and make writing flow better."
+  },
+  {
+    "_id": "hard5_eng_008",
+    "content": "Which sentence uses correct subject-verb agreement?",
+    "type": "multiple_choice",
+    "options": ["The dogs runs fast", "The dog run fast", "The dogs run fast", "The dog are running fast"],
+    "correct_answer": "The dogs run fast",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "Plural subjects like 'dogs' need plural verbs like 'run'; singular subjects like 'dog' need singular verbs like 'runs'."
+  },
+  {
+    "_id": "hard5_eng_009",
+    "content": "What is the difference between comparing and contrasting?",
+    "type": "multiple_choice",
+    "options": ["They mean the same thing", "Comparing shows similarities; contrasting shows differences", "Contrasting shows similarities; comparing shows differences", "Comparing is always longer"],
+    "correct_answer": "Comparing shows similarities; contrasting shows differences",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "When you compare, you look for ways things are alike; when you contrast, you look for ways they are different."
+  },
+  {
+    "_id": "hard5_eng_010",
+    "content": "Which sentence uses an idiom?",
+    "type": "multiple_choice",
+    "options": ["The cat is sleeping.", "It's raining cats and dogs.", "She runs very fast.", "The book is interesting."],
+    "correct_answer": "It's raining cats and dogs.",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "hard",
+    "explanation": "'It's raining cats and dogs' is an idiom - a phrase that means something different from the literal words (it means raining heavily)."
   }
 ]

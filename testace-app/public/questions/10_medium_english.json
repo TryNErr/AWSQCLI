@@ -318,5 +318,115 @@
     "grade": 10,
     "difficulty": "medium",
     "explanation": "This evaluates key English skills"
+  },
+  {
+    "_id": "medium10_eng_001",
+    "content": "In 'Romeo and Juliet,' what literary device is used in 'But soft, what light through yonder window breaks?'",
+    "type": "multiple_choice",
+    "options": ["Metaphor", "Simile", "Personification", "Alliteration"],
+    "correct_answer": "Metaphor",
+    "subject": "English",
+    "grade": 10,
+    "difficulty": "medium",
+    "explanation": "Romeo compares Juliet to light, creating a metaphor about her beauty and radiance."
+  },
+  {
+    "_id": "medium10_eng_002",
+    "content": "What is the primary conflict in 'To Kill a Mockingbird'?",
+    "type": "multiple_choice",
+    "options": ["Man vs. nature", "Man vs. society", "Man vs. himself", "Man vs. technology"],
+    "correct_answer": "Man vs. society",
+    "subject": "English",
+    "grade": 10,
+    "difficulty": "medium",
+    "explanation": "The main conflict involves characters confronting societal prejudice and injustice."
+  },
+  {
+    "_id": "medium10_eng_003",
+    "content": "Which sentence correctly uses a semicolon?",
+    "type": "multiple_choice",
+    "options": ["I love reading; especially mysteries.", "The weather was cold; we stayed inside.", "She studied hard; and passed the test.", "We went to the store; to buy groceries."],
+    "correct_answer": "The weather was cold; we stayed inside.",
+    "subject": "English",
+    "grade": 10,
+    "difficulty": "medium",
+    "explanation": "Semicolons connect two independent clauses that are closely related."
+  },
+  {
+    "_id": "medium10_eng_004",
+    "content": "What is the purpose of exposition in a story?",
+    "type": "multiple_choice",
+    "options": ["To create suspense", "To provide background information", "To resolve conflicts", "To develop themes"],
+    "correct_answer": "To provide background information",
+    "subject": "English",
+    "grade": 10,
+    "difficulty": "medium",
+    "explanation": "Exposition introduces characters, setting, and background information necessary for understanding the story."
+  },
+  {
+    "_id": "medium10_eng_005",
+    "content": "Which is an example of situational irony?",
+    "type": "multiple_choice",
+    "options": ["A character says one thing but means another", "A fire station burns down", "The audience knows something a character doesn't", "Using sarcasm in dialogue"],
+    "correct_answer": "A fire station burns down",
+    "subject": "English",
+    "grade": 10,
+    "difficulty": "medium",
+    "explanation": "Situational irony occurs when the outcome is opposite to what would be expected."
+  },
+  {
+    "_id": "medium10_eng_006",
+    "content": "What is the difference between a protagonist and an antagonist?",
+    "type": "multiple_choice",
+    "options": ["Good vs. evil characters", "Main character vs. opposing force", "Hero vs. villain", "Round vs. flat characters"],
+    "correct_answer": "Main character vs. opposing force",
+    "subject": "English",
+    "grade": 10,
+    "difficulty": "medium",
+    "explanation": "The protagonist is the main character; the antagonist is the opposing force or character."
+  },
+  {
+    "_id": "medium10_eng_007",
+    "content": "In poetry, what is enjambment?",
+    "type": "multiple_choice",
+    "options": ["The rhyme scheme", "Lines that continue without pause", "The meter of the poem", "Repetition of sounds"],
+    "correct_answer": "Lines that continue without pause",
+    "subject": "English",
+    "grade": 10,
+    "difficulty": "medium",
+    "explanation": "Enjambment occurs when a line of poetry continues into the next line without a pause."
+  },
+  {
+    "_id": "medium10_eng_008",
+    "content": "What is the climax of a story?",
+    "type": "multiple_choice",
+    "options": ["The introduction", "The turning point of highest tension", "The resolution", "The background information"],
+    "correct_answer": "The turning point of highest tension",
+    "subject": "English",
+    "grade": 10,
+    "difficulty": "medium",
+    "explanation": "The climax is the story's turning point where tension and conflict reach their peak."
+  },
+  {
+    "_id": "medium10_eng_009",
+    "content": "Which sentence uses active voice?",
+    "type": "multiple_choice",
+    "options": ["The book was read by Maria", "Maria read the book", "The book was being read", "Reading was done by Maria"],
+    "correct_answer": "Maria read the book",
+    "subject": "English",
+    "grade": 10,
+    "difficulty": "medium",
+    "explanation": "Active voice has the subject performing the action directly."
+  },
+  {
+    "_id": "medium10_eng_010",
+    "content": "What is a motif in literature?",
+    "type": "multiple_choice",
+    "options": ["The main character", "A recurring element that develops theme", "The setting", "The point of view"],
+    "correct_answer": "A recurring element that develops theme",
+    "subject": "English",
+    "grade": 10,
+    "difficulty": "medium",
+    "explanation": "A motif is a recurring element (image, symbol, idea) that helps develop the theme."
   }
 ]

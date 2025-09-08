@@ -318,5 +318,115 @@
     "grade": 2,
     "difficulty": "hard",
     "explanation": "This evaluates key English skills"
+  },
+  {
+    "_id": "hard2_eng_001",
+    "content": "What is a complete sentence?",
+    "type": "multiple_choice",
+    "options": ["Just a naming word", "A group of words that tells a complete thought", "Any group of words", "Only long groups of words"],
+    "correct_answer": "A group of words that tells a complete thought",
+    "subject": "English",
+    "grade": 2,
+    "difficulty": "hard",
+    "explanation": "A complete sentence has a subject and predicate and expresses a complete thought."
+  },
+  {
+    "_id": "hard2_eng_002",
+    "content": "Which sentence has correct punctuation?",
+    "type": "multiple_choice",
+    "options": ["What time is it.", "what time is it?", "What time is it?", "What time is it,"],
+    "correct_answer": "What time is it?",
+    "subject": "English",
+    "grade": 2,
+    "difficulty": "hard",
+    "explanation": "Questions start with capital letters and end with question marks."
+  },
+  {
+    "_id": "hard2_eng_003",
+    "content": "What is the difference between 'there', 'their', and 'they're'?",
+    "type": "multiple_choice",
+    "options": ["They all mean the same thing", "'There' is a place, 'their' shows ownership, 'they're' means 'they are'", "They are all spelled wrong", "Only 'there' is a real word"],
+    "correct_answer": "'There' is a place, 'their' shows ownership, 'they're' means 'they are'",
+    "subject": "English",
+    "grade": 2,
+    "difficulty": "hard",
+    "explanation": "These words sound the same but have different meanings and spellings."
+  },
+  {
+    "_id": "hard2_eng_004",
+    "content": "Which word is a proper noun?",
+    "type": "multiple_choice",
+    "options": ["dog", "school", "Sarah", "book"],
+    "correct_answer": "Sarah",
+    "subject": "English",
+    "grade": 2,
+    "difficulty": "hard",
+    "explanation": "Proper nouns are names of specific people, places, or things and start with capital letters."
+  },
+  {
+    "_id": "hard2_eng_005",
+    "content": "What does the word 'predict' mean?",
+    "type": "multiple_choice",
+    "options": ["To remember something", "To guess what will happen next", "To read out loud", "To write a story"],
+    "correct_answer": "To guess what will happen next",
+    "subject": "English",
+    "grade": 2,
+    "difficulty": "hard",
+    "explanation": "When you predict, you use clues to guess what might happen next in a story."
+  },
+  {
+    "_id": "hard2_eng_006",
+    "content": "Which sentence uses past tense correctly?",
+    "type": "multiple_choice",
+    "options": ["Yesterday I walk to school", "Yesterday I walked to school", "Yesterday I will walk to school", "Yesterday I am walking to school"],
+    "correct_answer": "Yesterday I walked to school",
+    "subject": "English",
+    "grade": 2,
+    "difficulty": "hard",
+    "explanation": "Past tense tells about something that already happened. 'Walked' is the past tense of 'walk'."
+  },
+  {
+    "_id": "hard2_eng_007",
+    "content": "What is the beginning, middle, and end of a story called?",
+    "type": "multiple_choice",
+    "options": ["Characters", "Setting", "Plot", "Theme"],
+    "correct_answer": "Plot",
+    "subject": "English",
+    "grade": 2,
+    "difficulty": "hard",
+    "explanation": "The plot is what happens in a story from beginning to middle to end."
+  },
+  {
+    "_id": "hard2_eng_008",
+    "content": "Which word has a silent letter?",
+    "type": "multiple_choice",
+    "options": ["cat", "dog", "lamb", "run"],
+    "correct_answer": "lamb",
+    "subject": "English",
+    "grade": 2,
+    "difficulty": "hard",
+    "explanation": "In 'lamb,' the 'b' is silent - we don't say the 'b' sound at the end."
+  },
+  {
+    "_id": "hard2_eng_009",
+    "content": "What is the plural of 'mouse'?",
+    "type": "multiple_choice",
+    "options": ["mouses", "mice", "mouse", "meese"],
+    "correct_answer": "mice",
+    "subject": "English",
+    "grade": 2,
+    "difficulty": "hard",
+    "explanation": "'Mice' is the irregular plural form of 'mouse' - it doesn't follow the regular rule of adding 's'."
+  },
+  {
+    "_id": "hard2_eng_010",
+    "content": "Which sentence uses a describing word?",
+    "type": "multiple_choice",
+    "options": ["The dog ran.", "The fast dog ran.", "The dog ran away.", "Dogs can run."],
+    "correct_answer": "The fast dog ran.",
+    "subject": "English",
+    "grade": 2,
+    "difficulty": "hard",
+    "explanation": "'Fast' is a describing word (adjective) that tells us more about the dog."
   }
 ]

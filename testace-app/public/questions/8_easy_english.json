@@ -318,5 +318,115 @@
     "grade": 8,
     "difficulty": "easy",
     "explanation": "This evaluates key English skills"
+  },
+  {
+    "_id": "easy8_eng_001",
+    "content": "What is the subject of this sentence: 'The cat ran quickly across the yard'?",
+    "type": "multiple_choice",
+    "options": ["cat", "ran", "quickly", "yard"],
+    "correct_answer": "cat",
+    "subject": "English",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "The subject is who or what the sentence is about - 'the cat'."
+  },
+  {
+    "_id": "easy8_eng_002",
+    "content": "Which word is a synonym for 'big'?",
+    "type": "multiple_choice",
+    "options": ["small", "large", "tiny", "little"],
+    "correct_answer": "large",
+    "subject": "English",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "Large means the same as big - both indicate great size."
+  },
+  {
+    "_id": "easy8_eng_003",
+    "content": "What type of sentence is this: 'Please close the door.'?",
+    "type": "multiple_choice",
+    "options": ["declarative", "interrogative", "imperative", "exclamatory"],
+    "correct_answer": "imperative",
+    "subject": "English",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "Imperative sentences give commands or make requests."
+  },
+  {
+    "_id": "easy8_eng_004",
+    "content": "What is an antonym for 'happy'?",
+    "type": "multiple_choice",
+    "options": ["joyful", "sad", "glad", "cheerful"],
+    "correct_answer": "sad",
+    "subject": "English",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "Sad is the opposite of happy."
+  },
+  {
+    "_id": "easy8_eng_005",
+    "content": "Which sentence uses correct capitalization?",
+    "type": "multiple_choice",
+    "options": ["we went to new york city", "We went to New York city", "We went to New York City", "we went to New york City"],
+    "correct_answer": "We went to New York City",
+    "subject": "English",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "Proper nouns like city names should be capitalized."
+  },
+  {
+    "_id": "easy8_eng_006",
+    "content": "What is the past tense of 'write'?",
+    "type": "multiple_choice",
+    "options": ["writed", "wrote", "written", "writing"],
+    "correct_answer": "wrote",
+    "subject": "English",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "The past tense of 'write' is 'wrote'."
+  },
+  {
+    "_id": "easy8_eng_007",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": ["quickly", "run", "beautiful", "book"],
+    "correct_answer": "book",
+    "subject": "English",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "A noun names a person, place, thing, or idea - 'book' is a thing."
+  },
+  {
+    "_id": "easy8_eng_008",
+    "content": "What punctuation mark ends a question?",
+    "type": "multiple_choice",
+    "options": ["period", "comma", "question mark", "exclamation point"],
+    "correct_answer": "question mark",
+    "subject": "English",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "Questions end with question marks (?)."
+  },
+  {
+    "_id": "easy8_eng_009",
+    "content": "Which sentence is a compound sentence?",
+    "type": "multiple_choice",
+    "options": ["I like pizza.", "I like pizza, and she likes pasta.", "Because I like pizza.", "The pizza that I ordered."],
+    "correct_answer": "I like pizza, and she likes pasta.",
+    "subject": "English",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "A compound sentence joins two independent clauses with a conjunction."
+  },
+  {
+    "_id": "easy8_eng_010",
+    "content": "What is an adjective?",
+    "type": "multiple_choice",
+    "options": ["A word that shows action", "A word that describes a noun", "A word that connects ideas", "A word that names something"],
+    "correct_answer": "A word that describes a noun",
+    "subject": "English",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "Adjectives describe or modify nouns and pronouns."
   }
 ]

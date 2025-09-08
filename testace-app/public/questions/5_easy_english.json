@@ -318,5 +318,115 @@
     "grade": 5,
     "difficulty": "easy",
     "explanation": "A verb is a word that describes an action, like run, jump, or think."
+  },
+  {
+    "_id": "easy5_eng_001",
+    "content": "What is the main idea of a paragraph?",
+    "type": "multiple_choice",
+    "options": ["The first sentence", "What the paragraph is mostly about", "The last sentence", "The longest sentence"],
+    "correct_answer": "What the paragraph is mostly about",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "The main idea is the central point or topic of a paragraph."
+  },
+  {
+    "_id": "easy5_eng_002",
+    "content": "Which word is a noun?",
+    "type": "multiple_choice",
+    "options": ["run", "happy", "school", "quickly"],
+    "correct_answer": "school",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "A noun names a person, place, thing, or idea. School is a place."
+  },
+  {
+    "_id": "easy5_eng_003",
+    "content": "What is the correct way to write the plural of 'box'?",
+    "type": "multiple_choice",
+    "options": ["boxs", "boxes", "boxies", "box"],
+    "correct_answer": "boxes",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "Words ending in 'x' add 'es' to form the plural."
+  },
+  {
+    "_id": "easy5_eng_004",
+    "content": "Which sentence has correct capitalization?",
+    "type": "multiple_choice",
+    "options": ["my dog is named spot", "My dog is named spot", "My dog is named Spot", "my Dog is named Spot"],
+    "correct_answer": "My dog is named Spot",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "Sentences start with capital letters, and names are capitalized."
+  },
+  {
+    "_id": "easy5_eng_005",
+    "content": "What is an adjective?",
+    "type": "multiple_choice",
+    "options": ["A word that shows action", "A word that describes a noun", "A word that connects sentences", "A word that names something"],
+    "correct_answer": "A word that describes a noun",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "Adjectives describe nouns by telling what kind, how many, or which one."
+  },
+  {
+    "_id": "easy5_eng_006",
+    "content": "Which word is a synonym for 'small'?",
+    "type": "multiple_choice",
+    "options": ["big", "tiny", "tall", "wide"],
+    "correct_answer": "tiny",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "Tiny means the same as small - both describe something little."
+  },
+  {
+    "_id": "easy5_eng_007",
+    "content": "What punctuation mark goes at the end of a statement?",
+    "type": "multiple_choice",
+    "options": ["question mark", "period", "exclamation point", "comma"],
+    "correct_answer": "period",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "Statements (declarative sentences) end with periods."
+  },
+  {
+    "_id": "easy5_eng_008",
+    "content": "Which word is spelled correctly?",
+    "type": "multiple_choice",
+    "options": ["freind", "friend", "frend", "freend"],
+    "correct_answer": "friend",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "The correct spelling is 'friend' with 'ie'."
+  },
+  {
+    "_id": "easy5_eng_009",
+    "content": "What is the past tense of 'go'?",
+    "type": "multiple_choice",
+    "options": ["goed", "went", "going", "goes"],
+    "correct_answer": "went",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "The past tense of 'go' is 'went' - an irregular verb form."
+  },
+  {
+    "_id": "easy5_eng_010",
+    "content": "Which sentence is a question?",
+    "type": "multiple_choice",
+    "options": ["I like ice cream.", "What is your name?", "Please sit down.", "That's amazing!"],
+    "correct_answer": "What is your name?",
+    "subject": "English",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "Questions ask for information and end with question marks."
   }
 ]

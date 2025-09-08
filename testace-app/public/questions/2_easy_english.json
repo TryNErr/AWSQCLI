@@ -318,5 +318,115 @@
     "grade": 2,
     "difficulty": "easy",
     "explanation": "This evaluates key English skills"
+  },
+  {
+    "_id": "easy2_eng_001",
+    "content": "Which letter comes after 'M' in the alphabet?",
+    "type": "multiple_choice",
+    "options": ["L", "N", "O", "P"],
+    "correct_answer": "N",
+    "subject": "English",
+    "grade": 2,
+    "difficulty": "easy",
+    "explanation": "N comes after M in the alphabet."
+  },
+  {
+    "_id": "easy2_eng_002",
+    "content": "What sound does 'sh' make in 'ship'?",
+    "type": "multiple_choice",
+    "options": ["/s/ and /h/", "/sh/", "/ch/", "/th/"],
+    "correct_answer": "/sh/",
+    "subject": "English",
+    "grade": 2,
+    "difficulty": "easy",
+    "explanation": "The letters 'sh' together make the /sh/ sound."
+  },
+  {
+    "_id": "easy2_eng_003",
+    "content": "Which word is a sight word?",
+    "type": "multiple_choice",
+    "options": ["elephant", "the", "butterfly", "dinosaur"],
+    "correct_answer": "the",
+    "subject": "English",
+    "grade": 2,
+    "difficulty": "easy",
+    "explanation": "'The' is a common sight word that students should recognize instantly."
+  },
+  {
+    "_id": "easy2_eng_004",
+    "content": "How many syllables are in 'happy'?",
+    "type": "multiple_choice",
+    "options": ["1", "2", "3", "4"],
+    "correct_answer": "2",
+    "subject": "English",
+    "grade": 2,
+    "difficulty": "easy",
+    "explanation": "Hap-py has 2 syllables."
+  },
+  {
+    "_id": "easy2_eng_005",
+    "content": "What do we call the naming part of a sentence?",
+    "type": "multiple_choice",
+    "options": ["verb", "subject", "adjective", "period"],
+    "correct_answer": "subject",
+    "subject": "English",
+    "grade": 2,
+    "difficulty": "easy",
+    "explanation": "The subject is the naming part that tells who or what the sentence is about."
+  },
+  {
+    "_id": "easy2_eng_006",
+    "content": "Which sentence is a question?",
+    "type": "multiple_choice",
+    "options": ["I like dogs.", "Where is my book?", "The cat is sleeping.", "Please help me."],
+    "correct_answer": "Where is my book?",
+    "subject": "English",
+    "grade": 2,
+    "difficulty": "easy",
+    "explanation": "Questions ask something and end with a question mark."
+  },
+  {
+    "_id": "easy2_eng_007",
+    "content": "What is the first word in this sentence: 'The dog runs fast.'?",
+    "type": "multiple_choice",
+    "options": ["dog", "The", "runs", "fast"],
+    "correct_answer": "The",
+    "subject": "English",
+    "grade": 2,
+    "difficulty": "easy",
+    "explanation": "'The' is the first word in the sentence."
+  },
+  {
+    "_id": "easy2_eng_008",
+    "content": "Which word rhymes with 'cat'?",
+    "type": "multiple_choice",
+    "options": ["dog", "bat", "run", "big"],
+    "correct_answer": "bat",
+    "subject": "English",
+    "grade": 2,
+    "difficulty": "easy",
+    "explanation": "Cat and bat both end with the same 'at' sound."
+  },
+  {
+    "_id": "easy2_eng_009",
+    "content": "What goes at the end of a sentence that tells something?",
+    "type": "multiple_choice",
+    "options": ["question mark", "period", "comma", "exclamation point"],
+    "correct_answer": "period",
+    "subject": "English",
+    "grade": 2,
+    "difficulty": "easy",
+    "explanation": "Sentences that tell something end with a period."
+  },
+  {
+    "_id": "easy2_eng_010",
+    "content": "Which word has a short 'a' sound?",
+    "type": "multiple_choice",
+    "options": ["cake", "make", "cat", "name"],
+    "correct_answer": "cat",
+    "subject": "English",
+    "grade": 2,
+    "difficulty": "easy",
+    "explanation": "Cat has a short 'a' sound, while the others have long 'a' sounds."
   }
 ]

@@ -318,5 +318,115 @@
     "grade": 3,
     "difficulty": "easy",
     "explanation": "This evaluates key English skills"
+  },
+  {
+    "_id": "easy3_eng_001",
+    "content": "Which letter makes the /k/ sound in 'cat'?",
+    "type": "multiple_choice",
+    "options": ["c", "a", "t", "all of them"],
+    "correct_answer": "c",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "The letter 'c' makes the /k/ sound in 'cat'."
+  },
+  {
+    "_id": "easy3_eng_002",
+    "content": "What do we call words that sound the same but are spelled differently?",
+    "type": "multiple_choice",
+    "options": ["rhyming words", "homophones", "synonyms", "antonyms"],
+    "correct_answer": "homophones",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "Homophones sound the same but have different spellings and meanings."
+  },
+  {
+    "_id": "easy3_eng_003",
+    "content": "Which word is a naming word?",
+    "type": "multiple_choice",
+    "options": ["run", "happy", "dog", "quickly"],
+    "correct_answer": "dog",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "Dog is a naming word (noun) because it names an animal."
+  },
+  {
+    "_id": "easy3_eng_004",
+    "content": "What goes at the end of a telling sentence?",
+    "type": "multiple_choice",
+    "options": ["question mark", "period", "exclamation point", "comma"],
+    "correct_answer": "period",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "Telling sentences end with a period."
+  },
+  {
+    "_id": "easy3_eng_005",
+    "content": "Which words rhyme?",
+    "type": "multiple_choice",
+    "options": ["cat and dog", "sun and fun", "big and small", "red and blue"],
+    "correct_answer": "sun and fun",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "Sun and fun both end with the same 'un' sound."
+  },
+  {
+    "_id": "easy3_eng_006",
+    "content": "What is an action word?",
+    "type": "multiple_choice",
+    "options": ["A word that names something", "A word that shows what someone does", "A word that describes", "A word that connects"],
+    "correct_answer": "A word that shows what someone does",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "Action words (verbs) show what someone or something does."
+  },
+  {
+    "_id": "easy3_eng_007",
+    "content": "How many syllables are in the word 'elephant'?",
+    "type": "multiple_choice",
+    "options": ["2", "3", "4", "5"],
+    "correct_answer": "3",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "El-e-phant has 3 syllables."
+  },
+  {
+    "_id": "easy3_eng_008",
+    "content": "Which sentence is written correctly?",
+    "type": "multiple_choice",
+    "options": ["i like pizza", "I like pizza.", "i like pizza.", "I like pizza"],
+    "correct_answer": "I like pizza.",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "Sentences start with capital letters and end with periods."
+  },
+  {
+    "_id": "easy3_eng_009",
+    "content": "What is the opposite of 'hot'?",
+    "type": "multiple_choice",
+    "options": ["warm", "cold", "big", "fast"],
+    "correct_answer": "cold",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "Cold is the opposite of hot."
+  },
+  {
+    "_id": "easy3_eng_010",
+    "content": "Which word has a long 'a' sound?",
+    "type": "multiple_choice",
+    "options": ["cat", "cake", "cap", "can"],
+    "correct_answer": "cake",
+    "subject": "English",
+    "grade": 3,
+    "difficulty": "easy",
+    "explanation": "Cake has a long 'a' sound because of the silent 'e'."
   }
 ]

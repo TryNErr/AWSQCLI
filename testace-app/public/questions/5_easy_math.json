@@ -638,5 +638,115 @@
     "grade": 5,
     "difficulty": "easy",
     "explanation": "105 ÷ 15 = 7"
+  },
+  {
+    "_id": "easy5_math_001",
+    "content": "What is 3.5 + 2.8?",
+    "type": "multiple_choice",
+    "options": ["6.3", "5.3", "6.2", "5.8"],
+    "correct_answer": "6.3",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "3.5 + 2.8 = 6.3"
+  },
+  {
+    "_id": "easy5_math_002",
+    "content": "What is 2/5 + 1/5?",
+    "type": "multiple_choice",
+    "options": ["3/5", "3/10", "1/5", "2/5"],
+    "correct_answer": "3/5",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "2/5 + 1/5 = 3/5"
+  },
+  {
+    "_id": "easy5_math_003",
+    "content": "What is 12 × 8?",
+    "type": "multiple_choice",
+    "options": ["84", "96", "104", "88"],
+    "correct_answer": "96",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "12 × 8 = 96"
+  },
+  {
+    "_id": "easy5_math_004",
+    "content": "What is the area of a rectangle with length 9 cm and width 6 cm?",
+    "type": "multiple_choice",
+    "options": ["30 cm²", "54 cm²", "15 cm²", "45 cm²"],
+    "correct_answer": "54 cm²",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "Area = length × width = 9 × 6 = 54 cm²"
+  },
+  {
+    "_id": "easy5_math_005",
+    "content": "What is 7.2 - 3.8?",
+    "type": "multiple_choice",
+    "options": ["3.4", "4.4", "3.6", "4.6"],
+    "correct_answer": "3.4",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "7.2 - 3.8 = 3.4"
+  },
+  {
+    "_id": "easy5_math_006",
+    "content": "What is 144 ÷ 12?",
+    "type": "multiple_choice",
+    "options": ["11", "12", "13", "14"],
+    "correct_answer": "12",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "144 ÷ 12 = 12"
+  },
+  {
+    "_id": "easy5_math_007",
+    "content": "What is 3/4 as a decimal?",
+    "type": "multiple_choice",
+    "options": ["0.75", "0.34", "0.43", "0.73"],
+    "correct_answer": "0.75",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "3 ÷ 4 = 0.75"
+  },
+  {
+    "_id": "easy5_math_008",
+    "content": "What is the perimeter of a square with side length 8 cm?",
+    "type": "multiple_choice",
+    "options": ["16 cm", "24 cm", "32 cm", "64 cm"],
+    "correct_answer": "32 cm",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "Perimeter of square = 4 × side = 4 × 8 = 32 cm"
+  },
+  {
+    "_id": "easy5_math_009",
+    "content": "What is 25% of 40?",
+    "type": "multiple_choice",
+    "options": ["8", "10", "12", "15"],
+    "correct_answer": "10",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "25% of 40 = 0.25 × 40 = 10"
+  },
+  {
+    "_id": "easy5_math_010",
+    "content": "Round 67.8 to the nearest whole number.",
+    "type": "multiple_choice",
+    "options": ["67", "68", "70", "60"],
+    "correct_answer": "68",
+    "subject": "Mathematics",
+    "grade": 5,
+    "difficulty": "easy",
+    "explanation": "67.8 rounds up to 68 because 0.8 ≥ 0.5"
   }
 ]
