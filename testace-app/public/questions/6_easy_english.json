@@ -318,5 +318,115 @@
     "grade": 6,
     "difficulty": "easy",
     "explanation": "London is a specific place name, so it's a proper noun"
+  },
+  {
+    "_id": "easy6_eng_001",
+    "content": "Which word is a synonym for 'happy'?",
+    "type": "multiple_choice",
+    "options": ["sad", "joyful", "angry", "tired"],
+    "correct_answer": "joyful",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "easy",
+    "explanation": "Joyful means the same as happy - both express positive emotions."
+  },
+  {
+    "_id": "easy6_eng_002",
+    "content": "What is the past tense of 'run'?",
+    "type": "multiple_choice",
+    "options": ["runned", "ran", "running", "runs"],
+    "correct_answer": "ran",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "easy",
+    "explanation": "The past tense of 'run' is 'ran' - an irregular verb form."
+  },
+  {
+    "_id": "easy6_eng_003",
+    "content": "Which sentence uses correct punctuation?",
+    "type": "multiple_choice",
+    "options": ["What time is it.", "What time is it?", "what time is it?", "What time is it,"],
+    "correct_answer": "What time is it?",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "easy",
+    "explanation": "Questions start with capital letters and end with question marks."
+  },
+  {
+    "_id": "easy6_eng_004",
+    "content": "What type of word is 'quickly'?",
+    "type": "multiple_choice",
+    "options": ["noun", "verb", "adjective", "adverb"],
+    "correct_answer": "adverb",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "easy",
+    "explanation": "Quickly is an adverb because it describes how an action is performed."
+  },
+  {
+    "_id": "easy6_eng_005",
+    "content": "Which word is spelled correctly?",
+    "type": "multiple_choice",
+    "options": ["recieve", "receive", "receve", "receeve"],
+    "correct_answer": "receive",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "easy",
+    "explanation": "The correct spelling follows the rule 'i before e except after c'."
+  },
+  {
+    "_id": "easy6_eng_006",
+    "content": "What is the plural of 'child'?",
+    "type": "multiple_choice",
+    "options": ["childs", "childes", "children", "child"],
+    "correct_answer": "children",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "easy",
+    "explanation": "Children is the irregular plural form of child."
+  },
+  {
+    "_id": "easy6_eng_007",
+    "content": "Which word is an antonym for 'hot'?",
+    "type": "multiple_choice",
+    "options": ["warm", "cold", "cool", "freezing"],
+    "correct_answer": "cold",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "easy",
+    "explanation": "Cold is the direct opposite of hot."
+  },
+  {
+    "_id": "easy6_eng_008",
+    "content": "What is the subject in this sentence: 'The dog barked loudly'?",
+    "type": "multiple_choice",
+    "options": ["dog", "the", "barked", "loudly"],
+    "correct_answer": "dog",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "easy",
+    "explanation": "The dog is who/what the sentence is about - the subject performing the action."
+  },
+  {
+    "_id": "easy6_eng_009",
+    "content": "Which sentence is written in past tense?",
+    "type": "multiple_choice",
+    "options": ["I will go tomorrow", "I am going now", "I went yesterday", "I go every day"],
+    "correct_answer": "I went yesterday",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "easy",
+    "explanation": "'Went' is the past tense form, and 'yesterday' indicates past time."
+  },
+  {
+    "_id": "easy6_eng_010",
+    "content": "What type of sentence is this: 'Close the door.'?",
+    "type": "multiple_choice",
+    "options": ["declarative", "interrogative", "imperative", "exclamatory"],
+    "correct_answer": "imperative",
+    "subject": "English",
+    "grade": 6,
+    "difficulty": "easy",
+    "explanation": "Imperative sentences give commands or make requests."
   }
 ]

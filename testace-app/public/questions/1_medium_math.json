@@ -638,5 +638,115 @@
     "grade": 1,
     "difficulty": "medium",
     "explanation": "20 - 11 = 9"
+  },
+  {
+    "_id": "medium1_new_001",
+    "content": "What is 5 + 3?",
+    "type": "multiple_choice",
+    "options": ["7", "8", "6", "9"],
+    "correctAnswer": "8",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "5 plus 3 equals 8."
+  },
+  {
+    "_id": "medium1_new_002",
+    "content": "What is 9 - 4?",
+    "type": "multiple_choice",
+    "options": ["4", "5", "6", "7"],
+    "correctAnswer": "5",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "9 minus 4 equals 5."
+  },
+  {
+    "_id": "medium1_new_003",
+    "content": "Which number is bigger: 2 or 7?",
+    "type": "multiple_choice",
+    "options": ["2", "7", "the same", "none"],
+    "correctAnswer": "7",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "7 is larger than 2."
+  },
+  {
+    "_id": "medium1_new_004",
+    "content": "How many sides does a triangle have?",
+    "type": "multiple_choice",
+    "options": ["3", "4", "5", "6"],
+    "correctAnswer": "3",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "A triangle is a shape with 3 sides."
+  },
+  {
+    "_id": "medium1_new_005",
+    "content": "If you have 4 apples and you get 3 more, how many apples do you have?",
+    "type": "multiple_choice",
+    "options": ["7", "8", "6", "9"],
+    "correctAnswer": "7",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "4 plus 3 equals 7 apples."
+  },
+  {
+    "_id": "medium1_new_006",
+    "content": "If you count by 2s starting from 2, what comes after 6?",
+    "type": "multiple_choice",
+    "options": ["7", "8", "9", "10"],
+    "correctAnswer": "8",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "Counting by 2s: 2, 4, 6, 8..."
+  },
+  {
+    "_id": "medium1_new_007",
+    "content": "Which shape has 4 equal sides?",
+    "type": "multiple_choice",
+    "options": ["Square", "Triangle", "Rectangle", "Circle"],
+    "correctAnswer": "Square",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "A square has 4 equal sides and 4 equal angles."
+  },
+  {
+    "_id": "medium1_new_008",
+    "content": "What number comes next in the pattern: 2, 4, 6, ___?",
+    "type": "multiple_choice",
+    "options": ["7", "8", "9", "10"],
+    "correctAnswer": "8",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "The pattern adds 2 each time. 6 + 2 = 8."
+  },
+  {
+    "_id": "medium1_new_009",
+    "content": "Which number is bigger: 5 or 9?",
+    "type": "multiple_choice",
+    "options": ["5", "9", "They are the same", "Cannot tell"],
+    "correctAnswer": "9",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "On the number line, 9 is to the right of 5, so 9 is larger."
+  },
+  {
+    "_id": "medium1_new_010",
+    "content": "You have 4 apples and you get 2 more from a friend. How many apples do you have now?",
+    "type": "multiple_choice",
+    "options": ["5", "6", "7", "8"],
+    "correctAnswer": "6",
+    "subject": "Mathematics",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "4 + 2 = 6 apples in total."
   }
 ]

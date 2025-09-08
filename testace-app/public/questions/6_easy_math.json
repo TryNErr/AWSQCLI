@@ -538,5 +538,115 @@
     "grade": 6,
     "difficulty": "easy",
     "explanation": "(-9) ÷ 3 = -3"
+  },
+  {
+    "_id": "easy6_math_001",
+    "content": "What is 3/4 + 1/4?",
+    "type": "multiple_choice",
+    "options": ["1/2", "3/4", "1", "4/8"],
+    "correct_answer": "1",
+    "subject": "Mathematics",
+    "grade": 6,
+    "difficulty": "easy",
+    "explanation": "3/4 + 1/4 = 4/4 = 1"
+  },
+  {
+    "_id": "easy6_math_002",
+    "content": "What is 15% of 200?",
+    "type": "multiple_choice",
+    "options": ["25", "30", "35", "40"],
+    "correct_answer": "30",
+    "subject": "Mathematics",
+    "grade": 6,
+    "difficulty": "easy",
+    "explanation": "15% of 200 = 0.15 × 200 = 30"
+  },
+  {
+    "_id": "easy6_math_003",
+    "content": "What is the area of a rectangle with length 8 cm and width 5 cm?",
+    "type": "multiple_choice",
+    "options": ["26 cm²", "40 cm²", "13 cm²", "80 cm²"],
+    "correct_answer": "40 cm²",
+    "subject": "Mathematics",
+    "grade": 6,
+    "difficulty": "easy",
+    "explanation": "Area = length × width = 8 × 5 = 40 cm²"
+  },
+  {
+    "_id": "easy6_math_004",
+    "content": "What is 2.5 + 1.8?",
+    "type": "multiple_choice",
+    "options": ["4.3", "4.2", "3.3", "3.8"],
+    "correct_answer": "4.3",
+    "subject": "Mathematics",
+    "grade": 6,
+    "difficulty": "easy",
+    "explanation": "2.5 + 1.8 = 4.3"
+  },
+  {
+    "_id": "easy6_math_005",
+    "content": "What is 7² (7 squared)?",
+    "type": "multiple_choice",
+    "options": ["14", "49", "21", "35"],
+    "correct_answer": "49",
+    "subject": "Mathematics",
+    "grade": 6,
+    "difficulty": "easy",
+    "explanation": "7² = 7 × 7 = 49"
+  },
+  {
+    "_id": "easy6_math_006",
+    "content": "What is 5/8 as a decimal?",
+    "type": "multiple_choice",
+    "options": ["0.625", "0.58", "0.65", "0.68"],
+    "correct_answer": "0.625",
+    "subject": "Mathematics",
+    "grade": 6,
+    "difficulty": "easy",
+    "explanation": "5 ÷ 8 = 0.625"
+  },
+  {
+    "_id": "easy6_math_007",
+    "content": "What is the perimeter of a square with side length 6 cm?",
+    "type": "multiple_choice",
+    "options": ["12 cm", "18 cm", "24 cm", "36 cm"],
+    "correct_answer": "24 cm",
+    "subject": "Mathematics",
+    "grade": 6,
+    "difficulty": "easy",
+    "explanation": "Perimeter of square = 4 × side = 4 × 6 = 24 cm"
+  },
+  {
+    "_id": "easy6_math_008",
+    "content": "What is 144 ÷ 12?",
+    "type": "multiple_choice",
+    "options": ["11", "12", "13", "14"],
+    "correct_answer": "12",
+    "subject": "Mathematics",
+    "grade": 6,
+    "difficulty": "easy",
+    "explanation": "144 ÷ 12 = 12"
+  },
+  {
+    "_id": "easy6_math_009",
+    "content": "What is 25% as a fraction in lowest terms?",
+    "type": "multiple_choice",
+    "options": ["1/4", "1/3", "2/5", "3/8"],
+    "correct_answer": "1/4",
+    "subject": "Mathematics",
+    "grade": 6,
+    "difficulty": "easy",
+    "explanation": "25% = 25/100 = 1/4"
+  },
+  {
+    "_id": "easy6_math_010",
+    "content": "What is the mean of 8, 12, 6, and 10?",
+    "type": "multiple_choice",
+    "options": ["8", "9", "10", "11"],
+    "correct_answer": "9",
+    "subject": "Mathematics",
+    "grade": 6,
+    "difficulty": "easy",
+    "explanation": "Mean = (8 + 12 + 6 + 10) ÷ 4 = 36 ÷ 4 = 9"
   }
 ]

@@ -538,5 +538,115 @@
     "grade": 8,
     "difficulty": "medium",
     "explanation": "3x + 12 = 21, so 3x = 9, x = 3"
+  },
+  {
+    "_id": "medium8_math_001",
+    "content": "Solve: 2x - 5 = 3x + 2",
+    "type": "multiple_choice",
+    "options": ["x = -7", "x = -3", "x = 3", "x = 7"],
+    "correct_answer": "x = -7",
+    "subject": "Mathematics",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "2x - 5 = 3x + 2, so -5 - 2 = 3x - 2x, -7 = x"
+  },
+  {
+    "_id": "medium8_math_002",
+    "content": "Factor: x² + 8x + 15",
+    "type": "multiple_choice",
+    "options": ["(x + 3)(x + 5)", "(x + 1)(x + 15)", "(x - 3)(x - 5)", "(x + 8)(x + 1)"],
+    "correct_answer": "(x + 3)(x + 5)",
+    "subject": "Mathematics",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "Need two numbers that multiply to 15 and add to 8: 3 and 5"
+  },
+  {
+    "_id": "medium8_math_003",
+    "content": "What is the equation of the line with slope 2 passing through (1, 3)?",
+    "type": "multiple_choice",
+    "options": ["y = 2x + 1", "y = 2x - 1", "y = 2x + 3", "y = x + 2"],
+    "correct_answer": "y = 2x + 1",
+    "subject": "Mathematics",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "Using point-slope form: y - 3 = 2(x - 1) → y = 2x + 1"
+  },
+  {
+    "_id": "medium8_math_004",
+    "content": "Simplify: (3x²y)(2xy³)",
+    "type": "multiple_choice",
+    "options": ["5x³y⁴", "6x³y⁴", "6x²y³", "5x²y⁴"],
+    "correct_answer": "6x³y⁴",
+    "subject": "Mathematics",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "(3x²y)(2xy³) = 6x²⁺¹y¹⁺³ = 6x³y⁴"
+  },
+  {
+    "_id": "medium8_math_005",
+    "content": "What is the volume of a cube with side length 4 cm?",
+    "type": "multiple_choice",
+    "options": ["16 cm³", "48 cm³", "64 cm³", "256 cm³"],
+    "correct_answer": "64 cm³",
+    "subject": "Mathematics",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "Volume of cube = side³ = 4³ = 64 cm³"
+  },
+  {
+    "_id": "medium8_math_006",
+    "content": "Solve the system: x + y = 8, x - y = 2",
+    "type": "multiple_choice",
+    "options": ["x = 5, y = 3", "x = 4, y = 4", "x = 6, y = 2", "x = 3, y = 5"],
+    "correct_answer": "x = 5, y = 3",
+    "subject": "Mathematics",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "Adding equations: 2x = 10, so x = 5. Substituting: 5 + y = 8, so y = 3"
+  },
+  {
+    "_id": "medium8_math_007",
+    "content": "What is 25% of 120?",
+    "type": "multiple_choice",
+    "options": ["25", "30", "35", "40"],
+    "correct_answer": "30",
+    "subject": "Mathematics",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "25% of 120 = 0.25 × 120 = 30"
+  },
+  {
+    "_id": "medium8_math_008",
+    "content": "Simplify: √(50)",
+    "type": "multiple_choice",
+    "options": ["5√2", "2√5", "10√5", "25√2"],
+    "correct_answer": "5√2",
+    "subject": "Mathematics",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "√50 = √(25 × 2) = √25 × √2 = 5√2"
+  },
+  {
+    "_id": "medium8_math_009",
+    "content": "What is the surface area of a rectangular prism with dimensions 3×4×5?",
+    "type": "multiple_choice",
+    "options": ["60", "94", "120", "47"],
+    "correct_answer": "94",
+    "subject": "Mathematics",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "SA = 2(lw + lh + wh) = 2(12 + 15 + 20) = 2(47) = 94"
+  },
+  {
+    "_id": "medium8_math_010",
+    "content": "If y varies directly with x and y = 12 when x = 4, what is y when x = 7?",
+    "type": "multiple_choice",
+    "options": ["18", "21", "24", "28"],
+    "correct_answer": "21",
+    "subject": "Mathematics",
+    "grade": 8,
+    "difficulty": "medium",
+    "explanation": "y = kx, so 12 = k(4), k = 3. When x = 7: y = 3(7) = 21"
   }
 ]

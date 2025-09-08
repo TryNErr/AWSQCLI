@@ -318,5 +318,115 @@
     "grade": 1,
     "difficulty": "medium",
     "explanation": "The passage provides the information needed to answer this question."
+  },
+  {
+    "_id": "medium1_read_001",
+    "content": "Read: \"Sam went to the store with his mom. They bought apples and milk. Sam was happy.\" Why was Sam happy?",
+    "type": "multiple_choice",
+    "options": ["He went to the store", "He bought apples", "He was with his mom", "All of the above"],
+    "correct_answer": "All of the above",
+    "subject": "Reading",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "The passage suggests Sam was happy about the whole experience."
+  },
+  {
+    "_id": "medium1_read_002",
+    "content": "Read: \"The little bird could not fly. Its wing was hurt. A kind girl helped the bird.\" What was wrong with the bird?",
+    "type": "multiple_choice",
+    "options": ["It was hungry", "Its wing was hurt", "It was lost", "It was cold"],
+    "correct_answer": "Its wing was hurt",
+    "subject": "Reading",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "The passage clearly states the bird's wing was hurt."
+  },
+  {
+    "_id": "medium1_read_003",
+    "content": "Read: \"Today is sunny. We will go to the beach. We will build sand castles.\" What will they do at the beach?",
+    "type": "multiple_choice",
+    "options": ["swim", "build sand castles", "play ball", "eat lunch"],
+    "correct_answer": "build sand castles",
+    "subject": "Reading",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "The passage says they will build sand castles at the beach."
+  },
+  {
+    "_id": "medium1_read_004",
+    "content": "Read: \"Max has three pets. He has a dog, a cat, and a fish. He feeds them every day.\" How many pets does Max have?",
+    "type": "multiple_choice",
+    "options": ["two", "three", "four", "five"],
+    "correct_answer": "three",
+    "subject": "Reading",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "The passage states Max has three pets: a dog, a cat, and a fish."
+  },
+  {
+    "_id": "medium1_read_005",
+    "content": "Read: \"It was raining outside. Lisa put on her raincoat and boots. Then she went outside to play.\" Why did Lisa put on her raincoat?",
+    "type": "multiple_choice",
+    "options": ["It was cold", "It was raining", "It was windy", "It was hot"],
+    "correct_answer": "It was raining",
+    "subject": "Reading",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "Lisa put on her raincoat because it was raining outside."
+  },
+  {
+    "_id": "medium1_read_006",
+    "content": "Read: \"The flowers in the garden are beautiful. There are red roses and yellow daisies. Bees visit the flowers.\" What colors are mentioned?",
+    "type": "multiple_choice",
+    "options": ["red and blue", "red and yellow", "yellow and green", "blue and yellow"],
+    "correct_answer": "red and yellow",
+    "subject": "Reading",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "The passage mentions red roses and yellow daisies."
+  },
+  {
+    "_id": "medium1_read_007",
+    "content": "Read: \"Tom lost his toy car. He looked under his bed. He looked in his toy box. He found it in the kitchen.\" Where did Tom find his toy car?",
+    "type": "multiple_choice",
+    "options": ["under his bed", "in his toy box", "in the kitchen", "in his room"],
+    "correct_answer": "in the kitchen",
+    "subject": "Reading",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "The passage states Tom found his toy car in the kitchen."
+  },
+  {
+    "_id": "medium1_read_008",
+    "content": "Read: \"The baby duck followed its mother. They walked to the pond. The baby duck learned to swim.\" What did the baby duck learn?",
+    "type": "multiple_choice",
+    "options": ["to walk", "to swim", "to fly", "to eat"],
+    "correct_answer": "to swim",
+    "subject": "Reading",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "The passage says the baby duck learned to swim."
+  },
+  {
+    "_id": "medium1_read_009",
+    "content": "Read: \"Anna planted seeds in her garden. She watered them every day. Soon, green plants grew.\" What happened after Anna watered the seeds?",
+    "type": "multiple_choice",
+    "options": ["Nothing happened", "Green plants grew", "The seeds died", "Birds ate them"],
+    "correct_answer": "Green plants grew",
+    "subject": "Reading",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "The passage states that green plants grew after Anna watered the seeds."
+  },
+  {
+    "_id": "medium1_read_010",
+    "content": "Read: \"The old tree had many leaves. In fall, the leaves turned red and yellow. Then they fell to the ground.\" When do the leaves fall?",
+    "type": "multiple_choice",
+    "options": ["in spring", "in summer", "in fall", "in winter"],
+    "correct_answer": "in fall",
+    "subject": "Reading",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "The passage describes the leaves falling in fall (autumn)."
   }
 ]

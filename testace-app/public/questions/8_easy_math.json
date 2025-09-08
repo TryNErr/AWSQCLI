@@ -538,5 +538,115 @@
     "grade": 8,
     "difficulty": "easy",
     "explanation": "8² = 8 × 8 = 64"
+  },
+  {
+    "_id": "easy8_math_001",
+    "content": "Solve: 3x + 12 = 27",
+    "type": "multiple_choice",
+    "options": ["x = 3", "x = 4", "x = 5", "x = 6"],
+    "correct_answer": "x = 5",
+    "subject": "Mathematics",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "3x + 12 = 27, so 3x = 15, therefore x = 5"
+  },
+  {
+    "_id": "easy8_math_002",
+    "content": "What is the slope of the line passing through (2, 3) and (4, 7)?",
+    "type": "multiple_choice",
+    "options": ["1", "2", "3", "4"],
+    "correct_answer": "2",
+    "subject": "Mathematics",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "Slope = (7 - 3)/(4 - 2) = 4/2 = 2"
+  },
+  {
+    "_id": "easy8_math_003",
+    "content": "Simplify: 2x + 5x - 3x",
+    "type": "multiple_choice",
+    "options": ["4x", "5x", "6x", "10x"],
+    "correct_answer": "4x",
+    "subject": "Mathematics",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "2x + 5x - 3x = (2 + 5 - 3)x = 4x"
+  },
+  {
+    "_id": "easy8_math_004",
+    "content": "What is 15% of 80?",
+    "type": "multiple_choice",
+    "options": ["10", "12", "15", "20"],
+    "correct_answer": "12",
+    "subject": "Mathematics",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "15% of 80 = 0.15 × 80 = 12"
+  },
+  {
+    "_id": "easy8_math_005",
+    "content": "What is √36?",
+    "type": "multiple_choice",
+    "options": ["4", "5", "6", "7"],
+    "correct_answer": "6",
+    "subject": "Mathematics",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "√36 = 6 because 6² = 36"
+  },
+  {
+    "_id": "easy8_math_006",
+    "content": "Solve: x/4 = 7",
+    "type": "multiple_choice",
+    "options": ["x = 24", "x = 28", "x = 32", "x = 35"],
+    "correct_answer": "x = 28",
+    "subject": "Mathematics",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "x/4 = 7, so x = 7 × 4 = 28"
+  },
+  {
+    "_id": "easy8_math_007",
+    "content": "What is 2³ × 2²?",
+    "type": "multiple_choice",
+    "options": ["2⁵", "2⁶", "4⁵", "4⁶"],
+    "correct_answer": "2⁵",
+    "subject": "Mathematics",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "2³ × 2² = 2³⁺² = 2⁵"
+  },
+  {
+    "_id": "easy8_math_008",
+    "content": "What is the area of a rectangle with length 8 cm and width 5 cm?",
+    "type": "multiple_choice",
+    "options": ["26 cm²", "40 cm²", "13 cm²", "80 cm²"],
+    "correct_answer": "40 cm²",
+    "subject": "Mathematics",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "Area = length × width = 8 × 5 = 40 cm²"
+  },
+  {
+    "_id": "easy8_math_009",
+    "content": "Simplify: 3(x + 4)",
+    "type": "multiple_choice",
+    "options": ["3x + 4", "3x + 12", "x + 12", "3x + 7"],
+    "correct_answer": "3x + 12",
+    "subject": "Mathematics",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "3(x + 4) = 3x + 3(4) = 3x + 12"
+  },
+  {
+    "_id": "easy8_math_010",
+    "content": "What is the circumference of a circle with radius 3? (Use π ≈ 3.14)",
+    "type": "multiple_choice",
+    "options": ["18.84", "28.26", "9.42", "6.28"],
+    "correct_answer": "18.84",
+    "subject": "Mathematics",
+    "grade": 8,
+    "difficulty": "easy",
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 3 = 18.84"
   }
 ]

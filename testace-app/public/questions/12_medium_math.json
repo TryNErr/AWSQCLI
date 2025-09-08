@@ -538,5 +538,115 @@
     "grade": 12,
     "difficulty": "medium",
     "explanation": "d/dx(x⁵) = 5x⁴"
+  },
+  {
+    "_id": "medium12_math_001",
+    "content": "Find the derivative of f(x) = x²sin(x)",
+    "type": "multiple_choice",
+    "options": ["2xsin(x) + x²cos(x)", "2xcos(x) + x²sin(x)", "x²cos(x)", "2xsin(x)"],
+    "correct_answer": "2xsin(x) + x²cos(x)",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "medium",
+    "explanation": "Using product rule: f'(x) = 2x·sin(x) + x²·cos(x)"
+  },
+  {
+    "_id": "medium12_math_002",
+    "content": "What is ∫ x²e^x dx using integration by parts?",
+    "type": "multiple_choice",
+    "options": ["x²e^x - 2xe^x + 2e^x + C", "x²e^x + C", "e^x(x² - 2x + 2) + C", "Both A and C"],
+    "correct_answer": "Both A and C",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "medium",
+    "explanation": "Using integration by parts twice: ∫x²e^x dx = e^x(x² - 2x + 2) + C"
+  },
+  {
+    "_id": "medium12_math_003",
+    "content": "Find lim(x→0) (sin(3x)/x)",
+    "type": "multiple_choice",
+    "options": ["0", "1", "3", "undefined"],
+    "correct_answer": "3",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "medium",
+    "explanation": "lim(x→0) sin(3x)/x = 3 · lim(x→0) sin(3x)/(3x) = 3 · 1 = 3"
+  },
+  {
+    "_id": "medium12_math_004",
+    "content": "What is the second derivative of f(x) = x⁴ - 2x³?",
+    "type": "multiple_choice",
+    "options": ["12x² - 12x", "4x³ - 6x²", "12x - 12", "x³ - x²"],
+    "correct_answer": "12x² - 12x",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "medium",
+    "explanation": "f'(x) = 4x³ - 6x², f''(x) = 12x² - 12x"
+  },
+  {
+    "_id": "medium12_math_005",
+    "content": "Evaluate ∫₀¹ x³ dx",
+    "type": "multiple_choice",
+    "options": ["1/4", "1/3", "1/2", "1"],
+    "correct_answer": "1/4",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "medium",
+    "explanation": "∫₀¹ x³ dx = [x⁴/4]₀¹ = 1/4 - 0 = 1/4"
+  },
+  {
+    "_id": "medium12_math_006",
+    "content": "Find the critical points of f(x) = x³ - 3x² + 2",
+    "type": "multiple_choice",
+    "options": ["x = 0, 2", "x = 1, 2", "x = 0, 1", "x = -1, 2"],
+    "correct_answer": "x = 0, 2",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "medium",
+    "explanation": "f'(x) = 3x² - 6x = 3x(x - 2) = 0, so x = 0 or x = 2"
+  },
+  {
+    "_id": "medium12_math_007",
+    "content": "What is the derivative of f(x) = ln(x²)?",
+    "type": "multiple_choice",
+    "options": ["1/x²", "2/x", "2x", "1/x"],
+    "correct_answer": "2/x",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "medium",
+    "explanation": "f(x) = ln(x²) = 2ln(x), so f'(x) = 2/x"
+  },
+  {
+    "_id": "medium12_math_008",
+    "content": "Find the area under y = x² from x = 0 to x = 2",
+    "type": "multiple_choice",
+    "options": ["8/3", "4", "8", "4/3"],
+    "correct_answer": "8/3",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "medium",
+    "explanation": "∫₀² x² dx = [x³/3]₀² = 8/3 - 0 = 8/3"
+  },
+  {
+    "_id": "medium12_math_009",
+    "content": "What is the derivative of f(x) = e^(2x)?",
+    "type": "multiple_choice",
+    "options": ["e^(2x)", "2e^(2x)", "2e^x", "e^x"],
+    "correct_answer": "2e^(2x)",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "medium",
+    "explanation": "Using chain rule: f'(x) = e^(2x) · 2 = 2e^(2x)"
+  },
+  {
+    "_id": "medium12_math_010",
+    "content": "Find lim(x→∞) (2x² + 3x)/(x² - 1)",
+    "type": "multiple_choice",
+    "options": ["0", "1", "2", "∞"],
+    "correct_answer": "2",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "medium",
+    "explanation": "Divide by highest power: lim(x→∞) (2 + 3/x)/(1 - 1/x²) = 2/1 = 2"
   }
 ]

@@ -538,5 +538,115 @@
     "grade": 11,
     "difficulty": "hard",
     "explanation": "d/dx[tan(x)] = sec²(x)"
+  },
+  {
+    "_id": "hard11_math_001",
+    "content": "Find the derivative of f(x) = ln(sin(x))",
+    "type": "multiple_choice",
+    "options": ["cos(x)/sin(x)", "cot(x)", "tan(x)", "sec(x)"],
+    "correct_answer": "cot(x)",
+    "subject": "Mathematics",
+    "grade": 11,
+    "difficulty": "hard",
+    "explanation": "Using chain rule: f'(x) = (1/sin(x)) · cos(x) = cos(x)/sin(x) = cot(x)"
+  },
+  {
+    "_id": "hard11_math_002",
+    "content": "Solve: e^(2x) - 3e^x + 2 = 0",
+    "type": "multiple_choice",
+    "options": ["x = 0, ln(2)", "x = ln(2), ln(3)", "x = 1, 2", "x = 0, 1"],
+    "correct_answer": "x = 0, ln(2)",
+    "subject": "Mathematics",
+    "grade": 11,
+    "difficulty": "hard",
+    "explanation": "Let u = e^x: u² - 3u + 2 = 0, (u-1)(u-2) = 0, so e^x = 1 or e^x = 2, x = 0 or ln(2)"
+  },
+  {
+    "_id": "hard11_math_003",
+    "content": "Find the exact value of sin(5π/6)",
+    "type": "multiple_choice",
+    "options": ["1/2", "-1/2", "√3/2", "-√3/2"],
+    "correct_answer": "1/2",
+    "subject": "Mathematics",
+    "grade": 11,
+    "difficulty": "hard",
+    "explanation": "5π/6 = 150°, sin(150°) = sin(180° - 30°) = sin(30°) = 1/2"
+  },
+  {
+    "_id": "hard11_math_004",
+    "content": "What is the derivative of f(x) = x^x?",
+    "type": "multiple_choice",
+    "options": ["x^x", "x^x(ln(x) + 1)", "x^(x-1)", "x^x · ln(x)"],
+    "correct_answer": "x^x(ln(x) + 1)",
+    "subject": "Mathematics",
+    "grade": 11,
+    "difficulty": "hard",
+    "explanation": "Using logarithmic differentiation: ln(f) = x ln(x), f'/f = ln(x) + 1, so f' = x^x(ln(x) + 1)"
+  },
+  {
+    "_id": "hard11_math_005",
+    "content": "Solve: log₂(x) + log₂(x-6) = 4",
+    "type": "multiple_choice",
+    "options": ["x = 8", "x = 10", "x = 12", "x = 16"],
+    "correct_answer": "x = 8",
+    "subject": "Mathematics",
+    "grade": 11,
+    "difficulty": "hard",
+    "explanation": "log₂(x(x-6)) = 4, so x(x-6) = 16, x² - 6x - 16 = 0, (x-8)(x+2) = 0, x = 8"
+  },
+  {
+    "_id": "hard11_math_006",
+    "content": "Find the period of y = 3sin(4x - π/3)",
+    "type": "multiple_choice",
+    "options": ["π/4", "π/2", "π", "2π"],
+    "correct_answer": "π/2",
+    "subject": "Mathematics",
+    "grade": 11,
+    "difficulty": "hard",
+    "explanation": "Period of sin(bx + c) is 2π/b, so period is 2π/4 = π/2"
+  },
+  {
+    "_id": "hard11_math_007",
+    "content": "What is the derivative of f(x) = arcsin(2x)?",
+    "type": "multiple_choice",
+    "options": ["2/√(1-4x²)", "1/√(1-4x²)", "2/√(1-x²)", "1/√(1-x²)"],
+    "correct_answer": "2/√(1-4x²)",
+    "subject": "Mathematics",
+    "grade": 11,
+    "difficulty": "hard",
+    "explanation": "Using chain rule: f'(x) = (1/√(1-(2x)²)) · 2 = 2/√(1-4x²)"
+  },
+  {
+    "_id": "hard11_math_008",
+    "content": "Solve the equation: 2cos²(x) - cos(x) - 1 = 0 for 0 ≤ x < 2π",
+    "type": "multiple_choice",
+    "options": ["x = 0, π", "x = π/3, 5π/3", "x = 0, 2π/3, 4π/3", "x = π/2, 3π/2"],
+    "correct_answer": "x = 0, 2π/3, 4π/3",
+    "subject": "Mathematics",
+    "grade": 11,
+    "difficulty": "hard",
+    "explanation": "Let u = cos(x): 2u² - u - 1 = 0, (2u+1)(u-1) = 0, cos(x) = 1 or -1/2"
+  },
+  {
+    "_id": "hard11_math_009",
+    "content": "Find the inverse of f(x) = 2e^x + 1",
+    "type": "multiple_choice",
+    "options": ["f⁻¹(x) = ln((x-1)/2)", "f⁻¹(x) = ln(x-1) - ln(2)", "f⁻¹(x) = (ln(x)-1)/2", "Both A and B"],
+    "correct_answer": "Both A and B",
+    "subject": "Mathematics",
+    "grade": 11,
+    "difficulty": "hard",
+    "explanation": "y = 2e^x + 1, e^x = (y-1)/2, x = ln((y-1)/2) = ln(y-1) - ln(2)"
+  },
+  {
+    "_id": "hard11_math_010",
+    "content": "What is the amplitude and phase shift of y = 4sin(2x + π/4)?",
+    "type": "multiple_choice",
+    "options": ["Amplitude: 4, Phase shift: -π/8", "Amplitude: 4, Phase shift: π/4", "Amplitude: 2, Phase shift: -π/8", "Amplitude: 4, Phase shift: -π/4"],
+    "correct_answer": "Amplitude: 4, Phase shift: -π/8",
+    "subject": "Mathematics",
+    "grade": 11,
+    "difficulty": "hard",
+    "explanation": "y = 4sin(2(x + π/8)), amplitude = 4, phase shift = -π/8 (left)"
   }
 ]

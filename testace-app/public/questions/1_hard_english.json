@@ -318,5 +318,115 @@
     "grade": 1,
     "difficulty": "hard",
     "explanation": "The letter M makes the 'mmm' sound"
+  },
+  {
+    "_id": "hard1_eng_001",
+    "content": "Which word has a silent letter?",
+    "type": "multiple_choice",
+    "options": ["knee", "cat", "dog", "run"],
+    "correctAnswer": "knee",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "In \"knee,\" the 'k' is silent - we don't say the 'k' sound."
+  },
+  {
+    "_id": "hard1_eng_002",
+    "content": "What is the plural of \"child\"?",
+    "type": "multiple_choice",
+    "options": ["childs", "children", "childes", "child"],
+    "correctAnswer": "children",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "\"Children\" is the irregular plural form of \"child.\""
+  },
+  {
+    "_id": "hard1_eng_003",
+    "content": "Which sentence uses correct punctuation?",
+    "type": "multiple_choice",
+    "options": ["Wow, that's amazing!", "Wow that's amazing.", "wow, that's amazing!", "Wow that's amazing"],
+    "correctAnswer": "Wow, that's amazing!",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "Exclamations start with capitals, use commas after interjections, and end with exclamation points."
+  },
+  {
+    "_id": "hard1_eng_004",
+    "content": "What type of word is \"quickly\"?",
+    "type": "multiple_choice",
+    "options": ["describing an action", "naming word", "action word", "connecting word"],
+    "correctAnswer": "describing an action",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "\"Quickly\" is an adverb that describes how an action is done."
+  },
+  {
+    "_id": "hard1_eng_005",
+    "content": "Which word completes the sentence: \"I _____ to school yesterday\"?",
+    "type": "multiple_choice",
+    "options": ["go", "went", "going", "goes"],
+    "correctAnswer": "went",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "\"Went\" is the past tense of \"go\" and matches with \"yesterday.\""
+  },
+  {
+    "_id": "hard1_eng_006",
+    "content": "What is a compound word?",
+    "type": "multiple_choice",
+    "options": ["two words joined together", "a very long word", "a word with silent letters", "a word that rhymes"],
+    "correctAnswer": "two words joined together",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "Compound words are made by joining two smaller words, like \"sunshine\" or \"baseball.\""
+  },
+  {
+    "_id": "hard1_eng_007",
+    "content": "Which is a compound word?",
+    "type": "multiple_choice",
+    "options": ["rainbow", "elephant", "beautiful", "running"],
+    "correctAnswer": "rainbow",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "\"Rainbow\" is made from \"rain\" + \"bow\" - two words joined together."
+  },
+  {
+    "_id": "hard1_eng_008",
+    "content": "What makes the /ch/ sound in \"chair\"?",
+    "type": "multiple_choice",
+    "options": ["c and h together", "just c", "just h", "a and i together"],
+    "correctAnswer": "c and h together",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "The letters 'c' and 'h' work together to make the /ch/ sound."
+  },
+  {
+    "_id": "hard1_eng_009",
+    "content": "Which sentence has the correct word order?",
+    "type": "multiple_choice",
+    "options": ["The big red ball bounced.", "Red big the ball bounced.", "Ball the bounced big red.", "Bounced red big the ball."],
+    "correctAnswer": "The big red ball bounced.",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "English follows the pattern: article + adjectives + noun + verb."
+  },
+  {
+    "_id": "hard1_eng_010",
+    "content": "What is the root word in \"playing\"?",
+    "type": "multiple_choice",
+    "options": ["play", "ing", "playing", "lay"],
+    "correctAnswer": "play",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "hard",
+    "explanation": "\"Play\" is the root word, and \"-ing\" is the ending that was added."
   }
 ]

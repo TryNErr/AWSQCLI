@@ -538,5 +538,115 @@
     "grade": 10,
     "difficulty": "hard",
     "explanation": "sin(π/6) = sin(30°) = 1/2"
+  },
+  {
+    "_id": "hard10_math_001",
+    "content": "Solve using the quadratic formula: 3x² - 5x - 2 = 0",
+    "type": "multiple_choice",
+    "options": ["x = 2, -1/3", "x = 1, -2/3", "x = 2, 1/3", "x = -2, 1/3"],
+    "correct_answer": "x = 2, -1/3",
+    "subject": "Mathematics",
+    "grade": 10,
+    "difficulty": "hard",
+    "explanation": "x = (5 ± √(25 + 24))/6 = (5 ± 7)/6 = 2 or -1/3"
+  },
+  {
+    "_id": "hard10_math_002",
+    "content": "Find the equation of the line perpendicular to y = 2x + 1 passing through (4, -1)",
+    "type": "multiple_choice",
+    "options": ["y = -1/2x + 1", "y = -1/2x - 1", "y = 2x - 9", "y = -2x + 7"],
+    "correct_answer": "y = -1/2x + 1",
+    "subject": "Mathematics",
+    "grade": 10,
+    "difficulty": "hard",
+    "explanation": "Perpendicular slope = -1/2. Using point-slope: y + 1 = -1/2(x - 4) → y = -1/2x + 1"
+  },
+  {
+    "_id": "hard10_math_003",
+    "content": "Simplify: (2x - 3)/(x² - 9) ÷ (4x - 6)/(x + 3)",
+    "type": "multiple_choice",
+    "options": ["1/2", "1/(2(x + 3))", "2/(x - 3)", "1/2(x - 3)"],
+    "correct_answer": "1/2",
+    "subject": "Mathematics",
+    "grade": 10,
+    "difficulty": "hard",
+    "explanation": "(2x-3)/((x-3)(x+3)) × (x+3)/(2(2x-3)) = 1/2"
+  },
+  {
+    "_id": "hard10_math_004",
+    "content": "Find the inverse of f(x) = 2x - 5",
+    "type": "multiple_choice",
+    "options": ["f⁻¹(x) = (x + 5)/2", "f⁻¹(x) = (x - 5)/2", "f⁻¹(x) = 2x + 5", "f⁻¹(x) = x/2 + 5"],
+    "correct_answer": "f⁻¹(x) = (x + 5)/2",
+    "subject": "Mathematics",
+    "grade": 10,
+    "difficulty": "hard",
+    "explanation": "Let y = 2x - 5, solve for x: x = (y + 5)/2, so f⁻¹(x) = (x + 5)/2"
+  },
+  {
+    "_id": "hard10_math_005",
+    "content": "Solve: |3x - 2| = 7",
+    "type": "multiple_choice",
+    "options": ["x = 3, -5/3", "x = 3, 5/3", "x = -3, 5/3", "x = 9/3, -5/3"],
+    "correct_answer": "x = 3, -5/3",
+    "subject": "Mathematics",
+    "grade": 10,
+    "difficulty": "hard",
+    "explanation": "3x - 2 = 7 or 3x - 2 = -7, so x = 3 or x = -5/3"
+  },
+  {
+    "_id": "hard10_math_006",
+    "content": "Factor completely: x⁴ - 16",
+    "type": "multiple_choice",
+    "options": ["(x² - 4)(x² + 4)", "(x - 2)(x + 2)(x² + 4)", "(x - 2)²(x + 2)²", "(x² - 2)(x² + 2)"],
+    "correct_answer": "(x - 2)(x + 2)(x² + 4)",
+    "subject": "Mathematics",
+    "grade": 10,
+    "difficulty": "hard",
+    "explanation": "x⁴ - 16 = (x²)² - 4² = (x² - 4)(x² + 4) = (x - 2)(x + 2)(x² + 4)"
+  },
+  {
+    "_id": "hard10_math_007",
+    "content": "Find the maximum value of f(x) = -2x² + 8x - 3",
+    "type": "multiple_choice",
+    "options": ["3", "5", "8", "13"],
+    "correct_answer": "5",
+    "subject": "Mathematics",
+    "grade": 10,
+    "difficulty": "hard",
+    "explanation": "Vertex at x = -b/2a = 8/4 = 2. f(2) = -2(4) + 8(2) - 3 = 5"
+  },
+  {
+    "_id": "hard10_math_008",
+    "content": "Solve the system: x² + y² = 25, x + y = 7",
+    "type": "multiple_choice",
+    "options": ["(3,4), (4,3)", "(0,5), (5,0)", "(1,6), (6,1)", "(-1,8), (8,-1)"],
+    "correct_answer": "(3,4), (4,3)",
+    "subject": "Mathematics",
+    "grade": 10,
+    "difficulty": "hard",
+    "explanation": "From x + y = 7: y = 7 - x. Substitute: x² + (7-x)² = 25 → x = 3 or 4"
+  },
+  {
+    "_id": "hard10_math_009",
+    "content": "What is the remainder when x³ - 2x² + x - 3 is divided by (x - 2)?",
+    "type": "multiple_choice",
+    "options": ["-1", "1", "3", "5"],
+    "correct_answer": "-1",
+    "subject": "Mathematics",
+    "grade": 10,
+    "difficulty": "hard",
+    "explanation": "By remainder theorem: f(2) = 8 - 8 + 2 - 3 = -1"
+  },
+  {
+    "_id": "hard10_math_010",
+    "content": "Find all solutions to x⁴ - 5x² + 4 = 0",
+    "type": "multiple_choice",
+    "options": ["x = ±1, ±2", "x = ±1, ±4", "x = ±2, ±4", "x = 1, 2, 4"],
+    "correct_answer": "x = ±1, ±2",
+    "subject": "Mathematics",
+    "grade": 10,
+    "difficulty": "hard",
+    "explanation": "Let u = x²: u² - 5u + 4 = 0, (u-1)(u-4) = 0, so x² = 1 or 4, x = ±1, ±2"
   }
 ]

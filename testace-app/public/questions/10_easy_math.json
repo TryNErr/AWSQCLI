@@ -538,5 +538,115 @@
     "grade": 10,
     "difficulty": "easy",
     "explanation": "√121 = 11 because 11² = 121"
+  },
+  {
+    "_id": "easy10_math_001",
+    "content": "Factor: x² + 5x + 6",
+    "type": "multiple_choice",
+    "options": ["(x + 2)(x + 3)", "(x + 1)(x + 6)", "(x - 2)(x - 3)", "(x + 5)(x + 1)"],
+    "correct_answer": "(x + 2)(x + 3)",
+    "subject": "Mathematics",
+    "grade": 10,
+    "difficulty": "easy",
+    "explanation": "Need two numbers that multiply to 6 and add to 5: 2 and 3"
+  },
+  {
+    "_id": "easy10_math_002",
+    "content": "Solve: 2x + 7 = 15",
+    "type": "multiple_choice",
+    "options": ["x = 3", "x = 4", "x = 5", "x = 8"],
+    "correct_answer": "x = 4",
+    "subject": "Mathematics",
+    "grade": 10,
+    "difficulty": "easy",
+    "explanation": "2x + 7 = 15, so 2x = 8, therefore x = 4"
+  },
+  {
+    "_id": "easy10_math_003",
+    "content": "What is the slope of the line y = 3x - 2?",
+    "type": "multiple_choice",
+    "options": ["-2", "2", "3", "-3"],
+    "correct_answer": "3",
+    "subject": "Mathematics",
+    "grade": 10,
+    "difficulty": "easy",
+    "explanation": "In y = mx + b form, m is the slope, so slope = 3"
+  },
+  {
+    "_id": "easy10_math_004",
+    "content": "Simplify: (2x³)(3x²)",
+    "type": "multiple_choice",
+    "options": ["5x⁵", "6x⁵", "6x⁶", "5x⁶"],
+    "correct_answer": "6x⁵",
+    "subject": "Mathematics",
+    "grade": 10,
+    "difficulty": "easy",
+    "explanation": "(2x³)(3x²) = 6x³⁺² = 6x⁵"
+  },
+  {
+    "_id": "easy10_math_005",
+    "content": "What is √49?",
+    "type": "multiple_choice",
+    "options": ["6", "7", "8", "9"],
+    "correct_answer": "7",
+    "subject": "Mathematics",
+    "grade": 10,
+    "difficulty": "easy",
+    "explanation": "√49 = 7 because 7² = 49"
+  },
+  {
+    "_id": "easy10_math_006",
+    "content": "Solve: x² = 25",
+    "type": "multiple_choice",
+    "options": ["x = 5", "x = ±5", "x = 25", "x = ±25"],
+    "correct_answer": "x = ±5",
+    "subject": "Mathematics",
+    "grade": 10,
+    "difficulty": "easy",
+    "explanation": "x² = 25 means x = 5 or x = -5"
+  },
+  {
+    "_id": "easy10_math_007",
+    "content": "What is the y-intercept of y = 2x + 8?",
+    "type": "multiple_choice",
+    "options": ["2", "8", "-8", "4"],
+    "correct_answer": "8",
+    "subject": "Mathematics",
+    "grade": 10,
+    "difficulty": "easy",
+    "explanation": "In y = mx + b form, b is the y-intercept = 8"
+  },
+  {
+    "_id": "easy10_math_008",
+    "content": "Simplify: 3x + 5x - 2x",
+    "type": "multiple_choice",
+    "options": ["6x", "10x", "8x", "5x"],
+    "correct_answer": "6x",
+    "subject": "Mathematics",
+    "grade": 10,
+    "difficulty": "easy",
+    "explanation": "3x + 5x - 2x = (3 + 5 - 2)x = 6x"
+  },
+  {
+    "_id": "easy10_math_009",
+    "content": "What is 2³?",
+    "type": "multiple_choice",
+    "options": ["6", "8", "9", "16"],
+    "correct_answer": "8",
+    "subject": "Mathematics",
+    "grade": 10,
+    "difficulty": "easy",
+    "explanation": "2³ = 2 × 2 × 2 = 8"
+  },
+  {
+    "_id": "easy10_math_010",
+    "content": "Factor: x² - 16",
+    "type": "multiple_choice",
+    "options": ["(x - 4)(x - 4)", "(x + 4)(x + 4)", "(x - 4)(x + 4)", "(x - 16)(x + 1)"],
+    "correct_answer": "(x - 4)(x + 4)",
+    "subject": "Mathematics",
+    "grade": 10,
+    "difficulty": "easy",
+    "explanation": "x² - 16 is a difference of squares: x² - 4² = (x - 4)(x + 4)"
   }
 ]

@@ -538,5 +538,115 @@
     "grade": 2,
     "difficulty": "easy",
     "explanation": "32 ÷ 8 = 4"
+  },
+  {
+    "_id": "easy2_math_001",
+    "content": "What is 15 + 7?",
+    "type": "multiple_choice",
+    "options": ["20", "21", "22", "23"],
+    "correct_answer": "22",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "easy",
+    "explanation": "15 + 7 = 22"
+  },
+  {
+    "_id": "easy2_math_002",
+    "content": "What is 18 - 9?",
+    "type": "multiple_choice",
+    "options": ["8", "9", "10", "11"],
+    "correct_answer": "9",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "easy",
+    "explanation": "18 - 9 = 9"
+  },
+  {
+    "_id": "easy2_math_003",
+    "content": "Count by 2s: 2, 4, 6, 8, ___?",
+    "type": "multiple_choice",
+    "options": ["9", "10", "11", "12"],
+    "correct_answer": "10",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "easy",
+    "explanation": "Counting by 2s: 2, 4, 6, 8, 10"
+  },
+  {
+    "_id": "easy2_math_004",
+    "content": "How many sides does a rectangle have?",
+    "type": "multiple_choice",
+    "options": ["3", "4", "5", "6"],
+    "correct_answer": "4",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "easy",
+    "explanation": "A rectangle has 4 sides"
+  },
+  {
+    "_id": "easy2_math_005",
+    "content": "What is 3 × 4?",
+    "type": "multiple_choice",
+    "options": ["10", "11", "12", "13"],
+    "correct_answer": "12",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "easy",
+    "explanation": "3 × 4 = 12"
+  },
+  {
+    "_id": "easy2_math_006",
+    "content": "Which number is greater: 25 or 19?",
+    "type": "multiple_choice",
+    "options": ["25", "19", "They are equal", "Cannot tell"],
+    "correct_answer": "25",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "easy",
+    "explanation": "25 is greater than 19"
+  },
+  {
+    "_id": "easy2_math_007",
+    "content": "What is 20 - 12?",
+    "type": "multiple_choice",
+    "options": ["6", "7", "8", "9"],
+    "correct_answer": "8",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "easy",
+    "explanation": "20 - 12 = 8"
+  },
+  {
+    "_id": "easy2_math_008",
+    "content": "Count by 5s: 5, 10, 15, ___?",
+    "type": "multiple_choice",
+    "options": ["18", "19", "20", "21"],
+    "correct_answer": "20",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "easy",
+    "explanation": "Counting by 5s: 5, 10, 15, 20"
+  },
+  {
+    "_id": "easy2_math_009",
+    "content": "What is 2 × 6?",
+    "type": "multiple_choice",
+    "options": ["10", "11", "12", "13"],
+    "correct_answer": "12",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "easy",
+    "explanation": "2 × 6 = 12"
+  },
+  {
+    "_id": "easy2_math_010",
+    "content": "How many tens are in 40?",
+    "type": "multiple_choice",
+    "options": ["3", "4", "5", "6"],
+    "correct_answer": "4",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "easy",
+    "explanation": "40 has 4 tens (4 × 10 = 40)"
   }
 ]

@@ -538,5 +538,115 @@
     "grade": 9,
     "difficulty": "easy",
     "explanation": "In y = mx + b form, b is the y-intercept = 7"
+  },
+  {
+    "_id": "easy9_math_001",
+    "content": "What is √64?",
+    "type": "multiple_choice",
+    "options": ["6", "7", "8", "9"],
+    "correct_answer": "8",
+    "subject": "Mathematics",
+    "grade": 9,
+    "difficulty": "easy",
+    "explanation": "√64 = 8 because 8² = 64"
+  },
+  {
+    "_id": "easy9_math_002",
+    "content": "Solve for x: 3x + 5 = 20",
+    "type": "multiple_choice",
+    "options": ["3", "4", "5", "6"],
+    "correct_answer": "5",
+    "subject": "Mathematics",
+    "grade": 9,
+    "difficulty": "easy",
+    "explanation": "3x + 5 = 20, so 3x = 15, therefore x = 5"
+  },
+  {
+    "_id": "easy9_math_003",
+    "content": "What is the slope of the line y = 2x - 3?",
+    "type": "multiple_choice",
+    "options": ["-3", "2", "3", "-2"],
+    "correct_answer": "2",
+    "subject": "Mathematics",
+    "grade": 9,
+    "difficulty": "easy",
+    "explanation": "In y = mx + b form, m is the slope, so slope = 2"
+  },
+  {
+    "_id": "easy9_math_004",
+    "content": "What is 2⁴?",
+    "type": "multiple_choice",
+    "options": ["8", "12", "16", "20"],
+    "correct_answer": "16",
+    "subject": "Mathematics",
+    "grade": 9,
+    "difficulty": "easy",
+    "explanation": "2⁴ = 2 × 2 × 2 × 2 = 16"
+  },
+  {
+    "_id": "easy9_math_005",
+    "content": "Factor: x² - 9",
+    "type": "multiple_choice",
+    "options": ["(x - 3)(x - 3)", "(x + 3)(x + 3)", "(x - 3)(x + 3)", "(x - 9)(x + 1)"],
+    "correct_answer": "(x - 3)(x + 3)",
+    "subject": "Mathematics",
+    "grade": 9,
+    "difficulty": "easy",
+    "explanation": "x² - 9 is a difference of squares: x² - 3² = (x - 3)(x + 3)"
+  },
+  {
+    "_id": "easy9_math_006",
+    "content": "What is the y-intercept of y = -4x + 7?",
+    "type": "multiple_choice",
+    "options": ["-4", "4", "7", "-7"],
+    "correct_answer": "7",
+    "subject": "Mathematics",
+    "grade": 9,
+    "difficulty": "easy",
+    "explanation": "In y = mx + b form, b is the y-intercept = 7"
+  },
+  {
+    "_id": "easy9_math_007",
+    "content": "Simplify: 3x + 2x - x",
+    "type": "multiple_choice",
+    "options": ["4x", "5x", "6x", "2x"],
+    "correct_answer": "4x",
+    "subject": "Mathematics",
+    "grade": 9,
+    "difficulty": "easy",
+    "explanation": "3x + 2x - x = (3 + 2 - 1)x = 4x"
+  },
+  {
+    "_id": "easy9_math_008",
+    "content": "What is the area of a circle with radius 3? (Use π ≈ 3.14)",
+    "type": "multiple_choice",
+    "options": ["18.84", "28.26", "9.42", "6.28"],
+    "correct_answer": "28.26",
+    "subject": "Mathematics",
+    "grade": 9,
+    "difficulty": "easy",
+    "explanation": "Area = πr² = 3.14 × 3² = 3.14 × 9 = 28.26"
+  },
+  {
+    "_id": "easy9_math_009",
+    "content": "Solve: 2x - 8 = 0",
+    "type": "multiple_choice",
+    "options": ["2", "3", "4", "8"],
+    "correct_answer": "4",
+    "subject": "Mathematics",
+    "grade": 9,
+    "difficulty": "easy",
+    "explanation": "2x - 8 = 0, so 2x = 8, therefore x = 4"
+  },
+  {
+    "_id": "easy9_math_010",
+    "content": "What is the distance between points (0,0) and (3,4)?",
+    "type": "multiple_choice",
+    "options": ["5", "6", "7", "8"],
+    "correct_answer": "5",
+    "subject": "Mathematics",
+    "grade": 9,
+    "difficulty": "easy",
+    "explanation": "Distance = √[(3-0)² + (4-0)²] = √[9 + 16] = √25 = 5"
   }
 ]

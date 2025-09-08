@@ -318,5 +318,115 @@
     "grade": 1,
     "difficulty": "easy",
     "explanation": "The passage provides the information needed to answer this question."
+  },
+  {
+    "_id": "easy1_read_001",
+    "content": "Read: \"The cat sat on the mat.\" Where did the cat sit?",
+    "type": "multiple_choice",
+    "options": ["on the hat", "on the mat", "on the bat", "on the rat"],
+    "correct_answer": "on the mat",
+    "subject": "Reading",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The sentence clearly states the cat sat on the mat."
+  },
+  {
+    "_id": "easy1_read_002",
+    "content": "Read: \"Tom has a red ball.\" What color is Tom's ball?",
+    "type": "multiple_choice",
+    "options": ["blue", "red", "green", "yellow"],
+    "correct_answer": "red",
+    "subject": "Reading",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The sentence says Tom has a red ball."
+  },
+  {
+    "_id": "easy1_read_003",
+    "content": "Read: \"The dog runs fast.\" What does the dog do?",
+    "type": "multiple_choice",
+    "options": ["walks", "runs", "sleeps", "eats"],
+    "correct_answer": "runs",
+    "subject": "Reading",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The sentence tells us the dog runs fast."
+  },
+  {
+    "_id": "easy1_read_004",
+    "content": "Read: \"I see a big tree.\" What do I see?",
+    "type": "multiple_choice",
+    "options": ["a small tree", "a big tree", "a big car", "a small car"],
+    "correct_answer": "a big tree",
+    "subject": "Reading",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The sentence says \"I see a big tree.\""
+  },
+  {
+    "_id": "easy1_read_005",
+    "content": "Read: \"Mom made cookies.\" Who made cookies?",
+    "type": "multiple_choice",
+    "options": ["Dad", "Mom", "Sister", "Brother"],
+    "correct_answer": "Mom",
+    "subject": "Reading",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The sentence clearly states that Mom made cookies."
+  },
+  {
+    "_id": "easy1_read_006",
+    "content": "Read: \"The sun is hot.\" How is the sun?",
+    "type": "multiple_choice",
+    "options": ["cold", "hot", "wet", "small"],
+    "correct_answer": "hot",
+    "subject": "Reading",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The sentence describes the sun as hot."
+  },
+  {
+    "_id": "easy1_read_007",
+    "content": "Read: \"Fish swim in water.\" Where do fish swim?",
+    "type": "multiple_choice",
+    "options": ["in air", "in water", "on land", "in trees"],
+    "correct_answer": "in water",
+    "subject": "Reading",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The sentence tells us fish swim in water."
+  },
+  {
+    "_id": "easy1_read_008",
+    "content": "Read: \"Birds can fly.\" What can birds do?",
+    "type": "multiple_choice",
+    "options": ["swim", "fly", "run", "jump"],
+    "correct_answer": "fly",
+    "subject": "Reading",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The sentence states that birds can fly."
+  },
+  {
+    "_id": "easy1_read_009",
+    "content": "Read: \"The book is on the table.\" Where is the book?",
+    "type": "multiple_choice",
+    "options": ["under the table", "on the table", "beside the table", "in the table"],
+    "correct_answer": "on the table",
+    "subject": "Reading",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The sentence clearly states the book is on the table."
+  },
+  {
+    "_id": "easy1_read_010",
+    "content": "Read: \"We play at the park.\" Where do we play?",
+    "type": "multiple_choice",
+    "options": ["at home", "at school", "at the park", "at the store"],
+    "correct_answer": "at the park",
+    "subject": "Reading",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The sentence says we play at the park."
   }
 ]

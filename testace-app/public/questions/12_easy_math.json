@@ -538,5 +538,115 @@
     "grade": 12,
     "difficulty": "easy",
     "explanation": "log₁₀(100) = 2 because 10² = 100"
+  },
+  {
+    "_id": "easy12_math_001",
+    "content": "What is the derivative of f(x) = 3x²?",
+    "type": "multiple_choice",
+    "options": ["6x", "3x", "x²", "9x"],
+    "correct_answer": "6x",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "easy",
+    "explanation": "Using power rule: d/dx(3x²) = 3 × 2x¹ = 6x"
+  },
+  {
+    "_id": "easy12_math_002",
+    "content": "What is lim(x→2) (x² + 1)?",
+    "type": "multiple_choice",
+    "options": ["3", "4", "5", "6"],
+    "correct_answer": "5",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "easy",
+    "explanation": "Direct substitution: 2² + 1 = 4 + 1 = 5"
+  },
+  {
+    "_id": "easy12_math_003",
+    "content": "What is ∫ 2x dx?",
+    "type": "multiple_choice",
+    "options": ["x² + C", "2x² + C", "x²/2 + C", "2x + C"],
+    "correct_answer": "x² + C",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "easy",
+    "explanation": "∫ 2x dx = 2 × x²/2 + C = x² + C"
+  },
+  {
+    "_id": "easy12_math_004",
+    "content": "If f(x) = x³, what is f'(x)?",
+    "type": "multiple_choice",
+    "options": ["3x²", "x²", "3x³", "x⁴"],
+    "correct_answer": "3x²",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "easy",
+    "explanation": "Using power rule: d/dx(x³) = 3x²"
+  },
+  {
+    "_id": "easy12_math_005",
+    "content": "What is the domain of f(x) = 1/(x-3)?",
+    "type": "multiple_choice",
+    "options": ["All real numbers", "x ≠ 3", "x > 3", "x < 3"],
+    "correct_answer": "x ≠ 3",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "easy",
+    "explanation": "The function is undefined when x - 3 = 0, so x ≠ 3"
+  },
+  {
+    "_id": "easy12_math_006",
+    "content": "What is sin(π/2)?",
+    "type": "multiple_choice",
+    "options": ["0", "1", "-1", "1/2"],
+    "correct_answer": "1",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "easy",
+    "explanation": "sin(π/2) = sin(90°) = 1"
+  },
+  {
+    "_id": "easy12_math_007",
+    "content": "What is the derivative of f(x) = 5?",
+    "type": "multiple_choice",
+    "options": ["5", "0", "1", "5x"],
+    "correct_answer": "0",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "easy",
+    "explanation": "The derivative of any constant is 0"
+  },
+  {
+    "_id": "easy12_math_008",
+    "content": "What is e⁰?",
+    "type": "multiple_choice",
+    "options": ["0", "1", "e", "undefined"],
+    "correct_answer": "1",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "easy",
+    "explanation": "Any number raised to the power 0 equals 1"
+  },
+  {
+    "_id": "easy12_math_009",
+    "content": "What is cos(0)?",
+    "type": "multiple_choice",
+    "options": ["0", "1", "-1", "1/2"],
+    "correct_answer": "1",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "easy",
+    "explanation": "cos(0) = cos(0°) = 1"
+  },
+  {
+    "_id": "easy12_math_010",
+    "content": "What is lim(x→∞) (1/x)?",
+    "type": "multiple_choice",
+    "options": ["0", "1", "∞", "undefined"],
+    "correct_answer": "0",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "easy",
+    "explanation": "As x approaches infinity, 1/x approaches 0"
   }
 ]

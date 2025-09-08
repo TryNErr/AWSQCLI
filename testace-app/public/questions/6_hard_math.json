@@ -538,5 +538,115 @@
     "grade": 6,
     "difficulty": "hard",
     "explanation": "(-24) ÷ 8 = -3"
+  },
+  {
+    "_id": "hard6_math_001",
+    "content": "What is 2³ × 3² - 4²?",
+    "type": "multiple_choice",
+    "options": ["56", "58", "60", "62"],
+    "correct_answer": "56",
+    "subject": "Mathematics",
+    "grade": 6,
+    "difficulty": "hard",
+    "explanation": "2³ × 3² - 4² = 8 × 9 - 16 = 72 - 16 = 56"
+  },
+  {
+    "_id": "hard6_math_002",
+    "content": "If 2x + 7 = 19, what is x?",
+    "type": "multiple_choice",
+    "options": ["5", "6", "7", "8"],
+    "correct_answer": "6",
+    "subject": "Mathematics",
+    "grade": 6,
+    "difficulty": "hard",
+    "explanation": "2x + 7 = 19, so 2x = 12, therefore x = 6"
+  },
+  {
+    "_id": "hard6_math_003",
+    "content": "What is the surface area of a cube with side length 4 cm?",
+    "type": "multiple_choice",
+    "options": ["64 cm²", "96 cm²", "48 cm²", "80 cm²"],
+    "correct_answer": "96 cm²",
+    "subject": "Mathematics",
+    "grade": 6,
+    "difficulty": "hard",
+    "explanation": "Surface area of cube = 6 × side² = 6 × 4² = 6 × 16 = 96 cm²"
+  },
+  {
+    "_id": "hard6_math_004",
+    "content": "What is 3/4 ÷ 2/3?",
+    "type": "multiple_choice",
+    "options": ["1/2", "9/8", "6/8", "2/3"],
+    "correct_answer": "9/8",
+    "subject": "Mathematics",
+    "grade": 6,
+    "difficulty": "hard",
+    "explanation": "3/4 ÷ 2/3 = 3/4 × 3/2 = 9/8"
+  },
+  {
+    "_id": "hard6_math_005",
+    "content": "A shirt costs $24 after a 20% discount. What was the original price?",
+    "type": "multiple_choice",
+    "options": ["$28", "$30", "$32", "$35"],
+    "correct_answer": "$30",
+    "subject": "Mathematics",
+    "grade": 6,
+    "difficulty": "hard",
+    "explanation": "If 20% off, then $24 = 80% of original. Original = $24 ÷ 0.8 = $30"
+  },
+  {
+    "_id": "hard6_math_006",
+    "content": "What is the least common multiple (LCM) of 12 and 18?",
+    "type": "multiple_choice",
+    "options": ["30", "36", "54", "72"],
+    "correct_answer": "36",
+    "subject": "Mathematics",
+    "grade": 6,
+    "difficulty": "hard",
+    "explanation": "Multiples of 12: 12,24,36,48... Multiples of 18: 18,36,54... LCM = 36"
+  },
+  {
+    "_id": "hard6_math_007",
+    "content": "What is the circumference of a circle with radius 7 cm? (Use π ≈ 3.14)",
+    "type": "multiple_choice",
+    "options": ["43.96 cm", "21.98 cm", "14 cm", "49 cm"],
+    "correct_answer": "43.96 cm",
+    "subject": "Mathematics",
+    "grade": 6,
+    "difficulty": "hard",
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 7 = 43.96 cm"
+  },
+  {
+    "_id": "hard6_math_008",
+    "content": "If the ratio of boys to girls in a class is 3:4 and there are 21 students total, how many girls are there?",
+    "type": "multiple_choice",
+    "options": ["9", "12", "15", "18"],
+    "correct_answer": "12",
+    "subject": "Mathematics",
+    "grade": 6,
+    "difficulty": "hard",
+    "explanation": "Ratio 3:4 means 7 parts total. Girls = 4/7 × 21 = 12"
+  },
+  {
+    "_id": "hard6_math_009",
+    "content": "What is 1.25 × 10⁴ in standard form?",
+    "type": "multiple_choice",
+    "options": ["1,250", "12,500", "125,000", "1,250,000"],
+    "correct_answer": "12,500",
+    "subject": "Mathematics",
+    "grade": 6,
+    "difficulty": "hard",
+    "explanation": "1.25 × 10⁴ = 1.25 × 10,000 = 12,500"
+  },
+  {
+    "_id": "hard6_math_010",
+    "content": "What is the median of the data set: 15, 8, 23, 12, 19, 7, 16?",
+    "type": "multiple_choice",
+    "options": ["12", "15", "16", "19"],
+    "correct_answer": "15",
+    "subject": "Mathematics",
+    "grade": 6,
+    "difficulty": "hard",
+    "explanation": "Ordered: 7,8,12,15,16,19,23. The middle value (4th of 7) is 15"
   }
 ]

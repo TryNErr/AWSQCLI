@@ -538,5 +538,115 @@
     "grade": 10,
     "difficulty": "medium",
     "explanation": "(3x - 2)² = 9x² - 12x + 4"
+  },
+  {
+    "_id": "medium10_math_001",
+    "content": "Solve: x² - 6x + 8 = 0",
+    "type": "multiple_choice",
+    "options": ["x = 2, 4", "x = 1, 8", "x = -2, -4", "x = 3, 5"],
+    "correct_answer": "x = 2, 4",
+    "subject": "Mathematics",
+    "grade": 10,
+    "difficulty": "medium",
+    "explanation": "Factor: (x - 2)(x - 4) = 0, so x = 2 or x = 4"
+  },
+  {
+    "_id": "medium10_math_002",
+    "content": "What is the vertex of y = x² - 4x + 7?",
+    "type": "multiple_choice",
+    "options": ["(2, 3)", "(2, 7)", "(-2, 3)", "(4, 7)"],
+    "correct_answer": "(2, 3)",
+    "subject": "Mathematics",
+    "grade": 10,
+    "difficulty": "medium",
+    "explanation": "x = -b/2a = 4/2 = 2. y = 2² - 4(2) + 7 = 4 - 8 + 7 = 3"
+  },
+  {
+    "_id": "medium10_math_003",
+    "content": "Simplify: √(72)",
+    "type": "multiple_choice",
+    "options": ["6√2", "8√3", "6√3", "9√2"],
+    "correct_answer": "6√2",
+    "subject": "Mathematics",
+    "grade": 10,
+    "difficulty": "medium",
+    "explanation": "√72 = √(36 × 2) = √36 × √2 = 6√2"
+  },
+  {
+    "_id": "medium10_math_004",
+    "content": "What is the discriminant of 2x² + 3x - 1 = 0?",
+    "type": "multiple_choice",
+    "options": ["17", "1", "9", "25"],
+    "correct_answer": "17",
+    "subject": "Mathematics",
+    "grade": 10,
+    "difficulty": "medium",
+    "explanation": "Discriminant = b² - 4ac = 3² - 4(2)(-1) = 9 + 8 = 17"
+  },
+  {
+    "_id": "medium10_math_005",
+    "content": "Find the slope between points (1, 3) and (5, 11)",
+    "type": "multiple_choice",
+    "options": ["1", "2", "3", "4"],
+    "correct_answer": "2",
+    "subject": "Mathematics",
+    "grade": 10,
+    "difficulty": "medium",
+    "explanation": "Slope = (y₂ - y₁)/(x₂ - x₁) = (11 - 3)/(5 - 1) = 8/4 = 2"
+  },
+  {
+    "_id": "medium10_math_006",
+    "content": "Solve the system: x + y = 5, 2x - y = 1",
+    "type": "multiple_choice",
+    "options": ["x = 2, y = 3", "x = 3, y = 2", "x = 1, y = 4", "x = 4, y = 1"],
+    "correct_answer": "x = 2, y = 3",
+    "subject": "Mathematics",
+    "grade": 10,
+    "difficulty": "medium",
+    "explanation": "Adding equations: 3x = 6, so x = 2. Substituting: 2 + y = 5, so y = 3"
+  },
+  {
+    "_id": "medium10_math_007",
+    "content": "Factor: 2x² + 7x + 3",
+    "type": "multiple_choice",
+    "options": ["(2x + 1)(x + 3)", "(2x + 3)(x + 1)", "(x + 1)(x + 3)", "(2x - 1)(x - 3)"],
+    "correct_answer": "(2x + 1)(x + 3)",
+    "subject": "Mathematics",
+    "grade": 10,
+    "difficulty": "medium",
+    "explanation": "Need factors of 2×3=6 that add to 7: 1 and 6. So (2x + 1)(x + 3)"
+  },
+  {
+    "_id": "medium10_math_008",
+    "content": "What is the domain of f(x) = √(x - 3)?",
+    "type": "multiple_choice",
+    "options": ["x ≥ 3", "x > 3", "x ≤ 3", "All real numbers"],
+    "correct_answer": "x ≥ 3",
+    "subject": "Mathematics",
+    "grade": 10,
+    "difficulty": "medium",
+    "explanation": "For square root to be real, x - 3 ≥ 0, so x ≥ 3"
+  },
+  {
+    "_id": "medium10_math_009",
+    "content": "Simplify: (x + 3)² - (x - 2)²",
+    "type": "multiple_choice",
+    "options": ["10x + 5", "10x - 5", "2x + 5", "6x + 5"],
+    "correct_answer": "10x + 5",
+    "subject": "Mathematics",
+    "grade": 10,
+    "difficulty": "medium",
+    "explanation": "(x + 3)² - (x - 2)² = (x² + 6x + 9) - (x² - 4x + 4) = 10x + 5"
+  },
+  {
+    "_id": "medium10_math_010",
+    "content": "What is the range of f(x) = -(x - 1)² + 4?",
+    "type": "multiple_choice",
+    "options": ["y ≤ 4", "y ≥ 4", "y ≤ 1", "y ≥ 1"],
+    "correct_answer": "y ≤ 4",
+    "subject": "Mathematics",
+    "grade": 10,
+    "difficulty": "medium",
+    "explanation": "Parabola opens down with vertex at (1, 4), so maximum value is 4"
   }
 ]

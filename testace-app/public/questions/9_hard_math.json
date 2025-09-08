@@ -638,5 +638,115 @@
     "grade": 1,
     "difficulty": "easy",
     "explanation": "8 - 3 = 5"
+  },
+  {
+    "_id": "hard9_math_001",
+    "content": "Solve using the quadratic formula: 2x² - 7x + 3 = 0",
+    "type": "multiple_choice",
+    "options": ["x = 3, 1/2", "x = 2, 3/2", "x = 1, 3", "x = 3/2, 1/2"],
+    "correct_answer": "x = 3, 1/2",
+    "subject": "Mathematics",
+    "grade": 9,
+    "difficulty": "hard",
+    "explanation": "x = (7 ± √(49-24))/4 = (7 ± 5)/4 = 3 or 1/2"
+  },
+  {
+    "_id": "hard9_math_002",
+    "content": "What is the equation of the line perpendicular to y = 2x + 1 passing through (4, 3)?",
+    "type": "multiple_choice",
+    "options": ["y = -1/2x + 5", "y = -1/2x + 1", "y = 2x - 5", "y = -2x + 11"],
+    "correct_answer": "y = -1/2x + 5",
+    "subject": "Mathematics",
+    "grade": 9,
+    "difficulty": "hard",
+    "explanation": "Perpendicular slope = -1/2. Using point-slope: y - 3 = -1/2(x - 4) → y = -1/2x + 5"
+  },
+  {
+    "_id": "hard9_math_003",
+    "content": "Factor completely: 3x³ - 12x",
+    "type": "multiple_choice",
+    "options": ["3x(x² - 4)", "3x(x - 2)(x + 2)", "x(3x² - 12)", "3(x³ - 4x)"],
+    "correct_answer": "3x(x - 2)(x + 2)",
+    "subject": "Mathematics",
+    "grade": 9,
+    "difficulty": "hard",
+    "explanation": "3x³ - 12x = 3x(x² - 4) = 3x(x - 2)(x + 2)"
+  },
+  {
+    "_id": "hard9_math_004",
+    "content": "Simplify: (x² - 9)/(x² + 6x + 9)",
+    "type": "multiple_choice",
+    "options": ["(x - 3)/(x + 3)", "(x + 3)/(x - 3)", "1", "(x - 3)/(x + 3)²"],
+    "correct_answer": "(x - 3)/(x + 3)",
+    "subject": "Mathematics",
+    "grade": 9,
+    "difficulty": "hard",
+    "explanation": "(x² - 9)/(x² + 6x + 9) = (x - 3)(x + 3)/(x + 3)² = (x - 3)/(x + 3)"
+  },
+  {
+    "_id": "hard9_math_005",
+    "content": "If log₂(x) = 5, what is x?",
+    "type": "multiple_choice",
+    "options": ["10", "25", "32", "64"],
+    "correct_answer": "32",
+    "subject": "Mathematics",
+    "grade": 9,
+    "difficulty": "hard",
+    "explanation": "log₂(x) = 5 means 2⁵ = x, so x = 32"
+  },
+  {
+    "_id": "hard9_math_006",
+    "content": "What is the range of f(x) = x² - 4x + 7?",
+    "type": "multiple_choice",
+    "options": ["y ≥ 3", "y ≥ 7", "y ≥ -3", "y ≥ 4"],
+    "correct_answer": "y ≥ 3",
+    "subject": "Mathematics",
+    "grade": 9,
+    "difficulty": "hard",
+    "explanation": "Vertex at x = 2: f(2) = 4 - 8 + 7 = 3. Since parabola opens up, range is y ≥ 3"
+  },
+  {
+    "_id": "hard9_math_007",
+    "content": "Solve: |2x - 3| = 7",
+    "type": "multiple_choice",
+    "options": ["x = 5, -2", "x = 2, -5", "x = 5, 2", "x = -2, -5"],
+    "correct_answer": "x = 5, -2",
+    "subject": "Mathematics",
+    "grade": 9,
+    "difficulty": "hard",
+    "explanation": "2x - 3 = 7 or 2x - 3 = -7, so x = 5 or x = -2"
+  },
+  {
+    "_id": "hard9_math_008",
+    "content": "What is the inverse of f(x) = 3x - 2?",
+    "type": "multiple_choice",
+    "options": ["f⁻¹(x) = (x + 2)/3", "f⁻¹(x) = (x - 2)/3", "f⁻¹(x) = 3x + 2", "f⁻¹(x) = x/3 + 2"],
+    "correct_answer": "f⁻¹(x) = (x + 2)/3",
+    "subject": "Mathematics",
+    "grade": 9,
+    "difficulty": "hard",
+    "explanation": "Let y = 3x - 2, solve for x: x = (y + 2)/3, so f⁻¹(x) = (x + 2)/3"
+  },
+  {
+    "_id": "hard9_math_009",
+    "content": "Rationalize: 1/(√5 - 2)",
+    "type": "multiple_choice",
+    "options": ["(√5 + 2)/1", "-(√5 + 2)", "(√5 + 2)", "1/(√5 + 2)"],
+    "correct_answer": "-(√5 + 2)",
+    "subject": "Mathematics",
+    "grade": 9,
+    "difficulty": "hard",
+    "explanation": "Multiply by (√5 + 2)/(√5 + 2): (√5 + 2)/(5 - 4) = √5 + 2 = -(√5 + 2)"
+  },
+  {
+    "_id": "hard9_math_010",
+    "content": "If sin θ = 3/5 and θ is in quadrant I, what is cos θ?",
+    "type": "multiple_choice",
+    "options": ["4/5", "3/4", "5/4", "5/3"],
+    "correct_answer": "4/5",
+    "subject": "Mathematics",
+    "grade": 9,
+    "difficulty": "hard",
+    "explanation": "Using Pythagorean identity: cos²θ = 1 - sin²θ = 1 - 9/25 = 16/25, so cos θ = 4/5"
   }
 ]

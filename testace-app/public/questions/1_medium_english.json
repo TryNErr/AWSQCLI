@@ -318,5 +318,115 @@
     "grade": 1,
     "difficulty": "medium",
     "explanation": "The letter M makes the 'mmm' sound"
+  },
+  {
+    "_id": "medium1_eng_001",
+    "content": "Which word is a sight word?",
+    "type": "multiple_choice",
+    "options": ["the", "elephant", "butterfly", "refrigerator"],
+    "correctAnswer": "the",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "\"The\" is a common sight word that students should recognize instantly."
+  },
+  {
+    "_id": "medium1_eng_002",
+    "content": "What should come at the beginning of a sentence?",
+    "type": "multiple_choice",
+    "options": ["period", "capital letter", "comma", "question mark"],
+    "correctAnswer": "capital letter",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "Every sentence should start with a capital letter."
+  },
+  {
+    "_id": "medium1_eng_003",
+    "content": "Which sentence is correct?",
+    "type": "multiple_choice",
+    "options": ["i like cats", "I like cats.", "i like cats.", "I like cats"],
+    "correctAnswer": "I like cats.",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "Sentences start with capital letters and end with periods."
+  },
+  {
+    "_id": "medium1_eng_004",
+    "content": "What comes at the end of a telling sentence?",
+    "type": "multiple_choice",
+    "options": ["period", "question mark", "exclamation point", "comma"],
+    "correctAnswer": "period",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "Telling sentences end with a period."
+  },
+  {
+    "_id": "medium1_eng_005",
+    "content": "Which word rhymes with \"make\"?",
+    "type": "multiple_choice",
+    "options": ["cake", "book", "tree", "dog"],
+    "correctAnswer": "cake",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "\"Make\" and \"cake\" both end with the same sound."
+  },
+  {
+    "_id": "medium1_eng_006",
+    "content": "How many words are in this sentence: \"The dog runs fast.\"?",
+    "type": "multiple_choice",
+    "options": ["3", "4", "5", "6"],
+    "correctAnswer": "4",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "The words are: The, dog, runs, fast (4 words)."
+  },
+  {
+    "_id": "medium1_eng_007",
+    "content": "Which letter should be capitalized: \"my name is john\"?",
+    "type": "multiple_choice",
+    "options": ["m and j", "only m", "only j", "n and j"],
+    "correctAnswer": "m and j",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "\"My\" starts the sentence and \"John\" is a name, so both need capitals."
+  },
+  {
+    "_id": "medium1_eng_008",
+    "content": "What type of word is \"run\"?",
+    "type": "multiple_choice",
+    "options": ["action word", "naming word", "describing word", "connecting word"],
+    "correctAnswer": "action word",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "\"Run\" is an action word (verb) because it shows what someone does."
+  },
+  {
+    "_id": "medium1_eng_009",
+    "content": "Which sentence asks a question?",
+    "type": "multiple_choice",
+    "options": ["Where is my book?", "I found my book.", "My book is red.", "Books are fun."],
+    "correctAnswer": "Where is my book?",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "Questions ask something and end with a question mark."
+  },
+  {
+    "_id": "medium1_eng_010",
+    "content": "What is the opposite of \"big\"?",
+    "type": "multiple_choice",
+    "options": ["small", "tall", "fast", "happy"],
+    "correctAnswer": "small",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "medium",
+    "explanation": "\"Small\" is the opposite of \"big\" in size."
   }
 ]

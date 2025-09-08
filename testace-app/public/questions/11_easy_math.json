@@ -538,5 +538,115 @@
     "grade": 11,
     "difficulty": "easy",
     "explanation": "The derivative of a constant is 0"
+  },
+  {
+    "_id": "easy11_math_001",
+    "content": "What is the derivative of f(x) = 4x³?",
+    "type": "multiple_choice",
+    "options": ["12x²", "4x²", "12x³", "4x⁴"],
+    "correct_answer": "12x²",
+    "subject": "Mathematics",
+    "grade": 11,
+    "difficulty": "easy",
+    "explanation": "Using power rule: d/dx(4x³) = 4 × 3x² = 12x²"
+  },
+  {
+    "_id": "easy11_math_002",
+    "content": "Solve: 2^x = 8",
+    "type": "multiple_choice",
+    "options": ["x = 2", "x = 3", "x = 4", "x = 8"],
+    "correct_answer": "x = 3",
+    "subject": "Mathematics",
+    "grade": 11,
+    "difficulty": "easy",
+    "explanation": "2³ = 8, so x = 3"
+  },
+  {
+    "_id": "easy11_math_003",
+    "content": "What is log₃(27)?",
+    "type": "multiple_choice",
+    "options": ["2", "3", "9", "27"],
+    "correct_answer": "3",
+    "subject": "Mathematics",
+    "grade": 11,
+    "difficulty": "easy",
+    "explanation": "3³ = 27, so log₃(27) = 3"
+  },
+  {
+    "_id": "easy11_math_004",
+    "content": "What is sin(30°)?",
+    "type": "multiple_choice",
+    "options": ["1/2", "√3/2", "√2/2", "1"],
+    "correct_answer": "1/2",
+    "subject": "Mathematics",
+    "grade": 11,
+    "difficulty": "easy",
+    "explanation": "sin(30°) = 1/2"
+  },
+  {
+    "_id": "easy11_math_005",
+    "content": "What is the period of y = sin(x)?",
+    "type": "multiple_choice",
+    "options": ["π", "2π", "π/2", "4π"],
+    "correct_answer": "2π",
+    "subject": "Mathematics",
+    "grade": 11,
+    "difficulty": "easy",
+    "explanation": "The sine function has period 2π"
+  },
+  {
+    "_id": "easy11_math_006",
+    "content": "Simplify: (x²)³",
+    "type": "multiple_choice",
+    "options": ["x⁵", "x⁶", "x⁸", "3x²"],
+    "correct_answer": "x⁶",
+    "subject": "Mathematics",
+    "grade": 11,
+    "difficulty": "easy",
+    "explanation": "(x²)³ = x²×³ = x⁶"
+  },
+  {
+    "_id": "easy11_math_007",
+    "content": "What is the amplitude of y = 3sin(x)?",
+    "type": "multiple_choice",
+    "options": ["1", "2", "3", "π"],
+    "correct_answer": "3",
+    "subject": "Mathematics",
+    "grade": 11,
+    "difficulty": "easy",
+    "explanation": "The amplitude is the coefficient of sin(x), which is 3"
+  },
+  {
+    "_id": "easy11_math_008",
+    "content": "What is cos(60°)?",
+    "type": "multiple_choice",
+    "options": ["1/2", "√3/2", "√2/2", "1"],
+    "correct_answer": "1/2",
+    "subject": "Mathematics",
+    "grade": 11,
+    "difficulty": "easy",
+    "explanation": "cos(60°) = 1/2"
+  },
+  {
+    "_id": "easy11_math_009",
+    "content": "Solve: log₂(x) = 4",
+    "type": "multiple_choice",
+    "options": ["x = 8", "x = 16", "x = 4", "x = 2"],
+    "correct_answer": "x = 16",
+    "subject": "Mathematics",
+    "grade": 11,
+    "difficulty": "easy",
+    "explanation": "log₂(x) = 4 means 2⁴ = x, so x = 16"
+  },
+  {
+    "_id": "easy11_math_010",
+    "content": "What is the derivative of f(x) = x + 5?",
+    "type": "multiple_choice",
+    "options": ["0", "1", "5", "x"],
+    "correct_answer": "1",
+    "subject": "Mathematics",
+    "grade": 11,
+    "difficulty": "easy",
+    "explanation": "d/dx(x + 5) = 1 + 0 = 1"
   }
 ]

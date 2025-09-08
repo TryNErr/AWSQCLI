@@ -318,5 +318,115 @@
     "grade": 1,
     "difficulty": "easy",
     "explanation": "The letter M makes the 'mmm' sound"
+  },
+  {
+    "_id": "easy1_eng_001",
+    "content": "Which letter looks like a fish?",
+    "type": "multiple_choice",
+    "options": ["G", "O", "T", "M"],
+    "correctAnswer": "G",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The letter G has a curved shape that looks like a fish."
+  },
+  {
+    "_id": "easy1_eng_002",
+    "content": "Which word rhymes with \"cat\"?",
+    "type": "multiple_choice",
+    "options": ["bat", "dog", "pig", "fish"],
+    "correctAnswer": "bat",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "\"Bat\" ends with the same sound as \"cat\", so they rhyme."
+  },
+  {
+    "_id": "easy1_eng_003",
+    "content": "What sound does the letter 'B' make?",
+    "type": "multiple_choice",
+    "options": ["buh", "see", "dee", "pee"],
+    "correctAnswer": "buh",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The letter B makes the 'buh' sound."
+  },
+  {
+    "_id": "easy1_eng_004",
+    "content": "Which word starts with the letter 'S'?",
+    "type": "multiple_choice",
+    "options": ["apple", "dog", "sun", "cat"],
+    "correctAnswer": "sun",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The word \"sun\" begins with the letter S."
+  },
+  {
+    "_id": "easy1_eng_005",
+    "content": "Which letter is missing in \"c_t\"?",
+    "type": "multiple_choice",
+    "options": ["a", "e", "i", "o"],
+    "correctAnswer": "a",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "Putting \"a\" in the blank gives the word \"cat\"."
+  },
+  {
+    "_id": "easy1_eng_006",
+    "content": "Which word rhymes with \"red\"?",
+    "type": "multiple_choice",
+    "options": ["bed", "tree", "sun", "car"],
+    "correctAnswer": "bed",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "\"Bed\" ends with the same sound as \"red\", so they rhyme."
+  },
+  {
+    "_id": "easy1_eng_007",
+    "content": "What letter comes after 'D'?",
+    "type": "multiple_choice",
+    "options": ["E", "F", "G", "H"],
+    "correctAnswer": "E",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "In the alphabet, E follows D."
+  },
+  {
+    "_id": "easy1_eng_008",
+    "content": "Which word is a simple noun?",
+    "type": "multiple_choice",
+    "options": ["run", "happy", "dog", "blue"],
+    "correctAnswer": "dog",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "\"Dog\" is a noun that names a thing."
+  },
+  {
+    "_id": "easy1_eng_009",
+    "content": "Which two words rhyme?",
+    "type": "multiple_choice",
+    "options": ["bat and cat", "bat and dog", "cat and dog", "dog and hot"],
+    "correctAnswer": "bat and cat",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "\"Bat\" and \"cat\" share the same ending sound, so they rhyme."
+  },
+  {
+    "_id": "easy1_eng_010",
+    "content": "Which word starts with the letter 'T'?",
+    "type": "multiple_choice",
+    "options": ["apple", "tree", "sun", "dog"],
+    "correctAnswer": "tree",
+    "subject": "English",
+    "grade": 1,
+    "difficulty": "easy",
+    "explanation": "The word \"tree\" begins with the letter T."
   }
 ]

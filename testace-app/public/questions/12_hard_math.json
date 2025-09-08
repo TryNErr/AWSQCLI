@@ -538,5 +538,115 @@
     "grade": 12,
     "difficulty": "hard",
     "explanation": "Standard limit: lim(x→0) (1 - cos(x))/x² = 1/2"
+  },
+  {
+    "_id": "hard12_math_001",
+    "content": "Find the derivative of f(x) = x^(sin(x))",
+    "type": "multiple_choice",
+    "options": ["x^(sin(x))[cos(x)ln(x) + sin(x)/x]", "x^(sin(x))cos(x)ln(x)", "sin(x)x^(sin(x)-1)", "x^(sin(x))cos(x)"],
+    "correct_answer": "x^(sin(x))[cos(x)ln(x) + sin(x)/x]",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "hard",
+    "explanation": "Using logarithmic differentiation: ln(f) = sin(x)ln(x), then f'/f = cos(x)ln(x) + sin(x)/x"
+  },
+  {
+    "_id": "hard12_math_002",
+    "content": "Evaluate ∫ x²/(x³+1) dx",
+    "type": "multiple_choice",
+    "options": ["(1/3)ln|x³+1| + C", "ln|x³+1| + C", "x³ln|x³+1| + C", "(x³+1)²/6 + C"],
+    "correct_answer": "(1/3)ln|x³+1| + C",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "hard",
+    "explanation": "Let u = x³+1, du = 3x²dx, so ∫x²/(x³+1)dx = (1/3)∫du/u = (1/3)ln|u| + C"
+  },
+  {
+    "_id": "hard12_math_003",
+    "content": "Find lim(x→0) (e^x - 1 - x)/x² using L'Hôpital's rule",
+    "type": "multiple_choice",
+    "options": ["0", "1/2", "1", "∞"],
+    "correct_answer": "1/2",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "hard",
+    "explanation": "Apply L'Hôpital's rule twice: lim(x→0) (e^x - 1)/2x = lim(x→0) e^x/2 = 1/2"
+  },
+  {
+    "_id": "hard12_math_004",
+    "content": "Find the Taylor series for f(x) = e^x centered at x = 1",
+    "type": "multiple_choice",
+    "options": ["e∑(x-1)ⁿ/n!", "∑(x-1)ⁿ/n!", "e + e(x-1) + e(x-1)²/2! + ...", "Both A and C"],
+    "correct_answer": "Both A and C",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "hard",
+    "explanation": "f^(n)(1) = e for all n, so Taylor series is e∑(x-1)ⁿ/n!"
+  },
+  {
+    "_id": "hard12_math_005",
+    "content": "Solve the differential equation dy/dx = y/x with y(1) = 2",
+    "type": "multiple_choice",
+    "options": ["y = 2x", "y = x²", "y = 2/x", "y = 2ln(x)"],
+    "correct_answer": "y = 2x",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "hard",
+    "explanation": "Separable: dy/y = dx/x, ln|y| = ln|x| + C, y = Cx. With y(1) = 2: C = 2"
+  },
+  {
+    "_id": "hard12_math_006",
+    "content": "Find the volume of the solid formed by rotating y = √x about the x-axis from x = 0 to x = 4",
+    "type": "multiple_choice",
+    "options": ["8π", "16π", "4π", "32π"],
+    "correct_answer": "8π",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "hard",
+    "explanation": "V = π∫₀⁴ (√x)² dx = π∫₀⁴ x dx = π[x²/2]₀⁴ = π(8) = 8π"
+  },
+  {
+    "_id": "hard12_math_007",
+    "content": "Find the radius of convergence for ∑(n=1 to ∞) x^n/n²",
+    "type": "multiple_choice",
+    "options": ["R = 0", "R = 1", "R = 2", "R = ∞"],
+    "correct_answer": "R = 1",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "hard",
+    "explanation": "Using ratio test: lim|aₙ/aₙ₊₁| = lim(n+1)²/n² = 1, so R = 1"
+  },
+  {
+    "_id": "hard12_math_008",
+    "content": "Evaluate ∫₀^∞ xe^(-x²) dx",
+    "type": "multiple_choice",
+    "options": ["1/2", "1", "√π/2", "∞"],
+    "correct_answer": "1/2",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "hard",
+    "explanation": "Let u = -x², du = -2x dx, so ∫xe^(-x²)dx = -(1/2)∫e^u du = -(1/2)e^(-x²)|₀^∞ = 1/2"
+  },
+  {
+    "_id": "hard12_math_009",
+    "content": "Find the derivative of f(x) = ∫₀^x sin(t²) dt",
+    "type": "multiple_choice",
+    "options": ["sin(x²)", "cos(x²)", "2x sin(x²)", "sin(x)"],
+    "correct_answer": "sin(x²)",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "hard",
+    "explanation": "By Fundamental Theorem of Calculus: f'(x) = sin(x²)"
+  },
+  {
+    "_id": "hard12_math_010",
+    "content": "Find the arc length of y = x^(3/2) from x = 0 to x = 4",
+    "type": "multiple_choice",
+    "options": ["8", "56/27", "8√10/27", "(8/27)(10√10 - 1)"],
+    "correct_answer": "(8/27)(10√10 - 1)",
+    "subject": "Mathematics",
+    "grade": 12,
+    "difficulty": "hard",
+    "explanation": "L = ∫₀⁴ √(1 + (3x^(1/2)/2)²) dx = ∫₀⁴ √(1 + 9x/4) dx = (8/27)(10√10 - 1)"
   }
 ]

@@ -538,5 +538,115 @@
     "grade": 2,
     "difficulty": "medium",
     "explanation": "72 ÷ 9 = 8"
+  },
+  {
+    "_id": "medium2_math_001",
+    "content": "Sarah has 24 stickers. She gives 8 to her friend and buys 15 more. How many stickers does she have now?",
+    "type": "multiple_choice",
+    "options": ["29", "30", "31", "32"],
+    "correct_answer": "31",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "medium",
+    "explanation": "24 - 8 + 15 = 31 stickers"
+  },
+  {
+    "_id": "medium2_math_002",
+    "content": "What is 47 + 28?",
+    "type": "multiple_choice",
+    "options": ["73", "74", "75", "76"],
+    "correct_answer": "75",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "medium",
+    "explanation": "47 + 28 = 75"
+  },
+  {
+    "_id": "medium2_math_003",
+    "content": "Round 67 to the nearest ten.",
+    "type": "multiple_choice",
+    "options": ["60", "65", "70", "75"],
+    "correct_answer": "70",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "medium",
+    "explanation": "67 is closer to 70 than to 60, so it rounds to 70"
+  },
+  {
+    "_id": "medium2_math_004",
+    "content": "What is 6 × 7?",
+    "type": "multiple_choice",
+    "options": ["40", "41", "42", "43"],
+    "correct_answer": "42",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "medium",
+    "explanation": "6 × 7 = 42"
+  },
+  {
+    "_id": "medium2_math_005",
+    "content": "What is 84 - 37?",
+    "type": "multiple_choice",
+    "options": ["45", "46", "47", "48"],
+    "correct_answer": "47",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "medium",
+    "explanation": "84 - 37 = 47"
+  },
+  {
+    "_id": "medium2_math_006",
+    "content": "How many minutes are in 1 hour and 15 minutes?",
+    "type": "multiple_choice",
+    "options": ["65", "70", "75", "80"],
+    "correct_answer": "75",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "medium",
+    "explanation": "1 hour = 60 minutes, so 60 + 15 = 75 minutes"
+  },
+  {
+    "_id": "medium2_math_007",
+    "content": "What is 8 × 9?",
+    "type": "multiple_choice",
+    "options": ["70", "71", "72", "73"],
+    "correct_answer": "72",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "medium",
+    "explanation": "8 × 9 = 72"
+  },
+  {
+    "_id": "medium2_math_008",
+    "content": "Tom has 3 bags with 9 marbles in each bag. How many marbles does he have in total?",
+    "type": "multiple_choice",
+    "options": ["25", "26", "27", "28"],
+    "correct_answer": "27",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "medium",
+    "explanation": "3 × 9 = 27 marbles"
+  },
+  {
+    "_id": "medium2_math_009",
+    "content": "What is the value of the 5 in 253?",
+    "type": "multiple_choice",
+    "options": ["5", "50", "500", "5000"],
+    "correct_answer": "50",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "medium",
+    "explanation": "The 5 is in the tens place, so its value is 50"
+  },
+  {
+    "_id": "medium2_math_010",
+    "content": "What is 56 ÷ 8?",
+    "type": "multiple_choice",
+    "options": ["6", "7", "8", "9"],
+    "correct_answer": "7",
+    "subject": "Mathematics",
+    "grade": 2,
+    "difficulty": "medium",
+    "explanation": "56 ÷ 8 = 7"
   }
 ]
