@@ -19,6 +19,7 @@ import { ArrowBack, ArrowForward, CheckCircle, Timer } from '@mui/icons-material
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import { Question, DifficultyLevel } from '../../types';
 import StaticQuestionLoader from '../../utils/staticQuestionLoader';
+import UserProgressManager from '../../utils/userProgress';
 
 interface QuizAnswer {
   questionId: string;
@@ -83,6 +84,13 @@ const QuickQuizSession: React.FC = () => {
 
     const currentQuestion = questions[currentQuestionIndex];
     const isCorrect = selectedAnswer === currentQuestion.correctAnswer;
+    
+    // Track user progress
+    if (isCorrect) {
+      UserProgressManager.markCorrect(currentQuestion._id);
+    } else {
+      UserProgressManager.markIncorrect(currentQuestion._id);
+    }
     
     const newAnswer: QuizAnswer = {
       questionId: currentQuestion._id,

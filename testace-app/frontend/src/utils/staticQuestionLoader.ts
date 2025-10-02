@@ -1,4 +1,5 @@
 import { Question, DifficultyLevel } from '../types';
+import UserProgressManager from './userProgress';
 
 /**
  * STATIC QUESTION LOADER
@@ -148,7 +149,12 @@ export class StaticQuestionLoader {
       return [];
     }
     
-    const shuffled = this.shuffleArray([...questions]);
+    // Filter out correctly answered questions
+    const availableQuestions = questions.filter(q => 
+      !UserProgressManager.isCorrectlyAnswered(q._id)
+    );
+    
+    const shuffled = this.shuffleArray([...availableQuestions]);
     return shuffled.slice(0, Math.min(count, shuffled.length));
   }
 
