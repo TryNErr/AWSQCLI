@@ -28,6 +28,7 @@ import {
   Notifications,
   TrendingUp,
   EmojiEvents,
+  FlashOn,
 } from '@mui/icons-material';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
@@ -60,6 +61,13 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       path: '/practice', 
       gradient: 'linear-gradient(135deg, #10b981 0%, #059669 100%)',
       description: 'Practice questions'
+    },
+    { 
+      text: 'Quick Quiz', 
+      icon: <FlashOn />, 
+      path: '/quick-quiz', 
+      gradient: 'linear-gradient(135deg, #ec4899 0%, #db2777 100%)',
+      description: '10 quick questions'
     },
     { 
       text: 'Timed Test', 

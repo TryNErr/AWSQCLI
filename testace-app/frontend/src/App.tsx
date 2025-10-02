@@ -11,6 +11,9 @@ import PracticeSession from './pages/Practice/PracticeSession';
 import SessionComplete from './pages/Practice/SessionComplete';
 import EnhancedQuestion from './pages/Practice/EnhancedQuestion';
 import DailyChallenge from './pages/Practice/DailyChallenge';
+import QuickQuiz from './pages/Practice/QuickQuiz';
+import QuickQuizSession from './pages/Practice/QuickQuizSession';
+import QuickQuizResults from './pages/Practice/QuickQuizResults';
 import TimedTest from './pages/TimedTest/TimedTest';
 import TimedTestResults from './pages/TimedTest/TimedTestResults';
 import Profile from './pages/Profile/Profile';
@@ -141,6 +144,29 @@ function App() {
                 <PrivateRoute>
                   <Layout>
                     <DailyChallenge />
+                  </Layout>
+                </PrivateRoute>
+              } />
+              
+              {/* Quick Quiz Routes */}
+              <Route path="/quick-quiz" element={
+                <PrivateRoute>
+                  <Layout>
+                    <QuickQuiz />
+                  </Layout>
+                </PrivateRoute>
+              } />
+              <Route path="/quick-quiz/session" element={
+                <PrivateRoute>
+                  <Layout>
+                    <QuickQuizSession />
+                  </Layout>
+                </PrivateRoute>
+              } />
+              <Route path="/quick-quiz/results" element={
+                <PrivateRoute>
+                  <Layout>
+                    <QuickQuizResults />
                   </Layout>
                 </PrivateRoute>
               } />

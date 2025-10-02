@@ -397,6 +397,65 @@ const Dashboard: React.FC = () => {
             <Card
               sx={{
                 height: '100%',
+                background: 'linear-gradient(135deg, rgba(236, 72, 153, 0.1) 0%, rgba(219, 39, 119, 0.1) 100%)',
+                border: '2px solid rgba(236, 72, 153, 0.2)',
+                cursor: 'pointer',
+                transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
+                '&:hover': {
+                  transform: 'translateY(-8px)',
+                  boxShadow: '0 20px 25px -5px rgba(236, 72, 153, 0.2)',
+                  borderColor: 'rgba(236, 72, 153, 0.4)',
+                }
+              }}
+              onClick={() => navigate('/quick-quiz')}
+            >
+              <CardContent sx={{ p: 4, textAlign: 'center', height: '100%', display: 'flex', flexDirection: 'column' }}>
+                <Box sx={{ 
+                  width: 80, 
+                  height: 80, 
+                  borderRadius: '50%',
+                  background: 'linear-gradient(135deg, #ec4899 0%, #db2777 100%)',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  mx: 'auto',
+                  mb: 3
+                }}>
+                  <FlashOn sx={{ fontSize: 40, color: 'white' }} />
+                </Box>
+                
+                <Typography variant="h5" fontWeight={700} gutterBottom color="#ec4899">
+                  Quick Quiz
+                </Typography>
+                <Typography variant="body1" color="text.secondary" sx={{ mb: 3, flex: 1 }}>
+                  ⚡ Jump into a quick 10-question quiz! Choose your subject, grade, and difficulty for instant practice.
+                </Typography>
+                
+                <Button
+                  variant="contained"
+                  size="large"
+                  startIcon={<PlayArrow />}
+                  sx={{ 
+                    background: 'linear-gradient(135deg, #ec4899 0%, #db2777 100%)',
+                    borderRadius: 3,
+                    py: 1.5,
+                    fontWeight: 600
+                  }}
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    navigate('/quick-quiz');
+                  }}
+                >
+                  Quick Start
+                </Button>
+              </CardContent>
+            </Card>
+          </Grid>
+
+          <Grid item xs={12} md={4}>
+            <Card
+              sx={{
+                height: '100%',
                 background: 'linear-gradient(135deg, rgba(16, 185, 129, 0.1) 0%, rgba(5, 150, 105, 0.1) 100%)',
                 border: '2px solid rgba(16, 185, 129, 0.2)',
                 cursor: 'pointer',
