@@ -1,5 +1,4 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
-import axios from 'axios';
 
 const AuthContext = createContext();
 
@@ -16,57 +15,82 @@ export const AuthProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const token = localStorage.getItem('token');
-    if (token) {
-      axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
-      fetchUser();
-    } else {
-      setLoading(false);
+    // Check for stored user data on mount (like testace-app)
+    const storedUser = localStorage.getItem('user');
+    if (storedUser) {
+      try {
+        const userData = JSON.parse(storedUser);
+        setUser(userData);
+      } catch (error) {
+        console.error('Error parsing stored user data:', error);
+        localStorage.removeItem('user');
+      }
     }
+    setLoading(false);
   }, []);
 
-  const fetchUser = async () => {
+  const login = async (email, password) => {
     try {
-      const response = await axios.get('/api/auth/me');
-      setUser(response.data);
+      // Mock authentication like testace-app - no API calls
+      const mockUser = {
+        id: '1',
+        email,
+        name: 'Test User',
+        grade: '9',
+        role: 'student',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        stats: {
+          totalQuestions: 0,
+          correctAnswers: 0,
+          wrongAnswers: 0,
+          averageScore: 0
+        }
+      };
+
+      // Store user data in localStorage
+      localStorage.setItem('user', JSON.stringify(mockUser));
+      setUser(mockUser);
+      
+      return { token: 'mock-token', user: mockUser };
     } catch (error) {
-      localStorage.removeItem('token');
-      delete axios.defaults.headers.common['Authorization'];
-    } finally {
-      setLoading(false);
+      console.error('Login error:', error);
+      throw error;
     }
   };
 
-  const login = async (email, password) => {
-    const response = await axios.post('/api/auth/login', { email, password });
-    const { token, user } = response.data;
-    
-    localStorage.setItem('token', token);
-    axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
-    setUser(user);
-    
-    return response.data;
-  };
+  const register = async (email, password, name, grade) => {
+    try {
+      // Mock registration like testace-app
+      const mockUser = {
+        id: Math.random().toString(36).substr(2, 9),
+        email,
+        name,
+        grade,
+        role: 'student',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        stats: {
+          totalQuestions: 0,
+          correctAnswers: 0,
+          wrongAnswers: 0,
+          averageScore: 0
+        }
+      };
 
-  const register = async (userData) => {
-    const response = await axios.post('/api/auth/register', userData);
-    const { token, user } = response.data;
-    
-    localStorage.setItem('token', token);
-    axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
-    setUser(user);
-    
-    return response.data;
+      localStorage.setItem('user', JSON.stringify(mockUser));
+      setUser(mockUser);
+      
+      return { token: 'mock-token', user: mockUser };
+    } catch (error) {
+      console.error('Registration error:', error);
+      throw error;
+    }
   };
 
   const logout = () => {
-    localStorage.removeItem('token');
-    delete axios.defaults.headers.common['Authorization'];
+    localStorage.removeItem('user');
     setUser(null);
-  };
-
-  const updateUser = (userData) => {
-    setUser(prev => ({ ...prev, ...userData }));
   };
 
   const value = {
@@ -74,7 +98,6 @@ export const AuthProvider = ({ children }) => {
     login,
     register,
     logout,
-    updateUser,
     loading
   };
 
@@ -84,3 +107,5 @@ export const AuthProvider = ({ children }) => {
     </AuthContext.Provider>
   );
 };
+
+export default AuthContext;
