@@ -1,0 +1,26 @@
+{
+  "name": "quizwiz-app",
+  "version": "1.0.0",
+  "description": "Professional quiz application with user progress tracking",
+  "scripts": {
+    "install:all": "cd frontend && npm install && cd ../backend && npm install",
+    "start:frontend": "cd frontend && npm start",
+    "start:backend": "cd backend && npm run dev",
+    "start:backend:prod": "cd backend && npm start",
+    "build:frontend": "cd frontend && npm run build",
+    "load-questions": "cd backend && node scripts/loadQuestions.js data/sample-questions.json",
+    "dev": "./start-dev.sh",
+    "setup": "npm run install:all && docker run -d --name mongodb -p 27017:27017 mongo:latest && sleep 3 && npm run load-questions",
+    "test:frontend": "cd frontend && npm test",
+    "clean": "rm -rf frontend/node_modules frontend/build backend/node_modules",
+    "docker:mongo": "docker run -d --name mongodb -p 27017:27017 mongo:latest",
+    "docker:stop": "docker stop mongodb && docker rm mongodb"
+  },
+  "keywords": ["quiz", "education", "react", "nodejs", "mongodb", "professional", "gen-z"],
+  "author": "QuizWiz Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/quizwiz-app.git"
+  }
+}

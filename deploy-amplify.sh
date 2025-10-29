@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# TestAce AWS Amplify Deployment Script
+# QuizWiz AWS Amplify Deployment Script
 # This script sets up and deploys both frontend and backend to AWS Amplify
 
 set -e
 
-echo "🚀 TestAce AWS Amplify Deployment"
+echo "🚀 QuizWiz AWS Amplify Deployment"
 echo "=================================="
 
 # Colors for output
@@ -61,8 +61,8 @@ SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 cd "$SCRIPT_DIR"
 
 # Check if we're in the right directory
-if [ ! -d "testace-app" ]; then
-    print_error "testace-app directory not found. Please run this script from the project root."
+if [ ! -d "quizwiz-app" ]; then
+    print_error "quizwiz-app directory not found. Please run this script from the project root."
     exit 1
 fi
 
@@ -70,7 +70,7 @@ print_status "Project structure verified"
 
 # Install dependencies
 print_info "Installing dependencies..."
-cd testace-app/frontend
+cd quizwiz-app/frontend
 if [ ! -d "node_modules" ]; then
     npm install
     print_status "Frontend dependencies installed"
@@ -102,8 +102,8 @@ print_info "Setting monorepo configuration..."
 if amplify env get --name AMPLIFY_MONOREPO_APP_ROOT &> /dev/null; then
     print_status "AMPLIFY_MONOREPO_APP_ROOT already set"
 else
-    amplify env add --name AMPLIFY_MONOREPO_APP_ROOT --value testace-app
-    print_status "AMPLIFY_MONOREPO_APP_ROOT set to 'testace-app'"
+    amplify env add --name AMPLIFY_MONOREPO_APP_ROOT --value quizwiz-app
+    print_status "AMPLIFY_MONOREPO_APP_ROOT set to 'quizwiz-app'"
 fi
 
 # Add hosting if not already added
@@ -130,7 +130,7 @@ if [ -n "$APP_URL" ]; then
     echo "======================"
     echo "🌐 Frontend URL: $APP_URL"
     echo "📱 App Status: Live and accessible"
-    echo "🔧 Monorepo Root: testace-app"
+    echo "🔧 Monorepo Root: quizwiz-app"
     echo ""
     echo "🧪 Test your deployment:"
     echo "curl -I $APP_URL"
@@ -142,10 +142,10 @@ if [ -n "$APP_URL" ]; then
     echo "amplify delete"
     echo ""
     echo "⚙️  Environment Variables Set:"
-    echo "   AMPLIFY_MONOREPO_APP_ROOT=testace-app"
+    echo "   AMPLIFY_MONOREPO_APP_ROOT=quizwiz-app"
 else
     print_warning "Could not retrieve app URL. Check Amplify console for details."
 fi
 
 echo ""
-print_status "TestAce is now live on AWS Amplify! 🚀"
+print_status "QuizWiz is now live on AWS Amplify! 🚀"

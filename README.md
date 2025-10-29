@@ -1,4 +1,4 @@
-# TestAce Educational App
+# QuizWiz Educational App
 
 A comprehensive educational testing platform built with React and Node.js, deployable on AWS.
 
@@ -15,7 +15,7 @@ A comprehensive educational testing platform built with React and Node.js, deplo
 
 ### Option 2: Lambda + S3 Deployment
 ```bash
-cd testace-app
+cd quizwiz-app
 ./deploy-to-aws.sh prod us-east-1
 ```
 
@@ -23,12 +23,13 @@ cd testace-app
 
 ```
 AWSQCLI/
-├── testace-app/                 # Main application
+├── quizwiz-app/                # Main application
 │   ├── frontend/               # React frontend
 │   ├── backend/                # Node.js backend
 │   └── deploy-to-aws.sh       # Lambda deployment script
 ├── amplify.yml                 # Amplify build configuration
 ├── deploy-amplify.sh          # Amplify deployment script
+├── setup-quizwiz-data.js      # Database setup script
 └── README.md                  # This file
 ```
 
@@ -75,11 +76,11 @@ npm run start:backend   # Backend on http://localhost:5000
 - **Best for**: Complete serverless deployment
 - **Features**: Auto-scaling, pay-per-request
 - **Cost**: ~$8-30/month for typical usage
-- **Setup**: See [testace-app/AWS_LAMBDA_DEPLOYMENT_GUIDE.md](testace-app/AWS_LAMBDA_DEPLOYMENT_GUIDE.md)
+- **Setup**: See [quizwiz-app/AWS_LAMBDA_DEPLOYMENT_GUIDE.md](quizwiz-app/AWS_LAMBDA_DEPLOYMENT_GUIDE.md)
 
 ### 3. Docker Deployment
 ```bash
-cd testace-app
+cd quizwiz-app
 docker-compose up -d
 ```
 
@@ -128,13 +129,13 @@ PORT=5000
 
 ```bash
 # Run frontend tests
-cd testace-app/frontend && npm test
+cd quizwiz-app/frontend && npm test
 
 # Run backend tests
-cd testace-app/backend && npm test
+cd quizwiz-app/backend && npm test
 
 # Test deployment
-node testace-app/test-deployment.js
+node quizwiz-app/test-deployment.js
 ```
 
 ## 📈 Monitoring
@@ -179,7 +180,7 @@ node testace-app/test-deployment.js
 ./deploy-amplify.sh
 
 # Lambda Deployment
-cd testace-app && ./deploy-to-aws.sh prod us-east-1
+cd quizwiz-app && ./deploy-to-aws.sh prod us-east-1
 
 # Local Development
 npm run install:all && npm run start:frontend
@@ -194,9 +195,9 @@ npm test
 ## 📚 Documentation
 
 - [Amplify Deployment Guide](AMPLIFY_DEPLOYMENT.md)
-- [Lambda Deployment Guide](testace-app/AWS_LAMBDA_DEPLOYMENT_GUIDE.md)
-- [Development Guide](testace-app/docs/DEVELOPMENT.md)
-- [API Documentation](testace-app/docs/API.md)
+- [Lambda Deployment Guide](quizwiz-app/AWS_LAMBDA_DEPLOYMENT_GUIDE.md)
+- [Development Guide](quizwiz-app/docs/DEVELOPMENT.md)
+- [API Documentation](quizwiz-app/docs/API.md)
 
 ## 🤝 Contributing
 

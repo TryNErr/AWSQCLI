@@ -1,0 +1,128 @@
+[
+  {
+    "_id": "math_9_easy_1",
+    "question": "What is 15 + 27?",
+    "options": ["42", "41", "43", "40"],
+    "correctAnswer": "42",
+    "explanation": "15 + 27 = 42"
+  },
+  {
+    "_id": "math_9_easy_2",
+    "question": "What is 8 × 7?",
+    "options": ["54", "56", "58", "52"],
+    "correctAnswer": "56",
+    "explanation": "8 × 7 = 56"
+  },
+  {
+    "_id": "math_9_medium_1",
+    "question": "Solve for x: 2x + 5 = 15",
+    "options": ["5", "10", "7", "3"],
+    "correctAnswer": "5",
+    "explanation": "2x + 5 = 15, so 2x = 10, therefore x = 5"
+  },
+  {
+    "_id": "math_9_medium_2",
+    "question": "What is the area of a rectangle with length 8 and width 6?",
+    "options": ["48", "28", "14", "42"],
+    "correctAnswer": "48",
+    "explanation": "Area = length × width = 8 × 6 = 48"
+  },
+  {
+    "_id": "math_9_hard_1",
+    "question": "If f(x) = 2x² - 3x + 1, what is f(3)?",
+    "options": ["10", "8", "12", "6"],
+    "correctAnswer": "10",
+    "explanation": "f(3) = 2(3)² - 3(3) + 1 = 2(9) - 9 + 1 = 18 - 9 + 1 = 10"
+  },
+  {
+    "_id": "science_9_easy_1",
+    "question": "What is the chemical symbol for water?",
+    "options": ["H2O", "CO2", "NaCl", "O2"],
+    "correctAnswer": "H2O",
+    "explanation": "Water is composed of two hydrogen atoms and one oxygen atom"
+  },
+  {
+    "_id": "science_9_easy_2",
+    "question": "How many planets are in our solar system?",
+    "options": ["7", "8", "9", "10"],
+    "correctAnswer": "8",
+    "explanation": "There are 8 planets: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune"
+  },
+  {
+    "_id": "science_9_medium_1",
+    "question": "What is the process by which plants make their own food?",
+    "options": ["Respiration", "Photosynthesis", "Digestion", "Fermentation"],
+    "correctAnswer": "Photosynthesis",
+    "explanation": "Photosynthesis is the process where plants use sunlight, water, and CO2 to make glucose"
+  },
+  {
+    "_id": "science_9_medium_2",
+    "question": "What is the atomic number of carbon?",
+    "options": ["6", "12", "14", "8"],
+    "correctAnswer": "6",
+    "explanation": "Carbon has 6 protons, which determines its atomic number"
+  },
+  {
+    "_id": "science_9_hard_1",
+    "question": "What is the first law of thermodynamics?",
+    "options": ["Energy cannot be created or destroyed", "Entropy always increases", "Force equals mass times acceleration", "Every action has an equal and opposite reaction"],
+    "correctAnswer": "Energy cannot be created or destroyed",
+    "explanation": "The first law of thermodynamics states that energy cannot be created or destroyed, only transformed"
+  },
+  {
+    "_id": "english_9_easy_1",
+    "question": "What is a noun?",
+    "options": ["A person, place, or thing", "An action word", "A describing word", "A connecting word"],
+    "correctAnswer": "A person, place, or thing",
+    "explanation": "A noun is a word that names a person, place, thing, or idea"
+  },
+  {
+    "_id": "english_9_easy_2",
+    "question": "Which of these is a verb?",
+    "options": ["Beautiful", "Running", "Blue", "Quickly"],
+    "correctAnswer": "Running",
+    "explanation": "Running is a verb because it describes an action"
+  },
+  {
+    "_id": "english_9_medium_1",
+    "question": "What is the past tense of 'go'?",
+    "options": ["Goed", "Gone", "Went", "Going"],
+    "correctAnswer": "Went",
+    "explanation": "The past tense of 'go' is 'went'"
+  },
+  {
+    "_id": "english_9_medium_2",
+    "question": "What is a metaphor?",
+    "options": ["A comparison using 'like' or 'as'", "A direct comparison without 'like' or 'as'", "An exaggeration", "A sound word"],
+    "correctAnswer": "A direct comparison without 'like' or 'as'",
+    "explanation": "A metaphor is a figure of speech that makes a direct comparison between two unlike things"
+  },
+  {
+    "_id": "english_9_hard_1",
+    "question": "In Shakespeare's Romeo and Juliet, what family does Romeo belong to?",
+    "options": ["Capulet", "Montague", "Benvolio", "Tybalt"],
+    "correctAnswer": "Montague",
+    "explanation": "Romeo is a member of the Montague family, which is feuding with the Capulets"
+  },
+  {
+    "_id": "history_10_easy_1",
+    "question": "In which year did World War II end?",
+    "options": ["1944", "1945", "1946", "1947"],
+    "correctAnswer": "1945",
+    "explanation": "World War II ended in 1945 with the surrender of Japan"
+  },
+  {
+    "_id": "history_10_medium_1",
+    "question": "Who was the first President of the United States?",
+    "options": ["Thomas Jefferson", "John Adams", "George Washington", "Benjamin Franklin"],
+    "correctAnswer": "George Washington",
+    "explanation": "George Washington was the first President of the United States (1789-1797)"
+  },
+  {
+    "_id": "history_10_hard_1",
+    "question": "The Treaty of Versailles ended which war?",
+    "options": ["World War II", "World War I", "American Civil War", "Franco-Prussian War"],
+    "correctAnswer": "World War I",
+    "explanation": "The Treaty of Versailles was signed in 1919 and officially ended World War I"
+  }
+]

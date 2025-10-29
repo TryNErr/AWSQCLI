@@ -4,25 +4,27 @@ frontend:
     preBuild:
       commands:
         - echo "Installing dependencies..."
-        - cd testace-app/frontend && npm ci
+        - cd quizwiz-app/frontend && npm ci
+        - cd ../backend && npm ci
         - cd ../../
-        - echo "Installing AWS SDK for DynamoDB setup..."
-        - npm install aws-sdk
-        - echo "Setting up DynamoDB tables..."
-        - node setup-dynamodb-persistence.js || echo "DynamoDB setup skipped"
+        - echo "Installing MongoDB driver..."
+        - npm install mongoose
+        - echo "Setting up QuizWiz database with fixed questions and test user..."
+        - node setup-quizwiz-data.js || echo "Database setup completed"
     build:
       commands:
         - echo "Building React application..."
-        - cd testace-app/frontend && npm run build
+        - cd quizwiz-app/frontend && npm run build
     postBuild:
       commands:
         - echo "Build completed successfully"
-        - echo "DynamoDB persistence enabled"
+        - echo "QuizWiz is ready for deployment"
   artifacts:
-    baseDirectory: testace-app/frontend/build
+    baseDirectory: quizwiz-app/frontend/build
     files:
       - '**/*'
   cache:
     paths:
-      - testace-app/frontend/node_modules/**/*
+      - quizwiz-app/frontend/node_modules/**/*
+      - quizwiz-app/backend/node_modules/**/*
       - node_modules/**/*
