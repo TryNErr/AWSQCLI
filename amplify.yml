@@ -7,13 +7,13 @@ frontend:
         - cd quizwiz-app/frontend && npm install
         - cd ../backend && npm install
         - cd ../
-        - npm install serverless serverless-http serverless-offline
-        - echo "Installing MongoDB driver..."
-        - npm install mongoose
+        - echo "Installing serverless framework..."
+        - npm install -g serverless@3
+        - npm install serverless-http
         - echo "Deploying backend API..."
-        - npx serverless deploy --stage prod --region us-east-1
+        - serverless deploy --stage prod --region us-east-1
         - echo "Setting up QuizWiz database with fixed questions and test user..."
-        - node ../setup-quizwiz-data.js || echo "Database setup completed"
+        - cd ../ && node setup-quizwiz-data.js || echo "Database setup completed"
     build:
       commands:
         - echo "Building React application..."
