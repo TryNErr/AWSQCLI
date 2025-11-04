@@ -3,43 +3,31 @@ backend:
   phases:
     build:
       commands:
-        - echo "🔧 Deploying Backend API First..."
-        - cd quizwiz-app
-        - echo "Installing Serverless Framework..."
-        - npm install -g serverless@3.38.0
-        - echo "Installing backend dependencies..."
-        - cd backend && npm install && cd ..
-        - echo "Deploying backend to Lambda..."
-        - serverless deploy --stage prod --region us-east-1
+        - echo "🔧 Amplify Gen 2 Backend Deployment"
+        - cd amplify
+        - npm install
+        - npm run build
+        - amplify deploy --yes
         - echo "✅ Backend deployed"
-        - echo "Getting API endpoint..."
-        - 'API_URL=$(serverless info --stage prod --region us-east-1 | grep "HttpApiUrl" | awk "{print $2}")'
-        - 'echo "API_URL=$API_URL" > ../backend-url.env'
-        - 'echo "Backend API URL: $API_URL"'
 frontend:
   phases:
     preBuild:
       commands:
         - echo "🚀 QuizWiz Frontend Deployment"
         - cd quizwiz-app/frontend
-        - echo "Installing dependencies..."
         - npm install
         - echo "✅ Dependencies installed"
     build:
       commands:
         - echo "🔨 Building React application..."
-        - echo "Loading backend API URL..."
-        - 'if [ -f ../../backend-url.env ]; then source ../../backend-url.env; fi'
-        - 'echo "REACT_APP_API_URL=${API_URL:-https://placeholder.execute-api.us-east-1.amazonaws.com/prod}" > .env.production.local'
-        - 'echo "REACT_APP_ENVIRONMENT=production" >> .env.production.local'
-        - 'echo "GENERATE_SOURCEMAP=false" >> .env.production.local'
-        - 'echo "Using API URL: ${API_URL}"'
+        - echo "REACT_APP_API_URL=$AMPLIFY_API_URL" > .env.production.local
+        - echo "REACT_APP_ENVIRONMENT=production" >> .env.production.local
+        - echo "GENERATE_SOURCEMAP=false" >> .env.production.local
         - npm run build
         - echo "✅ Build completed"
     postBuild:
       commands:
-        - echo "📦 Verifying build..."
-        - test -f build/index.html && echo "✅ index.html exists" || exit 1
+        - test -f build/index.html && echo "✅ Frontend ready" || exit 1
         - echo "🎉 Full-stack deployment complete"
   artifacts:
     baseDirectory: quizwiz-app/frontend/build
@@ -48,4 +36,4 @@ frontend:
   cache:
     paths:
       - quizwiz-app/frontend/node_modules/**/*
-      - quizwiz-app/backend/node_modules/**/*
+      - amplify/node_modules/**/*
