@@ -13,9 +13,9 @@ backend:
         - serverless deploy --stage prod --region us-east-1
         - echo "✅ Backend deployed"
         - echo "Getting API endpoint..."
-        - API_URL=$(serverless info --stage prod --region us-east-1 | grep "HttpApiUrl" | awk '{print $2}')
-        - echo "API_URL=$API_URL" > ../backend-url.env
-        - echo "Backend API URL: $API_URL"
+        - 'API_URL=$(serverless info --stage prod --region us-east-1 | grep "HttpApiUrl" | awk "{print $2}")'
+        - 'echo "API_URL=$API_URL" > ../backend-url.env'
+        - 'echo "Backend API URL: $API_URL"'
 frontend:
   phases:
     preBuild:
@@ -29,11 +29,11 @@ frontend:
       commands:
         - echo "🔨 Building React application..."
         - echo "Loading backend API URL..."
-        - if [ -f ../../backend-url.env ]; then source ../../backend-url.env; fi
-        - echo "REACT_APP_API_URL=${API_URL:-https://placeholder.execute-api.us-east-1.amazonaws.com/prod}" > .env.production.local
-        - echo "REACT_APP_ENVIRONMENT=production" >> .env.production.local
-        - echo "GENERATE_SOURCEMAP=false" >> .env.production.local
-        - echo "Using API URL: ${API_URL}"
+        - 'if [ -f ../../backend-url.env ]; then source ../../backend-url.env; fi'
+        - 'echo "REACT_APP_API_URL=${API_URL:-https://placeholder.execute-api.us-east-1.amazonaws.com/prod}" > .env.production.local'
+        - 'echo "REACT_APP_ENVIRONMENT=production" >> .env.production.local'
+        - 'echo "GENERATE_SOURCEMAP=false" >> .env.production.local'
+        - 'echo "Using API URL: ${API_URL}"'
         - npm run build
         - echo "✅ Build completed"
     postBuild:
