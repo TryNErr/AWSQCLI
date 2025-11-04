@@ -10,7 +10,7 @@ frontend:
         - echo "Region:" $AWS_DEFAULT_REGION
         - cd quizwiz-app/frontend
         - echo "Installing frontend dependencies..."
-        - npm ci --production=false
+        - npm install
         - echo "✅ Frontend dependencies installed"
     build:
       commands:
