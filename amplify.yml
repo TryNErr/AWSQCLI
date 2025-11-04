@@ -19,7 +19,6 @@ frontend:
       commands:
         - echo "🔨 Building React application..."
         - echo "Current directory:" && pwd
-        - cd quizwiz-app/frontend
         - echo "Setting up dynamic environment variables..."
         - |
           if [ -n "$AWS_APP_ID" ]; then
@@ -39,7 +38,6 @@ frontend:
     postBuild:
       commands:
         - echo "📦 Post-build verification..."
-        - cd quizwiz-app/frontend
         - test -f build/index.html && echo "✅ index.html found" || echo "❌ index.html missing"
         - test -d build/static && echo "✅ static assets found" || echo "❌ static assets missing"
         - echo "🎉 QuizWiz frontend deployment ready!"
