@@ -6,7 +6,7 @@ backend:
         - echo "🔧 Deploying Backend API First..."
         - cd quizwiz-app
         - echo "Installing Serverless Framework..."
-        - npm install -g serverless
+        - npm install -g serverless@3.38.0
         - echo "Installing backend dependencies..."
         - cd backend && npm install && cd ..
         - echo "Deploying backend to Lambda..."
