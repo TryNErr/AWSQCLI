@@ -4,20 +4,23 @@ frontend:
     preBuild:
       commands:
         - echo "🚀 Starting QuizWiz deployment..."
+        - echo "Current working directory:" && pwd
+        - echo "Directory contents:" && ls -la
         - echo "Amplify Environment Variables:"
         - echo "App ID:" $AWS_APP_ID
         - echo "Branch:" $AWS_BRANCH  
         - echo "Region:" $AWS_DEFAULT_REGION
-        - cd quizwiz-app/frontend
+        - echo "Checking quizwiz-app directory..."
+        - ls -la quizwiz-app/
         - echo "Installing frontend dependencies..."
-        - npm install
+        - cd quizwiz-app/frontend && npm install
         - echo "✅ Frontend dependencies installed"
     build:
       commands:
         - echo "🔨 Building React application..."
+        - echo "Current directory:" && pwd
         - cd quizwiz-app/frontend
         - echo "Setting up dynamic environment variables..."
-        # Use Amplify's built-in variables to construct API URL
         - |
           if [ -n "$AWS_APP_ID" ]; then
             API_URL="https://${AWS_APP_ID}.execute-api.${AWS_DEFAULT_REGION:-us-east-1}.amazonaws.com/prod"
