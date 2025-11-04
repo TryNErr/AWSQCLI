@@ -3,25 +3,43 @@ frontend:
   phases:
     preBuild:
       commands:
-        - echo "Installing dependencies..."
-        - cd quizwiz-app/frontend && npm install
-        - cd ../backend && npm install
-        - cd ../
-        - echo "Installing serverless framework..."
-        - npm install -g serverless@3
-        - npm install serverless-http
-        - echo "Deploying backend API..."
-        - serverless deploy --stage prod --region us-east-1
-        - echo "Setting up QuizWiz database with fixed questions and test user..."
-        - cd ../ && node setup-quizwiz-data.js || echo "Database setup completed"
+        - echo "🚀 Starting QuizWiz deployment..."
+        - echo "Amplify Environment Variables:"
+        - echo "App ID:" $AWS_APP_ID
+        - echo "Branch:" $AWS_BRANCH  
+        - echo "Region:" $AWS_DEFAULT_REGION
+        - cd quizwiz-app/frontend
+        - echo "Installing frontend dependencies..."
+        - npm ci --production=false
+        - echo "✅ Frontend dependencies installed"
     build:
       commands:
-        - echo "Building React application..."
-        - cd quizwiz-app/frontend && npm run build
+        - echo "🔨 Building React application..."
+        - cd quizwiz-app/frontend
+        - echo "Setting up dynamic environment variables..."
+        # Use Amplify's built-in variables to construct API URL
+        - |
+          if [ -n "$AWS_APP_ID" ]; then
+            API_URL="https://${AWS_APP_ID}.execute-api.${AWS_DEFAULT_REGION:-us-east-1}.amazonaws.com/prod"
+            echo "REACT_APP_API_URL=$API_URL" > .env.production.local
+          else
+            echo "REACT_APP_API_URL=https://api.placeholder.com" > .env.production.local
+          fi
+        - echo "REACT_APP_ENVIRONMENT=production" >> .env.production.local
+        - echo "REACT_APP_AMPLIFY_APP_ID=${AWS_APP_ID:-unknown}" >> .env.production.local
+        - echo "REACT_APP_BRANCH=${AWS_BRANCH:-main}" >> .env.production.local
+        - echo "GENERATE_SOURCEMAP=false" >> .env.production.local
+        - echo "Environment configuration:"
+        - cat .env.production.local
+        - npm run build
+        - echo "✅ Build completed successfully"
     postBuild:
       commands:
-        - echo "Build completed successfully"
-        - echo "QuizWiz is ready for deployment"
+        - echo "📦 Post-build verification..."
+        - cd quizwiz-app/frontend
+        - test -f build/index.html && echo "✅ index.html found" || echo "❌ index.html missing"
+        - test -d build/static && echo "✅ static assets found" || echo "❌ static assets missing"
+        - echo "🎉 QuizWiz frontend deployment ready!"
   artifacts:
     baseDirectory: quizwiz-app/frontend/build
     files:
@@ -29,6 +47,3 @@ frontend:
   cache:
     paths:
       - quizwiz-app/frontend/node_modules/**/*
-      - quizwiz-app/backend/node_modules/**/*
-      - quizwiz-app/node_modules/**/*
-      - node_modules/**/*

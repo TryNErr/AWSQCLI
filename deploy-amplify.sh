@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # QuizWiz AWS Amplify Deployment Script
-# This script sets up and deploys both frontend and backend to AWS Amplify
+# This script deploys the QuizWiz frontend to AWS Amplify
 
 set -e
 
@@ -15,7 +15,6 @@ YELLOW='\033[1;33m'
 BLUE='\033[0;34m'
 NC='\033[0m' # No Color
 
-# Function to print colored output
 print_status() {
     echo -e "${GREEN}✅ $1${NC}"
 }
@@ -34,18 +33,8 @@ print_info() {
 
 # Check if AWS CLI is installed
 if ! command -v aws &> /dev/null; then
-    print_error "AWS CLI is not installed. Please install it first:"
-    echo "curl 'https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip' -o 'awscliv2.zip'"
-    echo "unzip awscliv2.zip"
-    echo "sudo ./aws/install"
+    print_error "AWS CLI is not installed. Please install it first."
     exit 1
-fi
-
-# Check if Amplify CLI is installed
-if ! command -v amplify &> /dev/null; then
-    print_warning "Amplify CLI not found. Installing..."
-    npm install -g @aws-amplify/cli
-    print_status "Amplify CLI installed"
 fi
 
 # Check AWS credentials
@@ -66,53 +55,55 @@ if [ ! -d "quizwiz-app" ]; then
     exit 1
 fi
 
-print_status "Project structure verified"
-
-# Install dependencies
-print_info "Installing dependencies..."
-cd quizwiz-app/frontend
-if [ ! -d "node_modules" ]; then
-    npm install
-    print_status "Frontend dependencies installed"
-else
-    print_status "Frontend dependencies already installed"
+if [ ! -d "quizwiz-app/frontend" ]; then
+    print_error "quizwiz-app/frontend directory not found."
+    exit 1
 fi
 
-cd ../backend
+print_status "Project structure verified"
+
+# Test build locally first
+print_info "Testing local build..."
+cd quizwiz-app/frontend
+
+# Install dependencies if needed
 if [ ! -d "node_modules" ]; then
+    print_info "Installing frontend dependencies..."
     npm install
-    print_status "Backend dependencies installed"
+    print_status "Dependencies installed"
+fi
+
+# Test build
+print_info "Running test build..."
+npm run build
+if [ $? -eq 0 ]; then
+    print_status "Local build successful"
 else
-    print_status "Backend dependencies already installed"
+    print_error "Local build failed. Please fix build errors before deploying."
+    exit 1
 fi
 
 cd "$SCRIPT_DIR"
+
+# Check if Amplify CLI is installed
+if ! command -v amplify &> /dev/null; then
+    print_warning "Amplify CLI not found. Installing..."
+    npm install -g @aws-amplify/cli
+    print_status "Amplify CLI installed"
+fi
 
 # Initialize Amplify if not already initialized
 if [ ! -d "amplify" ]; then
     print_info "Initializing Amplify project..."
     amplify init --yes
     print_status "Amplify project initialized"
-else
-    print_status "Amplify project already initialized"
-fi
-
-# Set monorepo environment variable
-print_info "Setting monorepo configuration..."
-if amplify env get --name AMPLIFY_MONOREPO_APP_ROOT &> /dev/null; then
-    print_status "AMPLIFY_MONOREPO_APP_ROOT already set"
-else
-    amplify env add --name AMPLIFY_MONOREPO_APP_ROOT --value quizwiz-app
-    print_status "AMPLIFY_MONOREPO_APP_ROOT set to 'quizwiz-app'"
 fi
 
 # Add hosting if not already added
 print_info "Setting up Amplify hosting..."
-if ! amplify status | grep -q "Hosting"; then
+if ! amplify status 2>/dev/null | grep -q "Hosting"; then
     amplify add hosting
     print_status "Amplify hosting configured"
-else
-    print_status "Amplify hosting already configured"
 fi
 
 # Deploy the application
@@ -121,31 +112,21 @@ amplify publish --yes
 
 print_status "Deployment completed!"
 
-# Get the app URL
-APP_URL=$(amplify status | grep -o 'https://[^[:space:]]*\.amplifyapp\.com' | head -1)
-
-if [ -n "$APP_URL" ]; then
-    echo ""
-    echo "🎉 Deployment Summary:"
-    echo "======================"
-    echo "🌐 Frontend URL: $APP_URL"
-    echo "📱 App Status: Live and accessible"
-    echo "🔧 Monorepo Root: quizwiz-app"
-    echo ""
-    echo "🧪 Test your deployment:"
-    echo "curl -I $APP_URL"
-    echo ""
-    echo "🔧 To update your deployment:"
-    echo "amplify publish"
-    echo ""
-    echo "🗑️  To delete your deployment:"
-    echo "amplify delete"
-    echo ""
-    echo "⚙️  Environment Variables Set:"
-    echo "   AMPLIFY_MONOREPO_APP_ROOT=quizwiz-app"
-else
-    print_warning "Could not retrieve app URL. Check Amplify console for details."
-fi
-
 echo ""
-print_status "QuizWiz is now live on AWS Amplify! 🚀"
+echo "🎉 Deployment Summary:"
+echo "======================"
+echo "📱 QuizWiz frontend deployed successfully"
+echo "🔧 Build artifacts: quizwiz-app/frontend/build"
+echo ""
+echo "🧪 Next steps:"
+echo "1. Check the Amplify console for your app URL"
+echo "2. Configure your backend API endpoint in the frontend"
+echo "3. Test the application functionality"
+echo ""
+echo "🔧 To update your deployment:"
+echo "amplify publish"
+echo ""
+echo "🗑️  To delete your deployment:"
+echo "amplify delete"
+
+print_status "QuizWiz frontend is now live on AWS Amplify! 🚀"
