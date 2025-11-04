@@ -3,44 +3,24 @@ frontend:
   phases:
     preBuild:
       commands:
-        - echo "🚀 Starting QuizWiz deployment..."
-        - echo "Current working directory:" && pwd
-        - echo "Directory contents:" && ls -la
-        - echo "Amplify Environment Variables:"
-        - echo "App ID:" $AWS_APP_ID
-        - echo "Branch:" $AWS_BRANCH  
-        - echo "Region:" $AWS_DEFAULT_REGION
-        - echo "Checking quizwiz-app directory..."
-        - ls -la quizwiz-app/
-        - echo "Installing frontend dependencies..."
-        - cd quizwiz-app/frontend && npm install
-        - echo "✅ Frontend dependencies installed"
+        - echo "🚀 QuizWiz Frontend Deployment (Cheapest Option)"
+        - cd quizwiz-app/frontend
+        - echo "Installing dependencies..."
+        - npm install
+        - echo "✅ Dependencies installed"
     build:
       commands:
         - echo "🔨 Building React application..."
-        - echo "Current directory:" && pwd
-        - echo "Setting up dynamic environment variables..."
-        - |
-          if [ -n "$AWS_APP_ID" ]; then
-            API_URL="https://${AWS_APP_ID}.execute-api.${AWS_DEFAULT_REGION:-us-east-1}.amazonaws.com/prod"
-            echo "REACT_APP_API_URL=$API_URL" > .env.production.local
-          else
-            echo "REACT_APP_API_URL=https://api.placeholder.com" > .env.production.local
-          fi
+        - echo "REACT_APP_API_URL=https://placeholder-api.execute-api.us-east-1.amazonaws.com/prod" > .env.production.local
         - echo "REACT_APP_ENVIRONMENT=production" >> .env.production.local
-        - echo "REACT_APP_AMPLIFY_APP_ID=${AWS_APP_ID:-unknown}" >> .env.production.local
-        - echo "REACT_APP_BRANCH=${AWS_BRANCH:-main}" >> .env.production.local
         - echo "GENERATE_SOURCEMAP=false" >> .env.production.local
-        - echo "Environment configuration:"
-        - cat .env.production.local
         - npm run build
-        - echo "✅ Build completed successfully"
+        - echo "✅ Build completed"
     postBuild:
       commands:
-        - echo "📦 Post-build verification..."
-        - test -f build/index.html && echo "✅ index.html found" || echo "❌ index.html missing"
-        - test -d build/static && echo "✅ static assets found" || echo "❌ static assets missing"
-        - echo "🎉 QuizWiz frontend deployment ready!"
+        - echo "📦 Verifying build..."
+        - test -f build/index.html && echo "✅ index.html exists" || exit 1
+        - echo "🎉 Frontend ready"
   artifacts:
     baseDirectory: quizwiz-app/frontend/build
     files:
