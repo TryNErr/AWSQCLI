@@ -27,7 +27,7 @@ const restApi = new RestApi(apiStack, 'QuizWizApi', {
 const lambdaIntegration = new LambdaIntegration(backend.apiFunction.resources.lambda);
 
 // Add proxy resource to handle all routes
-const proxyResource = restApi.root.addProxy({
+restApi.root.addProxy({
   defaultIntegration: lambdaIntegration,
   anyMethod: true
 });
