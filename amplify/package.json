@@ -9,5 +9,8 @@
   "dependencies": {
     "@aws-amplify/backend": "^1.0.0",
     "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
   }
 }
