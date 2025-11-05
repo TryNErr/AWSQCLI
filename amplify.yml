@@ -7,13 +7,14 @@ backend:
         - cd amplify
         - npm install
         - npm run build
-        - amplify deploy --yes
-        - echo "✅ Backend deployed"
+        - echo "✅ Backend compiled"
 frontend:
   phases:
     preBuild:
       commands:
         - echo "🚀 QuizWiz Frontend Deployment"
+        - pwd
+        - ls -la
         - cd quizwiz-app/frontend
         - npm install
         - echo "✅ Dependencies installed"
