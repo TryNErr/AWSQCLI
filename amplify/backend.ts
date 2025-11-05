@@ -2,6 +2,7 @@ import { defineBackend } from '@aws-amplify/backend';
 import { defineFunction } from '@aws-amplify/backend';
 import { Stack } from 'aws-cdk-lib';
 import { RestApi, LambdaIntegration, Cors } from 'aws-cdk-lib/aws-apigateway';
+import { CfnOutput } from 'aws-cdk-lib';
 
 const apiFunction = defineFunction({
   entry: '../quizwiz-app/backend/server.js'
@@ -30,6 +31,12 @@ const lambdaIntegration = new LambdaIntegration(backend.apiFunction.resources.la
 restApi.root.addProxy({
   defaultIntegration: lambdaIntegration,
   anyMethod: true
+});
+
+// Export API URL as CloudFormation output
+new CfnOutput(apiStack, 'ApiUrl', {
+  value: restApi.url,
+  exportName: 'QuizWizApiUrl'
 });
 
 // Add outputs for frontend to use
