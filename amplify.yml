@@ -19,7 +19,7 @@ frontend:
     build:
       commands:
         - echo "🔨 Building React application..."
-        - echo "REACT_APP_API_URL=https://placeholder-api.execute-api.us-east-1.amazonaws.com/prod" > .env.production.local
+        - echo "REACT_APP_API_URL=https://placeholder-api.execute-api.ap-southeast-2.amazonaws.com/prod" > .env.production.local
         - echo "REACT_APP_ENVIRONMENT=production" >> .env.production.local
         - echo "GENERATE_SOURCEMAP=false" >> .env.production.local
         - cat .env.production.local
