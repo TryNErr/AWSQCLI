@@ -19,12 +19,7 @@ frontend:
     build:
       commands:
         - echo "🔨 Building React application..."
-        - echo "Looking for Amplify outputs..."
-        - find /tmp -name "*outputs*" -type f 2>/dev/null | head -5
-        - ls -la ../amplify/ 2>/dev/null || echo "No amplify dir"
-        - API_URL=$(find /tmp -name "*outputs*" -exec grep -l "endpoint" {} \; 2>/dev/null | head -1 | xargs cat 2>/dev/null | grep -o 'https://[^"]*' | head -1 || echo "https://placeholder-api.execute-api.us-east-1.amazonaws.com/prod")
-        - echo "Found API URL: ${API_URL}"
-        - echo "REACT_APP_API_URL=${API_URL}" > .env.production.local
+        - echo "REACT_APP_API_URL=https://placeholder-api.execute-api.us-east-1.amazonaws.com/prod" > .env.production.local
         - echo "REACT_APP_ENVIRONMENT=production" >> .env.production.local
         - echo "GENERATE_SOURCEMAP=false" >> .env.production.local
         - cat .env.production.local
