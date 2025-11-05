@@ -3,37 +3,32 @@ backend:
   phases:
     build:
       commands:
-        - "echo '🔧 Deploying Backend Lambda'"
-        - "cd quizwiz-app"
-        - "npm install -g serverless"
-        - "cd backend && npm install && cd .."
-        - "serverless deploy --stage prod --region ap-southeast-2 > deploy-output.txt"
-        - "API_URL=$(grep -o 'https://[^[:space:]]*' deploy-output.txt | head -1)"
-        - "echo 'Backend API URL: $API_URL'"
-        - "echo '$API_URL' > ../backend-api-url.txt"
-        - "echo '✅ Backend Lambda deployed'"
+        - "echo '🔧 Amplify Gen 2 Backend Deployment'"
+        - "cd amplify"
+        - "npm install"
+        - "npm run build"
+        - "echo '✅ Backend compiled'"
 frontend:
   phases:
     preBuild:
       commands:
-        - "echo '🚀 Building Static React Frontend'"
+        - "echo '🚀 Building React Frontend'"
         - "cd quizwiz-app/frontend"
         - "npm install"
         - "echo '✅ Dependencies installed'"
     build:
       commands:
-        - "echo '🔨 Building React with backend API...'"
-        - "API_URL=$(cat ../../backend-api-url.txt || echo 'https://placeholder-api.execute-api.ap-southeast-2.amazonaws.com/prod')"
-        - "echo 'REACT_APP_API_URL=$API_URL' > .env.production.local"
+        - "echo '🔨 Building React application...'"
+        - "echo 'REACT_APP_API_URL=https://placeholder-api.execute-api.ap-southeast-2.amazonaws.com/prod' > .env.production.local"
         - "echo 'REACT_APP_ENVIRONMENT=production' >> .env.production.local"
         - "echo 'GENERATE_SOURCEMAP=false' >> .env.production.local"
         - "cat .env.production.local"
         - "npm run build"
-        - "echo '✅ Static frontend built'"
+        - "echo '✅ Build completed'"
     postBuild:
       commands:
-        - "test -f build/index.html && echo '✅ Frontend ready for CDN' || exit 1"
-        - "echo '🎉 Full-stack Lambda + Static deployment complete'"
+        - "test -f build/index.html && echo '✅ Frontend ready' || exit 1"
+        - "echo '🎉 Full-stack deployment complete'"
   artifacts:
     baseDirectory: quizwiz-app/frontend/build
     files:
@@ -41,3 +36,4 @@ frontend:
   cache:
     paths:
       - quizwiz-app/frontend/node_modules/**/*
+      - amplify/node_modules/**/*
