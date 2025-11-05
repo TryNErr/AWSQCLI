@@ -1,10 +1,4 @@
 version: 1
-backend:
-  phases:
-    build:
-      commands:
-        - echo "🔧 Traditional Amplify Backend Deployment"
-        - amplifyPush --simple
 frontend:
   phases:
     preBuild:
@@ -16,7 +10,7 @@ frontend:
     build:
       commands:
         - echo "🔨 Building React application..."
-        - echo "REACT_APP_API_URL=${AWS_BRANCH}_quizwizapi_LAMBDA_ENDPOINT" > .env.production.local
+        - echo "REACT_APP_API_URL=https://placeholder-api.execute-api.ap-southeast-2.amazonaws.com/prod" > .env.production.local
         - echo "REACT_APP_ENVIRONMENT=production" >> .env.production.local
         - echo "GENERATE_SOURCEMAP=false" >> .env.production.local
         - cat .env.production.local
@@ -25,7 +19,7 @@ frontend:
     postBuild:
       commands:
         - test -f build/index.html && echo "✅ Frontend ready" || exit 1
-        - echo "🎉 Full-stack deployment complete"
+        - echo "🎉 Frontend deployment complete"
   artifacts:
     baseDirectory: quizwiz-app/frontend/build
     files:
