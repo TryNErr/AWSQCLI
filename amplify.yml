@@ -3,23 +3,20 @@ backend:
   phases:
     build:
       commands:
-        - echo "🔧 Amplify Gen 2 Backend Deployment"
-        - cd amplify
-        - npm install
-        - npm run build
-        - echo "✅ Backend compiled"
+        - echo "🔧 Traditional Amplify Backend Deployment"
+        - amplifyPush --simple
 frontend:
   phases:
     preBuild:
       commands:
         - echo "🚀 QuizWiz Frontend Deployment"
-        - cd ../quizwiz-app/frontend
+        - cd quizwiz-app/frontend
         - npm install
         - echo "✅ Dependencies installed"
     build:
       commands:
         - echo "🔨 Building React application..."
-        - echo "REACT_APP_API_URL=https://placeholder-api.execute-api.ap-southeast-2.amazonaws.com/prod" > .env.production.local
+        - echo "REACT_APP_API_URL=${AWS_BRANCH}_quizwizapi_LAMBDA_ENDPOINT" > .env.production.local
         - echo "REACT_APP_ENVIRONMENT=production" >> .env.production.local
         - echo "GENERATE_SOURCEMAP=false" >> .env.production.local
         - cat .env.production.local
@@ -36,4 +33,3 @@ frontend:
   cache:
     paths:
       - quizwiz-app/frontend/node_modules/**/*
-      - amplify/node_modules/**/*
