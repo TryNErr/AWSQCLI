@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../../contexts/AuthContext';
-import axios from 'axios';
+import api from '../../config/api';
 import styled from 'styled-components';
 
 const DashboardContainer = styled.div`
@@ -185,7 +185,7 @@ const Dashboard = () => {
 
   const fetchStats = async () => {
     try {
-      const response = await axios.get('/api/quiz/stats');
+      const response = await api.get('/api/quiz/stats');
       setStats(response.data);
     } catch (error) {
       console.error('Failed to fetch stats:', error);
