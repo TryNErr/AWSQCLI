@@ -43,15 +43,3 @@ backend.addOutput({
     }
   }
 });
-
-// Add REST API integration
-backend.addOutput({
-  custom: {
-    API: {
-      [apiFunction.resourceName]: {
-        endpoint: `https://${backend.apiFunction.resources.lambda.functionArn}.lambda-url.${backend.stack.region}.on.aws/`,
-        region: backend.stack.region
-      }
-    }
-  }
-});
