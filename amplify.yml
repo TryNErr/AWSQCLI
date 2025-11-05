@@ -13,7 +13,7 @@ frontend:
     preBuild:
       commands:
         - "echo '🚀 Building React Frontend'"
-        - "cd quizwiz-app/frontend"
+        - "cd ../quizwiz-app/frontend"
         - "npm install"
         - "echo '✅ Dependencies installed'"
     build:
