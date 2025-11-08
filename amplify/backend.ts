@@ -1,5 +1,6 @@
 import { defineBackend } from '@aws-amplify/backend';
 import { myFirstFunction } from './my-first-function/resource';
+import { FunctionUrlAuthType } from 'aws-cdk-lib/aws-lambda';
 
 export const backend = defineBackend({
   myFirstFunction
@@ -7,5 +8,5 @@ export const backend = defineBackend({
 
 // Add function URL to make it accessible via HTTP
 backend.myFirstFunction.resources.lambda.addFunctionUrl({
-  authType: 'NONE'
+  authType: FunctionUrlAuthType.NONE
 });
