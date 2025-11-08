@@ -3,11 +3,10 @@ backend:
   phases:
     build:
       commands:
-        - "echo '🔧 Amplify Gen 2 Backend Deployment'"
-        - "cd amplify"
+        - "echo '🔧 Deploying Simple Express Backend'"
+        - "cp simple-package.json package.json"
         - "npm install"
-        - "npm run build"
-        - "echo '✅ Backend compiled'"
+        - "echo '✅ Backend ready'"
 frontend:
   phases:
     preBuild:
@@ -34,4 +33,4 @@ frontend:
   cache:
     paths:
       - quizwiz-app/frontend/node_modules/**/*
-      - amplify/node_modules/**/*
+      - node_modules/**/*
