@@ -1,19 +1,10 @@
 import { defineBackend } from '@aws-amplify/backend';
 import { myFirstFunction } from './my-first-function/resource';
 import { data } from './data/resource';
+import { api } from './api/resource';
 
 export const backend = defineBackend({
   myFirstFunction,
-  data
-});
-
-// Add API Gateway configuration
-backend.myFirstFunction.addHttpApi({
-  path: '/api/{proxy+}',
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
-});
-
-backend.myFirstFunction.addHttpApi({
-  path: '/test',
-  methods: ['GET']
+  data,
+  api
 });
