@@ -1,12 +1,4 @@
 version: 1
-backend:
-  phases:
-    build:
-      commands:
-        - "echo '🔧 Deploying Simple Express Backend'"
-        - "cp simple-package.json package.json"
-        - "npm install"
-        - "echo '✅ Backend ready'"
 frontend:
   phases:
     preBuild:
@@ -33,4 +25,3 @@ frontend:
   cache:
     paths:
       - quizwiz-app/frontend/node_modules/**/*
-      - node_modules/**/*
