@@ -13,11 +13,7 @@ frontend:
     preBuild:
       commands:
         - "echo '🚀 Building React Frontend'"
-        - "echo 'Current directory:' && pwd"
-        - "echo 'Directory contents:' && ls -la"
-        - "echo 'Looking for quizwiz-app:' && ls -la | grep quizwiz"
-        - "cd quizwiz-app/frontend"
-        - "echo 'Now in frontend directory:' && pwd"
+        - "cd ../quizwiz-app/frontend"
         - "npm install"
         - "echo '✅ Dependencies installed'"
     build:
