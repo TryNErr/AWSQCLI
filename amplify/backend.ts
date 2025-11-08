@@ -14,9 +14,9 @@ backend.myFirstFunction.resources.lambda.addFunctionUrl({
   authType: FunctionUrlAuthType.NONE,
   cors: {
     allowCredentials: false,
-    allowHeaders: ['*'],
-    allowMethods: ['*'],
-    allowOrigins: ['*'],
+    allowedHeaders: ['*'],
+    allowedMethods: ['*'],
+    allowedOrigins: ['*'],
     maxAge: Duration.days(1)
   }
 });
