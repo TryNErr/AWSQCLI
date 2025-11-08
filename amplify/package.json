@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "build": "tsc && node --loader ts-node/esm ./backend.ts",
+    "build": "tsc",
     "deploy": "amplify deploy"
   },
   "dependencies": {
