@@ -1,56 +1,32 @@
 version: 1
 backend:
   phases:
-    preBuild:
-      commands:
-        - "echo '🔧 Amplify Gen 2 Backend Deployment'"
-        - "echo 'Current directory:' && pwd"
-        - "echo 'Directory contents:' && ls -la"
-        - "echo 'Checking amplify directory:' && ls -la amplify/"
     build:
       commands:
+        - "echo '🔧 Amplify Gen 2 Backend Deployment'"
         - "cd amplify"
-        - "echo 'Installing amplify dependencies...'"
         - "npm install"
-        - "echo 'Building amplify backend...'"
         - "npm run build"
-        - "echo '✅ Amplify backend compiled'"
-    postBuild:
-      commands:
-        - "echo 'Backend deployment completed'"
-        - "echo 'Getting API endpoint...'"
-        - "npx ampx generate outputs --app-id $AWS_APP_ID --branch $AWS_BRANCH"
+        - "echo '✅ Backend compiled'"
 frontend:
   phases:
     preBuild:
       commands:
         - "echo '🚀 Building React Frontend'"
-        - "echo 'Current directory:' && pwd"
-        - "echo 'Directory contents:' && ls -la"
-        - "echo 'Checking quizwiz-app structure:' && ls -la quizwiz-app/"
         - "cd quizwiz-app/frontend"
-        - "echo 'Frontend directory contents:' && ls -la"
-        - "echo 'Installing frontend dependencies...'"
         - "npm install"
         - "echo '✅ Dependencies installed'"
     build:
       commands:
         - "echo '🔨 Building React application...'"
-        - "echo 'Creating production environment...'"
-        - "echo 'REACT_APP_API_URL=https://$AWS_APP_ID.$AWS_REGION.amplifyapp.com' > .env.production.local"
+        - "echo 'REACT_APP_API_URL=https://master.d210nlz7uk7hed.amplifyapp.com' > .env.production.local"
         - "echo 'REACT_APP_ENVIRONMENT=production' >> .env.production.local"
         - "echo 'GENERATE_SOURCEMAP=false' >> .env.production.local"
-        - "echo 'Environment file contents:' && cat .env.production.local"
-        - "echo 'Running build...'"
         - "npm run build"
-        - "echo 'Build directory contents:' && ls -la build/"
         - "echo '✅ Build completed'"
     postBuild:
       commands:
-        - "echo 'Verifying build artifacts...'"
-        - "test -f build/index.html && echo '✅ Frontend ready' || (echo '❌ Build failed - no index.html' && exit 1)"
-        - "echo 'Build size:' && du -sh build/"
-        - "echo '🎉 Full-stack deployment complete'"
+        - "test -f build/index.html && echo '✅ Frontend ready' || exit 1"
   artifacts:
     baseDirectory: quizwiz-app/frontend/build
     files:
