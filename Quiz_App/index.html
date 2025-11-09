@@ -72,35 +72,71 @@
         }
         
         .filter-section {
-            background: var(--gray-lighter);
+            background: white;
             padding: 24px;
             border-radius: 12px;
             margin: 24px 0;
+            box-shadow: var(--shadow);
+            border: 1px solid var(--gray-lighter);
+        }
+        
+        .filter-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 24px;
         }
         
         .filter-group {
-            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column;
         }
         
         .filter-group label {
-            display: block;
             font-weight: 600;
-            margin-bottom: 8px;
+            margin-bottom: 12px;
             color: var(--dark);
         }
         
-        .filter-group select {
-            width: 100%;
-            padding: 12px 16px;
-            border: 2px solid var(--gray-light);
-            border-radius: 12px;
-            font-size: 14px;
-            transition: border-color 0.3s ease;
+        .filter-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
         }
         
-        .filter-group select:focus {
-            outline: none;
+        .filter-btn {
+            padding: 8px 16px;
+            border: 2px solid var(--gray-light);
+            border-radius: 8px;
+            background: white;
+            color: var(--dark);
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 14px;
+            margin: 0;
+        }
+        
+        .filter-btn:hover {
             border-color: var(--primary);
+            background: #f8fafc;
+        }
+        
+        .filter-btn.active {
+            border-color: var(--primary);
+            background: var(--primary);
+            color: white;
+            font-weight: 600;
+        }
+        
+        .start-section {
+            text-align: center;
+            margin-top: 24px;
+        }
+        
+        #question-count {
+            margin-top: 12px;
+            color: var(--gray);
+            font-size: 14px;
         }
         
         button {
@@ -224,6 +260,26 @@
             color: var(--dark);
         }
         
+        .navigation-buttons {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 24px 0;
+            gap: 12px;
+        }
+        
+        .navigation-buttons button {
+            margin: 0;
+        }
+        
+        #home-btn {
+            background: var(--gray);
+        }
+        
+        #home-btn:hover {
+            background: var(--dark);
+        }
+        
         @media (max-width: 768px) {
             .container { padding: 0 16px; }
             .card { padding: 24px; border-radius: 12px; }
@@ -241,33 +297,32 @@
 
     <div class="container">
         <div id="selection-screen" class="card">
-            <h1>Start Your Quiz</h1>
-            <p>Select your quiz preferences to begin</p>
+            <h1>Choose Your Quiz</h1>
+            <p>Select your preferences to find the perfect quiz for you</p>
             
             <div class="filter-section">
-                <div class="filter-group">
-                    <label>Subject:</label>
-                    <select id="subject">
-                        <option value="">All Subjects</option>
-                    </select>
-                </div>
-                
-                <div class="filter-group">
-                    <label>Grade:</label>
-                    <select id="grade">
-                        <option value="">All Grades</option>
-                    </select>
-                </div>
-                
-                <div class="filter-group">
-                    <label>Difficulty:</label>
-                    <select id="difficulty">
-                        <option value="">All Difficulties</option>
-                    </select>
+                <div class="filter-grid">
+                    <div class="filter-group">
+                        <label>Subject</label>
+                        <div class="filter-buttons" id="subject-buttons"></div>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label>Grade</label>
+                        <div class="filter-buttons" id="grade-buttons"></div>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label>Difficulty</label>
+                        <div class="filter-buttons" id="difficulty-buttons"></div>
+                    </div>
                 </div>
             </div>
             
-            <button onclick="startQuiz()">Start Quiz</button>
+            <div class="start-section">
+                <button onclick="startQuiz()" id="start-btn">Start Quiz</button>
+                <div id="question-count"></div>
+            </div>
         </div>
         
         <div id="quiz-screen" class="card" style="display: none;">
@@ -275,14 +330,21 @@
             <div id="passage"></div>
             <div id="question-content"></div>
             <div id="options"></div>
-            <button id="next-btn" onclick="nextQuestion()" style="display: none;">Next Question</button>
+            <div class="navigation-buttons">
+                <button id="home-btn" onclick="goHome()">🏠 Home</button>
+                <button id="back-btn" onclick="previousQuestion()" style="display: none;">← Back</button>
+                <button id="next-btn" onclick="nextQuestion()" style="display: none;">Next →</button>
+            </div>
             <div id="result"></div>
         </div>
         
         <div id="results-screen" class="card" style="display: none;">
             <h2>Quiz Complete!</h2>
             <div id="final-score"></div>
-            <button onclick="restartQuiz()">Take Another Quiz</button>
+            <div class="navigation-buttons">
+                <button onclick="goHome()">🏠 Home</button>
+                <button onclick="restartQuiz()">Take Another Quiz</button>
+            </div>
         </div>
     </div>
 

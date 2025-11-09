@@ -3,6 +3,11 @@ let filteredQuestions = [];
 let currentQuestionIndex = 0;
 let score = 0;
 let selectedAnswer = null;
+let filters = {
+    subject: '',
+    grade: '',
+    difficulty: ''
+};
 
 // Load questions and populate filters
 async function loadQuestions() {
@@ -50,6 +55,7 @@ async function loadQuestions() {
         
         questions = JSON.parse(fixedText);
         populateFilters();
+        updateQuestionCount();
     } catch (error) {
         console.error('Error loading questions:', error);
     }
@@ -60,35 +66,64 @@ function populateFilters() {
     const grades = [...new Set(questions.map(q => q.grade).filter(Boolean))].sort((a, b) => a - b);
     const difficulties = [...new Set(questions.map(q => q.difficulty).filter(Boolean))].sort();
     
-    populateSelect('subject', subjects);
-    populateSelect('grade', grades);
-    populateSelect('difficulty', difficulties);
+    createFilterButtons('subject', subjects);
+    createFilterButtons('grade', grades);
+    createFilterButtons('difficulty', difficulties);
 }
 
-function populateSelect(id, options) {
-    const select = document.getElementById(id);
+function createFilterButtons(type, options) {
+    const container = document.getElementById(`${type}-buttons`);
+    container.innerHTML = '';
+    
+    // Add "All" button
+    const allBtn = document.createElement('button');
+    allBtn.className = 'filter-btn active';
+    allBtn.textContent = `All ${type.charAt(0).toUpperCase() + type.slice(1)}s`;
+    allBtn.onclick = () => selectFilter(type, '', allBtn);
+    container.appendChild(allBtn);
+    
+    // Add option buttons
     options.forEach(option => {
-        if (option != null) {
-            const optionElement = document.createElement('option');
-            optionElement.value = option;
-            optionElement.textContent = typeof option === 'string' ? 
-                option.charAt(0).toUpperCase() + option.slice(1) : 
-                option.toString();
-            select.appendChild(optionElement);
-        }
+        const btn = document.createElement('button');
+        btn.className = 'filter-btn';
+        btn.textContent = typeof option === 'string' ? 
+            option.charAt(0).toUpperCase() + option.slice(1) : 
+            `Grade ${option}`;
+        btn.onclick = () => selectFilter(type, option, btn);
+        container.appendChild(btn);
     });
 }
 
-window.startQuiz = function() {
-    const subject = document.getElementById('subject').value;
-    const grade = document.getElementById('grade').value;
-    const difficulty = document.getElementById('difficulty').value;
+function selectFilter(type, value, button) {
+    // Remove active class from all buttons in this group
+    const container = document.getElementById(`${type}-buttons`);
+    container.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
     
-    // Filter questions
+    // Add active class to clicked button
+    button.classList.add('active');
+    
+    // Update filter
+    filters[type] = value;
+    updateQuestionCount();
+}
+
+function updateQuestionCount() {
+    const filtered = questions.filter(q => {
+        return (!filters.subject || q.subject === filters.subject) &&
+               (!filters.grade || q.grade == filters.grade) &&
+               (!filters.difficulty || q.difficulty === filters.difficulty);
+    });
+    
+    document.getElementById('question-count').textContent = 
+        `${filtered.length} questions available`;
+}
+
+window.startQuiz = function() {
+    // Filter questions using the filters object
     filteredQuestions = questions.filter(q => {
-        return (!subject || q.subject === subject) &&
-               (!grade || q.grade == grade) &&
-               (!difficulty || q.difficulty === difficulty);
+        return (!filters.subject || q.subject === filters.subject) &&
+               (!filters.grade || q.grade == filters.grade) &&
+               (!filters.difficulty || q.difficulty === filters.difficulty);
     });
     
     if (filteredQuestions.length === 0) {
@@ -140,9 +175,24 @@ function showQuestion() {
         optionsDiv.appendChild(optionDiv);
     });
     
+    // Update navigation button visibility
+    document.getElementById('back-btn').style.display = currentQuestionIndex > 0 ? 'inline-block' : 'none';
     document.getElementById('next-btn').style.display = 'none';
     document.getElementById('result').innerHTML = '';
     selectedAnswer = null;
+}
+
+window.previousQuestion = function() {
+    if (currentQuestionIndex > 0) {
+        currentQuestionIndex--;
+        showQuestion();
+    }
+}
+
+window.goHome = function() {
+    document.getElementById('quiz-screen').style.display = 'none';
+    document.getElementById('results-screen').style.display = 'none';
+    document.getElementById('selection-screen').style.display = 'block';
 }
 
 function selectAnswer(answer, element) {
