@@ -19,6 +19,7 @@ async function loadQuestions() {
             .replace(/ΓÇ¥/g, '"')
             .replace(/ΓÇÖ/g, ''')
             .replace(/ΓÇÖ/g, ''')
+            .replace(/┬╜/g, '½')
             .replace(/┬▓/g, '²')
             .replace(/┬│/g, '³')
             .replace(/├ù/g, '×')
