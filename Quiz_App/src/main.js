@@ -13,8 +13,8 @@ async function loadQuestions() {
         const fixedText = text
             .replace(/ΓÇ»/g, ' ')
             .replace(/ΓÇæ/g, '-')
+            .replace(/ΓÇô/g, '−')
             .replace(/ΓÇÖ/g, '–')
-            .replace(/ΓÇô/g, '—')
             .replace(/ΓÇ£/g, '"')
             .replace(/ΓÇ¥/g, '"')
             .replace(/ΓÇÖ/g, ''')
