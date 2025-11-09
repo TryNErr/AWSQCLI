@@ -274,35 +274,37 @@
         }
         
         .answer-feedback {
-            display: inline-flex;
+            display: flex;
             align-items: center;
-            gap: 8px;
-            padding: 8px 12px;
-            border-radius: 6px;
-            font-size: 14px;
+            gap: 6px;
+            padding: 6px 10px;
+            border-radius: 4px;
+            font-size: 13px;
             font-weight: 500;
-            margin: 12px 0;
+            margin: 8px 0;
+            max-width: fit-content;
         }
         
         .answer-feedback.correct {
-            background: #d1fae5;
-            color: #065f46;
-            border-left: 3px solid var(--success);
+            background: #dcfce7;
+            color: #166534;
+            border: 1px solid #bbf7d0;
         }
         
         .answer-feedback.incorrect {
-            background: #fee2e2;
-            color: #991b1b;
-            border-left: 3px solid var(--error);
+            background: #fef2f2;
+            color: #dc2626;
+            border: 1px solid #fecaca;
         }
         
         .answer-feedback .icon {
-            font-size: 16px;
+            font-size: 14px;
+            font-weight: bold;
         }
         
         .explanation {
             font-style: italic;
-            margin-left: 4px;
+            opacity: 0.9;
         }
         
         .footer {
@@ -410,12 +412,12 @@
             <div id="passage"></div>
             <div id="question-content"></div>
             <div id="options"></div>
+            <div id="result"></div>
             <div class="navigation-buttons">
                 <button id="home-btn" onclick="goHome()">🏠 Home</button>
                 <button id="back-btn" onclick="previousQuestion()" style="display: none;">← Back</button>
                 <button id="next-btn" onclick="nextQuestion()" style="display: none;">Next →</button>
             </div>
-            <div id="result"></div>
         </div>
         
         <div id="results-screen" class="card" style="display: none;">
