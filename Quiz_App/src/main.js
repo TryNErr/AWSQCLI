@@ -9,18 +9,15 @@ async function loadQuestions() {
     try {
         const response = await fetch('/fixed_questions.json');
         const text = await response.text();
-        // Fix common encoding issues
+        // Fix common encoding issues - order matters!
         const fixedText = text
             .replace(/ΓÇ»/g, ' ')
             .replace(/ΓÇæ/g, '-')
             .replace(/ΓÇô/g, '–')
             .replace(/ΓÇö/g, '—')
-            .replace(/ΓÇÖ/g, '–')
+            .replace(/ΓÇÿ/g, '"')
             .replace(/ΓÇ£/g, '"')
             .replace(/ΓÇ¥/g, '"')
-            .replace(/ΓÇÿ/g, '"')
-            .replace(/ΓÇÖ/g, '"')
-            .replace(/ΓÇÖ/g, "'")
             .replace(/ΓÇÖ/g, "'")
             .replace(/ΓÇª/g, '...')
             .replace(/┬¼/g, '¼')
