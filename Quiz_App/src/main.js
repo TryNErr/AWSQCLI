@@ -9,16 +9,16 @@ async function loadQuestions() {
     try {
         const response = await fetch('/fixed_questions.json');
         const text = await response.text();
-        // Fix common encoding issues - avoid replacing quotes that break JSON
+        // Fix common encoding issues - use safe replacements
         const fixedText = text
             .replace(/ΓÇ»/g, ' ')
             .replace(/ΓÇæ/g, '-')
             .replace(/ΓÇô/g, '–')
             .replace(/ΓÇö/g, '—')
-            .replace(/ΓÇÿ/g, "'")
-            .replace(/ΓÇÖ/g, "'")
-            .replace(/ΓÇ£/g, '"')
-            .replace(/ΓÇ¥/g, '"')
+            .replace(/ΓÇÿ/g, '\u2019')
+            .replace(/ΓÇÖ/g, '\u2018')
+            .replace(/ΓÇ£/g, '\u201C')
+            .replace(/ΓÇ¥/g, '\u201D')
             .replace(/ΓÇª/g, '...')
             .replace(/┬¼/g, '¼')
             .replace(/┬¾/g, '¾')
