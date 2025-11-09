@@ -262,10 +262,18 @@ function selectAnswer(answer, element) {
     
     if (isCorrect) {
         document.getElementById('result').innerHTML = 
-            `<div class="success">✅ Correct! ${question.explanation || ''}</div>`;
+            `<div class="answer-feedback correct">
+                <span class="icon">✓</span>
+                <span>Correct!</span>
+                ${question.explanation ? `<span class="explanation">${question.explanation}</span>` : ''}
+            </div>`;
     } else {
         document.getElementById('result').innerHTML = 
-            `<div class="error">❌ Incorrect. The correct answer is: ${question.correctAnswer}. ${question.explanation || ''}</div>`;
+            `<div class="answer-feedback incorrect">
+                <span class="icon">✗</span>
+                <span>Incorrect. Answer: ${question.correctAnswer}</span>
+                ${question.explanation ? `<span class="explanation">${question.explanation}</span>` : ''}
+            </div>`;
     }
     
     document.getElementById('next-btn').style.display = 'inline-block';
