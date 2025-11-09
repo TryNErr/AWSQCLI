@@ -1,5 +1,146 @@
-window.startQuiz = function() {
-    const resultDiv = document.getElementById('result');
-    resultDiv.innerHTML = '🎯 Quiz functionality coming soon!';
-    resultDiv.className = 'success';
+let questions = [];
+let filteredQuestions = [];
+let currentQuestionIndex = 0;
+let score = 0;
+let selectedAnswer = null;
+
+// Load questions and populate filters
+async function loadQuestions() {
+    try {
+        const response = await fetch('/fixed_questions.json');
+        questions = await response.json();
+        populateFilters();
+    } catch (error) {
+        console.error('Error loading questions:', error);
+    }
 }
+
+function populateFilters() {
+    const subjects = [...new Set(questions.map(q => q.subject))].sort();
+    const grades = [...new Set(questions.map(q => q.grade))].sort((a, b) => a - b);
+    const difficulties = [...new Set(questions.map(q => q.difficulty))].sort();
+    
+    populateSelect('subject', subjects);
+    populateSelect('grade', grades);
+    populateSelect('difficulty', difficulties);
+}
+
+function populateSelect(id, options) {
+    const select = document.getElementById(id);
+    options.forEach(option => {
+        const optionElement = document.createElement('option');
+        optionElement.value = option;
+        optionElement.textContent = option.charAt(0).toUpperCase() + option.slice(1);
+        select.appendChild(optionElement);
+    });
+}
+
+window.startQuiz = function() {
+    const subject = document.getElementById('subject').value;
+    const grade = document.getElementById('grade').value;
+    const difficulty = document.getElementById('difficulty').value;
+    
+    // Filter questions
+    filteredQuestions = questions.filter(q => {
+        return (!subject || q.subject === subject) &&
+               (!grade || q.grade == grade) &&
+               (!difficulty || q.difficulty === difficulty);
+    });
+    
+    if (filteredQuestions.length === 0) {
+        alert('No questions found for the selected criteria. Please adjust your filters.');
+        return;
+    }
+    
+    // Shuffle questions
+    filteredQuestions = filteredQuestions.sort(() => Math.random() - 0.5);
+    
+    currentQuestionIndex = 0;
+    score = 0;
+    selectedAnswer = null;
+    
+    document.getElementById('selection-screen').style.display = 'none';
+    document.getElementById('quiz-screen').style.display = 'block';
+    
+    showQuestion();
+}
+
+function showQuestion() {
+    const question = filteredQuestions[currentQuestionIndex];
+    
+    document.getElementById('question-counter').textContent = 
+        `Question ${currentQuestionIndex + 1} of ${filteredQuestions.length}`;
+    
+    document.getElementById('question-content').textContent = question.content;
+    
+    const optionsDiv = document.getElementById('options');
+    optionsDiv.innerHTML = '';
+    
+    question.options.forEach((option, index) => {
+        const optionDiv = document.createElement('div');
+        optionDiv.className = 'option';
+        optionDiv.textContent = option;
+        optionDiv.onclick = () => selectAnswer(option, optionDiv);
+        optionsDiv.appendChild(optionDiv);
+    });
+    
+    document.getElementById('next-btn').style.display = 'none';
+    document.getElementById('result').innerHTML = '';
+    selectedAnswer = null;
+}
+
+function selectAnswer(answer, element) {
+    if (selectedAnswer) return; // Already answered
+    
+    selectedAnswer = answer;
+    const question = filteredQuestions[currentQuestionIndex];
+    const isCorrect = answer === question.correctAnswer;
+    
+    // Show correct/incorrect styling
+    document.querySelectorAll('.option').forEach(opt => {
+        opt.onclick = null; // Disable clicking
+        if (opt.textContent === question.correctAnswer) {
+            opt.classList.add('correct');
+        } else if (opt === element && !isCorrect) {
+            opt.classList.add('incorrect');
+        }
+    });
+    
+    if (isCorrect) {
+        score++;
+        document.getElementById('result').innerHTML = 
+            `<div class="success">✅ Correct! ${question.explanation || ''}</div>`;
+    } else {
+        document.getElementById('result').innerHTML = 
+            `<div class="error">❌ Incorrect. The correct answer is: ${question.correctAnswer}. ${question.explanation || ''}</div>`;
+    }
+    
+    document.getElementById('next-btn').style.display = 'inline-block';
+}
+
+window.nextQuestion = function() {
+    currentQuestionIndex++;
+    
+    if (currentQuestionIndex >= filteredQuestions.length) {
+        showResults();
+    } else {
+        showQuestion();
+    }
+}
+
+function showResults() {
+    document.getElementById('quiz-screen').style.display = 'none';
+    document.getElementById('results-screen').style.display = 'block';
+    
+    const percentage = Math.round((score / filteredQuestions.length) * 100);
+    document.getElementById('final-score').innerHTML = 
+        `<h3>Your Score: ${score}/${filteredQuestions.length} (${percentage}%)</h3>`;
+}
+
+window.restartQuiz = function() {
+    document.getElementById('results-screen').style.display = 'none';
+    document.getElementById('selection-screen').style.display = 'block';
+}
+
+// Initialize when page loads
+loadQuestions();
