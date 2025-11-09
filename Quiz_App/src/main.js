@@ -16,9 +16,9 @@ async function loadQuestions() {
 }
 
 function populateFilters() {
-    const subjects = [...new Set(questions.map(q => q.subject))].sort();
-    const grades = [...new Set(questions.map(q => q.grade))].sort((a, b) => a - b);
-    const difficulties = [...new Set(questions.map(q => q.difficulty))].sort();
+    const subjects = [...new Set(questions.map(q => q.subject).filter(Boolean))].sort();
+    const grades = [...new Set(questions.map(q => q.grade).filter(Boolean))].sort((a, b) => a - b);
+    const difficulties = [...new Set(questions.map(q => q.difficulty).filter(Boolean))].sort();
     
     populateSelect('subject', subjects);
     populateSelect('grade', grades);
@@ -28,12 +28,14 @@ function populateFilters() {
 function populateSelect(id, options) {
     const select = document.getElementById(id);
     options.forEach(option => {
-        const optionElement = document.createElement('option');
-        optionElement.value = option;
-        optionElement.textContent = typeof option === 'string' ? 
-            option.charAt(0).toUpperCase() + option.slice(1) : 
-            option.toString();
-        select.appendChild(optionElement);
+        if (option != null) {
+            const optionElement = document.createElement('option');
+            optionElement.value = option;
+            optionElement.textContent = typeof option === 'string' ? 
+                option.charAt(0).toUpperCase() + option.slice(1) : 
+                option.toString();
+            select.appendChild(optionElement);
+        }
     });
 }
 
