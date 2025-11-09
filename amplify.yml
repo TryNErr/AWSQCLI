@@ -1,27 +1,27 @@
 version: 1
-frontend:
-  phases:
-    preBuild:
-      commands:
-        - "echo '🚀 Building React Frontend'"
-        - "cd quizwiz-app/frontend"
-        - "npm install"
-        - "echo '✅ Dependencies installed'"
-    build:
-      commands:
-        - "echo '🔨 Building React application...'"
-        - "echo 'REACT_APP_API_URL=https://master.d210nlz7uk7hed.amplifyapp.com' > .env.production.local"
-        - "echo 'REACT_APP_ENVIRONMENT=production' >> .env.production.local"
-        - "echo 'GENERATE_SOURCEMAP=false' >> .env.production.local"
-        - "npm run build"
-        - "echo '✅ Build completed'"
-    postBuild:
-      commands:
-        - "test -f build/index.html && echo '✅ Frontend ready' || exit 1"
-  artifacts:
-    baseDirectory: quizwiz-app/frontend/build
-    files:
-      - '**/*'
-  cache:
-    paths:
-      - quizwiz-app/frontend/node_modules/**/*
+applications:
+  - appRoot: Quiz_App
+    frontend:
+      phases:
+        preBuild:
+          commands:
+            - npm ci
+        build:
+          commands:
+            - npm run build
+      artifacts:
+        baseDirectory: dist
+        files:
+          - '**/*'
+      cache:
+        paths:
+          - node_modules/**/*
+    backend:
+      phases:
+        build:
+          commands:
+            - npm ci --omit=dev
+      artifacts:
+        baseDirectory: .
+        files:
+          - '**/*'
