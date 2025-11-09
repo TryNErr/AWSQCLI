@@ -262,10 +262,10 @@ function selectAnswer(answer, element) {
     
     if (isCorrect) {
         document.getElementById('result').innerHTML = 
-            `<div class="answer-feedback correct">✓ Correct!</div>`;
+            `<div class="answer-feedback correct">🎉 BOTTOM RESULT: ✓ Correct! 🎉</div>`;
     } else {
         document.getElementById('result').innerHTML = 
-            `<div class="answer-feedback incorrect">✗ Wrong: ${question.correctAnswer}</div>`;
+            `<div class="answer-feedback incorrect">❌ BOTTOM RESULT: ✗ Wrong: ${question.correctAnswer} ❌</div>`;
     }
     
     document.getElementById('next-btn').style.display = 'inline-block';
