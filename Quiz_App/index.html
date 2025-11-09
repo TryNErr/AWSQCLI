@@ -209,11 +209,68 @@
             line-height: 1.6;
         }
         
+        .quiz-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+            padding-bottom: 16px;
+            border-bottom: 2px solid var(--gray-lighter);
+        }
+        
+        .progress-tracker {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 8px;
+        }
+        
+        .score-display {
+            display: flex;
+            gap: 16px;
+            font-weight: 600;
+        }
+        
+        .correct-count {
+            color: var(--success);
+        }
+        
+        .incorrect-count {
+            color: var(--error);
+        }
+        
+        .progress-dots {
+            display: flex;
+            gap: 4px;
+            flex-wrap: wrap;
+            max-width: 300px;
+            justify-content: flex-end;
+        }
+        
+        .progress-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: var(--gray-light);
+            transition: all 0.3s ease;
+        }
+        
+        .progress-dot.current {
+            background: var(--primary);
+            transform: scale(1.2);
+        }
+        
+        .progress-dot.correct {
+            background: var(--success);
+        }
+        
+        .progress-dot.incorrect {
+            background: var(--error);
+        }
+        
         #question-counter {
-            text-align: right;
             color: var(--gray);
-            margin-bottom: 16px;
-            font-weight: 500;
+            font-weight: 600;
         }
         
         .success {
@@ -326,7 +383,16 @@
         </div>
         
         <div id="quiz-screen" class="card" style="display: none;">
-            <div id="question-counter"></div>
+            <div class="quiz-header">
+                <div id="question-counter"></div>
+                <div class="progress-tracker">
+                    <div class="score-display">
+                        <span class="correct-count">✓ <span id="correct-count">0</span></span>
+                        <span class="incorrect-count">✗ <span id="incorrect-count">0</span></span>
+                    </div>
+                    <div id="progress-dots"></div>
+                </div>
+            </div>
             <div id="passage"></div>
             <div id="question-content"></div>
             <div id="options"></div>

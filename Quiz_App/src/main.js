@@ -3,6 +3,7 @@ let filteredQuestions = [];
 let currentQuestionIndex = 0;
 let score = 0;
 let selectedAnswer = null;
+let questionResults = []; // Track results for each question
 let filters = {
     subject: '',
     grade: '',
@@ -140,11 +141,50 @@ window.startQuiz = function() {
     currentQuestionIndex = 0;
     score = 0;
     selectedAnswer = null;
+    questionResults = new Array(filteredQuestions.length).fill(null);
     
     document.getElementById('selection-screen').style.display = 'none';
     document.getElementById('quiz-screen').style.display = 'block';
     
+    initializeProgressTracker();
     showQuestion();
+}
+
+function initializeProgressTracker() {
+    const progressDots = document.getElementById('progress-dots');
+    progressDots.innerHTML = '';
+    
+    filteredQuestions.forEach((_, index) => {
+        const dot = document.createElement('div');
+        dot.className = 'progress-dot';
+        dot.id = `dot-${index}`;
+        progressDots.appendChild(dot);
+    });
+    
+    updateProgressTracker();
+}
+
+function updateProgressTracker() {
+    // Update score display
+    const correctCount = questionResults.filter(result => result === true).length;
+    const incorrectCount = questionResults.filter(result => result === false).length;
+    
+    document.getElementById('correct-count').textContent = correctCount;
+    document.getElementById('incorrect-count').textContent = incorrectCount;
+    
+    // Update progress dots
+    filteredQuestions.forEach((_, index) => {
+        const dot = document.getElementById(`dot-${index}`);
+        dot.className = 'progress-dot';
+        
+        if (index === currentQuestionIndex) {
+            dot.classList.add('current');
+        } else if (questionResults[index] === true) {
+            dot.classList.add('correct');
+        } else if (questionResults[index] === false) {
+            dot.classList.add('incorrect');
+        }
+    });
 }
 
 function showQuestion() {
@@ -180,6 +220,10 @@ function showQuestion() {
     document.getElementById('next-btn').style.display = 'none';
     document.getElementById('result').innerHTML = '';
     selectedAnswer = null;
+    
+    updateProgressTracker();
+    document.getElementById('result').innerHTML = '';
+    selectedAnswer = null;
 }
 
 window.previousQuestion = function() {
@@ -202,6 +246,10 @@ function selectAnswer(answer, element) {
     const question = filteredQuestions[currentQuestionIndex];
     const isCorrect = answer === question.correctAnswer;
     
+    // Record the result
+    questionResults[currentQuestionIndex] = isCorrect;
+    if (isCorrect) score++;
+    
     // Show correct/incorrect styling
     document.querySelectorAll('.option').forEach(opt => {
         opt.onclick = null; // Disable clicking
@@ -213,7 +261,6 @@ function selectAnswer(answer, element) {
     });
     
     if (isCorrect) {
-        score++;
         document.getElementById('result').innerHTML = 
             `<div class="success">✅ Correct! ${question.explanation || ''}</div>`;
     } else {
@@ -222,6 +269,7 @@ function selectAnswer(answer, element) {
     }
     
     document.getElementById('next-btn').style.display = 'inline-block';
+    updateProgressTracker();
 }
 
 window.nextQuestion = function() {
