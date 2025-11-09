@@ -151,16 +151,6 @@ window.startQuiz = function() {
 }
 
 function initializeProgressTracker() {
-    const progressDots = document.getElementById('progress-dots');
-    progressDots.innerHTML = '';
-    
-    filteredQuestions.forEach((_, index) => {
-        const dot = document.createElement('div');
-        dot.className = 'progress-dot';
-        dot.id = `dot-${index}`;
-        progressDots.appendChild(dot);
-    });
-    
     updateProgressTracker();
 }
 
@@ -171,20 +161,6 @@ function updateProgressTracker() {
     
     document.getElementById('correct-count').textContent = correctCount;
     document.getElementById('incorrect-count').textContent = incorrectCount;
-    
-    // Update progress dots
-    filteredQuestions.forEach((_, index) => {
-        const dot = document.getElementById(`dot-${index}`);
-        dot.className = 'progress-dot';
-        
-        if (index === currentQuestionIndex) {
-            dot.classList.add('current');
-        } else if (questionResults[index] === true) {
-            dot.classList.add('correct');
-        } else if (questionResults[index] === false) {
-            dot.classList.add('incorrect');
-        }
-    });
 }
 
 function showQuestion() {
@@ -262,10 +238,10 @@ function selectAnswer(answer, element) {
     
     if (isCorrect) {
         document.getElementById('result').innerHTML = 
-            `<div class="answer-feedback correct">🎉 BOTTOM RESULT: ✓ Correct! 🎉</div>`;
+            `<div class="answer-feedback correct">✓ Correct!</div>`;
     } else {
         document.getElementById('result').innerHTML = 
-            `<div class="answer-feedback incorrect">❌ BOTTOM RESULT: ✗ Wrong: ${question.correctAnswer} ❌</div>`;
+            `<div class="answer-feedback incorrect">✗ Wrong: ${question.correctAnswer}</div>`;
     }
     
     document.getElementById('next-btn').style.display = 'inline-block';

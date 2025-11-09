@@ -213,21 +213,20 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 16px;
-            padding-bottom: 12px;
-            border-bottom: 1px solid var(--gray-lighter);
+            margin: 12px 0;
+            padding: 8px 0;
+            font-size: 12px;
         }
         
         .progress-tracker {
             display: flex;
             align-items: center;
-            gap: 12px;
         }
         
         .score-display {
             display: flex;
-            gap: 8px;
-            font-size: 12px;
+            gap: 12px;
+            font-size: 11px;
             font-weight: 500;
         }
         
@@ -269,7 +268,8 @@
         
         #question-counter {
             color: var(--gray);
-            font-weight: 600;
+            font-weight: 500;
+            font-size: 11px;
         }
         
         #result {
@@ -393,6 +393,8 @@
         </div>
         
         <div id="quiz-screen" class="card" style="display: none;">
+            <div id="passage"></div>
+            <div id="question-content"></div>
             <div class="quiz-header">
                 <div id="question-counter"></div>
                 <div class="progress-tracker">
@@ -400,11 +402,8 @@
                         <span class="correct-count">✓ <span id="correct-count">0</span></span>
                         <span class="incorrect-count">✗ <span id="incorrect-count">0</span></span>
                     </div>
-                    <div id="progress-dots"></div>
                 </div>
             </div>
-            <div id="passage"></div>
-            <div id="question-content"></div>
             <div id="options"></div>
             <!-- RESULT SHOULD APPEAR HERE -->
             <div id="result"></div>
