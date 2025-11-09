@@ -118,6 +118,15 @@ function showQuestion() {
     document.getElementById('question-counter').textContent = 
         `Question ${currentQuestionIndex + 1} of ${filteredQuestions.length}`;
     
+    // Handle passage for reading questions
+    const passageDiv = document.getElementById('passage');
+    if (question.passage) {
+        passageDiv.innerHTML = `<div class="passage">${question.passage}</div>`;
+        passageDiv.style.display = 'block';
+    } else {
+        passageDiv.style.display = 'none';
+    }
+    
     document.getElementById('question-content').textContent = question.content;
     
     const optionsDiv = document.getElementById('options');
