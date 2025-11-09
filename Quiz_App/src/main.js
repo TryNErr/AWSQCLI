@@ -8,7 +8,52 @@ let selectedAnswer = null;
 async function loadQuestions() {
     try {
         const response = await fetch('/fixed_questions.json');
-        questions = await response.json();
+        const text = await response.text();
+        // Fix common encoding issues
+        const fixedText = text
+            .replace(/├ù/g, '×')
+            .replace(/├÷/g, '÷')
+            .replace(/├ë/g, '±')
+            .replace(/├ó/g, '²')
+            .replace(/├│/g, '³')
+            .replace(/├ñ/g, '√')
+            .replace(/├ç/g, '∞')
+            .replace(/├ä/g, '≤')
+            .replace(/├ñ/g, '≥')
+            .replace(/├ë/g, '≠')
+            .replace(/├ÿ/g, '∑')
+            .replace(/├ÿ/g, '∏')
+            .replace(/├ÿ/g, '∆')
+            .replace(/├ÿ/g, '∫')
+            .replace(/├ÿ/g, '∂')
+            .replace(/├ÿ/g, '∇')
+            .replace(/├ÿ/g, '∈')
+            .replace(/├ÿ/g, '∉')
+            .replace(/├ÿ/g, '⊂')
+            .replace(/├ÿ/g, '⊃')
+            .replace(/├ÿ/g, '∪')
+            .replace(/├ÿ/g, '∩')
+            .replace(/├ÿ/g, '∅')
+            .replace(/├ÿ/g, '∀')
+            .replace(/├ÿ/g, '∃')
+            .replace(/├ÿ/g, '∴')
+            .replace(/├ÿ/g, '∵')
+            .replace(/├ÿ/g, '∠')
+            .replace(/├ÿ/g, '∟')
+            .replace(/├ÿ/g, '°')
+            .replace(/├ÿ/g, 'π')
+            .replace(/├ÿ/g, 'α')
+            .replace(/├ÿ/g, 'β')
+            .replace(/├ÿ/g, 'γ')
+            .replace(/├ÿ/g, 'δ')
+            .replace(/├ÿ/g, 'θ')
+            .replace(/├ÿ/g, 'λ')
+            .replace(/├ÿ/g, 'μ')
+            .replace(/├ÿ/g, 'σ')
+            .replace(/├ÿ/g, 'φ')
+            .replace(/├ÿ/g, 'ω');
+        
+        questions = JSON.parse(fixedText);
         populateFilters();
     } catch (error) {
         console.error('Error loading questions:', error);
@@ -56,8 +101,11 @@ window.startQuiz = function() {
         return;
     }
     
-    // Shuffle questions
-    filteredQuestions = filteredQuestions.sort(() => Math.random() - 0.5);
+    // Shuffle questions multiple times for better randomization
+    filteredQuestions = filteredQuestions
+        .sort(() => Math.random() - 0.5)
+        .sort(() => Math.random() - 0.5)
+        .sort(() => Math.random() - 0.5);
     
     currentQuestionIndex = 0;
     score = 0;
