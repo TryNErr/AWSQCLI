@@ -11,6 +11,14 @@ async function loadQuestions() {
         const text = await response.text();
         // Fix common encoding issues
         const fixedText = text
+            .replace(/ΓÇ»/g, ' ')
+            .replace(/ΓÇæ/g, '-')
+            .replace(/ΓÇÖ/g, '–')
+            .replace(/ΓÇô/g, '—')
+            .replace(/ΓÇ£/g, '"')
+            .replace(/ΓÇ¥/g, '"')
+            .replace(/ΓÇÖ/g, ''')
+            .replace(/ΓÇÖ/g, ''')
             .replace(/┬▓/g, '²')
             .replace(/┬│/g, '³')
             .replace(/├ù/g, '×')
