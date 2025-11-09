@@ -30,7 +30,9 @@ function populateSelect(id, options) {
     options.forEach(option => {
         const optionElement = document.createElement('option');
         optionElement.value = option;
-        optionElement.textContent = option.charAt(0).toUpperCase() + option.slice(1);
+        optionElement.textContent = typeof option === 'string' ? 
+            option.charAt(0).toUpperCase() + option.slice(1) : 
+            option.toString();
         select.appendChild(optionElement);
     });
 }
