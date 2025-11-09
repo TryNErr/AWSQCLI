@@ -22,6 +22,7 @@ async function loadQuestions() {
             .replace(/┬▓/g, '²')
             .replace(/┬│/g, '³')
             .replace(/├ù/g, '×')
+            .replace(/├╖/g, '÷')
             .replace(/├÷/g, '÷')
             .replace(/├ë/g, '±')
             .replace(/├ñ/g, '√')
