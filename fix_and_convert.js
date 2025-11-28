@@ -36,13 +36,34 @@ try {
             difficulty: q.difficulty || 'medium',
             passage: q.passage || null
         };
-    }).filter(q => q.content && q.options.length > 0 && q.correctAnswer && !q.subject.includes('ΓÇª') && q.subject !== 'General');
+    }).filter(q => q.content && q.options.length > 0 && q.correctAnswer && !q.subject.includes('ΓÇª') && q.subject !== 'General' && q.difficulty !== '{difficulty}');
     
     // Write to Quiz_App
     fs.writeFileSync(outputFile, JSON.stringify(fixedQuestions, null, 2));
     
+    // Create filter metadata for faster loading
+    const subjects = {};
+    const grades = {};
+    const difficulties = {};
+    
+    fixedQuestions.forEach(q => {
+        subjects[q.subject] = (subjects[q.subject] || 0) + 1;
+        grades[q.grade] = (grades[q.grade] || 0) + 1;
+        difficulties[q.difficulty] = (difficulties[q.difficulty] || 0) + 1;
+    });
+    
+    const metadata = {
+        subjects: Object.keys(subjects).sort(),
+        grades: Object.keys(grades).map(Number).sort((a, b) => a - b),
+        difficulties: Object.keys(difficulties).sort(),
+        totalQuestions: fixedQuestions.length
+    };
+    
+    fs.writeFileSync('./Quiz_App/public/filter_metadata.json', JSON.stringify(metadata, null, 2));
+    
     console.log(`✅ Converted ${fixedQuestions.length} questions to ${outputFile}`);
     console.log('🔧 Grade data types normalized to integers (fixes duplicate Grade 4/4 issue)');
+    console.log('🚀 Filter metadata created for faster loading');
     
 } catch (error) {
     console.error('Error:', error.message);

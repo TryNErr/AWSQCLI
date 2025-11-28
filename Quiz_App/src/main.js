@@ -62,14 +62,27 @@ async function loadQuestions() {
     }
 }
 
-function populateFilters() {
-    const subjects = [...new Set(questions.map(q => q.subject).filter(Boolean))].sort();
-    const grades = [...new Set(questions.map(q => q.grade).filter(Boolean))].sort((a, b) => a - b);
-    const difficulties = [...new Set(questions.map(q => q.difficulty).filter(Boolean))].sort();
-    
-    createFilterButtons('subject', subjects);
-    createFilterButtons('grade', grades);
-    createFilterButtons('difficulty', difficulties);
+async function populateFilters() {
+    try {
+        const response = await fetch('./filter_metadata.json');
+        const metadata = await response.json();
+        
+        createFilterButtons('subject', metadata.subjects);
+        createFilterButtons('grade', metadata.grades);
+        createFilterButtons('difficulty', metadata.difficulties);
+        
+        document.getElementById('total-questions').textContent = metadata.totalQuestions;
+    } catch (error) {
+        console.error('Error loading filter metadata:', error);
+        // Fallback to old method
+        const subjects = [...new Set(questions.map(q => q.subject).filter(Boolean))].sort();
+        const grades = [...new Set(questions.map(q => q.grade).filter(Boolean))].sort((a, b) => a - b);
+        const difficulties = [...new Set(questions.map(q => q.difficulty).filter(Boolean))].sort();
+        
+        createFilterButtons('subject', subjects);
+        createFilterButtons('grade', grades);
+        createFilterButtons('difficulty', difficulties);
+    }
 }
 
 function createFilterButtons(type, options) {
