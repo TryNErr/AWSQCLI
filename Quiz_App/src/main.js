@@ -71,7 +71,7 @@ async function populateFilters() {
         createFilterButtons('grade', metadata.grades);
         createFilterButtons('difficulty', metadata.difficulties);
         
-        document.getElementById('total-questions').textContent = metadata.totalQuestions;
+        console.log(`Filter metadata loaded: ${metadata.totalQuestions} total questions`);
     } catch (error) {
         console.error('Error loading filter metadata:', error);
         // Fallback to old method
