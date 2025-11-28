@@ -2,6 +2,8 @@
 
 A comprehensive educational testing platform built with React and Node.js, deployable on AWS.
 
+<!-- Updated: 2025-11-28 -->
+
 ## 🚀 Quick Deploy to AWS
 
 ### Option 1: One-Click Amplify Deployment (Recommended)
