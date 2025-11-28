@@ -249,13 +249,19 @@ function selectAnswer(answer, element) {
         }
     });
     
+    let feedbackHtml = '';
     if (isCorrect) {
-        document.getElementById('result').innerHTML = 
-            `<div class="answer-feedback correct">✓ Correct!</div>`;
+        feedbackHtml = `<div class="answer-feedback correct">✓ Correct!</div>`;
     } else {
-        document.getElementById('result').innerHTML = 
-            `<div class="answer-feedback incorrect">✗ Wrong: ${question.correctAnswer}</div>`;
+        feedbackHtml = `<div class="answer-feedback incorrect">✗ Wrong: ${question.correctAnswer}</div>`;
     }
+    
+    // Add explanation if available
+    if (question.explanation) {
+        feedbackHtml += `<div class="explanation">${question.explanation}</div>`;
+    }
+    
+    document.getElementById('result').innerHTML = feedbackHtml;
     
     document.getElementById('next-btn').style.display = 'inline-block';
     updateProgressTracker();
